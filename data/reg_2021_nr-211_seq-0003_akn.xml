@@ -1,0 +1,250 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"
+            xmlns:fmx="http://formex.publications.europa.eu/schema/formex-05.21-20110601.xd"
+            xmlns:leos="urn:eu:europa:ec:leos"
+            xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <bill name="">
+      <meta xmlns:fn="http://www.w3.org/2005/xpath-functions">
+         <identification source="~COM">
+            <FRBRWork>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRcountry value=""/>
+            </FRBRWork>
+            <FRBRExpression>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+            </FRBRManifestation>
+         </identification>
+      </meta>
+      <preface>
+         <longTitle>
+            <p>
+               <docStage/>
+               <docType>REGULATION (EU) 2021/954 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL</docType>of 14 June 2021<docPurpose>on a framework for the issuance, verification and acceptance of interoperable COVID-19 vaccination, test and recovery certificates (EU Digital COVID Certificate) with regard to third-country nationals legally staying or residing in the territories of Member States during the COVID-19 pandemic</docPurpose>
+            </p>
+         </longTitle>
+         <container name="EEArelevance">
+            <p>(Text with EEA relevance)</p>
+         </container>
+      </preface>
+      <preamble>
+         <formula name="actingEntity">
+            <p>THE EUROPEAN PARLIAMENT AND THE COUNCIL OF THE EUROPEAN UNION,</p>
+         </formula>
+         <citations>
+            <citation>
+               <p>Having regard to the Treaty on the Functioning of the European Union, and in particular Article 77(2)(c) thereof,</p>
+            </citation>
+            <citation>
+               <p>Having regard to the proposal from the European Commission,</p>
+            </citation>
+            <citation>
+               <p>After transmission of the draft legislative act to the national parliaments,</p>
+            </citation>
+            <citation>
+               <p>Acting in accordance with the ordinary legislative procedure<authorialNote placement="bottom" marker="1">
+                     <p>Position of the European Parliament of 9 June 2021 (not yet published in the Official Journal) and decision of the Council of 11 June 2021.</p>
+                  </authorialNote>,</p>
+            </citation>
+         </citations>
+         <recitals xml:id="recs_d266e78">
+            <intro>
+               <p>Whereas:</p>
+            </intro>
+            <recital xml:id="rec_d266e81">
+               <num>(1)</num>
+               <p>Under the Schengen <i>acquis</i>, third-country nationals legally staying or residing in the territories of Member States may move freely within the territories of all other Member States during a period of 90 days in any 180-day period.</p>
+            </recital>
+            <recital xml:id="rec_d266e90">
+               <num>(2)</num>
+               <p>On 30 January 2020, the Director-General of the World Health Organization (WHO) declared a public health emergency of international concern over the global outbreak of severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2), which causes coronavirus disease 2019 (COVID-19). On 11 March 2020, the WHO made an assessment characterising COVID-19 as a pandemic.</p>
+            </recital>
+            <recital xml:id="rec_d266e102">
+               <num>(3)</num>
+               <p>To limit the spread of SARS-CoV-2, the Member States have adopted some measures which have had an impact on travel to and within the territory of the Member States, such as entry restrictions or requirements for cross-border travellers to undergo quarantine or self-isolation or to be tested for SARS-CoV-2 infection. Such restrictions have detrimental effects on persons and businesses, especially persons living in border regions and travelling across the border on a daily or frequent basis for the purposes of work, business, education, family, medical care or caregiving.</p>
+            </recital>
+            <recital xml:id="rec_d266e108">
+               <num>(4)</num>
+               <p>On 13 October 2020, the Council adopted Recommendation (EU) 2020/1475<authorialNote placement="bottom" marker="2">
+                     <p>Council Recommendation (EU) 2020/1475 of 13 October 2020 on a coordinated approach to the restriction of free movement in response to the COVID-19 pandemic (OJ L 337, 14.10.2020, p. 3).</p>
+                  </authorialNote> which introduced a coordinated approach to the restriction of free movement in response to the COVID-19 pandemic.</p>
+            </recital>
+            <recital xml:id="rec_d266e127">
+               <num>(5)</num>
+               <p>On 30 October 2020, the Council adopted Recommendation (EU) 2020/1632<authorialNote placement="bottom" marker="3">
+                     <p>Council Recommendation (EU) 2020/1632 of 30 October 2020 on a coordinated approach to the restriction of free movement in response to the COVID-19 pandemic in the Schengen area (OJ L 366, 4.11.2020, p. 25).</p>
+                  </authorialNote> in which it recommended Member States that are bound by the Schengen <i>acquis</i> to apply the general principles, common criteria, common thresholds and common framework of measures, including recommendations on coordination and communication as laid down in Recommendation (EU) 2020/1475.</p>
+            </recital>
+            <recital xml:id="rec_d266e149">
+               <num>(6)</num>
+               <p>Many Member States have launched or plan to launch initiatives to issue COVID-19 vaccination certificates. However, for such vaccination certificates to be used effectively in connection with cross-border travel within the Union, they need to be fully interoperable, compatible, secure and verifiable. A common approach is required among Member States on the content, format, principles, technical standards and the level of security of such vaccination certificates.</p>
+            </recital>
+            <recital xml:id="rec_d266e156">
+               <num>(7)</num>
+               <p>Before the date of application of this Regulation several Member States already exempted vaccinated persons from certain travel restrictions. Where Member States accept proof of vaccination in order to waive travel restrictions put in place, in accordance with Union law to limit the spread of SARS-CoV-2, such as a requirement to undergo quarantine or self-isolation or to be tested for SARS- CoV-2 infection, they should be required to accept, under the same conditions, vaccination certificates issued by other Member States in accordance with Regulation (EU) 2021/953. of the European Parliament and of the Council<authorialNote placement="bottom" marker="4">
+                     <p>Regulation (EU) 2021/953 of the European Parliament and of the Council of 14 June 2021 on a framework for the issuance, verification and acceptance of interoperable COVID 19 vaccination, test and recovery certificates (EU Digital COVID Certificate) to facilitate free movement during the COVID 19 pandemic (See page 1 of this Official Journal).</p>
+                  </authorialNote>. Such acceptance should take place under the same conditions, meaning that, for example, where a Member State considers a single dose of a vaccine administered to be sufficient, it should do so also for holders of a vaccination certificate indicating a single dose of the same vaccine.</p>
+            </recital>
+            <recital xml:id="rec_d266e169">
+               <num>(8)</num>
+               <p>Harmonised procedures under Regulation (EC) No 726/2004 of the European Parliament and of the Council<authorialNote placement="bottom" marker="5">
+                     <p>Regulation (EC) No 726/2004 of the European Parliament and of the Council of 31 March 2004 laying down Union procedures for the authorisation and supervision of medicinal products for human and veterinary use and establishing a European Medicines Agency (OJ L 136, 30.4.2004, p. 1).</p>
+                  </authorialNote> should not prevent Member States from deciding to accept vaccination certificates issued for other COVID-19 vaccines that have been granted a marketing authorisation by the competent authority of a Member State pursuant to Directive 2001/83/EC of the European Parliament and of the Council<authorialNote placement="bottom" marker="6">
+                     <p>Directive 2001/83/EC of the European Parliament and of the Council of 6 November 2001 on the Community code relating to medicinal products for human use (OJ L 311, 28.11.2001, p. 67).</p>
+                  </authorialNote>, vaccines the distribution of which has been temporarily authorised pursuant to Article 5(2) of that Directive, and vaccines that have completed the WHO emergency use listing procedure. Where such a COVID-19 vaccine is subsequently granted a marketing authorisation pursuant to Regulation (EC) No 726/2004, the obligation to accept vaccination certificates under the same conditions would also cover vaccination certificates issued by a Member State for that COVID-19 vaccine, regardless of whether the vaccination certificates were issued before or after the authorisation via the centralised procedure. Regulation (EU) 2021/953 lays down a framework for the issuance, verification and acceptance of interoperable COVID-19 vaccination, test and recovery certificates (EU Digital COVID Certificate) to facilitate free movement during the COVID-19 pandemic. It applies to Union citizens and third-country nationals who are family members of Union citizens.</p>
+            </recital>
+            <recital xml:id="rec_d266e195">
+               <num>(9)</num>
+               <p>In accordance with Articles 19, 20 and 21 of the Convention implementing the Schengen Agreement of 14 June 1985 between the Governments of the States of the Benelux Economic Union, the Federal Republic of Germany and the French Republic on the gradual abolition of checks at their common borders<authorialNote placement="bottom" marker="7">
+                     <p>OJ L 239, 22.9.2000, p. 19.</p>
+                  </authorialNote>, the third-country nationals covered by those provisions may move freely within the territories of the Member States.</p>
+            </recital>
+            <recital xml:id="rec_d266e211">
+               <num>(10)</num>
+               <p>Without prejudice to the common rules on the crossing of internal borders by persons as laid down in Regulation (EU) 2016/399 of the European Parliament and of the Council<authorialNote placement="bottom" marker="8">
+                     <p>Regulation (EU) 2016/399 of the European Parliament and of the Council of 9 March 2016 on a Union Code on the rules governing the movement of persons across borders (Schengen Borders Code) (OJ L 77, 23.3.2016, p. 1).</p>
+                  </authorialNote>, and for the purpose of facilitating travel within the territories of the Member States by third-country nationals who are entitled to such travel, the framework for the issuance, verification and acceptance of interoperable COVID-19 vaccination, test and recovery certificates established by Regulation (EU) 2021/953 should also apply to third-country nationals who are not already covered by that Regulation, provided that they are legally staying or residing in the territory of a Member State and are entitled to travel to other Member States in accordance with Union law.</p>
+            </recital>
+            <recital xml:id="rec_d266e227">
+               <num>(11)</num>
+               <p>This Regulation is intended to facilitate the application of the principles of proportionality and non-discrimination with regard to travel restrictions during the COVID-19 pandemic, while pursuing a high level of public health protection. It should not be understood as facilitating or encouraging the adoption of restrictions to free movement, or restrictions to other fundamental rights, in response to the COVID-19 pandemic. In addition, any requirement for verification of certificates established by Regulation (EU) 2021/953 does not as such justify the temporary reintroduction of border control at internal borders. Checks at internal borders should remain a measure of last resort, subject to specific rules set out in Regulation (EU) 2016/399.</p>
+            </recital>
+            <recital xml:id="rec_d266e234">
+               <num>(12)</num>
+               <p>Since this Regulation applies to third-country nationals already legally staying or residing in the territories of the Member States, it should not be understood as granting third-country nationals wishing to travel to a Member State the right to an EU Digital COVID Certificate from that Member State before arrival on its territory. There is no requirement for Member States to issue vaccination certificates at consular posts.</p>
+            </recital>
+            <recital xml:id="rec_d266e240">
+               <num>(13)</num>
+               <p>On 30 June 2020, the Council adopted Recommendation (EU) 2020/912<authorialNote placement="bottom" marker="9">
+                     <p>Council Recommendation (EU) 2020/912 of 30 June 2020 on the temporary restriction on non-essential travel into the EU and the possible lifting of such restriction (OJ L 208 I, 1.7.2020, p. 1).</p>
+                  </authorialNote> on the temporary restriction on non-essential travel into the Union and the possible lifting of such restriction. This Regulation does not cover temporary restrictions on non-essential travel into the Union.</p>
+            </recital>
+            <recital xml:id="rec_d266e259">
+               <num>(14)</num>
+               <p>In accordance with Articles 1 and 2 of Protocol No 22 on the position of Denmark annexed to the Treaty on European Union (TEU) and to the Treaty on the Functioning of the European Union, Denmark is not taking part in the adoption of this Regulation and is not bound by it or subject to its application. Given that this Regulation builds upon the Schengen <i>acquis</i>, Denmark shall, in accordance with Article 4 of that Protocol, decide within a period of six months after the Council has decided on this Regulation whether it will implement it in its national law.</p>
+            </recital>
+            <recital xml:id="rec_d266e268">
+               <num>(15)</num>
+               <p>This Regulation constitutes a development of the provisions of the Schengen <i>acquis</i> in which Ireland does not take part, in accordance with Council Decision 2002/192/EC<authorialNote placement="bottom" marker="10">
+                     <p>Council Decision 2002/192/EC of 28 February 2002 concerning Ireland&apos;s request to take part in some of the provisions of the Schengen <i>acquis</i> (OJ L 64, 7.3.2002, p. 20).</p>
+                  </authorialNote>; Ireland is therefore not taking part in the adoption of this Regulation and is not bound by it or subject to its application. In order to allow Member States to accept, under the conditions set out in Regulation (EU) 2021/953, COVID-19 certificates issued by Ireland to third-country nationals legally staying or residing in its territory for the purposes of facilitating travel within the territories of the Member States, Ireland should issue those third-country nationals with COVID-19 certificates that comply with the requirements of the EU Digital COVID Certificate trust framework. Ireland and the other Member States should accept certificates issued to third-country nationals covered by this Regulation on a reciprocal basis.</p>
+            </recital>
+            <recital xml:id="rec_d266e290">
+               <num>(16)</num>
+               <p>This Regulation constitutes an act building upon, or otherwise relating to, the Schengen <i>acquis</i> within, respectively, the meaning of Article 3(1) of the 2003 Act of Accession, Article 4(1) of the 2005 Act of Accession and Article 4(1) of the 2011 Act of Accession.</p>
+            </recital>
+            <recital xml:id="rec_d266e299">
+               <num>(17)</num>
+               <p>As regards Iceland and Norway, this Regulation constitutes a development of the provisions of the Schengen <i>acquis</i> within the meaning of the Agreement concluded by the Council of the European Union and the Republic of Iceland and the Kingdom of Norway concerning the latter&apos;s association with the implementation, application and development of the Schengen <i>acquis</i>
+                  <authorialNote placement="bottom" marker="11">
+                     <p>OJ L 176, 10.7.1999, p. 36.</p>
+                  </authorialNote> which fall within the area referred to in Article 1, point C of Council Decision 1999/437/EC<authorialNote placement="bottom" marker="12">
+                     <p>Council Decision 1999/437/EC of 17 May 1999 on certain arrangements for the application of the Agreement concluded by the Council of the European Union and the Republic of Iceland and the Kingdom of Norway concerning the association of those two States with the implementation, application and development of the Schengen <i>acquis</i> (OJ L 176, 10.7.1999, p. 31).</p>
+                  </authorialNote>.</p>
+            </recital>
+            <recital xml:id="rec_d266e329">
+               <num>(18)</num>
+               <p>As regards Switzerland, this Regulation constitutes a development of the provisions of the Schengen <i>acquis</i> within the meaning of the Agreement between the European Union, the European Community and the Swiss Confederation on the Swiss Confederation&apos;s association with the implementation, application and development of the Schengen <i>acquis</i>
+                  <authorialNote placement="bottom" marker="13">
+                     <p>OJ L 53, 27.2.2008, p. 52.</p>
+                  </authorialNote> which fall within the area referred to in Article 1, point C of Decision 1999/437/EC read in conjunction with Article 3 of Council Decision 2008/146/EC<authorialNote placement="bottom" marker="14">
+                     <p>Council Decision 2008/146/EC of 28 January 2008 on the conclusion, on behalf of the European Community, of the Agreement between the European Union, the European Community and the Swiss Confederation on the Swiss Confederation&apos;s association with the implementation, application and development of the Schengen <i>acquis</i> (OJ L 53, 27.2.2008, p. 1).</p>
+                  </authorialNote>.</p>
+            </recital>
+            <recital xml:id="rec_d266e359">
+               <num>(19)</num>
+               <p>As regards Liechtenstein, this Regulation constitutes a development of provisions of the Schengen <i>acquis</i> within the meaning of the Protocol between the European Union, the European Community, the Swiss Confederation and the Principality of Liechtenstein on the accession of the Principality of Liechtenstein to the Agreement between the European Union, the European Community and the Swiss Confederation on the Swiss Confederation&apos;s association with the implementation, application and development of the Schengen <i>acquis</i>
+                  <authorialNote placement="bottom" marker="15">
+                     <p>OJ L 160, 18.6.2011, p. 21.</p>
+                  </authorialNote> which fall within the area referred to in Article 1 point C of Decision 1999/437/EC read in conjunction with Article 3 of Council Decision 2011/350/EU<authorialNote placement="bottom" marker="16">
+                     <p>Council Decision 2011/350/EU of 7 March 2011 on the conclusion, on behalf of the European Union, of the Protocol between the European Union, the European Community, the Swiss Confederation and the Principality of Liechtenstein on the accession of the Principality of Liechtenstein to the Agreement between the European Union, the European Community and the Swiss Confederation on the Swiss Confederation&apos;s association with the implementation, application and development of the Schengen <i>acquis</i>, relating to the abolition of checks at internal borders and movement of persons (OJ L 160, 18.6.2011, p. 19).</p>
+                  </authorialNote>.</p>
+            </recital>
+            <recital xml:id="rec_d266e392">
+               <num>(20)</num>
+               <p>Since the objective of this Regulation, namely to facilitate the travel of third-country nationals legally staying or residing in the territories of the Member States during the COVID-19 pandemic by establishing a framework for the issuance, verification and acceptance of interoperable COVID-19 certificates on a person&apos;s COVID-19 vaccination, test result or recovery, cannot be sufficiently achieved by the Member States but can rather, by reason of the scale and effects of the action, be better achieved at Union level, the Union may adopt measures, in accordance with the principle of subsidiarity as set out in Article 5 TEU. In accordance with the principle of proportionality, as set out in that Article, this Regulation does not go beyond what is necessary in order to achieve that objective.</p>
+            </recital>
+            <recital xml:id="rec_d266e398">
+               <num>(21)</num>
+               <p>Given the urgency of the situation related to the COVID-19 pandemic, this Regulation should enter into force on the day of its publication in the <i>Official Journal of the European Union</i>.</p>
+            </recital>
+            <recital xml:id="rec_d266e407">
+               <num>(22)</num>
+               <p>The European Data Protection Supervisor and the European Data Protection Board were consulted in accordance with Article 42 of Regulation (EU) 2018/1725 of the European Parliament and of the Council<authorialNote placement="bottom" marker="17">
+                     <p>Regulation (EU) 2018/1725 of the European Parliament and of the Council of 23 October 2018 on the protection of natural persons with regard to the processing of personal data by the Union institutions, bodies, offices and agencies and on the free movement of such data, and repealing Regulation (EC) No 45/2001 and Decision No 1247/2002/EC (OJ L 295, 21.11.2018, p. 39).</p>
+                  </authorialNote> and delivered a joint opinion on 31 March 2021<authorialNote placement="bottom" marker="18">
+                     <p>Not yet published in the Official Journal.</p>
+                  </authorialNote>,</p>
+            </recital>
+         </recitals>
+         <formula name="enactingFormula">
+            <p>HAVE ADOPTED THIS REGULATION:</p>
+         </formula>
+      </preamble>
+      <body>
+         <article xml:id="art_d266e432">
+            <num>Article 1</num>
+            <heading/>
+            <paragraph>
+               <content>
+                  <p>Member States shall apply the rules laid down in Regulation (EU) 2021/953 to third-country nationals who do not fall within the scope of that Regulation, but who are legally staying or residing in their territory and who are entitled to travel to other Member States in accordance with Union law.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d266e437">
+            <num>Article 2</num>
+            <heading/>
+            <paragraph>
+               <content>
+                  <p>Provided that Ireland has notified the Council and the Commission that it accepts the certificates referred to in Article 3(1) of Regulation (EU) 2021/953 issued by Member States to persons covered by this Regulation, Member States shall accept, under the conditions of Regulation (EU) 2021/953, COVID-19 certificates issued by Ireland in the format that complies with the requirements of the EU Digital COVID Certificate trust framework established by Regulation (EU) 2021/953 to third-country nationals who are entitled to travel freely within the territory of the Member States.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d266e442">
+            <num>Article 3</num>
+            <heading/>
+            <paragraph>
+               <content>
+                  <p>This Regulation shall enter into force on the day of its publication in the <i>Official Journal of the European Union</i>.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <content>
+                  <p>It shall apply from 1 July 2021 to 30 June 2022.</p>
+               </content>
+            </paragraph>
+         </article>
+         <clause>
+            <content>
+               <p>This Regulation shall be binding in its entirety and directly applicable in the Member States in accordance with the Treaties.</p>
+            </content>
+         </clause>
+      </body>
+      <conclusions>
+         <p>Done at Brussels, 14 June 2021.</p>
+         <block name="signatory">
+            <signature>
+               <organization refersTo="">For the European Parliament</organization>
+               <role refersTo="">The President</role>
+               <person refersTo="">D. M. SASSOLI</person>
+            </signature>
+            <signature>
+               <organization refersTo="">For the Council</organization>
+               <role refersTo="">The President</role>
+               <person refersTo="">A. COSTA</person>
+            </signature>
+         </block>
+      </conclusions>
+   </bill>
+</akomaNtoso>

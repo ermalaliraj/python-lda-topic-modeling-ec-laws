@@ -1,0 +1,608 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"
+            xmlns:fmx="http://formex.publications.europa.eu/schema/formex-05.21-20110601.xd"
+            xmlns:leos="urn:eu:europa:ec:leos"
+            xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <bill name="">
+      <meta xmlns:fn="http://www.w3.org/2005/xpath-functions">
+         <identification source="~COM">
+            <FRBRWork>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRcountry value=""/>
+            </FRBRWork>
+            <FRBRExpression>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+            </FRBRManifestation>
+         </identification>
+      </meta>
+      <preface>
+         <longTitle>
+            <p>
+               <docStage/>
+               <docType>REGULATION (EU) 2020/493 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL</docType>of 30 March 2020<docPurpose>on the False and Authentic Documents Online (FADO) system and repealing Council Joint Action 98/700/JHA</docPurpose>
+            </p>
+         </longTitle>
+      </preface>
+      <preamble>
+         <formula name="actingEntity">
+            <p>THE EUROPEAN PARLIAMENT AND THE COUNCIL OF THE EUROPEAN UNION,</p>
+         </formula>
+         <citations>
+            <citation>
+               <p>Having regard to the Treaty on the Functioning of the European Union, and in particular Article 87(2)(a) thereof,</p>
+            </citation>
+            <citation>
+               <p>Having regard to the proposal from the European Commission,</p>
+            </citation>
+            <citation>
+               <p>After transmission of the draft legislative act to the national parliaments,</p>
+            </citation>
+            <citation>
+               <p>Having regard to the opinion of the European Economic and Social Committee<authorialNote placement="bottom" marker="1">
+                     <p>OJ C 110, 22.3.2019, p. 62.</p>
+                  </authorialNote>,</p>
+            </citation>
+            <citation>
+               <p>Having regard to the opinion of the Committee of the Regions<authorialNote placement="bottom" marker="2">
+                     <p>OJ C 168, 16.5.2019, p. 74.</p>
+                  </authorialNote>,</p>
+            </citation>
+            <citation>
+               <p>Acting in accordance with the ordinary legislative procedure<authorialNote placement="bottom" marker="3">
+                     <p>Position of the European Parliament of 13 February 2020 (not yet published in the Official Journal) and decision of the Council of 20 March 2020.</p>
+                  </authorialNote>,</p>
+            </citation>
+         </citations>
+         <recitals xml:id="recs_d63e91">
+            <intro>
+               <p>Whereas:</p>
+            </intro>
+            <recital xml:id="rec_d63e94">
+               <num>(1)</num>
+               <p>The European Image Archiving System on False and Authentic Documents Online (FADO) was established by Council Joint Action 98/700/JHA<authorialNote placement="bottom" marker="4">
+                     <p>Joint Action 98/700/JHA of 3 December 1998 adopted by the Council on the basis of Article K.3 of the Treaty on European Union concerning the setting up of a European Image Archiving System (FADO) (OJ L 333, 9.12.1998, p. 4).</p>
+                  </authorialNote> within the General Secretariat of the Council. The FADO system was set up to facilitate the exchange of information on authentic documents and on known methods of falsification between Member State authorities. The FADO system provides for the electronic storage, rapid exchange and validation of information on authentic and false documents. Given that the detection of false documents is also important for citizens, organisations and businesses, the General Secretariat of the Council also made authentic documents available in a Public Register of Authentic Travel and Identity Documents Online, known as PRADO.</p>
+            </recital>
+            <recital xml:id="rec_d63e110">
+               <num>(2)</num>
+               <p>Due to the fact that the management of the FADO system is outdated and should be adapted to the institutional framework established by the Treaty on the Functioning of the European Union (TFEU), Joint Action 98/700/JHA should be repealed and replaced by a new, updated instrument.</p>
+            </recital>
+            <recital xml:id="rec_d63e116">
+               <num>(3)</num>
+               <p>This Regulation constitutes the necessary new legal basis for governing the FADO system.</p>
+            </recital>
+            <recital xml:id="rec_d63e122">
+               <num>(4)</num>
+               <p>Document fraud can ultimately undermine the internal security of the Union. The use of the FADO system as an electronic storage system describing possible detection points, both in authentic and false documents, is an important tool in the fight against document fraud, in particular at the external borders. Given that the FADO system contributes to maintaining a high level of security within the Union by supporting police, border guard and other law enforcement authorities of the Member States in the fight against document fraud, the FADO system constitutes an important tool for the application of the Schengen <i>acquis</i>.</p>
+            </recital>
+            <recital xml:id="rec_d63e133">
+               <num>(5)</num>
+               <p>While false documents and identity fraud are often detected at the external borders, the fight against false documents is an area covered by police cooperation. False documents are pseudo documents, documents that have been forged and documents that have been counterfeited. The use of false documents in the Union has significantly increased in recent years. Document and identity fraud entails the production and use of false documents and the use of authentic documents obtained by fraudulent means. False documents are a multi-purpose criminal tool because they can be used repeatedly to support different criminal activities, including money laundering and terrorism. The techniques used to produce false documents have become increasingly sophisticated and, as a result, it is necessary to have high-quality information on possible detection points, in particular security features and fraud characteristics, and update that information frequently.</p>
+            </recital>
+            <recital xml:id="rec_d63e139">
+               <num>(6)</num>
+               <p>The FADO system should contain information on all types of authentic travel, identity, residence and civil status documents, driving licences and vehicle licences issued by Member States, on the laissez-passer issued by the Union and on false versions of such documents in their possession. It should be possible for the FADO system to contain information on other related official documents, in particular those used in support of applications for official documents, issued by Member States, and on false versions thereof. It should also be possible for the FADO system to contain information on all types of authentic travel, identity, residence and civil status documents, driving licences and vehicle licences and on other related official documents, in particular those used in support of applications for official documents, issued by third parties, such as third countries, territorial entities, international organisations and other entities subject to international law, and on false versions thereof.</p>
+            </recital>
+            <recital xml:id="rec_d63e145">
+               <num>(7)</num>
+               <p>Personal data in the FADO system should only be processed to the extent strictly necessary for the purpose of operating the FADO system. As a direct consequence of the purpose for which the FADO system was created, only limited information related to an identified or identifiable person should be stored in the FADO system. The FADO system should contain personal data in the form of facial images or alphanumerical information only insofar as they are related to security features or the method of falsification of a document. It should be possible to store such limited personal data either in the form of different elements appearing in the specimens of authentic documents or in the form of pseudonymised data in authentic or false documents. The European Border and Coast Guard Agency (the &apos;Agency&apos;), governed by Regulation (EU) 2019/1896 of the European Parliament and of the Council<authorialNote placement="bottom" marker="5">
+                     <p>Regulation (EU) 2019/1896 of the European Parliament and of the Council of 13 November 2019 on the European Border and Coast Guard and repealing Regulations (EU) No 1052/2013 and (EU) 2016/1624 (OJ L 295, 14.11.2019, p. 1).</p>
+                  </authorialNote>, should take the necessary steps to pseudonymise all elements of personal data which are not necessary in relation to the purposes for which the data are processed in accordance with the principle of data minimisation. It should not be possible to search for any elements of personal data in the FADO system nor should it be possible to identify any natural person by means of the FADO system without using additional data. The FADO system should not be used to identify a natural person.</p>
+            </recital>
+            <recital xml:id="rec_d63e165">
+               <num>(8)</num>
+               <p>Any processing of personal data by Member States in the context of this Regulation should be in accordance with Regulation (EU) 2016/679 of the European Parliament and of the Council<authorialNote placement="bottom" marker="6">
+                     <p>Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (General Data Protection Regulation) (OJ L 119, 4.5.2016, p. 1).</p>
+                  </authorialNote> or Directive (EU) 2016/680 of the European Parliament and of the Council<authorialNote placement="bottom" marker="7">
+                     <p>Directive (EU) 2016/680 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data by competent authorities for the purposes of the prevention, investigation, detection or prosecution of criminal offences or the execution of criminal penalties, and on the free movement of such data, and repealing Council Framework Decision 2008/977/JHA (OJ L 119, 4.5.2016, p. 89).</p>
+                  </authorialNote>, as applicable.</p>
+            </recital>
+            <recital xml:id="rec_d63e191">
+               <num>(9)</num>
+               <p>While Member States are able to maintain or develop their own national systems containing information on authentic and false documents, they should be obliged to provide the Agency with information on authentic documents which they issue, including on the security features thereof, and on false versions of such documents in their possession. The Agency should enter that information in the FADO system and guarantee the uniformity and quality of the information.</p>
+            </recital>
+            <recital xml:id="rec_d63e199">
+               <num>(10)</num>
+               <p>The Union issues laissez-passer to members of the Union institutions, bodies, offices and agencies and servants of the Union to be used for service purposes in accordance with Council Regulation (EU) No 1417/2013<authorialNote placement="bottom" marker="8">
+                     <p>Council Regulation (EU) No 1417/2013 of 17 December 2013 laying down the form of the laissez-passer issued by the European Union (OJ L 353, 28.12.2013, p. 26).</p>
+                  </authorialNote>. The Union should be obliged to provide the Agency with information on such authentic documents and the security features thereof.</p>
+            </recital>
+            <recital xml:id="rec_d63e215">
+               <num>(11)</num>
+               <p>Different stakeholders, including the general public, should be provided with different levels of access to the FADO system depending on their needs and the sensitivity of the data concerned.</p>
+            </recital>
+            <recital xml:id="rec_d63e221">
+               <num>(12)</num>
+               <p>In order to ensure that Member States control document fraud to a high level, the Member State authorities competent in the area of document fraud, such as police, border guard and other law enforcement authorities and other relevant national authorities, should be provided, on a need-to-know basis, with different levels of access to the FADO system depending on their needs. Member States should determine which competent authorities are to be provided with access and the level of access with which they are to be provided. The Commission and the Agency should also determine which of their administrative units are competent to access the FADO system. The FADO system should enable users to have at their disposal information on any new methods of falsification that are detected and on new authentic documents that are in circulation, depending on their access rights.</p>
+            </recital>
+            <recital xml:id="rec_d63e227">
+               <num>(13)</num>
+               <p>Over the past years, the Agency has developed expertise in the area of document fraud. Synergies should therefore be enhanced by leveraging the Agency&apos;s expertise in order to benefit the Member States in that area. The Agency should take over and operate the FADO system as provided for in Regulation (EU) 2019/1896. That take over should not affect those actors which already have access to the FADO system, namely the Commission, the Agency, the European Union Agency for Law Enforcement Cooperation, established by Regulation (EU) 2016/794 of the European Parliament and of the Council<authorialNote placement="bottom" marker="9">
+                     <p>Regulation (EU) 2016/794 of the European Parliament and of the Council of 11 May 2016 on the European Union Agency for Law Enforcement Cooperation (Europol) and replacing and repealing Council Decisions 2009/371/JHA, 2009/934/JHA, 2009/935/JHA, 2009/936/JHA and 2009/968/JHA (OJ L 135, 24.5.2016, p. 53).</p>
+                  </authorialNote>, the Member States and the general public. After the Agency takes over the FADO system, it should provide the Member States with support in the detection of false documents. Additionally, and where appropriate, the European Union Agency for the Operational Management of Large-Scale IT Systems in the Area of Freedom, Security and Justice, established by Regulation (EU) 2018/1726 of the European Parliament and of the Council<authorialNote placement="bottom" marker="10">
+                     <p>Regulation (EU) 2018/1726 of the European Parliament and of the Council of 14 November 2018 on the European Union Agency for the Operational Management of Large-Scale IT Systems in the Area of Freedom, Security and Justice (eu-LISA), and amending Regulation (EC) No 1987/2006 and Council Decision 2007/533/JHA and repealing Regulation (EU) No 1077/2011 (OJ L 295, 21.11.2018, p. 99).</p>
+                  </authorialNote>, may provide technical support to the Agency in accordance with Regulation (EU) 2019/1896.</p>
+            </recital>
+            <recital xml:id="rec_d63e253">
+               <num>(14)</num>
+               <p>It should be ensured that, during the transitional period, the FADO system remains fully operational until the transfer has been effectively carried out and the existing information has been transferred to the new system. The ownership of the existing data should then be transferred to the Agency.</p>
+            </recital>
+            <recital xml:id="rec_d63e259">
+               <num>(15)</num>
+               <p>This Regulation does not affect the competence of Member States in relation to the recognition of passports, travel documents, visas or other identity documents.</p>
+            </recital>
+            <recital xml:id="rec_d63e265">
+               <num>(16)</num>
+               <p>In order to allow Union institutions, bodies, offices and agencies other than the Commission and the Agency, third parties, such as third countries, territorial entities, international organisations and other entities subject to international law, or private entities, such as airlines and other carriers, to access information in the FADO system, the power to adopt acts in accordance with Article 290 TFEU should be delegated to the Commission in respect of establishing measures granting access in a limited manner to the FADO system to those Union institutions, bodies, offices and agencies, third parties and private entities. It is of particular importance that the Commission carry out appropriate consultations during its preparatory work, including at expert level, and that those consultations be conducted in accordance with the principles laid down in the Interinstitutional Agreement of 13 April 2016 on Better Law-Making<authorialNote placement="bottom" marker="11">
+                     <p>OJ L 123, 12.5.2016, p. 1.</p>
+                  </authorialNote>. In particular, to ensure equal participation in the preparation of delegated acts, the European Parliament and the Council receive all documents at the same time as Member States&apos; experts, and their experts systematically have access to meetings of Commission expert groups dealing with the preparation of delegated acts.</p>
+            </recital>
+            <recital xml:id="rec_d63e281">
+               <num>(17)</num>
+               <p>In order to ensure uniform conditions for the implementation of this Regulation, implementing powers should be conferred on the Commission with regard to the technical architecture of the FADO system, the establishment of the technical specifications, the procedures for controlling and verifying information and the determination of the date of the effective implementation of the FADO system by the Agency. Those powers should be exercised in accordance with Regulation (EU) No 182/2011 of the European Parliament and the Council<authorialNote placement="bottom" marker="12">
+                     <p>Regulation (EU) No 182/2011 of the European Parliament and of the Council of 16 February 2011 laying down the rules and general principles concerning mechanisms for control by Member States of the Commission&apos;s exercise of implementing powers (OJ L 55, 28.2.2011, p. 13).</p>
+                  </authorialNote>.</p>
+            </recital>
+            <recital xml:id="rec_d63e297">
+               <num>(18)</num>
+               <p>In accordance with Articles 1 and 2 of Protocol No 22 on the position of Denmark, annexed to the Treaty on European Union (TEU) and to the TFEU, Denmark is not taking part in the adoption of this Regulation and is not bound by it or subject to its application. Given that this Regulation builds upon the Schengen <i>acquis</i>, Denmark shall, in accordance with Article 4 of that Protocol, decide within a period of six months after the Council has decided on this Regulation whether it will implement it in its national law.</p>
+            </recital>
+            <recital xml:id="rec_d63e306">
+               <num>(19)</num>
+               <p>Ireland is taking part in this Regulation, in accordance with Article 5(1) of Protocol No 19 on the Schengen <i>acquis</i> integrated into the framework of the European Union, annexed to the TEU and to the TFEU and Article 6(2) of Council Decision 2002/192/EC<authorialNote placement="bottom" marker="13">
+                     <p>Council Decision 2002/192/EC of 28 February 2002 concerning Ireland&apos;s request to take part in some of the provisions of the Schengen <i>acquis</i> (OJ L 64, 7.3.2002, p. 20).</p>
+                  </authorialNote>.</p>
+            </recital>
+            <recital xml:id="rec_d63e329">
+               <num>(20)</num>
+               <p>As regards Iceland and Norway, this Regulation constitutes a development of the provisions of the Schengen <i>acquis</i> within the meaning of the Agreement concluded by the Council of the European Union and the Republic of Iceland and the Kingdom of Norway concerning the latters&apos; association with the implementation, application and development of the Schengen <i>acquis</i>
+                  <authorialNote placement="bottom" marker="14">
+                     <p>OJ L 176, 10.7.1999, p. 36.</p>
+                  </authorialNote>, which fall within the area referred to in Article 1, point H, of Council Decision 1999/437/EC<authorialNote placement="bottom" marker="15">
+                     <p>Council Decision 1999/437/EC of 17 May 1999 on certain arrangements for the application of the Agreement concluded by the Council of the European Union and the Republic of Iceland and the Kingdom of Norway concerning the association of those two States with the implementation, application and development of the Schengen <i>acquis</i> (OJ L 176, 10.7.1999, p. 31).</p>
+                  </authorialNote>.</p>
+            </recital>
+            <recital xml:id="rec_d63e359">
+               <num>(21)</num>
+               <p>As regards Switzerland, this Regulation constitutes a development of the provisions of the Schengen <i>acquis</i> within the meaning of the Agreement between the European Union, the European Community and the Swiss Confederation on the Swiss Confederation&apos;s association with the implementation, application and development of the Schengen <i>acquis</i>
+                  <authorialNote placement="bottom" marker="16">
+                     <p>OJ L 53, 27.2.2008, p. 52.</p>
+                  </authorialNote>, which fall within the area referred to in Article 1, point H, of Decision 1999/437/EC read in conjunction with Article 3 of Council Decision 2008/149/JHA<authorialNote placement="bottom" marker="17">
+                     <p>Council Decision 2008/149/JHA of 28 January 2008 on the conclusion on behalf of the European Union of the Agreement between the European Union, the European Community and the Swiss Confederation on the Swiss Confederation&apos;s association with the implementation, application and development of the Schengen <i>acquis</i> (OJ L 53, 27.2.2008, p. 50).</p>
+                  </authorialNote>.</p>
+            </recital>
+            <recital xml:id="rec_d63e389">
+               <num>(22)</num>
+               <p>As regards Liechtenstein, this Regulation constitutes a development of the provisions of the Schengen <i>acquis</i> within the meaning of the Protocol between the European Union, the European Community, the Swiss Confederation and the Principality of Liechtenstein on the accession of the Principality of Liechtenstein to the Agreement between the European Union, the European Community and the Swiss Confederation on the Swiss Confederation&apos;s association with the implementation, application and development of the Schengen <i>acquis</i>
+                  <authorialNote placement="bottom" marker="18">
+                     <p>OJ L 160, 18.6.2011, p. 3.</p>
+                  </authorialNote>, which fall within the area referred to in Article 1, point H, of Decision 1999/437/EC read in conjunction with Article 3 of Council Decision 2011/349/EU<authorialNote placement="bottom" marker="19">
+                     <p>Council Decision 2011/349/EU of 7 March 2011 on the conclusion on behalf of the European Union of the Protocol between the European Union, the European Community, the Swiss Confederation and the Principality of Liechtenstein on the accession of the Principality of Liechtenstein to the Agreement between the European Union, the European Community and the Swiss Confederation on the Swiss Confederation&apos;s association with the implementation, application and development of the Schengen <i>acquis</i>, relating in particular to judicial cooperation in criminal matters and police cooperation (OJ L 160, 18.6.2011, p. 1).</p>
+                  </authorialNote>.</p>
+            </recital>
+            <recital xml:id="rec_d63e419">
+               <num>(23)</num>
+               <p>The European Data Protection Supervisor was consulted in accordance with point (d) of Article 46 of Regulation (EC) No 45/2001 of the European Parliament and of the Council<authorialNote placement="bottom" marker="20">
+                     <p>Regulation (EC) No 45/2001 of the European Parliament and of the Council of 18 December 2000 on the protection of individuals with regard to the processing of personal data by the Community institutions and bodies and on the free movement of such data (OJ L 8, 12.1.2001, p. 1).</p>
+                  </authorialNote> and delivered an opinion on 3 December 2018,</p>
+            </recital>
+         </recitals>
+         <formula name="enactingFormula">
+            <p>HAVE ADOPTED THIS REGULATION:</p>
+         </formula>
+      </preamble>
+      <body>
+         <article xml:id="art_d63e442">
+            <num>Article 1</num>
+            <heading>Subject matter and purpose</heading>
+            <paragraph>
+               <content>
+                  <p>This Regulation establishes the False and Authentic Documents Online (FADO) system containing information on authentic documents issued by Member States, the Union and third parties, such as third countries, territorial entities, international organisations and other entities subject to international law, and on false versions thereof.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <content>
+                  <p>The purpose of the FADO system is to contribute to the fight against document and identity fraud by sharing information on the security features of, and potential fraud characteristics in, authentic and false documents between the Member State authorities competent in the area of document fraud.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <content>
+                  <p>The purpose of the FADO system is also to contribute to the fight against document and identity fraud by sharing information with other actors, including the general public.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d63e453">
+            <num>Article 2</num>
+            <heading>Scope and content of the FADO system</heading>
+            <paragraph>
+               <num>1.</num>
+               <subparagraph>
+                  <content>
+                     <p>The FADO system shall contain information on travel, identity, residence and civil status documents, driving licences and vehicle licences issued by Member States or the Union, and on false versions thereof.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>The FADO system may contain information on documents as referred to in the first subparagraph issued by third parties, such as third countries, territorial entities, international organisations and other entities subject to international law, and on false versions thereof.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>The FADO system may contain information on other related official documents, in particular those used in support of applications for official documents, issued by Member States and, where applicable, third parties, such as third countries, territorial entities, international organisations and other entities subject to international law, and on false versions thereof.</p>
+                  </content>
+               </subparagraph>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <subparagraph>
+                  <content>
+                     <p>The information referred to in paragraph 1 shall be the following:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <content>
+                        <p>information, including images, on authentic documents, and specimens thereof, and their security features;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <content>
+                        <p>information, including images, on false documents, whether forged, counterfeit or pseudo documents, and their fraud characteristics;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(c)</num>
+                     <content>
+                        <p>summaries of forgery techniques;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(d)</num>
+                     <content>
+                        <p>summaries of the security features of authentic documents; and</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(e)</num>
+                     <content>
+                        <p>statistics on detected false documents.</p>
+                     </content>
+                  </point>
+               </list>
+               <subparagraph>
+                  <content>
+                     <p>The FADO system may also contain handbooks, contact lists, information on valid travel documents and their recognition by Member States, recommendations on effective ways of detecting specific methods of falsification and other useful related information.</p>
+                  </content>
+               </subparagraph>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <subparagraph>
+                  <content>
+                     <p>Member States and the Union shall transmit without delay to the European Border and Coast Guard Agency (the &apos;Agency&apos;) the information on the documents referred to in the first subparagraph of paragraph 1.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>Member States may transmit to the Agency the information on the documents referred to in the second and third subparagraphs of paragraph 1.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>Third parties, such as third countries, territorial entities, international organisations and other entities subject to international law, may transmit to the Agency the information on the documents referred to in the second and third subparagraphs of paragraph 1.</p>
+                  </content>
+               </subparagraph>
+            </paragraph>
+         </article>
+         <article xml:id="art_d63e520">
+            <num>Article 3</num>
+            <heading>Responsibilities of the Agency</heading>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>In the performance of its task in accordance with Article 79 of Regulation (EU) 2019/1896, the Agency shall ensure the proper and reliable functioning of the FADO system and provide support to the competent Member State authorities in the detection of false documents.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>The Agency shall be responsible for entering in the FADO system in a timely and efficient manner the information obtained and shall guarantee the uniformity and quality of that information.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d63e535">
+            <num>Article 4</num>
+            <heading>Architecture of the FADO system and access thereto</heading>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>The architecture of the FADO system shall provide users with different levels of access to information.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>The Commission and the Agency, to the extent necessary for the performance of their tasks, and the Member State authorities competent in the area of document fraud, such as police, border guard and other law enforcement authorities and other relevant national authorities, shall have secure access to the FADO system on a need-to-know basis.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <content>
+                  <p>The architecture of the FADO system shall provide the general public with access to specimens of authentic documents or authentic documents with pseudonymised data.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>4.</num>
+               <subparagraph>
+                  <content>
+                     <p>The following actors may obtain access to information stored in the FADO system in a limited manner:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <content>
+                        <p>Union institutions, bodies, offices and agencies, other than those referred to in paragraph 2;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <content>
+                        <p>third parties, such as third countries, territorial entities, international organisations and other entities subject to international law;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(c)</num>
+                     <content>
+                        <p>private entities, such as airlines and other carriers.</p>
+                     </content>
+                  </point>
+               </list>
+            </paragraph>
+            <paragraph>
+               <num>5.</num>
+               <content>
+                  <p>The Commission shall adopt delegated acts in accordance with Article 8 supplementing this Regulation by establishing measures granting access to information stored in the FADO system to the actors listed in paragraph 4 of this Article. The delegated acts shall set out for the actors listed in paragraph 4 of this Article the part of the FADO system to which access is to be granted and any specific procedures and conditions that may be necessary, including the requirement to conclude an agreement between the Agency and a third party or a private entity as referred to in points (b) and (c) of paragraph 4 of this Article.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>6.</num>
+               <subparagraph>
+                  <content>
+                     <p>Member States shall determine which authorities competent in the area of document fraud and other relevant national authorities are to have access to the FADO system, including the level of access with which they are to be provided, and notify the Commission and the Agency thereof.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>Upon request, the Commission shall transmit the information referred to in the first subparagraph to the European Parliament.</p>
+                  </content>
+               </subparagraph>
+            </paragraph>
+         </article>
+         <article xml:id="art_d63e592">
+            <num>Article 5</num>
+            <heading>Processing of personal data by the Agency</heading>
+            <paragraph>
+               <num>1.</num>
+               <subparagraph>
+                  <content>
+                     <p>The Agency shall apply Regulation (EU) 2018/1725 of the European Parliament and of the Council<authorialNote placement="bottom" marker="21">
+                           <p>Regulation (EU) 2018/1725 of the European Parliament and of the Council of 23 October 2018 on the protection of natural persons with regard to the processing of personal data by the Union institutions, bodies, offices and agencies and on the free movement of such data, and repealing Regulation (EC) No 45/2001 and Decision No 1247/2002/EC (OJ L 295, 21.11.2018, p. 39).</p>
+                        </authorialNote> when processing personal data under this Regulation. The Agency shall only process personal data where such processing is necessary for the performance of its task of operating the FADO system.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>As regards authentic documents, the FADO system shall only contain personal data included in the specimens of such documents or pseudonymised data.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>As regards false documents, the FADO system shall only contain personal data to the extent they are necessary to describe or illustrate the fraud characteristics or the method of falsification of such documents.</p>
+                  </content>
+               </subparagraph>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>The Agency shall ensure that technical and organisational measures, such as pseudonymisation, are in place in order to ensure that personal data are only processed to the extent strictly necessary for the purpose of operating the FADO system in line with the principle of data minimisation in a way which does not permit the identification of any natural person through the FADO system without using additional data.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d63e622">
+            <num>Article 6</num>
+            <heading>Implementing acts</heading>
+            <paragraph>
+               <num>1.</num>
+               <subparagraph>
+                  <content>
+                     <p>The Commission shall adopt implementing acts in order to:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <content>
+                        <p>establish the technical architecture of the FADO system;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <content>
+                        <p>establish the technical specifications for entering and storing information in the FADO system in accordance with high standards;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(c)</num>
+                     <content>
+                        <p>establish the procedures for controlling and verifying the information contained in the FADO system;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(d)</num>
+                     <content>
+                        <p>determine the date of the effective implementation of the FADO system by the Agency.</p>
+                     </content>
+                  </point>
+               </list>
+               <subparagraph>
+                  <content>
+                     <p>Those implementing acts shall be adopted in accordance with the examination procedure referred to in Article 7(2).</p>
+                  </content>
+               </subparagraph>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <subparagraph>
+                  <content>
+                     <p>The Commission shall adopt the implementing act referred to in point (d) of paragraph 1 after verifying that the following conditions have been met:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <content>
+                        <p>the implementing acts referred to in points (a), (b) and (c) of paragraph 1 have been adopted;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <content>
+                        <p>the Agency has notified the Commission of the successful implementation of the architecture of the FADO system;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(c)</num>
+                     <content>
+                        <p>the Agency has notified the Commission that the transmission of information from the General Secretariat of the Council to the Agency has been completed.</p>
+                     </content>
+                  </point>
+               </list>
+            </paragraph>
+         </article>
+         <article xml:id="art_d63e685">
+            <num>Article 7</num>
+            <heading>Committee procedure</heading>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>The Commission shall be assisted by the committee established by Article 6 of Council Regulation (EC) No 1683/95<authorialNote placement="bottom" marker="22">
+                        <p>Council Regulation (EC) No 1683/95 of 29 May 1995 laying down a uniform format for visas (OJ L 164, 14.7.1995, p. 1).</p>
+                     </authorialNote>. That committee shall be a committee within the meaning of Regulation (EU) No 182/2011.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>Where reference is made to this paragraph, Article 5 of Regulation (EU) No 182/2011 shall apply.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d63e710">
+            <num>Article 8</num>
+            <heading>Exercise of delegation</heading>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>The power to adopt delegated acts is conferred on to the Commission subject to the conditions laid down in this Article.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>The power to adopt delegated acts referred to in Article 4(5) shall be conferred on the Commission for an indeterminate period of time from 26 April 2020.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <content>
+                  <p>The delegation of power referred to in Article 4(5) may be revoked at any time by the European Parliament or by the Council. A decision to revoke shall put an end to the delegation of the power specified in that decision. It shall take effect the day following the publication of the decision in the <i>Official Journal of the European Union</i> or at a later date specified therein. It shall not affect the validity of any delegated acts already in force.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>4.</num>
+               <content>
+                  <p>Before adopting a delegated act, the Commission shall consult experts designated by each Member State in accordance with the principles laid down in the Interinstitutional Agreement of 13 April 2016 on Better Law-Making.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>5.</num>
+               <content>
+                  <p>As soon as it adopts a delegated act, the Commission shall notify it simultaneously to the European Parliament and to the Council.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>6.</num>
+               <content>
+                  <p>A delegated act adopted pursuant to Article 4(5) shall enter into force only if no objection has been expressed either by the European Parliament or the Council within a period of two months of notification of that act to the European Parliament and the Council or if, before the expiry of that period, the European Parliament and the Council have both informed the Commission that they will not object. That period shall be extended by two months at the initiative of the European Parliament or of the Council.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d63e755">
+            <num>Article 9</num>
+            <heading>Repeal and transitional provisions</heading>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>Joint Action 98/700/JHA is repealed with effect from the date of the effective implementation of the FADO system by the Agency, to be determined by means of an implementing act as referred to in point (d) of the first subparagraph of Article 6(1) of this Regulation.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>The General Secretariat of the Council shall transfer the information contained in the FADO system as established by Joint Action 98/700/JHA to the Agency.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <content>
+                  <p>Member States shall agree to the transmission by the General Secretariat of the Council of the information in their ownership stored in the FADO system as established by Joint Action 98/700/JHA to the FADO system as established by this Regulation.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d63e775">
+            <num>Article 10</num>
+            <heading>Entry into force</heading>
+            <paragraph>
+               <content>
+                  <p>This Regulation shall enter into force on the twentieth day following that of its publication in the <i>Official Journal of the European Union</i>.</p>
+               </content>
+            </paragraph>
+         </article>
+         <clause>
+            <content>
+               <p>This Regulation shall be binding in its entirety and directly applicable in the Member States in accordance with the Treaties.</p>
+            </content>
+         </clause>
+      </body>
+      <conclusions>
+         <p>Done at Brussels, 30 March 2020.</p>
+         <block name="signatory">
+            <signature>
+               <organization refersTo="">For the European Parliament</organization>
+               <role refersTo="">The President</role>
+               <person refersTo="">D.M. SASSOLI</person>
+            </signature>
+            <signature>
+               <organization refersTo="">For the Council</organization>
+               <role refersTo="">The President</role>
+               <person refersTo="">G. GRLIĆ RADMAN</person>
+            </signature>
+         </block>
+      </conclusions>
+   </bill>
+</akomaNtoso>

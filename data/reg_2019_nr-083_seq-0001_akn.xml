@@ -1,0 +1,1690 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"
+            xmlns:fmx="http://formex.publications.europa.eu/schema/formex-05.21-20110601.xd"
+            xmlns:leos="urn:eu:europa:ec:leos"
+            xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <bill name="">
+      <meta xmlns:fn="http://www.w3.org/2005/xpath-functions">
+         <identification source="~COM">
+            <FRBRWork>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRcountry value=""/>
+            </FRBRWork>
+            <FRBRExpression>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+            </FRBRManifestation>
+         </identification>
+      </meta>
+      <preface>
+         <longTitle>
+            <p>
+               <docStage/>
+               <docType>REGULATION (EU) 2019/472 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL</docType>of 19 March 2019<docPurpose>establishing a multiannual plan for stocks fished in the Western Waters and adjacent waters, and for fisheries exploiting those stocks, amending Regulations (EU) 2016/1139 and (EU) 2018/973, and repealing Council Regulations (EC) No 811/2004, (EC) No 2166/2005, (EC) No 388/2006, (EC) No 509/2007 and (EC) No 1300/2008</docPurpose>
+            </p>
+         </longTitle>
+      </preface>
+      <preamble>
+         <formula name="actingEntity">
+            <p>THE EUROPEAN PARLIAMENT AND THE COUNCIL OF THE EUROPEAN UNION,</p>
+         </formula>
+         <citations>
+            <citation>
+               <p>Having regard to the Treaty on the Functioning of the European Union, and in particular Article 43(2) thereof,</p>
+            </citation>
+            <citation>
+               <p>Having regard to the proposal from the European Commission,</p>
+            </citation>
+            <citation>
+               <p>After transmission of the draft legislative act to the national parliaments,</p>
+            </citation>
+            <citation>
+               <p>Having regard to the opinion of the European Economic and Social Committee<authorialNote placement="bottom" marker="1">
+                     <p>OJ C 440, 6.12.2018, p. 171.</p>
+                  </authorialNote>,</p>
+            </citation>
+            <citation>
+               <p>Acting in accordance with the ordinary legislative procedure<authorialNote placement="bottom" marker="2">
+                     <p>Position of the European Parliament of 12 February 2019 (not yet published in the Official Journal) and decision of the Council of 5 March 2019.</p>
+                  </authorialNote>,</p>
+            </citation>
+         </citations>
+         <recitals xml:id="recs_d6e83">
+            <intro>
+               <p>Whereas:</p>
+            </intro>
+            <recital xml:id="rec_d6e86">
+               <num>(1)</num>
+               <p>The United Nations Convention of 10 December 1982 on the Law of the Sea, to which the Union is a contracting party, provides for conservation obligations, including the maintaining or restoring of populations of harvested species at levels which can produce the maximum sustainable yield (MSY).</p>
+            </recital>
+            <recital xml:id="rec_d6e95">
+               <num>(2)</num>
+               <p>At the United Nations Summit on Sustainable Development held in New York in 2015, the Union and its Member States committed themselves, by 2020, to effectively regulate harvesting, to end overfishing, illegal, unreported and unregulated fishing and destructive fishing practices, and to implement science-based management plans, in order to restore fish stocks, in the shortest time feasible, at least to levels that can produce MSY as determined by their biological characteristics.</p>
+            </recital>
+            <recital xml:id="rec_d6e101">
+               <num>(3)</num>
+               <p>Regulation (EU) No 1380/2013 of the European Parliament and of the Council<authorialNote placement="bottom" marker="3">
+                     <p>Regulation (EU) No 1380/2013 of the European Parliament and of the Council of 11 December 2013 on the Common Fisheries Policy, amending Council Regulations (EC) No 1954/2003 and (EC) No 1224/2009 and repealing Council Regulations (EC) No 2371/2002 and (EC) No 639/2004 and Council Decision 2004/585/EC (OJ L 354, 28.12.2013, p. 22).</p>
+                  </authorialNote> establishes the rules of the Common Fisheries Policy (CFP) in line with the international obligations of the Union. The CFP is to contribute to the protection of the marine environment, to the sustainable management of all commercially exploited species, and in particular to the achievement of good environmental status by 2020, as set out in Article 1(1) of Directive 2008/56/EC of the European Parliament and of the Council<authorialNote placement="bottom" marker="4">
+                     <p>Directive 2008/56/EC of the European Parliament and of the Council of 17 June 2008 establishing a framework for community action in the field of marine environmental policy (Marine Strategy Framework Directive) (OJ L 164, 25.6.2008, p. 19).</p>
+                  </authorialNote>.</p>
+            </recital>
+            <recital xml:id="rec_d6e127">
+               <num>(4)</num>
+               <p>The objectives of the CFP are, inter alia, to ensure that fishing and aquaculture are environmentally sustainable in the long term, to apply the precautionary approach to fisheries management and to implement the ecosystem-based approach to fisheries management.</p>
+            </recital>
+            <recital xml:id="rec_d6e134">
+               <num>(5)</num>
+               <p>To achieve the objectives of the CFP, a number of conservation measures are to be adopted, as appropriate, in any combination thereof, such as multiannual plans, technical measures, and the fixing and allocation of fishing opportunities.</p>
+            </recital>
+            <recital xml:id="rec_d6e140">
+               <num>(6)</num>
+               <p>Pursuant to Articles 9 and 10 of Regulation (EU) No 1380/2013, multiannual plans are to be based on scientific, technical and economic advice. In accordance with those provisions, the multiannual plan established by this Regulation (&apos;the plan&apos;) should contain objectives, quantifiable targets with clear timeframes, conservation reference points, safeguards and technical measures designed to avoid and reduce unwanted catches and to minimise the impact on the marine environment, in particular on vulnerable habitats and protected species.</p>
+            </recital>
+            <recital xml:id="rec_d6e150">
+               <num>(7)</num>
+               <p>This Regulation should take into account the constraints related to the size of artisanal and coastal fishing vessels used in the outermost regions.</p>
+            </recital>
+            <recital xml:id="rec_d6e156">
+               <num>(8)</num>
+               <p>&apos;Best available scientific advice&apos; should be understood to refer to publicly available scientific advice that is supported by the most up-to-date scientific data and methods and that has either been issued or reviewed by an independent scientific body that is recognised at Union or international level.</p>
+            </recital>
+            <recital xml:id="rec_d6e165">
+               <num>(9)</num>
+               <p>The Commission should obtain the best available scientific advice for the stocks within the scope of the plan. In order to do so, it concludes Memoranda of Understanding with the International Council for the Exploration of the Sea (ICES). The scientific advice issued in particular by ICES or a similar independent scientific body recognised at Union or international level should be based on the plan and should indicate, in particular, ranges of F<sub>MSY</sub> and biomass reference points, i.e. MSY B<sub>trigger</sub> and B<sub>lim</sub>. Those values should be indicated in the relevant stock advice and, where appropriate, in any other publicly-available scientific advice, including, for example, in mixed fisheries advice issued in particular by ICES or a similar independent scientific body recognised at Union or international level.</p>
+            </recital>
+            <recital xml:id="rec_d6e181">
+               <num>(10)</num>
+               <p>Council Regulations (EC) No 811/2004<authorialNote placement="bottom" marker="5">
+                     <p>Council Regulation (EC) No 811/2004 of 21 April 2004 establishing measures for the recovery of the Northern hake stock (OJ L 150, 30.4.2004, p. 1).</p>
+                  </authorialNote>, (EC) No 2166/2005<authorialNote placement="bottom" marker="6">
+                     <p>Council Regulation (EC) No 2166/2005 of 20 December 2005 establishing measures for the recovery of the Southern hake and Norway lobster stocks in the Cantabrian Sea and Western Iberian peninsula and amending Regulation (EC) No 850/98 for the conservation of fishery resources through technical measures for the protection of juveniles of marine organisms (OJ L 345, 28.12.2005, p. 5).</p>
+                  </authorialNote>, (EC) No 388/2006<authorialNote placement="bottom" marker="7">
+                     <p>Council Regulation (EC) No 388/2006 of 23 February 2006 establishing a multiannual plan for the sustainable exploitation of the stock of sole in the Bay of Biscay (OJ L 65, 7.3.2006, p. 1).</p>
+                  </authorialNote>, (EC) No 509/2007<authorialNote placement="bottom" marker="8">
+                     <p>Council Regulation (EC) No 509/2007 of 7 May 2007 establishing a multi-annual plan for the sustainable exploitation of the stock of sole in the Western Channel (OJ L 122, 11.5.2007, p. 7).</p>
+                  </authorialNote> and (EC) No 1300/2008<authorialNote placement="bottom" marker="9">
+                     <p>Council Regulation (EC) No 1300/2008 of 18 December 2008 establishing a multi-annual plan for the stock of herring distributed to the west of Scotland and the fisheries exploiting that stock (OJ L 344, 20.12.2008, p. 6).</p>
+                  </authorialNote> set out the rules for the exploitation of the northern stock of hake, hake and Norway lobster stocks in the Cantabrian Sea and by the Western Iberian Peninsula, sole in the Bay of Biscay, sole in the Western Channel, herring in the West of Scotland and cod in the Kattegat, the North Sea, the West of Scotland and the Irish Sea. Those and other demersal stocks are taken in mixed fisheries. Therefore, it is appropriate to establish a single multiannual plan taking into account such technical interactions.</p>
+            </recital>
+            <recital xml:id="rec_d6e237">
+               <num>(11)</num>
+               <p>In addition, such a multiannual plan should apply to demersal stocks and their fisheries in the Western Waters, comprising the North Western Waters and the South Western Waters. Those are roundfish, flatfish, cartilaginous fish species and Norway lobster (<i>Nephrops norvegicus</i>) that live at or near the bottom of the water column.</p>
+            </recital>
+            <recital xml:id="rec_d6e246">
+               <num>(12)</num>
+               <p>Some demersal stocks are exploited both in the Western Waters and in their adjacent waters. Therefore the scope of the provisions of the plan relating to targets and safeguards for stocks that are mainly exploited in the Western Waters should be extended for those areas outside the Western Waters. In addition, for stocks also present in the Western Waters that are mainly exploited outside the Western Waters, it is necessary to establish the targets and safeguards in multiannual plans for areas outside the Western Waters where those stocks are mainly exploited, extending the scope of those multiannual plans so that they also cover the Western Waters.</p>
+            </recital>
+            <recital xml:id="rec_d6e252">
+               <num>(13)</num>
+               <p>The geographical scope of the plan should be based on the geographical distribution of stocks indicated in the latest scientific stock advice provided in particular by ICES or a similar independent scientific body recognised at Union or international level. Future changes to the geographical distribution of stocks as set out in the plan may be needed either due to improved scientific information or to migration of stocks. Therefore, the Commission should be empowered to adopt delegated acts adjusting the geographical distribution of stocks set out in the plan if the scientific advice provided in particular by ICES or a similar independent scientific body recognised at Union or international level indicates a change in the geographical distribution of the relevant stocks.</p>
+            </recital>
+            <recital xml:id="rec_d6e260">
+               <num>(14)</num>
+               <p>Where stocks of common interest are also exploited by third countries, the Union should engage with those third countries with a view to ensuring that those stocks are managed in a sustainable manner that is consistent with the objectives of Regulation (EU) No 1380/2013, in particular Article 2(2) thereof, and of this Regulation. Where no formal agreement is reached, the Union should make every effort to reach common arrangements for fishing of such stocks with a view to making the sustainable management possible thereby promoting the level-playing field for Union operators.</p>
+            </recital>
+            <recital xml:id="rec_d6e266">
+               <num>(15)</num>
+               <p>The objective of the plan should be to contribute to the achievement of the objectives of the CFP and, in particular, to reaching and maintaining MSY for the target stocks, to implementing the landing obligation for demersal stocks subject to catch limits, and to promoting a fair standard of living for those who depend on fishing activities, bearing in mind coastal fisheries and socioeconomic aspects. It should also implement the ecosystem-based approach to fisheries management in order to minimise negative impacts of fishing activities on the marine ecosystem. It should be coherent with the Union&apos;s environmental legislation, in particular the objective of achieving good environmental status by 2020 (in accordance with Directive 2008/56/EC) and the objectives of Directive 2009/147/EC of the European Parliament and of the Council<authorialNote placement="bottom" marker="10">
+                     <p>Directive 2009/147/EC of the European Parliament and of the Council of 30 November 2009 on the conservation of wild birds (OJ L 20, 26.1.2010, p. 7).</p>
+                  </authorialNote> and Council Directive 92/43/EEC<authorialNote placement="bottom" marker="11">
+                     <p>Council Directive 92/43/EEC of 21 May 1992 on the conservation of natural habitats and of wild fauna and flora (OJ L 206, 22.7.1992, p. 7).</p>
+                  </authorialNote>. The plan should also specify details for the implementation of the landing obligation in Union waters of the Western Waters for all stocks of species to which the landing obligation applies under Article 15 of Regulation (EU) No 1380/2013.</p>
+            </recital>
+            <recital xml:id="rec_d6e292">
+               <num>(16)</num>
+               <p>Article 16(4) of Regulation (EU) No 1380/2013 requires that fishing opportunities be fixed in accordance with the objectives set out in Article 2(2) thereof and comply with the targets, time frames and margins established in the multiannual plans.</p>
+            </recital>
+            <recital xml:id="rec_d6e298">
+               <num>(17)</num>
+               <p>It is appropriate to establish the target fishing mortality (F) that corresponds to the objective of reaching and maintaining MSY as ranges of values which are consistent with achieving MSY(F<sub>MSY</sub>). Those ranges, based on best available scientific advice, are necessary in order to provide flexibility to take account of developments in the scientific advice, to contribute to the implementation of the landing obligation and to take into account the characteristics of mixed fisheries. The F<sub>MSY</sub> ranges should be calculated, in particular by ICES, especially in its periodic catch advice, or by a similar independent scientific body recognised at Union or international level. Based on the plan they should be derived to deliver no more than a 5 % reduction in long-term yield compared to MSY The upper limit of the range should be capped, so that the probability of the stock falling below B<sub>lim</sub> is no more than 5 %. That upper limit should also conform to the ICES &apos;advice rule&apos;, which indicates that when the spawning biomass or abundance is in a poor state, F is to be reduced to a value that does not exceed an upper limit equal to the F<sub>MSY</sub> point value multiplied by the spawning biomass or abundance in the total allowable catch (TAC) year divided by MSY B<sub>trigger</sub>. ICES uses these considerations and the advice rule in its provision of scientific advice on fishing mortality and catch options.</p>
+            </recital>
+            <recital xml:id="rec_d6e324">
+               <num>(18)</num>
+               <p>For the purposes of fixing fishing opportunities, there should be an upper threshold for F<sub>MSY</sub> ranges in normal use and, provided that the stock concerned is considered to be in a good state, an upper limit for certain cases. It should be possible to fix fishing opportunities at the upper limit only if, on the basis of scientific advice or evidence, it is necessary for the achievement of the objectives laid down in this Regulation in mixed fisheries or necessary to avoid harm to a stock caused by intra- or inter-species stock dynamics, or in order to limit the year-to-year variations in fishing opportunities.</p>
+            </recital>
+            <recital xml:id="rec_d6e333">
+               <num>(19)</num>
+               <p>It should be possible for a relevant Advisory Council to recommend to the Commission a management approach that seeks to limit year-to-year variations in the fishing opportunities for a particular stock listed in this Regulation. It should be possible for the Council to take any such recommendations into account when fixing fishing opportunities provided that these fishing opportunities comply with the targets and safeguards under the plan.</p>
+            </recital>
+            <recital xml:id="rec_d6e339">
+               <num>(20)</num>
+               <p>For stocks for which targets relating to MSY are available, and for the purpose of the application of safeguard measures, it is necessary to establish conservation reference points expressed as trigger spawning biomass levels for fish stocks, and trigger abundance levels for Norway lobster.</p>
+            </recital>
+            <recital xml:id="rec_d6e347">
+               <num>(21)</num>
+               <p>Appropriate safeguard measures should be provided for in case the stock size falls below these levels. Safeguard measures should include the reduction of fishing opportunities and specific conservation measures when scientific advice states that remedial measures are needed. Those measures should be supplemented by all other appropriate measures such as Commission measures in accordance with Article 12 of Regulation (EU) No 1380/2013 or Member State measures in accordance with Article 13 of that Regulation.</p>
+            </recital>
+            <recital xml:id="rec_d6e353">
+               <num>(22)</num>
+               <p>It should be possible to set the TAC for Norway lobster in four specific management areas as the sum of the catch limits established for each functional unit and of the statistical rectangles outside the functional units within each management area. However, this should not preclude the adoption of measures to protect specific functional units.</p>
+            </recital>
+            <recital xml:id="rec_d6e359">
+               <num>(23)</num>
+               <p>In order to apply a regional approach to conservation and sustainable exploitation of marine biological resources, it is appropriate to provide for a possibility to take technical measures in the Western Waters regarding all stocks.</p>
+            </recital>
+            <recital xml:id="rec_d6e365">
+               <num>(24)</num>
+               <p>The effort limitation regime for sole in the Western Channel has proven to be an efficient management tool complementary to the fixing of fishing possibilities. Such effort limitation should therefore be maintained within the framework of the plan.</p>
+            </recital>
+            <recital xml:id="rec_d6e371">
+               <num>(25)</num>
+               <p>When mortality caused by recreational fishing has a significant impact on a stock managed on the basis of MSY, the Council should be able to set non-discriminatory limits for recreational fishermen. The Council should refer to transparent and objective criteria when setting such limits. Where appropriate, Member States should take the necessary and proportionate measures for the monitoring and collection of data for a reliable estimation of actual recreational catch levels.</p>
+            </recital>
+            <recital xml:id="rec_d6e377">
+               <num>(26)</num>
+               <p>In order to comply with the landing obligation provided for in Article 15(1) of Regulation (EU) No 1380/2013, the plan should provide for additional management measures to be further specified in accordance with Article 18 of that Regulation.</p>
+            </recital>
+            <recital xml:id="rec_d6e383">
+               <num>(27)</num>
+               <p>The deadline for submitting joint recommendations from Member States having direct management interest should be established, as required by Regulation (EU) No 1380/2013.</p>
+            </recital>
+            <recital xml:id="rec_d6e389">
+               <num>(28)</num>
+               <p>In accordance with Article 10(3) of Regulation (EU) No 1380/2013, provisions should be established for the periodical assessment by the Commission of the adequacy and effectiveness of the application of this Regulation based on scientific advice. The plan should be evaluated by 27 March 2024, and every five years thereafter. That period allows for the full implementation of the landing obligation, and for regionalised measures to be adopted, implemented and to show effects on the stocks and fishery. It is also the minimum period required by scientific bodies.</p>
+            </recital>
+            <recital xml:id="rec_d6e398">
+               <num>(29)</num>
+               <p>In order to adapt to the technical and scientific progress in a timely and proportionate fashion and to ensure flexibility and allow evolution of certain measures, the power to adopt acts in accordance with Article 290 of the Treaty on the Functioning of the European Union should be delegated to the Commission in respect of amending or supplementing this Regulation as regards adjustments concerning the stocks covered by this Regulation following changes in the geographical distribution of the stocks, remedial measures, implementation of the landing obligation and limits regarding the total capacity of the fleets of Member States concerned. It is of particular importance that the Commission carry out appropriate consultations during its preparatory work, including at expert level, and that those consultations be conducted in accordance with the principles laid down in the Interinstitutional Agreement of 13 April 2016 on Better Law-Making<authorialNote placement="bottom" marker="12">
+                     <p>OJ L 123, 12.5.2016, p. 1.</p>
+                  </authorialNote>. In particular, to ensure equal participation in the preparation of delegated acts, the European Parliament and the Council receive all documents at the same time as Member States&apos; experts, and their experts systematically have access to meetings of Commission expert groups dealing with the preparation of delegated acts.</p>
+            </recital>
+            <recital xml:id="rec_d6e413">
+               <num>(30)</num>
+               <p>In order to provide legal certainty, it is appropriate to clarify that temporary cessation measures that have been adopted in order to attain the objectives of the plan can be deemed eligible for support under Regulation (EU) No 508/2014 of the European Parliament and of the Council<authorialNote placement="bottom" marker="13">
+                     <p>Regulation (EU) No 508/2014 of the European Parliament and of the Council of 15 May 2014 on the European Maritime and Fisheries Fund and repealing Council Regulations (EC) No 2328/2003, (EC) No 861/2006, (EC) No 1198/2006 and (EC) No 791/2007 and Regulation (EU) No 1255/2011 of the European Parliament and of the Council (OJ L 149, 20.5.2014, p. 1).</p>
+                  </authorialNote>.</p>
+            </recital>
+            <recital xml:id="rec_d6e431">
+               <num>(31)</num>
+               <p>Applying dynamic references to ranges of F<sub>MSY</sub> and to conservation reference points ensures that those parameters, which are essential for setting fishing opportunities, do not become outdated and that the Council is always able to use the best available scientific advice. Moreover, the approach consisting of providing dynamic references to the best available scientific advice should be followed for managing stocks in the Baltic Sea. It should also be specified that the landing obligation does not apply to recreational fishing in the areas covered by the multiannual plan for Baltic Sea fisheries. Regulation (EU) 2016/1139 of the European Parliament and of the Council<authorialNote placement="bottom" marker="14">
+                     <p>Regulation (EU) 2016/1139 of the European Parliament and of the Council of 6 July 2016 establishing a multiannual plan for the stocks of cod, herring and sprat in the Baltic Sea and the fisheries exploiting those stocks, amending Council Regulation (EC) No 2187/2005 and repealing Council Regulation (EC) No 1098/2007 (OJ L 191, 15.7.2016, p. 1).</p>
+                  </authorialNote> should therefore be amended.</p>
+            </recital>
+            <recital xml:id="rec_d6e450">
+               <num>(32)</num>
+               <p>The minimum conservation reference size for Norway lobster in the Skagerrak and Kattegat should be reviewed. It should also be specified that the landing obligation does not apply to recreational fishing in the areas covered by the multiannual plan for North Sea fisheries. Regulation (EU) 2018/973 of the European Parliament and of the Council<authorialNote placement="bottom" marker="15">
+                     <p>Regulation (EU) 2018/973 of the European Parliament and of the Council of 4 July 2018 establishing a multiannual plan for demersal stocks in the North Sea and the fisheries exploiting those stocks, specifying details of the implementation of the landing obligation in the North Sea and repealing Council Regulations (EC) No 676/2007 and (EC) No 1342/2008 (OJ L 179, 16.7.2018, p. 1).</p>
+                  </authorialNote> should therefore be amended.</p>
+            </recital>
+            <recital xml:id="rec_d6e466">
+               <num>(33)</num>
+               <p>Council Regulations (EC) No 811/2004, (EC) No 2166/2005, (EC) No 388/2006, (EC) No 509/2007 and (EC) No 1300/2008 should be repealed.</p>
+            </recital>
+            <recital xml:id="rec_d6e472">
+               <num>(34)</num>
+               <p>The likely economic and social impact of the plan was duly assessed before its finalisation in accordance with Article 9(4) of Regulation (EU) No 1380/2013,</p>
+            </recital>
+         </recitals>
+         <formula name="enactingFormula">
+            <p>HAVE ADOPTED THIS REGULATION:</p>
+         </formula>
+      </preamble>
+      <body>
+         <chapter>
+            <num>CHAPTER I</num>
+            <heading>SUBJECT MATTER, SCOPE AND DEFINITIONS</heading>
+            <article xml:id="art_d6e490">
+               <num>Article 1</num>
+               <heading>Subject-matter and scope</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <subparagraph>
+                     <content>
+                        <p>This Regulation establishes a multiannual plan (&apos;the plan&apos;) for the demersal stocks listed below, including deep-sea stocks, in the Western Waters, and, where those stocks extend beyond the Western Waters, in their adjacent waters, and for the fisheries exploiting those stocks:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(1)</num>
+                        <content>
+                           <p>black scabbardfish (<i>Aphanopus carbo</i>) in ICES subareas 1, 2, 4, 6&#45;8, 10 and 14 and divisions 3a, 5a, 5b, 9a and 12b;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(2)</num>
+                        <content>
+                           <p>roundnose grenadier (<i>Coryphaenoides rupestris</i>) in ICES subareas 6 and 7 and division 5b;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(3)</num>
+                        <content>
+                           <p>seabass (<i>Dicentrarchus labrax</i>) in ICES divisions 4b, 4c, 7a, 7d&#45;h, 8a and 8b;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(4)</num>
+                        <content>
+                           <p>seabass (<i>Dicentrarchus labrax</i>) in ICES divisions 6a, 7b and 7j;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(5)</num>
+                        <content>
+                           <p>seabass (<i>Dicentrarchus labrax</i>) in ICES divisions 8c and 9a;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(6)</num>
+                        <content>
+                           <p>cod (<i>Gadus morhua</i>) in ICES division 7a;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(7)</num>
+                        <content>
+                           <p>cod (<i>Gadus morhua</i>) in ICES divisions 7e&#45;k;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(8)</num>
+                        <content>
+                           <p>megrims (<i>Lepidorhombus</i> spp.) in ICES divisions 4a and 6a;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(9)</num>
+                        <content>
+                           <p>megrims (<i>Lepidorhombus</i> spp.) in ICES division 6b;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(10)</num>
+                        <content>
+                           <p>megrims (<i>Lepidorhombus</i> spp.) in ICES divisions 7b&#45;k, 8a, 8b and 8d;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(11)</num>
+                        <content>
+                           <p>megrims (<i>Lepidorhombus</i> spp.) in ICES divisions 8c and 9a;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(12)</num>
+                        <content>
+                           <p>anglerfish (<i>Lophiidae</i>) in ICES divisions 7b&#45;k, 8a, 8b and 8d;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(13)</num>
+                        <content>
+                           <p>anglerfish (<i>Lophiidae</i>) in ICES divisions 8c and 9a;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(14)</num>
+                        <content>
+                           <p>haddock (<i>Melanogrammus aeglefinus</i>) in ICES division 6b;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(15)</num>
+                        <content>
+                           <p>haddock (<i>Melanogrammus aeglefinus</i>) in ICES division 7a;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(16)</num>
+                        <content>
+                           <p>haddock (<i>Melanogrammus aeglefinus</i>) in ICES divisions 7b&#45;k;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(17)</num>
+                        <content>
+                           <p>whiting (<i>Merlangius merlangus</i>) in ICES divisions 7b, 7c and 7e&#45;k;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(18)</num>
+                        <content>
+                           <p>whiting <i>(Merlangius merlangus</i>) in ICES subarea 8 and division 9a;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(19)</num>
+                        <content>
+                           <p>hake (<i>Merluccius merluccius</i>) in ICES subareas 4, 6 and 7 and divisions 3a, 8a, 8b and 8d;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(20)</num>
+                        <content>
+                           <p>hake (<i>Merluccius merluccius</i>) in ICES divisions 8c and 9a;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(21)</num>
+                        <content>
+                           <p>blue ling (<i>Molva dypterygia</i>) in ICES subareas 6 and 7 and division 5b;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(22)</num>
+                        <alinea>
+                           <content>
+                              <p>Norway lobster (<i>Nephrops norvegicus</i>) by functional unit in ICES subarea 6 and division 5b:</p>
+                           </content>
+                        </alinea>
+                        <list>
+                           <indent>
+                              <num>-</num>
+                              <content>
+                                 <p>in North Minch (FU 11);</p>
+                              </content>
+                           </indent>
+                           <indent>
+                              <num>-</num>
+                              <content>
+                                 <p>in South Minch (FU 12);</p>
+                              </content>
+                           </indent>
+                           <indent>
+                              <num>-</num>
+                              <content>
+                                 <p>in Firth of Clyde (FU 13);</p>
+                              </content>
+                           </indent>
+                           <indent>
+                              <num>-</num>
+                              <content>
+                                 <p>in division 6a, outside the functional units (West of Scotland);</p>
+                              </content>
+                           </indent>
+                        </list>
+                     </point>
+                     <point>
+                        <num>(23)</num>
+                        <alinea>
+                           <content>
+                              <p>Norway lobster (<i>Nephrops norvegicus</i>) by functional unit in ICES subarea 7:</p>
+                           </content>
+                        </alinea>
+                        <list>
+                           <indent>
+                              <num>-</num>
+                              <content>
+                                 <p>in Irish Sea East (FU 14);</p>
+                              </content>
+                           </indent>
+                           <indent>
+                              <num>-</num>
+                              <content>
+                                 <p>in Irish Sea West (FU 15);</p>
+                              </content>
+                           </indent>
+                           <indent>
+                              <num>-</num>
+                              <content>
+                                 <p>in Porcupine Banks (FU 16);</p>
+                              </content>
+                           </indent>
+                           <indent>
+                              <num>-</num>
+                              <content>
+                                 <p>in Aran grounds (FU 17);</p>
+                              </content>
+                           </indent>
+                           <indent>
+                              <num>-</num>
+                              <content>
+                                 <p>in the Irish Sea (FU 19);</p>
+                              </content>
+                           </indent>
+                           <indent>
+                              <num>-</num>
+                              <content>
+                                 <p>in the Celtic Sea (FU 20-21);</p>
+                              </content>
+                           </indent>
+                           <indent>
+                              <num>-</num>
+                              <content>
+                                 <p>in the Bristol Channel (FU 22);</p>
+                              </content>
+                           </indent>
+                           <indent>
+                              <num>-</num>
+                              <content>
+                                 <p>outside the functional units (Southern Celtic Sea, Southwest of Ireland);</p>
+                              </content>
+                           </indent>
+                        </list>
+                     </point>
+                     <point>
+                        <num>(24)</num>
+                        <alinea>
+                           <content>
+                              <p>Norway lobster (<i>Nephrops norvegicus</i>) by functional unit in ICES divisions 8a, 8b, 8d and 8e:</p>
+                           </content>
+                        </alinea>
+                        <list>
+                           <indent>
+                              <num>-</num>
+                              <content>
+                                 <p>in Northern and Central Bay of Biscay (FU 23-24);</p>
+                              </content>
+                           </indent>
+                        </list>
+                     </point>
+                     <point>
+                        <num>(25)</num>
+                        <alinea>
+                           <content>
+                              <p>Norway lobster (<i>Nephrops norvegicus</i>) by functional unit in ICES subareas 9 and 10, and CECAF zone 34.1.1:</p>
+                           </content>
+                        </alinea>
+                        <list>
+                           <indent>
+                              <num>-</num>
+                              <content>
+                                 <p>in Atlantic Iberian waters East, Western Galicia and Northern Portugal (FU 26-27);</p>
+                              </content>
+                           </indent>
+                           <indent>
+                              <num>-</num>
+                              <content>
+                                 <p>in Atlantic Iberian waters East and Southwestern and Southern Portugal (FU 28-29);</p>
+                              </content>
+                           </indent>
+                           <indent>
+                              <num>-</num>
+                              <content>
+                                 <p>in Atlantic Iberian waters East and the Gulf of Cádiz (FU 30);</p>
+                              </content>
+                           </indent>
+                        </list>
+                     </point>
+                     <point>
+                        <num>(26)</num>
+                        <content>
+                           <p>red seabream (<i>Pagellus bogaraveo</i>) in ICES subarea 9;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(27)</num>
+                        <content>
+                           <p>plaice (<i>Pleuronectes platessa</i>) in ICES division 7d;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(28)</num>
+                        <content>
+                           <p>plaice (<i>Pleuronectes platessa</i>) in ICES division 7e;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(29)</num>
+                        <content>
+                           <p>pollack (<i>Pollachius pollachius</i>) in ICES subareas <i>6 and</i> 7;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(30)</num>
+                        <content>
+                           <p>common sole (<i>Solea solea</i>) in ICES subareas 5, 12 and 14 and division 6b;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(31)</num>
+                        <content>
+                           <p>common sole (<i>Solea solea</i>) in ICES division 7d;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(32)</num>
+                        <content>
+                           <p>common sole (<i>Solea solea</i>) in ICES division 7e;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(33)</num>
+                        <content>
+                           <p>common sole (<i>Solea solea</i>) in ICES divisions 7f and 7g;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(34)</num>
+                        <content>
+                           <p>common sole (<i>Solea solea</i>) in ICES divisions 7h, 7j and 7k;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(35)</num>
+                        <content>
+                           <p>common sole (<i>Solea solea</i>) in ICES divisions 8a and 8b;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(36)</num>
+                        <content>
+                           <p>common sole (<i>Solea solea</i>) in ICES divisions 8c and 9a.</p>
+                        </content>
+                     </point>
+                  </list>
+                  <subparagraph>
+                     <content>
+                        <p>Where scientific advice, in particular that of ICES or a similar independent scientific body recognised at Union or international level, indicates a change in the geographical distribution of the stocks listed in the first subparagraph of this paragraph, the Commission may adopt delegated acts in accordance with Article 18 amending this Regulation by adjusting the areas specified in the first subparagraph of this paragraph in order to reflect that change. Such adjustments shall not extend the stock areas beyond Union waters of ICES subareas 4 to 10, and the CECAF zones 34.1.1, 34.1.2 and 34.2.0.</p>
+                     </content>
+                  </subparagraph>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>Where, on the basis of scientific advice, the Commission considers that the list of stocks set out in the first subparagraph of paragraph 1 needs to be amended, the Commission may submit a proposal for the amendment of that list.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <content>
+                     <p>With respect to adjacent waters covered in paragraph 1 of this Article, only Articles 4 and 7 and the measures related to fishing opportunities under Article 8 of this Regulation shall apply.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>4.</num>
+                  <content>
+                     <p>This Regulation also applies to by-catches caught in the Western Waters when fishing for the stocks listed in paragraph 1. However, where ranges of F<sub>MSY</sub> and safeguards linked to biomass for those stocks are established under other Union legal acts establishing multiannual plans, those ranges and safeguards shall apply.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>5.</num>
+                  <content>
+                     <p>This Regulation also specifies details for the implementation of the landing obligation in Union waters of the Western Waters for all stocks of species to which the landing obligation applies under Article 15 of Regulation (EU) No 1380/2013.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>6.</num>
+                  <content>
+                     <p>This Regulation provides for technical measures, as set out in Article 9, applicable in the Western Waters in respect of any stock.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d6e924">
+               <num>Article 2</num>
+               <heading>Definitions</heading>
+               <paragraph>
+                  <subparagraph>
+                     <content>
+                        <p>For the purposes of this Regulation, the following definitions shall apply in addition to those laid down in Article 4 of Regulation (EU) No 1380/2013, Article 4 of Council Regulation (EC) No 1224/2009<authorialNote placement="bottom" marker="16">
+                              <p>Council Regulation (EC) No 1224/2009 of 20 November 2009 establishing a Union control system for ensuring compliance with the rules of the common fisheries policy, amending Regulations (EC) No 847/96, (EC) No 2371/2002, (EC) No 811/2004, (EC) No 768/2005, (EC) No 2115/2005, (EC) No 2166/2005, (EC) No 388/2006, (EC) No 509/2007, (EC) No 676/2007, (EC) No 1098/2007, (EC) No 1300/2008, (EC) No 1342/2008 and repealing Regulations (EEC) No 2847/93, (EC) No 1627/94 and (EC) No 1966/2006 (OJ L 343, 22.12.2009, p. 1).</p>
+                           </authorialNote> and Article 3 of Council Regulation (EC) No 850/98<authorialNote placement="bottom" marker="17">
+                              <p>Council Regulation (EC) No 850/98 of 30 March 1998 for the conservation of fishery resources through technical measures for the protection of juveniles of marine organisms (OJ L 125, 27.4.1998, p. 1).</p>
+                           </authorialNote>:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(1)</num>
+                        <content>
+                           <p>&apos;Western Waters&apos; means the North Western Waters (ICES subareas 5 (excluding division 5a and only Union waters of division 5b), 6 and 7) and the South Western Waters (ICES subareas 8, 9 and 10 (waters around Azores), and CECAF zones 34.1.1, 34.1.2 and 34.2.0 (waters around Madeira and the Canary Islands));</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(2)</num>
+                        <content>
+                           <p>&apos;range of F<sub>MSY</sub>&apos; means a range of values provided in the best available scientific advice, in particular from ICES or a similar independent scientific body recognised at Union or international level, where all levels of fishing mortality within that range result in maximum sustainable yield (MSY) in the long term with a given fishing pattern and under current average environmental conditions without significantly affecting the reproduction process for the stock in question. It is derived to deliver no more than a 5 % reduction in long-term yield compared to the MSY. It is capped so that the probability of the stock falling below the limit spawning stock biomass reference point (B<sub>lim</sub>) is no more than 5 %;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(3)</num>
+                        <content>
+                           <p>&apos;MSY F<sub>lower</sub>&apos; mean the lowest value within the range of F<sub>MSY</sub>;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(4)</num>
+                        <content>
+                           <p>&apos;MSY F<sub>upper</sub>&apos; mean the highest value within the range of F<sub>MSY</sub>;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(5)</num>
+                        <content>
+                           <p>&apos;F<sub>MSY</sub> point value&apos; is the value of the estimated fishing mortality that with a given fishing pattern and under current average environmental conditions gives the long-term maximum yield;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(6)</num>
+                        <content>
+                           <p>&apos;lower range of F<sub>MSY</sub>&apos; means a range that contains values from MSY F<sub>lower</sub> to F<sub>MSY</sub> point value;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(7)</num>
+                        <content>
+                           <p>&apos;upper range of F<sub>MSY</sub>&apos; means a range that contains values from F<sub>MSY</sub> point value up to MSY F<sub>upper</sub>;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(8)</num>
+                        <content>
+                           <p>&apos;B<sub>lim</sub>&apos; means the spawning stock biomass reference point provided for in the best available scientific advice, in particular by ICES or a similar independent scientific body recognised at Union or international level, below which there may be reduced reproductive capacity;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(9)</num>
+                        <content>
+                           <p>&apos;MSY B<sub>trigger</sub>&apos; means the spawning stock biomass reference point, or, in the case of Norway lobster, abundance reference point provided for in the best available scientific advice, in particular from ICES or a similar independent scientific body recognised at Union or international level, below which specific and appropriate management action is to be taken to ensure that exploitation rates in combination with natural variations rebuild stocks above levels capable of producing MSY in the long term.</p>
+                        </content>
+                     </point>
+                  </list>
+               </paragraph>
+            </article>
+         </chapter>
+         <chapter>
+            <num>CHAPTER II</num>
+            <heading>OBJECTIVES</heading>
+            <article xml:id="art_d6e1082">
+               <num>Article 3</num>
+               <heading>Objectives</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>The plan shall contribute to the achievement of the objectives of the common fisheries policy listed in Article 2 of Regulation (EU) No 1380/2013, in particular by applying the precautionary approach to fisheries management, and shall aim to ensure that exploitation of living marine biological resources restores and maintains populations of harvested species above levels which can produce MSY.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>The plan shall contribute to the elimination of discards, by avoiding and reducing, as far as possible, unwanted catches, and to the implementation of the landing obligation established in Article 15 of Regulation (EU) No 1380/2013 for the species which are subject to catch limits and to which this Regulation applies.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <content>
+                     <p>The plan shall implement the ecosystem-based approach to fisheries management in order to ensure that negative impacts of fishing activities on the marine ecosystem are minimised. It shall be coherent with Union environmental legislation, in particular with the objective of achieving good environmental status by 2020 as set out in Article 1(1) of Directive 2008/56/EC.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>4.</num>
+                  <subparagraph>
+                     <content>
+                        <p>In particular, the plan shall aim to:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(a)</num>
+                        <content>
+                           <p>ensure that the conditions described in descriptor 3 contained in Annex I to Directive 2008/56/EC are fulfilled;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(b)</num>
+                        <content>
+                           <p>contribute to the fulfilment of other relevant descriptors contained in Annex I to Directive 2008/56/EC in proportion to the role played by fisheries in their fulfilment; and</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(c)</num>
+                        <content>
+                           <p>contribute to the achievement of the objectives set out in Articles 4 and 5 of Directive 2009/147/EC and Articles 6 and 12 of Directive 92/43/EEC, in particular to minimise the negative impact of fishing activities on vulnerable habitats and protected species.</p>
+                        </content>
+                     </point>
+                  </list>
+               </paragraph>
+               <paragraph>
+                  <num>5.</num>
+                  <content>
+                     <p>Measures under the plan shall be taken in accordance with the best available scientific advice. Where there is insufficient data, a comparable degree of conservation of the relevant stocks shall be pursued.</p>
+                  </content>
+               </paragraph>
+            </article>
+         </chapter>
+         <chapter>
+            <num>CHAPTER III</num>
+            <heading>TARGETS</heading>
+            <article xml:id="art_d6e1141">
+               <num>Article 4</num>
+               <heading>Targets</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>The target fishing mortality, in line with the ranges of F<sub>MSY</sub> defined in Article 2, shall be achieved as soon as possible, and on a progressive, incremental basis by 2020 for the stocks listed in Article 1(1), and shall be maintained thereafter within the ranges of F<sub>MSY</sub>, in accordance with this Article.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>The ranges of F<sub>MSY</sub> based on the plan shall be requested in particular from ICES or a similar independent scientific body recognised at Union or international level.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <content>
+                     <p>In accordance with Article 16(4) of Regulation (EU) No 1380/2013, when the Council fixes fishing opportunities for a stock, it shall establish those opportunities within the lower range of F<sub>MSY</sub> available at that time for that stock.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>4.</num>
+                  <content>
+                     <p>Notwithstanding paragraphs 1 and 3, fishing opportunities for a stock may be fixed at levels that are lower than the ranges of F<sub>MSY</sub>.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>5.</num>
+                  <subparagraph>
+                     <content>
+                        <p>Notwithstanding paragraphs 3 and 4, fishing opportunities for a stock may be fixed in accordance with the upper range of F<sub>MSY</sub> available at that time for that stock, provided that the stock referred to in Article 1(1) is above MSY B<sub>trigger</sub>:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(a)</num>
+                        <content>
+                           <p>if, on the basis of scientific advice or evidence, it is necessary for the achievement of the objectives laid down in Article 3 in the case of mixed fisheries;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(b)</num>
+                        <content>
+                           <p>if, on the basis of scientific advice or evidence, it is necessary to avoid serious harm to a stock caused by intra- or inter-species stock dynamics; or</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(c)</num>
+                        <content>
+                           <p>in order to limit variations in fishing opportunities between consecutive years to not more than 20 %.</p>
+                        </content>
+                     </point>
+                  </list>
+               </paragraph>
+               <paragraph>
+                  <num>6.</num>
+                  <content>
+                     <p>Where ranges of F<sub>MSY</sub> cannot be determined for a stock listed in Article 1(1) because of a lack of adequate scientific information, that stock shall be managed in accordance with Article 5 until ranges of F<sub>MSY</sub> are available pursuant to paragraph 2 of this Article.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>7.</num>
+                  <content>
+                     <p>Fishing opportunities shall in any event be fixed in such a way as to ensure that there is less than a 5 % probability of the spawning stock biomass falling below B<sub>lim</sub>.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d6e1232">
+               <num>Article 5</num>
+               <heading>Management of by-catch stocks</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>Management measures for the stocks referred to in Article 1(4) including, where appropriate, fishing opportunities shall be set taking into account the best available scientific advice and shall be consistent with the objectives laid down in Article 3.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>The stocks referred to in Article 1(4) shall be managed under the precautionary approach to fisheries management as defined in point 8 of Article 4(1) of Regulation (EU) No 1380/2013 when no adequate scientific information is available, and in accordance with Article 3(5) of this Regulation.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <content>
+                     <p>In accordance with Article 9(5) of Regulation (EU) No 1380/2013, the management of mixed fisheries with regard to stocks referred to in Article 1(4) of this Regulation shall take into account the difficulty of fishing all stocks at MSY at the same time, especially in situations where that leads to a premature closure of the fishery.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d6e1252">
+               <num>Article 6</num>
+               <heading>Limitation of variations in fishing opportunities for a stock</heading>
+               <paragraph>
+                  <content>
+                     <p>A relevant Advisory Council may recommend to the Commission a management approach that seeks to limit year-to-year variations in the fishing opportunities for a particular stock listed in Article 1(1).</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <content>
+                     <p>The Council may take any such recommendations into account when fixing fishing opportunities provided that these fishing opportunities comply with Articles 4 and 8.</p>
+                  </content>
+               </paragraph>
+            </article>
+         </chapter>
+         <chapter>
+            <num>CHAPTER IV</num>
+            <heading>SAFEGUARDS</heading>
+            <article xml:id="art_d6e1270">
+               <num>Article 7</num>
+               <heading>Conservation reference points</heading>
+               <paragraph>
+                  <subparagraph>
+                     <content>
+                        <p>The following conservation reference points to safeguard the full reproductive capacity of the stocks referred to in Article 1(1) shall, based on the plan, be requested in particular from ICES or a similar independent scientific body recognised at Union or international level:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(a)</num>
+                        <content>
+                           <p>MSY B<sub>trigger</sub> for stocks referred to in Article 1(1);</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(b)</num>
+                        <content>
+                           <p>B<sub>lim</sub> for stocks referred to in Article 1(1).</p>
+                        </content>
+                     </point>
+                  </list>
+               </paragraph>
+            </article>
+            <article xml:id="art_d6e1297">
+               <num>Article 8</num>
+               <heading>Safeguards</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>When scientific advice indicates that for a given year the spawning stock biomass and, in the case of Norway lobster stocks, abundance of any of the stocks referred to in Article 1(1) is below the MSY B<sub>trigger</sub>, all appropriate remedial measures shall be adopted to ensure rapid return of the stock or functional unit concerned to levels above those capable of producing MSY. In particular, notwithstanding Article 4(3), fishing opportunities shall be set at levels consistent with a fishing mortality that is reduced below the upper range of F<sub>MSY</sub>, taking into account the decrease in biomass.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>When scientific advice indicates that the spawning stock biomass and, in the case of Norway lobster stocks, abundance of any of the stocks referred to in Article 1(1) is below the B<sub>lim</sub>, further remedial measures shall be taken to ensure rapid return of the stock or functional unit concerned to levels above the level capable of producing MSY. In particular, those remedial measures may include, notwithstanding Article 4(3), suspending the targeted fishery for the stock or functional unit concerned and the adequate reduction of fishing opportunities.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <subparagraph>
+                     <content>
+                        <p>Remedial measures referred to in this Article may include:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(a)</num>
+                        <content>
+                           <p>emergency measures in accordance with Articles 12 and 13 of Regulation (EU) No 1380/2013;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(b)</num>
+                        <content>
+                           <p>measures pursuant to Article 9 of this Regulation.</p>
+                        </content>
+                     </point>
+                  </list>
+               </paragraph>
+               <paragraph>
+                  <num>4.</num>
+                  <content>
+                     <p>The choice of measures referred to in this Article shall be made in accordance with the nature, seriousness, duration and repetition of the situation where the spawning stock biomass and, in the case of Norway lobster stocks, abundance is below the levels referred to in Article 7.</p>
+                  </content>
+               </paragraph>
+            </article>
+         </chapter>
+         <chapter>
+            <num>CHAPTER V</num>
+            <heading>TECHNICAL MEASURES</heading>
+            <article xml:id="art_d6e1355">
+               <num>Article 9</num>
+               <heading>Technical measures</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <subparagraph>
+                     <content>
+                        <p>The Commission is empowered to adopt delegated acts in accordance with Article 18 of this Regulation and Article 18 of Regulation (EU) No 1380/2013 in order to supplement this Regulation regarding the following technical measures:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(a)</num>
+                        <content>
+                           <p>specifications of characteristics of fishing gears and rules governing their use, to ensure or improve selectivity, to reduce unwanted catches or to minimise the negative impact on the ecosystem;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(b)</num>
+                        <content>
+                           <p>specifications of modifications or additional devices to the fishing gears, to ensure or improve selectivity, to reduce unwanted catches or to minimise the negative impact on the ecosystem;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(c)</num>
+                        <content>
+                           <p>limitations or prohibitions on the use of certain fishing gears and on fishing activities in certain areas or periods to protect spawning fish, fish below the minimum conservation reference size or non-target fish species, or to minimise the negative impact on the ecosystem; and</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(d)</num>
+                        <content>
+                           <p>the fixing of minimum conservation reference sizes for any of the stocks to which this Regulation applies, to ensure the protection of juveniles of marine organisms.</p>
+                        </content>
+                     </point>
+                  </list>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>The measures referred to in paragraph 1 of this Article shall contribute to the achievement of the objectives set out in Article 3.</p>
+                  </content>
+               </paragraph>
+            </article>
+         </chapter>
+         <chapter>
+            <num>CHAPTER VI</num>
+            <heading>FISHING OPPORTUNITIES</heading>
+            <article xml:id="art_d6e1405">
+               <num>Article 10</num>
+               <heading>Fishing opportunities</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>When allocating fishing opportunities available to them in accordance with Article 17 of Regulation (EU) No 1380/2013, Member States shall take account of the likely catch composition of vessels participating in mixed fisheries.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>Member States may, after notifying the Commission, exchange all or part of the fishing opportunities allocated to them pursuant to Article 16(8) of Regulation (EU) No 1380/2013.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <content>
+                     <p>Without prejudice to Article 8, the TAC for the stocks of Norway lobster in the Western Waters may be established for management areas corresponding to each of the areas defined under points 22 to 25 of the first subparagraph of Article 1(1). In such cases, the TAC for a management area may be the sum of the catch limits of those functional units and of the statistical rectangles outside the functional units.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d6e1425">
+               <num>Article 11</num>
+               <heading>Recreational fisheries</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>When scientific advice indicates that recreational fishing is having a significant impact on the fishing mortality of a stock referred to in Article 1(1), the Council may set non-discriminatory limits for recreational fishermen.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>When setting the limits referred to in paragraph 1, the Council shall refer to transparent and objective criteria, including those of environmental, social and economic nature. The criteria used may include, in particular, the impact of recreational fishing on the environment, the societal importance of that activity and its contribution to the economy in coastal areas.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <content>
+                     <p>Where appropriate, Member States shall take the necessary and proportionate measures for the monitoring and collection of data for a reliable estimation of the actual recreational catch levels.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d6e1446">
+               <num>Article 12</num>
+               <heading>Effort limitation for sole in the Western Channel</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>The TACs for sole in the Western Channel (ICES division 7e) under the plan shall be complemented by fishing effort limitations.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>When fixing the fishing opportunities, the Council shall decide annually on the maximum number of days at sea for vessels present in the Western Channel and deploying beam trawls of mesh size equal to or greater than 80 mm and for vessels in the Western Channel deploying static nets with mesh size equal to or less than 220 mm.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <content>
+                     <p>The maximum number of days at sea referred to in paragraph 2 shall be adjusted in the same proportion as the adjustment in fishing mortality corresponding to the variation in the TACs.</p>
+                  </content>
+               </paragraph>
+            </article>
+         </chapter>
+         <chapter>
+            <num>CHAPTER VII</num>
+            <heading>PROVISIONS LINKED TO THE LANDING OBLIGATION</heading>
+            <article xml:id="art_d6e1475">
+               <num>Article 13</num>
+               <heading>Provisions linked to the landing obligation in Union waters of the Western Waters</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>For all stocks of species in the Western Waters to which the landing obligation applies under Article 15(1) of Regulation (EU) No 1380/2013, the Commission is empowered to adopt delegated acts in accordance with Article 18 of this Regulation and Article 18 of Regulation (EU) No 1380/2013 in order to supplement this Regulation by specifying details of that obligation as provided for in points (a) to (e) of Article 15(5) of Regulation (EU) No 1380/2013.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>The landing obligation provided for in Article 15(1) of Regulation (EU) No 1380/2013 shall not apply to recreational fishing, including in cases where the Council sets limits in accordance with Article 11 of this Regulation.</p>
+                  </content>
+               </paragraph>
+            </article>
+         </chapter>
+         <chapter>
+            <num>CHAPTER VIII</num>
+            <heading>ACCESS TO WATERS AND RESOURCES</heading>
+            <article xml:id="art_d6e1499">
+               <num>Article 14</num>
+               <heading>Fishing authorisations and capacity ceilings</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>For each of the ICES zones referred to in Article 1(1) of this Regulation, each Member State shall issue fishing authorisations in accordance with Article 7 of Regulation (EC) No 1224/2009 for vessels flying its flag and which engage in fishing activities in that area. In such fishing authorisations, Member States may also limit the total capacity of such vessels using a specific gear.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>The Commission shall be empowered to adopt delegated acts in accordance with Article 18 of this Regulation and Article 18 of Regulation (EU) No 1380/2013 supplementing this Regulation by setting limits regarding the total capacity of the fleets of the Member States concerned so as to facilitate achievement of the objectives set out in Article 3 of this Regulation.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <content>
+                     <p>Each Member State shall establish and maintain a list of vessels holding the fishing authorisation referred to in paragraph 1 and make it available on its official website to the Commission and the other Member States.</p>
+                  </content>
+               </paragraph>
+            </article>
+         </chapter>
+         <chapter>
+            <num>CHAPTER IX</num>
+            <heading>MANAGEMENT OF STOCKS OF COMMON INTEREST</heading>
+            <article xml:id="art_d6e1528">
+               <num>Article 15</num>
+               <heading>Principles and objectives of management of stocks of common interest to the Union and third countries</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>Where stocks of common interest are also exploited by third countries, the Union shall engage with those third countries with a view to ensuring that those stocks are managed in a sustainable manner that is consistent with the objectives of Regulation (EU) No 1380/2013, in particular Article 2(2) thereof, and of this Regulation. Where no formal agreement is reached, the Union shall make every effort to reach common arrangements for fishing of such stocks with a view to making the sustainable management possible thereby promoting a level-playing field for Union operators.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>In the context of the joint management of stocks with third countries, the Union may exchange fishing opportunities with third countries pursuant to Article 33(2) of Regulation (EU) No 1380/2013.</p>
+                  </content>
+               </paragraph>
+            </article>
+         </chapter>
+         <chapter>
+            <num>CHAPTER X</num>
+            <heading>REGIONALISATION</heading>
+            <article xml:id="art_d6e1554">
+               <num>Article 16</num>
+               <heading>Regional cooperation</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>Article 18(1) to (6) of Regulation (EU) No 1380/2013 shall apply to measures referred to in Articles 9 and 13 and Article 14(2) of this Regulation.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>For the purpose of paragraph 1 of this Article, Member States having a direct management interest in the North Western waters may submit joint recommendations for the North Western Waters and Member States having direct management interest in the South Western Waters may submit joint recommendations for the South Western Waters. Those Member States may also together submit joint recommendations for the whole of those waters. Those recommendations shall be submitted in accordance with Article 18(1) of Regulation (EU) No 1380/2013 for the first time not later than 27 March 2020 and thereafter 12 months after each submission of the evaluation of the plan in accordance with Article 17 of this Regulation. The Member States concerned may also submit such recommendations when necessary, in particular in the event of a change in the situation of any of the stocks to which this Regulation applies, or to tackle emergency situations identified by the latest scientific advice. Joint recommendations in respect of measures concerning a given calendar year shall be submitted not later than 1 July of the previous year.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <content>
+                     <p>The empowerments granted under Articles 9 and 13 and Article 14(2) of this Regulation shall be without prejudice to powers conferred to the Commission under other provisions of Union law, including under Regulation (EU) No 1380/2013.</p>
+                  </content>
+               </paragraph>
+            </article>
+         </chapter>
+         <chapter>
+            <num>CHAPTER XI</num>
+            <heading>EVALUATION AND PROCEDURAL PROVISIONS</heading>
+            <article xml:id="art_d6e1586">
+               <num>Article 17</num>
+               <heading>Evaluation of the plan</heading>
+               <paragraph>
+                  <content>
+                     <p>By 27 March 2024, and every five years thereafter, the Commission shall report to the European Parliament and to the Council on the results and impact of the plan on the stocks to which this Regulation applies and on the fisheries exploiting those stocks, in particular as regards the achievement of the objectives set out in Article 3.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d6e1596">
+               <num>Article 18</num>
+               <heading>Exercise of the delegation</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>The power to adopt delegated acts is conferred on the Commission subject to the conditions laid down in this Article.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>The power to adopt delegated acts referred to in Article 1(1), Articles 9 and 13 and Article 14(2) shall be conferred on the Commission for a period of five years from 26 March 2019. The Commission shall draw up a report in respect of the delegation of power not later than nine months before the end of the five-year period. The delegation of power shall be tacitly extended for periods of an identical duration, unless the European Parliament or the Council opposes such extension not later than three months before the end of each period.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <content>
+                     <p>The delegation of power referred to in Article 1(1), Articles 9 and 13 and Article 14(2) may be revoked at any time by the European Parliament or by the Council. A decision to revoke shall put an end to the delegation of the power specified in that decision. It shall take effect the day following the publication of the decision in the <i>Official Journal of the European Union</i> or at a later date specified therein. It shall not affect the validity of any delegated acts already in force.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>4.</num>
+                  <content>
+                     <p>Before adopting a delegated act, the Commission shall consult experts designated by each Member State in accordance with the principles laid down in the Interinstitutional Agreement of 13 April 2016 on Better Law-Making.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>5.</num>
+                  <content>
+                     <p>As soon as it adopts a delegated act, the Commission shall notify it simultaneously to the European Parliament and to the Council.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>6.</num>
+                  <content>
+                     <p>A delegated act adopted pursuant to Article 1(1), Articles 9 and 13 and Article 14(2) shall enter into force only if no objection has been expressed either by the European Parliament or the Council within a period of two months of notification of that act to the European Parliament and to the Council or if, before the expiry of that period, the European Parliament and the Council have both informed the Commission that they will not object. That period shall be extended by two months at the initiative of the European Parliament or of the Council.</p>
+                  </content>
+               </paragraph>
+            </article>
+         </chapter>
+         <chapter>
+            <num>CHAPTER XII</num>
+            <heading>SUPPORT FROM THE EUROPEAN MARITIME AND FISHERIES FUND</heading>
+            <article xml:id="art_d6e1650">
+               <num>Article 19</num>
+               <heading>Support from the European Maritime and Fisheries Fund</heading>
+               <paragraph>
+                  <content>
+                     <p>Temporary cessation measures adopted in order to achieve the objectives of the plan shall be deemed as temporary cessation of fishing activities for the purposes of points (a) and (c) of Article 33(1) of Regulation (EU) No 508/2014.</p>
+                  </content>
+               </paragraph>
+            </article>
+         </chapter>
+         <chapter>
+            <num>CHAPTER XIII</num>
+            <heading>AMENDMENTS TO REGULATIONS (EU) 2016/1139 AND (EU) 2018/973</heading>
+            <article xml:id="art_d6e1666" leos:compliant="false">
+               <num>Article 20</num>
+               <heading>Amendments to Regulation (EU) 2016/1139</heading>
+               <paragraph>
+                  <subparagraph>
+                     <content>
+                        <p>Regulation (EU) 2016/1139 is amended as follows:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(1)</num>
+                        <alinea>
+                           <content>
+                              <p>Article 2 is replaced by the following:</p>
+                           </content>
+                        </alinea>
+                        <alinea>
+                           <content>
+                              <p>
+                                 <mod>
+                                    <quotedStructure startQuote="" endQuote="">
+                                       <article xml:id="art_d6e1683">
+                                          <num>&apos;Article 2</num>
+                                          <heading>Definitions</heading>
+                                          <paragraph>
+                                             <subparagraph>
+                                                <content>
+                                                   <p>For the purposes of this Regulation, the definitions referred to in Article 4 of Regulation (EU) No 1380/2013, Article 4 of Regulation (EC) No 1224/2009 and Article 2 of Regulation (EC) No 2187/2005 apply. In addition, the following definitions apply:</p>
+                                                </content>
+                                             </subparagraph>
+                                             <list>
+                                                <point>
+                                                   <num>(1)</num>
+                                                   <content>
+                                                      <p>&apos;pelagic stocks&apos; means the stocks listed in points (c) to (h) of Article 1(1) of this Regulation and any combination thereof;</p>
+                                                   </content>
+                                                </point>
+                                                <point>
+                                                   <num>(2)</num>
+                                                   <content>
+                                                      <p>&apos;range of F<sub>MSY</sub>&apos; means a range of values provided in the best available scientific advice, in particular from ICES or a similar independent scientific body recognised at Union or international level, where all levels of fishing mortality within that range result in maximum sustainable yield (MSY) in the long term with a given fishing pattern and under current average environmental conditions without significantly affecting the reproduction process for the stock in question. It is derived to deliver no more than a 5 % reduction in long-term yield compared to the MSY. It is capped so that the probability of the stock falling below the limit spawning stock biomass reference point (B<sub>lim</sub>) is no more than 5 %;</p>
+                                                   </content>
+                                                </point>
+                                                <point>
+                                                   <num>(3)</num>
+                                                   <content>
+                                                      <p>&apos;MSY F<sub>lower</sub>&apos; means the lowest value within the range of F<sub>MSY</sub>;</p>
+                                                   </content>
+                                                </point>
+                                                <point>
+                                                   <num>(4)</num>
+                                                   <content>
+                                                      <p>&apos;MSY F<sub>upper</sub>&apos; means the highest value within the range of F<sub>MSY</sub>;</p>
+                                                   </content>
+                                                </point>
+                                                <point>
+                                                   <num>(5)</num>
+                                                   <content>
+                                                      <p>&apos;F<sub>MSY</sub> point value&apos; is the value of the estimated fishing mortality that with a given fishing pattern and under current average environmental conditions gives the long-term maximum yield;</p>
+                                                   </content>
+                                                </point>
+                                                <point>
+                                                   <num>(6)</num>
+                                                   <content>
+                                                      <p>&apos;lower range of F<sub>MSY</sub>&apos; means a range that contains values from MSY F<sub>lower</sub> to F<sub>MSY</sub> point value;</p>
+                                                   </content>
+                                                </point>
+                                                <point>
+                                                   <num>(7)</num>
+                                                   <content>
+                                                      <p>&apos;upper range of F<sub>MSY</sub>&apos; means a range that contains values from F<sub>MSY</sub> point value up to MSY F<sub>upper</sub>;</p>
+                                                   </content>
+                                                </point>
+                                                <point>
+                                                   <num>(8)</num>
+                                                   <content>
+                                                      <p>&apos;B<sub>lim</sub>&apos; means the spawning stock biomass reference point provided in the best available scientific advice, in particular by ICES or a similar independent scientific body recognised at Union or international level, below which there may be reduced reproductive capacity;</p>
+                                                   </content>
+                                                </point>
+                                                <point>
+                                                   <num>(9)</num>
+                                                   <content>
+                                                      <p>&apos;MSY B<sub>trigger</sub>&apos; means the spawning stock biomass reference point provided for in the best available scientific advice, in particular from ICES or a similar independent scientific body recognised at Union or international level, below which specific and appropriate management action is to be taken to ensure that exploitation rates in combination with natural variations rebuild stocks above levels capable of producing MSY in the long term;</p>
+                                                   </content>
+                                                </point>
+                                                <point>
+                                                   <num>(10)</num>
+                                                   <content>
+                                                      <p>&apos;Member States concerned&apos; means Member States having a direct management interest, namely Denmark, Germany, Estonia, Latvia, Lithuania, Poland, Finland and Sweden.&apos;;</p>
+                                                   </content>
+                                                </point>
+                                             </list>
+                                          </paragraph>
+                                       </article>
+                                    </quotedStructure>
+                                 </mod>
+                              </p>
+                           </content>
+                        </alinea>
+                     </point>
+                     <point>
+                        <num>(2)</num>
+                        <alinea>
+                           <content>
+                              <p>Article 4 is replaced by the following:</p>
+                           </content>
+                        </alinea>
+                        <alinea>
+                           <content>
+                              <p>
+                                 <mod>
+                                    <quotedStructure startQuote="" endQuote="">
+                                       <article xml:id="art_d6e1831">
+                                          <num>&apos;Article 4</num>
+                                          <heading>Targets</heading>
+                                          <paragraph>
+                                             <num>1.</num>
+                                             <content>
+                                                <p>The target fishing mortality in line with the ranges of F<sub>MSY</sub> defined in Article 2 shall be achieved as soon as possible, and on a progressive, incremental basis by 2020 for the stocks listed in Article 1(1), and shall be maintained thereafter within the ranges of F<sub>MSY</sub>, in accordance with this Article.</p>
+                                             </content>
+                                          </paragraph>
+                                          <paragraph>
+                                             <num>2.</num>
+                                             <content>
+                                                <p>The ranges of F<sub>MSY</sub> based on the plan shall be requested in particular from ICES or a similar independent scientific body recognised at Union or international level.</p>
+                                             </content>
+                                          </paragraph>
+                                          <paragraph>
+                                             <num>3.</num>
+                                             <content>
+                                                <p>In accordance with Article 16(4) of Regulation (EU) No 1380/2013, when the Council fixes fishing opportunities for a stock, it shall establish those opportunities within the lower range of F<sub>MSY</sub> available at that time for that stock.</p>
+                                             </content>
+                                          </paragraph>
+                                          <paragraph>
+                                             <num>4.</num>
+                                             <content>
+                                                <p>Notwithstanding paragraphs 1 and 3, fishing opportunities may be fixed at levels that are lower than the ranges of F<sub>MSY</sub>.</p>
+                                             </content>
+                                          </paragraph>
+                                          <paragraph>
+                                             <num>5.</num>
+                                             <subparagraph>
+                                                <content>
+                                                   <p>Notwithstanding paragraphs 3 and 4, fishing opportunities for a stock may be fixed in accordance with the upper range of F<sub>MSY</sub> available at that time for that stock, provided that the stock referred to in Article 1(1) is above MSY B<sub>trigger</sub>:</p>
+                                                </content>
+                                             </subparagraph>
+                                             <list>
+                                                <point>
+                                                   <num>(a)</num>
+                                                   <content>
+                                                      <p>if, on the basis of scientific advice or evidence, it is necessary for the achievement of the objectives laid down in Article 3 in the case of mixed fisheries;</p>
+                                                   </content>
+                                                </point>
+                                                <point>
+                                                   <num>(b)</num>
+                                                   <content>
+                                                      <p>if, on the basis of scientific advice or evidence, it is necessary to avoid serious harm to a stock caused by intra- or inter-species stock dynamics; or</p>
+                                                   </content>
+                                                </point>
+                                                <point>
+                                                   <num>(c)</num>
+                                                   <content>
+                                                      <p>in order to limit variations in fishing opportunities between consecutive years to not more than 20 %.</p>
+                                                   </content>
+                                                </point>
+                                             </list>
+                                          </paragraph>
+                                          <paragraph>
+                                             <num>6.</num>
+                                             <content>
+                                                <p>Fishing opportunities shall in any event be fixed in such a way as to ensure that there is less than a 5 % probability of the spawning stock biomass falling below B<sub>lim</sub>.&apos;;</p>
+                                             </content>
+                                          </paragraph>
+                                       </article>
+                                    </quotedStructure>
+                                 </mod>
+                              </p>
+                           </content>
+                        </alinea>
+                     </point>
+                     <point>
+                        <num>(3)</num>
+                        <alinea>
+                           <content>
+                              <p>In Chapter III, the following Article is inserted after Article 4:</p>
+                           </content>
+                        </alinea>
+                        <alinea>
+                           <content>
+                              <p>
+                                 <mod>
+                                    <quotedStructure startQuote="" endQuote="">
+                                       <article xml:id="art_d6e1922">
+                                          <num>&apos;Article 4a</num>
+                                          <heading>Conservation reference points</heading>
+                                          <paragraph>
+                                             <subparagraph>
+                                                <content>
+                                                   <p>The following conservation reference points to safeguard the full reproductive capacity of the stocks referred to in Article 1(1) shall, based on the plan, be requested in particular from ICES or a similar independent scientific body recognised at Union or international level:</p>
+                                                </content>
+                                             </subparagraph>
+                                             <list>
+                                                <point>
+                                                   <num>(a)</num>
+                                                   <content>
+                                                      <p>MSY B<sub>trigger</sub> for stocks referred to in Article 1(1);</p>
+                                                   </content>
+                                                </point>
+                                                <point>
+                                                   <num>(b)</num>
+                                                   <content>
+                                                      <p>B<sub>lim</sub> for stocks referred to in Article 1(1).&apos;;</p>
+                                                   </content>
+                                                </point>
+                                             </list>
+                                          </paragraph>
+                                       </article>
+                                    </quotedStructure>
+                                 </mod>
+                              </p>
+                           </content>
+                        </alinea>
+                     </point>
+                     <point>
+                        <num>(4)</num>
+                        <alinea>
+                           <content>
+                              <p>Article 5 is replaced by the following:</p>
+                           </content>
+                        </alinea>
+                        <alinea>
+                           <content>
+                              <p>
+                                 <mod>
+                                    <quotedStructure startQuote="" endQuote="">
+                                       <article xml:id="art_d6e1960">
+                                          <num>&apos;Article 5</num>
+                                          <heading>Safeguards</heading>
+                                          <paragraph>
+                                             <num>1.</num>
+                                             <content>
+                                                <p>When scientific advice indicates that for a given year the spawning biomass of any of the stocks referred to in Article 1(1) is below the MSY B<sub>trigger</sub>, all appropriate remedial measures shall be adopted to ensure rapid return of the stock concerned to levels above those capable of producing MSY. In particular, notwithstanding Article 4(3), fishing opportunities shall be set at levels consistent with a fishing mortality that is reduced below the upper range of F<sub>MSY</sub>, taking into account the decrease in biomass.</p>
+                                             </content>
+                                          </paragraph>
+                                          <paragraph>
+                                             <num>2.</num>
+                                             <content>
+                                                <p>When scientific advice indicates that the spawning stock biomass of any of the stocks referred to in Article 1(1) is below the B<sub>lim</sub>, further remedial measures shall be taken to ensure rapid return of the stock concerned to levels above the level capable of producing MSY. In particular, those remedial measures may include, notwithstanding Article 4(3), suspending the targeted fishery for the stock and the adequate reduction of fishing opportunities.</p>
+                                             </content>
+                                          </paragraph>
+                                          <paragraph>
+                                             <num>3.</num>
+                                             <subparagraph>
+                                                <content>
+                                                   <p>Remedial measures referred to in this Article may include:</p>
+                                                </content>
+                                             </subparagraph>
+                                             <list>
+                                                <point>
+                                                   <num>(a)</num>
+                                                   <content>
+                                                      <p>emergency measures in accordance with Articles 12 and 13 of Regulation (EU) No 1380/2013;</p>
+                                                   </content>
+                                                </point>
+                                                <point>
+                                                   <num>(b)</num>
+                                                   <content>
+                                                      <p>measures pursuant to Articles 7 and 8 of this Regulation.</p>
+                                                   </content>
+                                                </point>
+                                             </list>
+                                          </paragraph>
+                                          <paragraph>
+                                             <num>4.</num>
+                                             <content>
+                                                <p>The choice of measures referred to in this Article shall be made in accordance with the nature, seriousness, duration and repetition of the situation where the spawning stock biomass is below the levels referred to in Article 4a.&apos;;</p>
+                                             </content>
+                                          </paragraph>
+                                       </article>
+                                    </quotedStructure>
+                                 </mod>
+                              </p>
+                           </content>
+                        </alinea>
+                     </point>
+                     <point>
+                        <num>(5)</num>
+                        <alinea>
+                           <content>
+                              <p>In Article 7, the following paragraph is added:</p>
+                           </content>
+                        </alinea>
+                        <alinea>
+                           <content>
+                              <p>
+                                 <mod>
+                                    <quotedStructure startQuote="" endQuote="">
+                                       <paragraph>
+                                          <num>&apos;3.</num>
+                                          <content>
+                                             <p>The landing obligation provided for in Article 15(1) of Regulation (EU) No 1380/2013 shall not apply to recreational fishing, including in cases where the Council sets limits for recreational fishermen.&apos;;</p>
+                                          </content>
+                                       </paragraph>
+                                    </quotedStructure>
+                                 </mod>
+                              </p>
+                           </content>
+                        </alinea>
+                     </point>
+                     <point>
+                        <num>(6)</num>
+                        <content>
+                           <p>Annexes I and II are deleted.</p>
+                        </content>
+                     </point>
+                  </list>
+               </paragraph>
+            </article>
+            <article xml:id="art_d6e2034" leos:compliant="false">
+               <num>Article 21</num>
+               <heading>Amendments to Regulation (EU) 2018/973</heading>
+               <paragraph>
+                  <subparagraph>
+                     <content>
+                        <p>Regulation (EU) 2018/973 is amended as follows:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(1)</num>
+                        <alinea>
+                           <content>
+                              <p>In Article 9, the following paragraph is added:</p>
+                           </content>
+                        </alinea>
+                        <alinea>
+                           <content>
+                              <p>
+                                 <mod>
+                                    <quotedStructure startQuote="" endQuote="">
+                                       <paragraph>
+                                          <num>&apos;3.</num>
+                                          <subparagraph>
+                                             <content>
+                                                <p>By way of derogation from Annex XII to Regulation (EC) No 850/98, the minimum conservation reference size for Norway lobster (<i>Nephrops norvegicus</i>) in ICES division 3a is set at 105 mm.</p>
+                                             </content>
+                                          </subparagraph>
+                                          <subparagraph>
+                                             <content>
+                                                <p>This paragraph shall apply until the date on which Annex XII to Regulation (EC) No 850/98 ceases to apply.&apos;;</p>
+                                             </content>
+                                          </subparagraph>
+                                       </paragraph>
+                                    </quotedStructure>
+                                 </mod>
+                              </p>
+                           </content>
+                        </alinea>
+                     </point>
+                     <point>
+                        <num>(2)</num>
+                        <alinea>
+                           <content>
+                              <p>Article 11 is replaced by the following:</p>
+                           </content>
+                        </alinea>
+                        <alinea>
+                           <content>
+                              <p>
+                                 <mod>
+                                    <quotedStructure startQuote="" endQuote="">
+                                       <article xml:id="art_d6e2072">
+                                          <num>&apos;Article 11</num>
+                                          <heading>Provisions linked to the landing obligation in Union waters of the North Sea</heading>
+                                          <paragraph>
+                                             <num>1.</num>
+                                             <content>
+                                                <p>For all stocks of species in the North Sea to which the landing obligation applies under Article 15(1) of Regulation (EU) No 1380/2013, the Commission is empowered to adopt delegated acts in accordance with Article 16 of this Regulation and Article 18 of Regulation (EU) No 1380/2013 in order to supplement this Regulation by specifying details of that obligation as provided for in points (a) to (e) of Article 15(5) of Regulation (EU) No 1380/2013.</p>
+                                             </content>
+                                          </paragraph>
+                                          <paragraph>
+                                             <num>2.</num>
+                                             <content>
+                                                <p>The landing obligation provided for in Article 15(1) of Regulation (EU) No 1380/2013 shall not apply to recreational fishing, including in cases where the Council sets limits on recreational fisheries in accordance with Article 10(4) of this Regulation.&apos;.</p>
+                                             </content>
+                                          </paragraph>
+                                       </article>
+                                    </quotedStructure>
+                                 </mod>
+                              </p>
+                           </content>
+                        </alinea>
+                     </point>
+                  </list>
+               </paragraph>
+            </article>
+         </chapter>
+         <chapter>
+            <num>CHAPTER XIV</num>
+            <heading>FINAL PROVISIONS</heading>
+            <article xml:id="art_d6e2099">
+               <num>Article 22</num>
+               <heading>Repeals</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <subparagraph>
+                     <content>
+                        <p>The following Regulations are repealed:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(a)</num>
+                        <content>
+                           <p>Regulation (EC) No 811/2004;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(b)</num>
+                        <content>
+                           <p>Regulation (EC) No 2166/2005;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(c)</num>
+                        <content>
+                           <p>Regulation (EC) No 388/2006;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(d)</num>
+                        <content>
+                           <p>Regulation (EC) No 509/2007;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(e)</num>
+                        <content>
+                           <p>Regulation (EC) No 1300/2008.</p>
+                        </content>
+                     </point>
+                  </list>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>References made to the repealed Regulations shall be construed as references to this Regulation.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d6e2146">
+               <num>Article 23</num>
+               <heading>Entry into force</heading>
+               <paragraph>
+                  <content>
+                     <p>This Regulation shall enter into force on the day following that of its publication in the <i>Official Journal of the European Union</i>.</p>
+                  </content>
+               </paragraph>
+            </article>
+         </chapter>
+         <clause>
+            <content>
+               <p>This Regulation shall be binding in its entirety and directly applicable in all Member States.</p>
+            </content>
+         </clause>
+      </body>
+      <conclusions>
+         <p>Done at Brussels, 19 March 2019.</p>
+         <block name="signatory">
+            <signature>
+               <organization refersTo="">For the European Parliament</organization>
+               <role refersTo="">The President</role>
+               <person refersTo="">A. TAJANI</person>
+            </signature>
+            <signature>
+               <organization refersTo="">For the Council</organization>
+               <role refersTo="">The President</role>
+               <person refersTo="">G. CIAMBA</person>
+            </signature>
+         </block>
+      </conclusions>
+   </bill>
+</akomaNtoso>

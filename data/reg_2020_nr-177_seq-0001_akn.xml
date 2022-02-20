@@ -1,0 +1,1008 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"
+            xmlns:fmx="http://formex.publications.europa.eu/schema/formex-05.21-20110601.xd"
+            xmlns:leos="urn:eu:europa:ec:leos"
+            xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <bill name="">
+      <meta xmlns:fn="http://www.w3.org/2005/xpath-functions">
+         <identification source="~COM">
+            <FRBRWork>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRcountry value=""/>
+            </FRBRWork>
+            <FRBRExpression>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+            </FRBRManifestation>
+         </identification>
+      </meta>
+      <preface>
+         <longTitle>
+            <p>
+               <docStage/>
+               <docType>REGULATION (EU) 2020/740 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL</docType>of 25 May 2020<docPurpose>on the labelling of tyres with respect to fuel efficiency and other parameters, amending Regulation (EU) 2017/1369 and repealing Regulation (EC) No 1222/2009</docPurpose>
+            </p>
+         </longTitle>
+      </preface>
+      <preamble>
+         <formula name="actingEntity">
+            <p>THE EUROPEAN PARLIAMENT AND THE COUNCIL OF THE EUROPEAN UNION,</p>
+         </formula>
+         <citations>
+            <citation>
+               <p>Having regard to the Treaty on the Functioning of the European Union, and in particular Article 114 and Article 194(2) thereof,</p>
+            </citation>
+            <citation>
+               <p>Having regard to the proposal from the European Commission,</p>
+            </citation>
+            <citation>
+               <p>After transmission of the draft legislative act to the national parliaments,</p>
+            </citation>
+            <citation>
+               <p>Having regard to the opinion of the European Economic and Social Committee<authorialNote placement="bottom" marker="1">
+                     <p>OJ C 62, 15.2.2019, p. 280.</p>
+                  </authorialNote>,</p>
+            </citation>
+            <citation>
+               <p>After consulting the Committee of the Regions,</p>
+            </citation>
+            <citation>
+               <p>Acting in accordance with the ordinary legislative procedure<authorialNote placement="bottom" marker="2">
+                     <p>Position of the European Parliament of 26 March 2019 (not yet published in the Official Journal) and position of the Council at first reading of 25 February 2020 (OJ C 105, 31.3.2020, p. 1). Position of the European Parliament of 13 May 2020 (not yet published in the Official Journal).</p>
+                  </authorialNote>,</p>
+            </citation>
+         </citations>
+         <recitals xml:id="recs_d92e91">
+            <intro>
+               <p>Whereas:</p>
+            </intro>
+            <recital xml:id="rec_d92e94">
+               <num>(1)</num>
+               <p>The Union is committed to building an Energy Union with a forward‐looking climate policy. Fuel efficiency is a crucial element of the Union&apos;s 2030 climate and energy policy framework and is key to moderating energy demand.</p>
+            </recital>
+            <recital xml:id="rec_d92e100">
+               <num>(2)</num>
+               <p>The Commission has reviewed Regulation (EC) No 1222/2009 of the European Parliament and of the Council<authorialNote placement="bottom" marker="3">
+                     <p>Regulation (EC) No 1222/2009 of the European Parliament and of the Council of 25 November 2009 on the labelling of tyres with respect to fuel efficiency and other essential parameters (OJ L 342, 22.12.2009, p. 46).</p>
+                  </authorialNote> and has identified the need to update its provisions to improve its effectiveness.</p>
+            </recital>
+            <recital xml:id="rec_d92e116">
+               <num>(3)</num>
+               <p>It is appropriate to replace Regulation (EC) No 1222/2009 in order to clarify and update some of its provisions, taking into account technological progress with regard to tyres.</p>
+            </recital>
+            <recital xml:id="rec_d92e122">
+               <num>(4)</num>
+               <p>The transport sector accounts for a third of the Union&apos;s energy consumption. Road transport was responsible for about 22 % of the Union&apos;s total greenhouse gas emissions in 2015. Tyres, mainly because of their rolling resistance, account for 20 to 30 % of the fuel consumption of vehicles. A reduction in the rolling resistance of tyres would therefore contribute significantly to the fuel efficiency of road transport and thus to the reduction of greenhouse gas emissions and to the decarbonisation of the transport sector.</p>
+            </recital>
+            <recital xml:id="rec_d92e128">
+               <num>(5)</num>
+               <p>In order to meet the challenge of reducing the CO<sub>2</sub> emissions of road transport, it is appropriate that Member States, in cooperation with the Commission, provide for incentives to innovate with regard to fuel‐efficient and safe C1 tyres, C2 tyres and C3 tyres.</p>
+            </recital>
+            <recital xml:id="rec_d92e138">
+               <num>(6)</num>
+               <p>Tyres are characterised by a number of interrelated parameters. Improving one parameter, such as rolling resistance, may have an adverse impact on other parameters, such as wet grip, while improving wet grip performance may have an adverse impact on external rolling noise. Tyre manufacturers should be encouraged to optimise all parameters beyond the current standards.</p>
+            </recital>
+            <recital xml:id="rec_d92e144">
+               <num>(7)</num>
+               <p>Fuel‐efficient tyres can be cost‐effective, since the fuel savings that they generate more than offset the increased purchase price resulting from the higher production costs of such tyres.</p>
+            </recital>
+            <recital xml:id="rec_d92e150">
+               <num>(8)</num>
+               <p>Regulation (EC) No 661/2009 of the European Parliament and of the Council<authorialNote placement="bottom" marker="4">
+                     <p>Regulation (EC) No 661/2009 of the European Parliament and of the Council of 13 July 2009 concerning type-approval requirements for the general safety of motor vehicles, their trailers and systems, components and separate technical units intended therefor (OJ L 200, 31.7.2009, p. 1).</p>
+                  </authorialNote> lays down minimum requirements for the rolling resistance of tyres. Technological developments make it possible to reduce the energy losses that are due to tyre rolling resistance significantly beyond those minimum requirements. To reduce the environmental impact of road transport, it is therefore appropriate to update the provisions on the labelling of tyres to encourage end-users to purchase more fuel‐efficient tyres by providing them with harmonised information on the rolling resistance parameter.</p>
+            </recital>
+            <recital xml:id="rec_d92e166">
+               <num>(9)</num>
+               <p>Improving the labelling of tyres will enable consumers to obtain more relevant and more comparable information on fuel efficiency, safety and noise and to take cost‐effective and environmentally friendly decisions when purchasing tyres.</p>
+            </recital>
+            <recital xml:id="rec_d92e173">
+               <num>(10)</num>
+               <p>Traffic noise is a significant nuisance and has a harmful effect on health. Regulation (EC) No 661/2009 lays down minimum requirements for the external rolling noise of tyres. Technological developments make it possible to reduce external rolling noise significantly beyond those minimum requirements. To reduce traffic noise, it is therefore appropriate to update the provisions on the labelling of tyres to encourage end-users to purchase tyres with lower external rolling noise by providing them with harmonised information on the external rolling noise parameter.</p>
+            </recital>
+            <recital xml:id="rec_d92e179">
+               <num>(11)</num>
+               <p>The provision of harmonised information on external rolling noise also facilitates the implementation of measures to limit traffic noise and contributes to increased awareness of the effect of tyres on traffic noise within the framework of Directive 2002/49/EC of the European Parliament and of the Council<authorialNote placement="bottom" marker="5">
+                     <p>Directive 2002/49/EC of the European Parliament and of the Council of 25 June 2002 relating to the assessment and management of environmental noise (OJ L 189, 18.7.2002, p. 12).</p>
+                  </authorialNote>.</p>
+            </recital>
+            <recital xml:id="rec_d92e195">
+               <num>(12)</num>
+               <p>Regulation (EC) No 661/2009 also lays down minimum requirements for the wet grip of tyres. Technological developments make it possible to improve wet grip significantly beyond those minimum requirements, and thus to reduce wet braking distances. To improve road safety, it is therefore appropriate to update the provisions on the labelling of tyres to encourage end-users to purchase tyres with higher wet grip performance by providing them with harmonised information on the wet grip parameter.</p>
+            </recital>
+            <recital xml:id="rec_d92e201">
+               <num>(13)</num>
+               <p>In order to ensure alignment with the international framework, Regulation (EC) No 661/2009 refers to Regulation No 117 of the Economic Commission for Europe of the United Nations (UNECE)<authorialNote placement="bottom" marker="6">
+                     <p>Regulation No 117 of the Economic Commission for Europe of the United Nations (UNECE) &#45; Uniform provisions concerning the approval of tyres with regard to rolling sound emissions and/or to adhesion on wet surfaces and/or to rolling resistance [2016/1350] (OJ L 218, 12.8.2016, p. 1).</p>
+                  </authorialNote>, which sets out the relevant measurement methods for the rolling resistance, external rolling noise, and wet and snow grip performance of tyres.</p>
+            </recital>
+            <recital xml:id="rec_d92e214">
+               <num>(14)</num>
+               <p>Information on the performance of tyres that are specifically designed for use in severe snow and ice conditions should be included on the tyre label. Information on snow grip performance should be based on Regulation No 117 of the Economic Commission for Europe of the United Nations (UNECE), in its most up‐to‐date version applicable to the Union, (UNECE Regulation No 117), and the &apos;Alpine Symbol&apos; pictogram contained therein should be included on the tyre label of a tyre which satisfies the minimum snow grip index values set out in that Regulation. Information on ice grip performance should, once the standard is formally adopted, be based on ISO standard ISO 19447 and the ice grip pictogram should be included on the tyre label of a tyre which satisfies the minimum ice grip index values set out in that ISO standard. Until adoption of ISO standard ISO 19447, ice grip performance should be assessed against reliable, accurate and reproducible methods, which take into account the generally recognised state of the art. The tyre label of a tyre which satisfies the minimum ice grip performance standards should show the ice grip pictogram set out in Annex I.</p>
+            </recital>
+            <recital xml:id="rec_d92e225">
+               <num>(15)</num>
+               <p>The abrasion of tyres during use is a significant source of microplastics, which are harmful to the environment and human health. The Commission&apos;s Communication &apos;A European Strategy for Plastics in a Circular Economy&apos; therefore mentions the need to address the unintentional release of microplastics from tyres, inter alia through information measures such as labelling and through minimum requirements for tyres. Linked to tyre abrasion is the concept of mileage, namely the number of kilometres a tyre will last before it needs to be replaced because of tread wear. In addition to tyre abrasion and tread wear, the lifespan of a tyre depends on a range of factors, such as the wear resistance of the tyre, including the compound, tread pattern and structure, road conditions, maintenance, tyre pressure and driving behaviour.</p>
+            </recital>
+            <recital xml:id="rec_d92e235">
+               <num>(16)</num>
+               <p>However, a suitable testing method to measure tyre abrasion and mileage is not currently available. Therefore, the Commission should mandate the development of such a testing method, taking into full consideration the state of the art and internationally developed or proposed standards and regulations, as well as the work carried out by industry.</p>
+            </recital>
+            <recital xml:id="rec_d92e241">
+               <num>(17)</num>
+               <p>Re‐treaded tyres constitute a substantial part of the market for heavy‐duty vehicle tyres. The re‐treading of tyres extends their lifespan and contributes to circular economy objectives, such as waste reduction. Applying labelling requirements to such tyres would bring substantial energy savings. This Regulation should provide for the future inclusion of a suitable testing method to measure the performance of re‐treaded tyres, which is not currently available.</p>
+            </recital>
+            <recital xml:id="rec_d92e247">
+               <num>(18)</num>
+               <p>The energy label provided for under Regulation (EU) 2017/1369 of the European Parliament and of the Council<authorialNote placement="bottom" marker="7">
+                     <p>Regulation (EU) 2017/1369 of the European Parliament and of the Council of 4 July 2017 setting a framework for energy labelling and repealing Directive 2010/30/EU (OJ L 198, 28.7.2017, p. 1).</p>
+                  </authorialNote>, which ranks the energy consumption of products on a scale from &apos;A&apos; to &apos;G&apos;, is recognised by over 85 % of Union consumers as a clear and transparent information tool and has proven to be effective in promoting more efficient products. The tyre label should be of the same design to the extent possible, while recognising the specificities of tyre parameters.</p>
+            </recital>
+            <recital xml:id="rec_d92e271">
+               <num>(19)</num>
+               <p>The provision of comparable information on tyre parameters in the form of a standard tyre label is likely to influence purchasing decisions by end-users in favour of more fuel‐efficient, longer‐lasting, safer and quieter tyres. This, in turn, is likely to encourage tyre manufacturers to optimise tyre parameters, which would pave the way for a more sustainable consumption and production of tyres.</p>
+            </recital>
+            <recital xml:id="rec_d92e278">
+               <num>(20)</num>
+               <p>The need for greater information on fuel efficiency and other parameters is relevant for all end-users, including purchasers of replacement tyres, purchasers of tyres fitted on new vehicles, and fleet managers and transport undertakings, who cannot easily compare the parameters of different tyre brands in the absence of a labelling and harmonised testing regime. It is therefore appropriate to require that a tyre label be provided for all tyres offered with or fitted on vehicles.</p>
+            </recital>
+            <recital xml:id="rec_d92e284">
+               <num>(21)</num>
+               <p>Currently, tyre labels are required for tyres for cars (C1 tyres) and vans (C2 tyres) but not for heavy‐duty vehicles (C3 tyres). C3 tyres consume more fuel and cover more kilometres per year than C1 tyres or C2 tyres, and therefore the potential to reduce fuel consumption and greenhouse gas emissions from heavy‐duty vehicles is significant. Therefore, C3 tyres should be included in the scope of this Regulation. Including C3 tyres fully in the scope of this Regulation is also in line with Regulation (EU) 2018/956 of the European Parliament and of the Council<authorialNote placement="bottom" marker="8">
+                     <p>Regulation (EU) 2018/956 of the European Parliament and of the Council of 28 June 2018 on the monitoring and reporting of CO<sub>2</sub> emissions from and fuel consumption of new heavy-duty vehicles (OJ L 173, 9.7.2018, p. 1).</p>
+                  </authorialNote>, which provides for the monitoring and reporting of CO<sub>2</sub> emissions from and fuel consumption of new heavy‐duty vehicles, and with Regulation (EU) 2019/1242 of the European Parliament and of the Council<authorialNote placement="bottom" marker="9">
+                     <p>Regulation (EU) 2019/1242 of the European Parliament and of the Council of 20 June 2019 setting CO<sub>2</sub> emission performance standards for new heavy-duty vehicles and amending Regulations (EC) No 595/2009 and (EU) 2018/956 of the European Parliament and of the Council and Council Directive 96/53/EC (OJ L 198, 25.7.2019, p. 202).</p>
+                  </authorialNote>, which sets CO<sub>2</sub> emission performance standards for new heavy‐duty vehicles.</p>
+            </recital>
+            <recital xml:id="rec_d92e322">
+               <num>(22)</num>
+               <p>Many end-users make tyre purchasing decisions without seeing the actual tyre and therefore do not see the tyre label affixed to it. In such situations, end-users should be shown the tyre label before taking their purchasing decisions. The display of a tyre label on tyres at the point of sale, as well as in technical promotional material, should ensure that distributors as well as potential end-users receive harmonised information on the relevant tyre parameters at the time and place of the purchasing decision.</p>
+            </recital>
+            <recital xml:id="rec_d92e329">
+               <num>(23)</num>
+               <p>Some end-users make tyre purchasing decisions before arriving at the point of sale, or purchase tyres by mail order or on the internet. To ensure that those end-users can also make an informed choice on the basis of harmonised information on, inter alia, fuel efficiency, wet grip and external rolling noise, tyre labels should be displayed in all technical promotional material and visual advertisements for specific tyre types, including where such material is made available on the internet. Where visual advertisements pertain to a tyre family, and not only to a specific tyre type, the tyre label does not have to be shown.</p>
+            </recital>
+            <recital xml:id="rec_d92e335">
+               <num>(24)</num>
+               <p>Potential end-users should be provided with information explaining each component of the tyre label and its relevance. That information should be provided in all technical promotional material, for example on suppliers&apos; websites, but should not be required in visual advertisements. Technical promotional material should not be understood to include advertisements via billboards, newspapers, magazines or radio or television broadcasts.</p>
+            </recital>
+            <recital xml:id="rec_d92e341">
+               <num>(25)</num>
+               <p>Without prejudice to the market surveillance obligations of Member States or to the obligation of suppliers to check product conformity, suppliers should make the requisite product compliance information electronically available in the product database. The information that is relevant to consumers and distributors should be made publicly available in the public part of the product database. That information should be made available as open data so as to give mobile application developers and comparison tools the opportunity to use it. Easy direct access to the public part of the product database should be facilitated by user‐oriented tools that are included on the printed tyre label, such as a dynamic quick response code (QR code).</p>
+            </recital>
+            <recital xml:id="rec_d92e347">
+               <num>(26)</num>
+               <p>The compliance part of the product database should be subject to strict data protection rules. The required specific parts of the technical documentation in the compliance part of the product database should be made available both to market surveillance authorities and to the Commission. Where technical information is too sensitive to include it in the category of technical documentation, market surveillance authorities should have access to that information when necessary in accordance with the duty of cooperation on suppliers or by way of additional parts of the technical documentation uploaded to the product database by suppliers on a voluntary basis.</p>
+            </recital>
+            <recital xml:id="rec_d92e353">
+               <num>(27)</num>
+               <p>The sale of tyres through internet sales platforms, rather than directly from suppliers, is growing. Therefore, hosting service providers should enable the display of the tyre label and product information sheet provided by the supplier close to the price indication. They should inform the distributor of the obligation to display the tyre label and product information sheet, but should not be responsible for the accuracy or content of that tyre label or product information sheet. The obligations imposed on hosting service providers under this Regulation should remain limited to what is reasonable and should not amount to a general obligation to monitor the information that they store or to actively seek facts or circumstances indicating activities that do not comply with the requirements of this Regulation. However, Article 14(1) of Directive 2000/31/EC of the European Parliament and of the Council<authorialNote placement="bottom" marker="10">
+                     <p>Directive 2000/31/EC of the European Parliament and of the Council of 8 June 2000 on certain legal aspects of information society services, in particular electronic commerce, in the Internal Market (Directive on electronic commerce) (OJ L 178, 17.7.2000, p. 1).</p>
+                  </authorialNote> requires hosting service providers that wish to benefit from the liability exemption contained in that provision to act expeditiously to remove or disable access to information that they store at the request of recipients of their services where such information does not comply with the requirements of this Regulation, such as those relating to missing, incomplete or incorrect tyre labels or product information sheets. They should do so as soon as they obtain actual knowledge of such information or, as regards claims for damages, as soon as they become aware of such information, for example through specific information provided by a market surveillance authority. Suppliers selling directly to end-users via their own website are subject to the same distance selling obligations as distributors.</p>
+            </recital>
+            <recital xml:id="rec_d92e369">
+               <num>(28)</num>
+               <p>Rolling resistance, wet grip, external rolling noise and other parameters should be measured in accordance with reliable, accurate and reproducible methods that take into account the generally recognised state‐of‐the‐art measurement and calculation methods. As far as possible, such methods should reflect average consumer behaviour and be robust in order to deter both intentional and unintentional circumvention. Tyre labels should reflect the comparative performance of the tyres in actual use, within the constraints arising from the need for reliable, accurate and reproducible laboratory testing, in order to enable end-users to compare different tyres and to limit testing costs for manufacturers.</p>
+            </recital>
+            <recital xml:id="rec_d92e377">
+               <num>(29)</num>
+               <p>Where they have sufficient reason to believe that a supplier has not ensured the accuracy of the tyre label and in order to give additional confidence to consumers, national authorities as defined in point (37) of Article 3 of Regulation (EU) 2018/858 of the European Parliament and of the Council<authorialNote placement="bottom" marker="11">
+                     <p>Regulation (EU) 2018/858 of the European Parliament and of the Council of 30 May 2018 on the approval and market surveillance of motor vehicles and their trailers, and of systems, components and separate technical units intended for such vehicles, amending Regulations (EC) No 715/2007 and (EC) No 595/2009 and repealing Directive 2007/46/EC (OJ L 151, 14.6.2018, p. 1).</p>
+                  </authorialNote> should check whether the classes for rolling resistance, wet grip and external rolling noise displayed on the tyre label, as well as the pictograms for other parameters, correspond to the documentation provided by the supplier based on test results and calculations. Such checks may take place during the type‐approval process and do not necessarily require the physical testing of the tyre.</p>
+            </recital>
+            <recital xml:id="rec_d92e393">
+               <num>(30)</num>
+               <p>Compliance by suppliers, wholesalers, dealers and other distributors with the provisions on the labelling of tyres is essential in order to ensure a level playing field in the Union. Member States should therefore monitor such compliance through regular <i>ex</i>‐<i>post</i> controls and market surveillance in accordance with Regulation (EU) 2019/1020 of the European Parliament and of the Council<authorialNote placement="bottom" marker="12">
+                     <p>Regulation (EU) 2019/1020 of the European Parliament and of the Council of 20 June 2019 on market surveillance and compliance of products and amending Directive 2004/42/EC and Regulations (EC) No 765/2008 and (EU) No 305/2011 (OJ L 169, 25.6.2019, p. 1).</p>
+                  </authorialNote>.</p>
+            </recital>
+            <recital xml:id="rec_d92e415">
+               <num>(31)</num>
+               <p>In order to facilitate the monitoring of compliance, to provide a useful tool to end-users and to allow alternative ways for distributors to receive product information sheets, tyres should be included in the product database established under Regulation (EU) 2017/1369. That Regulation should therefore be amended accordingly.</p>
+            </recital>
+            <recital xml:id="rec_d92e421">
+               <num>(32)</num>
+               <p>In order for end-users to have confidence in the tyre label, other labels that mimic the tyre label should not be allowed. For the same reason, other labels, marks, symbols or inscriptions that are likely to mislead or confuse end-users with respect to the parameters covered by the tyre label should not be allowed.</p>
+            </recital>
+            <recital xml:id="rec_d92e427">
+               <num>(33)</num>
+               <p>The penalties applicable to infringements of this Regulation and of the delegated acts adopted pursuant thereto should be effective, proportionate and dissuasive.</p>
+            </recital>
+            <recital xml:id="rec_d92e433">
+               <num>(34)</num>
+               <p>In order to promote energy efficiency, climate change mitigation, road safety and environmental protection, Member States should be able to create incentives for the use of energy‐efficient and safe tyres. Member States are free to decide on the nature of such incentives. Such incentives should comply with Union State aid rules and should not constitute unjustifiable market barriers. This Regulation does not prejudice the outcome of any State aid procedures that may be undertaken in accordance with Articles 107 and 108 of the Treaty on the Functioning of the European Union (TFEU) in respect of such incentives.</p>
+            </recital>
+            <recital xml:id="rec_d92e439">
+               <num>(35)</num>
+               <p>In order to amend the content and format of the tyre label, to introduce requirements with respect to re‐treaded tyres, tyre abrasion and mileage, and to adapt the Annexes to technological progress, the power to adopt acts in accordance with Article 290 TFEU should be delegated to the Commission. It is of particular importance that the Commission carry out appropriate consultations during its preparatory work, including at expert level, and that those consultations be conducted in accordance with the principles laid down in the Interinstitutional Agreement of 13 April 2016 on Better Law‐Making<authorialNote placement="bottom" marker="13">
+                     <p>OJ L 123, 12.5.2016, p. 1.</p>
+                  </authorialNote>. In particular, to ensure equal participation in the preparation of delegated acts, the European Parliament and the Council receive all documents at the same time as Member States&apos; experts, and their experts systematically have access to meetings of Commission expert groups dealing with the preparation of delegated acts.</p>
+            </recital>
+            <recital xml:id="rec_d92e454">
+               <num>(36)</num>
+               <p>Once reliable, accurate and reproducible methods to test and measure tyre abrasion and mileage are available, the Commission should assess the feasibility of adding information on tyre abrasion and mileage to the tyre label. When proposing a delegated act to add tyre abrasion and mileage to the tyre label, the Commission should take that assessment into account, and should collaborate closely with industry, relevant standardisation organisations, such as the European Committee for Standardization (CEN), the United Nations Economic Commission for Europe (UNECE) or the International Organisation for Standardisation (ISO), and representatives of other stakeholders interested in the development of suitable testing methods. Information on tyre abrasion and mileage should be unambiguous and should not negatively affect the clear intelligibility and effectiveness of the tyre label as a whole towards end-users. Such information would also enable end-users to make an informed choice with regard to tyres, their lifespan and the unintentional release of microplastics. This would help protect the environment and at the same time allow end-users to estimate the operating costs of tyres over a longer period.</p>
+            </recital>
+            <recital xml:id="rec_d92e461">
+               <num>(37)</num>
+               <p>Tyres which were already placed on the market before the date of application of this Regulation should not need to be provided with a new tyre label.</p>
+            </recital>
+            <recital xml:id="rec_d92e467">
+               <num>(38)</num>
+               <p>The size of the tyre label should remain the same as that set out in Regulation (EC) No 1222/2009. Details regarding snow grip and ice grip, and the QR code, should be included on the tyre label.</p>
+            </recital>
+            <recital xml:id="rec_d92e474">
+               <num>(39)</num>
+               <p>The Commission should carry out an evaluation of this Regulation. In accordance with paragraph 22 of the Interinstitutional Agreement of 13 April 2016 on Better Law‐Making, that evaluation should be based on efficiency, effectiveness, relevance, coherence and value added and should provide the basis for impact assessments of options for further action.</p>
+            </recital>
+            <recital xml:id="rec_d92e483">
+               <num>(40)</num>
+               <p>Since the objective of this Regulation, namely to increase safety, the protection of health, and the economic and environmental efficiency of road transport by providing information to end-users to allow them to choose more fuel‐efficient, longer‐lasting, safer and quieter tyres, cannot be sufficiently achieved by the Member States because it requires harmonised information for end-users, but can rather, by reason of the need for a harmonised regulatory framework and a level playing field for manufacturers, be better achieved at Union level, the Union may adopt measures, in accordance with the principle of subsidiarity as set out in Article 5 of the Treaty on European Union (TEU). A Regulation remains the appropriate legal instrument as it imposes clear and detailed rules which preclude divergent transposition by Member States and thus ensures a higher degree of harmonisation across the Union. A harmonised regulatory framework at Union rather than at Member State level reduces costs for suppliers, ensures a level playing field and ensures the free movement of goods across the internal market. In accordance with the principle of proportionality, as set out in Article 5 TEU, this Regulation does not go beyond what is necessary in order to achieve that objective.</p>
+            </recital>
+            <recital xml:id="rec_d92e489">
+               <num>(41)</num>
+               <p>Regulation (EC) No 1222/2009 should therefore be repealed with effect from the date of the application of this Regulation,</p>
+            </recital>
+         </recitals>
+         <formula name="enactingFormula">
+            <p>HAVE ADOPTED THIS REGULATION:</p>
+         </formula>
+      </preamble>
+      <body>
+         <article xml:id="art_d92e498">
+            <num>Article 1</num>
+            <heading>Subject matter</heading>
+            <paragraph>
+               <content>
+                  <p>This Regulation establishes a framework for the provision of harmonised information on tyre parameters through labelling to allow end-users to make an informed choice when purchasing tyres, for the purpose of increasing safety, the protection of health, and the economic and environmental efficiency of road transport, by promoting fuel‐efficient, long‐lasting and safe tyres with low noise levels.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d92e505">
+            <num>Article 2</num>
+            <heading>Scope</heading>
+            <paragraph>
+               <num>1.</num>
+               <subparagraph>
+                  <content>
+                     <p>This Regulation applies to C1 tyres, C2 tyres and C3 tyres that are placed on the market.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>Requirements for re‐treaded tyres apply once a suitable testing method to measure the performance of such tyres is available in accordance with Article 13.</p>
+                  </content>
+               </subparagraph>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <subparagraph>
+                  <content>
+                     <p>This Regulation does not apply to:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <content>
+                        <p>off‐road professional tyres;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <content>
+                        <p>tyres designed to be fitted only on vehicles registered for the first time before 1 October 1990;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(c)</num>
+                     <content>
+                        <p>T‐type temporary‐use spare tyres;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(d)</num>
+                     <content>
+                        <p>tyres whose speed rating is less than 80 km/h;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(e)</num>
+                     <content>
+                        <p>tyres whose nominal rim diameter does not exceed 254 mm or is 635 mm or more;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(f)</num>
+                     <content>
+                        <p>tyres fitted with additional devices to improve traction properties, such as studded tyres;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(g)</num>
+                     <content>
+                        <p>tyres designed only to be fitted on vehicles intended exclusively for racing;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(h)</num>
+                     <content>
+                        <p>second‐hand tyres, unless such tyres are imported from a third country.</p>
+                     </content>
+                  </point>
+               </list>
+            </paragraph>
+         </article>
+         <article xml:id="art_d92e576">
+            <num>Article 3</num>
+            <heading>Definitions</heading>
+            <paragraph>
+               <subparagraph>
+                  <content>
+                     <p>For the purposes of this Regulation, the following definitions apply:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(1)</num>
+                     <content>
+                        <p>&apos;C1 tyres&apos;, &apos;C2 tyres&apos; and &apos;C3 tyres&apos; means tyres belonging to the respective classes set out in Article 8(1) of Regulation (EC) No 661/2009;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(2)</num>
+                     <content>
+                        <p>&apos;re‐treaded tyre&apos; means a used tyre that is reconditioned by replacing the worn tread with new material;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(3)</num>
+                     <content>
+                        <p>&apos;T‐type temporary‐use spare tyre&apos; means a temporary‐use spare tyre designed for use at inflation pressures higher than those established for standard and reinforced tyres;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(4)</num>
+                     <content>
+                        <p>&apos;off‐road professional tyre&apos; means a special‐use tyre used primarily in severe off‐road conditions;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(5)</num>
+                     <content>
+                        <p>&apos;tyre label&apos; means a graphic diagram, in printed or electronic form, including in the form of a sticker, which includes symbols in order to inform end-users about the performance of a tyre or batch of tyres in relation to the parameters set out in Annex I;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(6)</num>
+                     <content>
+                        <p>&apos;point of sale&apos; means a location where tyres are displayed or stored and are offered for sale, including car show rooms where tyres that are not fitted on vehicles are offered for sale to end-users;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(7)</num>
+                     <content>
+                        <p>&apos;technical promotional material&apos; means documentation, in printed or electronic form, that is produced by a supplier to supplement advertising material with the information set out in Annex IV;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(8)</num>
+                     <content>
+                        <p>&apos;product information sheet&apos; means a standard document containing the information set out in Annex III in printed or electronic form;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(9)</num>
+                     <content>
+                        <p>&apos;technical documentation&apos; means documentation sufficient to enable market surveillance authorities to assess the accuracy of the tyre label and the product information sheet, including the information set out in point (2) of Annex VII;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(10)</num>
+                     <content>
+                        <p>&apos;product database&apos; means the product database established pursuant to Article 12 of Regulation (EU) 2017/1369;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(11)</num>
+                     <content>
+                        <p>&apos;distance selling&apos; means the offer for sale, hire or hire purchase by mail order, catalogue, internet, telemarketing or by any other method by which the potential end-user cannot be expected to see the tyre displayed;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(12)</num>
+                     <content>
+                        <p>&apos;manufacturer&apos; means a manufacturer as defined in point (8) of Article 3 of Regulation (EU) 2019/1020;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(13)</num>
+                     <content>
+                        <p>&apos;importer&apos; means an importer as defined in point (9) of Article 3 of Regulation (EU) 2019/1020;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(14)</num>
+                     <content>
+                        <p>&apos;authorised representative&apos; means a natural or legal person established within the Union who has received a written mandate from a manufacturer to act on the manufacturer&apos;s behalf in relation to specified tasks with regard to the manufacturer&apos;s obligations under the requirements of this Regulation;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(15)</num>
+                     <content>
+                        <p>&apos;supplier&apos; means a manufacturer established in the Union, an authorised representative of a manufacturer who is not established in the Union, or an importer, who places a product on the Union market;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(16)</num>
+                     <content>
+                        <p>&apos;distributor&apos; means a natural or legal person in the supply chain, other than the supplier, who makes a product available on the market;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(17)</num>
+                     <content>
+                        <p>&apos;making available on the market&apos; means making available on the market as defined in point (1) of Article 3 of Regulation (EU) 2019/1020;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(18)</num>
+                     <content>
+                        <p>&apos;placing on the market&apos; means placing on the market as defined in point (2) of Article 3 of Regulation (EU) 2019/1020;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(19)</num>
+                     <content>
+                        <p>&apos;end-user&apos; means a consumer, fleet manager or road transport undertaking that buys or is expected to buy a tyre;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(20)</num>
+                     <content>
+                        <p>&apos;parameter&apos; means a tyre characteristic that has a significant impact on the environment, road safety or health during the use of the tyre, such as tyre abrasion, mileage, rolling resistance, wet grip, external rolling noise, snow grip or ice grip;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(21)</num>
+                     <content>
+                        <p>&apos;tyre type&apos; means a version of a tyre for which the technical characteristics on the tyre label, the product information sheet and the tyre type identifier are the same for all units of that version;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(22)</num>
+                     <content>
+                        <p>&apos;verification tolerance&apos; means the maximum admissible deviation between the measurement and calculation results of the verification tests performed by, or on behalf of, market surveillance authorities, and the values of the declared or published parameters, reflecting deviation arising from interlaboratory variation;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(23)</num>
+                     <content>
+                        <p>&apos;tyre type identifier&apos; means a code, usually alphanumeric, which distinguishes a specific tyre type from other tyre types that have the same trade name or the same trademark as that of the supplier;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(24)</num>
+                     <content>
+                        <p>&apos;equivalent tyre type&apos; means a tyre type which is placed on the market by the same supplier as another tyre type with a different tyre type identifier and which has the same technical characteristics that are relevant to the tyre label and the same product information sheet.</p>
+                     </content>
+                  </point>
+               </list>
+            </paragraph>
+         </article>
+         <article xml:id="art_d92e812">
+            <num>Article 4</num>
+            <heading>Obligations of tyre suppliers</heading>
+            <paragraph>
+               <num>1.</num>
+               <subparagraph>
+                  <content>
+                     <p>Suppliers shall ensure that C1 tyres, C2 tyres and C3 tyres that are placed on the market are accompanied free of charge:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <content>
+                        <p>for each individual tyre, by a tyre label, in the form of a sticker, that complies with the requirements set out in Annex II, indicating the information and class for each of the parameters set out in Annex I, and by a product information sheet; or</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <content>
+                        <p>for each batch of one or more identical tyres, by a printed tyre label that complies with the requirements set out in Annex II, indicating the information and class for each of the parameters set out in Annex I, and by a product information sheet.</p>
+                     </content>
+                  </point>
+               </list>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <subparagraph>
+                  <content>
+                     <p>For tyres sold or offered for sale by distance selling, suppliers shall ensure that the tyre label is displayed close to the price indication and that the product information sheet can be accessed, including, upon request from the end-user, in printed form. The size of the tyre label shall be such that it is clearly visible and legible and shall be proportionate to the size specified in point 2.1 of Annex II.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>For tyres sold or offered for sale on the internet, suppliers may make the tyre label for a specific tyre type available in a nested display.</p>
+                  </content>
+               </subparagraph>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <subparagraph>
+                  <content>
+                     <p>Suppliers shall ensure that any visual advertisement for a specific tyre type shows the tyre label. If the visual advertisement indicates the price of that tyre type, the tyre label shall be displayed close to the price indication.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>For visual advertisements on the internet, suppliers may make the tyre label available in a nested display.</p>
+                  </content>
+               </subparagraph>
+            </paragraph>
+            <paragraph>
+               <num>4.</num>
+               <content>
+                  <p>Suppliers shall ensure that any technical promotional material concerning a specific tyre type displays the tyre label of that tyre type and includes the information set out in Annex IV.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>5.</num>
+               <content>
+                  <p>Suppliers shall provide to a relevant national authority as defined in point (37) of Article 3 of Regulation (EU) 2018/858 the values used to determine the related classes and any additional performance information that the supplier declares on the tyre label of tyre types in accordance with Annex I to this Regulation, as well as the tyre label that complies with the requirements set out in Annex II to this Regulation. That information shall be submitted to the relevant national authority on the basis of Article 5(1) and (2) of this Regulation before the placing on the market of the tyre types in question, so that the authority may verify the accuracy of the tyre label.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>6.</num>
+               <content>
+                  <p>Suppliers shall ensure the accuracy of the tyre labels and product information sheets that they provide.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>7.</num>
+               <content>
+                  <p>Suppliers may make technical documentation available to the authorities of Member States other than those authorities indicated in paragraph 5 or to relevant national accredited bodies on request.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>8.</num>
+               <content>
+                  <p>Suppliers shall cooperate with market surveillance authorities and shall take immediate action to remedy any case of non‐compliance with this Regulation for which they are responsible, at their own initiative or when required to do so by market surveillance authorities.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>9.</num>
+               <content>
+                  <p>Suppliers shall not provide or display other labels, marks, symbols or inscriptions that do not comply with this Regulation and that would be likely to mislead or confuse end-users with respect to the parameters set out in Annex I.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>10.</num>
+               <content>
+                  <p>Suppliers shall not provide or display labels that mimic the tyre label provided for under this Regulation.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d92e887">
+            <num>Article 5</num>
+            <heading>Obligations of tyre suppliers in relation to the product database</heading>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>From 1 May 2021, suppliers shall enter the information set out in Annex VII into the product database before placing on the market a tyre produced after that date.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>For tyres that are produced between 25 June 2020 and 30 April 2021, the supplier shall enter the information set out in Annex VII into the product database by 30 November 2021.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <content>
+                  <p>For tyres that are placed on the market before 25 June 2020, the supplier may enter the information set out in Annex VII into the product database.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>4.</num>
+               <content>
+                  <p>Until the information referred to in paragraphs 1 and 2 has been entered into the product database, the supplier shall make an electronic version of the technical documentation available for inspection within 10 working days of receiving a request from a market surveillance authority.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>5.</num>
+               <content>
+                  <p>Where type‐approval authorities or market surveillance authorities need information other than that set out in Annex VII in order to carry out their tasks under this Regulation, the supplier shall provide them with that information on request.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>6.</num>
+               <content>
+                  <p>A tyre for which changes are made that are relevant for the tyre label or the product information sheet shall be considered to be a new tyre type. The supplier shall indicate in the product database when it has ceased to place on the market units of a certain tyre type.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>7.</num>
+               <content>
+                  <p>After the final unit of a tyre type has been placed on the market, the supplier shall keep the information concerning that tyre type in the compliance part of the product database for a period of five years.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d92e942">
+            <num>Article 6</num>
+            <heading>Obligations of tyre distributors</heading>
+            <paragraph>
+               <num>1.</num>
+               <subparagraph>
+                  <content>
+                     <p>Distributors shall ensure that:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <content>
+                        <p>at the point of sale, tyres bear a tyre label, in the form of a sticker, that complies with the requirements set out in Annex II, provided by the supplier in accordance with point (a) of Article 4(1) in a clearly visible position and legible in its entirety, and that the product information sheet is available, including, upon request, in printed form; or</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <content>
+                        <p>before the sale of a tyre that is part of a batch of one or more identical tyres, a printed tyre label that complies with the requirements set out in Annex II, is shown to the end-user and is clearly displayed close to the tyre at the point of sale, and that the product information sheet is available.</p>
+                     </content>
+                  </point>
+               </list>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <subparagraph>
+                  <content>
+                     <p>Distributors shall ensure that any visual advertisement for a specific tyre type shows the tyre label. If the visual advertisement indicates the price of that tyre type, the tyre label shall be displayed close to the price indication.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>For visual advertisements on the internet for a specific tyre type, distributors may make the tyre label available in a nested display.</p>
+                  </content>
+               </subparagraph>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <content>
+                  <p>Distributors shall ensure that any technical promotional material concerning a specific tyre type displays the tyre label and includes the information set out in Annex IV.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>4.</num>
+               <content>
+                  <p>Distributors shall ensure that where tyres offered for sale are not visible to the end-user at the time of sale, they provide the end-user with a copy of the tyre label before the sale.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>5.</num>
+               <content>
+                  <p>Distributors shall ensure that any paper‐based distance selling shows the tyre label and that end-users can access the product information sheet through a free access website, and can request a printed copy of the product information sheet.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>6.</num>
+               <content>
+                  <p>Distributors that use telemarketing‐based distance selling shall inform end-users of the classes for each of the parameters on the tyre label, and inform end-users that they can access the tyre label and the product information sheet through a free access website, and by requesting a printed copy.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>7.</num>
+               <subparagraph>
+                  <content>
+                     <p>For tyres sold or offered for sale on the internet, distributors shall ensure that the tyre label is displayed close to the price indication and that the product information sheet can be accessed. The size of the tyre label shall be such that it is clearly visible and legible and shall be proportionate to the size specified in point 2.1 of Annex II.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>Distributors may make the tyre label for a specific tyre type available in a nested display.</p>
+                  </content>
+               </subparagraph>
+            </paragraph>
+         </article>
+         <article xml:id="art_d92e1001">
+            <num>Article 7</num>
+            <heading>Obligations of vehicle suppliers and vehicle distributors</heading>
+            <paragraph>
+               <content>
+                  <p>Where end-users intend to acquire a new vehicle, vehicle suppliers and vehicle distributors shall provide, before the sale, those end-users with the tyre label for the tyres offered with or fitted on the vehicle and any relevant technical promotional material, and shall ensure that the product information sheet is available.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d92e1008">
+            <num>Article 8</num>
+            <heading>Obligations of hosting service providers</heading>
+            <paragraph>
+               <content>
+                  <p>Where a service provider as referred to in Article 14 of Directive 2000/31/EC allows the selling of tyres through its internet site, that service provider shall enable the display of the tyre label and the product information sheet provided by the supplier close to the price indication and shall inform the distributor of the obligation to display the tyre label and the product information sheet.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d92e1015">
+            <num>Article 9</num>
+            <heading>Testing and measurement methods</heading>
+            <paragraph>
+               <content>
+                  <p>The information to be provided under Articles 4, 6 and 7 on the parameters indicated on the tyre label shall be obtained in accordance with the testing methods referred to in Annex I and the laboratory alignment procedure referred to in Annex V.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d92e1023">
+            <num>Article 10</num>
+            <heading>Verification procedure</heading>
+            <paragraph>
+               <content>
+                  <p>For each of the parameters set out in Annex I, Member States shall apply the verification procedure set out in Annex VI when assessing the conformity of the declared classes with this Regulation.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d92e1030">
+            <num>Article 11</num>
+            <heading>Obligations of Member States</heading>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>Member States shall not impede the placing on the market or putting into service of tyres within their territories, where such tyres comply with this Regulation.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>Where Member States provide incentives with regard to tyres, such incentives shall target only tyres in class A or B with respect to rolling resistance or wet grip within the meaning of Parts A and B of Annex I, respectively. Taxation and fiscal measures shall not constitute incentives for the purposes of this Regulation.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <content>
+                  <p>Without prejudice to Regulation (EU) 2019/1020, where the relevant national authority as defined in point (37) of Article 3 of Regulation (EU) 2018/858 has sufficient reason to believe that a supplier has not ensured the accuracy of the tyre label in accordance with Article 4(6) of this Regulation, it shall verify that the classes and any additional performance information declared on the tyre label correspond to the values and to the documentation submitted by the supplier, in accordance with Article 4(5) of this Regulation.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>4.</num>
+               <content>
+                  <p>In accordance with Regulation (EU) 2019/1020, Member States shall ensure that the national market surveillance authorities establish a system of routine and ad hoc inspections of points of sale for the purposes of ensuring compliance with this Regulation.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>5.</num>
+               <content>
+                  <p>Member States shall lay down the rules on penalties and enforcement mechanisms applicable to infringements of this Regulation and of the delegated acts adopted pursuant thereto, and shall take all measures necessary to ensure that they are implemented. The penalties provided for shall be effective, proportionate and dissuasive. Member States shall, by 1 May 2021, notify the Commission of those rules and of those measures that have not previously been notified to the Commission, and shall notify it, without delay, of any subsequent amendment affecting them.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d92e1064">
+            <num>Article 12</num>
+            <heading>Union market surveillance and control of products entering the Union market</heading>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>Regulation (EU) 2019/1020 shall apply to the tyres covered by this Regulation and the relevant delegated acts adopted pursuant thereto.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>The Commission shall encourage and support cooperation and the exchange of information on market surveillance relating to the labelling of tyres between the authorities of the Member States that are responsible for market surveillance or are in charge of the control of tyres entering the Union market, and between those authorities and the Commission, in particular by involving the Administrative Cooperation Group for the Labelling of Tyres more closely.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <content>
+                  <p>Member States&apos; national market surveillance strategies established pursuant to Article 13 of Regulation (EU) 2019/1020 shall include actions to ensure the effective enforcement of this Regulation.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>4.</num>
+               <content>
+                  <p>Market surveillance authorities may recover the costs of document inspection and physical product testing from the supplier in cases of non‐compliance by the supplier with this Regulation or the relevant delegated acts adopted pursuant thereto.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d92e1089">
+            <num>Article 13</num>
+            <heading>Delegated acts</heading>
+            <paragraph>
+               <num>1.</num>
+               <subparagraph>
+                  <content>
+                     <p>The Commission is empowered to adopt delegated acts in accordance with Article 14 in order to amend:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <content>
+                        <p>Annex II with regard to the content and format of the tyre label;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <content>
+                        <p>parts D and E of Annex I and Annexes II, III, IV, V, VI and VII, by adapting the values, calculation methods and requirements set out therein to technological progress.</p>
+                     </content>
+                  </point>
+               </list>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>By 26 June 2022, the Commission shall adopt delegated acts in accordance with Article 14 in order to supplement this Regulation by introducing new information requirements for re‐treaded tyres in the Annexes, provided that a suitable testing method is available.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <subparagraph>
+                  <content>
+                     <p>The Commission is also empowered to adopt delegated acts in accordance with Article 14 in order to include parameters or information requirements for tyre abrasion and mileage, as soon as reliable, accurate and reproducible methods to test and measure tyre abrasion and mileage are available for use by European or international standardisation organisations and provided that the following conditions are met:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <content>
+                        <p>a thorough impact assessment has been carried out by the Commission; and</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <content>
+                        <p>a proper consultation of the relevant stakeholders has been conducted by the Commission.</p>
+                     </content>
+                  </point>
+               </list>
+            </paragraph>
+            <paragraph>
+               <num>4.</num>
+               <content>
+                  <p>Where appropriate, when preparing delegated acts, the Commission shall test the content and format of tyre labels with representative groups of Union customers to ensure that the tyre labels are clearly understandable, and shall publish the results.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d92e1145">
+            <num>Article 14</num>
+            <heading>Exercise of the delegation</heading>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>The power to adopt delegated acts is conferred on the Commission subject to the conditions laid down in this Article.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>The power to adopt delegated acts referred to in Article 13 shall be conferred on the Commission for a period of five years from 25 June 2020. The Commission shall draw up a report in respect of the delegation of power not later than nine months before the end of the five‐year period. The delegation of power shall be tacitly extended for periods of an identical duration, unless the European Parliament or the Council opposes such extension not later than three months before the end of each period.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <content>
+                  <p>The delegation of power referred to in Article 13 may be revoked at any time by the European Parliament or by the Council. A decision to revoke shall put an end to the delegation of the power specified in that decision. It shall take effect the day following the publication of the decision in the <i>Official Journal of the European Union</i> or at a later date specified therein. It shall not affect the validity of any delegated acts already in force.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>4.</num>
+               <content>
+                  <p>Before adopting a delegated act, the Commission shall consult experts designated by each Member State in accordance with the principles laid down in the Interinstitutional Agreement of 13 April 2016 on Better Law‐Making.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>5.</num>
+               <content>
+                  <p>As soon as it adopts a delegated act, the Commission shall notify it simultaneously to the European Parliament and to the Council.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>6.</num>
+               <content>
+                  <p>A delegated act adopted pursuant to Article 13 shall enter into force only if no objection has been expressed either by the European Parliament or the Council within a period of two months of notification of that act to the European Parliament and the Council or if, before the expiry of that period, the European Parliament and the Council have both informed the Commission that they will not object. That period shall be extended by two months at the initiative of the European Parliament or of the Council.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d92e1190">
+            <num>Article 15</num>
+            <heading>Evaluation and report</heading>
+            <paragraph>
+               <content>
+                  <p>By 1 June 2025, the Commission shall carry out an evaluation of this Regulation and submit a report to the European Parliament, the Council and the European Economic and Social Committee.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <content>
+                  <p>That report shall assess how effectively this Regulation and the delegated acts adopted pursuant thereto have led end-users to choose higher‐performing tyres, taking into account the impact of this Regulation and the delegated acts adopted pursuant thereto on business, fuel consumption, safety, greenhouse gas emissions, consumer awareness and market surveillance activities. The report shall also assess the costs and benefits of mandatory independent third‐party verification of the information provided in the tyre label, taking into account experience gained with regard to the broader framework provided by Regulation (EC) No 661/2009.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d92e1202" leos:compliant="false">
+            <num>Article 16</num>
+            <heading>Amendment to Regulation (EU) 2017/1369</heading>
+            <paragraph>
+               <content>
+                  <p>In Article 12(2) of Regulation (EU) 2017/1369, point (a) is replaced by the following:</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <content>
+                  <p>
+                     <mod>
+                        <quotedStructure startQuote="" endQuote="">
+                           <list>
+                              <num>&apos;(a)</num>
+                              <content>
+                                 <p>to support market surveillance authorities in carrying out their tasks under this Regulation and the relevant delegated acts, including enforcement thereof, and under Regulation (EU) 2020/740 of the European Parliament and of the Council<authorialNote placement="bottom" marker="14">
+                                       <p>Regulation (EU) 2020/740 of the European Parliament and of the Council of 25 May 2020 on the labelling of tyres with respect to fuel efficiency and other parameters, amending Regulation (EU) 2017/1369 and repealing Regulation (EC) No 1222/2009 (OJ L 177, 5.6.2020, p. 1).&apos;.</p>
+                                    </authorialNote>.</p>
+                              </content>
+                           </list>
+                        </quotedStructure>
+                     </mod>
+                  </p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d92e1231">
+            <num>Article 17</num>
+            <heading>Repeal of Regulation (EC) No 1222/2009</heading>
+            <paragraph>
+               <content>
+                  <p>Regulation (EC) No 1222/2009 is repealed with effect from 1 May 2021.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <content>
+                  <p>References to the repealed Regulation shall be construed as references to this Regulation and read in accordance with the correlation table in Annex VIII to this Regulation.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d92e1243">
+            <num>Article 18</num>
+            <heading>Entry into force</heading>
+            <paragraph>
+               <content>
+                  <p>This Regulation shall enter into force on the twentieth day following that of its publication in the <i>Official Journal of the European Union</i>.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <content>
+                  <p>It shall apply from 1 May 2021.</p>
+               </content>
+            </paragraph>
+         </article>
+         <clause>
+            <content>
+               <p>This Regulation shall be binding in its entirety and directly applicable in all Member States.</p>
+            </content>
+         </clause>
+      </body>
+      <conclusions>
+         <p>Done at Brussels, 25 May 2020.</p>
+         <block name="signatory">
+            <signature>
+               <organization refersTo="">For the European Parliament</organization>
+               <role refersTo="">The President</role>
+               <person refersTo="">D. M. SASSOLI</person>
+            </signature>
+            <signature>
+               <organization refersTo="">For the Council</organization>
+               <role refersTo="">The President</role>
+               <person refersTo="">A. METELKO-ZGOMBIĆ</person>
+            </signature>
+         </block>
+      </conclusions>
+   </bill>
+</akomaNtoso>

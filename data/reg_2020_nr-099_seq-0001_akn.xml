@@ -1,0 +1,309 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"
+            xmlns:fmx="http://formex.publications.europa.eu/schema/formex-05.21-20110601.xd"
+            xmlns:leos="urn:eu:europa:ec:leos"
+            xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <bill name="">
+      <meta xmlns:fn="http://www.w3.org/2005/xpath-functions">
+         <identification source="~COM">
+            <FRBRWork>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRcountry value=""/>
+            </FRBRWork>
+            <FRBRExpression>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+            </FRBRManifestation>
+         </identification>
+      </meta>
+      <preface>
+         <longTitle>
+            <p>
+               <docStage/>
+               <docType>REGULATION (EU) 2020/459 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL</docType>of 30 March 2020<docPurpose>amending Council Regulation (EEC) No 95/93 on common rules for the allocation of slots at Community airports</docPurpose>
+            </p>
+         </longTitle>
+         <container name="EEArelevance">
+            <p>(Text with EEA relevance)</p>
+         </container>
+      </preface>
+      <preamble>
+         <formula name="actingEntity">
+            <p>THE EUROPEAN PARLIAMENT AND THE COUNCIL OF THE EUROPEAN UNION,</p>
+         </formula>
+         <citations>
+            <citation>
+               <p>Having regard to the Treaty on the Functioning of the European Union, and in particular Article 100(2) thereof,</p>
+            </citation>
+            <citation>
+               <p>Having regard to the proposal from the European Commission,</p>
+            </citation>
+            <citation>
+               <p>After transmission of the draft legislative act to the national parliaments,</p>
+            </citation>
+            <citation>
+               <p>After consulting the European Economic and Social Committee,</p>
+            </citation>
+            <citation>
+               <p>After consulting the Committee of the Regions,</p>
+            </citation>
+            <citation>
+               <p>Acting in accordance with the ordinary legislative procedure<authorialNote placement="bottom" marker="1">
+                     <p>Position of the European Parliament of 26 March 2020 (not yet published in the Official Journal) and decision of the Council of 30 March 2020.</p>
+                  </authorialNote>,</p>
+            </citation>
+         </citations>
+         <recitals xml:id="recs_d39e82">
+            <intro>
+               <p>Whereas:</p>
+            </intro>
+            <recital xml:id="rec_d39e85">
+               <num>(1)</num>
+               <p>The outbreak of COVID-19 has led to a sharp drop in air traffic as a result of a significant fall in demand and direct measures taken by the Member States as well as third countries to contain the outbreak. The consequent serious impact on air carriers set in as early as January 2020 in respect of the People&apos;s Republic of China and Hong Kong Special Administrative Region of the People&apos;s Republic of China, has been pervasive since 1 March 2020, and is likely to affect at least two scheduling periods, those of winter 2019/2020 and summer 2020.</p>
+            </recital>
+            <recital xml:id="rec_d39e94">
+               <num>(2)</num>
+               <p>Those circumstances are beyond the control of air carriers and the consequent voluntary or obligatory cancellation of air services by air carriers is a necessary or legitimate response to those circumstances. In particular, voluntary cancellations protect the financial health of air carriers and avoid the negative environmental impact of empty or largely-empty flights operated only for the purpose of maintaining underlying airport slots.</p>
+            </recital>
+            <recital xml:id="rec_d39e100">
+               <num>(3)</num>
+               <p>Figures published by Eurocontrol, which is the network manager for the air traffic network functions of the single European sky, indicate a year-on-year fall of approximately 10 % in air traffic for the European region in the first half of March 2020. Air carriers are reporting large falls in forward bookings and are implementing significant cancellations of flights into the &apos;winter 2019/2020&apos; and &apos;summer 2020&apos; scheduling periods as a result of the outbreak.</p>
+            </recital>
+            <recital xml:id="rec_d39e115">
+               <num>(4)</num>
+               <p>Under Article 8(2) of Council Regulation (EEC) No 95/93<authorialNote placement="bottom" marker="2">
+                     <p>Council Regulation (EEC) No 95/93 of 18 January 1993 on common rules for the allocation of slots at Community airports (OJ L 14, 22.1.1993, p. 1).</p>
+                  </authorialNote>, read in conjunction with Article 10(2) thereof, the failure by an air carrier to operate at least 80 % of a series of slots which it has been allocated at a coordinated airport threatens the historical precedence for these slots.</p>
+            </recital>
+            <recital xml:id="rec_d39e131">
+               <num>(5)</num>
+               <p>Article 10(4) of Regulation (EEC) No 95/93 allows slot coordinators to disregard, for the purpose of calculating historical precedence, the non-operation of airport slots for periods during which the air carrier is unable to operate the planned air services due to, for example, airport closures. However, that Article does not address situations like the outbreak of COVID-19. It is therefore appropriate to amend Regulation (EEC) No 95/93 accordingly.</p>
+            </recital>
+            <recital xml:id="rec_d39e137">
+               <num>(6)</num>
+               <p>In light of known forward bookings and epidemiological forecasts, it can reasonably be expected at this stage that a significant number of cancellations attributable to the outbreak of COVID-19 will occur over the period between 1 March 2020 and at least 24 October 2020. The non-utilisation of slots allocated for this period should not lead to air carriers losing the historical precedence that they would otherwise enjoy. It is therefore necessary to define the conditions under which non-operated slots should be considered as having been operated for those purposes, in respect of the corresponding following season.</p>
+            </recital>
+            <recital xml:id="rec_d39e149">
+               <num>(7)</num>
+               <p>Slots at coordinated airports are a valuable economic resource. Despite the general fall in air traffic, the cancellation of air services should, however, not prevent the use of airport slots by other air carriers which may wish to use them on a temporary basis without such slots accruing grandfather rights. Therefore, when they are not used by the air carrier to which they were allocated, slots should be returned to the coordinator without delay.</p>
+            </recital>
+            <recital xml:id="rec_d39e155">
+               <num>(8)</num>
+               <p>The further development of COVID-19 and its further impact on air carriers are difficult to predict. The Commission should continuously analyse the impact of COVID-19 on the air transport sector and the Union should be in a position to prolong without undue delay the period during which the measures envisaged by this Regulation apply if the adverse conditions persist.</p>
+            </recital>
+            <recital xml:id="rec_d39e161">
+               <num>(9)</num>
+               <p>Since the objective of this Regulation, namely to consider slots unused due to the outbreak of COVID-19 as having been operated, cannot be sufficiently achieved by the Member States but can rather, by reason of the scale and effects of the proposed action, be better achieved at Union level, the Union may adopt measures, in accordance with the principle of subsidiarity as set out in Article 5 of the Treaty on European Union. In accordance with the principle of proportionality, as set out in that Article, this Regulation does not go beyond what is necessary to achieve that objective.</p>
+            </recital>
+            <recital xml:id="rec_d39e168">
+               <num>(10)</num>
+               <p>In order to extend, if necessary and justified, the measures set out in this Regulation, the power to adopt acts in accordance with Article 290 of the Treaty on the Functioning of the European Union should be delegated to the Commission in respect of prolonging the period during which the measures envisaged by this Regulation apply. It is of particular importance that the Commission carry out appropriate consultations during its preparatory work, including at expert level, and that those consultations be conducted in accordance with the principles laid down in the Interinstitutional Agreement of 13 April 2016 on Better Law-Making<authorialNote placement="bottom" marker="3">
+                     <p>OJ L 123, 12.5.2016, p. 1.</p>
+                  </authorialNote>. In particular, to ensure equal participation in the preparation of delegated acts, the European Parliament and the Council receive all documents at the same time as Member States&apos; experts, and their experts systematically have access to meetings of Commission expert groups dealing with the preparation of delegated acts.</p>
+            </recital>
+            <recital xml:id="rec_d39e183">
+               <num>(11)</num>
+               <p>In view of the urgency entailed by the exceptional circumstances caused by the outbreak of COVID-19, it was considered to be appropriate to provide for an exception to the eight‐week period referred to in Article 4 of Protocol No 1 on the role of national Parliaments in the European Union, annexed to the Treaty on European Union, to the Treaty on the Functioning of the European Union and to the Treaty establishing the European Atomic Energy Community.</p>
+            </recital>
+            <recital xml:id="rec_d39e189">
+               <num>(12)</num>
+               <p>This Regulation should enter into force as a matter of urgency on the date following that of its publication in the <i>Official Journal of the European Union</i>,</p>
+            </recital>
+         </recitals>
+         <formula name="enactingFormula">
+            <p>HAVE ADOPTED THIS REGULATION:</p>
+         </formula>
+      </preamble>
+      <body>
+         <article xml:id="art_d39e202" leos:compliant="false">
+            <num>Article 1</num>
+            <heading/>
+            <paragraph>
+               <subparagraph>
+                  <content>
+                     <p>Regulation (EEC) No 95/93 is amended as follows:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(1)</num>
+                     <alinea>
+                        <content>
+                           <p>Article 10a is replaced by the following:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <article xml:id="art_d39e217">
+                                       <num>&apos;Article 10a</num>
+                                       <heading/>
+                                       <paragraph>
+                                          <num>1.</num>
+                                          <content>
+                                             <p>For the purposes of Articles 8(2) and 10(2), coordinators shall consider slots allocated for the period from 1 March 2020 until 24 October 2020 as having been operated by the air carrier to which they were initially allocated.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>2.</num>
+                                          <content>
+                                             <p>For the purposes of Articles 8(2) and 10(2), coordinators shall consider slots allocated for the period from 23 January 2020 until 29 February 2020 as having been operated by the air carrier to which they were initially allocated, as regards air services between airports in the Union and airports either in the People&apos;s Republic of China or in the Hong Kong Special Administrative Region of the People&apos;s Republic of China.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>3.</num>
+                                          <content>
+                                             <p>In respect of slots with a date later than 8 April 2020, paragraph 1 shall only apply where the relevant unused slots have been made available to the coordinator for reallocation to other air carriers.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>4.</num>
+                                          <content>
+                                             <p>Where the Commission finds, on the basis of figures published by Eurocontrol, which is the network manager for the air traffic network functions of the single European sky, that the reduction in the level of air traffic as compared to the level in the corresponding period in the previous year is persisting and is likely to persist, and also finds, on the basis of the best available scientific data, that this situation is the result of the impact of the outbreak of COVID-19, the Commission shall adopt delegated acts in accordance with Article 12a to amend the period specified in paragraph 1 accordingly.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>5.</num>
+                                          <content>
+                                             <p>The Commission shall continuously monitor the situation using the criteria set out in paragraph 4. Based on the information available to it, the Commission shall present a summary report on this matter to the European Parliament and to the Council by 15 September 2020. If necessary, the Commission shall adopt the delegated act provided for in paragraph 4 as soon as possible.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>6.</num>
+                                          <content>
+                                             <p>Where, in the case of a prolonged impact of the outbreak of COVID-19 on the air transport sector in the Union, imperative grounds of urgency so require, the procedure provided for in Article 12b shall apply to delegated acts adopted pursuant to this Article.&apos;</p>
+                                          </content>
+                                       </paragraph>
+                                    </article>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(2)</num>
+                     <alinea>
+                        <content>
+                           <p>The following Articles are inserted:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <article xml:id="art_d39e278">
+                                       <num>&apos;Article 12a</num>
+                                       <heading>
+                                          <i>Exercise of the delegation</i>
+                                       </heading>
+                                       <paragraph>
+                                          <num>1.</num>
+                                          <content>
+                                             <p>The power to adopt delegated acts is conferred on the Commission subject to the conditions laid down in this Article.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>2.</num>
+                                          <content>
+                                             <p>The power to adopt delegated acts referred to in Article 10a shall be conferred on the Commission until 2 April 2021.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>3.</num>
+                                          <content>
+                                             <p>The delegation of power referred to in Article 10a may be revoked at any time by the European Parliament or by the Council. A decision to revoke shall put an end to the delegation of the power specified in that decision. It shall take effect the day following the publication of the decision in the <i>Official Journal of the European Union</i> or at a later date specified therein. It shall not affect the validity of any delegated acts already in force.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>4.</num>
+                                          <content>
+                                             <p>Before adopting a delegated act, the Commission shall consult experts designated by each Member State in accordance with the principles laid down in the Interinstitutional Agreement of 13 April 2016 on Better Law-Making.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>5.</num>
+                                          <content>
+                                             <p>As soon as it adopts a delegated act, the Commission shall notify it simultaneously to the European Parliament and to the Council.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>6.</num>
+                                          <content>
+                                             <p>A delegated act adopted pursuant to Article 10a shall enter into force only if no objection has been expressed either by the European Parliament or by the Council within a period of two months of notification of that act to the European Parliament and the Council or if, before the expiry of that period, the European Parliament and the Council have both informed the Commission that they will not object. That period shall be extended by two months at the initiative of the European Parliament or of the Council.</p>
+                                          </content>
+                                       </paragraph>
+                                    </article>
+                                    <article xml:id="art_d39e325">
+                                       <num>Article 12b</num>
+                                       <heading>
+                                          <i>Urgency procedure</i>
+                                       </heading>
+                                       <paragraph>
+                                          <num>1.</num>
+                                          <content>
+                                             <p>Delegated acts adopted under this Article shall enter into force without delay and shall apply as long as no objection is expressed in accordance with paragraph 2. The notification of a delegated act to the European Parliament and to the Council shall state the reasons for the use of the urgency procedure.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>2.</num>
+                                          <content>
+                                             <p>Either the European Parliament or the Council may object to a delegated act in accordance with the procedure referred to in Article 12a(6). In such a case, the Commission shall repeal the act immediately following the notification of the decision to object by the European Parliament or by the Council.&apos;</p>
+                                          </content>
+                                       </paragraph>
+                                    </article>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+               </list>
+            </paragraph>
+         </article>
+         <article xml:id="art_d39e342">
+            <num>Article 2</num>
+            <heading/>
+            <paragraph>
+               <content>
+                  <p>This Regulation shall enter into force on the day following that of its publication in the <i>Official Journal of the European Union</i>.</p>
+               </content>
+            </paragraph>
+         </article>
+         <clause>
+            <content>
+               <p>This Regulation shall be binding in its entirety and directly applicable in all Member States.</p>
+            </content>
+         </clause>
+      </body>
+      <conclusions>
+         <p>Done at Brussels, 30 March 2020.</p>
+         <block name="signatory">
+            <signature>
+               <organization refersTo="">For the European Parliament</organization>
+               <role refersTo="">The President</role>
+               <person refersTo="">D. M. SASSOLI</person>
+            </signature>
+            <signature>
+               <organization refersTo="">For the Council</organization>
+               <role refersTo="">The President</role>
+               <person refersTo="">G. GRLIĆ RADMAN</person>
+            </signature>
+         </block>
+      </conclusions>
+   </bill>
+</akomaNtoso>

@@ -1,0 +1,903 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"
+            xmlns:fmx="http://formex.publications.europa.eu/schema/formex-05.21-20110601.xd"
+            xmlns:leos="urn:eu:europa:ec:leos"
+            xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <bill name="">
+      <meta xmlns:fn="http://www.w3.org/2005/xpath-functions">
+         <identification source="~COM">
+            <FRBRWork>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRcountry value=""/>
+            </FRBRWork>
+            <FRBRExpression>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+            </FRBRManifestation>
+         </identification>
+      </meta>
+      <preface>
+         <longTitle>
+            <p>
+               <docStage/>
+               <docType>REGULATION (EU) 2019/501 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL</docType>of 25 March 2019<docPurpose>on common rules ensuring basic road freight and road passenger connectivity with regard to the withdrawal of the United Kingdom of Great Britain and Northern Ireland from the Union</docPurpose>
+            </p>
+         </longTitle>
+         <container name="EEArelevance">
+            <p>(Text with EEA relevance)</p>
+         </container>
+      </preface>
+      <preamble>
+         <formula name="actingEntity">
+            <p>THE EUROPEAN PARLIAMENT AND THE COUNCIL OF THE EUROPEAN UNION,</p>
+         </formula>
+         <citations>
+            <citation>
+               <p>Having regard to the Treaty on the Functioning of the European Union, and in particular Article 91(1) thereof,</p>
+            </citation>
+            <citation>
+               <p>Having regard to the proposal from the European Commission,</p>
+            </citation>
+            <citation>
+               <p>After transmission of the draft legislative act to the national parliaments,</p>
+            </citation>
+            <citation>
+               <p>Having regard to the opinion of the European Economic and Social Committee<authorialNote placement="bottom" marker="1">
+                     <p>Opinion of 20 February 2019 (not yet published in the Official Journal).</p>
+                  </authorialNote>,</p>
+            </citation>
+            <citation>
+               <p>After consulting the Committee of the Regions,</p>
+            </citation>
+            <citation>
+               <p>Acting in accordance with the ordinary legislative procedure<authorialNote placement="bottom" marker="2">
+                     <p>Position of the European Parliament of 13 March 2019 (not yet published in the Official Journal) and decision of the Council of 19 March 2019.</p>
+                  </authorialNote>,</p>
+            </citation>
+         </citations>
+         <recitals xml:id="recs_d141e89">
+            <intro>
+               <p>Whereas:</p>
+            </intro>
+            <recital xml:id="rec_d141e92">
+               <num>(1)</num>
+               <p>On 29 March 2017, the United Kingdom submitted the notification of its intention to withdraw from the Union pursuant to Article 50 of the Treaty on European Union (&apos;TEU&apos;). The Treaties will cease to apply to the United Kingdom from the date of entry into force of a withdrawal agreement or failing that, two years after that notification, that is to say from 30 March 2019, unless the European Council, in agreement with the United Kingdom, unanimously decides to extend that period.</p>
+            </recital>
+            <recital xml:id="rec_d141e108">
+               <num>(2)</num>
+               <p>The withdrawal of the United Kingdom from the Union would, in the relationship with the remaining 27 Member States and in the absence of any special provisions, end all rights and obligations ensuing from Union law in respect of market access, as established by Regulation (EC) No 1072/2009<authorialNote placement="bottom" marker="3">
+                     <p>Regulation (EC) No 1072/2009 of the European Parliament and of the Council of 21 October 2009 on common rules for access to the international road haulage market (OJ L 300, 14.11.2009, p. 72).</p>
+                  </authorialNote> and Regulation (EC) No 1073/2009<authorialNote placement="bottom" marker="4">
+                     <p>Regulation (EC) No 1073/2009 of the European Parliament and of the Council of 21 October 2009 on common rules for access to the international market for coach and bus services, and amending Regulation (EC) No 561/2006 (OJ L 300, 14.11.2009, p. 88).</p>
+                  </authorialNote> of the European Parliament and the Council.</p>
+            </recital>
+            <recital xml:id="rec_d141e134">
+               <num>(3)</num>
+               <p>The multilateral quota system of the European Conference of Ministers of Transport (ECMT) is the only other available legal framework that could provide a basis for the carriage of goods by road between the Union and the United Kingdom after the withdrawal date. However, due to the limited number of permits currently available under the ECMT system and its limited scope as regards the covered types of road transport operations, the system is currently inadequate to fully address the road freight transport needs between the Union and the United Kingdom.</p>
+            </recital>
+            <recital xml:id="rec_d141e140">
+               <num>(4)</num>
+               <p>In order to prevent ensuing serious disruptions, including in respect of public order, it is therefore necessary to establish a temporary set of measures enabling road haulage operators and coach and bus service operators licensed in the United Kingdom to carry goods and passengers by road between the territory of the latter and of the remaining 27 Member States, or from the territory of the United Kingdom to the territory of the United Kingdom transiting one or more Member States. In order to ensure a proper equilibrium between the United Kingdom and the remaining Member States, the rights thus conferred should be conditional upon the conferral of equivalent rights and be subject to certain conditions ensuring fair competition.</p>
+            </recital>
+            <recital xml:id="rec_d141e146">
+               <num>(5)</num>
+               <p>Gibraltar is not included in the territorial scope of this Regulation and any reference to the United Kingdom therein does not include Gibraltar.</p>
+            </recital>
+            <recital xml:id="rec_d141e153">
+               <num>(6)</num>
+               <p>The right to carry out transport operations within the territory of a Member State or between Member States is a fundamental achievement of the internal market and should, following the withdrawal of the United Kingdom from the Union and in the absence of any specific provision to the contrary, no longer be available to United Kingdom road haulage operators which are not established in the Union. However, temporary phasing out measures should be envisaged to permit United Kingdom road haulage operators to perform a limited number of additional operations within the territory of the Union in the context of operations between the United Kingdom and the Union. In the immediate aftermath of a withdrawal of the United Kingdom from the Union without a withdrawal agreement, such measures should help to prevent disruptions to traffic flows, which are to be expected from additional controls of vehicles and their cargo, and ensuing threats to public order. They should help in alleviating, more particularly, the pressure on the border points, which are few in number and which are where such disruptions are most likely, as the vehicles do not need to return immediately. They should be proportionate, should not replicate the same level of rights as those enjoyed by Union road haulage operators under the rules of the internal market and should be progressively phased out in accordance with this Regulation.</p>
+            </recital>
+            <recital xml:id="rec_d141e159">
+               <num>(7)</num>
+               <p>In the absence of any special provisions, the withdrawal of the United Kingdom from the Union would also lead to serious disruptions, including in respect of public order, in the context of road passenger services. The Agreement on the international occasional carriage of passengers by coach and bus<authorialNote placement="bottom" marker="5">
+                     <p>OJ L 321, 26.11.2002, p. 13.</p>
+                  </authorialNote> (&apos;Interbus Agreement&apos;) is the only available legal framework that provides a basis for the carriage of passengers by bus and coach between the Union and the United Kingdom after the withdrawal date. The United Kingdom will become a Contracting Party in its own right to the Interbus Agreement from 1 April 2019. However, the Interbus Agreement covers only occasional services and is, therefore, inadequate to address the disruptions ensuing from the withdrawal, given the high number of persons that would continue to seek to travel between the Union and the United Kingdom. A Protocol to the Interbus Agreement covering regular passenger transport services was negotiated between its Contracting Parties, but it is not expected to enter into force in time to offer a viable alternative solution to the current situation for the period immediately after the withdrawal of the United Kingdom. Therefore, for regular and special regular services of passenger transport by bus and coach, the current instruments do not address the needs of road transport of passengers between the Union and the United Kingdom. To mitigate an ensuing major disruption that could put public order at risk, it is therefore appropriate to allow United Kingdom carriers to carry passengers from the United Kingdom to the Union and vice versa provided the United Kingdom grants at least equivalent rights to EU carriers. Those rights granted under this Regulation should be limited to a short period of time, so as to allow the Protocol to the Interbus Agreement on regular services to enter into force and the United Kingdom to accede to that Protocol. Cross-border coach and bus services between Ireland and Northern Ireland are of particular importance for communities living in the border regions, in view of ensuring basic connectivity between communities inter alia as part of the Common Travel Area. The picking up and setting down of passengers in regions on either side of the border supports the viability of those services. Therefore, the picking up and setting down of passengers by United Kingdom coach and bus service operators should continue to be authorised in the border regions of Ireland in the course of international passenger transport services by coach and bus between Ireland and Northern Ireland. These rights should be granted for a limited period of time (until 30 September 2019) to enable alternatives to be put in place.</p>
+            </recital>
+            <recital xml:id="rec_d141e183">
+               <num>(8)</num>
+               <p>In order to reflect their temporary character, while not setting a precedent, the set of measures provided for in this Regulation should be limited to a short period of time. In respect of road haulage operations, the limitation in time is made in view of possible arrangements for basic connectivity to be made in the ECMT system, and without prejudice to both the possible negotiation and entry into force of a future agreement covering the carriage of goods by road between the Union and the United Kingdom and future Union rules on transport. As far as passenger transport by bus and coach is concerned, the limitation in time is made to allow the Protocol to the Interbus Agreement on regular services to enter into force and the United Kingdom to accede to that protocol, and without prejudice to a possible future agreement on the matter between the Union and the United Kingdom.</p>
+            </recital>
+            <recital xml:id="rec_d141e189">
+               <num>(9)</num>
+               <p>In accordance with the principle of proportionality set out in Article 5 TEU, this Regulation does not go beyond what is necessary in order to achieve that objective.</p>
+            </recital>
+            <recital xml:id="rec_d141e196">
+               <num>(10)</num>
+               <p>This Regulation should enter into force as a matter of urgency and apply from the day following that on which the Treaties cease to apply to the United Kingdom unless a withdrawal agreement concluded with the United Kingdom has entered into force by that date. This Regulation should in any event cease to apply on 31 December 2019. The Union will therefore cease to exercise the competence exercised through this Regulation after that date. Without prejudice to other Union measures, and subject to compliance with those measures, that competence will, in accordance with Article 2(2) of the Treaty on the Functioning of the European Union (&apos;TFEU&apos;), again be exercised by the Member States thereafter. The respective competences of the Union and of the Member States with respect to the conclusion of international agreements in the area of road transport are to be determined in accordance with the Treaties and taking into account relevant Union legislation.</p>
+            </recital>
+            <recital xml:id="rec_d141e211">
+               <num>(11)</num>
+               <p>Where necessary to address market needs, the power to adopt acts in accordance with Article 290 TFEU should be delegated to the Commission, to restore the equivalence of rights granted by the Union to United Kingdom road haulage operators, as well as United Kingdom coach and bus service operators, with those granted by the United Kingdom to Union road haulage operators, and to Union coach and bus service operators, including where the rights granted by the United Kingdom are granted on the basis of the Member State of origin or otherwise are not equally available to all Union operators, and to remedy occurrences of unfair competition to the detriment of Union road haulage operators and of Union coach and bus service operators.</p>
+            </recital>
+            <recital xml:id="rec_d141e217">
+               <num>(12)</num>
+               <p>The delegated acts should comply with the principle of proportionality, and their terms should therefore be commensurate to the problems raised through the failure to grant equivalent rights or through unfair conditions of competition. Suspension of the application of this Regulation should be envisaged by the Commission only in the most severe cases, where no equivalent rights are granted to Union road haulage operators or to Union coach and bus service operators by the United Kingdom or where the rights granted are minimal, or where the conditions of competition for United Kingdom road haulage operators or United Kingdom coach and bus service operators differ so much from those of Union operators that the provision of the services in question by Union operators is, for them, not economically viable.</p>
+            </recital>
+            <recital xml:id="rec_d141e223">
+               <num>(13)</num>
+               <p>When adopting the delegated acts, it is of particular importance that the Commission carry out appropriate consultations during its preparatory work including at expert level, and that those consultations be conducted in accordance with the principles laid down in the Interinstitutional Agreement of 13 April 2016 on Better Law-Making<authorialNote placement="bottom" marker="6">
+                     <p>OJ L 123, 12.5.2016, p. 1.</p>
+                  </authorialNote>. In particular, to ensure equal participation in the preparation of delegated acts, the European Parliament and the Council receive all documents at the same time as Member States&apos; experts, and their experts systematically have access to meetings of Commission expert groups dealing with the preparation of delegated acts. It should be ensured that any such delegated act does not unduly affect the proper functioning of the internal market.</p>
+            </recital>
+            <recital xml:id="rec_d141e238">
+               <num>(14)</num>
+               <p>To ensure that rights granted by the United Kingdom to Union road haulage operators and Union coach and bus service operators equivalent to those granted by this Regulation to United Kingdom road haulage operators and United Kingdom coach and bus service operators are equally available to all Union operators, the scope of Regulations (EC) No 1072/2009 and (EC) No 1073/2009 should be temporarily extended. Those Regulations already cover the part of a journey between a Member State and a third country on the territory of any Member State crossed in transit. It is, however, necessary to ensure, in such case, that Regulation (EC) No 1072/2009 also apply to the part of the journey on the territory of the Member State of loading or unloading, and that Regulation (EC) No 1073/2009 apply to the part of the journey on the territory of the Member State of picking up or setting down passengers. Such an extension aims at ensuring that Union operators can perform cross-trade operations to or from the United Kingdom, as well as additional stops in their operation of passenger transport,</p>
+            </recital>
+         </recitals>
+         <formula name="enactingFormula">
+            <p>HAVE ADOPTED THIS REGULATION:</p>
+         </formula>
+      </preamble>
+      <body>
+         <article xml:id="art_d141e247">
+            <num>Article 1</num>
+            <heading>Scope</heading>
+            <paragraph>
+               <content>
+                  <p>This Regulation lays down temporary measures governing the carriage of goods by road, as well as the provision of regular and special regular passenger transport services by coach and bus, between the Union and the United Kingdom of Great Britain and Northern Ireland (the &apos;United Kingdom&apos;) following its withdrawal from the Union.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d141e259">
+            <num>Article 2</num>
+            <heading>Definitions</heading>
+            <paragraph>
+               <subparagraph>
+                  <content>
+                     <p>For the purposes of this Regulation the following definitions apply:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(1)</num>
+                     <content>
+                        <p>&apos;vehicle&apos; means, in respect of carriage of goods, a motor vehicle registered in the United Kingdom, or a coupled combination of vehicles the motor vehicle of which at least is registered in the United Kingdom, used exclusively for the carriage of goods, either owned by the undertaking, having been bought by it on deferred terms or having been hired, provided that, in the latter case, it meets the conditions set out in Directive 2006/1/EC of the European Parliament and of the Council<authorialNote placement="bottom" marker="7">
+                              <p>Directive 2006/1/EC of the European Parliament and of the Council of 18 January 2006 on the use of vehicles hired without drivers for the carriage of goods by road (OJ L 33, 4.2.2006, p. 82).</p>
+                           </authorialNote> and in respect of the transport of passengers, a bus or coach;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(2)</num>
+                     <alinea>
+                        <content>
+                           <p>&apos;permitted carriage of goods&apos; means:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <content>
+                              <p>a laden journey undertaken by a vehicle from the territory of the Union to the territory of the United Kingdom, or vice versa, with or without transit through one or more Member States or third countries;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <content>
+                              <p>following a laden journey from the territory of the United Kingdom covered by point (a) of this point, the performance within seven days from the unloading within the territory of the Union of up to two additional operations of loading and unloading within the territory of the Union for a period of four months from the first day of application set out in the second subparagraph of Article 12, and one operation within seven days from the unloading within the territory of the Union, during the following three months;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(c)</num>
+                           <content>
+                              <p>a laden journey undertaken by a vehicle from the territory of the United Kingdom to the territory of the United Kingdom with transit through the territory of the Union;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(d)</num>
+                           <content>
+                              <p>an unladen journey in conjunction with the carriage referred to in points (a) and (c);</p>
+                           </content>
+                        </point>
+                     </list>
+                  </point>
+                  <point>
+                     <num>(3)</num>
+                     <alinea>
+                        <content>
+                           <p>&apos;permitted carriage of passengers by coach and bus&apos; means:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <content>
+                              <p>a journey undertaken by a bus or coach to provide passenger transport from the territory of the Union to the territory of the United Kingdom, or vice versa, with or without transit through one or more Member States or third countries;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <content>
+                              <p>a journey undertaken by a bus or coach to provide passenger transport from the territory of the United Kingdom to the territory of the United Kingdom with transit through the territory of the Union;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(c)</num>
+                           <content>
+                              <p>a journey without carrying passengers in conjunction with the carriage referred to in points (a) and (b);</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(d)</num>
+                           <content>
+                              <p>the picking up and setting down of passengers in the border region of Ireland in the course of international regular and special regular services between Ireland and Northern Ireland, until 30 September 2019;</p>
+                           </content>
+                        </point>
+                     </list>
+                  </point>
+                  <point>
+                     <num>(4)</num>
+                     <content>
+                        <p>&apos;border region of Ireland&apos; means the counties of Ireland adjoining the land border between Ireland and Northern Ireland;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(5)</num>
+                     <content>
+                        <p>&apos;Union road haulage operator&apos; means an undertaking, engaged in the carriage of goods by road, which holds a valid Community licence, in accordance with Article 4 of Regulation (EC) No 1072/2009;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(6)</num>
+                     <content>
+                        <p>&apos;United Kingdom road haulage operator&apos; means an undertaking established in the United Kingdom which is permitted to engage in the carriage of goods by road and holds a valid United Kingdom licence;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(7)</num>
+                     <content>
+                        <p>&apos;United Kingdom licence&apos; means, when issued to a United Kingdom road haulage operator, a licence issued by the United Kingdom for the purposes of international carriage in respect of permitted carriage of goods and, when issued to a United Kingdom coach and bus service operator, a licence issued by the United Kingdom for the purposes of international carriage in respect of a permitted carriage of passengers by coach and bus;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(8)</num>
+                     <content>
+                        <p>&apos;bus or coach&apos; means a vehicle registered in the United Kingdom, which is, by virtue of its construction and equipment, suitable and intended to carry more than nine passengers including the driver;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(9)</num>
+                     <content>
+                        <p>&apos;regular services&apos; means services which provide for the carriage of passengers at specified intervals along specified routes, passengers being picked up and set down at predetermined stopping points;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(10)</num>
+                     <content>
+                        <p>&apos;special regular services&apos; means regular services, regardless of who organises them, which provide for the carriage of specified categories of passengers, to the exclusion of other passengers;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(11)</num>
+                     <content>
+                        <p>&apos;Union coach and bus service operator&apos; means an undertaking engaged in the carriage of passengers by coach and bus which holds a valid Community licence in accordance with Regulation (EC) No 1073/2009;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(12)</num>
+                     <content>
+                        <p>&apos;United Kingdom coach and bus service operator&apos; means an undertaking established in the United Kingdom and which is authorised to engage in the carriage of passengers by coach and bus and holds a valid United Kingdom licence;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(13)</num>
+                     <content>
+                        <p>&apos;operator&apos; means either a road haulage operator or a coach and bus service operator;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(14)</num>
+                     <alinea>
+                        <content>
+                           <p>&apos;competition law&apos; means any law which addresses the following conduct, where it could affect road freight transport services or coach and bus services:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <alinea>
+                              <content>
+                                 <p>conduct that consists in:</p>
+                              </content>
+                           </alinea>
+                           <list>
+                              <point>
+                                 <num>(i)</num>
+                                 <content>
+                                    <p>agreements between road haulage operators or coach and bus service operators, respectively, decisions by associations of road haulage operators or by coach and bus service operators, and concerted practices which have as their object or effect the prevention, restriction or distortion of competition;</p>
+                                 </content>
+                              </point>
+                              <point>
+                                 <num>(ii)</num>
+                                 <content>
+                                    <p>abuses by one or more road haulage operators, or coach and bus service operators, of a dominant position;</p>
+                                 </content>
+                              </point>
+                              <point>
+                                 <num>(iii)</num>
+                                 <content>
+                                    <p>measures taken or maintained in force by the United Kingdom in the case of public undertakings and undertakings to which the United Kingdom grants special or exclusive rights and which are contrary to point (i) or (ii); and</p>
+                                 </content>
+                              </point>
+                           </list>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <content>
+                              <p>concentrations between road haulage operators or coach and bus service operators, respectively, which significantly impede effective competition, in particular as a result of the creation or strengthening of a dominant position;</p>
+                           </content>
+                        </point>
+                     </list>
+                  </point>
+                  <point>
+                     <num>(15)</num>
+                     <alinea>
+                        <content>
+                           <p>&apos;subsidy&apos; means any financial contribution granted to an operator by the government or any other public body at any level, conferring a benefit, and including:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <content>
+                              <p>the direct transfer of funds, such as grants, loans or equity infusion, the potential direct transfer of funds, and the assumption of liabilities, such as loan guarantees, capital injections, ownership, protection against bankruptcy or insurance;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <content>
+                              <p>the foregoing or non-collection of revenue that is otherwise due;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(c)</num>
+                           <content>
+                              <p>the provision of goods or services other than general infrastructure, or the purchase of goods or services; or</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(d)</num>
+                           <alinea>
+                              <content>
+                                 <p>the making of payments to a funding mechanism or entrustment or direction to a private body to carry out one or more of the functions referred to in points (a), (b) and (c) which would normally be vested in the government or other public body and the practice in no real sense differs from practices normally followed by governments.</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>No benefit is deemed to be conferred by a financial contribution made by a government or other public body if a private market operator solely driven by the prospect of profit, in the same situation as the public body in question, would have made the same financial contribution;</p>
+                              </content>
+                           </alinea>
+                        </point>
+                     </list>
+                  </point>
+                  <point>
+                     <num>(16)</num>
+                     <alinea>
+                        <content>
+                           <p>&apos;independent competition authority&apos; means an authority which is in charge of the application and enforcement of competition law as well as the control of subsidies, and fulfils the following conditions:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <content>
+                              <p>the authority is operationally independent and is appropriately equipped with the resources necessary to carry out its tasks;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <content>
+                              <p>in performing its duties and exercising its powers, the authority has the necessary guarantees of independence from political or other external influence and it acts impartially; and</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(c)</num>
+                           <content>
+                              <p>the decisions of the authority are subject to judicial review;</p>
+                           </content>
+                        </point>
+                     </list>
+                  </point>
+                  <point>
+                     <num>(17)</num>
+                     <content>
+                        <p>&apos;discrimination&apos; means differentiation of any kind without objective justification in respect of the supply of goods or services, including public services, employed for the operation of road freight transport services or of coach and bus services, or in respect of their treatment by public authorities relevant to such services;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(18)</num>
+                     <content>
+                        <p>&apos;territory of the Union&apos; means the territory of the Member States to which the TEU and the TFEU apply and under the conditions laid down in those Treaties.</p>
+                     </content>
+                  </point>
+               </list>
+            </paragraph>
+         </article>
+         <article xml:id="art_d141e580">
+            <num>Article 3</num>
+            <heading>Right to conduct permitted carriage of goods</heading>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>United Kingdom road haulage operators may, under the conditions laid down in this Regulation, conduct permitted carriage of goods.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <subparagraph>
+                  <content>
+                     <p>Permitted carriage of goods of the following kinds may be conducted by natural or legal persons established in the United Kingdom, without a United Kingdom licence within the meaning of Article 2(7) being required:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <content>
+                        <p>carriage of mail as a universal service;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <content>
+                        <p>carriage of vehicles which have suffered damage or breakdown;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(c)</num>
+                     <content>
+                        <p>carriage of goods in motor vehicles the permissible laden mass of which, including that of trailers, does not exceed 3,5 tonnes;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(d)</num>
+                     <content>
+                        <p>carriage of medicinal products, appliances, equipment and other articles required for medical care in emergency relief, in particular for natural disasters;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(e)</num>
+                     <alinea>
+                        <content>
+                           <p>carriage of goods provided that:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(i)</num>
+                           <content>
+                              <p>the goods carried are the property of the undertaking or have been sold, bought, let out on hire or hired, produced, extracted, processed or repaired by the undertaking;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(ii)</num>
+                           <content>
+                              <p>the purpose of the journey is to carry the goods to or from the undertaking or to move them, either inside or outside the undertaking for its own requirements;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(iii)</num>
+                           <content>
+                              <p>motor vehicles used for such carriage are driven by personnel employed by, or put at the disposal of, the undertaking under a contractual obligation;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(iv)</num>
+                           <content>
+                              <p>the vehicles carrying the goods are owned by the undertaking, have been bought by it on deferred terms or have been hired, provided that, in the last case, they meet the conditions set out in Directive 2006/1/EC; and</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(v)</num>
+                           <content>
+                              <p>such carriage is no more than ancillary to the overall activities of the undertaking.</p>
+                           </content>
+                        </point>
+                     </list>
+                  </point>
+               </list>
+            </paragraph>
+         </article>
+         <article xml:id="art_d141e659">
+            <num>Article 4</num>
+            <heading>Right to conduct regular and special regular coach and bus services</heading>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>United Kingdom coach and bus service operators may, under the conditions laid down in this Regulation, conduct permitted carriage of passengers by coach and bus constituting regular and special regular services.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>United Kingdom coach and bus service operators must be in possession of an authorisation issued prior to the date of application of this Regulation in accordance with Articles 6 to 11 of Regulation (EC) No 1073/2009 to conduct permitted regular and special regular coach and bus services for hire and reward.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <content>
+                  <p>The authorisations that remain valid under paragraph 2 of this Article may continue to be used for the purposes specified in paragraph 1 of this Article if they have been renewed under the same terms and conditions, or altered in terms of stops, fares or schedule, and subject to the rules and procedures of Articles 6 to 11 of Regulation (EC) No 1073/2009 for a period of validity not extending beyond 31 December 2019.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>4.</num>
+               <subparagraph>
+                  <content>
+                     <p>Permitted carriage of passengers by coach and bus carried out by natural or legal persons established in the United Kingdom for non-commercial and non-profit-making purposes may be conducted without a United Kingdom licence, within the meaning of Article 2(7), being required, where:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <content>
+                        <p>the transport activity is only an ancillary activity for that natural or legal person; and</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <content>
+                        <p>the vehicles used are the property of that natural or legal person or have been obtained by that person on deferred terms or have been the subject of a long-term leasing contract, and are driven by a member of the staff of the natural or legal person, by the natural person himself, or by personnel employed by, or put at the disposal of, the undertaking under a contractual obligation.</p>
+                     </content>
+                  </point>
+               </list>
+               <subparagraph>
+                  <content>
+                     <p>Those transport operations shall be exempt from any system of authorisation within the Union, provided the person carrying out the activity is in possession of a national authorisation issued prior to the date of application of this Regulation in accordance with Article 3(2) of Regulation (EC) No 1073/2009.</p>
+                  </content>
+               </subparagraph>
+            </paragraph>
+            <paragraph>
+               <num>5.</num>
+               <content>
+                  <p>A change of vehicle, or an interruption of carriage to enable part of a journey to be made by another means of transport, shall not affect the application of this Regulation.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d141e709">
+            <num>Article 5</num>
+            <heading>Bilateral agreements or arrangements</heading>
+            <paragraph>
+               <content>
+                  <p>The Member States shall neither negotiate nor enter into any bilateral agreements or arrangements with the United Kingdom on matters falling within the scope of this Regulation with respect to the period during which this Regulation applies. With respect to that period, they shall not otherwise grant United Kingdom road haulage operators or United Kingdom coach and bus service operators any rights other than those granted in this Regulation, without prejudice to existing multilateral arrangements.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d141e716">
+            <num>Article 6</num>
+            <heading>Social and technical rules</heading>
+            <paragraph>
+               <subparagraph>
+                  <content>
+                     <p>In the course of a permitted carriage of goods or passengers by coach and bus in accordance with this Regulation, the following rules shall be complied with:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <content>
+                        <p>in respect of mobile workers and self-employed drivers, the requirements laid down by Member States in accordance with Directive 2002/15/EC of the European Parliament and of the Council<authorialNote placement="bottom" marker="8">
+                              <p>Directive 2002/15/EC of the European Parliament and of the Council of 11 March 2002 on the organisation of the working time of persons performing mobile road transport activities (OJ L 80, 23.3.2002, p. 35).</p>
+                           </authorialNote>;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <content>
+                        <p>in respect of certain social legislation relating to road transport, the requirements of Regulation (EC) No 561/2006 of the European Parliament and of the Council<authorialNote placement="bottom" marker="9">
+                              <p>Regulation (EC) No 561/2006 of the European Parliament and of the Council of 15 March 2006 on the harmonisation of certain social legislation relating to road transport and amending Council Regulations (EEC) No 3821/85 and (EC) No 2135/98 and repealing Council Regulation (EEC) No 3820/85 (OJ L 102, 11.4.2006, p. 1).</p>
+                           </authorialNote>;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(c)</num>
+                     <content>
+                        <p>in respect of tachographs in road transport, the requirements set out in Regulation (EU) No 165/2014 of the European Parliament and of the Council<authorialNote placement="bottom" marker="10">
+                              <p>Regulation (EU) No 165/2014 of the European Parliament and of the Council of 4 February 2014 on tachographs in road transport, repealing Council Regulation (EEC) No 3821/85 on recording equipment in road transport and amending Regulation (EC) No 561/2006 of the European Parliament and of the Council on the harmonisation of certain social legislation relating to road transport (OJ L 60, 28.2.2014, p. 1).</p>
+                           </authorialNote>;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(d)</num>
+                     <content>
+                        <p>in respect of drivers&apos; initial qualification and periodic training, the requirements set out in Directive 2003/59/EC of the European Parliament and the Council<authorialNote placement="bottom" marker="11">
+                              <p>Directive 2003/59/EC of the European Parliament and of the Council of 15 July 2003 on the initial qualification and periodic training of drivers of certain road vehicles for the carriage of goods or passengers, amending Council Regulation (EEC) No 3820/85 and Council Directive 91/439/EEC and repealing Council Directive 76/914/EEC (OJ L 226, 10.9.2003, p. 4).</p>
+                           </authorialNote>;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(e)</num>
+                     <content>
+                        <p>in respect of the maximum authorised dimensions and weights of certain road vehicles, the requirements laid down by Member States in accordance with Council Directive 96/53/EC<authorialNote placement="bottom" marker="12">
+                              <p>Council Directive 96/53/EC of 25 July 1996 laying down for certain road vehicles circulating within the Community the maximum authorized dimensions in national and international traffic and the maximum authorized weights in international traffic (OJ L 235, 17.9.1996, p. 59).</p>
+                           </authorialNote>;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(f)</num>
+                     <content>
+                        <p>in respect of the installation and use of speed limitation devices for certain categories of motor vehicles, the requirements laid down by Member States in accordance with Council Directive 92/6/EEC<authorialNote placement="bottom" marker="13">
+                              <p>Council Directive 92/6/EEC of 10 February 1992 on the installation and use of speed limitation devices for certain categories of motor vehicles in the Community (OJ L 57, 2.3.1992, p. 27).</p>
+                           </authorialNote>;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(g)</num>
+                     <content>
+                        <p>in respect of the compulsory use of safety belts and child restraint systems in vehicles, the requirements laid down by Member States in accordance with Council Directive 91/671/EEC<authorialNote placement="bottom" marker="14">
+                              <p>Council Directive 91/671/EEC of 16 December 1991 relating to the compulsory use of safety belts and child-restraint systems in vehicles (OJ L 373, 31.12.1991, p. 26).</p>
+                           </authorialNote>;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(h)</num>
+                     <content>
+                        <p>in respect of the posting of workers, the requirements laid down by Member States in accordance with Directive 96/71/EC of the European Parliament and of the Council<authorialNote placement="bottom" marker="15">
+                              <p>Directive 96/71/EC of the European Parliament and of the Council of 16 December 1996 concerning the posting of workers in the framework of the provision of services (OJ L 18, 21.1.1997, p. 1).</p>
+                           </authorialNote>;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(i)</num>
+                     <content>
+                        <p>in respect of passenger rights, Regulation (EU) No 181/2011 of the European Parliament and of the Council<authorialNote placement="bottom" marker="16">
+                              <p>Regulation (EU) No 181/2011 of the European Parliament and of the Council of 16 February 2011 concerning the rights of passengers in bus and coach transport and amending Regulation (EC) No 2006/2004 (OJ L 55, 28.2.2011, p. 1).</p>
+                           </authorialNote>.</p>
+                     </content>
+                  </point>
+               </list>
+            </paragraph>
+         </article>
+         <article xml:id="art_d141e870">
+            <num>Article 7</num>
+            <heading>Equivalence of rights</heading>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>The Commission shall monitor the rights granted by the United Kingdom to Union road haulage operators and to Union coach and bus service operators and the conditions for their exercise.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <subparagraph>
+                  <content>
+                     <p>Where it determines that the rights granted by the United Kingdom to Union road haulage operators or to Union coach and bus service operators are not, de jure or de facto, equivalent to those granted to United Kingdom operators under this Regulation, or that those rights are not equally available to all Union road haulage operators or to Union coach and bus service operators, the Commission shall, without delay and in order to restore equivalence, adopt delegated acts in accordance with Article 11 to do the following:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <content>
+                        <p>suspend the application of Article 3(1) and (2) or Article 4(1) to (4) of this Regulation where no equivalent rights are granted to Union operators, or where the rights granted are minimal;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <content>
+                        <p>establish limits to the allowable capacity available to United Kingdom road haulage operators or United Kingdom coach and bus service operators or to the number of journeys, or to both; or</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(c)</num>
+                     <content>
+                        <p>adopt operational restrictions related to the types of vehicles or conditions of circulation.</p>
+                     </content>
+                  </point>
+               </list>
+            </paragraph>
+         </article>
+         <article xml:id="art_d141e905">
+            <num>Article 8</num>
+            <heading>Fair competition</heading>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>The Commission shall monitor the conditions under which Union operators compete with United Kingdom operators for the provision of road freight transport services and coach and bus services covered by this Regulation.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <subparagraph>
+                  <content>
+                     <p>Where it determines that, as a result of any of the situations referred to in paragraph 3 of this Article, the conditions referred to in paragraph 1 of this Article are appreciably less favourable than those enjoyed by United Kingdom operators, the Commission shall, without delay and in order to remedy that situation, adopt delegated acts in accordance with Article 11 to do the following:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <content>
+                        <p>suspend the application of Article 3(1) and (2) or Article 4(1) to (4) where the conditions of competition for United Kingdom road haulage operators or United Kingdom bus and coach service operators differ so much from those applying to Union operators that the provision of services by the latter is not economically viable for them;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <content>
+                        <p>establish limits to the allowable capacity available to United Kingdom road haulage operators or United Kingdom bus and coach service operators, or to the number of journeys, or to both; or</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(c)</num>
+                     <content>
+                        <p>adopt operational restrictions related to the types of vehicles or conditions of circulation.</p>
+                     </content>
+                  </point>
+               </list>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <subparagraph>
+                  <content>
+                     <p>The delegated acts referred to in paragraph 2 shall, under the conditions specified in that paragraph, be adopted to remedy the following situations:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <content>
+                        <p>the granting of subsidies by the United Kingdom;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <content>
+                        <p>failure by the United Kingdom to have in place or to effectively apply competition law;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(c)</num>
+                     <content>
+                        <p>failure by the United Kingdom to establish or maintain an independent competition authority;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(d)</num>
+                     <content>
+                        <p>the application by the United Kingdom of standards on the protection of workers, safety, security or the environment which are inferior to those laid down in Union law or, in the absence of relevant provisions in Union law, inferior to those applied by all Member States or, in any event, inferior to relevant international standards;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(e)</num>
+                     <content>
+                        <p>the application by the United Kingdom of standards relating to the granting of licences to road haulage operators or to coach and bus service operators which are inferior to those laid down in Regulation (EC) No 1071/2009<authorialNote placement="bottom" marker="17">
+                              <p>Regulation (EC) No 1071/2009 of the European Parliament and of the Council of 21 October 2009 establishing common rules concerning the conditions to be complied with to pursue the occupation of road transport operator and repealing Council Directive 96/26/EC (OJ L 300, 14.11.2009, p. 51).</p>
+                           </authorialNote>;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(f)</num>
+                     <content>
+                        <p>the application by the United Kingdom of standards relating to the qualification and training of professional drivers which are inferior to those laid down in Directive 2003/59/EC;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(g)</num>
+                     <content>
+                        <p>the application by the United Kingdom of road charging and taxation rules that diverge from the rules laid down in Directive 1999/62/EC of the European Parliament and of the Council<authorialNote placement="bottom" marker="18">
+                              <p>Directive 1999/62/EC of the European Parliament and of the Council of 17 June 1999 on the charging of heavy goods vehicles for the use of certain infrastructures (OJ L 187, 20.7.1999, p. 42).</p>
+                           </authorialNote>; and</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(h)</num>
+                     <content>
+                        <p>any form of discrimination against Union operators.</p>
+                     </content>
+                  </point>
+               </list>
+            </paragraph>
+            <paragraph>
+               <num>4.</num>
+               <content>
+                  <p>For the purposes of paragraph 1, the Commission may request information from the competent authorities of the United Kingdom or from United Kingdom operators. Where they do not provide the information requested within the reasonable period prescribed by the Commission, or provide incomplete information, the Commission may proceed in accordance with paragraph 2.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d141e1022">
+            <num>Article 9</num>
+            <heading>Extension of Regulations (EC) No 1072/2009 and (EC) No 1073/2009</heading>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>In the context of carriage of goods between the territory of the Union and the territory of the United Kingdom undertaken by a Union road haulage operator that relies on rights granted by the United Kingdom, as referred to in Article 7 of this Regulation, equivalent to those granted under this Regulation, Regulation (EC) No 1072/2009 shall apply to the part of the journey on the territory of the Member State of loading or unloading.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>In the context of carriage of passengers between the territory of the Union and the territory of the United Kingdom undertaken by a Union coach and bus service operator that rely on rights granted by the United Kingdom, as referred to in Article 7 of this Regulation, equivalent to those granted under this Regulation, Regulation (EC) No 1073/2009 shall apply to the part of the journey on the territory of the Member State of picking up or setting down.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d141e1037">
+            <num>Article 10</num>
+            <heading>Consultation and cooperation</heading>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>The competent authorities of the Member States shall consult and cooperate with the competent authorities of the United Kingdom as necessary in order to ensure the implementation of this Regulation.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>Member States shall, upon request, provide the Commission, without undue delay, any information obtained pursuant to paragraph 1 of this Article or any other information relevant for the implementation of Articles 7 and 8.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d141e1052">
+            <num>Article 11</num>
+            <heading>Exercise of the delegation</heading>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>The power to adopt delegated acts referred to in Articles 7(2) and 8(2) shall be conferred on the Commission until 31 December 2019.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>Before adopting a delegated act under Article 7(2) or 8(2), the Commission shall consult experts designated by each Member State in line with the principles laid down in the Interinstitutional Agreement of 13 April 2016 on Better Law-Making.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <content>
+                  <p>As soon as it adopts a delegated act, the Commission shall notify it simultaneously to the European Parliament and to the Council.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d141e1078">
+            <num>Article 12</num>
+            <heading>Entry into force and application</heading>
+            <paragraph>
+               <content>
+                  <p>This Regulation shall enter into force on the day following that of its publication in the <i>Official Journal of the European Union</i>.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <content>
+                  <p>It shall apply from the day following that on which the Treaties cease to apply to the United Kingdom pursuant to Article 50(3) TEU.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <content>
+                  <p>However, this Regulation shall not apply if a withdrawal agreement concluded with the United Kingdom in accordance with Article 50(2) TEU has entered into force by that date.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <content>
+                  <p>This Regulation shall cease to apply on 31 December 2019.</p>
+               </content>
+            </paragraph>
+         </article>
+         <clause>
+            <content>
+               <p>This Regulation shall be binding in its entirety and directly applicable in all Member States.</p>
+            </content>
+         </clause>
+      </body>
+      <conclusions>
+         <p>Done at Strasbourg, 25 March 2019.</p>
+         <block name="signatory">
+            <signature>
+               <organization refersTo="">For the European Parliament</organization>
+               <role refersTo="">The President</role>
+               <person refersTo="">A. TAJANI</person>
+            </signature>
+            <signature>
+               <organization refersTo="">For the Council</organization>
+               <role refersTo="">The President</role>
+               <person refersTo="">G. CIAMBA</person>
+            </signature>
+         </block>
+      </conclusions>
+   </bill>
+</akomaNtoso>

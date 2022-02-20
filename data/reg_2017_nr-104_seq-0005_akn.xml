@@ -1,0 +1,176 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"
+            xmlns:fmx="http://formex.publications.europa.eu/schema/formex-05.21-20110601.xd"
+            xmlns:leos="urn:eu:europa:ec:leos"
+            xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <bill name="">
+      <meta xmlns:fn="http://www.w3.org/2005/xpath-functions">
+         <identification source="~COM">
+            <FRBRWork>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRcountry value=""/>
+            </FRBRWork>
+            <FRBRExpression>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+            </FRBRManifestation>
+         </identification>
+      </meta>
+      <preface>
+         <longTitle>
+            <p>
+               <docStage/>
+               <docType>COMMISSION REGULATION (EU) 2017/706</docType>of 19 April 2017<docPurpose>amending Annex VII to Regulation (EC) No 1907/2006 of the European Parliament and of the Council on the Registration, Evaluation, Authorisation and Restriction of Chemicals (REACH) as regards skin sensitisation and repealing Commission Regulation (EU) 2016/1688</docPurpose>
+            </p>
+         </longTitle>
+         <container name="EEArelevance">
+            <p>(Text with EEA relevance)</p>
+         </container>
+      </preface>
+      <preamble>
+         <formula name="actingEntity">
+            <p>THE EUROPEAN COMMISSION,</p>
+         </formula>
+         <citations>
+            <citation>
+               <p>Having regard to the Treaty on the Functioning of the European Union,</p>
+            </citation>
+            <citation>
+               <p>Having regard to Regulation (EC) No 1907/2006 of the European Parliament and of the Council of 18 December 2006 concerning the Registration, Evaluation, Authorisation and Restriction of Chemicals (REACH), establishing a European Chemicals Agency, amending Directive 1999/45/EC and repealing Council Regulation (EEC) No 793/93 and Commission Regulation (EC) No 1488/94 as well as Council Directive 76/769/EEC and Commission Directives 91/155/EEC, 93/67/EEC, 93/105/EC and 2000/21/EC<authorialNote placement="bottom" marker="1">
+                     <p>OJ L 396, 30.12.2006, p. 1.</p>
+                  </authorialNote>, and in particular Articles 13(2) and 131 thereof,</p>
+            </citation>
+         </citations>
+         <recitals xml:id="recs_d305e71">
+            <intro>
+               <p>Whereas:</p>
+            </intro>
+            <recital xml:id="rec_d305e74">
+               <num>(1)</num>
+               <p>Regulation (EC) No 1907/2006 establishes requirements for the registration of substances manufactured or imported in the Union on their own, in mixtures or articles. The registrants have to provide the information required by Regulation (EC) No 1907/2006, as appropriate, in order to fulfil the registration requirements.</p>
+            </recital>
+            <recital xml:id="rec_d305e80">
+               <num>(2)</num>
+               <p>Article 13(2) of Regulation (EC) No 1907/2006 provides that test methods used to generate information on intrinsic properties of substances required by that Regulation are to be regularly reviewed and improved with a view to reducing testing on vertebrate animals and the number of animals involved. When appropriate validated test methods become available, the Commission Regulation (EC) No 440/2008<authorialNote placement="bottom" marker="2">
+                     <p>Commission Regulation (EC) No 440/2008 of 30 May 2008 laying down test methods pursuant to Regulation (EC) No 1907/2006 of the European Parliament and of the Council on the Registration, Evaluation, Authorisation and Restriction of Chemicals (REACH) (OJ L 142, 31.5.2008, p. 1).</p>
+                  </authorialNote> and the Annexes to Regulation (EC) No 1907/2006 should be amended, if relevant, so as to replace, reduce or refine animal testing. The principles of replacement, reduction and refinement, enshrined in Directive 2010/63/EU of the European Parliament and of the Council<authorialNote placement="bottom" marker="3">
+                     <p>Directive 2010/63/EU of the European Parliament and of the Council of 22 September 2010 on the protection of animals used for scientific purposes (OJ L 276, 20.10.2010, p. 33).</p>
+                  </authorialNote> should be taken into account.</p>
+            </recital>
+            <recital xml:id="rec_d305e106">
+               <num>(3)</num>
+               <p>Pursuant to Regulation (EC) No 1907/2006, <i>in vivo</i> studies are required for the generation of information on skin sensitisation in point 8.3 of Annex VII to Regulation (EC) No 1907/2006.</p>
+            </recital>
+            <recital xml:id="rec_d305e115">
+               <num>(4)</num>
+               <p>In recent years, significant scientific progress has been made in the development of alternative test methods for skin sensitisation. Several <i>in chemico</i>/<i>in vitro</i> test methods have been validated by the European Union Reference Laboratory for Alternatives to Animal Testing (EURL ECVAM) and/or internationally agreed by the Organisation for Economic Cooperation and Development (OECD). These test methods may allow the generation of adequate information to assess whether a substance causes skin sensitisation without the need to resort to <i>in vivo</i> testing, when applied in an appropriate combination in the framework of an integrated approach to testing and assessment (IATA).</p>
+            </recital>
+            <recital xml:id="rec_d305e130">
+               <num>(5)</num>
+               <p>To reduce animal testing, point 8.3 of Annex VII to Regulation (EC) No 1907/2006 should be amended to allow the use of these alternative methods, where adequate information can be obtained through this approach and where the available test methods are applicable for the substance to be tested.</p>
+            </recital>
+            <recital xml:id="rec_d305e136">
+               <num>(6)</num>
+               <p>The currently available alternative test methods agreed by OECD are based on an adverse outcome pathway (AOP) describing the mechanistic knowledge about the development of skin sensitisation. These methods are not intended to be used on their own, but to be applied in combination. For the comprehensive assessment of skin sensitisation, typically methods addressing the first three key events of the AOP should be used.</p>
+            </recital>
+            <recital xml:id="rec_d305e143">
+               <num>(7)</num>
+               <p>However, under certain conditions, it may be possible to derive sufficient information without explicitly addressing all three key events by separate test methods. Therefore, the possibility should be given to registrants to scientifically justify the omission of tests addressing certain key events.</p>
+            </recital>
+            <recital xml:id="rec_d305e149">
+               <num>(8)</num>
+               <p>The test method indicated as the first choice for <i>in vivo</i> testing, the local lymph node assay (LLNA), provides information on the strength of the sensitisation potential of a substance. The identification of strong skin sensitisers is important to allow appropriate classification and risk assessment of such substances. It therefore should be clarified that the requirement for information allowing an assessment whether a substance should be presumed to be a strong sensitiser applies to all data, irrespective whether they are generated <i>in vivo</i> or <i>in vitro</i>.</p>
+            </recital>
+            <recital xml:id="rec_d305e164">
+               <num>(9)</num>
+               <p>However, in order to avoid animal testing and the repetition of already performed tests, existing <i>in vivo</i> skin sensitisation studies performed according to valid OECD test guidelines or EU test methods and in compliance to good laboratory practice<authorialNote placement="bottom" marker="4">
+                     <p>Directive 2004/10/EC of the European Parliament and of the Council of 11 February 2004 on the harmonisation of laws, regulations and administrative provisions relating to the application of the principles of good laboratory practice and the verification of their applications for tests on chemical substances (codified version)(OJ L 50, 20.2.2004, p. 44).</p>
+                  </authorialNote> should be considered valid to fulfil the standard information requirement for skin sensitisation, even if the information derived from them is not sufficient for a conclusion whether a substance can be presumed to be a strong sensitiser.</p>
+            </recital>
+            <recital xml:id="rec_d305e184">
+               <num>(10)</num>
+               <p>In addition, the standard information requirements and adaptation rules in 8.3 of Annex VII to Regulation (EC) No 1907/2006 should be revised in order to remove redundancies with rules set by Annex VI and Annex XI and in the introductory parts of Annex VII to that Regulation as regards the review of available data, the waiving of studies for a toxicological endpoint if the available information indicates that the substance meets the criteria for classification for that toxicological endpoint, or to clarify the intended meaning as regards the waiving of studies for substances that are flammable under certain conditions. Where reference is made to the classification of substances, adaptation rules should be updated to reflect the terminology used in Regulation (EC) No 1272/2008 of the European Parliament and of the Council<authorialNote placement="bottom" marker="5">
+                     <p>Regulation (EC) No 1272/2008 of the European Parliament and of the Council of 16 December 2008 on classification, labelling and packaging of substances and mixtures, amending and repealing Directives 67/548/EEC and 1999/45/EC, and amending Regulation (EC) No 1907/2006 (OJ L 353, 31.12.2008, p. 1).</p>
+                  </authorialNote>.</p>
+            </recital>
+            <recital xml:id="rec_d305e200">
+               <num>(11)</num>
+               <p>ECHA, in cooperation with Member States and stakeholders, should further develop guidance documents for the application of the test methods and waiving possibilities for the standard information requirements provided by this Regulation for the purposes of Regulation (EC) No 1907/2006. In doing so, ECHA should take full account of the work carried out in OECD, as well as in other relevant scientific and expert groups.</p>
+            </recital>
+            <recital xml:id="rec_d305e206">
+               <num>(12)</num>
+               <p>Regulation (EC) No 1907/2006 should therefore be amended accordingly.</p>
+            </recital>
+            <recital xml:id="rec_d305e212">
+               <num>(13)</num>
+               <p>The measures provided for in this Regulation are in accordance with the opinion of the Committee established under Article 133 of Regulation (EC) No 1907/2006</p>
+            </recital>
+            <recital xml:id="rec_d305e218">
+               <num>(14)</num>
+               <p>Commission Regulation (EU) 2016/1688<authorialNote placement="bottom" marker="6">
+                     <p>Commission Regulation (EU) 2016/1688 of 20 September 2016 amending Annex VII to Regulation (EC) No 1907/2006 of the European Parliament and of the Council on the Registration, Evaluation, Authorisation and Restriction of Chemicals (REACH) as regards skin sensitisation (OJ L 255, 21.9.2016, p. 14).</p>
+                  </authorialNote> has been adopted without submission of the draft measure for scrutiny to the Council. In order to remedy this omission, the Commission should repeal Regulation (EU) 2016/1688 and replace it by the present Regulation which was submitted in draft for scrutiny to the European Parliament and the Council. Acts adopted under Regulation (EU) 2016/1688 remain valid,</p>
+            </recital>
+         </recitals>
+         <formula name="enactingFormula">
+            <p>HAS ADOPTED THIS REGULATION:</p>
+         </formula>
+      </preamble>
+      <body>
+         <article xml:id="art_d305e237">
+            <num>Article 1</num>
+            <heading/>
+            <paragraph>
+               <content>
+                  <p>Annex VII to Regulation (EC) No 1907/2006 is amended in accordance with the Annex to this Regulation.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d305e243">
+            <num>Article 2</num>
+            <heading/>
+            <paragraph>
+               <content>
+                  <p>This Regulation shall enter into force on the twentieth day following that of its publication in the <i>Official Journal of the European Union</i>.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <content>
+                  <p>It shall apply from 11 October 2016.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <content>
+                  <p>Regulation (EU) 2016/1688 is repealed with effect from the entry into force of this Regulation.</p>
+               </content>
+            </paragraph>
+         </article>
+         <clause>
+            <content>
+               <p>This Regulation shall be binding in its entirety and directly applicable in all Member States.</p>
+            </content>
+         </clause>
+      </body>
+      <conclusions>
+         <p>Done at Brussels, 19 April 2017.</p>
+         <block name="signatory">
+            <signature>
+               <organization refersTo="">For the Commission</organization>
+               <role refersTo="">The President</role>
+               <person refersTo="">Jean-Claude JUNCKER</person>
+            </signature>
+         </block>
+      </conclusions>
+   </bill>
+</akomaNtoso>

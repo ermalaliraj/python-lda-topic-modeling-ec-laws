@@ -1,0 +1,620 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"
+            xmlns:fmx="http://formex.publications.europa.eu/schema/formex-05.21-20110601.xd"
+            xmlns:leos="urn:eu:europa:ec:leos"
+            xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <bill name="">
+      <meta xmlns:fn="http://www.w3.org/2005/xpath-functions">
+         <identification source="~COM">
+            <FRBRWork>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRcountry value=""/>
+            </FRBRWork>
+            <FRBRExpression>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+            </FRBRManifestation>
+         </identification>
+      </meta>
+      <preface>
+         <longTitle>
+            <p>
+               <docStage/>
+               <docType>REGULATION (EU) 2017/2392 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL</docType>of 13 December 2017<docPurpose>amending Directive 2003/87/EC to continue current limitations of scope for aviation activities and to prepare to implement a global market-based measure from 2021</docPurpose>
+            </p>
+         </longTitle>
+      </preface>
+      <preamble>
+         <formula name="actingEntity">
+            <p>THE EUROPEAN PARLIAMENT AND THE COUNCIL OF THE EUROPEAN UNION,</p>
+         </formula>
+         <citations>
+            <citation>
+               <p>Having regard to the Treaty on the Functioning of the European Union, and in particular Article 192(1) thereof,</p>
+            </citation>
+            <citation>
+               <p>Having regard to the proposal from the European Commission,</p>
+            </citation>
+            <citation>
+               <p>After transmission of the draft legislative act to the national parliaments,</p>
+            </citation>
+            <citation>
+               <p>Having regard to the opinion of the European Economic and Social Committee<authorialNote placement="bottom" marker="1">
+                     <p>OJ C 288, 31.8.2017, p. 75.</p>
+                  </authorialNote>,</p>
+            </citation>
+            <citation>
+               <p>After consulting the Committee of the Regions,</p>
+            </citation>
+            <citation>
+               <p>Acting in accordance with the ordinary legislative procedure<authorialNote placement="bottom" marker="2">
+                     <p>Position of the European Parliament of 12 December 2017 (not yet published in the Official Journal) and decision of the Council of 12 December 2017.</p>
+                  </authorialNote>,</p>
+            </citation>
+         </citations>
+         <recitals xml:id="recs_d684e85">
+            <intro>
+               <p>Whereas:</p>
+            </intro>
+            <recital xml:id="rec_d684e88">
+               <num>(1)</num>
+               <p>The 21st Conference of the Parties to the United Nations Framework Convention on Climate Change (UNFCCC) took place in Paris from 30 November to 12 December 2015. At that Conference, an international agreement (&apos;the Paris Agreement&apos;) was adopted to strengthen the global response to climate change. The Paris Agreement, inter alia, sets out a long-term goal in line with the objective to keep the global temperature increase well below 2 °C above pre-industrial levels and to pursue efforts to keep it to 1,5 °C above pre-industrial levels. The Paris Agreement was approved on behalf of the Union by Council Decision (EU) 2016/1841<authorialNote placement="bottom" marker="3">
+                     <p>Council Decision (EU) 2016/1841 of 5 October 2016 on the conclusion, on behalf of the European Union, of the Paris Agreement adopted under the United Nations Framework Convention on Climate Change (OJ L 282, 19.10.2016, p. 1).</p>
+                  </authorialNote>. The Paris Agreement entered into force on 4 November 2016. In order to achieve the objectives of the Paris Agreement, all sectors will need to contribute and the Parties will prepare, communicate and maintain successive Nationally Determined Contributions (&apos;NDCs&apos;). Action should therefore also be taken through the International Civil Aviation Organisation (&apos;ICAO&apos;) to reduce emissions from international aviation.</p>
+            </recital>
+            <recital xml:id="rec_d684e126">
+               <num>(2)</num>
+               <p>Environmental protection is one of the most important challenges facing the Union. The environmental objectives of the Union as referred to in Article 191 of the Treaty on the Functioning of the European Union, are preserving, protecting and improving the quality of the environment; protecting human health; prudent and rational utilisation of natural resources; and promoting measures at international level to deal with regional or worldwide environmental problems, and in particular combating climate change.</p>
+            </recital>
+            <recital xml:id="rec_d684e132">
+               <num>(3)</num>
+               <p>A binding target of at least a 40 % domestic reduction in economy-wide greenhouse gas emissions by 2030 compared to 1990 was set by the European Council in its conclusions of 23-24 October 2014. The Council on 6 March 2015 formally approved this contribution by the Union and its Member States as their intended NDC under the Paris Agreement. In its conclusions of October 2014, the European Council stated that the target is to be delivered collectively by the Union in the most cost-effective manner possible, with the reductions in the European Union Emissions Trading System (&apos;EU ETS&apos;) and non-ETS sectors amounting to 43 % and 30 % respectively by 2030 compared to 2005. All sectors of the economy should contribute to achieving those emission reductions. The Commission should facilitate exchanges among Member States on best practice and lessons learned in the sector of low-emission mobility.</p>
+            </recital>
+            <recital xml:id="rec_d684e152">
+               <num>(4)</num>
+               <p>A well-functioning, reformed EU ETS with an enhanced instrument to stabilise the market will be the main European instrument to achieve the 40 % reduction target referred to in the European Council conclusions of October 2014, with a linear factor and free allocation beyond 2020. Those provisions should be consistent with the Union&apos;s climate objectives and its commitments under the Paris Agreement. The auction share should be expressed as a percentage figure in Directive 2003/87/EC of the European Parliament and of the Council<authorialNote placement="bottom" marker="4">
+                     <p>Directive 2003/87/EC of the European Parliament and of the Council of 13 October 2003 establishing a scheme for greenhouse gas emission allowance trading within the Community and amending Council Directive 96/61/EC (OJ L 275, 25.10.2003, p. 32).</p>
+                  </authorialNote>, to enhance planning certainty as regards investment decisions, to increase transparency, to minimise carbon leakage, and to render the overall system simpler and more easily understandable. As part of its regular reporting under Regulation (EU) No 525/2013 of the European Parliament and of the Council<authorialNote placement="bottom" marker="5">
+                     <p>Regulation (EU) No 525/2013 of the European Parliament and of the Council of 21 May 2013 on a mechanism for monitoring and reporting greenhouse gas emissions and for reporting other information at national and Union level relevant to climate change and repealing Decision No 280/2004/EC (OJ L 165, 18.6.2013, p. 13).</p>
+                  </authorialNote>, the Commission should also assess the outcome of the 2018 Facilitative Dialogue. The provisions of Directive 2003/87/EC should be kept under review in light of international developments and efforts undertaken to achieve the objectives of the Paris Agreement, including the first global stocktake in 2023, and subsequent global stocktakes every five years thereafter, intended to inform successive NDCs.</p>
+            </recital>
+            <recital xml:id="rec_d684e178">
+               <num>(5)</num>
+               <p>The Union and its Member States have been endeavouring to make progress towards reaching an international agreement to reduce greenhouse gas impacts from aviation since 1997 and they have legislation in place since 2008 to limit the climate change impacts from aviation activities through the EU ETS that has been in operation since 2005. The Court of Justice of the European Union ruled in its judgment of 21 December 2011<authorialNote placement="bottom" marker="6">
+                     <p>Judgment of the Court of Justice of 21 December 2011, <i>Air Transport Association of America and Others</i> v. <i>Secretary of State for Energy and Climate Change</i>, C-366/10, ECLI:EU:C:2011:864.</p>
+                  </authorialNote> that the inclusion of aviation activities in the EU ETS pursuant to Directive 2008/101/EC of the European Parliament and of the Council<authorialNote placement="bottom" marker="7">
+                     <p>Directive 2008/101/EC of the European Parliament and of the Council of 19 November 2008 amending Directive 2003/87/EC so as to include aviation activities in the scheme for greenhouse gas emission allowance trading within the Community (OJ L 8, 13.1.2009, p. 3).</p>
+                  </authorialNote> does not violate international law. In order to facilitate progress at the ICAO, the Union has twice adopted time-bound derogations to the EU ETS so as to limit compliance obligations to emissions from flights between aerodromes situated in the European Economic Area (&apos;EEA&apos;), with equal treatment on routes of aircraft operators wherever they are based. The most recent derogation from the EU ETS, laid down in Regulation (EU) No 421/2014 of the European Parliament and of the Council<authorialNote placement="bottom" marker="8">
+                     <p>Regulation (EU) No 421/2014 of the European Parliament and of the Council of 16 April 2014 amending Directive 2003/87/EC establishing a scheme for greenhouse gas emission allowance trading within the Community, in view of the implementation by 2020 of an international agreement applying a single global market-based measure to international aviation emissions (OJ L 129, 30.4.2014, p. 1).</p>
+                  </authorialNote>, limited compliance obligations to intra-EEA flights between 2013 and 2016, and envisaged potential changes to the scope of the system as regards activity to and from aerodromes situated outside the EEA from 1 January 2017 onwards following the review set out in that Regulation.</p>
+            </recital>
+            <recital xml:id="rec_d684e227">
+               <num>(6)</num>
+               <p>The ICAO&apos;s work on a market-based measure for international aviation emissions is one element of the so-called &apos;basket of measures&apos; for achieving the aspirational goal of carbon neutral growth from 2020 (&apos;CNG 2020&apos;), and should be complemented by advances in air traffic management and propulsion technologies. Continued development of research strategies and programmes will be essential to technological innovation and operational improvements needed in order to go beyond the CNG 2020 goal and to achieve sector-wide absolute emission reductions.</p>
+            </recital>
+            <recital xml:id="rec_d684e241">
+               <num>(7)</num>
+               <p>Several measures have been adopted at Union level which aim at preventing the fragmentation of European airspace in order to enhance the flow of air traffic and control of airspace usage, thereby reducing emissions. Member States have recommitted themselves to implementing the Single European Sky concept, taking account of the expected growth in the volume of air traffic in the coming years. In order to achieve progress with air traffic management, the implementation of Single European Sky ATM Research (SESAR) Joint Undertaking needs to be accelerated. Other measures such as the use of GNSS for satellite-based navigation, Joint Technology Initiatives such as Clean Sky I and Clean Sky II and Union research programs, such as Horizon 2020 and its successors, will also contribute to improving efficiency and to reducing aviation emissions.</p>
+            </recital>
+            <recital xml:id="rec_d684e248">
+               <num>(8)</num>
+               <p>In light of the resolution adopted at the ICAO&apos;s 39<sup>th</sup> Assembly in October 2016 on the implementation of a global market-based measure from 2021 to offset international aviation emissions above 2020 levels, the adoption of Standards and Recommended Practices (&apos;SARPs&apos;) by the ICAO to complement that resolution and to implement the global system is planned for 2018. However, its concrete operationalisation will require action by the ICAO Parties at domestic level. Also, governance arrangements need to be developed by the ICAO, including a registry system. In that context, in order to promote momentum in the ICAO and to facilitate the operationalisation of the ICAO scheme, the current derogation from the EU ETS obligations for flights to and from third countries should be extended until 31 December 2023, subject to review, to allow the experience necessary for the implementation of the ICAO scheme to be gathered. As a result of the extension of the derogation, the amount of allowances to be auctioned and issued for free, including from the special reserve, should remain proportional to the reduction of the surrender obligation. From 1 January 2021 onwards, the number of allowances allocated to aircraft operators should be reduced annually in line with the linear reduction factor applicable to all other sectors in the EU ETS, subject to the review in view of the implementation of the ICAO scheme. The review will be prepared in full accordance with the better regulation guidelines, with adequate consultations with all stakeholders including Member States. Allowances not allocated from the special reserve should continue to be cancelled.</p>
+            </recital>
+            <recital xml:id="rec_d684e268">
+               <num>(9)</num>
+               <p>Revenues generated from the auctioning of allowances, or their equivalent in financial value, should be used to tackle climate change in the Union and third countries, inter alia, to reduce greenhouse gas emissions, to adapt to the impacts of climate change in the Union and third countries, especially developing countries, to fund research and development for mitigation and adaptation, including in the fields of aeronautics, air transport and sustainable alternative aviation fuels, to reduce emissions through low-emission transport and to cover the cost of administering the EU ETS. Special consideration should be given by Member States that use those revenues for co-financing research and innovation to programmes or initiatives under the Ninth Research Framework Programme (&apos;FP9&apos;). Ensuring transparency on the use of revenues generated from the auctioning of allowances under Directive 2003/87/EC through the submission of reports by Member States in accordance with Article 17 of Regulation (EU) No 525/2013 is essential to meeting Union commitments.</p>
+            </recital>
+            <recital xml:id="rec_d684e278">
+               <num>(10)</num>
+               <p>The environmental integrity of the EU ETS should be safeguarded against the risk of obligations lapsing for aircraft operators and other operators regulated by a Member State. Therefore, allowances issued by such a Member State should only be useable if the obligations to surrender allowances for emissions are not at risk of lapsing in a way that results in undermining the environmental integrity of the EU ETS. The Commission should be granted the power to take the measures necessary to protect the environmental integrity of the EU ETS accordingly. Such measures should be in place until they are no longer necessary due to a change in circumstances.</p>
+            </recital>
+            <recital xml:id="rec_d684e284">
+               <num>(11)</num>
+               <p>Given that key features of the global market-based measure have yet to be developed and that its implementation depends on domestic legislation laid down by participating States and regions, the Commission should report regularly to the European Parliament and to the Council on progress in the ICAO negotiations, in particular on relevant instruments adopted through the ICAO, including SARPs, the actions taken by third countries to implement the global market-based measure to apply to emissions for the period 2021-2035, efforts to establish ambitious and binding measures to achieve the aviation industry&apos;s long-term goal of halving aviation CO<sub>2</sub> emissions relative to 2005 levels by 2050 and other relevant international developments and applicable instruments, such as rules under the UNFCCC and the Paris Agreement on carbon markets and accounting. Once there is clarity about the nature and content of the ICAO&apos;s instruments and in advance of the start of the ICAO&apos;s global market-based measure, the Commission should present a report in which it should consider how to implement those instruments in Union law through a revision of Directive 2003/87/EC. The Commission should further consider the rules applicable to intra-EEA flights, as appropriate. In so doing, the Commission in its report should reflect the need to ensure consistency with Union law, in particular to avoid any distortion of competition and to minimise any undue administrative burden for Member States and aircraft operators.The Commission should accompany its report with a proposal, where appropriate, to the European Parliament and to the Council consistent with ensuring the contribution of aviation to the Union&apos;s 2030 economy-wide greenhouse gas reduction commitment.</p>
+            </recital>
+            <recital xml:id="rec_d684e293">
+               <num>(12)</num>
+               <p>To prepare for the implementation of the ICAO&apos;s global market-based measure, it is necessary to have relevant data available regarding the emissions from aviation activities as early as possible. Those emissions should be monitored, reported and verified in accordance with the same principles as those applicable to the monitoring, reporting and verification of emissions from aviation activities under Directive 2003/87/EC. Accordingly, the Commission should adopt provisions on monitoring, reporting and verification for the purpose of implementing the ICAO&apos;s global market-based measure that avoid any distortion of competition. Those provisions should be consistent with the principles contained in the regulation referred to in Article 14(1) of Directive 2003/87/EC and should ensure that the emissions reports submitted are verified in accordance with the verification principles and criteria referred to in Article 15 of that Directive. Those provisions should be adopted in accordance with the procedure applicable to monitoring, reporting and verification under Directive 2003/87/EC.</p>
+            </recital>
+            <recital xml:id="rec_d684e301">
+               <num>(13)</num>
+               <p>Aviation also has an impact on the climate through the release of nitrogen oxides, water vapour and sulphate and soot particles at high altitudes, which could have a significant climate effect, according to scientific research. The Intergovernmental Panel on Climate Change has estimated that the total climate impact of aviation is currently two to four times higher than the effect of its past carbon dioxide emissions alone. Pending scientific progress, all impacts of aviation should be addressed to the extent possible. In Directive 2008/101/EC a Commission proposal on nitrogen oxides was envisaged in 2008. Despite the technical and political difficulties involved, the Commission should speed up its work in that regard. Research on the formation of condensation trails, also known as contrails, on their evolution into cirrus clouds, on the smaller direct effects of sulphate aerosols and soot, and on effective mitigation measures, including operational and technical measures, should also be promoted.</p>
+            </recital>
+            <recital xml:id="rec_d684e307">
+               <num>(14)</num>
+               <p>By way of simplification and in order to lighten administrative tasks, aircraft operators with emissions lower than 3000 tonnes of CO<sub>2</sub> per annum from intra-EEA flights should benefit from the use of the small emitters tool approved under Commission Regulation (EU) No 606/2010<authorialNote placement="bottom" marker="9">
+                     <p>Commission Regulation (EU) No 606/2010 of 9 July 2010 on the approval of a simplified tool developed by the European organisation for air safety navigation (Eurocontrol) to estimate the fuel consumption of certain small emitting aircraft operators (OJ L 175, 10.7.2010, p. 25).</p>
+                  </authorialNote> for the verification of their emissions. No-commercial aircraft operators emitting less than 1000 tonnes of CO<sub>2</sub> per annum should continue to be considered to meet the requirements of Directive 2003/87/EC for another 10 years, during which measures should be developed so that in the future all operators contribute to emission reductions.</p>
+            </recital>
+            <recital xml:id="rec_d684e335">
+               <num>(15)</num>
+               <p>Since the objectives of this Regulation, namely to extend the current limitations of scope for aviation activities until 31 December 2023 and to prepare to implement a global market-based measure from 2021, cannot be sufficiently achieved by the Member States but can rather, by reason of its scale or effects, be better achieved at Union level, the Union may adopt measures, in accordance with the principle of subsidiarity as set out in Article 5 of the Treaty on European Union. In accordance with the principle of proportionality as set out in that Article, this Regulation does not go beyond what is necessary in order to achieve those objectives.</p>
+            </recital>
+            <recital xml:id="rec_d684e344">
+               <num>(16)</num>
+               <p>It is essential to ensure legal certainty for aircraft operators and national authorities in view of the surrender deadline of 30 April 2018 specified in Directive 2003/87/EC. Accordingly, this Regulation should enter into force on the day of its publication in the <i>Official Journal of the European Union</i>.</p>
+            </recital>
+            <recital xml:id="rec_d684e356">
+               <num>(17)</num>
+               <p>Directive 2003/87/EC should therefore be amended accordingly,</p>
+            </recital>
+         </recitals>
+         <formula name="enactingFormula">
+            <p>HAVE ADOPTED THIS REGULATION:</p>
+         </formula>
+      </preamble>
+      <body>
+         <article xml:id="art_d684e365" leos:compliant="false">
+            <num>Article 1</num>
+            <heading/>
+            <paragraph>
+               <subparagraph>
+                  <content>
+                     <p>Directive 2003/87/EC is amended as follows:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(1)</num>
+                     <alinea>
+                        <content>
+                           <p>in Article 3c, the following paragraph is inserted:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <paragraph>
+                                       <num>&apos;3a.</num>
+                                       <content>
+                                          <p>Any allocation of allowances for aviation activities to and from aerodromes located in countries outside the European Economic Area (&quot;EEA&quot;) after 31 December 2023 shall be subject to the review referred to in Article 28b.&apos;;</p>
+                                       </content>
+                                    </paragraph>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(2)</num>
+                     <alinea>
+                        <content>
+                           <p>in Article 3d, paragraph 2 is replaced by the following:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <paragraph>
+                                       <num>&apos;2.</num>
+                                       <content>
+                                          <p>From 1 January 2013, 15 % of allowances shall be auctioned. The Commission shall undertake a study on the ability of the aviation sector to pass on the cost of CO<sub>2</sub> to its customers, in relation to the EU ETS and to the global market-based measure developed by the International Civil Aviation Organization (&quot;ICAO&quot;). The study shall assess the ability of the aviation sector to pass on the cost of required emission units, comparing this to industries and to the power sector, with the intention of making a proposal to increase the percentage of auctioning pursuant to the review referred to in Article 28b(2), taking into account the analysis of costs passed on and considering alignment with other sectors and the competitiveness between different modes of transport.&apos;;</p>
+                                       </content>
+                                    </paragraph>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(3)</num>
+                     <alinea>
+                        <content>
+                           <p>in Article 3d, paragraph 4 is replaced by the following:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <paragraph>
+                                       <num>&apos;4.</num>
+                                       <subparagraph>
+                                          <content>
+                                             <p>All revenues generated from the auctioning of allowances should be used to tackle climate change in the Union and third countries, inter alia, to reduce greenhouse gas emissions, to adapt to the impacts of climate change in the Union and third countries, especially developing countries, to fund research and development for mitigation and adaptation, including in particular in the fields of aeronautics and air transport, to reduce emissions through low-emission transport and to cover the cost of administering the EU ETS. Auctioning revenues should also be used to fund common projects to reduce greenhouse gas emissions from the aviation sector, such as the Single European Sky ATM Research (SESAR) Joint Undertaking and the Clean Sky Joint Technology Initiatives and any initiatives enabling the widespread use of GNSS for satellite-based navigation and interoperable capabilities within all Member States, in particular projects that improve air navigation infrastructure, the provision of air navigation services and the use of airspace. The proceeds of auctioning may also be used to fund contributions to the Global Energy Efficiency and Renewable Energy Fund, and measures to avoid deforestation. Special consideration shall be given by Member States that use those revenues for co-financing research and innovation to programmes or initiatives under the Ninth Research Framework Programme (&quot;FP9&quot;). Transparency on the use of revenues generated from the auctioning of allowances under this Directive is essential to meeting Union commitments.</p>
+                                          </content>
+                                       </subparagraph>
+                                       <subparagraph>
+                                          <content>
+                                             <p>Member States shall inform the Commission of actions taken pursuant to the first subparagraph of this paragraph.&apos;;</p>
+                                          </content>
+                                       </subparagraph>
+                                    </paragraph>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(4)</num>
+                     <alinea>
+                        <content>
+                           <p>in Article 12, paragraph 3 is replaced by the following:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <paragraph>
+                                       <num>&apos;3.</num>
+                                       <content>
+                                          <p>For the period until 31 December 2020, Member States shall ensure that, by 30 April each year, the operator of each installation surrenders a number of allowances, other than allowances issued under Chapter II, that is equal to the total emissions from that installation during the preceding calendar year as verified in accordance with Article 15, and that those allowances are subsequently cancelled. For the period starting from 1 January 2021, Member States shall ensure that, by 30 April each year, the operator of each installation surrenders a number of allowances, that is equal to the total emissions from that installation during the preceding calendar year as verified in accordance with Article 15, and that those allowances are subsequently cancelled, subject to the review referred to in Article 28b.&apos;;</p>
+                                       </content>
+                                    </paragraph>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(5)</num>
+                     <alinea>
+                        <content>
+                           <p>in Article 12, the following paragraph is inserted before paragraph 3a:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <paragraph>
+                                       <num>&apos;3-a.</num>
+                                       <content>
+                                          <p>Where necessary, and for as long as is necessary, in order to protect the environmental integrity of the EU ETS, aircraft operators and other operators in the EU ETS shall be prohibited from using allowances that are issued by a Member State in respect of which there are obligations lapsing for aircraft operators and other operators. The legal act referred to in Article 19 shall include the measures necessary in the cases referred to in this paragraph.&apos;;</p>
+                                       </content>
+                                    </paragraph>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(6)</num>
+                     <alinea>
+                        <content>
+                           <p>Article 28a is amended as follows:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <alinea>
+                              <content>
+                                 <p>the title is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <heading>&apos;Derogations applicable in advance of the implementation of the ICAO&apos;s global market-based measure&apos;;</heading>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <alinea>
+                              <content>
+                                 <p>paragraph 1 is amended as follows:</p>
+                              </content>
+                           </alinea>
+                           <list>
+                              <point>
+                                 <num>(i)</num>
+                                 <alinea>
+                                    <content>
+                                       <p>points (a) and (b) are replaced by the following:</p>
+                                    </content>
+                                 </alinea>
+                                 <alinea>
+                                    <content>
+                                       <p>
+                                          <mod>
+                                             <quotedStructure startQuote="" endQuote="">
+                                                <list>
+                                                   <point>
+                                                      <num>&apos;(a)</num>
+                                                      <content>
+                                                         <p>all emissions from flights to and from aerodromes located in countries outside the EEA in each calendar year from 1 January 2013 to 31 December 2023, subject to the review referred to in Article 28b;</p>
+                                                      </content>
+                                                   </point>
+                                                   <point>
+                                                      <num>(b)</num>
+                                                      <content>
+                                                         <p>all emissions from flights between an aerodrome located in an outermost region within the meaning of Article 349 of the Treaty on the Functioning of the European Union and an aerodrome located in another region of the EEA in each calendar year from 1 January 2013 to 31 December 2023, subject to the review referred to in Article 28b.&apos;;</p>
+                                                      </content>
+                                                   </point>
+                                                </list>
+                                             </quotedStructure>
+                                          </mod>
+                                       </p>
+                                    </content>
+                                 </alinea>
+                              </point>
+                              <point>
+                                 <num>(ii)</num>
+                                 <content>
+                                    <p>point (c) is deleted;</p>
+                                 </content>
+                              </point>
+                           </list>
+                        </point>
+                        <point>
+                           <num>(c)</num>
+                           <alinea>
+                              <content>
+                                 <p>paragraph 2 is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <paragraph>
+                                             <num>&apos;2.</num>
+                                             <subparagraph>
+                                                <content>
+                                                   <p>By way of derogation from Articles 3e and 3f, aircraft operators benefiting from the derogations provided for in points (a) and (b) of paragraph 1 of this Article shall be issued, each year, with a number of free allowances reduced in proportion to the reduction of the surrender obligation provided for in those points.</p>
+                                                </content>
+                                             </subparagraph>
+                                             <subparagraph>
+                                                <content>
+                                                   <p>By way of derogation from Article 3f(8), allowances that are not allocated from the special reserve shall be cancelled.</p>
+                                                </content>
+                                             </subparagraph>
+                                             <subparagraph>
+                                                <content>
+                                                   <p>From 1 January 2021, the number of allowances allocated to aircraft operators shall be subject to the application of the linear factor referred to in Article 9, subject to the review referred to in Article 28b.</p>
+                                                </content>
+                                             </subparagraph>
+                                             <subparagraph>
+                                                <content>
+                                                   <p>As regards activity in the period from 1 January 2017 to 31 December 2023, Member States shall, before 1 September 2018, publish the number of aviation allowances allocated to each aircraft operator.&apos;;</p>
+                                                </content>
+                                             </subparagraph>
+                                          </paragraph>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(d)</num>
+                           <alinea>
+                              <content>
+                                 <p>paragraph 4 is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <paragraph>
+                                             <num>&apos;4.</num>
+                                             <content>
+                                                <p>By way of derogation from Article 3d(3), the number of allowances to be auctioned by each Member State in respect of the period from 1 January 2013 to 31 December 2023 shall be reduced to correspond to its share of attributed aviation emissions from flights which are not subject to the derogations provided for in points (a) and (b) of paragraph 1 of this Article.&apos;;</p>
+                                             </content>
+                                          </paragraph>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(e)</num>
+                           <alinea>
+                              <content>
+                                 <p>paragraph 6 is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <paragraph>
+                                             <num>&apos;6.</num>
+                                             <content>
+                                                <p>By way of derogation from Articles 3g, 12, 15 and 18a, where an aircraft operator has total annual emissions lower than 25000 tonnes of CO<sub>2</sub>, or where an aircraft operator has total annual emissions lower than 3000 tonnes of CO<sub>2</sub> from flights other than those referred to in points (a) and (b) of paragraph 1 of this Article, its emissions shall be considered to be verified emissions if determined by using the small emitters tool approved under Commission Regulation (EU) No 606/2010<authorialNote placement="bottom" marker="10">
+                                                      <p>Commission Regulation (EU) No 606/2010 of 9 July 2010 on the approval of a simplified tool developed by the European organisation for air safety navigation (Eurocontrol) to estimate the fuel consumption of certain small emitting aircraft operators (OJ L 175, 10.7.2010, p. 25).&apos;;</p>
+                                                   </authorialNote> and populated by Eurocontrol with data from its ETS support facility. Member States may implement simplified procedures for non-commercial aircraft operators as long as such procedures provide no less accuracy than the small emitters tool provides.</p>
+                                             </content>
+                                          </paragraph>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(f)</num>
+                           <alinea>
+                              <content>
+                                 <p>paragraph 7 is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <paragraph>
+                                             <num>&apos;7.</num>
+                                             <content>
+                                                <p>Paragraph 1 of this Article shall apply to countries with whom an agreement pursuant to Article 25 or 25a has been reached only in line with the terms of such agreement.&apos;;</p>
+                                             </content>
+                                          </paragraph>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(g)</num>
+                           <content>
+                              <p>paragraph 8 is deleted;</p>
+                           </content>
+                        </point>
+                     </list>
+                  </point>
+                  <point>
+                     <num>(7)</num>
+                     <alinea>
+                        <content>
+                           <p>the following Articles are inserted:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <article xml:id="art_d684e678">
+                                       <num>&apos;Article 28b</num>
+                                       <heading>Reporting and review by the Commission concerning the implementation of the ICAO&apos;s global market-based measure</heading>
+                                       <paragraph>
+                                          <num>1.</num>
+                                          <subparagraph>
+                                             <content>
+                                                <p>Before 1 January 2019 and regularly thereafter, the Commission shall report to the European Parliament and to the Council on progress in the ICAO negotiations to implement the global market-based measure to be applied to emissions from 2021, in particular with regard to: (i) the relevant ICAO instruments, including Standards and Recommended Practices; (ii) ICAO Council-approved recommendations relevant to the global market-based measure; (iii) the establishment of a global registry; (iv) domestic measures taken by third countries to implement the global market-based measure to be applied to emissions from 2021; (v) the implications of reservations by third countries; and (vi) other relevant international developments and applicable instruments.</p>
+                                             </content>
+                                          </subparagraph>
+                                          <subparagraph>
+                                             <content>
+                                                <p>In line with the UNFCCC&apos;s global stocktake, the Commission shall also report on efforts to meet the aviation sector&apos;s aspirational long-term emissions reduction goal of halving aviation CO<sub>2</sub> emissions relative to 2005 levels by 2050.</p>
+                                             </content>
+                                          </subparagraph>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>2.</num>
+                                          <content>
+                                             <p>Within 12 months of the adoption by the ICAO of the relevant instruments, and before the global market-based measure becomes operational, the Commission shall present a report to the European Parliament and to the Council in which it shall consider ways for those instruments to be implemented in Union law through a revision of this Directive. The Commission shall, in that report, also consider the rules applicable in respect of flights within the EEA, as appropriate. It shall also examine the ambition and overall environmental integrity of the global market-based measure, including its general ambition in relation to targets under the Paris Agreement, the level of participation, its enforceability, transparency, the penalties for non-compliance, the processes for public input, the quality of offset credits, monitoring, reporting and verification of emissions, registries, accountability as well as rules on the use of biofuels. In addition, the report shall consider whether the provisions adopted under Article 28c(2) need to be revised.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>3.</num>
+                                          <content>
+                                             <p>The Commission shall accompany the report referred to in paragraph 2 of this Article with a proposal, where appropriate, to the European Parliament and to the Council to amend, delete, extend or replace the derogations provided for in Article 28a, that is consistent with the Union economy-wide greenhouse gas emission reduction commitment for 2030 with the aim of preserving the environmental integrity and effectiveness of Union climate action.</p>
+                                          </content>
+                                       </paragraph>
+                                    </article>
+                                    <article xml:id="art_d684e709">
+                                       <num>Article 28c</num>
+                                       <heading>Provisions for monitoring, reporting and verification for the purpose of the global market-based measure</heading>
+                                       <paragraph>
+                                          <num>1.</num>
+                                          <content>
+                                             <p>The Commission shall adopt provisions for the appropriate monitoring, reporting and verification of emissions for the purpose of implementing the ICAO&apos;s global market-based measure on all routes covered by it. Those provisions shall be based on the relevant instruments adopted in the ICAO, shall avoid any distortion of competition, be consistent with the principles contained in the Regulation referred to in Article 14(1), and shall ensure that the emissions reports submitted are verified in accordance with the verification principles and criteria referred to in Article 15.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>2.</num>
+                                          <content>
+                                             <p>The provisions referred to in paragraph 1 of this Article shall be adopted in accordance with the procedure referred to in Articles 14 and 15.&apos;;</p>
+                                          </content>
+                                       </paragraph>
+                                    </article>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(8)</num>
+                     <alinea>
+                        <content>
+                           <p>in Article 30, the following paragraph is added:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <paragraph>
+                                       <num>&apos;5.</num>
+                                       <content>
+                                          <p>Before 1 January 2020, the Commission shall present an updated analysis of the non-CO<sub>2</sub> effects of aviation, accompanied, where appropriate, by a proposal on how best to address those effects.&apos;;</p>
+                                       </content>
+                                    </paragraph>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(9)</num>
+                     <content>
+                        <p>in point (k) of Annex I, the year &apos;2020&apos; is replaced by &apos;2030&apos;.</p>
+                     </content>
+                  </point>
+               </list>
+            </paragraph>
+         </article>
+         <article xml:id="art_d684e762">
+            <num>Article 2</num>
+            <heading/>
+            <paragraph>
+               <content>
+                  <p>This Regulation shall enter into force on the day of its publication in the <i>Official Journal of the European Union</i>.</p>
+               </content>
+            </paragraph>
+         </article>
+         <clause>
+            <content>
+               <p>This Regulation shall be binding in its entirety and directly applicable in all Member States.</p>
+            </content>
+         </clause>
+      </body>
+      <conclusions>
+         <p>Done at Strasbourg, 13 December 2017.</p>
+         <block name="signatory">
+            <signature>
+               <organization refersTo="">For the European Parliament</organization>
+               <role refersTo="">The President</role>
+               <person refersTo="">A. TAJANI</person>
+            </signature>
+            <signature>
+               <organization refersTo="">For the Council</organization>
+               <role refersTo="">The President</role>
+               <person refersTo="">M. MAASIKAS</person>
+            </signature>
+         </block>
+      </conclusions>
+   </bill>
+</akomaNtoso>

@@ -1,0 +1,316 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"
+            xmlns:fmx="http://formex.publications.europa.eu/schema/formex-05.21-20110601.xd"
+            xmlns:leos="urn:eu:europa:ec:leos"
+            xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <bill name="">
+      <meta xmlns:fn="http://www.w3.org/2005/xpath-functions">
+         <identification source="~COM">
+            <FRBRWork>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRcountry value=""/>
+            </FRBRWork>
+            <FRBRExpression>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+            </FRBRManifestation>
+         </identification>
+      </meta>
+      <preface>
+         <longTitle>
+            <p>
+               <docStage/>
+               <docType>COMMISSION REGULATION (EU) 2018/255</docType>of 19 February 2018<docPurpose>implementing Regulation (EC) No 1338/2008 of the European Parliament and of the Council as regards statistics based on the European Health Interview Survey (EHIS)</docPurpose>
+            </p>
+         </longTitle>
+         <container name="EEArelevance">
+            <p>(Text with EEA relevance)</p>
+         </container>
+      </preface>
+      <preamble>
+         <formula name="actingEntity">
+            <p>THE EUROPEAN COMMISSION,</p>
+         </formula>
+         <citations>
+            <citation>
+               <p>Having regard to the Treaty on the Functioning of the European Union,</p>
+            </citation>
+            <citation>
+               <p>Having regard to Regulation (EC) No 1338/2008 of the European Parliament and of the Council of 16 December 2008 on Community statistics on public health and health and safety at work<authorialNote placement="bottom" marker="1">
+                     <p>OJ L 354, 31.12.2008, p. 70.</p>
+                  </authorialNote>, and in particular Article 9(1) thereof,</p>
+            </citation>
+         </citations>
+         <recitals xml:id="recs_d48e71">
+            <intro>
+               <p>Whereas:</p>
+            </intro>
+            <recital xml:id="rec_d48e74">
+               <num>(1)</num>
+               <p>Regulation (EC) No 1338/2008 establishes a common framework for the systematic production of European statistics on public health and health and safety at work.</p>
+            </recital>
+            <recital xml:id="rec_d48e80">
+               <num>(2)</num>
+               <p>Pursuant to Article 9(1) of Regulation (EC) No 1338/2008, implementing measures are needed to specify the data and metadata to be provided on health status, health determinants and healthcare covered by Annex I to that Regulation and to set the reference periods and intervals for providing those data.</p>
+            </recital>
+            <recital xml:id="rec_d48e86">
+               <num>(3)</num>
+               <p>Those data represent a minimum statistical data set that should enable better monitoring of the Union&apos;s health programmes and policies on social inclusion and social protection, health inequalities and healthy ageing.</p>
+            </recital>
+            <recital xml:id="rec_d48e92">
+               <num>(4)</num>
+               <p>Confidential data sent by Member States to the Commission (Eurostat) should be handled in accordance with the principle of statistical confidentiality as laid down in Regulation (EC) No 223/2009 of the European Parliament and of the Council<authorialNote placement="bottom" marker="2">
+                     <p>Regulation (EC) No 223/2009 of the European Parliament and of the Council of 11 March 2009 on European statistics (OJ L 87, 31.3.2009, p. 164).</p>
+                  </authorialNote> as well as in accordance with Regulation (EC) No 45/2001 of the European Parliament and of the Council<authorialNote placement="bottom" marker="3">
+                     <p>Regulation (EC) No 45/2001 of the European Parliament and of the Council of 18 December 2000 on the protection of individuals with regard to the processing of personal data by the Community institutions and bodies and on the free movement of such data (OJ L 8, 12.1.2001, p. 1).</p>
+                  </authorialNote>.</p>
+            </recital>
+            <recital xml:id="rec_d48e118">
+               <num>(5)</num>
+               <p>A cost-benefit analysis has been carried out and evaluated in accordance with Article 6 of Regulation (EC) No 1338/2008. It demonstrated that the availability of comparable Union-wide data is likely to be of great benefit for health and social policy decisions and for scientific purposes. The use of common tools should enable data consistency across countries, even though the related costs would vary depending on the degree of integration of the requested variables and methodology within existing national surveys.</p>
+            </recital>
+            <recital xml:id="rec_d48e124">
+               <num>(6)</num>
+               <p>The measures provided for in this Regulation are in accordance with the opinion of the European Statistical System Committee,</p>
+            </recital>
+         </recitals>
+         <formula name="enactingFormula">
+            <p>HAS ADOPTED THIS REGULATION:</p>
+         </formula>
+      </preamble>
+      <body>
+         <article xml:id="art_d48e133">
+            <num>Article 1</num>
+            <heading>Subject matter</heading>
+            <paragraph>
+               <content>
+                  <p>European statistics based on the European Health Interview Survey (EHIS) shall concern health status, healthcare and health determinants as well as socio-demographic characteristics of the population aged 15 and over.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d48e141">
+            <num>Article 2</num>
+            <heading>Definitions</heading>
+            <paragraph>
+               <subparagraph>
+                  <content>
+                     <p>For the purpose of this Regulation, the following definitions shall apply:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>1.</num>
+                     <alinea>
+                        <content>
+                           <p>&apos;private household&apos; means:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <content>
+                              <p>a one-person household, i.e. a person who lives alone in a separate housing unit or who occupies, as a lodger, a separate room (or rooms) in a housing unit but does not join with any of the other occupants of the housing unit to form part of a multi-person household as defined below; or</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <content>
+                              <p>a multi-person household, i.e. a group of two or more persons who combine to occupy the whole or part of a housing unit and to provide themselves with food and possibly other essentials for living. Members of the group may pool their incomes, have a common budget and share expenses to a greater or lesser extent.</p>
+                           </content>
+                        </point>
+                     </list>
+                     <alinea>
+                        <content>
+                           <p>This definition does not cover collective households such as hospitals, care or residential homes, prisons, military barracks, religious institutions, boarding houses or hostels;</p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>2.</num>
+                     <alinea>
+                        <content>
+                           <p>&apos;usual residence&apos; means the place where a person normally spends the daily period of rest, regardless of temporary absences for purposes of recreation, holidays, visits to friends and relatives, business, medical treatment or religious pilgrimage.</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>Only the following persons shall be considered usual residents of the geographical area in question:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <content>
+                              <p>those who have lived in their place of usual residence for a continuous period of at least 12 months before the reference date; or</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <content>
+                              <p>those who arrived in their place of usual residence during the 12 months before the reference date with the intention of staying there for at least 1 year.</p>
+                           </content>
+                        </point>
+                     </list>
+                     <alinea>
+                        <content>
+                           <p>Where the circumstances referred to in points (a) or (b) cannot be established, &apos;usual residence&apos; shall mean the place of legal or registered residence;</p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>3.</num>
+                     <content>
+                        <p>&apos;microdata&apos; means non-aggregated observations or measurements of characteristics of individual units;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>4.</num>
+                     <content>
+                        <p>&apos;pre-checked microdata&apos; means microdata verified by the Member States on the basis of agreed common validation rules;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>5.</num>
+                     <content>
+                        <p>&apos;metadata&apos; means data defining and describing other data, the methodology used and statistical business processes.</p>
+                     </content>
+                  </point>
+               </list>
+            </paragraph>
+         </article>
+         <article xml:id="art_d48e233">
+            <num>Article 3</num>
+            <heading>Data required</heading>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>Each Member State shall provide to the Commission (Eurostat) the microdata set out in Annex I.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>Those microdata shall be based on nationally representative probability samples.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <content>
+                  <p>To achieve a high level of harmonisation of the survey results across countries, the Commission (Eurostat) shall, in close cooperation with Member States, propose methodological and practical recommendations and guidelines on sampling and the implementation of the survey. These recommendations and guidelines will be set out in a &apos;European Health Interview Survey Manual&apos;, which will include a model questionnaire.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>4.</num>
+               <content>
+                  <p>The precision requirements shall be as set out in Annex II. Weighting factors shall be calculated to take into account the units&apos; probability of selection, non-response and, as appropriate, adjustment of the sample to external data relating to the distribution of persons in the target population.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d48e263">
+            <num>Article 4</num>
+            <heading>Reference population</heading>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>The reference population shall be persons aged 15 and over usually residing in private households in the territory of the Member State concerned at the time of the data collection.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>The national territories listed in Annex III shall be excluded. In addition, some small parts of the national territory amounting to no more than 2 % of the national population may also be excluded from the sample. Information on those national territories shall be provided in the reference metadata.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d48e278">
+            <num>Article 5</num>
+            <heading>Data collection period</heading>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>Data shall be collected in 2019.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>The collection of data shall be spread over at least 3 months including at least 1 month of the period from September to December.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d48e293">
+            <num>Article 6</num>
+            <heading>Provision of microdata to the Commission (Eurostat)</heading>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>Member States shall transmit the pre-checked microdata (without direct identification and including weighting factors) required by this Regulation in accordance with a data exchange standard set out by the Commission (Eurostat). The data shall be provided to Eurostat through the single entry point to enable the Commission (Eurostat) to retrieve the data by electronic means.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>Member States shall transmit the pre-checked microdata within 9 months after the end of the national period for collecting the data.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d48e308">
+            <num>Article 7</num>
+            <heading>Provision of reference metadata to the Commission (Eurostat)</heading>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>The quality-related reference metadata shall be provided according to the European Statistical System standard specified by the Commission (Eurostat) and agreed with the Member States.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>Member States shall transmit the quality-related reference metadata required by this Regulation in accordance with a metadata exchange standard set out by the Commission (Eurostat). The data shall be provided to Eurostat through the single entry point to enable the Commission (Eurostat) to retrieve the data by electronic means.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <content>
+                  <p>Member States shall provide those metadata to the Commission (Eurostat) not later than 3 months after transmission of the pre-checked microdata.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d48e328">
+            <num>Article 8</num>
+            <heading>Entry into force</heading>
+            <paragraph>
+               <content>
+                  <p>This Regulation shall enter into force on the twentieth day following that of its publication in the <i>Official Journal of the European Union</i>.</p>
+               </content>
+            </paragraph>
+         </article>
+         <clause>
+            <content>
+               <p>This Regulation shall be binding in its entirety and directly applicable in all Member States.</p>
+            </content>
+         </clause>
+      </body>
+      <conclusions>
+         <p>Done at Brussels, 19 February 2018.</p>
+         <block name="signatory">
+            <signature>
+               <organization refersTo="">For the Commission</organization>
+               <role refersTo="">The President</role>
+               <person refersTo="">Jean-Claude JUNCKER</person>
+            </signature>
+         </block>
+      </conclusions>
+   </bill>
+</akomaNtoso>

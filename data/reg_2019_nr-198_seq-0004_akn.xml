@@ -1,0 +1,2522 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"
+            xmlns:fmx="http://formex.publications.europa.eu/schema/formex-05.21-20110601.xd"
+            xmlns:leos="urn:eu:europa:ec:leos"
+            xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <bill name="">
+      <meta xmlns:fn="http://www.w3.org/2005/xpath-functions">
+         <identification source="~COM">
+            <FRBRWork>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRcountry value=""/>
+            </FRBRWork>
+            <FRBRExpression>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+            </FRBRManifestation>
+         </identification>
+      </meta>
+      <preface>
+         <longTitle>
+            <p>
+               <docStage/>
+               <docType>REGULATION (EU) 2019/1241 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL</docType>of 20 June 2019<docPurpose>on the conservation of fisheries resources and the protection of marine ecosystems through technical measures, amending Council Regulations (EC) No 1967/2006, (EC) No 1224/2009 and Regulations (EU) No 1380/2013, (EU) 2016/1139, (EU) 2018/973, (EU) 2019/472 and (EU) 2019/1022 of the European Parliament and of the Council, and repealing Council Regulations (EC) No 894/97, (EC) No 850/98, (EC) No 2549/2000, (EC) No 254/2002, (EC) No 812/2004 and (EC) No 2187/2005</docPurpose>
+            </p>
+         </longTitle>
+      </preface>
+      <preamble>
+         <formula name="actingEntity">
+            <p>THE EUROPEAN PARLIAMENT AND THE COUNCIL OF THE EUROPEAN UNION,</p>
+         </formula>
+         <citations>
+            <citation>
+               <p>Having regard to the Treaty on the Functioning of the European Union, and in particular Article 43(2) thereof,</p>
+            </citation>
+            <citation>
+               <p>Having regard to the proposal from the European Commission,</p>
+            </citation>
+            <citation>
+               <p>After transmission of the draft legislative act to the national parliaments,</p>
+            </citation>
+            <citation>
+               <p>Having regard to the opinion of the European Economic and Social Committee<authorialNote placement="bottom" marker="1">
+                     <p>OJ C 389, 21.10.2016, p. 67.</p>
+                  </authorialNote>,</p>
+            </citation>
+            <citation>
+               <p>Having regard to the opinion of the Committee of the Regions<authorialNote placement="bottom" marker="2">
+                     <p>OJ C 185, 9.6.2017, p. 82.</p>
+                  </authorialNote>,</p>
+            </citation>
+            <citation>
+               <p>Acting in accordance with the ordinary legislative procedure<authorialNote placement="bottom" marker="3">
+                     <p>Position of the European Parliament of 16 April 2019 (not yet published in the Official Journal) and decision of the Council of 13 June 2019.</p>
+                  </authorialNote>,</p>
+            </citation>
+         </citations>
+         <recitals xml:id="recs_d443e91">
+            <intro>
+               <p>Whereas:</p>
+            </intro>
+            <recital xml:id="rec_d443e94">
+               <num>(1)</num>
+               <p>Regulation (EU) No 1380/2013 of the European Parliament and of the Council<authorialNote placement="bottom" marker="4">
+                     <p>Regulation (EU) No 1380/2013 of the European Parliament and of the Council of 11 December 2013 on the Common Fisheries Policy, amending Council Regulations (EC) No 1954/2003 and (EC) No 1224/2009 and repealing Council Regulations (EC) No 2371/2002 and (EC) No 639/2004 and Council Decision 2004/585/EC (OJ L 354, 28.12.2013, p. 22).</p>
+                  </authorialNote> establishes a Common Fisheries Policy (CFP) for the conservation and sustainable exploitation of fisheries resources.</p>
+            </recital>
+            <recital xml:id="rec_d443e110">
+               <num>(2)</num>
+               <p>Technical measures are tools to support the implementation of the CFP. However, an evaluation of the current regulatory structure in relation to technical measures showed that it is unlikely to achieve the objectives of the CFP and a new approach should be taken to increase the effectiveness of technical measures, focusing on adapting the governance structure.</p>
+            </recital>
+            <recital xml:id="rec_d443e116">
+               <num>(3)</num>
+               <p>There is a need to develop a framework for the regulation of technical measures. That framework should, on the one hand, establish general rules which are to apply across all Union waters and, on the other hand, provide for the adoption of technical measures that take account of the regional specificities of fisheries through the regionalisation process introduced by Regulation (EU) No 1380/2013.</p>
+            </recital>
+            <recital xml:id="rec_d443e123">
+               <num>(4)</num>
+               <p>The framework should cover the taking and landing of fisheries resources as well as the operation of fishing gear and the interaction of fishing activities with marine ecosystems.</p>
+            </recital>
+            <recital xml:id="rec_d443e129">
+               <num>(5)</num>
+               <p>This Regulation should apply to fishing operations conducted in Union waters by Union and third-country fishing vessels and by nationals of Member States &#45; without prejudice to the primary responsibility of the flag State &#45; as well as to Union fishing vessels operating in Union waters of the outermost regions referred to in the first paragraph of Article 349 of the Treaty on the Functioning of the European Union (TFEU). It should also apply, in respect of Union fishing vessels and nationals of Member States, in non-Union waters to technical measures adopted for the North East Atlantic Fisheries Commission (NEAFC) Regulatory Area and the General Fisheries Commission for the Mediterranean (GFCM) Agreement Area.</p>
+            </recital>
+            <recital xml:id="rec_d443e135">
+               <num>(6)</num>
+               <p>Where relevant, technical measures should apply to recreational fishing, which can have a significant impact on the stocks of fish and shellfish species.</p>
+            </recital>
+            <recital xml:id="rec_d443e141">
+               <num>(7)</num>
+               <p>Technical measures should contribute to achieving the CFP objectives to fish at maximum sustainable yield levels, reduce unwanted catches and eliminate discards, and contribute to the achievement of good environmental status as set out in Directive 2008/56/EC of the European Parliament and of the Council<authorialNote placement="bottom" marker="5">
+                     <p>Directive 2008/56/EC of the European Parliament and of the Council of 17 June 2008 establishing a framework for community action in the field of marine environmental policy (Marine Strategy Framework Directive) (OJ L 164, 25.6.2008, p. 19).</p>
+                  </authorialNote>.</p>
+            </recital>
+            <recital xml:id="rec_d443e157">
+               <num>(8)</num>
+               <p>Technical measures should specifically contribute to the protection of juveniles and spawning aggregations of marine species through the use of selective fishing gear and measures for the avoidance of unwanted catches. Technical measures should also minimise the impacts of fishing gear on marine ecosystems and in particular on sensitive species and habitats, including where appropriate by using incentives. They should also contribute to having in place management measures for the purposes of complying with obligations under Council Directive 92/43/EEC<authorialNote placement="bottom" marker="6">
+                     <p>Council Directive 92/43/EEC of 21 May 1992 on the conservation of natural habitats and of wild fauna and flora (OJ L 206, 22.7.1992, p. 7).</p>
+                  </authorialNote>, Directive 2008/56/EC and Directive 2009/147/EC of the European Parliament and of the Council<authorialNote placement="bottom" marker="7">
+                     <p>Directive 2009/147/EC of the European Parliament and of the Council of 30 November 2009 on the conservation of wild birds (OJ L 20, 26.1.2010, p. 7).</p>
+                  </authorialNote>.</p>
+            </recital>
+            <recital xml:id="rec_d443e183">
+               <num>(9)</num>
+               <p>To evaluate the effectiveness of technical measures, targets relating to the levels of unwanted catches, in particular catches of marine species below the minimum conservation reference size, to the level of incidental catches of sensitive species and to the extent of seabed habitats adversely affected by fishing should be established. Those targets should reflect the objectives of the CFP, Union environmental legislation &#45; in particular Directive 92/43/EEC and Directive 2000/60/EC of the European Parliament and of the Council<authorialNote placement="bottom" marker="8">
+                     <p>Directive 2000/60/EC of the European Parliament and of the Council of 23 October 2000 establishing a framework for Community action in the field of water policy (OJ L 327, 22.12.2000, p. 1).</p>
+                  </authorialNote> &#45; and international best practice.</p>
+            </recital>
+            <recital xml:id="rec_d443e200">
+               <num>(10)</num>
+               <p>In order to ensure uniformity as regards the interpretation and implementation of technical rules, definitions of fishing gear and fishing operations contained in existing technical measures regulations should be updated and consolidated.</p>
+            </recital>
+            <recital xml:id="rec_d443e206">
+               <num>(11)</num>
+               <p>Certain destructive fishing gear or methods which use explosives, poison, stupefying substances, electric current, pneumatic hammers or other percussive instruments, towed devices and grabs for harvesting red coral or other type of corals and coral-like species and certain spear-guns, should be prohibited. It should not be allowed to sell, display or offer for sale any marine species caught using such gear or methods where they are prohibited under this Regulation.</p>
+            </recital>
+            <recital xml:id="rec_d443e213">
+               <num>(12)</num>
+               <p>The use of electric pulse trawl should remain possible during a transitional period until 30 June 2021 and under certain strict conditions.</p>
+            </recital>
+            <recital xml:id="rec_d443e222">
+               <num>(13)</num>
+               <p>In the light of advice from the Scientific, Technical and Economic Committee for Fisheries (STECF), certain common rules setting out restrictions on the use of towed gear and on the construction of codends should be established, in order to prevent bad practices that lead to unselective fishing.</p>
+            </recital>
+            <recital xml:id="rec_d443e228">
+               <num>(14)</num>
+               <p>In order to restrict the use of driftnets which can fish over large areas and result in significant catches of sensitive species, the existing restrictions on using such fishing gear should be consolidated.</p>
+            </recital>
+            <recital xml:id="rec_d443e234">
+               <num>(15)</num>
+               <p>In the light of advice from STECF, fishing with static nets in ICES divisions 3a, 6a, 6b, 7b, 7c, 7j and 7k and ICES sub-areas 8, 9, 10 and 12 east of 27° W in waters with a charted depth of more than 200 m should continue to be prohibited, in order to provide protection for sensitive deep-sea species, subject to certain derogations.</p>
+            </recital>
+            <recital xml:id="rec_d443e240">
+               <num>(16)</num>
+               <p>For certain rare fish species, such as some species of sharks and rays, even limited fishing activity could result in a serious risk for their conservation. To protect such species a general prohibition on fishing for them should be introduced.</p>
+            </recital>
+            <recital xml:id="rec_d443e246">
+               <num>(17)</num>
+               <p>To afford the strict protection for sensitive marine species such as marine mammals, seabirds and marine reptiles provided for in Directives 92/43/EEC and 2009/147/EC, Member States should put in place mitigation measures to minimise and where possible eliminate the catching of such species by fishing gear.</p>
+            </recital>
+            <recital xml:id="rec_d443e252">
+               <num>(18)</num>
+               <p>In order to provide continued protection for sensitive marine habitats located off the coasts of Ireland, the United Kingdom and around the Azores, Madeira and the Canary Islands, as well as in the NEAFC Regulatory Area, existing restrictions on the use of demersal fishing gear should be maintained.</p>
+            </recital>
+            <recital xml:id="rec_d443e258">
+               <num>(19)</num>
+               <p>Where scientific advice identifies other such habitats, there should be a possibility to introduce similar restrictions to protect those habitats.</p>
+            </recital>
+            <recital xml:id="rec_d443e265">
+               <num>(20)</num>
+               <p>In accordance with Regulation (EU) No 1380/2013, minimum conservation reference sizes should be established to ensure the protection of juveniles of marine species and for the purpose of establishing fish stock recovery areas, as well as for the purpose of constituting minimum marketing sizes.</p>
+            </recital>
+            <recital xml:id="rec_d443e271">
+               <num>(21)</num>
+               <p>The manner in which the size of marine species is to be measured should be defined.</p>
+            </recital>
+            <recital xml:id="rec_d443e277">
+               <num>(22)</num>
+               <p>There should be a possibility for Member States to carry out pilot projects with the aim of exploring ways to avoid, minimise and eliminate unwanted catches. Where the results of those projects or scientific advice indicate that there are significant unwanted catches, Member States should endeavour to establish technical measures to reduce such catches.</p>
+            </recital>
+            <recital xml:id="rec_d443e284">
+               <num>(23)</num>
+               <p>This Regulation should establish baseline standards for each sea basin. Those baseline standards are derived from existing technical measures, taking account of STECF advice and the opinions of stakeholders. Those standards should consist of baseline mesh sizes for towed gear and static nets, minimum conservation reference sizes, closed or restricted areas, as well as nature conservation measures to mitigate against catches of sensitive species in certain areas and any other existing regionally specific technical measures.</p>
+            </recital>
+            <recital xml:id="rec_d443e290">
+               <num>(24)</num>
+               <p>Member States should have the possibility to develop joint recommendations for appropriate technical measures that differ from these baselines in accordance with the regionalisation process set out in Regulation (EU) No 1380/2013, based on scientific evidence.</p>
+            </recital>
+            <recital xml:id="rec_d443e296">
+               <num>(25)</num>
+               <p>Such regional technical measures should as a minimum lead to such benefits for the conservation of marine biological resources that are at least equivalent to the ones provided by the baseline standards, in particular in terms of exploitation patterns and the level of protection provided for sensitive species and habitats.</p>
+            </recital>
+            <recital xml:id="rec_d443e302">
+               <num>(26)</num>
+               <p>When developing joint recommendations in relation to size and species selective characteristics of gear alternative to the baseline mesh sizes, regional groups of Member States should ensure that such measures result in similar, as a minimum, or improved selectivity characteristics as the baseline gear.</p>
+            </recital>
+            <recital xml:id="rec_d443e308">
+               <num>(27)</num>
+               <p>When developing joint recommendations in relation to restricted areas for the protection of juveniles and spawning aggregations, regional groups of Member States should define the objectives, geographical extent and duration of closures as well as gear restrictions and control and monitoring arrangements in their joint recommendations.</p>
+            </recital>
+            <recital xml:id="rec_d443e314">
+               <num>(28)</num>
+               <p>When developing joint recommendations in relation to minimum conservation reference sizes, regional groups of Member States should ensure that the objective of the CFP of ensuring the protection of juveniles of marine species is respected, while ensuring that no distortion is introduced into the market and that no market for fish below minimum conservation reference sizes is created.</p>
+            </recital>
+            <recital xml:id="rec_d443e320">
+               <num>(29)</num>
+               <p>The creation of real-time closures in conjunction with moving-on provisions as an additional measure for the protection of sensitive species, juveniles or spawning aggregations should be allowed as an option to be developed through regionalisation. The conditions for the establishment of such areas, including the geographical extent and duration of closures, as well as the control and monitoring arrangements should be defined in the relevant joint recommendations.</p>
+            </recital>
+            <recital xml:id="rec_d443e327">
+               <num>(30)</num>
+               <p>On the basis of an assessment of the impacts of innovative gear, the use, or extending the use, of such innovative gear could be included as an option in joint recommendations from regional groups of Member States. The use of innovative fishing gear should not be permitted where scientific assessment indicates that their use would lead to significant negative impacts on sensitive habitats and non-target species.</p>
+            </recital>
+            <recital xml:id="rec_d443e333">
+               <num>(31)</num>
+               <p>When developing joint recommendations in relation to the protection of sensitive species and habitats, regional groups of Member States should be allowed to develop additional mitigation measures to reduce the impacts of fishing on such species and habitats. Where scientific evidence shows that there is a serious threat to the conservation status of sensitive species and habitats, Member States should introduce additional restrictions on the construction and operation of certain fishing gear or even the introduction of a total prohibition on their use in a given area. In particular, such restrictions could be applied to the use of driftnets which in certain areas has resulted in significant catches of sensitive species.</p>
+            </recital>
+            <recital xml:id="rec_d443e340">
+               <num>(32)</num>
+               <p>Regulation (EU) No 1380/2013 allows for the establishment of temporary discard plans for the implementation of the landing obligation, in cases where no multiannual plan is in place for the fishery in question. As part of such plans it should be allowed to establish technical measures which are strictly linked to the implementation of the landing obligation and which aim to increase selectivity and reduce unwanted catches as much as possible.</p>
+            </recital>
+            <recital xml:id="rec_d443e346">
+               <num>(33)</num>
+               <p>There should be a possibility to carry out pilot projects on full documentation of catches and discards. Such projects could involve derogations from the rules on mesh sizes laid down in this Regulation insofar as they contribute to achieving the objectives and targets of this Regulation.</p>
+            </recital>
+            <recital xml:id="rec_d443e352">
+               <num>(34)</num>
+               <p>Certain provisions on technical measures adopted by NEAFC should be included in this Regulation.</p>
+            </recital>
+            <recital xml:id="rec_d443e358">
+               <num>(35)</num>
+               <p>In order not to hinder scientific research or direct restocking and transplantation, the technical measures provided for in this Regulation should not apply to operations which may be necessary for conducting such activities. In particular, where fishing operations for the purposes of scientific research require such a derogation from the technical measures under this Regulation, they should be subject to appropriate conditions.</p>
+            </recital>
+            <recital xml:id="rec_d443e364">
+               <num>(36)</num>
+               <p>The power to adopt acts in accordance with Article 290 TFEU should be delegated to the Commission in respect of adopting certain measures in relation to recreational fishing, restrictions on towed gear, sensitive species and habitats, the list of fish and shellfish for which directed fishing is prohibited, the definition of directed fishing, pilot projects on full documentation on catches and discards, and technical measures as part of temporary discard plans, as well as in relation to minimum conservation reference sizes, mesh sizes, closed areas and other technical measures in certain sea basins, mitigation measures for sensitive species and the list of species of key indicator stocks. It is of particular importance that the Commission carry out appropriate consultations during its preparatory work, including at expert level, and that those consultations be conducted in accordance with the principles laid down in the Interinstitutional Agreement of 13 April 2016 on Better Law-Making<authorialNote placement="bottom" marker="9">
+                     <p>OJ L 123, 12.5.2016, p. 1.</p>
+                  </authorialNote>. In particular, to ensure equal participation in the preparation of delegated acts, the European Parliament and the Council receive all documents at the same time as Member States&apos; experts, and their experts systematically have access to meetings of Commission expert groups dealing with the preparation of delegated acts.</p>
+            </recital>
+            <recital xml:id="rec_d443e379">
+               <num>(37)</num>
+               <p>In order to ensure uniform conditions for the implementation of this Regulation, implementing powers should be conferred on the Commission in respect of the establishment of the specification of devices to reduce wear and tear of and to strengthen towed gear or to limit the escape of catches in the forward part of towed gear; to define the specification of the selection devices attached to defined baseline gear; to define the specifications of the electric pulse trawl; to define restrictions on construction of gear and the control and monitoring measures to be adopted by the flag Member State; and to define rules on the control and monitoring measures to be adopted by the flag Member State when using static gear in depths between 200 and 600 m, on the control and monitoring measures to be adopted for certain closed or restricted areas, and on the signal and implementation characteristics of devices used to deter cetaceans from static nets and methods used to minimise incidental catches of seabirds, marine reptiles and turtles. Those powers should be exercised in accordance with Regulation (EU) No 182/2011 of the European Parliament and of the Council<authorialNote placement="bottom" marker="10">
+                     <p>Regulation (EU) No 182/2011 of the European Parliament and of the Council of 16 February 2011 laying down the rules and general principles concerning mechanisms for control by Member States of the Commission&apos;s exercise of implementing powers (OJ L 55, 28.2.2011, p. 13).</p>
+                  </authorialNote>.</p>
+            </recital>
+            <recital xml:id="rec_d443e395">
+               <num>(38)</num>
+               <p>By 31 December 2020, and every third year thereafter, the Commission should report to the European Parliament and to the Council on the implementation of this Regulation, on the basis of information supplied by Member States and the relevant Advisory Councils and following evaluation by STECF. That report should assess the extent to which technical measures both at regional level and at Union level have contributed to achieving the objectives and reaching the targets of this Regulation.</p>
+            </recital>
+            <recital xml:id="rec_d443e406">
+               <num>(39)</num>
+               <p>For the purpose of that report, adequate selectivity indicators, such as the scientific concept of length of optimal selectivity (L<sub>opt</sub>), could be used as a reference tool to monitor progress over time towards the CFP objective of minimising unwanted catches. In that sense, those indicators are not binding targets, but monitoring tools which may inform deliberations or decisions at regional level. The indicators, and the values used for their application, should be requested from appropriate scientific bodies for a number of key indicator stocks which would also take into account mixed fisheries and recruitment spikes. The Commission could include those indicators in the report on the implementation of this Regulation. The list of the key indicator stocks should include demersal species which are managed through catch limits, taking into account the relative importance of landings, discards and relevance of the fishery for each sea basin.</p>
+            </recital>
+            <recital xml:id="rec_d443e415">
+               <num>(40)</num>
+               <p>The Commission&apos;s report should also refer to advice from ICES on the progress made or impact of innovative gear. The report should draw conclusions about the benefits for, or negative effects on, marine ecosystems, sensitive habitats and selectivity.</p>
+            </recital>
+            <recital xml:id="rec_d443e421">
+               <num>(41)</num>
+               <p>On the basis of the Commission&apos;s report, where at regional level there is evidence that the objectives and targets have not been met, Member States within that region should submit a plan setting out the corrective actions to be taken to ensure those objectives and targets can be met. The Commission should also propose to the European Parliament and to the Council any necessary amendments to this Regulation on the basis of that report.</p>
+            </recital>
+            <recital xml:id="rec_d443e427">
+               <num>(42)</num>
+               <p>Given the number and importance of the amendments to be made, Council Regulations (EC) No 894/97<authorialNote placement="bottom" marker="11">
+                     <p>Council Regulation (EC) No 894/97 of 29 April 1997 laying down certain technical measures for the conservation of fishery resources (OJ L 132, 23.5.1997, p. 1).</p>
+                  </authorialNote>, (EC) No 850/98<authorialNote placement="bottom" marker="12">
+                     <p>Council Regulation (EC) No 850/98 of 30 March 1998 for the conservation of fishery resources through technical measures for the protection of juveniles of marine organisms (OJ L 125, 27.4.1998, p. 1).</p>
+                  </authorialNote>, (EC) No 2549/2000<authorialNote placement="bottom" marker="13">
+                     <p>Council Regulation (EC) No 2549/2000 of 17 November 2000 establishing additional technical measures for the recovery of the stock of cod in the Irish Sea (ICES Division VIIa) (OJ L 292, 21.11.2000, p. 5).</p>
+                  </authorialNote>, (EC) No 254/2002<authorialNote placement="bottom" marker="14">
+                     <p>Council Regulation (EC) No 254/2002 of 12 February 2002 establishing measures to be applicable in 2002 for the recovery of the stock of cod in the Irish Sea (ICES division VIIa) (OJ L 41, 13.2.2002, p. 1).</p>
+                  </authorialNote>, (EC) No 812/2004<authorialNote placement="bottom" marker="15">
+                     <p>Council Regulation (EC) No 812/2004 of 26 April 2004 laying down measures concerning bycatches of cetaceans in fisheries and amending Regulation (EC) No 88/98 (OJ L 150, 30.4.2004, p. 12).</p>
+                  </authorialNote> and (EC) No 2187/2005<authorialNote placement="bottom" marker="16">
+                     <p>Council Regulation (EC) No 2187/2005 of 21 December 2005 for the conservation of fishery resources through technical measures in the Baltic Sea, the Belts and the Sound, amending Regulation (EC) No 1434/98 and repealing Regulation (EC) No 88/98 (OJ L 349, 31.12.2005, p. 1).</p>
+                  </authorialNote> should be repealed.</p>
+            </recital>
+            <recital xml:id="rec_d443e494">
+               <num>(43)</num>
+               <p>Council Regulations (EC) No 1967/2006<authorialNote placement="bottom" marker="17">
+                     <p>Council Regulation (EC) No 1967/2006 of 21 December 2006 concerning management measures for the sustainable exploitation of fishery resources in the Mediterranean Sea, amending Regulation (EEC) No 2847/93 and repealing Regulation (EC) No 1626/94 (OJ L 409, 30.12.2006, p. 11).</p>
+                  </authorialNote> and (EC) No 1224/2009<authorialNote placement="bottom" marker="18">
+                     <p>Council Regulation (EC) No 1224/2009 of 20 November 2009 establishing a Union control system for ensuring compliance with the rules of the common fisheries policy, amending Regulations (EC) No 847/96, (EC) No 2371/2002, (EC) No 811/2004, (EC) No 768/2005, (EC) No 2115/2005, (EC) No 2166/2005, (EC) No 388/2006, (EC) No 509/2007, (EC) No 676/2007, (EC) No 1098/2007, (EC) No 1300/2008, (EC) No 1342/2008 and repealing Regulations (EEC) No 2847/93, (EC) No 1627/94 and (EC) No 1966/2006 (OJ L 343, 22.12.2009, p. 1).</p>
+                  </authorialNote> and Regulation (EU) No 1380/2013 should be amended accordingly.</p>
+            </recital>
+            <recital xml:id="rec_d443e521">
+               <num>(44)</num>
+               <p>The Commission is currently empowered to adopt and amend technical measures at regional level under Regulations (EU) 2016/1139<authorialNote placement="bottom" marker="19">
+                     <p>Regulation (EU) 2016/1139 of the European Parliament and of the Council of 6 July 2016 establishing a multiannual plan for the stocks of cod, herring and sprat in the Baltic Sea and the fisheries exploiting those stocks, amending Council Regulation (EC) No 2187/2005 and repealing Council Regulation (EC) No 1098/2007 (OJ L 191, 15.7.2016, p. 1).</p>
+                  </authorialNote>, (EU) 2018/973<authorialNote placement="bottom" marker="20">
+                     <p>Regulation (EU) 2018/973 of the European Parliament and of the Council of 4 July 2018 establishing a multiannual plan for demersal stocks in the North Sea and the fisheries exploiting those stocks, specifying details of the implementation of the landing obligation in the North Sea and repealing Council Regulations (EC) No 676/2007 and (EC) No 1342/2008 (OJ L 179, 16.7.2018, p. 1).</p>
+                  </authorialNote>, (EU) 2019/472<authorialNote placement="bottom" marker="21">
+                     <p>Regulation (EU) 2019/472 of the European Parliament and of the Council of 19 March 2019 establishing a multiannual plan for stocks fished in the Western Waters and adjacent waters, and for fisheries exploiting those stocks, amending Regulations (EU) 2016/1139 and (EU) 2018/973, and repealing Council Regulations (EC) No 811/2004, (EC) No 2166/2005, (EC) No 388/2006, (EC) No 509/2007 and (EC) No 1300/2008 (OJ L 83, 25.3.2019, p. 1).</p>
+                  </authorialNote> and (EU) 2019/1022<authorialNote placement="bottom" marker="22">
+                     <p>Regulation (EU) 2019/1022 of the European Parliament and of the Council of 20 June 2019 establishing a multiannual plan for the fisheries exploiting demersal stocks in the western Mediterranean Sea and amending Regulation (EU) No 508/2014 (OJ L 172, 26.6.2019, p. 1).</p>
+                  </authorialNote> of the European Parliament and of the Council, establishing the multi-annual plans for the Baltic Sea, the North Sea, Western Waters and the Western Mediterranean. In order to clarify the scope of the respective empowerments, and to specify that delegated acts adopted under the empowerments provided for in those Regulations are to comply with certain requirements set out in this Regulation, those Regulations should be amended in the interest of legal certainty,</p>
+            </recital>
+         </recitals>
+         <formula name="enactingFormula">
+            <p>HAVE ADOPTED THIS REGULATION:</p>
+         </formula>
+      </preamble>
+      <body>
+         <chapter>
+            <num>CHAPTER I</num>
+            <heading>GENERAL PROVISIONS</heading>
+            <article xml:id="art_d443e579">
+               <num>Article 1</num>
+               <heading>Subject matter</heading>
+               <paragraph>
+                  <subparagraph>
+                     <content>
+                        <p>This Regulation lays down technical measures concerning:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(a)</num>
+                        <content>
+                           <p>the taking and landing of marine biological resources;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(b)</num>
+                        <content>
+                           <p>the operation of fishing gear; and</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(c)</num>
+                        <content>
+                           <p>the interaction of fishing activities with marine ecosystems.</p>
+                        </content>
+                     </point>
+                  </list>
+               </paragraph>
+            </article>
+            <article xml:id="art_d443e606">
+               <num>Article 2</num>
+               <heading>Scope</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>This Regulation shall apply to activities pursued by Union fishing vessels and nationals of Member States, without prejudice to the primary responsibility of the flag State, in the fishing zones referred to in Article 5, as well as by fishing vessels flying the flag of, and registered in, third countries when fishing in Union waters.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>Articles 7, 10, 11 and 12 shall also apply to recreational fishing. In cases where recreational fishing has a significant impact in a particular region, the Commission is empowered to adopt delegated acts pursuant to Article 15 and in accordance with Article 29 in order to amend this Regulation by providing that the relevant provisions of Article 13 or parts A or C of Annexes V to X also apply to recreational fishing.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <subparagraph>
+                     <content>
+                        <p>Subject to the conditions set out in Articles 25 and 26, the technical measures set out in this Regulation shall not apply to fishing operations conducted solely for the purpose of:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(a)</num>
+                        <content>
+                           <p>scientific investigations; and</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(b)</num>
+                        <content>
+                           <p>direct restocking or transplantation of marine species.</p>
+                        </content>
+                     </point>
+                  </list>
+               </paragraph>
+            </article>
+            <article xml:id="art_d443e641">
+               <num>Article 3</num>
+               <heading>Objectives</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>As tools to support the implementation of the CFP, technical measures shall contribute to the objectives of the CFP set out in the applicable provisions of Article 2 of Regulation (EU) No 1380/2013.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <subparagraph>
+                     <content>
+                        <p>Technical measures shall in particular contribute to achieving the following objectives:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(a)</num>
+                        <content>
+                           <p>optimise exploitation patterns to provide protection for juveniles and spawning aggregations of marine biological resources;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(b)</num>
+                        <content>
+                           <p>ensure that incidental catches of sensitive marine species, including those listed under Directives 92/43/EEC and 2009/147/EC, that are a result of fishing, are minimised and where possible eliminated so that they do not represent a threat to the conservation status of these species;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(c)</num>
+                        <content>
+                           <p>ensure, including by using appropriate incentives, that the negative environmental impacts of fishing on marine habitats are minimised;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(d)</num>
+                        <content>
+                           <p>have in place fisheries management measures for the purposes of complying with Directives 92/43/EEC, 2000/60/EC and 2008/56/EC, in particular with a view to achieving good environmental status in line with Article 9(1) of Directive 2008/56/EC, and with Directive 2009/147/EC.</p>
+                        </content>
+                     </point>
+                  </list>
+               </paragraph>
+            </article>
+            <article xml:id="art_d443e682">
+               <num>Article 4</num>
+               <heading>Targets</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <subparagraph>
+                     <content>
+                        <p>Technical measures shall aim to ensure that:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(a)</num>
+                        <content>
+                           <p>catches of marine species below the minimum conservation reference size are reduced as far as possible in accordance with Article 2(2) of Regulation (EU) No 1380/2013.</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(b)</num>
+                        <content>
+                           <p>incidental catches of marine mammals, marine reptiles, seabirds and other non-commercially exploited species do not exceed levels provided for in Union legislation and international agreements that are binding on the Union.</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(c)</num>
+                        <content>
+                           <p>the environmental impacts of fishing activities on seabed habitats are in line with point (j) of Article 2(5) of Regulation (EU) No 1380/2013.</p>
+                        </content>
+                     </point>
+                  </list>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>The extent to which progress was made towards those targets shall be reviewed as part of the reporting process set out in Article 31.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d443e718">
+               <num>Article 5</num>
+               <heading>Definition of fishing zones</heading>
+               <paragraph>
+                  <subparagraph>
+                     <content>
+                        <p>For the purposes of this Regulation, the following geographical definitions of fishing zones shall apply:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(a)</num>
+                        <content>
+                           <p>&apos;North Sea&apos; means Union waters in ICES divisions<authorialNote placement="bottom" marker="23">
+                                 <p>ICES (International Council for the Exploration of the Sea) divisions are as defined in Regulation (EC) No 218/2009 of the European Parliament and of the Council of 11 March 2009 on the submission of nominal catch statistics by Member States fishing in the north-east Atlantic (OJ L 87, 31.3.2009, p. 70).</p>
+                              </authorialNote> 2a and 3a and ICES sub-area 4;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(b)</num>
+                        <content>
+                           <p>&apos;Baltic Sea&apos; means Union waters in ICES divisions 3b, 3c and 3d;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(c)</num>
+                        <content>
+                           <p>&apos;North Western waters&apos; means Union waters in ICES sub-areas 5, 6 and 7;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(d)</num>
+                        <content>
+                           <p>&apos;South Western waters&apos; means ICES sub-areas 8, 9 and 10 (Union waters) and CECAF zones<authorialNote placement="bottom" marker="24">
+                                 <p>CECAF (Eastern Central Atlantic or FAO major fishing zone 34) zones are as defined in Regulation (EC) No 216/2009 of the European Parliament and of the Council of 11 March 2009 on the submission of nominal catch statistics by Member States fishing in certain areas other than those of the North Atlantic (OJ L 87, 31.3.2009, p. 1).</p>
+                              </authorialNote> 34.1.1, 34.1.2 and 34.2.0 (Union waters);</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(e)</num>
+                        <content>
+                           <p>&apos;Mediterranean Sea&apos; means the maritime waters of the Mediterranean to the East of line 5°36′ W;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(f)</num>
+                        <content>
+                           <p>&apos;Black Sea&apos; means waters in GFCM geographical sub-area 29 as defined in Annex I to Regulation (EU) No 1343/2011 of the European Parliament and of the Council<authorialNote placement="bottom" marker="25">
+                                 <p>Regulation (EU) No 1343/2011 of the European Parliament and of the Council of 13 December 2011 on certain provisions for fishing in the GFCM (General Fisheries Commission for the Mediterranean) Agreement area and amending Council Regulation (EC) No 1967/2006 concerning management measures for the sustainable exploitation of fishery resources in the Mediterranean Sea (OJ L 347, 30.12.2011, p. 44).</p>
+                              </authorialNote>;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(g)</num>
+                        <content>
+                           <p>&apos;Union waters in the Indian Ocean and the West Atlantic&apos; means waters around Guadeloupe, French Guiana, Martinique, Mayotte, Réunion and Saint Martin under the sovereignty or jurisdiction of a Member State;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(h)</num>
+                        <content>
+                           <p>&apos;NEAFC Regulatory Area&apos; means the waters of the NEAFC Convention Area which lie beyond the waters under the fisheries jurisdiction of the Contracting Parties as defined in Regulation (EU) No 1236/2010 of the European Parliament and of the Council<authorialNote placement="bottom" marker="26">
+                                 <p>Regulation (EU) No 1236/2010 of the European Parliament and of the Council of 15 December 2010 laying down a scheme of control and enforcement applicable in the area covered by the Convention on future multilateral cooperation in the North-East Atlantic fisheries and repealing Council Regulation (EC) No 2791/1999 (OJ L 348, 31.12.2010, p. 17).</p>
+                              </authorialNote>;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(i)</num>
+                        <content>
+                           <p>&apos;GFCM Agreement area&apos; means the Mediterranean Sea and the Black Sea and connecting waters, as defined in Regulation (EU) No 1343/2011.</p>
+                        </content>
+                     </point>
+                  </list>
+               </paragraph>
+            </article>
+            <article xml:id="art_d443e848">
+               <num>Article 6</num>
+               <heading>Definitions</heading>
+               <paragraph>
+                  <subparagraph>
+                     <content>
+                        <p>For the purposes of this Regulation, in addition to the definitions set out in Article 4 of Regulation (EU) No 1380/2013, the following definitions apply:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(1)</num>
+                        <content>
+                           <p>&apos;exploitation pattern&apos; means how fishing mortality is distributed across the age and size profile of a stock;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(2)</num>
+                        <content>
+                           <p>&apos;selectivity&apos; means a quantitative expression represented as a probability of capture of marine biological resources of a certain size and/or species;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(3)</num>
+                        <content>
+                           <p>&apos;directed fishing&apos; means fishing effort targeted at a specific species or group of species and may be further specified at regional level in delegated acts adopted pursuant to Article 27(7) of this Regulation;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(4)</num>
+                        <content>
+                           <p>&apos;good environmental status&apos; means the environmental status of marine waters as defined by Article 3(5) of Directive 2008/56/EC;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(5)</num>
+                        <content>
+                           <p>&apos;conservation status of a species&apos; means the sum of the influences acting on the species concerned that may affect the long-term distribution and abundance of its populations;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(6)</num>
+                        <content>
+                           <p>&apos;conservation status of a habitat&apos; means the sum of the influences acting on a natural habitat and its typical species that may affect its long-term natural distribution, structure and functions as well as the long-term survival of its typical species;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(7)</num>
+                        <content>
+                           <p>&apos;sensitive habitat&apos; means a habitat whose conservation status, including its extent and the condition (structure and function) of its biotic and abiotic components, is adversely affected by pressures arising from human activities, including fishing activities. Sensitive habitats, in particular, include habitat types listed in Annex I, and habitats of species listed in Annex II to Directive 92/43/EEC, habitats of species listed in Annex I to Directive 2009/147/EC, habitats whose protection is necessary to achieve good environmental status under Directive 2008/56/EC and vulnerable marine ecosystems as defined by point (b) of Article 2 of Council Regulation (EC) No 734/2008<authorialNote placement="bottom" marker="27">
+                                 <p>Council Regulation (EC) No 734/2008 of 15 July 2008 on the protection of vulnerable marine ecosystems in the high seas from the adverse impacts of bottom fishing gears (OJ L 201, 30.7.2008, p. 8).</p>
+                              </authorialNote>;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(8)</num>
+                        <content>
+                           <p>&apos;sensitive species&apos; means a species whose conservation status, including its habitat, distribution, population size or population condition is adversely affected by pressures arising from human activities, including fishing activities. Sensitive species, in particular, include species listed in Annexes II and IV to Directive 92/43/EEC, species covered by Directive 2009/147/EC and species whose protection is necessary to achieve good environmental status under Directive 2008/56/EC;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(9)</num>
+                        <content>
+                           <p>&apos;small pelagic species&apos; means species such as mackerel, herring, horse mackerel, anchovy, sardine, blue whiting, argentines, sprat, and boarfish;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(10)</num>
+                        <content>
+                           <p>&apos;Advisory Councils&apos; means stakeholder groups established in accordance with Article 43 of Regulation (EU) No 1380/2013;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(11)</num>
+                        <content>
+                           <p>&apos;trawl&apos; means fishing gear which is actively towed by one or more fishing vessels and consisting of a net closed at the back by a bag or a codend;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(12)</num>
+                        <content>
+                           <p>&apos;towed gear&apos; means any trawls, Danish seines, dredges and similar gear which are actively moved in the water by one or more fishing vessels or by any other mechanised system;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(13)</num>
+                        <content>
+                           <p>&apos;bottom trawl&apos; means a trawl designed and rigged to operate on or near the seabed;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(14)</num>
+                        <content>
+                           <p>&apos;bottom pair trawl&apos; means a bottom trawl towed by two boats simultaneously, one towing each side of the trawl. The horizontal opening of the trawl is maintained by the distance between the two vessels as they tow the gear;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(15)</num>
+                        <content>
+                           <p>&apos;pelagic trawl&apos; means a trawl designed and rigged to operate in midwater;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(16)</num>
+                        <content>
+                           <p>&apos;beam trawl&apos; means gear with a trawl net open horizontally by a beam, wing or similar device;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(17)</num>
+                        <content>
+                           <p>&apos;electric pulse trawl&apos; means a trawl which uses an electric current to catch marine biological resources;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(18)</num>
+                        <content>
+                           <p>&apos;Danish seine&apos; or &apos;Scottish seine&apos; means an encircling and towed gear, operated from a boat by means of two long ropes (seine ropes) designed to herd the fish towards the opening of the seine. The gear is made up of a net which is similar in design to a bottom trawl;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(19)</num>
+                        <content>
+                           <p>&apos;shore seines&apos; means surrounding nets and towed seines set from a boat and pulled towards the shore as they are being operated from the shore or from a vessel moored or anchored by the shore;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(20)</num>
+                        <content>
+                           <p>&apos;surrounding nets&apos; means nets which catch fish by surrounding them both from the sides and from below. They may or may not be equipped with a purse line;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(21)</num>
+                        <content>
+                           <p>&apos;purse seine&apos; or &apos;ring nets&apos; means any surrounding net where the bottom is drawn together by means of a purse line situated at the bottom of the net, which passes through a series of rings along the groundrope, enabling the net to be pursed and closed;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(22)</num>
+                        <content>
+                           <p>&apos;dredges&apos; means gear which are either actively towed by the main boat engine (boat dredge) or hauled by a motorised winch from an anchored vessel (mechanised dredge) to catch bivalves, gastropods or sponges and which consist of a net bag or metal basket mounted on a rigid frame or rod of variable size and shape whose lower part may carry a scraper blade that can be either rounded, sharp or toothed, and may or may not be equipped with skids and diving boards. Some dredges are equipped with hydraulic equipment (hydraulic dredges). Dredges pulled by hand or by manual winches in shallow waters with or without a boat to catch bivalves, gastropods or sponges (hand dredges) shall not be considered towed gear for the purpose of this Regulation;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(23)</num>
+                        <content>
+                           <p>&apos;static nets&apos; means any type of gillnet, entangling net or trammel net that is anchored to the seabed for fish to swim into and become entangled or enmeshed in the netting;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(24)</num>
+                        <content>
+                           <p>&apos;driftnet&apos; means a net held on the water surface or at a certain distance below it by floating devices and drifting with the current, either independently or with the boat to which it may be attached. It may be equipped with devices aiming to stabilise the net or to limit its drift;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(25)</num>
+                        <content>
+                           <p>&apos;gillnet&apos; means a static net made up of a single piece of net and held vertically in the water by floats and weights;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(26)</num>
+                        <content>
+                           <p>&apos;entangling net&apos; means a static net consisting of a wall of netting rigged so that the netting is hung onto the ropes to create a greater amount of slack netting than a gillnet;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(27)</num>
+                        <content>
+                           <p>&apos;trammel net&apos; means a static net made up of several layers of netting with two outer layers of a large mesh size with a sheet of small mesh sandwiched between them;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(28)</num>
+                        <content>
+                           <p>&apos;combined gillnet and trammel net&apos; means any bottom-set gillnet combined with a trammel net which constitutes the lower part;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(29)</num>
+                        <content>
+                           <p>&apos;longline&apos; means a fishing gear consisting of a main line of variable length, to which branch lines (snoods) with hooks are fixed at intervals determined by the target species. The main line is anchored either horizontally on or near the bottom or vertically, or can be allowed to drift on the surface;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(30)</num>
+                        <content>
+                           <p>&apos;pots and creels&apos; means traps in the form of cages or baskets having one or more entrances, designed to catch crustaceans, molluscs or fish, that are set on the seabed or suspended above it;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(31)</num>
+                        <content>
+                           <p>&apos;handline&apos; means a single fishing line with one or more lures or baited hooks;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(32)</num>
+                        <content>
+                           <p>&apos;St Andrew&apos;s cross&apos; means a grab which employs a scissor-like action to harvest for example bivalve molluscs or red coral from the seabed;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(33)</num>
+                        <content>
+                           <p>&apos;codend&apos; means the rearmost part of the trawl, having either a cylindrical shape, with the same circumference throughout, or a tapering shape. It can be made up of one or more panels (pieces of netting) attached to one another along their sides and can include the lengthening piece which is made up of one or more panels located just in front of the codend <i>sensu stricto</i>;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(34)</num>
+                        <alinea>
+                           <content>
+                              <p>&apos;mesh size&apos; means:</p>
+                           </content>
+                        </alinea>
+                        <list>
+                           <point>
+                              <num>(i)</num>
+                              <content>
+                                 <p>for knotted netting: the longest distance between two opposite knots in the same mesh when fully extended;</p>
+                              </content>
+                           </point>
+                           <point>
+                              <num>(ii)</num>
+                              <content>
+                                 <p>for knotless netting: the inside distance between the opposite joints in the same mesh when fully extended along its longest possible axis;</p>
+                              </content>
+                           </point>
+                        </list>
+                     </point>
+                     <point>
+                        <num>(35)</num>
+                        <content>
+                           <p>&apos;square mesh&apos; means a quadrilateral mesh composed of two sets of parallel bars of the same nominal length, where one set is parallel to, and the other is at right angles to, the longitudinal axis of the net;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(36)</num>
+                        <content>
+                           <p>&apos;diamond mesh&apos; means a mesh composed of four bars of the same length where the two diagonals of the mesh are perpendicular and one diagonal is parallel to the longitudinal axis of the net;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(37)</num>
+                        <content>
+                           <p>&apos;T90&apos; means trawls, Danish seines or similar towed gear having a codend and extension piece produced from knotted diamond mesh netting turned 90<sup>o</sup> so that the main direction of run of the netting is parallel to the towing direction;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(38)</num>
+                        <content>
+                           <p>&apos;Bacoma exit window&apos; means an escape panel constructed in knotless square mesh netting fitted into the top panel of a codend with its lower edge no more than four meshes from the codline;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(39)</num>
+                        <content>
+                           <p>&apos;sieve net&apos; means a piece of netting attached to the full circumference of the shrimp trawl in front of the codend or extension piece, and tapering to an apex where it is attached to the bottom sheet of the shrimp trawl. An exit hole is cut where the sieve net and codend join, allowing species or individuals too large to pass through the sieve to escape, whereas the shrimp can pass through the sieve and into the codend;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(40)</num>
+                        <content>
+                           <p>&apos;drop&apos; means the sum of the height of the meshes (including knots) in a net when wet and stretched perpendicular to the float line;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(41)</num>
+                        <content>
+                           <p>&apos;immersion time&apos; or &apos;soak time&apos; means the period from the point of time when the gear is first put in the water until the point of time when the gear is fully recovered on board the fishing vessel;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(42)</num>
+                        <content>
+                           <p>&apos;gear monitoring sensors&apos; means remote electronic sensors that are placed on fishing gear to monitor key performance parameters such as the distance between trawl doors or volume of the catch;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(43)</num>
+                        <content>
+                           <p>&apos;weighted line&apos; means a line of baited hooks with added weight to increase its sinking speed and thereby reduce its time of exposure to seabirds;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(44)</num>
+                        <content>
+                           <p>&apos;acoustic deterrent device&apos; means devices aimed to deter species such as marine mammals from fishing gear by emitting acoustic signals;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(45)</num>
+                        <content>
+                           <p>&apos;bird scaring lines&apos; (also called a tori line) means lines with streamers that are towed from a high point near the stern of fishing vessels as baited hooks are deployed, with the aim of scaring seabirds away from the hooks;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(46)</num>
+                        <content>
+                           <p>&apos;direct restocking&apos; means the activity of releasing live wild animals of selected species into waters where they occur naturally, in order to use the natural production of the aquatic environment to increase the number of individuals available for fisheries and/or to increase natural recruitment;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(47)</num>
+                        <content>
+                           <p>&apos;transplantation&apos; means the process by which a species is intentionally transported and released by humans within areas of established populations of that species;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(48)</num>
+                        <content>
+                           <p>&apos;selectivity performance indicator&apos; means a reference tool to monitor progress over time towards the achievement of the CFP objective of minimising unwanted catches;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(49)</num>
+                        <content>
+                           <p>&apos;spear gun&apos; means a pneumatic or mechanically powered hand-held gun that shoots a spear for the purpose of underwater fishing;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(50)</num>
+                        <content>
+                           <p>&apos;length of optimal selectivity (L<sub>opt</sub>)&apos; is the average length of capture, provided by the best available scientific advice, that optimises the growth of individuals in a stock.</p>
+                        </content>
+                     </point>
+                  </list>
+               </paragraph>
+            </article>
+         </chapter>
+         <chapter>
+            <num>CHAPTER II</num>
+            <heading>COMMON TECHNICAL MEASURES</heading>
+            <section>
+               <num>SECTION 1</num>
+               <heading>Prohibited fishing gear and uses</heading>
+               <article xml:id="art_d443e1380">
+                  <num>Article 7</num>
+                  <heading>Prohibited fishing gear and methods</heading>
+                  <paragraph>
+                     <num>1.</num>
+                     <subparagraph>
+                        <content>
+                           <p>It shall be prohibited to catch or harvest marine species using the following methods:</p>
+                        </content>
+                     </subparagraph>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <content>
+                              <p>toxic, stupefying or corrosive substances;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <content>
+                              <p>electric current except for the electric pulse trawl, which shall only be allowed under the specific provisions of Part D of Annex V;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(c)</num>
+                           <content>
+                              <p>explosives;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(d)</num>
+                           <content>
+                              <p>pneumatic hammers or other percussive instruments;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(e)</num>
+                           <content>
+                              <p>towed devices for harvesting red coral or other type of corals or coral-like organisms;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(f)</num>
+                           <content>
+                              <p>St Andrew&apos;s cross and similar grabs for harvesting, in particular, red coral or other type of corals and coral-like species;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(g)</num>
+                           <content>
+                              <p>any type of projectile, with the exception of those used to kill caged or trapped tuna and of hand-held spears and spear guns used in recreational fishing without an aqualung, from dawn until dusk.</p>
+                           </content>
+                        </point>
+                     </list>
+                  </paragraph>
+                  <paragraph>
+                     <num>2.</num>
+                     <content>
+                        <p>Notwithstanding Article 2, this Article shall apply to Union vessels in international waters and the waters of third countries, except where the rules adopted by multilateral fisheries organisations, under bilateral or multilateral agreements, or by a third country, specifically provide otherwise.</p>
+                     </content>
+                  </paragraph>
+               </article>
+            </section>
+            <section>
+               <num>SECTION 2</num>
+               <heading>General restrictions on gear and conditions for their use</heading>
+               <article xml:id="art_d443e1451">
+                  <num>Article 8</num>
+                  <heading>General restrictions on the use of towed gear</heading>
+                  <paragraph>
+                     <num>1.</num>
+                     <content>
+                        <p>For the purpose of Annexes V to XI, the mesh size of a towed gear as set out in those Annexes shall mean the minimum mesh size of any codend and any extension piece found on board a fishing vessel and attached to, or suitable for attachment to, any towed net. This paragraph shall not apply to netting devices used for the attachment of gear monitoring sensors or when used in conjunction with fish and turtle excluder devices. Further derogations to improve size or species selectivity for marine species may be provided for in a delegated act adopted in accordance with Article 15.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>2.</num>
+                     <subparagraph>
+                        <content>
+                           <p>Paragraph 1 shall not apply to dredges. However, during any voyage when dredges are carried on board the following shall apply:</p>
+                        </content>
+                     </subparagraph>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <content>
+                              <p>it shall be prohibited to tranship marine organisms;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <content>
+                              <p>in the Baltic Sea it shall be prohibited to retain on board or land any quantity of marine organisms unless at least 85 % of the live weight thereof consists of molluscs and/or <i>Furcellaria lumbricalis</i>;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(c)</num>
+                           <content>
+                              <p>in all other sea basins, except in the Mediterranean Sea, where Article 13 of Regulation (EC) No 1967/2006 applies, it shall be prohibited to retain on board or land any quantity of marine organisms unless at least 95 % by live weight thereof consists of bivalve molluscs, gastropods and sponges.</p>
+                           </content>
+                        </point>
+                     </list>
+                     <subparagraph>
+                        <content>
+                           <p>Points (b) and (c) of this paragraph shall not apply to unintended catches of species subject to the landing obligation set out in Article 15 of Regulation (EU) No 1380/2013. Such unintended catches shall be landed and counted against quotas.</p>
+                        </content>
+                     </subparagraph>
+                  </paragraph>
+                  <paragraph>
+                     <num>3.</num>
+                     <content>
+                        <p>Whenever more than one net is towed simultaneously by a fishing vessel or by more than one fishing vessel, each net shall have the same nominal mesh size. The Commission is empowered to adopt delegated acts pursuant to Article 15 and in accordance with Article 29 derogating from this paragraph, where the use of several nets having a different mesh size leads to such benefits for the conservation of marine biological resources that are at least equivalent to those of existing fishing methods.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>4.</num>
+                     <content>
+                        <p>It shall be prohibited to use any device that obstructs or otherwise effectively diminishes the mesh size of the codend or any part of a towed gear, as well as to carry on board any such device that is specifically designed for that purpose. This paragraph shall not exclude the use of specified devices used to reduce wear and tear of and strengthen the towed gear, or to limit the escape of catches in the forward part of towed gear.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>5.</num>
+                     <subparagraph>
+                        <content>
+                           <p>The Commission may adopt implementing acts establishing detailed rules for the specification of codends and the devices referred to in paragraph 4. Those implementing acts shall be based on the best available scientific and technical advice and may define:</p>
+                        </content>
+                     </subparagraph>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <content>
+                              <p>restrictions on twine thickness;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <content>
+                              <p>restrictions on the circumference of codends;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(c)</num>
+                           <content>
+                              <p>restrictions on the use of netting materials;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(d)</num>
+                           <content>
+                              <p>structure and attachment of codends;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(e)</num>
+                           <content>
+                              <p>permitted devices to reduce wear and tear; and</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(f)</num>
+                           <content>
+                              <p>permitted devices to limit the escape of catches.</p>
+                           </content>
+                        </point>
+                     </list>
+                     <subparagraph>
+                        <content>
+                           <p>Those implementing acts shall be adopted in accordance with the examination procedure referred to in Article 30(2).</p>
+                        </content>
+                     </subparagraph>
+                  </paragraph>
+               </article>
+               <article xml:id="art_d443e1547">
+                  <num>Article 9</num>
+                  <heading>General restrictions on the use of static nets and driftnets</heading>
+                  <paragraph>
+                     <num>1.</num>
+                     <content>
+                        <p>It shall be prohibited to have on board or deploy one or more driftnets the individual or total length of which is more than 2,5 km.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>2.</num>
+                     <content>
+                        <p>It shall be prohibited to use driftnets to fish for the species listed in Annex III.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>3.</num>
+                     <content>
+                        <p>Notwithstanding paragraph 1, it shall be prohibited to have on board or deploy any driftnet in the Baltic Sea.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>4.</num>
+                     <subparagraph>
+                        <content>
+                           <p>It shall be prohibited to use bottom-set gillnets, entangling nets and trammel nets to catch the following species:</p>
+                        </content>
+                     </subparagraph>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <content>
+                              <p>Albacore (<i>Thunnus alalunga</i>);</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <content>
+                              <p>Bluefin tuna (<i>Thunnus thynnus</i>);</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(c)</num>
+                           <content>
+                              <p>Ray&apos;s bream (<i>Brama brama</i>);</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(d)</num>
+                           <content>
+                              <p>Swordfish (<i>Xiphias gladius</i>);</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(e)</num>
+                           <content>
+                              <p>Sharks belonging to the following species or families <i>Hexanchus griseus</i>; <i>Cetorhinus maximus</i>; all species of <i>Alopiidae</i>; <i>Carcharhinidae</i>; <i>Sphyrnidae</i>; <i>Isuridae</i>; <i>Lamnidae</i>.</p>
+                           </content>
+                        </point>
+                     </list>
+                  </paragraph>
+                  <paragraph>
+                     <num>5.</num>
+                     <content>
+                        <p>By way of derogation from paragraph 4, incidental catches in the Mediterranean Sea of no more than three specimens of the shark species referred to in that paragraph may be retained on board or landed provided that they are not protected species under Union law.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>6.</num>
+                     <content>
+                        <p>It shall be prohibited to deploy any bottom set gillnet, entangling net and trammel net at any position where the charted depth is greater than 200 m.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>7.</num>
+                     <subparagraph>
+                        <content>
+                           <p>Notwithstanding paragraph 6 of this Article:</p>
+                        </content>
+                     </subparagraph>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <content>
+                              <p>specific derogations as set out in point 6.1 of Part C of Annex V, point 9.1 of Part C of Annex VI and point 4.1 of Part C of Annex VII shall apply where the charted depth is between 200 and 600 m;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <content>
+                              <p>the deployment of bottom set gillnets, entangling nets and trammel nets at any position where the charted depth is greater than 200 m shall be allowed in the Mediterranean Sea.</p>
+                           </content>
+                        </point>
+                     </list>
+                  </paragraph>
+               </article>
+            </section>
+            <section>
+               <num>SECTION 3</num>
+               <heading>Protection of sensitive species and habitats</heading>
+               <article xml:id="art_d443e1679">
+                  <num>Article 10</num>
+                  <heading>Prohibited fish and shellfish species</heading>
+                  <paragraph>
+                     <num>1.</num>
+                     <content>
+                        <p>The catching, retention on board, transhipment or landing of fish or shellfish species referred to in Annex IV to Directive 92/43/EEC shall be prohibited except when derogations are granted under Article 16 of that Directive.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>2.</num>
+                     <content>
+                        <p>In addition to the species referred to in paragraph 1, it shall be prohibited for Union vessels to fish for, retain on board, tranship, land, store, sell, display or offer for sale the species listed in Annex I or species for which fishing is prohibited under other Union legal acts.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>3.</num>
+                     <content>
+                        <p>When caught accidentally, species referred to in paragraphs 1 and 2 shall not be harmed and specimens shall be promptly released back into the sea, except for the purpose of allowing scientific research on accidentally killed specimens in accordance with applicable Union law.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>4.</num>
+                     <content>
+                        <p>The Commission is empowered to adopt delegated acts in accordance with Article 29 to amend the list set out in Annex I, where the best available scientific advice indicates that an amendment of that list is necessary.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>5.</num>
+                     <content>
+                        <p>Measures adopted pursuant to paragraph 4 of this Article shall aim at achieving the target set out in point (b) of Article 4(1) and may take into account international agreements concerning the protection of sensitive species.</p>
+                     </content>
+                  </paragraph>
+               </article>
+               <article xml:id="art_d443e1710">
+                  <num>Article 11</num>
+                  <heading>Catches of marine mammals, seabirds and marine reptiles</heading>
+                  <paragraph>
+                     <num>1.</num>
+                     <content>
+                        <p>The catching, retention on board, transhipment or landing of marine mammals or marine reptiles referred to in Annexes II and IV to Directive 92/43/EEC and of species of seabirds covered by Directive 2009/147/EC shall be prohibited.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>2.</num>
+                     <content>
+                        <p>When caught, species referred to in paragraph 1 shall not be harmed and specimens shall be promptly released.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>3.</num>
+                     <content>
+                        <p>Notwithstanding paragraphs 1 and 2, the retention on board, transhipment or landing of specimens of marine species referred to in paragraph 1 which have been caught accidentally, shall be permitted as far as this activity is necessary to secure assistance for the recovery of the individual animals and to allow for scientific research on incidentally killed specimens, provided that the competent national authorities concerned have been fully informed in advance as soon as possible after the catch and in accordance with applicable Union law.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>4.</num>
+                     <content>
+                        <p>On the basis of the best available scientific advice a Member State may, for vessels flying its flag, put in place mitigation measures or restrictions on the use of certain gear. Such measures shall minimise, and where possible eliminate, the catches of the species referred to in paragraph 1 of this Article and shall be compatible with the objectives set out in Article 2 of Regulation (EU) No 1380/2013 and be at least as stringent as technical measures applicable under Union law.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>5.</num>
+                     <content>
+                        <p>Measures adopted pursuant to paragraph 4 of this Article shall aim at achieving the target set out in point (b) of Article 4(1). The Member States shall, for control purposes, inform the other Member States concerned of provisions adopted under paragraph 4 of this Article. They shall also make publicly available appropriate information concerning such measures.</p>
+                     </content>
+                  </paragraph>
+               </article>
+               <article xml:id="art_d443e1740">
+                  <num>Article 12</num>
+                  <heading>Protection for sensitive habitats including vulnerable marine ecosystems</heading>
+                  <paragraph>
+                     <num>1.</num>
+                     <content>
+                        <p>It shall be prohibited to deploy the fishing gear specified in Annex II within the relevant areas set out in that Annex.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>2.</num>
+                     <content>
+                        <p>Where the best available scientific advice recommends an amendment of the list of areas set out in Annex II, the Commission is empowered to adopt delegated acts in accordance with Article 29 of this Regulation and pursuant to the procedure laid down in Article 11(2) and (3) of Regulation (EU) No 1380/2013, to amend Annex II accordingly. When adopting such amendments, the Commission shall give particular attention to the mitigation of negative effects of the displacement of fishing activity to other sensitive areas.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>3.</num>
+                     <content>
+                        <p>Where the habitats referred to in paragraph 1 or other sensitive habitats, including vulnerable marine ecosystems, occur in waters under the sovereignty or jurisdiction of a Member State, that Member State may establish closed areas or other conservation measures to protect such habitats, pursuant to the procedure laid down in Article 11 of Regulation (EU) No 1380/2013. Such measures shall be compatible with the objectives of Article 2 of Regulation (EU) No 1380/2013 and be at least as stringent as measures under Union law.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>4.</num>
+                     <content>
+                        <p>Measures adopted pursuant to paragraphs 2 and 3 of this Article shall aim at achieving the target set out in point (c) of Article 4(1).</p>
+                     </content>
+                  </paragraph>
+               </article>
+            </section>
+            <section>
+               <num>SECTION 4</num>
+               <heading>Minimum conservation reference sizes</heading>
+               <article xml:id="art_d443e1777">
+                  <num>Article 13</num>
+                  <heading>Minimum conservation reference sizes</heading>
+                  <paragraph>
+                     <num>1.</num>
+                     <subparagraph>
+                        <content>
+                           <p>The minimum conservation reference sizes of marine species specified in Part A of Annexes V to X to this Regulation shall apply for the purpose of:</p>
+                        </content>
+                     </subparagraph>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <content>
+                              <p>ensuring the protection of juveniles of marine species pursuant to Article 15(11) and (12) of Regulation (EU) No 1380/2013;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <content>
+                              <p>establishing fish stock recovery areas pursuant to Article 8 of Regulation (EU) No 1380/2013;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(c)</num>
+                           <content>
+                              <p>constituting minimum marketing sizes pursuant to Article 47(2) of Regulation (EU) No 1379/2013 of the European Parliament and of the Council<authorialNote placement="bottom" marker="28">
+                                    <p>Regulation (EU) No 1379/2013 of the European Parliament and of the Council of 11 December 2013 on the common organisation of the markets in fishery and aquaculture products, amending Council Regulations (EC) No 1184/2006 and (EC) No 1224/2009 and repealing Council Regulation (EC) No 104/2000 (OJ L 354, 28.12.2013, p. 1).</p>
+                                 </authorialNote>.</p>
+                           </content>
+                        </point>
+                     </list>
+                  </paragraph>
+                  <paragraph>
+                     <num>2.</num>
+                     <content>
+                        <p>The size of a marine species shall be measured in accordance with Annex IV.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>3.</num>
+                     <content>
+                        <p>Where more than one method of measuring the size of a marine species is provided for, the specimen shall not be considered to be below the minimum conservation reference size if the size measured by any one of those methods is equal to, or greater than, the minimum conservation reference size.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>4.</num>
+                     <content>
+                        <p>Lobsters, crawfish, and bivalve and gastropod molluscs belonging to any such species for which a minimum conservation reference size is established in Annexes V, VI or VII may only be retained on board whole and may only be landed whole.</p>
+                     </content>
+                  </paragraph>
+               </article>
+            </section>
+            <section>
+               <num>SECTION 5</num>
+               <heading>Measures to reduce discarding</heading>
+               <article xml:id="art_d443e1844">
+                  <num>Article 14</num>
+                  <heading>Pilot projects for the avoidance of unwanted catches</heading>
+                  <paragraph>
+                     <num>1.</num>
+                     <content>
+                        <p>Without prejudice to Article 14 of Regulation (EU) No 1380/2013, Member States may conduct pilot projects with the aim of exploring methods for the avoidance, minimisation and elimination of unwanted catches. Those pilot projects shall take account of the opinions of the relevant Advisory Councils and be based on the best available scientific advice.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>2.</num>
+                     <content>
+                        <p>Where the results of those pilot studies or other scientific advice indicate that unwanted catches are significant, the Member States concerned shall endeavour to establish technical measures to reduce those unwanted catches in accordance with Article 19 of Regulation (EU) No 1380/2013.</p>
+                     </content>
+                  </paragraph>
+               </article>
+            </section>
+         </chapter>
+         <chapter>
+            <num>CHAPTER III</num>
+            <heading>REGIONALISATION</heading>
+            <article xml:id="art_d443e1868">
+               <num>Article 15</num>
+               <heading>Regional technical measures</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <subparagraph>
+                     <content>
+                        <p>Technical measures established at regional level are set out in the following Annexes:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(a)</num>
+                        <content>
+                           <p>in Annex V for the North Sea;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(b)</num>
+                        <content>
+                           <p>in Annex VI for North Western Waters;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(c)</num>
+                        <content>
+                           <p>in Annex VII for South Western Waters;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(d)</num>
+                        <content>
+                           <p>in Annex VIII for the Baltic Sea;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(e)</num>
+                        <content>
+                           <p>in Annex IX for the Mediterranean Sea;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(f)</num>
+                        <content>
+                           <p>in Annex X for the Black Sea;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(g)</num>
+                        <content>
+                           <p>in Annex XI for Union waters in the Indian Ocean and the West Atlantic;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(h)</num>
+                        <content>
+                           <p>in Annex XIII for sensitive species.</p>
+                        </content>
+                     </point>
+                  </list>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>In order to take into account regional specificities of the relevant fisheries, the Commission is empowered to adopt delegated acts in accordance with Article 29 of this Regulation and Article 18 of Regulation (EU) No 1380/2013 in order to amend, supplement, repeal or derogate from the technical measures set out in the Annexes referred to in paragraph 1 of this Article, including when implementing the landing obligation in the context of Article 15(5) and (6) of Regulation (EU) No 1380/2013. The Commission shall adopt such delegated acts on the basis of a joint recommendation submitted in accordance with Article 18 of Regulation (EU) No 1380/2013 and in accordance with the relevant Articles of Chapter III of this Regulation.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <content>
+                     <p>For the purpose of adopting such delegated acts, Member States having a direct management interest may submit joint recommendations in accordance with Article 18(1) of Regulation (EU) No 1380/2013 for the first time not later than 24 months, and thereafter 18 months, after each submission of the report referred to in Article 31(1) of this Regulation. They may also submit such recommendations when deemed necessary by them.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>4.</num>
+                  <subparagraph>
+                     <content>
+                        <p>The technical measures adopted pursuant to paragraph 2 of this Article shall:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(a)</num>
+                        <content>
+                           <p>aim at achieving the objectives and targets set out in Articles 3 and 4 of this Regulation;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(b)</num>
+                        <content>
+                           <p>aim at achieving the objectives and comply with the conditions set out in other relevant Union acts adopted in the area of the CFP, in particular in the multiannual plans referred to in Articles 9 and 10 of Regulation (EU) No 1380/2013;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(c)</num>
+                        <content>
+                           <p>be guided by the principles of good governance set out in Article 3 of Regulation (EU) No 1380/2013;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(d)</num>
+                        <content>
+                           <p>as a minimum, lead to such benefits for the conservation of marine biological resources that are at least equivalent, in particular in terms of exploitation patterns and the level of protection provided for sensitive species and habitats, to the measures referred to in paragraph 1. The potential impact of fishing activities on the marine ecosystem shall also be taken into account.</p>
+                        </content>
+                     </point>
+                  </list>
+               </paragraph>
+               <paragraph>
+                  <num>5.</num>
+                  <content>
+                     <p>The application of the conditions in relation to the mesh size specifications set out in Article 27 and in Part B of Annexes V to XI shall not lead to a deterioration of selectivity standards, in particular in terms of an increase in the catches of juveniles, existing on 14 August 2019, and shall aim at achieving the objectives and targets set out in Articles 3 and 4.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>6.</num>
+                  <content>
+                     <p>In the joint recommendations submitted for the purpose of adopting the measures referred to in paragraph 2, the Member States shall provide scientific evidence to support the adoption of those measures.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>7.</num>
+                  <content>
+                     <p>The Commission may require STECF to assess the joint recommendations referred to in paragraph 2.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d443e1988">
+               <num>Article 16</num>
+               <heading>Species and size selectivity of fishing gear</heading>
+               <paragraph>
+                  <content>
+                     <p>A joint recommendation submitted for the purpose of adopting the measures referred to in Article 15(2) in relation to size-selective and species-selective characteristics of gear shall provide scientific evidence demonstrating that those measures result in selectivity characteristics for specific species or combination of species which are at least equivalent to the selectivity characteristics of the gear set out in Part B of Annexes V to X and in Part A of Annex XI.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d443e1995">
+               <num>Article 17</num>
+               <heading>Closed or restricted areas to protect juveniles and spawning aggregations</heading>
+               <paragraph>
+                  <subparagraph>
+                     <content>
+                        <p>A joint recommendation submitted for the purpose of adopting the measures referred to in Article 15(2) in relation to Part C of Annexes V to VIII and X and Part B of Annex XI or in order to establish new closed or restricted areas shall include the following elements in respect of such closed or restricted areas:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(a)</num>
+                        <content>
+                           <p>the objective of the closure;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(b)</num>
+                        <content>
+                           <p>the geographical extent and duration of the closure;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(c)</num>
+                        <content>
+                           <p>restrictions on specific gear; and</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(d)</num>
+                        <content>
+                           <p>control and monitoring arrangements.</p>
+                        </content>
+                     </point>
+                  </list>
+               </paragraph>
+            </article>
+            <article xml:id="art_d443e2029">
+               <num>Article 18</num>
+               <heading>Minimum conservation reference sizes</heading>
+               <paragraph>
+                  <content>
+                     <p>A joint recommendation submitted for the purpose of adopting the measures referred to in Article 15(2) in relation to Part A of Annexes V to X shall respect the objective of ensuring the protection of juveniles of marine species.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d443e2036">
+               <num>Article 19</num>
+               <heading>Real-time closures and moving-on provisions</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <subparagraph>
+                     <content>
+                        <p>A joint recommendation submitted for the purpose of adopting the measures referred to in Article 15(2) in relation to the creation of real-time closures with the aim of ensuring the protection of sensitive species or of aggregations of juveniles, spawning fish or shellfish species, shall include the following elements:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(a)</num>
+                        <content>
+                           <p>the geographical extent and duration of the closures;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(b)</num>
+                        <content>
+                           <p>the species and threshold levels that trigger the closure;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(c)</num>
+                        <content>
+                           <p>the use of highly selective gear to allow access to otherwise closed areas; and</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(d)</num>
+                        <content>
+                           <p>control and monitoring arrangements.</p>
+                        </content>
+                     </point>
+                  </list>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <subparagraph>
+                     <content>
+                        <p>A joint recommendation submitted for the purpose of adopting the measures referred to in Article 15(2), in relation to moving-on provisions, shall include:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(a)</num>
+                        <content>
+                           <p>the species and threshold levels that trigger an obligation to move;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(b)</num>
+                        <content>
+                           <p>the distance by which a vessel is to move away from its previous fishing position.</p>
+                        </content>
+                     </point>
+                  </list>
+               </paragraph>
+            </article>
+            <article xml:id="art_d443e2091">
+               <num>Article 20</num>
+               <heading>Innovative fishing gear</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>A joint recommendation submitted for the purpose of adopting the measures referred to in Article 15(2) in relation to the use of innovative fishing gear, within a specific sea basin, shall contain an assessment of the likely impacts of using such gear on the targeted species and on sensitive species and habitats. The Member States concerned shall collect the appropriate data necessary for such assessment.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>The use of innovative fishing gear shall not be permitted where the assessments referred to in paragraph 1 indicate that their use will lead to significant negative impacts on sensitive habitats and non-target species.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d443e2107">
+               <num>Article 21</num>
+               <heading>Nature conservation measures</heading>
+               <paragraph>
+                  <subparagraph>
+                     <content>
+                        <p>A joint recommendation submitted for the purpose of adopting the measures referred to in Article 15(2), in relation to the protection of sensitive species and habitats, may in particular:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(a)</num>
+                        <content>
+                           <p>develop lists of sensitive species and habitats most at risk from fishing activities within the relevant region based on the best available scientific advice;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(b)</num>
+                        <content>
+                           <p>specify the use of additional or alternative measures to those referred to in Annex XIII to minimise the incidental catches of the species referred to in Article 11;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(c)</num>
+                        <content>
+                           <p>provide information on the effectiveness of existing mitigation measures and monitoring arrangements;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(d)</num>
+                        <content>
+                           <p>specify measures to minimise the impacts of fishing gear on sensitive habitats;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(e)</num>
+                        <content>
+                           <p>specify restrictions on the operation of certain gear or introduce a total prohibition on the use of certain fishing gear within an area where such gear represent a threat to the conservation status of species in that area as referred to in Articles 10 and 11 or other sensitive habitats.</p>
+                        </content>
+                     </point>
+                  </list>
+               </paragraph>
+            </article>
+            <article xml:id="art_d443e2146">
+               <num>Article 22</num>
+               <heading>Regional measures under temporary discard plans</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <subparagraph>
+                     <content>
+                        <p>When Member States submit joint recommendations for the establishment of technical measures in temporary discard plans referred to in Article 15(6) of Regulation (EU) No 1380/2013, those recommendations may contain, inter alia, the following elements:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(a)</num>
+                        <content>
+                           <p>specifications of fishing gear and the rules governing their use;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(b)</num>
+                        <content>
+                           <p>specifications of modifications to fishing gear or use of selectivity devices to improve size or species selectivity;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(c)</num>
+                        <content>
+                           <p>restrictions or prohibitions on the use of certain fishing gear and on fishing activities in certain areas or during certain periods;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(d)</num>
+                        <content>
+                           <p>minimum conservation reference sizes;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(e)</num>
+                        <content>
+                           <p>derogations adopted on the basis of Article 15(4) of Regulation (EU) No 1380/2013.</p>
+                        </content>
+                     </point>
+                  </list>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>The measures referred to in paragraph 1 of this Article shall aim at achieving the objectives set out in Article 3 and in particular for the protection of juveniles or spawning aggregations of fish or shellfish species.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d443e2193">
+               <num>Article 23</num>
+               <heading>Pilot projects on full documentation of catches and discards</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>The Commission is empowered to adopt delegated acts in accordance with Article 29 of this Regulation and Article 18 of Regulation (EU) No 1380/2013, supplementing this Regulation by defining pilot projects that develop a system of full documentation of catches and discards based on measurable objectives and targets, for the purpose of a results-based management of fisheries.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>The pilot projects referred to in paragraph 1 may derogate from the measures set out in Part B of Annexes V to XI for a specific area and for a maximum period of one year, provided that it can be demonstrated that such pilot projects contribute to achieving the objectives and targets set out in Articles 3 and 4 and, in particular, aim at improving the selectivity of the fishing gear or practice concerned or otherwise reduce its environmental impact. That one-year period may be extended by one additional year under the same conditions. It shall be limited to no more than 5 % of the vessels in that metier per Member State.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <content>
+                     <p>Where Member States submit joint recommendations for the establishment of pilot projects as referred to in paragraph 1, they shall provide scientific evidence to support their adoption. STEFC shall assess those joint recommendations and shall make that assessment public. Within six months of the conclusion of the project, the Member States shall submit a report to the Commission outlining the results, including a detailed assessment of the changes in selectivity and other environmental impacts.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>4.</num>
+                  <content>
+                     <p>STECF shall assess the report referred to in paragraph 3. In the case of a positive assessment of the contribution of the new gear or practice to the objective in paragraph 2, the Commission may submit a proposal in accordance with the TFEU to allow for the generalised use of that gear or practice. The STECF assessment shall be made public.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>5.</num>
+                  <content>
+                     <p>The Commission is empowered to adopt delegated acts in accordance with Article 29 supplementing this Regulation by defining the technical specifications of a system for full documentation of catches and discards referred to in paragraph 1 of this Article.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d443e2225">
+               <num>Article 24</num>
+               <heading>Implementing acts</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <subparagraph>
+                     <content>
+                        <p>The Commission may adopt implementing acts, establishing the following:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(a)</num>
+                        <content>
+                           <p>the specifications of the selection devices attached to the gear set out in Part B of Annexes V to IX;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(b)</num>
+                        <content>
+                           <p>detailed rules on the specifications of the fishing gear described in Part D of Annex V relating to restrictions on gear construction and the control and monitoring measures to be adopted by the flag Member State;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(c)</num>
+                        <content>
+                           <p>detailed rules on the control and monitoring measures to be adopted by the flag Member State when using the gear referred to in point 6 of Part C of Annex V, point 9 of Part C of Annex VI, and point 4 of Part C of Annex VII;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(d)</num>
+                        <content>
+                           <p>detailed rules on the control and monitoring measures to be adopted for the closed or restricted areas described in point 2 of Part C of Annex V, and points 6 and 7 of part C of Annex VI;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(e)</num>
+                        <content>
+                           <p>detailed rules on the signal and implementation characteristics of acoustic deterrent devices as referred to in Part A of Annex XIII;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(f)</num>
+                        <content>
+                           <p>detailed rules on the design and deployment of bird scaring lines and weighted lines as referred to in Part B of Annex XIII;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(g)</num>
+                        <content>
+                           <p>detailed rules on the specifications for the turtle excluder device referred to in Part C of Annex XIII.</p>
+                        </content>
+                     </point>
+                  </list>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>The implementing acts referred to in paragraph 1 shall be adopted in accordance with Article 30(2).</p>
+                  </content>
+               </paragraph>
+            </article>
+         </chapter>
+         <chapter>
+            <num>CHAPTER IV</num>
+            <heading>SCIENTIFIC RESEARCH, DIRECT RESTOCKING AND TRANSPLANTATION</heading>
+            <article xml:id="art_d443e2294">
+               <num>Article 25</num>
+               <heading>Scientific research</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <subparagraph>
+                     <content>
+                        <p>The technical measures provided for in this Regulation shall not apply to fishing operations conducted for the purpose of scientific investigations subject to the following conditions:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(a)</num>
+                        <content>
+                           <p>the fishing operations are to be carried out with the permission and under the authority of the flag Member State;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(b)</num>
+                        <content>
+                           <p>the Commission and the Member State in the waters under the sovereignty or jurisdiction of which the fishing operations take place (&apos;the coastal Member State&apos;), are to be informed at least two weeks in advance of the intention to conduct such fishing operations detailing the vessels involved and the scientific investigations to be undertaken;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(c)</num>
+                        <content>
+                           <p>the vessel or vessels conducting the fishing operations are to have a valid fishing authorisation in accordance with Article 7 of Regulation (EC) No 1224/2009;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(d)</num>
+                        <content>
+                           <p>if requested by the coastal Member State to the flag Member State, the master of the vessel shall be required to take on board an observer from the coastal Member State during the fishing operations, unless this is not possible for security reasons;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(e)</num>
+                        <content>
+                           <p>fishing operations conducted by commercial vessels for the purpose of scientific investigation shall be limited in time. When the fishing operations conducted by commercial vessels for a specific research involve more than six commercial vessels, the Commission shall be informed by the flag Member State at least three months in advance and shall seek, where appropriate, the advice of STECF to confirm that this level of participation is justified on scientific grounds; if the level of participation is not considered justified according to the advice of STECF, the concerned Member State shall amend the conditions of the scientific research accordingly;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(f)</num>
+                        <content>
+                           <p>in the case of electric pulse trawl, vessels conducting scientific research must follow a specific scientific protocol as part of a scientific research plan that has been reviewed or validated by ICES or STECF, as well as a system for monitoring, control and evaluation.</p>
+                        </content>
+                     </point>
+                  </list>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <subparagraph>
+                     <content>
+                        <p>Marine species caught for the purposes specified in paragraph 1 of this Article may be sold, stored, displayed or offered for sale, provided that they are counted against quotas in accordance with Article 33(6) of Regulation (EC) No 1224/2009, where applicable, and:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(a)</num>
+                        <content>
+                           <p>they meet the minimum conservation reference sizes set out in Annexes IV to X to this Regulation; or</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(b)</num>
+                        <content>
+                           <p>they are sold for purposes other than direct human consumption.</p>
+                        </content>
+                     </point>
+                  </list>
+               </paragraph>
+            </article>
+            <article xml:id="art_d443e2366">
+               <num>Article 26</num>
+               <heading>Direct restocking and transplantation</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>The technical measures provided for in this Regulation shall not apply to fishing operations conducted solely for the purpose of direct restocking or transplantation of marine species, provided that those operations are carried out with the permission and under the authority of the Member State or Member States having a direct management interest.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>Where the direct restocking or transplantation is carried out in the waters of another Member State or Member States, the Commission and all those Member States shall be informed, at least 20 calendar days in advance, of the intention to conduct such fishing operations.</p>
+                  </content>
+               </paragraph>
+            </article>
+         </chapter>
+         <chapter>
+            <num>CHAPTER V</num>
+            <heading>CONDITIONS IN RELATION TO MESH SIZE SPECIFICATIONS</heading>
+            <article xml:id="art_d443e2390">
+               <num>Article 27</num>
+               <heading>Conditions in relation to mesh size specifications</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>The catch percentages referred to in the Annexes V to VIII shall mean the maximum percentage of species allowed so as to qualify for the specific mesh sizes set out in those Annexes. Such percentages shall be without prejudice to the obligation to land catches in Article 15 of Regulation (EU) No 1380/2013.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>The catch percentages shall be calculated as the proportion by live weight of all marine biological resources landed after each fishing trip.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <content>
+                     <p>The catch percentages referred to in paragraph 2 may be calculated on the basis of one or more representative samples.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>4.</num>
+                  <content>
+                     <p>For the purpose of this Article, the equivalent weight of whole Norway lobster shall be obtained by multiplying the weight of Norway lobster tails by three.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>5.</num>
+                  <content>
+                     <p>Member States may issue fishing authorisations in accordance with Article 7 of Regulation (EC) No 1224/2009 for vessels flying their flag when engaged in fishing activities using the mesh-specific sizes provided for in Annexes V to XI. Such authorisations may be suspended or withdrawn where a vessel has been found to not have complied with the defined catch percentages provided for in Annexes V to VIII.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>6.</num>
+                  <content>
+                     <p>This Article shall be without prejudice to Regulation (EC) No 1224/2009.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>7.</num>
+                  <content>
+                     <p>The Commission is empowered to adopt delegated acts pursuant to Article 15 and in accordance with Article 29 in order to further define the term &apos;directed fishing&apos; for relevant species in Part B of Annexes V to X and Part A of Annex XI. For this purpose, Member States having a direct management interest in the fisheries concerned shall submit any joint recommendations for the first time not later than 15 August 2020.</p>
+                  </content>
+               </paragraph>
+            </article>
+         </chapter>
+         <chapter>
+            <num>CHAPTER VI</num>
+            <heading>TECHNICAL MEASURES IN THE NEAFC REGULATORY AREA</heading>
+            <article xml:id="art_d443e2447">
+               <num>Article 28</num>
+               <heading>Technical measures in the NEAFC Regulatory Area</heading>
+               <paragraph>
+                  <content>
+                     <p>Technical measures applicable in the NEAFC Regulatory Area are set out in Annex XII.</p>
+                  </content>
+               </paragraph>
+            </article>
+         </chapter>
+         <chapter>
+            <num>CHAPTER VII</num>
+            <heading>PROCEDURAL PROVISIONS</heading>
+            <article xml:id="art_d443e2463">
+               <num>Article 29</num>
+               <heading>Exercise of the delegation</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>The power to adopt delegated acts is conferred on the Commission subject to the conditions laid down in this Article.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>The power to adopt delegated acts referred to in Article 2(2), Article 8(3), Article 10(4), Article 12(2), Article 15(2), Article 23(1) and (5), Article 27(7) and Article 31(4) shall be conferred on the Commission for a period of five years from 14 August 2019. The Commission shall draw up a report in respect of the delegation of power not later than nine months before the end of the five-year period. The delegation of power shall be tacitly extended for periods of an identical duration, unless the European Parliament or the Council opposes such extension not later than three months before the end of each period.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <content>
+                     <p>The delegation of power referred to in Article 2(2), Article 8(3), Article 10(4), Article 12(2), Article 15(2), Article 23(1) and (5), Article 27(7) and Article 31(4) may be revoked at any time by the European Parliament or by the Council. A decision to revoke shall put an end to the delegation of the power specified in that decision. It shall take effect the day following the publication of the decision in the <i>Official Journal of the European Union</i> or at a later date specified therein. It shall not affect the validity of any delegated acts already in force.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>4.</num>
+                  <content>
+                     <p>Before adopting a delegated act, the Commission shall consult experts designated by each Member State in accordance with the principles laid down in the Interinstitutional Agreement of 13 April 2016 on Better Law-making.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>5.</num>
+                  <content>
+                     <p>As soon as it adopts a delegated act, the Commission shall notify it simultaneously to the European Parliament and to the Council.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>6.</num>
+                  <content>
+                     <p>A delegated act adopted pursuant to Article 2(2), Article 8(3), Article 10(4), Article 12(2), Article 15(2), Article 23(1) and (5), Article 27(7) and Article 31(4) shall enter into force only if no objection has been expressed either by the European Parliament or the Council within a period of two months of notification of that act to the European Parliament and to the Council or if, before the expiry of that period, the European Parliament and the Council have both informed the Commission that they will not object. That period shall be extended by two months at the initiative of the European Parliament or of the Council.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d443e2508">
+               <num>Article 30</num>
+               <heading>Committee procedure</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>The Commission shall be assisted by the Committee for fisheries and aquaculture established by Article 47 of Regulation (EU) No 1380/2013. That committee shall be a committee within the meaning of Regulation (EU) No 182/2011.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>Where reference is made to this paragraph, Article 5 of Regulation (EU) No 182/2011 shall apply.</p>
+                  </content>
+               </paragraph>
+            </article>
+         </chapter>
+         <chapter>
+            <num>CHAPTER VIII</num>
+            <heading>FINAL PROVISIONS</heading>
+            <article xml:id="art_d443e2532">
+               <num>Article 31</num>
+               <heading>Review and reporting</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>By 31 December 2020 and every third year thereafter, and on the basis of information supplied by Member States and the relevant Advisory Councils and following evaluation by STECF, the Commission shall submit a report to the European Parliament and to the Council on the implementation of this Regulation. That report shall assess the extent to which technical measures both at regional level and at Union level have contributed to achieving the objectives set out in Article 3 and reaching the targets set out in Article 4. The report shall also refer to advice from ICES on the progress that has been made, or impact arising from innovative gear. The report shall draw conclusions about the benefits for, or negative effects on, marine ecosystems, sensitive habitats and selectivity.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>The report referred to in paragraph 1 of this Article shall contain, inter alia, an assessment of the contribution of technical measures to optimise exploitation patterns, as provided for in point (a) of Article 3(2). For that purpose the report may include, inter alia, as a selectivity performance indicator for the key indicator stocks for the species listed in Annex XIV the length of optimal selectivity (L<sub>opt</sub>) compared to the average length of fish caught for each year covered.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <content>
+                     <p>On the basis of that report, where at regional level there is evidence that the objectives and targets have not been met, Member States within that region shall, within 12 months after the submission of the report referred to in paragraph 1, submit a plan setting out the actions to be taken to contribute to achieving those objectives and targets.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>4.</num>
+                  <content>
+                     <p>The Commission may also propose to the European Parliament and to the Council any necessary amendments to this Regulation on the basis of that report. The Commission is empowered to adopt delegated acts pursuant to Article 15 and in accordance with Article 29 in order to amend the list of species set out in Annex XIV.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d443e2563">
+               <num>Article 32</num>
+               <heading>Amendments to Regulation (EC) No 1967/2006</heading>
+               <paragraph>
+                  <subparagraph>
+                     <content>
+                        <p>Regulation (EC) No 1967/2006 is amended as follows:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(a)</num>
+                        <content>
+                           <p>Articles 3, 8 to 12, 14, 15, 16 and 25 are deleted;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(b)</num>
+                        <content>
+                           <p>Annexes II, III and IV are deleted.</p>
+                        </content>
+                     </point>
+                  </list>
+               </paragraph>
+               <paragraph>
+                  <content>
+                     <p>References to the deleted Articles and Annexes shall be construed as references to the relevant provisions of this Regulation.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d443e2587" leos:compliant="false">
+               <num>Article 33</num>
+               <heading>Amendments to Regulation (EC) No 1224/2009</heading>
+               <paragraph>
+                  <subparagraph>
+                     <content>
+                        <p>In Chapter IV of Regulation (EC) No 1224/2009, Title IV is amended as follows:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(a)</num>
+                        <content>
+                           <p>Section 3 is deleted;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(b)</num>
+                        <alinea>
+                           <content>
+                              <p>the following Section is added:</p>
+                           </content>
+                        </alinea>
+                        <alinea>
+                           <content>
+                              <p>
+                                 <mod>
+                                    <quotedStructure startQuote="" endQuote="">
+                                       <section>
+                                          <num>&apos;Section 4</num>
+                                          <heading>On-board processing and pelagic fisheries</heading>
+                                          <article xml:id="art_d443e2622">
+                                             <num>Article 54a</num>
+                                             <heading>On-board processing</heading>
+                                             <paragraph>
+                                                <num>1.</num>
+                                                <content>
+                                                   <p>The carrying out on board a fishing vessel of any physical or chemical processing of fish to produce fish-meal, fish-oil, or similar products or to tranship catches of fish for such purposes shall be prohibited.</p>
+                                                </content>
+                                             </paragraph>
+                                             <paragraph>
+                                                <num>2.</num>
+                                                <subparagraph>
+                                                   <content>
+                                                      <p>Paragraph 1 shall not apply to:</p>
+                                                   </content>
+                                                </subparagraph>
+                                                <list>
+                                                   <point>
+                                                      <num>(a)</num>
+                                                      <content>
+                                                         <p>the processing or transhipment of offal; or</p>
+                                                      </content>
+                                                   </point>
+                                                   <point>
+                                                      <num>(b)</num>
+                                                      <content>
+                                                         <p>the production on board a fishing vessel of surimi.</p>
+                                                      </content>
+                                                   </point>
+                                                </list>
+                                             </paragraph>
+                                          </article>
+                                          <article xml:id="art_d443e2651">
+                                             <num>Article 54b</num>
+                                             <heading>Catch handling and discharge restrictions on pelagic vessels</heading>
+                                             <paragraph>
+                                                <num>1.</num>
+                                                <subparagraph>
+                                                   <content>
+                                                      <p>The maximum space between bars in the water separator on board pelagic fishing vessels targeting mackerel, herring and horse mackerel operating in the NEAFC Convention Area as defined in Article 3(2) of Regulation (EU) No 1236/2010 shall be 10 mm.</p>
+                                                   </content>
+                                                </subparagraph>
+                                                <subparagraph>
+                                                   <content>
+                                                      <p>The bars shall be welded in place. If holes are used in the water separator instead of bars, the maximum diameter of the holes shall not exceed 10 mm. Holes in the chutes before the water separator shall not exceed 15 mm in diameter.</p>
+                                                   </content>
+                                                </subparagraph>
+                                             </paragraph>
+                                             <paragraph>
+                                                <num>2.</num>
+                                                <content>
+                                                   <p>Pelagic vessels operating in the NEAFC Convention Area shall be prohibited from discharging fish under their water line from buffer tanks or refrigerated seawater (RSW) tanks.</p>
+                                                </content>
+                                             </paragraph>
+                                             <paragraph>
+                                                <num>3.</num>
+                                                <content>
+                                                   <p>Drawings related to the catch handling and discharge capabilities of pelagic vessels targeting mackerel, herring and horse mackerel in the NEAFC Convention Area which are certified by the competent authorities of the flag Member States, as well as any modifications thereto, shall be sent by the master of the vessel to the competent fisheries authorities of the flag Member State. The competent authorities of the flag Member State of the vessels shall carry out periodic verifications of the accuracy of the drawings submitted. Copies shall be carried on board the vessel at all times.</p>
+                                                </content>
+                                             </paragraph>
+                                          </article>
+                                          <article xml:id="art_d443e2674">
+                                             <num>Article 54c</num>
+                                             <heading>Restrictions on the use of automatic grading equipment</heading>
+                                             <paragraph>
+                                                <num>1.</num>
+                                                <content>
+                                                   <p>The carrying or use on board a fishing vessel of equipment which is capable of automatically grading, by size or by sex, herring or mackerel or horse mackerel shall be prohibited.</p>
+                                                </content>
+                                             </paragraph>
+                                             <paragraph>
+                                                <num>2.</num>
+                                                <subparagraph>
+                                                   <content>
+                                                      <p>However, the carrying and use of such equipment shall be permitted provided that:</p>
+                                                   </content>
+                                                </subparagraph>
+                                                <list>
+                                                   <point>
+                                                      <num>(a)</num>
+                                                      <content>
+                                                         <p>the vessel does not simultaneously carry or use on board either towed gear of mesh size less than 70 mm or one or more purse seines or similar fishing gear; or</p>
+                                                      </content>
+                                                   </point>
+                                                   <point>
+                                                      <num>(b)</num>
+                                                      <alinea>
+                                                         <content>
+                                                            <p>the whole of the catch which may be lawfully retained on board:</p>
+                                                         </content>
+                                                      </alinea>
+                                                      <list>
+                                                         <point>
+                                                            <num>(i)</num>
+                                                            <content>
+                                                               <p>is stored in a frozen state;</p>
+                                                            </content>
+                                                         </point>
+                                                         <point>
+                                                            <num>(ii)</num>
+                                                            <content>
+                                                               <p>the graded fish are frozen immediately after grading and no graded fish are returned to the sea; and</p>
+                                                            </content>
+                                                         </point>
+                                                         <point>
+                                                            <num>(iii)</num>
+                                                            <content>
+                                                               <p>the equipment is installed and located on the vessel in such a way as to ensure immediate freezing and not to allow the return of marine species to the sea.</p>
+                                                            </content>
+                                                         </point>
+                                                      </list>
+                                                   </point>
+                                                </list>
+                                             </paragraph>
+                                             <paragraph>
+                                                <num>3.</num>
+                                                <content>
+                                                   <p>By way of derogation from paragraphs 1 and 2 of this Article, any vessel authorised to fish in the Baltic Sea, the Belts or the Sound may carry automatic grading equipment in the Kattegat provided that a fishing authorisation has been issued in accordance with Article 7. The fishing authorisation shall define the species, areas, time periods and any other required conditions applicable to the use and carriage on board of the grading equipment.</p>
+                                                </content>
+                                             </paragraph>
+                                             <paragraph>
+                                                <num>4.</num>
+                                                <content>
+                                                   <p>This Article shall not apply in the Baltic Sea.&apos;.</p>
+                                                </content>
+                                             </paragraph>
+                                          </article>
+                                       </section>
+                                    </quotedStructure>
+                                 </mod>
+                              </p>
+                           </content>
+                        </alinea>
+                     </point>
+                  </list>
+               </paragraph>
+            </article>
+            <article xml:id="art_d443e2735" leos:compliant="false">
+               <num>Article 34</num>
+               <heading>Amendment to Regulation (EU) No 1380/2013</heading>
+               <paragraph>
+                  <content>
+                     <p>In Article 15 of Regulation (EU) No 1380/2013, paragraph 12 is replaced by the following:</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <content>
+                     <p>
+                        <mod>
+                           <quotedStructure startQuote="" endQuote="">
+                              <paragraph>
+                                 <num>&apos;12.</num>
+                                 <content>
+                                    <p>For species that are not subject to the landing obligation as specified in paragraph 1, the catches of species below the minimum conservation reference size shall not be retained on board, but shall be returned immediately to the sea, except when they are used as live bait. &apos;.</p>
+                                 </content>
+                              </paragraph>
+                           </quotedStructure>
+                        </mod>
+                     </p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d443e2753" leos:compliant="false">
+               <num>Article 35</num>
+               <heading>Amendment to Regulation (EU) 2016/1139</heading>
+               <paragraph>
+                  <subparagraph>
+                     <content>
+                        <p>In Regulation (EU) 2016/1139, Article 8 is amended as follows:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(a)</num>
+                        <alinea>
+                           <content>
+                              <p>in paragraph 1, the introductory part is replaced by the following:</p>
+                           </content>
+                        </alinea>
+                        <alinea>
+                           <content>
+                              <p>
+                                 <mod>
+                                    <quotedStructure startQuote="" endQuote="">
+                                       <paragraph>
+                                          <num>&apos;1.</num>
+                                          <content>
+                                             <p>The Commission is empowered to adopt delegated acts in accordance with Article 16 of this Regulation and Article 18 of Regulation (EU) No 1380/2013 regarding the following technical measures, insofar as they are not covered by Regulation (EU) 2019/1241 of the European Parliament and of the Council<authorialNote placement="bottom" marker="29">
+                                                   <p>Regulation (EU) 2019/1241 of the European Parliament and of the Council of 20 June 2019 on the conservation of fishery resources and the protection of marine ecosystems through technical measures, amending Council Regulations (EC) No 1967/2006, (EC) No 1224/2009 and Regulations (EU) No 1380/2013, (EU) 2016/1139, (EU) 2018/973, (EU) 2019/472 and (EU) 2019/1022 of the European Parliament and of the Council, and repealing Council Regulations (EC) No 894/97, (EC) No 850/98, (EC) No 2549/2000, (EC) No 254/2002, (EC) No 812/2004 and (EC) No 2187/2005 (OJ L 198, 25.7.2019, p. 105).&apos;;</p>
+                                                </authorialNote>:</p>
+                                          </content>
+                                       </paragraph>
+                                    </quotedStructure>
+                                 </mod>
+                              </p>
+                           </content>
+                        </alinea>
+                     </point>
+                     <point>
+                        <num>(b)</num>
+                        <alinea>
+                           <content>
+                              <p>paragraph 2 is replaced by the following:</p>
+                           </content>
+                        </alinea>
+                        <alinea>
+                           <content>
+                              <p>
+                                 <mod>
+                                    <quotedStructure startQuote="" endQuote="">
+                                       <paragraph>
+                                          <num>&apos;2.</num>
+                                          <content>
+                                             <p>The measures referred to in paragraph 1 of this Article shall contribute to the achievement of the objectives set out in Article 3 of this Regulation and shall comply with Article 15(4) of Regulation (EU) 2019/1241&apos;.</p>
+                                          </content>
+                                       </paragraph>
+                                    </quotedStructure>
+                                 </mod>
+                              </p>
+                           </content>
+                        </alinea>
+                     </point>
+                  </list>
+               </paragraph>
+            </article>
+            <article xml:id="art_d443e2804" leos:compliant="false">
+               <num>Article 36</num>
+               <heading>Amendments to Regulation (EU) 2018/973</heading>
+               <paragraph>
+                  <subparagraph>
+                     <content>
+                        <p>In Regulation (EU) 2018/973, Article 9 is amended as follows:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(a)</num>
+                        <alinea>
+                           <content>
+                              <p>in paragraph 1, the introductory part is replaced by the following:</p>
+                           </content>
+                        </alinea>
+                        <alinea>
+                           <content>
+                              <p>
+                                 <mod>
+                                    <quotedStructure startQuote="" endQuote="">
+                                       <paragraph>
+                                          <num>&apos;1.</num>
+                                          <content>
+                                             <p>The Commission is empowered to adopt delegated acts in accordance with Article 16 of this Regulation and Article 18 of Regulation (EU) No 1380/2013 in order to supplement this Regulation regarding the following technical measures, insofar as they are not covered by Regulation (EU) 2019/1241 of the European Parliament and of the Council<authorialNote placement="bottom" marker="30">
+                                                   <p>Regulation (EU) 2019/1241 of the European Parliament and of the Council of 20 June 2019 on the conservation of fishery resources and the protection of marine ecosystems through technical measures, amending Council Regulations (EC) No 1967/2006, (EC) No 1224/2009 and Regulations (EU) No 1380/2013, (EU) 2016/1139, (EU) 2018/973, (EU) 2019/472 and (EU) 2019/1022 of the European Parliament and of the Council, and repealing Council Regulations (EC) No 894/97, (EC) No 850/98, (EC) No 2549/2000, (EC) No 254/2002, (EC) No 812/2004 and (EC) No 2187/2005 (OJ L 198, 25.7.2019, p. 105).&apos;;</p>
+                                                </authorialNote>:</p>
+                                          </content>
+                                       </paragraph>
+                                    </quotedStructure>
+                                 </mod>
+                              </p>
+                           </content>
+                        </alinea>
+                     </point>
+                     <point>
+                        <num>(b)</num>
+                        <alinea>
+                           <content>
+                              <p>paragraph 2 is replaced by the following:</p>
+                           </content>
+                        </alinea>
+                        <alinea>
+                           <content>
+                              <p>
+                                 <mod>
+                                    <quotedStructure startQuote="" endQuote="">
+                                       <paragraph>
+                                          <num>&apos;2.</num>
+                                          <content>
+                                             <p>The measures referred to in paragraph 1 of this Article shall contribute to the achievement of the objectives set out in Article 3 of this Regulation, and shall comply with Article 15(4) of Regulation (EU) 2019/1241&apos;.</p>
+                                          </content>
+                                       </paragraph>
+                                    </quotedStructure>
+                                 </mod>
+                              </p>
+                           </content>
+                        </alinea>
+                     </point>
+                  </list>
+               </paragraph>
+            </article>
+            <article xml:id="art_d443e2856" leos:compliant="false">
+               <num>Article 37</num>
+               <heading>Amendment to Regulation (EU) 2019/472</heading>
+               <paragraph>
+                  <subparagraph>
+                     <content>
+                        <p>In Regulation (EU) 2019/472, Article 9 is amended as follows:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(a)</num>
+                        <alinea>
+                           <content>
+                              <p>in paragraph 1, the introductory part is replaced by the following:</p>
+                           </content>
+                        </alinea>
+                        <alinea>
+                           <content>
+                              <p>
+                                 <mod>
+                                    <quotedStructure startQuote="" endQuote="">
+                                       <paragraph>
+                                          <num>&apos;1.</num>
+                                          <content>
+                                             <p>The Commission is empowered to adopt delegated acts in accordance with Article 18 of this Regulation and Article 18 of Regulation (EU) No 1380/2013 in order to supplement this Regulation regarding the following technical measures, insofar as they are not covered by Regulation (EU) 2019/1241 of the European Parliament and of the Council<authorialNote placement="bottom" marker="31">
+                                                   <p>Regulation (EU) 2019/1241 of the European Parliament and of the Council of 20 June 2019 on the conservation of fishery resources and the protection of marine ecosystems through technical measures, amending Council Regulations (EC) No 1967/2006, (EC) No 1224/2009 and Regulations (EU) No 1380/2013, (EU) 2016/1139, (EU) 2018/973, (EU) 2019/472 and (EU) 2019/1022 of the European Parliament and of the Council, and repealing Council Regulations (EC) No 894/97, (EC) No 850/98, (EC) No 2549/2000, (EC) No 254/2002, (EC) No 812/2004 and (EC) No 2187/2005 (OJ L 198, 25.7.2019, p. 105).&apos;;</p>
+                                                </authorialNote>:</p>
+                                          </content>
+                                       </paragraph>
+                                    </quotedStructure>
+                                 </mod>
+                              </p>
+                           </content>
+                        </alinea>
+                     </point>
+                     <point>
+                        <num>(b)</num>
+                        <alinea>
+                           <content>
+                              <p>paragraph 2 is replaced by the following:</p>
+                           </content>
+                        </alinea>
+                        <alinea>
+                           <content>
+                              <p>
+                                 <mod>
+                                    <quotedStructure startQuote="" endQuote="">
+                                       <paragraph>
+                                          <num>&apos;2.</num>
+                                          <content>
+                                             <p>The measures referred to in paragraph 1 of this Article shall contribute to the achievement of the objectives set out in Article 3 of this Regulation, and shall comply with Article 15(4) of Regulation (EU) 2019/1241&apos;.</p>
+                                          </content>
+                                       </paragraph>
+                                    </quotedStructure>
+                                 </mod>
+                              </p>
+                           </content>
+                        </alinea>
+                     </point>
+                  </list>
+               </paragraph>
+            </article>
+            <article xml:id="art_d443e2908" leos:compliant="false">
+               <num>Article 38</num>
+               <heading>Amendment to Regulation (EU) 2019/1022</heading>
+               <paragraph>
+                  <subparagraph>
+                     <content>
+                        <p>In Regulation (EU) 2019/1022, Article 13 is amended as follows:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(a)</num>
+                        <alinea>
+                           <content>
+                              <p>in paragraph 1, the introductory part is replaced by the following:</p>
+                           </content>
+                        </alinea>
+                        <alinea>
+                           <content>
+                              <p>
+                                 <mod>
+                                    <quotedStructure startQuote="" endQuote="">
+                                       <paragraph>
+                                          <num>&apos;1.</num>
+                                          <content>
+                                             <p>The Commission is empowered to adopt delegated acts in accordance with Article 18 of this Regulation and Article 18 of Regulation (EU) No 1380/2013 in order to supplement this Regulation regarding the following technical measures, insofar as they are not covered by Regulation (EU) 2019/1241 of the European Parliament and of the Council<authorialNote placement="bottom" marker="32">
+                                                   <p>Regulation (EU) 2019/1241 of the European Parliament and of the Council of 20 June 2019 on the conservation of fishery resources and the protection of marine ecosystems through technical measures, amending Council Regulations (EC) No 1967/2006, (EC) No 1224/2009 and Regulations (EU) No 1380/2013, (EU) 2016/1139, (EU) 2018/973, (EU) 2019/472 and (EU) 2019/1022 of the European Parliament and of the Council, and repealing Council Regulations (EC) No 894/97, (EC) No 850/98, (EC) No 2549/2000, (EC) No 254/2002, (EC) No 812/2004 and (EC) No 2187/2005 (OJ L 198, 25.7.2019, p. 105).&apos;;</p>
+                                                </authorialNote>:</p>
+                                          </content>
+                                       </paragraph>
+                                    </quotedStructure>
+                                 </mod>
+                              </p>
+                           </content>
+                        </alinea>
+                     </point>
+                     <point>
+                        <num>(b)</num>
+                        <alinea>
+                           <content>
+                              <p>paragraph 2 is replaced by the following:</p>
+                           </content>
+                        </alinea>
+                        <alinea>
+                           <content>
+                              <p>
+                                 <mod>
+                                    <quotedStructure startQuote="" endQuote="">
+                                       <paragraph>
+                                          <num>&apos;2.</num>
+                                          <content>
+                                             <p>The measures referred to in paragraph 1 of this Article shall contribute to the achievement of the objectives set out in Article 3 of this Regulation, and shall comply with Article 15(4) of Regulation (EU) 2019/1241&apos;.</p>
+                                          </content>
+                                       </paragraph>
+                                    </quotedStructure>
+                                 </mod>
+                              </p>
+                           </content>
+                        </alinea>
+                     </point>
+                  </list>
+               </paragraph>
+            </article>
+            <article xml:id="art_d443e2960">
+               <num>Article 39</num>
+               <heading>Repeals</heading>
+               <paragraph>
+                  <content>
+                     <p>Regulations (EC) No 894/97, (EC) No 850/98, (EC) No 2549/2000, (EC) No 254/2002, (EC) No 812/2004 and (EC) No 2187/2005 are repealed.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <content>
+                     <p>References to the repealed Regulations shall be construed as references to this Regulation.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d443e2969">
+               <num>Article 40</num>
+               <heading>Entry into Force</heading>
+               <paragraph>
+                  <content>
+                     <p>This Regulation shall enter into force on the twentieth day following that of its publication in the <i>Official Journal of the European Union</i>.</p>
+                  </content>
+               </paragraph>
+            </article>
+         </chapter>
+         <clause>
+            <content>
+               <p>This Regulation shall be binding in its entirety and directly applicable in all Member States.</p>
+            </content>
+         </clause>
+      </body>
+      <conclusions>
+         <p>Done at Brussels, 20 June 2019.</p>
+         <block name="signatory">
+            <signature>
+               <organization refersTo="">For the European Parliament</organization>
+               <role refersTo="">The President</role>
+               <person refersTo="">A. TAJANI</person>
+            </signature>
+            <signature>
+               <organization refersTo="">For the Council</organization>
+               <role refersTo="">The President</role>
+               <person refersTo="">G. CIAMBA</person>
+            </signature>
+         </block>
+      </conclusions>
+   </bill>
+</akomaNtoso>

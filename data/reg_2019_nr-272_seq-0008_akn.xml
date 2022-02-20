@@ -1,0 +1,598 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"
+            xmlns:fmx="http://formex.publications.europa.eu/schema/formex-05.21-20110601.xd"
+            xmlns:leos="urn:eu:europa:ec:leos"
+            xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <bill name="">
+      <meta xmlns:fn="http://www.w3.org/2005/xpath-functions">
+         <identification source="~COM">
+            <FRBRWork>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRcountry value=""/>
+            </FRBRWork>
+            <FRBRExpression>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+            </FRBRManifestation>
+         </identification>
+      </meta>
+      <preface>
+         <longTitle>
+            <p>
+               <docStage/>
+               <docType>COMMISSION REGULATION (EU) 2019/1784</docType>of 1 October 2019<docPurpose>laying down ecodesign requirements for welding equipment pursuant to Directive 2009/125/EC of the European Parliament and of the Council</docPurpose>
+            </p>
+         </longTitle>
+         <container name="EEArelevance">
+            <p>(Text with EEA relevance)</p>
+         </container>
+      </preface>
+      <preamble>
+         <formula name="actingEntity">
+            <p>THE EUROPEAN COMMISSION,</p>
+         </formula>
+         <citations>
+            <citation>
+               <p>Having regard to Article 114 of the Treaty on the Functioning of the European Union,</p>
+            </citation>
+            <citation>
+               <p>Having regard to Directive 2009/125/EC of the European Parliament and of the Council of 21 October 2009 establishing a framework for the setting of ecodesign requirements for energy-related products<authorialNote placement="bottom" marker="1">
+                     <p>OJ L 285, 31.10.2009, p. 10.</p>
+                  </authorialNote>, and in particular Article 15(1) thereof,</p>
+            </citation>
+         </citations>
+         <recitals xml:id="recs_d597e71">
+            <intro>
+               <p>Whereas:</p>
+            </intro>
+            <recital xml:id="rec_d597e74">
+               <num>(1)</num>
+               <p>Pursuant to Directive 2009/125/EC the Commission should set ecodesign requirements for energy-related products which account for significant volumes of sales and trade in the Union and which have a significant environmental impact and present significant potential for improvement through design in terms of their environmental impact, without entailing excessive costs.</p>
+            </recital>
+            <recital xml:id="rec_d597e80">
+               <num>(2)</num>
+               <p>The Communication from the Commission COM(2016) 773 final<authorialNote placement="bottom" marker="2">
+                     <p>Communication from the Commission. Ecodesign working plan 2016-2019 (COM(2016) 773 final, Brussels, 30.11.2016).</p>
+                  </authorialNote> (ecodesign working plan) established by the Commission in application of Article 16(1) of Directive 2009/125/EC sets out the working priorities under the ecodesign and energy labelling framework for the period 2016-2019. The ecodesign working plan identifies the energy-related product groups to be considered as priorities for the undertaking of preparatory studies and eventual adoption of implementing measures, as well as the review of the current Regulations.</p>
+            </recital>
+            <recital xml:id="rec_d597e93">
+               <num>(3)</num>
+               <p>Measures from the ecodesign working plan have an estimated potential to deliver a total in excess of 260 TWh of annual final energy savings in 2030, which is equivalent to reducing greenhouse gas emissions by approximately 100 million tonnes per year in 2030.</p>
+            </recital>
+            <recital xml:id="rec_d597e99">
+               <num>(4)</num>
+               <p>The Commission has carried out a preparatory study to analyse the technical, environmental and economic aspects of welding equipment and machine tool products for industrial purposes<authorialNote placement="bottom" marker="3">
+                     <p>Machine tools were initially covered in the preparatory work, but they have been excluded from the scope of this Regulation due to the difficulty of determining minimum efficiency requirements on the basis of the currently available information. Additional data collection, especially on the technical options for reducing energy consumption in non-processing states such as standby and other low-power modes, could result in ecodesign measures being proposed for machine tools in the future.</p>
+                  </authorialNote>. Welding equipment subject to the study comprises arc and plasma welding equipment for metals, designed and typically used for industrial and professional use<authorialNote placement="bottom" marker="4">
+                     <p>As defined in IEC 60 974-1: Arc welding equipment &#45; Part 1: Welding power sources. Specifically excluded from the scope of this Regulation are arc welding and cutting equipment designed for limited-duty operation by the layperson in accordance with IEC 60 974-6: Arc welding equipment &#45; Part 6: Limited duty equipment.</p>
+                  </authorialNote>. It has been considered that welding equipment exclusively powered with engines or batteries should not be regulated.</p>
+            </recital>
+            <recital xml:id="rec_d597e113">
+               <num>(5)</num>
+               <p>The preparatory study was conducted in close cooperation with stakeholders and interested parties in the EU and elsewhere. The results were made public and presented to the Consultation Forum established under Article 18 of Directive 2009/125/EC.</p>
+            </recital>
+            <recital xml:id="rec_d597e119">
+               <num>(6)</num>
+               <p>The environmental aspects of welding equipment that were identified as significant for the purposes of this Regulation are:<list>
+                     <point>
+                        <num>(a)</num>energy consumption in the use phase, including when the products are in &apos;idle&apos; mode;</point>
+                     <point>
+                        <num>(b)</num>resource efficiency aspects.</point>
+                  </list>
+               </p>
+            </recital>
+            <recital xml:id="rec_d597e144">
+               <num>(7)</num>
+               <p>Annual final energy consumption directly related to welding equipment is expected to be in excess of 6 TWh in 2030, corresponding to 2,4 million tonnes of CO<sub>2</sub> equivalent, excluding the energy used in making the associated consumables (such as shielding gases, welding wire). The preparatory study showed that energy consumption in the use phase and various idle or standby modes can be reduced significantly.</p>
+            </recital>
+            <recital xml:id="rec_d597e153">
+               <num>(8)</num>
+               <p>By 2030, it is estimated that the ecodesign requirements in this Regulation will result in annual energy savings of 1,09 TWh, corresponding to total annual savings of about 0,27 Mt CO<sub>2</sub> equivalent.</p>
+            </recital>
+            <recital xml:id="rec_d597e162">
+               <num>(9)</num>
+               <p>The Communication from the Commission to the European Parliament, the Council, the European Economic and Social Committee and the Committee of the Regions COM(2015) 614 final<authorialNote placement="bottom" marker="5">
+                     <p>Communication from the Commission to the European Parliament, the Council, the European Economic and Social Committee and the Committee of the Regions. Closing The Loop &#45; An EU action plan for the circular economy (COM(2015) 614 final, Brussels, 2.12.2015).</p>
+                  </authorialNote> (circular economy action plan) and the ecodesign working plan underline the importance of using the ecodesign framework to support the move towards a more resource efficient and circular economy. Directive 2012/19/EU of the European Parliament and of the Council<authorialNote placement="bottom" marker="6">
+                     <p>Directive 2012/19/EU of the European Parliament and of the Council of 4 July 2012 on waste electrical and electronic equipment (WEEE) (OJ L 197, 24.7.2012, p. 38).</p>
+                  </authorialNote> refers to Directive 2009/125/EC and indicates that ecodesign requirements should facilitate the re-use, dismantling and recovery of waste electrical and electronic equipment (WEEE) by tackling the issues upstream. Accordingly this Regulation lays down requirements on non-energy-related aspects, including:<list>
+                     <point>
+                        <num>(a)</num>disassembly;</point>
+                     <point>
+                        <num>(b)</num>reparability;</point>
+                     <point>
+                        <num>(c)</num>critical raw materials.</point>
+                  </list>
+               </p>
+            </recital>
+            <recital xml:id="rec_d597e206">
+               <num>(10)</num>
+               <p>In addition, it requires that welding equipment be accompanied by information on the use of shielding gases during welding and the quantities of welding wire or filler material used.</p>
+            </recital>
+            <recital xml:id="rec_d597e212">
+               <num>(11)</num>
+               <p>The energy and resource consumption of welding equipment could be reduced by applying existing non-proprietary techniques without an increase in the combined costs of purchasing and operation.</p>
+            </recital>
+            <recital xml:id="rec_d597e218">
+               <num>(12)</num>
+               <p>The preparatory study has concluded that the proposed ecodesign requirements do not affect the functionality or affordability of welding equipment from the end-user&apos;s perspective and do not negatively affect health, safety or the environment.</p>
+            </recital>
+            <recital xml:id="rec_d597e224">
+               <num>(13)</num>
+               <p>The timing for the introduction of ecodesign requirements allows manufacturers to redesign the products covered by this Regulation. It takes account of the impact on costs for manufacturers, in particular the large proportion of small and medium-sized enterprises in the welding equipment manufacturing sector in the EU, while ensuring the timely achievement of the objectives of this Regulation.</p>
+            </recital>
+            <recital xml:id="rec_d597e230">
+               <num>(14)</num>
+               <p>Product parameters should be measured and calculated using reliable, accurate and reproducible methods that take into account recognised state-of-the-art measurement and calculation techniques, including, where available, harmonised standards adopted by the European standardisation organisations following a request from the Commission, in accordance with Regulation (EU) No 1025/2012 of the European Parliament and of the Council<authorialNote placement="bottom" marker="7">
+                     <p>Regulation (EU) No 1025/2012 of the European Parliament and of the Council of 25 October 2012 on European standardisation (OJ L 316, 14.11.2012, p. 12).</p>
+                  </authorialNote>.</p>
+            </recital>
+            <recital xml:id="rec_d597e246">
+               <num>(15)</num>
+               <p>In accordance with Article 8 of Directive 2009/125/EC, this Regulation should specify which conformity assessment procedures apply.</p>
+            </recital>
+            <recital xml:id="rec_d597e252">
+               <num>(16)</num>
+               <p>To facilitate compliance checks, manufacturers should provide the information contained in the technical documentation referred to in Annexes IV and V to Directive 2009/125/EC where that information relates to the requirements laid down in this Regulation.</p>
+            </recital>
+            <recital xml:id="rec_d597e259">
+               <num>(17)</num>
+               <p>In addition to the legally binding requirements laid down in this Regulation, benchmarks for best available techniques should be identified to make information on the lifecycle environmental performance of products subject to this Regulation widely available and easily accessible, in accordance with part 3(2) of Annex I to Directive 2009/125/EC.</p>
+            </recital>
+            <recital xml:id="rec_d597e265">
+               <num>(18)</num>
+               <p>In order to improve the effectiveness and credibility of this Regulation and to protect consumers, products that automatically alter their performance in test conditions to improve the declared parameters should be prohibited.</p>
+            </recital>
+            <recital xml:id="rec_d597e271">
+               <num>(19)</num>
+               <p>A review of this Regulation should assess the appropriateness and effectiveness of its provisions in achieving its goals. The timing of the review should allow for all provisions to be implemented and show an effect on the market.</p>
+            </recital>
+            <recital xml:id="rec_d597e278">
+               <num>(20)</num>
+               <p>In order to improve the operation of the internal market and the environmental performance of welding equipment throughout the Union, ecodesign requirements should harmonise the relevant energy consumption and resource efficiency requirements. The requirements should be revised not later than 2024 in the light of technological evolution, in order to take advantage of further possibilities of improving the equipment&apos;s performance and the operation of the internal market.</p>
+            </recital>
+            <recital xml:id="rec_d597e284">
+               <num>(21)</num>
+               <p>The measures provided for in this Regulation were discussed by the Consultation Forum referred to in Article 18 of Directive 2009/125/EC.</p>
+            </recital>
+            <recital xml:id="rec_d597e290">
+               <num>(22)</num>
+               <p>The measures provided for in this Regulation are in accordance with the opinion of the Committee established under Article 19(1) of Directive 2009/125/EC,</p>
+            </recital>
+         </recitals>
+         <formula name="enactingFormula">
+            <p>HAS ADOPTED THIS REGULATION:</p>
+         </formula>
+      </preamble>
+      <body>
+         <article xml:id="art_d597e299">
+            <num>Article 1</num>
+            <heading>Subject matter and scope</heading>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>This Regulation establishes ecodesign requirements for the placing on the market or the putting into service of electrical mains-operated welding equipment.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <subparagraph>
+                  <content>
+                     <p>This Regulation shall apply to welding equipment using one or more of the following welding and allied processes:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <content>
+                        <p>manual metal arc welding;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <content>
+                        <p>shielded metal arc welding;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(c)</num>
+                     <content>
+                        <p>self-shielded flux-cored welding;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(d)</num>
+                     <content>
+                        <p>flux cored arc welding;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(e)</num>
+                     <content>
+                        <p>metal active gas and metal inert gas welding;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(f)</num>
+                     <content>
+                        <p>tungsten inert gas welding;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(g)</num>
+                     <content>
+                        <p>plasma arc cutting.</p>
+                     </content>
+                  </point>
+               </list>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <subparagraph>
+                  <content>
+                     <p>This Regulation shall not apply to welding equipment using the following welding and allied processes:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <content>
+                        <p>submerged arc welding;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <content>
+                        <p>limited-duty arc welding;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(c)</num>
+                     <content>
+                        <p>resistance welding;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(d)</num>
+                     <content>
+                        <p>stud welding.</p>
+                     </content>
+                  </point>
+               </list>
+            </paragraph>
+         </article>
+         <article xml:id="art_d597e390">
+            <num>Article 2</num>
+            <heading>Definitions</heading>
+            <paragraph>
+               <content>
+                  <p>For the purposes of this Regulation, the following definitions shall apply:</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <subparagraph>
+                  <content>
+                     <p/>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>1.</num>
+                     <content>
+                        <p>&apos;welding equipment&apos; means products that are used for manual, automated or semi-automated welding, brazing, soldering or cutting (or all of the above) via arc welding and allied processes, and that is stationary or transportable, and consists of linked parts or components, at least one of which moves and which are joined together to produce coalescence of metals by heating them to the welding temperature (with or without the application of pressure) or by the application of pressure alone, with or without the use of filler metal, and with or without the use of shielding gas(es), using appropriate tools and techniques, resulting in a product of defined geometry;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>2.</num>
+                     <content>
+                        <p>&apos;manual metal arc welding&apos; means an arc-welding process with a coated electrode where the operator&apos;s hand controls the travel speed of the welding operation and the rate at which the electrode is fed into the electric arc;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>3.</num>
+                     <content>
+                        <p>&apos;shielded metal arc welding&apos; means an arc-welding process whereby coalescence is produced by heating with an electric arc between a covered metal electrode and the work-piece and work area. Shielding is obtained from decomposition of the electrode covering. Pressure is not used and filler metal is obtained from the electrode;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>4.</num>
+                     <content>
+                        <p>&apos;self-shielded flux-cored welding&apos; means a wire welding process in which a continuous hollow-wire electrode is fed through the welding gun into the weld joint without the need to use an external shielding gas to protect the weld pool from contamination. Instead of an external shielding gas, a flux compound within the hollow wire reacts with the welding arc to form a gas that protects the weld pool;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>5.</num>
+                     <content>
+                        <p>&apos;flux cored arc welding&apos; means a welding process that uses composite tubular filler metal electrodes consisting of a metal sheath and a core of various powdered materials, producing an extensive slag cover on the face of a weld bead. The use of external shield gas(es) may or may not be required;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>6.</num>
+                     <content>
+                        <p>&apos;metal inert gas welding&apos; means a gas metal arc welding process whereby coalescence is produced by heating with an arc between a continuous filler metal (consumable) electrode and the workpiece area. Shielding is obtained entirely from an externally supplied gas, or gas mixture, that is inert;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>7.</num>
+                     <content>
+                        <p>&apos;metal active gas welding&apos; means a gas metal arc welding process whereby coalescence is produced by heating with an arc between a continuous filler metal (consumable) electrode and the workpiece area. Shielding is obtained entirely from an externally supplied gas, or gas mixture, that is active;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>8.</num>
+                     <content>
+                        <p>&apos;tungsten inert gas welding&apos; means an arc welding process whereby coalescence is produced by heating with an arc between a single tungsten (non-consumable) electrode and the workpiece area. Shielding is obtained from a gas or gas mixture. Pressure may or may not be used and filler metal may or may not be used;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>9.</num>
+                     <content>
+                        <p>&apos;plasma arc cutting&apos; means an arc cutting process that uses a constricted arc and removes the molten metal in a high velocity jet of ionised gas (plasma gas) issuing from the constricting orifice. Plasma arc cutting is a direct-current electrode-negative process;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>10.</num>
+                     <content>
+                        <p>&apos;plasma gas&apos; (also referred to as &apos;orifice gas&apos; or &apos;cutting gas&apos;) means a gas directed into the torch to surround the electrode, which becomes ionised by the arc to form a plasma and issues from the torch nozzle as the plasma jet;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>11.</num>
+                     <content>
+                        <p>&apos;shielding gas&apos; (also referred to as &apos;secondary gas&apos;) means a gas that does not pass through the orifice of the nozzle, but instead passes around the nozzle and forms a shield around the electric arc;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>12.</num>
+                     <content>
+                        <p>&apos;submerged arc welding&apos; means an arc welding process that uses an arc or arcs exceeding 600 amperes between a bare metal electrode or electrodes and the weld pool. The arc and molten metal are shielded by a blanket of granular flux on the workpieces. No pressure is applied and the process uses filler metal from the electrode and sometimes from a supplementary source such as a welding rod, flux or metal granules;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>13.</num>
+                     <alinea>
+                        <content>
+                           <p>&apos;limited-duty arc welding&apos; means arc welding and allied processes that are not for industrial and professional applications and that:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <content>
+                              <p>use single-phase public low-voltage input;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <content>
+                              <p>if engine driven, do not exceed an output power of 7,5 kVA;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(c)</num>
+                           <content>
+                              <p>do not require arc-striking and stabilising devices, liquid cooling systems or gas consoles for operation;</p>
+                           </content>
+                        </point>
+                     </list>
+                  </point>
+                  <point>
+                     <num>14.</num>
+                     <content>
+                        <p>&apos;resistance welding&apos; means a thermo-electrical process in which heat is generated at the interface of the parts to be joined by passing an electrical current through the parts for a precisely controlled time and under a controlled pressure. No consumables such as welding rods or shielding gases are required;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>15.</num>
+                     <content>
+                        <p>&apos;stud welding&apos; means a welding process in which a metal stud or a similar part is joined (manually, in automated or in semi-automated way) to a workpiece using an arc of electricity to heat both parts;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>16.</num>
+                     <content>
+                        <p>&apos;equivalent model&apos; means a model which has the same technical characteristics relevant for the technical information to be provided, but which is placed on the market or put into service by the same manufacturer or authorised representative or importer as another model with a different model identifier;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>17.</num>
+                     <content>
+                        <p>&apos;model identifier&apos; means the code, usually alphanumeric, which distinguishes a specific product model from other models with the same trade mark or the same manufacturer&apos;s, authorised representative&apos;s or importer&apos;s name.</p>
+                     </content>
+                  </point>
+               </list>
+            </paragraph>
+         </article>
+         <article xml:id="art_d597e586">
+            <num>Article 3</num>
+            <heading>
+               <i>
+                  <b>Ecodesign requirements</b>
+               </i>
+            </heading>
+            <paragraph>
+               <content>
+                  <p>The ecodesign requirements set out in Annex II shall apply from the dates indicated therein.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d597e595">
+            <num>Article 4</num>
+            <heading>Conformity assessment</heading>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>The conformity assessment procedure referred to in Article 8 of Directive 2009/125/EC shall be the internal design control system set out in Annex IV, or the management system set out in Annex V, to that Directive.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>For the purposes of conformity assessment pursuant to Article 8 of Directive 2009/125/EC, the technical documentation file shall contain a copy of the product information provided in accordance with Annex II, points 2 and 3, and the details and results of the calculations set out in Annex III to this Regulation.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <subparagraph>
+                  <content>
+                     <p>Where the information in the technical documentation for a particular model has been obtained:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <content>
+                        <p>from a model that has the same technical characteristics relevant for the technical information to be provided but is produced by a different manufacturer;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <content>
+                        <p>by calculation on the basis of design or extrapolation from another model of the same or a different manufacturer, or both;</p>
+                     </content>
+                  </point>
+               </list>
+               <subparagraph>
+                  <content>
+                     <p>the technical documentation shall include the details of such calculation, the assessment undertaken by the manufacturer to verify the accuracy of the calculation and, where appropriate, the declaration of identity between the models of different manufacturers.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>The technical documentation shall include a list of all equivalent models, including the model identifiers.</p>
+                  </content>
+               </subparagraph>
+            </paragraph>
+         </article>
+         <article xml:id="art_d597e634">
+            <num>Article 5</num>
+            <heading>Verification procedure for market surveillance purposes</heading>
+            <paragraph>
+               <content>
+                  <p>Member States shall apply the verification procedure set out in Annex IV when performing the market surveillance checks referred to in point 2 of Article 3 of Directive 2009/125/EC.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d597e641">
+            <num>Article 6</num>
+            <heading>Circumvention and software updates</heading>
+            <paragraph>
+               <content>
+                  <p>The manufacturer, authorised representative or importer shall not place on the market products designed to be able to detect they are being tested (e.g. by recognising the test conditions or test cycle), and to react specifically by automatically altering their performance during the test with the aim of reaching a more favourable level for any of the parameters declared by the manufacturer, importer or authorised representative in the technical documentation or included in any documentation provided.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <content>
+                  <p>The energy consumption of the product and any of the other declared parameters shall not deteriorate after a software or firmware update when measured with the same test standard originally used for the declaration of conformity, except with explicit consent of the end-user prior to the update. No performance change shall occur as result of rejecting the update.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <content>
+                  <p>A software update shall never have the effect of changing the product&apos;s performance in a way that makes it non-compliant with the ecodesign requirements applicable for the declaration of conformity.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d597e652">
+            <num>Article 7</num>
+            <heading>Benchmarks</heading>
+            <paragraph>
+               <content>
+                  <p>The benchmarks for the best-performing products and techniques available on the market at the time this Regulation is adopted are set out in Annex V.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d597e659">
+            <num>Article 8</num>
+            <heading>Review</heading>
+            <paragraph>
+               <content>
+                  <p>The Commission shall review this Regulation in the light of technological progress and shall present the results of this assessment, including, if appropriate, a draft revision proposal to the Consultation Forum no later than 14 November 2024.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <content>
+                  <p>The review shall assess, in particular, whether it is appropriate to set specific ecodesign requirements with regard to the following:</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <subparagraph>
+                  <content>
+                     <p/>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <content>
+                        <p>stricter limits to power source efficiency and idle state power consumption;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <content>
+                        <p>the emissions to air associated with the use of welding equipment;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(c)</num>
+                     <content>
+                        <p>additional resource efficiency requirements for the products in accordance with the objectives of circular economy;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(d)</num>
+                     <content>
+                        <p>products using submerged arc welding, limited duty arc welding, resistance welding and stud welding processes.</p>
+                     </content>
+                  </point>
+               </list>
+            </paragraph>
+            <paragraph>
+               <content>
+                  <p>Additionally, it shall also assess whether it is appropriate to expand the scope of this Regulation to professional machine tools, and in particular set specific ecodesign requirements for machine tools with regard to minimum efficiency values in non-processing, standby and other low power modes.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d597e699">
+            <num>Article 9</num>
+            <heading>Entry into force and application</heading>
+            <paragraph>
+               <content>
+                  <p>This Regulation shall enter into force on the twentieth day following that of its publication in the <i>Official Journal of the European Union</i>.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <content>
+                  <p>This Regulation shall apply from 1 January 2021.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <content>
+                  <p>This Regulation shall be binding in its entirety and directly applicable in all Member States.</p>
+               </content>
+            </paragraph>
+         </article>
+      </body>
+      <conclusions>
+         <p>Done at Brussels, 1 October 2019.</p>
+         <block name="signatory">
+            <signature>
+               <organization refersTo="">For the Commission</organization>
+               <role refersTo="">The President</role>
+               <person refersTo="">Jean-Claude JUNCKER</person>
+            </signature>
+         </block>
+      </conclusions>
+   </bill>
+</akomaNtoso>

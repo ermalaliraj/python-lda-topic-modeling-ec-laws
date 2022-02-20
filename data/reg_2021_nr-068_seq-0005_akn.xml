@@ -1,0 +1,1281 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"
+            xmlns:fmx="http://formex.publications.europa.eu/schema/formex-05.21-20110601.xd"
+            xmlns:leos="urn:eu:europa:ec:leos"
+            xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <bill name="">
+      <meta xmlns:fn="http://www.w3.org/2005/xpath-functions">
+         <identification source="~COM">
+            <FRBRWork>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRcountry value=""/>
+            </FRBRWork>
+            <FRBRExpression>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+            </FRBRManifestation>
+         </identification>
+      </meta>
+      <preface>
+         <longTitle>
+            <p>
+               <docStage/>
+               <docType>COMMISSION REGULATION (EU) 2021/341</docType>of 23 February 2021<docPurpose>amending Regulations (EU) 2019/424, (EU) 2019/1781, (EU) 2019/2019, (EU) 2019/2020, (EU) 2019/2021, (EU) 2019/2022, (EU) 2019/2023 and (EU) 2019/2024 with regard to ecodesign requirements for servers and data storage products, electric motors and variable speed drives, refrigerating appliances, light sources and separate control gears, electronic displays, household dishwashers, household washing machines and household washer-dryers and refrigerating appliances with a direct sales function</docPurpose>
+            </p>
+         </longTitle>
+         <container name="EEArelevance">
+            <p>(Text with EEA relevance)</p>
+         </container>
+      </preface>
+      <preamble>
+         <formula name="actingEntity">
+            <p>THE EUROPEAN COMMISSION,</p>
+         </formula>
+         <citations>
+            <citation>
+               <p>Having regard to the Treaty on the Functioning of the European Union,</p>
+            </citation>
+            <citation>
+               <p>Having regard to Directive 2009/125/EC of the European Parliament and of the Council of 21 October 2009 establishing a framework for the setting of ecodesign requirements for energy-related products<authorialNote placement="bottom" marker="1">
+                     <p>OJ L 285, 31.10.2009, p. 10.</p>
+                  </authorialNote>, and in particular Article 15 thereof,</p>
+            </citation>
+         </citations>
+         <recitals xml:id="recs_d121e71">
+            <intro>
+               <p>Whereas:</p>
+            </intro>
+            <recital xml:id="rec_d121e74">
+               <num>(1)</num>
+               <p>Directive 2009/125/EC empowers the Commission to set ecodesign requirements for energy-related products.</p>
+            </recital>
+            <recital xml:id="rec_d121e80">
+               <num>(2)</num>
+               <p>Provisions on the ecodesign of servers and data storage products, electric motors and variable speed drives, refrigerating appliances, light sources and separate control gears, electronic displays, household dishwashers, household washing machines and household washer-dryers, and refrigerating appliances with a direct sales function were established by Commission Regulations (EU) 2019/424<authorialNote placement="bottom" marker="2">
+                     <p>Commission Regulation (EU) 2019/424 of 15 March 2019 laying down ecodesign requirements for servers and data storage products pursuant to Directive 2009/125/EC of the European Parliament and of the Council and amending Commission Regulation (EU) No 617/2013 (OJ L 74, 18.3.2019, p. 46).</p>
+                  </authorialNote>, (EU) 2019/1781<authorialNote placement="bottom" marker="3">
+                     <p>Commission Regulation (EU) 2019/1781 of 1 October 2019 laying down ecodesign requirements for electric motors and variable speed drives pursuant to Directive 2009/125/EC of the European Parliament and of the Council, amending Regulation (EC) No 641/2009 with regard to ecodesign requirements for glandless standalone circulators and glandless circulators integrated in products and repealing Commission Regulation (EC) No 640/2009 (OJ L 272, 25.10.2019, p. 74).</p>
+                  </authorialNote>, (EU) 2019/2019<authorialNote placement="bottom" marker="4">
+                     <p>Commission Regulation (EU) 2019/2019 of 1 October 2019 laying down ecodesign requirements for refrigerating appliances pursuant to Directive 2009/125/EC of the European Parliament and of the Council and repealing Commission Regulation (EC) No 643/2009 (OJ L 315, 5.12.2019, p. 187).</p>
+                  </authorialNote>, (EU) 2019/2020<authorialNote placement="bottom" marker="5">
+                     <p>Commission Regulation (EU) 2019/2020 of 1 October 2019 laying down ecodesign requirements for light sources and separate control gears pursuant to Directive 2009/125/EC of the European Parliament and of the Council and repealing Commission Regulations (EC) No 244/2009, (EC) No 245/2009 and (EU) No 1194/2012 (OJ L 315, 5.12.2019, p. 209).</p>
+                  </authorialNote>, (EU) 2019/2021<authorialNote placement="bottom" marker="6">
+                     <p>Commission Regulation (EU) 2019/2021 of 1 October 2019 laying down ecodesign requirements for electronic displays pursuant to Directive 2009/125/EC of the European Parliament and of the Council, amending Commission Regulation (EC) No 1275/2008 and repealing Commission Regulation (EC) No 642/2009 (OJ L 315, 5.12.2019, p. 241).</p>
+                  </authorialNote>, (EU) 2019/2022<authorialNote placement="bottom" marker="7">
+                     <p>Commission Regulation (EU) 2019/2022 of 1 October 2019 laying down ecodesign requirements for household dishwashers pursuant to Directive 2009/125/EC of the European Parliament and of the Council amending Commission Regulation (EC) No 1275/2008 and repealing Commission Regulation (EU) No 1016/2010 (OJ L 315, 5.12.2019, p. 267).</p>
+                  </authorialNote>, (EU) 2019/2023<authorialNote placement="bottom" marker="8">
+                     <p>Commission Regulation (EU) 2019/2023 of 1 October 2019 laying down ecodesign requirements for household washing machines and household washer-dryers pursuant to Directive 2009/125/EC of the European Parliament and of the Council, amending Commission Regulation (EC) No 1275/2008 and repealing Commission Regulation (EU) No 1015/2010 (OJ L 315, 5.12.2019, p. 285).</p>
+                  </authorialNote> and (EU) 2019/2024<authorialNote placement="bottom" marker="9">
+                     <p>Commission Regulation (EU) 2019/2024 of 1 October 2019 laying down ecodesign requirements for refrigerating appliances with a direct sales function pursuant to Directive 2009/125/EC of the European Parliament and of the Council (OJ L 315, 5.12.2019, p. 313).</p>
+                  </authorialNote> (thereafter the &apos;amended Regulations&apos;).</p>
+            </recital>
+            <recital xml:id="rec_d121e172">
+               <num>(3)</num>
+               <p>In order to avoid confusion for manufacturers and national market surveillance authorities about the values to be included in technical documentation, and in relation to verification tolerances, a definition of declared values should be added in the amended Regulations.</p>
+            </recital>
+            <recital xml:id="rec_d121e178">
+               <num>(4)</num>
+               <p>To improve the effectiveness and credibility of the product-specific Regulations and to protect consumers, products able to detect being tested and to automatically alter their performance in test conditions with the objective of reaching a more favourable level for any of the parameters specified in these Regulations or included in the technical documentation or included in any of the documentation provided should not be allowed to be placed on the market.</p>
+            </recital>
+            <recital xml:id="rec_d121e184">
+               <num>(5)</num>
+               <p>The relevant product parameters should be measured or calculated using reliable, accurate and reproducible methods. Those methods should take into account recognised state-of-the-art measurement methods including, where available, harmonised standards adopted by the European standardisation bodies, as listed in Annex I to Regulation (EU) No 1025/2012 of the European Parliament and of the Council<authorialNote placement="bottom" marker="10">
+                     <p>Regulation (EU) No 1025/2012 of the European Parliament and of the Council of 25 October 2012 on European standardisation, amending Council Directives 89/686/EEC and 93/15/EEC and Directives 94/9/EC, 94/25/EC, 95/16/EC, 97/23/EC, 98/34/EC, 2004/22/EC, 2007/23/EC, 2009/23/EC and 2009/105/EC of the European Parliament and of the Council and repealing Council Decision 87/95/EEC and Decision No 1673/2006/EC of the European Parliament and of the Council (OJ L 316, 14.11.2012, p. 12).</p>
+                  </authorialNote>.</p>
+            </recital>
+            <recital xml:id="rec_d121e200">
+               <num>(6)</num>
+               <p>Products containing light sources from which these light sources cannot be removed for verification without damaging one or more of them, should be tested as light sources for compliance assessment and verification.</p>
+            </recital>
+            <recital xml:id="rec_d121e206">
+               <num>(7)</num>
+               <p>For electronic displays and for servers and data storage products, harmonised standards have not yet been developed, and relevant existing standards do not cover all necessary regulated parameters, notably as regards High Dynamic Range and Auto Brightness Control for electronic displays and the operating condition class for servers and data storage products. Until the adoption of harmonised standards by the European standardisation bodies for this product group, the transitional methods set out in this Regulation or other reliable, accurate and reproducible methods, which take into account the generally recognised state-of-the-art, should be used in order to ensure the comparability of measurements and calculations.</p>
+            </recital>
+            <recital xml:id="rec_d121e212">
+               <num>(8)</num>
+               <p>Electronic displays for professional use such as video-editing, computer-aided design, graphics or for the broadcast sector, possess enhanced performance and very specific features that, although usually involving higher energy use, should not be subject to on-mode energy efficiency requirements set for more generic products. Industrial displays designed for use in harsh operating conditions for measuring, testing or process monitoring and control have specific and high requirements, such as those for minimum ingress protection (IP) level 65 as defined in EN 60529 and should not be subject to eco-design requirements set for products designed for use in commercial or domestic environments.</p>
+            </recital>
+            <recital xml:id="rec_d121e218">
+               <num>(9)</num>
+               <p>Vertical static-air cabinets with non-transparent doors are professional refrigerating appliances and are defined in Commission Regulation (EU) 2015/1095<authorialNote placement="bottom" marker="11">
+                     <p>Commission Regulation (EU) 2015/1095 of 5 May 2015 implementing Directive 2009/125/EC of the European Parliament and of the Council with regard to ecodesign requirements for professional refrigerated storage cabinets, blast cabinets, condensing units and process chillers (OJ L 177, 8.7.2015, p. 19).</p>
+                  </authorialNote>, and therefore should be excluded from Regulation (EU) 2019/2024.</p>
+            </recital>
+            <recital xml:id="rec_d121e235">
+               <num>(10)</num>
+               <p>Further amendments should be made to improve clarity and consistency amongst the Regulations.</p>
+            </recital>
+            <recital xml:id="rec_d121e241">
+               <num>(11)</num>
+               <p>The measures provided for in this Regulation were discussed by the Consultation Forum in accordance with Article 18 of Directive 2009/125/EC.</p>
+            </recital>
+            <recital xml:id="rec_d121e247">
+               <num>(12)</num>
+               <p>Regulations (EU) 2019/424, (EU) 2019/1781, (EU) 2019/2019, (EU) 2019/2020, (EU) 2019/2021, (EU) 2019/2022, (EU) 2019/2023 and (EU) 2019/2024 should therefore be amended accordingly.</p>
+            </recital>
+            <recital xml:id="rec_d121e253">
+               <num>(13)</num>
+               <p>The measures provided for in this Regulation are in accordance with the opinion of the Committee established by Article 19 of Directive 2009/125/EC,</p>
+            </recital>
+         </recitals>
+         <formula name="enactingFormula">
+            <p>HAS ADOPTED THIS REGULATION:</p>
+         </formula>
+      </preamble>
+      <body>
+         <article xml:id="art_d121e263" leos:compliant="false">
+            <num>Article 1</num>
+            <heading>Amendments to Regulation (EU) 2019/424</heading>
+            <paragraph>
+               <subparagraph>
+                  <content>
+                     <p>Regulation (EU) 2019/424 is amended as follows:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(1)</num>
+                     <alinea>
+                        <content>
+                           <p>paragraph 2 of Article 4 is replaced by the following:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <paragraph>
+                                       <num>&apos;2.</num>
+                                       <content>
+                                          <p>For the purposes of the conformity assessment pursuant to Article 8 of Directive 2009/125/EC, the technical documentation shall contain a copy of the product information provided in accordance with point 3.4 of Annex II and the details and results of the calculations set out in Annex III and, where applicable, Annex II.2 to this Regulation.&apos;;</p>
+                                       </content>
+                                    </paragraph>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(2)</num>
+                     <alinea>
+                        <content>
+                           <p>Article 6 is replaced by the following:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <article xml:id="art_d121e296">
+                                       <num>&apos;Article 6</num>
+                                       <heading>Circumvention</heading>
+                                       <paragraph>
+                                          <content>
+                                             <p>The manufacturer, importer or authorised representative shall not place on the market products designed to be able to detect they are being tested (for example by recognising the test conditions or test cycle) and to react specifically by automatically altering their performance during the test with the aim of reaching a more favourable level for any of the parameters in the technical documentation or included in any documentation provided.&apos;;</p>
+                                          </content>
+                                       </paragraph>
+                                    </article>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(3)</num>
+                     <content>
+                        <p>Annexes I, III and IV are amended and Annex IIIa is added as set out in Annex I to this Regulation.</p>
+                     </content>
+                  </point>
+               </list>
+            </paragraph>
+         </article>
+         <article xml:id="art_d121e312" leos:compliant="false">
+            <num>Article 2</num>
+            <heading>Amendments to Regulation (EU) 2019/1781</heading>
+            <paragraph>
+               <subparagraph>
+                  <content>
+                     <p>Regulation (EU) 2019/1781 is amended as follows:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(1)</num>
+                     <alinea>
+                        <content>
+                           <p>Article 2 is amended as follows:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <alinea>
+                              <content>
+                                 <p>in point (2), point (m) is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <list>
+                                             <point>
+                                                <num>&apos;(m)</num>
+                                                <content>
+                                                   <p>motors placed on the market before 1 July 2029 as substitutes for identical motors integrated in products placed on the market before 1 July 2021 for motors referred to in Annex I.1 (a), and before 1 July 2023 for motors referred to in Annex I.1 (b), and specifically marketed as such;&apos;;</p>
+                                                </content>
+                                             </point>
+                                          </list>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <alinea>
+                              <content>
+                                 <p>in point (3), point (e) is inserted:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <list>
+                                             <point>
+                                                <num>&apos;(e)</num>
+                                                <content>
+                                                   <p>VSDs consisting of a single cabinet, comprising VSDs which are all in conformity with this Regulation.&apos;;</p>
+                                                </content>
+                                             </point>
+                                          </list>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                     </list>
+                  </point>
+                  <point>
+                     <num>(2)</num>
+                     <alinea>
+                        <content>
+                           <p>Article 3 is amended as follows:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <alinea>
+                              <content>
+                                 <p>point (2) is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <list>
+                                             <point>
+                                                <num>&apos;(2)</num>
+                                                <content>
+                                                   <p>&quot;variable speed drive&quot; (&quot;VSD&quot;) means an electronic power converter that continuously adapts the electrical power supplied to a single motor to control the motor&apos;s mechanical power output according to the torque-speed characteristic of the load driven by the motor, by adjusting the power supply to a variable frequency and voltage supplied to the motor. It includes all protection devices and auxiliaries which are integrated in the VSD.&apos;;</p>
+                                                </content>
+                                             </point>
+                                          </list>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <alinea>
+                              <content>
+                                 <p>point (23) is added:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <list>
+                                             <point>
+                                                <num>&apos;(23)</num>
+                                                <content>
+                                                   <p>&quot;declared values&quot; means the values provided by the manufacturer, importer or authorised representative for the stated, calculated or measured technical parameters in accordance with Article 5, for the verification of compliance by the Member State authorities.&apos;;</p>
+                                                </content>
+                                             </point>
+                                          </list>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                     </list>
+                  </point>
+                  <point>
+                     <num>(3)</num>
+                     <alinea>
+                        <content>
+                           <p>Article 5 is amended as follows:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <alinea>
+                              <content>
+                                 <p>paragraph 2 is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <alinea>
+                                             <content>
+                                                <p>&apos;For the purposes of the conformity assessment pursuant to Article 8 of Directive 2009/125/EC, the technical documentation of motors shall contain a copy of the product information provided in accordance with point 2 of Annex I to this Regulation, and the details and results of calculations set out in Annex II to this Regulation, and where applicable Annex I.1&apos;;</p>
+                                             </content>
+                                          </alinea>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <alinea>
+                              <content>
+                                 <p>paragraph 3 is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <alinea>
+                                             <content>
+                                                <p>&apos;For the purposes of the conformity assessment pursuant to Article 8 of Directive 2009/125/EC, the technical documentation of VSDs shall contain a copy of the product information provided in accordance with point 4 of Annex I to this Regulation, and the details and results of calculations set out in Annex II to this Regulation, and where applicable Annex I.3&apos;;</p>
+                                             </content>
+                                          </alinea>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                     </list>
+                  </point>
+                  <point>
+                     <num>(4)</num>
+                     <content>
+                        <p>Annexes I, II and III are amended as set out in Annex II to this Regulation.</p>
+                     </content>
+                  </point>
+               </list>
+            </paragraph>
+         </article>
+         <article xml:id="art_d121e469" leos:compliant="false">
+            <num>Article 3</num>
+            <heading>Amendments to Regulation (EU) 2019/2019</heading>
+            <paragraph>
+               <subparagraph>
+                  <content>
+                     <p>Regulation (EU) 2019/2019 is amended as follows:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(1)</num>
+                     <alinea>
+                        <content>
+                           <p>in Article 2, point 28 is replaced by the following:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <list>
+                                       <point>
+                                          <num>&apos;28.</num>
+                                          <content>
+                                             <p>&quot;mobile refrigerating appliance&quot; means a refrigerating appliance that can be used where there is no access to the mains electricity grid and that uses extra low-voltage electricity (&lt; 120V DC) or fuel or both as the energy source for the refrigeration functionality, including a refrigerating appliance that, in addition to extra low voltage electricity or fuel, or both, can be electric mains operated via an external AC/DC converter to be purchased separately. An appliance placed on the market with an AC/DC converter is not a mobile refrigerating appliance;&apos;;</p>
+                                          </content>
+                                       </point>
+                                    </list>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(2)</num>
+                     <alinea>
+                        <content>
+                           <p>Article 6 is replaced by the following:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <article xml:id="art_d121e507">
+                                       <num>&apos;Article 6</num>
+                                       <heading>Circumvention and software updates</heading>
+                                       <paragraph>
+                                          <content>
+                                             <p>The manufacturer, importer or authorised representative shall not place on the market products designed to be able to detect they are being tested (for example by recognising the test conditions or test cycle) and to react specifically by automatically altering their performance during the test with the aim of reaching a more favourable level for any of the parameters in the technical documentation or included in any documentation provided.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <content>
+                                             <p>The energy consumption of the product and any of the other declared parameters shall not deteriorate after a software or firmware update when measured with the same test standard originally used for the declaration of conformity, except with explicit consent of the end-user prior to the update. No performance change shall occur as a result of rejecting the update.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <content>
+                                             <p>A software update shall never have the effect of changing the product&apos;s performance in a way that makes it non-compliant with the ecodesign requirements applicable for the declaration of conformity.&apos;;</p>
+                                          </content>
+                                       </paragraph>
+                                    </article>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(3)</num>
+                     <alinea>
+                        <content>
+                           <p>the following Article 11 is added:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <article xml:id="art_d121e529">
+                                       <num>&apos;Article 11</num>
+                                       <heading>Transitional compliance equivalence</heading>
+                                       <paragraph>
+                                          <content>
+                                             <p>If no unit belonging to the same model or equivalent models was placed on the market before 1 November 2020, the units of models placed on the market between 1 November 2020 and 28 February 2021 which comply with the provisions of this regulation shall be considered compliant with the requirements of Commission Regulation (EC) No 643/2009.&apos;;</p>
+                                          </content>
+                                       </paragraph>
+                                    </article>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(4)</num>
+                     <content>
+                        <p>Annexes I to IV are amended as set out in Annex III to this Regulation.</p>
+                     </content>
+                  </point>
+               </list>
+            </paragraph>
+         </article>
+         <article xml:id="art_d121e555" leos:compliant="false">
+            <num>Article 4</num>
+            <heading>Amendments to Regulation (EU) 2019/2020</heading>
+            <paragraph>
+               <subparagraph>
+                  <content>
+                     <p>Regulation (EU) 2019/2020 is amended as follows:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(1)</num>
+                     <alinea>
+                        <content>
+                           <p>in Article 2, point 4 is replaced by the following:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <list>
+                                       <point>
+                                          <num>&apos;(4)</num>
+                                          <content>
+                                             <p>&quot;containing product&quot; means a product containing one or more light sources, or separate control gears, or both, including, but not limited to, luminaires that can be taken apart to allow separate verification of the contained light source(s), household appliances containing light source(s), furniture (shelves, mirrors, display cabinets) containing light source(s).&apos;;</p>
+                                          </content>
+                                       </point>
+                                    </list>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(2)</num>
+                     <alinea>
+                        <content>
+                           <p>in Article 4(1), the second subparagraph is replaced by the following:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <alinea>
+                                       <content>
+                                          <p>&apos;Manufacturers, importers or authorised representatives of containing products shall ensure that light sources and separate control gears can be removed without being permanently damaged for verification purposes by market surveillance authorities. The technical documentation shall provide instructions on how to do this.&apos;;</p>
+                                       </content>
+                                    </alinea>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(3)</num>
+                     <alinea>
+                        <content>
+                           <p>Article 7 is replaced by the following:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <article xml:id="art_d121e606">
+                                       <num>&apos;Article 7</num>
+                                       <heading>Circumvention and software updates</heading>
+                                       <paragraph>
+                                          <content>
+                                             <p>The manufacturer, importer or authorised representative shall not place on the market products designed to be able to detect they are being tested (for example, by recognising the test conditions or test cycle) and to react specifically by automatically altering their performance during the test with the aim of reaching a more favourable level for any of the parameters in the technical documentation or included in any documentation provided.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <content>
+                                             <p>The energy consumption of the product and any of the other declared parameters shall not deteriorate after a software or firmware update when measured with the same test standard originally used for the declaration of conformity, except with explicit consent of the end-user prior to the update. No performance change shall occur as a result of rejecting the update.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <content>
+                                             <p>A software update shall never have the effect of changing the product&apos;s performance in a way that makes it non-compliant with the ecodesign requirements applicable for the declaration of conformity.&apos;;</p>
+                                          </content>
+                                       </paragraph>
+                                    </article>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(4)</num>
+                     <alinea>
+                        <content>
+                           <p>the following Article 12 is added:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <article xml:id="art_d121e628">
+                                       <num>&apos;Article 12</num>
+                                       <heading>Transitional compliance equivalence</heading>
+                                       <paragraph>
+                                          <content>
+                                             <p>If no unit belonging to the same model or equivalent models was placed on the market before 1 July 2021, the units of models placed on the market between 1 July 2021 and 31 August 2021 which comply with the provisions of this regulation shall be considered compliant with the requirements of Commission Regulations (EC) No 244/2009, (EC) No 245/2009 and (EU) No 1194/2012.&apos;;</p>
+                                          </content>
+                                       </paragraph>
+                                    </article>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(5)</num>
+                     <content>
+                        <p>Annexes I to IV are amended as set out in Annex IV to this Regulation.</p>
+                     </content>
+                  </point>
+               </list>
+            </paragraph>
+         </article>
+         <article xml:id="art_d121e653" leos:compliant="false">
+            <num>Article 5</num>
+            <heading>Amendments to Regulation (EU) 2019/2021</heading>
+            <paragraph>
+               <subparagraph>
+                  <content>
+                     <p>Regulation (EU) 2019/2021 is amended as follows:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(1)</num>
+                     <alinea>
+                        <content>
+                           <p>Article 1(2) is amended as follows:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <alinea>
+                              <content>
+                                 <p>point (g) is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <list>
+                                             <point>
+                                                <num>&apos;(g)</num>
+                                                <content>
+                                                   <p>electronic displays that are components or sub-assemblies as defined in point 2 of Article 2 of Directive 2009/125/EC;&apos;;</p>
+                                                </content>
+                                             </point>
+                                          </list>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <alinea>
+                              <content>
+                                 <p>the following point (h) is added:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <list>
+                                             <point>
+                                                <num>&apos;(h)</num>
+                                                <content>
+                                                   <p>industrial displays.&apos;;</p>
+                                                </content>
+                                             </point>
+                                          </list>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                     </list>
+                  </point>
+                  <point>
+                     <num>(2)</num>
+                     <alinea>
+                        <content>
+                           <p>Article 2 is amended as follows:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <alinea>
+                              <content>
+                                 <p>point (15) is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <list>
+                                             <point>
+                                                <num>&apos;(15)</num>
+                                                <alinea>
+                                                   <content>
+                                                      <p>&quot;professional display&quot; means an electronic display designed and marketed for professional use for editing video and graphic images. Its specification shall include all of the following features:</p>
+                                                   </content>
+                                                </alinea>
+                                                <list>
+                                                   <indent>
+                                                      <num>-</num>
+                                                      <content>
+                                                         <p>contrast ratio of at least 1000:1 measured at a perpendicular to the vertical plane of the screen and at least 60:1 measured at a horizontal viewing angle of at least 85° relative to that perpendicular and at least 83° from the perpendicular on a curved screen, with or without a screen cover glass;</p>
+                                                      </content>
+                                                   </indent>
+                                                   <indent>
+                                                      <num>-</num>
+                                                      <content>
+                                                         <p>native resolution of at least 2,3 mega pixels;</p>
+                                                      </content>
+                                                   </indent>
+                                                   <indent>
+                                                      <num>-</num>
+                                                      <content>
+                                                         <p>colour Gamut support greater or equal to 38,4 % of CIE LUV;</p>
+                                                      </content>
+                                                   </indent>
+                                                   <indent>
+                                                      <num>-</num>
+                                                      <content>
+                                                         <p>colour and luminance uniformity as specified for grade 1, 2 or 3 monitors in EBU Tech. 3320, as applicable to the professional application of the display.&apos;;</p>
+                                                      </content>
+                                                   </indent>
+                                                </list>
+                                             </point>
+                                          </list>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <alinea>
+                              <content>
+                                 <p>the following point (21) is added:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <list>
+                                             <point>
+                                                <num>&apos;(21)</num>
+                                                <alinea>
+                                                   <content>
+                                                      <p>&quot;industrial display&quot; means an electronic display exclusively designed, tested and marketed for use in industrial environments for measuring, testing, monitoring or control. Its design must provide at least all the following:</p>
+                                                   </content>
+                                                </alinea>
+                                                <list>
+                                                   <point>
+                                                      <num>(a)</num>
+                                                      <content>
+                                                         <p>operating temperatures between 0 °C and +50 °C;</p>
+                                                      </content>
+                                                   </point>
+                                                   <point>
+                                                      <num>(b)</num>
+                                                      <content>
+                                                         <p>operating humidity conditions between 20 % and 90 % non-condensing;</p>
+                                                      </content>
+                                                   </point>
+                                                   <point>
+                                                      <num>(c)</num>
+                                                      <content>
+                                                         <p>minimum level of ingress protection (IP 65) ensuring no ingress of dust and complete protection against contact (dust-tight) with no effect for water projected by a nozzle (6,3 mm) against the enclosure;</p>
+                                                      </content>
+                                                   </point>
+                                                   <point>
+                                                      <num>(d)</num>
+                                                      <content>
+                                                         <p>EMC immunity suitable for industrial environments.&apos;;</p>
+                                                      </content>
+                                                   </point>
+                                                </list>
+                                             </point>
+                                          </list>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                     </list>
+                  </point>
+                  <point>
+                     <num>(3)</num>
+                     <alinea>
+                        <content>
+                           <p>in Article 4, paragraph 2 is replaced by the following:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <paragraph>
+                                       <num>&apos;2.</num>
+                                       <content>
+                                          <p>For the purposes of conformity assessment pursuant to Article 8 of Directive 2009/125/EC, the technical documentation shall contain the reason why certain, if any, plastic parts are not marked as per the exemption set out in point D(2) of Annex II, and the details and results of the calculations set out in Annexes II and III to this Regulation.&apos;;</p>
+                                       </content>
+                                    </paragraph>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(4)</num>
+                     <alinea>
+                        <content>
+                           <p>in Article 6, the second and third paragraphs are replaced by the following:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <alinea>
+                                       <content>
+                                          <p>&apos;The energy consumption of the product and any of the other declared parameters shall not deteriorate after a software or firmware update when measured with the same test standard originally used for the declaration of conformity, except with explicit consent of the end-user prior to the update. No performance change shall occur as a result of rejecting the update.</p>
+                                       </content>
+                                    </alinea>
+                                    <alinea>
+                                       <content>
+                                          <p>A software update shall never have the effect of changing the product&apos;s performance in a way that makes it non-compliant with the ecodesign requirements applicable for the declaration of conformity.&apos;;</p>
+                                       </content>
+                                    </alinea>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(5)</num>
+                     <alinea>
+                        <content>
+                           <p>the following Article 12 is added:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <article xml:id="art_d121e836">
+                                       <num>&apos;Article 12</num>
+                                       <heading>Transitional compliance equivalence</heading>
+                                       <paragraph>
+                                          <content>
+                                             <p>If no unit belonging to the same model or equivalent models was placed on the market before 1 November 2020, the units of models placed on the market between 1 November 2020 and 28 February 2021 which comply with the provisions of this regulation shall be considered compliant with the requirements of Regulation (EC) No 642/2009.&apos;;</p>
+                                          </content>
+                                       </paragraph>
+                                    </article>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(6)</num>
+                     <content>
+                        <p>Annexes I to IV are amended and Annex IIIa is added as set out in Annex V to this Regulation.</p>
+                     </content>
+                  </point>
+               </list>
+            </paragraph>
+         </article>
+         <article xml:id="art_d121e862" leos:compliant="false">
+            <num>Article 6</num>
+            <heading>Amendments to Regulation (EU) 2019/2022</heading>
+            <paragraph>
+               <subparagraph>
+                  <content>
+                     <p>Regulation (EU) 2019/2022 is amended as follows:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(1)</num>
+                     <alinea>
+                        <content>
+                           <p>Article 6 is replaced by the following:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <article xml:id="art_d121e879">
+                                       <num>&apos;Article 6</num>
+                                       <heading>Circumvention and software updates</heading>
+                                       <paragraph>
+                                          <content>
+                                             <p>The manufacturer, importer or authorised representative shall not place on the market products designed to be able to detect they are being tested (for example by recognising the test conditions or test cycle) and to react specifically by automatically altering their performance during the test with the aim of reaching a more favourable level for any of the parameters in the technical documentation or included in any documentation provided.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <content>
+                                             <p>The energy consumption of the product and any of the other declared parameters shall not deteriorate after a software or firmware update when measured with the same test standard originally used for the declaration of conformity, except with explicit consent of the end-user prior to the update. No performance change shall occur as a result of rejecting the update.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <content>
+                                             <p>A software update shall never have the effect of changing the product&apos;s performance in a way that makes it non-compliant with the ecodesign requirements applicable for the declaration of conformity.&apos;;</p>
+                                          </content>
+                                       </paragraph>
+                                    </article>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(2)</num>
+                     <alinea>
+                        <content>
+                           <p>the following Article 13 is added:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <article xml:id="art_d121e901">
+                                       <num>&apos;Article 13</num>
+                                       <heading>Transitional compliance equivalence</heading>
+                                       <paragraph>
+                                          <content>
+                                             <p>If no unit belonging to the same model or equivalent models was placed on the market before 1 November 2020, the units of models placed on the market between 1 November 2020 and 28 February 2021 which comply with the provisions of this regulation shall be considered compliant with the requirements of Regulation (EU) No 1016/2010&apos;;</p>
+                                          </content>
+                                       </paragraph>
+                                    </article>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(3)</num>
+                     <content>
+                        <p>Annexes I, III and IV are amended as set out in Annex VI to this Regulation.</p>
+                     </content>
+                  </point>
+               </list>
+            </paragraph>
+         </article>
+         <article xml:id="art_d121e926" leos:compliant="false">
+            <num>Article 7</num>
+            <heading>Amendments to Regulation (EU) 2019/2023</heading>
+            <paragraph>
+               <subparagraph>
+                  <content>
+                     <p>Regulation (EU) 2019/2023 is amended as follows:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(1)</num>
+                     <alinea>
+                        <content>
+                           <p>in Article 2, point 12 is replaced by the following:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <list>
+                                       <point>
+                                          <num>&apos;(12)</num>
+                                          <content>
+                                             <p>&quot;eco 40-60&quot; means the name of the programme declared by the manufacturer, importer or authorised representative as able to clean normally soiled cotton laundry declared to be washable at 40 °C or 60 °C, together in the same washing cycle, and to which the ecodesign requirements on energy efficiency, washing efficiency, rinsing effectiveness, programme duration, maximum temperature inside the laundry and water consumption relate.&apos;;</p>
+                                          </content>
+                                       </point>
+                                    </list>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(2)</num>
+                     <alinea>
+                        <content>
+                           <p>Article 6 is replaced by the following:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <article xml:id="art_d121e964">
+                                       <num>&apos;Article 6</num>
+                                       <heading>Circumvention and software updates</heading>
+                                       <paragraph>
+                                          <content>
+                                             <p>The manufacturer, importer or authorised representative shall not place on the market products designed to be able to detect they are being tested (for example by recognising the test conditions or test cycle) and to react specifically by automatically altering their performance during the test with the aim of reaching a more favourable level for any of the parameters in the technical documentation or included in any documentation provided.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <content>
+                                             <p>The energy consumption of the product and any of the other declared parameters shall not deteriorate after a software or firmware update when measured with the same test standard originally used for the declaration of conformity, except with explicit consent of the end-user prior to the update. No performance change shall occur as a result of rejecting the update.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <content>
+                                             <p>A software update shall never have the effect of changing the product&apos;s performance in a way that makes it non-compliant with the ecodesign requirements applicable for the declaration of conformity.&apos;;</p>
+                                          </content>
+                                       </paragraph>
+                                    </article>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(3)</num>
+                     <alinea>
+                        <content>
+                           <p>the following Article 13 is added:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <article xml:id="art_d121e987">
+                                       <num>&apos;Article 13</num>
+                                       <heading>Transitional compliance equivalence</heading>
+                                       <paragraph>
+                                          <content>
+                                             <p>If no unit belonging to the same model or equivalent models was placed on the market before 1 November 2020, the units of models placed on the market between 1 November 2020 and 28 February 2021 which comply with the provisions of this regulation shall be considered compliant with the requirements of Regulation (EU) No 1015/2010.&apos;;</p>
+                                          </content>
+                                       </paragraph>
+                                    </article>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(4)</num>
+                     <content>
+                        <p>Annexes I, III, IV and VI are amended as set out in Annex VII to this Regulation.</p>
+                     </content>
+                  </point>
+               </list>
+            </paragraph>
+         </article>
+         <article xml:id="art_d121e1012" leos:compliant="false">
+            <num>Article 8</num>
+            <heading>Amendments to Regulation (EU) 2019/2024</heading>
+            <paragraph>
+               <subparagraph>
+                  <content>
+                     <p>Regulation (EU) 2019/2024 is amended as follows:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(1)</num>
+                     <alinea>
+                        <content>
+                           <p>in Article 1(3), point (e) is replaced by the following:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <list>
+                                       <point>
+                                          <num>&apos;(e)</num>
+                                          <content>
+                                             <p>corner/curved and carousel cabinets;&apos;;</p>
+                                          </content>
+                                       </point>
+                                    </list>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(2)</num>
+                     <alinea>
+                        <content>
+                           <p>Article 2, is amended as follows:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <alinea>
+                              <content>
+                                 <p>point 21 is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <list>
+                                             <point>
+                                                <num>&apos;21.</num>
+                                                <content>
+                                                   <p>&quot;corner/curved cabinet&quot; means a refrigerating appliance with a direct sales function used to achieve geometrical continuity between two linear cabinets that are at an angle to each other and/or that form a curve. A corner/curved cabinet does not have a recognisable longitudinal axis or length since it consists only of a filling shape (wedge or similar) and is not designed to function as a stand-alone refrigerated unit. The two ends of the corner/curved cabinet are inclined at an angle between 30 ° and 90 °;&apos;;</p>
+                                                </content>
+                                             </point>
+                                          </list>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <alinea>
+                              <content>
+                                 <p>point 29 is added:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <list>
+                                             <point>
+                                                <num>&apos;29.</num>
+                                                <content>
+                                                   <p>&quot;carousel cabinet&quot; means a round/circular shape supermarket cabinet which can be installed as a standalone unit or as a unit connecting two linear supermarket cabinets. Carousel cabinets can also be equipped with a turning system which makes visible the display of foodstuff at 360 °;&apos;;</p>
+                                                </content>
+                                             </point>
+                                          </list>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(c)</num>
+                           <alinea>
+                              <content>
+                                 <p>point 30 is added:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <list>
+                                             <point>
+                                                <num>&apos;30.</num>
+                                                <content>
+                                                   <p>&quot;supermarket cabinet&quot; means a refrigerating appliance with a direct sales function intended for the sale and display of foodstuffs and other items in retail applications, such as in supermarkets. Beverage coolers, refrigerated vending machines, gelato-scooping cabinets and ice-cream freezers are not considered supermarket cabinets.&apos;;</p>
+                                                </content>
+                                             </point>
+                                          </list>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                     </list>
+                  </point>
+                  <point>
+                     <num>(3)</num>
+                     <content>
+                        <p>Annexes I, III and IV are amended as set out in Annex VIII to this Regulation.</p>
+                     </content>
+                  </point>
+               </list>
+            </paragraph>
+         </article>
+         <article xml:id="art_d121e1116">
+            <num>Article 9</num>
+            <heading>Entry into force and application</heading>
+            <paragraph>
+               <content>
+                  <p>This Regulation shall enter into force on the third day following that of its publication in the <i>Official Journal of the European Union</i>.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <content>
+                  <p>Article 1(3), Article 3(4), Article 5(6), Article 6(3), Article 7(4) and Article 8(3) shall apply from 1 May 2021. Article 2 and Article 4(4) shall apply from 1 July 2021. Article 4(1), (2) and (5) shall apply from 1 September 2021.</p>
+               </content>
+            </paragraph>
+         </article>
+         <clause>
+            <content>
+               <p>This Regulation shall be binding in its entirety and directly applicable in all Member States.</p>
+            </content>
+         </clause>
+      </body>
+      <conclusions>
+         <p>Done at Brussels, 23 February 2021.</p>
+         <block name="signatory">
+            <signature>
+               <organization refersTo="">For the Commission</organization>
+               <role refersTo="">The President</role>
+               <person refersTo="">Ursula VON DER LEYEN</person>
+            </signature>
+         </block>
+      </conclusions>
+   </bill>
+</akomaNtoso>

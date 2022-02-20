@@ -1,0 +1,482 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"
+            xmlns:fmx="http://formex.publications.europa.eu/schema/formex-05.21-20110601.xd"
+            xmlns:leos="urn:eu:europa:ec:leos"
+            xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <bill name="">
+      <meta xmlns:fn="http://www.w3.org/2005/xpath-functions">
+         <identification source="~COM">
+            <FRBRWork>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRcountry value=""/>
+            </FRBRWork>
+            <FRBRExpression>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+            </FRBRManifestation>
+         </identification>
+      </meta>
+      <preface>
+         <longTitle>
+            <p>
+               <docStage/>
+               <docType>REGULATION (EU) 2019/113 OF THE EUROPEAN CENTRAL BANK</docType>of 7 December 2018<docPurpose>amending Regulation (EU) No 1333/2014 concerning statistics on the money markets (ECB/2018/33)</docPurpose>
+            </p>
+         </longTitle>
+      </preface>
+      <preamble>
+         <formula name="actingEntity">
+            <p>THE GOVERNING COUNCIL OF THE EUROPEAN CENTRAL BANK,</p>
+         </formula>
+         <citations>
+            <citation>
+               <p>Having regard to the Treaty on the Functioning of the European Union,</p>
+            </citation>
+            <citation>
+               <p>Having regard to the Statute of the European System of Central Banks and of the European Central Bank, and in particular Article 5 thereof,</p>
+            </citation>
+            <citation>
+               <p>Having regard to Council Regulation (EC) No 2533/98 of 23 November 1998 concerning the collection of statistical information by the European Central Bank<authorialNote placement="bottom" marker="1">
+                     <p>OJ L 318, 27.11.1998, p. 8.</p>
+                  </authorialNote>, and in particular Articles 5(1) and 6(4) thereof,</p>
+            </citation>
+            <citation>
+               <p>After consulting the European Commission,</p>
+            </citation>
+         </citations>
+         <recitals xml:id="recs_d668e80">
+            <intro>
+               <p>Whereas:</p>
+            </intro>
+            <recital xml:id="rec_d668e83">
+               <num>(1)</num>
+               <p>Regulation (EU) No 1333/2014 of the European Central Bank (ECB/2014/48)<authorialNote placement="bottom" marker="2">
+                     <p>Regulation (EU) No 1333/2014 of the European Central Bank of 26 November 2014 concerning statistics on the money markets (ECB/2014/48) (OJ L 359, 16.12.2014, p. 97).</p>
+                  </authorialNote> requires the reporting of statistical data by reporting agents in order that the European System of Central Banks (ESCB), in the fulfilment of its tasks, may produce statistics on the euro money market.</p>
+            </recital>
+            <recital xml:id="rec_d668e99">
+               <num>(2)</num>
+               <p>To ensure the availability of high quality statistics on the euro money market, it is necessary to amend certain provisions of Regulation (EU) No 1333/2014 (ECB/2014/48). In particular, it is important to ensure that each reporting agent reports to the European Central Bank (ECB) or the relevant national central bank (NCB) all transactions entered into between the reporting agent and financial corporations (except central banks where the transaction is not for investment purposes), as well as general government and certain non-financial corporations. In addition, it is necessary to ensure that the data collection benefits from the extended mandatory use of the Legal Entity Identifier (LEI) in reporting in the Union.</p>
+            </recital>
+            <recital xml:id="rec_d668e105">
+               <num>(3)</num>
+               <p>Given the importance of ensuring the availability of timely statistics on the euro money market, it is also necessary to harmonise and strengthen the obligations of reporting agents to transmit information to NCBs or the ECB in a timely manner.</p>
+            </recital>
+            <recital xml:id="rec_d668e111">
+               <num>(4)</num>
+               <p>Precautions should be taken to ensure that statistical information is collected, compiled and transmitted by reporting agents in a manner which protects the integrity of the information. In particular, it is important to emphasise that statistical information received by the NCBs or the ECB should be impartial, i.e. a neutral representation of observable transactions entered into at arm&apos;s-length by the reporting agent, objective and reliable, in order to conform with the general principles in the ESCB&apos;s Public commitment on European Statistics<authorialNote placement="bottom" marker="3">
+                     <p>Available on the ECB&apos;s website at www.ecb.europa.eu</p>
+                  </authorialNote>. Moreover, reporting agents should ensure that any errors in reported statistical information are corrected and communicated to the ECB and the relevant NCB at the earliest possible date.</p>
+            </recital>
+            <recital xml:id="rec_d668e121">
+               <num>(5)</num>
+               <p>Implementation of these provisions will ensure that the ESCB has more timely, comprehensive, detailed, harmonised and reliable statistical information on the euro money market, which will allow for a more in-depth analysis of the monetary policy transmission mechanism. In addition, the data collected may be used for the development and administration of a euro unsecured overnight interest rate.</p>
+            </recital>
+            <recital xml:id="rec_d668e127">
+               <num>(6)</num>
+               <p>Therefore, Regulation (EU) No 1333/2014 (ECB/2014/48) should be amended accordingly,</p>
+            </recital>
+         </recitals>
+         <formula name="enactingFormula">
+            <p>HAS ADOPTED THIS REGULATION:</p>
+         </formula>
+      </preamble>
+      <body>
+         <article xml:id="art_d668e137" leos:compliant="false">
+            <num>Article 1</num>
+            <heading>Amendments</heading>
+            <paragraph>
+               <subparagraph>
+                  <content>
+                     <p>Regulation (EU) No 1333/2014 (ECB/2014/48) is amended as follows:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>1.</num>
+                     <alinea>
+                        <content>
+                           <p>Article 1 is amended as follows:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <alinea>
+                              <content>
+                                 <p>The following point (5a) is inserted:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <list>
+                                             <num>&apos;(5a)</num>
+                                             <content>
+                                                <p>&quot;financial corporations&quot; means institutional units which are independent legal entities and market producers, and whose principal activity is the production of financial services as set out in the revised European System of Accounts (ESA 2010) laid down by Regulation (EU) No 549/2013 of the European Parliament and of the Council<authorialNote placement="bottom" marker="4">
+                                                      <p>Regulation (EU) No 549/2013 of the European Parliament and of the Council of 21 May 2013 on the European system of national and regional accounts in the European Union (OJ L 174, 26.6.2013, p. 1).&apos;;</p>
+                                                   </authorialNote>;</p>
+                                             </content>
+                                          </list>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <content>
+                              <p>points (3) to (5) are deleted;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(c)</num>
+                           <alinea>
+                              <content>
+                                 <p>point (9) is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <list>
+                                             <point>
+                                                <num>&apos;(9)</num>
+                                                <content>
+                                                   <p>&quot;money market statistics&quot; means statistics relating to secured, unsecured and derivatives transactions in money market instruments concluded in the relevant reporting period between reporting agents and financial corporations (except central banks where the transaction is not for investment purposes), general government, or non-financial corporations classified as &quot;wholesale&quot; according to the Basel III LCR Framework, but excluding intra-group transactions&apos;;</p>
+                                                </content>
+                                             </point>
+                                          </list>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(d)</num>
+                           <alinea>
+                              <content>
+                                 <p>point (14) is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <list>
+                                             <point>
+                                                <num>&apos;(14)</num>
+                                                <content>
+                                                   <p>&quot;reference reporting population&quot; means euro area resident MFIs, except central banks and MMFs, which take euro-denominated deposits and/or issue any other debt instrument and/or grant euro-denominated loans as listed in Annexes I, II or III from/to other financial corporations, general government or non-financial corporations.&apos;;</p>
+                                                </content>
+                                             </point>
+                                          </list>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(e)</num>
+                           <alinea>
+                              <content>
+                                 <p>the following point (20a) is inserted:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <list>
+                                             <num>&apos;(20a)</num>
+                                             <content>
+                                                <p>&quot;credit institution&quot; has the same meaning as defined in point (1) of Article 4(1) of Regulation (EU) No 575/2013 of the European Parliament and of the Council<authorialNote placement="bottom" marker="5">
+                                                      <p>Regulation (EU) No 575/2013 of the European Parliament and of the Council of 26 June 2013 on prudential requirements for credit institutions and investment firms and amending Regulation (EU) No 648/2012 (OJ L 176, 27.6.2013, p. 1).&apos;;</p>
+                                                   </authorialNote>;</p>
+                                             </content>
+                                          </list>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(f)</num>
+                           <alinea>
+                              <content>
+                                 <p>point (25) is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <list>
+                                             <point>
+                                                <num>&apos;(25)</num>
+                                                <content>
+                                                   <p>&quot;overnight index swap&quot; or &quot;OIS&quot; means an interest rate swap where the periodic floating interest rate is equal to the geometric average of an overnight rate (or overnight index rate) over a specified term. The final payment will be calculated as the difference between the fixed interest rate and the compounded overnight rate recorded over the life of the OIS applied to the transaction nominal amount&apos;;</p>
+                                                </content>
+                                             </point>
+                                          </list>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                     </list>
+                  </point>
+                  <point>
+                     <num>2.</num>
+                     <alinea>
+                        <content>
+                           <p>Article 3 is amended as follows:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <alinea>
+                              <content>
+                                 <p>paragraph 1 is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <paragraph>
+                                             <num>&apos;1.</num>
+                                             <content>
+                                                <p>For the purposes of the regular production of money market statistics, the reporting agents shall report to the NCB of the Member State where they are resident on a consolidated basis, including for all their Union and EFTA branches, daily statistical information relating to money market instruments. The required statistical information is specified in Annexes I, II and III. The reporting agents shall report the required statistical information in accordance with the minimum standards for transmission, accuracy, compliance with concepts, revisions and data integrity set out in Annex IV. The NCB shall transmit the statistical information it receives from the reporting agents to the ECB in accordance with Article 4(2) of this Regulation.&apos;;</p>
+                                             </content>
+                                          </paragraph>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <alinea>
+                              <content>
+                                 <p>paragraph 2 is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <paragraph>
+                                             <num>&apos;2.</num>
+                                             <content>
+                                                <p>The NCBs shall define and implement the reporting arrangements to be followed by the reporting agents relating to money market instruments. These reporting arrangements shall ensure the provision of the statistical information required and allow accurate checking of the fulfilment of the minimum standards set out in Annex IV.&apos;;</p>
+                                             </content>
+                                          </paragraph>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(c)</num>
+                           <alinea>
+                              <content>
+                                 <p>paragraph 5 is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <paragraph>
+                                             <num>&apos;5.</num>
+                                             <content>
+                                                <p>The NCBs shall define and implement the reporting arrangements to be followed by additional reporting agents in accordance with their national statistical reporting requirements. The NCBs shall ensure that the national reporting arrangements require additional reporting agents to comply with requirements that are equivalent to Articles 6 to 8, 10(3), 11 and 12 of this Regulation. The NCBs shall ensure that these reporting arrangements provide the statistical information required and allow accurate checking of the fulfilment of the minimum standards set out in in Annex IV.&apos;;</p>
+                                             </content>
+                                          </paragraph>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                     </list>
+                  </point>
+                  <point>
+                     <num>3.</num>
+                     <alinea>
+                        <content>
+                           <p>Article 4 is amended as follows:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <alinea>
+                              <content>
+                                 <p>paragraph 1 is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <paragraph>
+                                             <num>&apos;1.</num>
+                                             <content>
+                                                <p>In the event that an NCB decides pursuant to Article 3(3) that reporting agents shall report the statistical information specified in Annexes I, II and III directly to the ECB, the reporting agents shall transmit such information to the ECB once per day between 6 p.m. on the trade date and 7 a.m. Central European Time (CET)<authorialNote placement="bottom" marker="6">
+                                                      <p>CET takes account of the change to Central European Summer Time.&apos;;</p>
+                                                   </authorialNote> on the first TARGET2 settlement day after the trade date.</p>
+                                             </content>
+                                          </paragraph>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <alinea>
+                              <content>
+                                 <p>paragraph 2 is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <paragraph>
+                                             <num>&apos;2.</num>
+                                             <content>
+                                                <p>In any case other than that in paragraph 1, the NCBs shall transmit the daily money market statistical information, as specified in Annexes I, II and III that they receive from reporting agents selected pursuant to Article 2(2), (3) and (4), or from additional reporting agents selected pursuant to Article 2(6), to the ECB once per day before 7 a.m. CET on the first TARGET2 settlement day after the trade date.&apos;;</p>
+                                             </content>
+                                          </paragraph>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(c)</num>
+                           <alinea>
+                              <content>
+                                 <p>the following paragraph 5 is added:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <paragraph>
+                                             <num>&apos;5.</num>
+                                             <content>
+                                                <p>In assessing whether a reporting agent has met the requirements under this Article, the infringement of either of the minimum standards for transmission set out in paragraph 1 (i) to (ii) of Annex IV shall constitute a case of non-compliance of the same type of reporting requirement for the purposes of establishing non-compliance in the ECB&apos;s statistical non-compliance framework.&apos;;</p>
+                                             </content>
+                                          </paragraph>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                     </list>
+                  </point>
+                  <point>
+                     <num>4.</num>
+                     <content>
+                        <p>Article 5 is deleted;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>5.</num>
+                     <content>
+                        <p>Annex I to Regulation (EU) No 1333/2014 (ECB/2014/48) is replaced by the text set out in Annex I to this Regulation;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>6.</num>
+                     <content>
+                        <p>Annex II to Regulation (EU) No 1333/2014 (ECB/2014/48) is replaced by the text set out in Annex II to this Regulation;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>7.</num>
+                     <content>
+                        <p>Annex III to Regulation (EU) No 1333/2014 (ECB/2014/48) is replaced by the text set out in Annex III to this Regulation;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>8.</num>
+                     <content>
+                        <p>Annex IV to Regulation (EU) No 1333/2014 (ECB/2014/48) is replaced by the text set out in Annex IV to this Regulation.</p>
+                     </content>
+                  </point>
+               </list>
+            </paragraph>
+         </article>
+         <article xml:id="art_d668e440">
+            <num>Article 2</num>
+            <heading>Final provisions</heading>
+            <paragraph>
+               <content>
+                  <p>This Regulation shall enter into force on the twentieth day following that of its publication in the <i>Official Journal of the European Union</i>.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <content>
+                  <p>It shall apply from 15 March 2019.</p>
+               </content>
+            </paragraph>
+         </article>
+         <clause>
+            <content>
+               <p>This Regulation shall be binding in its entirety and directly applicable in the Member States in accordance with the Treaties.</p>
+            </content>
+         </clause>
+      </body>
+      <conclusions>
+         <p>Done at Frankfurt am Main, 7 December 2018.</p>
+         <block name="signatory">
+            <signature>
+               <organization refersTo="">For the Governing Council of the ECB</organization>
+               <role refersTo="">The President of the ECB</role>
+               <person refersTo="">Mario DRAGHI</person>
+            </signature>
+         </block>
+      </conclusions>
+   </bill>
+</akomaNtoso>

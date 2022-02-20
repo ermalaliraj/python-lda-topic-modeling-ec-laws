@@ -1,0 +1,2605 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"
+            xmlns:fmx="http://formex.publications.europa.eu/schema/formex-05.21-20110601.xd"
+            xmlns:leos="urn:eu:europa:ec:leos"
+            xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <bill name="">
+      <meta xmlns:fn="http://www.w3.org/2005/xpath-functions">
+         <identification source="~COM">
+            <FRBRWork>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRcountry value=""/>
+            </FRBRWork>
+            <FRBRExpression>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+            </FRBRManifestation>
+         </identification>
+      </meta>
+      <preface>
+         <longTitle>
+            <p>
+               <docStage/>
+               <docType>REGULATION (EU) 2016/1627 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL</docType>of 14 September 2016<docPurpose>on a multiannual recovery plan for bluefin tuna in the eastern Atlantic and the Mediterranean, and repealing Council Regulation (EC) No 302/2009</docPurpose>
+            </p>
+         </longTitle>
+      </preface>
+      <preamble>
+         <formula name="actingEntity">
+            <p>THE EUROPEAN PARLIAMENT AND THE COUNCIL OF THE EUROPEAN UNION,</p>
+         </formula>
+         <citations>
+            <citation>
+               <p>Having regard to the Treaty on the Functioning of the European Union, and in particular Article 43(2) thereof,</p>
+            </citation>
+            <citation>
+               <p>Having regard to the proposal from the European Commission,</p>
+            </citation>
+            <citation>
+               <p>After transmission of the draft legislative act to the national parliaments,</p>
+            </citation>
+            <citation>
+               <p>Having regard to the opinion of the European Economic and Social Committee<authorialNote placement="bottom" marker="1">
+                     <p>OJ C 383, 17.11.2015, p. 100.</p>
+                  </authorialNote>,</p>
+            </citation>
+            <citation>
+               <p>Acting in accordance with the ordinary legislative procedure<authorialNote placement="bottom" marker="2">
+                     <p>Position of the European Parliament of 23 June 2016 (not yet published in the Official Journal) and decision of the Council of 18 July 2016.</p>
+                  </authorialNote>,</p>
+            </citation>
+         </citations>
+         <recitals xml:id="recs_d23e83">
+            <intro>
+               <p>Whereas:</p>
+            </intro>
+            <recital xml:id="rec_d23e86">
+               <num>(1)</num>
+               <p>The objective of the common fisheries policy (CFP), as set out in Regulation (EU) No 1380/2013 of the European Parliament and of the Council<authorialNote placement="bottom" marker="3">
+                     <p>Regulation (EU) No 1380/2013 of the European Parliament and of the Council of 11 December 2013 on the Common Fisheries Policy, amending Council Regulations (EC) No 1954/2003 and (EC) No 1224/2009 and repealing Council Regulations (EC) No 2371/2002 and (EC) No 639/2004 and Council Decision 2004/585/EC (OJ L 354, 28.12.2013, p. 22).</p>
+                  </authorialNote>, is to ensure an exploitation of living aquatic resources that provides sustainable economic, environmental and social conditions.</p>
+            </recital>
+            <recital xml:id="rec_d23e102">
+               <num>(2)</num>
+               <p>The Union is Party to the International Convention for the Conservation of Atlantic Tunas<authorialNote placement="bottom" marker="4">
+                     <p>International Convention for the Conservation of Atlantic Tunas (OJ L 162, 18.6.1986, p. 34).</p>
+                  </authorialNote> (&apos;the Convention&apos;).</p>
+            </recital>
+            <recital xml:id="rec_d23e119">
+               <num>(3)</num>
+               <p>At its 15th special meeting in 2006, the International Commission for the Conservation of Atlantic Tunas (&apos;ICCAT&apos;), established by the Convention, adopted Recommendation 06-05 establishing a multiannual recovery plan for bluefin tuna in the eastern Atlantic and Mediterranean ending in 2022 (&apos;the recovery plan&apos;). That Recommendation entered into force on 13 June 2007.</p>
+            </recital>
+            <recital xml:id="rec_d23e136">
+               <num>(4)</num>
+               <p>The recovery plan takes into account the specificities of the different types of gear and fishing techniques. When implementing the recovery plan, the Union and Member States should endeavour to promote coastal fishing activities and the use of fishing gear and techniques which are selective and have a reduced environmental impact, including gear and techniques used in traditional and artisanal fisheries, thereby contributing to a fair standard of living for local economies.</p>
+            </recital>
+            <recital xml:id="rec_d23e143">
+               <num>(5)</num>
+               <p>ICCAT Recommendation 06-05 was implemented into Union law by Council Regulation (EC) No 1559/2007<authorialNote placement="bottom" marker="5">
+                     <p>Council Regulation (EC) No 1559/2007 of 17 December 2007 establishing a multi-annual recovery plan for bluefin tuna in the Eastern Atlantic and Mediterranean and amending Regulation (EC) No 520/2007 (OJ L 340, 22.12.2007, p. 8).</p>
+                  </authorialNote>.</p>
+            </recital>
+            <recital xml:id="rec_d23e159">
+               <num>(6)</num>
+               <p>At its 16th special meeting in 2008, ICCAT adopted Recommendation 08-05 amending Recommendation 06-05. In order to rebuild the stock of bluefin tuna, Recommendation 08-05 provided for a gradual reduction in the total allowable catch level from 2007 to 2011, restrictions on fishing within certain areas and time periods, a new minimum size for bluefin tuna, measures concerning sport and recreational fishing activities, farming and fishing capacity measures, as well as reinforcing the ICCAT Scheme of Joint International Inspection.</p>
+            </recital>
+            <recital xml:id="rec_d23e165">
+               <num>(7)</num>
+               <p>ICCAT Recommendation 08-05 was implemented into Union law by Council Regulation (EC) No 302/2009<authorialNote placement="bottom" marker="6">
+                     <p>Council Regulation (EC) No 302/2009 of 6 April 2009 concerning a multiannual recovery plan for bluefin tuna in the eastern Atlantic and Mediterranean, amending Regulation (EC) No 43/2009 and repealing Regulation (EC) No 1559/2007 (OJ L 96, 15.4.2009, p. 1).</p>
+                  </authorialNote>.</p>
+            </recital>
+            <recital xml:id="rec_d23e181">
+               <num>(8)</num>
+               <p>At its 17th special meeting in 2010, ICCAT adopted Recommendation 10-04 amending Recommendation 08-05. In order to rebuild the stock of bluefin tuna, Recommendation 10-04 established a further reduction of the total allowable catch and the fishing capacity and it reinforced the control measures, in particular those concerning transfer and caging operations. It also provided for additional advice by the Standing Committee on Research and Statistics of ICCAT (&apos;SCRS&apos;) in 2012 on the identification of spawning grounds and on the creation of sanctuaries.</p>
+            </recital>
+            <recital xml:id="rec_d23e191">
+               <num>(9)</num>
+               <p>In order to implement the revised international conservation measures set out in Recommendation 10-04 into Union law, Regulation (EC) No 302/2009 was amended by Regulation (EU) No 500/2012 of the European Parliament and of the Council<authorialNote placement="bottom" marker="7">
+                     <p>Regulation (EU) No 500/2012 of the European Parliament and of the Council of 13 June 2012 amending Council Regulation (EC) No 302/2009 concerning a multiannual recovery plan for bluefin tuna in the eastern Atlantic and Mediterranean (OJ L 157, 16.6.2012, p. 1).</p>
+                  </authorialNote>.</p>
+            </recital>
+            <recital xml:id="rec_d23e208">
+               <num>(10)</num>
+               <p>At its 18th special meeting in 2012, ICCAT adopted Recommendation 12-03 amending Recommendation 10-04. In order to strengthen the effectiveness of the recovery plan, Recommendation 12-03 set up technical measures concerning the transfer and caging operations of live bluefin tuna, new catch reporting requirements, the implementation of the ICCAT regional observer programme and changes of the fishing seasons. Furthermore, it reinforced the role of the SCRS with regard to the assessment of bluefin tuna stock.</p>
+            </recital>
+            <recital xml:id="rec_d23e214">
+               <num>(11)</num>
+               <p>At its 23rd regular meeting in 2013, ICCAT adopted Recommendation 13-07 amending Recommendation 12-03 by introducing small changes on fishing seasons which do not affect the Union fleet. Furthermore, Recommendation 13-08 was adopted which complements the recovery plan. Recommendation 13-08 set up a common procedure for the use of stereoscopical camera systems to estimate the quantities of bluefin tuna at the point of caging and introduced a flexible starting date for the fishing season of baitboats and trolling boats in the eastern Atlantic.</p>
+            </recital>
+            <recital xml:id="rec_d23e220">
+               <num>(12)</num>
+               <p>In order to implement essential measures, such as those on fishing seasons, of Recommendations 12-03 and 13-08 into Union law, Regulation (EC) No 302/2009 was further amended by Regulation (EU) No 544/2014 of the European Parliament and of the Council<authorialNote placement="bottom" marker="8">
+                     <p>Regulation (EU) No 544/2014 of the European Parliament and of the Council of 15 May 2014 amending Council Regulation (EC) No 302/2009 concerning a multiannual recovery plan for Bluefin tuna in the eastern Atlantic and Mediterranean (OJ L 163, 29.5.2014, p. 7).</p>
+                  </authorialNote>.</p>
+            </recital>
+            <recital xml:id="rec_d23e236">
+               <num>(13)</num>
+               <p>At its 19th special meeting in 2014, ICCAT adopted Recommendation 14-04 amending Recommendation 13-07 and repealing Recommendation 13-08. Whilst some of the existing control provisions were rationalised, the procedures for the use of stereoscopic camera at the point of caging were further specified and measures specific to release operations and the treatment of dead fish were introduced in the recovery plan.</p>
+            </recital>
+            <recital xml:id="rec_d23e242">
+               <num>(14)</num>
+               <p>Recommendation 14-04 is binding on the Union.</p>
+            </recital>
+            <recital xml:id="rec_d23e248">
+               <num>(15)</num>
+               <p>All the amendments to the recovery plan adopted by ICCAT in 2012, 2013 and 2014, which have not yet been subject to implementation, should be implemented into Union law. As that implementation concerns the recovery plan whose objectives and measures were defined by ICCAT, this Regulation does not cover all the content of multiannual plans as set out in Articles 9 and 10 of Regulation (EU) No 1380/2013.</p>
+            </recital>
+            <recital xml:id="rec_d23e255">
+               <num>(16)</num>
+               <p>Regulation (EU) No 1380/2013 establishes the concept of minimum conservation reference sizes. In order to ensure consistency, the ICCAT concept of minimum sizes should be transposed into Union law as minimum conservation reference sizes. Consequently, the references in Commission Delegated Regulation (EU) 2015/98<authorialNote placement="bottom" marker="9">
+                     <p>Commission Delegated Regulation (EU) 2015/98 of 18 November 2014 on the implementation of the Union&apos;s international obligations, as referred to in Article 15(2) of Regulation (EU) No 1380/2013 of the European Parliament and of the Council, under the International Convention for the Conservation of Atlantic Tunas and the Convention on Future Multilateral Cooperation in the Northwest Atlantic Fisheries (OJ L 16, 23.1.2015, p. 23).</p>
+                  </authorialNote> to minimum sizes of bluefin tuna should be read as references to minimum conservation reference sizes in this Regulation.</p>
+            </recital>
+            <recital xml:id="rec_d23e271">
+               <num>(17)</num>
+               <p>In order to ensure uniform conditions for the implementation of the provisions of this Regulation relating to transfer operations, caging operations and recording and reporting of trap and vessel activities, implementing powers should be conferred on the Commission. Those powers should be exercised in accordance with Regulation (EU) No 182/2011 of the European Parliament and of the Council<authorialNote placement="bottom" marker="10">
+                     <p>Regulation (EU) No 182/2011 of the European Parliament and of the Council of 16 February 2011 laying down the rules and general principles concerning mechanisms for control by Member States of the Commission&apos;s exercise of implementing powers (OJ L 55, 28.2.2011, p. 13).</p>
+                  </authorialNote>.</p>
+            </recital>
+            <recital xml:id="rec_d23e287">
+               <num>(18)</num>
+               <p>Certain provisions of Regulation (EC) No 302/2009 have become obsolete, in particular since they are now covered by other Union acts. Other provisions should be updated in order to reflect changes in legislation, in particular those resulting from the adoption of Regulation (EU) No 1380/2013.</p>
+            </recital>
+            <recital xml:id="rec_d23e293">
+               <num>(19)</num>
+               <p>In particular, Council Regulation (EC) No 1224/2009<authorialNote placement="bottom" marker="11">
+                     <p>Council Regulation (EC) No 1224/2009 of 20 November 2009 establishing a Union control system for ensuring compliance with the rules of the common fisheries policy, amending Regulations (EC) No 847/96, (EC) No 2371/2002, (EC) No 811/2004, (EC) No 768/2005, (EC) No 2115/2005, (EC) No 2166/2005, (EC) No 388/2006, (EC) No 509/2007, (EC) No 676/2007, (EC) No 1098/2007, (EC) No 1300/2008, (EC) No 1342/2008 and repealing Regulations (EEC) No 2847/93, (EC) No 1627/94 and (EC) No 1966/2006 (OJ L 343, 22.12.2009, p. 1).</p>
+                  </authorialNote> establishes a Union system for control, inspection and enforcement with a global and integrated approach so as to ensure compliance with all the rules of the CFP, and Commission Implementing Regulation (EU) No 404/2011<authorialNote placement="bottom" marker="12">
+                     <p>Commission Implementing Regulation (EU) No 404/2011 of 8 April 2011 laying down detailed rules for the implementation of Council Regulation (EC) No 1224/2009 establishing a Community control system for ensuring compliance with the rules of the Common Fisheries Policy (OJ L 112, 30.4.2011, p. 1).</p>
+                  </authorialNote> lays down detailed rules for the implementation of Regulation (EC) No 1224/2009. Council Regulation (EC) No 1005/2008<authorialNote placement="bottom" marker="13">
+                     <p>Council Regulation (EC) No 1005/2008 of 29 September 2008 establishing a Community system to prevent, deter and eliminate illegal, unreported and unregulated fishing, amending Regulations (EEC) No 2847/93, (EC) No 1936/2001 and (EC) No 601/2004 and repealing Regulations (EC) No 1093/94 and (EC) No 1447/1999 (OJ L 286, 29.10.2008, p. 1).</p>
+                  </authorialNote> establishes a Community system to prevent, deter and eliminate illegal, unreported and unregulated fishing. Those acts now cover some matters governed by Regulation (EC) No 302/2009 and, in particular, Article 33 thereof on enforcement measures and Annex VIII on vessel monitoring system (VMS) transmission. It is therefore not necessary to include those provisions in this Regulation.</p>
+            </recital>
+            <recital xml:id="rec_d23e330">
+               <num>(20)</num>
+               <p>In accordance with Implementing Regulation (EU) No 404/2011, the conversion factors adopted by the SCRS apply to calculate the equivalent round weight of processed bluefin tuna, including for the purpose of this Regulation.</p>
+            </recital>
+            <recital xml:id="rec_d23e336">
+               <num>(21)</num>
+               <p>Moreover, in accordance with Article 95 of Regulation (EC) No 1224/2009, Commission Implementing Decision 2014/156/EU<authorialNote placement="bottom" marker="14">
+                     <p>Commission Implementing Decision 2014/156/EU of 19 March 2014 establishing a specific control and inspection programme for fisheries exploiting stocks of bluefin tuna in the Eastern Atlantic and the Mediterranean, swordfish in the Mediterranean and for fisheries exploiting stocks of sardine and anchovy in the Northern Adriatic Sea (OJ L 85, 21.3.2014, p. 15).</p>
+                  </authorialNote> has been adopted. That Implementing Decision establishes, inter alia, target benchmarks and objectives for the control of the bluefin tuna fishery in the eastern Atlantic and the Mediterranean.</p>
+            </recital>
+            <recital xml:id="rec_d23e352">
+               <num>(22)</num>
+               <p>ICCAT Recommendation 06-07 set up a sampling programme for the estimation of the number-at-size in the context of bluefin tuna farming activities. That provision was implemented by Article 10 of Regulation (EC) No 302/2009. It is not necessary that this Regulation specifically provides for the sampling programme, as the needs of that sampling programme are now fully covered by the programmes set up by paragraph 83 of Recommendation 14-04, which is to be implemented by this Regulation.</p>
+            </recital>
+            <recital xml:id="rec_d23e358">
+               <num>(23)</num>
+               <p>For reasons of clarity, simplification and legal certainty, Regulation (EC) No 302/2009 should therefore be repealed.</p>
+            </recital>
+            <recital xml:id="rec_d23e365">
+               <num>(24)</num>
+               <p>For the purpose of the Union&apos;s compliance with its international obligations under the Convention, Delegated Regulation (EU) 2015/98 provides for derogations from the landing obligation for bluefin tuna set out in Article 15 of Regulation (EU) No 1380/2013. Delegated Regulation (EU) 2015/98 implements certain provisions of ICCAT Recommendation 13-07 that establish a discard and release obligation for vessels and traps catching bluefin tuna in the eastern Atlantic and the Mediterranean in certain cases. This Regulation therefore does not need to cover such discard and release obligations and will consequently be without prejudice to the corresponding provisions of Delegated Regulation (EU) 2015/98,</p>
+            </recital>
+         </recitals>
+         <formula name="enactingFormula">
+            <p>HAVE ADOPTED THIS REGULATION:</p>
+         </formula>
+      </preamble>
+      <body>
+         <chapter>
+            <num>CHAPTER I</num>
+            <heading>GENERAL PROVISIONS</heading>
+            <article xml:id="art_d23e383">
+               <num>Article 1</num>
+               <heading>Subject matter and scope</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>This Regulation lays down the general rules for the application by the Union of the recovery plan as defined in point (1) of Article 3.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>This Regulation applies to bluefin tuna (<i>Thunnus thynnus</i>) in the eastern Atlantic and the Mediterranean.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d23e401">
+               <num>Article 2</num>
+               <heading>Objective</heading>
+               <paragraph>
+                  <content>
+                     <p>The objective of this Regulation, in accordance with the recovery plan as defined in point (1) of Article 3, is to achieve a biomass of bluefin tuna corresponding to the maximum sustainable yield by 2022 with at least a 60 % probability of achieving that objective.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d23e408">
+               <num>Article 3</num>
+               <heading>Definitions</heading>
+               <paragraph>
+                  <subparagraph>
+                     <content>
+                        <p>For the purpose of this Regulation, the following definitions apply:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(1)</num>
+                        <content>
+                           <p>&apos;recovery plan&apos; means the multiannual recovery plan for bluefin tuna, which applies from 2007 to 2022 and was recommended by ICCAT;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(2)</num>
+                        <content>
+                           <p>&apos;fishing vessel&apos; means any powered vessel used or intended for use for the purposes of the commercial exploitation of bluefin tuna resources, including catching vessels, processing vessels, support vessels, towing vessels, vessels engaged in transhipment and transport vessels equipped for the transportation of tuna products and auxiliary vessels, except container vessels;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(3)</num>
+                        <content>
+                           <p>&apos;catching vessel&apos; means a vessel used for the purposes of the commercial capture of bluefin tuna resources;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(4)</num>
+                        <content>
+                           <p>&apos;processing vessel&apos; means a vessel on board of which fisheries products are subject to one or more of the following operations, prior to their packaging: filleting or slicing, freezing and/or processing;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(5)</num>
+                        <content>
+                           <p>&apos;auxiliary vessel&apos; means any vessel used to transport dead bluefin tuna (not processed) from a transport/farming cage, a purse seine net or a trap to a designated port and/or to a processing vessel;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(6)</num>
+                        <content>
+                           <p>&apos;towing vessel&apos; means any vessel used for towing cages;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(7)</num>
+                        <content>
+                           <p>&apos;support vessel&apos; means any other fishing vessel referred to under point (2);</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(8)</num>
+                        <content>
+                           <p>&apos;fishing actively&apos; means, for any catching vessel and trap, the fact that it targets bluefin tuna during a given fishing season;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(9)</num>
+                        <content>
+                           <p>&apos;joint fishing operation&apos; means any operation between two or more purse seiners where the catch of one purse seiner is attributed to one or more other purse seiners in accordance with an allocation key;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(10)</num>
+                        <alinea>
+                           <content>
+                              <p>&apos;transfer operations&apos; means:</p>
+                           </content>
+                        </alinea>
+                        <list>
+                           <point>
+                              <num>(i)</num>
+                              <content>
+                                 <p>any transfer of live bluefin tuna from the catching vessel&apos;s net to the transport cage;</p>
+                              </content>
+                           </point>
+                           <point>
+                              <num>(ii)</num>
+                              <content>
+                                 <p>any transfer of live bluefin tuna from the transport cage to another transport cage;</p>
+                              </content>
+                           </point>
+                           <point>
+                              <num>(iii)</num>
+                              <content>
+                                 <p>any transfer of the cage with bluefin tuna from a towing vessel to another towing vessel;</p>
+                              </content>
+                           </point>
+                           <point>
+                              <num>(iv)</num>
+                              <content>
+                                 <p>any transfer of live bluefin tuna from one farm to another;</p>
+                              </content>
+                           </point>
+                           <point>
+                              <num>(v)</num>
+                              <content>
+                                 <p>any transfer of live bluefin tuna from the trap to the transport cage;</p>
+                              </content>
+                           </point>
+                        </list>
+                     </point>
+                     <point>
+                        <num>(11)</num>
+                        <content>
+                           <p>&apos;control transfer&apos; means any additional transfer being implemented at the request of the fishing/farming operators or the control authorities for the purpose of verifying the number of fish being transferred;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(12)</num>
+                        <content>
+                           <p>&apos;trap&apos; means fixed gear anchored to the bottom, usually containing a guide net that leads bluefin tuna into an enclosure or series of enclosures where it is kept prior to harvesting;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(13)</num>
+                        <content>
+                           <p>&apos;caging&apos; means the transfer of live bluefin tuna from the transport cage or trap to the farming cages;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(14)</num>
+                        <content>
+                           <p>&apos;farming&apos; means caging of bluefin tuna in farms and subsequent feeding aiming to fatten and increase their total biomass;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(15)</num>
+                        <content>
+                           <p>&apos;farm&apos; means an installation used for the farming of bluefin tuna caught by traps and/or purse seiners;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(16)</num>
+                        <content>
+                           <p>&apos;harvesting&apos; means the killing of bluefin tuna in farms or traps;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(17)</num>
+                        <content>
+                           <p>&apos;transhipment&apos; means the unloading of all or any of the fish on board a fishing vessel to another fishing vessel. Unloading of dead bluefin tuna from the purse seiner net or the towing vessel to an auxiliary vessel shall not be considered as a transhipment;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(18)</num>
+                        <content>
+                           <p>&apos;sport fishery&apos; means non-commercial fisheries whose members adhere to a national sport organisation or are issued with a national sport licence;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(19)</num>
+                        <content>
+                           <p>&apos;recreational fishery&apos; means non-commercial fisheries whose members do not adhere to a national sport organisation and are not issued with a national sport licence;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(20)</num>
+                        <content>
+                           <p>&apos;stereoscopic camera&apos; means a camera with two or more lenses, with a separate image sensor or film frame for each lens, enabling the taking of three-dimensional images;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(21)</num>
+                        <content>
+                           <p>&apos;control camera&apos; means a stereoscopic camera and/or conventional video camera for the purpose of the controls provided for in this Regulation;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(22)</num>
+                        <content>
+                           <p>&apos;BCD&apos; or &apos;electronic BCD&apos; means a bluefin catch document for bluefin tuna. As appropriate, the reference to BCD shall be replaced by eBCD;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(23)</num>
+                        <content>
+                           <p>&apos;responsible Member State&apos; or &apos;Member State responsible&apos; means the flag Member State or the Member State in whose jurisdiction the trap or farm is located or, if the farm or trap is located on the high seas, the Member State where the trap or farm operator is established;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(24)</num>
+                        <content>
+                           <p>&apos;Task II&apos; means Task II as defined by ICCAT in the &apos;Field manual for statistics and sampling Atlantic tunas and tuna-like fish&apos; (third edition, ICCAT, 1990);</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(25)</num>
+                        <content>
+                           <p>&apos;CPC&apos; means Contracting Parties to the Convention and cooperating non-contracting parties, entities or fishing entities;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(26)</num>
+                        <content>
+                           <p>&apos;Convention area&apos; means the geographical area covered by ICCAT measures as set out in Article 1 of the Convention.</p>
+                        </content>
+                     </point>
+                  </list>
+               </paragraph>
+            </article>
+            <article xml:id="art_d23e699">
+               <num>Article 4</num>
+               <heading>Length of vessels</heading>
+               <paragraph>
+                  <content>
+                     <p>Lengths of vessels referred to in this Regulation shall be understood as overall lengths.</p>
+                  </content>
+               </paragraph>
+            </article>
+         </chapter>
+         <chapter>
+            <num>CHAPTER II</num>
+            <heading>MANAGEMENT MEASURES</heading>
+            <article xml:id="art_d23e715">
+               <num>Article 5</num>
+               <heading>Conditions associated with management measures</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>Each Member State shall take the necessary measures to ensure that the fishing effort of its catching vessels and its traps are commensurate with the bluefin tuna fishing opportunities available to that Member State in the eastern Atlantic and the Mediterranean.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>The carrying-over of any unused quota shall be prohibited.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <content>
+                     <p>The chartering of Union fishing vessels for bluefin tuna fishing in the eastern Atlantic and the Mediterranean shall be prohibited.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d23e735">
+               <num>Article 6</num>
+               <heading>Submission of annual fishing plans, fishing capacity management plans and farming management plans</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <subparagraph>
+                     <content>
+                        <p>By 31 January each year, each Member State with a bluefin tuna quota shall transmit to the Commission:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(a)</num>
+                        <content>
+                           <p>an annual fishing plan for the catching vessels and traps fishing bluefin tuna in the eastern Atlantic and the Mediterranean;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(b)</num>
+                        <content>
+                           <p>an annual fishing capacity management plan ensuring that the Member State&apos;s fishing capacity is commensurate with its allocated quota.</p>
+                        </content>
+                     </point>
+                  </list>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>The Commission shall compile the plans referred to in paragraph 1 and integrate them into the Union fishing and capacity management plan. The Commission shall transmit that plan to the ICCAT Secretariat by 15 February of each year for discussion and approval by ICCAT.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <content>
+                     <p>By 15 April of each year, each Member State that intends to modify the ICCAT plan for farming capacity in force shall transmit an annual farming management plan to the Commission, which shall transmit it to the ICCAT Secretariat.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d23e769">
+               <num>Article 7</num>
+               <heading>Annual fishing plans</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <subparagraph>
+                     <content>
+                        <p>The annual fishing plan submitted by each Member State with a bluefin tuna quota shall identify the quotas allocated to each gear group referred to in Articles 11 and 12, including information on:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(a)</num>
+                        <content>
+                           <p>for catching vessels over 24 metres included in the vessel list referred to in point (a) of Article 20(1) &#45; the individual quota allocated to them and the measures in place to ensure compliance with the individual quotas and by-catch allowances;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(b)</num>
+                        <content>
+                           <p>for catching vessels less than 24 metres and for traps &#45; at least the quota allocated to producer organisations or groups of vessels fishing with a similar gear type.</p>
+                        </content>
+                     </point>
+                  </list>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>By way of derogation from point (a) of paragraph 1, the individual quota allocated to each catching vessel over 24 metres may be submitted not later than 30 days before the start of the fishing season applicable to each such vessel.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <content>
+                     <p>Any subsequent modification to the annual fishing plan or the individual quotas allocated for catching vessels over 24 metres and included in the list referred to in point (a) of Article 20(1) shall be transmitted by the Member State concerned to the Commission at least three days before the exercise of the activity corresponding to that modification. The Commission shall transmit such modification to the ICCAT Secretariat at least 48 hours before the exercise of the activity corresponding to that modification.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d23e804">
+               <num>Article 8</num>
+               <heading>Allocation of fishing opportunities</heading>
+               <paragraph>
+                  <content>
+                     <p>In accordance with Article 17 of Regulation (EU) No 1380/2013, when allocating the fishing opportunities available to them, Member States shall use transparent and objective criteria, including those of an environmental, social and economic nature, and shall also endeavour to distribute national quotas fairly among the various fleet segments giving consideration to traditional and artisanal fisheries, and to provide incentives to Union fishing vessels deploying selective fishing gear or using fishing techniques with reduced environmental impact.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d23e811">
+               <num>Article 9</num>
+               <heading>Fishing capacity management plans</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>The annual fishing capacity management plan submitted by each Member State with a bluefin tuna quota shall comply with the conditions set out in this Article.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>The maximum number of traps registered in a Member State and of fishing vessels flying the flag of a Member State that may fish for, retain on board, tranship, transport, or land bluefin tuna, shall be determined in accordance with the Treaty on the Functioning of the European Union (&apos;TFEU&apos;) and Article 16 of Regulation (EU) No 1380/2013.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <content>
+                     <p>The maximum number and the corresponding gross tonnage of fishing vessels flying the flag of a Member State engaged in bluefin tuna fishery shall be limited to the number, and the total corresponding gross tonnage, of fishing vessels flying the flag of that Member State that fished for, retained on board, transhipped, transported or landed bluefin tuna from 1 January 2007 to 1 July 2008. That limit shall apply by gear type for catching vessels.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>4.</num>
+                  <content>
+                     <p>For vessels authorised to fish for bluefin tuna under the derogation referred to in Article 14(2), additional conditions to determine the maximum number of fishing vessels are set out in Annex I.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>5.</num>
+                  <content>
+                     <p>The maximum number of traps of a Member State engaged in bluefin tuna fishery shall be limited to the number of traps authorised by that Member State by 1 July 2008.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>6.</num>
+                  <content>
+                     <p>By way of derogation from paragraphs 3 and 5 of this Article, for the years 2016 and 2017, when a Member State can demonstrate that its fishing capacity might not allow the use of its full quota, that Member State may decide to include a higher number of vessels and traps in its annual fishing plans referred to in Article 7.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>7.</num>
+                  <content>
+                     <p>For the years 2016 and 2017, each Member State shall limit the numbers of its purse seiners to the numbers of purse seiners it authorised in 2013 or 2014. That shall not apply to purse seiners operating under the derogation provided for in point (b) of Article 14(2).</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>8.</num>
+                  <content>
+                     <p>When setting up its fishing capacity management plans, calculation of the fishing capacity of each Member State shall be based on the best catch rates per vessel and gear estimated by the SCRS in its Report of 2009 and agreed by ICCAT in the 2010 Inter-sessional meeting of the ICCAT Compliance Committee<authorialNote placement="bottom" marker="15">
+                           <p>Report of the Inter-sessional meeting of the Compliance Committee (Madrid, Spain, 24 to 26 February 2010), point 5 and Appendix 3 to Annex 4.2.</p>
+                        </authorialNote>. Following any revisions of those catch rates by the SCRS, Member States shall always apply the most recent catch rates agreed by the ICCAT.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d23e880">
+               <num>Article 10</num>
+               <heading>Farming management plans</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>The annual farming management plan submitted by each Member State shall comply with the conditions set out in this Article.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>The maximum bluefin tuna farming and fattening capacity for each Member State and the maximum input of wild-caught bluefin tuna that each Member State may allocate shall be determined in accordance with the TFEU and Article 16 of Regulation (EU) No 1380/2013.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <content>
+                     <p>The maximum bluefin tuna farming and fattening capacity of a Member State shall be limited to the bluefin tuna farming and fattening capacity of the farms of that Member State that were registered in the ICCAT record of farming facilities or authorised and declared to ICCAT on 1 July 2008.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>4.</num>
+                  <content>
+                     <p>The maximum input of wild-caught bluefin tuna into the farms of a Member State shall be limited to the level of the input quantities registered with ICCAT by the farms of that Member State in the years 2005, 2006, 2007 or 2008.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>5.</num>
+                  <content>
+                     <p>Within the maximum input quantity of wild-caught bluefin tuna referred to in paragraph 4, each Member State shall allocate maximum annual inputs to its farms.</p>
+                  </content>
+               </paragraph>
+            </article>
+         </chapter>
+         <chapter>
+            <num>CHAPTER III</num>
+            <heading>TECHNICAL MEASURES</heading>
+            <section>
+               <num>SECTION 1</num>
+               <heading>Fishing seasons</heading>
+               <article xml:id="art_d23e933">
+                  <num>Article 11</num>
+                  <heading>Longliners, purse seiners, pelagic trawlers, traps and sport and recreational fisheries</heading>
+                  <paragraph>
+                     <num>1.</num>
+                     <content>
+                        <p>Bluefin tuna fishing by large-scale pelagic longline catching vessels over 24 metres shall be permitted in the eastern Atlantic and the Mediterranean from 1 January to 31 May, with the exception of the area delimited by west of 10° W and north of 42° N as well as of the Norwegian exclusive economic zone, where such fishing shall be permitted from 1 August to 31 January.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>2.</num>
+                     <content>
+                        <p>Purse seine fishing for bluefin tuna shall be permitted in the eastern Atlantic and the Mediterranean from 26 May to 24 June, with the exception of the Norwegian exclusive economic zone, where such fishing shall be permitted from 25 June to 31 October.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>3.</num>
+                     <content>
+                        <p>Bluefin tuna fishing by pelagic trawlers shall be permitted in the eastern Atlantic from 16 June to 14 October.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>4.</num>
+                     <content>
+                        <p>Bluefin tuna sport and recreational fishing shall be permitted in the eastern Atlantic and the Mediterranean from 16 June to 14 October.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>5.</num>
+                     <content>
+                        <p>Fishing for bluefin tuna by gears other than those referred to in paragraphs 1 to 4 of this Article and Article 12, including traps, shall be permitted throughout the year in accordance with ICCAT conservation and management measures.</p>
+                     </content>
+                  </paragraph>
+               </article>
+               <article xml:id="art_d23e963">
+                  <num>Article 12</num>
+                  <heading>Baitboats and trolling boats</heading>
+                  <paragraph>
+                     <num>1.</num>
+                     <content>
+                        <p>Bluefin tuna fishing by baitboats and trolling boats shall be permitted in the eastern Atlantic and the Mediterranean from 1 July to 31 October.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>2.</num>
+                     <content>
+                        <p>Provided that the protection of the spawning grounds is not affected and that the total duration of the fishing season for those fisheries does not exceed four months, each Member State may decide on a different starting date for baitboats and trolling boats flying their flag and operating in the eastern Atlantic.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>3.</num>
+                     <content>
+                        <p>Each Member State shall specify, in its annual fishing plan referred to in Article 7, whether the starting dates for those fisheries have been modified, as well as the coordinates of the areas concerned.</p>
+                     </content>
+                  </paragraph>
+               </article>
+            </section>
+            <section>
+               <num>SECTION 2</num>
+               <heading>Minimum conservation reference size, incidental catch, by-catch</heading>
+               <article xml:id="art_d23e995">
+                  <num>Article 13</num>
+                  <heading>The landing obligation</heading>
+                  <paragraph>
+                     <content>
+                        <p>The provisions of this Section shall be without prejudice to Article 15 of Regulation (EU) No 1380/2013, including any applicable derogations thereto.</p>
+                     </content>
+                  </paragraph>
+               </article>
+               <article xml:id="art_d23e1002">
+                  <num>Article 14</num>
+                  <heading>Minimum conservation reference size</heading>
+                  <paragraph>
+                     <num>1.</num>
+                     <content>
+                        <p>The minimum conservation reference size for bluefin tuna caught in the eastern Atlantic and the Mediterranean shall be 30 kg or 115 cm fork length.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>2.</num>
+                     <subparagraph>
+                        <content>
+                           <p>By way of derogation from paragraph 1, a minimum conservation reference size for bluefin tuna of 8 kg or 75 cm fork length shall apply to the following fisheries:</p>
+                        </content>
+                     </subparagraph>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <content>
+                              <p>bluefin tuna caught in the eastern Atlantic by baitboats and trolling boats;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <content>
+                              <p>bluefin tuna caught in the Adriatic Sea for farming purposes;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(c)</num>
+                           <content>
+                              <p>bluefin tuna caught in the Mediterranean Sea by the coastal and artisanal fishery for fresh fish by baitboats, longliners and handliners.</p>
+                           </content>
+                        </point>
+                     </list>
+                  </paragraph>
+                  <paragraph>
+                     <num>3.</num>
+                     <content>
+                        <p>The specific conditions applying to the derogation referred to in paragraph 2 are set out in Annex I.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>4.</num>
+                     <content>
+                        <p>Member States concerned shall issue specific authorisations to vessels fishing under the derogation referred to in paragraph 2 of this Article. The vessels concerned shall be indicated in the list of catching vessels referred to in point (a) of Article 20(1). For that purpose, the provisions laid down in Articles 20 and 21 shall apply.</p>
+                     </content>
+                  </paragraph>
+               </article>
+               <article xml:id="art_d23e1047">
+                  <num>Article 15</num>
+                  <heading>Incidental catches</heading>
+                  <paragraph>
+                     <num>1.</num>
+                     <content>
+                        <p>Without prejudice to Article 14(1), incidental catches of a maximum 5 % of bluefin tuna weighing between 8 and 30 kg or with a fork length between 75 and 115 cm shall be allowed for all catching vessels and traps fishing actively for bluefin tuna.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>2.</num>
+                     <content>
+                        <p>The percentage of 5 % referred to in paragraph 1 shall be calculated on the basis of the total catches of bluefin tuna in number of fish retained on board the vessel or inside the trap at any time after each fishing operation.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>3.</num>
+                     <content>
+                        <p>Incidental catches shall be deducted from the quota of the Member State responsible for the catching vessel or trap.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>4.</num>
+                     <content>
+                        <p>Incidental catches of bluefin tuna shall be subject to Articles 25, 30, 31 and 32.</p>
+                     </content>
+                  </paragraph>
+               </article>
+               <article xml:id="art_d23e1073">
+                  <num>Article 16</num>
+                  <heading>By-catch</heading>
+                  <paragraph>
+                     <num>1.</num>
+                     <content>
+                        <p>Each Member State shall make provision for by-catch of bluefin tuna within its quota and shall inform the Commission thereof when transmitting its fishing plan. Such provision shall ensure that all dead fish are deducted from the quota.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>2.</num>
+                     <content>
+                        <p>Union fishing vessels not fishing actively for bluefin tuna shall avoid by-catches of bluefin tuna exceeding, at any time following a fishing operation, 5 % of the total catch on board by weight or number of fish. The calculation of that percentage by number of fish shall only apply to tuna and tuna-like species managed by ICCAT. Each Member State shall deduct all dead fish within the by-catch from its quota.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>3.</num>
+                     <content>
+                        <p>For Member States without a bluefin tuna quota, the by-catches concerned shall be deducted from the specific Union bluefin tuna by-catch quota established in accordance with the TFEU and Article 16 of Regulation (EU) No 1380/2013.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>4.</num>
+                     <content>
+                        <p>If the quota allocated to the Member State of the fishing vessel or trap concerned has already been exhausted, the catching of any bluefin tuna shall be avoided. Dead bluefin tuna shall be landed whole and unprocessed and shall be subject to confiscation and the appropriate follow-up action. In accordance with Article 29, each Member State shall provide information on the quantity of such dead bluefin tuna on an annual basis to the Commission who shall forward it to the ICCAT Secretariat.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>5.</num>
+                     <content>
+                        <p>The procedures referred to in Articles 27, 30, 31, 32 and 56 shall apply to by-catch.</p>
+                     </content>
+                  </paragraph>
+               </article>
+            </section>
+            <section>
+               <num>SECTION 3</num>
+               <heading>Use of aerial means</heading>
+               <article xml:id="art_d23e1114">
+                  <num>Article 17</num>
+                  <heading>Use of aerial means</heading>
+                  <paragraph>
+                     <content>
+                        <p>The use of any aerial means, including aircraft, helicopters or any types of unmanned aerial vehicles for searching for bluefin tuna shall be prohibited.</p>
+                     </content>
+                  </paragraph>
+               </article>
+            </section>
+         </chapter>
+         <chapter>
+            <num>CHAPTER IV</num>
+            <heading>SPORT AND RECREATIONAL FISHERIES</heading>
+            <article xml:id="art_d23e1130">
+               <num>Article 18</num>
+               <heading>Specific quota for sport and recreational fisheries</heading>
+               <paragraph>
+                  <content>
+                     <p>Each Member State with a bluefin tuna quota shall regulate sport and recreational fisheries by allocating a specific quota for the purpose of those fisheries and shall inform the Commission thereof when transmitting its fishing plan.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d23e1137">
+               <num>Article 19</num>
+               <heading>Sport and recreational fisheries</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>Each Member State with a bluefin tuna quota shall regulate sport and recreational fisheries by issuing fishing authorisations to vessels for the purpose of sport and recreational fishing.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>For sport and recreational fisheries no more than one bluefin tuna shall be caught per vessel per day.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <content>
+                     <p>Any bluefin tuna landed shall be whole, gilled and/or gutted. Each Member State shall take the necessary measures to ensure, to the greatest extent possible, the release of bluefin tuna, especially juveniles, caught alive in the framework of sport and recreational fishing.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>4.</num>
+                  <content>
+                     <p>The marketing of bluefin tuna caught during sport and recreational fishing shall be prohibited.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>5.</num>
+                  <content>
+                     <p>Each Member State shall record catch data including weight and length of each bluefin tuna caught during sport and recreational fishing and communicate the data for the preceding year to the Commission by 30 June each year. The Commission shall forward that information to the SCRS.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>6.</num>
+                  <content>
+                     <p>Each Member State shall count dead catches from sport and recreational fisheries against the quota it allocated in accordance with Article 7(1) and Article 18.</p>
+                  </content>
+               </paragraph>
+            </article>
+         </chapter>
+         <chapter>
+            <num>CHAPTER V</num>
+            <heading>CONTROL MEASURES</heading>
+            <section>
+               <num>SECTION 1</num>
+               <heading>Records of vessels and traps</heading>
+               <article xml:id="art_d23e1193">
+                  <num>Article 20</num>
+                  <heading>Records of vessels</heading>
+                  <paragraph>
+                     <num>1.</num>
+                     <subparagraph>
+                        <content>
+                           <p>Each Member State shall submit electronically each year to the Commission one month before the start of the fishing seasons referred to in Articles 11 and 12, where applicable, and otherwise one month before the start of the period of authorisation:</p>
+                        </content>
+                     </subparagraph>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <content>
+                              <p>a list of all catching vessels flying its flag authorised to fish actively for bluefin tuna in the eastern Atlantic and the Mediterranean by the issuing of a fishing authorisation;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <content>
+                              <p>a list of all other fishing vessels, other than catching vessels, flying its flag authorised to operate for bluefin tuna in the eastern Atlantic and the Mediterranean.</p>
+                           </content>
+                        </point>
+                     </list>
+                  </paragraph>
+                  <paragraph>
+                     <num>2.</num>
+                     <content>
+                        <p>Both lists shall be set up in accordance with the format set in the Guidelines by ICCAT for submitting the data and information required.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>3.</num>
+                     <content>
+                        <p>During a calendar year, a fishing vessel may be included in both of the lists referred to in paragraph 1 provided that it is not included in both lists at the same time.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>4.</num>
+                     <content>
+                        <p>The lists referred to in paragraph 1 of this Article shall contain the vessel&apos;s name and Union fleet register number (CFR) as defined in Annex I to Commission Regulation (EC) No 26/2004<authorialNote placement="bottom" marker="16">
+                              <p>Commission Regulation (EC) No 26/2004 of 30 December 2003 on the Community fishing fleet register (OJ L 5, 9.1.2004, p. 25).</p>
+                           </authorialNote>.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>5.</num>
+                     <subparagraph>
+                        <content>
+                           <p>No retroactive submission shall be accepted. Subsequent changes to the lists referred to in paragraph 1 during a calendar year shall only be accepted if the notified fishing vessel is prevented from participating due to legitimate operational reasons or <i>force majeure</i>. In such circumstances, the Member State concerned shall immediately inform the Commission of that fact, and shall provide:</p>
+                        </content>
+                     </subparagraph>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <content>
+                              <p>full details of the fishing vessel(s) intended to replace a vessel included in the lists referred to in paragraph 1; and</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <content>
+                              <p>a comprehensive account of the reasons justifying the replacement and any relevant supporting evidence or references.</p>
+                           </content>
+                        </point>
+                     </list>
+                  </paragraph>
+                  <paragraph>
+                     <num>6.</num>
+                     <content>
+                        <p>The Commission shall send the information referred to in paragraphs 1 and 2 to the ICCAT Secretariat so that the vessels can be entered into the ICCAT record of catching vessels authorised to fish actively for bluefin tuna or in the ICCAT record of all other fishing vessels (catching vessels excluded) authorised to operate for bluefin tuna.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>7.</num>
+                     <content>
+                        <p>Article 8a(2), (6), (7) and (8) of Council Regulation (EC) No 1936/2001<authorialNote placement="bottom" marker="17">
+                              <p>Council Regulation (EC) No 1936/2001 of 27 September 2001 laying down control measures applicable to fishing for certain stocks of highly migratory fish (OJ L 263, 3.10.2001, p. 1).</p>
+                           </authorialNote> shall apply with the necessary modifications.</p>
+                     </content>
+                  </paragraph>
+               </article>
+               <article xml:id="art_d23e1285">
+                  <num>Article 21</num>
+                  <heading>Relationship with Regulation (EC) No 1224/2009</heading>
+                  <paragraph>
+                     <content>
+                        <p>The control measures provided for in this Chapter shall apply in addition to those provided for in Regulation (EC) No 1224/2009, except where otherwise provided for in this Chapter.</p>
+                     </content>
+                  </paragraph>
+               </article>
+               <article xml:id="art_d23e1292">
+                  <num>Article 22</num>
+                  <heading>Fishing authorisations for vessels</heading>
+                  <paragraph>
+                     <num>1.</num>
+                     <content>
+                        <p>Without prejudice to Article 16, Union fishing vessels not entered into the ICCAT records referred to in Article 20(1) shall not be authorised to fish for, retain on board, tranship, transport, transfer, process or land bluefin tuna in the eastern Atlantic and the Mediterranean.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>2.</num>
+                     <content>
+                        <p>The flag Member State shall withdraw the fishing authorisation for bluefin tuna and may require the vessel to proceed immediately to a port designated by it when the individual quota is deemed to be exhausted.</p>
+                     </content>
+                  </paragraph>
+               </article>
+               <article xml:id="art_d23e1307">
+                  <num>Article 23</num>
+                  <heading>Records of traps authorised to fish for bluefin tuna</heading>
+                  <paragraph>
+                     <num>1.</num>
+                     <content>
+                        <p>By 15 February each year, each Member State shall send to the Commission electronically a list of its traps authorised, by the issuing of a fishing authorisation, to fish for bluefin tuna in the eastern Atlantic and the Mediterranean. The list shall include the name of the traps and the register number and shall be set up in accordance with the format set in the Guidelines by ICCAT for submitting data and information required.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>2.</num>
+                     <content>
+                        <p>The Commission shall send the list to the ICCAT Secretariat so that those traps can be entered into the ICCAT record of traps authorised to fish for bluefin tuna.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>3.</num>
+                     <content>
+                        <p>Union traps that are not entered into the ICCAT record shall not be authorised to fish for, retain, transfer, cage or land bluefin tuna in the eastern Atlantic and the Mediterranean.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>4.</num>
+                     <content>
+                        <p>Article 8a(2), (4), (6), (7) and (8) of Regulation (EC) No 1936/2001 shall apply with the necessary modifications.</p>
+                     </content>
+                  </paragraph>
+               </article>
+               <article xml:id="art_d23e1332">
+                  <num>Article 24</num>
+                  <heading>Joint fishing operation</heading>
+                  <paragraph>
+                     <num>1.</num>
+                     <content>
+                        <p>Any joint fishing operation (&apos;JFO&apos;) for bluefin tuna shall only be authorised with the consent of the flag Member State(s) concerned. To be authorised, each purse seiner shall be equipped to fish for bluefin tuna and have an individual quota. JFOs with other CPCs shall not be permitted.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>2.</num>
+                     <subparagraph>
+                        <content>
+                           <p>Each Member State shall take the necessary measures to obtain the following information from its fishing vessels applying for an authorisation to take part in the JFO:</p>
+                        </content>
+                     </subparagraph>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <content>
+                              <p>the duration;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <content>
+                              <p>the identity of the operators involved;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(c)</num>
+                           <content>
+                              <p>the individual vessels&apos; quotas;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(d)</num>
+                           <content>
+                              <p>the allocation key between the fishing vessels for the catches involved; and</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(e)</num>
+                           <content>
+                              <p>information on the farms of destination.</p>
+                           </content>
+                        </point>
+                     </list>
+                  </paragraph>
+                  <paragraph>
+                     <num>3.</num>
+                     <content>
+                        <p>At least 15 days before the start of the operation, each Member State shall send the information referred to in paragraph 2 to the Commission in the format set out in Annex VI. The Commission shall forward that information to the ICCAT Secretariat and to the flag State of other fishing vessels participating in the JFO at least 10 days before the start of the operation.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>4.</num>
+                     <content>
+                        <p>In the case of <i>force majeure</i>, the deadline set out in paragraph 3 shall not apply for the information requested under point (e) of paragraph 2. In that case, Member States may submit to the Commission an update of that information as soon as possible, together with a description of the events constituting <i>force majeure</i>. The Commission shall forward that information to the ICCAT Secretariat.</p>
+                     </content>
+                  </paragraph>
+               </article>
+            </section>
+            <section>
+               <num>SECTION 2</num>
+               <heading>Catches</heading>
+               <article xml:id="art_d23e1411">
+                  <num>Article 25</num>
+                  <heading>Recording requirements</heading>
+                  <paragraph>
+                     <num>1.</num>
+                     <content>
+                        <p>In addition to complying with Articles 14, 15, 23 and 24 of Regulation (EC) No 1224/2009, the master of a Union catching vessel shall, if applicable, enter into the logbook the information listed in Part A of Annex II to this Regulation.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>2.</num>
+                     <content>
+                        <p>Masters of Union towing vessels, auxiliary vessels and processing vessels shall record their activities in accordance with the requirements set out in Parts B, C and D of Annex II.</p>
+                     </content>
+                  </paragraph>
+               </article>
+               <article xml:id="art_d23e1426">
+                  <num>Article 26</num>
+                  <heading>Catch reports sent by masters and trap operators</heading>
+                  <paragraph>
+                     <num>1.</num>
+                     <content>
+                        <p>Masters of catching vessels fishing actively for bluefin tuna shall send to the authorities of the flag Member State daily information from logbooks, including the ICCAT register number, the vessel name, the beginning and end of the period of authorisation, date, time, location (latitude and longitude) and the weight and number of bluefin tuna caught in the Convention area. They shall send that information electronically in the format set out in Annex V during the whole period in which the vessel is authorised to fish bluefin tuna.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>2.</num>
+                     <content>
+                        <p>Masters of purse seiners shall produce daily reports as referred to in paragraph 1 on a fishing operation by fishing operation basis, including operations where the catch was zero.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>3.</num>
+                     <content>
+                        <p>The reports referred to in paragraphs 1 and 2 shall be transmitted by the operator to its flag Member State authorities on a daily basis for purse seiners and vessels over 24 metres by 9.00 GMT for the preceding day and for other catching vessels by Monday 24.00 (midnight) for the preceding week ending Sunday 24.00 (midnight) GMT.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>4.</num>
+                     <content>
+                        <p>Trap operators fishing actively for bluefin tuna shall send a daily catch report including the ICCAT register number, date, time, catches (weight and number of fish), including zero catches. They shall send that information within 48 hours electronically in the format set out in Annex V to their Member State authorities during the whole period they are authorised to fish bluefin tuna.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>5.</num>
+                     <content>
+                        <p>The Commission may adopt implementing acts laying down detailed rules for the recording and reporting of vessel and trap activities referred to in paragraphs 1 to 4 of this Article and Annex V. Those implementing acts shall be adopted in accordance with the examination procedure referred to in Article 59(2).</p>
+                     </content>
+                  </paragraph>
+               </article>
+               <article xml:id="art_d23e1457">
+                  <num>Article 27</num>
+                  <heading>Weekly and monthly catch reports sent by the Member States</heading>
+                  <paragraph>
+                     <num>1.</num>
+                     <content>
+                        <p>Each Member State shall, upon receipt of the catch reports referred to in Article 26, promptly forward them electronically to the Commission and shall provide promptly to the Commission weekly catch reports for all catching vessels and traps in accordance with the format set out in Annex V. The Commission shall forward that information on a weekly basis to the ICCAT Secretariat in accordance with the format set out in the Guidelines for submitting data and information required by ICCAT.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>2.</num>
+                     <content>
+                        <p>Each Member State shall inform the Commission, before the 15th day of each month, of the quantities of bluefin tuna caught in the eastern Atlantic and the Mediterranean which have been landed, transhipped, trapped or caged during the preceding month by the fishing vessels or traps flying the flag of or registered in that Member State. The information provided shall be structured by gear type including by-catch, catches in sport and recreational fisheries and zero catches. The Commission shall promptly forward that information to the ICCAT Secretariat.</p>
+                     </content>
+                  </paragraph>
+               </article>
+               <article xml:id="art_d23e1472">
+                  <num>Article 28</num>
+                  <heading>Information on quota exhaustion</heading>
+                  <paragraph>
+                     <num>1.</num>
+                     <content>
+                        <p>In addition to the provisions of Article 34 of Regulation (EC) No 1224/2009, each Member State shall inform the Commission when the quota allocated to a gear group referred to in Article 11 or Article 12 of this Regulation is deemed to have reached 80 %.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>2.</num>
+                     <content>
+                        <p>In addition to the provisions of Article 35 of Regulation (EC) No 1224/2009, each Member State shall inform the Commission when the quota allocated to a gear group referred to in Article 11 or Article 12 of this Regulation or to a JFO or to a purse seiner is deemed to be exhausted.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>3.</num>
+                     <content>
+                        <p>The information referred to in paragraph 2 shall be accompanied by official documentation proving the fishing stop or the call back to port issued by the Member State for the fleet, the gear group, the JFO, or the vessels with an individual quota including a clear indication of the date and the time of the closure.</p>
+                     </content>
+                  </paragraph>
+               </article>
+               <article xml:id="art_d23e1492">
+                  <num>Article 29</num>
+                  <heading>Yearly reporting of catches by the Member States</heading>
+                  <paragraph>
+                     <num>1.</num>
+                     <subparagraph>
+                        <content>
+                           <p>By 15 March each year, each Member State shall submit to the Commission detailed information on any bluefin tuna catches in the eastern Atlantic and the Mediterranean in the preceding fishing year. That information shall include:</p>
+                        </content>
+                     </subparagraph>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <content>
+                              <p>the name and ICCAT number of each catching vessel;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <content>
+                              <p>the period of authorisation(s) for each catching vessel;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(c)</num>
+                           <content>
+                              <p>the total catches of each catching vessel including when the catch was zero throughout the period of authorisation(s);</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(d)</num>
+                           <content>
+                              <p>the total number of days each catching vessel fished in the eastern Atlantic and the Mediterranean throughout the period of authorisation(s); and</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(e)</num>
+                           <content>
+                              <p>the total catch of each catching vessel outside the period of authorisation (by-catch), including when the catch was zero.</p>
+                           </content>
+                        </point>
+                     </list>
+                  </paragraph>
+                  <paragraph>
+                     <num>2.</num>
+                     <subparagraph>
+                        <content>
+                           <p>For vessels not authorised to fish actively for bluefin tuna in the eastern Atlantic and the Mediterranean but which caught bluefin tuna as by-catch, the information to be submitted to the Commission at the same date as referred to in paragraph 1 shall include:</p>
+                        </content>
+                     </subparagraph>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <content>
+                              <p>the name and ICCAT number or national registry number of the vessel, if not registered with ICCAT; and</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <content>
+                              <p>the total catches of bluefin tuna.</p>
+                           </content>
+                        </point>
+                     </list>
+                  </paragraph>
+                  <paragraph>
+                     <num>3.</num>
+                     <content>
+                        <p>Each Member State shall notify to the Commission any information on vessels not subject to paragraphs 1 and 2 but known or presumed to have fished for bluefin tuna in the eastern Atlantic and the Mediterranean.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>4.</num>
+                     <content>
+                        <p>The Commission shall transmit to the ICCAT Secretariat the information received under paragraphs 1, 2 and 3.</p>
+                     </content>
+                  </paragraph>
+               </article>
+            </section>
+            <section>
+               <num>SECTION 3</num>
+               <heading>Landings and transhipments</heading>
+               <article xml:id="art_d23e1575">
+                  <num>Article 30</num>
+                  <heading>Designated ports</heading>
+                  <paragraph>
+                     <num>1.</num>
+                     <content>
+                        <p>Each Member State shall designate ports or places close to the shore (designated ports) where landing or transhipping operations of bluefin tuna are permitted.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>2.</num>
+                     <content>
+                        <p>For a port to be determined as a designated port, the port Member State shall specify permitted landing and transhipping times and places.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>3.</num>
+                     <content>
+                        <p>By 15 February of each year, each Member State shall transmit a list of designated ports to the Commission which shall transmit that information to the ICCAT Secretariat.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>4.</num>
+                     <content>
+                        <p>It shall be prohibited to land or tranship from fishing vessels any quantity of bluefin tuna fished in the eastern Atlantic and the Mediterranean at any place other than ports or places close to the shore designated by CPCs and Member States in accordance with paragraphs 1 and 2.</p>
+                     </content>
+                  </paragraph>
+               </article>
+               <article xml:id="art_d23e1600">
+                  <num>Article 31</num>
+                  <heading>Landings</heading>
+                  <paragraph>
+                     <num>1.</num>
+                     <content>
+                        <p>Article 17 of Regulation (EC) No 1224/2009 shall apply to masters of Union fishing vessels of 12 metres&apos; length overall or more included in the list of vessels referred to in Article 20 of this Regulation. The prior arrival notification under Article 17 of Regulation (EC) No 1224/2009 shall be sent to the competent authority of the Member State (including the flag Member State) or CPC whose ports or landing facility they wish to use.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>2.</num>
+                     <subparagraph>
+                        <content>
+                           <p>In addition, masters of Union fishing vessels under 12 metres&apos; length overall included in the list of vessels referred to in Article 20 shall, at least four hours before the estimated time of arrival at the port, notify the competent authority of the Member State (including the flag Member State) or the CPC whose ports or landing facility they wish to use, at least of the following:</p>
+                        </content>
+                     </subparagraph>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <content>
+                              <p>estimated time of arrival;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <content>
+                              <p>estimated quantity of bluefin tuna retained on board; and</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(c)</num>
+                           <content>
+                              <p>information on the geographical area where the catches were taken.</p>
+                           </content>
+                        </point>
+                     </list>
+                  </paragraph>
+                  <paragraph>
+                     <num>3.</num>
+                     <content>
+                        <p>Where Member States are authorised under applicable Union legislation to apply a shorter notification period than that referred to in paragraphs 1 and 2, the estimated quantities of bluefin tuna retained on board may be notified at the thus applicable time of notification prior to arrival. If the fishing grounds are less than four hours from the port, the estimated quantities of bluefin tuna retained on board may be modified at any time prior to arrival.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>4.</num>
+                     <content>
+                        <p>Authorities of the port Member State shall keep a record of all prior notifications for the current year.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>5.</num>
+                     <content>
+                        <p>All landings shall be controlled, in accordance with Article 55(2), by the relevant control authorities of the port Member State and a percentage shall be inspected based on a risk assessment system involving quota, fleet size and fishing effort. Full details of such control system adopted by each Member State shall be detailed in the annual inspection plan referred to in Article 53. That control system shall also apply to harvest operations.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>6.</num>
+                     <content>
+                        <p>In addition to Article 23(1) of Regulation (EC) No 1224/2009, after each trip, masters of a Union catching vessel, whatever the length of the vessel, shall submit a landing declaration to the competent authorities of the flag Member State and, if the landing has taken place in a port of another Member State or CPC, to the competent authorities of the port Member State or CPC concerned.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>7.</num>
+                     <content>
+                        <p>All landed catches shall be weighed.</p>
+                     </content>
+                  </paragraph>
+               </article>
+               <article xml:id="art_d23e1661">
+                  <num>Article 32</num>
+                  <heading>Transhipment</heading>
+                  <paragraph>
+                     <num>1.</num>
+                     <content>
+                        <p>Transhipment at sea of bluefin tuna in the Convention area shall be prohibited in all circumstances.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>2.</num>
+                     <content>
+                        <p>Fishing vessels shall only tranship bluefin tuna catches in designated ports under the conditions set out in Article 30.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>3.</num>
+                     <content>
+                        <p>The port Member State shall ensure full inspection coverage during all transhipping times and at all transhipping places.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>4.</num>
+                     <subparagraph>
+                        <content>
+                           <p>Prior to entry into any port, the masters or representatives of the receiving fishing vessels shall, at least 48 hours before the estimated time of arrival, provide the competent authorities of the Member State or CPC whose port they want to use with the following:</p>
+                        </content>
+                     </subparagraph>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <content>
+                              <p>estimated date and time of arrival, and port of arrival;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <content>
+                              <p>estimated quantity of bluefin tuna retained on board, and information on the geographical area where it was taken;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(c)</num>
+                           <content>
+                              <p>the name of the transhipping fishing vessel and its number in the ICCAT record of catching vessels authorised to fish actively for bluefin tuna or in the ICCAT record of other fishing vessels authorised to operate for bluefin tuna in the eastern Atlantic and the Mediterranean;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(d)</num>
+                           <content>
+                              <p>the name of the receiving fishing vessel, its number in the ICCAT record of catching vessels authorised to fish actively for bluefin tuna or in the ICCAT record of other fishing vessels authorised to operate for bluefin tuna in the eastern Atlantic and the Mediterranean; and</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(e)</num>
+                           <content>
+                              <p>the tonnage and the geographical area of the catch of bluefin tuna to be transhipped.</p>
+                           </content>
+                        </point>
+                     </list>
+                  </paragraph>
+                  <paragraph>
+                     <num>5.</num>
+                     <content>
+                        <p>Fishing vessels shall not be allowed to tranship unless they have obtained prior authorisation from their flag State.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>6.</num>
+                     <subparagraph>
+                        <content>
+                           <p>Masters of transhipping fishing vessels shall, before the transhipment starts, inform their flag State of the following:</p>
+                        </content>
+                     </subparagraph>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <content>
+                              <p>the quantities of bluefin tuna to be transhipped;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <content>
+                              <p>the date and port of the transhipment;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(c)</num>
+                           <content>
+                              <p>the name, registration number and flag of the receiving fishing vessel and its number in the ICCAT record of catching vessels authorised to fish actively for bluefin tuna or in the ICCAT record of other fishing vessels authorised to operate for bluefin tuna in the eastern Atlantic and the Mediterranean; and</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(d)</num>
+                           <content>
+                              <p>the geographical area of the catch of bluefin tuna.</p>
+                           </content>
+                        </point>
+                     </list>
+                  </paragraph>
+                  <paragraph>
+                     <num>7.</num>
+                     <subparagraph>
+                        <content>
+                           <p>All transhipments shall be inspected by the competent Member State authorities at the designated port. Those authorities shall:</p>
+                        </content>
+                     </subparagraph>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <content>
+                              <p>inspect the receiving fishing vessel on arrival and check the cargo and documentation related to the transhipment operation;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <content>
+                              <p>send a record of the transhipment to the flag State authority of the transhipping fishing vessel, within five days after the transhipment has ended.</p>
+                           </content>
+                        </point>
+                     </list>
+                  </paragraph>
+                  <paragraph>
+                     <num>8.</num>
+                     <content>
+                        <p>By way of derogation from Articles 21 and 22 of Regulation (EC) No 1224/2009, masters of a Union fishing vessel shall, whatever the length of the vessel, complete and send the ICCAT transhipment declaration to the competent authorities of the Member State whose flag the fishing vessel is flying. The declaration shall be transmitted no later than 48 hours after the date of transhipment in port in accordance with the format set out in Annex III to this Regulation.</p>
+                     </content>
+                  </paragraph>
+               </article>
+            </section>
+            <section>
+               <num>SECTION 4</num>
+               <heading>Transfer operations</heading>
+               <article xml:id="art_d23e1790">
+                  <num>Article 33</num>
+                  <heading>Transfer authorisation</heading>
+                  <paragraph>
+                     <num>1.</num>
+                     <subparagraph>
+                        <content>
+                           <p>Before any transfer operation, the master of a catching vessel or towing vessel or the operator of the farm or trap where the transfer in question originates shall send to the competent authorities of the relevant Member State a prior notification of transfer indicating:</p>
+                        </content>
+                     </subparagraph>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <content>
+                              <p>the name of the catching vessel, towing vessel, farm or trap and the ICCAT register number;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <content>
+                              <p>the estimated time of transfer;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(c)</num>
+                           <content>
+                              <p>the estimate of the quantity of bluefin tuna to be transferred;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(d)</num>
+                           <content>
+                              <p>information on the position (latitude/longitude) where the transfer will take place as well as the identifiable cage numbers;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(e)</num>
+                           <content>
+                              <p>the name of the receiving towing vessel, the number of cages towed and, where appropriate, the ICCAT register number;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(f)</num>
+                           <content>
+                              <p>the port, farm or cage of destination of the bluefin tuna.</p>
+                           </content>
+                        </point>
+                     </list>
+                  </paragraph>
+                  <paragraph>
+                     <num>2.</num>
+                     <content>
+                        <p>For the purpose referred to in paragraph 1, a unique cage number shall be assigned to each cage. Numbers shall be issued with a unique numbering system that includes at least three alfa-code letters corresponding to the flag of the towing vessel followed by three numbers.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>3.</num>
+                     <content>
+                        <p>Catching vessels, towing vessels, farms or traps shall not be allowed to transfer unless they have obtained prior authorisation from the relevant Member State. The authorities of that Member State shall decide for each transfer operation whether to grant authorisation. For that purpose, a unique identification number shall, for each transfer operation, be assigned and communicated to the master of the fishing vessel, the trap operator or the farm operator, as appropriate. Where authorisation is granted, that number shall comprise the three-letter code of the Member State, the four numbers indicating the year, and the three letters &apos;AUT&apos; (authorisation), followed by sequential numbers. Where authorisation is refused, the number shall comprise the three-letter code of the Member State, the four numbers indicating the year, and the three letters &apos;NEG&apos; (non-authorisation), followed by sequential numbers.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>4.</num>
+                     <content>
+                        <p>In the event that fish die during the transfer operation, the relevant Member States and operators involved in the transfer shall proceed in accordance with Annex XII.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>5.</num>
+                     <content>
+                        <p>The transfer authorisation shall be granted or refused by the Member State responsible for the catching vessel, towing vessel, farm or trap, as appropriate, within 48 hours following the submission of the prior notification of transfer.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>6.</num>
+                     <content>
+                        <p>The authorisation for transfer by the relevant Member State shall not prejudge the authorisation of the caging operation.</p>
+                     </content>
+                  </paragraph>
+               </article>
+               <article xml:id="art_d23e1872">
+                  <num>Article 34</num>
+                  <heading>Refusal of transfer authorisation</heading>
+                  <paragraph>
+                     <num>1.</num>
+                     <subparagraph>
+                        <content>
+                           <p>The Member State responsible for the vessel, trap or farm shall not authorise the transfer if, on receipt of the prior notification of transfer, it considers that:</p>
+                        </content>
+                     </subparagraph>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <content>
+                              <p>the catching vessel or the trap that is declared to have caught the fish does not have sufficient quota;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <content>
+                              <p>the quantity of fish has not been duly reported by the catching vessel or the trap operator or has not been authorised to be caged, or has not been taken into account for the consumption of the quota that may be applicable;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(c)</num>
+                           <content>
+                              <p>the catching vessel or trap that is declared to have caught the fish is not authorised to fish for bluefin tuna; or</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(d)</num>
+                           <content>
+                              <p>the towing vessel declared to be the one to receive the transfer of fish is not registered in the ICCAT record of all other fishing vessels (catching vessels excluded) authorised to operate for bluefin tuna, as referred to in point (b) of Article 20(1), or is not equipped with a VMS.</p>
+                           </content>
+                        </point>
+                     </list>
+                  </paragraph>
+                  <paragraph>
+                     <num>2.</num>
+                     <subparagraph>
+                        <content>
+                           <p>If the transfer is not authorised:</p>
+                        </content>
+                     </subparagraph>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <content>
+                              <p>the Member State responsible for the catching vessel or trap shall issue a release order to the master of the catching vessel or to the operator of the trap or farm as appropriate and inform them that the transfer is not authorised and that the fish have to be released into the sea;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <content>
+                              <p>the master of the catching vessel, the farm operator or the trap operator, as appropriate, shall release the fish;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(c)</num>
+                           <content>
+                              <p>the release of bluefin tuna shall be carried out in accordance with the procedures set out in Annex XI.</p>
+                           </content>
+                        </point>
+                     </list>
+                  </paragraph>
+               </article>
+               <article xml:id="art_d23e1933">
+                  <num>Article 35</num>
+                  <heading>Monitoring by video camera</heading>
+                  <paragraph>
+                     <num>1.</num>
+                     <content>
+                        <p>For transfer operations, the master of the catching vessel, towing vessel, farm operator or trap operator that transfers bluefin tuna shall ensure that the transfer operations are monitored by video camera in the water in order to verify the number of fish being transferred. The minimum standards and procedures for video recording shall be in accordance with Annex IX.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>2.</num>
+                     <content>
+                        <p>Each Member State responsible for the vessel, trap or farm shall ensure that the video records referred to in paragraph 1 are made available to the ICCAT inspectors and regional observers.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>3.</num>
+                     <content>
+                        <p>Each Member State responsible for the vessel, trap or farm shall ensure that the video records referred to in paragraph 1 are made available to Union inspectors and national observers.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>4.</num>
+                     <content>
+                        <p>Each Member State responsible for the vessel, trap or farm shall take the necessary measures to avoid any replacement, editing or manipulation of the original video record.</p>
+                     </content>
+                  </paragraph>
+               </article>
+               <article xml:id="art_d23e1959">
+                  <num>Article 36</num>
+                  <heading>Verification by ICCAT regional observers and launching and conduct of investigation</heading>
+                  <paragraph>
+                     <num>1.</num>
+                     <content>
+                        <p>ICCAT regional observers on board the catching vessel or present at a trap, as set out in Article 51 and Annex VII, shall record and report on the transfer operations carried out, observe and estimate catches transferred and verify entries made in the prior transfer authorisation referred to in Article 33 and in the ICCAT transfer declaration referred to in Article 38.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>2.</num>
+                     <content>
+                        <p>In cases where there is more than 10 % difference by number between the estimates of catch made by the ICCAT regional observer, relevant control authorities and/or the master of the catching vessel, or representative of the trap, or where the video record is of insufficient quality or clarity to make such estimations, the Member State responsible for the catching vessel, farm or trap shall launch an investigation which shall be concluded prior to the time of caging at the farm or in any case within 96 hours after being launched. Pending the results of that investigation, caging shall not be authorised and the catch section of the bluefin tuna catch document (&apos;BCD&apos;) shall not be validated.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>3.</num>
+                     <content>
+                        <p>However, when the video record is of insufficient quality or clarity to estimate the number, the operator may request authorisation from the flag State authorities of the vessel, trap or farm to conduct a new transfer operation and to provide the corresponding video record to the ICCAT regional observer.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>4.</num>
+                     <content>
+                        <p>Without prejudice to the verifications conducted by an inspector, ICCAT regional observers shall sign the ICCAT transfer declaration only when their observations are in accordance with the ICCAT conservation and management measures and when the information contained in the transfer declaration is consistent with their observations including a compliant video record as required under Article 35(1). They shall sign that declaration with clearly written name and ICCAT number.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>5.</num>
+                     <content>
+                        <p>ICCAT regional observers shall also verify that the ICCAT transfer declaration is transmitted to the master of the towing vessel or to the farm or trap representative.</p>
+                     </content>
+                  </paragraph>
+               </article>
+               <article xml:id="art_d23e1993">
+                  <num>Article 37</num>
+                  <heading>Measures to estimate the number and weight of bluefin tuna to be caged</heading>
+                  <paragraph>
+                     <content>
+                        <p>Member States shall take the necessary measures and actions to further explore methodologies to improve the estimate of both the number and weight of bluefin tuna at the point of capture and caging. Each Member State shall report on the measures taken by 22 August of each year to the Commission who shall submit those reports to the SCRS.</p>
+                     </content>
+                  </paragraph>
+               </article>
+               <article xml:id="art_d23e2000">
+                  <num>Article 38</num>
+                  <heading>Transfer declaration</heading>
+                  <paragraph>
+                     <num>1.</num>
+                     <content>
+                        <p>Masters of catching or towing vessels, trap operators or farm operators shall, at the end of the transfer operation, complete and transmit to the competent authorities of their Member State the ICCAT transfer declaration, in accordance with the format set out in Annex IV.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>2.</num>
+                     <content>
+                        <p>Transfer declaration forms shall be numbered by the competent authorities of the Member State responsible for the vessels, farms or traps from which the transfers originate. The numbering system shall include the three-letter code of the Member State, followed by the four numbers indicating the year and three sequential numbers followed by the three letters &apos;ITD&apos; (MS-20**/xxx/ITD).</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>3.</num>
+                     <content>
+                        <p>The original transfer declaration shall accompany the transfer of the fish. A copy of the declaration shall be kept by the master of the catching vessel, the trap operator, the master of the towing vessel or the farm operator.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>4.</num>
+                     <content>
+                        <p>Masters of vessels carrying out transfer operations (including towing vessels) shall report their activities in accordance with the requirements set out in Annex II.</p>
+                     </content>
+                  </paragraph>
+               </article>
+               <article xml:id="art_d23e2030">
+                  <num>Article 39</num>
+                  <heading>Implementing acts</heading>
+                  <paragraph>
+                     <content>
+                        <p>The Commission may adopt implementing acts laying down detailed rules for transfer operations referred to in Articles 33 to 38 and the Annexes referred to in those Articles. Those implementing acts shall be adopted in accordance with the examination procedure referred to in Article 59(2).</p>
+                     </content>
+                  </paragraph>
+               </article>
+            </section>
+            <section>
+               <num>SECTION 5</num>
+               <heading>Caging operations</heading>
+               <article xml:id="art_d23e2048">
+                  <num>Article 40</num>
+                  <heading>Caging authorisation</heading>
+                  <paragraph>
+                     <num>1.</num>
+                     <content>
+                        <p>Prior to the start of each caging operation the anchoring of transport cages within 0,5 nautical miles of farming facilities shall be prohibited.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>2.</num>
+                     <content>
+                        <p>Before any caging operation, the competent authority of the Member State responsible for the farm shall inform the Member State or CPC responsible for the catching vessel or trap of the quantities caught by that vessel or trap and request a caging authorisation.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>3.</num>
+                     <subparagraph>
+                        <content>
+                           <p>The caging operation shall not begin without the prior authorisation by:</p>
+                        </content>
+                     </subparagraph>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <content>
+                              <p>the Member State or CPC responsible for the catching vessel or trap; or</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <content>
+                              <p>the Member State or CPC responsible for the farm if it has been agreed among the Member States involved or with the flag CPC involved.</p>
+                           </content>
+                        </point>
+                     </list>
+                  </paragraph>
+                  <paragraph>
+                     <num>4.</num>
+                     <content>
+                        <p>The caging authorisation shall be granted or refused by the Member State or CPC responsible for the catching vessel, trap or, if applicable, farm, within one working day following the request and the submission of the information referred to in paragraph 2. If no response is received within one working day from the Member State or CPC responsible for the catching vessel or trap, the Member State or CPC responsible for the farm may authorise the caging.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>5.</num>
+                     <content>
+                        <p>Bluefin tuna shall be caged before 15 August, unless the Member State or CPC responsible for the farm receiving the fish provides duly justified reasons. Such reasons shall be submitted with the caging report.</p>
+                     </content>
+                  </paragraph>
+               </article>
+               <article xml:id="art_d23e2092">
+                  <num>Article 41</num>
+                  <heading>Refusal of caging authorisation</heading>
+                  <paragraph>
+                     <num>1.</num>
+                     <subparagraph>
+                        <content>
+                           <p>The Member State responsible for the catching vessel, trap or, if applicable, farm, shall refuse the caging authorisation if it considers, on receipt of the information referred to in Article 40(2), that:</p>
+                        </content>
+                     </subparagraph>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <content>
+                              <p>the catching vessel or trap that is declared to have caught the fish did not have sufficient quota for the bluefin tuna that were put into the cage;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <content>
+                              <p>the quantity of fish has not been duly reported by the catching vessel or trap or has not been taken into account for the calculation of the quota applicable; or</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(c)</num>
+                           <content>
+                              <p>the catching vessel or trap that is declared to have caught the fish is not authorised to fish for bluefin tuna.</p>
+                           </content>
+                        </point>
+                     </list>
+                  </paragraph>
+                  <paragraph>
+                     <num>2.</num>
+                     <content>
+                        <p>If the caging is not authorised, the Member State or CPC responsible for the catching vessel shall request the Member State or CPC responsible for the farm to seize the catches and to release the fish by issuing a release order.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>3.</num>
+                     <content>
+                        <p>Upon receipt of the release order, the farm operator shall proceed with the releases in accordance with Annex XI.</p>
+                     </content>
+                  </paragraph>
+               </article>
+               <article xml:id="art_d23e2133">
+                  <num>Article 42</num>
+                  <heading>Bluefin tuna catch documentation</heading>
+                  <paragraph>
+                     <content>
+                        <p>Member States responsible for farms shall prohibit any placing of bluefin tuna in cages for the purpose of farming that is not accompanied by the documentation required by ICCAT and in accordance with Regulation (EU) No 640/2010 of the European Parliament and of the Council<authorialNote placement="bottom" marker="18">
+                              <p>Regulation (EU) No 640/2010 of the European Parliament and of the Council of 7 July 2010 establishing a catch documentation programme for bluefin tuna <i>Thunnus thynnus</i> and amending Council Regulation (EC) No 1984/2003 (OJ L 194, 24.7.2010, p. 1).</p>
+                           </authorialNote>. The documentation shall be accurate, complete and confirmed and validated by the Member State or CPC authorities of the catching vessels or traps.</p>
+                     </content>
+                  </paragraph>
+               </article>
+               <article xml:id="art_d23e2153">
+                  <num>Article 43</num>
+                  <heading>Inspections</heading>
+                  <paragraph>
+                     <content>
+                        <p>Member States responsible for farms shall take the necessary measures to inspect each caging operation in the farms.</p>
+                     </content>
+                  </paragraph>
+               </article>
+               <article xml:id="art_d23e2160">
+                  <num>Article 44</num>
+                  <heading>Monitoring by video camera</heading>
+                  <paragraph>
+                     <num>1.</num>
+                     <content>
+                        <p>Each Member State responsible for the farm shall ensure that caging operations are monitored by video camera in the water. A video record shall be produced for each caging operation in accordance with Annex IX.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>2.</num>
+                     <content>
+                        <p>Each Member State responsible for the farm shall ensure that the video records referred to in paragraph 1 are made available to the ICCAT inspectors and regional observers.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>3.</num>
+                     <content>
+                        <p>Each Member State responsible for the farm shall ensure that the video records referred to in paragraph 1 are made available to Union inspectors and national observers.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>4.</num>
+                     <content>
+                        <p>Each Member State responsible for the farm shall take the necessary measures to avoid any replacement, editing or manipulation of the original video record.</p>
+                     </content>
+                  </paragraph>
+               </article>
+               <article xml:id="art_d23e2185">
+                  <num>Article 45</num>
+                  <heading>Launching and conduct of investigations</heading>
+                  <paragraph>
+                     <num>1.</num>
+                     <content>
+                        <p>Where there is a difference of more than 10 % in the number of bluefin tuna between the estimates made by the ICCAT regional observer, the relevant Member State control authorities or the farm operator, the Member State responsible for the farm shall, in cooperation with the Member State or CPC responsible for the catching vessel or trap, launch an investigation.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>2.</num>
+                     <content>
+                        <p>Pending the results of that investigation, harvesting shall not take place and the farming section of the BCD shall not be validated.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>3.</num>
+                     <content>
+                        <p>The Member States responsible for the farm and for the catching vessel or trap which undertake the investigations may use other information at their disposal including the results of the programmes referred to in Article 46 to conclude the investigation.</p>
+                     </content>
+                  </paragraph>
+               </article>
+               <article xml:id="art_d23e2206">
+                  <num>Article 46</num>
+                  <heading>Measures and programmes to estimate the number and weight of bluefin tuna to be caged</heading>
+                  <paragraph>
+                     <num>1.</num>
+                     <content>
+                        <p>Member States shall take the necessary measures and actions as referred to in Article 37.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>2.</num>
+                     <content>
+                        <p>A programme using stereoscopic camera systems or alternative techniques that provide the equivalent precision shall cover 100 % of the caging operations in order to refine the number and weight of the fish in each caging operation.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>3.</num>
+                     <content>
+                        <p>That programme shall be implemented in accordance with the procedures set out in Section B of Annex X.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>4.</num>
+                     <content>
+                        <p>The results of that programme shall be communicated by the Member State responsible for the farm to the Member State or CPC responsible for the catching vessel or trap and to the Commission in accordance with Section B of Annex X. The Commission shall transmit them to the ICCAT Secretariat for transmission to the ICCAT regional observer.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>5.</num>
+                     <content>
+                        <p>When the results of the programme indicate that the quantities of bluefin tuna being caged differ from the quantities reported caught and transferred, the Member State responsible for the farm shall, in cooperation with the Member State or CPC responsible for the catching vessel or trap, launch an investigation. If the investigation is not concluded within 10 working days from the communication of the results referred to in paragraph 4 of this Article or if the outcome of the investigation indicates that the number or average weight of bluefin tuna is in excess of that reported caught and transferred, the flag Member State or CPC authorities of the catching vessel or trap shall issue a release order for the excess which must be released in accordance with the procedures laid down in Annex XI.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>6.</num>
+                     <subparagraph>
+                        <content>
+                           <p>In accordance with the procedures set out in point 3 of Section B of Annex X and following the release, if applicable, the quantities derived from the programme shall be used to:</p>
+                        </content>
+                     </subparagraph>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <content>
+                              <p>determine the final catch figures to be deducted from the national quota;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <content>
+                              <p>fill in those figures in the caging declarations and relevant sections of the BCD.</p>
+                           </content>
+                        </point>
+                     </list>
+                  </paragraph>
+                  <paragraph>
+                     <num>7.</num>
+                     <content>
+                        <p>Each Member State responsible for the farm shall report on the results of those programmes by 30 August of each year to the Commission who shall submit those reports to the SCRS.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>8.</num>
+                     <content>
+                        <p>The transfer of live bluefin tuna from one farming cage to another farming cage shall not take place without the authorisation and the presence of the farm state control authorities.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>9.</num>
+                     <content>
+                        <p>A difference superior or equal to 10 % between the quantities of bluefin tuna reported caught by the vessel/trap and the quantities established by the control cameras, as referred to in paragraph 5 of this Article and Article 45, shall constitute a potential non-compliance by the vessel/trap concerned and Member States shall take the necessary measures to ensure the appropriate follow-up.</p>
+                     </content>
+                  </paragraph>
+               </article>
+               <article xml:id="art_d23e2270">
+                  <num>Article 47</num>
+                  <heading>Caging report</heading>
+                  <paragraph>
+                     <num>1.</num>
+                     <content>
+                        <p>Within one week of the completion of the caging operation, the Member State responsible for the farm shall submit a caging report containing the elements set up in Section B of Annex X to the Member State or CPC whose vessels or traps have caught the bluefin tuna, and to the Commission. The report shall also contain the information included in the caging declaration as set out in Article 4b of and Annex Ia to Regulation (EC) No 1936/2001. The Commission shall forward the report to the ICCAT Secretariat.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>2.</num>
+                     <content>
+                        <p>For the purposes of paragraph 1, a caging operation shall not be deemed to be completed until any investigation launched and, if applicable, any release operation ordered, is concluded.</p>
+                     </content>
+                  </paragraph>
+               </article>
+               <article xml:id="art_d23e2287">
+                  <num>Article 48</num>
+                  <heading>Implementing acts</heading>
+                  <paragraph>
+                     <content>
+                        <p>The Commission may adopt implementing acts laying down detailed rules for caging operations referred to in Articles 40 to 47 and the Annexes referred to in those Articles. Those implementing acts shall be adopted in accordance with the examination procedure referred to in Article 59(2).</p>
+                     </content>
+                  </paragraph>
+               </article>
+            </section>
+            <section>
+               <num>SECTION 6</num>
+               <heading>Monitoring and surveillance</heading>
+               <article xml:id="art_d23e2305">
+                  <num>Article 49</num>
+                  <heading>Vessel monitoring system</heading>
+                  <paragraph>
+                     <num>1.</num>
+                     <content>
+                        <p>By way of derogation from Article 9(2) of Regulation (EC) No 1224/2009, the obligation concerning the VMS shall apply to all tug and towing vessels included in the ICCAT record of vessels referred to in Article 20(6) of this Regulation, irrespective of their length.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>2.</num>
+                     <content>
+                        <p>Fishing vessels over 15 metres length that are included in the list of vessels referred to in point (a) of Article 20(1) or in the list of vessels referred to in point (b) of Article 20(1) shall begin to transmit VMS data to ICCAT at least 15 days before the opening of the fishing season and shall continue to transmit those data for at least 15 days after the closure of the fishing season, unless a request is sent in advance to the Commission for the vessel to be removed from the ICCAT record of vessels.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>3.</num>
+                     <content>
+                        <p>For control purposes, the transmission of VMS data from catching vessels that are authorised to fish actively for bluefin tuna shall not be interrupted when vessels are in port.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>4.</num>
+                     <content>
+                        <p>Member States shall ensure that their fisheries monitoring centres forward to the Commission and a body designated by it, in real time and using the format &apos;https data feed&apos;, the VMS messages received from the fishing vessels flying their flag. The Commission shall send those messages electronically to the ICCAT Secretariat.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>5.</num>
+                     <subparagraph>
+                        <content>
+                           <p>Member States shall ensure that:</p>
+                        </content>
+                     </subparagraph>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <content>
+                              <p>VMS messages from the fishing vessels flying their flag are forwarded to the Commission at least every two hours;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <content>
+                              <p>in the event of technical malfunction of the VMS, alternative messages from the fishing vessels flying their flag received under Article 25(1) of Implementing Regulation (EU) No 404/2011 are forwarded to the Commission within 24 hours of receipt by their fisheries monitoring centres;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(c)</num>
+                           <content>
+                              <p>messages forwarded to the Commission are sequentially numbered (with a unique identifier) in order to avoid duplication;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(d)</num>
+                           <content>
+                              <p>messages forwarded to the Commission are in accordance with Article 24(3) of Implementing Regulation (EU) No 404/2011.</p>
+                           </content>
+                        </point>
+                     </list>
+                  </paragraph>
+                  <paragraph>
+                     <num>6.</num>
+                     <content>
+                        <p>Each Member State shall take the necessary measures to ensure that all messages made available to its inspection vessels are treated in a confidential manner and are limited to inspection at sea operations.</p>
+                     </content>
+                  </paragraph>
+               </article>
+               <article xml:id="art_d23e2370">
+                  <num>Article 50</num>
+                  <heading>National observer programme</heading>
+                  <paragraph>
+                     <num>1.</num>
+                     <subparagraph>
+                        <content>
+                           <p>In respect of vessels active in the bluefin tuna fishery, Member States shall ensure at least the following percentage levels of national observer coverage:</p>
+                        </content>
+                     </subparagraph>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <content>
+                              <p>20 % of its pelagic trawlers (over 15 metres);</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <content>
+                              <p>20 % of its long line vessels (over 15 metres);</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(c)</num>
+                           <content>
+                              <p>20 % of its bait boats (over 15 metres);</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(d)</num>
+                           <content>
+                              <p>100 % of towing vessels;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(e)</num>
+                           <content>
+                              <p>100 % of harvesting operations from traps.</p>
+                           </content>
+                        </point>
+                     </list>
+                  </paragraph>
+                  <paragraph>
+                     <num>2.</num>
+                     <content>
+                        <p>Member States shall issue national observers with an official identification document.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>3.</num>
+                     <subparagraph>
+                        <content>
+                           <p>The national observer tasks shall be, in particular, to:</p>
+                        </content>
+                     </subparagraph>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <content>
+                              <p>monitor compliance by fishing vessels and traps with this Regulation;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <alinea>
+                              <content>
+                                 <p>record, and report upon, the fishing activity which shall include the following:</p>
+                              </content>
+                           </alinea>
+                           <list>
+                              <point>
+                                 <num>(i)</num>
+                                 <content>
+                                    <p>amount of catch (including by-catch) that also includes species disposition, such as retained on board or discarded dead or alive;</p>
+                                 </content>
+                              </point>
+                              <point>
+                                 <num>(ii)</num>
+                                 <content>
+                                    <p>area of catch by latitude and longitude;</p>
+                                 </content>
+                              </point>
+                              <point>
+                                 <num>(iii)</num>
+                                 <content>
+                                    <p>measure of effort (such as the number of sets, number of hooks), as defined in the ICCAT Field Manual for different gears;</p>
+                                 </content>
+                              </point>
+                              <point>
+                                 <num>(iv)</num>
+                                 <content>
+                                    <p>date of catch;</p>
+                                 </content>
+                              </point>
+                           </list>
+                        </point>
+                        <point>
+                           <num>(c)</num>
+                           <content>
+                              <p>observe and estimate catches and verify entries made in the logbook;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(d)</num>
+                           <content>
+                              <p>sight and record vessels which may be fishing contrary to ICCAT conservation and management measures.</p>
+                           </content>
+                        </point>
+                     </list>
+                  </paragraph>
+                  <paragraph>
+                     <num>4.</num>
+                     <content>
+                        <p>National observers shall also carry out scientific work, such as collecting Task II data as defined by ICCAT, when required by ICCAT, based on the instructions from the SCRS.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>5.</num>
+                     <subparagraph>
+                        <content>
+                           <p>For the purposes of paragraphs 1 to 4, each Member State shall also ensure:</p>
+                        </content>
+                     </subparagraph>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <content>
+                              <p>representative temporal and spatial presence of national observers on its vessels and traps to ensure that the Commission receives adequate and appropriate data and information on catch, effort and other scientific and management aspects, taking into account characteristics of the fleets and fisheries;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <content>
+                              <p>robust data collection protocols;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(c)</num>
+                           <content>
+                              <p>that national observers are properly trained and approved before deployment;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(d)</num>
+                           <content>
+                              <p>to the extent possible, minimal disruption to the operations of fishing vessels and traps fishing in the Convention Area.</p>
+                           </content>
+                        </point>
+                     </list>
+                  </paragraph>
+                  <paragraph>
+                     <num>6.</num>
+                     <content>
+                        <p>Data and information collected under each Member State&apos;s observer programme shall be provided to the Commission by 15 July each year. The Commission shall forward that data and information to the SCRS and the ICCAT Secretariat, as appropriate.</p>
+                     </content>
+                  </paragraph>
+               </article>
+               <article xml:id="art_d23e2516">
+                  <num>Article 51</num>
+                  <heading>ICCAT regional observer programme</heading>
+                  <paragraph>
+                     <num>1.</num>
+                     <content>
+                        <p>The ICCAT regional observer programme as set out in paragraphs 2 to 6 and as further specified in Annex VII shall apply in the Union.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>2.</num>
+                     <subparagraph>
+                        <content>
+                           <p>Member States shall ensure that an ICCAT regional observer is present:</p>
+                        </content>
+                     </subparagraph>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <content>
+                              <p>on all purse seiners authorised to fish bluefin tuna;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <content>
+                              <p>during all transfers of bluefin tuna from purse seiners;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(c)</num>
+                           <content>
+                              <p>during all transfers of bluefin tuna from traps to transport cages;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(d)</num>
+                           <content>
+                              <p>during all transfers from one farm to another;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(e)</num>
+                           <content>
+                              <p>during all caging operations of bluefin tuna in farms;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(f)</num>
+                           <content>
+                              <p>during all harvesting of bluefin tuna from farms.</p>
+                           </content>
+                        </point>
+                     </list>
+                  </paragraph>
+                  <paragraph>
+                     <num>3.</num>
+                     <content>
+                        <p>Purse seiners without an ICCAT regional observer shall not be authorised to fish or to operate in the bluefin tuna fishery.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>4.</num>
+                     <content>
+                        <p>Member States responsible for farms shall ensure an ICCAT regional observer&apos;s presence during all caging operations and all harvesting of fish from those farms.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>5.</num>
+                     <subparagraph>
+                        <content>
+                           <p>The tasks of ICCAT regional observers shall be, in particular, to:</p>
+                        </content>
+                     </subparagraph>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <content>
+                              <p>observe and monitor that fishing and farming operations are in compliance with the relevant ICCAT conservation and management measures;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <content>
+                              <p>sign the ICCAT transfer declarations referred to in Article 38, caging reports referred to in Article 47 and BCDs when they agree that the information contained therein is consistent with their observations;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(c)</num>
+                           <content>
+                              <p>carry out scientific work, such as collecting samples, as required by ICCAT, based on the instructions from the SCRS.</p>
+                           </content>
+                        </point>
+                     </list>
+                  </paragraph>
+                  <paragraph>
+                     <num>6.</num>
+                     <content>
+                        <p>The flag Member State shall ensure that masters, crew, farm, trap and vessel owners do not obstruct, intimidate, interfere with, influence, bribe or attempt to bribe ICCAT regional observers in the performance of their duties.</p>
+                     </content>
+                  </paragraph>
+               </article>
+            </section>
+            <section>
+               <num>SECTION 7</num>
+               <heading>Inspections and cross-checks</heading>
+               <article xml:id="art_d23e2621">
+                  <num>Article 52</num>
+                  <heading>ICCAT Scheme of Joint International Inspection</heading>
+                  <paragraph>
+                     <num>1.</num>
+                     <content>
+                        <p>The ICCAT Scheme of Joint International Inspection (&apos;the ICCAT scheme&apos;) set out in Annex VIII shall apply in the Union.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>2.</num>
+                     <content>
+                        <p>Member States whose fishing vessels are authorised to fish bluefin tuna in the eastern Atlantic and the Mediterranean shall assign inspectors and carry out inspections at sea under the ICCAT scheme.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>3.</num>
+                     <content>
+                        <p>If, at any time, more than 15 fishing vessels flagged to a Member State are engaged in bluefin tuna fishing activities in the Convention area, that Member State shall deploy an inspection vessel for the purpose of inspection and control at sea in the Convention area throughout the period that those vessels are there. That obligation shall be deemed to have been complied with where Member States cooperate to deploy an inspection vessel or where a Union inspection vessel is deployed in the Convention area.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>4.</num>
+                     <content>
+                        <p>The Commission or a body designated by it may assign Union inspectors to the ICCAT scheme.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>5.</num>
+                     <content>
+                        <p>The Commission or a body designated by it shall coordinate the surveillance and inspection activities for the Union. The Commission may draw up, in coordination with the Member States concerned, joint inspection programmes to enable the Union to fulfil its obligation under the ICCAT scheme. Member States whose fishing vessels are engaged in the fishery of bluefin tuna shall adopt the necessary measures to facilitate the implementation of those programmes particularly as regards the human and material resources required and the periods and geographical areas when those resources are to be deployed.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>6.</num>
+                     <content>
+                        <p>Member States shall inform the Commission by 1 April of each year of the names of the inspectors and the inspection vessels they intend to assign to the ICCAT scheme during the year. Using that information, the Commission shall draw up, in collaboration with the Member States, a plan for the Union participation in the ICCAT scheme each year, which it shall send to the ICCAT Secretariat and the Member States.</p>
+                     </content>
+                  </paragraph>
+               </article>
+               <article xml:id="art_d23e2661">
+                  <num>Article 53</num>
+                  <heading>Transmission of inspection plans</heading>
+                  <paragraph>
+                     <num>1.</num>
+                     <subparagraph>
+                        <content>
+                           <p>By 31 January each year, Member States shall transmit their inspection plans to the Commission. The inspection plans shall be set up in accordance with:</p>
+                        </content>
+                     </subparagraph>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <content>
+                              <p>the objectives, priorities, and procedures as well as benchmarks for inspection activities set up in the Specific control and inspection programme for bluefin tuna in the eastern Atlantic and the Mediterranean established under Article 95 of Regulation (EC) No 1224/2009;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <content>
+                              <p>the National control action programme for bluefin tuna in the eastern Atlantic and the Mediterranean established under Article 46 of Regulation (EC) No 1224/2009.</p>
+                           </content>
+                        </point>
+                     </list>
+                  </paragraph>
+                  <paragraph>
+                     <num>2.</num>
+                     <content>
+                        <p>The Commission shall compile the national inspection plans and integrate them into the Union inspection plan. That plan shall be transmitted by the Commission to the ICCAT Secretariat, for endorsement by ICCAT, together with the plans referred to in Article 6(1).</p>
+                     </content>
+                  </paragraph>
+               </article>
+               <article xml:id="art_d23e2690">
+                  <num>Article 54</num>
+                  <heading>Inspections in case of infringements</heading>
+                  <paragraph>
+                     <num>1.</num>
+                     <subparagraph>
+                        <content>
+                           <p>The flag Member State shall take the action under paragraph 2 of this Article if a vessel flying its flag has:</p>
+                        </content>
+                     </subparagraph>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <content>
+                              <p>failed in its reporting requirement referred to in Articles 25 and 26; or</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <content>
+                              <p>committed an infringement of the provisions of this Regulation, Articles 89 to 93 of Regulation (EC) No 1224/2009 or Chapter IX of Regulation (EC) No 1005/2008.</p>
+                           </content>
+                        </point>
+                     </list>
+                  </paragraph>
+                  <paragraph>
+                     <num>2.</num>
+                     <content>
+                        <p>The flag Member State shall ensure that a physical inspection takes place under its authority in its ports or by another person designated by the flag Member State when the vessel is not in one of its ports.</p>
+                     </content>
+                  </paragraph>
+               </article>
+               <article xml:id="art_d23e2719">
+                  <num>Article 55</num>
+                  <heading>Cross-check</heading>
+                  <paragraph>
+                     <num>1.</num>
+                     <content>
+                        <p>Each Member State shall verify, including by using inspection reports, observer reports and VMS data, the submission of logbooks and relevant information recorded in the logbooks of its fishing vessels, transfer or transhipment documents and BCDs, in accordance with Article 109 of Regulation (EC) No 1224/2009.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>2.</num>
+                     <content>
+                        <p>Each Member State shall carry out cross-checks on all landings, transhipments or cagings between the quantities by species recorded in the fishing vessels logbook or quantities by species recorded in the transfer or transhipment declaration and the quantities recorded in the landing declaration or caging declaration, and any other relevant document, such as an invoice and/or sales notes, in accordance with Article 109 of Regulation (EC) No 1224/2009.</p>
+                     </content>
+                  </paragraph>
+               </article>
+            </section>
+            <section>
+               <num>SECTION 8</num>
+               <heading>Marketing</heading>
+               <article xml:id="art_d23e2746">
+                  <num>Article 56</num>
+                  <heading>Marketing measures</heading>
+                  <paragraph>
+                     <num>1.</num>
+                     <content>
+                        <p>Without prejudice to Regulations (EC) No 1224/2009, (EC) No 1005/2008 and Regulation (EU) No 1379/2013 of the European Parliament and of the Council<authorialNote placement="bottom" marker="19">
+                              <p>Regulation (EU) No 1379/2013 of the European Parliament and of the Council of 11 December 2013 on the common organisation of the markets in fishery and aquaculture products, amending Council Regulations (EC) No 1184/2006 and (EC) No 1224/2009 and repealing Council Regulation (EC) No 104/2000 (OJ L 354, 28.12.2013, p. 1).</p>
+                           </authorialNote>, Union trade, landing, import, export, placing in cages for fattening or farming, re-export and transhipment of bluefin tuna that are not accompanied by accurate, complete and validated documentation set out in this Regulation, Regulation (EU) No 640/2010 and Article 4b of Regulation (EC) No 1936/2001, shall be prohibited.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>2.</num>
+                     <subparagraph>
+                        <content>
+                           <p>Union trade, import, landing, placing in cages for fattening or farming, processing, export, re-export and transhipment of bluefin tuna shall be prohibited if:</p>
+                        </content>
+                     </subparagraph>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <content>
+                              <p>the bluefin tuna was caught by fishing vessels or traps whose flag State does not have a quota, catch limit or allocation of fishing effort for bluefin tuna in the eastern Atlantic and the Mediterranean, under the terms of ICCAT conservation and management measures; or</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <content>
+                              <p>the bluefin tuna was caught by a fishing vessel or a trap whose individual quota or whose state&apos;s fishing opportunities were exhausted at the time of the catch.</p>
+                           </content>
+                        </point>
+                     </list>
+                  </paragraph>
+                  <paragraph>
+                     <num>3.</num>
+                     <content>
+                        <p>Without prejudice to Regulations (EC) No 1224/2009, (EC) No 1005/2008 and (EU) No 1379/2013, Union trade, imports, landings, processing and exports of bluefin tuna from fattening or farming farms that do not comply with the Regulations referred to in paragraph 1 shall be prohibited.</p>
+                     </content>
+                  </paragraph>
+               </article>
+            </section>
+         </chapter>
+         <chapter>
+            <num>CHAPTER VI</num>
+            <heading>FINAL PROVISIONS</heading>
+            <article xml:id="art_d23e2799">
+               <num>Article 57</num>
+               <heading>Evaluation</heading>
+               <paragraph>
+                  <content>
+                     <p>Member States shall submit to the Commission by 15 September each year a detailed report on their implementation of this Regulation. Based on the information received from Member States, the Commission shall submit by 15 October each year to the ICCAT Secretariat a detailed report on the implementation of ICCAT Recommendation 14-04.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d23e2806">
+               <num>Article 58</num>
+               <heading>Financing</heading>
+               <paragraph>
+                  <content>
+                     <p>For the purposes of Regulation (EU) No 508/2014 of the European Parliament and of the Council<authorialNote placement="bottom" marker="20">
+                           <p>Regulation (EU) No 508/2014 of the European Parliament and of the Council of 15 May 2014 on the European Maritime and Fisheries Fund and repealing Council Regulations (EC) No 2328/2003, (EC) No 861/2006, (EC) No 1198/2006 and (EC) No 791/2007 and Regulation (EU) No 1255/2011 of the European Parliament and of the Council (OJ L 149, 20.5.2014, p. 1).</p>
+                        </authorialNote>, the multiannual recovery plan for bluefin tuna in the eastern Atlantic and the Mediterranean shall be deemed to be a multiannual plan within the meaning of Article 9 of Regulation (EU) No 1380/2013.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d23e2824">
+               <num>Article 59</num>
+               <heading>Implementation</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>The Commission shall be assisted by the Committee for Fisheries and Aquaculture established by Article 47 of Regulation (EU) No 1380/2013. That committee shall be a committee within the meaning of Regulation (EU) No 182/2011.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>Where reference is made to this paragraph, Article 5 of Regulation (EU) No 182/2011 shall apply.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d23e2839">
+               <num>Article 60</num>
+               <heading>Repeal</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>Regulation (EC) No 302/2009 is hereby repealed.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>References to the repealed Regulation shall be construed as references to this Regulation and shall be read in accordance with the correlation table set out in Annex XIII.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d23e2854">
+               <num>Article 61</num>
+               <heading>Entry into force</heading>
+               <paragraph>
+                  <content>
+                     <p>This Regulation shall enter into force on the twentieth day following that of its publication in the <i>Official Journal of the European Union</i>.</p>
+                  </content>
+               </paragraph>
+            </article>
+         </chapter>
+         <clause>
+            <content>
+               <p>This Regulation shall be binding in its entirety and directly applicable in all Member States.</p>
+            </content>
+         </clause>
+      </body>
+      <conclusions>
+         <p>Done at Strasbourg, 14 September 2016.</p>
+         <block name="signatory">
+            <signature>
+               <organization refersTo="">For the European Parliament</organization>
+               <role refersTo="">The President</role>
+               <person refersTo="">M. SCHULZ</person>
+            </signature>
+            <signature>
+               <organization refersTo="">For the Council</organization>
+               <role refersTo="">The President</role>
+               <person refersTo="">I. KORČOK</person>
+            </signature>
+         </block>
+      </conclusions>
+   </bill>
+</akomaNtoso>

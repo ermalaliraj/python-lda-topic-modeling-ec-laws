@@ -1,0 +1,1551 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"
+            xmlns:fmx="http://formex.publications.europa.eu/schema/formex-05.21-20110601.xd"
+            xmlns:leos="urn:eu:europa:ec:leos"
+            xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <bill name="">
+      <meta xmlns:fn="http://www.w3.org/2005/xpath-functions">
+         <identification source="~COM">
+            <FRBRWork>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRcountry value=""/>
+            </FRBRWork>
+            <FRBRExpression>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+            </FRBRManifestation>
+         </identification>
+      </meta>
+      <preface>
+         <longTitle>
+            <p>
+               <docStage/>
+               <docType>COMMISSION REGULATION (EU) 2017/2400</docType>of 12 December 2017<docPurpose>implementing Regulation (EC) No 595/2009 of the European Parliament and of the Council as regards the determination of the CO<sub>2</sub> emissions and fuel consumption of heavy-duty vehicles and amending Directive 2007/46/EC of the European Parliament and of the Council and Commission Regulation (EU) No 582/2011</docPurpose>
+            </p>
+         </longTitle>
+         <container name="EEArelevance">
+            <p>(Text with EEA relevance)</p>
+         </container>
+      </preface>
+      <preamble>
+         <formula name="actingEntity">
+            <p>THE EUROPEAN COMMISSION,</p>
+         </formula>
+         <citations>
+            <citation>
+               <p>Having regard to the Treaty on the Functioning of the European Union,</p>
+            </citation>
+            <citation>
+               <p>Having regard to Regulation (EC) No 595/2009 of the European Parliament and of the Council of 18 June 2009 on type-approval of motor vehicles and engines with respect to emissions from heavy duty vehicles (Euro VI) and on access to vehicle repair and maintenance information and amending Regulation (EC) No 715/2007 and Directive 2007/46/EC and repealing Directives 80/1269/EEC, 2005/55/EC and 2005/78/EC<authorialNote placement="bottom" marker="1">
+                     <p>OJ L 188, 18.7.2009, p. 1.</p>
+                  </authorialNote>, and in particular Article 4(3) and Article 5(4)(e) thereof,</p>
+            </citation>
+            <citation>
+               <p>Having regard to Directive 2007/46/EC of the European Parliament and of the Council of 5 September 2007 establishing a framework for the approval of motor vehicles and their trailers, and of systems, components and separate technical units intended for such vehicles (Framework Directive)<authorialNote placement="bottom" marker="2">
+                     <p>OJ L 263, 9.10.2007, p. 1.</p>
+                  </authorialNote>, and in particular Article 39(7) thereof,</p>
+            </citation>
+         </citations>
+         <recitals xml:id="recs_d685e85">
+            <intro>
+               <p>Whereas:</p>
+            </intro>
+            <recital xml:id="rec_d685e88">
+               <num>(1)</num>
+               <p>Regulation (EC) No 595/2009 is one of the separate regulatory acts under the type-approval procedure laid down by Directive 2007/46/EC. It empowers the Commission to adopt measures relating to CO<sub>2</sub> emissions and fuel consumption of heavy duty vehicles. The present Regulation aims at establishing measures for obtaining accurate information on CO<sub>2</sub> emissions and fuel consumption of new heavy-duty vehicles placed on the Union market.</p>
+            </recital>
+            <recital xml:id="rec_d685e100">
+               <num>(2)</num>
+               <p>Directive 2007/46/EC sets out the necessary requirements for the purpose of a whole vehicle type-approval.</p>
+            </recital>
+            <recital xml:id="rec_d685e106">
+               <num>(3)</num>
+               <p>Commission Regulation (EU) No 582/2011<authorialNote placement="bottom" marker="3">
+                     <p>Commission Regulation (EU) No 582/2011 of 25 May 2011 implementing and amending Regulation (EC) No 595/2009 of the European Parliament and of the Council with respect to emissions from heavy duty vehicles (Euro VI) and amending Annexes I and III to Directive 2007/46/EC of the European Parliament and of the Council (OJ L 167, 25.6.2011, p. 1).</p>
+                  </authorialNote> sets out requirements for the approval of heavy-duty vehicles with regard to emissions and access to vehicle repair and maintenance information. Measures for the determination of CO<sub>2</sub> emissions and fuel consumption of new heavy-duty vehicles should be part of the type-approval system instituted by this Regulation. A licence to perform simulations to establish CO<sub>2</sub> emissions and fuel consumption of a vehicle will be required to obtain the approvals mentioned above.</p>
+            </recital>
+            <recital xml:id="rec_d685e129">
+               <num>(4)</num>
+               <p>Emissions from lorries, buses and coaches, which are the most widely representative categories of heavy-duty vehicles, currently represent around 25 % of road transport CO<sub>2</sub> emissions and are expected to increase even further in the future. In order to reach the target of a 60 % reduction of CO<sub>2</sub> emissions from transport by 2050, effective measures to curb emissions from heavy-duty vehicles need to be introduced.</p>
+            </recital>
+            <recital xml:id="rec_d685e141">
+               <num>(5)</num>
+               <p>Until now, no common method has been laid down by Union legislation to measure CO<sub>2</sub> emissions and fuel consumption of heavy-duty vehicles, rendering it impossible to objectively compare performance of vehicles or to introduce measures, whether on the Union or national level, that would encourage the introduction of more energy-efficient vehicles. As a consequence, there has been no transparency in the market as regards the energy-efficiency of heavy-duty vehicles.</p>
+            </recital>
+            <recital xml:id="rec_d685e150">
+               <num>(6)</num>
+               <p>The heavy-duty vehicle sector is very diversified, with a significant number of different vehicle types and models as well as with a high degree of customisation. The Commission has conducted an in-depth analysis of the available options to measure CO<sub>2</sub> emissions and fuel consumption of those vehicles and concluded that in order to obtain unique data for each produced vehicle at the lowest cost, CO<sub>2</sub> emissions and fuel consumption of heavy-duty vehicles should be determined using simulation software.</p>
+            </recital>
+            <recital xml:id="rec_d685e162">
+               <num>(7)</num>
+               <p>In order to reflect the diversity of the sector, heavy-duty vehicles should be divided into groups of vehicles with a similar axle configuration, chassis configuration and technically permissible maximum laden mass. Those parameters define the purpose of a vehicle and should therefore determine the set of test cycles used for the purpose of the simulation.</p>
+            </recital>
+            <recital xml:id="rec_d685e168">
+               <num>(8)</num>
+               <p>Since there is no software available on the market to meet the requirements necessary for the purposes of the assessment of CO<sub>2</sub> emissions and fuel consumption of heavy-duty vehicles, the Commission should develop dedicated software to be used for those purposes.</p>
+            </recital>
+            <recital xml:id="rec_d685e177">
+               <num>(9)</num>
+               <p>That software should be publically available, open-source, downloadable and executable. It should include a simulation tool for the calculation of CO<sub>2</sub> emissions and fuel consumption of specific heavy-duty vehicles. The tool should be conceived to use, as input, the data reflecting the characteristics of the components, separate technical units and systems which have a significant impact on the CO<sub>2</sub> emissions and fuel consumption of heavy-duty vehicles &#45; engine, gearbox and additional driveline components, axles, tyres, aerodynamics and auxiliaries. The software should also include pre-processing tools to be used for the verification and pre-processing of the simulation tool input data relating to the engine and vehicle air drag, as well as a hashing tool to be used for the encryption of the simulation tool input and output files.</p>
+            </recital>
+            <recital xml:id="rec_d685e190">
+               <num>(10)</num>
+               <p>In order to enable a realistic assessment, the simulation tool should be equipped with a number of functionalities allowing for a simulation of vehicles with different payloads and fuels over specific test cycles assigned to a vehicle depending on its application.</p>
+            </recital>
+            <recital xml:id="rec_d685e196">
+               <num>(11)</num>
+               <p>Recognizing the importance of the proper functioning of the software for the correct determination of vehicles&apos; CO<sub>2</sub> emissions and fuel consumption and of keeping up with technological progress, the Commission should maintain the software and update it whenever necessary.</p>
+            </recital>
+            <recital xml:id="rec_d685e205">
+               <num>(12)</num>
+               <p>The simulations should be performed by vehicle manufacturers before registration, sale or entry into service of a new vehicle in the Union. Provisions should also be put in place for the licence of the vehicle manufacturers&apos; processes for calculation of the CO<sub>2</sub> emissions and fuel consumption of vehicles. The processes of handling and application of data by the vehicle manufacturers for the purposes of calculation of the CO<sub>2</sub> emissions and fuel consumption of vehicles using the simulation tool should be assessed and closely monitored by the approval authorities in order to ensure that the simulations are conducted in a correct manner. Provisions should therefore be put in place requiring vehicle manufacturers to acquire a licence for the operation of the simulation tool.</p>
+            </recital>
+            <recital xml:id="rec_d685e217">
+               <num>(13)</num>
+               <p>The CO<sub>2</sub> emissions and fuel consumption related properties of the components, separate technical units and systems having a significant impact on the CO<sub>2</sub> emissions and fuel consumption of heavy-duty vehicles should be used as input for the simulation tool.</p>
+            </recital>
+            <recital xml:id="rec_d685e229">
+               <num>(14)</num>
+               <p>In order to reflect the specificities of the individual components, separate technical units and systems and to allow for a more precise determination of their CO<sub>2</sub> emissions and fuel consumption related properties, provisions for the certification of such properties on the basis of testing should be set out.</p>
+            </recital>
+            <recital xml:id="rec_d685e239">
+               <num>(15)</num>
+               <p>For the purpose of limiting the costs of the certification, manufacturers should have the possibility to group into families components, separate technical units and systems with similar design and CO<sub>2</sub> emission and fuel consumption characteristics. One component, separate technical unit or system per family with the least favourable characteristics as regards CO<sub>2</sub> emissions and fuel consumption within that family should be tested and its results should apply to the entire family.</p>
+            </recital>
+            <recital xml:id="rec_d685e251">
+               <num>(16)</num>
+               <p>The costs related to testing may constitute a significant obstacle in particular to companies manufacturing components, separate technical units or systems in small numbers. In order to provide an economically viable alternative to certification, standard values should be set out for certain components, separate technical units and systems with the possibility of using those values instead of the certified values determined on the basis of testing. Standard values should, however, be set out in a way to encourage suppliers of components, separate technical units and systems to apply for certification.</p>
+            </recital>
+            <recital xml:id="rec_d685e257">
+               <num>(17)</num>
+               <p>In order to ensure that the results relating to CO<sub>2</sub> emissions and fuel consumption declared by the suppliers of components, separate technical units and systems as well as vehicle manufacturers are correct, provisions for verifying and ensuring the conformity of the simulation tool operation as well as of the CO<sub>2</sub> emissions and fuel consumption related properties of the relevant components, separate technical units and systems should be set out.</p>
+            </recital>
+            <recital xml:id="rec_d685e269">
+               <num>(18)</num>
+               <p>In order to ensure sufficient lead time for the national authorities and the industry, the obligation to determine and declare CO<sub>2</sub> emissions and fuel consumption of new vehicles should be implemented gradually for different vehicle groups starting with the vehicles which are the biggest contributors to CO<sub>2</sub> emissions of the heavy-duty sector.</p>
+            </recital>
+            <recital xml:id="rec_d685e281">
+               <num>(19)</num>
+               <p>The provisions set out in this Regulation form part of the framework established by Directive 2007/46/EC and complement the provisions for type approval with regard to emissions and vehicle repair and maintenance information laid down in Regulation (EU) No 582/2011. To establish a clear relationship between those provisions and this Regulation, Directive 2007/46/EC and Regulation (EU) No 582/2011 should be amended accordingly.</p>
+            </recital>
+            <recital xml:id="rec_d685e288">
+               <num>(20)</num>
+               <p>The measures provided for in this Regulation are in accordance with the opinion of the Technical Committee Motor Vehicles,</p>
+            </recital>
+         </recitals>
+         <formula name="enactingFormula">
+            <p>HAS ADOPTED THIS REGULATION:</p>
+         </formula>
+      </preamble>
+      <body>
+         <chapter>
+            <num>CHAPTER 1</num>
+            <heading>GENERAL PROVISIONS</heading>
+            <article xml:id="art_d685e306">
+               <num>Article 1</num>
+               <heading>Subject matter</heading>
+               <paragraph>
+                  <content>
+                     <p>This Regulation complements the legal framework for the type-approval of motor vehicles and engines with regard to emissions and vehicle repair and maintenance information established by Regulation (EU) No 582/2011 by laying down the rules for issuing licences to operate a simulation tool with a view to determining CO<sub>2</sub> emissions and fuel consumption of new vehicles to be sold, registered or put into service in the Union and for operating that simulation tool and declaring the CO<sub>2</sub> emissions and fuel consumption values thus determined.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d685e319">
+               <num>Article 2</num>
+               <heading>Scope</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>Subject to the second paragraph of Article 4, this Regulation shall apply to vehicles of category N2, as defined in Annex II to Directive 2007/46/EC, with a technically permissible maximum laden mass exceeding 7500 kg and to all vehicles of category N3, as defined in that Annex.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>In case of multi-stage type-approvals of vehicles referred to in paragraph 1, this Regulation shall apply only to base vehicles equipped at least with a chassis, engine, transmission, axles and tyres.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <content>
+                     <p>This Regulation shall not apply to off-road vehicles, special purpose vehicles and off road special purpose vehicles as defined, respectively, in points 2.1., 2.2. and 2.3. of Part A of Annex II to Directive 2007/46/EC.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d685e343">
+               <num>Article 3</num>
+               <heading>Definitions</heading>
+               <paragraph>
+                  <subparagraph>
+                     <content>
+                        <p>For the purposes of this Regulation, the following definitions shall apply:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(1)</num>
+                        <content>
+                           <p>&apos;CO<sub>2</sub> emissions and fuel consumption related properties&apos; means specific properties derived for a component, separate technical unit and system which determine the impact of the part on the CO<sub>2</sub> emissions and fuel consumption of a vehicle;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(2)</num>
+                        <content>
+                           <p>&apos;input data&apos; means information on the CO<sub>2</sub> emissions and fuel consumption related properties of a component, separate technical unit or system which is used by the simulation tool for the purpose of determining CO<sub>2</sub> emissions and fuel consumption of a vehicle;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(3)</num>
+                        <content>
+                           <p>&apos;input information&apos; means information relating to the characteristics of a vehicle which is used by the simulation tool for the purposes of determining their CO<sub>2</sub> emissions and fuel consumption of the vehicle and which is not part of an input data;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(4)</num>
+                        <content>
+                           <p>&apos;manufacturer&apos; means the person or body who is responsible to the approval authority for all aspects of the certification process and for ensuring conformity of CO<sub>2</sub> emissions and fuel consumption related properties of components, separate technical units and systems. It is not essential that the person or body be directly involved in all stages of the construction of the component, separate technical unit or system which is the subject of the certification.</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(5)</num>
+                        <content>
+                           <p>&apos;authorised entity&apos; means a national authority authorised by a Member State to request relevant information from the manufacturers and vehicle manufacturers on the CO<sub>2</sub> emissions and fuel consumption related properties of a specific component, specific separate technical unit or specific system and CO<sub>2</sub> emissions and fuel consumption of new vehicles respectively.</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(6)</num>
+                        <content>
+                           <p>&apos;transmission&apos; means a device consisting of at least of two shiftable gears, changing torque and speed with defined ratios;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(7)</num>
+                        <content>
+                           <p>&apos;torque converter&apos; means a hydrodynamic start-up component either as a separate component of the driveline or transmission with serial power flow that adapts speed between engine and wheel and provides torque multiplication;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(8)</num>
+                        <content>
+                           <p>&apos;other torque transferring component&apos; or &apos;OTTC&apos; means a rotating component attached to the driveline which produces torque losses dependent on its own rotational speed;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(9)</num>
+                        <content>
+                           <p>&apos;additional driveline component&apos; or &apos;ADC&apos; means a rotating component of the driveline which transfers or distributes power to other driveline components and produces torque losses dependant on its own rotational speed;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(10)</num>
+                        <content>
+                           <p>&apos;axle&apos; means a central shaft for a rotating wheel or gear as drive axle of a vehicle;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(11)</num>
+                        <content>
+                           <p>&apos;air drag&apos; means characteristic of a vehicle configuration regarding aerodynamic force acting on the vehicle opposite to the direction of air flow and determined as a product of the drag coefficient and the cross sectional area for zero crosswind conditions;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(12)</num>
+                        <content>
+                           <p>&apos;auxiliaries&apos; means vehicle components including an engine fan, steering system, electric system, pneumatic system and air conditioning (AC) system whose CO<sub>2</sub> emissions and fuel consumption properties have been defined in Annex IX;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(13)</num>
+                        <content>
+                           <p>&apos;component family&apos;, &apos;separate technical unit family&apos; or &apos;system family&apos; means a manufacturer&apos;s grouping of components, separate technical units or systems, respectively, which through their design have similar CO<sub>2</sub> emissions and fuel consumption related properties;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(14)</num>
+                        <content>
+                           <p>&apos;parent component&apos;, &apos;parent separate technical unit&apos; or &apos;parent system&apos; means a component, separate technical unit or system, respectively, selected from a component, separate technical unit or system family, respectively, in such a way that its CO<sub>2</sub> emissions and fuel consumption related properties will be the worst case for that component family, separate technical unit family or system family;</p>
+                        </content>
+                     </point>
+                  </list>
+               </paragraph>
+            </article>
+            <article xml:id="art_d685e539">
+               <num>Article 4</num>
+               <heading>Vehicle groups</heading>
+               <paragraph>
+                  <content>
+                     <p>For the purpose of this Regulation, motor vehicles shall be classified in vehicle groups in accordance with Table 1 in Annex I.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <content>
+                     <p>Articles 5 to 22 do not apply to motor vehicles of vehicle groups 0, 6, 7, 8, 13, 14, 15 and 17.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d685e548">
+               <num>Article 5</num>
+               <heading>Electronic tools</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <subparagraph>
+                     <content>
+                        <p>The Commission shall provide free of charge the following electronic tools in the form of downloadable and executable software:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(a)</num>
+                        <content>
+                           <p>a simulation tool;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(b)</num>
+                        <content>
+                           <p>pre-processing tools;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(c)</num>
+                        <content>
+                           <p>a hashing tool.</p>
+                        </content>
+                     </point>
+                  </list>
+                  <subparagraph>
+                     <content>
+                        <p>The Commission shall maintain the electronic tools and provide modifications and updates to those tools.</p>
+                     </content>
+                  </subparagraph>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>The Commission shall make the electronic tools referred to in paragraph 1 available through a publicly available dedicated electronic distribution platform.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <content>
+                     <p>The simulation tool shall be used for the purposes of determining CO<sub>2</sub> emissions and fuel consumption of new vehicles. It shall be designed to operate on the basis of input information as specified in Annex III, as well as input data referred to in Article 12(1).</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>4.</num>
+                  <content>
+                     <p>The pre-processing tools shall be used for the purpose of verification and compilation of the testing results and performing additional calculations relating to CO<sub>2</sub> emission and fuel consumption related properties of certain components, separate technical units or systems and converting them in a format used by the simulation tool. The pre-processing tools shall be used by the manufacturer after performing the tests referred to in point 4 of Annex V for engines and in point 3 of Annex VIII for air-drag.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>5.</num>
+                  <content>
+                     <p>The hashing tools shall be used for establishing an unequivocal association between the certified CO<sub>2</sub> emission and fuel consumption related properties of a component, separate technical unit or system and its certification document, as well as for establishing an unequivocal association between a vehicle and its manufacturer&apos;s records file as referred to in point 1of Annex IV.</p>
+                  </content>
+               </paragraph>
+            </article>
+         </chapter>
+         <chapter>
+            <num>CHAPTER 2</num>
+            <heading>LICENCE TO OPERATE THE SIMULATION TOOL FOR THE PURPOSES OF TYPE-APPROVAL WITH REGARD TO EMISSIONS AND VEHICLE REPAIR AND MAINTENANCE INFORMATION</heading>
+            <article xml:id="art_d685e618">
+               <num>Article 6</num>
+               <heading>Application for a licence to operate the simulation tool with a view to determining CO<sub>2</sub> emissions and fuel consumption of new vehicles</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>The vehicle manufacturer shall submit to the approval authority an application for a licence to operate the simulation tool referred to in Article 5(3) with a view to determining CO<sub>2</sub> emissions and fuel consumption of new vehicles belonging to one or more vehicle groups (&apos;licence&apos;).</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>The application for a licence shall take the form of an information document drawn up in accordance with the model set out in Appendix 1 to Annex II.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <subparagraph>
+                     <content>
+                        <p>The application for a licence shall be accompanied by an adequate description of the processes set up by the manufacturer for the purposes of determining CO<sub>2</sub> emissions and fuel consumption with respect to all the vehicle groups concerned, as set out in point 1 of Annex II.</p>
+                     </content>
+                  </subparagraph>
+                  <subparagraph>
+                     <content>
+                        <p>It shall also be accompanied by the assessment report drafted by the approval authority after performing an assessment in accordance with point 2 of Annex II.</p>
+                     </content>
+                  </subparagraph>
+               </paragraph>
+               <paragraph>
+                  <num>4.</num>
+                  <content>
+                     <p>The vehicle manufacturer shall submit the application for a licence drawn up in accordance with paragraphs 2 and 3 to the approval authority at the latest together with the application for an EC type-approval of a vehicle with an approved engine system with regard to emissions and access to vehicle repair and maintenance information pursuant to Article 7 of Regulation (EU) No 582/2011, or with the application for an EC type-approval of a vehicle with regard to emissions and access to vehicle repair and maintenance information pursuant to Article 9 of that Regulation. The application for a licence must concern the vehicle group which includes the type of vehicle concerned by the application for EC type-approval.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d685e659">
+               <num>Article 7</num>
+               <heading>Administrative provisions for the granting of the licence</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <subparagraph>
+                     <content>
+                        <p>The approval authority shall grant the licence if the manufacturer submits an application in accordance with Article 6 and proves that the requirements laid down in Annex II are met with respect to the vehicle groups concerned.</p>
+                     </content>
+                  </subparagraph>
+                  <subparagraph>
+                     <content>
+                        <p>Where the requirements laid down in Annex II are met only with respect to some of the vehicle groups specified in the application for a licence, the licence shall be granted only with respect to those vehicle groups.</p>
+                     </content>
+                  </subparagraph>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>The licence shall be issued in accordance with the model set out in Appendix 2 to Annex II.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d685e676">
+               <num>Article 8</num>
+               <heading>Subsequent changes to the processes set up for the purposes of determining CO<sub>2</sub> emissions and fuel consumption of vehicles</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>A licence shall be extended to vehicle groups other than those to which a licence has been granted, as referred to in Article 7(1), if the vehicle manufacturer proves that the processes set up by him for the purposes of determining CO<sub>2</sub> emissions and fuel consumption of vehicle groups covered by the licence fully meet the requirements of Annex II also in respect of the other vehicle groups.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>The vehicle manufacturer shall apply for an extension of the licence in accordance with Article 6 (1), (2) and (3).</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <content>
+                     <p>After obtaining the licence, the vehicle manufacturer shall notify the approval authority without delay of any changes to the processes set up by him for the purposes of determining CO<sub>2</sub> emissions and fuel consumption for the vehicle groups covered by the licence that may effect on the accuracy, reliability and stability of those processes.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>4.</num>
+                  <content>
+                     <p>Upon receipt of the notification referred to in paragraph 3, the approval authority shall inform the vehicle manufacturer whether processes affected by the changes continue to be covered by the licence granted, whether the licence must be extended in accordance with paragraphs 1 and 2 or whether a new licence should be applied for in accordance with Article 6.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>5.</num>
+                  <content>
+                     <p>Where the changes are not covered by the licence, the manufacturer shall, within one month of receipt of the information referred to in paragraph 4, apply for an extension of the licence or for a new licence. If the manufacturer does not apply for an extension of the licence or a new licence within that deadline, or if the application is rejected, the licence shall be withdrawn.</p>
+                  </content>
+               </paragraph>
+            </article>
+         </chapter>
+         <chapter>
+            <num>CHAPTER 3</num>
+            <heading>OPERATION OF THE SIMULATION TOOL WITH A VIEW TO DETERMINING THE CO<sub>2</sub> EMISSIONS AND FUEL CONSUMPTION FOR THE PURPOSES OF REGISTRATION, SALE AND ENTRY INTO SERVICE OF NEW VEHICLES</heading>
+            <article xml:id="art_d685e727">
+               <num>Article 9</num>
+               <heading>Obligation to determine and declare CO<sub>2</sub> emissions and fuel consumption of new vehicles</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <subparagraph>
+                     <content>
+                        <p>A vehicle manufacturer shall determine the CO<sub>2</sub> emissions and fuel consumption of each new vehicle to be sold, registered or put into service in the Union using the latest available version of the simulation tool referred to in Articles 5(3).</p>
+                     </content>
+                  </subparagraph>
+                  <subparagraph>
+                     <content>
+                        <p>A vehicle manufacturer may operate the simulation tool for the purposes of this Article only if in possession of a licence granted for the vehicle group concerned in accordance with Article 7 or extended to the vehicle group concerned in accordance with Article 8(1).</p>
+                     </content>
+                  </subparagraph>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <subparagraph>
+                     <content>
+                        <p>The vehicle manufacturer shall record the results of the simulation performed in accordance with the first subparagraph of paragraph 1 in the manufacturer&apos;s records file drawn up in accordance with the model set out in Part I of Annex IV.</p>
+                     </content>
+                  </subparagraph>
+                  <subparagraph>
+                     <content>
+                        <p>With the exception of the cases referred to in the second subparagraph of Article 21(3), and in Article 23(6), any subsequent changes to the manufacturer&apos;s records file shall be prohibited.</p>
+                     </content>
+                  </subparagraph>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <content>
+                     <p>The manufacturer shall create a cryptographic hash of the manufacturer&apos;s records file using the hashing tool referred to in Article 5(5).</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>4.</num>
+                  <subparagraph>
+                     <content>
+                        <p>Each vehicle to be registered, sold or to enter into service shall be accompanied by the customer information file drawn up by the manufacturer in accordance with the model set out in Part II to Annex IV.</p>
+                     </content>
+                  </subparagraph>
+                  <subparagraph>
+                     <content>
+                        <p>Each customer information file shall include an imprint of the cryptographic hash of the manufacturer&apos;s records file referred to in paragraph 3.</p>
+                     </content>
+                  </subparagraph>
+               </paragraph>
+               <paragraph>
+                  <num>5.</num>
+                  <subparagraph>
+                     <content>
+                        <p>Each vehicle to be registered, sold or to enter into service shall be accompanied by a certificate of conformity including an imprint of the cryptographic hash of the manufacturer&apos;s records file referred to in paragraph 3.</p>
+                     </content>
+                  </subparagraph>
+                  <subparagraph>
+                     <content>
+                        <p>The first subparagraph shall not apply in the case of vehicles approved in accordance with Article 24 of Directive 2007/46/EC.</p>
+                     </content>
+                  </subparagraph>
+               </paragraph>
+            </article>
+            <article xml:id="art_d685e772">
+               <num>Article 10</num>
+               <heading>Modifications, updates and malfunction of the electronic tools</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>In the case of modifications or updates to the simulation tool, the vehicle manufacturer shall start using the modified or updated simulation tool no later than 3 months after the modifications and updates were made available on the dedicated electronic distribution platform.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>If the CO<sub>2</sub> emissions and fuel consumption of new vehicles cannot be determined in accordance with Article 9(1) due to a malfunction of the simulation tool, the vehicle manufacturer shall notify the Commission thereof without delay by means of the dedicated electronic distribution platform.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <content>
+                     <p>If the CO<sub>2</sub> emissions and fuel consumption of new vehicles cannot be determined in accordance with Article 9(1) due to a malfunction of the simulation tool, the vehicle manufacturer shall perform the simulation of those vehicles not later than 7 calendar days after the date referred to in point 1. Until then, the obligations resulting from Article 9 for the vehicles for which the determination of fuel consumption and CO<sub>2</sub> emissions remains impossible shall be suspended.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d685e801">
+               <num>Article 11</num>
+               <heading>Accessibility of the simulation tool inputs and output information</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>The manufacturer&apos;s records file together with certificates on CO<sub>2</sub> emissions and fuel consumption related properties of the components, systems and separate technical units shall be stored by the vehicle manufacturer for at least 20 years after the production of the vehicle and shall be available to the approval authority and the Commission at their request.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>Upon request by an authorized entity of a Member State or by the Commission, the vehicle manufacturer shall provide, within 15 working days, the manufacturer&apos;s records file.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <content>
+                     <p>Upon request by an authorised entity of a Member State or by the Commission, the approval authority which granted the licence in accordance with Article 7 or certified the CO<sub>2</sub> emissions and fuel consumption related properties of a component, separate technical unit or system in accordance with Article 17 shall provide, within 15 working days, the information document referred to in Article 6(2) or in Article 16(2), respectively.</p>
+                  </content>
+               </paragraph>
+            </article>
+         </chapter>
+         <chapter>
+            <num>CHAPTER 4</num>
+            <heading>CO<sub>2</sub> EMISSIONS AND FUEL CONSUMPTION RELATED PROPERTIES OF COMPONENTS, SEPARATE TECHNICAL UNITS AND SYSTEMS</heading>
+            <article xml:id="art_d685e840">
+               <num>Article 12</num>
+               <heading>Components, separate technical units and systems relevant for the purposes of determining CO<sub>2</sub> emissions and fuel consumption</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <subparagraph>
+                     <content>
+                        <p>The simulation tool input data referred to in Article 5(3) shall include information relating to the CO<sub>2</sub> emissions and fuel consumption related properties of the following components, separate technical units and systems:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(a)</num>
+                        <content>
+                           <p>engines;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(b)</num>
+                        <content>
+                           <p>transmissions;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(c)</num>
+                        <content>
+                           <p>torque converters;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(d)</num>
+                        <content>
+                           <p>other torque transferring components;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(e)</num>
+                        <content>
+                           <p>additional driveline components;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(f)</num>
+                        <content>
+                           <p>axles;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(g)</num>
+                        <content>
+                           <p>body or trailer air drag;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(h)</num>
+                        <content>
+                           <p>auxiliaries;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(i)</num>
+                        <content>
+                           <p>tyres.</p>
+                        </content>
+                     </point>
+                  </list>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>The CO<sub>2</sub> emissions and fuel consumption related properties of the components, separate technical units and systems referred to in points (b) to (g) and (i) of paragraph 1 shall be based either on the values determined, for each component family, separate technical unit family or system family, in accordance with Article 14 and certified in accordance with Article 17 (&apos;certified values&apos;) or, in the absence of the certified values, on the standard values determined in accordance with Article 13.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <content>
+                     <p>The CO<sub>2</sub> emissions and fuel consumption related properties of engines shall be based on the values determined for each engine family in accordance with Article 14 and certified in accordance with Article 17.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>4.</num>
+                  <content>
+                     <p>The CO<sub>2</sub> emissions and fuel consumption related properties of auxiliaries shall be based on the standard values determined in accordance with Article 13.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>5.</num>
+                  <content>
+                     <p>In the case of a base vehicle referred to in Article 2(2), the CO<sub>2</sub> emissions and fuel consumption related properties of components, separate technical units and systems referred to in points (g) and (h) of paragraph 1 which cannot be determined for the base vehicle shall be based on the standard values. For components, separate technical units and systems referred to in point (h), the technology with highest power losses shall be selected by the vehicle manufacturer.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d685e948">
+               <num>Article 13</num>
+               <heading>Standard values</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>The standard values for transmissions shall be determined in accordance with Appendix 8 of Annex VI.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>The standard values for torque converters shall be determined in accordance with Appendix 9 of Annex VI.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <content>
+                     <p>The standard values for other torque-transferring components shall be determined in accordance with Appendix 10 of Annex VI.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>4.</num>
+                  <content>
+                     <p>The standard values for additional driveline components shall be determined in accordance with Appendix 11 of Annex VI.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>5.</num>
+                  <content>
+                     <p>The standard values for axles shall be determined in accordance with Appendix 3 of Annex VII.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>6.</num>
+                  <content>
+                     <p>The standard values for a body or trailer air drag shall be determined in accordance with Appendix 7 of Annex VIII.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>7.</num>
+                  <content>
+                     <p>The standard values for auxiliaries shall be determined in accordance with Annex IX.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>8.</num>
+                  <content>
+                     <p>The standard value for tyres shall be the one for C3 tyres as set out in Table 2 of Part B of Annex II to Regulation (EC) No 661/2009 of the European Parliament and of the Council<authorialNote placement="bottom" marker="4">
+                           <p>Regulation (EC) No 661/2009 of the European Parliament and of the Council of 13 July 2009 concerning type-approval requirements for the general safety of motor vehicles, their trailers and systems, components and separate technical units intended therefor (OJ L 200, 31.7.2009, p. 1).</p>
+                        </authorialNote>.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d685e1004">
+               <num>Article 14</num>
+               <heading>Certified values</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>The values determined in accordance with paragraphs 2 to 9 may be used by the vehicle manufacturer as the simulation tool input data if they are certified in accordance with Article 17.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>The certified values for engines shall be determined in accordance with point 4 of Annex V.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <content>
+                     <p>The certified values for transmissions shall be determined in accordance with point 3 of Annex VI.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>4.</num>
+                  <content>
+                     <p>The certified values for torque converters shall be determined in accordance with point 4 of Annex VI.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>5.</num>
+                  <content>
+                     <p>The certified values for other torque-transferring component shall be determined in accordance with point 5 of Annex VI.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>6.</num>
+                  <content>
+                     <p>The certified values for additional driveline components shall be determined in accordance with point 6 of Annex VI.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>7.</num>
+                  <content>
+                     <p>The certified values for axles shall be determined in accordance with point 4 of Annex VII.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>8.</num>
+                  <content>
+                     <p>The certified values for a body or trailer air drag shall be determined in accordance with point 3 of Annex VIII.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>9.</num>
+                  <content>
+                     <p>The certified values for tyres shall be determined in accordance with Annex X.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d685e1054">
+               <num>Article 15</num>
+               <heading>Family concept regarding components, separate technical units and systems using certified values</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <subparagraph>
+                     <content>
+                        <p>Subject to paragraphs 3 to 6, the certified values determined for a parent component, parent separate technical unit or parent system shall be valid, without further testing, for all family members in accordance with the family definition as set out in:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <indent>
+                        <num>-</num>
+                        <content>
+                           <p>Appendix 6 to Annex VI as regards the family concept of transmissions, torque converters, other torque transferring component and additional driveline components;</p>
+                        </content>
+                     </indent>
+                     <indent>
+                        <num>-</num>
+                        <content>
+                           <p>Appendix 4 to Annex VII as regards the family concept of axles;</p>
+                        </content>
+                     </indent>
+                     <indent>
+                        <num>-</num>
+                        <content>
+                           <p>Appendix 5 to Annex VIII as regards the family concept for the purposes of determining air drag.</p>
+                        </content>
+                     </indent>
+                  </list>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <subparagraph>
+                     <content>
+                        <p>Notwithstanding paragraph 1, for engines, the certified values for all the members of an engine family created in accordance with the family definition as set out in Appendix 3 to Annex V, shall be derived in accordance with paragraph 4, 5 and 6 of Annex V.</p>
+                     </content>
+                  </subparagraph>
+                  <subparagraph>
+                     <content>
+                        <p>For tyres, a family shall consist of one tyre type only.</p>
+                     </content>
+                  </subparagraph>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <content>
+                     <p>The CO<sub>2</sub> emissions and fuel consumption related properties of the parent component, parent separate technical unit or parent system shall not be better than the properties of any member of the same family.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>4.</num>
+                  <subparagraph>
+                     <content>
+                        <p>The manufacturer shall provide the approval authority with evidence that the parent component, separate technical units or system fully represents the component family, separate technical unit family or system family.</p>
+                     </content>
+                  </subparagraph>
+                  <subparagraph>
+                     <content>
+                        <p>If, in the framework of testing for the purposes of the second subparagraph of Article 16(3), the approval authority determines that the selected parent component, parent separate technical unit or parent system does not fully represent the component family, separate technical unit family or system family, an alternative reference component, separate technical units or system may be selected by the approval authority, tested and shall become a parent component, parent separate technical unit or parent system.</p>
+                     </content>
+                  </subparagraph>
+               </paragraph>
+               <paragraph>
+                  <num>5.</num>
+                  <subparagraph>
+                     <content>
+                        <p>Upon request of the manufacturer, and subject to the agreement by the approval authority, the CO<sub>2</sub> emissions and fuel consumption related properties of a specific component, specific separate technical unit or specific system other than a parent component, parent separate technical unit or parent system, respectively, may be indicated in the certificate on CO<sub>2</sub> emissions and fuel consumption related properties of the component family, separate technical unit family or system family.</p>
+                     </content>
+                  </subparagraph>
+                  <subparagraph>
+                     <content>
+                        <p>The CO<sub>2</sub> emissions and fuel consumption related properties of that specific component, separate technical unit or system shall be determined in accordance with Article 14.</p>
+                     </content>
+                  </subparagraph>
+               </paragraph>
+               <paragraph>
+                  <num>6.</num>
+                  <content>
+                     <p>Where the characteristics of the specific component, specific separate technical unit or specific system, in terms of CO<sub>2</sub> emissions and fuel consumption related properties as determined in accordance with paragraph 5, lead to higher CO<sub>2</sub> emissions and fuel consumption values than those of the parent component, parent separate technical unit or parent system, respectively, the manufacturer shall exclude it from the existing family, assign it to a new family and define it as the new parent component, parent separate technical unit or parent system for that family or apply for an extension of the certification pursuant to Article 18.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d685e1125">
+               <num>Article 16</num>
+               <heading>Application for a certification of the CO<sub>2</sub> emissions and fuel consumption related properties of components, separate technical units or systems</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>The application for certification of the CO<sub>2</sub> emissions and fuel consumption related properties of the component family, separate technical unit family or system family shall be submitted to the approval authority.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <subparagraph>
+                     <content>
+                        <p>The application for certification shall take the form of an information document drawn up in accordance with the model set out in:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <indent>
+                        <num>-</num>
+                        <content>
+                           <p>Appendix 2 to Annex V as regards engines;</p>
+                        </content>
+                     </indent>
+                     <indent>
+                        <num>-</num>
+                        <content>
+                           <p>Appendix 2 to Annex VI as regards transmissions;</p>
+                        </content>
+                     </indent>
+                     <indent>
+                        <num>-</num>
+                        <content>
+                           <p>Appendix 3 to Annex VI as regards torque converters;</p>
+                        </content>
+                     </indent>
+                     <indent>
+                        <num>-</num>
+                        <content>
+                           <p>Appendix 4 to Annex VI as regards other torque transferring component;</p>
+                        </content>
+                     </indent>
+                     <indent>
+                        <num>-</num>
+                        <content>
+                           <p>Appendix 5 to Annex VI as regards additional driveline components;</p>
+                        </content>
+                     </indent>
+                     <indent>
+                        <num>-</num>
+                        <content>
+                           <p>Appendix 2 to Annex VII as regards axles;</p>
+                        </content>
+                     </indent>
+                     <indent>
+                        <num>-</num>
+                        <content>
+                           <p>Appendix 2 to Annex VIII as regards air drag;</p>
+                        </content>
+                     </indent>
+                     <indent>
+                        <num>-</num>
+                        <content>
+                           <p>Appendix 2 to Annex X as regards tyres.</p>
+                        </content>
+                     </indent>
+                  </list>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <subparagraph>
+                     <content>
+                        <p>The application for certification shall be accompanied by an explanation of the elements of design of the component family, separate technical unit family or the system family concerned which have a non-negligible effect on the CO<sub>2</sub> emissions and fuel consumption related properties of the components, separate technical units or systems concerned.</p>
+                     </content>
+                  </subparagraph>
+                  <subparagraph>
+                     <content>
+                        <p>The application shall also be accompanied by the relevant test reports issued by an approval authority, test results, and by a statement of compliance issued by an approval authority pursuant to point 1 of Annex X of Directive 2007/46/EC.</p>
+                     </content>
+                  </subparagraph>
+               </paragraph>
+            </article>
+            <article xml:id="art_d685e1183">
+               <num>Article 17</num>
+               <heading>Administrative provisions for the certification of CO<sub>2</sub> emissions and fuel consumption related properties of components, separate technical units and systems</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>If all the applicable requirements are met, the approval authority shall certify the values relating to the CO<sub>2</sub> emissions and fuel consumption related properties of the component family, separate technical unit family or system family concerned.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <subparagraph>
+                     <content>
+                        <p>In the case referred to in paragraph 1, the approval authority shall issue a certificate on CO<sub>2</sub> emissions and fuel consumption related properties using the model set out in:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <indent>
+                        <num>-</num>
+                        <content>
+                           <p>Appendix 1 to Annex V as regards engines;</p>
+                        </content>
+                     </indent>
+                     <indent>
+                        <num>-</num>
+                        <content>
+                           <p>Appendix 1 to Annex VI as regards transmissions, torque converters, other torque transferring component and additional driveline components;</p>
+                        </content>
+                     </indent>
+                     <indent>
+                        <num>-</num>
+                        <content>
+                           <p>Appendix 1 to Annex VII as regards axles;</p>
+                        </content>
+                     </indent>
+                     <indent>
+                        <num>-</num>
+                        <content>
+                           <p>Appendix 1 to Annex VIII as regards air drag;</p>
+                        </content>
+                     </indent>
+                     <indent>
+                        <num>-</num>
+                        <content>
+                           <p>Appendix 1 to Annex X as regards tyres.</p>
+                        </content>
+                     </indent>
+                  </list>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <subparagraph>
+                     <content>
+                        <p>The approval authority shall grant a certification number in accordance with the numbering system set out in:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <indent>
+                        <num>-</num>
+                        <content>
+                           <p>Appendix 6 to Annex V as regards engines;</p>
+                        </content>
+                     </indent>
+                     <indent>
+                        <num>-</num>
+                        <content>
+                           <p>Appendix 7 to Annex VI as regards transmissions, torque converters, other torque transferring component and additional driveline components;</p>
+                        </content>
+                     </indent>
+                     <indent>
+                        <num>-</num>
+                        <content>
+                           <p>Appendix 5 to Annex VII as regards axles;</p>
+                        </content>
+                     </indent>
+                     <indent>
+                        <num>-</num>
+                        <content>
+                           <p>Appendix 8 to Annex VIII as regards air drag;</p>
+                        </content>
+                     </indent>
+                     <indent>
+                        <num>-</num>
+                        <content>
+                           <p>Appendix 1 to Annex X as regards tyres.</p>
+                        </content>
+                     </indent>
+                  </list>
+                  <subparagraph>
+                     <content>
+                        <p>The approval authority shall not assign the same number to another component family, separate technical unit family or system family. The certification number shall be used as the identifier of the test report.</p>
+                     </content>
+                  </subparagraph>
+               </paragraph>
+               <paragraph>
+                  <num>4.</num>
+                  <content>
+                     <p>The approval authority shall create a cryptographic hash of the file with test results, comprising the certification number, by means of the hashing tool referred to in Article 5(5). This hashing shall be done immediately after the test results are produced. The approval authority shall imprint that hash along with the certification number on the certificate on CO<sub>2</sub> emissions and fuel consumption related properties.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d685e1256">
+               <num>Article 18</num>
+               <heading>Extension to include a new component, separate technical unit or system into a component family, separate technical unit family or system family</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <subparagraph>
+                     <content>
+                        <p>At the request of the manufacturer and upon approval of the approval authority, a new component, separate technical unit or system may be included as a member of a certified component family, separate technical unit family or system family if they meet the criteria for family definition set out in:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <indent>
+                        <num>-</num>
+                        <content>
+                           <p>Appendix 3 to Annex V as regards the family concept of engines;</p>
+                        </content>
+                     </indent>
+                     <indent>
+                        <num>-</num>
+                        <content>
+                           <p>Appendix 6 to Annex VI as regards the family concept of transmissions, torque converters, other torque transferring component and additional driveline components;</p>
+                        </content>
+                     </indent>
+                     <indent>
+                        <num>-</num>
+                        <content>
+                           <p>Appendix 4 to Annex VII as regards the family concept of axles;</p>
+                        </content>
+                     </indent>
+                     <indent>
+                        <num>-</num>
+                        <content>
+                           <p>Appendix 5 to Annex VIII as regards the family concept for the purposes of determining air drag.</p>
+                        </content>
+                     </indent>
+                  </list>
+                  <subparagraph>
+                     <content>
+                        <p>In such cases, the approval authority shall issue a revised certificate denoted by an extension number.</p>
+                     </content>
+                  </subparagraph>
+                  <subparagraph>
+                     <content>
+                        <p>The manufacturer shall modify the information document referred to in Article 16(2) and provide it to the approval authority.</p>
+                     </content>
+                  </subparagraph>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>Where the characteristics of the specific component, specific separate technical unit or specific system, in terms of CO<sub>2</sub> emissions and fuel consumption related properties as determined in accordance with paragraph 1, lead to higher CO<sub>2</sub> emissions and fuel consumption values than those of the parent component, parent separate technical unit or parent system, respectively, the new component, separate technical unit or system shall become the new parent component, separate technical unit or system.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d685e1296">
+               <num>Article 19</num>
+               <heading>Subsequent changes relevant for the certification of CO<sub>2</sub> emissions and fuel consumption related properties of components, separate technical units and systems</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>The manufacturer shall notify the approval authority of any changes to the design or the manufacturing process of components, separate technical units or systems concerned which occur after the certification of the values relating to the CO<sub>2</sub> emissions and fuel consumption related properties of the relevant component family, separate technical unit family or system family pursuant to Article 17 and which may have a non-negligible effect on the CO<sub>2</sub> emissions and fuel consumption related properties of those components, separate technical units and systems.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>Upon receipt of the notification referred to in paragraph 1, the approval authority shall inform the manufacturer whether or not the components, separate technical units or systems affected by the changes continue to be covered by the certificate issued, or whether additional testing in accordance with Article 14 is necessary in order to verify the impact of the changes on the CO<sub>2</sub> emissions and fuel consumption related properties of the components, separate technical units or systems concerned.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <content>
+                     <p>Where the components, separate technical units or systems affected by the changes are not covered by the certificate, the manufacturer shall, within one month of receipt of that information from the approval authority, apply for a new certification or an extension pursuant to Article 18. If the manufacturer does not apply for a new certification or an extension within that deadline, or if the application is rejected, the certificate shall be withdrawn.</p>
+                  </content>
+               </paragraph>
+            </article>
+         </chapter>
+         <chapter>
+            <num>CHAPTER 5</num>
+            <heading>CONFORMITY OF SIMULATION TOOL OPERATION, INPUT INFORMATION AND INPUT DATA</heading>
+            <article xml:id="art_d685e1337">
+               <num>Article 20</num>
+               <heading>Responsibilities of the vehicle manufacturer and the approval authority with regard to the conformity of simulation tool operation</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>The vehicle manufacturer shall take the necessary measures to ensure that the processes set up for the purposes of determining CO<sub>2</sub> emissions and fuel consumption for all the vehicle groups covered by the licence granted pursuant to Article 7 or the extension to the licence pursuant to Article 8(1) continue to be adequate for that purpose.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>The approval authority shall perform, four times per year, an assessment as referred to in point 2 of Annex II in order to verify if the processes set up by the manufacturer for the purposes of determining CO<sub>2</sub> emissions and fuel consumption for all the vehicle groups covered by the licence continue to be adequate. The assessment shall also include verification of the selection of the input information and input data and repetition of the simulations performed by the manufacturer,</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d685e1358">
+               <num>Article 21</num>
+               <heading>Remedial measures for the conformity of simulation tool operation</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <subparagraph>
+                     <content>
+                        <p>Where the approval authority finds, pursuant to Article 20(2), that the processes set up by the vehicle manufacturer for the purposes of determining the CO<sub>2</sub> emissions and fuel consumption of the vehicle groups concerned are not in accordance with the licence or with this Regulation or may lead to an incorrect determination of the CO<sub>2</sub> emissions and fuel consumption of the vehicles concerned, the approval authority shall request the manufacturer to submit a plan of remedial measures no later than 30 calendar days after receipt of the request from the approval authority.</p>
+                     </content>
+                  </subparagraph>
+                  <subparagraph>
+                     <content>
+                        <p>Where the vehicle manufacturer demonstrates that further time is necessary for the submission of the plan of remedial measures, an extension of up to 30 calendar days may be granted by the approval authority.</p>
+                     </content>
+                  </subparagraph>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>The plan of remedial measures shall apply to all vehicle groups which have been identified by the approval authority in its request.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <subparagraph>
+                     <content>
+                        <p>The approval authority shall approve or reject the plan of remedial measures within 30 calendar days of its receipt. The approval authority shall notify the manufacturer and all the other Member States of its decision to approve or reject the plan of remedial measures.</p>
+                     </content>
+                  </subparagraph>
+                  <subparagraph>
+                     <content>
+                        <p>The approval authority may require the vehicle manufacturer to issue a new manufacturer&apos;s records file, customer information file and certificate of conformity on the basis of a new determination of CO<sub>2</sub> emissions and fuel consumption reflecting the changes implemented in accordance with the approved plan of remedial measures.</p>
+                     </content>
+                  </subparagraph>
+               </paragraph>
+               <paragraph>
+                  <num>4.</num>
+                  <content>
+                     <p>The manufacturer shall be responsible for the execution of the approved plan of remedial measures.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>5.</num>
+                  <content>
+                     <p>Where the plan of the remedial measures has been rejected by the approval authority, or the approval authority establishes that the remedial measures are not being correctly applied, it shall take the necessary measures to ensure the conformity of simulation tool operation, or withdraw the licence.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d685e1402">
+               <num>Article 22</num>
+               <heading>Responsibilities of the manufacturer and approval authority with regards to conformity of CO<sub>2</sub> emissions and fuel consumption related properties of components, separate technical units and systems</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <subparagraph>
+                     <content>
+                        <p>The manufacturer shall take the necessary measures in accordance to Annex X to Directive 2007/46/EC to ensure that the CO<sub>2</sub> emissions and fuel consumption related properties of the components, separate technical units and systems listed in Article 12(1) which have been the subject of certification in accordance with Article 17 do not deviate from the certified values.</p>
+                     </content>
+                  </subparagraph>
+                  <subparagraph>
+                     <content>
+                        <p>Those measures shall also include the following:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <indent>
+                        <num>-</num>
+                        <content>
+                           <p>the procedures laid down in Appendix 4 to Annex V as regards engines;</p>
+                        </content>
+                     </indent>
+                     <indent>
+                        <num>-</num>
+                        <content>
+                           <p>the procedures laid down in point 7 of Annex VI as regards transmissions;</p>
+                        </content>
+                     </indent>
+                     <indent>
+                        <num>-</num>
+                        <content>
+                           <p>the procedures laid down in point 5 and 6 of Annex VII as regards axles;</p>
+                        </content>
+                     </indent>
+                     <indent>
+                        <num>-</num>
+                        <content>
+                           <p>the procedures laid down in Appendix 6 to Annex VIII as regards body or trailer air drag;</p>
+                        </content>
+                     </indent>
+                     <indent>
+                        <num>-</num>
+                        <content>
+                           <p>the procedures laid down in point 4 of Annex X as regards tyres.</p>
+                        </content>
+                     </indent>
+                  </list>
+                  <subparagraph>
+                     <content>
+                        <p>Where CO<sub>2</sub> emissions and fuel consumption related properties of a member of a component family, separate technical unit family or system family have been certified in accordance with Article 15(5), the reference value for the verification of the CO<sub>2</sub> emissions and fuel consumption related properties shall be the one certified for this family member.</p>
+                     </content>
+                  </subparagraph>
+                  <subparagraph>
+                     <content>
+                        <p>Where a deviation from the certified values is identified as a result of the measures referred to in the first and second subparagraphs, the manufacturer shall immediately inform the approval authority thereof.</p>
+                     </content>
+                  </subparagraph>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>The manufacturer shall provide, on an annual basis, testing reports containing the results of the procedures referred to in the second subparagraph of paragraph 1 to the approval authority which certified the CO<sub>2</sub> emissions and fuel consumption related properties of the component family, separate technical unit family or system family concerned. The manufacturer shall make the test reports available to the Commission upon request.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <content>
+                     <p>The manufacturer shall ensure that at least one in every 25 procedures referred to in the second subparagraph of paragraph 1, or, with an exception for tyres, at least one procedure per year, relating to a component family, separate technical unit family or system family is supervised by a different approval authority than the one which participated in the certification of CO<sub>2</sub> emissions and fuel consumption related properties of the component family, separate technical unit family or system family concerned pursuant to Article 16.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>4.</num>
+                  <subparagraph>
+                     <content>
+                        <p>Any approval authority may at any time perform verifications relating to the components, separate technical units and systems at any of the manufacturer&apos;s and vehicle manufacturer&apos;s facilities in order to verify whether the CO<sub>2</sub> emissions and fuel consumption related properties of those components, separate technical units and systems do not deviate from the certified values.</p>
+                     </content>
+                  </subparagraph>
+                  <subparagraph>
+                     <content>
+                        <p>The manufacturer and the vehicle manufacturer shall provide the approval authority within 15 working days of the approval authority&apos;s request with all the relevant documents, samples and other materials in his possession and necessary to perform the verifications relating to a component, separate technical unit or system.</p>
+                     </content>
+                  </subparagraph>
+               </paragraph>
+            </article>
+            <article xml:id="art_d685e1474">
+               <num>Article 23</num>
+               <heading>Remedial measures for the conformity of CO<sub>2</sub> emissions and fuel consumption related properties of components, separate technical units and systems</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <subparagraph>
+                     <content>
+                        <p>Where the approval authority finds, pursuant to Article 22, that the measures taken by the manufacturer to ensure that the CO<sub>2</sub> emissions and fuel consumption related properties of the components, separate technical units and systems listed in Article 12(1) and which have been the subject of certification in accordance with Article 17 do not deviate from the certified values are not adequate, the approval authority shall request the manufacturer to submit a plan of remedial measures no later than 30 calendar days after receipt of the request from the approval authority.</p>
+                     </content>
+                  </subparagraph>
+                  <subparagraph>
+                     <content>
+                        <p>Where the manufacturer demonstrates that further time is necessary for the submission of the plan of remedial measures, an extension of up to 30 calendar days may be granted by the approval authority.</p>
+                     </content>
+                  </subparagraph>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>The plan of remedial measures shall apply to all the component families, separate technical unit families or system families which have been identified by the approval authority in its request.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <subparagraph>
+                     <content>
+                        <p>The approval authority shall approve or reject the plan of remedial measures within 30 calendar days of its receipt. The approval authority shall notify the manufacturer and all the other Member States of its decision to approve or reject the plan of remedial measures.</p>
+                     </content>
+                  </subparagraph>
+                  <subparagraph>
+                     <content>
+                        <p>The approval authority may require the vehicle manufacturers who installed the components, separate technical units and systems concerned in their vehicles to issue a new manufacturer&apos;s records file, customers information file and certificate of conformity on the basis of the CO<sub>2</sub> emissions and fuel consumption related properties of those components, separate technical units and systems obtained by means of the measures referred to in Article 22(1).</p>
+                     </content>
+                  </subparagraph>
+               </paragraph>
+               <paragraph>
+                  <num>4.</num>
+                  <content>
+                     <p>The manufacturer shall be responsible for the execution of the approved plan of remedial measures.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>5.</num>
+                  <content>
+                     <p>The manufacturer shall keep a record of every component, separate technical unit or system recalled and repaired or modified and of the workshop which performed the repair. The approval authority shall have access to those records on request during the execution of the plan of the remedial measures and for a period of 5 years after the completion of its execution.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>6.</num>
+                  <content>
+                     <p>Where the plan of remedial measures has been rejected by the approval authority, or the approval authority establishes that the remedial measures are not being correctly applied, it shall take the necessary measures to ensure the conformity of CO<sub>2</sub> emissions and fuel consumption related properties of the component family, separate technical unit family and system family concerned, or withdraw the certificate on CO<sub>2</sub> emissions and fuel consumption related properties.</p>
+                  </content>
+               </paragraph>
+            </article>
+         </chapter>
+         <chapter>
+            <num>CHAPTER 6</num>
+            <heading>FINAL PROVISIONS</heading>
+            <article xml:id="art_d685e1537">
+               <num>Article 24</num>
+               <heading>Transitional provisions</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <subparagraph>
+                     <content>
+                        <p>Without prejudice to Article 10(3), where the obligations referred to in Article 9 have not been complied with, Member States shall prohibit the registration, sale or entry into service of:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(a)</num>
+                        <content>
+                           <p>vehicles in the groups 4, 5, 9 and 10, as defined in Table 1 of Annex I, as from 1 July 2019;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(b)</num>
+                        <content>
+                           <p>vehicles in the groups 1, 2, and 3, as defined in Table 1 of Annex I, as from 1 January 2020;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(c)</num>
+                        <content>
+                           <p>vehicles in the groups 11, 12 and 16, as defined in Table 1 of Annex I, as from 1 July 2020.</p>
+                        </content>
+                     </point>
+                  </list>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>Notwithstanding paragraph 1(a), the obligations referred to in Article 9 shall apply from 1 January 2019 with regard to all vehicles in the groups 4, 5, 9 and 10 with production date on or after 1 January 2019. The production date shall be the date of signature of the certificate of conformity or the date of issue of the individual approval certificate.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d685e1588">
+               <num>Article 25</num>
+               <heading>Amendment to Directive 2007/46/EC</heading>
+               <paragraph>
+                  <content>
+                     <p>Annexes I, III, IV, IX and XV to Directive 2007/46/EC are amended in accordance with Annex XI to this Regulation.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d685e1595" leos:compliant="false">
+               <num>Article 26</num>
+               <heading>Amendment to Regulation (EU) No 582/2011</heading>
+               <paragraph>
+                  <subparagraph>
+                     <content>
+                        <p>Regulation (EU) No 582/2011 is amended as follows:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(1)</num>
+                        <alinea>
+                           <content>
+                              <p>In Article 3(1), the following subparagraph is added:</p>
+                           </content>
+                        </alinea>
+                        <alinea>
+                           <content>
+                              <p>
+                                 <mod>
+                                    <quotedStructure startQuote="" endQuote="">
+                                       <paragraph>
+                                          <content>
+                                             <p>&apos;In order to receive an EC type-approval of a vehicle with an approved engine system with regard to emissions and vehicle repair and maintenance information, or an EC type-approval of a vehicle with regard to emissions and vehicle repair and maintenance information, the manufacturer shall also demonstrate that the requirements laid down in Article 6 and Annex II to Commission Regulation (EU) 2017/2400<authorialNote placement="bottom" marker="5">
+                                                   <p>Commission Regulation (EU) 2017/2400 of 12 December 2017 implementing Regulation (EC) No 595/2009 of the European Parliament and of the Council as regards the determination of the CO<sub>2</sub> emissions and fuel consumption of heavy-duty vehicles and amending Directive 2007/46/EC of the European Parliament and of the Council and Commission Regulation (EU) No 582/2011 (OJ L 349, 29.12.2017, p. 1).&apos;;</p>
+                                                </authorialNote> are met with respect to the vehicle group concerned. However, that requirement shall not apply where the manufacturer indicates that new vehicles of the type to be approved will not be registered, sold or put into service in the Union on or after the dates laid down in points (a), (b) and (c) of paragraph 1 of Article 24 of Regulation (EU) 2017/2400 for the respective vehicle group.</p>
+                                          </content>
+                                       </paragraph>
+                                    </quotedStructure>
+                                 </mod>
+                              </p>
+                           </content>
+                        </alinea>
+                     </point>
+                     <point>
+                        <num>(2)</num>
+                        <alinea>
+                           <content>
+                              <p>Article 8 is amended as follows:</p>
+                           </content>
+                        </alinea>
+                        <list>
+                           <point>
+                              <num>(a)</num>
+                              <alinea>
+                                 <content>
+                                    <p>in paragraph 1a, point (d) is replaced by the following:</p>
+                                 </content>
+                              </alinea>
+                              <alinea>
+                                 <content>
+                                    <p>
+                                       <mod>
+                                          <quotedStructure startQuote="" endQuote="">
+                                             <point>
+                                                <num>&apos;(d)</num>
+                                                <content>
+                                                   <p>all other exceptions set out in points 3.1 of Annex VII to this Regulation, points 2.1 and 6.1 of Annex X to this Regulation, points 2.1, 4.1, 5.1, 7.1, 8.1 and 10.1 of Annex XIII to this Regulation, and point 1.1 of Appendix 6 to Annex XIII to this Regulation apply;&apos;;</p>
+                                                </content>
+                                             </point>
+                                          </quotedStructure>
+                                       </mod>
+                                    </p>
+                                 </content>
+                              </alinea>
+                           </point>
+                           <point>
+                              <num>(b)</num>
+                              <alinea>
+                                 <content>
+                                    <p>in paragraph 1a, the following point is added:</p>
+                                 </content>
+                              </alinea>
+                              <alinea>
+                                 <content>
+                                    <p>
+                                       <mod>
+                                          <quotedStructure startQuote="" endQuote="">
+                                             <point>
+                                                <num>&apos;(e)</num>
+                                                <content>
+                                                   <p>the requirements laid down in Article 6 and Annex II to Regulation (EU) 2017/2400 are met with respect to the vehicle group concerned, except where the manufacturer indicates that new vehicles of the type to be approved will not be registered, sold or put into service in the Union on or after the dates laid down in points (a), (b) and (c) of paragraph 1 of Article 24 of that Regulation for the respective vehicle group.&apos;;</p>
+                                                </content>
+                                             </point>
+                                          </quotedStructure>
+                                       </mod>
+                                    </p>
+                                 </content>
+                              </alinea>
+                           </point>
+                        </list>
+                     </point>
+                     <point>
+                        <num>(3)</num>
+                        <alinea>
+                           <content>
+                              <p>Article 10 is amended as follows:</p>
+                           </content>
+                        </alinea>
+                        <list>
+                           <point>
+                              <num>(a)</num>
+                              <alinea>
+                                 <content>
+                                    <p>in paragraph 1a, point (d) is replaced by the following:</p>
+                                 </content>
+                              </alinea>
+                              <alinea>
+                                 <content>
+                                    <p>
+                                       <mod>
+                                          <quotedStructure startQuote="" endQuote="">
+                                             <point>
+                                                <num>&apos;(d)</num>
+                                                <content>
+                                                   <p>all other exceptions set out in points 3.1 of Annex VII to this Regulation, points 2.1 and 6.1 of Annex X to this Regulation, points 2.1, 4.1, 5.1, 7.1, 8.1 and 10.1.1 of Annex XIII to this Regulation, and point 1.1 of Appendix 6 to Annex XIII to this Regulation apply;&apos;;</p>
+                                                </content>
+                                             </point>
+                                          </quotedStructure>
+                                       </mod>
+                                    </p>
+                                 </content>
+                              </alinea>
+                           </point>
+                           <point>
+                              <num>(b)</num>
+                              <alinea>
+                                 <content>
+                                    <p>in paragraph 1a, the following point is added:</p>
+                                 </content>
+                              </alinea>
+                              <alinea>
+                                 <content>
+                                    <p>
+                                       <mod>
+                                          <quotedStructure startQuote="" endQuote="">
+                                             <point>
+                                                <num>&apos;(e)</num>
+                                                <content>
+                                                   <p>the requirements laid down in Article 6 and Annex II to Regulation (EU) 2017/2400 are met with respect to the vehicle group concerned, except where the manufacturer indicates that new vehicles of the type to be approved will not be registered, sold or put into service in the Union on or after the dates laid down in points (a), (b) and (c) of paragraph 1 of Article 24 of that Regulation for the respective vehicle group.&apos;.</p>
+                                                </content>
+                                             </point>
+                                          </quotedStructure>
+                                       </mod>
+                                    </p>
+                                 </content>
+                              </alinea>
+                           </point>
+                        </list>
+                     </point>
+                  </list>
+               </paragraph>
+            </article>
+            <article xml:id="art_d685e1711">
+               <num>Article 27</num>
+               <heading>Entry into force</heading>
+               <paragraph>
+                  <content>
+                     <p>This Regulation shall enter into force on the twentieth day following that of its publication in the <i>Official Journal of the European Union</i>.</p>
+                  </content>
+               </paragraph>
+            </article>
+         </chapter>
+         <clause>
+            <content>
+               <p>This Regulation shall be binding in its entirety and directly applicable in all Member States.</p>
+            </content>
+         </clause>
+      </body>
+      <conclusions>
+         <p>Done at Brussels, 12 December 2017.</p>
+         <block name="signatory">
+            <signature>
+               <organization refersTo="">For the Commission</organization>
+               <role refersTo="">The President</role>
+               <person refersTo="">Jean-Claude JUNCKER</person>
+            </signature>
+         </block>
+      </conclusions>
+   </bill>
+</akomaNtoso>

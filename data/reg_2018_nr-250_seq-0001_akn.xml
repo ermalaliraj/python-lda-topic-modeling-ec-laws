@@ -1,0 +1,1444 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"
+            xmlns:fmx="http://formex.publications.europa.eu/schema/formex-05.21-20110601.xd"
+            xmlns:leos="urn:eu:europa:ec:leos"
+            xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <bill name="">
+      <meta xmlns:fn="http://www.w3.org/2005/xpath-functions">
+         <identification source="~COM">
+            <FRBRWork>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRcountry value=""/>
+            </FRBRWork>
+            <FRBRExpression>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+            </FRBRManifestation>
+         </identification>
+      </meta>
+      <preface>
+         <longTitle>
+            <p>
+               <docStage/>
+               <docType>REGULATION (EU) 2018/1475 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL</docType>of 2 October 2018<docPurpose>laying down the legal framework of the European Solidarity Corps and amending Regulation (EU) No 1288/2013, Regulation (EU) No 1293/2013 and Decision No 1313/2013/EU</docPurpose>
+            </p>
+         </longTitle>
+      </preface>
+      <preamble>
+         <formula name="actingEntity">
+            <p>THE EUROPEAN PARLIAMENT AND THE COUNCIL OF THE EUROPEAN UNION,</p>
+         </formula>
+         <citations>
+            <citation>
+               <p>Having regard to the Treaty on the Functioning of the European Union, and in particular Articles 165(4) and 166(4) thereof,</p>
+            </citation>
+            <citation>
+               <p>Having regard to the proposal from the European Commission,</p>
+            </citation>
+            <citation>
+               <p>After transmission of the draft legislative act to the national parliaments,</p>
+            </citation>
+            <citation>
+               <p>Having regard to the opinion of the European Economic and Social Committee<authorialNote placement="bottom" marker="1">
+                     <p>OJ C 81, 2.3.2018, p. 160.</p>
+                  </authorialNote>,</p>
+            </citation>
+            <citation>
+               <p>After consulting the Committee of the Regions,</p>
+            </citation>
+            <citation>
+               <p>Acting in accordance with the ordinary legislative procedure<authorialNote placement="bottom" marker="2">
+                     <p>Position of the European Parliament of 11 September 2018 (not yet published in the Official Journal) and Decision of the Council of 27 September 2018.</p>
+                  </authorialNote>,</p>
+            </citation>
+         </citations>
+         <recitals xml:id="recs_d331e85">
+            <intro>
+               <p>Whereas:</p>
+            </intro>
+            <recital xml:id="rec_d331e88">
+               <num>(1)</num>
+               <p>Solidarity among Union citizens and among Member States is one of the universal values on which the Union is built. This common value guides the Union&apos;s actions and provides it with the necessary unity for coping with current and future societal challenges, which young Europeans are willing to help address by expressing their solidarity in practice. Solidarity also stimulates young people&apos;s interest in the common European project. The principle of solidarity is enshrined in Article 2 of the Treaty on European Union (TEU) and in the preamble of the Charter of Fundamental Rights of the European Union.</p>
+            </recital>
+            <recital xml:id="rec_d331e94">
+               <num>(2)</num>
+               <p>During the State of the Union address of 14 September 2016, it was emphasised that there is a need to invest in young people and it was announced that a European Solidarity Corps was to be established with a view to creating opportunities for young people across the Union to make a meaningful contribution to society, show solidarity and develop their skills, competences and knowledge, thus gaining an invaluable human experience, which is also key for the emergence of an active and engaged Union citizenship.</p>
+            </recital>
+            <recital xml:id="rec_d331e103">
+               <num>(3)</num>
+               <p>In its Communication of 7 December 2016 entitled &apos;A European Solidarity Corps&apos;, the Commission emphasised the need to strengthen the foundations for solidarity work across Europe, to provide young people with more and better opportunities for high-quality solidarity activities covering a broad range of areas, and to support national, regional and local actors, in their efforts to cope with different challenges and crises. That Communication launched a first phase of the European Solidarity Corps whereby different Union programmes were mobilised to offer volunteering, traineeship or job opportunities to young people across the Union. These activities, whether implemented before or after the entry into force of this Regulation, should continue to apply the rules and conditions set by the respective Union programmes that have financed them under the first phase of the European Solidarity Corps.</p>
+            </recital>
+            <recital xml:id="rec_d331e117">
+               <num>(4)</num>
+               <p>Within the context of this Regulation, solidarity may be understood as a sense of responsibility on the part of everyone with regard to everyone to commit oneself to the common good, which is expressed through concrete actions without consideration of return service.</p>
+            </recital>
+            <recital xml:id="rec_d331e123">
+               <num>(5)</num>
+               <p>Young people should be provided with easily accessible opportunities to engage in high-quality solidarity activities with a strong European dimension as a means to contribute to strengthening cohesion, solidarity, social inclusion and democracy in participating countries to the benefit of local communities, while improving their competences for their personal development, thus boosting their self-esteem, autonomy and motivation to learn, stimulating their educational, social, artistic, linguistic, cultural, civic and professional development, as well as facilitating their active citizenship, employability and transition into the labour market. Those solidarity activities would also support the mobility of participants.</p>
+            </recital>
+            <recital xml:id="rec_d331e129">
+               <num>(6)</num>
+               <p>This Regulation establishes a programme for Union action called the European Solidarity Corps as a basis for effecting positive societal change by providing support to communities of individuals and entities committed to enhancing solidarity across Europe. It thus provides for a spending instrument of Union action established with a view to applying from the date of entry into force of this Regulation on a continuous basis and also lays down the basis for the European Solidarity Corps as a community and as a source of inspiration for a stronger spirit of solidarity in Europe through the wider impact of activities carried out within the framework of the European Solidarity Corps.</p>
+            </recital>
+            <recital xml:id="rec_d331e135">
+               <num>(7)</num>
+               <p>The solidarity activities offered to young people should be of high quality, in the sense that they should contribute to the achievement of the objectives of the European Solidarity Corps and help overcome societal challenges, while addressing the needs of local communities. Solidarity activities should offer young people the opportunity to acquire valuable competences for personal, social, civic and professional development, include a solid learning and training dimension, be accessible to all young people, be implemented in safe and healthy conditions and be properly validated. Solidarity activities should not have a negative impact on existing jobs or traineeships and should contribute to reinforcing the corporate social responsibility commitments of companies, while not replacing them.</p>
+            </recital>
+            <recital xml:id="rec_d331e141">
+               <num>(8)</num>
+               <p>Any entity willing to participate in the European Solidarity Corps, whether funded from the European Solidarity Corps budget, by another Union programme or by a different funding source, should receive a quality label, provided that the specific requirements are fulfilled. The requirement to receive a quality label should not apply to natural persons seeking financial support on behalf of an informal group of participants for their solidarity projects. The quality label attributed to participating organisations should certify the ability of those organisations to ensure the quality of the solidarity activities offered by them. The process for attributing a quality label should be carried out by the implementing bodies of the European Solidarity Corps in an accessible and transparent manner. The attributed quality label should be reassessed periodically and it should be possible to revoke the quality label where, in the context of the reassessment, it is found that the conditions that led to its attribution are no longer fulfilled.</p>
+            </recital>
+            <recital xml:id="rec_d331e147">
+               <num>(9)</num>
+               <p>The European Solidarity Corps would provide a single entry point for solidarity activities throughout the Union. Consistency and complementarity of the European Solidarity Corps should be ensured with other relevant Union policies, programmes and instruments. The European Solidarity Corps should build on the strengths and synergies of existing and previous programmes, in particular the Erasmus+ and Youth in Action programmes. It should also complement the efforts made by Member States to support young people and ease their school-to-work transition under schemes such as the Youth Guarantee established in line with the Council Recommendation of 22 April 2013 on establishing a Youth Guarantee<authorialNote placement="bottom" marker="3">
+                     <p>OJ C 120, 26.4.2013, p. 1.</p>
+                  </authorialNote> by providing them with additional opportunities to take part in solidarity activities in the form of traineeships or jobs within their respective Member State or across borders. Complementarity should also be ensured with existing Union-level networks pertinent to the activities under the European Solidarity Corps, such as the European Network of Public Employment Services, EURES and the Eurodesk network. Furthermore, complementarity and loyal cooperation between the existing related schemes and the European Solidarity Corps should be fostered, in particular with solidarity, volunteering, civic service and mobility schemes for young people, operating at national, regional or local level, as well as with priorities related to solidarity and youth in the participating countries, as appropriate, to mutually enhance and enrich the impact and qualities of such schemes and build upon good practices. The European Solidarity Corps should not substitute similar national solidarity, volunteering, civic service and mobility schemes. Equal access for all young people to national solidarity activities should be ensured. Partnerships with European networks which are specialised in certain urgent social problems should be encouraged.</p>
+            </recital>
+            <recital xml:id="rec_d331e165">
+               <num>(10)</num>
+               <p>In order to maximise the impact of the European Solidarity Corps, other Union programmes should be able to contribute to the objectives of the European Solidarity Corps by supporting activities within its scope. This contribution should be financed in accordance with the respective legal acts of the programmes concerned with a view to securing greater involvement of young people, civil society and existing volunteering schemes in Member States. Once they have obtained a valid quality label, the participating organisations should be given access to the European Solidarity Corps portal and receive the quality and support measures provided according to the type of solidarity activity offered.</p>
+            </recital>
+            <recital xml:id="rec_d331e171">
+               <num>(11)</num>
+               <p>The European Solidarity Corps should open up new opportunities for young people to undertake volunteering, traineeships or jobs as well as to devise and develop, on their own initiative, solidarity projects which present a clear European value. Those opportunities should help address unmet societal needs and contribute to strengthening communities and enhancing the personal, educational, social, civic and professional development of young people. The European Solidarity Corps should also support networking activities for participants and participating organisations as well as measures to ensure the quality of the supported activities and to enhance the validation of their learning outcomes. It should also contribute to supporting and strengthening existing organisations that implement solidarity actions.</p>
+            </recital>
+            <recital xml:id="rec_d331e177">
+               <num>(12)</num>
+               <p>Volunteering constitutes a rich experience in a formal and non-formal learning context which enhances young people&apos;s personal, socio-educational and professional development, employability and active citizenship. Volunteering should not substitute traineeships or jobs and should be based on a written volunteering agreement. The Commission and the Member States will cooperate regarding volunteering policies in the youth field via the open method of coordination.</p>
+            </recital>
+            <recital xml:id="rec_d331e183">
+               <num>(13)</num>
+               <p>Traineeships and jobs should be clearly separate from volunteering, both from a financial and organisational point of view. Traineeships should never lead to job substitution. Paid traineeships and jobs, however, can represent an incentive for disadvantaged young people and young people with fewer opportunities to participate in solidarity-related activities that they might not otherwise be able to access. Traineeships can ease the transition of young people from education to employment and can help foster the employability of young people, which is key to achieving their sustainable integration into the labour market. Traineeships and jobs offered under the European Solidarity Corps should always be paid by the participating organisation hosting or employing the participant. Traineeships should be based on a written traineeship agreement in accordance with the applicable regulatory framework of the country where the traineeship takes place, as appropriate, and should follow the principles outlined in the Council Recommendation of 10 March 2014 on a Quality Framework for Traineeships<authorialNote placement="bottom" marker="4">
+                     <p>OJ C 88, 27.3.2014, p. 1.</p>
+                  </authorialNote>. Jobs should be based on an employment contract in accordance with the national regulatory framework or applicable collective agreements, or both, of the participating country where the job is being carried out. Financial support to participating organisations offering jobs should not exceed twelve months. Traineeships and jobs should be accompanied by adequate preparation, on-the-job training and post-placement support in relation to the participation of the participant. Traineeships and jobs could be facilitated by relevant labour market actors, in particular public and private employment services, social partners and Chambers of Commerce, as well as the member organisations of EURES, in accordance with Regulation (EU) 2016/589 of the European Parliament and of the Council<authorialNote placement="bottom" marker="5">
+                     <p>Regulation (EU) 2016/589 of the European Parliament and of the Council of 13 April 2016 on a European network of employment services (EURES), workers&apos; access to mobility services and the further interpretation of labour market and amending Regulations (EU) No 492/2011 and (EU) No 1296/2013 (OJ L 107, 22.4.2016, p. 1).</p>
+                  </authorialNote> in the case of cross-border activities.</p>
+            </recital>
+            <recital xml:id="rec_d331e210">
+               <num>(14)</num>
+               <p>Young people&apos;s spirit of initiative and their active citizenship is an important asset for society. The European Solidarity Corps should contribute to fostering this aspect by offering young people the opportunity to devise and implement their own projects that present a clear added value aimed at addressing key challenges to the benefit of local communities, particularly communities located in rural, isolated or marginalised areas. Those projects should be an opportunity for young people to develop innovative solutions and try out ideas in a sustainable way and to experience being the drivers of solidarity actions. They could also serve as a springboard for further engagement in solidarity activities and could be a first step towards encouraging participants to engage in social entrepreneurship or as volunteers in associations, non-governmental organisations (NGOs), youth organisations or other bodies active in the solidarity, non-profit and youth sectors and the setting up of their own associations. Post-placement support will aim to support young people in remaining engaged and active in the solidarity sector, including through involvement with associations, cooperatives, social enterprises, youth organisations and community centres.</p>
+            </recital>
+            <recital xml:id="rec_d331e218">
+               <num>(15)</num>
+               <p>Volunteering and solidarity projects should cover the participants&apos; expenditure arising from participation in such solidarity activities but should not provide them with salaries or an economic benefit.</p>
+            </recital>
+            <recital xml:id="rec_d331e224">
+               <num>(16)</num>
+               <p>Participants and participating organisations should feel that they belong to a community of individuals and entities committed to enhancing solidarity across Europe and beyond. At the same time, participating organisations need support to strengthen their ability to offer high-quality solidarity activities to an increasing number of participants and to attract newcomers. The European Solidarity Corps should support networking activities aimed at strengthening the capacity of young people and participating organisations to engage in this community, at fostering a European Solidarity Corps spirit, as well as at encouraging the exchange of useful solidarity practices and experience drawing also from experience with civil protection, where appropriate. Networking activities should also contribute to raising awareness about the European Solidarity Corps among public and private entities as well as to collecting feedback from participants and participating organisations on the implementation of the European Solidarity Corps.</p>
+            </recital>
+            <recital xml:id="rec_d331e230">
+               <num>(17)</num>
+               <p>Particular attention should be paid to ensuring the quality of the solidarity activities and other opportunities offered under the European Solidarity Corps, in particular by offering participants online and offline training and language support in a way that respects the principle of multilingualism, insurance, administrative support and support before the solidarity activity, after the solidarity activity, or both, as well as a validation of the competences acquired during their European Solidarity Corps experience. Those support measures should be developed and provided in collaboration with youth organisations and other non-profit and civil society organisations in order to tap into their expertise on the field. Those support measures should take into account the environment and the nature of activities carried out by participants, with special attention to any potential risks.</p>
+            </recital>
+            <recital xml:id="rec_d331e236">
+               <num>(18)</num>
+               <p>To ensure the impact of European Solidarity Corps activities on the personal, educational, artistic, social, civic and professional development of the participants, the competences that are the learning outcomes of the solidarity activities should be properly identified and documented, in accordance with national circumstances and specificities, as recommended in the Council Recommendation of 20 December 2012 on the validation of non-formal and informal learning<authorialNote placement="bottom" marker="6">
+                     <p>OJ C 398, 22.12.2012, p. 1.</p>
+                  </authorialNote>. To that end, the use of effective instruments at Union and national level for the recognition of non-formal and informal learning, such as Youthpass and Europass should be encouraged, as appropriate.</p>
+            </recital>
+            <recital xml:id="rec_d331e251">
+               <num>(19)</num>
+               <p>Any public or private entity, including international organisations, civil society organisations, youth organisations and social enterprises should be able to apply for a quality label. Separate quality labels should be put in place for volunteering and for traineeships and jobs to ensure the effective and continuous compliance of participating organisations with the principles and requirements of the European Solidarity Corps as regards their rights and responsibilities during all stages of the solidarity experience. Obtaining a quality label should be a precondition for participation but should not automatically lead to funding under the European Solidarity Corps.</p>
+            </recital>
+            <recital xml:id="rec_d331e257">
+               <num>(20)</num>
+               <p>Participating organisations may perform several functions within the European Solidarity Corps. In a host function, they will carry out activities related to receiving the participants, including the organisation of activities and the provision of guidance and support to participants during the solidarity activity, as appropriate. In a supporting function, they will carry out activities in relation to the sending and preparation of participants before departure, and during and after the solidarity activity, including training participants and guiding them to local organisations after the solidarity activity.</p>
+            </recital>
+            <recital xml:id="rec_d331e264">
+               <num>(21)</num>
+               <p>European Solidarity Corps Resource Centres should assist the implementing bodies, the participating organisations and the participants in order to raise the quality of the solidarity activities and of their implementation as well as to enhance the identification and validation of competences acquired through solidarity activities, including through issuing Youthpasses.</p>
+            </recital>
+            <recital xml:id="rec_d331e271">
+               <num>(22)</num>
+               <p>The European Solidarity Corps Portal should continuously be developed in order to ensure easy access to the European Solidarity Corps and to provide a one-stop shop for both interested individuals and organisations as regards, inter alia, registration, identification and matching of profiles and opportunities, networking and virtual exchanges, online training, language support as well as all other support before the solidarity activity, after the solidarity activity, or both, and other useful functions, which might arise in the future.</p>
+            </recital>
+            <recital xml:id="rec_d331e277">
+               <num>(23)</num>
+               <p>The implementation structures will take the necessary measures with a view to ensuring that registered candidates are offered volunteering, traineeships and jobs opportunities within a reasonable and relatively predictable amount of time. Moreover, regular information and communication and networking activities will be put in place to stimulate the engagement of registered candidates.</p>
+            </recital>
+            <recital xml:id="rec_d331e283">
+               <num>(24)</num>
+               <p>This Regulation lays down a financial envelope for the period 2018-2020 which is to constitute the overall budget, within the meaning of Point 17 of the Interinstitutional Agreement of 2 December 2013 between the European Parliament, the Council and the Commission on budgetary discipline, on cooperation in budgetary matters and on sound financial management<authorialNote placement="bottom" marker="7">
+                     <p>OJ C 373, 20.12.2013, p. 1.</p>
+                  </authorialNote>, for the European Parliament and for the Council during the annual budgetary procedure.</p>
+            </recital>
+            <recital xml:id="rec_d331e298">
+               <num>(25)</num>
+               <p>In order to ensure continuity in the activities supported by the programmes contributing to the European Solidarity Corps, the financial support to solidarity activities should indicatively be 90 % for volunteering and solidarity projects, on the one hand, and 10 % for either traineeships, or jobs, or both, on the other hand, with a maximum of 20 % for in-country activities.</p>
+            </recital>
+            <recital xml:id="rec_d331e304">
+               <num>(26)</num>
+               <p>In order to maximise the impact of the European Solidarity Corps, provision should be made to allow participating countries to make additional national, regional or local funding available in accordance with the rules of the European Solidarity Corps.</p>
+            </recital>
+            <recital xml:id="rec_d331e310">
+               <num>(27)</num>
+               <p>In order to simplify requirements for beneficiaries, lump sums, unit costs or flat-rate financing should be used to the maximum possible extent.</p>
+            </recital>
+            <recital xml:id="rec_d331e316">
+               <num>(28)</num>
+               <p>Member States should be able to participate in volunteering, traineeships, jobs, solidarity projects and networking activities. In addition, as in the European Voluntary Service, volunteering, solidarity projects and networking activities should also be open to the participation of other countries, paying particular attention to countries neighbouring the Union. That participation should be based, where relevant, on additional appropriations to be made available in accordance with the procedures to be agreed with the countries concerned.</p>
+            </recital>
+            <recital xml:id="rec_d331e322">
+               <num>(29)</num>
+               <p>Participation in the European Solidarity Corps should be open to young people aged between 18 and 30 years. Participation in solidarity activities should require prior registration in the European Solidarity Corps Portal, which is available for individuals aged between 17 and 30 years.</p>
+            </recital>
+            <recital xml:id="rec_d331e328">
+               <num>(30)</num>
+               <p>Special attention should be paid to ensuring that the activities supported by the European Solidarity Corps are accessible to all young people, in particular young people with fewer opportunities as further detailed in the Inclusion and Diversity Strategy developed and applied within the framework of the Erasmus+ programme in the youth field. Special measures, such as appropriate formats of solidarity activities and personalised guidance, should therefore be put in place to promote social inclusion, the participation of disadvantaged young people, as well as to take into account the constraints imposed by the remoteness of the outermost regions of the Union and the Overseas Countries and Territories in accordance with Council Decision 2013/755/EU<authorialNote placement="bottom" marker="8">
+                     <p>Council Decision 2013/755/EU of 25 November 2013 on the association of the overseas countries and territories with the European Union (&apos;Overseas Association Decision&apos;) (OJ L 344, 19.12.2013, p. 1).</p>
+                  </authorialNote>. Similarly, the participating countries should endeavour to adopt all appropriate measures to remove legal and administrative obstacles to the proper functioning of the European Solidarity Corps. That includes resolving, where possible, and without prejudice to the Schengen acquis and Union law on the entry and residence of third-country nationals, any administrative issues that create difficulties in obtaining visas and residence permits.</p>
+            </recital>
+            <recital xml:id="rec_d331e349">
+               <num>(31)</num>
+               <p>An entity willing to apply for funding to offer solidarity activities under the European Solidarity Corps should have first received a quality label as a precondition in an accessible and transparent manner. This requirement should not apply to natural persons seeking financial support on behalf of an informal group of participants for their solidarity projects. The competent implementing bodies should carry out quality controls to ascertain compliance, by those natural persons, with the requirements of the European Solidarity Corps.</p>
+            </recital>
+            <recital xml:id="rec_d331e356">
+               <num>(32)</num>
+               <p>The needs and expectations of local communities should be an important criterion for the evaluation of the quality of projects. Accordingly, appropriate indicators should be put in place.</p>
+            </recital>
+            <recital xml:id="rec_d331e362">
+               <num>(33)</num>
+               <p>Effective performance management, including monitoring and evaluation, requires the development of a specific, measurable and realistic set of qualitative and quantitative indicators which can be measured over time and which reflect the logic of the intervention.</p>
+            </recital>
+            <recital xml:id="rec_d331e368">
+               <num>(34)</num>
+               <p>Appropriate outreach, publicity and dissemination of the opportunities and results of the activities supported by the European Solidarity Corps should be ensured at European, national, regional and local level. Special attention should be paid to social enterprises, encouraging them to support the European Solidarity Corps activities. The outreach, publicity and dissemination activities should rely, without increasing the administrative burden, on all the implementing bodies of the European Solidarity Corps, including, where relevant, with the support of other key stakeholders.</p>
+            </recital>
+            <recital xml:id="rec_d331e374">
+               <num>(35)</num>
+               <p>In order to better achieve the objectives of the European Solidarity Corps, the Commission, Member States and national agencies should preferably work closely together in partnership with NGOs, youth organisations and local stakeholders that have expertise in solidarity actions.</p>
+            </recital>
+            <recital xml:id="rec_d331e380">
+               <num>(36)</num>
+               <p>In order to ensure the efficient and effective implementation of this Regulation, the European Solidarity Corps should make maximum use of existing management arrangements already in place in the Erasmus + programme. The implementation of the European Solidarity Corps should therefore be entrusted to existing structures, such as the Commission, the Education, Audiovisual and Culture Executive Agency and the national agencies designated for the management of the actions referred to in Chapter III of Regulation (EU) No 1288/2013 of the European Parliament and of the Council<authorialNote placement="bottom" marker="9">
+                     <p>Regulation (EU) No 1288/2013 of the European Parliament and of the Council of 11 December 2013 establishing &apos;Erasmus+&apos;: the Union programme for education, training, youth and sport and repealing Decisions No 1719/2006/EC, No 1720/2006/EC and No 1298/2008/EC (OJ L 347, 20.12.2013, p. 50).</p>
+                  </authorialNote>. Clear and detailed procedures for participants and participating organisations will be established for all phases of the solidarity activity in the appropriate programme documents, such as the Annual Work Programme and the Programme Guide. The Commission should regularly consult key stakeholders, including participating organisations, on the implementation of the European Solidarity Corps.</p>
+            </recital>
+            <recital xml:id="rec_d331e400">
+               <num>(37)</num>
+               <p>In order to ensure financially sound implementation and close monitoring of the European Solidarity Corps at national level, it is important to use the existing national authorities designated for the management of the actions referred to in Chapter III of Regulation (EU) No 1288/2013.</p>
+            </recital>
+            <recital xml:id="rec_d331e406">
+               <num>(38)</num>
+               <p>The national authorities designated for the management of actions referred to in Chapter III of Regulation (EU) No 1288/2013 should also act as national authorities for the purposes of this Regulation. This should not, however, prevent the designation of more than one national authority in accordance with national law and practice as provided for in Article 27(1) of that Regulation. Where a participating country wishes to replace its national authority during the course of the lifetime of the European Solidarity Corps, the procedure provided for in Article 27(2) of that Regulation should apply.</p>
+            </recital>
+            <recital xml:id="rec_d331e412">
+               <num>(39)</num>
+               <p>In order to ensure sound financial management and legal certainty in each participating country, each national authority should designate an independent audit body. Where feasible, and in order to maximise efficiency, the independent audit body could be the same as the one designated for the actions referred to in Chapter III of Regulation (EU) No 1288/2013.</p>
+            </recital>
+            <recital xml:id="rec_d331e418">
+               <num>(40)</num>
+               <p>The financial interests of the Union should be protected through proportionate measures throughout the expenditure cycle, including the prevention, detection and investigation of irregularities, the recovery of funds lost, wrongly paid or incorrectly used and, where appropriate, penalties.</p>
+            </recital>
+            <recital xml:id="rec_d331e425">
+               <num>(41)</num>
+               <p>In order to ensure uniform conditions for the implementation of this Regulation, implementing powers should be conferred on the Commission. Those powers should be exercised in accordance with Regulation (EU) No 182/2011 of the European Parliament and of the Council<authorialNote placement="bottom" marker="10">
+                     <p>Regulation (EU) No 182/2011 of the European Parliament and of the Council of 16 February 2011 laying down the rules and general principles concerning mechanisms for control by Member States of the Commission&apos;s exercise of implementing powers (OJ L 55, 28.2.2011, p. 13).</p>
+                  </authorialNote>.</p>
+            </recital>
+            <recital xml:id="rec_d331e442">
+               <num>(42)</num>
+               <p>In accordance with Regulation (EU, Euratom) 2018/1046 of the European Parliament and of the Council<authorialNote placement="bottom" marker="11">
+                     <p>Regulation (EU, Euratom) 2018/1046 of the European Parliament and of the Council of 18 July 2018 on the financial rules applicable to the general budget of the Union, amending Regulations (EU) No 1296/2013, (EU) No 1301/2013, (EU) No 1303/2013, (EU) No 1304/2013, (EU) No 1309/2013, (EU) No 1316/2013, (EU) No 223/2014, (EU) No 283/2014, and Decision No 541/2014/EU and repealing Regulation (EU, Euratom) No 966/2012 (OJ L 193, 30.7.2018, p. 1).</p>
+                  </authorialNote>, the Commission should adopt work programmes and inform the European Parliament and the Council thereof. Work programmes should set out the measures needed for their implementation in line with the general and specific objectives of the European Solidarity Corps, the selection and award criteria for grants, as well as all other elements required. Work programmes and any amendments thereto should be adopted by implementing acts in accordance with the examination procedure.</p>
+            </recital>
+            <recital xml:id="rec_d331e458">
+               <num>(43)</num>
+               <p>Since the objective of this Regulation, namely to establish a European Solidarity Corps, cannot be sufficiently achieved by the Member States but can rather, by reason of its scale and effects, be better achieved at Union level, the Union may adopt measures, in accordance with the principle of subsidiarity as set out in Article 5 TEU. In accordance with the principle of proportionality, as set out in that Article, this Regulation does not go beyond what is necessary in order to achieve that objective.</p>
+            </recital>
+            <recital xml:id="rec_d331e464">
+               <num>(44)</num>
+               <p>For reasons of efficiency and effectiveness, the committee established under Regulation (EU) No 1288/2013 should also assist the Commission in the implementation of this Regulation. With respect to the European Solidarity Corps, that committee should convene in a specific configuration and its mandate should be aligned in order to fulfil this new role. The participating countries should appoint the relevant representatives for those meetings, taking into account the subject matter, aim, objectives and actions of the European Solidarity Corps.</p>
+            </recital>
+            <recital xml:id="rec_d331e470">
+               <num>(45)</num>
+               <p>Regulation (EU) No 1288/2013 should be amended in order to take into account the changes to the European Voluntary Service resulting from volunteering under this Regulation.</p>
+            </recital>
+            <recital xml:id="rec_d331e476">
+               <num>(46)</num>
+               <p>The financial envelope of the European Solidarity Corps under Heading 1a of the Multiannual Financial Framework also builds on funds redeployed from the Erasmus+ programme. Those funds should exclusively come from appropriations aimed at financing European Voluntary Service activities that would fall under the scope of volunteering under this Regulation.</p>
+            </recital>
+            <recital xml:id="rec_d331e482">
+               <num>(47)</num>
+               <p>The financial envelope of the European Solidarity Corps under Heading 1a of the Multiannual Financial Framework should additionally be supplemented by financial contributions from other programmes and headings, which require the amendment of Regulation (EU) No 1293/2013 of the European Parliament and of the Council<authorialNote placement="bottom" marker="12">
+                     <p>Regulation (EU) No 1293/2013 of the European Parliament and of the Council of 11 December 2013 on the establishment of a Programme for the Environment and Climate Action (LIFE) and repealing Regulation (EC) No 614/2007 (OJ L 347, 20.12.2013, p. 185).</p>
+                  </authorialNote> as well as of Decision No 1313/2013/EU of the European Parliament and of the Council<authorialNote placement="bottom" marker="13">
+                     <p>Decision No 1313/2013/EU of the European Parliament and of the Council of 17 December 2013 on a Union Civil Protection Mechanism (OJ L 347, 20.12.2013, p. 924).</p>
+                  </authorialNote>.</p>
+            </recital>
+            <recital xml:id="rec_d331e508">
+               <num>(48)</num>
+               <p>This Regulation should apply from the date of its entry into force. In order to allow for the prompt application of the measures provided for in this Regulation, this Regulation should enter into force on the day following that of its publication in the <i>Official Journal of the European Union</i>,</p>
+            </recital>
+         </recitals>
+         <formula name="enactingFormula">
+            <p>HAVE ADOPTED THIS REGULATION:</p>
+         </formula>
+      </preamble>
+      <body>
+         <chapter>
+            <num>CHAPTER I</num>
+            <heading>GENERAL PROVISIONS</heading>
+            <article xml:id="art_d331e529">
+               <num>Article 1</num>
+               <heading>Subject-matter</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>This Regulation lays down the legal framework for the European Solidarity Corps, which shall enhance the engagement of young people and organisations in accessible and high-quality solidarity activities with a view to contributing to strengthening cohesion, solidarity and democracy in Europe, with particular effort to the promotion of social inclusion.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>The European Solidarity Corps shall pursue its objectives through solidarity activities and quality and support measures. Solidarity activities shall be implemented in accordance with specific requirements laid down for each type of solidarity activity carried out in the framework of the European Solidarity Corps as well as with applicable regulatory frameworks in participating countries.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <subparagraph>
+                     <content>
+                        <p>The European Solidarity Corps shall support solidarity activities which present a clear European added value, for example by virtue of their:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(a)</num>
+                        <content>
+                           <p>transnational character, particularly with regard to learning mobility and cooperation;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(b)</num>
+                        <content>
+                           <p>ability to complement other programmes and policies at local, regional, national, Union and international level;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(c)</num>
+                        <content>
+                           <p>European dimension with regard to the topics, aims, approaches, expected outcomes and other aspects of those solidarity activities;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(d)</num>
+                        <content>
+                           <p>approach with regard to involving young people from different backgrounds;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(e)</num>
+                        <content>
+                           <p>contribution to the effective use of Union transparency and recognition tools.</p>
+                        </content>
+                     </point>
+                  </list>
+               </paragraph>
+            </article>
+            <article xml:id="art_d331e582">
+               <num>Article 2</num>
+               <heading>Definitions</heading>
+               <paragraph>
+                  <subparagraph>
+                     <content>
+                        <p>For the purposes of this Regulation, the following definitions apply:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(1)</num>
+                        <content>
+                           <p>&apos;solidarity activity&apos; means a high-quality temporary activity that does not interfere with the functioning of the labour market; that addresses important societal challenges to the benefit of a community or society as a whole, thereby contributing to the achievement of the objectives of the European Solidarity Corps; that takes the form of volunteering, traineeships, jobs, solidarity projects and networking activities in various fields; that ensures a European added value and compliance with health and safety regulations, includes a solid learning and training dimension through relevant activities that can be offered to participants before, during and after the activity; that takes place in a broad range of areas, such as in the fields of environmental protection, climate change mitigation and greater social inclusion, but does not include activities that are part of curricula in formal education, vocational education and training systems and activities for emergency response;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(2)</num>
+                        <content>
+                           <p>&apos;registered candidate&apos; means an individual aged between 17 and 30 years who is legally residing in a participating country and has registered in the European Solidarity Corps Portal for the purposes of expressing interest in engaging in a solidarity activity but who is not yet participating in a solidarity activity;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(3)</num>
+                        <content>
+                           <p>&apos;participant&apos; means an individual aged between 18 and 30 years who is legally residing in a participating country, has registered in the European Solidarity Corps Portal and takes part in a solidarity activity;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(4)</num>
+                        <content>
+                           <p>&apos;young people with fewer opportunities&apos; means individuals aged between 18 and 30 years who need additional support due to the fact that they are at a disadvantage compared to their peers because of various obstacles, for example disability, health problems, educational difficulties, cultural differences or economic, social or geographical obstacles, including young people from a marginalised community or at risk of facing discrimination based on any of the grounds enshrined in Article 21 of the Charter of Fundamental Rights of the European Union;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(5)</num>
+                        <content>
+                           <p>&apos;participating organisation&apos; means any public or private entity, whether non-profit or profit-making, local, regional, national or international, that has been attributed the quality label, either in a host function, or in a supporting function, including a sending function, or both, which ensures that this entity is able to implement the solidarity activities in accordance with the objectives of the European Solidarity Corps, and that offers a volunteering, traineeship or job opportunity to a participant or implements and supports other activities in the framework of the European Solidarity Corps;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(6)</num>
+                        <content>
+                           <p>&apos;volunteering&apos; means a solidarity activity that takes the form of a voluntary unpaid activity for a period of up to twelve months; that provides young people with the opportunity to contribute to the daily work of organisations in solidarity activities to the ultimate benefit of the communities within which the activities are carried out; that takes place either in a country other than the country of residence of the participant (cross-border) or in the country of residence of the participant (in-country); that does not substitute traineeships or jobs and, therefore, is in no case equated with employment and that is based on a written volunteering agreement;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(7)</num>
+                        <content>
+                           <p>&apos;activities by volunteering teams&apos; means volunteering that allows teams of participants from different participating countries to volunteer together for a period of between two weeks and two months and that especially contributes to the inclusion of young people with fewer opportunities in the European Solidarity Corps or is justified due to its specific aims, or both;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(8)</num>
+                        <content>
+                           <p>&apos;traineeship&apos; means a solidarity activity that takes the form of a work practice for a period of between two and six months, renewable once, and for a maximum duration of 12 months within the same participating organisation; that is offered and paid by the participating organisation hosting the participant, either in a country other than the country of residence of the participant (cross-border) or in the country of residence of the participant (in-country); that includes a learning and a training component to help the participant gain relevant experience with a view to developing competences useful for the participants&apos; personal, educational, social, civic and professional development; that is based on a written traineeship agreement concluded at the beginning of the traineeship in accordance with the applicable regulatory framework of the country where the traineeship takes place, as appropriate, indicating the educational objectives, the working conditions, the duration of the traineeship, the remuneration of the participant and the rights and obligations of the parties and taking into account the principles of the Quality Framework for Traineeships and that does not substitute jobs;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(9)</num>
+                        <content>
+                           <p>&apos;job&apos; means a solidarity activity, undertaken for a period of between three and twelve months, that is paid by the participating organisation employing the participant, either in a country other than the country of residence of the participant (cross-border) or in the country of residence of the participant (in-country). When the duration of the employment contract exceeds twelve months, financial support to participating organisations offering jobs shall not exceed 12 months. Such jobs shall include a learning and a training component and be based on a written employment contract which respects all the terms and conditions of employment as defined in the national law, applicable collective agreements, or both, of the country in which the job is being carried out;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(10)</num>
+                        <content>
+                           <p>&apos;solidarity project&apos; means a an unpaid in-country solidarity activity, undertaken for a period of between two and twelve months, that is set up and carried out by a group of at least five participants, with a view to addressing key challenges within their communities while presenting a clear European added value, and that does not substitute traineeships or jobs;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(11)</num>
+                        <content>
+                           <p>&apos;networking activities&apos; means an in-country or cross-border activity aimed at reinforcing the capacity of a participating organisation to offer quality projects to an increasing number of participants, to attract newcomers, both young people and organisations, and to provide opportunities for feedback on solidarity activities, that can also contribute to the exchange of experiences and strengthening the sense of belonging among participants and participating organisations and thus supports the wider positive impact of the European Solidarity Corps;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(12)</num>
+                        <content>
+                           <p>&apos;quality label&apos; means the certification attributed to an organisation willing to provide solidarity activities, either in a host function, or in a supporting function, including a sending function, or both, that certifies that the organisation is able to ensure the quality of solidarity activities in accordance with the principles and objectives of the European Solidarity Corps, and that is attributed according to varying specific requirements depending on the type of solidarity activity and the function of the organisation;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(13)</num>
+                        <content>
+                           <p>&apos;European Solidarity Corps Resource Centres&apos; means the additional functions performed by designated national agencies to support the development, implementation and quality of actions under the European Solidarity Corps as well as the identification of the competences acquired by the participants during their solidarity activities, including related training activities;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(14)</num>
+                        <content>
+                           <p>&apos;European Solidarity Corps Portal&apos; means an interactive web-based tool, in all official languages of the Union, managed under the responsibility of the Commission, that provides relevant online services to support the quality implementation of the European Solidarity Corps, complementing activities of participating organisations, including providing information about the European Solidarity Corps, registering participants, searching for participants, advertising and searching for solidarity activities, searching for potential project partners, supporting contact making and offers for solidarity activities, training, communication and networking activities, informing and notifying about opportunities, providing a feedback mechanism regarding the quality of solidarity activities as well as other relevant developments related to the European Solidarity Corps;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(15)</num>
+                        <content>
+                           <p>&apos;Union transparency and recognition tools&apos; means instruments that help stakeholders to understand, appreciate and, as appropriate, recognise non-formal and informal learning outcomes throughout the Union.</p>
+                        </content>
+                     </point>
+                  </list>
+               </paragraph>
+            </article>
+            <article xml:id="art_d331e729">
+               <num>Article 3</num>
+               <heading>General objective</heading>
+               <paragraph>
+                  <content>
+                     <p>The general objective of the European Solidarity Corps is to promote solidarity as a value, mainly through volunteering, enhance the engagement of young people and organisations in accessible and high-quality solidarity activities as a means to contribute to strengthening cohesion, solidarity, democracy and citizenship in Europe, while also responding to societal challenges and strengthening communities, with particular effort to promote social inclusion. It shall also contribute to European cooperation that is relevant to young people.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d331e737">
+               <num>Article 4</num>
+               <heading>Specific objectives</heading>
+               <paragraph>
+                  <subparagraph>
+                     <content>
+                        <p>The European Solidarity Corps shall pursue the following specific objectives:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(a)</num>
+                        <content>
+                           <p>to provide young people, with the support of participating organisations, with easily accessible opportunities for engagement in solidarity activities effecting positive societal change while improving their skills and competences for personal, educational, social, civic, cultural and professional development, as well as facilitating their active citizenship, employability and transition into the labour market, including by supporting the mobility of young volunteers, trainees and workers;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(b)</num>
+                        <content>
+                           <p>to ensure that the solidarity activities that are offered to participants are of high quality, properly validated and respect the principles of the European Solidarity Corps referred to in Article 13(2);</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(c)</num>
+                        <content>
+                           <p>to ensure that particular efforts are made to promote social inclusion and equal opportunities, in particular for the participation of young people with fewer opportunities, through a range of special measures such as appropriate formats of solidarity activities and personalised support;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(d)</num>
+                        <content>
+                           <p>to contribute to European cooperation relevant to young people and to raise awareness of its positive impact.</p>
+                        </content>
+                     </point>
+                  </list>
+               </paragraph>
+            </article>
+            <article xml:id="art_d331e770">
+               <num>Article 5</num>
+               <heading>Coherence and complementarity of Union action</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>The actions of the European Solidarity Corps shall be consistent with and complementary to the relevant Union level policies, programmes, instruments as well as existing Union level networks pertinent to the activities of the European Solidarity Corps.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>The actions of the European Solidarity Corps shall also be consistent with, and complementary to, the relevant national-level policies, programmes and instruments in the participating countries. To that end, the Commission, national authorities and national agencies shall exchange information on existing national schemes and priorities related to solidarity and youth, on the one hand, and actions under the European Solidarity Corps on the other hand, with a view to build on relevant good practices and achieve efficiency and effectiveness.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <content>
+                     <p>Other Union programmes may also contribute to the objectives of the European Solidarity Corps by supporting activities within its scope. This contribution shall be financed in accordance with their respective basic acts.</p>
+                  </content>
+               </paragraph>
+            </article>
+         </chapter>
+         <chapter>
+            <num>CHAPTER II</num>
+            <heading>ACTIONS OF THE EUROPEAN SOLIDARITY CORPS</heading>
+            <article xml:id="art_d331e799">
+               <num>Article 6</num>
+               <heading>Actions of the European Solidarity Corps</heading>
+               <paragraph>
+                  <subparagraph>
+                     <content>
+                        <p>The European Solidarity Corps shall pursue its objectives through the following types of actions:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(a)</num>
+                        <content>
+                           <p>volunteering;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(b)</num>
+                        <content>
+                           <p>traineeships, jobs;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(c)</num>
+                        <content>
+                           <p>solidarity projects and networking activities; and</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(d)</num>
+                        <content>
+                           <p>quality and support measures.</p>
+                        </content>
+                     </point>
+                  </list>
+               </paragraph>
+            </article>
+            <article xml:id="art_d331e832">
+               <num>Article 7</num>
+               <heading>Solidarity activities</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <subparagraph>
+                     <content>
+                        <p>The actions referred to in points (a), (b) and (c) of Article 6 shall support solidarity activities in the form of:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(a)</num>
+                        <content>
+                           <p>volunteering, traineeships and jobs, including both individual cross-border and in-country activities. For volunteering also activities involving teams of participants from different participating countries shall be supported;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(b)</num>
+                        <content>
+                           <p>solidarity projects on the initiative of participants;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(c)</num>
+                        <content>
+                           <p>networking activities for participants and participating organisations.</p>
+                        </content>
+                     </point>
+                  </list>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>Volunteering under the European Voluntary Service shall continue to be carried out both under Regulation (EU) No 1288/2013 and under this Regulation, as appropriate. References to the European Voluntary Service in legal acts of the Union, in particular Directive (EU) 2016/801 of the European Parliament and of the Council<authorialNote placement="bottom" marker="14">
+                           <p>Directive (EU) 2016/801 of the European Parliament and of the Council of 11 May 2016 on the conditions of entry and residence of third-country nationals for the purposes of research, studies, training, voluntary service, pupil exchange schemes or educational programs and au pairing (OJ L 132, 21.5.2016, p. 21).</p>
+                        </authorialNote>, shall be read as including volunteering under both Regulation (EU) No 1288/2013 and this Regulation.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d331e878">
+               <num>Article 8</num>
+               <heading>Quality and support measures</heading>
+               <paragraph>
+                  <subparagraph>
+                     <content>
+                        <p>The action referred to in point (d) of Article 6 shall support:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(a)</num>
+                        <content>
+                           <p>measures aimed at ensuring the quality and accessibility of volunteering, traineeships, jobs, or solidarity projects and equal opportunities for all young people across participating countries including offline and online training, language support, administrative support for participants and participating organisations, complementary insurance, support before and, where necessary, after the solidarity activity, as well as the further use of Youthpass to identify and document the competences acquired during the solidarity activities;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(b)</num>
+                        <content>
+                           <p>the development and maintenance of separate quality labels for entities willing to provide respectively volunteering or traineeships and jobs for the European Solidarity Corps in order to ensure compliance with the principles and requirements of the European Solidarity Corps;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(c)</num>
+                        <content>
+                           <p>the activities of the European Solidarity Corps Resource Centres to support and raise the quality of the implementation of the actions of the European Solidarity Corps and enhance the validation of their outcomes;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(d)</num>
+                        <content>
+                           <p>the establishment, maintenance and updating of the European Solidarity Corps Portal and other relevant online services as well as the necessary IT support systems and web-based tools, taking into account the need to overcome the digital divide.</p>
+                        </content>
+                     </point>
+                  </list>
+               </paragraph>
+            </article>
+         </chapter>
+         <chapter>
+            <num>CHAPTER III</num>
+            <heading>FINANCIAL PROVISIONS</heading>
+            <article xml:id="art_d331e920">
+               <num>Article 9</num>
+               <heading>Budget</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>The overall budget available for the implementation of the European Solidarity Corps is set at EUR 375600000 in current prices, for the period from 1 January 2018 until 31 December 2020.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>The financial support to solidarity activities referred to in points (a) and (b) of Article 7(1) shall indicatively be 90 % for volunteering and solidarity projects; and 10 % for either traineeships or jobs, or both, with a maximum of 20 % for in-country activities.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <content>
+                     <p>The financial allocation may also cover expenses pertaining to preparatory, monitoring, control, audit and evaluation activities which are required for the management of the European Solidarity Corps and the achievement of its objectives, in particular, studies, meetings of experts and information and communication actions, expenses linked to the establishment, maintenance and updating of the European Solidarity Corps Portal and the necessary IT support systems, and all other technical and administrative assistance expenses incurred by the Commission for the management of the European Solidarity Corps.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>4.</num>
+                  <content>
+                     <p>If necessary, appropriations may be entered in the budget beyond 2020 to cover similar expenses, in order to enable the management of actions not yet completed by 31 December 2020.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>5.</num>
+                  <content>
+                     <p>A participating country may make national funding available to beneficiaries to be managed in accordance with the rules of the European Solidarity Corps and, to this end, use the decentralised structures of the European Solidarity Corps, as long as it ensures the complementary pro rata funding of these structures.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d331e963">
+               <num>Article 10</num>
+               <heading>Forms of Union funding</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>European Solidarity Corps funding may be provided in one or more of the forms laid down in Regulation (EU, Euratom) 2018/1046 in particular grants, procurement and prizes.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>In order to simplify requirements for beneficiaries, lump sums, unit costs and flat-rate financing shall be used to the maximum possible extent.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <content>
+                     <p>The Commission may implement the European Solidarity Corps indirectly in accordance with point (c) of Article 62(1) of Regulation (EU, Euratom) 2018/1046.</p>
+                  </content>
+               </paragraph>
+            </article>
+         </chapter>
+         <chapter>
+            <num>CHAPTER IV</num>
+            <heading>PARTICIPATION IN THE EUROPEAN SOLIDARITY CORPS</heading>
+            <article xml:id="art_d331e992">
+               <num>Article 11</num>
+               <heading>Participating countries</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <subparagraph>
+                     <content>
+                        <p>The European Solidarity Corps shall be open to the participation of the following countries (the &apos;participating countries&apos;):</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(a)</num>
+                        <content>
+                           <p>volunteering, traineeships, jobs, solidarity projects and networking activities shall be open to the participation of the Member States;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(b)</num>
+                        <alinea>
+                           <content>
+                              <p>volunteering, solidarity projects and networking activities shall also be open to the participation of:</p>
+                           </content>
+                        </alinea>
+                        <list>
+                           <point>
+                              <num>(i)</num>
+                              <content>
+                                 <p>the acceding countries, candidate countries and potential candidates which benefit from a pre-accession strategy, in accordance with the general principles and general terms and conditions for the participation of those countries in Union programmes established in the respective framework agreements, Association Council decisions or similar agreements;</p>
+                              </content>
+                           </point>
+                           <point>
+                              <num>(ii)</num>
+                              <content>
+                                 <p>those EFTA countries that are party to the EEA Agreement, in accordance with the provisions of that agreement;</p>
+                              </content>
+                           </point>
+                           <point>
+                              <num>(iii)</num>
+                              <content>
+                                 <p>the Swiss Confederation, on the basis of a bilateral agreement to be concluded with that country;</p>
+                              </content>
+                           </point>
+                           <point>
+                              <num>(iv)</num>
+                              <content>
+                                 <p>those countries covered by the European neighbourhood policy which have concluded agreements with the Union providing for the possibility of their participation in the Union&apos;s programmes, subject to the conclusion of a bilateral agreement with the Union on the conditions of their participation in the European Solidarity Corps.</p>
+                              </content>
+                           </point>
+                        </list>
+                     </point>
+                  </list>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>The countries referred to in point (b) of paragraph (1) shall be subject to all the obligations and shall fulfil all the tasks set out in this Regulation in relation to Member States.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <content>
+                     <p>The European Solidarity Corps shall support cooperation with partner countries, in particular European Neighbourhood countries, in activities as referred to in points (6) and (11) of Article 2.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d331e1056">
+               <num>Article 12</num>
+               <heading>Participation of individuals</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>Young people aged between 17 and 30 years who are willing to participate in the European Solidarity Corps shall register in the European Solidarity Corps Portal or shall get support to do so. However, at the moment of commencing a volunteering, a traineeship, a job or a solidarity project, a young person shall be at least 18 years of age and not older than 30.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>When implementing this Regulation, the Commission, the Member States and other participating countries shall ensure that specific and effective measures are taken to promote social inclusion and equal access conditions, in particular for the participation of young people with fewer opportunities.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d331e1071">
+               <num>Article 13</num>
+               <heading>Participating organisations</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>The European Solidarity Corps shall be open to the participation of public or private entities, whether non-profit or profit-making, provided that they offer activities that correspond to the definition of solidarity activity within this Regulation and that they have received a quality label. In line with Regulation (EU, Euratom) 2018/1046, the grants shall not have the purpose or effect of producing a profit.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>An application from an entity to become a participating organisation shall be assessed by the competent implementing body of the European Solidarity Corps on the basis of the principles of equal treatment; equal opportunities and non-discrimination; avoidance of job substitution; provision of high-quality activities with learning dimension focusing on personal, socio-educational and professional development; adequate training, working and volunteering arrangements; safe and decent environment and conditions; and, the &apos;no-profit principle&apos; in compliance with Regulation (EU, Euratom) 2018/1046. Adherence to those principles ascertains that activities of the participating organisations adhere to the requirements of the European Solidarity Corps. The quality label shall only be attributed to organisations committing to comply with these principles. Actual compliance shall be controlled in accordance with Articles 22 and 23 of this Regulation. Any entity which substantially changes its activities shall inform the competent implementing body for reassessment. The process for attributing the quality label for volunteering shall be differentiated from that for jobs and traineeships.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <content>
+                     <p>As a result of the assessment, the entity may be attributed the quality label. The obtained label shall be re-assessed periodically, and may be revoked. In case the quality label is revoked, it may then be re-attributed following a new application and further assessment.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>4.</num>
+                  <content>
+                     <p>Any entity which has received the quality label shall be given access to the European Solidarity Corps Portal, either in a host function, or in a supporting function, or both, and can make offers for solidarity activities to registered candidates.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>5.</num>
+                  <content>
+                     <p>The quality label shall not automatically lead to funding under the European Solidarity Corps.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>6.</num>
+                  <content>
+                     <p>The solidarity activities and related quality and support measures offered by a participating organisation may receive funding under the European Solidarity Corps or under another Union programme autonomously contributing to the objectives of the European Solidarity Corps and respecting its requirements or from other funding sources which do not depend on the Union budget.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d331e1111">
+               <num>Article 14</num>
+               <heading>Access to European Solidarity Corps funding</heading>
+               <paragraph>
+                  <content>
+                     <p>Any public or private entity established in a participating country carrying out solidarity activities in the participating countries may apply for funding under the European Solidarity Corps. In the case of the activities referred to in point (a) of Article 7(1), a quality label shall be obtained by the participating organisation as a pre-condition for receiving funding under the European Solidarity Corps. In the case of the solidarity projects referred to in point (b) of Article 7(1), natural persons may also apply for funding on behalf of informal groups of participants.</p>
+                  </content>
+               </paragraph>
+            </article>
+         </chapter>
+         <chapter>
+            <num>CHAPTER V</num>
+            <heading>PERFORMANCE, RESULTS AND DISSEMINATION</heading>
+            <article xml:id="art_d331e1127">
+               <num>Article 15</num>
+               <heading>Monitoring and evaluation of performance and results</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>The Commission, in cooperation with the national authorities and national agencies in participating countries and involving participating organisations, as well as Union and national stakeholders such as youth organisations, shall regularly and effectively monitor the performance of the European Solidarity Corps in the achievement of its objectives. The Commission shall regularly consult key stakeholders, including participating organisations, on the implementation of the European Solidarity Corps.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>Based on the minimum framework of indicators set up in the Annex, at the latest by 6 April 2019, the Commission in cooperation with Member States shall establish, by way of implementing acts, a detailed programme for monitoring the outputs, results and impacts of the European Solidarity Corps. The detailed programme shall include an extended set of qualitative and quantitative indicators for that purpose, as well as timeline and methodology for such monitoring. Those implementing acts shall be adopted in accordance with the examination procedure referred to in Article 25(2).</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <content>
+                     <p>In 2020, the Commission shall publish a report taking stock of the progress made towards achieving the objectives of the European Solidarity Corps.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>4.</num>
+                  <content>
+                     <p>By 6 October 2022, the Commission shall carry out an independent evaluation of this Regulation to assess the efficiency, effectiveness and impact of the programme in view of the programme objectives and present a report on the main findings, including recommendations for the future of the programme, to the European Parliament, to the Council, to the Committee of the Regions and to the European Economic and Social Committee. As part of the evaluation, the Commission shall ensure regular consultation of all relevant stakeholders, including participants, participating organisations and the local communities concerned, as appropriate. The results of the evaluation shall feed back into future programme design and resource allocation proposals.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d331e1159">
+               <num>Article 16</num>
+               <heading>Communication and dissemination</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>The Commission, in cooperation with national authorities and national agencies in participating countries and relevant Union-level networks, shall ensure the dissemination of information, publicity and follow-up with regard to all actions supported in the framework of the European Solidarity Corps.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>The national agencies referred to in Article 20 shall develop policies with regard to effective outreach. Such policies shall also target young people with fewer opportunities including in remote areas as well as dissemination and exploitation of results of activities supported under the actions they manage, involving also youth organisations and specialised youth information services, as appropriate.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <content>
+                     <p>Communication activities shall also contribute to the corporate communication of the political priorities of the Union, provided that they are related to the general objective of this Regulation and that they represent added value and visibility for the Union.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>4.</num>
+                  <content>
+                     <p>Participating organisations shall use the brand name &apos;European Solidarity Corps&apos; for the purposes of communication and dissemination of information related to the European Solidarity Corps.</p>
+                  </content>
+               </paragraph>
+            </article>
+         </chapter>
+         <chapter>
+            <num>CHAPTER VI</num>
+            <heading>MANAGEMENT AND AUDIT SYSTEM</heading>
+            <article xml:id="art_d331e1197">
+               <num>Article 17</num>
+               <heading>Implementing bodies</heading>
+               <paragraph>
+                  <subparagraph>
+                     <content>
+                        <p>This Regulation shall be implemented in a consistent manner by:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(a)</num>
+                        <content>
+                           <p>the Commission at Union level;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(b)</num>
+                        <content>
+                           <p>the national agencies at national level in the participating countries.</p>
+                        </content>
+                     </point>
+                  </list>
+               </paragraph>
+            </article>
+            <article xml:id="art_d331e1218">
+               <num>Article 18</num>
+               <heading>National authority</heading>
+               <paragraph>
+                  <content>
+                     <p>In each country participating in the European Solidarity Corps, the national authorities designated for the management of actions referred to in Chapter III of Regulation (EU) No 1288/2013 shall also act as national authorities for the purposes of the European Solidarity Corps. Article 27(1), (3), (8), (9) and (11) to (16) of that Regulation shall apply to the European Solidarity Corps by analogy.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d331e1225">
+               <num>Article 19</num>
+               <heading>Independent audit body</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>The national authority shall designate an independent audit body. The independent audit body shall issue an audit opinion on the yearly management declaration referred to in point (c) of Article 155(1) of Regulation (EU, Euratom) 2018/1046.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <subparagraph>
+                     <content>
+                        <p>The independent audit body shall:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(a)</num>
+                        <content>
+                           <p>have the necessary professional competence to carry out public sector audits;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(b)</num>
+                        <content>
+                           <p>ensure that its audits take account of internationally accepted audit standards;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(c)</num>
+                        <content>
+                           <p>not be in a position of conflict of interest with regard to the legal entity of which the national agency referred to in Article 20 forms part and shall be independent, in terms of its functions, of the legal entity of which the national agency forms part.</p>
+                        </content>
+                     </point>
+                  </list>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <content>
+                     <p>The independent audit body shall give the Commission and its representatives, as well as the Court of Auditors, full access to all documents and reports in support of the audit opinion that it issues on the national agency&apos;s yearly management declaration.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d331e1266">
+               <num>Article 20</num>
+               <heading>National agency</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <subparagraph>
+                     <content>
+                        <p>In each country participating in the European Solidarity Corps, the national agencies designated for the management of the actions referred to in Chapter III of the Regulation (EU) No 1288/2013 in their respective countries shall also act as national agencies in the framework of the European Solidarity Corps.</p>
+                     </content>
+                  </subparagraph>
+                  <subparagraph>
+                     <content>
+                        <p>Article 28(1), (2), (5) to (8) of Regulation (EU) No 1288/2013 shall apply to the European Solidarity Corps by analogy.</p>
+                     </content>
+                  </subparagraph>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>Without prejudice to Article 28(3) of Regulation (EU) No 1288/2013, the national agency shall also be responsible for managing all stages of the project lifecycle of those actions of the European Solidarity Corps listed in the implementing acts referred to in Article 24 of this Regulation, in accordance with point (c)(v) and (vi) of Article 62(1) of Regulation (EU, Euratom) 2018/1046.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d331e1283">
+               <num>Article 21</num>
+               <heading>European Commission</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <subparagraph>
+                     <content>
+                        <p>The rules applying to the relationship between the Commission and a national agency shall be laid down, in accordance with the rules in Article 28 of Regulation (EU) No 1288/2013, in a written document. The document shall:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(a)</num>
+                        <content>
+                           <p>stipulate the internal control standards for national agencies and the rules for the management of the Union funds for grant support by the national agencies;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(b)</num>
+                        <content>
+                           <p>include the national agency work programme comprising the management tasks of the national agency to which Union support is provided;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(c)</num>
+                        <content>
+                           <p>specify the reporting requirements for the national agency.</p>
+                        </content>
+                     </point>
+                  </list>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <subparagraph>
+                     <content>
+                        <p>The Commission shall each year make the following funds available to the national agency:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(a)</num>
+                        <content>
+                           <p>funds for grant support in the participating country concerned for the actions of the European Solidarity Corps the management of which is entrusted to the national agency;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(b)</num>
+                        <content>
+                           <p>a financial contribution in support of the management tasks of the national agency defined in accordance with point (b) of Article 29(4) of Regulation (EU) No 1288/2013.</p>
+                        </content>
+                     </point>
+                  </list>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <content>
+                     <p>The Commission shall lay down the requirements for the national agency work programme. The Commission shall not make European Solidarity Corps funds available to the national agency before having formally approved the national agency&apos;s work programme, taking into account the principles as set out in Article 5(2) and Article 24.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>4.</num>
+                  <content>
+                     <p>On the basis of the compliance requirements for national agencies referred to in Article 27(4) of Regulation (EU) No 1288/2013, the Commission shall review the national management and control systems, the national agency&apos;s management declaration and the opinion of the independent audit body thereon, taking due account of the information provided by the national authority on its monitoring and supervision activities with regard to the European Solidarity Corps.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>5.</num>
+                  <content>
+                     <p>After assessing the yearly management declaration and the opinion of the independent audit body thereon, the Commission shall address its opinion and observations to the national agency and the national authority.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>6.</num>
+                  <content>
+                     <p>In the event that the Commission cannot accept the yearly management declaration or the independent audit opinion thereon, or in the event of unsatisfactory implementation by the national agency of the Commission&apos;s observations, the Commission may implement any precautionary and corrective measures necessary to safeguard the Union&apos;s financial interests in accordance with point (c) of Article 131(3) of Regulation (EU, Euratom) 2018/1046.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>7.</num>
+                  <content>
+                     <p>The Commission shall organise regular meetings and trainings with and for the network of national agencies in order to ensure coherent implementation of the European Solidarity Corps across all participating countries. The Commission shall regularly consult key stakeholders, including participating organisations, on the implementation of the European Solidarity Corps.</p>
+                  </content>
+               </paragraph>
+            </article>
+         </chapter>
+         <chapter>
+            <num>CHAPTER VII</num>
+            <heading>CONTROL SYSTEM</heading>
+            <article xml:id="art_d331e1367">
+               <num>Article 22</num>
+               <heading>Principles of the control system</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>The Commission shall take appropriate measures to ensure that, when actions financed under this Regulation are implemented, the financial interests of the Union are protected by the application of preventive measures against fraud, corruption and any other illegal activities, by effective checks and, if irregularities are detected, by the recovery of the amounts wrongly paid and, where appropriate, by effective, proportionate and dissuasive administrative and financial penalties.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>The Commission shall be responsible for the supervisory controls with regard to the European Solidarity Corps actions managed by the national agencies. It shall set the minimum requirements for the controls by the national agency and the independent audit body.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <content>
+                     <p>National agencies shall be responsible for the primary controls of grant beneficiaries for the actions of the European Solidarity Corps which are entrusted to them. Those controls shall be proportionate and adequate and give reasonable assurance that the grants awarded are used as intended and in compliance with the applicable Union rules.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>4.</num>
+                  <content>
+                     <p>With regard to the funds transferred to the national agencies, the Commission shall ensure proper coordination of its controls with the national authorities and the national agencies, on the basis of the single audit principle and following a risk-based analysis. This paragraph shall not apply to investigations carried out by the European Anti-Fraud Office (OLAF).</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d331e1392">
+               <num>Article 23</num>
+               <heading>Protection of the financial interests of the Union</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>The Commission or its representatives and the Court of Auditors shall have the power of audit, on the basis of documents and of on-the-spot inspections, over all grant beneficiaries, contractors and subcontractors and other third parties who have received Union funds under the European Solidarity Corps. They may also conduct audits and carry out controls in relation to the national agencies.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>OLAF may carry out investigations, including on-the-spot checks and inspections of economic operators concerned directly or indirectly by such funding, in accordance with the provisions and procedures laid down in Regulation (EU, Euratom) No 883/2013 of the European Parliament and of the Council<authorialNote placement="bottom" marker="15">
+                           <p>Regulation (EU, Euratom) No 883/2013 of the European Parliament and of the Council of 11 September 2013 concerning investigations conducted by the European Anti-Fraud Office (OLAF) and repealing Regulation (EC) No 1073/1999 of the European Parliament and of the Council and Council Regulation (Euratom) No 1074/1999 (OJ L 248, 18.9.2013, p. 1).</p>
+                        </authorialNote> and Council Regulation (Euratom, EC) No 2185/96<authorialNote placement="bottom" marker="16">
+                           <p>Council Regulation (Euratom, EC) No 2185/96 of 11 November 1996 concerning on-the-spot checks and inspections carried out by the Commission in order to protect the European Communities&apos; financial interests against fraud and other irregularities (OJ L 292, 15.11.1996, p. 2).</p>
+                        </authorialNote>, with a view to establishing whether there has been fraud, corruption or any other illegal activity affecting the financial interests of the Union in connection with a grant agreement or grant decision or a contract funded under the European Solidarity Corps.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <content>
+                     <p>Without prejudice to paragraphs 1 and 2, cooperation agreements with third countries and with international organisations, contracts, grant agreements and grant decisions resulting from the implementation of this Regulation, shall contain provisions expressly empowering the Commission, the Court of Auditors and OLAF to conduct such audits and investigations, in accordance with their respective competences.</p>
+                  </content>
+               </paragraph>
+            </article>
+         </chapter>
+         <chapter>
+            <num>CHAPTER VIII</num>
+            <heading>IMPLEMENTING PROVISIONS</heading>
+            <article xml:id="art_d331e1442">
+               <num>Article 24</num>
+               <heading>Implementation of the European Solidarity Corps</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>In order to implement this Regulation, the Commission shall adopt work programmes, taking into account the priorities under the national solidarity policies, where such information is transmitted to the Commission, by way of implementing acts. Each work programme shall ensure that the general objective and the specific objectives set out in Articles 3 and 4 are implemented in a consistent manner and shall outline the expected results, the method of implementation and its total amount. The work programmes shall also contain a description of the actions to be financed, an indication of the amount allocated to each action, an indication of the distribution of funds between the participating countries for the actions to be managed through the national agencies and an indicative implementation timetable.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>For the budget managed through the national agencies, the implementing act shall allow the national agencies to allocate amounts between the main in-country and cross-border actions in a manner that is coherent with the priorities identified by the national solidarity policies, in accordance with Article 9(2) and within the limits established in the work programmes.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <content>
+                     <p>Those implementing acts shall be adopted in accordance with the examination procedure referred to in Article 25(2).</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d331e1462">
+               <num>Article 25</num>
+               <heading>Committee procedure</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>The Commission shall be assisted by the committee established by Article 36 of Regulation (EU) No 1288/2013. That committee shall be a committee within the meaning of Regulation (EU) No 182/2011.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>Where reference is made to this paragraph, Article 5 of Regulation (EU) No 182/2011 shall apply.</p>
+                  </content>
+               </paragraph>
+            </article>
+         </chapter>
+         <chapter>
+            <num>CHAPTER IX</num>
+            <heading>AMENDING AND FINAL PROVISIONS</heading>
+            <article xml:id="art_d331e1486" leos:compliant="false">
+               <num>Article 26</num>
+               <heading>Amendments to Regulation (EU) No 1288/2013</heading>
+               <paragraph>
+                  <subparagraph>
+                     <content>
+                        <p>Regulation (EU) No 1288/2013 is amended as follows:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(1)</num>
+                        <alinea>
+                           <content>
+                              <p>Article 13 is replaced by the following:</p>
+                           </content>
+                        </alinea>
+                        <alinea>
+                           <content>
+                              <p>
+                                 <mod>
+                                    <quotedStructure startQuote="" endQuote="">
+                                       <article xml:id="art_d331e1503">
+                                          <num>&apos;Article 13</num>
+                                          <heading>Learning mobility of individuals</heading>
+                                          <paragraph>
+                                             <num>1.</num>
+                                             <subparagraph>
+                                                <content>
+                                                   <p>Learning mobility of individuals shall support:</p>
+                                                </content>
+                                             </subparagraph>
+                                             <list>
+                                                <point>
+                                                   <num>(a)</num>
+                                                   <content>
+                                                      <p>the mobility of young people in non-formal and informal learning activities between the Programme countries; such mobility may take the form of youth exchanges, as well as innovative activities building on existing provisions for mobility;</p>
+                                                   </content>
+                                                </point>
+                                                <point>
+                                                   <num>(b)</num>
+                                                   <content>
+                                                      <p>the mobility of persons active in youth work or youth organisations and youth leaders; such mobility may take the form of training and networking activities.</p>
+                                                   </content>
+                                                </point>
+                                             </list>
+                                          </paragraph>
+                                          <paragraph>
+                                             <num>2.</num>
+                                             <content>
+                                                <p>This action shall also support the mobility of young people, as well as the mobility of persons active in youth work or youth organisations and youth leaders, to and from partner countries, in particular neighbourhood countries.&apos;;</p>
+                                             </content>
+                                          </paragraph>
+                                       </article>
+                                    </quotedStructure>
+                                 </mod>
+                              </p>
+                           </content>
+                        </alinea>
+                     </point>
+                     <point>
+                        <num>(2)</num>
+                        <alinea>
+                           <content>
+                              <p>in Article 18, paragraphs 1, 2 and 3 are replaced by the following:</p>
+                           </content>
+                        </alinea>
+                        <alinea>
+                           <content>
+                              <p>
+                                 <mod>
+                                    <quotedStructure startQuote="" endQuote="">
+                                       <paragraph>
+                                          <num>&apos;1.</num>
+                                          <content>
+                                             <p>The financial envelope for the implementation of the Programme as from 1 January 2014 is set at EUR 14542724000 in current prices.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>2.</num>
+                                          <subparagraph>
+                                             <content>
+                                                <p>The amount referred to in paragraph 1 shall be allocated to the actions of the Programme as follows, with a margin of flexibility not exceeding 5 % of each of the allocated amounts:</p>
+                                             </content>
+                                          </subparagraph>
+                                          <list>
+                                             <point>
+                                                <num>(a)</num>
+                                                <alinea>
+                                                   <content>
+                                                      <p>at least 80,8 % to education and training, from which the following minimum allocations shall be assigned:</p>
+                                                   </content>
+                                                </alinea>
+                                                <list>
+                                                   <point>
+                                                      <num>(i)</num>
+                                                      <content>
+                                                         <p>44,3 % to higher education, representing 35,7 % of the total budget;</p>
+                                                      </content>
+                                                   </point>
+                                                   <point>
+                                                      <num>(ii)</num>
+                                                      <content>
+                                                         <p>21,4 % to vocational education and training, representing 17,3 % of the total budget;</p>
+                                                      </content>
+                                                   </point>
+                                                   <point>
+                                                      <num>(iii)</num>
+                                                      <content>
+                                                         <p>14,6 % to school education, representing 11,8 % of the total budget;</p>
+                                                      </content>
+                                                   </point>
+                                                   <point>
+                                                      <num>(iv)</num>
+                                                      <content>
+                                                         <p>4,9 % to adult learning, representing 3,9 % of the total budget;</p>
+                                                      </content>
+                                                   </point>
+                                                </list>
+                                             </point>
+                                             <point>
+                                                <num>(b)</num>
+                                                <content>
+                                                   <p>8,6 % to youth;</p>
+                                                </content>
+                                             </point>
+                                             <point>
+                                                <num>(c)</num>
+                                                <content>
+                                                   <p>up to 1,5 % to the Student Loan Guarantee Facility;</p>
+                                                </content>
+                                             </point>
+                                             <point>
+                                                <num>(d)</num>
+                                                <content>
+                                                   <p>1,9 % to Jean Monnet;</p>
+                                                </content>
+                                             </point>
+                                             <point>
+                                                <num>(e)</num>
+                                                <content>
+                                                   <p>1,8 % to sport, of which no more than 10 % to the activity mentioned under point (b) of Article 17(1);</p>
+                                                </content>
+                                             </point>
+                                             <point>
+                                                <num>(f)</num>
+                                                <content>
+                                                   <p>3,4 % as operating grants to national agencies;</p>
+                                                </content>
+                                             </point>
+                                             <point>
+                                                <num>(g)</num>
+                                                <content>
+                                                   <p>1,8 % to cover administrative expenditure.</p>
+                                                </content>
+                                             </point>
+                                          </list>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>3.</num>
+                                          <content>
+                                             <p>Of the allocations referred to in points (a) and (b) of paragraph 2, at least 63 % shall be allocated to learning mobility of individuals, at least 27 % to cooperation for innovation and the exchange of good practices and at least 4,2 % to support for policy reform.&apos;.</p>
+                                          </content>
+                                       </paragraph>
+                                    </quotedStructure>
+                                 </mod>
+                              </p>
+                           </content>
+                        </alinea>
+                     </point>
+                  </list>
+               </paragraph>
+            </article>
+            <article xml:id="art_d331e1638" leos:compliant="false">
+               <num>Article 27</num>
+               <heading>Amendment to Regulation (EU) No 1293/2013</heading>
+               <paragraph>
+                  <content>
+                     <p>In Article 4 of Regulation (EU) No 1293/2013, the following paragraph is added:</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <content>
+                     <p>
+                        <mod>
+                           <quotedStructure startQuote="" endQuote="">
+                              <paragraph>
+                                 <num>&apos;3.</num>
+                                 <content>
+                                    <p>The sub-programme for Environment corresponding to the priority area Environment Governance and the sub-programme for Climate Action corresponding to the priority area Climate Governance and Information may finance projects within the meaning of Article 17(4) of this Regulation implemented by the European Solidarity Corps in accordance with Regulation (EU) 2018/1475 of the European Parliament and of the Council<authorialNote placement="bottom" marker="17">
+                                          <p>Regulation (EU) 2018/1475 of the European Parliament and of the Council of 2 October 2018 on laying down the legal framework of the European Solidarity Corps and amending Regulation (EU) No 1288/2013, Regulation (EU) No 1293/2013 and Decision No 1313/2013/EU (OJ L 250, 4.10.2018, p. 1).&apos;.</p>
+                                       </authorialNote>, which contribute to one or more of the priority areas within the meaning of Articles 9 and 13 of this Regulation. Those projects shall be implemented solely in accordance with the Regulation (EU) 2018/1475, to the exclusion of the specific requirements of this Regulation.</p>
+                                 </content>
+                              </paragraph>
+                           </quotedStructure>
+                        </mod>
+                     </p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d331e1665" leos:compliant="false">
+               <num>Article 28</num>
+               <heading>Amendment to Decision No 1313/2013/EU</heading>
+               <paragraph>
+                  <content>
+                     <p>In Article 19(1) of Decision No 1313/2013/EU, the following subparagraph is added after the second subparagraph:</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <content>
+                     <p>
+                        <mod>
+                           <quotedStructure startQuote="" endQuote="">
+                              <paragraph>
+                                 <content>
+                                    <p>&apos;The financial envelope derived from Heading 3 &apos;Security and Citizenship&apos; may finance actions implemented by the European Solidarity Corps in accordance with Regulation (EU) 2018/1475 of the European Parliament and of the Council<authorialNote placement="bottom" marker="18">
+                                          <p>Regulation (EU) 2018/1475 of the European Parliament and of the Council of 2 October 2018 on laying down the legal framework of the European Solidarity Corps and amending Regulation (EU) No 1288/2013, Regulation (EU) No 1293/2013 and Decision No 1313/2013/EU (OJ L 250, 4.10.2018, p. 1).&apos;.</p>
+                                       </authorialNote>, which contribute to one or more of the Union priorities in the area of civil protection. Those actions shall be implemented solely in accordance with Regulation (EU) 2018/1475, to the exclusion of the specific requirements of this Decision.</p>
+                                 </content>
+                              </paragraph>
+                           </quotedStructure>
+                        </mod>
+                     </p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d331e1694">
+               <num>Article 29</num>
+               <heading>Entry into force</heading>
+               <paragraph>
+                  <content>
+                     <p>This Regulation shall enter into force on the day following that of its publication in the <i>Official Journal of the European Union</i>.</p>
+                  </content>
+               </paragraph>
+            </article>
+         </chapter>
+         <clause>
+            <content>
+               <p>This Regulation shall be binding in its entirety and directly applicable in all Member States.</p>
+            </content>
+         </clause>
+      </body>
+      <conclusions>
+         <p>Done at Strasbourg, 2 October 2018.</p>
+         <block name="signatory">
+            <signature>
+               <organization refersTo="">For the European Parliament</organization>
+               <role refersTo="">The President</role>
+               <person refersTo="">A. TAJANI</person>
+            </signature>
+            <signature>
+               <organization refersTo="">For the Council</organization>
+               <role refersTo="">The President</role>
+               <person refersTo="">J. BOGNER-STRAUSS</person>
+            </signature>
+         </block>
+      </conclusions>
+   </bill>
+</akomaNtoso>

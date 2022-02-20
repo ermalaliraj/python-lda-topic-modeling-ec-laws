@@ -1,0 +1,867 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"
+            xmlns:fmx="http://formex.publications.europa.eu/schema/formex-05.21-20110601.xd"
+            xmlns:leos="urn:eu:europa:ec:leos"
+            xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <bill name="">
+      <meta xmlns:fn="http://www.w3.org/2005/xpath-functions">
+         <identification source="~COM">
+            <FRBRWork>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRcountry value=""/>
+            </FRBRWork>
+            <FRBRExpression>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+            </FRBRManifestation>
+         </identification>
+      </meta>
+      <preface>
+         <longTitle>
+            <p>
+               <docStage/>
+               <docType>COMMISSION REGULATION (EU) 2019/1781</docType>of 1 October 2019<docPurpose>laying down ecodesign requirements for electric motors and variable speed drives pursuant to Directive 2009/125/EC of the European Parliament and of the Council, amending Regulation (EC) No 641/2009 with regard to ecodesign requirements for glandless standalone circulators and glandless circulators integrated in products and repealing Commission Regulation (EC) No 640/2009</docPurpose>
+            </p>
+         </longTitle>
+         <container name="EEArelevance">
+            <p>(Text with EEA relevance)</p>
+         </container>
+      </preface>
+      <preamble>
+         <formula name="actingEntity">
+            <p>THE EUROPEAN COMMISSION,</p>
+         </formula>
+         <citations>
+            <citation>
+               <p>Having regard to Article 114 of the Treaty on the Functioning of the European Union,</p>
+            </citation>
+            <citation>
+               <p>Having regard to Directive 2009/125/EC of the European Parliament and of the Council of 21 October 2009 establishing a framework for the setting of ecodesign requirements for energy-related products<authorialNote placement="bottom" marker="1">
+                     <p>OJ L 285, 31.10.2009, p. 10.</p>
+                  </authorialNote>, and in particular Article 15(1) thereof,</p>
+            </citation>
+         </citations>
+         <recitals xml:id="recs_d595e68">
+            <intro>
+               <p>Whereas:</p>
+            </intro>
+            <recital xml:id="rec_d595e71">
+               <num>(1)</num>
+               <p>Pursuant to Directive 2009/125/EC, the Commission should set ecodesign requirements for energy-related products which account for significant volumes of sales and trade in the Union and which have a significant environmental impact and present significant potential for improvement through design in terms of their environmental impact, without entailing excessive costs.</p>
+            </recital>
+            <recital xml:id="rec_d595e77">
+               <num>(2)</num>
+               <p>The Communication from the Commission COM(2016)773<authorialNote placement="bottom" marker="2">
+                     <p>Communication from the Commission. Ecodesign working plan 2016-2019, COM(2016) 773 final, 30.11.2016.</p>
+                  </authorialNote> (ecodesign working plan established by the Commission in application of Article 16(1) of Directive 2009/125/EC sets out the working priorities under the ecodesign and energy labelling framework for the period 2016-2019. The ecodesign working plan identifies the energy-related product groups to be considered as priorities for the undertaking of preparatory studies and eventual adoption of implementing measures, as well as the review of Commission Regulation (EC) No 640/2009<authorialNote placement="bottom" marker="3">
+                     <p>Commission Regulation (EC) No 640/2009 of 22 July 2009 implementing Directive 2005/32/EC of the European Parliament and of the Council with regard to ecodesign requirements for electric motors (OJ L 191, 23.7.2009, p. 26).</p>
+                  </authorialNote>.</p>
+            </recital>
+            <recital xml:id="rec_d595e94">
+               <num>(3)</num>
+               <p>Measures from the Working Plan have an estimated potential to deliver a total in excess of 260 TWh of annual final energy savings in 2030, which is equivalent to reducing greenhouse gas emissions by approximately 100 million tonnes per year in 2030. Electric motors is one of the product groups listed in the Working Plan, with an estimated 10 TWh of annual final energy savings in 2030.</p>
+            </recital>
+            <recital xml:id="rec_d595e100">
+               <num>(4)</num>
+               <p>The Commission established ecodesign requirements for electric motors in Regulation (EC) No 640/2009 and pursuant to that Regulation, the Commission shall review that Regulation in the light of technological progress on both motors and drives.</p>
+            </recital>
+            <recital xml:id="rec_d595e106">
+               <num>(5)</num>
+               <p>Pursuant to Article 7 of Regulation (EC) No 640/2009, the Commission has reviewed Regulation (EC) No 640/2009 and analysed the technical, environmental and economic aspects of electric motors and drives. The review was carried out in close cooperation with stakeholders and interested parties from the Union and third countries. Its results were made public and presented to the Consultation Forum established pursuant to Article 18 of Directive 2009/125/EC.</p>
+            </recital>
+            <recital xml:id="rec_d595e112">
+               <num>(6)</num>
+               <p>The review study shows that electric motor driven systems use about half the electricity produced in the Union. It is estimated that electric motors converted 1425 TWh of electricity into mechanical energy and heat in 2015, corresponding to 560 Mt of CO<sub>2</sub>-equivalent emissions. This value is expected to rise to around 1470 TWh by 2020 and to about 1500 TWh by 2030.</p>
+            </recital>
+            <recital xml:id="rec_d595e131">
+               <num>(7)</num>
+               <p>The review also shows that variable speed drives are placed on the Union&apos;s market in large quantities, helping to control motor speed and increase energy efficiency of motor systems, with their use-phase energy consumption being the most significant environmental aspect of all life cycle phases. In 2015, variable speed drives converted about 265 TWh of electricity from the grid into electricity with a frequency suited for the driven application; this corresponds to 105 Mt of CO<sub>2</sub> emissions. This value is expected to rise to around 380 TWh by 2020 and to about 570 TWh by 2030.</p>
+            </recital>
+            <recital xml:id="rec_d595e140">
+               <num>(8)</num>
+               <p>The review indicates that Regulation (EC) No 640/2009 would save 57 TWh annually by 2020 and 102 TWh annually by 2030. As the provisions of that Regulation are being maintained, these savings will also continue to materialise.</p>
+            </recital>
+            <recital xml:id="rec_d595e146">
+               <num>(9)</num>
+               <p>There is significant additional scope for improving these motor driven systems&apos; energy efficiency cost-effectively. One cost-effective way to do so is by making motors more energy-efficient, including motors not covered by Regulation (EC) No 640/2009, and using energy-efficient variable speed drives. This implies that ecodesign requirements for electric motors should be adjusted and ecodesign requirements set for variable speed drives, to realise their full potential for cost-effective energy efficiency.</p>
+            </recital>
+            <recital xml:id="rec_d595e153">
+               <num>(10)</num>
+               <p>Ecodesign requirements should also include product information requirements that will help potential buyers make the most appropriate decision and make it easier for Member States to perform market surveillance.</p>
+            </recital>
+            <recital xml:id="rec_d595e159">
+               <num>(11)</num>
+               <p>Many motors are integrated in other products. To maximise cost-efficient energy saving, this Regulation should apply to such motors, provided that their efficiency can be tested separately.</p>
+            </recital>
+            <recital xml:id="rec_d595e165">
+               <num>(12)</num>
+               <p>The environmental aspect of products in the scope of this Regulation that have been identified as significant for the purposes of this Regulation is energy consumption in the use phase.</p>
+            </recital>
+            <recital xml:id="rec_d595e171">
+               <num>(13)</num>
+               <p>Electric motors are used in many different types of products, such as pumps, fans or machine tools, and under many different operating conditions. The energy use of motor-driven systems can be reduced if motors in variable speed and load applications are equipped with variable speed drives, but also if these drives have their own minimum energy efficiency requirements. In fixed speed (constant load) applications, a variable speed drive induces additional costs and energy losses. The use of a variable speed drive should not, therefore, be mandatory under this Regulation.</p>
+            </recital>
+            <recital xml:id="rec_d595e177">
+               <num>(14)</num>
+               <p>Improvements in the electricity consumption of electric motors and variable speed drives should be achieved by applying existing, non-proprietary and cost-effective technologies that can reduce the total combined costs of purchasing and operating them.</p>
+            </recital>
+            <recital xml:id="rec_d595e183">
+               <num>(15)</num>
+               <p>Ecodesign requirements should harmonise energy efficiency requirements for electric motors and variable speed drives throughout the Union, thus contributing to the smooth operation of the internal market and helping to improve these products&apos; environmental performance.</p>
+            </recital>
+            <recital xml:id="rec_d595e189">
+               <num>(16)</num>
+               <p>Manufacturers should have enough time to redesign or adapt their products where needed. The timing should be such as to minimise negative impact on the functionalities of electric motors or variable speed drives. It should also take account of cost implications for manufacturers, including small and medium-sized enterprises, while ensuring that the objectives pursued by this Regulation are achieved in good time.</p>
+            </recital>
+            <recital xml:id="rec_d595e195">
+               <num>(17)</num>
+               <p>The inclusion of motors not covered by Regulation (EC) No 640/2009, notably smaller and larger motors, in conjunction with updated minimum energy efficiency requirements that are in line with international standards and technological progress, and together with the inclusion of variable speed drives, should increase the market penetration of electric motors and variable speed drives with an improved life-cycle environmental impact. This should result in additional estimated net electricity savings of 10 TWh per year, and should reduce net greenhouse gas emissions by 3 Mt CO<sub>2</sub> equivalent annually by 2030, compared with the situation that would prevail if no additional measures were taken.</p>
+            </recital>
+            <recital xml:id="rec_d595e205">
+               <num>(18)</num>
+               <p>Although the environmental impacts of medium voltage motors are relevant, for the time being no classification exists for the energy efficiency of electric motors with a rated voltage above 1000 V. Once such a classification is developed, the possibility of setting minimum requirements for medium voltage motors should be reassessed.</p>
+            </recital>
+            <recital xml:id="rec_d595e214">
+               <num>(19)</num>
+               <p>Although the environmental impacts of submersible motors are relevant, there is, at the present time, no test standard that defines energy efficiency classes for these motors. Once such a test standard and classification is developed, the possibility of setting minimum requirements for submersible motors should be reassessed.</p>
+            </recital>
+            <recital xml:id="rec_d595e221">
+               <num>(20)</num>
+               <p>The Commission communication on the circular economy<authorialNote placement="bottom" marker="4">
+                     <p>COM(2015) 614 final of 2.12.2015.</p>
+                  </authorialNote> and the Communication on the ecodesign working plan<authorialNote placement="bottom" marker="5">
+                     <p>COM(2016) 773 final of 30.11.2016.</p>
+                  </authorialNote> underline the importance of using the ecodesign framework to support the move towards a more resource efficient and circular economy. This Regulation should therefore, in order to cut the costs of repairing products containing motors that were placed on the market before the entry into force of the Regulation, or to avoid scrapping them early if they cannot be repaired, provide that motors supplied as spare parts be exempted for a given period. This is meant to avoid the problem that arises if it is impossible to replace a non-compliant motor by a compliant one without disproportionate costs to the end-user. If such motors are intended for the repair of products for which specific availability of spare parts provisions covering motors have been set in other ecodesign regulations, such specific provisions have precedence over the spare parts provisions in this Regulation.</p>
+            </recital>
+            <recital xml:id="rec_d595e235">
+               <num>(21)</num>
+               <p>In particular situations, for instance, where safety, functionality or disproportionate costs are at stake, certain motors or variable speed drives (VSDs) should be exempted from efficiency requirements. However, this Regulation should nonetheless cover such products as regards product information requirements, such as information concerning disassembly, recycling or disposal at end-of-life, or other information useful for market surveillance purposes.</p>
+            </recital>
+            <recital xml:id="rec_d595e241">
+               <num>(22)</num>
+               <p>The relevant product parameters should be determined using reliable, accurate and reproducible methods. These methods should take into account the recognised state-of-the-art methods including, where available, harmonised standards adopted by the European standardisation organisations, as listed in Annex I to Regulation (EU) No 1025/2012 of the European Parliament and of the Council<authorialNote placement="bottom" marker="6">
+                     <p>Regulation (EU) No 1025/2012 of the European Parliament and of the Council of 25 October 2012 on European standardisation, amending Council Directives 89/686/EEC and 93/15/EEC and Directives 94/9/EC, 94/25/EC, 95/16/EC, 97/23/EC, 98/34/EC, 2004/22/EC, 2007/23/EC, 2009/23/EC and 2009/105/EC of the European Parliament and of the Council and repealing Council Decision 87/95/EEC and Decision No 1673/2006/EC of the European Parliament and of the Council (OJ L 316, 14.11.2012, p. 12).</p>
+                  </authorialNote>.</p>
+            </recital>
+            <recital xml:id="rec_d595e254">
+               <num>(23)</num>
+               <p>An appropriate standard to determine the specific duty types S1, S3 or S6 is IEC 60034-1:2017. Appropriate standards to determine Ex eb increased safety motors and other explosion-protected motors are IEC/EN 60079-7:2015, IEC/EN 60079-31:2014 or IEC/EN 60079-1:2014.</p>
+            </recital>
+            <recital xml:id="rec_d595e260">
+               <num>(24)</num>
+               <p>In accordance with Article 8(2) of Directive 2009/125/EC, this Regulation should specify the applicable conformity assessment procedures.</p>
+            </recital>
+            <recital xml:id="rec_d595e266">
+               <num>(25)</num>
+               <p>Compliance of products should be demonstrated either when the product is placed on the market or when it is put into service, not both.</p>
+            </recital>
+            <recital xml:id="rec_d595e272">
+               <num>(26)</num>
+               <p>To facilitate compliance checks, manufacturers, importers or authorised representatives should provide the information in the technical documentation referred to in Annexes IV and V to Directive 2009/125/EC, insofar as that information relates to the requirements laid down in this Regulation.</p>
+            </recital>
+            <recital xml:id="rec_d595e278">
+               <num>(27)</num>
+               <p>To improve the effectiveness of this Regulation and to protect consumers, products that automatically alter their performance in test conditions to improve the declared parameters should be prohibited from being placed on the market or put into service.</p>
+            </recital>
+            <recital xml:id="rec_d595e284">
+               <num>(28)</num>
+               <p>To facilitate verification testing, market surveillance authorities should be allowed to test, or witness the testing of, larger motors at premises such as those of the manufacturer.</p>
+            </recital>
+            <recital xml:id="rec_d595e290">
+               <num>(29)</num>
+               <p>In addition to the legally binding requirements laid down in this Regulation, benchmarks for best available technologies should be identified to make information on product&apos;s environmental performance over their life-cycle subject to this Regulation widely available and easily accessible in accordance with Directive 2009/125/EC, Annex I, part 3, point (2).</p>
+            </recital>
+            <recital xml:id="rec_d595e298">
+               <num>(30)</num>
+               <p>A review of this Regulation should assess the appropriateness and effectiveness of its provisions in achieving its goals. The timing of the review should be sufficient for all provisions to be implemented and show an effect on the market.</p>
+            </recital>
+            <recital xml:id="rec_d595e304">
+               <num>(31)</num>
+               <p>Regulation (EC) No 640/2009 should therefore be repealed.</p>
+            </recital>
+            <recital xml:id="rec_d595e310">
+               <num>(32)</num>
+               <p>Ecodesign requirements on circulators integrated in boilers are set out in Commission Regulation (EC) No 641/2009<authorialNote placement="bottom" marker="7">
+                     <p>Commission Regulation (EC) No 641/2009 of 22 July 2009 implementing Directive 2005/32/EC of the European Parliament and of the Council with regard to ecodesign requirements for glandless standalone circulators and glandless circulators integrated in products (OJ L 191, 23.7.2009, p. 35).</p>
+                  </authorialNote>. To ensure that installed boilers with a defective circulator can be repaired within their technical lifetime, the exemption in that regulation for circulators provided as a spare part for existing boilers should be extended.</p>
+            </recital>
+            <recital xml:id="rec_d595e323">
+               <num>(33)</num>
+               <p>The measures provided for in this Regulation are in accordance with the opinion of the Committee established by Article 19(1) of Directive 2009/125/EC,</p>
+            </recital>
+         </recitals>
+         <formula name="enactingFormula">
+            <p>HAS ADOPTED THIS REGULATION:</p>
+         </formula>
+      </preamble>
+      <body>
+         <article xml:id="art_d595e332">
+            <num>Article 1</num>
+            <heading>Subject matter</heading>
+            <paragraph>
+               <content>
+                  <p>This Regulation establishes ecodesign requirements for the placing on the market or the putting into service of electric motors and variable speed drives, including where they are integrated in other products.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d595e339">
+            <num>Article 2</num>
+            <heading>Scope</heading>
+            <paragraph>
+               <subparagraph>
+                  <content>
+                     <p/>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(1)</num>
+                     <alinea>
+                        <content>
+                           <p>This Regulation applies to the following products:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <alinea>
+                              <content>
+                                 <p>induction electric motors without brushes, commutators, slip rings or electrical connections to the rotor, rated for operation on a 50 Hz, 60 Hz or 50/60 Hz sinusoidal voltage, that:</p>
+                              </content>
+                           </alinea>
+                           <list>
+                              <point>
+                                 <num>(i)</num>
+                                 <content>
+                                    <p>have two, four, six or eight poles;</p>
+                                 </content>
+                              </point>
+                              <point>
+                                 <num>(ii)</num>
+                                 <content>
+                                    <p>have a rated voltage <i>U</i>
+                                       <sub>N</sub> above 50 V and up to and including 1000 V;</p>
+                                 </content>
+                              </point>
+                              <point>
+                                 <num>(iii)</num>
+                                 <content>
+                                    <p>have a rated power output <i>P</i>
+                                       <sub>N</sub> from 0,12 kW up to and including 1000 kW;</p>
+                                 </content>
+                              </point>
+                              <point>
+                                 <num>(iv)</num>
+                                 <content>
+                                    <p>are rated on the basis of continuous duty operation; and</p>
+                                 </content>
+                              </point>
+                              <point>
+                                 <num>(v)</num>
+                                 <content>
+                                    <p>are rated for direct on-line operation;</p>
+                                 </content>
+                              </point>
+                           </list>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <alinea>
+                              <content>
+                                 <p>variable speed drives with 3 phases input that:</p>
+                              </content>
+                           </alinea>
+                           <list>
+                              <point>
+                                 <num>(i)</num>
+                                 <content>
+                                    <p>are rated for operating with one motor refered to in point (a), within the 0,12 kW-1 000 kW motor rated output range;</p>
+                                 </content>
+                              </point>
+                              <point>
+                                 <num>(ii)</num>
+                                 <content>
+                                    <p>have a rated voltage above 100 V and up to and including 1000 V AC;</p>
+                                 </content>
+                              </point>
+                              <point>
+                                 <num>(iii)</num>
+                                 <content>
+                                    <p>have only one AC voltage output.</p>
+                                 </content>
+                              </point>
+                           </list>
+                        </point>
+                     </list>
+                  </point>
+                  <point>
+                     <num>(2)</num>
+                     <alinea>
+                        <content>
+                           <p>The requirements in section 1, and points (1), (2), (5) to (11), and (13) of section 2 of Annex I shall not apply to the following motors:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <content>
+                              <p>motors completely integrated into a product (for example into a gear, pump, fan or compressor) and whose energy performance cannot be tested independently from the product, even with the provision of a temporary end-shield and drive-end bearing; the motor must share common components (apart from connectors such as bolts) with the driven unit (for example, a shaft or housing) and shall not be designed in such a way that the motor can be separated in its entirety from the driven unit and operate independently. The process of separation shall have the consequence of rendering the motor inoperative;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <content>
+                              <p>motors with an integrated variable speed drive (compact drives) whose energy performance cannot be tested independently from the variable speed drive;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(c)</num>
+                           <content>
+                              <p>motors with an integrated brake which forms an integral part of the inner motor construction and can neither be removed nor powered by a separate power source during the testing of the motor efficiency;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(d)</num>
+                           <alinea>
+                              <content>
+                                 <p>motors specifically designed and specified to operate exclusively:</p>
+                              </content>
+                           </alinea>
+                           <list>
+                              <point>
+                                 <num>(i)</num>
+                                 <content>
+                                    <p>at altitudes exceeding 4000 metres above sea-level;</p>
+                                 </content>
+                              </point>
+                              <point>
+                                 <num>(ii)</num>
+                                 <content>
+                                    <p>where ambient air temperatures exceed 60 °C;</p>
+                                 </content>
+                              </point>
+                              <point>
+                                 <num>(iii)</num>
+                                 <content>
+                                    <p>in maximum operating temperature above 400 °C;</p>
+                                 </content>
+                              </point>
+                              <point>
+                                 <num>(iv)</num>
+                                 <content>
+                                    <p>where ambient air temperatures are less than &#45; 30 °C; or</p>
+                                 </content>
+                              </point>
+                              <point>
+                                 <num>(v)</num>
+                                 <content>
+                                    <p>where the water coolant temperature at the inlet to a product is below 0 °C or above 32 °C;</p>
+                                 </content>
+                              </point>
+                           </list>
+                        </point>
+                        <point>
+                           <num>(e)</num>
+                           <content>
+                              <p>motors specifically designed and specified to operate wholly immersed in a liquid;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(f)</num>
+                           <content>
+                              <p>motors specifically qualified for the safety of nuclear installations, as defined in Article 3 of Council Directive 2009/71/Euratom<authorialNote placement="bottom" marker="8">
+                                    <p>Council Directive 2009/71/Euratom of 25 June 2009 establishing a Community framework for the nuclear safety of nuclear installations (OJ L 172, 2.7.2009, p. 18).</p>
+                                 </authorialNote>;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(g)</num>
+                           <content>
+                              <p>explosion-protected motors specifically designed and certified for mining, as defined in Annex I, point 1 of Directive 2014/34/EU of the European Parliament and of the Council<authorialNote placement="bottom" marker="9">
+                                    <p>Directive 2014/34/EU of the European Parliament and of the Council of 26 February 2014 on the harmonisation of the laws of the Member States relating to equipment and protective systems intended for use in potentially explosive atmospheres (OJ L 96, 29.3.2014, p. 309).</p>
+                                 </authorialNote>;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(h)</num>
+                           <content>
+                              <p>motors in cordless or battery-operated equipment;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(i)</num>
+                           <content>
+                              <p>motors in hand-held equipment whose weight is supported by hand during operation;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(j)</num>
+                           <content>
+                              <p>motors in hand-guided mobile equipment moved while in operation;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(k)</num>
+                           <content>
+                              <p>motors with mechanical commutators;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(l)</num>
+                           <content>
+                              <p>Totally Enclosed Non-Ventilated (TENV) motors;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(m)</num>
+                           <content>
+                              <p>motors placed on the market before 1 July 2029 as substitutes for identical motors integrated in products placed on the market before 1 July 2022, and specifically marketed as such;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(n)</num>
+                           <content>
+                              <p>multi-speed motors, i.e. motors with multiple windings or with a switchable winding, providing a different number of poles and speeds;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(o)</num>
+                           <content>
+                              <p>motors designed specifically for the traction of electric vehicles.</p>
+                           </content>
+                        </point>
+                     </list>
+                  </point>
+                  <point>
+                     <num>(3)</num>
+                     <alinea>
+                        <content>
+                           <p>The requirements in section 3, and points (1), (2), and (5) to (10) of section 4 of Annex I shall not apply to the following VSDs:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <content>
+                              <p>VSDs integrated into a product and whose energy performance cannot be tested independently from the product, that is to say that an attempt to do so would render the VSD or the product inoperative;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <content>
+                              <p>VSDs qualified specifically for the safety of nuclear installations, as defined Article 3 of Directive 2009/71/Euratom;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(c)</num>
+                           <content>
+                              <p>regenerative drives;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(d)</num>
+                           <content>
+                              <p>drives with sinusoidal input current.</p>
+                           </content>
+                        </point>
+                     </list>
+                  </point>
+               </list>
+            </paragraph>
+         </article>
+         <article xml:id="art_d595e618">
+            <num>Article 3</num>
+            <heading>Definitions</heading>
+            <paragraph>
+               <subparagraph>
+                  <content>
+                     <p>For the purposes of this Regulation, the following definitions shall apply:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(1)</num>
+                     <content>
+                        <p>&apos;electric motor&apos; or &apos;motor&apos; means a device that converts electrical input power into mechanical output power in the form of a rotation with a rotational speed and torque that depends on factors including the frequency of the supply voltage and number of poles of the motor;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(2)</num>
+                     <content>
+                        <p>&apos;variable speed drive&apos; (VSD) means an electronic power converter that continuously adapts the electrical power supplied to a single motor to control the motor&apos;s mechanical power output according to the torque-speed characteristic of the load driven by the motor, by adjusting the power supply to a variable frequency and voltage supplied to the motor. It includes all electronics connected between the mains and the motor including extensions such as protection devices, transformers and auxiliaries;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(3)</num>
+                     <content>
+                        <p>&apos;energy efficiency&apos; of a motor means the ratio of its mechanical output power to the electrical active input power;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(4)</num>
+                     <content>
+                        <p>&apos;pole&apos; means a north or a south pole produced by the rotating magnetic field of the motor, whose total number of poles determines its base speed;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(5)</num>
+                     <content>
+                        <p>&apos;continuous duty operation&apos; means capable of continuous operation at rated power with a temperature rise within the specified insulation temperature class, specified as specific duty types S1, S3 &gt;=80 % or S6 &gt;=80 % as defined in standards;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(6)</num>
+                     <content>
+                        <p>&apos;phase&apos; means the type of configuration of the mains;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(7)</num>
+                     <content>
+                        <p>&apos;mains&apos; or &apos;electric mains&apos; means the electricity supply from the grid;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(8)</num>
+                     <content>
+                        <p>&apos;motor with mechanical commutators&apos; means a motor in which a mechanical device reverses the direction of the current;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(9)</num>
+                     <content>
+                        <p>&apos;cordless or battery operated equipment&apos; means an appliance deriving its energy from batteries enabling the appliance to perform its intended function without a supply connection;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(10)</num>
+                     <content>
+                        <p>&apos;hand-held equipment&apos; means a portable appliance intended to be held in the hand during normal use;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(11)</num>
+                     <content>
+                        <p>&apos;hand-guided equipment&apos; means a non-road mobile appliance that is moved and guided by the user during normal use;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(12)</num>
+                     <content>
+                        <p>&apos;totally enclosed non-ventilated (TENV) motor&apos; means a motor designed and specified to operate without a fan, and which dissipates heat predominantly through natural ventilation or radiation on the totally enclosed motor surface;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(13)</num>
+                     <content>
+                        <p>&apos;regenerative drive&apos; means a VSD that is able to regenerate energy from the load to the mains, i.e. that induces a 180° +/- 20° phase shift of the input current to the input voltage when the load motor is braking;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(14)</num>
+                     <content>
+                        <p>&apos;drive with sinusoidal input current&apos; means a VSD with a sinusoidal waveform of the input current, characterised by a Total Harmonic Content below 10 %;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(15)</num>
+                     <content>
+                        <p>&apos;brake motor&apos; means a motor equipped with an electromechanical brake unit operating directly on the motor shaft without couplings;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(16)</num>
+                     <content>
+                        <p>&apos;Ex eb increased safety motor&apos; means a motor intended for use in explosive atmospheres and certified &apos;Ex eb&apos;, as defined in standards;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(17)</num>
+                     <content>
+                        <p>&apos;other explosion-protected motor&apos; means a motor intended for use in explosive atmospheres and certified &apos;Ex ec&apos;, &apos;Ex tb&apos;, &apos;Ex tc&apos;, &apos;Ex db&apos;, or &apos;Ex dc&apos; as defined in standards;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(18)</num>
+                     <content>
+                        <p>&apos;test load&apos; of a VSD means the electrical device used for testing purposes that determines the output current and the output displacement factor cos phi;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(19)</num>
+                     <content>
+                        <p>&apos;equivalent model&apos; means a model which has the same technical characteristics relevant for the technical information to be provided, but which is placed on the market or put into service by the same manufacturer, importer or authorised representative as another model with a different model identifier;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(20)</num>
+                     <content>
+                        <p>&apos;model identifier&apos; means the code, usually alphanumeric, which distinguishes a specific product model from other models with the same trade mark or the same manufacturer&apos;s, importer&apos;s or authorised representative&apos;s name;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(21)</num>
+                     <content>
+                        <p>&apos;witnessed testing&apos; means actively observing the physical testing of the product under investigation by another party, to draw conclusions on the validity of the test and the test results. This may include conclusions on the compliance of testing and calculations methods used with applicable standards and legislation;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(22)</num>
+                     <content>
+                        <p>&apos;factory acceptance test&apos; means a test on an ordered product where the customer uses witnessed testing to verify the product&apos;s full accordance with contractual requirements, before they are accepted or put into service.</p>
+                     </content>
+                  </point>
+               </list>
+            </paragraph>
+         </article>
+         <article xml:id="art_d595e862">
+            <num>Article 4</num>
+            <heading>Ecodesign requirements</heading>
+            <paragraph>
+               <content>
+                  <p>The ecodesign requirements set out in Annex I shall apply from the dates indicated therein.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d595e869">
+            <num>Article 5</num>
+            <heading>Conformity assessment</heading>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>The conformity assessment procedure referred to in Article 8 of Directive 2009/125/EC shall be the internal design control system set out in Annex IV of that Directive or the management system set out in Annex V of that Directive.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>For the purposes of the conformity assessment pursuant to Article 8 of Directive 2009/125/EC, the technical documentation of motors shall contain a copy of the product information provided in accordance with point 2 of Annex I to this Regulation, and the details and results of calculations set out in Annex II to this Regulation.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <content>
+                  <p>For the purposes of the conformity assessment pursuant to Article 8 of Directive 2009/125/EC, the technical documentation of VSDs shall contain a copy of the product information provided in accordance with point 4 of Annex I to this Regulation, and the details and results of calculations set out in Annex II to this Regulation.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>4.</num>
+               <subparagraph>
+                  <content>
+                     <p>Where the information included in the technical documentation for a particular model has been obtained:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <content>
+                        <p>from a model that has the same technical characteristics relevant for the technical information to be provided but is produced by a different manufacturer; or</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <content>
+                        <p>by calculation on the basis of design or extrapolation from another model of the same or a different manufacturer, or both,</p>
+                     </content>
+                  </point>
+               </list>
+               <subparagraph>
+                  <content>
+                     <p>the technical documentation shall include the details of such calculation, the assessment undertaken by the manufacturer to verify the accuracy of the calculation and, where appropriate, the declaration of identity between the models of different manufacturers.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>The technical documentation shall include a list of all equivalent models, including the model identifiers.</p>
+                  </content>
+               </subparagraph>
+            </paragraph>
+         </article>
+         <article xml:id="art_d595e912">
+            <num>Article 6</num>
+            <heading>Verification procedure for market surveillance purposes</heading>
+            <paragraph>
+               <content>
+                  <p>Member States shall apply the verification procedure laid down in Annex III when performing the market surveillance checks referred to in point 2 of Article 3 of Directive 2009/125/EC.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d595e919">
+            <num>Article 7</num>
+            <heading>Circumvention and software updates</heading>
+            <paragraph>
+               <content>
+                  <p>The manufacturer, importer or authorised representative shall not place on the market products designed to be able to detect they are being tested (e.g. by recognising the test conditions or test cycle), and to react specifically by automatically altering their performance during the test with the aim of reaching a more favourable level for any of the parameters specified in this Regulation or declared by the manufacturer, importer or authorised representative in the technical documentation or included in any of the documentation provided.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <content>
+                  <p>The energy consumption of the product and any of the other declared parameters shall not deteriorate after a software or firmware update when measured with the same test standard originally used for the declaration of conformity, except with explicit consent of the end-user prior to the update. No deterioration of performance shall occur as result of rejecting the update.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <content>
+                  <p>A software update shall never have the effect of changing the product&apos;s performance in a way that makes it non-compliant with the ecodesign requirements applicable for the declaration of conformity.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d595e931">
+            <num>Article 8</num>
+            <heading>Benchmarks</heading>
+            <paragraph>
+               <content>
+                  <p>The benchmarks for the best-performing motors and variable speed drives available at the time of adopting this Regulation are set out in Annex IV.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d595e938">
+            <num>Article 9</num>
+            <heading>Review</heading>
+            <paragraph>
+               <content>
+                  <p>The Commission shall review this Regulation in the light of technological progress and shall present the results of this assessment, including, if appropriate, a draft revision proposal, to the Consultation Forum no later than 14 November 2023.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <subparagraph>
+                  <content>
+                     <p>This review shall in particular address the appropriateness of:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(1)</num>
+                     <content>
+                        <p>setting additional resource efficiency requirements for products in accordance with the objectives of the circular economy, including identification and reuse of rare earth in permanent magnet motors;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(2)</num>
+                     <content>
+                        <p>the level of verification tolerances;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(3)</num>
+                     <content>
+                        <p>setting stricter requirements for motors and variable speed drives;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(4)</num>
+                     <content>
+                        <p>setting minimum energy efficiency requirements for motors with a rated voltage above 1000 V;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(5)</num>
+                     <content>
+                        <p>setting requirements for combinations of motors and VSDs placed on the market together, as well as integrated variable speed drives (compact drives);</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(6)</num>
+                     <content>
+                        <p>the exemptions set out in Articles 2(2) and (3);</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(7)</num>
+                     <content>
+                        <p>adding other types of motors to the scope, including permanent magnet motors.</p>
+                     </content>
+                  </point>
+               </list>
+            </paragraph>
+         </article>
+         <article xml:id="art_d595e994">
+            <num>Article 10</num>
+            <heading>Repeal</heading>
+            <paragraph>
+               <content>
+                  <p>Regulation (EC) No 640/2009 is repealed as from 1 July 2021.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d595e1001" leos:compliant="false">
+            <num>Article 11</num>
+            <heading>Amendment to Regulation (EC) No 641/2009</heading>
+            <paragraph>
+               <num>(1)</num>
+               <subparagraph>
+                  <content>
+                     <p>Article 1, point 2(b) is replaced by:</p>
+                  </content>
+               </subparagraph>
+               <mod>
+                  <quotedStructure startQuote="" endQuote="">
+                     <alinea>
+                        <content>
+                           <p>&apos;(b) circulators to be integrated in products and placed on the market no later than 1 January 2022 as replacement for identical circulators integrated in products placed on the market no later than 1 August 2015 and specifically marketed as such, except as regards the product information requirements of Annex I, point 2(1)(e).&apos;</p>
+                        </content>
+                     </alinea>
+                  </quotedStructure>
+               </mod>
+            </paragraph>
+            <paragraph>
+               <num>(2)</num>
+               <subparagraph>
+                  <content>
+                     <p>Annex I, point 2(1)(e) is replaced by:</p>
+                  </content>
+               </subparagraph>
+               <mod>
+                  <quotedStructure startQuote="" endQuote="">
+                     <alinea>
+                        <content>
+                           <p>&apos;(e) for circulators to be integrated in products and placed on the market no later than 1 January 2022 as replacement for identical circulators integrated in products placed on the market no later than 1 August 2015, the replacement circulator or its packaging shall clearly indicate the product(s) for which it is intended.&apos;</p>
+                        </content>
+                     </alinea>
+                  </quotedStructure>
+               </mod>
+            </paragraph>
+         </article>
+         <article xml:id="art_d595e1036">
+            <num>Article 12</num>
+            <heading>Entry into force and application</heading>
+            <paragraph>
+               <content>
+                  <p>This Regulation shall enter into force on the twentieth day following that of its publication in the <i>Official Journal of the European Union.</i>
+                  </p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <content>
+                  <p>It shall apply from 1 July 2021. However, the first paragraph of Article 7 and Article 11, shall apply from 14 November 2019.</p>
+               </content>
+            </paragraph>
+         </article>
+         <clause>
+            <content>
+               <p>This Regulation shall be binding in its entirety and directly applicable in all Member States.</p>
+            </content>
+         </clause>
+      </body>
+      <conclusions>
+         <p>Done at Brussels, 1 October 2019.</p>
+         <block name="signatory">
+            <signature>
+               <organization refersTo="">For the Commission</organization>
+               <role refersTo="">The President</role>
+               <person refersTo="">Jean-Claude JUNCKER</person>
+            </signature>
+         </block>
+      </conclusions>
+   </bill>
+</akomaNtoso>

@@ -1,0 +1,499 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"
+            xmlns:fmx="http://formex.publications.europa.eu/schema/formex-05.21-20110601.xd"
+            xmlns:leos="urn:eu:europa:ec:leos"
+            xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <bill name="">
+      <meta xmlns:fn="http://www.w3.org/2005/xpath-functions">
+         <identification source="~COM">
+            <FRBRWork>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRcountry value=""/>
+            </FRBRWork>
+            <FRBRExpression>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+            </FRBRManifestation>
+         </identification>
+      </meta>
+      <preface>
+         <longTitle>
+            <p>
+               <docStage/>
+               <docType>COMMISSION REGULATION (EU) 2019/1782</docType>of 1 October 2019<docPurpose>laying down ecodesign requirements for external power supplies pursuant to Directive 2009/125/EC of the European Parliament and of the Council and repealing Commission Regulation (EC) No 278/2009</docPurpose>
+            </p>
+         </longTitle>
+         <container name="EEArelevance">
+            <p>(Text with EEA relevance)</p>
+         </container>
+      </preface>
+      <preamble>
+         <formula name="actingEntity">
+            <p>THE EUROPEAN COMMISSION,</p>
+         </formula>
+         <citations>
+            <citation>
+               <p>Having regard to Article 114 of the Treaty on the Functioning of the European Union,</p>
+            </citation>
+            <citation>
+               <p>Having regard to Directive 2009/125/EC of the European Parliament and of the Council of 21 October 2009 establishing a framework for the setting of ecodesign requirements for energy-related products<authorialNote placement="bottom" marker="1">
+                     <p>OJ L 285, 31.10.2009, p. 10.</p>
+                  </authorialNote>, and in particular Article 15(1) thereof,</p>
+            </citation>
+         </citations>
+         <recitals xml:id="recs_d596e71">
+            <intro>
+               <p>Whereas:</p>
+            </intro>
+            <recital xml:id="rec_d596e74">
+               <num>(1)</num>
+               <p>Pursuant to Directive 2009/125/EC the Commission should set ecodesign requirements for energy-related products which account for significant volumes of sales and trade in the Union and which have a significant environmental impact and present significant potential for improvement through design in terms of their environmental impact, without entailing excessive costs.</p>
+            </recital>
+            <recital xml:id="rec_d596e80">
+               <num>(2)</num>
+               <p>The Communication from the Commission COM(2016)773<authorialNote placement="bottom" marker="2">
+                     <p>Communication from the Commission, Ecodesign working plan 2016-2019, COM(2016) 773 final, 30.11.2016.</p>
+                  </authorialNote> (ecodesign working plan) established by the Commission in application of Article 16(1) of Directive 2009/125/EC sets out the working priorities under the ecodesign and energy labelling framework for the period 2016-2019. The ecodesign working plan identifies the energy-related product groups to be considered as priorities for the undertaking of preparatory studies and eventual adoption of implementing measures, as well as the review of Commission Regulation (EC) No 278/2009<authorialNote placement="bottom" marker="3">
+                     <p>Commission Regulation (EC) No 278/2009 of 6 April 2009 implementing Directive 2005/32/EC of the European Parliament and of the Council with regard to ecodesign requirements for no-load condition electric power consumption and average active efficiency of external power supplies (OJ L 93, 7.4.2009, p. 3).</p>
+                  </authorialNote>.</p>
+            </recital>
+            <recital xml:id="rec_d596e103">
+               <num>(3)</num>
+               <p>Measures from the ecodesign working plan have an estimated potential to deliver by 2030 annual final energy savings in excess of 260 TWh, which is equivalent to reducing greenhouse gas emissions by approximately 100 million tonnes. External power supplies are one of the product groups listed in the working plan.</p>
+            </recital>
+            <recital xml:id="rec_d596e109">
+               <num>(4)</num>
+               <p>The Commission established ecodesign requirements for external power supplies in Regulation (EC) No 278/2009. Pursuant to this Regulation the Commission should review it in the light of technological progress.</p>
+            </recital>
+            <recital xml:id="rec_d596e115">
+               <num>(5)</num>
+               <p>The Commission has reviewed Regulation (EC) No 278/2009 and analysed the technical, environmental and economic aspects of external power supplies as well as real-life user behaviour. The review was carried out in close cooperation with stakeholders and interested parties from the Union and third countries. The results of the review were made public and presented to the Consultation Forum established by Article 18 of Directive 2009/125/EC.</p>
+            </recital>
+            <recital xml:id="rec_d596e122">
+               <num>(6)</num>
+               <p>The review study shows that external power supplies are placed on the Union market in large quantities, and outlines the benefits of updating the ecodesign requirements and adapting them to technological progress.</p>
+            </recital>
+            <recital xml:id="rec_d596e128">
+               <num>(7)</num>
+               <p>Multiple voltage output external power supplies, which are not covered by Regulation (EC) No 278/2009, are being placed on the Union market in increasing numbers. They should therefore be included in the scope of the Regulation to ensure further energy savings and provide a level playing field.</p>
+            </recital>
+            <recital xml:id="rec_d596e134">
+               <num>(8)</num>
+               <p>It is appropriate for external power supplies that adapt their output voltage to the primary load to continue to be included in the scope of the Regulation.</p>
+            </recital>
+            <recital xml:id="rec_d596e140">
+               <num>(9)</num>
+               <p>Ecodesign requirements should harmonise the energy consumption of external power supplies, thus contributing to the functioning of the internal market. They should also improve the environmental performance of external power supplies. Potential annual final energy savings of 4,3 TWh by 2030, corresponding to 1,45 million tonnes of CO<sub>2</sub> equivalent, were estimated compared with the situation where no further measures are taken.</p>
+            </recital>
+            <recital xml:id="rec_d596e150">
+               <num>(10)</num>
+               <p>The relevant product parameters should be measured using reliable, accurate and reproducible methods. Those methods should take into account recognised state-of-the-art measurement methods including, where available, harmonised standards adopted by the European standardisation organisations, as listed in Annex I to Regulation (EU) No 1025/2012 of the European Parliament and of the Council<authorialNote placement="bottom" marker="4">
+                     <p>Regulation (EU) No 1025/2012 of the European Parliament and of the Council of 25 October 2012 on European standardisation, amending Council Directives 89/686/EEC and 93/15/EEC and Directives 94/9/EC, 94/25/EC, 95/16/EC, 97/23/EC, 98/34/EC, 2004/22/EC, 2007/23/EC, 2009/23/EC and 2009/105/EC of the European Parliament and of the Council and repealing Council Decision 87/95/EEC and Decision No 1673/2006/EC of the European Parliament and of the Council (OJ L 316, 14.11.2012, p. 12).</p>
+                  </authorialNote>.</p>
+            </recital>
+            <recital xml:id="rec_d596e166">
+               <num>(11)</num>
+               <p>In accordance with Article 8 of Directive 2009/125/EC, this Regulation should specify the applicable conformity assessment procedures.</p>
+            </recital>
+            <recital xml:id="rec_d596e172">
+               <num>(12)</num>
+               <p>To facilitate compliance checks, manufacturers, importers or authorised representatives should provide information in the technical documentation referred to in Annexes IV and V to Directive 2009/125/EC in so far as that information relates to the requirements laid down in this Regulation.</p>
+            </recital>
+            <recital xml:id="rec_d596e178">
+               <num>(13)</num>
+               <p>In addition to the legally binding requirements laid down in this Regulation, benchmarks for best available technologies should be identified to make information on products&apos; environmental performance over their life cycle subject to this Regulation widely available and easily accessible, in accordance with Directive 2009/125/EC, Annex I, part 3, point 2.</p>
+            </recital>
+            <recital xml:id="rec_d596e184">
+               <num>(14)</num>
+               <p>A review of this Regulation should assess the appropriateness and effectiveness of its provisions in achieving its goals. The timing of the review should be sufficient for all provisions to be implemented and show an effect on the market.</p>
+            </recital>
+            <recital xml:id="rec_d596e190">
+               <num>(15)</num>
+               <p>Regulation (EC) No 278/2009 should therefore be repealed.</p>
+            </recital>
+            <recital xml:id="rec_d596e196">
+               <num>(16)</num>
+               <p>The measures provided for in this Regulation are in accordance with the opinion of the Committee established by Article 19(1) of Directive 2009/125/EC,</p>
+            </recital>
+         </recitals>
+         <formula name="enactingFormula">
+            <p>HAS ADOPTED THIS REGULATION:</p>
+         </formula>
+      </preamble>
+      <body>
+         <article xml:id="art_d596e205">
+            <num>Article 1</num>
+            <heading>Subject matter and scope</heading>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>This Regulation establishes ecodesign requirements for the placing on the market or putting into service of external power supplies.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <subparagraph>
+                  <content>
+                     <p>This Regulation shall not apply to:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <content>
+                        <p>voltage converters;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <content>
+                        <p>uninterruptible power supplies;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(c)</num>
+                     <content>
+                        <p>battery chargers without power supply function;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(d)</num>
+                     <content>
+                        <p>lighting converters;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(e)</num>
+                     <content>
+                        <p>external power supplies for medical devices;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(f)</num>
+                     <content>
+                        <p>active power over Ethernet injectors;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(g)</num>
+                     <content>
+                        <p>docking stations for autonomous appliances;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(h)</num>
+                     <content>
+                        <p>external power supplies placed on the market before 1 April 2025 solely as a service part or spare part for replacing an identical external power supply placed on the market before 1 April 2020, under the condition that the service part or spare part, or its packaging, clearly indicate &apos;External power supply to be used exclusively as spare part for&apos; and the primary load product(s) it is intended to be used with.</p>
+                     </content>
+                  </point>
+               </list>
+            </paragraph>
+         </article>
+         <article xml:id="art_d596e281">
+            <num>Article 2</num>
+            <heading>Definitions</heading>
+            <paragraph>
+               <subparagraph>
+                  <content>
+                     <p>For the purpose of this Regulation the following definitions shall apply:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(1)</num>
+                     <alinea>
+                        <content>
+                           <p>&apos;external power supply&apos; means a device which meets all of the following criteria:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <content>
+                              <p>it is designed to convert alternating current (AC) power input from the mains power source input into one or more lower voltage direct current (DC) or AC outputs;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <content>
+                              <p>it is used with one or more separate devices that constitute the primary load;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(c)</num>
+                           <content>
+                              <p>it is contained in a physical enclosure separate from the device or devices that constitute the primary load;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(d)</num>
+                           <content>
+                              <p>it is connected to the device or devices that constitute the primary load with removable or hard-wired male/female electrical connections, cables, cords or other wirings;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(e)</num>
+                           <content>
+                              <p>it has nameplate output power not exceeding 250 watts; and</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(f)</num>
+                           <content>
+                              <p>it is used with electrical and electronic household and office equipment included in Annex I;</p>
+                           </content>
+                        </point>
+                     </list>
+                  </point>
+                  <point>
+                     <num>(2)</num>
+                     <content>
+                        <p>&apos;low voltage external power supply&apos; means an external power supply with a nameplate output voltage of less than 6 volts and a nameplate output current greater than or equal to 550 milliamperes;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(3)</num>
+                     <content>
+                        <p>&apos;multiple voltage output external power supply&apos; means an external power supply able to convert AC power input from the mains power source into more than one simultaneous output at lower DC or AC voltage;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(4)</num>
+                     <content>
+                        <p>&apos;voltage converter&apos; means a device converting the 230 volts mains power source input to 110 volts power output with characteristics similar to mains power source input characteristics;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(5)</num>
+                     <content>
+                        <p>&apos;uninterruptible power supply&apos; means a device that automatically provides backup power when the electrical power from the mains power source drops to an unacceptable voltage level;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(6)</num>
+                     <content>
+                        <p>&apos;battery charger&apos; means a device that connects directly to a removable battery at its output interface;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(7)</num>
+                     <content>
+                        <p>&apos;lighting converter&apos; means an external power supply used with extra low voltage light sources;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(8)</num>
+                     <content>
+                        <p>&apos;active power over Ethernet injector&apos; means a device that converts the mains power source input to a lower DC voltage output, has one or more Ethernet input and/or one or more Ethernet output ports, delivers power to one or several devices connected to the Ethernet output port(s), and provides the rated voltage at the output ports(s) only when compatible devices are detected following a standardised process;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(9)</num>
+                     <content>
+                        <p>&apos;docking station for autonomous appliances&apos; means a device in which a battery-operated appliance that executes tasks requiring the appliance to move without any user intervention is placed for charging, and that can guide the independent movements of the appliance;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(10)</num>
+                     <content>
+                        <p>&apos;mains&apos; means the electricity supply from the grid of 230 (± 10 %) volts of alternating current at 50 Hz;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(11)</num>
+                     <content>
+                        <p>&apos;information technology equipment&apos; means any equipment which has a primary function of either entry, storage, display, retrieval, transmission, processing, switching, or control, of data or of telecommunication messages or a combination of these functions and may be equipped with one or more terminal ports typically operated for information transfer;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(12)</num>
+                     <content>
+                        <p>&apos;domestic environment&apos; means an environment where the use of broadcast radio and television receivers may be expected within a distance of 10 m of the equipment concerned;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(13)</num>
+                     <content>
+                        <p>&apos;nameplate output power&apos; (P<sub>O</sub>) means the maximum output power as specified by the manufacturer;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(14)</num>
+                     <content>
+                        <p>&apos;no-load condition&apos; means the condition in which the input of an external power supply is connected to the mains power source, but the output is not connected to any primary load;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(15)</num>
+                     <content>
+                        <p>&apos;active mode&apos; means a condition in which the input of an external power supply is connected to the mains power source and the output is connected to a primary load;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(16)</num>
+                     <content>
+                        <p>&apos;active mode efficiency&apos; means the ratio of the power produced by an external power supply in active mode to the input power required to produce it;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(17)</num>
+                     <content>
+                        <p>&apos;average active efficiency&apos; means the average of the active mode efficiencies at 25 %, 50 %, 75 % and 100 % of the nameplate output power;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(18)</num>
+                     <content>
+                        <p>&apos;equivalent model&apos; means a model which has the same technical characteristics relevant for the technical information to be provided, but which is placed on the market or put into service by the same manufacturer, importer or authorised representative as another model with a different model identifier;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(19)</num>
+                     <content>
+                        <p>&apos;model identifier&apos; means the code, usually alphanumeric, which distinguishes a specific product model from other models with the same trade mark or the same manufacturer&apos;s, importer&apos;s or authorised representative&apos;s name.</p>
+                     </content>
+                  </point>
+               </list>
+            </paragraph>
+         </article>
+         <article xml:id="art_d596e504">
+            <num>Article 3</num>
+            <heading>Ecodesign requirements</heading>
+            <paragraph>
+               <content>
+                  <p>The ecodesign requirements set out in Annex II shall apply from the dates indicated therein.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d596e511">
+            <num>Article 4</num>
+            <heading>Conformity assessment</heading>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>The conformity assessment procedure referred to in Article 8 of Directive 2009/125/EC shall be the internal design control system set out in Annex IV to that Directive or the management system set out in Annex V to that Directive.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>For the purposes of the conformity assessment pursuant to Article 8 of Directive 2009/125/EC, the technical documentation shall contain the declared values of parameters listed in Annex II, point 2(c).</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <subparagraph>
+                  <content>
+                     <p>Where the information included in the technical documentation for a particular model has been obtained:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <content>
+                        <p>from a model that has the same technical characteristics relevant for the technical information to be provided but is produced by a different manufacturer; or</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <content>
+                        <p>by calculation on the basis of design or extrapolation from another model of the same or a different manufacturer, or both;</p>
+                     </content>
+                  </point>
+               </list>
+               <subparagraph>
+                  <content>
+                     <p>the technical documentation shall include the details and the results of such calculation, the assessment undertaken by manufacturers to verify the accuracy of the calculation and, where appropriate, the declaration of identity between the models of different manufacturers.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>The technical documentation shall include a list of all equivalent models, including the model identifiers.</p>
+                  </content>
+               </subparagraph>
+            </paragraph>
+         </article>
+         <article xml:id="art_d596e549">
+            <num>Article 5</num>
+            <heading>Verification procedure for market surveillance purposes</heading>
+            <paragraph>
+               <content>
+                  <p>Member States&apos; authorities shall apply the verification procedure laid down in Annex III when performing the market surveillance checks referred to in Article 3, point 2 of Directive 2009/125/EC.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d596e556">
+            <num>Article 6</num>
+            <heading>Benchmarks</heading>
+            <paragraph>
+               <content>
+                  <p>The benchmarks for the best-performing products and technologies available on the market at the time of adopting this Regulation are set out in Annex IV.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d596e564">
+            <num>Article 7</num>
+            <heading>Review</heading>
+            <paragraph>
+               <content>
+                  <p>The Commission shall review this Regulation in the light of technological progress and shall present the results of this review, including, if appropriate, a draft revision proposal, to the Consultation Forum by 14 November 2022.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <content>
+                  <p>The review shall assess in particular: the feasibility of setting a requirement regarding minimum energy efficiency at 10 % load; options for including within the scope of the Regulation wireless chargers, active power over Ethernet injectors, and external power supplies used with electrical and electronic household and office equipment that is not included in Annex I; and options for including requirements in support of circular economy objectives, including interoperability.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d596e576">
+            <num>Article 8</num>
+            <heading>Repeal</heading>
+            <paragraph>
+               <content>
+                  <p>Regulation (EC) No 278/2009 is repealed as from 1 April 2020.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d596e586">
+            <num>Article 9</num>
+            <heading>Entry into force and application</heading>
+            <paragraph>
+               <content>
+                  <p>This Regulation shall enter into force on the twentieth day following that of its publication in the <i>Official Journal of the European Union</i>.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <content>
+                  <p>It shall apply from 1 April 2020.</p>
+               </content>
+            </paragraph>
+         </article>
+         <clause>
+            <content>
+               <p>This Regulation shall be binding in its entirety and directly applicable in all Member States.</p>
+            </content>
+         </clause>
+      </body>
+      <conclusions>
+         <p>Done at Brussels, 1 October 2019.</p>
+         <block name="signatory">
+            <signature>
+               <organization refersTo="">For the Commission</organization>
+               <role refersTo="">The President</role>
+               <person refersTo="">Jean-Claude JUNCKER</person>
+            </signature>
+         </block>
+      </conclusions>
+   </bill>
+</akomaNtoso>

@@ -1,0 +1,1863 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"
+            xmlns:fmx="http://formex.publications.europa.eu/schema/formex-05.21-20110601.xd"
+            xmlns:leos="urn:eu:europa:ec:leos"
+            xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <bill name="">
+      <meta xmlns:fn="http://www.w3.org/2005/xpath-functions">
+         <identification source="~COM">
+            <FRBRWork>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRcountry value=""/>
+            </FRBRWork>
+            <FRBRExpression>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+            </FRBRManifestation>
+         </identification>
+      </meta>
+      <preface>
+         <longTitle>
+            <p>
+               <docStage/>
+               <docType>REGULATION (EU) 2021/1231 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL</docType>of 14 July 2021<docPurpose>amending Regulation (EU) 2019/833 laying down conservation and enforcement measures applicable in the Regulatory Area of the Northwest Atlantic Fisheries Organisation</docPurpose>
+            </p>
+         </longTitle>
+      </preface>
+      <preamble>
+         <formula name="actingEntity">
+            <p>THE EUROPEAN PARLIAMENT AND THE COUNCIL OF THE EUROPEAN UNION,</p>
+         </formula>
+         <citations>
+            <citation>
+               <p>Having regard to the Treaty on the Functioning of the European Union, and in particular Article 43(2) thereof,</p>
+            </citation>
+            <citation>
+               <p>Having regard to the proposal from the European Commission,</p>
+            </citation>
+            <citation>
+               <p>After transmission of the draft legislative act to the national parliaments,</p>
+            </citation>
+            <citation>
+               <p>Having regard to the opinion of the European Economic and Social Committee<authorialNote placement="bottom" marker="1">
+                     <p>OJ C 429, 11.12.2020, p. 279.</p>
+                  </authorialNote>,</p>
+            </citation>
+            <citation>
+               <p>Acting in accordance with the ordinary legislative procedure<authorialNote placement="bottom" marker="2">
+                     <p>Position of the European Parliament of 23 June 2021 (not yet published in the Official Journal) and decision of the Council of 13 July 2021.</p>
+                  </authorialNote>,</p>
+            </citation>
+         </citations>
+         <recitals xml:id="recs_d508e83">
+            <intro>
+               <p>Whereas:</p>
+            </intro>
+            <recital xml:id="rec_d508e86">
+               <num>(1)</num>
+               <p>Since the adoption of Regulation (EU) 2019/833 of the European Parliament and of the Council<authorialNote placement="bottom" marker="3">
+                     <p>Regulation (EU) 2019/833 of the European Parliament and of the Council of 20 May 2019 laying down conservation and enforcement measures applicable in the Regulatory Area of the Northwest Atlantic Fisheries Organisation, amending Regulation (EU) 2016/1627 and repealing Council Regulations (EC) No 2115/2005 and (EC) No 1386/2007 (OJ L 141, 28.5.2019, p. 1).</p>
+                  </authorialNote>, the Northwest Atlantic Fisheries Organization (NAFO) adopted at its 41st and 42nd annual meetings, in 2019 and 2020 respectively, a number of legally binding decisions for the conservation of fishery resources under its purview.</p>
+            </recital>
+            <recital xml:id="rec_d508e102">
+               <num>(2)</num>
+               <p>Those decisions are addressed to the NAFO Contracting Parties, but also contain obligations for the operators (for example the master of the vessel). New NAFO conservation and enforcement measures (CEM) that are binding on all NAFO Contracting Parties have entered into force. They are to be incorporated into Union law to the extent that they are not already provided for by Union law.</p>
+            </recital>
+            <recital xml:id="rec_d508e108">
+               <num>(3)</num>
+               <p>Regulation (EU) 2019/833 should therefore be adapted in order to apply NAFO mesh measurement norms, to introduce the definition of &apos;fishing vessel&apos; used by NAFO so as to allow the Union control and enforcement authorities to work in line with other NAFO Contracting Parties, and to improve the information flow between the Member States&apos; authorities, the Commission and the NAFO Executive Secretary.</p>
+            </recital>
+            <recital xml:id="rec_d508e118">
+               <num>(4)</num>
+               <p>In accordance with Article 3 of Regulation (EU) 2019/473 of the European Parliament and of the Council<authorialNote placement="bottom" marker="4">
+                     <p>Regulation (EU) 2019/473 of the European Parliament and of the Council of 19 March 2019 on the European Fisheries Control Agency (OJ L 83, 25.3.2019, p. 18).</p>
+                  </authorialNote>, the mission of the European Fisheries Control Agency (EFCA) is, inter alia, to organise the operational coordination of fisheries control and inspection activities by Member States for the implementation of international control and inspection programmes such as the NAFO Joint Inspection and Surveillance Scheme, and to assist Member States in reporting information on fishing activities and control and inspection activities to the Commission and third parties. It is therefore appropriate for EFCA to be the body that receives from Member States and transmits to the NAFO Executive Secretary information relating to control and inspection, such as at sea inspection reports and notifications of the control observers scheme.</p>
+            </recital>
+            <recital xml:id="rec_d508e134">
+               <num>(5)</num>
+               <p>The CEM procedure for Contracting Parties to transmit information to the NAFO Monitoring, Control and Surveillance (MCS) website involves sending the information to be transmitted to the NAFO Executive Secretary. It is therefore necessary to update the relevant provisions in Regulation (EU) 2019/833 to reflect that change and to clarify the channels to be used by Member States to transmit the relevant information.</p>
+            </recital>
+            <recital xml:id="rec_d508e141">
+               <num>(6)</num>
+               <p>It is also necessary to introduce the CEM provisions for the protection of Greenland shark (<i>Somniosus microcephalus</i>), to align the provisions of chartering arrangements with those in the CEM and to specify the need for the consent of the port State Contracting Party to be given to inspectors of another Contracting Party for their deployment.</p>
+            </recital>
+            <recital xml:id="rec_d508e150">
+               <num>(7)</num>
+               <p>Certain provisions of the CEM are likely to be amended at NAFO annual meetings due to the introduction of new technical measures in relation to changing stock biomass and a review of area restrictions for bottom fishing activities. Therefore, in order to swiftly incorporate into Union law future amendments to the CEM before the start of fishing season, the power to adopt acts in accordance with Article 290 of the Treaty on the Functioning of the European Union should be delegated to the Commission in respect of the regulation of mesh sizes, sorting grids or grates and toggle chains in Northern prawn fishing and in respect of area restrictions for the bottom fishing activities. It is of particular importance that the Commission carry out appropriate consultations during its preparatory work, including at expert level, and that those consultations be conducted in accordance with the principles laid down in the Interinstitutional Agreement of 13 April 2016 on Better Law-Making<authorialNote placement="bottom" marker="5">
+                     <p>OJ L 123, 12.5.2016, p. 1.</p>
+                  </authorialNote>. In particular, to ensure equal participation in the preparation of delegated acts, the European Parliament and the Council receive all documents at the same time as Member States&apos; experts, and their experts systematically have access to meetings of Commission expert groups dealing with the preparation of delegated acts.</p>
+            </recital>
+            <recital xml:id="rec_d508e165">
+               <num>(8)</num>
+               <p>Regulation (EU) 2019/833 should therefore be amended,</p>
+            </recital>
+         </recitals>
+         <formula name="enactingFormula">
+            <p>HAVE ADOPTED THIS REGULATION:</p>
+         </formula>
+      </preamble>
+      <body>
+         <article xml:id="art_d508e174" leos:compliant="false">
+            <num>Article 1</num>
+            <heading>Amendments to Regulation (EU) 2019/833</heading>
+            <paragraph>
+               <subparagraph>
+                  <content>
+                     <p>Regulation (EU) 2019/833 is amended as follows:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(1)</num>
+                     <alinea>
+                        <content>
+                           <p>Article 3 is amended as follows:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <alinea>
+                              <content>
+                                 <p>point (6) is replaced by following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <list>
+                                             <point>
+                                                <num>&apos;(6)</num>
+                                                <content>
+                                                   <p>&quot;fishing vessel&quot; means any Union vessel equipped for, intended for or engaged in fishing activities, including fish processing, transhipment or any other activity in preparation for or related to fishing activities, including experimental or exploratory fishing activities;&apos;;</p>
+                                                </content>
+                                             </point>
+                                          </list>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <alinea>
+                              <content>
+                                 <p>the following point is added:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <list>
+                                             <point>
+                                                <num>&apos;(31)</num>
+                                                <content>
+                                                   <p>&quot;MCS website&quot; means the NAFO Monitoring, Control and Surveillance website that contains information relevant for at-sea and in-port inspections.&apos;;</p>
+                                                </content>
+                                             </point>
+                                          </list>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                     </list>
+                  </point>
+                  <point>
+                     <num>(2)</num>
+                     <alinea>
+                        <content>
+                           <p>Article 5 is amended as follows:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <alinea>
+                              <content>
+                                 <p>paragraph 2 is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <paragraph>
+                                             <num>&apos;2.</num>
+                                             <content>
+                                                <p>Member States may permit fishing vessels flying their flag to fish for stocks for which the Union has not been allocated a quota in accordance with the fishing opportunities in force (the &quot;Others&quot; quota), if such quota exists and notification of closure has not been given by the NAFO Executive Secretary.&apos;;</p>
+                                             </content>
+                                          </paragraph>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <alinea>
+                              <content>
+                                 <p>in paragraph 3, point (c) is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <list>
+                                             <point>
+                                                <num>&apos;(c)</num>
+                                                <content>
+                                                   <p>notify the Commission and EFCA of the names of Union vessels that intend to fish the &quot;Others&quot; quota at least 48 hours in advance of each entry, and after a minimum of 48 hours of absence from the Regulatory Area. That notification shall, if possible, be accompanied by an estimate of the projected catch. Where the Commission considers that the relevant conditions established in the CEM are met, it shall notify the NAFO Executive Secretary.&apos;;</p>
+                                                </content>
+                                             </point>
+                                          </list>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                     </list>
+                  </point>
+                  <point>
+                     <num>(3)</num>
+                     <alinea>
+                        <content>
+                           <p>in Article 6(1), points (d) and (e) are replaced by the following:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <list>
+                                       <point>
+                                          <num>&apos;(d)</num>
+                                          <content>
+                                             <p>close its directed fishery for redfish in Division 3M between 24:00 UTC of the day the accumulated reported catch is estimated to reach 50 % of the TAC of redfish in Division 3M, as notified in accordance with paragraph 3, and 1 July;</p>
+                                          </content>
+                                       </point>
+                                       <point>
+                                          <num>(e)</num>
+                                          <content>
+                                             <p>close its directed fishery for redfish in Division 3M at 24:00 UTC of the day the accumulated reported catch is estimated to reach 100 % of the TAC of redfish in Division 3M, as notified in accordance with paragraph 3;&apos;;</p>
+                                          </content>
+                                       </point>
+                                    </list>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(4)</num>
+                     <alinea>
+                        <content>
+                           <p>in Article 7(2), points (a) and (b) are replaced by the following:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <list>
+                                       <point>
+                                          <num>&apos;(a)</num>
+                                          <content>
+                                             <p>no quota has been allocated to the Union for that stock in that Division, in accordance with the fishing opportunities in force;</p>
+                                          </content>
+                                       </point>
+                                       <point>
+                                          <num>(b)</num>
+                                          <content>
+                                             <p>a ban on fishing for that particular stock is in force (moratorium); or&apos;;</p>
+                                          </content>
+                                       </point>
+                                    </list>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(5)</num>
+                     <alinea>
+                        <content>
+                           <p>the following Article is inserted:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <article xml:id="art_d508e340">
+                                       <num>&apos;Article 9a</num>
+                                       <heading>Cod in Division 3M</heading>
+                                       <paragraph>
+                                          <num>1.</num>
+                                          <subparagraph>
+                                             <content>
+                                                <p>The following control measures shall apply to vessels with more than 1250 kg of cod catches from Division 3M on board:</p>
+                                             </content>
+                                          </subparagraph>
+                                          <list>
+                                             <point>
+                                                <num>(a)</num>
+                                                <content>
+                                                   <p>vessels shall land or tranship their cod catches from Division 3M only in ports designated in accordance with Article 39;</p>
+                                                </content>
+                                             </point>
+                                             <point>
+                                                <num>(b)</num>
+                                                <content>
+                                                   <p>at least 48 hours before its estimated time of arrival in port, a vessel or its representative on its behalf shall advise the competent port authority of its estimated time of arrival, the estimated quantity of cod catches from Division 3M retained on board, and information on the Division or Divisions where any other cod catches retained on board were taken;</p>
+                                                </content>
+                                             </point>
+                                             <point>
+                                                <num>(c)</num>
+                                                <content>
+                                                   <p>each Member State shall inspect each landing or transhipment of cod catches from Division 3M in its ports and prepare an inspection report in the format prescribed in Annex IV.C to the CEM referred to in point 9 of the Annex to this Regulation, and send it to the NAFO Executive Secretary, with the Commission and EFCA in copy, within 12 working days from the date on which the inspection was completed. That report shall identify and provide details of any infringement of this Regulation detected during the port inspection. It shall include all relevant information available with regard to infringements detected at sea during the current trip of the inspected fishing vessel.</p>
+                                                </content>
+                                             </point>
+                                          </list>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>2.</num>
+                                          <content>
+                                             <p>Each Member State shall inspect vessels with less than 1250 kg of cod catches from Division 3M on board on a risk management basis.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>3.</num>
+                                          <content>
+                                             <p>The Commission or a body designated by it shall ensure that the information referred to in point (c) of paragraph 1 is transmitted to the NAFO Executive Secretary without delay, for posting on the MCS website.&apos;;</p>
+                                          </content>
+                                       </paragraph>
+                                    </article>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(6)</num>
+                     <alinea>
+                        <content>
+                           <p>Article 10 is amended as follows:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <alinea>
+                              <content>
+                                 <p>paragraph 1 is amended as follows:</p>
+                              </content>
+                           </alinea>
+                           <list>
+                              <point>
+                                 <num>(i)</num>
+                                 <alinea>
+                                    <content>
+                                       <p>point (c) is replaced by the following:</p>
+                                    </content>
+                                 </alinea>
+                                 <alinea>
+                                    <content>
+                                       <p>
+                                          <mod>
+                                             <quotedStructure startQuote="" endQuote="">
+                                                <list>
+                                                   <point>
+                                                      <num>&apos;(c)</num>
+                                                      <content>
+                                                         <p>each Member State shall send to the Commission the name of every port it has so designated, which shall transmit it to the NAFO Executive Secretary. Any subsequent changes to the list shall be sent in replacement of the previous one not less than 20 days before the change comes into effect;&apos;;</p>
+                                                      </content>
+                                                   </point>
+                                                </list>
+                                             </quotedStructure>
+                                          </mod>
+                                       </p>
+                                    </content>
+                                 </alinea>
+                              </point>
+                              <point>
+                                 <num>(ii)</num>
+                                 <alinea>
+                                    <content>
+                                       <p>point (e) is replaced by the following:</p>
+                                    </content>
+                                 </alinea>
+                                 <alinea>
+                                    <content>
+                                       <p>
+                                          <mod>
+                                             <quotedStructure startQuote="" endQuote="">
+                                                <list>
+                                                   <point>
+                                                      <num>&apos;(e)</num>
+                                                      <content>
+                                                         <p>each Member State shall inspect each landing of Greenland halibut in its ports and prepare an inspection report in the format prescribed in Annex IV.C to the CEM referred to in point 9 of the Annex to this Regulation, and send it to the NAFO Executive Secretary with the Commission and EFCA in copy, within 14 working days from the date on which the inspection was completed. The report shall identify and provide details of any infringement of this Regulation detected during the port inspection. It shall include all relevant information available with regard to infringements detected at sea during the current trip of the inspected fishing vessel.&apos;;</p>
+                                                      </content>
+                                                   </point>
+                                                </list>
+                                             </quotedStructure>
+                                          </mod>
+                                       </p>
+                                    </content>
+                                 </alinea>
+                              </point>
+                           </list>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <alinea>
+                              <content>
+                                 <p>in paragraph 2, point (d)(i) is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <list>
+                                             <point>
+                                                <num>&apos;(i)</num>
+                                                <content>
+                                                   <p>it receives no confirmation within 72 hours of the notification it has transmitted in accordance with point (a); or&apos;;</p>
+                                                </content>
+                                             </point>
+                                          </list>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                     </list>
+                  </point>
+                  <point>
+                     <num>(7)</num>
+                     <alinea>
+                        <content>
+                           <p>in Article 12, the following paragraphs are added:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <paragraph>
+                                       <num>&apos;9.</num>
+                                       <content>
+                                          <p>It shall be prohibited to conduct a directed fishery for Greenland shark (<i>Somniosus microcephalus</i>) in the Regulatory Area.</p>
+                                       </content>
+                                    </paragraph>
+                                    <paragraph>
+                                       <num>10.</num>
+                                       <content>
+                                          <p>Fishing vessels flying the flag of a Member State shall undertake all reasonable efforts to minimise incidental catch and mortality, and, where alive, release Greenland sharks in a manner that causes the least possible harm.&apos;;</p>
+                                       </content>
+                                    </paragraph>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(8)</num>
+                     <alinea>
+                        <content>
+                           <p>Article 13 is amended as follows:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <alinea>
+                              <content>
+                                 <p>paragraph 1 is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <paragraph>
+                                             <num>&apos;1.</num>
+                                             <content>
+                                                <p>For the purpose of this Article, mesh size shall be measured in accordance with Annex III.A to the CEM referred to in point 10 of the Annex to this Regulation.&apos;;</p>
+                                             </content>
+                                          </paragraph>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <alinea>
+                              <content>
+                                 <p>in paragraph 2, point (a) is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <list>
+                                             <point>
+                                                <num>&apos;(a)</num>
+                                                <content>
+                                                   <p>40 mm for shrimps, including prawns (PRA);&apos;;</p>
+                                                </content>
+                                             </point>
+                                          </list>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                     </list>
+                  </point>
+                  <point>
+                     <num>(9)</num>
+                     <alinea>
+                        <content>
+                           <p>in Article 14, the following paragraph is inserted:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <paragraph>
+                                       <num>&apos;3a.</num>
+                                       <content>
+                                          <p>Fishing vessels conducting a directed trawl fishery for cod in Division 3M shall use a sorting grid for the purpose of reducing the catches of smaller individuals of cod with a minimum bar spacing of 55 mm. The sorting grid shall be placed in the top side panel of the trawl preceding the codend.&apos;;</p>
+                                       </content>
+                                    </paragraph>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(10)</num>
+                     <alinea>
+                        <content>
+                           <p>Article 18 is replaced by the following:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <article xml:id="art_d508e550">
+                                       <num>&apos;Article 18</num>
+                                       <heading>Area restrictions for bottom fishing activities</heading>
+                                       <paragraph>
+                                          <num>1.</num>
+                                          <content>
+                                             <p>Until 31 December 2021, no vessel shall engage in bottom fishing activities in any of the areas illustrated in Figure 3 of the CEM referred to in point 14 of the Annex to this Regulation, and defined by connecting the coordinates specified in Table 5 of the CEM referred to in point 15 of the Annex to this Regulation, in their numerical order and back to coordinate 1.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>2.</num>
+                                          <content>
+                                             <p>Until 31 December 2021, no vessel shall engage in bottom fishing activities in the area of Division 3O illustrated in Figure 4 of the CEM referred to in point 16 of the Annex to this Regulation, and defined by connecting the coordinates specified in Table 6 of the CEM referred to in point 17 of the Annex to this Regulation, in their numerical order and back to coordinate 1.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>3.</num>
+                                          <content>
+                                             <p>Until 31 December 2021, no vessel shall engage in bottom fishing activities in areas 1-13 illustrated in Figure 5 of the CEM referred to in point 18 of the Annex to this Regulation, and defined by connecting the coordinates specified in Table 7 of the CEM referred to in point 19 of the Annex to this Regulation, in numerical order and back to coordinate 1.&apos;;</p>
+                                          </content>
+                                       </paragraph>
+                                    </article>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(11)</num>
+                     <alinea>
+                        <content>
+                           <p>Article 23 is replaced by the following:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <article xml:id="art_d508e591">
+                                       <num>&apos;Article 23</num>
+                                       <heading>Chartering arrangements</heading>
+                                       <paragraph>
+                                          <num>1.</num>
+                                          <content>
+                                             <p>For the purpose of this Article, &quot;chartering Contracting Party&quot; refers to the Contracting Party that holds an allocation as indicated in Annex I.A and Annex I.B to the CEM, or the Member State that holds a fishing opportunities allocation, and &quot;flag State Contracting Party&quot; refers to the Contracting Party or to the Member State in which the chartered vessel is registered.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>2.</num>
+                                          <subparagraph>
+                                             <content>
+                                                <p>All or part of the fishing allocation of a chartering Contracting Party can be harvested using a chartered authorised vessel (&quot;chartered vessel&quot;) flying the flag of another Contracting Party, subject to the following conditions:</p>
+                                             </content>
+                                          </subparagraph>
+                                          <list>
+                                             <point>
+                                                <num>(a)</num>
+                                                <content>
+                                                   <p>the flag State Contracting Party has consented in writing to the chartering arrangement;</p>
+                                                </content>
+                                             </point>
+                                             <point>
+                                                <num>(b)</num>
+                                                <content>
+                                                   <p>the chartering arrangement is limited to one fishing vessel per flag State Contracting Party in any calendar year;</p>
+                                                </content>
+                                             </point>
+                                             <point>
+                                                <num>(c)</num>
+                                                <content>
+                                                   <p>the duration of the fishing operations under the chartering arrangement does not exceed six months cumulatively in any calendar year; and</p>
+                                                </content>
+                                             </point>
+                                             <point>
+                                                <num>(d)</num>
+                                                <content>
+                                                   <p>the chartered vessel is not a vessel that has previously been identified as having engaged in IUU fishing.</p>
+                                                </content>
+                                             </point>
+                                          </list>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>3.</num>
+                                          <content>
+                                             <p>All catch and by-catch taken by the chartered vessel in accordance with the chartering arrangement shall be attributed to the chartering Contracting Party.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>4.</num>
+                                          <content>
+                                             <p>The flag State Contracting Party shall not authorise the chartered vessel, when conducting fishing operations under the chartering arrangement, to fish any of the flag State Contracting Party&apos;s allocations or under another charter at the same time.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>5.</num>
+                                          <content>
+                                             <p>No transhipment at sea may be carried out without the prior authorisation of the chartering Contracting Party, which shall ensure that it is carried out under the supervision of an observer on board.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>6.</num>
+                                          <content>
+                                             <p>The flag State Contracting Party shall notify the NAFO Executive Secretary in writing prior to the start of the chartering arrangement of its consent to the chartering arrangement and provide to the chartered vessel a copy of the notice issued by the NAFO Executive Secretary with the details of the chartering.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>6a.</num>
+                                          <content>
+                                             <p>Where the chartered vessel is a Union fishing vessel, the flag Member State shall notify the Commission in writing prior to the start of the chartering arrangement. Where the Commission considers that the relevant conditions established in the CEM are met, it shall notify the NAFO Executive Secretary of the consent to the chartering arrangement.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>6b.</num>
+                                          <subparagraph>
+                                             <content>
+                                                <p>The chartering Contracting Party shall, before the date the chartering arrangement is effective, provide the following information in writing to the NAFO Executive Secretary and to the chartered vessel, which shall at all times carry a copy on board:</p>
+                                             </content>
+                                          </subparagraph>
+                                          <list>
+                                             <point>
+                                                <num>(a)</num>
+                                                <content>
+                                                   <p>the name, flag State registration, IMO number and flag State of the vessel;</p>
+                                                </content>
+                                             </point>
+                                             <point>
+                                                <num>(b)</num>
+                                                <content>
+                                                   <p>previous name(s) and flag State(s) of the vessel, if any;</p>
+                                                </content>
+                                             </point>
+                                             <point>
+                                                <num>(c)</num>
+                                                <content>
+                                                   <p>the name and address of the owner(s) and operators of the vessel;</p>
+                                                </content>
+                                             </point>
+                                             <point>
+                                                <num>(d)</num>
+                                                <content>
+                                                   <p>a copy of the chartering arrangement and any fishing authorisation or licence the chartering Contracting Party has issued to the chartered vessel; and</p>
+                                                </content>
+                                             </point>
+                                             <point>
+                                                <num>(e)</num>
+                                                <content>
+                                                   <p>the allocation assigned to the vessel.</p>
+                                                </content>
+                                             </point>
+                                          </list>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>6c.</num>
+                                          <content>
+                                             <p>Where the chartering Contracting Party is the Union, the chartering Member State shall notify the information referred to in paragraph 6b to the Commission before the chartering arrangement becomes effective. Where the Commission considers that the relevant conditions established in the CEM are met, it shall transmit the information to the NAFO Executive Secretary.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>7.</num>
+                                          <subparagraph>
+                                             <content>
+                                                <p>Where the chartered vessel is a Union fishing vessel, the flag Member State shall notify the Commission immediately upon the occurrence of any of the following events:</p>
+                                             </content>
+                                          </subparagraph>
+                                          <list>
+                                             <point>
+                                                <num>(a)</num>
+                                                <content>
+                                                   <p>start of fishing operations under the chartering arrangement;</p>
+                                                </content>
+                                             </point>
+                                             <point>
+                                                <num>(b)</num>
+                                                <content>
+                                                   <p>suspension of fishing operations under the chartering arrangement;</p>
+                                                </content>
+                                             </point>
+                                             <point>
+                                                <num>(c)</num>
+                                                <content>
+                                                   <p>resumption of fishing operations under a chartering arrangement that has been suspended;</p>
+                                                </content>
+                                             </point>
+                                             <point>
+                                                <num>(d)</num>
+                                                <content>
+                                                   <p>end of fishing operations under the chartering arrangement.</p>
+                                                </content>
+                                             </point>
+                                          </list>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>8.</num>
+                                          <content>
+                                             <p>The flag State Contracting Party shall maintain a separate record of catch and by-catch data from fishing operations in accordance with every charter of a vessel flying its flag and report them to the Commission, which shall transmit it to the chartering Contracting Party and the NAFO Executive Secretary.&apos;;</p>
+                                          </content>
+                                       </paragraph>
+                                    </article>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(12)</num>
+                     <alinea>
+                        <content>
+                           <p>Article 25 is amended as follows:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <alinea>
+                              <content>
+                                 <p>in paragraph 2, point (a) is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <list>
+                                             <point>
+                                                <num>&apos;(a)</num>
+                                                <content>
+                                                   <p>accurately records the catch of each tow/set by Division;&apos;;</p>
+                                                </content>
+                                             </point>
+                                          </list>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <alinea>
+                              <content>
+                                 <p>paragraph 3 is amended as follows:</p>
+                              </content>
+                           </alinea>
+                           <list>
+                              <point>
+                                 <num>(i)</num>
+                                 <alinea>
+                                    <content>
+                                       <p>point (b) is replaced by the following:</p>
+                                    </content>
+                                 </alinea>
+                                 <alinea>
+                                    <content>
+                                       <p>
+                                          <mod>
+                                             <quotedStructure startQuote="" endQuote="">
+                                                <list>
+                                                   <point>
+                                                      <num>&apos;(b)</num>
+                                                      <content>
+                                                         <p>records the production of each species and product type by Division;&apos;;</p>
+                                                      </content>
+                                                   </point>
+                                                </list>
+                                             </quotedStructure>
+                                          </mod>
+                                       </p>
+                                    </content>
+                                 </alinea>
+                              </point>
+                              <point>
+                                 <num>(ii)</num>
+                                 <alinea>
+                                    <content>
+                                       <p>point (d) is replaced by the following:</p>
+                                    </content>
+                                 </alinea>
+                                 <alinea>
+                                    <content>
+                                       <p>
+                                          <mod>
+                                             <quotedStructure startQuote="" endQuote="">
+                                                <list>
+                                                   <point>
+                                                      <num>&apos;(d)</num>
+                                                      <content>
+                                                         <p>records each entry in accordance with Article 24; and&apos;;</p>
+                                                      </content>
+                                                   </point>
+                                                </list>
+                                             </quotedStructure>
+                                          </mod>
+                                       </p>
+                                    </content>
+                                 </alinea>
+                              </point>
+                              <point>
+                                 <num>(iii)</num>
+                                 <alinea>
+                                    <content>
+                                       <p>the following point is added:</p>
+                                    </content>
+                                 </alinea>
+                                 <alinea>
+                                    <content>
+                                       <p>
+                                          <mod>
+                                             <quotedStructure startQuote="" endQuote="">
+                                                <list>
+                                                   <point>
+                                                      <num>&apos;(e)</num>
+                                                      <content>
+                                                         <p>when production has occurred on the day of an inspection, makes the information related to any catch processed for that day available to an inspector upon request.&apos;;</p>
+                                                      </content>
+                                                   </point>
+                                                </list>
+                                             </quotedStructure>
+                                          </mod>
+                                       </p>
+                                    </content>
+                                 </alinea>
+                              </point>
+                           </list>
+                        </point>
+                        <point>
+                           <num>(c)</num>
+                           <alinea>
+                              <content>
+                                 <p>paragraph 6 is amended as follows:</p>
+                              </content>
+                           </alinea>
+                           <list>
+                              <point>
+                                 <num>(i)</num>
+                                 <alinea>
+                                    <content>
+                                       <p>in the first subparagraph, point (c) is replaced by the following:</p>
+                                    </content>
+                                 </alinea>
+                                 <alinea>
+                                    <content>
+                                       <p>
+                                          <mod>
+                                             <quotedStructure startQuote="" endQuote="">
+                                                <list>
+                                                   <point>
+                                                      <num>&apos;(c)</num>
+                                                      <content>
+                                                         <p>catch report (CAT): quantity of catch retained and quantity discarded by species for the day preceding the report, by Division, including nil catch returns, sent daily before 12:00 UTC, unless otherwise submitted in a COX report; nil catch retained and nil discards of all species shall be reported using the 3 alpha code MZZ (marine species not specified) and quantity as &quot;0&quot; as the following examples demonstrate (//CA/MZZ 0//and//RJ/MZZ 0//);&apos;;</p>
+                                                      </content>
+                                                   </point>
+                                                </list>
+                                             </quotedStructure>
+                                          </mod>
+                                       </p>
+                                    </content>
+                                 </alinea>
+                              </point>
+                              <point>
+                                 <num>(ii)</num>
+                                 <alinea>
+                                    <content>
+                                       <p>the second subparagraph is replaced by the following:</p>
+                                    </content>
+                                 </alinea>
+                                 <alinea>
+                                    <content>
+                                       <p>
+                                          <mod>
+                                             <quotedStructure startQuote="" endQuote="">
+                                                <alinea>
+                                                   <content>
+                                                      <p>&apos;Catch shall be reported at the species level under their corresponding 3-alpha code presented in Annex I.C to the CEM referred to in point 11 of the Annex to this Regulation or, if not contained in Annex I.C to the CEM, the FAO Aquatic Sciences and Fisheries Information System List of Species for Fishery Statistics shall be used. The estimated weight of sharks caught per haul or set shall also be recorded.&apos;;</p>
+                                                   </content>
+                                                </alinea>
+                                             </quotedStructure>
+                                          </mod>
+                                       </p>
+                                    </content>
+                                 </alinea>
+                              </point>
+                           </list>
+                        </point>
+                        <point>
+                           <num>(d)</num>
+                           <alinea>
+                              <content>
+                                 <p>in paragraph 9, the following subparagraph is added:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <alinea>
+                                             <content>
+                                                <p>&apos;Point (a) of the first subparagraph of this paragraph shall not apply if all catches have been reported in accordance with paragraph 6.&apos;;</p>
+                                             </content>
+                                          </alinea>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                     </list>
+                  </point>
+                  <point>
+                     <num>(13)</num>
+                     <alinea>
+                        <content>
+                           <p>Article 27 is amended as follows:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <alinea>
+                              <content>
+                                 <p>in paragraph 5, the following point is added:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <list>
+                                             <point>
+                                                <num>&apos;(g)</num>
+                                                <content>
+                                                   <p>electronically and without delay following its receipt, transmit to the NAFO Executive Secretary the daily observer report referred to in point (e) of paragraph 11.&apos;;</p>
+                                                </content>
+                                             </point>
+                                          </list>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <alinea>
+                              <content>
+                                 <p>paragraph 7 is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <paragraph>
+                                             <num>&apos;7.</num>
+                                             <subparagraph>
+                                                <content>
+                                                   <p>Each Member State shall provide:</p>
+                                                </content>
+                                             </subparagraph>
+                                             <list>
+                                                <point>
+                                                   <num>(a)</num>
+                                                   <content>
+                                                      <p>not later than 24 hours in advance of an observer&apos;s deployment on board a fishing vessel, the name of the fishing vessel and international radio call sign, together with the name and ID (if applicable) of the observer concerned;</p>
+                                                   </content>
+                                                </point>
+                                                <point>
+                                                   <num>(b)</num>
+                                                   <content>
+                                                      <p>within 20 days following the arrival of the vessel in port, the observer trip report referred to in paragraph 11;</p>
+                                                   </content>
+                                                </point>
+                                                <point>
+                                                   <num>(c)</num>
+                                                   <content>
+                                                      <p>by 15 February each year for the previous calendar year, a report on its compliance with the obligations set out in this Article.&apos;;</p>
+                                                   </content>
+                                                </point>
+                                             </list>
+                                          </paragraph>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(c)</num>
+                           <alinea>
+                              <content>
+                                 <p>paragraph 15 is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <paragraph>
+                                             <num>&apos;15.</num>
+                                             <content>
+                                                <p>The information that Member States are required to provide in accordance with points (c) and (d) of paragraph 3, point (a) of paragraph 5, point (c) of paragraph 6 and paragraph 7 shall be transmitted to EFCA with the Commission in copy. EFCA shall ensure that this information is transmitted to the NAFO Executive Secretary without delay, for posting on the MCS website.&apos;;</p>
+                                             </content>
+                                          </paragraph>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                     </list>
+                  </point>
+                  <point>
+                     <num>(14)</num>
+                     <alinea>
+                        <content>
+                           <p>Article 28 is amended as follows:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <alinea>
+                              <content>
+                                 <p>paragraph 2 is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <paragraph>
+                                             <num>&apos;2.</num>
+                                             <content>
+                                                <p>Inspection and surveillance shall be carried out by inspectors assigned by the Member States, EFCA and the Commission. Member States and the Commission shall notify inspectors to EFCA through the Scheme.&apos;;</p>
+                                             </content>
+                                          </paragraph>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <alinea>
+                              <content>
+                                 <p>paragraph 7 is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <paragraph>
+                                             <num>&apos;7.</num>
+                                             <content>
+                                                <p>Inspectors visiting a research vessel shall note the status of the vessel, and shall limit inspection procedures to those necessary to ascertain that the vessel is conducting activities consistent with its research plan. Where the inspectors have reasonable grounds to suspect the vessel is conducting activities that are not consistent with its research plan, the Commission and EFCA shall be informed immediately, and the CEM shall fully apply.&apos;;</p>
+                                             </content>
+                                          </paragraph>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                     </list>
+                  </point>
+                  <point>
+                     <num>(15)</num>
+                     <alinea>
+                        <content>
+                           <p>Article 30 is amended as follows:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <alinea>
+                              <content>
+                                 <p>in paragraph 2, point (a) is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <list>
+                                             <point>
+                                                <num>&apos;(a)</num>
+                                                <content>
+                                                   <p>transmit the surveillance report to EFCA which shall submit it without delay to the NAFO Executive Secretary for transmission to the flag State Contracting Party of the vessel;&apos;;</p>
+                                                </content>
+                                             </point>
+                                          </list>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <alinea>
+                              <content>
+                                 <p>paragraph 4 is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <paragraph>
+                                             <num>&apos;4.</num>
+                                             <content>
+                                                <p>Each Member State shall send the investigation report to EFCA, which shall send it to the NAFO Executive Secretary and to the Commission.&apos;;</p>
+                                             </content>
+                                          </paragraph>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                     </list>
+                  </point>
+                  <point>
+                     <num>(16)</num>
+                     <alinea>
+                        <content>
+                           <p>Article 33 is amended as follows:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <alinea>
+                              <content>
+                                 <p>in paragraph 2, point (c)(ii) is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <list>
+                                             <point>
+                                                <num>&apos;(ii)</num>
+                                                <content>
+                                                   <p>record summaries as well as differences between the recorded catch and their estimates of the catch on board in the appropriate sections of the inspection report;&apos;;</p>
+                                                </content>
+                                             </point>
+                                          </list>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <alinea>
+                              <content>
+                                 <p>in paragraph 3, point (a) is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <list>
+                                             <point>
+                                                <num>&apos;(a)</num>
+                                                <content>
+                                                   <p>send to EFCA the at sea inspection report, if possible within 20 days of the inspection, which shall submit it to the NAFO Executive Secretary;&apos;;</p>
+                                                </content>
+                                             </point>
+                                          </list>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                     </list>
+                  </point>
+                  <point>
+                     <num>(17)</num>
+                     <alinea>
+                        <content>
+                           <p>Article 34 is amended as follows:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <alinea>
+                              <content>
+                                 <p>in paragraph 1, point (g) is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <list>
+                                             <point>
+                                                <num>&apos;(g)</num>
+                                                <content>
+                                                   <p>notify any observer on board of the infringement.&apos;;</p>
+                                                </content>
+                                             </point>
+                                          </list>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <alinea>
+                              <content>
+                                 <p>paragraph 2 is amended as follows:</p>
+                              </content>
+                           </alinea>
+                           <list>
+                              <point>
+                                 <num>(i)</num>
+                                 <alinea>
+                                    <content>
+                                       <p>in the first subparagraph, point (a) is replaced by the following:</p>
+                                    </content>
+                                 </alinea>
+                                 <alinea>
+                                    <content>
+                                       <p>
+                                          <mod>
+                                             <quotedStructure startQuote="" endQuote="">
+                                                <list>
+                                                   <point>
+                                                      <num>&apos;(a)</num>
+                                                      <content>
+                                                         <p>within 24 hours from detection of the infringement, transmit to the Commission and EFCA, which shall in turn transmit to the competent authority of the flag State Contracting Party or Member State if different from the inspecting Member State, and the NAFO Executive Secretary, written notification of the infringement reported by its inspectors. The written notification shall include the information entered in the Infringement section of the inspection report in Annex IV.B to the CEM referred to in point 41 of the Annex to this Regulation, cite the relevant measures and describe in detail the basis for issuing the notice of infringement, and the evidence in support of the notice, and where possible, be accompanied by images of any gear, catch or other evidence relating to the infringement referred to in paragraph 1 of this Article;&apos;;</p>
+                                                      </content>
+                                                   </point>
+                                                </list>
+                                             </quotedStructure>
+                                          </mod>
+                                       </p>
+                                    </content>
+                                 </alinea>
+                              </point>
+                              <point>
+                                 <num>(ii)</num>
+                                 <alinea>
+                                    <content>
+                                       <p>the second subparagraph is replaced by the following:</p>
+                                    </content>
+                                 </alinea>
+                                 <alinea>
+                                    <content>
+                                       <p>
+                                          <mod>
+                                             <quotedStructure startQuote="" endQuote="">
+                                                <alinea>
+                                                   <content>
+                                                      <p>&apos;EFCA shall submit the inspection report to the NAFO Executive Secretary.&apos;;</p>
+                                                   </content>
+                                                </alinea>
+                                             </quotedStructure>
+                                          </mod>
+                                       </p>
+                                    </content>
+                                 </alinea>
+                              </point>
+                           </list>
+                        </point>
+                     </list>
+                  </point>
+                  <point>
+                     <num>(18)</num>
+                     <alinea>
+                        <content>
+                           <p>Article 35 is amended as follows:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <alinea>
+                              <content>
+                                 <p>paragraph 1 is amended as follows:</p>
+                              </content>
+                           </alinea>
+                           <list>
+                              <point>
+                                 <num>(i)</num>
+                                 <alinea>
+                                    <content>
+                                       <p>point (a) is replaced by the following:</p>
+                                    </content>
+                                 </alinea>
+                                 <alinea>
+                                    <content>
+                                       <p>
+                                          <mod>
+                                             <quotedStructure startQuote="" endQuote="">
+                                                <list>
+                                                   <point>
+                                                      <num>&apos;(a)</num>
+                                                      <content>
+                                                         <p>fishing the &quot;Others&quot; quota without prior notification to the Commission and EFCA in contravention of Article 5;&apos;;</p>
+                                                      </content>
+                                                   </point>
+                                                </list>
+                                             </quotedStructure>
+                                          </mod>
+                                       </p>
+                                    </content>
+                                 </alinea>
+                              </point>
+                              <point>
+                                 <num>(ii)</num>
+                                 <alinea>
+                                    <content>
+                                       <p>point (e) is replaced by the following:</p>
+                                    </content>
+                                 </alinea>
+                                 <alinea>
+                                    <content>
+                                       <p>
+                                          <mod>
+                                             <quotedStructure startQuote="" endQuote="">
+                                                <list>
+                                                   <point>
+                                                      <num>&apos;(e)</num>
+                                                      <content>
+                                                         <p>fishing in closed area, in contravention of Article 9(5) or Article 18;&apos;;</p>
+                                                      </content>
+                                                   </point>
+                                                </list>
+                                             </quotedStructure>
+                                          </mod>
+                                       </p>
+                                    </content>
+                                 </alinea>
+                              </point>
+                              <point>
+                                 <num>(iii)</num>
+                                 <alinea>
+                                    <content>
+                                       <p>point (g) is replaced by the following:</p>
+                                    </content>
+                                 </alinea>
+                                 <alinea>
+                                    <content>
+                                       <p>
+                                          <mod>
+                                             <quotedStructure startQuote="" endQuote="">
+                                                <list>
+                                                   <point>
+                                                      <num>&apos;(g)</num>
+                                                      <content>
+                                                         <p>using an unauthorised mesh size or grid size in contravention of Article 13 or Article 14;&apos;;</p>
+                                                      </content>
+                                                   </point>
+                                                </list>
+                                             </quotedStructure>
+                                          </mod>
+                                       </p>
+                                    </content>
+                                 </alinea>
+                              </point>
+                              <point>
+                                 <num>(iv)</num>
+                                 <alinea>
+                                    <content>
+                                       <p>point (k) is replaced by the following:</p>
+                                    </content>
+                                 </alinea>
+                                 <alinea>
+                                    <content>
+                                       <p>
+                                          <mod>
+                                             <quotedStructure startQuote="" endQuote="">
+                                                <list>
+                                                   <point>
+                                                      <num>&apos;(k)</num>
+                                                      <content>
+                                                         <p>failure to communicate messages relating to catch in contravention of Article 12(1) or Article 25;&apos;;</p>
+                                                      </content>
+                                                   </point>
+                                                </list>
+                                             </quotedStructure>
+                                          </mod>
+                                       </p>
+                                    </content>
+                                 </alinea>
+                              </point>
+                           </list>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <alinea>
+                              <content>
+                                 <p>paragraph 5 is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <paragraph>
+                                             <num>&apos;5.</num>
+                                             <content>
+                                                <p>For the purposes of paragraphs 3 and 4, &quot;misrecording of catches&quot; means a difference of at least 10 tonnes or 20 %, whichever is greater, between the inspectors&apos; estimates of processed catch on board, by species or in total, and the figures recorded in the production logbook, calculated as a percentage of the production logbook figures.&apos;;</p>
+                                             </content>
+                                          </paragraph>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(c)</num>
+                           <alinea>
+                              <content>
+                                 <p>paragraph 6 is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <paragraph>
+                                             <num>&apos;6.</num>
+                                             <content>
+                                                <p>Subject to the consent of the flag Member State and of the port State Contracting Party if different, inspectors of another Contracting Party or Member State may participate in the full inspection and enumeration of the catch.&apos;;</p>
+                                             </content>
+                                          </paragraph>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                     </list>
+                  </point>
+                  <point>
+                     <num>(19)</num>
+                     <alinea>
+                        <content>
+                           <p>Article 39 is amended as follows:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <alinea>
+                              <content>
+                                 <p>paragraphs 1, 2 and 3 are replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <paragraph>
+                                             <num>&apos;1.</num>
+                                             <content>
+                                                <p>The port Member State shall provide the Commission with a list of designated ports to which fishing vessels may be permitted entry for the purpose of landing, transhipment and/or provision of port services, and shall to the greatest extent possible ensure that each designated port has sufficient capacity to conduct inspections pursuant to this Chapter. The Commission shall notify the NAFO Executive Secretary of the list of designated ports. Any subsequent changes to the list shall be posted in replacement of the previous one no less than 15 days before the change comes into effect.</p>
+                                             </content>
+                                          </paragraph>
+                                          <paragraph>
+                                             <num>2.</num>
+                                             <content>
+                                                <p>The port Member State shall establish a minimum prior request period. The prior request period shall be three working days before the estimated time of arrival. However, in agreement with the Commission, the port Member State may make provisions for another prior request period, taking into account, inter alia, the catch product type or the distance between fishing grounds and its ports. The port Member State shall provide the information on the prior request period to the Commission, which shall notify the NAFO Executive Secretary.</p>
+                                             </content>
+                                          </paragraph>
+                                          <paragraph>
+                                             <num>3.</num>
+                                             <content>
+                                                <p>The port Member State shall designate the competent authority which shall act as the contact point for the purposes of receiving requests in accordance with Article 41, receiving confirmations in accordance with Article 40(2) and issuing authorisations in accordance with paragraph 6 of this Article. The port Member State shall provide the name of the competent authority and its contact information to the Commission, which shall notify the NAFO Executive Secretary.&apos;;</p>
+                                             </content>
+                                          </paragraph>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <alinea>
+                              <content>
+                                 <p>paragraphs 8 and 9 are replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <paragraph>
+                                             <num>&apos;8.</num>
+                                             <content>
+                                                <p>The port Member State shall without delay notify the master of the vessel of its decision on whether to authorise or deny the port entry or, if the vessel is in port, the landing, transhipment and other use of port. If the vessel entry is authorised the port Member State shall return to the master of the vessel a copy of the form Port State Control Prior Request Form in Annex II.L to the CEM referred to in point 43 of the Annex to this Regulation with Part C duly completed. That copy shall also be sent to the NAFO Executive Secretary with the Commission and EFCA in copy. In the case of a denial the port Member State shall also notify the flag NAFO Contracting Party.</p>
+                                             </content>
+                                          </paragraph>
+                                          <paragraph>
+                                             <num>9.</num>
+                                             <content>
+                                                <p>In case of cancellation of the prior request referred to in Article 41(2) the port Member State shall send a copy of the cancelled Port State Control Prior Request Form to the NAFO Executive Secretary with the Commission and EFCA in copy.&apos;;</p>
+                                             </content>
+                                          </paragraph>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(c)</num>
+                           <alinea>
+                              <content>
+                                 <p>paragraph 17 is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <paragraph>
+                                             <num>&apos;17.</num>
+                                             <content>
+                                                <p>The port Member State shall without delay send a copy of each port State control inspection report to the NAFO Executive Secretary with the Commission and EFCA in copy.&apos;;</p>
+                                             </content>
+                                          </paragraph>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                     </list>
+                  </point>
+                  <point>
+                     <num>(20)</num>
+                     <alinea>
+                        <content>
+                           <p>Article 45 is replaced by the following:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <article xml:id="art_d508e1376">
+                                       <num>&apos;Article 45</num>
+                                       <heading>Sighting and inspection of non-Contracting Party vessels in the Regulatory Area</heading>
+                                       <paragraph>
+                                          <subparagraph>
+                                             <content>
+                                                <p>Each Member State or, when appropriate, EFCA, with an inspection and/or surveillance presence in the Regulatory Area authorised under the Joint Inspection and Surveillance Scheme that sights or identifies a non-Contracting Party vessel engaged in fishing activities in the Regulatory Area shall:</p>
+                                             </content>
+                                          </subparagraph>
+                                          <list>
+                                             <point>
+                                                <num>(a)</num>
+                                                <content>
+                                                   <p>transmit immediately the information to the Commission using the format of the surveillance report set out in Annex IV.A to the CEM referred to in point 38 of the Annex to this Regulation;</p>
+                                                </content>
+                                             </point>
+                                             <point>
+                                                <num>(b)</num>
+                                                <content>
+                                                   <p>attempt to inform the master of the vessel that the vessel is presumed to be engaged in IUU fishing and that this information will be distributed to all Contracting Parties, relevant RFMOs and the flag State of the vessel;</p>
+                                                </content>
+                                             </point>
+                                             <point>
+                                                <num>(c)</num>
+                                                <content>
+                                                   <p>if appropriate, request permission from the master of the vessel to board the vessel for inspection; and</p>
+                                                </content>
+                                             </point>
+                                             <point>
+                                                <num>(d)</num>
+                                                <alinea>
+                                                   <content>
+                                                      <p>where the master of the vessel agrees to inspection:</p>
+                                                   </content>
+                                                </alinea>
+                                                <list>
+                                                   <point>
+                                                      <num>(i)</num>
+                                                      <content>
+                                                         <p>transmit the inspector&apos;s findings to the Commission without delay, using the inspection report form set out in Annex IV.B to the CEM referred to in point 41 of the Annex to this Regulation; and</p>
+                                                      </content>
+                                                   </point>
+                                                   <point>
+                                                      <num>(ii)</num>
+                                                      <content>
+                                                         <p>provide a copy of the inspection report to the master of the vessel.&apos;;</p>
+                                                      </content>
+                                                   </point>
+                                                </list>
+                                             </point>
+                                          </list>
+                                       </paragraph>
+                                    </article>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(21)</num>
+                     <alinea>
+                        <content>
+                           <p>in Article 50(2) the following points are added:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <list>
+                                       <point>
+                                          <num>&apos;(i)</num>
+                                          <content>
+                                             <p>mesh sizes set out in Article 13(2);</p>
+                                          </content>
+                                       </point>
+                                       <point>
+                                          <num>(j)</num>
+                                          <content>
+                                             <p>technical specifications for sorting grids, grates and toggle chains in the Northern prawn fishery set out in Article 14(2) as well as technical specifications for sorting grids or attachments set out in Article 14(3) or (3a);</p>
+                                          </content>
+                                       </point>
+                                       <point>
+                                          <num>(k)</num>
+                                          <content>
+                                             <p>area or period restrictions for bottom fishing activities set out in Article 18.&apos;;</p>
+                                          </content>
+                                       </point>
+                                    </list>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(22)</num>
+                     <alinea>
+                        <content>
+                           <p>the Annex is amended as follows:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <alinea>
+                              <content>
+                                 <p>point (44) is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <list>
+                                             <point>
+                                                <num>&apos;(44)</num>
+                                                <content>
+                                                   <p>Annex IV.H to the CEM on inspections referred to in Article 39(11);&apos;;</p>
+                                                </content>
+                                             </point>
+                                          </list>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <alinea>
+                              <content>
+                                 <p>the following point is added:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <list>
+                                             <point>
+                                                <num>&apos;(45)</num>
+                                                <content>
+                                                   <p>Annex II.H of the CEM on the procedure for granting access to individuals within Contracting Parties to the MCS Website.&apos;.</p>
+                                                </content>
+                                             </point>
+                                          </list>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                     </list>
+                  </point>
+               </list>
+            </paragraph>
+         </article>
+         <article xml:id="art_d508e1501">
+            <num>Article 2</num>
+            <heading/>
+            <paragraph>
+               <content>
+                  <p>This Regulation shall enter into force on the twentieth day following that of its publication in the <i>Official Journal of the European Union</i>.</p>
+               </content>
+            </paragraph>
+         </article>
+         <clause>
+            <content>
+               <p>This Regulation shall be binding in its entirety and directly applicable in all Member States.</p>
+            </content>
+         </clause>
+      </body>
+      <conclusions>
+         <p>Done at Brussels, 14 July 2021.</p>
+         <block name="signatory">
+            <signature>
+               <organization refersTo="">For the European Parliament</organization>
+               <role refersTo="">The President</role>
+               <person refersTo="">D. M. SASSOLI</person>
+            </signature>
+            <signature>
+               <organization refersTo="">For the Council</organization>
+               <role refersTo="">The President</role>
+               <person refersTo="">A. LOGAR</person>
+            </signature>
+         </block>
+      </conclusions>
+   </bill>
+</akomaNtoso>

@@ -1,0 +1,678 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"
+            xmlns:fmx="http://formex.publications.europa.eu/schema/formex-05.21-20110601.xd"
+            xmlns:leos="urn:eu:europa:ec:leos"
+            xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <bill name="">
+      <meta xmlns:fn="http://www.w3.org/2005/xpath-functions">
+         <identification source="~COM">
+            <FRBRWork>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRcountry value=""/>
+            </FRBRWork>
+            <FRBRExpression>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+            </FRBRManifestation>
+         </identification>
+      </meta>
+      <preface>
+         <longTitle>
+            <p>
+               <docStage/>
+               <docType>REGULATION (EU) 2021/168 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL</docType>of 10 February 2021<docPurpose>amending Regulation (EU) 2016/1011 as regards the exemption of certain third-country spot foreign exchange benchmarks and the designation of replacements for certain benchmarks in cessation, and amending Regulation (EU) No 648/2012</docPurpose>
+            </p>
+         </longTitle>
+         <container name="EEArelevance">
+            <p>(Text with EEA relevance)</p>
+         </container>
+      </preface>
+      <preamble>
+         <formula name="actingEntity">
+            <p>THE EUROPEAN PARLIAMENT AND THE COUNCIL OF THE EUROPEAN UNION,</p>
+         </formula>
+         <citations>
+            <citation>
+               <p>Having regard to the Treaty on the Functioning of the European Union, and in particular Article 114 thereof,</p>
+            </citation>
+            <citation>
+               <p>Having regard to the proposal from the European Commission,</p>
+            </citation>
+            <citation>
+               <p>After transmission of the draft legislative act to the national parliaments,</p>
+            </citation>
+            <citation>
+               <p>Having regard to the opinion of the European Central Bank<authorialNote placement="bottom" marker="1">
+                     <p>OJ C 366, 30.10.2020, p. 4.</p>
+                  </authorialNote>,</p>
+            </citation>
+            <citation>
+               <p>Having regard to the opinion of the European Economic and Social Committee<authorialNote placement="bottom" marker="2">
+                     <p>OJ C 10, 11.1.2021, p. 35.</p>
+                  </authorialNote>,</p>
+            </citation>
+            <citation>
+               <p>Acting in accordance with the ordinary legislative procedure<authorialNote placement="bottom" marker="3">
+                     <p>Position of the European Parliament of 19 January 2021 (not yet published in the Official Journal) and decision of the Council of 2 February 2021.</p>
+                  </authorialNote>,</p>
+            </citation>
+         </citations>
+         <recitals xml:id="recs_d66e94">
+            <intro>
+               <p>Whereas:</p>
+            </intro>
+            <recital xml:id="rec_d66e97">
+               <num>(1)</num>
+               <p>In order to hedge against adverse foreign exchange rate movements involving currencies that are not readily convertible into a base currency or involving currencies that are subject to exchange controls, companies in the Union enter into non-deliverable currency derivatives, such as forwards and swaps. The unavailability of spot foreign exchange benchmarks for calculating the payouts due under currency derivatives would have a negative effect on companies in the Union that export to emerging markets or hold assets or liabilities in those markets, with consequent exposure to fluctuations of emerging market currencies. Following the expiry of the period ending on 31 December 2021 set out in Regulation (EU) 2016/1011 of the European Parliament and of the Council<authorialNote placement="bottom" marker="4">
+                     <p>Regulation (EU) 2016/1011 of the European Parliament and of the Council of 8 June 2016 on indices used as benchmarks in financial instruments and financial contracts or to measure the performance of investment funds and amending Directives 2008/48/EC and 2014/17/EU and Regulation (EU) No 596/2014 (OJ L 171, 29.6.2016, p. 1).</p>
+                  </authorialNote> (the &apos;transitional period&apos;), the use of spot foreign exchange benchmarks provided by an administrator located in a third country, other than a central bank, will no longer be possible.</p>
+            </recital>
+            <recital xml:id="rec_d66e120">
+               <num>(2)</num>
+               <p>In order to enable companies in the Union to continue their business activities while mitigating foreign exchange risk, certain spot foreign exchange benchmarks that are used in financial instruments to calculate contractual payouts and that are designated by the Commission in accordance with certain criteria should be excluded from the scope of Regulation (EU) 2016/1011.</p>
+            </recital>
+            <recital xml:id="rec_d66e126">
+               <num>(3)</num>
+               <p>Considering the need to undertake a thorough review of the scope of Regulation (EU) 2016/1011 and of its provisions concerning benchmarks provided by administrators located in third countries (&apos;third-country benchmarks&apos;), the current transitional period for third-country benchmarks should be extended. The Commission should have the power to further extend the transitional period by means of a delegated act, for a maximum of two years, if the assessment on which that review is based demonstrates that the envisaged expiry of the transitional period would be detrimental to the continued use of third-country benchmarks in the Union or would pose a threat to financial stability.</p>
+            </recital>
+            <recital xml:id="rec_d66e137">
+               <num>(4)</num>
+               <p>Extending the transitional period for third-country benchmarks could create an incentive for Union benchmark administrators to relocate their activities to a third country in order not to be subject to the requirements of Regulation (EU) 2016/1011. To prevent such circumvention, administrators who relocate from the Union to a third country during the transitional period should not benefit from access to the Union market without complying with the requirements of Regulation (EU) 2016/1011.</p>
+            </recital>
+            <recital xml:id="rec_d66e143">
+               <num>(5)</num>
+               <p>As of 31 December 2020, upon the end of the transition period provided for in the Agreement on the withdrawal of the United Kingdom of Great Britain and Northern Ireland from the European Union and the European Atomic Energy Community<authorialNote placement="bottom" marker="5">
+                     <p>OJ L 29, 31.1.2020, p. 7.</p>
+                  </authorialNote>, the interest rate benchmark London Interbank Offered Rate (LIBOR) no longer qualifies as a critical benchmark under Regulation (EU) 2016/1011. In addition, the Financial Conduct Authority (FCA) of the United Kingdom announced in 2017 that it would not persuade or compel panel banks to submit to LIBOR beyond the end of 2021. Subsequent announcements by the FCA and the administrator of LIBOR have made it clear that LIBOR is likely to be wound down in most of the tenors and currencies for which it is calculated by the end of 2021, with other tenors and currencies of LIBOR to follow in 2023. The cessation or wind-down of LIBOR might result in negative consequences that significantly disrupt the functioning of financial markets in the Union. There is a vast number of contracts that affect economic operators in the Union and that pertain to debt, loans, term deposits, securities and derivatives that all reference LIBOR, that mature later than 31 December 2021 and that do not contain sufficiently robust fallback provisions to cover the cessation or the wind-down of LIBOR as calculated for the relevant currency or some of its tenors. Some of those contracts, and some financial instruments as defined in Directive 2014/65/EU of the European Parliament and of the Council<authorialNote placement="bottom" marker="6">
+                     <p>Directive 2014/65/EU of the European Parliament and of the Council of 15 May 2014 on markets in financial instruments and amending Directive 2002/92/EC and Directive 2011/61/EU (OJ L 173, 12.6.2014, p. 349).</p>
+                  </authorialNote>, cannot be renegotiated in order to incorporate a contractual fallback provision before 31 December 2021.</p>
+            </recital>
+            <recital xml:id="rec_d66e174">
+               <num>(6)</num>
+               <p>To be able to provide for the continued orderly functioning of existing contracts that reference a widely used benchmark the cessation of which might result in negative consequences that significantly disrupt the functioning of financial markets in the Union and where such contracts, or financial instruments as defined in Directive 2014/65/EU, cannot be renegotiated to include a contractual fallback provision by the time of cessation of that benchmark, a framework for the cessation or the orderly wind-down of such benchmarks should be laid down. That framework should comprise a mechanism for transitioning such contracts, or financial instruments as defined in Directive 2014/65/EU, to a designated replacement for a benchmark. A replacement for a benchmark should ensure the avoidance of contract frustration, which might significantly disrupt the functioning of financial markets in the Union.</p>
+            </recital>
+            <recital xml:id="rec_d66e180">
+               <num>(7)</num>
+               <p>The absence of a framework at Union level for the cessation or the orderly wind-down of a benchmark would likely result in diverging regulatory solutions in Member States, which would lead to Union stakeholders being exposed to risks of legal uncertainty and contract frustration. Along with the magnitude of the exposure to such benchmarks of existing contracts, and financial instruments as defined in Directive 2014/65/EU, the increased risk of contract frustration and litigation could significantly disrupt the functioning of financial markets. In those extraordinary circumstances and in order to address the systemic risks involved, it is necessary to establish a harmonised approach to deal with the cessation or wind-down of certain benchmarks with systemic relevance for the Union. Member States&apos; competences with regard to benchmarks beyond the scope of the powers conferred on the Commission are not affected by this Regulation.</p>
+            </recital>
+            <recital xml:id="rec_d66e186">
+               <num>(8)</num>
+               <p>Regulation (EU) 2016/1011 requires supervised entities other than benchmark administrators to have contingency plans in place in case a benchmark changes materially or ceases to be provided. If possible, those contingency plans should identify one or more potential replacements for benchmarks. As the experience with LIBOR has shown, it is important that contingency plans are prepared for cases in which a benchmark materially changes or ceases to be provided. Competent authorities should monitor whether that obligation is complied with, and it should be possible for them to carry out random checks on compliance. Therefore, supervised entities should keep their contingency plans, and any updates to them, readily available so that they can forward them, upon request, to the competent authorities without delay.</p>
+            </recital>
+            <recital xml:id="rec_d66e194">
+               <num>(9)</num>
+               <p>Contracts other than financial contracts as defined in Regulation (EU) 2016/1011, or financial instruments which are not covered by the definition of financial instrument of that Regulation, but which also reference benchmarks that are in cessation or are being wound down, might also significantly disrupt the functioning of the financial markets in the Union. Many entities use such benchmarks but do not qualify as supervised entities. Consequently, the parties to such contracts and holders of such financial instruments would not benefit from a replacement for a benchmark. In order to mitigate the potential impacts on market integrity and financial stability as much as possible and to provide for protection against legal uncertainty, the mandate of the Commission to designate a replacement for a benchmark should apply to any contract and any financial instrument as defined in Directive 2014/65/EU that is subject to the law of a Member State. In addition, the designated replacement for a benchmark should apply to contracts that are subject to the law of a third country but all the parties to which are established in the Union, in cases where the contract meets the requirements of this Regulation and where the law of that third country does not provide for an orderly wind-down of a benchmark. This extension of the scope should be without prejudice to the provisions of Regulation (EU) 2016/1011 that are not amended by this Regulation.</p>
+            </recital>
+            <recital xml:id="rec_d66e200">
+               <num>(10)</num>
+               <p>The statutory replacement of a benchmark should be restricted to contracts, and to financial instruments as defined in Directive 2014/65/EU, that have not been renegotiated before the date of cessation of the benchmark concerned. Where master contracts are used, the designated replacement for a benchmark will apply only to transactions entered into before the relevant date of replacement, even though later transactions might technically be part of the same contract. The designation of the replacement for a benchmark should not affect contracts, or financial instruments as defined in Directive 2014/65/EU, that already provide for a suitable contractual fallback provision which addresses the permanent cessation of a benchmark.</p>
+            </recital>
+            <recital xml:id="rec_d66e206">
+               <num>(11)</num>
+               <p>The adoption by the Commission of an implementing act designating a replacement for a benchmark should not prevent parties to a contract from agreeing to apply a different replacement for that benchmark.</p>
+            </recital>
+            <recital xml:id="rec_d66e212">
+               <num>(12)</num>
+               <p>Benchmarks and their contractually agreed fallback rates might over time diverge significantly and unexpectedly, and as a consequence, they might no longer represent the same underlying economic reality or lead to commercially unacceptable results. Such cases could include the significant widening of the spread between the benchmark and the contractually agreed fallback rate over time or situations where the contractually agreed fallback provision changes the basis of the benchmark from a variable rate to a fixed rate. Since this issue might arise in a number of Member States, and since contracting parties from different Member States would frequently also be affected in such cases, it should be addressed in a harmonised way in order to avoid legal uncertainty, excessive litigation and, as a consequence, possible significant negative effects on the internal market or repercussions for the financial stability in individual Member States or the Union. Accordingly, the replacement for a benchmark that is established by the implementing act should under certain preconditions serve as a replacement when relevant national authorities, for example macro-prudential authorities, systemic risk councils or central banks, have established that the originally agreed fallback provision no longer reflects the economic reality that the benchmark in cessation was intended to measure or that such a provision could pose a threat to financial stability. The relevant national authorities should undertake an assessment when they are made aware of the potential unsuitability of a commonly used fallback provision by one or more potentially interested parties. Such assessment should, however, not be performed on a contract-by-contract basis. The relevant national authorities involved should inform the Commission and the European Securities and Markets Authority (ESMA) of that assessment.</p>
+            </recital>
+            <recital xml:id="rec_d66e218">
+               <num>(13)</num>
+               <p>Contracting parties are responsible for analysing their contractual arrangement to determine which situations a contractual fallback provision intends to cover. If the interpretation of a contract, or of a financial instrument as defined in Directive 2014/65/EU, reveals that the parties did not intend to cover the permanent cessation of a chosen benchmark, the statutory replacement for a benchmark that is designated in accordance with this Regulation should provide a safe harbour to address the permanent cessation of that benchmark.</p>
+            </recital>
+            <recital xml:id="rec_d66e225">
+               <num>(14)</num>
+               <p>Considering that the replacement of a benchmark might require changes to contracts, or to financial instruments as defined in Directive 2014/65/EU, that reference such benchmarks where those changes are necessary for the practical use or application of such replacement for a benchmark, the Commission should be empowered to lay down the corresponding essential conforming changes in the implementing act.</p>
+            </recital>
+            <recital xml:id="rec_d66e231">
+               <num>(15)</num>
+               <p>For benchmarks which are designated by the Commission as critical in one Member State in accordance with Regulation (EU) 2016/1011 and where the cessation or wind-down of such a benchmark might significantly disrupt the functioning of financial markets in that Member State, the relevant competent authority should take necessary actions to avoid such disruption in accordance with its national law.</p>
+            </recital>
+            <recital xml:id="rec_d66e237">
+               <num>(16)</num>
+               <p>Where a Member State accedes to the euro area and a subsequent lack of input data for computing a national benchmark requires the replacement of that benchmark, it should be possible for that Member State to provide for the transition from that national benchmark to a replacement for it. In such a case, that Member State should take into account the status of consumers as contracting parties and ensure that they are not negatively affected, to a greater extent than necessary, by such transition.</p>
+            </recital>
+            <recital xml:id="rec_d66e243">
+               <num>(17)</num>
+               <p>In order to designate certain third-country spot foreign exchange benchmarks as being excluded from the scope of Regulation (EU) 2016/1011, the power to adopt acts in accordance with Article 290 of the Treaty on the Functioning of the European Union should be delegated to the Commission in respect of the exemption of spot foreign exchange benchmarks for non-convertible currencies when such spot foreign exchange benchmarks are used for calculating the payouts that arise under non-deliverable foreign exchange derivative contracts. It is of particular importance that the Commission carry out appropriate consultations during its preparatory work, including at expert level, and that those consultations be conducted in accordance with the principles laid down in the Interinstitutional Agreement of 13 April 2016 on Better Law-Making<authorialNote placement="bottom" marker="7">
+                     <p>OJ L 123, 12.5.2016, p. 1.</p>
+                  </authorialNote>. In particular, to ensure equal participation in the preparation of delegated acts, the European Parliament and the Council receive all documents at the same time as Member States&apos; experts, and their experts systematically have access to meetings of Commission expert groups dealing with the preparation of delegated acts.</p>
+            </recital>
+            <recital xml:id="rec_d66e258">
+               <num>(18)</num>
+               <p>In order to ensure uniform conditions for the implementation of this Regulation, implementing powers should be conferred on the Commission to designate a replacement for a benchmark to replace all references to that benchmark in contracts, or in financial instruments as defined in Directive 2014/65/EU, that have not been renegotiated by the date of application of the implementing act. Those powers should be exercised in accordance with Regulation (EU) No 182/2011 of the European Parliament and of the Council<authorialNote placement="bottom" marker="8">
+                     <p>Regulation (EU) No 182/2011 of the European Parliament and of the Council of 16 February 2011 laying down the rules and general principles concerning mechanisms for control by Member States of the Commission&apos;s exercise of implementing powers (OJ L 55, 28.2.2011, p. 13).</p>
+                  </authorialNote>. Legal certainty requires that the Commission exercises those implementing powers only upon precisely defined trigger events clearly demonstrating that administration and publication of the benchmark to be replaced will cease permanently.</p>
+            </recital>
+            <recital xml:id="rec_d66e275">
+               <num>(19)</num>
+               <p>The Commission should exercise its implementing powers only in situations where it assesses that the cessation or wind-down of a benchmark may result in negative consequences that significantly disrupt the functioning of financial markets or the real economy in the Union. Furthermore, the Commission should exercise its implementing powers only where it has become clear that the representativeness of the benchmark concerned cannot be restored or that the benchmark will cease permanently.</p>
+            </recital>
+            <recital xml:id="rec_d66e281">
+               <num>(20)</num>
+               <p>Before exercising its implementing powers to designate a replacement for a benchmark, the Commission should conduct a public consultation and should take into account recommendations by relevant stakeholders and in particular by private sector working groups operating under the auspices of the public authorities or the central bank. Those recommendations should be based on extensive public consultations and expert knowledge, about the most appropriate replacement rate for the interest rate benchmark in cessation. The Commission should also take into account recommendations of other relevant stakeholders, including the competent authority of the benchmark administrator and ESMA.</p>
+            </recital>
+            <recital xml:id="rec_d66e288">
+               <num>(21)</num>
+               <p>At the time of the adoption of Regulation (EU) 2016/1011 it was expected that, by the end of 2021, third countries would establish similar regulatory regimes for financial benchmarks and that the use in the Union by supervised entities of third-country benchmarks would be ensured by equivalence decisions adopted by the Commission or by recognition or endorsement granted by competent authorities. However, limited progress has been made in that regard. The scope of the regulatory regime for financial benchmarks differs significantly between the Union and third countries. Therefore, to ensure the smooth functioning of the internal market and the availability of third-country benchmarks for use in the Union after the end of the transitional period, the Commission should, by 15 June 2023, present a report on the review of the scope of Regulation (EU) 2016/1011, as amended by this Regulation, with particular regard to its effect on the use of third-country benchmarks in the Union. In that report the Commission should analyse the consequences of the far-reaching scope of such regulation for Union administrators and users of benchmarks also with respect to the continued use of third-country benchmarks. In particular, the Commission should assess whether there is a need to further amend Regulation (EU) 2016/1011 in order to reduce its scope only to administrators of certain types of benchmarks or to administrators whose benchmarks are widely used in the Union.</p>
+            </recital>
+            <recital xml:id="rec_d66e297">
+               <num>(22)</num>
+               <p>Regulation (EU) No 648/2012 of the European Parliament and of the Council<authorialNote placement="bottom" marker="9">
+                     <p>Regulation (EU) No 648/2012 of the European Parliament and of the Council of 4 July 2012 on OTC derivatives, central counterparties and trade repositories (OJ L 201, 27.7.2012, p. 1).</p>
+                  </authorialNote> has recently been amended to provide clarity to market participants that contracts entered into or novated before the start of application of the clearing or margin requirements to over-the-counter (OTC) derivative contracts that reference a benchmark (&apos;legacy contracts&apos;) will not be subject to those requirements if those contracts are amended with regard to the benchmark they reference and if those amendments serve the sole purpose of implementing or preparing for the implementation of a replacement for a benchmark or introducing fallback provisions during the transition to a new benchmark as part of a benchmark reform. Benchmark reforms result from internationally coordinated work streams and initiatives aimed at reforming benchmarks to comply with the International Principles for Financial Benchmarks published by the International Organization of Securities Commissions. Regulation (EU) 2016/1011 requires supervised entities to produce and maintain robust written plans setting out the actions they would take in the event that any benchmark materially changes or ceases to be provided and to reflect those plans in the contractual relationship with clients. In order to facilitate compliance by market participants with those obligations and to support action by market participants to enhance the robustness of OTC derivative contracts that reference benchmarks potentially subject to reforms, Regulation (EU) No 648/2012 should be further amended to clarify that legacy contracts will not be subject to clearing or margin requirements if those contracts are amended for the sole purpose of replacing the benchmark they reference against the background of a benchmark reform. Therefore, that exception applies only to contractual amendments necessary to implement or prepare for the implementation of a replacement for a benchmark due to a benchmark reform or necessary to introduce fallback provisions in relation to a benchmark in order to enhance the robustness of the relevant contracts. Those amendments should serve to provide clarity to market participants and should not affect the scope of the clearing and margin obligations in relation to amendments of OTC derivative contracts for other purposes or in relation to replacements or novations such as changes of counterparties.</p>
+            </recital>
+            <recital xml:id="rec_d66e319">
+               <num>(23)</num>
+               <p>Regulations (EU) 2016/1011 and (EU) No 648/2012 should therefore be amended accordingly.</p>
+            </recital>
+            <recital xml:id="rec_d66e325">
+               <num>(24)</num>
+               <p>In view of the fact that LIBOR will no longer be a critical benchmark within the meaning of Regulation (EU) 2016/1011 as of 1 January 2021, this Regulation should enter into force as a matter of urgency on the day following that of its publication in the <i>Official Journal of the European Union</i>,</p>
+            </recital>
+         </recitals>
+         <formula name="enactingFormula">
+            <p>HAVE ADOPTED THIS REGULATION:</p>
+         </formula>
+      </preamble>
+      <body>
+         <article xml:id="art_d66e341" leos:compliant="false">
+            <num>Article 1</num>
+            <heading>Amendments to Regulation (EU) 2016/1011</heading>
+            <paragraph>
+               <subparagraph>
+                  <content>
+                     <p>Regulation (EU) 2016/1011 is amended as follows:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(1)</num>
+                     <alinea>
+                        <content>
+                           <p>in Article 2(2), the following point is added:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <list>
+                                       <point>
+                                          <num>&apos;(i)</num>
+                                          <content>
+                                             <p>a spot foreign exchange benchmark which has been designated by the Commission in accordance with Article 18a(1).&apos;;</p>
+                                          </content>
+                                       </point>
+                                    </list>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(2)</num>
+                     <alinea>
+                        <content>
+                           <p>in Article 3, paragraph 1 is amended as follows:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <alinea>
+                              <content>
+                                 <p>the following point is inserted:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <list>
+                                             <num>&apos;(22a)</num>
+                                             <content>
+                                                <p>&quot;spot foreign exchange benchmark&quot; means a benchmark which reflects the price, expressed in one currency, of another or a basket of other currencies, for delivery on the earliest possible value date;&apos;;</p>
+                                             </content>
+                                          </list>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <alinea>
+                              <content>
+                                 <p>in point 24(a), point (i) is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <list>
+                                             <point>
+                                                <num>&apos;(i)</num>
+                                                <content>
+                                                   <p>a trading venue as defined in point (24) of Article 4(1) of Directive 2014/65/EU or a trading venue in a third country for which the Commission has adopted an implementing decision that the legal and supervisory framework of that country is considered to have equivalent effect within the meaning of Article 28(4) of Regulation (EU) No 600/2014 of the European Parliament and of the Council<authorialNote placement="bottom" marker="10">
+                                                         <p>Regulation (EU) No 600/2014 of the European Parliament and of the Council of 15 May 2014 on markets in financial instruments and amending Regulation (EU) No 648/2012 (OJ L 173, 12.6.2014, p. 84).&apos;;</p>
+                                                      </authorialNote> or Article 25(4) of Directive 2014/65/EU of the European Parliament and of the Council, or a regulated market considered to be equivalent under Article 2a of Regulation (EU) No 648/2012, but in each case only with reference to transaction data concerning financial instruments;</p>
+                                                </content>
+                                             </point>
+                                          </list>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                     </list>
+                  </point>
+                  <point>
+                     <num>(3)</num>
+                     <alinea>
+                        <content>
+                           <p>in Title III, the title of Chapter 2 is replaced by the following:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <alinea>
+                                       <content>
+                                          <p>&apos;<b>
+                                                <i>Interest rate benchmarks and spot foreign exchange benchmarks</i>
+                                             </b>&apos;;</p>
+                                       </content>
+                                    </alinea>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(4)</num>
+                     <alinea>
+                        <content>
+                           <p>the following Article is inserted:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <article xml:id="art_d66e448">
+                                       <num>&apos;Article 18a</num>
+                                       <heading>Spot foreign exchange benchmarks</heading>
+                                       <paragraph>
+                                          <num>1.</num>
+                                          <subparagraph>
+                                             <content>
+                                                <p>The Commission may designate a spot foreign exchange benchmark that is administered by administrators located outside the Union where both of the following criteria are fulfilled:</p>
+                                             </content>
+                                          </subparagraph>
+                                          <list>
+                                             <point>
+                                                <num>(a)</num>
+                                                <content>
+                                                   <p>the spot foreign exchange benchmark references a spot exchange rate of a third-country currency that is not freely convertible; and</p>
+                                                </content>
+                                             </point>
+                                             <point>
+                                                <num>(b)</num>
+                                                <content>
+                                                   <p>the spot foreign exchange benchmark is used on a frequent, systematic and regular basis to hedge against adverse foreign exchange rate movements.</p>
+                                                </content>
+                                             </point>
+                                          </list>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>2.</num>
+                                          <content>
+                                             <p>By 31 December 2022, the Commission shall conduct a public consultation to identify spot foreign exchange benchmarks that fulfil the criteria laid down in paragraph 1.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>3.</num>
+                                          <content>
+                                             <p>By 15 June 2023, the Commission shall adopt a delegated act in accordance with Article 49 to create a list of spot foreign exchange benchmarks that fulfil the criteria laid down in paragraph 1 of this Article. The Commission shall update that list as appropriate.&apos;;</p>
+                                          </content>
+                                       </paragraph>
+                                    </article>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(5)</num>
+                     <alinea>
+                        <content>
+                           <p>in Title III, the following chapter is inserted:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote=""><!--GR.SEQ is a special position => not treated --></quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(6)</num>
+                     <alinea>
+                        <content>
+                           <p>in Article 28, paragraph 2 is replaced by the following:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <paragraph>
+                                       <num>&apos;2.</num>
+                                       <content>
+                                          <p>Supervised entities other than an administrator as referred to in paragraph 1 that use a benchmark shall produce and maintain robust written plans setting out the actions that they would take in the event that a benchmark materially changes or ceases to be provided. Where feasible and appropriate, such plans shall designate one or several alternative benchmarks that could be referenced to substitute the benchmarks that would no longer be provided, indicating the reasons for the suitability of such alternative benchmarks. The supervised entities shall, upon request and without undue delay, provide the relevant competent authority with those plans and any updates and shall reflect them in their contractual relationship with clients.&apos;;</p>
+                                       </content>
+                                    </paragraph>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(7)</num>
+                     <alinea>
+                        <content>
+                           <p>in Article 29, the following paragraph is inserted:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <paragraph>
+                                       <num>&apos;1a.</num>
+                                       <content>
+                                          <p>A supervised entity may also use the replacement for a benchmark designated in accordance with Article 23b or Article 23c.&apos;;</p>
+                                       </content>
+                                    </paragraph>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(8)</num>
+                     <alinea>
+                        <content>
+                           <p>Article 49 is amended as follows:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <alinea>
+                              <content>
+                                 <p>the following paragraph is inserted:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <paragraph>
+                                             <num>&apos;2b.</num>
+                                             <content>
+                                                <p>The power to adopt delegated acts referred to in Articles 18a(3) and 54(7) shall be conferred on the Commission for an indeterminate period of time from 13 February 2021.&apos;;</p>
+                                             </content>
+                                          </paragraph>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <alinea>
+                              <content>
+                                 <p>the following paragraph is inserted:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <paragraph>
+                                             <num>&apos;3a.</num>
+                                             <content>
+                                                <p>The delegation of power referred to in Articles 18a(3) and 54(7) may be revoked at any time by the European Parliament or by the Council. A decision to revoke shall put an end to the delegation of power specified in that decision. It shall take effect on the day following the publication of the decision in the <i>Official Journal of the European Union</i> or on a later date specified therein. It shall not affect the validity of any delegated acts already in force.&apos;;</p>
+                                             </content>
+                                          </paragraph>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(c)</num>
+                           <alinea>
+                              <content>
+                                 <p>the following paragraph is added:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <paragraph>
+                                             <num>&apos;6a.</num>
+                                             <content>
+                                                <p>A delegated act adopted pursuant to Article 18a(3) or 54(7) shall enter into force only if no objection has been expressed either by the European Parliament or by the Council within a period of three months of notification of that act to the European Parliament and to the Council or if, before the expiry of that period, the European Parliament and the Council have both informed the Commission that they will not object. That period shall be extended by three months at the initiative of the European Parliament or of the Council.&apos;;</p>
+                                             </content>
+                                          </paragraph>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                     </list>
+                  </point>
+                  <point>
+                     <num>(9)</num>
+                     <alinea>
+                        <content>
+                           <p>in Article 51, paragraph 5 is replaced by the following:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <paragraph>
+                                       <num>&apos;5.</num>
+                                       <subparagraph>
+                                          <content>
+                                             <p>Unless the Commission has adopted an equivalence decision as referred to in paragraph (2) or (3) of Article 30, an administrator has been recognised pursuant to Article 32 or a benchmark has been endorsed pursuant to Article 33, the use in the Union by supervised entities of a third-country benchmark shall be permitted only for financial instruments, financial contracts and measurements of the performance of an investment fund that already reference that benchmark or which add a reference to such benchmark before 31 December 2023.</p>
+                                          </content>
+                                       </subparagraph>
+                                       <subparagraph>
+                                          <content>
+                                             <p>The first subparagraph shall not apply to benchmarks provided by administrators who relocate from the Union to a third country during the transitional period. The competent authority shall notify ESMA in accordance with Article 35. ESMA shall draw up a list of third-country benchmarks to which the first subparagraph does not apply.&apos;;</p>
+                                          </content>
+                                       </subparagraph>
+                                    </paragraph>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(10)</num>
+                     <alinea>
+                        <content>
+                           <p>in Article 54, paragraph 6 is replaced by the following:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <paragraph>
+                                       <num>&apos;6.</num>
+                                       <content>
+                                          <p>By 15 June 2023, the Commission shall submit a report to the European Parliament and to the Council on the scope of this Regulation, in particular with respect to the continued use by supervised entities of third-country benchmarks and on potential shortcomings of the current framework. That report shall assess in particular whether there is a need to amend this Regulation in order to reduce its scope to the provision of certain types of benchmarks or to the provision of benchmarks that are widely used in the Union and shall be accompanied, where appropriate, by a legislative proposal.</p>
+                                       </content>
+                                    </paragraph>
+                                    <paragraph>
+                                       <num>7.</num>
+                                       <content>
+                                          <p>The Commission is empowered to adopt a delegated act in accordance with Article 49 by 15 June 2023 in order to extend the transitional period referred to in Article 51(5) until 31 December 2025 at the latest if the report referred to in paragraph 6 of this Article demonstrates that, otherwise, the continued use in the Union of certain third-country benchmarks by supervised entities would be significantly impaired or would pose a threat to financial stability.&apos;.</p>
+                                       </content>
+                                    </paragraph>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+               </list>
+            </paragraph>
+         </article>
+         <article xml:id="art_d66e939" leos:compliant="false">
+            <num>Article 2</num>
+            <heading>Amendment to Regulation (EU) No 648/2012</heading>
+            <paragraph>
+               <content>
+                  <p>Article 13a of Regulation (EU) No 648/2012 is replaced by the following:</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <content>
+                  <p>
+                     <mod>
+                        <quotedStructure startQuote="" endQuote="">
+                           <article xml:id="art_d66e948">
+                              <num>&apos;Article 13a</num>
+                              <heading>Amendments to legacy contracts for the purpose of the implementation of benchmark reforms</heading>
+                              <paragraph>
+                                 <num>1.</num>
+                                 <content>
+                                    <p>Counterparties may continue to apply the risk-management procedures referred to in Article 11(3) that they have in place on 13 February 2021 in respect of OTC derivative contracts which are not cleared by a CCP and that are entered into or novated before the date on which the obligation to have risk-management procedures in place pursuant to Article 11(3) takes effect where, after 13 February 2021, those contracts are subsequently amended or novated for the sole purpose of replacing a reference benchmark or introducing a fallback provision in relation to any benchmark referenced in that contract.</p>
+                                 </content>
+                              </paragraph>
+                              <paragraph>
+                                 <num>2.</num>
+                                 <content>
+                                    <p>Contracts which are entered into or novated before the date on which the clearing obligation takes effect pursuant to Article 4 and which, after 13 February 2021, are subsequently amended or novated for the sole purpose of replacing a reference benchmark or introducing a fallback provision in relation to any benchmark referenced in that contract, shall not, for that reason, become subject to the clearing obligation referred to in Article 4.</p>
+                                 </content>
+                              </paragraph>
+                              <paragraph>
+                                 <num>3.</num>
+                                 <subparagraph>
+                                    <content>
+                                       <p>Paragraphs 1 and 2 shall apply only to OTC derivative contracts the amendment or novation of which:</p>
+                                    </content>
+                                 </subparagraph>
+                                 <list>
+                                    <point>
+                                       <num>(a)</num>
+                                       <content>
+                                          <p>is necessary for the purpose of replacing a benchmark in the context of benchmark reforms;</p>
+                                       </content>
+                                    </point>
+                                    <point>
+                                       <num>(b)</num>
+                                       <content>
+                                          <p>does not change the economic substance or risk factor represented by the reference to a benchmark in such contract; and</p>
+                                       </content>
+                                    </point>
+                                    <point>
+                                       <num>(c)</num>
+                                       <content>
+                                          <p>does not encompass other changes to any legal term of that contract that does not relate to the benchmark referenced and thus potentially amends the contract in a way that effectively requires it to be considered a new contract.&apos;.</p>
+                                       </content>
+                                    </point>
+                                 </list>
+                              </paragraph>
+                           </article>
+                        </quotedStructure>
+                     </mod>
+                  </p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d66e1000">
+            <num>Article 3</num>
+            <heading/>
+            <paragraph>
+               <content>
+                  <p>This Regulation shall enter into force on the day following that of its publication in the <i>Official Journal of the European Union</i>.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <content>
+                  <p>It shall apply from the day following that of its publication in the <i>Official Journal of the European Union</i>.</p>
+               </content>
+            </paragraph>
+         </article>
+         <clause>
+            <content>
+               <p>This Regulation shall be binding in its entirety and directly applicable in all Member States.</p>
+            </content>
+         </clause>
+      </body>
+      <conclusions>
+         <p>Done at Brussels, 10 February 2021.</p>
+         <block name="signatory">
+            <signature>
+               <organization refersTo="">For the European Parliament</organization>
+               <role refersTo="">The President</role>
+               <person refersTo="">D. M. SASSOLI</person>
+            </signature>
+            <signature>
+               <organization refersTo="">For the Council</organization>
+               <role refersTo="">The President</role>
+               <person refersTo="">A. P. ZACARIAS</person>
+            </signature>
+         </block>
+      </conclusions>
+   </bill>
+</akomaNtoso>

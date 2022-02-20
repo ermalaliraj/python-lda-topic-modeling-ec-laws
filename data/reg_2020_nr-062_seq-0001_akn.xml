@@ -1,0 +1,405 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"
+            xmlns:fmx="http://formex.publications.europa.eu/schema/formex-05.21-20110601.xd"
+            xmlns:leos="urn:eu:europa:ec:leos"
+            xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <bill name="">
+      <meta xmlns:fn="http://www.w3.org/2005/xpath-functions">
+         <identification source="~COM">
+            <FRBRWork>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRcountry value=""/>
+            </FRBRWork>
+            <FRBRExpression>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+            </FRBRManifestation>
+         </identification>
+      </meta>
+      <preface>
+         <longTitle>
+            <p>
+               <docStage/>
+               <docType>COUNCIL REGULATION (EU) 2020/283</docType>of 18 February 2020<docPurpose>amending Regulation (EU) No 904/2010 as regards measures to strengthen administrative cooperation in order to combat VAT fraud</docPurpose>
+            </p>
+         </longTitle>
+      </preface>
+      <preamble>
+         <formula name="actingEntity">
+            <p>THE COUNCIL OF THE EUROPEAN UNION,</p>
+         </formula>
+         <citations>
+            <citation>
+               <p>Having regard to the Treaty on the Functioning of the European Union, and in particular Article 113 thereof,</p>
+            </citation>
+            <citation>
+               <p>Having regard to the proposal from the European Commission,</p>
+            </citation>
+            <citation>
+               <p>After transmission of the draft legislative act to the national parliaments,</p>
+            </citation>
+            <citation>
+               <p>Having regard to the opinion of the European Parliament<authorialNote placement="bottom" marker="1">
+                     <p>Opinion of 17 December 2019 (not yet published in the Official Journal).</p>
+                  </authorialNote>,</p>
+            </citation>
+            <citation>
+               <p>Having regard to the opinion of the European Economic and Social Committee<authorialNote placement="bottom" marker="2">
+                     <p>OJ C 240, 16.7.2019, p. 29.</p>
+                  </authorialNote>,</p>
+            </citation>
+            <citation>
+               <p>Acting in accordance with a special legislative procedure,</p>
+            </citation>
+         </citations>
+         <recitals xml:id="recs_d65e80">
+            <intro>
+               <p>Whereas:</p>
+            </intro>
+            <recital xml:id="rec_d65e83">
+               <num>(1)</num>
+               <p>Council Regulation (EU) No 904/2010<authorialNote placement="bottom" marker="3">
+                     <p>Council Regulation (EU) No 904/2010 of 7 October 2010 on administrative cooperation and combating fraud in the field of value added tax (OJ L 268, 12.10.2010, p. 1).</p>
+                  </authorialNote> lays down rules, inter alia, on the storage and exchange through electronic means of specific information in the field of value added tax (VAT).</p>
+            </recital>
+            <recital xml:id="rec_d65e99">
+               <num>(2)</num>
+               <p>The growth of electronic commerce (&apos;e-commerce&apos;) facilitates the cross-border sale of goods and services to final consumers in Member States. In that context, cross-border e-commerce refers to supplies upon which the VAT is due in a Member State, but the supplier is established in another Member State, in a third territory or in a third country. However, fraudulent businesses, established either in a Member State, in a third territory or in a third country, exploit e-commerce opportunities in order to gain unfair market advantages by evading their VAT obligations. Where the principle of taxation at destination applies, since consumers have no accounting obligations, the Member States of consumption need appropriate tools to detect and control such fraudulent businesses. It is important to combat cross-border VAT fraud caused by the fraudulent behaviour of some businesses in the area of cross-border e-commerce.</p>
+            </recital>
+            <recital xml:id="rec_d65e109">
+               <num>(3)</num>
+               <p>To date, cooperation between the tax authorities of the Member States (the &apos;tax authorities&apos;) to combat VAT fraud has been usually based on records held by the businesses which are directly involved in the taxable transaction. In cross-border business-to-consumer supplies, which are typical within the field of e-commerce, it is possible that such information is not directly available. Thus new tools are necessary to enable tax authorities to combat VAT fraud in an effective way.</p>
+            </recital>
+            <recital xml:id="rec_d65e120">
+               <num>(4)</num>
+               <p>For the vast majority of cross-border online purchases made by consumers in the Union, payments are executed through payment service providers. In order to provide payment services, a payment service provider holds specific information to identify the recipient, or payee, of the cross-border payment together with details of the date, the amount and the Member State of origin of the payment. Such information is necessary for tax authorities to carry out their basic tasks of detecting fraudulent businesses and determining VAT liabilities in relation to cross-border business-to-consumer&apos; supplies. It is therefore necessary and proportionate that the VAT-relevant information, held by payment service providers, is made available to the Member States and that the Member States can store it in their national electronic systems and transmit it to a central electronic system of payment information in order to detect and combat cross-border VAT fraud, particularly as regards business-to-consumer&apos; supplies.</p>
+            </recital>
+            <recital xml:id="rec_d65e126">
+               <num>(5)</num>
+               <p>Giving Member States the tools to collect, store and transmit the information provided by payment service providers and giving Eurofisc liaison officials access to that information when it is connected to an investigation into suspected VAT fraud or in order to detect VAT fraud is a necessary and proportionate measure to combat effectively VAT fraud. Those tools are essential as tax authorities need that information for VAT control purposes, to protect public revenues as well as legitimate businesses in the Member States which in turn protect employment and the citizens of the Union.</p>
+            </recital>
+            <recital xml:id="rec_d65e132">
+               <num>(6)</num>
+               <p>It is important that the processing by the Member States, of information relating to payments, is proportionate to the objective of combating VAT fraud. Therefore, information on consumers or payers and on payments not likely to be connected to economic activities should not be collected, stored or transmitted by the Member States.</p>
+            </recital>
+            <recital xml:id="rec_d65e138">
+               <num>(7)</num>
+               <p>In order to achieve the objective of combating VAT fraud more effectively, a central electronic system of payment information (&apos;CESOP&apos;), to which Member States transmit the payment information they collect and can store at national level, should be established. CESOP should store, aggregate and analyse, in relation to individual payees, all VAT relevant information regarding payments transmitted by Member States. CESOP should allow for a full overview of payments received by payees from payers located in the Member States and make available to the Eurofisc liaison officials the result of specific analyses of information. CESOP should be able to recognise multiple records of the same payment, for example the same payment could be reported both from the bank and the card issuer of a given payer, to clean the information received from the Member States, for example by removing duplicates and correcting errors in data, and should allow Eurofisc liaison officials to cross-check payment information with the VAT information they hold, to make enquiries for the purpose of an investigation into suspected VAT fraud or in order to detect VAT fraud and to add supplementary information.</p>
+            </recital>
+            <recital xml:id="rec_d65e148">
+               <num>(8)</num>
+               <p>Taxation is an important objective of general public interest of the Union and of the Member States and this has been recognised in relation to the restrictions that can be imposed on the obligations and rights provided for in Regulation (EU) 2016/679 of the European Parliament and of the Council<authorialNote placement="bottom" marker="4">
+                     <p>Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (General Data Protection Regulation) (OJ L 119, 4.5.2016, p. 1).</p>
+                  </authorialNote> and in Regulation (EU) 2018/1725 of the European Parliament and of the Council<authorialNote placement="bottom" marker="5">
+                     <p>Regulation (EU) 2018/1725 of the European Parliament and of the Council of 23 October 2018 on the protection of natural persons with regard to the processing of personal data by the Union institutions, bodies, offices and agencies and on the free movement of such data, and repealing Regulation (EC) No 45/2001 and Decision No 1247/2002/EC (OJ L 295, 21.11.2018, p. 39).</p>
+                  </authorialNote>. Limitations in relation to data protection rights are necessary due to the nature and volume of the information which originates from payment service providers and are to be based on the specific conditions laid down in Council Directive (EU) 2020/284<authorialNote placement="bottom" marker="6">
+                     <p>Council Directive (EU) 2020/284 of 18 February 2020 amending Directive 2006/112/EC as regards introducing certain requirements for payment service providers (see page 7 of this Official Journal).</p>
+                  </authorialNote>. Since payment information is particularly sensitive, clarity is needed at all stages of data handling on who is the controller or the processor in accordance with Regulations (EU) 2016/679 and (EU) No 2018/1725.</p>
+            </recital>
+            <recital xml:id="rec_d65e181">
+               <num>(9)</num>
+               <p>Therefore, it is necessary to apply restrictions to the data subject rights in accordance with Regulation (EU) No 904/2010. In fact, the full application of the rights and obligations of the data subjects would seriously undermine the objective of effectively combating VAT fraud and would allow the data subjects to obstruct ongoing analysis and investigations due to the massive volume of information sent by the payment service providers and the possible proliferation of requests from data subjects to the Member States, the Commission or both. This would diminish the capacity of tax authorities to pursue the objective of this Regulation by jeopardizing enquiries, analysis, investigations and procedures carried out in accordance with this Regulation. Therefore, restrictions to the data subject rights should apply when processing information in accordance with this Regulation. The objective of combating VAT fraud cannot be achieved by other less restrictive means of equal effectiveness.</p>
+            </recital>
+            <recital xml:id="rec_d65e190">
+               <num>(10)</num>
+               <p>Only the Eurofisc liaison officials should access the payment information stored in CESOP and only with the objective of combating VAT fraud. That information could be used, in addition to the assessment of VAT, also for the assessment of other levies, duties and taxes as established by Regulation (EU) No 904/2010. That information should not be used for other purposes, such as commercial purposes.</p>
+            </recital>
+            <recital xml:id="rec_d65e196">
+               <num>(11)</num>
+               <p>When processing the payment information in accordance with this Regulation, each Member State should respect the limits of what is proportionate and necessary for the purpose of investigations into suspected VAT fraud or in order to detect VAT fraud.</p>
+            </recital>
+            <recital xml:id="rec_d65e202">
+               <num>(12)</num>
+               <p>It is important, in order to safeguard the rights and obligations under Regulation (EU) 2016/679, that information in relation to payments is not used for automated individual decision-making and should therefore always be verified by reference to other tax information available to the tax authorities.</p>
+            </recital>
+            <recital xml:id="rec_d65e208">
+               <num>(13)</num>
+               <p>In order to assist Member States in combating tax fraud and detecting fraudsters, it is necessary and proportionate that payment service providers keep records of the information regarding payees and payments in relation to the payment services they provide for three calendar years. That period provides sufficient time for Member States to carry out controls effectively and to investigate suspected VAT fraud or to detect VAT fraud, and it is also proportionate considering the massive volume of the payment information and its sensitivity in terms of protection of personal data.</p>
+            </recital>
+            <recital xml:id="rec_d65e214">
+               <num>(14)</num>
+               <p>Whereas Eurofisc liaison officials should be able to access the payment information stored in CESOP with the objective of combating VAT fraud, duly accredited persons of the Commission should be able to access that information only for the purpose of developing and maintaining CESOP. All persons accessing that information are bound by the confidentiality rules laid down in Regulation (EU) No 904/2010.</p>
+            </recital>
+            <recital xml:id="rec_d65e220">
+               <num>(15)</num>
+               <p>As the implementation of the CESOP will require new technological developments, it is necessary to defer the application of this Regulation to allow Member States and the Commission to develop those technologies.</p>
+            </recital>
+            <recital xml:id="rec_d65e226">
+               <num>(16)</num>
+               <p>In order to ensure uniform conditions for the implementation of this Regulation, implementing powers should be conferred on the Commission in respect of the technical measures for establishing and maintaining CESOP, the tasks of the Commission for technically managing CESOP, the technical details guaranteeing the connection and overall operability between the national electronic systems and CESOP, the electronic standard forms for collecting information from the payment service providers, the technical and other details concerning the access to information by the Eurofisc liaison officials, the practical arrangements for identifying the Eurofisc liaison officials who have access to CESOP, the procedures allowing the adoption of the appropriate technical and organisational security measures for the development and operation of the CESOP, the roles and responsibilities of the Member States and the Commission when acting as controller and processor under Regulations (EU) 2016/679 and (EU) No 2018/1725 and in respect of the procedural arrangements in relation to Eurofisc. Those powers should be exercised in accordance with Regulation (EU) No 182/2011 of the European Parliament and of the Council<authorialNote placement="bottom" marker="7">
+                     <p>Regulation (EU) No 182/2011 of the European Parliament and of the Council of 16 February 2011 laying down the rules and general principles concerning mechanisms for control by Member States of the Commission&apos;s exercise of implementing powers (OJ L 55, 28.2.2011, p. 13).</p>
+                  </authorialNote>.</p>
+            </recital>
+            <recital xml:id="rec_d65e242">
+               <num>(17)</num>
+               <p>VAT fraud is a common problem for all Member States. Member States alone do not have the information necessary to ensure that the VAT rules regarding cross-border e-commerce are correctly applied or to combat VAT fraud in cross-border e-commerce. Since the objective of this Regulation, namely to combat VAT fraud, cannot be sufficiently achieved by the Member States in the cases of cross-border e-commerce but can rather, by reason of the scale or effects of the action, be better achieved at Union level, the Union may adopt measures, in accordance with the principle of subsidiarity as set out in Article 5 of the Treaty on European Union. In accordance with the principle of proportionality, as set out in that Article, this Regulation does not go beyond what is necessary in order to achieve that objective.</p>
+            </recital>
+            <recital xml:id="rec_d65e249">
+               <num>(18)</num>
+               <p>This Regulation respects the fundamental rights and observes the principles recognised by the Charter of Fundamental Rights of the European Union, in particular the right of protection of personal data. In that regard, this Regulation strictly limits the amount of personal data that is to be made available to the Member States. The processing of payment information pursuant to this Regulation should only occur for the purpose of combating VAT fraud.</p>
+            </recital>
+            <recital xml:id="rec_d65e255">
+               <num>(19)</num>
+               <p>The European Data Protection Supervisor was consulted in accordance with Article 42(1) of Regulation (EU) 2018/1725 and delivered an opinion on 14 March 2019<authorialNote placement="bottom" marker="8">
+                     <p>OJ C 140, 16.4.2019, p. 4.</p>
+                  </authorialNote>.</p>
+            </recital>
+            <recital xml:id="rec_d65e270">
+               <num>(20)</num>
+               <p>Regulation (EU) No 904/2010 should therefore be amended accordingly,</p>
+            </recital>
+         </recitals>
+         <formula name="enactingFormula">
+            <p>HAS ADOPTED THIS REGULATION:</p>
+         </formula>
+      </preamble>
+      <body>
+         <article xml:id="art_d65e279" leos:compliant="false">
+            <num>Article 1</num>
+            <heading/>
+            <paragraph>
+               <subparagraph>
+                  <content>
+                     <p>Regulation (EU) No 904/2010 is amended as follows:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(1)</num>
+                     <alinea>
+                        <content>
+                           <p>in Article 2, the following points are added:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <list>
+                                       <point>
+                                          <num>&apos;(s)</num>
+                                          <content>
+                                             <p>&quot;payment service provider&quot; means any of the categories of payment service providers listed in points (a) to (d) of Article 1(1) of Directive (EU) 2015/2366 of the European Parliament and of the Council<authorialNote placement="bottom" marker="9">
+                                                   <p>Directive (EU) 2015/2366 of the European Parliament and of the Council of 25 November 2015 on payment services in the internal market, amending Directives 2002/65/EC, 2009/110/EC and 2013/36/EU and Regulation (EU) No 1093/2010, and repealing Directive 2007/64/EC (OJ L 337, 23.12.2015, p. 35).&apos;;</p>
+                                                </authorialNote> or a natural or legal person benefiting from an exemption in accordance with Article 32 of that Directive;</p>
+                                          </content>
+                                       </point>
+                                       <point>
+                                          <num>(t)</num>
+                                          <content>
+                                             <p>&quot;payment&quot; means, subject to the exclusions provided for in Article 3 of Directive (EU) 2015/2366, a &quot;payment transaction&quot; as defined in point (5) of Article 4 of that Directive or a &quot;money remittance&quot; as defined in point (22) of Article 4 of that Directive;</p>
+                                          </content>
+                                       </point>
+                                       <point>
+                                          <num>(u)</num>
+                                          <content>
+                                             <p>&quot;payer&quot; means &quot;payer&quot; as defined in point (8) of Article 4 of Directive (EU) 2015/2366;</p>
+                                          </content>
+                                       </point>
+                                       <point>
+                                          <num>(v)</num>
+                                          <content>
+                                             <p>&quot;payee&quot; means &quot;payee&quot; as defined in point (9) of Article 4 of Directive (EU) 2015/2366.</p>
+                                          </content>
+                                       </point>
+                                    </list>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(2)</num>
+                     <alinea>
+                        <content>
+                           <p>Chapter V is amended as follows:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <alinea>
+                              <content>
+                                 <p>the title of Chapter V is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <alinea>
+                                             <content>
+                                                <p>&apos;<b>COLLECTION, STORAGE AND EXCHANGE OF SPECIFIC INFORMATION</b>&apos;;</p>
+                                             </content>
+                                          </alinea>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <alinea>
+                              <content>
+                                 <p>the following heading is inserted before Article 17:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote=""><!--GR.SEQ is a special position => not treated --></quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(c)</num>
+                           <alinea>
+                              <content>
+                                 <p>the following Section is inserted after Article 24:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote=""><!--GR.SEQ is a special position => not treated --></quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                     </list>
+                  </point>
+                  <point>
+                     <num>(3)</num>
+                     <alinea>
+                        <content>
+                           <p>Article 37 is replaced by the following:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <article xml:id="art_d65e611">
+                                       <num>&apos;Article 37</num>
+                                       <heading/>
+                                       <paragraph>
+                                          <num>1.</num>
+                                          <subparagraph>
+                                             <content>
+                                                <p>The Eurofisc chairperson shall submit an annual report on the activities of all of the working fields to the Committee referred to in Article 58(1). The annual report shall at least contain:</p>
+                                             </content>
+                                          </subparagraph>
+                                          <list>
+                                             <point>
+                                                <num>(a)</num>
+                                                <content>
+                                                   <p>the total number of accesses to CESOP;</p>
+                                                </content>
+                                             </point>
+                                             <point>
+                                                <num>(b)</num>
+                                                <content>
+                                                   <p>the operational results based on the information accessed and processed pursuant to Article 24d, as identified by Eurofisc liaison officials;</p>
+                                                </content>
+                                             </point>
+                                             <point>
+                                                <num>(c)</num>
+                                                <content>
+                                                   <p>a quality assessment of the data processed in CESOP.</p>
+                                                </content>
+                                             </point>
+                                          </list>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>2.</num>
+                                          <content>
+                                             <p>The Commission shall adopt by means of implementing acts the procedural arrangements in relation to Eurofisc. Those implementing acts shall be adopted in accordance with the examination procedure referred to in Article 58(2).&apos;;</p>
+                                          </content>
+                                       </paragraph>
+                                    </article>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(4)</num>
+                     <alinea>
+                        <content>
+                           <p>in Article 55, the following paragraph is inserted:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <paragraph>
+                                       <num>&apos;1a.</num>
+                                       <content>
+                                          <p>The information referred to in Section 2 of Chapter V shall only be used for the purposes referred to in paragraph 1 and where it has been verified by reference to other tax information available to the competent authorities of the Member States.&apos;.</p>
+                                       </content>
+                                    </paragraph>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+               </list>
+            </paragraph>
+         </article>
+         <article xml:id="art_d65e663">
+            <num>Article 2</num>
+            <heading/>
+            <paragraph>
+               <content>
+                  <p>This Regulation shall enter into force on the twentieth day following that of its publication in the <i>Official Journal of the European Union</i>.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <content>
+                  <p>It shall apply from 1 January 2024.</p>
+               </content>
+            </paragraph>
+         </article>
+         <clause>
+            <content>
+               <p>This Regulation shall be binding in its entirety and directly applicable in all Member States.</p>
+            </content>
+         </clause>
+      </body>
+      <conclusions>
+         <p>Done at Brussels, 18 February 2020.</p>
+         <block name="signatory">
+            <signature>
+               <organization refersTo="">For the Council</organization>
+               <role refersTo="">The President</role>
+               <person refersTo="">Z. MARIĆ</person>
+            </signature>
+         </block>
+      </conclusions>
+   </bill>
+</akomaNtoso>

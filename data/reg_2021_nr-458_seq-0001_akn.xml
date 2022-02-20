@@ -1,0 +1,2353 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"
+            xmlns:fmx="http://formex.publications.europa.eu/schema/formex-05.21-20110601.xd"
+            xmlns:leos="urn:eu:europa:ec:leos"
+            xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <bill name="">
+      <meta xmlns:fn="http://www.w3.org/2005/xpath-functions">
+         <identification source="~COM">
+            <FRBRWork>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRcountry value=""/>
+            </FRBRWork>
+            <FRBRExpression>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+            </FRBRManifestation>
+         </identification>
+      </meta>
+      <preface>
+         <longTitle>
+            <p>
+               <docStage/>
+               <docType>REGULATION (EU) 2021/2282 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL</docType>of 15 December 2021<docPurpose>on health technology assessment and amending Directive 2011/24/EU</docPurpose>
+            </p>
+         </longTitle>
+         <container name="EEArelevance">
+            <p>(Text with EEA relevance)</p>
+         </container>
+      </preface>
+      <preamble>
+         <formula name="actingEntity">
+            <p>THE EUROPEAN PARLIAMENT AND THE COUNCIL OF THE EUROPEAN UNION,</p>
+         </formula>
+         <citations>
+            <citation>
+               <p>Having regard to the Treaty on the Functioning of the European Union, and in particular Articles 114 and 168 thereof,</p>
+            </citation>
+            <citation>
+               <p>Having regard to the proposal from the European Commission,</p>
+            </citation>
+            <citation>
+               <p>After transmission of the draft legislative act to the national parliaments,</p>
+            </citation>
+            <citation>
+               <p>Having regard to the opinions of the European Economic and Social Committee<authorialNote placement="bottom" marker="1">
+                     <p>OJ C 283, 10.8.2018, p. 28 and OJ C 286, 16.7.2021, p. 95.</p>
+                  </authorialNote>,</p>
+            </citation>
+            <citation>
+               <p>After consulting the Committee of the Regions,</p>
+            </citation>
+            <citation>
+               <p>Acting in accordance with the ordinary legislative procedure<authorialNote placement="bottom" marker="2">
+                     <p>Position of the European Parliament of 14 February 2019 (OJ C 449, 23.12.2020, p. 638) and position of the Council at first reading of 9 November 2021 (OJ C 493, 8.12.2021, p. 1). Position of the European Parliament of 14 December 2021 (not yet published in the Official Journal).</p>
+                  </authorialNote>,</p>
+            </citation>
+         </citations>
+         <recitals xml:id="recs_d734e100">
+            <intro>
+               <p>Whereas:</p>
+            </intro>
+            <recital xml:id="rec_d734e103">
+               <num>(1)</num>
+               <p>The development of health technologies is a key driver of economic growth and innovation in the Union and is key to achieving the high level of health protection that health policies need to ensure for the benefit of all. Health technologies constitute an innovative sector of the economy and form part of an overall market for healthcare expenditure that accounts for 10 % of Union gross domestic product. Health technologies encompass medicinal products, medical devices, <i>in vitro</i> diagnostic medical devices and medical procedures, as well as measures for disease prevention, diagnosis or treatment.</p>
+            </recital>
+            <recital xml:id="rec_d734e112">
+               <num>(2)</num>
+               <p>Health technology assessment (HTA) is a scientific evidence-based process that allows competent authorities to determine the relative effectiveness of new or existing health technologies. HTA focuses specifically on the added value of a health technology in comparison with other new or existing health technologies.</p>
+            </recital>
+            <recital xml:id="rec_d734e118">
+               <num>(3)</num>
+               <p>HTA is able to contribute to the promotion of innovation, which offers the best outcomes for patients and society as a whole, and is an important tool for ensuring proper application and use of health technologies.</p>
+            </recital>
+            <recital xml:id="rec_d734e124">
+               <num>(4)</num>
+               <p>HTA can cover both clinical and non-clinical aspects of a health technology, depending on the healthcare system. The Union&apos;s co-funded joint actions on HTA (EUnetHTA Joint Actions) have identified nine domains by reference to which health technologies are assessed. Of these nine domains, four are clinical and five are non-clinical. The four clinical domains of assessment concern the identification of a health problem and current health technology, the examination of the technical characteristics of the health technology under assessment, its relative safety, and its relative clinical effectiveness. The five non-clinical assessment domains concern cost and economic evaluation of a health technology, and its ethical, organisational, social and legal aspects.</p>
+            </recital>
+            <recital xml:id="rec_d734e132">
+               <num>(5)</num>
+               <p>HTA can improve scientific evidence used to inform clinical decision-making and patient access to health technologies, including where a health technology becomes obsolete. The outcome of HTA is used to inform decisions concerning the allocation of budgetary resources in the field of health, for example in relation to establishing the pricing or reimbursement levels of health technologies. HTA can therefore assist Member States in creating and maintaining sustainable healthcare systems, and stimulate innovation that delivers better outcomes for patients.</p>
+            </recital>
+            <recital xml:id="rec_d734e138">
+               <num>(6)</num>
+               <p>The carrying out of parallel assessments by multiple Member States and divergences between national laws, regulations and administrative provisions on the processes and methodologies of assessment can result in health technology developers being confronted with multiple and divergent requests for data. It can also lead to both duplication and variation in outcomes, resulting from the specific national healthcare context.</p>
+            </recital>
+            <recital xml:id="rec_d734e144">
+               <num>(7)</num>
+               <p>While Member States have carried out some joint assessments within the framework of the EUnetHTA Joint Actions, the voluntary cooperation and production of output has been inefficient, relying on project-based cooperation in the absence of a sustainable model of cooperation. The use of the results of the EUnetHTA Joint Actions, including their joint clinical assessments, at Member State level has remained limited, meaning that the duplication of assessments on the same health technology by HTA authorities and bodies in different Member States within identical or similar timeframes has not been sufficiently addressed. On the other hand, the main outcomes of the EUnetHTA Joint Actions should be considered when implementing this Regulation, in particular scientific output such as methodological and guidance documents as well as information technology (IT) tools to store and exchange information.</p>
+            </recital>
+            <recital xml:id="rec_d734e150">
+               <num>(8)</num>
+               <p>In its conclusions of 1 December 2014 on innovation for the benefit of patients<authorialNote placement="bottom" marker="3">
+                     <p>OJ C 438, 6.12.2014, p. 12.</p>
+                  </authorialNote>, the Council acknowledged the key role that HTA has as a health policy tool to support evidence-based, sustainable and equitable choices in healthcare and health technologies for the benefit of patients. In those conclusions, the Council further called on the Commission to continue to support cooperation in a sustainable manner, and asked for joint work between Member States on HTA to be enhanced and for opportunities for cooperation on exchange of information between competent bodies to be explored. Furthermore, in its conclusions of 7 December 2015 on personalised medicine for patients<authorialNote placement="bottom" marker="4">
+                     <p>OJ C 421, 17.12.2015, p. 2.</p>
+                  </authorialNote>, the Council invited Member States and the Commission to strengthen HTA methodologies applicable to personalised medicine, and the Council conclusions of 17 June 2016 on strengthening the balance in the pharmaceutical systems in the European Union and its Member States<authorialNote placement="bottom" marker="5">
+                     <p>OJ C 269, 23.7.2016, p. 31.</p>
+                  </authorialNote> provided further evidence that Member States see clear added value in cooperation on HTA. The joint report of October 2016 of the Commission&apos;s Directorate-General for Economic and Financial Affairs and the Economic Policy Committee further called for enhanced European cooperation on HTA. Finally, in its conclusions of 15 June 2021 on Access to medicines and medical devices for a Stronger and Resilient EU<authorialNote placement="bottom" marker="6">
+                     <p>OJ C 269 I, 7.7.2021, p. 3.</p>
+                  </authorialNote>, the Council invited Member States and the Commission to explore the possibility of establishing an EU Real-World data collection and evidence generation action plan, which will promote better collaboration between ongoing national and cross-border initiatives and which could contribute to reducing evidence gaps in HTA and payer decisions.</p>
+            </recital>
+            <recital xml:id="rec_d734e193">
+               <num>(9)</num>
+               <p>The European Parliament, in its resolution of 2 March 2017 on EU options for improving access to medicines<authorialNote placement="bottom" marker="7">
+                     <p>OJ C 263, 25.7.2018, p. 4.</p>
+                  </authorialNote>, called on the Commission to propose legislation on a European system for HTA as soon as possible and to harmonise transparent HTA criteria in order to assess the added therapeutic value and relative effectiveness of health technologies compared with the best available alternative, that takes into account the level of innovation and benefit for patients.</p>
+            </recital>
+            <recital xml:id="rec_d734e210">
+               <num>(10)</num>
+               <p>In its communication of 28 October 2015 on Upgrading the Single Market: more opportunities for people and business, the Commission declared its intention to introduce an initiative on HTA to increase coordination in order to avoid multiple assessments of a product in different Member States and improve the functioning of the Single Market for health technologies.</p>
+            </recital>
+            <recital xml:id="rec_d734e219">
+               <num>(11)</num>
+               <p>This Regulation aims to achieve a high level of protection of health for patients and users while ensuring the smooth functioning of the internal market as regards medicinal products, medical devices and <i>in vitro</i> diagnostic medical devices. At the same time, this Regulation establishes a framework to support Member State cooperation and the measures needed for clinical assessment of health technologies. Both objectives are being pursued simultaneously and, whilst inseparably linked, one is not secondary to the other. As regards Article 114 of the Treaty on the Functioning of the European Union (TFEU), this Regulation sets out the procedures and the rules for carrying out joint work and establishing a framework at Union level. As regards Article 168 TFEU, whilst aiming at providing a high level of health protection, this Regulation allows for cooperation between Member States on certain aspects of HTA.</p>
+            </recital>
+            <recital xml:id="rec_d734e228">
+               <num>(12)</num>
+               <p>Joint work should be produced following the principle of good administrative practice, and it should aim to achieve the highest level of quality, transparency and independence.</p>
+            </recital>
+            <recital xml:id="rec_d734e234">
+               <num>(13)</num>
+               <p>Health technology developers often face the difficulty of submitting the same information, data, analyses and other evidence to different Member States, and also at various points in time. The duplication of submissions and consideration of different timings for submission across Member States can constitute a significant administrative burden for health technology developers, in particular for smaller companies with limited resources, and might contribute to impeding and distorting market access, leading to a lack of business predictability, higher costs and, in the long run, negative effects on innovation. Thus, this Regulation should provide for a mechanism that ensures that any information, data, analyses and other evidence required for the joint clinical assessment should be submitted only once at Union level by the health technology developer.</p>
+            </recital>
+            <recital xml:id="rec_d734e240">
+               <num>(14)</num>
+               <p>In accordance with Article 168(7) TFEU, the Member States are responsible for the definition of their health policy and for the organisation and delivery of health services and medical care. Those responsibilities include the management of health services and medical care and especially the allocation of the resources assigned to them. It is necessary therefore that Union action is limited to those aspects of HTA that relate to the joint clinical assessment of a health technology and to ensure in particular that there are no value judgements in joint clinical assessments in order to respect the responsibilities of Member States pursuant to Article 168(7) TFEU. In that regard, the joint clinical assessments provided for by this Regulation constitute a scientific analysis of the relative effects of the health technology as assessed on the health outcomes against the chosen parameters which are based on the assessment scope. The scientific analysis will further include consideration of the degree of certainty of the relative effects, taking into account the strengths and limitations of the available evidence. The outcome of joint clinical assessments should therefore not affect the discretion of Member States to carry out assessments on the clinical added value of the health technologies concerned or predetermine subsequent decisions on pricing and reimbursement of health technologies, including the fixing of criteria for such pricing and reimbursement decisions, which could depend on both clinical and non-clinical considerations individually, or together, and which remain solely a matter of national competence.</p>
+            </recital>
+            <recital xml:id="rec_d734e246">
+               <num>(15)</num>
+               <p>Member States should be able to perform complementary clinical analyses, which are necessary for their overall national HTA process, on the health technologies for which a joint clinical assessment report is available. In particular, Member States should be able to perform complementary clinical analyses relating, inter alia, to patient groups, comparators or health outcomes other than those included in the joint clinical assessment report, or using a different methodology if that methodology would be required in the overall national HTA process of the Member State concerned. If additional information, data, analyses and other evidence is needed for complementary clinical analyses, Member States should be able to ask the health technology developers to submit the necessary information, data, analyses and other evidence. This Regulation should not restrict in any way Member States&apos; rights to perform non-clinical assessments on the same health technology prior to, during the preparation of, or after the publication of a joint clinical assessment report.</p>
+            </recital>
+            <recital xml:id="rec_d734e253">
+               <num>(16)</num>
+               <p>In order to guarantee the highest quality of joint clinical assessments, ensure a wide acceptance and enable pooling of expertise and resources across national HTA authorities and bodies, it is appropriate to follow a stepwise approach, starting with a small number of jointly assessed medicinal products and only at a later stage requiring joint clinical assessments to be carried out for other medicinal products undergoing the centralised marketing authorisation procedure provided for under Regulation (EC) No 726/2004 of the European Parliament and of the Council<authorialNote placement="bottom" marker="8">
+                     <p>Regulation (EC) No 726/2004 of the European Parliament and of the Council of 31 March 2004 laying down Union procedures for the authorisation and supervision of medicinal products for human and veterinary use and establishing a European Medicines Agency (OJ L 136, 30.4.2004, p. 1).</p>
+                  </authorialNote> and where those medicinal products are subsequently authorised for a new therapeutic indication.</p>
+            </recital>
+            <recital xml:id="rec_d734e269">
+               <num>(17)</num>
+               <p>Joint clinical assessments should also be carried out on certain medical devices as defined in Regulation (EU) 2017/745 of the European Parliament and of the Council<authorialNote placement="bottom" marker="9">
+                     <p>Regulation (EU) 2017/745 of the European Parliament and of the Council of 5 April 2017 on medical devices, amending Directive 2001/83/EC, Regulation (EC) No 178/2002 and Regulation (EC) No 1223/2009 and repealing Council Directives 90/385/EEC and 93/42/EEC (OJ L 117, 5.5.2017, p. 1).</p>
+                  </authorialNote> which are in the highest risk classes and for which the relevant expert panels referred to in Article 106(1) of that Regulation have provided their opinions or views, as well as on <i>in vitro</i> diagnostic medical devices classified as class D pursuant to Regulation (EU) 2017/746 of the European Parliament and of the Council<authorialNote placement="bottom" marker="10">
+                     <p>Regulation (EU) 2017/746 of the European Parliament and of the Council of 5 April 2017 on <i>in vitro</i> diagnostic medical devices and repealing Directive 98/79/EC and Commission Decision 2010/227/EU (OJ L 117, 5.5.2017, p. 176).</p>
+                  </authorialNote>.</p>
+            </recital>
+            <recital xml:id="rec_d734e301">
+               <num>(18)</num>
+               <p>Taking into consideration the complexity of certain medical devices and <i>in vitro</i> diagnostic medical devices, and the expertise required to assess them, Member States should be able, where they see an added value, to undertake voluntary cooperation on HTA on medical devices classified as class IIb or III pursuant to Article 51 of Regulation (EU) 2017/745 and <i>in vitro</i> diagnostic medical devices classified as class D pursuant to Article 47 of Regulation (EU) 2017/746 which are software and which do not fall within the scope of joint clinical assessments under this Regulation.</p>
+            </recital>
+            <recital xml:id="rec_d734e313">
+               <num>(19)</num>
+               <p>In order to ensure that joint clinical assessments carried out on health technologies remain accurate and relevant, of high quality and based on the best scientific evidence available at any given time, it is appropriate to establish conditions for updating those assessments, in particular where additional data that becomes available subsequent to the initial assessment has the potential to increase the accuracy and quality of the assessment.</p>
+            </recital>
+            <recital xml:id="rec_d734e320">
+               <num>(20)</num>
+               <p>A Member State Coordination Group on Health Technology Assessment (the &apos;Coordination Group&apos;) composed of Member States&apos; representatives, in particular from HTA authorities and bodies, should be established with responsibility for overseeing the carrying out of joint clinical assessments and other joint work within the scope of this Regulation. In order to ensure a Member State-led approach to joint clinical assessments and joint scientific consultations, Member States should designate the members of the Coordination Group. Those members should be designated with the goal of ensuring a high level of competence in the Coordination Group. Members of the Coordination Group should designate HTA authorities and bodies to the subgroups, which provide adequate technical expertise for carrying out joint clinical assessments and joint scientific consultations, taking into account the need to provide expertise on the HTA of medicinal products, medical devices and <i>in vitro</i> diagnostic medical devices.</p>
+            </recital>
+            <recital xml:id="rec_d734e333">
+               <num>(21)</num>
+               <p>To reflect the scientific nature of the cooperation and ensure that decisions taken by the Coordination Group meet the objectives of guaranteeing joint work of the highest scientific quality and impartiality, the Coordination Group should use its best endeavours to reach a consensus. If such a consensus cannot be reached, and in order to ensure a smooth decision-making mechanism in the Coordination Group, decisions of a technical and scientific nature should be taken on a simple majority basis where one vote is given to each Member State irrespective of the number of members of the Coordination Group from any given Member State. By way of exception, and given its different nature, decisions on the adoption of the annual work programme, the annual report and the strategic direction for the work of the subgroups should be taken on a qualified majority basis.</p>
+            </recital>
+            <recital xml:id="rec_d734e339">
+               <num>(22)</num>
+               <p>The Commission should not take part in votes on joint clinical assessments or comment on the content of joint clinical assessment reports.</p>
+            </recital>
+            <recital xml:id="rec_d734e346">
+               <num>(23)</num>
+               <p>The Coordination Group should ensure that the scientific joint work as well as the procedures and methodology for the preparation of joint clinical assessment reports and joint scientific consultation outcome documents guarantee the highest quality, are prepared in a timely manner, and reflect the state of the art of medical science at the time of their preparation.</p>
+            </recital>
+            <recital xml:id="rec_d734e352">
+               <num>(24)</num>
+               <p>Methodologies for performing joint clinical assessments and joint scientific consultations should be adapted to include specificities of new health technologies for which some data may not be readily available. This may be the case for, inter alia, orphan medicinal products, vaccines and advanced therapy medicinal products.</p>
+            </recital>
+            <recital xml:id="rec_d734e358">
+               <num>(25)</num>
+               <p>The assessment scope for joint clinical assessments should be inclusive and should reflect all Member States&apos; needs in terms of data and analyses to be submitted by the health technology developer.</p>
+            </recital>
+            <recital xml:id="rec_d734e364">
+               <num>(26)</num>
+               <p>Where joint clinical assessments are used to prepare subsequent administrative decisions at Member State level, they constitute one of several preparatory steps in a multi-step procedure. Member States remain the sole entity responsible for national HTA processes, for the conclusions on the value of a health technology and for the decisions resulting from HTAs. Member States should be able to determine at which step of their HTA process, and by which authority or body, the joint clinical assessment reports should be considered.</p>
+            </recital>
+            <recital xml:id="rec_d734e370">
+               <num>(27)</num>
+               <p>The Coordination Group should make all efforts to endorse the joint clinical assessment report by consensus. Where a consensus cannot be reached, and with a view to ensuring the finalisation of joint clinical assessment reports within the timeframe set, divergent scientific opinions should be included in those reports. To ensure the integrity of the system of joint clinical assessments and the aim for consensus, the inclusion of divergent scientific opinions should be limited to those opinions which are fully justified on scientific grounds, and therefore should be considered as an exceptional measure.</p>
+            </recital>
+            <recital xml:id="rec_d734e376">
+               <num>(28)</num>
+               <p>Member States should remain responsible for drawing conclusions at national level on the clinical added value of a health technology, as such conclusions depend on the specific healthcare context in any given Member State, and on the relevance of individual analyses included in the joint clinical assessment report (for example, several comparators could be included in the joint clinical assessment report, of which only a selection is relevant to a given Member State). The joint clinical assessment report should include a description of the relative effects observed for the health outcomes analysed, including numerical results and confidence intervals, and an analysis of scientific uncertainty and strengths and limitations of the evidence (for example, internal and external validity). The joint clinical assessment report should be factual and should not contain any value judgement, ranking of health outcomes, conclusions on the overall benefit or clinical added value of the assessed health technology, any position on the target population in which the health technology should be used, or any position on the place the health technology should have in the therapeutic, diagnostic or preventive strategy.</p>
+            </recital>
+            <recital xml:id="rec_d734e382">
+               <num>(29)</num>
+               <p>Transparency and public awareness of the process is essential. Where there is confidential data for commercial reasons, the reasons for confidentiality need to be clearly set out and justified and the confidential data well delimitated and protected.</p>
+            </recital>
+            <recital xml:id="rec_d734e389">
+               <num>(30)</num>
+               <p>Where Member States conduct HTAs at national or regional level for health technologies that have been assessed at Union level, they should consider the joint clinical assessment reports at that level. In that regard, especially taking into account that different timing can apply for national HTA decisions, Member States should be able to take into account information, data, analyses and other evidence that were not part of the joint clinical assessment at Union level. The HTA conducted at national or regional level on a health technology that has been assessed at Union level should be made available to the Coordination Group.</p>
+            </recital>
+            <recital xml:id="rec_d734e395">
+               <num>(31)</num>
+               <p>In the context of this Regulation, the term &apos;give due consideration&apos;, when applied to a joint clinical assessment report, means that the report should be part of the documentation of authorities or bodies involved in HTA activities at Member State or regional level and should be considered for any HTA at Member State level. If the joint clinical assessment report is available, it should be part of the documentation that supports the national HTA process. However, the content of the joint clinical assessment report is scientific in nature and should not be binding on those authorities or bodies or on Member States. If a joint clinical assessment report is not available at the time when the national HTA is finalised, this should not delay any subsequent process at Member State level. A joint clinical assessment report should have no external impact on applicants and other parties other than the Member States.</p>
+            </recital>
+            <recital xml:id="rec_d734e407">
+               <num>(32)</num>
+               <p>The obligation on Member States not to request at national level any information, data, analyses or other evidence which has been submitted by health technology developers at Union level reduces, where health technology developers comply with information submission requirements laid down pursuant to this Regulation, the administrative and financial burden on them which would result from being confronted with multiple and divergent requests for information, data, analyses or other evidence at Member State level. That obligation should however not exclude the possibility of Member States asking health technology developers for clarification about the submitted information, data, analyses or other evidence.</p>
+            </recital>
+            <recital xml:id="rec_d734e413">
+               <num>(33)</num>
+               <p>The obligation on Member States not to request at national level the same information, data, analyses or other evidence that has been already submitted by health technology developers at Union level should not encompass requests of information, data, analyses or other evidence within the scope of early access programmes at Member State level. Such early access programmes at Member State level aim to provide patient access to medicinal products in situations of high unmet medical needs before a centralised marketing authorisation has been granted.</p>
+            </recital>
+            <recital xml:id="rec_d734e419">
+               <num>(34)</num>
+               <p>Health technology developers should not submit any information, data, analyses or other evidence at national level that has been already submitted at Union level. This ensures that Member States can only request information, data, analyses and other evidence from health technology developers at Member State level that are not already available at Union level.</p>
+            </recital>
+            <recital xml:id="rec_d734e425">
+               <num>(35)</num>
+               <p>For medicinal products, directly comparative clinical studies which are randomised, blinded and include a control group, the methodology of which conforms to international standards of evidence-based medicine, should be preferentially considered when conducting a joint clinical assessment. That approach should however not <i>per se</i> exclude observational studies, including those based on real world data, when such studies are accessible.</p>
+            </recital>
+            <recital xml:id="rec_d734e434">
+               <num>(36)</num>
+               <p>The timeframe for joint clinical assessments for medicinal products should be fixed, as far as possible, by reference to the timeframe applicable to the completion of the centralised marketing authorisation procedure provided for under Regulation (EC) No 726/2004. Such coordination should ensure that joint clinical assessments could effectively facilitate market access and contribute to the timely availability of innovative health technologies for patients. Health technology developers should therefore respect the deadlines established pursuant to this Regulation when submitting the requested information, data, analyses and other evidence.</p>
+            </recital>
+            <recital xml:id="rec_d734e440">
+               <num>(37)</num>
+               <p>The establishment of a timeframe for the joint clinical assessments for medical devices and <i>in vitro</i> diagnostic medical devices should take into account the highly decentralised market access pathway for those devices and the availability of appropriate evidence data required to carry out a joint clinical assessment. As the required evidence may only become available after the medical device or the <i>in vitro</i> diagnostic medical device has been placed on the market, and in order to allow for their selection for joint clinical assessment at an appropriate time, it should be possible for assessments of such devices to take place after their placing on the market.</p>
+            </recital>
+            <recital xml:id="rec_d734e452">
+               <num>(38)</num>
+               <p>In all cases, the joint work carried out under this Regulation, in particular the joint clinical assessments, should aim to produce high-quality and timely results, and foster greater collaboration between Member States on HTA for medical devices and <i>in vitro</i> diagnostic medical devices and should not delay or interfere with the CE marking of medical devices or <i>in vitro</i> diagnostic medical devices, or delay their market access. This work should be separate and distinct from the regulatory assessments conducted pursuant to Regulations (EU) 2017/745 and (EU) 2017/746 and should have no impact on decisions taken in accordance with those Regulations.</p>
+            </recital>
+            <recital xml:id="rec_d734e465">
+               <num>(39)</num>
+               <p>In order to facilitate the process of preparing joint clinical assessments, health technology developers should, in appropriate cases, be afforded the opportunity to engage in joint scientific consultations with the Coordination Group in order to obtain guidance on the information, data, analyses and other evidence that are likely to be required from clinical studies. Clinical studies comprise clinical trials of medicinal products, clinical investigations required for the clinical evaluation of medical devices and performance studies required for performance evaluations of <i>in vitro</i> diagnostic medical devices. Given the preliminary nature of the consultation, any guidance offered should not be legally binding either on the health technology developers or on HTA authorities and bodies. Such guidance, however, should reflect the state of the art of medical science at the time of the joint scientific consultation, in particular in the interest of patients.</p>
+            </recital>
+            <recital xml:id="rec_d734e475">
+               <num>(40)</num>
+               <p>Where joint scientific consultations are carried out in parallel with the preparation of scientific advice on medicinal products provided for under Regulation (EC) No 726/2004 or in parallel with the consultation on medical devices provided for in Regulation (EU) 2017/745, those parallel processes, including information exchange between the subgroups and the European Medicines Agency or the expert panels on medical devices, should be carried out with a view to ensuring that the generation of evidence fulfils the needs of the respective frameworks, while preserving the separation of their respective remits.</p>
+            </recital>
+            <recital xml:id="rec_d734e481">
+               <num>(41)</num>
+               <p>Joint clinical assessments and joint scientific consultations necessitate the sharing of confidential information between health technology developers and HTA authorities and bodies. In order to ensure the protection of such information, information provided to the Coordination Group in the framework of joint clinical assessments and joint scientific consultations should only be disclosed to a third party after a confidentiality agreement has been concluded. In addition, it is necessary that any information made public about the results of joint scientific consultations is presented in an anonymised format with the removal of any information of a commercially sensitive nature.</p>
+            </recital>
+            <recital xml:id="rec_d734e487">
+               <num>(42)</num>
+               <p>In order to ensure the efficient use of available resources, it is appropriate to provide for a &apos;horizon scanning&apos; exercise, to allow the early identification of emerging health technologies that are likely to have a major impact on patients, public health and healthcare systems, as well as to inform research. Such horizon scanning could be used to support the Coordination Group in planning its work, in particular in relation to joint clinical assessments and joint scientific consultations, and could also provide information for long term planning purposes at both Union and national levels.</p>
+            </recital>
+            <recital xml:id="rec_d734e497">
+               <num>(43)</num>
+               <p>The Union should continue to support voluntary cooperation on HTA between Member States in areas such as the development and implementation of vaccination programmes and the capacity building of national HTA systems. Such voluntary cooperation should also facilitate synergies with initiatives under the digital single market strategy in relevant digital and data-driven healthcare areas with a view to providing additional real world evidence relevant for HTA. The voluntary cooperation on HTA can also cover areas such as diagnostics used to supplement treatment, surgical procedures, prevention, screening and health promotion programmes, information and communications technology tools and integrated care processes. Different demands are involved in assessing different health technologies, depending on their specific features, meaning that a cohesive approach which can cater for those different health technologies is needed in the field of HTA.</p>
+            </recital>
+            <recital xml:id="rec_d734e503">
+               <num>(44)</num>
+               <p>In order to ensure the inclusiveness and transparency of the joint work, the Coordination Group should engage and consult widely with stakeholder organisations with an interest in Union cooperation on HTA, including patient organisations, healthcare professional organisations, clinical and learned societies, health technology developer associations, consumer organisations and other relevant non-governmental organisations in the field of health. A stakeholder network should be set up to facilitate dialogue between stakeholder organisations and the Coordination Group.</p>
+            </recital>
+            <recital xml:id="rec_d734e509">
+               <num>(45)</num>
+               <p>In order to ensure that joint work is of the highest scientific quality and reflects the state of the art, external experts with relevant in-depth specialised expertise should provide input on joint clinical assessments and joint scientific consultations. Such experts should include clinical experts in the therapeutic area concerned, patients affected by the disease, and other relevant experts on, for example, the type of health technology concerned or issues related to clinical study design. European Reference Networks could also be used as source to identify those experts and access relevant knowledge in specific therapeutic areas. Patients, clinical experts and other relevant experts should be selected for their subject matter expertise and act in individual capacity rather than representing any particular organisation, institution or Member State. In order to preserve the scientific integrity of the joint clinical assessments and joint scientific consultations, rules should be developed to ensure the independence and impartiality of patients, clinical experts and other relevant experts involved, and avoid conflicts of interest.</p>
+            </recital>
+            <recital xml:id="rec_d734e517">
+               <num>(46)</num>
+               <p>Cooperation in the field of HTA plays an important role throughout the health technology lifecycle from the early developmental stage, through horizon scanning and joint scientific consultation, and later once the health technology is on the market through a joint clinical assessment and its update.</p>
+            </recital>
+            <recital xml:id="rec_d734e523">
+               <num>(47)</num>
+               <p>In order to ensure a uniform and Member State-driven approach to the joint work provided for in this Regulation, the Coordination Group should develop its detailed procedural steps and the timeframe for joint clinical assessments, updates of joint clinical assessments and joint scientific consultations. Where appropriate, and taking into account the results of the work undertaken in the EUnetHTA Joint Actions, the Coordination Group should develop distinct rules for medicinal products, medical devices and <i>in vitro</i> diagnostic medical devices.</p>
+            </recital>
+            <recital xml:id="rec_d734e532">
+               <num>(48)</num>
+               <p>The Coordination Group should develop methodological guidance on the joint work provided for in this Regulation, following international standards of evidence-based medicine. The assessment process should rely on relevant, up-to-date and high quality clinical evidence. The Coordination Group should also develop guidance on the appointment of assessors and co-assessors for joint clinical assessments and joint scientific consultations, including on the scientific expertise required to implement the joint work set out in this Regulation.</p>
+            </recital>
+            <recital xml:id="rec_d734e538">
+               <num>(49)</num>
+               <p>In order to ensure a uniform approach to the joint work provided for in this Regulation, implementing powers should be conferred on the Commission to decide that, where certain conditions are met, other medicinal products should be subject to joint clinical assessments at a date prior to that established in this Regulation, to select certain medical devices and <i>in vitro</i> diagnostic medical devices to be subject to joint clinical assessments, and to establish detailed procedural rules related to certain aspects of joint clinical assessments and joint scientific consultations, general procedural rules regarding certain aspects of joint clinical assessments, and the format and the templates of submission and report documents. Where appropriate, distinct rules should be developed for medicinal products, medical devices and <i>in vitro</i> diagnostic medical devices. Those powers should be exercised in accordance with Regulation (EU) No 182/2011 of the European Parliament and of the Council<authorialNote placement="bottom" marker="11">
+                     <p>Regulation (EU) No 182/2011 of the European Parliament and of the Council of 16 February 2011 laying down the rules and general principles concerning mechanisms for control by Member States of the Commission&apos;s exercise of implementing powers (OJ L 55, 28.2.2011, p. 13).</p>
+                  </authorialNote>.</p>
+            </recital>
+            <recital xml:id="rec_d734e560">
+               <num>(50)</num>
+               <p>When preparing the implementing acts referred to in this Regulation, it is of particular importance that the Commission carry out appropriate consultations during its preparatory work, including with the Coordination Group and at expert level, and that those consultations be conducted in accordance with the principles laid down in the Interinstitutional Agreement of 13 April 2016 on Better Law-Making<authorialNote placement="bottom" marker="12">
+                     <p>OJ L 123, 12.5.2016, p. 1.</p>
+                  </authorialNote>.</p>
+            </recital>
+            <recital xml:id="rec_d734e576">
+               <num>(51)</num>
+               <p>In order to ensure that sufficient resources are available for the joint work provided for under this Regulation, the Union should seek to provide stable and permanent financing for the joint work and voluntary cooperation, and for the framework to support those activities. The financing should cover in particular the costs of producing joint clinical assessment and joint scientific consultation reports. Member States should also have the possibility to second national experts to the Commission in order to support the secretariat of the Coordination Group.</p>
+            </recital>
+            <recital xml:id="rec_d734e582">
+               <num>(52)</num>
+               <p>In order to facilitate the joint work and the exchange of information between Member States on HTA, provision should be made for the establishment of an IT platform that contains appropriate databases and secure channels for communication. The Commission should build on databases and functionalities developed under the EUnetHTA Joint Actions for the exchange of information and evidence, and aim to ensure a link between the IT platform and other data infrastructures relevant for the purposes of HTA, such as registries and databases related to real world data. In developing such an IT platform, the opportunities offered by the future European Health Data Space should be also explored.</p>
+            </recital>
+            <recital xml:id="rec_d734e589">
+               <num>(53)</num>
+               <p>In order to ensure the smooth establishment and operation of Union-level joint clinical assessments, as well as to safeguard their quality, it is appropriate to start with a small number of joint clinical assessments. As from three years after the date of application of this Regulation, a progressive expansion of the number of joint clinical assessments should take place.</p>
+            </recital>
+            <recital xml:id="rec_d734e595">
+               <num>(54)</num>
+               <p>In order to ensure that the support framework continues to be as efficient and cost-effective as possible, the Commission should report to the European Parliament and to the Council on the application of this Regulation no later than three years after its date of application. The report should focus on reviewing the added value of the joint work for the Member States. In particular, the report should consider whether there is a need to introduce a fee-paying mechanism, which would ensure the independence of the Coordination Group, through which health technology developers would also contribute to the financing of joint scientific consultations. In addition, the report should review the effect of the non-duplication of the request of information, data, analyses and other evidence for joint clinical assessment in terms of reducing the administrative burden for the Member States and health technology developers, facilitating market access for new and innovative products and reducing costs. The report could trigger an assessment on the progress made regarding patient access to innovative health technologies, the sustainability of health systems and the HTA capacity at Member State level.</p>
+            </recital>
+            <recital xml:id="rec_d734e601">
+               <num>(55)</num>
+               <p>No later than two years after the beginning of assessing medicinal products that fall under the scope of this Regulation, Member States should report to the Commission on the application of this Regulation and, in particular, on their assessment of the added value of the joint clinical assessment reports in their national HTA processes and the workload of the Coordination Group.</p>
+            </recital>
+            <recital xml:id="rec_d734e607">
+               <num>(56)</num>
+               <p>In order to adjust the list of information to be submitted by health technology developers, the power to adopt acts in accordance with Article 290 TFEU should be delegated to the Commission in view of amending Annexes I and II. It is of particular importance that the Commission carry out appropriate consultations during its preparatory work, including at expert level, and that those consultations be conducted in accordance with the principles laid down in the Interinstitutional Agreement of 13 April 2016 on Better Law-Making. In particular, to ensure equal participation in the preparation of delegated acts, the European Parliament and the Council receive all documents at the same time as Member States&apos; experts, and their experts systematically have access to meetings of Commission expert groups dealing with the preparation of delegated acts.</p>
+            </recital>
+            <recital xml:id="rec_d734e616">
+               <num>(57)</num>
+               <p>Directive 2011/24/EU of the European Parliament and of the Council<authorialNote placement="bottom" marker="13">
+                     <p>Directive 2011/24/EU of the European Parliament and of the Council of 9 March 2011 on the application of patients&apos; rights in cross-border healthcare (OJ L 88, 4.4.2011, p. 45).</p>
+                  </authorialNote> provides that the Union is to support and facilitate the cooperation and the exchange of scientific information among Member States within a voluntary network connecting national authorities or bodies responsible for HTA designated by the Member States. As those matters are governed by this Regulation, Directive 2011/24/EU should be amended accordingly.</p>
+            </recital>
+            <recital xml:id="rec_d734e632">
+               <num>(58)</num>
+               <p>Since the objective of this Regulation, namely to establish a framework of joint clinical assessments of health technologies that fall under the scope of this Regulation at Union level, cannot be sufficiently achieved by the Member States but can rather, by reason of the scale and effects of the action, be better achieved at Union level, the Union may adopt measures, in accordance with the principle of subsidiarity as set out in Article 5 of the Treaty on European Union (TEU). In accordance with the principle of proportionality as set out in that Article, this Regulation does not go beyond what is necessary in order to achieve that objective,</p>
+            </recital>
+         </recitals>
+         <formula name="enactingFormula">
+            <p>HAVE ADOPTED THIS REGULATION:</p>
+         </formula>
+      </preamble>
+      <body>
+         <chapter>
+            <num>CHAPTER I</num>
+            <heading>GENERAL PROVISIONS</heading>
+            <article xml:id="art_d734e650">
+               <num>Article 1</num>
+               <heading>Subject matter</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <subparagraph>
+                     <content>
+                        <p>This Regulation establishes:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(a)</num>
+                        <content>
+                           <p>a support framework and procedures for cooperation of Member States on health technologies at Union level;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(b)</num>
+                        <content>
+                           <p>a mechanism which lays down that any information, data, analyses and other evidence required for the joint clinical assessment of health technologies is to be submitted by the health technology developer only once at Union level;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(c)</num>
+                        <content>
+                           <p>common rules and methodologies for the joint clinical assessment of health technologies.</p>
+                        </content>
+                     </point>
+                  </list>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>This Regulation shall not affect Member States&apos; competence to draw conclusions on the relative effectiveness of health technologies or to take decisions on the use of a health technology in their specific national health context. It shall not interfere with the exclusive national competence of Member States, including those for national pricing and reimbursement decisions, or affect any other competences which concern Member States&apos; management and delivery of health services or medical care or the allocation of resources assigned to them.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d734e686">
+               <num>Article 2</num>
+               <heading>Definitions</heading>
+               <paragraph>
+                  <subparagraph>
+                     <content>
+                        <p>For the purposes of this Regulation, the following definitions apply:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(1)</num>
+                        <content>
+                           <p>&apos;medicinal product&apos; means a medicinal product as defined in Article 1, point (2), of Directive 2001/83/EC of the European Parliament and of the Council<authorialNote placement="bottom" marker="14">
+                                 <p>Directive 2001/83/EC of the European Parliament and of the Council of 6 November 2001 on the Community code relating to medicinal products for human use (OJ L 311, 28.11.2001, p. 67).</p>
+                              </authorialNote>;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(2)</num>
+                        <content>
+                           <p>&apos;medical device&apos; means a medical device as defined in Article 2, point (1), of Regulation (EU) 2017/745;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(3)</num>
+                        <content>
+                           <p>&apos;<i>in vitro</i> diagnostic medical device&apos; means an <i>in vitro</i> diagnostic medical device as defined in Article 2, point (2), of Regulation (EU) 2017/746;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(4)</num>
+                        <content>
+                           <p>&apos;health technology&apos; means a health technology as defined in Article 3, point (l), of Directive 2011/24/EU;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(5)</num>
+                        <content>
+                           <p>&apos;health technology assessment&apos; or &apos;HTA&apos; means a multidisciplinary process that summarises information about the medical, patient and social aspects and the economic and ethical issues related to the use of a health technology in a systematic, transparent, unbiased and robust manner;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(6)</num>
+                        <content>
+                           <p>&apos;joint clinical assessment&apos; of a health technology means the scientific compilation and the description of a comparative analysis of the available clinical evidence on a health technology in comparison with one or more other health technologies or existing procedures, in accordance with an assessment scope agreed pursuant to this Regulation, and based on the scientific aspects of the clinical domains of HTA of the description of the health problem addressed by the health technology and the current use of other health technologies addressing that health problem, the description and technical characterisation of the health technology, the relative clinical effectiveness, and the relative safety of the health technology;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(7)</num>
+                        <content>
+                           <p>&apos;non-clinical assessment&apos; means the part of an HTA based on the non-clinical domains of HTA of the cost and economic evaluation of a health technology, and the ethical, organisational, social and legal aspects related to its use;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(8)</num>
+                        <content>
+                           <p>&apos;collaborative assessment&apos; means a clinical assessment of a medical device or an <i>in vitro</i> diagnostic medical device carried out at Union level by a number of interested HTA authorities and bodies participating on a voluntary basis;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(9)</num>
+                        <content>
+                           <p>&apos;assessment scope&apos; means the set of parameters for joint clinical assessment in terms of patient population, intervention, comparators and health outcomes requested jointly by Member States.</p>
+                        </content>
+                     </point>
+                  </list>
+               </paragraph>
+            </article>
+            <article xml:id="art_d734e798">
+               <num>Article 3</num>
+               <heading>Member State Coordination Group on Health Technology Assessment</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>The Member State Coordination Group on Health Technology Assessment (the &apos;Coordination Group&apos;) is hereby established.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>Member States shall designate their members of the Coordination Group and inform the Commission thereof and of any subsequent changes. The members of the Coordination Group shall appoint their representatives in the Coordination Group on an <i>ad hoc</i> or permanent basis, and inform the Commission of their appointment and any subsequent changes.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <content>
+                     <p>The members of the Coordination Group shall designate their national or regional authorities and bodies as members of subgroups of the Coordination Group. The members of the Coordination Group may designate more than one member to a subgroup, including the member of the Coordination Group, without prejudice to the rule that each Member State shall have one vote. The members of the subgroup shall appoint their representatives, who shall have the appropriate HTA expertise, in the subgroups on an <i>ad hoc</i> or permanent basis and inform the Commission of their appointment and any subsequent changes. Where there is a need for specific knowledge, members of the subgroup may appoint more than one representative.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>4.</num>
+                  <content>
+                     <p>The Coordination Group shall, in principle, act by consensus. Where consensus cannot be reached, the adoption of a decision shall require the support of members representing a simple majority of the Member States. Each Member State shall have one vote. The results of the votes shall be recorded in the minutes of the Coordination Group&apos;s meetings. Where a vote takes place, members may ask for divergent opinions to be recorded in the minutes of the meeting in which the vote took place.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>5.</num>
+                  <content>
+                     <p>By way of derogation from paragraph 4 of this Article, where consensus cannot be reached, the Coordination Group shall adopt, by a qualified majority as defined in Article 16(4) TEU and Article 238(3), point (a), TFEU, its annual work programme, its annual report and the strategic direction referred to in paragraph 7, points (b) and (c), of this Article.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>6.</num>
+                  <content>
+                     <p>Meetings of the Coordination Group shall be chaired and co-chaired by two elected members from the Coordination Group, from different Member States, for a limited term to be determined by its rules of procedure. The chair and the co-chair shall be impartial and independent. The Commission shall act as the secretariat of the Coordination Group and support its work in accordance with Article 28.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>7.</num>
+                  <subparagraph>
+                     <content>
+                        <p>The Coordination Group shall:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(a)</num>
+                        <content>
+                           <p>adopt its rules of procedure and update those rules where necessary;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(b)</num>
+                        <content>
+                           <p>adopt its annual work programme and annual report pursuant to Article 6;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(c)</num>
+                        <content>
+                           <p>provide strategic direction for the work of its subgroups;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(d)</num>
+                        <content>
+                           <p>adopt methodological guidance on joint work following international standards of evidence-based medicine;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(e)</num>
+                        <content>
+                           <p>adopt detailed procedural steps and the timeframe for the conduct of joint clinical assessments and for updates thereof;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(f)</num>
+                        <content>
+                           <p>adopt detailed procedural steps and the timeframe for the conduct of joint scientific consultations, including submissions of requests from health technology developers;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(g)</num>
+                        <content>
+                           <p>adopt guidance on the appointment of assessors and co-assessors for joint clinical assessments and joint scientific consultations, including on the scientific expertise required;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(h)</num>
+                        <content>
+                           <p>coordinate and approve the work of its subgroups;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(i)</num>
+                        <content>
+                           <p>ensure cooperation with relevant Union level bodies established pursuant to Regulations (EC) No 726/2004, (EU) 2017/745 and (EU) 2017/746 to facilitate the generation of additional evidence necessary for its work;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(j)</num>
+                        <content>
+                           <p>ensure appropriate involvement of stakeholder organisations and experts in its work;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(k)</num>
+                        <alinea>
+                           <content>
+                              <p>establish subgroups, in particular for the following:</p>
+                           </content>
+                        </alinea>
+                        <list>
+                           <point>
+                              <num>(i)</num>
+                              <content>
+                                 <p>joint clinical assessments;</p>
+                              </content>
+                           </point>
+                           <point>
+                              <num>(ii)</num>
+                              <content>
+                                 <p>joint scientific consultations;</p>
+                              </content>
+                           </point>
+                           <point>
+                              <num>(iii)</num>
+                              <content>
+                                 <p>identification of emerging health technologies;</p>
+                              </content>
+                           </point>
+                           <point>
+                              <num>(iv)</num>
+                              <content>
+                                 <p>development of methodological and procedural guidance.</p>
+                              </content>
+                           </point>
+                        </list>
+                     </point>
+                  </list>
+               </paragraph>
+               <paragraph>
+                  <num>8.</num>
+                  <content>
+                     <p>The Coordination Group and its subgroups may meet in different configurations, in particular for the following categories of health technology: medicinal products, medical devices, <i>in vitro</i> diagnostic medical devices and other health technologies.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d734e953">
+               <num>Article 4</num>
+               <heading>Quality assurance</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>The Coordination Group shall ensure that the joint work carried out pursuant to Articles 7 to 23 is of the highest quality, follows international standards of evidence-based medicine, and is delivered in a timely manner. For that purpose, the Coordination Group shall establish procedures that are systematically reviewed. When developing such procedures, the Coordination Group shall consider the specificities of the health technology to which the joint work relates, including orphan medicinal products, vaccines and advanced therapy medicinal products.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>The Coordination Group shall establish and regularly review standard operating procedures falling within the scope of Article 3(7), points (d), (e), (f) and (g).</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <content>
+                     <p>The Coordination Group shall regularly review, and where necessary update, methodological and procedural guidance falling within the scope of Article 3(7), points (d), (e), (f) and (g).</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>4.</num>
+                  <content>
+                     <p>Where appropriate, and taking into account the methodology already developed by the EUnetHTA Joint Actions, specific methodological and procedural guidance shall be developed for medicinal products, medical devices and <i>in vitro</i> diagnostic medical devices.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d734e981">
+               <num>Article 5</num>
+               <heading>Transparency and conflict of interest</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>The Coordination Group shall carry out its activities in an independent, impartial and transparent manner.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>The representatives appointed to the Coordination Group and its subgroups, and patients, clinical experts and other relevant experts participating in any joint work, shall not have any financial or other interests in the health technology developers&apos; industrial sector which could affect their independence or impartiality.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <content>
+                     <p>The representatives appointed to the Coordination Group and its subgroups shall make a declaration of their financial and other interests and update it annually and whenever necessary. They shall disclose any other facts of which they become aware that might in good faith reasonably be expected to involve, or give rise to, a conflict of interest.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>4.</num>
+                  <content>
+                     <p>The representatives who participate in meetings of the Coordination Group and its subgroups shall declare, before each meeting, any interest which could be considered to be prejudicial to their independence or impartiality with respect to the items on the agenda. Where the Commission decides that a declared interest constitutes a conflict of interest, that representative shall not take part in any discussions or decision-making, or obtain any information concerning that item of the agenda. Such declarations of representatives and the decision of the Commission shall be recorded in the summary minutes of the meeting.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>5.</num>
+                  <content>
+                     <p>Patients, clinical experts and other relevant experts shall declare any financial and other interests relevant to the joint work in which they are due to participate. Such declarations and any actions taken as a result shall be recorded in the summary minutes of the meeting and in the outcome documents of the joint work in question.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>6.</num>
+                  <content>
+                     <p>The representatives appointed to the Coordination Group and its subgroups as well as patients, clinical experts and other relevant experts involved in the work of any subgroup shall, even after their duties have ceased, be subject to a requirement of professional secrecy.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>7.</num>
+                  <content>
+                     <p>The Commission shall lay down rules for the implementation of this Article in accordance with Article 25(1), point (a), and in particular rules for the assessment of conflict of interest referred to in paragraphs 3, 4 and 5 of this Article and the action to be taken where a conflict or potential conflict of interest arises.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d734e1022">
+               <num>Article 6</num>
+               <heading>Annual work programme and annual report</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>The Coordination Group shall adopt each year, at the latest by 30 November, an annual work programme and subsequently amend it if necessary.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <subparagraph>
+                     <content>
+                        <p>The annual work programme shall set out the joint work to be carried out in the calendar year following its adoption, covering:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(a)</num>
+                        <content>
+                           <p>the planned number and type of joint clinical assessments, and the planned number of updates of joint clinical assessments according to Article 14;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(b)</num>
+                        <content>
+                           <p>the planned number of joint scientific consultations;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(c)</num>
+                        <content>
+                           <p>the planned number of assessments in the area of voluntary cooperation, considering their impact on patients, public health or healthcare systems.</p>
+                        </content>
+                     </point>
+                  </list>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <subparagraph>
+                     <content>
+                        <p>In the preparation or amendment of the annual work programme, the Coordination Group shall:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(a)</num>
+                        <content>
+                           <p>take into account the reports on emerging health technologies referred to in Article 22;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(b)</num>
+                        <content>
+                           <p>take into account the information from the European Medicines Agency that is provided by the Commission pursuant to Article 28 on the status of submitted and upcoming marketing authorisation applications for medicinal products referred to in Article 7; as new regulatory data becomes available, the Commission shall share such information with the Coordination Group so that the annual work programme can be amended;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(c)</num>
+                        <content>
+                           <p>take into account information provided by the Medical Device Coordination Group established in Article 103 of Regulation (EU) 2017/745 (&apos;Medical Device Coordination Group&apos;) or other sources, and provided by the Commission pursuant to Article 28 of this Regulation on the work of the relevant expert panels referred to in Article 106(1) of Regulation (EU) 2017/745 (&apos;expert panels&apos;);</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(d)</num>
+                        <content>
+                           <p>consult the stakeholder network referred to in Article 29, and take into account its comments;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(e)</num>
+                        <content>
+                           <p>take into account the resources available to the Coordination Group for the joint work;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(f)</num>
+                        <content>
+                           <p>consult the Commission on the draft annual work programme and take its opinion into account.</p>
+                        </content>
+                     </point>
+                  </list>
+               </paragraph>
+               <paragraph>
+                  <num>4.</num>
+                  <content>
+                     <p>The Coordination Group shall adopt each year, at the latest by 28 February, its annual report.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>5.</num>
+                  <content>
+                     <p>The annual report shall provide information on the joint work carried out in the calendar year preceding its adoption.</p>
+                  </content>
+               </paragraph>
+            </article>
+         </chapter>
+         <chapter>
+            <num>CHAPTER II</num>
+            <heading>JOINT WORK ON HEALTH TECHNOLOGY ASSESSMENT AT UNION LEVEL</heading>
+            <section>
+               <num>SECTION 1</num>
+               <heading>Joint clinical assessments</heading>
+               <article xml:id="art_d734e1139">
+                  <num>Article 7</num>
+                  <heading>Health technologies subject to joint clinical assessments</heading>
+                  <paragraph>
+                     <num>1.</num>
+                     <subparagraph>
+                        <content>
+                           <p>The following health technologies shall be subject to joint clinical assessments:</p>
+                        </content>
+                     </subparagraph>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <content>
+                              <p>medicinal products as referred to in Article 3(1) and Article 3(2), point (a), of Regulation (EC) No 726/2004, for which the application for a marketing authorisation is submitted in accordance with that Regulation after the relevant dates set out in paragraph 2 of this Article, and for which that application is in compliance with Article 8(3) of Directive 2001/83/EC;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <content>
+                              <p>medicinal products authorised in the Union for which a joint clinical assessment report has been published, in cases where an authorisation is granted pursuant to the second subparagraph of Article 6(1) of Directive 2001/83/EC for a variation to an existing marketing authorisation which corresponds to a new therapeutic indication;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(c)</num>
+                           <content>
+                              <p>medical devices classified as class IIb or III pursuant to Article 51 of Regulation (EU) 2017/745 for which the relevant expert panels have provided a scientific opinion in the framework of the clinical evaluation consultation procedure pursuant to Article 54 of that Regulation, and subject to selection pursuant to paragraph 4 of this Article;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(d)</num>
+                           <content>
+                              <p>
+                                 <i>in vitro</i> diagnostic medical devices classified as class D pursuant to Article 47 of Regulation (EU) 2017/746 for which the relevant expert panels have provided their views in the framework of the procedure pursuant to Article 48(6) of that Regulation, and subject to selection pursuant to paragraph 4 of this Article.</p>
+                           </content>
+                        </point>
+                     </list>
+                  </paragraph>
+                  <paragraph>
+                     <num>2.</num>
+                     <subparagraph>
+                        <content>
+                           <p>The dates referred to in paragraph 1, point (a), shall be as follows:</p>
+                        </content>
+                     </subparagraph>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <content>
+                              <p>12 January 2025, for medicinal products with new active substances for which the applicant declares in its application for authorisation submitted to the European Medicines Agency that it contains a new active substance for which the therapeutic indication is the treatment of cancer and medicinal products which are regulated as advanced therapy medicinal products pursuant to Regulation (EC) No 1394/2007 of the European Parliament and of the Council<authorialNote placement="bottom" marker="15">
+                                    <p>Regulation (EC) No 1394/2007 of the European Parliament and of the Council of 13 November 2007 on advanced therapy medicinal products and amending Directive 2001/83/EC and Regulation (EC) No 726/2004 (OJ L 324, 10.12.2007, p. 121).</p>
+                                 </authorialNote>;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <content>
+                              <p>13 January 2028, for medicinal products which are designated as orphan medicinal products pursuant to Regulation (EC) No 141/2000 of the European Parliament and of the Council<authorialNote placement="bottom" marker="16">
+                                    <p>Regulation (EC) No 141/2000 of the European Parliament and of the Council of 16 December 1999 on orphan medicinal products (OJ L 18, 22.1.2000, p. 1).</p>
+                                 </authorialNote>;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(c)</num>
+                           <content>
+                              <p>13 January 2030, for medicinal products referred to in paragraph 1 other than those referred to in points (a) and (b) of this paragraph.</p>
+                           </content>
+                        </point>
+                     </list>
+                  </paragraph>
+                  <paragraph>
+                     <num>3.</num>
+                     <content>
+                        <p>By way of derogation from paragraph 2 of this Article, the Commission, upon a recommendation from the Coordination Group, shall adopt a decision by means of an implementing act establishing that medicinal products referred to in that paragraph shall be subject to joint clinical assessment at a date earlier than the dates set out in that paragraph, provided that the medicinal product, in particular according to Article 22, has the potential to address an unmet medical need or a public health emergency or has a significant impact on healthcare systems.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>4.</num>
+                     <subparagraph>
+                        <content>
+                           <p>After 12 January 2025, the Commission, after seeking a recommendation from the Coordination Group, shall adopt a decision, by means of an implementing act and at least every two years, selecting the medical devices and <i>in vitro</i> diagnostic medical devices referred to in paragraph 1, points (c) and (d), for joint clinical assessment based on one or more of the following criteria:</p>
+                        </content>
+                     </subparagraph>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <content>
+                              <p>unmet medical needs;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <content>
+                              <p>first in class;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(c)</num>
+                           <content>
+                              <p>potential impact on patients, public health or healthcare systems;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(d)</num>
+                           <content>
+                              <p>incorporation of software using artificial intelligence, machine learning technologies or algorithms;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(e)</num>
+                           <content>
+                              <p>significant cross-border dimension;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(f)</num>
+                           <content>
+                              <p>major Union-wide added value.</p>
+                           </content>
+                        </point>
+                     </list>
+                  </paragraph>
+                  <paragraph>
+                     <num>5.</num>
+                     <content>
+                        <p>The implementing acts referred to in paragraphs 3 and 4 of this Article shall be adopted in accordance with the examination procedure referred to in Article 33(2).</p>
+                     </content>
+                  </paragraph>
+               </article>
+               <article xml:id="art_d734e1288">
+                  <num>Article 8</num>
+                  <heading>Initiation of joint clinical assessments</heading>
+                  <paragraph>
+                     <num>1.</num>
+                     <content>
+                        <p>The Coordination Group shall carry out joint clinical assessments on health technologies on the basis of its annual work programme.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>2.</num>
+                     <content>
+                        <p>The Coordination Group shall initiate joint clinical assessments of health technologies by designating the subgroup on joint clinical assessments to oversee the conduct of the joint clinical assessment on behalf of the Coordination Group.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>3.</num>
+                     <content>
+                        <p>The joint clinical assessment shall be conducted in accordance with the procedure established by the Coordination Group according to the requirements set out in this Article, in Article 3(7), point (e), and in Articles 4, 9, 10, 11 and 12, as well as the requirements to be established pursuant to Articles 15, 25 and 26.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>4.</num>
+                     <content>
+                        <p>The designated subgroup shall appoint, from among its members, an assessor and a co-assessor from different Member States to conduct the joint clinical assessment. The appointments shall take into account the scientific expertise necessary for the assessment. If the health technology has been the subject of a joint scientific consultation in accordance with Articles 16 to 21, the assessor and the co-assessor shall be different from those appointed pursuant to Article 18(3) for the preparation of the joint scientific consultation outcome document.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>5.</num>
+                     <content>
+                        <p>Notwithstanding paragraph 4, where, in exceptional circumstances, the necessary specific expertise is otherwise not available, the same assessor or co-assessor, or both, involved in the joint scientific consultation may be appointed to conduct the joint clinical assessment. Such an appointment shall be justified and subject to approval by the Coordination Group and shall be documented in the joint clinical assessment report.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>6.</num>
+                     <subparagraph>
+                        <content>
+                           <p>The designated subgroup shall initiate a scoping process in which it identifies the relevant parameters for the assessment scope. The assessment scope shall be inclusive and reflect Member States&apos; needs in terms of parameters and of the information, data, analysis and other evidence to be submitted by the health technology developer. The assessment scope shall include in particular all relevant parameters for the assessment in terms of:</p>
+                        </content>
+                     </subparagraph>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <content>
+                              <p>the patient population;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <content>
+                              <p>the intervention or interventions;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(c)</num>
+                           <content>
+                              <p>the comparator or comparators;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(d)</num>
+                           <content>
+                              <p>the health outcomes.</p>
+                           </content>
+                        </point>
+                     </list>
+                     <subparagraph>
+                        <content>
+                           <p>The scoping process shall also take into account information provided by the health technology developer and input received from patients, clinical experts and other relevant experts.</p>
+                        </content>
+                     </subparagraph>
+                  </paragraph>
+                  <paragraph>
+                     <num>7.</num>
+                     <content>
+                        <p>The Coordination Group shall inform the Commission of the assessment scope of the joint clinical assessment.</p>
+                     </content>
+                  </paragraph>
+               </article>
+               <article xml:id="art_d734e1357">
+                  <num>Article 9</num>
+                  <heading>Joint clinical assessment reports and the dossier of the health technology developer</heading>
+                  <paragraph>
+                     <num>1.</num>
+                     <subparagraph>
+                        <content>
+                           <p>A joint clinical assessment shall result in a joint clinical assessment report that shall be accompanied by a summary report. Those reports shall not contain any value judgement or conclusions on the overall clinical added value of the assessed health technology and shall be limited to a description of the scientific analysis:</p>
+                        </content>
+                     </subparagraph>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <content>
+                              <p>of the relative effects of the health technology as assessed on the health outcomes against the chosen parameters which are based on the assessment scope as set out pursuant to Article 8(6);</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <content>
+                              <p>of the degree of certainty of the relative effects, taking into account the strengths and limitations of the available evidence.</p>
+                           </content>
+                        </point>
+                     </list>
+                  </paragraph>
+                  <paragraph>
+                     <num>2.</num>
+                     <content>
+                        <p>The reports referred to in paragraph 1 shall be based on a dossier that contains complete and up-to-date information, data, analyses and other evidence submitted by the health technology developer to assess the parameters included in the assessment scope.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>3.</num>
+                     <subparagraph>
+                        <content>
+                           <p>The dossier shall meet the following requirements:</p>
+                        </content>
+                     </subparagraph>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <content>
+                              <p>the submitted evidence is complete with regard to the available studies and data that could inform the assessment;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <content>
+                              <p>the data has been analysed using appropriate methods to answer all research questions of the assessment;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(c)</num>
+                           <content>
+                              <p>the presentation of the data is well structured and transparent, thereby allowing for an appropriate assessment within the limited timeframes available;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(d)</num>
+                           <content>
+                              <p>it includes the underlying documentation in respect of the submitted information, thereby allowing the assessor and co-assessor to verify the accuracy of that information.</p>
+                           </content>
+                        </point>
+                     </list>
+                  </paragraph>
+                  <paragraph>
+                     <num>4.</num>
+                     <content>
+                        <p>The dossier for medicinal products shall include the information set out in Annex I. The dossier for medical devices and <i>in vitro</i> diagnostic medical devices shall include the information set out in Annex II.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>5.</num>
+                     <content>
+                        <p>The Commission is empowered to adopt delegated acts, in accordance with Article 32, to amend Annex I as regards the information required in the dossier for medicinal products, and to amend Annex II as regards the information required in the dossier for medical devices and <i>in vitro</i> diagnostic medical devices.</p>
+                     </content>
+                  </paragraph>
+               </article>
+               <article xml:id="art_d734e1433">
+                  <num>Article 10</num>
+                  <heading>Obligations of health technology developers and consequences of non-compliance</heading>
+                  <paragraph>
+                     <num>1.</num>
+                     <content>
+                        <p>The Commission shall inform the health technology developer of the assessment scope and request the submission of the dossier (first request). That request shall include the deadline for submission as well as the dossier template pursuant to Article 26(1), point (a), and refer to the requirements for the dossier in accordance with Article 9(2), (3) and (4). For medicinal products, the deadline for submission shall be at the latest 45 days prior to the envisaged date of the opinion of the Committee for Medicinal Products for Human Use referred to in Article 5(2) of Regulation (EC) No 726/2004.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>2.</num>
+                     <content>
+                        <p>The health technology developer shall submit the dossier to the Commission in accordance with the submission request made pursuant to paragraph 1.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>3.</num>
+                     <content>
+                        <p>The health technology developer shall not submit any information, data, analyses or other evidence at the national level that has been already submitted at Union level. That requirement shall not affect requests for additional information on medicinal products that fall within the scope of early access programmes at Member State level that aim to provide patient access to medicinal products in situations of high unmet medical needs before a centralised marketing authorisation has been granted.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>4.</num>
+                     <content>
+                        <p>Where the Commission confirms the timely submission of the dossier pursuant to paragraph 1 of this Article and that the dossier meets the requirements laid down in Article 9(2), (3) and (4), the Commission shall make the dossier available to the members of the Coordination Group in a timely manner via the IT platform referred to in Article 30 and inform the health technology developer thereof.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>5.</num>
+                     <content>
+                        <p>Where the Commission finds that the dossier fails to meet the requirements laid down in Article 9(2), (3) and (4), it shall request the missing information, data, analyses and other evidence from the health technology developer (second request). In such a case, the health technology developer shall submit the requested information, data, analyses and other evidence in accordance with the timeframe established pursuant to Article 15.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>6.</num>
+                     <content>
+                        <p>Where, after the second request referred to in paragraph 5 of this Article, the Commission deems that a dossier was not submitted in a timely manner by the health technology developer, or attests that it fails to meet the requirements laid down in Article 9(2), (3) and (4), the Coordination Group shall discontinue the joint clinical assessment. If the assessment is discontinued, the Commission shall make a statement on the IT platform referred to in Article 30, justifying the reasons for the discontinuation and shall inform the health technology developer accordingly. In the case of discontinuation of the joint clinical assessment, Article 13(1), point (d), shall not apply.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>7.</num>
+                     <content>
+                        <p>Where the joint clinical assessment has been discontinued and the Coordination Group, pursuant to Article 13(1), point (e), subsequently receives information, data, analyses and other evidence that formed part of the submission request referred to in paragraph 1 of this Article, the Coordination Group may re-initiate a joint clinical assessment in accordance with the procedure set out in this Section at the latest six months after the submission deadline referred to in paragraph 1 of this Article, once the Commission has confirmed that requirements laid down in Article 9(2), (3) and (4) have been fulfilled.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>8.</num>
+                     <content>
+                        <p>Without prejudice to paragraph 7, where a joint clinical assessment has been re-initiated, the Commission may request the health technology developer to submit updates of previously provided information, data, analyses and other evidence.</p>
+                     </content>
+                  </paragraph>
+               </article>
+               <article xml:id="art_d734e1479">
+                  <num>Article 11</num>
+                  <heading>Assessment process for joint clinical assessments</heading>
+                  <paragraph>
+                     <num>1.</num>
+                     <subparagraph>
+                        <content>
+                           <p>On the basis of the dossier submitted by the health technology developer and the assessment scope as set out pursuant to Article 8(6), the assessor, with the assistance of the co-assessor, shall prepare the draft joint clinical assessment and summary reports. The Coordination Group shall endorse the draft reports in accordance with the timeframe set out pursuant to Article 3(7), point (e). Those timeframes shall be:</p>
+                        </content>
+                     </subparagraph>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <content>
+                              <p>for medicinal products, no later than 30 days following the adoption of a Commission decision granting a marketing authorisation;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <content>
+                              <p>for medical devices and <i>in vitro</i> diagnostic medical devices, in accordance with the procedures for joint clinical assessments adopted pursuant to Article 3(7), point (e), and Article 15(1), point (b).</p>
+                           </content>
+                        </point>
+                     </list>
+                  </paragraph>
+                  <paragraph>
+                     <num>2.</num>
+                     <content>
+                        <p>Where the assessor, with the assistance of the co-assessor, at any time during the preparation of the draft reports, considers that further specifications or clarifications or additional information, data, analyses or other evidence are necessary in order to carry out the assessment, the Commission shall request the health technology developer to provide such information, data, analyses or other evidence. The assessor and the co-assessor may also have recourse to databases and other sources of clinical information, such as patient registries, where it is deemed necessary. Where new clinical data becomes available during the assessment process, the health technology developer concerned shall proactively inform the Coordination Group.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>3.</num>
+                     <content>
+                        <p>The members of the designated subgroup shall provide their comments on the draft reports.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>4.</num>
+                     <content>
+                        <p>The subgroup shall ensure that patients, clinical experts and other relevant experts are involved in the assessment process by being given the opportunity to provide input on the draft reports. Such input shall be provided within the framework and the timeframe set out pursuant to Article 15(1), point (c), and Article 25(1), point (b), and the procedure adopted by the Coordination Group, and shall be made available in a timely manner to the Coordination Group via the IT platform referred to in Article 30.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>5.</num>
+                     <content>
+                        <p>The draft reports shall be provided to the health technology developer. The health technology developer shall signal any purely technical or factual inaccuracies in accordance with the timeframes established pursuant to Article 15. The health technology developer shall also signal any information it considers to be confidential and justify its commercially sensitive nature. The health technology developer shall not provide any comments on the results of the draft assessment.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>6.</num>
+                     <content>
+                        <p>Following receipt and consideration of comments provided in accordance with this Article, the assessor, with the assistance of the co-assessor, shall prepare revised draft reports, and submit those revised draft reports to the Coordination Group via the IT platform referred to in Article 30.</p>
+                     </content>
+                  </paragraph>
+               </article>
+               <article xml:id="art_d734e1533">
+                  <num>Article 12</num>
+                  <heading>Finalisation of the joint clinical assessments</heading>
+                  <paragraph>
+                     <num>1.</num>
+                     <content>
+                        <p>Upon receipt of the revised draft joint clinical assessment and summary reports, the Coordination Group shall review those reports.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>2.</num>
+                     <content>
+                        <p>The Coordination Group shall, within the timeframe set out pursuant to Article 3(7), point (e), and pursuant to Article 15(1), point (c), endeavour to endorse the revised draft reports by consensus. By way of derogation from Article 3(4), where a consensus cannot be reached, divergent scientific opinions, including the scientific grounds on which those opinions are based, shall be incorporated in the reports and the reports shall be deemed endorsed.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>3.</num>
+                     <content>
+                        <p>The Coordination Group shall submit the endorsed reports to the Commission for procedural review pursuant to Article 28, point (d). Where the Commission, within 10 working days of receipt of the endorsed reports, concludes that those reports do not comply with the procedural rules laid down pursuant to this Regulation or that they depart from the requirements adopted by the Coordination Group pursuant to this Regulation, it shall inform the Coordination Group of the reasons for its conclusion and request a review of the reports. The Coordination Group shall review the reports from a procedural point of view, take any necessary corrective actions, and re-endorse the reports in accordance with the procedure laid down in paragraph 2 of this Article.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>4.</num>
+                     <content>
+                        <p>The Commission shall publish, in a timely manner, the procedurally compliant reports endorsed or re-endorsed by the Coordination Group on the publicly accessible webpage of the IT platform referred to in Article 30(1), point (a), and shall inform the health technology developer of the publication.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>5.</num>
+                     <content>
+                        <p>If the Commission concludes that the re-endorsed reports still do not comply with the procedural rules referred to in paragraph 3 of this Article, it shall, in a timely manner, make available those reports and its procedural review on the secure intranet of the IT platform referred to in Article 30(1), point (b), for the consideration of Member States and inform the health technology developer accordingly. The Coordination Group shall include summary reports of those reports as part of its annual report adopted pursuant to Article 6(4) and published on the IT platform as laid down in Article 30(3), point (g).</p>
+                     </content>
+                  </paragraph>
+               </article>
+               <article xml:id="art_d734e1564">
+                  <num>Article 13</num>
+                  <heading>Member States&apos; rights and obligations</heading>
+                  <paragraph>
+                     <num>1.</num>
+                     <subparagraph>
+                        <content>
+                           <p>When carrying out a national HTA on a health technology for which joint clinical assessment reports have been published or in respect of which a joint clinical assessment has been initiated, Member States shall:</p>
+                        </content>
+                     </subparagraph>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <content>
+                              <p>give due consideration to the published joint clinical assessment reports and all other information available on the IT platform referred to in Article 30, including the statement of discontinuation pursuant to Article 10(6), concerning that joint clinical assessment in their HTAs at Member State level; this shall not affect Member States&apos; competence to draw their conclusions on the overall clinical added value of a health technology in the context of their specific healthcare system and to consider the parts of those reports relevant in that context;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <content>
+                              <p>annex the dossier submitted by the health technology developer in accordance with Article 10(2) to the documentation of the HTA at Member State level;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(c)</num>
+                           <content>
+                              <p>annex the published joint clinical assessment report to the HTA report at Member State level;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(d)</num>
+                           <content>
+                              <p>not request at the national level information, data, analyses or other evidence that has been submitted by the health technology developer at Union level in accordance with Article 10(1) or (5);</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(e)</num>
+                           <content>
+                              <p>immediately share through the IT platform referred to in Article 30 any information, data, analyses and other evidence with the Coordination Group that they receive from the health technology developer at Member State level and which form part of the submission request made pursuant to Article 10(1).</p>
+                           </content>
+                        </point>
+                     </list>
+                  </paragraph>
+                  <paragraph>
+                     <num>2.</num>
+                     <content>
+                        <p>Member States shall provide the Coordination Group through the IT platform referred to in Article 30 with information on the national HTA in respect of a health technology which has been subject to a joint clinical assessment within 30 days from the date of its completion. In particular, Member States shall provide information on how joint clinical assessment reports have been considered when carrying out a national HTA. The Commission shall, based on information from Member States, summarise the uptake of the joint clinical assessment reports in HTAs at Member State level and publish a report on that overview on the IT platform referred to in Article 30 at the end of each year to facilitate the exchange of information between Member States.</p>
+                     </content>
+                  </paragraph>
+               </article>
+               <article xml:id="art_d734e1611">
+                  <num>Article 14</num>
+                  <heading>Updates of joint clinical assessments</heading>
+                  <paragraph>
+                     <num>1.</num>
+                     <content>
+                        <p>The Coordination Group shall carry out updates of joint clinical assessments where the initial joint clinical assessment report specified the need for an update when additional evidence for further assessment becomes available.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>2.</num>
+                     <content>
+                        <p>The Coordination Group may carry out updates of joint clinical assessments where requested by one or more of its members and new clinical evidence is available. When preparing the annual work programme the Coordination Group may review and decide on the need for updates of joint clinical assessments.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>3.</num>
+                     <content>
+                        <p>Updates shall be carried out in accordance with the same requirements set out pursuant to this Regulation for a joint clinical assessment and the procedural rules established pursuant to Article 15(1).</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>4.</num>
+                     <content>
+                        <p>Without prejudice to paragraphs 1 and 2, Member States may carry out national updates of assessments on health technologies that have been subject to a joint clinical assessment. The members of the Coordination Group shall inform the Coordination Group before such updates are initiated. Where the need for the update concerns more than one Member State, the members concerned may request the Coordination Group to conduct a joint update pursuant to paragraph 2.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>5.</num>
+                     <content>
+                        <p>Once concluded, national updates shall be shared with the members of the Coordination Group via the IT platform referred to in Article 30.</p>
+                     </content>
+                  </paragraph>
+               </article>
+               <article xml:id="art_d734e1643">
+                  <num>Article 15</num>
+                  <heading>Adoption of detailed procedural rules for joint clinical assessments</heading>
+                  <paragraph>
+                     <num>1.</num>
+                     <subparagraph>
+                        <content>
+                           <p>The Commission shall adopt, by means of implementing acts, detailed procedural rules for:</p>
+                        </content>
+                     </subparagraph>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <content>
+                              <p>cooperation, in particular by exchange of information, with the European Medicines Agency on the preparation and update of joint clinical assessments of medicinal products;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <content>
+                              <p>cooperation, in particular by exchange of information, with the notified bodies and expert panels on the preparation and update of joint clinical assessments of medical devices and <i>in vitro</i> diagnostic medical devices;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(c)</num>
+                           <content>
+                              <p>interaction, including timing thereof, with and between the Coordination Group, its subgroups and the health technology developers, patients, clinical experts and other relevant experts during joint clinical assessments and updates.</p>
+                           </content>
+                        </point>
+                     </list>
+                  </paragraph>
+                  <paragraph>
+                     <num>2.</num>
+                     <content>
+                        <p>Implementing acts referred to in paragraph 1 of this Article shall be adopted in accordance with the examination procedure referred to in Article 33(2).</p>
+                     </content>
+                  </paragraph>
+               </article>
+            </section>
+            <section>
+               <num>SECTION 2</num>
+               <heading>Joint scientific consultations</heading>
+               <article xml:id="art_d734e1692">
+                  <num>Article 16</num>
+                  <heading>Principles of joint scientific consultations</heading>
+                  <paragraph>
+                     <num>1.</num>
+                     <content>
+                        <p>The Coordination Group shall carry out joint scientific consultations in order to exchange information with health technology developers on their development plans for a given health technology. Those consultations shall facilitate the generation of evidence that meets the likely evidence requirements of a subsequent joint clinical assessment on that health technology. The joint scientific consultation shall include a meeting with the health technology developer and result in an outcome document that outlines the scientific recommendation made. Joint scientific consultations shall in particular concern all relevant clinical study design aspects, or clinical investigation design aspects, including comparators, interventions, health outcomes and patient populations. When carrying out joint scientific consultations on health technologies other than medicinal products, the specificities of those health technologies shall be taken into account.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>2.</num>
+                     <content>
+                        <p>A health technology shall be eligible for joint scientific consultations pursuant to paragraph 1 of this Article where it is likely to be the subject of joint clinical assessment pursuant to Article 7(1) and where the clinical studies and clinical investigations are still in the planning stage.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>3.</num>
+                     <content>
+                        <p>The joint scientific consultation outcome document shall not give rise to any legal effects on Member States, the Coordination Group or the health technology developer. Joint scientific consultations shall not prejudice the joint clinical assessment which may be carried out on the same health technology.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>4.</num>
+                     <content>
+                        <p>Where a Member State carries out a national scientific consultation on a health technology that has been the subject of a joint scientific consultation, in order to complement it or to address context-specific issues related to national HTA system, the member of the Coordination Group concerned shall inform the Coordination Group thereof via the IT platform referred to in Article 30.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>5.</num>
+                     <content>
+                        <p>Joint scientific consultations on medicinal products may take place in parallel with the scientific advice from the European Medicines Agency pursuant to Article 57(1), point (n), of Regulation (EC) No 726/2004. Such parallel consultations shall involve the exchange of information and have synchronised timing, while preserving the separation of the respective remits of the Coordination Group and the European Medicines Agency. Joint scientific consultations on medical devices may take place in parallel with the consultation of the expert panels pursuant to Article 61(2) of Regulation (EU) 2017/745.</p>
+                     </content>
+                  </paragraph>
+               </article>
+               <article xml:id="art_d734e1723">
+                  <num>Article 17</num>
+                  <heading>Requests for joint scientific consultations</heading>
+                  <paragraph>
+                     <num>1.</num>
+                     <content>
+                        <p>For health technologies referred to in Article 16(2), health technology developers may request a joint scientific consultation.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>2.</num>
+                     <content>
+                        <p>Health technology developers of medicinal products may request that the joint scientific consultation take place in parallel with the process of receiving scientific advice from the European Medicines Agency. In such a case, the health technology developer shall make the request for scientific advice to the European Medicines Agency when submitting the request for the joint scientific consultation. Health technology developers of medical devices may request that the joint scientific consultation take place in parallel with the consultation of an expert panel. In such a case, when submitting the request for the joint scientific consultation, the health technology developer may make the request for a consultation with the expert panel, where appropriate.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>3.</num>
+                     <subparagraph>
+                        <content>
+                           <p>The Coordination Group shall publish the dates of request periods and state the planned number of joint scientific consultations for each of those request periods on the IT platform referred to in Article 30. At the end of each request period, where the number of eligible requests exceeds the number of planned joint scientific consultations, the Coordination Group shall select the health technologies that are to be subject to joint scientific consultations, ensuring the equal treatment of requests concerning health technologies with similar intended indications. The criteria for selecting from eligible requests for medicinal products and medical devices shall be:</p>
+                        </content>
+                     </subparagraph>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <content>
+                              <p>unmet medical needs;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <content>
+                              <p>first in class;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(c)</num>
+                           <content>
+                              <p>potential impact on patients, public health, or healthcare systems;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(d)</num>
+                           <content>
+                              <p>significant cross-border dimension;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(e)</num>
+                           <content>
+                              <p>major Union-wide added value; or</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(f)</num>
+                           <content>
+                              <p>Union clinical research priorities.</p>
+                           </content>
+                        </point>
+                     </list>
+                  </paragraph>
+                  <paragraph>
+                     <num>4.</num>
+                     <content>
+                        <p>Within 15 working days after the end of each request period, the Coordination Group shall inform the requesting health technology developer whether it will engage in the joint scientific consultation. Where the Coordination Group refuses the request, it shall inform the health technology developer thereof and explain the reasons, having regard to the criteria laid down in paragraph 3.</p>
+                     </content>
+                  </paragraph>
+               </article>
+               <article xml:id="art_d734e1786">
+                  <num>Article 18</num>
+                  <heading>Preparation of the joint scientific consultations outcome document</heading>
+                  <paragraph>
+                     <num>1.</num>
+                     <content>
+                        <p>Following the acceptance of a request for a joint scientific consultation in accordance with Article 17, the Coordination Group shall initiate the joint scientific consultation by designating a subgroup for the joint scientific consultation. The joint scientific consultation shall be carried out in accordance with the requirements and procedures established pursuant to Article 3(7), point (f), and Articles 20 and 21.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>2.</num>
+                     <content>
+                        <p>The health technology developer shall submit up-to-date documentation containing the information necessary for the joint scientific consultation, in accordance with the requirements set out pursuant to Article 21, point (b), in the timeframe set out pursuant to Article 3(7), point (f).</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>3.</num>
+                     <content>
+                        <p>The designated subgroup shall appoint from among its members an assessor and a co-assessor from different Member States to conduct the joint scientific consultation. The appointments shall take into account the scientific expertise necessary for the consultation.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>4.</num>
+                     <content>
+                        <p>The assessor, with the assistance of the co-assessor, shall prepare the draft joint scientific consultation outcome document in accordance with the requirements set out in this Article and in accordance with the guidance documents and procedural rules established pursuant to Article 3(7), points (d) and (f), and Article 20. For medicinal products, in accordance with international standards of evidence-based medicine, directly comparative clinical studies which are randomised, blinded and include a control group shall be advised whenever appropriate.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>5.</num>
+                     <content>
+                        <p>The members of the designated subgroup shall have the opportunity to provide their comments during the preparation of the draft joint scientific consultation outcome document. Members of the designated subgroup may, as appropriate, provide additional recommendations specific to their individual Member State.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>6.</num>
+                     <content>
+                        <p>The designated subgroup shall ensure that patients, clinical experts and other relevant experts are given an opportunity to provide input during the preparation of the draft joint scientific consultation outcome document.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>7.</num>
+                     <content>
+                        <p>The designated subgroup shall organise a face-to-face or virtual meeting for an exchange of views with the health technology developer and patients, clinical experts and other relevant experts.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>8.</num>
+                     <content>
+                        <p>Where the joint scientific consultation is carried out in parallel with the preparation of a scientific advice given by the European Medicines Agency or the consultation of an expert panel, representatives of the European Medicines Agency or of the expert panel, respectively, shall be invited to participate in the meeting, to facilitate coordination as appropriate.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>9.</num>
+                     <content>
+                        <p>Following receipt and consideration of any comments and input provided in accordance with this Article, the assessor, with the assistance of the co-assessor, shall finalise the draft joint scientific consultation outcome document.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>10.</num>
+                     <content>
+                        <p>The assessor, with the assistance of the co-assessor, shall take into account comments received during the preparation of the joint scientific consultation outcome document and submit its final draft, including any recommendations specific to individual Member States, to the Coordination Group.</p>
+                     </content>
+                  </paragraph>
+               </article>
+               <article xml:id="art_d734e1843">
+                  <num>Article 19</num>
+                  <heading>Approval of joint scientific consultation outcome documents</heading>
+                  <paragraph>
+                     <num>1.</num>
+                     <content>
+                        <p>The finalised draft joint scientific consultation outcome document shall be subject to the approval of the Coordination Group within the timeframe set out pursuant to Article 3(7), point (f).</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>2.</num>
+                     <content>
+                        <p>The Commission shall send the joint scientific consultation outcome document to the requesting health technology developer at the latest 10 working days after it has been finalised.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>3.</num>
+                     <content>
+                        <p>The Coordination Group shall include anonymised, aggregated, non-confidential summary information on the joint scientific consultations, including on comments received during their preparation, in its annual reports and on the publicly accessible webpage of the IT platform referred to in Article 30(1), point (a).</p>
+                     </content>
+                  </paragraph>
+               </article>
+               <article xml:id="art_d734e1863">
+                  <num>Article 20</num>
+                  <heading>Adoption of detailed procedural rules for joint scientific consultations</heading>
+                  <paragraph>
+                     <num>1.</num>
+                     <subparagraph>
+                        <content>
+                           <p>After consulting the Coordination Group, the Commission shall adopt, by means of implementing acts, detailed procedural rules for:</p>
+                        </content>
+                     </subparagraph>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <content>
+                              <p>submission of requests from health technology developers;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <content>
+                              <p>the selection and consultation of stakeholder organisations and patients, clinical experts and other relevant experts in joint scientific consultation;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(c)</num>
+                           <content>
+                              <p>cooperation, in particular by exchange of information, with the European Medicines Agency on joint scientific consultations on medicinal products where a health technology developer requests the consultation to be carried out in parallel with a process for scientific advice from the European Medicines Agency;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(d)</num>
+                           <content>
+                              <p>cooperation, in particular by exchange of information, with the expert panels on the joint scientific consultations on medical devices where a health technology developer requests the consultation to be carried out in parallel with the consultation of those expert panels.</p>
+                           </content>
+                        </point>
+                     </list>
+                  </paragraph>
+                  <paragraph>
+                     <num>2.</num>
+                     <content>
+                        <p>Implementing acts referred to in paragraph 1 of this Article shall be adopted in accordance with the examination procedure referred to in Article 33(2).</p>
+                     </content>
+                  </paragraph>
+               </article>
+               <article xml:id="art_d734e1905">
+                  <num>Article 21</num>
+                  <heading>Format and templates of submission and outcome documents for joint scientific consultations</heading>
+                  <paragraph>
+                     <subparagraph>
+                        <content>
+                           <p>The Coordination Group shall establish in compliance with the procedural rules referred to in Article 20(1), point (a), the format and templates of:</p>
+                        </content>
+                     </subparagraph>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <content>
+                              <p>requests from health technology developers for joint scientific consultations;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <content>
+                              <p>dossiers of information, data, analyses and other evidence to be submitted by health technology developers for joint scientific consultations;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(c)</num>
+                           <content>
+                              <p>joint scientific consultation outcome documents.</p>
+                           </content>
+                        </point>
+                     </list>
+                  </paragraph>
+               </article>
+            </section>
+            <section>
+               <num>SECTION 3</num>
+               <heading>Emerging health technologies</heading>
+               <article xml:id="art_d734e1943">
+                  <num>Article 22</num>
+                  <heading>Identification of emerging health technologies</heading>
+                  <paragraph>
+                     <num>1.</num>
+                     <content>
+                        <p>The Coordination Group shall ensure the preparation of reports on emerging health technologies expected to have a major impact on patients, public health or healthcare systems. Those reports shall in particular address the estimated clinical impact and the potential organisational and financial consequences of emerging health technologies for national healthcare systems.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>2.</num>
+                     <subparagraph>
+                        <content>
+                           <p>The preparation of the reports referred to in paragraph 1 shall be based on existing scientific reports or initiatives on emerging health technologies and information from relevant sources including:</p>
+                        </content>
+                     </subparagraph>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <content>
+                              <p>clinical study registers and scientific reports;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <content>
+                              <p>the European Medicines Agency in relation to upcoming submissions of applications for marketing authorisation for medicinal products referred to in Article 7(1);</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(c)</num>
+                           <content>
+                              <p>the Medical Device Coordination Group;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(d)</num>
+                           <content>
+                              <p>health technology developers on the health technologies they are developing;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(e)</num>
+                           <content>
+                              <p>members of the stakeholder network referred to in Article 29.</p>
+                           </content>
+                        </point>
+                     </list>
+                  </paragraph>
+                  <paragraph>
+                     <num>3.</num>
+                     <content>
+                        <p>The Coordination Group may consult stakeholder organisations which are not members of the stakeholder network referred to in Article 29 and other relevant experts, as appropriate.</p>
+                     </content>
+                  </paragraph>
+               </article>
+            </section>
+            <section>
+               <num>SECTION 4</num>
+               <heading>Voluntary cooperation on health technology assessment</heading>
+               <article xml:id="art_d734e2007">
+                  <num>Article 23</num>
+                  <heading>Voluntary cooperation</heading>
+                  <paragraph>
+                     <num>1.</num>
+                     <subparagraph>
+                        <content>
+                           <p>The Commission shall support the cooperation and the exchange of scientific information among Member States on:</p>
+                        </content>
+                     </subparagraph>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <content>
+                              <p>non-clinical assessments on health technologies;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <content>
+                              <p>collaborative assessments on medical devices and <i>in vitro</i> diagnostic medical devices;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(c)</num>
+                           <content>
+                              <p>HTAs on health technologies other than medicinal products, medical devices or <i>in vitro</i> diagnostic medical devices;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(d)</num>
+                           <content>
+                              <p>the provision of additional evidence necessary to support HTAs, in particular in relation to health technologies for compassionate use and obsolete health technologies;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(e)</num>
+                           <content>
+                              <p>clinical assessments of health technologies referred to in Article 7 for which a joint clinical assessment is not yet initiated and of health technologies not referred to in that Article, in particular health technologies for which the report on emerging health technologies referred to in Article 22 has concluded that they are expected to have a major impact on patients, public health or healthcare systems.</p>
+                           </content>
+                        </point>
+                     </list>
+                  </paragraph>
+                  <paragraph>
+                     <num>2.</num>
+                     <content>
+                        <p>The Coordination Group shall be used to facilitate the cooperation referred to in paragraph 1.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>3.</num>
+                     <content>
+                        <p>The cooperation referred to in paragraph 1, points (b) and (c), of this Article may be carried out using the procedural rules established in accordance with Article 3(7) and Articles 15 and 25 and using the format and templates established in accordance with Article 26.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>4.</num>
+                     <content>
+                        <p>The cooperation referred to in paragraph 1 of this Article shall be included in the annual work programmes of the Coordination Group and the results of the cooperation shall be included in its annual reports and on the IT platform referred to in Article 30.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>5.</num>
+                     <content>
+                        <p>Member States, through their designated member in the Coordination Group, may share national assessment reports on a health technology not referred to in Article 7, in particular on health technologies for which the report on emerging health technologies referred to in Article 22 has concluded that they are expected to have a major impact on patients, public health or healthcare systems, to the Coordination Group through the IT platform referred to in Article 30.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>6.</num>
+                     <content>
+                        <p>Member States may use methodological guidance developed pursuant to Article 3(7), point (d), for the purpose of national assessments.</p>
+                     </content>
+                  </paragraph>
+               </article>
+            </section>
+         </chapter>
+         <chapter>
+            <num>CHAPTER III</num>
+            <heading>GENERAL RULES FOR JOINT CLINICAL ASSESSMENTS</heading>
+            <article xml:id="art_d734e2089">
+               <num>Article 24</num>
+               <heading>National clinical assessment reports</heading>
+               <paragraph>
+                  <content>
+                     <p>Where an HTA, or its update, is carried out by a Member State on a health technology referred to in Article 7(1), that Member State, through its designated member in the Coordination Group, shall provide the national assessment report on that health technology to the Coordination Group through the IT platform referred to in Article 30 within 30 days after its completion.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d734e2097">
+               <num>Article 25</num>
+               <heading>General procedural rules</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <subparagraph>
+                     <content>
+                        <p>The Commission shall adopt, after consulting all relevant stakeholders, by means of implementing acts, general procedural rules:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(a)</num>
+                        <content>
+                           <p>ensuring that the members of the Coordination Group, its subgroups, as well as patients, clinical experts and other relevant experts take part in joint clinical assessments in an independent and transparent manner, free from conflict of interest;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(b)</num>
+                        <content>
+                           <p>on the selection and consultation of stakeholder organisations and patients, clinical experts and other relevant experts in joint clinical assessments at Union level.</p>
+                        </content>
+                     </point>
+                  </list>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>Implementing acts referred to in paragraph 1 of this Article shall be adopted in accordance with the examination procedure referred to in Article 33(2).</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d734e2126">
+               <num>Article 26</num>
+               <heading>Format and templates of submission and report documents</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <subparagraph>
+                     <content>
+                        <p>The Commission shall adopt, by means of implementing acts, the format and templates in respect of:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(a)</num>
+                        <content>
+                           <p>dossiers for information, data, analyses and other evidence to be provided by health technology developers for joint clinical assessments;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(b)</num>
+                        <content>
+                           <p>joint clinical assessment reports;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(c)</num>
+                        <content>
+                           <p>summary joint clinical assessment reports.</p>
+                        </content>
+                     </point>
+                  </list>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>Implementing acts referred to in paragraph 1 of this Article shall be adopted in accordance with the examination procedure referred to in Article 33(2).</p>
+                  </content>
+               </paragraph>
+            </article>
+         </chapter>
+         <chapter>
+            <num>CHAPTER IV</num>
+            <heading>SUPPORT FRAMEWORK</heading>
+            <article xml:id="art_d734e2170">
+               <num>Article 27</num>
+               <heading>Union financing</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>The Union shall ensure the financing of the work of the Coordination Group and its subgroups, and of the activities in support thereof, which involve cooperation with the Commission, the European Medicines Agency, the Medical Device Coordination Group, expert panels and the stakeholder network referred to in Article 29. The Union&apos;s financial assistance to the activities under this Regulation shall be implemented in accordance with Regulation (EU, Euratom) 2018/1046 of the European Parliament and of the Council<authorialNote placement="bottom" marker="17">
+                           <p>Regulation (EU, Euratom) 2018/1046 of the European Parliament and of the Council of 18 July 2018 on the financial rules applicable to the general budget of the Union, amending Regulations (EU) No 1296/2013, (EU) No 1301/2013, (EU) No 1303/2013, (EU) No 1304/2013, (EU) No 1309/2013, (EU) No 1316/2013, (EU) No 223/2014, (EU) No 283/2014, and Decision No 541/2014/EU and repealing Regulation (EU, Euratom) No 966/2012 (OJ L 193, 30.7.2018, p. 1).</p>
+                        </authorialNote>.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>The financing referred to in paragraph 1 shall include financing for the participation of Member States&apos; designated members of the Coordination Group and of its subgroups in support of the work on joint clinical assessments and joint scientific consultations, including the development of methodological guidance, and on the identification of emerging health technologies. Assessors and co-assessors shall be entitled to a special allowance compensating them for their work on joint clinical assessments and joint scientific consultations in accordance with internal Commission rules.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d734e2196">
+               <num>Article 28</num>
+               <heading>Commission support for the Coordination Group</heading>
+               <paragraph>
+                  <subparagraph>
+                     <content>
+                        <p>The Commission shall support the work of the Coordination Group and act as its secretariat. In particular, the Commission shall:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(a)</num>
+                        <content>
+                           <p>host in its premises the meetings of the Coordination Group and of its subgroups;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(b)</num>
+                        <content>
+                           <p>decide on conflict of interest in accordance with the requirements set out in Article 5 and in the general procedural rules to be adopted in accordance with Article 25(1), point (a);</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(c)</num>
+                        <content>
+                           <p>request the dossier from the health technology developer in accordance with Article 10;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(d)</num>
+                        <content>
+                           <p>supervise the procedures for joint clinical assessments and inform the Coordination Group about possible breaches thereof;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(e)</num>
+                        <content>
+                           <p>provide administrative, technical and IT support;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(f)</num>
+                        <content>
+                           <p>set up and maintain the IT platform pursuant to Article 30;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(g)</num>
+                        <content>
+                           <p>publish the information and documents, including the Coordination Group&apos;s annual work programmes, annual reports, summary minutes of its meetings, and reports and summary reports of joint clinical assessments, on the IT platform, in accordance with Article 30;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(h)</num>
+                        <content>
+                           <p>facilitate the cooperation, in particular through the exchange of information, with the European Medicines Agency on the joint work referred to in this Regulation related to medicinal products, including the sharing of confidential information;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(i)</num>
+                        <content>
+                           <p>facilitate the cooperation, in particular through the exchange of information, with expert panels and the Medical Device Coordination Group on the joint work referred to in this Regulation related to medical devices and <i>in vitro</i> diagnostic medical devices, including the sharing of confidential information.</p>
+                        </content>
+                     </point>
+                  </list>
+               </paragraph>
+            </article>
+            <article xml:id="art_d734e2262">
+               <num>Article 29</num>
+               <heading>Stakeholder network</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>The Commission shall establish a stakeholder network. The stakeholder network shall support the work of the Coordination Group and its subgroups upon request.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <subparagraph>
+                     <content>
+                        <p>The stakeholder network shall be established through an open call for applications addressed to all eligible stakeholder organisations, in particular patient associations, consumer organisations, non-governmental organisations in the field of health, health technology developers and health professionals. The eligibility criteria shall be set out in the open call for applications and shall include:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(a)</num>
+                        <content>
+                           <p>proof of current or planned engagement in HTA development;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(b)</num>
+                        <content>
+                           <p>professional expertise relevant to the stakeholder network;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(c)</num>
+                        <content>
+                           <p>geographical coverage of several Member States;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(d)</num>
+                        <content>
+                           <p>communication and dissemination capabilities.</p>
+                        </content>
+                     </point>
+                  </list>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <content>
+                     <p>Organisations applying to become part of the stakeholder network shall declare their membership and sources of funding. Representatives of stakeholder organisations participating in activities of the stakeholder network shall declare any financial or other interests in the health technology developers&apos; industrial sector which could affect their independence or impartiality.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>4.</num>
+                  <content>
+                     <p>The list of stakeholder organisations included in the stakeholder network, the declarations of those organisations on their membership and sources of funding, and the declarations of interest of representatives of stakeholder organisations shall be made publicly available on the IT platform referred to in Article 30.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>5.</num>
+                  <subparagraph>
+                     <content>
+                        <p>The Coordination Group shall meet with the stakeholder network at least once each year in order to:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(a)</num>
+                        <content>
+                           <p>update stakeholders on the joint work of the Coordination Group, including its main output;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(b)</num>
+                        <content>
+                           <p>provide for an exchange of information.</p>
+                        </content>
+                     </point>
+                  </list>
+               </paragraph>
+               <paragraph>
+                  <num>6.</num>
+                  <content>
+                     <p>The Coordination Group may invite members of the stakeholder network to attend its meetings as observers.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d734e2338">
+               <num>Article 30</num>
+               <heading>IT platform</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <subparagraph>
+                     <content>
+                        <p>The Commission shall set up and maintain an IT platform consisting of:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(a)</num>
+                        <content>
+                           <p>a publicly accessible webpage;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(b)</num>
+                        <content>
+                           <p>a secure intranet for the exchange of information between members of the Coordination Group and its subgroups;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(c)</num>
+                        <content>
+                           <p>a secure system for the exchange of information between the Coordination Group and its subgroups with health technology developers and experts participating in the joint work referred to in this Regulation, as well as with the European Medicines Agency and the Medical Device Coordination Group;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(d)</num>
+                        <content>
+                           <p>a secure system for the exchange of information between members of the stakeholder network.</p>
+                        </content>
+                     </point>
+                  </list>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>The Commission shall ensure appropriate levels of access to the information contained in the IT platform for Member States, members of the stakeholder network and the general public.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <subparagraph>
+                     <content>
+                        <p>The publicly accessible webpage shall contain, in particular:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(a)</num>
+                        <content>
+                           <p>an up-to-date list of the members of the Coordination Group and their appointed representatives, together with their qualifications and areas of expertise and their declarations of conflict of interest after the finalisation of the joint work;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(b)</num>
+                        <content>
+                           <p>an up-to-date list of the members of the subgroups and their appointed representatives, together with their qualifications and areas of expertise and their declarations of conflict of interest after the finalisation of the joint work;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(c)</num>
+                        <content>
+                           <p>the rules of procedure of the Coordination Group;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(d)</num>
+                        <content>
+                           <p>all documentation under Article 9(1), Article 10(2) and (5) and Article 11(1) at the time the joint clinical assessment report is published, under Article 10(7) in the event that the joint clinical assessment was discontinued, and under Articles 15, 25 and 26;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(e)</num>
+                        <content>
+                           <p>the agendas and summary minutes of the Coordination Group&apos;s meetings, including the decisions adopted and voting results;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(f)</num>
+                        <content>
+                           <p>the eligibility criteria for stakeholders;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(g)</num>
+                        <content>
+                           <p>the annual work programmes and annual reports;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(h)</num>
+                        <content>
+                           <p>information on planned, on-going, and completed joint clinical assessments, including updates carried out in accordance with Article 14;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(i)</num>
+                        <content>
+                           <p>the joint clinical assessment reports considered procedurally compliant in accordance with Article 12, together with all comments received during their preparation;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(j)</num>
+                        <content>
+                           <p>information on Member States&apos; national clinical assessment reports referred to in Article 13(2), including information provided by Member States on how joint clinical assessment reports were considered at national level, and Article 24;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(k)</num>
+                        <content>
+                           <p>anonymised, aggregated, non-confidential summary information on joint scientific consultations;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(l)</num>
+                        <content>
+                           <p>studies on the identification of emerging health technologies;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(m)</num>
+                        <content>
+                           <p>anonymised, aggregated, non-confidential information from the reports on emerging health technologies referred to in Article 22;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(n)</num>
+                        <content>
+                           <p>results of the voluntary cooperation between Member States undertaken pursuant to Article 23;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(o)</num>
+                        <content>
+                           <p>where a joint clinical assessment is discontinued, the statement pursuant to Article 10(6), including a list of the information, data, analyses or other evidence that were not submitted by the health technology developer;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(p)</num>
+                        <content>
+                           <p>the procedural review of the Commission according to Article 12(3);</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(q)</num>
+                        <content>
+                           <p>standard operating procedures and guidance regarding quality assurance pursuant to Article 4(2) and (3);</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(r)</num>
+                        <content>
+                           <p>the list of stakeholder organisations included in the stakeholder network, together with the declarations of those organisations on their membership and sources of funding, and the declarations of interests of their representatives, pursuant to Article 29(4).</p>
+                        </content>
+                     </point>
+                  </list>
+               </paragraph>
+            </article>
+            <article xml:id="art_d734e2496">
+               <num>Article 31</num>
+               <heading>Evaluation and reporting</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <subparagraph>
+                     <content>
+                        <p>No later than 13 January 2028, the Commission shall present a report to the European Parliament and to the Council on the application of this Regulation. The report shall focus on reviewing:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(a)</num>
+                        <content>
+                           <p>the added value for Member States of the joint work carried out pursuant to Chapter II and, in particular, whether the health technologies subject to joint clinical assessments in accordance with Article 7 and the quality of those joint clinical assessments correspond to the needs of Member States;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(b)</num>
+                        <content>
+                           <p>the non-duplication of the request of information, data, analyses and other evidence for joint clinical assessment in terms of reducing the administrative burden for Member States and health technology developers;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(c)</num>
+                        <content>
+                           <p>the functioning of the support framework set out in this Chapter and, in particular, whether there is a need to introduce a fee-paying mechanism through which health technology developers would also contribute to the financing of the joint scientific consultations.</p>
+                        </content>
+                     </point>
+                  </list>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>No later than 13 January 2027, Member States shall report to the Commission on the application of this Regulation and, in particular, on the consideration of joint work pursuant to Chapter II in their national HTA processes, including the way joint clinical assessment reports have been considered when carrying out national HTAs pursuant to Article 13(2), and the workload of the Coordination Group. Member States shall also report on whether they have considered methodological guidance developed pursuant to Article 3(7), point (d), for the purpose of national assessments, as referred to in Article 23(6).</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <subparagraph>
+                     <content>
+                        <p>In the preparation of its report, the Commission shall consult the Coordination Group and use:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(a)</num>
+                        <content>
+                           <p>the information provided by Member States in accordance with paragraph 2;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(b)</num>
+                        <content>
+                           <p>the reports on emerging health technologies prepared in accordance with Article 22;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(c)</num>
+                        <content>
+                           <p>the information provided by Member States in accordance with Articles 13(2) and 14(4).</p>
+                        </content>
+                     </point>
+                  </list>
+               </paragraph>
+               <paragraph>
+                  <num>4.</num>
+                  <content>
+                     <p>The Commission shall, if appropriate, present a legislative proposal based on that report in order to update this Regulation.</p>
+                  </content>
+               </paragraph>
+            </article>
+         </chapter>
+         <chapter>
+            <num>CHAPTER V</num>
+            <heading>FINAL PROVISIONS</heading>
+            <article xml:id="art_d734e2577">
+               <num>Article 32</num>
+               <heading>Exercise of the delegation</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>The power to adopt delegated acts is conferred on the Commission subject to the conditions laid down in this Article.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>The power to adopt delegated acts referred to in Article 9(5) shall be conferred on the Commission for an indeterminate period of time from 11 January 2022.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <content>
+                     <p>The delegation of power referred to in Article 9(5) may be revoked at any time by the European Parliament or by the Council. A decision to revoke shall put an end to the delegation of the power specified in that decision. It shall take effect the day following the publication of the decision in the <i>Official Journal of the European Union</i> or at a later date specified therein. It shall not affect the validity of any delegated acts already in force.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>4.</num>
+                  <content>
+                     <p>Before adopting a delegated act, the Commission shall consult experts designated by each Member State in accordance with the principles laid down in the Interinstitutional Agreement of 13 April 2016 on Better Law-Making.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>5.</num>
+                  <content>
+                     <p>As soon as it adopts a delegated act, the Commission shall notify it simultaneously to the European Parliament and to the Council.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>6.</num>
+                  <content>
+                     <p>A delegated act adopted pursuant to Article 9(5) shall enter into force only if no objection has been expressed either by the European Parliament or the Council within a period of two months of notification of that act to the European Parliament and the Council or if, before the expiry of that period, the European Parliament and the Council have both informed the Commission that they will not object. That period shall be extended by two months at the initiative of the European Parliament or of the Council.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d734e2621">
+               <num>Article 33</num>
+               <heading>Committee procedure</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>The Commission shall be assisted by a committee. That committee shall be a committee within the meaning of Regulation (EU) No 182/2011.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>Where reference is made to this paragraph, Article 5 of Regulation (EU) No 182/2011 shall apply.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <content>
+                     <p>Where the Committee delivers no opinion, the Commission shall not adopt the draft implementing act and Article 5(4), third subparagraph, of Regulation (EU) No 182/2011 shall apply.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d734e2641">
+               <num>Article 34</num>
+               <heading>Preparation of implementing acts</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>The Commission shall adopt the implementing acts referred to in Articles 15, 20, 25 and 26 at the latest by the date of application of this Regulation.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>When preparing those implementing acts, the Commission shall take into account the distinctive characteristics of the medicinal product, medical device and <i>in vitro</i> diagnostic medical device sectors.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d734e2660">
+               <num>Article 35</num>
+               <heading>Amendment to Directive 2011/24/EU</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>Article 15 of Directive 2011/24/EU is deleted.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>References to the deleted Article shall be construed as references to this Regulation.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d734e2675">
+               <num>Article 36</num>
+               <heading>Entry into force and date of application</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>This Regulation shall enter into force on the twentieth day following that of its publication in the <i>Official Journal of the European Union</i>.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>It shall apply from 12 January 2025.</p>
+                  </content>
+               </paragraph>
+            </article>
+         </chapter>
+         <clause>
+            <content>
+               <p>This Regulation shall be binding in its entirety and directly applicable in all Member States.</p>
+            </content>
+         </clause>
+      </body>
+      <conclusions>
+         <p>Done at Strasbourg, 15 December 2021.</p>
+         <block name="signatory">
+            <signature>
+               <organization refersTo="">For the European Parliament</organization>
+               <role refersTo="">The President</role>
+               <person refersTo="">D. M. SASSOLI</person>
+            </signature>
+            <signature>
+               <organization refersTo="">For the Council</organization>
+               <role refersTo="">The President</role>
+               <person refersTo="">A. LOGAR</person>
+            </signature>
+         </block>
+      </conclusions>
+   </bill>
+</akomaNtoso>

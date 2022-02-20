@@ -1,0 +1,579 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"
+            xmlns:fmx="http://formex.publications.europa.eu/schema/formex-05.21-20110601.xd"
+            xmlns:leos="urn:eu:europa:ec:leos"
+            xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <bill name="">
+      <meta xmlns:fn="http://www.w3.org/2005/xpath-functions">
+         <identification source="~COM">
+            <FRBRWork>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRcountry value=""/>
+            </FRBRWork>
+            <FRBRExpression>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+            </FRBRManifestation>
+         </identification>
+      </meta>
+      <preface>
+         <longTitle>
+            <p>
+               <docStage/>
+               <docType>REGULATION (EU) 2019/933 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL</docType>of 20 May 2019<docPurpose>amending Regulation (EC) No 469/2009 concerning the supplementary protection certificate for medicinal products</docPurpose>
+            </p>
+         </longTitle>
+         <container name="EEArelevance">
+            <p>(Text with EEA relevance)</p>
+         </container>
+      </preface>
+      <preamble>
+         <formula name="actingEntity">
+            <p>THE EUROPEAN PARLIAMENT AND THE COUNCIL OF THE EUROPEAN UNION,</p>
+         </formula>
+         <citations>
+            <citation>
+               <p>Having regard to the Treaty on the Functioning of the European Union, and in particular Article 114 thereof,</p>
+            </citation>
+            <citation>
+               <p>Having regard to the proposal from the European Commission,</p>
+            </citation>
+            <citation>
+               <p>After transmission of the draft legislative act to the national parliaments,</p>
+            </citation>
+            <citation>
+               <p>Having regard to the opinion of the European Economic and Social Committee<authorialNote placement="bottom" marker="1">
+                     <p>OJ C 440, 6.12.2018, p. 100.</p>
+                  </authorialNote>,</p>
+            </citation>
+            <citation>
+               <p>Acting in accordance with the ordinary legislative procedure<authorialNote placement="bottom" marker="2">
+                     <p>Position of the European Parliament of 17 April 2019 (not yet published in the Official Journal) and decision of the Council of 14 May 2019.</p>
+                  </authorialNote>,</p>
+            </citation>
+         </citations>
+         <recitals xml:id="recs_d230e86">
+            <intro>
+               <p>Whereas:</p>
+            </intro>
+            <recital xml:id="rec_d230e89">
+               <num>(1)</num>
+               <p>Regulation (EC) No 469/2009 of the European Parliament and of the Council<authorialNote placement="bottom" marker="3">
+                     <p>Regulation (EC) No 469/2009 of the European Parliament and of the Council of 6 May 2009 concerning the supplementary protection certificate for medicinal products (OJ L 152, 16.6.2009, p. 1).</p>
+                  </authorialNote> provides that any product protected by a patent in the territory of a Member State and subject, prior to being placed on the market as a medicinal product, to an administrative authorisation procedure, as laid down in Directive 2001/82/EC<authorialNote placement="bottom" marker="4">
+                     <p>Directive 2001/82/EC of the European Parliament and of the Council of 6 November 2001 on the Community code relating to veterinary medicinal products (OJ L 311, 28.11.2001, p. 1). Directive 2001/82/EC is repealed and replaced, with effect from 28 January 2022, by Regulation (EU) 2019/6 of the European Parliament and of the Council of 11 December 2018 on veterinary medicinal products and repealing Directive 2001/82/EC (OJ L 4, 7.1.2019, p. 43).</p>
+                  </authorialNote> or 2001/83/EC<authorialNote placement="bottom" marker="5">
+                     <p>Directive 2001/83/EC of the European Parliament and of the Council of 6 November 2001 on the Community code relating to medicinal products for human use (OJ L 311, 28.11.2001, p. 67).</p>
+                  </authorialNote> of the European Parliament and of the Council, may, under the terms and conditions provided for in that Regulation, be the subject of a supplementary protection certificate (&apos;certificate&apos;).</p>
+            </recital>
+            <recital xml:id="rec_d230e138">
+               <num>(2)</num>
+               <p>By providing for a period of supplementary protection, Regulation (EC) No 469/2009 seeks to promote, within the Union, the research and innovation that is necessary to develop medicinal products, and to contribute to preventing the relocation of pharmaceutical research outside the Union to countries that might offer greater protection.</p>
+            </recital>
+            <recital xml:id="rec_d230e144">
+               <num>(3)</num>
+               <p>Since the adoption in 1992 of the predecessor to Regulation (EC) No 469/2009, markets have evolved significantly and there has been huge growth in the making of generics and especially of biosimilars, and in the making of their active ingredients, in particular in countries outside the Union (&apos;third countries&apos;) in which protection does not exist or has expired.</p>
+            </recital>
+            <recital xml:id="rec_d230e155">
+               <num>(4)</num>
+               <p>The absence in Regulation (EC) No 469/2009 of any exception to the protection conferred by the certificate has had the unintended consequence of preventing makers of generics and biosimilars established in the Union from making generics and biosimilars in the Union, even for the purpose of export to third-country markets in which protection does not exist or has expired. Likewise, makers are prevented from making generics and biosimilars for the purpose of storing them for a limited period before the expiry of the certificate. Those circumstances make it more difficult for those makers, in contrast to makers located in third countries where protection does not exist or has expired, to enter the Union market immediately after expiry of the certificate, given that they are not in a position to build up production capacity for the purpose of export or for the purpose of entering the market of a Member State until the protection provided by that certificate has expired.</p>
+            </recital>
+            <recital xml:id="rec_d230e161">
+               <num>(5)</num>
+               <p>Those circumstances put makers of generics and biosimilars established in the Union at a significant competitive disadvantage in comparison with makers based in third countries that offer less or no protection. The Union should strike a balance between restoring a level playing field between those makers and ensuring that the essence of the exclusive rights of holders of certificates (&apos;certificate holders&apos;) is guaranteed in relation to the Union market.</p>
+            </recital>
+            <recital xml:id="rec_d230e171">
+               <num>(6)</num>
+               <p>Without intervention, the viability of makers of generics and biosimilars established in the Union could be threatened, with consequences for the Union&apos;s pharmaceutical industrial base as a whole. That situation could affect the fully effective functioning of the internal market through the loss of potential new business opportunities for makers of generics and biosimilars, thereby possibly diminishing related investments and hampering job creation within the Union.</p>
+            </recital>
+            <recital xml:id="rec_d230e177">
+               <num>(7)</num>
+               <p>The timely entry of generics and biosimilars into the Union market is important, particularly in order to increase competition, to reduce prices and to ensure that national healthcare systems are sustainable and that patients in the Union have better access to affordable medicines. The importance of such timely entry was underlined by the Council in its conclusions of 17 June 2016 on strengthening the balance in the pharmaceutical systems in the Union and its Member States. Regulation (EC) No 469/2009 should, therefore, be amended so as to allow the making of generics and biosimilars for export and storing, while bearing in mind that intellectual property rights remain one of the cornerstones of innovation, competitiveness and growth in the internal market.</p>
+            </recital>
+            <recital xml:id="rec_d230e186">
+               <num>(8)</num>
+               <p>The aim of this Regulation is to promote the competitiveness of the Union, thereby enhancing growth and job creation in the internal market and contributing to a wider supply of products under uniform conditions, by allowing makers of generics and biosimilars established in the Union to make in the Union products, or medicinal products containing those products, for the purpose of export to third-country markets in which protection does not exist or has expired, thereby also helping those makers to compete effectively in those third-country markets. This Regulation should also allow such makers to make and store products, or medicinal products containing those products, in a Member State for a defined period pending the expiry of the certificate, for the purpose of entering the market of any Member State upon expiry of the corresponding certificate, thereby helping those makers to compete effectively in the Union immediately after protection has expired (&apos;EU day-one entry&apos;). This Regulation should also complement the efforts of the Union&apos;s trade policy to ensure open markets for makers of products, or medicinal products containing those products, established in the Union. Over time, this Regulation should benefit the entire pharmaceutical sector in the Union, by allowing all players, including newcomers, to reap the benefits of the new opportunities opening up in the fast-changing global pharmaceutical market. Furthermore, the general interest of the Union would be promoted given that, by reinforcing Union-based supply chains for medicines and by allowing storing with a view to entry into the Union market upon expiry of the certificate, medicines would become more accessible to patients in the Union after the expiry of the certificate.</p>
+            </recital>
+            <recital xml:id="rec_d230e196">
+               <num>(9)</num>
+               <p>In those specific and limited circumstances, and in order to create a level playing field between makers established in the Union and third-country makers, it is appropriate to provide for an exception to the protection conferred by a certificate so as to allow the making of a product, or a medicinal product containing that product, for the purpose of export to third countries or of storing, and any related acts in the Union strictly necessary for that making or for the actual export or the actual storing, where such acts would otherwise require the consent of a certificate holder (&apos;related acts&apos;). For instance, such related acts could include: possessing; offering to supply; supplying; importing; using or synthesising an active ingredient for the purpose of making a medicinal product; or temporary storing or advertising for the exclusive purpose of export to third-country destinations. That exception should also apply to related acts performed by third parties who are in a contractual relationship with the maker.</p>
+            </recital>
+            <recital xml:id="rec_d230e208">
+               <num>(10)</num>
+               <p>The exception should apply to a product, or a medicinal product containing that product, protected by a certificate. It should cover the making of the product protected by a certificate in the territory of a Member State and the making of the medicinal product containing that product.</p>
+            </recital>
+            <recital xml:id="rec_d230e214">
+               <num>(11)</num>
+               <p>The exception should not cover placing a product, or a medicinal product containing that product, which is made for the purpose of export to third countries or of storing with a view to EU day-one entry, on the market of a Member State where a certificate is in force, either directly or indirectly after export, nor should it cover re-importation of such a product, or medicinal product containing that product, into the market of a Member State in which a certificate is in force. Moreover, it should not cover any act or activity carried out for the purpose of import of products, or medicinal products containing those products, into the Union merely for the purposes of repackaging and re-exporting. In addition, the exception should not cover any storing of products, or medicinal products containing those products, for any purposes other than those set out in this Regulation.</p>
+            </recital>
+            <recital xml:id="rec_d230e220">
+               <num>(12)</num>
+               <p>By limiting the scope of the exception to making for the purpose of export outside the Union or to making for the purpose of storing, and to acts strictly necessary for such making or for the actual export or the actual storing, the exception provided for in this Regulation should not conflict with the normal exploitation of the product, or the medicinal product containing that product, in the Member State in which the certificate is in force, namely with the core exclusive right of the certificate holder to make that product for the purpose of placing it on the Union market during the term of the certificate. In addition, that exception should not unreasonably prejudice the legitimate interests of the certificate holder, whilst taking account of the legitimate interests of third parties.</p>
+            </recital>
+            <recital xml:id="rec_d230e226">
+               <num>(13)</num>
+               <p>Effective and proportionate safeguards should apply in relation to the exception in order to increase transparency, to help the holder of a certificate enforce its protection in the Union and check compliance with the conditions set out in this Regulation, and to reduce the risk of illicit diversion onto the Union market during the term of the certificate.</p>
+            </recital>
+            <recital xml:id="rec_d230e232">
+               <num>(14)</num>
+               <p>This Regulation should impose an information obligation on the maker, namely the person established in the Union, on whose behalf the making of a product, or a medicinal product containing that product, for the purpose of export or storing, is carried out. It is possible that the maker directly carries out the making. That information obligation should consist of requiring the maker to provide certain information to the competent industrial property office, or another designated authority, which granted the certificate (&apos;the authority&apos;) in the Member State where the making is to take place. A standard form for notification should be provided for this purpose. The information should be provided before the making of a product, or a medicinal product containing that product, starts for the first time in that Member State, or before any related act prior to that making, whichever is the earlier. The information should be updated as and when appropriate. The making of a product, or a medicinal product containing that product, and the related acts, including those performed in Member States other than the one of making in cases where the product is also protected by a certificate in those other Member States, should only fall within the scope of the exception where the maker has sent the notification to the authority of the Member State of making, and where the maker has informed the holder of the certificate granted in that Member State. Where making takes place in more than one Member State, a notification should be required in each of those Member States. In the interests of transparency, the authority should be required to publish, as soon as possible, the information received, together with the date of notification of that information. Member States should be allowed to require that notifications, and updates to notifications, be subject to the payment of a one-off fee. That fee should be set at a level which does not exceed the administrative cost of processing notifications and updates.</p>
+            </recital>
+            <recital xml:id="rec_d230e242">
+               <num>(15)</num>
+               <p>The maker should also inform the certificate holder, through appropriate and documented means, of the intention to make a product, or a medicinal product containing that product, pursuant to the exception, by providing the certificate holder with the same information as notified to the authority. That information should be limited to what is necessary and appropriate for the certificate holder to assess whether the rights conferred by the certificate are being respected, and should not include confidential or commercially sensitive information. The standard form for notification could also be used to inform the certificate holder, and the information provided should be updated as and when appropriate.</p>
+            </recital>
+            <recital xml:id="rec_d230e249">
+               <num>(16)</num>
+               <p>With regard to related acts, if any, prior to the making of a product, or a medicinal product containing that product, the notification should indicate the name of the Member State in which the first related act which would otherwise require the consent of a certificate holder is to take place, as that information is relevant for the timing of the notification.</p>
+            </recital>
+            <recital xml:id="rec_d230e255">
+               <num>(17)</num>
+               <p>If a local marketing authorisation, or the equivalent of such authorisation, in a specific third country, for a given medicinal product, is published after the authority is notified, the notification should be promptly updated to include the reference number of that marketing authorisation, or the equivalent of such authorisation, as soon as it is publicly available. If the reference number of that marketing authorisation, or the equivalent of such authorisation, is pending publication, the maker should be required to provide, in the notification, that reference number as soon as it is publicly available.</p>
+            </recital>
+            <recital xml:id="rec_d230e261">
+               <num>(18)</num>
+               <p>For reasons of proportionality, failure to comply with the requirement regarding a third country should only affect exports to that country, and exports to that country should, thus, not benefit from the exception provided for in this Regulation. It should be the responsibility of the maker established in the Union to verify that protection does not exist or has expired in a country of export, or whether that protection is subject to any limitations or exemptions in that country.</p>
+            </recital>
+            <recital xml:id="rec_d230e267">
+               <num>(19)</num>
+               <p>A notification to the authority and the corresponding information to the certificate holder could be provided during the period between the date of entry into force of this Regulation and the date on which the exception provided for in this Regulation becomes applicable for the relevant certificate.</p>
+            </recital>
+            <recital xml:id="rec_d230e274">
+               <num>(20)</num>
+               <p>This Regulation should impose certain due diligence requirements on the maker as a condition to use the exception. The maker should be required to inform persons within its supply chain in the Union, including the exporter and the person carrying out the storing, through appropriate and documented means, in particular contractual means, that the product, or the medicinal product containing that product, is covered by the exception provided for in this Regulation and that the making is intended for the purpose of export or storing. A maker who fails to comply with those due diligence requirements should not benefit from the exception, nor should any third party performing a related act in the Member State of making or in a different Member State in which a certificate conferring protection for the product is in force. The holder of the relevant certificate would, therefore, be entitled to enforce its rights under the certificate, while having due regard to the general obligation, provided for in Directive 2004/48/EC of the European Parliament and of the Council<authorialNote placement="bottom" marker="6">
+                     <p>Directive 2004/48/EC of the European Parliament and of the Council of 29 April 2004 on the enforcement of intellectual property rights (OJ L 157, 30.4.2004, p. 45).</p>
+                  </authorialNote>, not to engage in abusive litigation.</p>
+            </recital>
+            <recital xml:id="rec_d230e290">
+               <num>(21)</num>
+               <p>This Regulation should impose labelling requirements on the maker in respect of products, or medicinal products containing those products, to be exported, in order to facilitate, by means of a logo, identification of such products or such medicinal products as being exclusively intended for the purpose of export to third countries. Making for the purpose of export and related acts should only fall within the scope of the exception if the product, or the medicinal product containing that product, is labelled in the manner provided for in this Regulation. That labelling obligation should be without prejudice to labelling requirements of third countries.</p>
+            </recital>
+            <recital xml:id="rec_d230e296">
+               <num>(22)</num>
+               <p>Any act not covered by the exception provided for in this Regulation should remain within the scope of the protection conferred by a certificate. Any diversion onto the Union market, during the term of the certificate, of any product, or any medicinal product containing that product, made under the exception, should remain prohibited.</p>
+            </recital>
+            <recital xml:id="rec_d230e302">
+               <num>(23)</num>
+               <p>This Regulation is without prejudice to other intellectual property rights that could protect other aspects of a product, or a medicinal product containing that product. This Regulation does not affect the application of Union acts that aim to prevent infringements, and facilitate enforcement, of intellectual property rights, including Directive 2004/48/EC and Regulation (EU) No 608/2013 of the European Parliament and of the Council<authorialNote placement="bottom" marker="7">
+                     <p>Regulation (EU) No 608/2013 of the European Parliament and of the Council of 12 June 2013 concerning customs enforcement of intellectual property rights and repealing Council Regulation (EC) No 1383/2003 (OJ L 181, 29.6.2013, p. 15).</p>
+                  </authorialNote>.</p>
+            </recital>
+            <recital xml:id="rec_d230e319">
+               <num>(24)</num>
+               <p>This Regulation does not affect the rules on the unique identifier, provided for in Directive 2001/83/EC. The maker should ensure that any medicinal product made for the purpose of export, pursuant to this Regulation, does not bear an active unique identifier within the meaning of Commission Delegated Regulation (EU) 2016/161<authorialNote placement="bottom" marker="8">
+                     <p>Commission Delegated Regulation (EU) 2016/161 of 2 October 2015 supplementing Directive 2001/83/EC of the European Parliament and of the Council by laying down detailed rules for the safety features appearing on the packaging of medicinal products for human use (OJ L 32, 9.2.2016, p. 1).</p>
+                  </authorialNote>. However, under that Delegated Regulation, the requirement to carry such an active unique identifier applies to medicinal products intended to be placed on the market of a Member State upon expiry of the corresponding certificate.</p>
+            </recital>
+            <recital xml:id="rec_d230e335">
+               <num>(25)</num>
+               <p>This Regulation does not affect the application of Directives 2001/82/EC and 2001/83/EC, in particular the requirements relating to the manufacturing authorisation of medicinal products made for export. This includes compliance with the principles and guidelines of good manufacturing practices for medicinal products and using only active substances which have been manufactured in accordance with good manufacturing practices for active substances and distributed in accordance with good distribution practices for active substances.</p>
+            </recital>
+            <recital xml:id="rec_d230e341">
+               <num>(26)</num>
+               <p>To safeguard the rights of certificate holders, the exception provided for in this Regulation should not apply to a certificate that has already taken effect at the date of entry into force of this Regulation. In order to ensure that the rights of certificate holders are not excessively restricted, the exception should apply to certificates that are applied for on or after the date of entry into force of this Regulation. Given that a certificate takes effect at the end of the lawful term of the basic patent, which can be a relatively long time after the date of filing of the application for the certificate, and in order to achieve the aim of this Regulation, it is justified that this Regulation also cover, over a certain period of time, a certificate that was applied for before the date of entry into force of this Regulation, but has not yet taken effect before that date, irrespective of whether or not that certificate was granted before that date. The exception should apply, therefore, from 2 July 2022 to a certificate that takes effect from the date of entry into force of this Regulation. The concept of &apos;certain period of time&apos; for each individual certificate that takes effect after the date of entry into force of this Regulation should ensure that the exception is applied, on a progressive basis, to such a certificate, depending on the date on which it takes effect and on its duration. Such application of the exception would allow the holder of a certificate that has been granted, but that has not yet taken effect by the date of the entry into force of this Regulation, a reasonable period of transition to adapt to the changed legal context, while at the same time ensuring that makers of generics and biosimilars can benefit effectively, without excessive delay, from the exception.</p>
+            </recital>
+            <recital xml:id="rec_d230e354">
+               <num>(27)</num>
+               <p>Typically, an applicant for a certificate files an application at approximately the same date in each Member State of filing. However, due to differences in national procedures for the examination of applications, the date of grant of the certificate might vary significantly from one Member State to another, thereby creating disparities in the legal situation of the applicant in the Member States in which the certificate was applied for. Introducing the exception on the basis of the date of the filing of the application for a certificate would, therefore, promote uniformity and limit the risk of disparities.</p>
+            </recital>
+            <recital xml:id="rec_d230e360">
+               <num>(28)</num>
+               <p>The Commission should carry out a regular evaluation of this Regulation. Pursuant to the Interinstitutional Agreement of 13 April 2016 on Better Law-Making<authorialNote placement="bottom" marker="9">
+                     <p>OJ L 123, 12.5.2016, p. 1.</p>
+                  </authorialNote>, that evaluation should be based on the five criteria of effectiveness, efficiency, relevance, coherence and added value and should provide the basis for impact assessments of possible further measures. That evaluation should take into account, on the one hand, exports to outside the Union, and on the other, the effects of storing on the swifter entry of generics and especially biosimilars into markets in the Union as soon as possible after a certificate expires. Such regular evaluation should also address the effects of this Regulation on the making of generics and biosimilars in the Union by makers of generics and biosimilars established in the Union. In that context, it would be important to ascertain whether making that was previously taking place outside of the Union would be moved to within Union territory. In particular, that evaluation should review the effectiveness of the exception in the light of the aim to restore a global level playing field for makers of generics and biosimilars in the Union. It should also study the impact of the exception on research and production of innovative medicines in the Union by certificate holders and consider the balance between the different interests at stake, in particular as regards public health, public expenditure and, in this context, access to medicines within the Union. It should also study whether the period provided for as regards the making of generics and biosimilars for the purpose of storing is sufficient to achieve the objective of EU day-one entry, including its effects on public health.</p>
+            </recital>
+            <recital xml:id="rec_d230e377">
+               <num>(29)</num>
+               <p>Since the objective of this Regulation, namely to promote the competitiveness of the Union, in a manner that creates a level playing field for makers of generics and biosimilars in relation to their competitors in third-country markets in which protection does not exist or has expired, by laying down rules enabling the making of a product, or a medicinal product containing that product, during the term of the corresponding certificate, and also by providing for certain information, labelling and due diligence obligations for makers that use those rules, cannot be sufficiently achieved by the Member States but can rather, by reason of its scale and effects, be better achieved at Union level, the Union may adopt measures, in accordance with the principle of subsidiarity as set out in Article 5 of the Treaty on European Union. In accordance with the principle of proportionality as set out in that Article, this Regulation does not go beyond what is necessary in order to achieve that objective.</p>
+            </recital>
+            <recital xml:id="rec_d230e383">
+               <num>(30)</num>
+               <p>This Regulation respects fundamental rights and observes the principles recognised by the Charter of Fundamental Rights of the European Union (&apos;the Charter&apos;). In particular, this Regulation seeks to ensure full respect for the right to property and the right to health care set out respectively in Articles 17 and 35 of the Charter. This Regulation should maintain the core rights of the certificate, by limiting the exception provided for in this Regulation to the making of a product, or a medicinal product containing that product, only for the purpose of export outside the Union or for the purpose of storing for a limited period of time with a view to entry into the Union market upon expiry of the protection, and to the acts strictly necessary for such making or for the actual export or the actual storing. In the light of those fundamental rights and principles, the exception provided for in this Regulation does not go beyond what is necessary and appropriate in the light of the overall objective of this Regulation, which is to promote the competitiveness of the Union by avoiding relocation and allowing makers of generics and biosimilars established in the Union to compete, on the one hand, on fast-growing global markets where protection does not exist or has already expired, and on the other, on the Union market upon expiry of the certificate. Indeed, it is necessary to benefit from the positive economic effects arising from the exception, as otherwise the Union would risk substantially weakening its position as a hub for pharmaceutical development and manufacturing. It is, therefore, appropriate to introduce that exception in order to increase the competitive position of makers of generics and biosimilars established in the Union in third countries whose markets are in any event open to competition, whilst leaving the scope and duration of the protection granted by the certificate in the Union untouched. The appropriateness of the measure is further ensured by providing for appropriate safeguards regulating the use of the exception. This Regulation should allow sufficient time for public authorities to put in place the necessary arrangements to receive and publish notifications,</p>
+            </recital>
+         </recitals>
+         <formula name="enactingFormula">
+            <p>HAVE ADOPTED THIS REGULATION:</p>
+         </formula>
+      </preamble>
+      <body>
+         <article xml:id="art_d230e396" leos:compliant="false">
+            <num>Article 1</num>
+            <heading>Amendment of Regulation (EC) No 469/2009</heading>
+            <paragraph>
+               <subparagraph>
+                  <content>
+                     <p>Regulation (EC) No 469/2009 is amended as follows:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(1)</num>
+                     <alinea>
+                        <content>
+                           <p>in Article 1, the following point is added:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <list>
+                                       <point>
+                                          <num>&apos;(f)</num>
+                                          <content>
+                                             <p>&quot;maker&quot; means the person, established in the Union, on whose behalf the making of a product, or a medicinal product containing that product, for the purpose of export to third countries or for the purpose of storing, is carried out;&apos;;</p>
+                                          </content>
+                                       </point>
+                                    </list>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(2)</num>
+                     <alinea>
+                        <content>
+                           <p>Article 5 is replaced by the following:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <article xml:id="art_d230e434">
+                                       <num>&apos;Article 5</num>
+                                       <heading>Effects of the certificate</heading>
+                                       <paragraph>
+                                          <num>1.</num>
+                                          <content>
+                                             <p>Subject to the provisions of Article 4, the certificate shall confer the same rights as conferred by the basic patent and shall be subject to the same limitations and the same obligations.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>2.</num>
+                                          <subparagraph>
+                                             <content>
+                                                <p>By way of derogation from paragraph 1, the certificate referred to in paragraph 1 shall not confer protection against certain acts which would otherwise require the consent of the holder of the certificate (&quot;the certificate holder&quot;), if the following conditions are met:</p>
+                                             </content>
+                                          </subparagraph>
+                                          <list>
+                                             <point>
+                                                <num>(a)</num>
+                                                <alinea>
+                                                   <content>
+                                                      <p>the acts comprise:</p>
+                                                   </content>
+                                                </alinea>
+                                                <list>
+                                                   <point>
+                                                      <num>(i)</num>
+                                                      <content>
+                                                         <p>the making of a product, or a medicinal product containing that product, for the purpose of export to third countries; or</p>
+                                                      </content>
+                                                   </point>
+                                                   <point>
+                                                      <num>(ii)</num>
+                                                      <content>
+                                                         <p>any related act that is strictly necessary for the making, in the Union, referred to in point (i), or for the actual export; or</p>
+                                                      </content>
+                                                   </point>
+                                                   <point>
+                                                      <num>(iii)</num>
+                                                      <content>
+                                                         <p>the making, no earlier than six months before the expiry of the certificate, of a product, or a medicinal product containing that product, for the purpose of storing it in the Member State of making, in order to place that product, or a medicinal product containing that product, on the market of Member States after the expiry of the corresponding certificate; or</p>
+                                                      </content>
+                                                   </point>
+                                                   <point>
+                                                      <num>(iv)</num>
+                                                      <content>
+                                                         <p>any related act that is strictly necessary for the making, in the Union, referred to in point (iii), or for the actual storing, provided that such related act is carried out no earlier than six months before the expiry of the certificate.</p>
+                                                      </content>
+                                                   </point>
+                                                </list>
+                                             </point>
+                                             <point>
+                                                <num>(b)</num>
+                                                <content>
+                                                   <p>the maker, through appropriate and documented means, notifies the authority referred to in Article 9(1) in the Member State in which that making is to take place, and informs the certificate holder, of the information listed in paragraph 5 of this Article no later than three months before the start date of the making in that Member State, or no later than three months before the first related act, prior to that making, that would otherwise be prohibited by the protection conferred by a certificate, whichever is the earlier;</p>
+                                                </content>
+                                             </point>
+                                             <point>
+                                                <num>(c)</num>
+                                                <content>
+                                                   <p>if the information listed in paragraph 5 of this Article changes, the maker notifies the authority referred to in Article 9(1) and informs the certificate holder, before those changes take effect;</p>
+                                                </content>
+                                             </point>
+                                             <point>
+                                                <num>(d)</num>
+                                                <content>
+                                                   <p>in the case of products, or medicinal products containing those products, made for the purpose of export to third countries, the maker ensures that a logo, in the form set out in Annex -I, is affixed to the outer packaging of the product, or the medicinal product containing that product, referred to in point (a)(i) of this paragraph, and, where feasible, to its immediate packaging;</p>
+                                                </content>
+                                             </point>
+                                             <point>
+                                                <num>(e)</num>
+                                                <content>
+                                                   <p>the maker complies with paragraph 9 of this Article and, if applicable, with Article 12(2).</p>
+                                                </content>
+                                             </point>
+                                          </list>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>3.</num>
+                                          <content>
+                                             <p>The exception referred to in paragraph 2 shall not apply to any act or activity carried out for the import of products, or medicinal products containing those products, into the Union merely for the purpose of repackaging, re-exporting or storing.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>4.</num>
+                                          <content>
+                                             <p>The information provided to the certificate holder for the purposes of points (b) and (c) of paragraph 2 shall be used exclusively for the purposes of verifying whether the requirements of this Regulation have been met and, where applicable, initiating legal proceedings for non-compliance.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>5.</num>
+                                          <subparagraph>
+                                             <content>
+                                                <p>The information to be provided by the maker for the purposes of point (b) of paragraph 2 shall be as follows:</p>
+                                             </content>
+                                          </subparagraph>
+                                          <list>
+                                             <point>
+                                                <num>(a)</num>
+                                                <content>
+                                                   <p>the name and address of the maker;</p>
+                                                </content>
+                                             </point>
+                                             <point>
+                                                <num>(b)</num>
+                                                <content>
+                                                   <p>an indication of whether the making is for the purpose of export, for the purpose of storing, or for the purpose of both export and storing;</p>
+                                                </content>
+                                             </point>
+                                             <point>
+                                                <num>(c)</num>
+                                                <content>
+                                                   <p>the Member State in which the making and, if applicable, also the storing is to take place, and the Member State in which the first related act, if any, prior to that making is to take place;</p>
+                                                </content>
+                                             </point>
+                                             <point>
+                                                <num>(d)</num>
+                                                <content>
+                                                   <p>the number of the certificate granted in the Member State of making, and the number of the certificate granted in the Member State of the first related act, if any, prior to that making; and</p>
+                                                </content>
+                                             </point>
+                                             <point>
+                                                <num>(e)</num>
+                                                <content>
+                                                   <p>for medicinal products to be exported to third countries, the reference number of the marketing authorisation, or the equivalent of such authorisation, in each third country of export, as soon as it is publicly available.</p>
+                                                </content>
+                                             </point>
+                                          </list>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>6.</num>
+                                          <content>
+                                             <p>For the purposes of notification to the authority under points (b) and (c) of paragraph 2, the maker shall use the standard form for notification contained in Annex -Ia.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>7.</num>
+                                          <content>
+                                             <p>Failure to comply with the requirements of point (e) of paragraph 5 with regard to a third country shall only affect exports to that country, and those exports shall, therefore, not benefit from the exception.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>8.</num>
+                                          <content>
+                                             <p>The maker shall ensure that medicinal products made pursuant to point (a)(i) of paragraph 2 do not bear an active unique identifier within the meaning of Commission Delegated Regulation (EU) 2016/161<authorialNote placement="bottom" marker="10">
+                                                   <p>Commission Delegated Regulation (EU) 2016/161 of 2 October 2015 supplementing Directive 2001/83/EC of the European Parliament and of the Council by laying down detailed rules for the safety features appearing on the packaging of medicinal products for human use (OJ L 32, 9.2.2016, p. 1).&apos;;</p>
+                                                </authorialNote>.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>9.</num>
+                                          <subparagraph>
+                                             <content>
+                                                <p>The maker shall ensure, through appropriate and documented means, that any person in a contractual relationship with the maker who performs acts falling under point (a) of paragraph 2 is fully informed and aware of the following:</p>
+                                             </content>
+                                          </subparagraph>
+                                          <list>
+                                             <point>
+                                                <num>(a)</num>
+                                                <content>
+                                                   <p>that those acts are subject to paragraph 2;</p>
+                                                </content>
+                                             </point>
+                                             <point>
+                                                <num>(b)</num>
+                                                <content>
+                                                   <p>that the placing on the market, import or re-import of the product, or the medicinal product containing that product, referred to in point (a)(i) of paragraph 2 or the placing on the market of the product, or the medicinal product containing that product, referred to in point (a)(iii) of paragraph 2 could infringe the certificate referred to in paragraph 2 where, and for as long as, that certificate applies.</p>
+                                                </content>
+                                             </point>
+                                          </list>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>10.</num>
+                                          <subparagraph>
+                                             <content>
+                                                <p>Paragraph 2 shall apply to certificates that are applied for on or after 1 July 2019.</p>
+                                             </content>
+                                          </subparagraph>
+                                          <subparagraph>
+                                             <content>
+                                                <p>Paragraph 2 shall also apply to certificates that have been applied for before 1 July 2019 and that take effect on or after that date. Paragraph 2 shall only apply to such certificates from 2 July 2022.</p>
+                                             </content>
+                                          </subparagraph>
+                                          <subparagraph>
+                                             <content>
+                                                <p>Paragraph 2 shall not apply to certificates that take effect before 1 July 2019.</p>
+                                             </content>
+                                          </subparagraph>
+                                       </paragraph>
+                                    </article>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(3)</num>
+                     <alinea>
+                        <content>
+                           <p>in Article 11, the following paragraph is added:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <paragraph>
+                                       <num>&apos;4.</num>
+                                       <content>
+                                          <p>The authority referred to in Article 9(1) shall publish, as soon as possible, the information listed in Article 5(5), together with the date of notification of that information. It shall also publish, as soon as possible, any changes to the information notified in accordance with point (c) of Article 5(2).&apos;;</p>
+                                       </content>
+                                    </paragraph>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(4)</num>
+                     <alinea>
+                        <content>
+                           <p>Article 12 is replaced by the following:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <article xml:id="art_d230e653">
+                                       <num>&apos;Article 12</num>
+                                       <heading>Fees</heading>
+                                       <paragraph>
+                                          <num>1.</num>
+                                          <content>
+                                             <p>Member States may require that the certificate be subject to the payment of annual fees.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>2.</num>
+                                          <content>
+                                             <p>Member States may require that the notifications referred to in points (b) and (c) of Article 5(2) be subject to the payment of a fee.&apos;;</p>
+                                          </content>
+                                       </paragraph>
+                                    </article>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(5)</num>
+                     <alinea>
+                        <content>
+                           <p>the following Article is inserted:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <article xml:id="art_d230e679">
+                                       <num>&apos;Article 21a</num>
+                                       <heading>Evaluation</heading>
+                                       <paragraph>
+                                          <content>
+                                             <p>No later than five years after the date referred to in Article 5(10), and every five years thereafter, the Commission shall carry out an evaluation of Article 5(2) to (9) and Article 11 in order to assess whether the objectives of those provisions have been achieved, and present a report on the main findings to the European Parliament, the Council and the European Economic and Social Committee. In addition to evaluating the impact of the exception of making for the purpose of export, special account shall be taken of the effects of making for the purpose of storing in order to place that product, or a medicinal product containing that product, on the market of Member States after the expiry of the corresponding certificate on access to medicines and on public health expenditure, and of whether the waiver and in particular the period provided for in point (a)(iii) of Article 5(2) is sufficient to achieve the objectives referred to in Article 5, including public health.&apos;;</p>
+                                          </content>
+                                       </paragraph>
+                                    </article>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(6)</num>
+                     <content>
+                        <p>Annexes -I and -Ia as set out in the Annex to this Regulation are inserted.</p>
+                     </content>
+                  </point>
+               </list>
+            </paragraph>
+         </article>
+         <article xml:id="art_d230e695">
+            <num>Article 2</num>
+            <heading>Entry into force</heading>
+            <paragraph>
+               <content>
+                  <p>This Regulation shall enter into force on the twentieth day following that of its publication in the <i>Official Journal of the European Union</i>.</p>
+               </content>
+            </paragraph>
+         </article>
+         <clause>
+            <content>
+               <p>This Regulation shall be binding in its entirety and directly applicable in all Member States.</p>
+            </content>
+         </clause>
+      </body>
+      <conclusions>
+         <p>Done at Brussels, 20 May 2019.</p>
+         <block name="signatory">
+            <signature>
+               <organization refersTo="">For the European Parliament</organization>
+               <role refersTo="">The President</role>
+               <person refersTo="">A. TAJANI</person>
+            </signature>
+            <signature>
+               <organization refersTo="">For the Council</organization>
+               <role refersTo="">The President</role>
+               <person refersTo="">G. CIAMBA</person>
+            </signature>
+         </block>
+      </conclusions>
+   </bill>
+</akomaNtoso>

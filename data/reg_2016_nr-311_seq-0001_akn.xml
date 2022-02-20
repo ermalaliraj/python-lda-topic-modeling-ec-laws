@@ -1,0 +1,472 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"
+            xmlns:fmx="http://formex.publications.europa.eu/schema/formex-05.21-20110601.xd"
+            xmlns:leos="urn:eu:europa:ec:leos"
+            xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <bill name="">
+      <meta xmlns:fn="http://www.w3.org/2005/xpath-functions">
+         <identification source="~COM">
+            <FRBRWork>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRcountry value=""/>
+            </FRBRWork>
+            <FRBRExpression>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+            </FRBRManifestation>
+         </identification>
+      </meta>
+      <preface>
+         <longTitle>
+            <p>
+               <docStage/>
+               <docType>REGULATION (EU) 2016/1952 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL</docType>of 26 October 2016<docPurpose>on European statistics on natural gas and electricity prices and repealing Directive 2008/92/EC</docPurpose>
+            </p>
+         </longTitle>
+         <container name="EEArelevance">
+            <p>(Text with EEA relevance)</p>
+         </container>
+      </preface>
+      <preamble>
+         <formula name="actingEntity">
+            <p>THE EUROPEAN PARLIAMENT AND THE COUNCIL OF THE EUROPEAN UNION,</p>
+         </formula>
+         <citations>
+            <citation>
+               <p>Having regard to the Treaty on the Functioning of the European Union, and in particular Article 338(1) thereof,</p>
+            </citation>
+            <citation>
+               <p>Having regard to the proposal from the European Commission,</p>
+            </citation>
+            <citation>
+               <p>After transmission of the draft legislative act to the national parliaments,</p>
+            </citation>
+            <citation>
+               <p>Acting in accordance with the ordinary legislative procedure<authorialNote placement="bottom" marker="1">
+                     <p>Position of the European Parliament of 13 September 2016 (not yet published in the Official Journal) and decision of the Council of 13 October 2016.</p>
+                  </authorialNote>,</p>
+            </citation>
+         </citations>
+         <recitals xml:id="recs_d125e78">
+            <intro>
+               <p>Whereas:</p>
+            </intro>
+            <recital xml:id="rec_d125e81">
+               <num>(1)</num>
+               <p>Competitiveness, sustainability and energy security are the overarching goals of a resilient energy union with a forward-looking climate change policy.</p>
+            </recital>
+            <recital xml:id="rec_d125e87">
+               <num>(2)</num>
+               <p>High-quality, comparable, up-to-date, reliable and harmonised data on natural gas and electricity prices charged to final customers are needed in order to draft energy union policy and monitor the Member States&apos; energy markets.</p>
+            </recital>
+            <recital xml:id="rec_d125e93">
+               <num>(3)</num>
+               <p>This Regulation aims to provide for a common framework for European statistics to underpin energy policies in particular towards the creation of a fully integrated internal energy market for customers. Greater transparency on energy costs and prices, as well as on the level of public support, should be made available to improve market integration. This Regulation does not entail any harmonisation of the structure of prices or charges across Member States.</p>
+            </recital>
+            <recital xml:id="rec_d125e99">
+               <num>(4)</num>
+               <p>To date, Directive 2008/92/EC of the European Parliament and of the Council<authorialNote placement="bottom" marker="2">
+                     <p>Directive 2008/92/EC of the European Parliament and of the Council of 22 October 2008 concerning a Community procedure to improve the transparency of gas and electricity prices charged to industrial end-users (OJ L 298, 7.11.2008, p. 9).</p>
+                  </authorialNote> has provided a common framework for producing, transmitting and disseminating comparable statistics on the natural gas and electricity prices charged to industrial customers in the Union.</p>
+            </recital>
+            <recital xml:id="rec_d125e115">
+               <num>(5)</num>
+               <p>The collection of data on natural gas and electricity prices charged to final customers in the household sector has so far been carried out on the basis of a voluntary agreement.</p>
+            </recital>
+            <recital xml:id="rec_d125e121">
+               <num>(6)</num>
+               <p>The growing complexity of the internal energy market makes it increasingly difficult to obtain reliable and up-to-date price data on natural gas and electricity in the absence of legally binding obligations to provide such data, in particular on the household sector.</p>
+            </recital>
+            <recital xml:id="rec_d125e128">
+               <num>(7)</num>
+               <p>In order to guarantee the reporting of high-quality price data for the household sector and for the non-household sector, the collection of both types of data should be covered by a legislative act.</p>
+            </recital>
+            <recital xml:id="rec_d125e134">
+               <num>(8)</num>
+               <p>In most Member States, data on transmission systems are available from energy regulators. However, a much larger number of data compilers are involved in distribution costs and the reporting of data is considered to be more difficult in some Member States. Given the significance of distribution costs and the need for transparency on this matter, the collection of data on natural gas and electricity prices should follow the established practices within the European Statistical System.</p>
+            </recital>
+            <recital xml:id="rec_d125e140">
+               <num>(9)</num>
+               <p>The system of consumption bands used by the Commission (Eurostat) in its price publications should ensure transparency of the market and broad dissemination of non-confidential price data, and should enable the calculation of European aggregates.</p>
+            </recital>
+            <recital xml:id="rec_d125e147">
+               <num>(10)</num>
+               <p>Regulation (EC) No 223/2009 of the European Parliament and of the Council<authorialNote placement="bottom" marker="3">
+                     <p>Regulation (EC) No 223/2009 of the European Parliament and of the Council of 11 March 2009 on European statistics and repealing Regulation (EC, Euratom) No 1101/2008 of the European Parliament and of the Council on the transmission of data subject to statistical confidentiality to the Statistical Office of the European Communities, Council Regulation (EC) No 322/97 on Community Statistics, and Council Decision 89/382/EEC, Euratom establishing a Committee on the Statistical Programmes of the European Communities (OJ L 87, 31.3.2009, p. 164).</p>
+                  </authorialNote> is the reference framework for European statistics. That Regulation provides for statistics to be collected in accordance with the principles of impartiality, transparency, reliability, objectivity, professional independence and cost-effectiveness, while protecting statistical confidentiality.</p>
+            </recital>
+            <recital xml:id="rec_d125e163">
+               <num>(11)</num>
+               <p>Member States should compile the data on natural gas and electricity prices by using the most appropriate sources and methods to provide the required information.</p>
+            </recital>
+            <recital xml:id="rec_d125e169">
+               <num>(12)</num>
+               <p>Data on prices charged to final customers of natural gas and electricity should enable comparisons with the prices of other energy commodities.</p>
+            </recital>
+            <recital xml:id="rec_d125e175">
+               <num>(13)</num>
+               <p>Information on the collection of data on prices and on the quality of data should be provided as part of standard reporting procedure.</p>
+            </recital>
+            <recital xml:id="rec_d125e181">
+               <num>(14)</num>
+               <p>Detailed data on the breakdown of consumption bands and their respective market shares are an essential part of natural gas and electricity price statistics.</p>
+            </recital>
+            <recital xml:id="rec_d125e187">
+               <num>(15)</num>
+               <p>Price analysis can be carried out only if high-quality official statistics are available from Member States regarding the different components and sub-components of natural gas and electricity prices. A revised methodology for generating a detailed breakdown of the various components and sub-components of the prices of natural gas and electricity charged to final customers will make it possible to analyse the impact of different aspects on the final prices.</p>
+            </recital>
+            <recital xml:id="rec_d125e193">
+               <num>(16)</num>
+               <p>The data provided to the Commission (Eurostat) on prices and conditions of sale to final customers, and the breakdown of the number of final customers by consumption in each consumption band, should contain all the information necessary to enable the Commission to decide on appropriate measures or proposals in relation to energy policy.</p>
+            </recital>
+            <recital xml:id="rec_d125e199">
+               <num>(17)</num>
+               <p>A good understanding of the taxes, fees, levies and charges in each Member State is essential for ensuring price transparency. The importance of a breakdown of the data on network costs, taxes, fees, levies and charges has been identified.</p>
+            </recital>
+            <recital xml:id="rec_d125e205">
+               <num>(18)</num>
+               <p>Member States in which there is low consumption of natural gas as a proportion of the final energy consumption of households should be exempt from the obligation to provide data on natural gas prices for final household customers.</p>
+            </recital>
+            <recital xml:id="rec_d125e212">
+               <num>(19)</num>
+               <p>To improve data reliability, the Commission (Eurostat), together with the Member States, should assess and, if required, improve the methodology for collecting and processing data in a precise manner, in accordance with the governance framework for statistics. Therefore, quality reports should be prepared regularly and assessments of the quality of price data should be carried out regularly.</p>
+            </recital>
+            <recital xml:id="rec_d125e219">
+               <num>(20)</num>
+               <p>Based on a reasoned request from a Member State, the Commission should be entitled to grant derogations to that Member State in relation to specific obligations for which the application of this Regulation to the national statistical system of that Member State requires major adaptations or is likely to lead to a significant additional burden on respondents.</p>
+            </recital>
+            <recital xml:id="rec_d125e225">
+               <num>(21)</num>
+               <p>In order to ensure uniform conditions for the implementation of this Regulation, implementing powers should be conferred on the Commission as regards the format of and arrangements for the transmission of data, technical quality assurance requirements regarding the content of standard quality reports, and the granting of derogations. Those powers should be exercised in accordance with Regulation (EU) No 182/2011 of the European Parliament and of the Council<authorialNote placement="bottom" marker="4">
+                     <p>Regulation (EU) No 182/2011 of the European Parliament and of the Council of 16 February 2011 laying down the rules and general principles concerning mechanisms for control by Member States of the Commission&apos;s exercise of implementing powers (OJ L 55, 28.2.2011, p. 13).</p>
+                  </authorialNote>.</p>
+            </recital>
+            <recital xml:id="rec_d125e241">
+               <num>(22)</num>
+               <p>Since the objective of this Regulation, namely the establishment of a common legal framework for the systematic production of European statistics on natural gas and electricity prices, cannot be sufficiently achieved by the Member States but can rather, by reason of its scale and effects, be better achieved at Union level, the Union may adopt measures, in accordance with the principle of subsidiarity as set out in Article 5 of the Treaty on European Union. In accordance with the principle of proportionality, as set out in that Article, this Regulation does not go beyond what is necessary to achieve that objective.</p>
+            </recital>
+            <recital xml:id="rec_d125e247">
+               <num>(23)</num>
+               <p>Directive 2008/92/EC should therefore be repealed.</p>
+            </recital>
+            <recital xml:id="rec_d125e253">
+               <num>(24)</num>
+               <p>The European Statistical System Committee has been consulted,</p>
+            </recital>
+         </recitals>
+         <formula name="enactingFormula">
+            <p>HAVE ADOPTED THIS REGULATION:</p>
+         </formula>
+      </preamble>
+      <body>
+         <article xml:id="art_d125e262">
+            <num>Article 1</num>
+            <heading>Subject matter</heading>
+            <paragraph>
+               <content>
+                  <p>This Regulation establishes a common framework for the development, production and dissemination of comparable European statistics on natural gas and electricity prices for household and final non-household customers in the Union.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d125e269">
+            <num>Article 2</num>
+            <heading>Definitions</heading>
+            <paragraph>
+               <subparagraph>
+                  <content>
+                     <p>For the purposes of this Regulation, the following definitions apply:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(1)</num>
+                     <content>
+                        <p>&apos;autoproducers&apos;, &apos;final energy consumption&apos; and &apos;household&apos; have the same meaning as that attributed to those terms in Annex A to Regulation (EC) No 1099/2008 of the European Parliament and of the Council<authorialNote placement="bottom" marker="5">
+                              <p>Regulation (EC) No 1099/2008 of the European Parliament and of the Council of 22 October 2008 on energy statistics (OJ L 304, 14.11.2008, p. 1).</p>
+                           </authorialNote>;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(2)</num>
+                     <content>
+                        <p>&apos;transmission&apos;, &apos;distribution&apos;, &apos;customer&apos;, &apos;final customer&apos;, &apos;household customer&apos;, &apos;non-household customer&apos; and &apos;supply&apos; have the same meaning as that attributed to those terms in Article 2 of Directive 2009/72/EC of the European Parliament and of the Council<authorialNote placement="bottom" marker="6">
+                              <p>Directive 2009/72/EC of the European Parliament and of the Council of 13 July 2009 concerning common rules for the internal market in electricity and repealing Directive 2003/54/EC (OJ L 211, 14.8.2009, p. 55).</p>
+                           </authorialNote>, when used in relation to electricity;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(3)</num>
+                     <content>
+                        <p>&apos;transmission&apos;, &apos;distribution&apos;, &apos;supply&apos;, &apos;customer&apos;, &apos;household customer&apos;, &apos;non-household customer&apos; and &apos;final customer&apos; have the same meaning as that attributed to those terms in Article 2 of Directive 2009/73/EC of the European Parliament and of the Council<authorialNote placement="bottom" marker="7">
+                              <p>Directive 2009/73/EC of the European Parliament and of the Council of 13 July 2009 concerning common rules for the internal market in natural gas and repealing Directive 2003/55/EC (OJ L 211, 14.8.2009, p. 94).</p>
+                           </authorialNote>, when used in relation to natural gas;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(4)</num>
+                     <content>
+                        <p>&apos;network component&apos; means the combination of transmission and distribution network costs as set out in point 6 of Annex I and in point 5 of Annex II.</p>
+                     </content>
+                  </point>
+               </list>
+            </paragraph>
+         </article>
+         <article xml:id="art_d125e406">
+            <num>Article 3</num>
+            <heading>Data sources</heading>
+            <paragraph>
+               <subparagraph>
+                  <content>
+                     <p>Member States shall compile data on natural gas and electricity prices, and their components and sub-components concerning network costs, taxes, fees, levies and charges, and on consumption volumes, in accordance with Annexes I and II. One or more of the following sources shall be used, after taking into account the principles of reducing burden on respondents and of administrative simplification:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <content>
+                        <p>statistical surveys;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <content>
+                        <p>administrative sources;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(c)</num>
+                     <content>
+                        <p>other sources applying statistical estimation methods.</p>
+                     </content>
+                  </point>
+               </list>
+            </paragraph>
+         </article>
+         <article xml:id="art_d125e433">
+            <num>Article 4</num>
+            <heading>Coverage</heading>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>Member States shall ensure that the data collection and compilation in accordance with Annexes I and II provide comprehensible and comparable high-quality data that are representative of their respective natural gas and electricity prices and consumption.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>Member States shall not be obliged to transmit data on natural gas prices for household customers if the consumption of natural gas in the household sector accounts for less than 1,5 % of national final energy consumption in the household sector.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <content>
+                  <p>At least every three years, the Commission (Eurostat) shall review which Member States are not obliged to transmit data pursuant to paragraph 2.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d125e453">
+            <num>Article 5</num>
+            <heading>Data transmission</heading>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>Member States shall provide to the Commission (Eurostat) the data as set out in Annexes I and II.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>The Commission shall adopt implementing acts establishing the format and arrangements for the transmission of the data as set out in Annexes I and II. Those implementing acts shall be adopted in accordance with the examination procedure referred to in Article 10(2).</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <content>
+                  <p>Member States shall provide statistics to the Commission (Eurostat) within three months of the end of the relevant reference period.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d125e473">
+            <num>Article 6</num>
+            <heading>Reference periods and transmission frequency</heading>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>The reference periods for the data specified in Annexes I and II shall be annual (January to December) or biannual (January to June and July to December). The first reference periods shall start in 2017.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <subparagraph>
+                  <content>
+                     <p>The transmission frequency shall be:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <content>
+                        <p>annual (for the period from January to December) for data referred to in points 6(a) and 7 of Annex I and points 5(a) and 6 of Annex II;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <content>
+                        <p>biannual (for the periods from January to June and from July to December) for data referred to in point 6(b) of Annex I and point 5(b) of Annex II.</p>
+                     </content>
+                  </point>
+               </list>
+            </paragraph>
+         </article>
+         <article xml:id="art_d125e502">
+            <num>Article 7</num>
+            <heading>Quality assurance</heading>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>Member States shall ensure the quality of the data provided in accordance with this Regulation. To that end, the standard quality criteria laid down in Article 12(1) of Regulation (EC) No 223/2009 apply.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>Member States shall inform the Commission (Eurostat), without delay, of any methodological or other changes that might have a significant impact on natural gas and electricity price statistics, and in any event no later than one month after that change occurs.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <content>
+                  <p>Every three years, Member States shall provide the Commission (Eurostat) with a standard quality report on the data in accordance with the quality criteria laid down in Article 12(1) of Regulation (EC) No 223/2009. Those reports shall include information on the scope and collection of the data, the calculation criteria, the methodology and data sources used, and any changes thereto.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>4.</num>
+               <content>
+                  <p>The Commission (Eurostat) shall assess the quality of the data provided and shall use that assessment and an analysis of the quality reports referred to in paragraph 3 in order to prepare and publish a report on the quality of European statistics covered by this Regulation.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>5.</num>
+               <content>
+                  <p>The Commission shall adopt implementing acts establishing technical quality assurance requirements regarding the content of the quality reports referred to in paragraph 3 of this Article. Those implementing acts shall be adopted in accordance with the examination procedure referred to in Article 10(2).</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d125e533">
+            <num>Article 8</num>
+            <heading>Dissemination</heading>
+            <paragraph>
+               <content>
+                  <p>The Commission (Eurostat) shall disseminate natural gas and electricity price statistics no later than five months after the end of each reference period.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d125e540">
+            <num>Article 9</num>
+            <heading>Derogations</heading>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>Derogations may be granted by the Commission by means of implementing acts in relation to specific obligations for which the application of this Regulation to the national statistical system of a Member State requires major adaptations or is likely to lead to a significant additional burden on respondents. Those implementing acts shall be adopted in accordance with the examination procedure referred to in Article 10(2).</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>For the purposes of paragraph 1, the Member State concerned shall submit a duly reasoned request to the Commission by 8 August 2017.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <content>
+                  <p>Derogations granted pursuant to paragraph 1 shall remain in force for the shortest period of time possible and in any event for no longer than three years.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>4.</num>
+               <content>
+                  <p>A Member State that has been granted a derogation pursuant to paragraph 1 shall apply the relevant provisions of Directive 2008/92/EC for the duration of the derogation.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d125e568">
+            <num>Article 10</num>
+            <heading>Committee procedure</heading>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>The Commission shall be assisted by the European Statistical System Committee established by Regulation (EC) No 223/2009. That Committee shall be a committee within the meaning of Regulation (EU) No 182/2011.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>Where reference is made to this paragraph, Article 5 of Regulation (EU) No 182/2011 shall apply.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d125e583">
+            <num>Article 11</num>
+            <heading>Repeal of Directive 2008/92/EC</heading>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>Directive 2008/92/EC is repealed with effect from 1 March 2017.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>Notwithstanding paragraph 1 of this Article, Directive 2008/92/EC shall continue to apply under the conditions provided for in Article 9 of this Regulation.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <content>
+                  <p>References to the repealed Directive shall be construed as references to this Regulation.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d125e608">
+            <num>Article 12</num>
+            <heading>Entry into force</heading>
+            <paragraph>
+               <content>
+                  <p>This Regulation shall enter into force on the twentieth day following that of its publication in the <i>Official Journal of the European Union</i>.</p>
+               </content>
+            </paragraph>
+         </article>
+         <clause>
+            <content>
+               <p>This Regulation shall be binding in its entirety and directly applicable in all Member States.</p>
+            </content>
+         </clause>
+      </body>
+      <conclusions>
+         <p>Done at Strasbourg, 26 October 2016.</p>
+         <block name="signatory">
+            <signature>
+               <organization refersTo="">For the European Parliament</organization>
+               <role refersTo="">The President</role>
+               <person refersTo="">M. SCHULZ</person>
+            </signature>
+            <signature>
+               <organization refersTo="">For the Council</organization>
+               <role refersTo="">The President</role>
+               <person refersTo="">I. LESAY</person>
+            </signature>
+         </block>
+      </conclusions>
+   </bill>
+</akomaNtoso>

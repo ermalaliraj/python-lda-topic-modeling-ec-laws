@@ -1,0 +1,563 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"
+            xmlns:fmx="http://formex.publications.europa.eu/schema/formex-05.21-20110601.xd"
+            xmlns:leos="urn:eu:europa:ec:leos"
+            xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <bill name="">
+      <meta xmlns:fn="http://www.w3.org/2005/xpath-functions">
+         <identification source="~COM">
+            <FRBRWork>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRcountry value=""/>
+            </FRBRWork>
+            <FRBRExpression>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+            </FRBRManifestation>
+         </identification>
+      </meta>
+      <preface>
+         <longTitle>
+            <p>
+               <docStage/>
+               <docType>REGULATION (EU) 2016/793 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL</docType>of 11 May 2016<docPurpose>to avoid trade diversion into the European Union of certain key medicines</docPurpose>
+            </p>
+         </longTitle>
+         <container name="EEArelevance">
+            <p>(codification)</p>
+         </container>
+      </preface>
+      <preamble>
+         <formula name="actingEntity">
+            <p>THE EUROPEAN PARLIAMENT AND THE COUNCIL OF THE EUROPEAN UNION,</p>
+         </formula>
+         <citations>
+            <citation>
+               <p>Having regard to the Treaty on the Functioning of the European Union, and in particular Article 207(2) thereof,</p>
+            </citation>
+            <citation>
+               <p>Having regard to the proposal from the European Commission,</p>
+            </citation>
+            <citation>
+               <p>After transmission of the draft legislative act to the national parliaments,</p>
+            </citation>
+            <citation>
+               <p>Acting in accordance with the ordinary legislative procedure<authorialNote placement="bottom" marker="1">
+                     <p>Position of the European Parliament of 9 March 2016 (not yet published in the Official Journal) and decision of the Council of 11 April 2016.</p>
+                  </authorialNote>,</p>
+            </citation>
+         </citations>
+         <recitals xml:id="recs_d348e77">
+            <intro>
+               <p>Whereas:</p>
+            </intro>
+            <recital xml:id="rec_d348e80">
+               <num>(1)</num>
+               <p>Council Regulation (EC) No 953/2003<authorialNote placement="bottom" marker="2">
+                     <p>Council Regulation (EC) No 953/2003 of 26 May 2003 to avoid trade diversion into the European Union of certain key medicines (OJ L 135, 3.6.2003, p. 5).</p>
+                  </authorialNote> has been substantially amended several times<authorialNote placement="bottom" marker="3">
+                     <p>See Annex VI.</p>
+                  </authorialNote>. In the interests of clarity and rationality, that Regulation should be codified.</p>
+            </recital>
+            <recital xml:id="rec_d348e100">
+               <num>(2)</num>
+               <p>Many of the poorest developing countries are in urgent need of access to affordable essential medicines for the treatment of communicable diseases. Those countries are heavily dependent on imports of medicines as local manufacturing is scarce.</p>
+            </recital>
+            <recital xml:id="rec_d348e106">
+               <num>(3)</num>
+               <p>Price segmentation between developed country markets and the poorest developing country markets is necessary to ensure that the poorest developing countries are supplied with essential pharmaceutical products at heavily reduced prices. Therefore, those heavily reduced prices cannot be understood as a reference for the price to be paid for the same products in developed country markets.</p>
+            </recital>
+            <recital xml:id="rec_d348e112">
+               <num>(4)</num>
+               <p>Legislative and regulatory instruments are in place in most developed countries to prevent the importation, in certain circumstances, of pharmaceutical products, but such instruments risk becoming insufficient where substantial volumes of heavily discounted pharmaceuticals are sold to the poorest developing country markets, and the economic interest in trade diversion into high priced markets therefore may increase significantly.</p>
+            </recital>
+            <recital xml:id="rec_d348e118">
+               <num>(5)</num>
+               <p>There is a need to encourage pharmaceutical manufacturers to make pharmaceutical products available at heavily reduced prices in significantly increased volumes by ensuring through this Regulation that such products remain on the poorest developing country markets. Donations of pharmaceutical products and products sold under contracts awarded in response to competitive tenders from national governments or international procurement bodies, or under a partnership agreed between the manufacturer and the government of a country of destination should be able to qualify under this Regulation on equal conditions, bearing in mind that donations do not contribute to the improvement of access to such products on a sustainable basis.</p>
+            </recital>
+            <recital xml:id="rec_d348e124">
+               <num>(6)</num>
+               <p>It is necessary to provide for a procedure which identifies the products, countries and diseases covered by this Regulation.</p>
+            </recital>
+            <recital xml:id="rec_d348e131">
+               <num>(7)</num>
+               <p>This Regulation serves the purpose of preventing tiered-priced products from being imported into the Union. Exemptions are laid down for certain situations on the strict condition that it is ensured that the final destination of the products in question is one of the countries listed in Annex II.</p>
+            </recital>
+            <recital xml:id="rec_d348e137">
+               <num>(8)</num>
+               <p>Manufacturers of tiered-priced products should differentiate the appearance of tiered- priced products to facilitate the task of identifying them.</p>
+            </recital>
+            <recital xml:id="rec_d348e143">
+               <num>(9)</num>
+               <p>It will be appropriate to review the lists of the diseases and the countries of destination covered by this Regulation, as well as the formulae used to identify tiered-priced products in the light, inter alia, of the experience gained from its application.</p>
+            </recital>
+            <recital xml:id="rec_d348e150">
+               <num>(10)</num>
+               <p>With regard to tiered-priced products contained in travellers&apos; personal luggage for personal use, the same rules as set out in Regulation (EU) No 608/2013 of the European Parliament and of the Council<authorialNote placement="bottom" marker="4">
+                     <p>Regulation (EU) No 608/2013 of the European Parliament and of the Council of 12 June 2013 concerning customs enforcement of intellectual property rights and repealing Council Regulation (EC) No 1383/2003 (OJ L 181, 29.6.2013, p. 15).</p>
+                  </authorialNote> apply.</p>
+            </recital>
+            <recital xml:id="rec_d348e166">
+               <num>(11)</num>
+               <p>Where tiered-priced products have been seized under this Regulation, the competent authority should be able, in accordance with national legislation and with a view to ensuring that the intended use is made of the seized products to the full benefit of the countries listed in Annex II, to decide to make them available for humanitarian purposes in those countries. In the absence of such decision, the seized products should be destroyed.</p>
+            </recital>
+            <recital xml:id="rec_d348e172">
+               <num>(12)</num>
+               <p>In order to add products to the list of products covered by this Regulation, the power to adopt acts in accordance with Article 290 of the Treaty on the Functioning of the European Union should be delegated to the Commission in order to amend the Annexes to this Regulation. It is of particular importance that the Commission carry out appropriate consultations during its preparatory work, including at expert level. The Commission, when preparing and drawing up delegated acts, should ensure a simultaneous, timely and appropriate transmission of relevant documents to the European Parliament and to the Council,</p>
+            </recital>
+         </recitals>
+         <formula name="enactingFormula">
+            <p>HAVE ADOPTED THIS REGULATION:</p>
+         </formula>
+      </preamble>
+      <body>
+         <article xml:id="art_d348e181">
+            <num>Article 1</num>
+            <heading/>
+            <paragraph>
+               <num>1.</num>
+               <subparagraph>
+                  <content>
+                     <p>This Regulation lays down:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <content>
+                        <p>the criteria for establishing what is a tiered-priced product;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <content>
+                        <p>the conditions under which the customs authorities shall take action;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(c)</num>
+                     <content>
+                        <p>the measures which shall be taken by the competent authorities in the Member States.</p>
+                     </content>
+                  </point>
+               </list>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <subparagraph>
+                  <content>
+                     <p>For the purposes of this Regulation:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <content>
+                        <p>&apos;tiered-priced product&apos; means any pharmaceutical product which is used in the prevention, diagnosis or treatment of a disease, referred to in Annex IV, and which is priced in accordance with one of the optional price calculations set out in Article 3, verified by the Commission or an independent auditor as provided for in Article 4 and entered in the list of tiered-priced products set out in Annex I;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <content>
+                        <p>&apos;countries of destination&apos; means the countries listed in Annex II;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(c)</num>
+                     <content>
+                        <p>&apos;competent authority&apos; means an authority designated by a Member State to determine whether goods suspended by the customs authorities in the respective Member State are tiered-priced products and to give instructions depending on the outcome of the review.</p>
+                     </content>
+                  </point>
+               </list>
+            </paragraph>
+         </article>
+         <article xml:id="art_d348e244">
+            <num>Article 2</num>
+            <heading/>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>The importation into the Union of tiered-priced products for the purposes of release for free circulation, re-export, placing under suspensive procedures or placing in a free zone or free warehouse shall be prohibited.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <subparagraph>
+                  <content>
+                     <p>The following shall be exempted from the prohibition regarding tiered-priced products as set out in paragraph 1:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <content>
+                        <p>re-export to countries of destination;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <content>
+                        <p>placing under a transit or customs warehouse procedure or in a free zone or free warehouse for the purpose of re-export to a country of destination.</p>
+                     </content>
+                  </point>
+               </list>
+            </paragraph>
+         </article>
+         <article xml:id="art_d348e271">
+            <num>Article 3</num>
+            <heading/>
+            <paragraph>
+               <subparagraph>
+                  <content>
+                     <p>The tiered price referred to in Article 4(2)(b) shall, at the option of the applicant, be either:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <content>
+                        <p>no higher than the percentage set out in Annex III of the weighted average ex factory price charged by a manufacturer in markets of the Organisation for Economic Cooperation and Development (OECD) for the same product at the time of application; or</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <content>
+                        <p>a manufacturer&apos;s direct production costs, with the addition of the maximum percentage which is set out in Annex III.</p>
+                     </content>
+                  </point>
+               </list>
+            </paragraph>
+         </article>
+         <article xml:id="art_d348e290">
+            <num>Article 4</num>
+            <heading/>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>In order for products to benefit from this Regulation, manufacturers or exporters of pharmaceutical products shall submit applications to the Commission.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <subparagraph>
+                  <content>
+                     <p>Any application addressed to the Commission shall contain the following information:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <content>
+                        <p>the product name and active ingredient of the tiered-priced product and sufficient information to verify which disease it prevents, diagnoses or treats;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <content>
+                        <p>the price offered in relation to either of the optional price calculations set out in Article 3 in sufficient detail to enable verification. Instead of submitting such detailed information, the applicant may submit a certificate, issued by an independent auditor, stating that the price has been verified and corresponds to one of the criteria set out in Annex III. The independent auditor shall be appointed in agreement between the manufacturer and the Commission. Any information submitted by the applicant to the auditor shall remain confidential;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(c)</num>
+                     <content>
+                        <p>the country or countries of destination to which the applicant intends to sell the product concerned;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(d)</num>
+                     <content>
+                        <p>the code number based on the Combined Nomenclature as set out in Annex I to Council Regulation (EEC) No 2658/87<authorialNote placement="bottom" marker="5">
+                              <p>Council Regulation (EEC) No 2658/87 of 23 July 1987 on the tariff and statistical nomenclature and on the Common Customs Tariff (OJ L 256, 7.9.1987, p. 1).</p>
+                           </authorialNote> and, where appropriate, supplemented by TARIC subdivisions, to identify unambiguously the goods concerned; and</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(e)</num>
+                     <content>
+                        <p>any measures taken by the manufacturer or exporter to make the tiered-priced product easily distinguishable from identical products offered for sale within the Union.</p>
+                     </content>
+                  </point>
+               </list>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <subparagraph>
+                  <content>
+                     <p>Where the Commission determines that a product fulfils the requirements set out in this Regulation, the Commission shall be empowered to adopt delegated acts in accordance with Article 5 to add the product concerned to Annex I at the next update. The Commission shall inform the applicant of its decision within 15 days of its adoption thereof.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>Where a delay in the addition of a product to Annex I would cause a delay in responding to an urgent need for access to affordable essential medicines in a developing country, and therefore imperative grounds of urgency so require, the procedure provided for in Article 6 shall apply to delegated acts adopted pursuant to the first subparagraph.</p>
+                  </content>
+               </subparagraph>
+            </paragraph>
+            <paragraph>
+               <num>4.</num>
+               <content>
+                  <p>If an application is not sufficiently detailed for a review as to substance, the Commission shall request the applicant in writing to submit such missing information. If the applicant does not complete the application within the time period set out in that written request, the application shall be null and void.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>5.</num>
+               <content>
+                  <p>If the Commission finds that the application does not fulfil the criteria set out in this Regulation, the application shall be rejected and the applicant shall be informed within 15 days of the date of the decision. Nothing shall prevent the applicant from submitting a modified application for the same product.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>6.</num>
+               <content>
+                  <p>Products destined to be donated to recipients in one of the countries listed in Annex II may be the subject of a notification to that effect for the purposes of approval and insertion in Annex I.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>7.</num>
+               <content>
+                  <p>Annex I shall be updated every second month by the Commission.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>8.</num>
+               <content>
+                  <p>The Commission shall be empowered to adopt delegated acts in accordance with Article 5 to amend Annexes II, III and IV where necessary in order to revise the list of diseases, the countries of destination covered by this Regulation, as well as the formulae used to identify tiered-priced products, in the light of the experience gained from its application or to respond to a health crisis.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d348e378">
+            <num>Article 5</num>
+            <heading/>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>The power to adopt delegated acts is conferred on the Commission subject to the conditions laid down in this Article.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>The power to adopt delegated acts referred to in Article 4(3) and (8) shall be conferred on the Commission for a period of 5 years from 20 February 2014. The Commission shall draw up a report in respect of the delegation of power not later than nine months before the end of the 5-year period. The delegation of power shall be tacitly extended for periods of an identical duration, unless the European Parliament or the Council opposes such extension not later than three months before the end of each period.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <content>
+                  <p>The delegation of power referred to in Article 4(3) and (8) may be revoked at any time by the European Parliament or by the Council. A decision to revoke shall put an end to the delegation of power specified in that decision. It shall take effect the day following the publication of the decision in the <i>Official Journal of the European Union</i> or at a later date specified therein. It shall not affect the validity of any delegated acts already in force.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>4.</num>
+               <content>
+                  <p>As soon as it adopts a delegated act, the Commission shall notify it simultaneously to the European Parliament and to the Council.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>5.</num>
+               <content>
+                  <p>A delegated act adopted pursuant to Article 4(3) shall enter into force only if no objection has been expressed either by the European Parliament or the Council within a period of two months of notification of that act to the European Parliament and the Council or if, before the expiry of that period, the European Parliament and the Council have both informed the Commission that they will not object. That period shall be extended by two months at the initiative of the European Parliament or of the Council.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>6.</num>
+               <content>
+                  <p>A delegated act adopted pursuant to Article 4(8) shall enter into force only if no objection has been expressed either by the European Parliament or the Council within a period of two months of notification of that act to the European Parliament and the Council or if, before the expiry of that period, the European Parliament and the Council have both informed the Commission that they will not object. That period shall be extended by four months at the initiative of the European Parliament or of the Council.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d348e418">
+            <num>Article 6</num>
+            <heading/>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>Delegated acts adopted under this Article shall enter into force without delay and shall apply as long as no objection is expressed in accordance with paragraph 2. The notification of a delegated act to the European Parliament and to the Council shall state the reasons for the use of the urgency procedure laid down in this Article.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>Either the European Parliament or the Council may object to a delegated act in accordance with the procedure referred to in Article 5(5) and (6). In such a case, the Commission shall repeal the act without delay following the notification of the decision to object by the European Parliament or by the Council.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d348e431">
+            <num>Article 7</num>
+            <heading/>
+            <paragraph>
+               <content>
+                  <p>A product approved as a tiered-priced product and listed in Annex I shall remain on that list for as long as the conditions set out in Article 4 are fulfilled and annual sales reports have been submitted to the Commission in accordance with Article 12. The applicant shall submit information to the Commission on any change which has occurred with respect to the scope or conditions set out in Article 4 in order to ensure that those requirements are met.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d348e436">
+            <num>Article 8</num>
+            <heading/>
+            <paragraph>
+               <content>
+                  <p>A permanent logo, as set out in Annex V, shall be affixed to any packaging or product and any document used in connection with the approved product sold at tiered prices to countries of destination. This requirement shall apply as long as the tiered-priced product concerned remains listed in Annex I.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d348e441">
+            <num>Article 9</num>
+            <heading/>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>Where there is reason to suspect that, contrary to the prohibition provided for in Article 2, tiered-priced products will be imported into the Union, customs authorities shall suspend the release of, or detain, the products concerned for the time necessary to obtain a decision of the competent authorities on the character of the merchandise. The period of suspension or detention shall not exceed 10 working days unless special circumstances apply, in which case the period may be extended by a maximum of 10 working days. Upon expiry of that period, the products shall be released, provided that all customs formalities have been complied with.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>It shall be sufficient reason for the customs authorities to suspend the release of, or detain, products if there is sufficient information available to consider that the product in question is tiered priced.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <content>
+                  <p>The competent authority in the Member State concerned and the manufacturer or exporter mentioned in Annex I shall be informed without delay of the suspended release or detention of the products and shall receive all information available with respect to the products concerned. Due account shall be taken of national provisions on the protection of personal data, commercial and industrial secrecy, and professional and administrative confidentiality. The importer and, where appropriate, the exporter, shall be given ample opportunity to supply the competent authority with the information which it deems appropriate regarding the products.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>4.</num>
+               <content>
+                  <p>The procedure of suspension or detention of the goods shall be carried out at the expense of the importer. If it is not possible to recover those expenses from the importer, they may, in accordance with national legislation, be recovered from any other person responsible for the attempted illicit importation.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d348e466">
+            <num>Article 10</num>
+            <heading/>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>If products suspended for release or detained by customs authorities are recognised by the competent authority as tiered-priced products under this Regulation, the competent authority shall ensure that those products are seized and disposed of in accordance with national legislation. Those procedures shall be carried out at the expense of the importer. If it is not possible to recover those expenses from the importer, they may, in accordance with national legislation, be recovered from any other person responsible for the attempted illicit importation.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>Where products suspended for release or detained by customs authorities subsequent to further control by the competent authority are found not to qualify as tiered-priced products under this Regulation, the customs authority shall release the products to the consignee, provided that all customs formalities have been complied with.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <content>
+                  <p>The competent authority shall inform the Commission of all decisions adopted pursuant to this Regulation.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d348e484">
+            <num>Article 11</num>
+            <heading/>
+            <paragraph>
+               <content>
+                  <p>This Regulation shall not apply to goods of a non-commercial nature contained in travellers&apos; personal luggage for personal use within the limits laid down in respect of relief from customs duty.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d348e489">
+            <num>Article 12</num>
+            <heading/>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>The Commission shall monitor on an annual basis the volumes of exports of tiered-priced products listed in Annex I and exported to the countries of destination on the basis of information provided to it by pharmaceutical manufacturers and exporters. For this purpose a standard form shall be issued by the Commission. Manufacturers and exporters shall submit such sales reports annually for each tiered-priced product to the Commission on a confidential basis.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>The Commission shall report biennially to the European Parliament and to the Council on the volumes exported under tiered prices, including on the volumes exported within the framework of a partnership agreement agreed between the manufacturer and the government of a country of destination. The report shall examine the scope of countries and diseases and general criteria for the implementation of Article 3.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <content>
+                  <p>The European Parliament may, within one month of submission of the Commission&apos;s report, invite the Commission to an ad hoc meeting of its responsible committee to present and explain any issues related to the application of this Regulation.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>4.</num>
+               <content>
+                  <p>No later than six months from the date of submission of the report to the European Parliament and to the Council, the Commission shall make the report public.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d348e512">
+            <num>Article 13</num>
+            <heading/>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>The application of this Regulation shall in no circumstances interfere with procedures laid down in Directive 2001/83/EC of the European Parliament and of the Council<authorialNote placement="bottom" marker="6">
+                        <p>Directive 2001/83/EC of the European Parliament and of the Council of 6 November 2001 on the Community code relating to medicinal products for human use (OJ L 311, 28.11.2001, p. 67).</p>
+                     </authorialNote> and Regulation (EC) No 726/2004 of the European Parliament and of the Council<authorialNote placement="bottom" marker="7">
+                        <p>Regulation (EC) No 726/2004 of the European Parliament and of the Council of 31 March 2004 laying down Community procedures for the authorisation and supervision of medicinal products for human and veterinary use and establishing a European Medicines Agency (OJ L 136, 30.4.2004, p. 1).</p>
+                     </authorialNote>.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>This Regulation shall not interfere with intellectual property rights or rights of intellectual property owners.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d348e546">
+            <num>Article 14</num>
+            <heading/>
+            <paragraph>
+               <content>
+                  <p>Regulation (EC) No 953/2003 is repealed.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <content>
+                  <p>References to the repealed Regulation shall be construed as references to this Regulation and shall be read in accordance with the correlation table in Annex VII.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d348e553">
+            <num>Article 15</num>
+            <heading/>
+            <paragraph>
+               <content>
+                  <p>This Regulation shall enter into force on the twentieth day following that of its publication in the <i>Official Journal of the European Union</i>.</p>
+               </content>
+            </paragraph>
+         </article>
+         <clause>
+            <content>
+               <p>This Regulation shall be binding in its entirety and directly applicable in all Member States.</p>
+            </content>
+         </clause>
+      </body>
+      <conclusions>
+         <p>Done at Strasbourg, 11 May 2016.</p>
+         <block name="signatory">
+            <signature>
+               <organization refersTo="">For the European Parliament</organization>
+               <role refersTo="">The President</role>
+               <person refersTo="">M. SCHULZ</person>
+            </signature>
+            <signature>
+               <organization refersTo="">For the Council</organization>
+               <role refersTo="">The President</role>
+               <person refersTo="">J.A. HENNIS-PLASSCHAERT</person>
+            </signature>
+         </block>
+      </conclusions>
+   </bill>
+</akomaNtoso>

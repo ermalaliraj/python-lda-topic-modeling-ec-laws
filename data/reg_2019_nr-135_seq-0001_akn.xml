@@ -1,0 +1,2553 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"
+            xmlns:fmx="http://formex.publications.europa.eu/schema/formex-05.21-20110601.xd"
+            xmlns:leos="urn:eu:europa:ec:leos"
+            xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <bill name="">
+      <meta xmlns:fn="http://www.w3.org/2005/xpath-functions">
+         <identification source="~COM">
+            <FRBRWork>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRcountry value=""/>
+            </FRBRWork>
+            <FRBRExpression>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+            </FRBRManifestation>
+         </identification>
+      </meta>
+      <preface>
+         <longTitle>
+            <p>
+               <docStage/>
+               <docType>REGULATION (EU) 2019/816 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL</docType>of 17 April 2019<docPurpose>establishing a centralised system for the identification of Member States holding conviction information on third-country nationals and stateless persons (ECRIS-TCN) to supplement the European Criminal Records Information System and amending Regulation (EU) 2018/1726</docPurpose>
+            </p>
+         </longTitle>
+      </preface>
+      <preamble>
+         <formula name="actingEntity">
+            <p>THE EUROPEAN PARLIAMENT AND THE COUNCIL OF THE EUROPEAN UNION,</p>
+         </formula>
+         <citations>
+            <citation>
+               <p>Having regard to the Treaty of the Functioning of the European Union, and in particular Article 82(1), second subparagraph, point (d) thereof,</p>
+            </citation>
+            <citation>
+               <p>Having regard to the proposal from the European Commission,</p>
+            </citation>
+            <citation>
+               <p>After transmission of the draft legislative act to the national parliaments,</p>
+            </citation>
+            <citation>
+               <p>Acting in accordance with the ordinary legislative procedure<authorialNote placement="bottom" marker="1">
+                     <p>Position of the European Parliament of 12 March 2019 (not yet published in the Official Journal) and decision of the Council of 9 April 2019.</p>
+                  </authorialNote>,</p>
+            </citation>
+         </citations>
+         <recitals xml:id="recs_d346e75">
+            <intro>
+               <p>Whereas:</p>
+            </intro>
+            <recital xml:id="rec_d346e78">
+               <num>(1)</num>
+               <p>The Union has set itself the objective of offering its citizens an area of freedom, security and justice without internal frontiers, in which the free movement of persons is ensured. That objective should be achieved by means of, among others, appropriate measures to prevent and combat crime, including organised crime and terrorism.</p>
+            </recital>
+            <recital xml:id="rec_d346e84">
+               <num>(2)</num>
+               <p>That objective requires that information on convictions handed down in the Member States be taken into account outside the convicting Member State in the course of new criminal proceedings, as laid down in Council Framework Decision 2008/675/JHA<authorialNote placement="bottom" marker="2">
+                     <p>Council Framework Decision 2008/675/JHA of 24 July 2008 on taking account of convictions in the Member States of the European Union in the course of new criminal proceedings (OJ L 220, 15.8.2008, p. 32).</p>
+                  </authorialNote>, as well as in order to prevent new offences.</p>
+            </recital>
+            <recital xml:id="rec_d346e100">
+               <num>(3)</num>
+               <p>That objective presupposes the exchange of information extracted from criminal records between the competent authorities of the Member States. Such an exchange of information is organised and facilitated by the rules set out in Council Framework Decision 2009/315/JHA<authorialNote placement="bottom" marker="3">
+                     <p>Council Framework Decision 2009/315/JHA of 26 February 2009 on the organisation and content of the exchange of information extracted from the criminal record between Member States (OJ L 93, 7.4.2009, p. 23).</p>
+                  </authorialNote> and by the European Criminal Records Information System (ECRIS), established by Council Decision 2009/316/JHA<authorialNote placement="bottom" marker="4">
+                     <p>Council Decision 2009/316/JHA of 6 April 2009 on the establishment of the European Criminal Records Information System (ECRIS) in application of Article 11 of Framework Decision 2009/315/JHA (OJ L 93, 7.4.2009, p. 33).</p>
+                  </authorialNote>.</p>
+            </recital>
+            <recital xml:id="rec_d346e126">
+               <num>(4)</num>
+               <p>The existing ECRIS legal framework, however, does not sufficiently address the particularities of requests concerning third-country nationals. Although it is already possible to exchange information on third-country nationals through ECRIS, there is no common Union procedure or mechanism in place to do so efficiently, rapidly and accurately.</p>
+            </recital>
+            <recital xml:id="rec_d346e132">
+               <num>(5)</num>
+               <p>Within the Union, information on third-country nationals is not gathered as it is for nationals of Member States &#45; in the Member States of nationality &#45; but only stored in the Member States where the convictions have been handed down. A complete overview of the criminal history of a third-country national can therefore be ascertained only if such information is requested from all Member States.</p>
+            </recital>
+            <recital xml:id="rec_d346e139">
+               <num>(6)</num>
+               <p>Such &apos;blanket requests&apos; impose a disproportionate administrative burden on all Member States, including those not holding information on the particular third-country national. In practice, that burden deters Member States from requesting information on third-country nationals from other Member States, which seriously hinders the exchange of information between them, limiting their access to criminal records information to information stored in their national register. As a consequence, the risk of information exchange between Member States being inefficient and incomplete is increased, which in turn affects the level of security and safety provided to citizens and persons residing within the Union.</p>
+            </recital>
+            <recital xml:id="rec_d346e149">
+               <num>(7)</num>
+               <p>To improve the situation, a system should be established by which the central authority of a Member State can find out promptly and efficiently which other Member States hold criminal records information on a third-country national (&apos;ECRIS-TCN&apos;). The existing ECRIS framework could then be used to request the criminal records information from those Member States in accordance with Framework Decision 2009/315/JHA.</p>
+            </recital>
+            <recital xml:id="rec_d346e159">
+               <num>(8)</num>
+               <p>This Regulation should therefore lay down rules establishing a centralised system at the Union level containing personal data, and rules on the division of responsibilities between the Member State and the organisation responsible for the development and maintenance of the centralised system, as well as any specific data protection provisions needed to supplement the existing data protection arrangements and to provide for an adequate overall level of data protection, data security and protection of the fundamental rights of the persons concerned.</p>
+            </recital>
+            <recital xml:id="rec_d346e165">
+               <num>(9)</num>
+               <p>The objective of offering to citizens of the Union an area of freedom, security and justice without internal frontiers, in which the free movement of persons is ensured, also requires complete information to be held on convictions of citizens of the Union who also hold the nationality of a third country. Given the possibility that those persons could present themselves as holding one or several nationalities, and that different convictions could be stored in the convicting Member State or in the Member State of nationality, it is necessary to include citizens of the Union who also hold the nationality of a third country within the scope of this Regulation. The exclusion of such persons would result in the information stored in ECRIS-TCN being incomplete. That would jeopardise the reliability of the system. However, since such persons hold Union citizenship, the conditions under which fingerprint data can be included in ECRIS-TCN in respect of those persons should be comparable to the conditions under which the fingerprint data of Union citizens are exchanged between Member States through ECRIS, which was established by Framework Decision 2009/315/JHA and Decision 2009/316/JHA. Therefore, in respect of citizens of the Union who also hold the nationality of a third country, fingerprint data should only be included in ECRIS-TCN where they have been collected in accordance with national law during criminal proceedings, it being understood that for such inclusion Member States should be able to use fingerprint data collected for purposes other than criminal proceedings, where such use is permitted under national law.</p>
+            </recital>
+            <recital xml:id="rec_d346e172">
+               <num>(10)</num>
+               <p>ECRIS-TCN should allow for processing of fingerprint data for the purpose of identifying the Member States in possession of criminal records information on a third-country national. It should also allow for processing of facial images in order to confirm his or her identity. It is essential that the entry and use of fingerprint data and facial images not exceed what is strictly necessary to achieve the aim, respect fundamental rights, as well as the best interests of children, and be in conformity with applicable Union data protection rules.</p>
+            </recital>
+            <recital xml:id="rec_d346e178">
+               <num>(11)</num>
+               <p>The European Union Agency for the Operational Management of Large-Scale IT Systems in the Area of Freedom, Security and Justice (eu-LISA) established by Regulation (EU) 2018/1726 of the European Parliament and of the Council<authorialNote placement="bottom" marker="5">
+                     <p>Regulation (EU) 2018/1726 of the European Parliament and of the Council of 14 November 2018 on the European Union Agency for the Operational Management of Large-Scale IT Systems in the Area of Freedom, Security and Justice (eu-LISA), and amending Regulation (EC) No 1987/2006 and Council Decision 2007/533/JHA and repealing Regulation (EU) No 1077/2011 (OJ L 295, 21.11.2018, p. 99).</p>
+                  </authorialNote> should be entrusted with the task of developing and operating ECRIS-TCN, given its experience with managing other large scale systems in the area of justice and home affairs. Its mandate should be amended to reflect those new tasks.</p>
+            </recital>
+            <recital xml:id="rec_d346e194">
+               <num>(12)</num>
+               <p>eu-LISA should be equipped with the appropriate funding and staffing to meet its responsibilities under this Regulation.</p>
+            </recital>
+            <recital xml:id="rec_d346e200">
+               <num>(13)</num>
+               <p>Given the need to create close technical links between ECRIS-TCN and ECRIS, eu-LISA should also be entrusted with the task of further developing and maintaining the ECRIS reference implementation, and its mandate should be amended to reflect this.</p>
+            </recital>
+            <recital xml:id="rec_d346e206">
+               <num>(14)</num>
+               <p>Four Member States have developed their own national ECRIS implementation software in accordance with Decision 2009/316/JHA, and have been using it instead of the ECRIS reference implementation to exchange criminal records information. Given the particular features that those Member States have introduced in their systems for national use and the investments that they have made, they should be allowed to use their national ECRIS implementation software for the purposes of ECRIS-TCN as well, provided that the conditions set out in this Regulation are met.</p>
+            </recital>
+            <recital xml:id="rec_d346e213">
+               <num>(15)</num>
+               <p>ECRIS-TCN should contain only the identity information of third-country nationals convicted by a criminal court within the Union. Such identity information should include alphanumeric and fingerprint data. It should also be possible for facial images to be included in as far as the law of the Member State where a conviction is handed down allows for the collection and storage of facial images of a convicted person.</p>
+            </recital>
+            <recital xml:id="rec_d346e219">
+               <num>(16)</num>
+               <p>The alphanumeric data to be entered by the Member States into the central system should include the surname (family name) and the first names (given names) of the convicted person, as well as, where such information is available to the central authority, any pseudonyms or aliases of that person. If differing personal data, such as a different spelling of a name in another alphabet, are known to the Member State concerned, it should be possible to enter such data into the central system as additional information.</p>
+            </recital>
+            <recital xml:id="rec_d346e225">
+               <num>(17)</num>
+               <p>The alphanumeric data should also include, as additional information, the identity number, or the type and number of the person&apos;s identification documents, as well as the name of the authority issuing those documents, where such information is available to the central authority. The Member State should seek to verify the authenticity of identification documents before entering the relevant information in the central system. In any case, given that such information could be unreliable, it should be used cautiously.</p>
+            </recital>
+            <recital xml:id="rec_d346e231">
+               <num>(18)</num>
+               <p>The central authorities should use ECRIS-TCN to identify the Member States holding criminal records information on a third-country national when criminal records information on that person is requested in the Member State concerned for the purposes of criminal proceedings against that person, or for the purposes referred to in this Regulation. While ECRIS-TCN should in principle be used in all such cases, the authority responsible for conducting the criminal proceedings should be able to decide that ECRIS-TCN should not be used when it would not be appropriate in the circumstances of the case, e.g. in certain types of urgent criminal proceedings, in cases of transit, when criminal records information has recently been obtained via ECRIS, or in respect of minor offences, in particular minor traffic offences, minor offences in relation to general municipal regulations and minor public order offences.</p>
+            </recital>
+            <recital xml:id="rec_d346e237">
+               <num>(19)</num>
+               <p>Member States should also be able to use ECRIS-TCN for purposes other than those set out in this Regulation, if provided for under and in accordance with national law. However, in order to enhance the transparency of the use of ECRIS-TCN, Member States should notify such other purposes to the Commission, which should ensure publication of all the notifications in the <i>Official Journal of the European Union</i>.</p>
+            </recital>
+            <recital xml:id="rec_d346e247">
+               <num>(20)</num>
+               <p>It should also be possible for other authorities requesting criminal records information to decide that ECRIS-TCN should not be used when this would not be appropriate in the circumstances of the case, e.g. when certain standard administrative checks need to be carried out regarding the professional qualifications of a person, especially if it is known that criminal records information will not be requested from other Member States, irrespective of the result of the search in ECRIS-TCN. However, ECRIS-TCN should always be used when the request for criminal records information has been initiated by a person who asks for information on his or her own criminal record in accordance with Framework Decision 2009/315/JHA, or when it is made in order to obtain criminal records information in accordance with Directive 2011/93/EU of the European Parliament and of the Council<authorialNote placement="bottom" marker="6">
+                     <p>Directive 2011/93/EU of the European Parliament and of the Council of 13 December 2011 on combating the sexual abuse and sexual exploitation of children and child pornography, and replacing Council Framework Decision 2004/68/JHA (OJ L 335, 17.12.2011, p. 1).</p>
+                  </authorialNote>.</p>
+            </recital>
+            <recital xml:id="rec_d346e263">
+               <num>(21)</num>
+               <p>Third-country nationals should have the right to obtain information in writing concerning their own criminal record in accordance with the law of the Member State where they request such information to be provided and in accordance with Framework Decision 2009/315/JHA. Before providing such information to a third-country national, the Member State concerned should query ECRIS-TCN.</p>
+            </recital>
+            <recital xml:id="rec_d346e269">
+               <num>(22)</num>
+               <p>Citizens of the Union who also hold the nationality of a third country will only be included in ECRIS-TCN if the competent authorities are aware that such persons hold the nationality of a third country. Where the competent authorities are not aware that citizens of the Union also hold the nationality of a third country, it is nevertheless possible that such persons have prior convictions as third-country nationals. In order to ensure that the competent authorities have a complete overview of criminal records, it should be possible to query ECRIS-TCN to verify whether, in respect of a citizen of the Union, any Member State holds criminal record information concerning this person as a third-country national.</p>
+            </recital>
+            <recital xml:id="rec_d346e275">
+               <num>(23)</num>
+               <p>In the event that there is a match between data recorded in the central system and those used for search by a Member State (hit), the identity information against which a hit was recorded should be provided together with the hit. The result of a search should be used by the central authorities only for the purpose of making a request through ECRIS or by the European Union Agency for Criminal Justice Cooperation (Eurojust) established by Regulation (EU) 2018/1727 of the European Parliament and of the Council<authorialNote placement="bottom" marker="7">
+                     <p>Regulation (EU) 2018/1727 of the European Parliament and of the Council of 14 November 2018 on the European Union Agency for Criminal Justice Cooperation (Eurojust), and replacing and repealing Council Decision 2002/187/JHA (OJ L 295, 21.11.2018, p. 138).</p>
+                  </authorialNote>, the European Union Agency for Law Enforcement Cooperation (Europol) established by Regulation (EU) 2016/794 of the European Parliament and of the Council<authorialNote placement="bottom" marker="8">
+                     <p>Regulation (EU) 2016/794 of the European Parliament and of the Council of 11 May 2016 on the European Union Agency for Law Enforcement Cooperation (Europol) and replacing and repealing Council Decisions 2009/371/JHA, 2009/934/JHA, 2009/935/JHA, 2009/936/JHA and 2009/968/JHA (OJ L 135, 24.5.2016, p. 53).</p>
+                  </authorialNote>, and the European Public Prosecutor&apos;s Office (the &apos;EPPO&apos;) established by Council Regulation (EU) 2017/1939<authorialNote placement="bottom" marker="9">
+                     <p>Council Regulation (EU) 2017/1939 of 12 October 2017 implementing enhanced cooperation on the establishment of the European Public Prosecutor&apos;s Office (&apos;the EPPO&apos;) (OJ L 283, 31.10.2017, p. 1).</p>
+                  </authorialNote>, only for the purpose of making a request for conviction information as referred to in this Regulation.</p>
+            </recital>
+            <recital xml:id="rec_d346e322">
+               <num>(24)</num>
+               <p>In the first instance, facial images included in ECRIS-TCN should only be used for the purpose of confirming the identity of a third-country national in order to identify the Member States holding information on previous convictions of that third-country national. In the future, it should be possible for facial images to be used for automated biometric matching, provided that the technical and policy requirements to do so have been met. The Commission, taking into account necessity and proportionality, as well as the technical developments in the field of facial recognition software, should assess the availability and readiness of the required technology before adopting a delegated act concerning the use of facial images for the purpose of identifying third-country nationals in order to identify the Member States holding information on previous convictions concerning those persons.</p>
+            </recital>
+            <recital xml:id="rec_d346e328">
+               <num>(25)</num>
+               <p>The use of biometrics is necessary as it is the most reliable method of identifying third-country nationals within the territory of the Member States, who are often not in possession of documents or any other means of identification, as well as for more reliable matching of third-country nationals&apos; data.</p>
+            </recital>
+            <recital xml:id="rec_d346e334">
+               <num>(26)</num>
+               <p>Member States should enter in the central system fingerprint data of convicted third-country nationals that have been collected in accordance with national law during criminal proceedings. In order to have as complete identity information as possible available in the central system, Member States should also be able to enter into the central system fingerprint data that have been collected for other purposes than criminal proceedings, where those fingerprint data are available for use in criminal proceedings in compliance with national law.</p>
+            </recital>
+            <recital xml:id="rec_d346e340">
+               <num>(27)</num>
+               <p>This Regulation should establish minimum criteria as regards the fingerprint data that Member States should include in the central system. Member States should be given the choice either to enter the fingerprint data of third-country nationals who have received a custodial sentence of at least 6 months, or to enter the fingerprint data of third-country nationals who have been convicted of a criminal offence which is punishable under the law of the Member State concerned by a custodial sentence of a maximum period of at least 12 months.</p>
+            </recital>
+            <recital xml:id="rec_d346e346">
+               <num>(28)</num>
+               <p>Member States should create records in ECRIS-TCN regarding convicted third-country nationals. This should, where possible, be done automatically and without undue delay after their conviction was entered into the national criminal records. Member States should, in accordance with this Regulation, enter into the central system alphanumeric and fingerprint data relating to convictions handed down after the date of the start of entry of data into the ECRIS-TCN. As from the same date, and any time thereafter, Member States should be able to enter facial images in the central system.</p>
+            </recital>
+            <recital xml:id="rec_d346e352">
+               <num>(29)</num>
+               <p>Member States should also, in accordance with this Regulation, create records in ECRIS-TCN regarding third-country nationals convicted prior to the date of start of entry of data, in order to ensure the maximum effectiveness of the system. However, for that purpose Member States should not be obliged to collect information which is not already in their criminal records prior to the date of start of entry of data. The fingerprint data of third-country nationals collected in connection with such prior convictions should be included only where they have been collected during criminal proceedings, and where the Member State concerned considers that they can be clearly matched with other identity information in criminal records.</p>
+            </recital>
+            <recital xml:id="rec_d346e358">
+               <num>(30)</num>
+               <p>Improving the exchange of information on convictions should assist Member States in their implementation of Framework Decision 2008/675/JHA, which obliges the Member States to take account of previous convictions in other Member States in the course of new criminal proceedings to the extent that previous national convictions are taken into account under national law.</p>
+            </recital>
+            <recital xml:id="rec_d346e366">
+               <num>(31)</num>
+               <p>A hit indicated by ECRIS-TCN should not of itself be taken to mean that the third-country national concerned has been convicted in the Member States that are indicated. The existence of previous convictions should only be confirmed based on information received from the criminal records of the Member States concerned.</p>
+            </recital>
+            <recital xml:id="rec_d346e372">
+               <num>(32)</num>
+               <p>Notwithstanding the possibility of using the Union&apos;s financial programmes in accordance with the applicable rules, each Member State should bear its own costs arising from the implementation, administration, use and maintenance of its criminal records database and national fingerprints databases, and from the implementation, administration, use and maintenance of the technical alterations necessary to be able to use ECRIS-TCN, including their connections to the national central access point.</p>
+            </recital>
+            <recital xml:id="rec_d346e378">
+               <num>(33)</num>
+               <p>Eurojust, Europol and the EPPO should have access to ECRIS-TCN for the purpose of identifying the Member States holding criminal records information on a third-country national in order to support their statutory tasks. Eurojust should also have direct access to ECRIS-TCN for the purpose of carrying out its task under this Regulation of acting as a contact point for third countries and international organisations, without prejudice to the application of principles of judicial cooperation in criminal matters, including rules on mutual legal assistance. While the position of Member States who are not part of the enhanced cooperation on the establishment of the EPPO should be taken into account, the EPPO should not be refused access to conviction information on the sole ground that the Member State concerned is not part of that enhanced cooperation.</p>
+            </recital>
+            <recital xml:id="rec_d346e384">
+               <num>(34)</num>
+               <p>This Regulation establishes strict rules on access to ECRIS-TCN and the necessary safeguards, including the responsibility of the Member States in collecting and using the data. It also sets out how individuals may exercise their rights to compensation, access, rectification, erasure and redress, in particular the right to an effective remedy and the supervision of processing operations by public independent authorities. It therefore respects fundamental rights and freedoms enshrined, in particular, in the Charter of Fundamental Rights of the European Union, including the right to protection of personal data, the principle of equality before the law and the general prohibition of discrimination. In this regard, it also takes into account the European Convention for the Protection of Human Rights and Fundamental Freedoms, the International Covenant on Civil and Political Rights, and other human rights obligations under international law.</p>
+            </recital>
+            <recital xml:id="rec_d346e390">
+               <num>(35)</num>
+               <p>Directive (EU) 2016/680 of the European Parliament and of the Council<authorialNote placement="bottom" marker="10">
+                     <p>Directive (EU) 2016/680 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data by competent authorities for the purposes of the prevention, investigation, detection or prosecution of criminal offences or the execution of criminal penalties, and on the free movement of such data, and repealing Council Framework Decision 2008/977/JHA (OJ L 119, 4.5.2016, p. 89).</p>
+                  </authorialNote> should apply to the processing of personal data by competent national authorities for the purposes of the prevention, investigation, detection or prosecution of criminal offences or the execution of criminal penalties, including the safeguarding against and the prevention of threats to public security. Regulation (EU) 2016/679 of the European Parliament and of the Council<authorialNote placement="bottom" marker="11">
+                     <p>Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (General Data Protection Regulation) (OJ L 119, 4.5.2016, p. 1).</p>
+                  </authorialNote> should apply to the processing of personal data by national authorities when such processing does not fall within the scope of Directive (EU) 2016/680. Coordinated supervision should be ensured in accordance with Regulation (EU) 2018/1725 of the European Parliament and of the Council<authorialNote placement="bottom" marker="12">
+                     <p>Regulation (EU) 2018/1725 of the European Parliament and of the Council of 23 October 2018 on the protection of natural persons with regard to the processing of personal data by the Union institutions, bodies, offices and agencies and on the free movement of such data, and repealing Regulation (EC) No 45/2001 and Decision No 1247/2002/EC (OJ L 295, 21.11.2018, p. 39).</p>
+                  </authorialNote>, which should also apply to the processing of personal data by eu-LISA.</p>
+            </recital>
+            <recital xml:id="rec_d346e426">
+               <num>(36)</num>
+               <p>In respect of prior convictions, the central authorities should enter alphanumeric data by the end of the period for entry of data under this Regulation, and fingerprint data within two years after the date of the start of operations of ECRIS-TCN. Member States should be able to enter all data at the same time, provided those time limits are met.</p>
+            </recital>
+            <recital xml:id="rec_d346e432">
+               <num>(37)</num>
+               <p>Rules should be laid down on the liability of the Member States, Eurojust, Europol, the EPPO and eu-LISA in respect of damage arising from any breach of this Regulation.</p>
+            </recital>
+            <recital xml:id="rec_d346e438">
+               <num>(38)</num>
+               <p>In order to improve identification of the Member States holding information on previous convictions of third-country nationals, the power to adopt acts in accordance with Article 290 of the Treaty on the Functioning of the European Union (TFEU) should be delegated to the Commission in respect of supplementing this Regulation by providing for the use of facial images for the purpose of identifying third-country nationals in order to identify the Member States holding information on previous convictions. It is of particular importance that the Commission carry out appropriate consultations during its preparatory work, including at expert level, and that those consultations be conducted in accordance with the principles laid down in the Interinstitutional Agreement of 13 April 2016 on Better Law-Making<authorialNote placement="bottom" marker="13">
+                     <p>OJ L 123, 12.5.2016, p. 1.</p>
+                  </authorialNote>. In particular, to ensure equal participation in the preparation of delegated acts, the European Parliament and the Council receive all documents at the same time as Member States&apos; experts, and their experts systematically have access to meetings of Commission expert groups dealing with the preparation of delegated acts.</p>
+            </recital>
+            <recital xml:id="rec_d346e455">
+               <num>(39)</num>
+               <p>In order to ensure uniform conditions for the establishment and operational management of ECRIS-TCN, implementing powers should be conferred on the Commission. Those powers should be exercised in accordance with Regulation (EU) No 182/2011 of the European Parliament and the Council<authorialNote placement="bottom" marker="14">
+                     <p>Regulation (EU) No 182/2011 of the European Parliament and the Council of 16 February 2011 laying down the rules and general principles concerning mechanisms for control by Member States of the Commission&apos;s exercise of implementing powers (OJ L 55, 28.2.2011, p. 13).</p>
+                  </authorialNote>.</p>
+            </recital>
+            <recital xml:id="rec_d346e471">
+               <num>(40)</num>
+               <p>Member States should take the necessary measures to comply with this Regulation as soon as possible so as to ensure the proper functioning of ECRIS-TCN, taking into account the time that eu-LISA needs to develop and implement ECRIS-TCN. However, Member States should have at least 36 months after the entry into force of this Regulation to take measures to comply with this Regulation.</p>
+            </recital>
+            <recital xml:id="rec_d346e477">
+               <num>(41)</num>
+               <p>Since the objective of this Regulation, namely to enable the rapid and efficient exchange of accurate criminal records information on third-country nationals, cannot be sufficiently achieved by the Member States, but can rather, by putting in place common rules, be better achieved at Union level, the Union may adopt measures, in accordance with the principle of subsidiarity as set out in Article 5 of the Treaty on European Union (TEU). In accordance with the principle of proportionality, as set out in that Article, this Regulation does not go beyond what is necessary to achieve that objective.</p>
+            </recital>
+            <recital xml:id="rec_d346e484">
+               <num>(42)</num>
+               <p>In accordance with Articles 1 and 2 of Protocol No 22 on the position of Denmark, annexed to the TEU and to the TFEU, Denmark is not taking part in the adoption of this Regulation and is not bound by it or subject to its application.</p>
+            </recital>
+            <recital xml:id="rec_d346e490">
+               <num>(43)</num>
+               <p>In accordance with Articles 1 and 2 and Article 4a(1) of Protocol No 21 on the position of the United Kingdom and Ireland in respect of the area of freedom, security and justice, annexed to the TEU and to the TFEU, and without prejudice to Article 4 of that Protocol, Ireland is not taking part in the adoption of this Regulation and is not bound by it or subject to its application.</p>
+            </recital>
+            <recital xml:id="rec_d346e496">
+               <num>(44)</num>
+               <p>In accordance with Article 3 and Article 4a(1) of Protocol No 21, the United Kingdom has notified its wish to take part in the adoption and application of this Regulation.</p>
+            </recital>
+            <recital xml:id="rec_d346e502">
+               <num>(45)</num>
+               <p>The European Data Protection Supervisor was consulted in accordance with Article 28(2) of Regulation (EC) No 45/2001 of the European Parliament and of the Council<authorialNote placement="bottom" marker="15">
+                     <p>Regulation (EC) No 45/2001 of the European Parliament and of the Council of 18 December 2000 on the protection of individuals with regard to the processing of personal data by the Community institutions and bodies and on the free movement of such data (OJ L 8, 12.1.2001, p. 1).</p>
+                  </authorialNote> and delivered an opinion on 12 December 2017<authorialNote placement="bottom" marker="16">
+                     <p>OJ C 55, 14.2.2018, p. 4.</p>
+                  </authorialNote>,</p>
+            </recital>
+         </recitals>
+         <formula name="enactingFormula">
+            <p>HAVE ADOPTED THIS REGULATION:</p>
+         </formula>
+      </preamble>
+      <body>
+         <chapter>
+            <num>CHAPTER I</num>
+            <heading>General provisions</heading>
+            <article xml:id="art_d346e540">
+               <num>Article 1</num>
+               <heading>Subject matter</heading>
+               <paragraph>
+                  <subparagraph>
+                     <content>
+                        <p>This Regulation establishes:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(a)</num>
+                        <content>
+                           <p>a system to identify the Member States holding information on previous convictions of third-country nationals (&apos;ECRIS-TCN&apos;);</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(b)</num>
+                        <content>
+                           <p>the conditions under which ECRIS-TCN shall be used by the central authorities in order to obtain information on such previous convictions through the European Criminal Records Information System (ECRIS) established by Decision 2009/316/JHA, as well as the conditions under which Eurojust, Europol and the EPPO shall use ECRIS-TCN.</p>
+                        </content>
+                     </point>
+                  </list>
+               </paragraph>
+            </article>
+            <article xml:id="art_d346e566">
+               <num>Article 2</num>
+               <heading>Scope</heading>
+               <paragraph>
+                  <content>
+                     <p>This Regulation applies to the processing of identity information of third-country nationals who have been subject to convictions in the Member States for the purpose of identifying the Member States where such convictions were handed down. With the exception of point (b)(ii) of Article 5(1), the provisions of this Regulation that apply to third-country nationals also apply to citizens of the Union who also hold the nationality of a third country and who have been subject to convictions in the Member States.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d346e573">
+               <num>Article 3</num>
+               <heading>Definitions</heading>
+               <paragraph>
+                  <subparagraph>
+                     <content>
+                        <p>For the purposes of this Regulation, the following definitions apply:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(1)</num>
+                        <content>
+                           <p>&apos;conviction&apos; means any final decision of a criminal court against a natural person in respect of a criminal offence, to the extent that the decision is entered in the criminal records of the convicting Member State;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(2)</num>
+                        <content>
+                           <p>&apos;criminal proceedings&apos; means the pre-trial stage, the trial stage and the execution of the conviction;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(3)</num>
+                        <content>
+                           <p>&apos;criminal record&apos; means the national register or registers recording convictions in accordance with national law;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(4)</num>
+                        <content>
+                           <p>&apos;convicting Member State&apos; means the Member State in which a conviction is handed down;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(5)</num>
+                        <content>
+                           <p>&apos;central authority&apos; means an authority designated in accordance with Article 3(1) of Framework Decision 2009/315/JHA;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(6)</num>
+                        <content>
+                           <p>&apos;competent authorities&apos; means the central authorities and Eurojust, Europol and the EPPO, which are competent to access or query ECRIS-TCN in accordance with this Regulation;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(7)</num>
+                        <content>
+                           <p>&apos;third-country national&apos; means a person who is not a citizen of the Union within the meaning of Article 20(1) TFEU, or who is a stateless person or a person whose nationality is unknown;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(8)</num>
+                        <content>
+                           <p>&apos;central system&apos; means the database or databases developed and maintained by eu-LISA which hold identity information on third-country nationals who have been subject to convictions in the Member States;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(9)</num>
+                        <content>
+                           <p>&apos;interface software&apos; means the software hosted by the competent authorities allowing them to access the central system through the communication infrastructure referred to in point (d) of Article 4(1);</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(10)</num>
+                        <content>
+                           <p>&apos;identity information&apos; means alphanumeric data, fingerprint data and facial images that are used to establish a connection between these data and a natural person;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(11)</num>
+                        <content>
+                           <p>&apos;alphanumeric data&apos; means data represented by letters, digits, special characters, spaces and punctuation marks;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(12)</num>
+                        <content>
+                           <p>&apos;fingerprint data&apos; means the data relating to plain and rolled impressions of the fingerprints of each of a person&apos;s fingers;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(13)</num>
+                        <content>
+                           <p>&apos;facial image&apos; means a digital image of a person&apos;s face;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(14)</num>
+                        <content>
+                           <p>&apos;hit&apos; means a match or matches established by comparison between identity information recorded in the central system and the identity information used for a search;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(15)</num>
+                        <content>
+                           <p>&apos;national central access point&apos; means the national connection point to the communication infrastructure referred to in point (d) of Article 4(1);</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(16)</num>
+                        <content>
+                           <p>&apos;ECRIS reference implementation&apos; means the software developed by the Commission and made available to the Member States for the exchange of criminal records information through ECRIS;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(17)</num>
+                        <content>
+                           <p>&apos;national supervisory authority&apos; means an independent public authority which is established by a Member State pursuant to applicable Union data protection rules;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(18)</num>
+                        <content>
+                           <p>&apos;supervisory authorities&apos; means the European Data Protection Supervisor and the national supervisory authorities.</p>
+                        </content>
+                     </point>
+                  </list>
+               </paragraph>
+            </article>
+            <article xml:id="art_d346e746">
+               <num>Article 4</num>
+               <heading>Technical architecture of ECRIS-TCN</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <subparagraph>
+                     <content>
+                        <p>ECRIS-TCN shall be composed of:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(a)</num>
+                        <content>
+                           <p>a central system in which identity information on convicted third-country nationals is stored;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(b)</num>
+                        <content>
+                           <p>a national central access point in each Member State;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(c)</num>
+                        <content>
+                           <p>interface software enabling the connection of the competent authorities to the central system via the national central access points and the communication infrastructure referred to in point (d);</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(d)</num>
+                        <content>
+                           <p>a communication infrastructure between the central system and the national central access points.</p>
+                        </content>
+                     </point>
+                  </list>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>The central system shall be hosted by eu-LISA at its technical sites.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <content>
+                     <p>The interface software shall be integrated with the ECRIS reference implementation. The Member States shall use the ECRIS reference implementation or, in the situation and under the conditions set out in paragraphs 4 to 8, the national ECRIS implementation software to query ECRIS-TCN and to send subsequent requests for criminal records information.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>4.</num>
+                  <content>
+                     <p>The Member States which use their national ECRIS implementation software shall be responsible for ensuring that their national ECRIS implementation software allows their national criminal records authorities to use ECRIS-TCN, with the exception of the Interface Software, in accordance with this Regulation. For that purpose, they shall, before the date of start of operations of ECRIS-TCN in accordance with Article 35(4), ensure that their national ECRIS implementation software functions in accordance with the protocols and technical specifications established in the implementing acts referred to in Article 10, and with any further technical requirements established by eu-LISA pursuant to this Regulation based on those implementing acts.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>5.</num>
+                  <content>
+                     <p>For as long as they do not use the ECRIS reference implementation, Member States which use their national ECRIS implementation software shall also ensure the implementation of any subsequent technical adaptations to their national ECRIS implementation software required by any changes to the technical specifications established in the implementing acts referred to in Article 10, or changes to any further technical requirements established by eu-LISA pursuant to this Regulation based on those implementing acts, without undue delay.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>6.</num>
+                  <content>
+                     <p>The Member States which use their national ECRIS implementation software shall bear all the costs associated with the implementation, maintenance and further development of their national ECRIS implementation software and its interconnection with ECRIS-TCN, with the exception of the interface software.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>7.</num>
+                  <content>
+                     <p>If a Member State which uses its national ECRIS implementation software is unable to comply with its obligations under this Article, it shall be obliged to use the ECRIS reference implementation, including the integrated interface software, to make use of ECRIS-TCN.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>8.</num>
+                  <content>
+                     <p>In view of the assessment to be carried out by the Commission pursuant to point (b) of Article 36(10), the Member States concerned shall provide the Commission with all necessary information.</p>
+                  </content>
+               </paragraph>
+            </article>
+         </chapter>
+         <chapter>
+            <num>CHAPTER II</num>
+            <heading>Entry and use of data by central authorities</heading>
+            <article xml:id="art_d346e828">
+               <num>Article 5</num>
+               <heading>Data entry in ECRIS-TCN</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <subparagraph>
+                     <content>
+                        <p>For each convicted third-country national, the central authority of the convicting Member State shall create a data record in the central system. The data record shall include:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(a)</num>
+                        <alinea>
+                           <content>
+                              <p>as concerns alphanumeric data:</p>
+                           </content>
+                        </alinea>
+                        <list>
+                           <point>
+                              <num>(i)</num>
+                              <alinea>
+                                 <content>
+                                    <p>information to be included unless, in individual cases, such information is not known to the central authority (obligatory information):</p>
+                                 </content>
+                              </alinea>
+                              <list>
+                                 <indent>
+                                    <num>-</num>
+                                    <content>
+                                       <p>surname (family name),</p>
+                                    </content>
+                                 </indent>
+                                 <indent>
+                                    <num>-</num>
+                                    <content>
+                                       <p>first names (given names),</p>
+                                    </content>
+                                 </indent>
+                                 <indent>
+                                    <num>-</num>
+                                    <content>
+                                       <p>date of birth,</p>
+                                    </content>
+                                 </indent>
+                                 <indent>
+                                    <num>-</num>
+                                    <content>
+                                       <p>place of birth (town and country),</p>
+                                    </content>
+                                 </indent>
+                                 <indent>
+                                    <num>-</num>
+                                    <content>
+                                       <p>nationality or nationalities,</p>
+                                    </content>
+                                 </indent>
+                                 <indent>
+                                    <num>-</num>
+                                    <content>
+                                       <p>gender,</p>
+                                    </content>
+                                 </indent>
+                                 <indent>
+                                    <num>-</num>
+                                    <content>
+                                       <p>previous names, if applicable,</p>
+                                    </content>
+                                 </indent>
+                                 <indent>
+                                    <num>-</num>
+                                    <content>
+                                       <p>the code of the convicting Member State,</p>
+                                    </content>
+                                 </indent>
+                              </list>
+                           </point>
+                           <point>
+                              <num>(ii)</num>
+                              <alinea>
+                                 <content>
+                                    <p>information to be included if it has been entered in the criminal record (optional information):</p>
+                                 </content>
+                              </alinea>
+                              <list>
+                                 <indent>
+                                    <num>-</num>
+                                    <content>
+                                       <p>parents&apos; names,</p>
+                                    </content>
+                                 </indent>
+                              </list>
+                           </point>
+                           <point>
+                              <num>(iii)</num>
+                              <alinea>
+                                 <content>
+                                    <p>information to be included if it is available to the central authority (additional information):</p>
+                                 </content>
+                              </alinea>
+                              <list>
+                                 <indent>
+                                    <num>-</num>
+                                    <content>
+                                       <p>identity number, or the type and number of the person&apos;s identification documents, as well as the name of the issuing authority,</p>
+                                    </content>
+                                 </indent>
+                                 <indent>
+                                    <num>-</num>
+                                    <content>
+                                       <p>pseudonyms or aliases;</p>
+                                    </content>
+                                 </indent>
+                              </list>
+                           </point>
+                        </list>
+                     </point>
+                     <point>
+                        <num>(b)</num>
+                        <alinea>
+                           <content>
+                              <p>as concerns fingerprint data:</p>
+                           </content>
+                        </alinea>
+                        <list>
+                           <point>
+                              <num>(i)</num>
+                              <content>
+                                 <p>fingerprint data that have been collected in accordance with national law during criminal proceedings;</p>
+                              </content>
+                           </point>
+                           <point>
+                              <num>(ii)</num>
+                              <alinea>
+                                 <content>
+                                    <p>as a minimum, fingerprint data collected on the basis of either of the following criteria:</p>
+                                 </content>
+                              </alinea>
+                              <list>
+                                 <indent>
+                                    <num>-</num>
+                                    <alinea>
+                                       <content>
+                                          <p>where the third-country national has received a custodial sentence of at least 6 months;</p>
+                                       </content>
+                                    </alinea>
+                                    <alinea>
+                                       <content>
+                                          <p>or</p>
+                                       </content>
+                                    </alinea>
+                                 </indent>
+                                 <indent>
+                                    <num>-</num>
+                                    <content>
+                                       <p>where the third-country national has been convicted of a criminal offence which is punishable under the law of the Member State by a custodial sentence of a maximum period of at least 12 months.</p>
+                                    </content>
+                                 </indent>
+                              </list>
+                           </point>
+                        </list>
+                     </point>
+                  </list>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>The fingerprint data referred to in point (b) of paragraph 1 of this Article shall have the technical specifications for the quality, resolution and processing of fingerprint data provided for in the implementing act referred to in point (b) of Article 10(1). The reference number of the fingerprint data of the convicted person shall include the code of the convicting Member State.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <content>
+                     <p>The data record may also contain facial images of the convicted third-country national, if the law of the convicting Member State allows for the collection and storage of facial images of convicted persons.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>4.</num>
+                  <content>
+                     <p>The convicting Member State shall create the data record automatically, where possible, and without undue delay after the conviction has been entered into the criminal records.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>5.</num>
+                  <content>
+                     <p>The convicting Member States shall also create data records for convictions handed down prior to the date of start of entry of data in accordance with Article 35(1) to the extent that data related to convicted persons are stored in their national databases. In those cases, fingerprint data shall be included only where they have been collected during criminal proceedings in accordance with national law, and where they can be clearly matched with other identity information in criminal records.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>6.</num>
+                  <content>
+                     <p>In order to comply with the obligations set out in points (b)(i) and (ii) of paragraph 1, and in paragraph 5, Member States may use fingerprint data collected for purposes other than criminal proceedings, where such use is permitted under national law.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d346e961">
+               <num>Article 6</num>
+               <heading>Facial images</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>Until the entry into force of the delegated act provided for in paragraph 2, facial images may be used only to confirm the identity of a third-country national who has been identified as a result of an alphanumeric search or a search using fingerprint data.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>The Commission is empowered to adopt delegated acts in accordance with Article 37 supplementing this Regulation concerning the use of facial images for the purpose of identifying third-country nationals in order to identify the Member States holding information on previous convictions concerning such persons, when it becomes technically possible. Before exercising this empowerment, the Commission, taking into account necessity and proportionality, as well as technical developments in the field of facial recognition software, shall assess the availability and readiness of the required technology.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d346e977">
+               <num>Article 7</num>
+               <heading>Use of ECRIS-TCN for identifying the Member States holding criminal records information</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <subparagraph>
+                     <content>
+                        <p>The central authorities shall use ECRIS-TCN to identify the Member States holding criminal records information on a third-country national in order to obtain information on previous convictions through ECRIS, when criminal records information on that person is requested in the Member State concerned for the purposes of criminal proceedings against that person, or for any of the following purposes, if provided for under and in accordance with national law:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <indent>
+                        <num>-</num>
+                        <content>
+                           <p>checking a person&apos;s own criminal record at his or her request,</p>
+                        </content>
+                     </indent>
+                     <indent>
+                        <num>-</num>
+                        <content>
+                           <p>security clearance,</p>
+                        </content>
+                     </indent>
+                     <indent>
+                        <num>-</num>
+                        <content>
+                           <p>obtaining a licence or permit,</p>
+                        </content>
+                     </indent>
+                     <indent>
+                        <num>-</num>
+                        <content>
+                           <p>employment vetting,</p>
+                        </content>
+                     </indent>
+                     <indent>
+                        <num>-</num>
+                        <content>
+                           <p>vetting for voluntary activities involving direct and regular contacts with children or vulnerable persons,</p>
+                        </content>
+                     </indent>
+                     <indent>
+                        <num>-</num>
+                        <content>
+                           <p>visa, acquisition of citizenship and migration procedures, including asylum procedures, and</p>
+                        </content>
+                     </indent>
+                     <indent>
+                        <num>-</num>
+                        <content>
+                           <p>checks in relation with public contracts and public examinations.</p>
+                        </content>
+                     </indent>
+                  </list>
+                  <subparagraph>
+                     <content>
+                        <p>However, in specific cases other than those in which a third-country national asks the central authority for information on his or her own criminal record, or where the request is made in order to obtain criminal records information pursuant to Article 10(2) of Directive 2011/93/EU, the authority requesting criminal records information may decide that such use of ECRIS-TCN is not appropriate.</p>
+                     </content>
+                  </subparagraph>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>Any Member State which decides, if provided for under and in accordance with national law, to use ECRIS-TCN for purposes other than those set out in paragraph 1 in order to obtain information on previous convictions through ECRIS, shall, by the date of start of operations as referred to in Article 35(4), or any time thereafter, notify the Commission of such other purposes and any changes to such purposes. The Commission shall publish such notifications in the <i>Official Journal of the European Union</i> within 30 days of receipt of the notifications.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <content>
+                     <p>Eurojust, Europol and the EPPO are entitled to query ECRIS-TCN to identify the Member States holding criminal records information on a third-country national in accordance with Articles 14 to 18. However, they shall not enter, rectify or erase any data in ECRIS-TCN.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>4.</num>
+                  <content>
+                     <p>For the purposes referred to in paragraphs 1, 2 and 3, the competent authorities may also query ECRIS-TCN to verify whether, in respect of a citizen of the Union, any Member State holds criminal records information concerning this person as a third-country national.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>5.</num>
+                  <content>
+                     <p>When querying ECRIS-TCN, the competent authorities may use all or only some of the data referred to in Article 5(1). The minimum set of data that is required to query the system shall be specified in an implementing act adopted in accordance with point (g) of Article 10(1).</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>6.</num>
+                  <content>
+                     <p>The competent authorities may also query ECRIS-TCN using facial images, provided that such functionality has been implemented in accordance with Article 6(2).</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>7.</num>
+                  <content>
+                     <p>In the event of a hit, the central system shall automatically provide the competent authority with information on the Member States holding criminal records information on the third-country national, along with the associated reference numbers and any corresponding identity information. Such identity information shall only be used for the purpose of verifying the identity of the third-country national concerned. The result of a search in the central system may only be used for the purpose of making a request according to Article 6 of Framework Decision 2009/315/JHA or a request referred to in Article 17(3) of this Regulation.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>8.</num>
+                  <content>
+                     <p>In the event that there is no hit, the central system shall automatically inform the competent authority.</p>
+                  </content>
+               </paragraph>
+            </article>
+         </chapter>
+         <chapter>
+            <num>CHAPTER III</num>
+            <heading>Retention and modification of the data</heading>
+            <article xml:id="art_d346e1061">
+               <num>Article 8</num>
+               <heading>Retention period for data storage</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>Each data record shall be stored in the central system for as long as the data related to the convictions of the person concerned are stored in the criminal records.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>Upon expiry of the retention period referred to in paragraph 1, the central authority of the convicting Member State shall erase the data record, including any fingerprint data or facial images, from the central system. The erasure shall be done automatically, where possible, and in any event no later than one month after the expiry of the retention period.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d346e1077">
+               <num>Article 9</num>
+               <heading>Modification and erasure of data</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>The Member States may modify or erase the data which they have entered into ECRIS-TCN.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>Any modification of the information in the criminal records which led to the creation of a data record in accordance with Article 5 shall include identical modification of the information stored in that data record in the central system by the convicting Member State without undue delay.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <subparagraph>
+                     <content>
+                        <p>If a convicting Member State has reason to believe that the data it has recorded in the central system are inaccurate or that data were processed in the central system in contravention of this Regulation, it shall:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(a)</num>
+                        <content>
+                           <p>immediately launch a procedure for checking the accuracy of the data concerned or the lawfulness of its processing, as appropriate;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(b)</num>
+                        <content>
+                           <p>if necessary, rectify the data or erase them from the central system without undue delay.</p>
+                        </content>
+                     </point>
+                  </list>
+               </paragraph>
+               <paragraph>
+                  <num>4.</num>
+                  <subparagraph>
+                     <content>
+                        <p>If a Member State other than the convicting Member State which entered the data has reason to believe that data recorded in the central system are inaccurate or that data were processed in the central system in contravention of this Regulation, it shall contact the central authority of the convicting Member State without undue delay.</p>
+                     </content>
+                  </subparagraph>
+                  <subparagraph>
+                     <content>
+                        <p>The convicting Member State shall:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(a)</num>
+                        <content>
+                           <p>immediately launch a procedure for checking the accuracy of the data concerned or the lawfulness of its processing, as appropriate;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(b)</num>
+                        <content>
+                           <p>if necessary, rectify the data or erase them from the central system without undue delay;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(c)</num>
+                        <content>
+                           <p>inform the other Member State that the data have been rectified or erased, or of the reasons why the data have not been rectified or erased, without undue delay.</p>
+                        </content>
+                     </point>
+                  </list>
+               </paragraph>
+            </article>
+         </chapter>
+         <chapter>
+            <num>CHAPTER IV</num>
+            <heading>Development, operation and responsibilities</heading>
+            <article xml:id="art_d346e1149">
+               <num>Article 10</num>
+               <heading>Adoption of implementing acts by the Commission</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <subparagraph>
+                     <content>
+                        <p>The Commission shall adopt the implementing acts necessary for the technical development and implementation of ECRIS-TCN as soon as possible, and in particular acts concerning:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(a)</num>
+                        <content>
+                           <p>the technical specifications for the processing of the alphanumeric data;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(b)</num>
+                        <content>
+                           <p>the technical specifications for the quality, resolution and processing of fingerprint data;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(c)</num>
+                        <content>
+                           <p>the technical specifications of the interface software;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(d)</num>
+                        <content>
+                           <p>the technical specifications for the quality, resolution and processing of facial images for the purposes of and under the conditions set out in Article 6;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(e)</num>
+                        <content>
+                           <p>data quality, including a mechanism for and procedures to carry out data quality checks;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(f)</num>
+                        <content>
+                           <p>entering the data in accordance with Article 5;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(g)</num>
+                        <content>
+                           <p>accessing and querying ECRIS-TCN in accordance with Article 7;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(h)</num>
+                        <content>
+                           <p>modifying and erasing the data in accordance with Articles 8 and 9;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(i)</num>
+                        <content>
+                           <p>keeping and accessing logs in accordance with Article 31;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(j)</num>
+                        <content>
+                           <p>operation of the central repository and the data security and data protection rules applicable to the repository, in accordance with Article 32;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(k)</num>
+                        <content>
+                           <p>providing statistics in accordance with Article 32;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(l)</num>
+                        <content>
+                           <p>performance and availability requirements of ECRIS-TCN, including minimal specifications and requirements on the biometric performance of ECRIS-TCN in particular in terms of the required false positive identification rate and false negative identification rate.</p>
+                        </content>
+                     </point>
+                  </list>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>The implementing acts referred to in paragraph 1 shall be adopted in accordance with the examination procedure referred to in Article 38(2).</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d346e1240">
+               <num>Article 11</num>
+               <heading>Development and operational management of ECRIS &#45; TCN</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>eu-LISA shall be responsible for the development of ECRIS-TCN in accordance with the principle of data protection by design and by default. In addition, eu-LISA shall be responsible for the operational management of ECRIS-TCN. The development shall consist of the elaboration and implementation of the technical specifications, testing and overall project coordination.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>eu-LISA shall also be responsible for the further development and maintenance of the ECRIS reference implementation.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <content>
+                     <p>eu-LISA shall define the design of the physical architecture of ECRIS-TCN including its technical specifications and evolution as regards the central system, the national central access point and the interface software. That design shall be adopted by its Management Board, subject to a favourable opinion of the Commission.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>4.</num>
+                  <content>
+                     <p>eu-LISA shall develop and implement ECRIS-TCN as soon as possible after the entry into force of this Regulation and following the adoption by the Commission of the implementing acts provided for in Article 10.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>5.</num>
+                  <subparagraph>
+                     <content>
+                        <p>Prior to the design and development phase of ECRIS-TCN, the Management Board of eu-LISA shall establish a Programme Management Board composed of ten members.</p>
+                     </content>
+                  </subparagraph>
+                  <subparagraph>
+                     <content>
+                        <p>The Programme Management Board shall be composed of eight members appointed by the Management Board, the Chair of the Advisory Group referred to in Article 39 and one member appointed by the Commission. The members appointed by the Management Board shall be elected only from those Member States which are fully bound under Union law by the legislative instruments governing ECRIS and which will participate in ECRIS-TCN. The Management Board shall ensure that the members it appoints to the Programme Management Board have the necessary experience and expertise in the development and management of IT systems supporting judicial and criminal records authorities.</p>
+                     </content>
+                  </subparagraph>
+                  <subparagraph>
+                     <content>
+                        <p>eu-LISA shall participate in the work of the Programme Management Board. To that end, representatives of eu-LISA shall attend the meetings of the Programme Management Board in order to report on work regarding the design and development of ECRIS-TCN and on any other related work and activities.</p>
+                     </content>
+                  </subparagraph>
+                  <subparagraph>
+                     <content>
+                        <p>The Programme Management Board shall meet at least once every three months, and more often when necessary. It shall ensure the adequate management of the design and development phase of ECRIS-TCN and shall ensure consistency between central and national ECRIS-TCN projects, and national ECRIS implementation software. The Programme Management Board shall submit written reports regularly and if possible every month to the Management Board of eu-LISA on the progress of the project. The Programme Management Board shall have no decision-making power nor any mandate to represent the members of the Management Board.</p>
+                     </content>
+                  </subparagraph>
+               </paragraph>
+               <paragraph>
+                  <num>6.</num>
+                  <subparagraph>
+                     <content>
+                        <p>The Programme Management Board shall establish its rules of procedure which shall include in particular rules on:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(a)</num>
+                        <content>
+                           <p>chairmanship;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(b)</num>
+                        <content>
+                           <p>meeting venues;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(c)</num>
+                        <content>
+                           <p>preparation of meetings;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(d)</num>
+                        <content>
+                           <p>admission of experts to the meetings;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(e)</num>
+                        <content>
+                           <p>communication plans ensuring that non-participating Members of the Management Board are kept fully informed.</p>
+                        </content>
+                     </point>
+                  </list>
+               </paragraph>
+               <paragraph>
+                  <num>7.</num>
+                  <content>
+                     <p>The chairmanship of the Programme Management Board shall be held by a Member State which is fully bound under Union law by the legislative instruments governing ECRIS and the legislative instruments governing the development, establishment, operation and use of all the large-scale IT systems managed by eu-LISA.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>8.</num>
+                  <content>
+                     <p>All travel and subsistence expenses incurred by the members of the Programme Management Board shall be paid by eu-LISA. Article 10 of the eu-LISA Rules of Procedure shall apply <i>mutatis mutandis</i>. The Programme Management Board&apos;s secretariat shall be ensured by eu-LISA.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>9.</num>
+                  <content>
+                     <p>During the design and development phase, the Advisory Group referred to in Article 39 shall be composed of the national ECRIS-TCN project managers and chaired by eu-LISA. During the design and development phase it shall meet regularly, if possible at least once a month, until the start of operations of ECRIS-TCN. It shall report after each meeting to the Programme Management Board. It shall provide the technical expertise to support the tasks of the Programme Management Board and shall follow up on the state of preparation of the Member States.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>10.</num>
+                  <content>
+                     <p>In order to ensure the confidentiality and integrity of data stored in ECRIS-TCN at all times, eu-LISA shall, in cooperation with the Member States, provide for appropriate technical and organisational measures, taking into account the state of the art, the cost of implementation and the risks posed by the processing.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>11.</num>
+                  <subparagraph>
+                     <content>
+                        <p>eu-LISA shall be responsible for the following tasks related to the communication infrastructure referred to in point (d) of Article 4(1):</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(a)</num>
+                        <content>
+                           <p>supervision;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(b)</num>
+                        <content>
+                           <p>security;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(c)</num>
+                        <content>
+                           <p>the coordination of relations between the Member States and the provider of the communication infrastructure.</p>
+                        </content>
+                     </point>
+                  </list>
+               </paragraph>
+               <paragraph>
+                  <num>12.</num>
+                  <subparagraph>
+                     <content>
+                        <p>The Commission shall be responsible for all other tasks relating to the communication infrastructure referred to in point (d) of Article 4(1), in particular:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(a)</num>
+                        <content>
+                           <p>tasks relating to the implementation of the budget;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(b)</num>
+                        <content>
+                           <p>acquisition and renewal;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(c)</num>
+                        <content>
+                           <p>contractual matters.</p>
+                        </content>
+                     </point>
+                  </list>
+               </paragraph>
+               <paragraph>
+                  <num>13.</num>
+                  <content>
+                     <p>eu-LISA shall develop and maintain a mechanism and procedures for carrying out quality checks on the data stored in ECRIS-TCN and shall provide regular reports to the Member States. eu-LISA shall provide regular reports to the Commission covering the issues encountered and the Member States concerned.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>14.</num>
+                  <content>
+                     <p>The operational management of ECRIS-TCN shall consist of all the tasks necessary to keep ECRIS-TCN operational in accordance with this Regulation, and in particular the maintenance work and technical developments necessary to ensure that ECRIS-TCN functions at a satisfactory level in accordance with the technical specifications.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>15.</num>
+                  <content>
+                     <p>eu-LISA shall perform tasks related to providing training on the technical use of ECRIS-TCN and the ECRIS reference implementation.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>16.</num>
+                  <content>
+                     <p>Without prejudice to Article 17 of the Staff Regulations of Officials of the European Union, laid down in Council Regulation (EEC, Euratom, ECSC) No 259/68<authorialNote placement="bottom" marker="17">
+                           <p>OJ L 56, 4.3.1968, p. 1.</p>
+                        </authorialNote>, eu-LISA shall apply appropriate rules of professional secrecy or other equivalent duties of confidentiality to its entire staff required to work with data registered in the central system. That obligation shall also apply after such staff leave office or employment or after the termination of their activities.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d346e1414">
+               <num>Article 12</num>
+               <heading>Responsibilities of the Member States</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <subparagraph>
+                     <content>
+                        <p>Each Member State shall be responsible for:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(a)</num>
+                        <content>
+                           <p>ensuring a secure connection between its national criminal records and fingerprints databases and the national central access point;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(b)</num>
+                        <content>
+                           <p>the development, operation and maintenance of the connection referred to in point (a);</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(c)</num>
+                        <content>
+                           <p>ensuring a connection between its national systems and the ECRIS reference implementation;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(d)</num>
+                        <content>
+                           <p>the management of and arrangements for access of duly authorised staff of the central authorities to ECRIS-TCN in accordance with this Regulation and for establishing and regularly updating a list of such staff and the profiles referred to in point (g) of Article 19(3).</p>
+                        </content>
+                     </point>
+                  </list>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>Each Member State shall give the staff of its central authority who have a right to access ECRIS-TCN appropriate training covering, in particular, data security and data protection rules and applicable fundamental rights, before authorising them to process data stored in the central system.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d346e1456">
+               <num>Article 13</num>
+               <heading>Responsibility for the use of data</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <subparagraph>
+                     <content>
+                        <p>In accordance with applicable Union data protection rules, each Member State shall ensure that the data recorded in ECRIS-TCN are processed lawfully, and in particular that:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(a)</num>
+                        <content>
+                           <p>only duly authorised staff have access to the data for the performance of their tasks;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(b)</num>
+                        <content>
+                           <p>the data are collected lawfully in a manner that fully respects the human dignity and fundamental rights of the third-country national;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(c)</num>
+                        <content>
+                           <p>the data are entered into ECRIS-TCN lawfully;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(d)</num>
+                        <content>
+                           <p>the data are accurate and up-to-date when they are entered into ECRIS-TCN.</p>
+                        </content>
+                     </point>
+                  </list>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>eu-LISA shall ensure that ECRIS-TCN is operated in accordance with this Regulation, with the delegated act referred to in Article 6(2) and with the implementing acts referred to in Article 10, as well as in accordance with Regulation (EU) 2018/1725. In particular, eu-LISA shall take the necessary measures to ensure the security of the central system and the communication infrastructure referred to in point (d) of Article 4(1), without prejudice to the responsibilities of each Member State.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <content>
+                     <p>eu-LISA shall inform the European Parliament, the Council and the Commission as well as the European Data Protection Supervisor as soon as possible of the measures it takes pursuant to paragraph 2 in view of the start of operations of ECRIS-TCN.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>4.</num>
+                  <content>
+                     <p>The Commission shall make the information referred to in paragraph 3 available to the Member States and to the public through a regularly updated public website.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d346e1507">
+               <num>Article 14</num>
+               <heading>Access for Eurojust, Europol, and the EPPO</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>Eurojust shall have direct access to ECRIS-TCN for the purpose of the implementation of Article 17, as well as for fulfilling its tasks under Article 2 of Regulation (EU) 2018/1727, in order to identify the Member States holding information on previous convictions of third-country nationals.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>Europol shall have direct access to ECRIS-TCN for the purpose of fulfilling its tasks under points (a) to (e) and (h) of Article 4(1) of Regulation (EU) 2016/794, in order to identify the Member States holding information on previous convictions of third-country nationals.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <content>
+                     <p>The EPPO shall have direct access to ECRIS-TCN for the purpose of fulfilling its tasks under Article 4 of Regulation (EU) 2017/1939, in order to identify the Member States holding information on previous convictions of third-country nationals.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>4.</num>
+                  <content>
+                     <p>Following a hit indicating the Member States holding criminal records information on a third-country national, Eurojust, Europol, and the EPPO may use their respective contacts with the national authorities of those Member States to request the criminal records information in the manner provided for in their respective founding acts.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d346e1532">
+               <num>Article 15</num>
+               <heading>Access by authorised staff of Eurojust, Europol and the EPPO</heading>
+               <paragraph>
+                  <content>
+                     <p>Eurojust, Europol and the EPPO shall be responsible for the management of and arrangements for access of duly authorised staff to ECRIS-TCN in accordance with this Regulation and for establishing and regularly updating a list of such staff and their profiles.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d346e1540">
+               <num>Article 16</num>
+               <heading>Responsibilities of Eurojust, Europol and the EPPO</heading>
+               <paragraph>
+                  <subparagraph>
+                     <content>
+                        <p>Eurojust, Europol and the EPPO shall:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(a)</num>
+                        <content>
+                           <p>establish the technical means to connect to ECRIS-TCN and be responsible for maintaining that connection;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(b)</num>
+                        <content>
+                           <p>provide appropriate training covering, in particular, data security and data protection rules and applicable fundamental rights to those members of their staff who have a right to access ECRIS-TCN before authorising them to process data stored in the central system;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(c)</num>
+                        <content>
+                           <p>ensure that the personal data processed by them under this Regulation is protected in accordance with the applicable data protection rules.</p>
+                        </content>
+                     </point>
+                  </list>
+               </paragraph>
+            </article>
+            <article xml:id="art_d346e1567">
+               <num>Article 17</num>
+               <heading>Contact point for third countries and international organisations</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>Third countries and international organisations may, for the purposes of criminal proceedings, address requests for information on which Member States, if any, hold criminal records information on a third-country national to Eurojust. To that end, they shall use the standard form set out in the Annex to this Regulation.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>When Eurojust receives a request under paragraph 1, it shall use ECRIS-TCN to identify which Member States, if any, hold criminal records information on the third-country national concerned.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <content>
+                     <p>If there is a hit, Eurojust shall ask the Member State that holds criminal records information on the third-country national concerned whether it consents to Eurojust informing the third country or the international organisation of the name of the Member State concerned. Where that Member State gives its consent, Eurojust shall inform the third country or the international organisation of the name of that Member State, and of how it can introduce a request for extracts from the criminal records with that Member State in accordance with the applicable procedures.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>4.</num>
+                  <content>
+                     <p>In cases where there is no hit or where Eurojust cannot provide an answer in accordance with paragraph 3 to requests made under this Article, it shall inform the third country or international organisation concerned that it has completed the procedure, without providing any indication of whether criminal records information on the person concerned is held by one of the Member States.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d346e1592">
+               <num>Article 18</num>
+               <heading>Providing information to a third country, international organisation or private party</heading>
+               <paragraph>
+                  <content>
+                     <p>Neither Eurojust, Europol, the EPPO nor any central authority shall transfer or make available to a third country, an international organisation or a private party information obtained from ECRIS-TCN concerning a third-country national. This Article shall be without prejudice to Article 17(3).</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d346e1600">
+               <num>Article 19</num>
+               <heading>Data Security</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>eu-LISA shall take the necessary measures to ensure the security of ECRIS-TCN, without prejudice to the responsibilities of each Member State, taking the security measures specified in paragraph 3 into consideration.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>As regards the operation of ECRIS-TCN, eu-LISA shall take the necessary measures in order to achieve the objectives set out in paragraph 3, including the adoption of a security plan and a business continuity and disaster recovery plan, and to ensure that installed systems may, in case of interruption, be restored.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <subparagraph>
+                     <content>
+                        <p>The Member States shall ensure the security of the data before and during the transmission to and receipt from the national central access point. In particular, each Member State shall:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(a)</num>
+                        <content>
+                           <p>physically protect data, including by making contingency plans for the protection of infrastructure;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(b)</num>
+                        <content>
+                           <p>deny unauthorised persons access to national installations in which the Member State carries out operations related to ECRIS-TCN;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(c)</num>
+                        <content>
+                           <p>prevent the unauthorised reading, copying, modification or removal of data media;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(d)</num>
+                        <content>
+                           <p>prevent the unauthorised input of data and the unauthorised inspection, modification or erasure of stored personal data;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(e)</num>
+                        <content>
+                           <p>prevent the unauthorised processing of data in ECRIS-TCN and any unauthorised modification or erasure of data processed in ECRIS-TCN;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(f)</num>
+                        <content>
+                           <p>ensure that persons authorised to access ECRIS-TCN have access only to the data covered by their access authorisation, by means of individual user identities and confidential access modes only;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(g)</num>
+                        <content>
+                           <p>ensure that all authorities with a right of access to ECRIS-TCN create profiles describing the functions and responsibilities of persons who are authorised to enter, rectify, erase, consult and search the data and make their profiles available to the national supervisory authorities without undue delay at their request;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(h)</num>
+                        <content>
+                           <p>ensure that it is possible to verify and establish to which Union bodies, offices and agencies personal data may be transmitted using data communication equipment;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(i)</num>
+                        <content>
+                           <p>ensure that it is possible to verify and establish what data have been processed in ECRIS-TCN, when, by whom and for what purpose;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(j)</num>
+                        <content>
+                           <p>prevent the unauthorised reading, copying, modification or erasure of personal data during the transmission of personal data to or from ECRIS-TCN or during the transport of data media, in particular by means of appropriate encryption techniques;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(k)</num>
+                        <content>
+                           <p>monitor the effectiveness of the security measures referred to in this paragraph and take the necessary organisational measures related to self-monitoring and supervision to ensure compliance with this Regulation.</p>
+                        </content>
+                     </point>
+                  </list>
+               </paragraph>
+               <paragraph>
+                  <num>4.</num>
+                  <content>
+                     <p>eu-LISA and the Member States shall cooperate in order to ensure a coherent data security approach based on a security risk management process encompassing the entire ECRIS-TCN.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d346e1695">
+               <num>Article 20</num>
+               <heading>Liability</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <subparagraph>
+                     <content>
+                        <p>Any person who, or any Member State which, has suffered material or non-material damage as a result of an unlawful processing operation or any other act incompatible with this Regulation shall be entitled to receive compensation from:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(a)</num>
+                        <content>
+                           <p>the Member State which is responsible for the damage suffered; or</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(b)</num>
+                        <content>
+                           <p>eu-LISA, where eu-LISA has not complied with its obligations set out in this Regulation or in Regulation (EU) 2018/1725.</p>
+                        </content>
+                     </point>
+                  </list>
+                  <subparagraph>
+                     <content>
+                        <p>The Member State which is responsible for the damage suffered or eu-LISA, respectively, shall be exempted from liability, in whole or in part, if it proves that it is not responsible for the event which gave rise to the damage.</p>
+                     </content>
+                  </subparagraph>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>If any failure of a Member State, Eurojust, Europol, or the EPPO to comply with its obligations under this Regulation causes damage to ECRIS-TCN, that Member State, Eurojust, Europol, or the EPPO, respectively, shall be held liable for such damage, unless and insofar as eu-LISA or another Member State participating in ECRIS-TCN failed to take reasonable measures to prevent the damage from occurring or to minimise its impact.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <content>
+                     <p>Claims for compensation against a Member State for the damage referred to in paragraphs 1 and 2 shall be governed by the law of the defendant Member State. Claims for compensation against eu-LISA, Eurojust, Europol and the EPPO for the damage referred to in paragraphs 1 and 2 shall be governed by their respective founding acts.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d346e1731">
+               <num>Article 21</num>
+               <heading>Self-monitoring</heading>
+               <paragraph>
+                  <content>
+                     <p>Member States shall ensure that each central authority takes the measures necessary to comply with this Regulation and cooperates, where necessary, with the supervisory authorities.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d346e1738">
+               <num>Article 22</num>
+               <heading>Penalties</heading>
+               <paragraph>
+                  <content>
+                     <p>Any misuse of data entered in ECRIS-TCN shall be subject to penalties or disciplinary measures, in accordance with national or Union law, that are effective, proportionate and dissuasive.</p>
+                  </content>
+               </paragraph>
+            </article>
+         </chapter>
+         <chapter>
+            <num>CHAPTER V</num>
+            <heading>Data protection rights and supervision</heading>
+            <article xml:id="art_d346e1757">
+               <num>Article 23</num>
+               <heading>Data controller and data processor</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>Each central authority is to be considered as data controller in accordance with applicable Union data protection rules for the processing of the personal data by that central authority&apos;s Member State under this Regulation.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>eu-LISA shall be considered as data processor in accordance with Regulation (EU) 2018/1725 as regards the personal data entered into the central system by the Member States.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d346e1772">
+               <num>Article 24</num>
+               <heading>Purpose of the processing of personal data</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>The data entered into the central system shall only be processed for the purpose of the identification of the Member States holding the criminal records information on third-country nationals.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>With the exception of duly authorised staff of Eurojust, Europol and the EPPO who have access to ECRIS-TCN for the purposes of this Regulation, access to ECRIS-TCN shall be reserved exclusively to duly authorised staff of the central authorities. Access shall be limited to the extent needed for the performance of the tasks in accordance with the purpose referred to in paragraph 1, and to what is necessary and proportionate to the objectives pursued.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d346e1787">
+               <num>Article 25</num>
+               <heading>Right of access, rectification, erasure and restriction of processing</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>The requests of third-country nationals concerning the rights of access to personal data, to rectification and erasure and to restriction of processing of personal data which are set out in the applicable Union data protection rules may be addressed to the central authority of any Member State.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <subparagraph>
+                     <content>
+                        <p>Where a request is made to a Member State other than the convicting Member State, the Member State to which the request has been made shall forward it to the convicting Member State without undue delay and in any event within 10 working days of receiving the request. Upon receipt of the request, the convicting Member State shall:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(a)</num>
+                        <content>
+                           <p>immediately launch a procedure for checking the accuracy of the data concerned and the lawfulness of its processing in ECRIS-TCN; and</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(b)</num>
+                        <content>
+                           <p>respond to the Member State that forwarded the request without undue delay.</p>
+                        </content>
+                     </point>
+                  </list>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <content>
+                     <p>In the event that data recorded in ECRIS-TCN are inaccurate or have been processed unlawfully, the convicting Member State shall rectify or erase the data in accordance with Article 9. The convicting Member State or, where applicable, the Member State to which the request has been made shall confirm in writing to the person concerned without undue delay that action has been taken to rectify or erase data relating to that person. The convicting Member State shall also without undue delay inform any other Member State which has been a recipient of conviction information obtained as a result of a query of ECRIS-TCN of what action has been taken.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>4.</num>
+                  <content>
+                     <p>If the convicting Member State does not agree that data recorded in ECRIS-TCN are inaccurate or have been processed unlawfully, that Member State shall adopt an administrative or judicial decision explaining in writing to the person concerned why it is not prepared to rectify or erase data relating to him or her. Such cases may, where appropriate, be communicated to the national supervisory authority.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>5.</num>
+                  <content>
+                     <p>The Member State which has adopted the decision pursuant to paragraph 4 shall also provide the person concerned with information explaining the steps which that person can take if the explanation given pursuant to paragraph 4 is not acceptable to him or her. This shall include information on how to bring an action or a complaint before the competent authorities or courts of that Member State and any assistance, including from the national supervisory authorities, that is available in accordance with the national law of that Member State.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>6.</num>
+                  <content>
+                     <p>Any request made pursuant to paragraph 1 shall contain the information necessary to identify the person concerned. That information shall be used exclusively to enable the exercise of the rights referred to in paragraph 1 and shall be erased immediately afterwards.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>7.</num>
+                  <content>
+                     <p>Where paragraph 2 applies, the central authority to whom the request was addressed shall keep a written record that such a request was made and of how it was addressed and to which authority it was forwarded. Upon request from the national supervisory authority, the central authority shall make that record available to that national supervisory authority without delay. The central authority and the national supervisory authority shall erase such records three years after their creation.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d346e1842">
+               <num>Article 26</num>
+               <heading>Cooperation to ensure respect for data protection rights</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>The central authorities shall cooperate with each other in order to ensure respect for the rights laid down in Article 25.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>In each Member State, the national supervisory authority shall, upon request, provide information to the person concerned on how to exercise his or her right to rectify or erase data relating to him or to her, in accordance with the applicable Union data protection rules.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <content>
+                     <p>For the purposes of this Article, the national supervisory authority of the Member State which transmitted the data and the national supervisory authority of the Member State to which the request has been made shall cooperate with each other.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d346e1862">
+               <num>Article 27</num>
+               <heading>Remedies</heading>
+               <paragraph>
+                  <content>
+                     <p>Any person shall have the right to lodge a complaint and the right to a legal remedy in the convicting Member State which refused the right of access to or the right of rectification or erasure of data relating to him or to her, referred to in Article 25 in accordance with national or Union law.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d346e1869">
+               <num>Article 28</num>
+               <heading>Supervision by the national supervisory authorities</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>Each Member State shall ensure that the national supervisory authorities designated pursuant to applicable Union data protection rules shall monitor the lawfulness of the processing of personal data referred to in Articles 5 and 6 by the Member State concerned, including their transmission to and from ECRIS-TCN.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>The national supervisory authority shall ensure that an audit of the data processing operations in the national criminal records and fingerprints databases related to the data exchange between those systems and ECRIS-TCN is carried out in accordance with relevant international auditing standards at least every three years from the date of the start of operations of ECRIS-TCN.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <content>
+                     <p>Member States shall ensure that their national supervisory authorities have sufficient resources to fulfil the tasks entrusted to them under this Regulation.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>4.</num>
+                  <content>
+                     <p>Each Member State shall supply any information requested by its national supervisory authorities and shall, in particular, provide them with information on the activities carried out in accordance with Articles 12, 13 and 19. Each Member State shall grant its national supervisory authorities access to its records pursuant to Article 25(7) and to its logs pursuant to Article 31(6) and allow them access at all times to all its ECRIS-TCN related premises.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d346e1894">
+               <num>Article 29</num>
+               <heading>Supervision by the European Data Protection Supervisor</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>The European Data Protection Supervisor shall monitor that the personal data processing activities of eu-LISA concerning ECRIS-TCN are carried out in accordance with this Regulation.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>The European Data Protection Supervisor shall ensure that an audit of eu-LISA&apos;s personal data processing activities is carried out in accordance with relevant international auditing standards at least every three years. A report of that audit shall be sent to the European Parliament, the Council, the Commission, eu-LISA and the supervisory authorities. eu-LISA shall be given an opportunity to make comments before the report is adopted.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <content>
+                     <p>eu-LISA shall supply information requested by the European Data Protection Supervisor, give him or her access to all documents and to its logs referred to in Article 31 and allow him or her access to all of its premises at any time.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d346e1915">
+               <num>Article 30</num>
+               <heading>Cooperation among national supervisory authorities and the European Data Protection Supervisor</heading>
+               <paragraph>
+                  <content>
+                     <p>Coordinated supervision of ECRIS-TCN shall be ensured in accordance with Article 62 of Regulation (EU) 2018/1725.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d346e1922">
+               <num>Article 31</num>
+               <heading>Keeping of logs</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>eu-LISA and the competent authorities shall ensure, in accordance with their respective responsibilities, that all data processing operations in ECRIS-TCN are logged in accordance with paragraph 2 for the purposes of checking the admissibility of requests, monitoring data integrity and security and the lawfulness of the data processing as well as for the purposes of self-monitoring.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <subparagraph>
+                     <content>
+                        <p>The log shall show:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(a)</num>
+                        <content>
+                           <p>the purpose of the request for access to ECRIS-TCN data;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(b)</num>
+                        <content>
+                           <p>the data transmitted as referred to in Article 5;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(c)</num>
+                        <content>
+                           <p>the national file reference;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(d)</num>
+                        <content>
+                           <p>the date and exact time of the operation;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(e)</num>
+                        <content>
+                           <p>the data used for a query;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(f)</num>
+                        <content>
+                           <p>the identifying mark of the official who carried out the search.</p>
+                        </content>
+                     </point>
+                  </list>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <content>
+                     <p>The log of consultations and disclosures shall make it possible to establish the justification of such operations.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>4.</num>
+                  <content>
+                     <p>Logs shall be used only for monitoring the lawfulness of data processing and for ensuring data integrity and security. Only logs containing non-personal data may be used for the monitoring and evaluation referred to in Article 36. Those logs shall be protected by appropriate measures against unauthorised access and erased after three years, if they are no longer required for monitoring procedures which have already begun.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>5.</num>
+                  <content>
+                     <p>On request, eu-LISA shall make the logs of its processing operations available to the central authorities without undue delay.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>6.</num>
+                  <content>
+                     <p>The competent national supervisory authorities responsible for checking the admissibility of the requests and monitoring the lawfulness of the data processing and data integrity and security shall have access to logs at their request for the purpose of fulfilling their duties. On request, the central authorities shall make the logs of their processing operations available to the competent national supervisory authorities without undue delay.</p>
+                  </content>
+               </paragraph>
+            </article>
+         </chapter>
+         <chapter>
+            <num>CHAPTER VI</num>
+            <heading>Final provisions</heading>
+            <article xml:id="art_d346e2006">
+               <num>Article 32</num>
+               <heading>Use of data for reporting and statistics</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>The duly authorised staff of eu-LISA, of the competent authorities and of the Commission shall have access to the data processed within ECRIS-TCN solely for the purposes of reporting and providing statistics, without allowing for individual identification.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>For the purpose of paragraph 1, eu-LISA shall establish, implement and host a central repository at its technical sites containing the data referred to in paragraph 1 which, without allowing for individual identification, enables customisable reports and statistics to be obtained. Access to the central repository shall be granted by means of secured access with control of access and specific user profiles, solely for the purpose of reporting and statistics.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <subparagraph>
+                     <content>
+                        <p>The procedures put in place by eu-LISA to monitor the functioning of ECRIS-TCN referred to in Article 36 as well as the ECRIS reference implementation shall include the possibility to produce regular statistics for monitoring purposes.</p>
+                     </content>
+                  </subparagraph>
+                  <subparagraph>
+                     <content>
+                        <p>Every month eu-LISA shall submit to the Commission statistics relating to the recording, storage and exchange of information extracted from criminal records through ECRIS-TCN and the ECRIS reference implementation. eu-LISA shall ensure that it is not possible to identify individuals on the basis of those statistics. At the request of the Commission, eu-LISA shall provide it with statistics on specific aspects related to the implementation of this Regulation.</p>
+                     </content>
+                  </subparagraph>
+               </paragraph>
+               <paragraph>
+                  <num>4.</num>
+                  <content>
+                     <p>The Member States shall provide eu-LISA with the statistics necessary to fulfil its obligations referred to in this Article. They shall provide the Commission with statistics on the number of convicted third-country nationals, as well as the number of convictions of third-country nationals on their territory.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d346e2034">
+               <num>Article 33</num>
+               <heading>Costs</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>The costs incurred in connection with the establishment and operation of the central system, the communication infrastructure referred to in point (d) of Article 4(1), the interface software and the ECRIS reference implementation shall be borne by the general budget of the Union.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>The costs of connection of Eurojust, Europol and the EPPO to ECRIS-TCN shall be borne by their respective budgets.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <content>
+                     <p>Other costs shall be borne by the Member States, specifically the costs incurred by the connection of the existing national criminal records registers, fingerprints databases and the central authorities to ECRIS-TCN, as well as the costs of hosting the ECRIS reference implementation.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d346e2054">
+               <num>Article 34</num>
+               <heading>Notifications</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>Each Member State shall notify eu-LISA of its central authority, or authorities, that has access to enter, rectify, erase, consult or search data, as well as of any change in this respect.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>eu-LISA shall ensure publication of the list of central authorities notified by the Member States, both in the <i>Official Journal of the European Union</i> and on its website. When eu-LISA receives notification of a change to a Member State&apos;s central authority, it shall update the list without undue delay.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d346e2072">
+               <num>Article 35</num>
+               <heading>Entry of data and start of operations</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <subparagraph>
+                     <content>
+                        <p>Once the Commission is satisfied that the following conditions are met, it shall determine the date from which the Member States shall start entering the data referred to in Article 5 into ECRIS-TCN:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(a)</num>
+                        <content>
+                           <p>the relevant implementing acts referred to in Article 10 have been adopted;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(b)</num>
+                        <content>
+                           <p>the Member States have validated the technical and legal arrangements to collect and transmit the data referred to in Article 5 to ECRIS-TCN and have notified them to the Commission;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(c)</num>
+                        <content>
+                           <p>eu-LISA has carried out a comprehensive test of ECRIS-TCN, in cooperation with the Member States, using anonymous test data.</p>
+                        </content>
+                     </point>
+                  </list>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>When the Commission has determined the date of start of entry of data in accordance with paragraph 1, it shall communicate that date to the Member States. Within a period of two months following that date, the Member States shall enter the data referred to in Article 5 into ECRIS-TCN, taking account of Article 41(2).</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <content>
+                     <p>After the end of the period referred to in paragraph 2, eu-LISA shall carry out a final test of ECRIS-TCN, in cooperation with the Member States.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>4.</num>
+                  <content>
+                     <p>When the test referred to in paragraph 3 has been successfully completed and eu-LISA considers that ECRIS-TCN is ready to start operations, it shall notify the Commission. The Commission shall inform the European Parliament and the Council of the results of the test and shall decide on the date on which ECRIS-TCN is to start operations.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>5.</num>
+                  <content>
+                     <p>The decision of the Commission on the date of the start of operations of ECRIS-TCN, as referred to in paragraph 4, shall be published in the <i>Official Journal of the European Union</i>.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>6.</num>
+                  <content>
+                     <p>The Member States shall start using ECRIS-TCN from the date determined by the Commission in accordance with paragraph 4.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>7.</num>
+                  <content>
+                     <p>When taking the decisions referred to in this Article, the Commission may specify different dates for the entry into ECRIS-TCN of alphanumeric data and fingerprint data as referred to in Article 5, as well as for the start of operations with respect to those different categories of data.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d346e2136">
+               <num>Article 36</num>
+               <heading>Monitoring and evaluation</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>eu-LISA shall ensure that procedures are in place to monitor the development of ECRIS-TCN in light of objectives relating to planning and costs and to monitor the functioning of ECRIS-TCN and the ECRIS reference implementation in light of objectives relating to the technical output, cost-effectiveness, security and quality of service.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>For the purposes of monitoring the functioning of ECRIS-TCN and its technical maintenance, eu-LISA shall have access to the necessary information relating to the data processing operations performed in ECRIS-TCN and in the ECRIS reference implementation.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <content>
+                     <p>By 12 December 2019 and every six months thereafter during the design and development phase, eu-LISA shall submit a report to the European Parliament and the Council on the state of play of the development of ECRIS-TCN and of the ECRIS reference implementation.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>4.</num>
+                  <content>
+                     <p>The report referred to in paragraph 3 shall include an overview of the current costs and the progress of the project, a financial impact assessment, and information on any technical problems and risks that may impact the overall costs of ECRIS-TCN to be borne by the general budget of the Union in accordance with Article 33.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>5.</num>
+                  <content>
+                     <p>In the event of substantial delays in the development process, eu-LISA shall inform the European Parliament and the Council as soon as possible of the reasons for these delays and of their impact in terms of time and finances.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>6.</num>
+                  <content>
+                     <p>Once the development of ECRIS-TCN and of the ECRIS reference implementation is finalised, eu-LISA shall submit a report to the European Parliament and to the Council explaining how the objectives, in particular relating to planning and costs, were achieved and justifying any divergences.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>7.</num>
+                  <content>
+                     <p>In the event of a technical upgrade of ECRIS-TCN which could result in substantial costs, eu-LISA shall inform the European Parliament and the Council.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>8.</num>
+                  <content>
+                     <p>Two years after the start of operations of ECRIS-TCN and every year thereafter, eu-LISA shall submit to the Commission a report on the technical functioning of ECRIS-TCN and of the ECRIS reference implementation, including their security, based in particular on the statistics on the functioning and use of ECRIS-TCN and on the exchange, through the ECRIS reference implementation, of information extracted from the criminal records.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>9.</num>
+                  <content>
+                     <p>Four years after the start of operations of ECRIS-TCN and every four years thereafter, the Commission shall conduct an overall evaluation of ECRIS-TCN and of the ECRIS reference implementation. The overall evaluation report established on this basis shall include an assessment of the application of this Regulation and an examination of results that have been achieved relative to the objectives that were set and of the impact on fundamental rights. The report shall also include an assessment of whether the underlying rationale for operating ECRIS-TCN continues to hold, of the appropriateness of the use of biometric data for the purposes of ECRIS-TCN, of the security of ECRIS-TCN and of any security implications for future operations. The evaluation shall include any necessary recommendations. The Commission shall transmit the report to the European Parliament, the Council, the European Data Protection Supervisor and the European Union Agency for Fundamental Rights.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>10.</num>
+                  <subparagraph>
+                     <content>
+                        <p>In addition, the first overall evaluation as referred to in paragraph 9 shall include an assessment of:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(a)</num>
+                        <content>
+                           <p>the extent to which, on the basis of relevant statistical data and further information from the Member States, the inclusion in ECRIS-TCN of identity information of citizens of the Union who also hold the nationality of a third country has contributed to the achievement of the objectives of this Regulation;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(b)</num>
+                        <content>
+                           <p>the possibility, for some Member States, to continue the use of national ECRIS implementation software, as referred to in Article 4;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(c)</num>
+                        <content>
+                           <p>the entry of fingerprint data into ECRIS-TCN, in particular the application of the minimum criteria as referred to in point (b)(ii) of Article 5(1);</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(d)</num>
+                        <content>
+                           <p>the impact of ECRIS and of ECRIS-TCN on the protection of personal data.</p>
+                        </content>
+                     </point>
+                  </list>
+                  <subparagraph>
+                     <content>
+                        <p>The assessment may be accompanied, if necessary, by legislative proposals. Subsequent overall evaluations may include an assessment of any or all of those aspects.</p>
+                     </content>
+                  </subparagraph>
+               </paragraph>
+               <paragraph>
+                  <num>11.</num>
+                  <content>
+                     <p>The Member States, Eurojust, Europol and the EPPO shall provide eu-LISA and the Commission with the information necessary to draft the reports referred to in paragraphs 3, 8 and 9 according to the quantitative indicators predefined by the Commission or eu-LISA or both. That information shall not jeopardise working methods or include information that reveals sources, staff members or investigations.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>12.</num>
+                  <content>
+                     <p>Where relevant, the supervisory authorities shall provide eu-LISA and the Commission with the information necessary to draft the reports referred to in paragraph 9 according to the quantitative indicators predefined by the Commission or eu-LISA or both. That information shall not jeopardise working methods or include information that reveals sources, staff members or investigations.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>13.</num>
+                  <content>
+                     <p>eu-LISA shall provide the Commission with the information necessary to produce the overall evaluations referred to in paragraph 9.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d346e2239">
+               <num>Article 37</num>
+               <heading>Exercise of the delegation</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>The power to adopt delegated acts is conferred on the Commission subject to the conditions laid down in this Article.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>The power to adopt delegated acts referred to in Article 6(2) shall be conferred on the Commission for an indeterminate period of time from 11 June 2019.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <content>
+                     <p>The delegation of power referred to in Article 6(2) may be revoked at any time by the European Parliament or by the Council. A decision to revoke shall put an end to the delegation of the power specified in that decision. It shall take effect the day following the publication of the decision in the <i>Official Journal of the European Union</i> or at a later date specified therein. It shall not affect the validity of any delegated acts already in force.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>4.</num>
+                  <content>
+                     <p>Before adopting a delegated act, the Commission shall consult experts designated by each Member State in accordance with the principles laid down in the Interinstitutional Agreement of 13 April 2016 on Better Law-Making.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>5.</num>
+                  <content>
+                     <p>As soon as it adopts a delegated act, the Commission shall notify it simultaneously to the European Parliament and to the Council.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>6.</num>
+                  <content>
+                     <p>A delegated act adopted pursuant to Article 6(2) shall enter into force only if no objection has been expressed either by the European Parliament or the Council within a period of two months of notification of that act to the European Parliament and the Council or if, before the expiry of that period, the European Parliament and the Council have both informed the Commission that they will not object. That period shall be extended by two months at the initiative of the European Parliament or of the Council.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d346e2283">
+               <num>Article 38</num>
+               <heading>Committee procedure</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>The Commission shall be assisted by a committee. That committee shall be a committee within the meaning of Regulation (EU) No 182/2011.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <subparagraph>
+                     <content>
+                        <p>Where reference is made to this paragraph, Article 5 of Regulation (EU) No 182/2011 shall apply.</p>
+                     </content>
+                  </subparagraph>
+                  <subparagraph>
+                     <content>
+                        <p>Where the committee delivers no opinion, the Commission shall not adopt the draft implementing act and the third subparagraph of Article 5(4) of Regulation (EU) No 182/2011 shall apply.</p>
+                     </content>
+                  </subparagraph>
+               </paragraph>
+            </article>
+            <article xml:id="art_d346e2301">
+               <num>Article 39</num>
+               <heading>Advisory Group</heading>
+               <paragraph>
+                  <content>
+                     <p>eu-LISA shall establish an Advisory Group in order to obtain expertise related to ECRIS-TCN and the ECRIS reference implementation, in particular in the context of preparation of its annual work programme and its annual activity report. During the design and development phase, Article 11(9) shall apply.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d346e2308" leos:compliant="false">
+               <num>Article 40</num>
+               <heading>Amendments to Regulation (EU) 2018/1726</heading>
+               <paragraph>
+                  <subparagraph>
+                     <content>
+                        <p>Regulation (EU) 2018/1726 is amended as follows:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(1)</num>
+                        <alinea>
+                           <content>
+                              <p>In Article 1, paragraph 4 is replaced by the following:</p>
+                           </content>
+                        </alinea>
+                        <alinea>
+                           <content>
+                              <p>
+                                 <mod>
+                                    <quotedStructure startQuote="" endQuote="">
+                                       <paragraph>
+                                          <num>&apos;4.</num>
+                                          <content>
+                                             <p>The Agency shall be responsible for the preparation, development or operational management of the Entry/Exit System (EES), DubliNet, the European Travel Information and Authorisation System (ETIAS), ECRIS-TCN and the ECRIS reference implementation.&apos;;</p>
+                                          </content>
+                                       </paragraph>
+                                    </quotedStructure>
+                                 </mod>
+                              </p>
+                           </content>
+                        </alinea>
+                     </point>
+                     <point>
+                        <num>(2)</num>
+                        <alinea>
+                           <content>
+                              <p>The following Article is inserted:</p>
+                           </content>
+                        </alinea>
+                        <alinea>
+                           <content>
+                              <p>
+                                 <mod>
+                                    <quotedStructure startQuote="" endQuote="">
+                                       <article xml:id="art_d346e2341">
+                                          <num>&apos;Article 8a</num>
+                                          <heading>Tasks related to ECRIS-TCN and the ECRIS reference implementation</heading>
+                                          <paragraph>
+                                             <subparagraph>
+                                                <content>
+                                                   <p>In relation to ECRIS-TCN and the ECRIS reference implementation, the Agency shall perform:</p>
+                                                </content>
+                                             </subparagraph>
+                                             <list>
+                                                <point>
+                                                   <num>(a)</num>
+                                                   <content>
+                                                      <p>the tasks conferred on it by Regulation (EU) 2019/816 of the European Parliament and of the Council<authorialNote placement="bottom" marker="18">
+                                                            <p>Regulation (EU) 2019/816 of the European Parliament and of the Council of 17 April 2019 establishing a centralised system for the identification of Member States holding conviction information on third-country nationals and stateless persons (ECRIS-TCN) to supplement the European Criminal Records Information System) and amending Regulation (EU) 2018/1726 (OJ L 135, 22.5.2019, p. 1).&apos;;</p>
+                                                         </authorialNote>;</p>
+                                                   </content>
+                                                </point>
+                                                <point>
+                                                   <num>(b)</num>
+                                                   <content>
+                                                      <p>tasks relating to training on the technical use of ECRIS-TCN and the ECRIS reference implementation.</p>
+                                                   </content>
+                                                </point>
+                                             </list>
+                                          </paragraph>
+                                       </article>
+                                    </quotedStructure>
+                                 </mod>
+                              </p>
+                           </content>
+                        </alinea>
+                     </point>
+                     <point>
+                        <num>(3)</num>
+                        <alinea>
+                           <content>
+                              <p>In Article 14, paragraph 1 is replaced by the following:</p>
+                           </content>
+                        </alinea>
+                        <alinea>
+                           <content>
+                              <p>
+                                 <mod>
+                                    <quotedStructure startQuote="" endQuote="">
+                                       <paragraph>
+                                          <num>&apos;1.</num>
+                                          <content>
+                                             <p>The Agency shall monitor developments in research relevant for the operational management of SIS II, VIS, Eurodac, the EES, ETIAS, DubliNet, ECRIS-TCN and other large-scale IT systems as referred to in Article 1(5).&apos;;</p>
+                                          </content>
+                                       </paragraph>
+                                    </quotedStructure>
+                                 </mod>
+                              </p>
+                           </content>
+                        </alinea>
+                     </point>
+                     <point>
+                        <num>(4)</num>
+                        <alinea>
+                           <content>
+                              <p>In Article 19, paragraph 1 is amended as follows:</p>
+                           </content>
+                        </alinea>
+                        <list>
+                           <point>
+                              <num>(a)</num>
+                              <alinea>
+                                 <content>
+                                    <p>point (ee) is replaced by the following:</p>
+                                 </content>
+                              </alinea>
+                              <alinea>
+                                 <content>
+                                    <p>
+                                       <mod>
+                                          <quotedStructure startQuote="" endQuote="">
+                                             <point>
+                                                <num>&apos;(ee)</num>
+                                                <content>
+                                                   <p>adopt the reports on the development of the EES pursuant to Article 72(2) of Regulation (EU) 2017/2226, the reports on the development of ETIAS pursuant to Article 92(2) of Regulation (EU) 2018/1240 and the reports on the development of ECRIS-TCN and of the ECRIS reference implementation pursuant to Article 36(3) of Regulation (EU) 2019/816;&apos;;</p>
+                                                </content>
+                                             </point>
+                                          </quotedStructure>
+                                       </mod>
+                                    </p>
+                                 </content>
+                              </alinea>
+                           </point>
+                           <point>
+                              <num>(b)</num>
+                              <alinea>
+                                 <content>
+                                    <p>point (ff) is replaced by the following:</p>
+                                 </content>
+                              </alinea>
+                              <alinea>
+                                 <content>
+                                    <p>
+                                       <mod>
+                                          <quotedStructure startQuote="" endQuote="">
+                                             <point>
+                                                <num>&apos;(ff)</num>
+                                                <content>
+                                                   <p>adopt the reports on the technical functioning of SIS II pursuant to Article 50(4) of Regulation (EC) No 1987/2006 and Article 66(4) of Decision 2007/533/JHA respectively, of VIS pursuant to Article 50(3) of Regulation (EC) No 767/2008 and Article 17(3) of Decision 2008/633/JHA, of the EES pursuant to Article 72(4) of Regulation (EU) 2017/2226, of ETIAS pursuant to Article 92(4) of Regulation (EU) 2018/1240, and of ECRIS-TCN and of the ECRIS reference implementation pursuant to Article 36(8) of Regulation (EU) 2019/816;&apos;;</p>
+                                                </content>
+                                             </point>
+                                          </quotedStructure>
+                                       </mod>
+                                    </p>
+                                 </content>
+                              </alinea>
+                           </point>
+                           <point>
+                              <num>(c)</num>
+                              <alinea>
+                                 <content>
+                                    <p>point (hh) is replaced by the following:</p>
+                                 </content>
+                              </alinea>
+                              <alinea>
+                                 <content>
+                                    <p>
+                                       <mod>
+                                          <quotedStructure startQuote="" endQuote="">
+                                             <point>
+                                                <num>&apos;(hh)</num>
+                                                <content>
+                                                   <p>adopt formal comments on the European Data Protection Supervisor&apos;s reports on the audits carried out pursuant to Article 45(2) of Regulation (EC) No 1987/2006, Article 42(2) of Regulation (EC) No 767/2008 and Article 31(2) of Regulation (EU) No 603/2013, Article 56(2) of Regulation (EU) 2017/2226, Article 67 of Regulation (EU) 2018/1240 and to Article 29(2) of Regulation (EU) 2019/816 and ensure appropriate follow-up of those audits;&apos;;</p>
+                                                </content>
+                                             </point>
+                                          </quotedStructure>
+                                       </mod>
+                                    </p>
+                                 </content>
+                              </alinea>
+                           </point>
+                           <point>
+                              <num>(d)</num>
+                              <alinea>
+                                 <content>
+                                    <p>the following point is inserted:</p>
+                                 </content>
+                              </alinea>
+                              <alinea>
+                                 <content>
+                                    <p>
+                                       <mod>
+                                          <quotedStructure startQuote="" endQuote="">
+                                             <point>
+                                                <num>&apos;(lla)</num>
+                                                <content>
+                                                   <p>submit to the Commission statistics related to ECRIS-TCN and to the ECRIS reference implementation pursuant to the second subparagraph of Article 32(3) of Regulation (EU) 2019/816;&apos;;</p>
+                                                </content>
+                                             </point>
+                                          </quotedStructure>
+                                       </mod>
+                                    </p>
+                                 </content>
+                              </alinea>
+                           </point>
+                           <point>
+                              <num>(e)</num>
+                              <alinea>
+                                 <content>
+                                    <p>point (mm) is replaced by the following:</p>
+                                 </content>
+                              </alinea>
+                              <alinea>
+                                 <content>
+                                    <p>
+                                       <mod>
+                                          <quotedStructure startQuote="" endQuote="">
+                                             <point>
+                                                <num>&apos;(mm)</num>
+                                                <content>
+                                                   <p>ensure annual publication of the list of competent authorities authorised to search directly the data contained in SIS II pursuant to Article 31(8) of Regulation (EC) No 1987/2006 and Article 46(8) of Decision 2007/533/JHA, together with the list of Offices of the national systems of SIS II (N.SIS II Offices) and SIRENE Bureaux pursuant to Article 7(3) of Regulation (EC) No 1987/2006 and Article 7(3) of Decision 2007/533/JHA respectively as well as the list of competent authorities pursuant to Article 65(2) of Regulation (EU) 2017/2226, the list of competent authorities pursuant to Article 87(2) of Regulation (EU) 2018/1240 and the list of central authorities pursuant to Article 34(2) of Regulation (EU) 2019/816;&apos;;</p>
+                                                </content>
+                                             </point>
+                                          </quotedStructure>
+                                       </mod>
+                                    </p>
+                                 </content>
+                              </alinea>
+                           </point>
+                        </list>
+                     </point>
+                     <point>
+                        <num>(5)</num>
+                        <alinea>
+                           <content>
+                              <p>In Article 22(4), the following subparagraph is inserted after the third subparagraph:</p>
+                           </content>
+                        </alinea>
+                        <alinea>
+                           <content>
+                              <p>
+                                 <mod>
+                                    <quotedStructure startQuote="" endQuote="">
+                                       <paragraph>
+                                          <content>
+                                             <p>&apos;Eurojust, Europol and the EPPO may attend the meetings of the Management Board as observers when a question concerning ECRIS-TCN in relation to the application of Regulation (EU) 2019/816 is on the agenda.&apos;;</p>
+                                          </content>
+                                       </paragraph>
+                                    </quotedStructure>
+                                 </mod>
+                              </p>
+                           </content>
+                        </alinea>
+                     </point>
+                     <point>
+                        <num>(6)</num>
+                        <alinea>
+                           <content>
+                              <p>In Article 24(3), point (p) is replaced by the following:</p>
+                           </content>
+                        </alinea>
+                        <alinea>
+                           <content>
+                              <p>
+                                 <mod>
+                                    <quotedStructure startQuote="" endQuote="">
+                                       <point>
+                                          <num>&apos;(p)</num>
+                                          <content>
+                                             <p>establishing, without prejudice to Article 17 of the Staff Regulations of Officials, confidentiality requirements in order to comply with Article 17 of Regulation (EC) No 1987/2006, Article 17 of Decision 2007/533/JHA, Article 26(9) of Regulation (EC) No 767/2008, Article 4(4) of Regulation (EU) No 603/2013, Article 37(4) of Regulation (EU) 2017/2226, Article 74(2) of Regulation (EU) No 2018/1240 and Article 11(16) of Regulation (EU) 2019/816;&apos;;</p>
+                                          </content>
+                                       </point>
+                                    </quotedStructure>
+                                 </mod>
+                              </p>
+                           </content>
+                        </alinea>
+                     </point>
+                     <point>
+                        <num>(7)</num>
+                        <alinea>
+                           <content>
+                              <p>In Article 27(1), the following point is inserted:</p>
+                           </content>
+                        </alinea>
+                        <alinea>
+                           <content>
+                              <p>
+                                 <mod>
+                                    <quotedStructure startQuote="" endQuote="">
+                                       <point>
+                                          <num>&apos;(da)</num>
+                                          <content>
+                                             <p>ECRIS-TCN Advisory Group;&apos;.</p>
+                                          </content>
+                                       </point>
+                                    </quotedStructure>
+                                 </mod>
+                              </p>
+                           </content>
+                        </alinea>
+                     </point>
+                  </list>
+               </paragraph>
+            </article>
+            <article xml:id="art_d346e2525">
+               <num>Article 41</num>
+               <heading>Implementation and transitional provisions</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>Member States shall take the necessary measures to comply with this Regulation as soon as possible so as to ensure the proper functioning of ECRIS-TCN.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <subparagraph>
+                     <content>
+                        <p>For convictions handed down prior to the date of start of entry of data in accordance with Article 35(1), the central authorities shall create the individual data records in the central system as follows:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(a)</num>
+                        <content>
+                           <p>alphanumeric data to be entered into the central system by the end of the period referred to in Article 35(2);</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(b)</num>
+                        <content>
+                           <p>fingerprint data to be entered into the central system within two years after the start of operations in accordance with Article 35(4).</p>
+                        </content>
+                     </point>
+                  </list>
+               </paragraph>
+            </article>
+            <article xml:id="art_d346e2555">
+               <num>Article 42</num>
+               <heading>Entry into force</heading>
+               <paragraph>
+                  <content>
+                     <p>This Regulation shall enter into force on the twentieth day following that of its publication in the <i>Official Journal of the European Union</i>.</p>
+                  </content>
+               </paragraph>
+            </article>
+         </chapter>
+         <clause>
+            <content>
+               <p>This Regulation shall be binding in its entirety and directly applicable in the Member States in accordance with the Treaties.</p>
+            </content>
+         </clause>
+      </body>
+      <conclusions>
+         <p>Done at Strasbourg, 17 April 2019.</p>
+         <block name="signatory">
+            <signature>
+               <organization refersTo="">For the European Parliament</organization>
+               <role refersTo="">The President</role>
+               <person refersTo="">A. TAJANI</person>
+            </signature>
+            <signature>
+               <organization refersTo="">For the Council</organization>
+               <role refersTo="">The President</role>
+               <person refersTo="">G. CIAMBA</person>
+            </signature>
+         </block>
+      </conclusions>
+   </bill>
+</akomaNtoso>

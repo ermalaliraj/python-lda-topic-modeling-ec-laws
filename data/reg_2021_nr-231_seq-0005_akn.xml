@@ -1,0 +1,548 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"
+            xmlns:fmx="http://formex.publications.europa.eu/schema/formex-05.21-20110601.xd"
+            xmlns:leos="urn:eu:europa:ec:leos"
+            xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <bill name="">
+      <meta xmlns:fn="http://www.w3.org/2005/xpath-functions">
+         <identification source="~COM">
+            <FRBRWork>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRcountry value=""/>
+            </FRBRWork>
+            <FRBRExpression>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+            </FRBRManifestation>
+         </identification>
+      </meta>
+      <preface>
+         <longTitle>
+            <p>
+               <docStage/>
+               <docType>REGULATION (EU) 2021/1060 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL</docType>of 24 June 2021<docPurpose>laying down common provisions on the European Regional Development Fund, the European Social Fund Plus, the Cohesion Fund, the Just Transition Fund and the European Maritime, Fisheries and Aquaculture Fund and financial rules for those and for the Asylum, Migration and Integration Fund, the Internal Security Fund and the Instrument for Financial Support for Border Management and Visa Policy</docPurpose>
+            </p>
+         </longTitle>
+      </preface>
+      <preamble>
+         <formula name="actingEntity">
+            <p>THE EUROPEAN PARLIAMENT AND THE COUNCIL OF THE EUROPEAN UNION,</p>
+         </formula>
+         <citations>
+            <citation>
+               <p>Having regard to the Treaty on the Functioning of the European Union, and in particular Article 177, point (a) of Article 322(1) and Article 349 thereof,</p>
+            </citation>
+            <citation>
+               <p>Having regard to the proposal from the European Commission,</p>
+            </citation>
+            <citation>
+               <p>After transmission of the draft legislative act to the national parliaments,</p>
+            </citation>
+            <citation>
+               <p>Having regard to the opinion of the European Economic and Social Committee<authorialNote placement="bottom" marker="1">
+                     <p>OJ C 62, 15.2.2019, p. 83.</p>
+                  </authorialNote>,</p>
+            </citation>
+            <citation>
+               <p>Having regard to the opinion of the Committee of the Regions<authorialNote placement="bottom" marker="2">
+                     <p>OJ C 86, 7.3.2019, p. 41.</p>
+                  </authorialNote>,</p>
+            </citation>
+            <citation>
+               <p>Having regard to the opinion of the Court of Auditors<authorialNote placement="bottom" marker="3">
+                     <p>OJ C 17, 14.1.2019, p. 1.</p>
+                  </authorialNote>,</p>
+            </citation>
+            <citation>
+               <p>Acting in accordance with the ordinary legislative procedure<authorialNote placement="bottom" marker="4">
+                     <p>Position of the European Parliament of 27 March 2019 (OJ C 108, 26.3.2021, p. 638) and position of the Council at first reading of 27 May 2021 (not yet published in the Official Journal). Position of the European Parliament of 24 June 2021 (not yet published in the Official Journal).</p>
+                  </authorialNote>,</p>
+            </citation>
+         </citations>
+         <recitals xml:id="recs_d231e105">
+            <intro>
+               <p>Whereas:</p>
+            </intro>
+            <recital xml:id="rec_d231e108">
+               <num>(1)</num>
+               <p>Article 174 of the Treaty on the Functioning of the European Union (TFEU) provides that, in order to strengthen its economic, social and territorial cohesion, the Union is to aim at reducing disparities between the levels of development of the various regions and the backwardness of the least favoured regions or islands, and that particular attention is to be paid to rural areas, areas affected by industrial transition, and regions which suffer from severe and permanent natural or demographic handicaps. Those regions particularly benefit from cohesion policy. Article 175 TFEU requires the Union to support the achievement of those objectives by the action it takes through the European Agricultural Guidance and Guarantee Fund, Guidance Section, the European Social Fund, the European Regional Development Fund, the European Investment Bank and other instruments. Article 322 TFEU provides the basis for adopting financial rules determining the procedure to be adopted for establishing and implementing the budget and for presenting and auditing accounts, as well as for checks on the responsibility of financial actors.</p>
+            </recital>
+            <recital xml:id="rec_d231e114">
+               <num>(2)</num>
+               <p>In order to further develop a coordinated and harmonised implementation of Union Funds implemented under shared management, namely the European Regional Development Fund (ERDF), the European Social Fund Plus (ESF+), the Cohesion Fund, the Just Transition Fund (JTF), and measures financed under shared management in the European Maritime, Fisheries and Aquaculture Fund (EMFAF), the Asylum, Migration and Integration Fund (AMIF), the Internal Security Fund (ISF) and the Instrument for Financial Support for Border Management and Visa Policy (BMVI), financial rules based on Article 322 TFEU should be established for all these Funds (together referred to as &apos;the Funds&apos;), clearly specifying the scope of application of the relevant provisions. In addition, common provisions based on Article 177 TFEU should be established to cover policy -specific rules for the ERDF, the ESF+, the Cohesion Fund, the JTF and the EMFAF.</p>
+            </recital>
+            <recital xml:id="rec_d231e125">
+               <num>(3)</num>
+               <p>Due to the specificities of each Fund, specific rules applicable to each Fund and to the European territorial cooperation goal (Interreg) under the ERDF should be laid down in separate Regulations (&apos;Fund-specific Regulations&apos;) to complement this Regulation.</p>
+            </recital>
+            <recital xml:id="rec_d231e135">
+               <num>(4)</num>
+               <p>The outermost regions should benefit from specific measures and from additional funding to offset their structural social and economic situation together with the handicaps resulting from the factors referred to in Article 349 TFEU.</p>
+            </recital>
+            <recital xml:id="rec_d231e141">
+               <num>(5)</num>
+               <p>The northern sparsely populated regions should benefit from specific measures and additional funding to offset the severe and natural or demographic handicaps referred to in Article 2 of Protocol No 6 to the 1994 Act of Accession.</p>
+            </recital>
+            <recital xml:id="rec_d231e147">
+               <num>(6)</num>
+               <p>Horizontal principles as set out in Article 3 of the Treaty on European Union (TEU) and in Article 10 TFEU, including the principles of subsidiarity and proportionality as set out in Article 5 TEU, should be respected in the implementation of the Funds, taking into account the Charter of Fundamental Rights of the European Union. Member States should also respect the obligations set out in the United Nations Convention on the Rights of the Child, and in the United Nations Convention on the Rights of Persons with Disabilities, and ensure accessibility in line with Article 9 thereof and in accordance with Union law harmonising accessibility requirements for products and services. In that context, the Funds should be implemented in a way that promotes the transition from institutional to family-based and community-based care. Member States and the Commission should aim at eliminating inequalities and at promoting equality between men and women and integrating the gender perspective, as well as at combating discrimination based on sex, racial or ethnic origin, religion or belief, disability, age or sexual orientation. The Funds should not support actions that contribute to any form of segregation or exclusion, and, when financing infrastructure, should ensure the accessibility for persons with disabilities. The objectives of the Funds should be pursued in the framework of sustainable development and the Union&apos;s promotion of the aim of preserving, protecting and improving the quality of the environment as set out in Article 11 and Article 191(1) TFEU, taking into account the polluter pays principle, the UN Sustainable Development Goals and the Paris Agreement adopted under the United Nations Framework Convention on Climate Change<authorialNote placement="bottom" marker="5">
+                     <p>OJ L 282, 19.10.2016, p. 4.</p>
+                  </authorialNote> (the &apos;Paris Agreement&apos;). In order to protect the integrity of the internal market, operations benefiting undertakings are to comply with Union State aid rules as set out in Articles 107 and 108 TFEU. Poverty is a particularly important challenge in the Union. The objectives of the Funds should therefore be pursued with a view to contributing to the eradication of poverty. The objectives of the Funds should be pursued with a view to providing adequate support, in particular to local and regional authorities of coastal and urban areas, to address the socioeconomic challenges linked to the integration of third-country nationals and to providing adequate support to disadvantaged areas and communities in urban areas.</p>
+            </recital>
+            <recital xml:id="rec_d231e163">
+               <num>(7)</num>
+               <p>Horizontal financial rules adopted by the European Parliament and the Council on the basis of Article 322 TFEU apply to this Regulation. Those rules are laid down in Regulation (EU, Euratom) 2018/1046 of the European Parliament and of the Council<authorialNote placement="bottom" marker="6">
+                     <p>Regulation (EU, Euratom) 2018/1046 of the European Parliament and of the Council of 18 July 2018 on the financial rules applicable to the general budget of the Union, amending Regulations (EU) No 1296/2013, (EU) No 1301/2013, (EU) No 1303/2013, (EU) No 1304/2013, (EU) No 1309/2013, (EU) No 1316/2013, (EU) No 223/2014, (EU) No 283/2014, and Decision No 541/2014/EU and repealing Regulation (EU, Euratom) No 966/2012 (OJ L 193, 30.7.2018, p. 1).</p>
+                  </authorialNote> (&apos;the Financial Regulation&apos;) and determine in particular the procedure for establishing and implementing the Union budget through grants, procurement, prizes, indirect management, financial instruments, budgetary guarantees, financial assistance and the reimbursement of external experts, and provide for checks on the responsibility of financial actors. Rules adopted on the basis of Article 322 TFEU also include a general regime of conditionality for the protection of the Union budget.</p>
+            </recital>
+            <recital xml:id="rec_d231e183">
+               <num>(8)</num>
+               <p>Where a time limit is set for the Commission to take any action towards Member States, the Commission should take account of all necessary information and documents in a timely and efficient manner. Where submissions from Member States in any form under this Regulation are incomplete or non-compliant with the requirements of this Regulation and of Fund-specific Regulations, thus not allowing the Commission to take fully-informed action, that time limit should be suspended until the Member States comply with the regulatory requirements. Further, as the Commission is precluded from making payments for the expenditure incurred by beneficiaries and paid in implementing operations linked to specific objectives for which enabling conditions are not fulfilled, which is included in payment applications, the time limit for the Commission to make payments should not be triggered for such expenditure.</p>
+            </recital>
+            <recital xml:id="rec_d231e191">
+               <num>(9)</num>
+               <p>In order to contribute to Union priorities, the Funds should focus their support on a limited number of policy objectives in line with their Fund-specific missions pursuant to their Treaty-based objectives. The policy objectives for the AMIF, the ISF and the BMVI should be set out in the respective Fund-specific Regulations. The JTF and any resources of the ERDF and the ESF+ that are transferred, on a voluntary basis, as a complementary support to the JTF, should contribute to a single specific objective.</p>
+            </recital>
+            <recital xml:id="rec_d231e197">
+               <num>(10)</num>
+               <p>Reflecting the importance of tackling climate change in line with the Union&apos;s commitments to implement the Paris Agreement and the United Nations Sustainable Development Goals, the Funds should contribute to mainstreaming climate actions and to the achievement of an overall target of 30 % of the Union budget expenditure supporting climate objectives. In that context, the Funds should support activities that would respect the climate and environmental standards and priorities of the Union and would do no significant harm to environmental objectives within the meaning of Article 17 of Regulation (EU) 2020/852 of the European Parliament and of the Council<authorialNote placement="bottom" marker="7">
+                     <p>Regulation (EU) 2020/852 of the European Parliament and of the Council of 18 June 2020 on the establishment of a framework to facilitate sustainable investment, and amending Regulation (EU) 2019/2088 (OJ L 198, 22.6.2020, p. 13).</p>
+                  </authorialNote>. Adequate mechanisms to ensure the climate proofing of supported investment in infrastructure should be an integral part of programming and implementation of the Funds.</p>
+            </recital>
+            <recital xml:id="rec_d231e213">
+               <num>(11)</num>
+               <p>Reflecting the importance of tackling the loss of biodiversity, the Funds should contribute to mainstream biodiversity action in the Union policies and to the achievement of the overall ambition of providing 7,5 % of annual spending under the multiannual financial framework (MFF) to biodiversity objectives in the year 2024 and 10 % of annual spending under the MFF to biodiversity objectives in 2026 and 2027, while considering the existing overlaps between climate and biodiversity goals.</p>
+            </recital>
+            <recital xml:id="rec_d231e219">
+               <num>(12)</num>
+               <p>Part of the budget of the Union allocated to the Funds should be implemented by the Commission under shared management with Member States within the meaning of the Financial Regulation. Therefore, when implementing the Funds under shared management, the Commission and the Member States should respect the principles referred to in the Financial Regulation, such as sound financial management, transparency and non-discrimination.</p>
+            </recital>
+            <recital xml:id="rec_d231e225">
+               <num>(13)</num>
+               <p>Member States at the appropriate territorial level, in accordance with their institutional, legal and financial framework and the bodies designated by them for that purpose, should be responsible for preparing and implementing programmes. The Union and Member States should refrain from imposing unnecessary rules resulting in excessive administrative burden for beneficiaries.</p>
+            </recital>
+            <recital xml:id="rec_d231e231">
+               <num>(14)</num>
+               <p>The principle of partnership is a key feature in the implementation of the Funds, building on the multi-level governance approach and ensuring the involvement of regional, local, urban and other public authorities, civil society, economic and social partners and, where appropriate, research organisations and universities. In order to provide continuity in the organisation of partnership, the European code of conduct on partnership for Partnership Agreements and programmes supported by the European Structural and Investment Funds established by the Commission Delegated Regulation (EU) No 240/2014<authorialNote placement="bottom" marker="8">
+                     <p>Commission Delegated Regulation (EU) No 240/2014 of 7 January 2014 on the European code of conduct on partnership in the framework of the European Structural and Investment Funds (OJ L 74, 14.3.2014, p. 1).</p>
+                  </authorialNote> (the &apos;European code of conduct on partnership&apos;) should continue to apply to the Funds.</p>
+            </recital>
+            <recital xml:id="rec_d231e251">
+               <num>(15)</num>
+               <p>At Union level, the European Semester of economic policy coordination, including the principles of the European Pillar of Social Rights, is the framework to identify national reform priorities and monitor their implementation. Member States develop their own national multiannual investment strategies in support of those reforms. Those strategies should be presented alongside the yearly National Reform Programmes as a way to outline and coordinate priority investment projects to be supported by national or Union funding, or both. They should also serve to use Union funding in a coherent manner and to maximise the added value of the financial support to be received, in particular from the Funds, the Recovery and Resilience Facility established by Regulation (EU) 2021/241 of the European Parliament and of the Council<authorialNote placement="bottom" marker="9">
+                     <p>Regulation (EU) 2021/241 of the European Parliament and of the Council of 12 February 2021 establishing the Recovery and Resilience Facility (OJ L 57, 18.2.2021, p. 17).</p>
+                  </authorialNote> and the InvestEU Programme established by Regulation (EU) 2021/523 of the European Parliament and of the Council<authorialNote placement="bottom" marker="10">
+                     <p>Regulation (EU) 2021/523 of the European Parliament and of the Council of 24 March 2021 establishing the InvestEU Programme and amending Regulation (EU) 2015/1017 (OJ L 107, 26.3.2021, p. 30).</p>
+                  </authorialNote> (the &apos;InvestEU Regulation&apos;).</p>
+            </recital>
+            <recital xml:id="rec_d231e282">
+               <num>(16)</num>
+               <p>Member States should take into account relevant country-specific recommendations adopted in accordance with Article 121(2) TFEU and relevant Council recommendations adopted in accordance with Article 148(4) of the TFEU and complementary Commission recommendations issued in accordance with Article 34 of Regulation (EU) 2018/1999 of the European Parliament and of the Council<authorialNote placement="bottom" marker="11">
+                     <p>Regulation (EU) 2018/1999 of the European Parliament and of the Council of 11 December 2018 on the Governance of the Energy Union and Climate Action, amending Regulations (EC) No 663/2009 and (EC) No 715/2009 of the European Parliament and of the Council, Directives 94/22/EC, 98/70/EC, 2009/31/EC, 2009/73/EC, 2010/31/EU, 2012/27/EU and 2013/30/EU of the European Parliament and of the Council, Council Directives 2009/119/EC and (EU) 2015/652 and repealing Regulation (EU) No 525/2013 of the European Parliament and of the Council (OJ L 328, 21.12.2018, p. 1).</p>
+                  </authorialNote>, and for the AMIF, the ISF and the BMVI other relevant Union recommendations addressed to the Member State in the preparation of programming documents. During the 2021&#45;2027 programming period (&apos;programming period&apos;), Member States should regularly present to the monitoring committee and to the Commission the progress in implementing the programmes in support of the country-specific recommendations. During a mid-term review, Member States should, among other elements, consider the need for programme modifications to accommodate new challenges identified in relevant country-specific recommendations adopted or modified since the start of the programming period.</p>
+            </recital>
+            <recital xml:id="rec_d231e302">
+               <num>(17)</num>
+               <p>Member States should take account of the contents of their integrated national energy and climate plan, to be developed under Regulation (EU) 2018/1999, and the outcome of the process resulting in Union recommendations regarding these plans, for their programmes, including during the mid-term review, as well as for the financial needs allocated for low-carbon investments.</p>
+            </recital>
+            <recital xml:id="rec_d231e308">
+               <num>(18)</num>
+               <p>The Partnership Agreement, prepared by each Member State, should be a concise and strategic document guiding the negotiations between the Commission and the Member State concerned on the design of programmes under the ERDF, the ESF+, the Cohesion Fund, the JTF and the EMFAF. In order to streamline the approval process, the Commission should respect the principle of proportionality in its assessment, particularly concerning the length of the Partnership Agreement and requests for additional information. In order to reduce the administrative burden, it should not be necessary to amend Partnership Agreements during the programming period. However, if the Member State so wishes, it should be able to submit to the Commission one amendment to its Partnership Agreement to take into account the outcome of the mid-term review. To facilitate the programming and avoid overlapping content in programming documents, a Partnership Agreement can be included as part of a programme.</p>
+            </recital>
+            <recital xml:id="rec_d231e315">
+               <num>(19)</num>
+               <p>In order to provide Member States with sufficient flexibility in the implementation of their shared management allocations, it should be possible to transfer certain levels of funding between the Funds and between shared management and direct and indirectly managed instruments. Where the specific economic and social circumstances of a Member State justify it, that level of transfer should be higher.</p>
+            </recital>
+            <recital xml:id="rec_d231e321">
+               <num>(20)</num>
+               <p>Each Member State should have the flexibility to contribute to the InvestEU Programme for the provision of the EU guarantee and the InvestEU Advisory Hub for investments in that Member State, under certain conditions set out in this Regulation.</p>
+            </recital>
+            <recital xml:id="rec_d231e327">
+               <num>(21)</num>
+               <p>To ensure the necessary prerequisites for the effective and efficient use of Union support granted by the Funds, a limited list of enabling conditions as well as a concise and exhaustive set of objective criteria for their assessment should be established. Each enabling condition should be linked to a specific objective and should be automatically applicable where the specific objective is selected for support. Without prejudice to the rules on decommitment, where those conditions are not fulfilled, expenditure related to operations under the related specific objectives should not be reimbursed by the Commission. In order to maintain a favourable investment framework, the continued fulfilment of the enabling conditions should be monitored regularly. At the request of a Member State, the EIB should be able to contribute to the assessment of the fulfilment of enabling conditions. It is also important to ensure that operations selected for support are implemented consistently with the strategies and planning documents in place underlying the fulfilled enabling conditions, thus ensuring that all co-financed operations are in line with the Union policy framework.</p>
+            </recital>
+            <recital xml:id="rec_d231e333">
+               <num>(22)</num>
+               <p>While pursuing the objectives of economic, social and territorial cohesion, support to network connectivity by the ERDF and the Cohesion Fund should aim at completing missing links to the trans-European transport network.</p>
+            </recital>
+            <recital xml:id="rec_d231e340">
+               <num>(23)</num>
+               <p>Member States should establish a performance framework for each programme covering all indicators, milestones and targets to monitor, report on and evaluate programme performance. This should allow monitoring, reporting on and evaluating performance during implementation, and contribute to measuring the overall performance of the Funds.</p>
+            </recital>
+            <recital xml:id="rec_d231e346">
+               <num>(24)</num>
+               <p>The Member State should carry out a mid-term review of each programme supported by the ERDF, the ESF+, the Cohesion Fund and the JTF. That review should provide a fully-fledged adjustment of programmes based on programme performance, while also providing an opportunity to take account of new challenges and relevant country-specific recommendations issued in 2024, as well as progress in implementing the integrated national energy and climate plans and the principles of the European Pillar of Social Rights. For the purposes of the mid-term review, the socioeconomic situation of the Member State or region concerned, including any major negative financial, economic or social development or demographic challenges and the progress towards reaching the climate contribution targets at national level should also be taken into account. The Commission should prepare a report about the outcome of the mid-term review, including its assessment of the application of the management costs and fees under financial instruments managed by bodies selected through direct award.</p>
+            </recital>
+            <recital xml:id="rec_d231e352">
+               <num>(25)</num>
+               <p>Mechanisms to ensure a link between Union funding policies and the economic governance of the Union should be further refined, allowing the Commission to make a proposal to the Council to suspend all or part of the commitments or payments for one or more of the programmes of the Member State concerned where that Member State fails to take effective action in the context of the economic governance process. The obligation of the Commission to propose a suspension should be suspended when and for as long as the so-called general escape clause under the Stability and Growth Pact has been activated. In order to ensure uniform implementation and in view of the importance of the financial effects of measures being imposed, implementing powers should be conferred on the Council which should act on the basis of a Commission proposal. To facilitate the adoption of decisions which are required to ensure effective action in the context of the economic governance process, reversed qualified majority voting should be used. Given the type of operations that are supported by the ESF+ and Interreg programmes, the ESF+ and these programmes should be excluded from the scope of those mechanisms.</p>
+            </recital>
+            <recital xml:id="rec_d231e358">
+               <num>(26)</num>
+               <p>In order to allow for a rapid response to exceptional or unusual circumstances as referred to in the Stability and Growth Pact that may arise during the programming period, implementing powers should be conferred on the Commission to adopt temporary measures to facilitate the use of the Funds in response to such circumstances. The Commission should adopt the measures that are most appropriate in light of the exceptional or unusual circumstances that a Member State is facing, while preserving the objectives of the Funds. The Commission should also monitor the implementation and assess the appropriateness of those measures.</p>
+            </recital>
+            <recital xml:id="rec_d231e364">
+               <num>(27)</num>
+               <p>It is necessary to set out common requirements as regards the content of the programmes, taking into account the specific nature of each Fund. Those common requirements can be complemented by Fund-specific rules. Regulation (EU) 2021/1060 of the European Parliament and of the Council<authorialNote placement="bottom" marker="12">
+                     <p>Regulation (EU) 2021/1060 of the European Parliament and of the Council of 24 June 2021 on specific provisions for the European territorial cooperation goal (Interreg) supported by the European Regional Development Fund and external financing instruments (see page 159 of this Official Journal).</p>
+                  </authorialNote> (the &apos;Interreg Regulation&apos;) should set out specific provisions on the content of Interreg programmes.</p>
+            </recital>
+            <recital xml:id="rec_d231e381">
+               <num>(28)</num>
+               <p>In order to allow for flexibility in programme implementation and reduce administrative burden, limited financial transfers should be allowed between priorities of the same programme without requiring a Commission decision amending the programme. The revised financial tables should be submitted to the Commission in order to ensure up-to-date information on financial allocations for each priority.</p>
+            </recital>
+            <recital xml:id="rec_d231e388">
+               <num>(29)</num>
+               <p>In order to enhance the effectiveness of the JTF, it should be possible that complementary resources from the ERDF and the ESF+ are made available to the JTF on a voluntary basis. Those complementary resources should be provided through a specific voluntary transfer from those funds to the JTF, taking into account the transition challenges set out in the territorial just transition plans, which need to be addressed. Amounts to be transferred should be provided from resources of the categories of region where the territories identified in territorial just transition plans are located. Given these specific arrangements for the use of the JTF resources, only the specific transfer mechanism should apply for the constitution of the JTF resources. Furthermore, it should be clarified that only this Regulation and Regulation (EU) 2021/1060 of the European Parliament and of the Council<authorialNote placement="bottom" marker="13">
+                     <p>Regulation (EU) 2021/1060 of the European Parliament and of the Council of 24 June 2021 establishing the Just Transition Fund (see page 159 of this Official Journal).</p>
+                  </authorialNote> (the &apos;JTF Regulation&apos;) should apply to the JTF and to the resources of the ERDF and the ESF+ transferred to the JTF, which also become JTF support. Neither Regulation (EU) 2021/1060 of the European Parliament and of the Council<authorialNote placement="bottom" marker="14">
+                     <p>Regulation (EU) 2021/1060 of the European Parliament and of the Council of 24 June 2021 on the European Regional Development Fund and on the Cohesion Fund (see page 159 of this Official Journal).</p>
+                  </authorialNote> (the &apos;ERDF and CF Regulation&apos;) nor Regulation (EU) 2021/1060 of the European Parliament and of the Council<authorialNote placement="bottom" marker="15">
+                     <p>Regulation (EU) 2021/1060 of the European Parliament and of the Council of 24 June 2021 establishing the European Social Fund Plus (ESF+), and repealing Regulation (EU) No 1296/2013 (see page 159 of this Official Journal).</p>
+                  </authorialNote> (the &apos;ESF+ Regulation&apos;) should apply to the complementary support. Therefore, the ERDF resources transferred as a complementary support to the JTF should be excluded from the basis of calculation of the thematic concentration requirements set out in the ERDF and CF Regulation and from the basis of calculation of minimum allocations to sustainable urban development as set out in the ERDF and CF Regulation. The same applies to the ESF+ resources transferred as a complementary support to the JTF in respect of thematic concentration requirements set out in the ESF+ Regulation.</p>
+            </recital>
+            <recital xml:id="rec_d231e429">
+               <num>(30)</num>
+               <p>To strengthen the integrated territorial development approach, investments in the form of territorial tools, such as integrated territorial investments, community-led local development, referred to as &apos;LEADER&apos; under the European Agricultural Fund for Rural Development (EAFRD), or any other territorial tool which supports initiatives designed by the Member State, should be based on territorial and local development strategies. The same should apply to related initiatives such as the Smart Villages. For the purposes of integrated territorial investments and territorial tools designed by Member States, minimum requirements should be set out for the content of territorial strategies. Those territorial strategies should be developed and endorsed under the responsibility of relevant authorities or bodies. To ensure the involvement of relevant authorities or bodies in implementing territorial strategies, those authorities or bodies should be responsible for the selection of operations to be supported, or be involved in that selection. Territorial strategies, when promoting sustainable tourism initiatives, should ensure an appropriate balance between the needs of both residents and tourists, such as interconnecting cycling and railway networks.</p>
+            </recital>
+            <recital xml:id="rec_d231e439">
+               <num>(31)</num>
+               <p>In order to address effectively the development challenges in rural areas, coordinated support from the Funds and the EAFRD should be facilitated. Member States and regions should ensure that the interventions supported through the Funds and the EAFRD are complementary and are implemented in a coordinated manner with a view to creating synergies and in order to reduce the administrative cost and burden for managing bodies and beneficiaries.</p>
+            </recital>
+            <recital xml:id="rec_d231e445">
+               <num>(32)</num>
+               <p>To better mobilise potential at the local level, it is necessary to strengthen and facilitate community-led local development. It should take local needs and potential as well as relevant socio-cultural characteristics into account, and should provide for structural changes, build community capacity and stimulate innovation. The close cooperation and integrated use of the Funds and the EAFRD to deliver local development strategies should be strengthened. It is crucial that local action groups, representing the interests of the community, are responsible for the design and implementation of community-led local development strategies. In order to facilitate coordinated support from different Funds and the EAFRD to community-led local development strategies and to facilitate their implementation, the use of a &apos;Lead Fund&apos; approach should be facilitated. When the EAFRD is selected as a Lead Fund, it should follow the rules established for the &apos;Lead Fund&apos; approach.</p>
+            </recital>
+            <recital xml:id="rec_d231e459">
+               <num>(33)</num>
+               <p>In order to reduce the administrative burden, it should be possible to implement technical assistance linked to programme implementation at the initiative of the Member State through a flat rate based on progress in programme implementation which may also cover horizontal tasks. However, in order to simplify the implementation for the AMIF, the ISF and the BMVI, and for Interreg programmes, only the flat-rate approach should be used. In order to facilitate financial management, Member States should have the possibility to indicate one or more bodies to which related reimbursements should be made. Since those reimbursements are based on the application of a flat rate, verifications and audits should be limited to verifying that the conditions triggering reimbursement of the Union contribution are met but underlying expenditure should not be subject to verification or audit. Nevertheless, where continuity with the 2014-2020 period is preferred, the Member State should also be provided with the possibility to continue receiving reimbursement of eligible costs actually incurred by the beneficiary and paid in implementing operations for technical assistance implemented through one or more separate programmes or one or more priorities within programmes. The Member State should indicate in its Partnership Agreement its choice of the form of Union contribution for technical assistance for the entire programming period. Regardless of the option chosen, it should be possible for technical assistance to be complemented by targeted administrative capacity building measures using reimbursement methods that are not linked to costs. It should also be possible for actions and deliverables as well as corresponding Union payments to be agreed in a roadmap and lead to payments for results on the ground.</p>
+            </recital>
+            <recital xml:id="rec_d231e466">
+               <num>(34)</num>
+               <p>Where a Member State proposes to the Commission that a priority of a programme or a part thereof be supported through a financing scheme not linked to costs, the actions, deliverables and conditions agreed should be related to actual investments undertaken under the shared management programmes in that Member State or region. In that context, the respect of the principle of sound financial management should be ensured. In particular, as regards the appropriateness of the amounts linked to the fulfilment of the respective conditions or the achievement of results, the Commission and the Member State should ensure that resources employed are adequate for the investments undertaken. Where a financing scheme not linked to costs is used in a programme, the underlying costs linked to the implementation of that scheme should not be subject to any verifications or audits because the Commission provides an <i>ex-ante</i> agreement on the amounts linked to the fulfilment of the conditions or the achievement of results in the programme or in a delegated act. Verifications and audits should be limited instead to checking that the conditions or results triggering the reimbursement of the Union contribution are fulfilled.</p>
+            </recital>
+            <recital xml:id="rec_d231e475">
+               <num>(35)</num>
+               <p>In order to examine the performance of programmes, Member States should set up monitoring committees, whose composition should include representatives of relevant partners. For the ERDF, the ESF+, the Cohesion Fund and the EMFAF, annual implementation reports should be replaced by an annual structured policy dialogue based on the latest information and data on programme implementation made available by the Member State. The review meeting should be organised also for programmes covering the JTF.</p>
+            </recital>
+            <recital xml:id="rec_d231e481">
+               <num>(36)</num>
+               <p>Pursuant to paragraphs 22 and 23 of the Interinstitutional Agreement of 13 April 2016 on Better Law-Making<authorialNote placement="bottom" marker="16">
+                     <p>OJ L 123, 12.5.2016, p. 1.</p>
+                  </authorialNote>, the Funds should be evaluated on the basis of information collected in accordance with specific monitoring requirements, while avoiding an administrative burden, in particular on Member States, and overregulation. Those requirements, where appropriate, should include measurable indicators, as a basis for evaluating the effects of the Funds on the ground. Those requirements should also enable the monitoring of the support of gender equality.</p>
+            </recital>
+            <recital xml:id="rec_d231e496">
+               <num>(37)</num>
+               <p>To ensure availability of comprehensive up-to-date information on programme implementation, effective and timely electronic reporting on quantitative data should be required.</p>
+            </recital>
+            <recital xml:id="rec_d231e503">
+               <num>(38)</num>
+               <p>In order to support the preparation of related programmes and activities of the subsequent programming period, the Commission should carry out a mid-term assessment of the Funds. At the end of the programming period, the Commission should carry out retrospective evaluations of the Funds, which should focus on the impact of the Funds. The results of these evaluations should be made public.</p>
+            </recital>
+            <recital xml:id="rec_d231e509">
+               <num>(39)</num>
+               <p>Programme authorities, beneficiaries and stakeholders in Member States should raise awareness of the achievements of Union funding and inform the general public accordingly. Transparency, communication and visibility activities are essential in making Union action visible on the ground and should be based on true, accurate and updated information. In order for those requirements to be enforceable, programme authorities and, in the event of non-compliance, the Commission should be able to apply remedial measures.</p>
+            </recital>
+            <recital xml:id="rec_d231e516">
+               <num>(40)</num>
+               <p>Managing authorities should publish structured information on selected operations and beneficiaries on the website of the programme providing support to the operation, while taking account of requirements for data protection of personal data in accordance with Regulation (EU) 2016/679 of the European Parliament and of the Council<authorialNote placement="bottom" marker="17">
+                     <p>Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (General Data Protection Regulation) (OJ L 119, 4.5.2016, p. 1).</p>
+                  </authorialNote>.</p>
+            </recital>
+            <recital xml:id="rec_d231e532">
+               <num>(41)</num>
+               <p>With a view to simplifying the use of the Funds and reducing the risk of error, it is appropriate to define both the forms of Union contribution to Member States and the forms of support provided by Member States to beneficiaries. It should also be possible for managing authorities to provide grants through the form of financing not linked to costs where these grants are covered by reimbursement of the Union contribution based on the same form, in order to increase experience with such a simplification possibility.</p>
+            </recital>
+            <recital xml:id="rec_d231e538">
+               <num>(42)</num>
+               <p>As regards grants provided to beneficiaries, Member States should increasingly make use of simplified cost options. The threshold linked to the obligatory use of simplified cost options should be linked to the total costs of the operation in order to ensure the same treatment of all operations below the threshold, regardless of whether the support is public or private. Where a managing authority intends to propose the use of a simplified cost option in a call for proposals, it should be possible to consult the monitoring committee. Amounts and rates established by Member States need to be a reliable proxy to real costs. Periodic adjustments are a good practice in the context of multiannual programme implementation to take into account factors affecting rates and amounts. In order to facilitate the uptake of simplified cost options, this Regulation should also provide methods and rates that are able to be used without the requirement for Member States to carry out a calculation or define a methodology.</p>
+            </recital>
+            <recital xml:id="rec_d231e544">
+               <num>(43)</num>
+               <p>To enable immediate implementation of flat rates, any flat rate established by Member States in the 2014-2020 period based on a fair, equitable and verifiable calculation method should continue to be applied for similar operations supported under this Regulation without requiring a new calculation method.</p>
+            </recital>
+            <recital xml:id="rec_d231e550">
+               <num>(44)</num>
+               <p>In order to optimise the uptake of co-financed environmental investments, synergies should be ensured with the LIFE programme for the Environment and Climate Action established by Regulation (EU) 2021/783 of the European Parliament and of the Council<authorialNote placement="bottom" marker="18">
+                     <p>Regulation (EU) 2021/783 of the European Parliament and of the Council of 29 April 2021 establishing a Programme for the Environment and Climate Action (LIFE), and repealing Regulation (EU) No 1293/2013 (OJ L 172, 17.5.2021, p. 53).</p>
+                  </authorialNote>, in particular through LIFE strategic integrated projects and strategic nature projects, as well as with projects funded under Horizon Europe established by Regulation (EU) 2021/695 Regulation of the European Parliament and of the Council<authorialNote placement="bottom" marker="19">
+                     <p>Regulation (EU) 2021/695 of the European Parliament and of the Council of 28 April 2021 establishing Horizon Europe &#45; the Framework Programme for Research and Innovation, laying down its rules for participation and dissemination, and repealing Regulations (EU) No 1290/2013 and (EU) No 1291/2013 (OJ L 170, 12.5.2021, p. 1).</p>
+                  </authorialNote> (the &apos;Horizon Europe Regulation&apos;) and other Union programmes.</p>
+            </recital>
+            <recital xml:id="rec_d231e580">
+               <num>(45)</num>
+               <p>In order to provide legal clarity, it is appropriate to specify the eligibility period for expenditure or costs linked to operations supported by the Funds under this Regulation and to restrict support for completed operations. The date from which expenditure becomes eligible for support from the Funds in case of adoption of new programmes or of changes in the programmes should also be clarified, including the exceptional possibility to extend the eligibility period to the start of a natural disaster in case there is urgent need to mobilise resources to respond to such disaster. At the same time, programme implementation should provide for flexibility in relation to the eligibility of expenditure for operations which contribute to the objectives of the programme, regardless of whether they are implemented outside of a Member State or the Union or in the same category of region within a Member State.</p>
+            </recital>
+            <recital xml:id="rec_d231e586">
+               <num>(46)</num>
+               <p>In order to provide the necessary flexibility for implementation of public-private partnerships (PPPs), the PPP agreement should specify when expenditure is considered to be eligible, in particular under which conditions it is incurred by the beneficiary or by the private partner of the PPP, irrespective of who is carrying out the payments in implementing the PPP operation.</p>
+            </recital>
+            <recital xml:id="rec_d231e594">
+               <num>(47)</num>
+               <p>To ensure the effectiveness, fairness and sustainable impact of the Funds, there should be provisions guaranteeing that investments in infrastructure or productive investment are long-lasting and prevent the Funds from being used to undue advantage. Managing authorities should pay particular attention not to support relocation when selecting operations and to treat sums unduly paid to operations not complying with the requirement of durability as irregularities.</p>
+            </recital>
+            <recital xml:id="rec_d231e600">
+               <num>(48)</num>
+               <p>With a view to improving complementarities and simplifying implementation, it should be possible to combine support from the ERDF, the Cohesion Fund and the JTF with support from the ESF+ in joint programmes under the Investment for jobs and growth goal.</p>
+            </recital>
+            <recital xml:id="rec_d231e606">
+               <num>(49)</num>
+               <p>In order to optimise the added value from investments funded wholly or in part through the budget of the Union, synergies should be sought in particular between the Funds and other relevant instruments, including the Recovery and Resilience Facility and the Brexit Adjustment Reserve. Those synergies should be achieved through user-friendly key mechanisms, namely the recognition of flat rates for eligible costs from Horizon Europe for a similar operation and the possibility of combining funding from different Union instruments in the same operation as long as double financing is avoided. This Regulation should therefore set out rules for complementary financing from the Funds.</p>
+            </recital>
+            <recital xml:id="rec_d231e612">
+               <num>(50)</num>
+               <p>Financial instruments should not be used to support refinancing activities, such as replacing existing loan agreements or other forms of financing for investments which have already been physically completed or fully implemented at the date of the investment decision, but rather to support any type of new investments in line with the underlying policy objectives.</p>
+            </recital>
+            <recital xml:id="rec_d231e618">
+               <num>(51)</num>
+               <p>The decision by the managing authorities to finance support measures through financial instruments should be determined on the basis of an <i>ex ante</i> assessment. This Regulation should lay down the mandatory elements of <i>ex ante</i> assessments, for which indicative information available at the date of their completion should be provided, and should allow Member States to make use of the <i>ex ante</i> assessments carried out for the 2014-2020 period, updated where necessary, in order to avoid administrative burden and delays in setting up financial instruments.</p>
+            </recital>
+            <recital xml:id="rec_d231e633">
+               <num>(52)</num>
+               <p>In order to facilitate the implementation of certain types of financial instruments where programme support in the form of grants, including in the form of capital rebates, is envisaged, it is possible to apply the rules on financial instruments on such a combination in one financial instrument operation. However, conditions for such programme support and specific conditions preventing double financing should be set out.</p>
+            </recital>
+            <recital xml:id="rec_d231e639">
+               <num>(53)</num>
+               <p>In full respect of the applicable State aid and public procurement rules that have been clarified during the 2014-2020 programming period, managing authorities should have the possibility to decide on the most appropriate implementation options for financial instruments in order to address the specific needs of target regions. In addition, in order to ensure continuity with the 2014-2020 programming period, managing authorities should have the possibility to implement financial instruments through a direct award of a contract to the EIB and to international financial institutions in which a Member State is a shareholder. Managing authorities should also have the possibility to award contracts directly to publicly-owned banks or institutions fulfilling the same strict conditions as provided for by the Financial Regulation for the 2014-2020 programming period. This Regulation should provide clear conditions in order to ensure that the possibility of direct award remains consistent with the principles of the internal market. In this framework, the Commission should provide support to auditors, managing authorities and beneficiaries with a view to ensuring compliance with State aid rules.</p>
+            </recital>
+            <recital xml:id="rec_d231e645">
+               <num>(54)</num>
+               <p>Given the protracted low-interest rate environment and in order not to unduly penalise bodies implementing financial instruments, it is necessary, subject to active treasury management by these bodies, to enable the financing of negative interest generated as a result of investments of the Funds from resources paid back to the financial instrument. Through active treasury management, the bodies implementing financial instruments should seek to optimise returns and minimise charges, to an acceptable level of risk.</p>
+            </recital>
+            <recital xml:id="rec_d231e651">
+               <num>(55)</num>
+               <p>In accordance with the principle and rules of shared management, Member States and the Commission should be responsible for the management and control of programmes and give assurance on the legal and regular use of the Funds. Since Member States should have the primary responsibility for such management and control and should ensure that operations supported by the Funds comply with applicable law, their obligations in that regard should be specified. The powers and responsibilities of the Commission in that context should also be laid down.</p>
+            </recital>
+            <recital xml:id="rec_d231e658">
+               <num>(56)</num>
+               <p>In order to hasten the start of programme implementation, the roll-over of implementation arrangements from the previous programming period should be facilitated. The use of the computerised system already established for the previous programming period, adapted as required, should be maintained, unless a new technology is necessary.</p>
+            </recital>
+            <recital xml:id="rec_d231e665">
+               <num>(57)</num>
+               <p>To support the effective use of the Funds, EIB support should be available to all Member States at their request. Such support could cover capacity building, support for project identification, preparation and implementation, as well as advice on financial instruments and investment platforms.</p>
+            </recital>
+            <recital xml:id="rec_d231e671">
+               <num>(58)</num>
+               <p>A Member State should have the possibility, at its own initiative, to identify a coordinating body to liaise with and provide information to the Commission and to coordinate activities of the programme authorities in that Member State.</p>
+            </recital>
+            <recital xml:id="rec_d231e677">
+               <num>(59)</num>
+               <p>To streamline programme management functions, the integration of accounting functions with those of the managing authority should be maintained for the programmes supported by the AMIF, the ISF and the BMVI, and should be an option for the other Funds.</p>
+            </recital>
+            <recital xml:id="rec_d231e683">
+               <num>(60)</num>
+               <p>Since the managing authority bears the main responsibility for the effective and efficient implementation of the Funds and therefore fulfils a wide range of functions, its functions in relation to the selection of operations, programme management and support for the monitoring committee should be set out in detail. Procedures for the selection of operations can be competitive or non-competitive provided that criteria applied and procedures used are non-discriminatory, inclusive and transparent and the operations selected maximise the contribution of the Union funding and are in line with the horizontal principles defined in this Regulation. With a view to pursuing the objective of achieving a climate-neutral Union by 2050, Member States should ensure the climate proofing of investments in infrastructure and should prioritise operations that respect the &apos;energy efficiency first&apos; principle when selecting such investments.</p>
+            </recital>
+            <recital xml:id="rec_d231e693">
+               <num>(61)</num>
+               <p>The synergies between the Funds and directly managed instruments should be optimised. The provision of support for operations that have already received a Seal of Excellence or were co-funded by Horizon Europe with a contribution from the Funds should be facilitated. Conditions already assessed at Union level, prior to the attributing of the Seal of Excellence quality label or the co-funding by Horizon Europe, should not be assessed again, as long as the operations comply with a limited set of requirements established in this Regulation. This should also facilitate following the appropriate rules set out in Commission Regulation (EU) No 651/2014<authorialNote placement="bottom" marker="20">
+                     <p>Commission Regulation (EU) No 651/2014 of 17 June 2014 declaring certain categories of aid compatible with the internal market in application of Articles 107 and 108 of the Treaty (OJ L 187, 26.6.2014, p. 1).</p>
+                  </authorialNote>.</p>
+            </recital>
+            <recital xml:id="rec_d231e709">
+               <num>(62)</num>
+               <p>To ensure an appropriate balance between the effective and efficient implementation of the Funds and the related administrative costs and burdens, the frequency, scope and coverage of management verifications should be based on a risk assessment that takes into account factors such as the number, type, size and content of operations implemented, the beneficiaries as well as the level of the risk identified by previous management verifications and audits. Management verifications should be proportionate to the risks resulting from that risk assessment and audits should be proportionate to the level of risk to the budget of the Union.</p>
+            </recital>
+            <recital xml:id="rec_d231e715">
+               <num>(63)</num>
+               <p>The audit authority should carry out audits and ensure that the audit opinion provided to the Commission is reliable. That audit opinion should provide assurance to the Commission on three points, namely the legality and regularity of the declared expenditure, the effective functioning of the management and control systems and the completeness, accuracy and veracity of the accounts. Where an audit based on internationally accepted audit standards providing reasonable assurance has been conducted by an independent auditor on the financial statements and reports setting out the use of a Union contribution, that audit should form the basis of the overall assurance the audit authority provides to the Commission, insofar as there is sufficient evidence of the independence and competence of the auditor in accordance with Article 127 of the Financial Regulation.</p>
+            </recital>
+            <recital xml:id="rec_d231e722">
+               <num>(64)</num>
+               <p>A reduction of verifications and audit requirements should be possible where there is assurance that the programme has functioned effectively for the latest two consecutive years, since this demonstrates that the Funds are being implemented effectively and efficiently over a prolonged period of time.</p>
+            </recital>
+            <recital xml:id="rec_d231e728">
+               <num>(65)</num>
+               <p>To reduce the administrative burden on beneficiaries and administrative costs as well as to avoid duplication of audits and management verifications of the same expenditure declared to the Commission, the concrete application of the single audit principle should be specified for the Funds.</p>
+            </recital>
+            <recital xml:id="rec_d231e734">
+               <num>(66)</num>
+               <p>In order to enhance the preventive role of audit, provide legal transparency and share good practice, the Commission should be able to share audit reports at the request of Member States, with the consent of the audited Member States.</p>
+            </recital>
+            <recital xml:id="rec_d231e741">
+               <num>(67)</num>
+               <p>In order to improve financial management, a simplified pre-financing scheme should be provided for. The pre-financing scheme should ensure that a Member State has the means to provide support to beneficiaries from the start of the implementation of the programme.</p>
+            </recital>
+            <recital xml:id="rec_d231e747">
+               <num>(68)</num>
+               <p>To reduce the administrative burden for Member States as well as for the Commission, a schedule of payment applications should be established. Commission payments should be subject to a 5 % retention until the payment of the annual balance of accounts when the Commission is able to conclude that the accounts are complete, accurate and true.</p>
+            </recital>
+            <recital xml:id="rec_d231e753">
+               <num>(69)</num>
+               <p>In order to reduce the administrative burden, the procedure for the annual acceptance of accounts should be simplified by providing simpler arrangements for payments and recoveries where there is no disagreement between the Commission and the Member State.</p>
+            </recital>
+            <recital xml:id="rec_d231e759">
+               <num>(70)</num>
+               <p>In order to safeguard the financial interests and the budget of the Union, proportionate measures should be established and implemented at the level of Member States and the Commission. The Commission should be able to interrupt payments deadlines, suspend interim payments and apply financial corrections where the respective conditions are fulfilled. The Commission should respect the principle of proportionality by taking into account the nature, gravity and frequency of irregularities and their financial implications for the budget of the Union. Where it is not possible for the Commission to quantify precisely the amount of irregular expenditure in order to apply financial corrections linked to individual cases, it should apply a flat-rate or statistically extrapolated financial correction. Suspension of interim payments based on a reasoned opinion issued by the Commission pursuant to Article 258 TFEU, should be possible provided there is a sufficiently direct link between the matter addressed by the reasoned opinion and the expenditure at stake so as to put at risk its legality and regularity.</p>
+            </recital>
+            <recital xml:id="rec_d231e765">
+               <num>(71)</num>
+               <p>Member States should prevent, detect and deal effectively with any irregularities, including fraud committed by economic operators. Moreover, in accordance with Regulation (EU, Euratom) No 883/2013 of the European Parliament and of the Council<authorialNote placement="bottom" marker="21">
+                     <p>Regulation (EU, Euratom) No 883/2013 of the European Parliament and of the Council of 11 September 2013 concerning investigations conducted by the European Anti-Fraud Office (OLAF) and repealing Regulation (EC) No 1073/1999 of the European Parliament and of the Council and Council Regulation (Euratom) No 1074/1999 (OJ L 248, 18.9.2013, p. 1).</p>
+                  </authorialNote>, and Council Regulations (EC, Euratom) No 2988/95<authorialNote placement="bottom" marker="22">
+                     <p>Council Regulation (EC, Euratom) No 2988/95 of 18 December 1995 on the protection of the European Communities financial interests (OJ L 312, 23.12.1995, p. 1).</p>
+                  </authorialNote> and (Euratom, EC) No 2185/96<authorialNote placement="bottom" marker="23">
+                     <p>Council Regulation (Euratom, EC) No 2185/96 of 11 November 1996 concerning on-the-spot checks and inspections carried out by the Commission in order to protect the European Communities&apos; financial interests against fraud and other irregularities (OJ L 292, 15.11.1996, p. 2).</p>
+                  </authorialNote>, the European Anti-Fraud Office (OLAF) has the power to carry out administrative investigations, including on-the-spot checks and inspections, with a view to establishing whether there has been fraud, corruption or any other illegal activity affecting the financial interests of the Union. The European Public Prosecutor&apos;s Office (EPPO) is empowered, in accordance with Council Regulation (EU) 2017/1939<authorialNote placement="bottom" marker="24">
+                     <p>Council Regulation (EU) 2017/1939 of 12 October 2017 implementing enhanced cooperation on the establishment of the European Public Prosecutor&apos;s Office (&apos;the EPPO&apos;) (OJ L 283, 31.10.2017, p. 1).</p>
+                  </authorialNote>, to investigate and prosecute fraud and other criminal offences affecting the financial interests of the Union as provided for in Directive (EU) 2017/1371 of the European Parliament and of the Council<authorialNote placement="bottom" marker="25">
+                     <p>Directive (EU) 2017/1371 of the European Parliament and of the Council of 5 July 2017 on the fight against fraud to the Union&apos;s financial interests by means of criminal law (OJ L 198, 28.7.2017, p. 29).</p>
+                  </authorialNote>. Member States should take the necessary measures to ensure that any person or entity receiving Union funds fully cooperates in the protection of the financial interests of the Union, grants the necessary rights and access to the Commission, OLAF, the Court of Auditors and, in respect of those Member States participating in enhanced cooperation pursuant to Regulation (EU) 2017/1939, EPPO, and ensures that any third parties involved in the implementation of Union funds grant equivalent rights. Member States should swiftly report to the Commission irregularities detected, including fraud, and any follow-up action they have taken with regard to such irregularities and with regard to any OLAF investigations.</p>
+            </recital>
+            <recital xml:id="rec_d231e826">
+               <num>(72)</num>
+               <p>To enhance the protection of the Union&apos;s budget, the Commission should make available an integrated and interoperable information and monitoring system, including a single data-mining and risk-scoring tool to access and analyse the relevant data, and the Commission should encourage its use with a view to a generalised application by Member States.</p>
+            </recital>
+            <recital xml:id="rec_d231e832">
+               <num>(73)</num>
+               <p>In line with the Interinstitutional Agreement between the European Parliament, the Council and the Commission of 16 December 2020 on budgetary discipline, on cooperation in budgetary matters and on sound financial management, as well as on new own resources, including a roadmap for the introduction of new own resources<authorialNote placement="bottom" marker="26">
+                     <p>OJ L 433 I, 22.12.2020, p. 28.</p>
+                  </authorialNote>, in order to enhance the protection of the Union budget and Next Generation EU against irregularities including fraud, standardised measures to collect, compare and aggregate information and figures on the recipients of Union funding should be introduced for the purposes of control and audit. The collection of data on those ultimately benefiting, directly or indirectly, from Union funding under shared management, including data on beneficial owners of the recipients of Union funding, is necessary to ensure effective controls and audits.</p>
+            </recital>
+            <recital xml:id="rec_d231e847">
+               <num>(74)</num>
+               <p>In order to enhance the protection of the Union&apos;s budget against irregularities, including fraud, it is necessary to process personal data of beneficial owners who are natural persons. In particular, in order to effectively detect, investigate and prosecute such frauds or remedy irregularities, it is necessary to be able to identify beneficial owners who are natural persons that ultimately profit from irregularities, including fraud. For that purpose, and for the sake of simplification and in order to reduce the administrative burden, Member States should be allowed to comply with their obligation regarding information on beneficial owners by using the data stored in the register already used for the purposes of Directive (EU) 2015/849 of the European Parliament and of the Council<authorialNote placement="bottom" marker="27">
+                     <p>Directive (EU) 2015/849 of the European Parliament and of the Council of 20 May 2015 on the prevention of the use of the financial system for the purposes of money laundering or terrorist financing, amending Regulation (EU) No 648/2012 of the European Parliament and of the Council, and repealing Directive 2005/60/EC of the European Parliament and of the Council and Commission Directive 2006/70/EC (OJ L 141, 5.6.2015, p. 73).</p>
+                  </authorialNote>. In that regard, the purposes of processing of personal data of beneficial owners under this Regulation, namely to prevent, detect and correct and report irregularities including fraud, are compatible with the purposes of processing of personal data under the Directive (EU) 2015/849.</p>
+            </recital>
+            <recital xml:id="rec_d231e863">
+               <num>(75)</num>
+               <p>In order to encourage financial discipline, it is appropriate to set out the arrangements for decommitment of budgetary commitments at programme level.</p>
+            </recital>
+            <recital xml:id="rec_d231e869">
+               <num>(76)</num>
+               <p>In order to allow Member States appropriate time to declare to the Commission expenditure up to the available level of resources in the event of the adoption of the new rules or programmes under shared management after 1 January 2021, the amounts corresponding to the allocations not used in year 2021 should be transferred in equal proportions to the years 2022 to 2025 as envisaged under Article 7 of the Council Regulation (EU, Euratom) 2020/2093<authorialNote placement="bottom" marker="28">
+                     <p>Council Regulation (EU, Euratom) 2020/2093 of 17 December 2020 laying down the multiannual financial framework for the years 2021 to 2027 (OJ L 433 I, 22.12.2020, p. 11).</p>
+                  </authorialNote>.</p>
+            </recital>
+            <recital xml:id="rec_d231e889">
+               <num>(77)</num>
+               <p>In order to promote the objectives of the TFEU related to economic, social and territorial cohesion, the Investment for jobs and growth goal should support all regions. To provide balanced and gradual support and reflect the level of economic and social development, resources under that goal should be allocated from the ERDF and the ESF+ on the basis of an allocation key which is predominantly based on gross domestic product (GDP) per capita. Member States whose per capita gross national income (GNI) is less than 90 % of that of the Union average should benefit under the Investment for jobs and growth goal from the Cohesion Fund.</p>
+            </recital>
+            <recital xml:id="rec_d231e896">
+               <num>(78)</num>
+               <p>The resources for the European territorial cooperation goal (Interreg) should be allocated to Member States on the basis of the allocation methodology which takes into account in particular population density in border areas. Additionally, to ensure continuity of existing programmes, specific provisions to define programme areas and the eligibility of regions under the different strands of Interreg should be set out in the relevant Fund-specific Regulation.</p>
+            </recital>
+            <recital xml:id="rec_d231e902">
+               <num>(79)</num>
+               <p>Objective criteria should be established for designating eligible regions and areas for support from the Funds. To that end, the identification of the regions and areas at Union level should be based on the common system of classification of the regions established by Regulation (EC) No 1059/2003 of the European Parliament and the Council<authorialNote placement="bottom" marker="29">
+                     <p>Regulation (EC) No 1059/2003 of the European Parliament and of the Council of 26 May 2003 on the establishment of a common classification of territorial units for statistics (NUTS) (OJ L 154, 21.6.2003, p. 1).</p>
+                  </authorialNote>, as amended by Commission Regulation (EU) 2016/2066<authorialNote placement="bottom" marker="30">
+                     <p>Commission Regulation (EU) 2016/2066 of 21 November 2016 amending the annexes to Regulation (EC) No 1059/2003 of the European Parliament and of the Council on the establishment of a common classification of territorial units for statistics (NUTS) (OJ L 322, 29.11.2016, p. 1).</p>
+                  </authorialNote>.</p>
+            </recital>
+            <recital xml:id="rec_d231e928">
+               <num>(80)</num>
+               <p>In order to set out an appropriate financial framework for the ERDF, the ESF+, the Cohesion Fund and the JTF, the Commission should set out the annual breakdown of available allocations per Member State under the Investment for jobs and growth goal, together with the list of eligible regions, as well as the allocations for the European territorial cooperation goal (Interreg).</p>
+            </recital>
+            <recital xml:id="rec_d231e934">
+               <num>(81)</num>
+               <p>Trans-European transport network projects under Regulation of the European Parliament and of the Council establishing the Connecting Europe Facility and repealing Regulations (EU) No 1316/2013 and (EU) No 283/2014 (the &apos;CEF Regulation <!-- <leos:unknown><QUOT.END xmlns=""
+                            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                            CODE="2018"
+                            ID="QE0018"
+                            REF.START="QS0018"/></leo:unknown> -->) are to continue to be financed from the Cohesion Fund via both shared management and the direct implementation mode under the Connecting Europe Facility (CEF). Building on the successful approach of the 2014-2020 programming period, EUR 10000000000 from the Cohesion Fund should be transferred to the CEF for this purpose.</p>
+            </recital>
+            <recital xml:id="rec_d231e947">
+               <num>(82)</num>
+               <p>A certain amount of the resources from the ERDF, the ESF+ and the Cohesion Fund should be allocated to the European Urban Initiative which should be implemented through direct or indirect management by the Commission.</p>
+            </recital>
+            <recital xml:id="rec_d231e953">
+               <num>(83)</num>
+               <p>With a view to ensuring an appropriate allocation to categories of region, and as a matter of principle, the total allocations to Member States in respect of less developed, transitional and more developed regions should not be transferable between the categories. Nevertheless, to accommodate Member States&apos; needs to tackle specific challenges, Member States should be able to request a transfer from their allocations for more developed regions or transition regions to less developed regions and from more developed regions to transition regions and, in such a case, should justify that choice. In order to ensure sufficient financial resources for less developed regions, a ceiling should be established for transfers to more developed regions or transition regions. Transferability of resources between goals should not be possible except for cases strictly set out in this Regulation.</p>
+            </recital>
+            <recital xml:id="rec_d231e959">
+               <num>(84)</num>
+               <p>Where a region was categorised as a more developed region for the 2014-2020 period but is categorised as a transition region for the 2021-2027 period and therefore would receive less support for the 2021-2027 period based on the allocation methodology, the Member State concerned is invited to take this factor into account when deciding on its internal distribution of funding.</p>
+            </recital>
+            <recital xml:id="rec_d231e965">
+               <num>(85)</num>
+               <p>Within the context of the unique and specific circumstances on the island of Ireland, and with a view to supporting North-South cooperation under the Good Friday Agreement, a &apos;PEACE PLUS&apos; cross-border programme is to continue and build on the work of previous programmes, Peace and Interreg, between the border counties of Ireland and Northern Ireland. Taking into account its practical importance, that programme should be supported with a specific allocation to continue support for peace and reconciliation actions, and an appropriate share of the Irish allocation under Interreg should also be allocated to that programme.</p>
+            </recital>
+            <recital xml:id="rec_d231e977">
+               <num>(86)</num>
+               <p>It is necessary to establish the maximum rates of co-financing in the area of cohesion policy by category of region, where applicable, in order to ensure that the principle of co-financing is respected through an appropriate level of public or private national support. Those rates should reflect the level of economic development of regions in terms of GDP per capita in relation to the EU-27 average, while safeguarding no less favourable treatment due to shifts in their categorisation.</p>
+            </recital>
+            <recital xml:id="rec_d231e983">
+               <num>(87)</num>
+               <p>Within the framework of the relevant rules under the Stability and Growth Pact as clarified in the European code of conduct on partnership, Member States may make a duly justified request for further flexibility for the public or equivalent structural expenditure supported by the public administration by way of co-financing of investments.</p>
+            </recital>
+            <recital xml:id="rec_d231e989">
+               <num>(88)</num>
+               <p>In order to supplement or amend certain non-essential elements of this Regulation, the power to adopt acts in accordance with Article 290 TFEU should be delegated to the Commission in respect of the amendment of the elements contained in certain Annexes to this Regulation, namely for the dimensions and codes for the types of intervention, the templates for partnership agreements and programmes, the templates for the transmission of data, the template for forecasts of payment applications to the Commission, the use of the emblem of the Union, the elements for funding agreements and strategy documents, the electronic data exchange system between the Member States and the Commission, the templates for the description of the management and control system, for the management declaration, for the annual audit opinion, for the annual control report, for the annual audit report for financial instruments implemented by the EIB or other international financial institutions, for the audit strategy, for payment applications, for the accounts, for detailed rules and the template for the reporting of irregularities and for the determination of the level of financial corrections.</p>
+            </recital>
+            <recital xml:id="rec_d231e995">
+               <num>(89)</num>
+               <p>The power to adopt acts in accordance with Article 290 TFEU should be delegated to the Commission in respect of the amendment of the European code of conduct on partnership in order to adapt that code of conduct to this Regulation, the definition at Union level of unit costs, lump sums, flat rates and financing not linked to costs applicable to all Member States as well as the establishment of standardised off-the-shelf sampling methodologies.</p>
+            </recital>
+            <recital xml:id="rec_d231e1001">
+               <num>(90)</num>
+               <p>It is of particular importance that the Commission carries out appropriate, transparent consultations with all interested parties during its preparatory work, including at expert level, and that those consultations be conducted in accordance with the principles laid down in the Interinstitutional Agreement of 13 April 2016 on Better Law-Making. In particular, to ensure equal participation in the preparation of delegated acts, the European Parliament and the Council receive all documents at the same time as Member States&apos; experts, and their experts systematically have access to meetings of Commission expert groups dealing with the preparation of delegated acts.</p>
+            </recital>
+            <recital xml:id="rec_d231e1010">
+               <num>(91)</num>
+               <p>In order to ensure uniform conditions for the adoption of Partnership Agreements, the adoption or amendment of programmes as well as the application of financial corrections, implementing powers should be conferred on the Commission. The implementing powers in relation to the establishment of the breakdown of financial allocations for the ERDF, the ESF+ and the Cohesion Fund should be adopted without committee procedures, given that they merely reflect the application of a pre-defined calculation methodology. Likewise, the implementing powers in relation to the temporary measures for the use of the Funds in response to exceptional circumstances should be adopted without committee procedures, given that the scope of application is determined by the Stability and Growth Pact and limited to the measures set out in this Regulation.</p>
+            </recital>
+            <recital xml:id="rec_d231e1016">
+               <num>(92)</num>
+               <p>The implementing powers relating to the template for the final performance report should be exercised in accordance with Regulation (EU) No 182/2011 of the European Parliament and of the Council<authorialNote placement="bottom" marker="31">
+                     <p>Regulation (EU) No 182/2011 of the European Parliament and of the Council of 16 February 2011 laying down the rules and general principles concerning mechanisms for control by Member States of the Commission&apos;s exercise of implementing powers (OJ L 55, 28.2.2011, p. 13).</p>
+                  </authorialNote>. Although the implementing act is of a general nature, the advisory procedure should be used for its adoption, given that it only sets out technical aspects, forms and templates.</p>
+            </recital>
+            <recital xml:id="rec_d231e1033">
+               <num>(93)</num>
+               <p>Since Regulation (EU) No 1303/2013 of the European Parliament and of the Council<authorialNote placement="bottom" marker="32">
+                     <p>Regulation (EU) No 1303/2013 of the European Parliament and of the Council of 17 December 2013 laying down common provisions on the European Regional Development Fund, the European Social Fund, the Cohesion Fund, the European Agricultural Fund for Rural Development and the European Maritime and Fisheries Fund and laying down general provisions on the European Regional Development Fund, the European Social Fund, the Cohesion Fund and the European Maritime and Fisheries Fund and repealing Council Regulation (EC) No 1083/2006 (OJ L 347, 20.12.2013, p. 320).</p>
+                  </authorialNote> or any act applicable to the 2014&#45;2020 programming period should continue to apply to programmes and operations supported by the Funds covered under the 2014&#45;2020 programming period and since the implementation period of that Regulation is expected to extend over to the programming period covered by this Regulation and in order to ensure continuity of implementation of certain operations approved by that Regulation, phasing provisions should be established. Each individual phase of the phased operation, which serves the same overall objective, should be implemented in accordance with the rules of the programming period under which it receives funding, while the managing authority may proceed with selecting the second phase on the basis of the selection procedure carried out under 2014-2020 programming period for the relevant operation, provided that it satisfies itself that the conditions set out in this Regulation for phased implementation are complied with.</p>
+            </recital>
+            <recital xml:id="rec_d231e1049">
+               <num>(94)</num>
+               <p>Since the objectives of this Regulation, namely to strengthen economic, social and territorial cohesion and to lay down common financial rules for part of the budget of the Union implemented under shared management, cannot be sufficiently achieved by the Member States by reason of the extent of the disparities between the levels of development of the various regions and the specific challenges faced by the least favoured regions, the limit on the financial resources of the Member States and regions and the need for a coherent implementation framework covering several Union funds under shared management, but can rather be better achieved at Union level, the Union may adopt measures, in accordance with the principle of subsidiarity as set out in Article 5 TEU. In accordance with the principle of proportionality, as set out in that Article, this Regulation does not go beyond what is necessary in order to achieve those objectives.</p>
+            </recital>
+            <recital xml:id="rec_d231e1055">
+               <num>(95)</num>
+               <p>This Regulation respects the fundamental rights and observes the principles recognised in particular by the Charter of Fundamental Rights of the European Union.</p>
+            </recital>
+            <recital xml:id="rec_d231e1062">
+               <num>(96)</num>
+               <p>In view of the adoption of this Regulation after the start of the programming period, and taking into account the need to implement Union Funds covered by this Regulation in a coordinated and harmonised manner, and in order to allow for its prompt implementation, it should enter into force on the day following that of its publication in the <i>Official Journal of the European Union,</i>
+               </p>
+            </recital>
+         </recitals>
+         <formula name="enactingFormula">
+            <p>HAVE ADOPTED THIS REGULATION:</p>
+         </formula>
+      </preamble>
+      <body><!--GR.SEQ is a special position => not treated --><!--GR.SEQ is a special position => not treated --><!--GR.SEQ is a special position => not treated --><!--GR.SEQ is a special position => not treated --><!--GR.SEQ is a special position => not treated --><!--GR.SEQ is a special position => not treated --><!--GR.SEQ is a special position => not treated --><!--GR.SEQ is a special position => not treated --><!--GR.SEQ is a special position => not treated -->
+         <clause>
+            <content>
+               <p>This Regulation shall be binding in its entirety and directly applicable in the Member States in accordance with the Treaties.</p>
+            </content>
+         </clause>
+      </body>
+      <conclusions>
+         <p>Done at Brussels, 24 June 2021</p>
+         <block name="signatory">
+            <signature>
+               <organization refersTo="">For the European Parliament</organization>
+               <role refersTo="">The President</role>
+            </signature>
+            <signature>
+               <organization refersTo="">For the Council</organization>
+               <role refersTo="">The President</role>
+            </signature>
+         </block>
+      </conclusions>
+   </bill>
+</akomaNtoso>

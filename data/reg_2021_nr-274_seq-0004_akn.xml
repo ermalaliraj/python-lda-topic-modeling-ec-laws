@@ -1,0 +1,774 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"
+            xmlns:fmx="http://formex.publications.europa.eu/schema/formex-05.21-20110601.xd"
+            xmlns:leos="urn:eu:europa:ec:leos"
+            xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <bill name="">
+      <meta xmlns:fn="http://www.w3.org/2005/xpath-functions">
+         <identification source="~COM">
+            <FRBRWork>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRcountry value=""/>
+            </FRBRWork>
+            <FRBRExpression>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+            </FRBRManifestation>
+         </identification>
+      </meta>
+      <preface>
+         <longTitle>
+            <p>
+               <docStage/>
+               <docType>REGULATION (EU) 2021/1232 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL</docType>of 14 July 2021<docPurpose>on a temporary derogation from certain provisions of Directive 2002/58/EC as regards the use of technologies by providers of number-independent interpersonal communications services for the processing of personal and other data for the purpose of combating online child sexual abuse</docPurpose>
+            </p>
+         </longTitle>
+         <container name="EEArelevance">
+            <p>(Text with EEA relevance)</p>
+         </container>
+      </preface>
+      <preamble>
+         <formula name="actingEntity">
+            <p>THE EUROPEAN PARLIAMENT AND THE COUNCIL OF THE EUROPEAN UNION,</p>
+         </formula>
+         <citations>
+            <citation>
+               <p>Having regard to the Treaty on the Functioning of the European Union, and in particular Article 16(2), in conjunction with Article 114(1) thereof,</p>
+            </citation>
+            <citation>
+               <p>Having regard to the proposal from the European Commission,</p>
+            </citation>
+            <citation>
+               <p>After transmission of the draft legislative act to the national parliaments,</p>
+            </citation>
+            <citation>
+               <p>Having regard to the opinion of the European Economic and Social Committee<authorialNote placement="bottom" marker="1">
+                     <p>OJ C 10, 11.1.2021, p. 63.</p>
+                  </authorialNote>,</p>
+            </citation>
+            <citation>
+               <p>Acting in accordance with the ordinary legislative procedure<authorialNote placement="bottom" marker="2">
+                     <p>Position of the European Parliament of 6 July 2021 (not yet published in the Official Journal) and decision of the Council of 12 July 2021.</p>
+                  </authorialNote>,</p>
+            </citation>
+         </citations>
+         <recitals xml:id="recs_d503e86">
+            <intro>
+               <p>Whereas:</p>
+            </intro>
+            <recital xml:id="rec_d503e89">
+               <num>(1)</num>
+               <p>Directive 2002/58/EC of the European Parliament and of the Council<authorialNote placement="bottom" marker="3">
+                     <p>Directive 2002/58/EC of the European Parliament and of the Council of 12 July 2002 concerning the processing of personal data and the protection of privacy in the electronic communications sector (Directive on privacy and electronic communications) (OJ L 201, 31.7.2002, p. 37).</p>
+                  </authorialNote> lays down rules ensuring the right to privacy and confidentiality with respect to the processing of personal data in exchanges of data in the electronic communication sector. That Directive particularises and complements Regulation (EU) 2016/679 of the European Parliament and of the Council<authorialNote placement="bottom" marker="4">
+                     <p>Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (General Data Protection Regulation) (OJ L 119, 4.5.2016, p. 1).</p>
+                  </authorialNote>.</p>
+            </recital>
+            <recital xml:id="rec_d503e115">
+               <num>(2)</num>
+               <p>Directive 2002/58/EC applies to the processing of personal data in connection with the provision of publicly available electronic communication services. Until 21 December 2020, the definition of &apos;electronic communication service&apos; set out in Article 2, point (c), of Directive 2002/21/EC of the European Parliament and of the Council<authorialNote placement="bottom" marker="5">
+                     <p>Directive 2002/21/EC of the European Parliament and of the Council of 7 March 2002 on a common regulatory framework for electronic communications networks and services (Framework Directive) (OJ L 108, 24.4.2002, p. 33).</p>
+                  </authorialNote> applied. On that date, Directive (EU) 2018/1972 of the European Parliament and of the Council<authorialNote placement="bottom" marker="6">
+                     <p>Directive (EU) 2018/1972 of the European Parliament and of the Council of 11 December 2018 establishing the European Electronic Communications Code (OJ L 321, 17.12.2018, p. 36).</p>
+                  </authorialNote> repealed Directive 2002/21/EC. The definition of &apos;electronic communications service&apos; in Article 2, point (4), of Directive (EU) 2018/1972 includes number-independent interpersonal communications services as defined in Article 2, point (7), of that Directive. Number-independent interpersonal communications services, which include, for example, Voice over internet Protocol, messaging and web-based email services, were therefore brought within the scope of Directive 2002/58/EC on 21 December 2020.</p>
+            </recital>
+            <recital xml:id="rec_d503e156">
+               <num>(3)</num>
+               <p>In accordance with Article 6(1) of the Treaty on European Union (TEU), the Union recognises the rights, freedoms and principles set out in the Charter of Fundamental Rights of the European Union (the &apos;Charter&apos;). Article 7 of the Charter protects the fundamental right of everyone to the respect for his or her private and family life, home and communications, which includes the confidentiality of communications. Article 8 of the Charter contains the right to the protection of personal data.</p>
+            </recital>
+            <recital xml:id="rec_d503e167">
+               <num>(4)</num>
+               <p>Article 3(1) of the 1989 United Nations Convention on the Rights of the Child (UNCRC) and Article 24(2) of the Charter provide that, in all actions relating to children, whether taken by public authorities or private institutions, the child&apos;s best interests must be a primary consideration. Article 3(2) UNCRC and Article 24(1) of the Charter furthermore evoke the right of children to such protection and care as is necessary for their well-being.</p>
+            </recital>
+            <recital xml:id="rec_d503e173">
+               <num>(5)</num>
+               <p>The protection of children, both offline and online, is one of the Union&apos;s priorities. Sexual abuse and sexual exploitation of children constitute serious violations of human and fundamental rights, in particular of the rights of children to be protected from all forms of violence, abuse and neglect, maltreatment or exploitation, including sexual abuse, as provided for by the UNCRC and by the Charter. Digitalisation has brought about many benefits for society and the economy, but it has also brought about challenges, including an increase of online child sexual abuse. On 24 July 2020, the Commission adopted a communication entitled &apos;EU strategy for a more effective fight against child sexual abuse&apos; (the &apos;Strategy&apos;). The Strategy aims to provide an effective response, at Union level, to the crime of child sexual abuse.</p>
+            </recital>
+            <recital xml:id="rec_d503e190">
+               <num>(6)</num>
+               <p>In line with Directive 2011/93/EU of the European Parliament and of the Council<authorialNote placement="bottom" marker="7">
+                     <p>Directive 2011/93/EU of the European Parliament and of the Council of 13 December 2011 on combating the sexual abuse and sexual exploitation of children and child pornography, and replacing Council Framework Decision 2004/68/JHA (OJ L 335, 17.12.2011, p. 1).</p>
+                  </authorialNote>, this Regulation does not govern Member States&apos; policies with regard to consensual sexual activities in which children may be involved and which can be regarded as the normal discovery of sexuality in the course of human development, taking account of the different cultural and legal traditions and of new forms of establishing and maintaining relations among children and adolescents, including through information and communication technologies.</p>
+            </recital>
+            <recital xml:id="rec_d503e206">
+               <num>(7)</num>
+               <p>Some providers of certain number-independent interpersonal communications services (&apos;providers&apos;), such as webmail and messaging services, already use specific technologies on a voluntary basis to detect online child sexual abuse on their services and report it to law enforcement authorities and to organisations acting in the public interest against child sexual abuse, by scanning either the content, such as images and text, or the traffic data of communications using, in some instances, historical data. The technology used for those activities could be hashing technology for images and videos and classifiers and artificial intelligence for analysing text or traffic data. When using hashing technology, online child sexual abuse material is reported when a positive hit is returned, which means a match resulting from a comparison between an image or a video and a unique, non-reconvertible digital signature (&apos;hash&apos;) from a database maintained by an organisation acting in the public interest against child sexual abuse that contains verified online child sexual abuse material. Those providers refer to national hotlines for reporting online child sexual abuse material and to organisations, located both within the Union and in third countries, whose purpose is to identify children, reduce child sexual exploitation and sexual abuse and prevent child victimisation. Such organisations might not fall within the scope of Regulation (EU) 2016/679. Collectively, such voluntary activities play a valuable role in enabling the identification and rescue of victims, whose fundamental rights to human dignity and to physical and mental integrity are severely violated. Such voluntary activities are also important in reducing the further dissemination of online child sexual abuse material and in contributing to the identification and investigation of offenders and to the prevention, detection, investigation and prosecution of child sexual abuse offences.</p>
+            </recital>
+            <recital xml:id="rec_d503e220">
+               <num>(8)</num>
+               <p>Notwithstanding their legitimate objective, voluntary activities by providers to detect online child sexual abuse on their services and report it constitute an interference with the fundamental rights to respect for private and family life and to the protection of personal data of all users of number-independent interpersonal communications services (&apos;users&apos;). Any limitation to the exercise of the fundamental right to respect for private and family life, including the confidentiality of communications, cannot be justified merely on the grounds that providers were using certain technologies at a time when number-independent interpersonal communications services did not fall within the definition of &apos;electronic communications services&apos;. Such limitations are only possible under certain conditions. Pursuant to Article 52(1) of the Charter, such limitations are to be provided for by law and are to respect the essence of the rights to private and family life and to the protection of personal data and, subject to the principle of proportionality, they are to be necessary and genuinely meet objectives of general interest recognised by the Union or the need to protect the rights and freedoms of others. Where such limitations permanently involve a general and indiscriminate monitoring and analysis of the communications of all users, they interfere with the right to confidentiality of communications.</p>
+            </recital>
+            <recital xml:id="rec_d503e236">
+               <num>(9)</num>
+               <p>Until 20 December 2020, the processing of personal data by providers by means of voluntary measures for the purpose of detecting online child sexual abuse on their services and reporting it and removing online child sexual abuse material from their services was governed solely by Regulation (EU) 2016/679. Directive (EU) 2018/1972, which was to be transposed by 20 December 2020, brought providers within the scope of Directive 2002/58/EC. In order to continue using such voluntary measures after 20 December 2020, providers should comply with the conditions set out in this Regulation. Regulation (EU) 2016/679 will continue to apply to the processing of personal data carried out by means of such voluntary measures.</p>
+            </recital>
+            <recital xml:id="rec_d503e252">
+               <num>(10)</num>
+               <p>Directive 2002/58/EC does not contain any specific provisions concerning the processing of personal data by providers in connection with the provision of electronic communication services for the purpose of detecting online child sexual abuse on their services and reporting it and removing online child sexual abuse material from their services. However, pursuant to Article 15(1) of Directive 2002/58/EC, Member States can adopt legislative measures to restrict the scope of the rights and obligations provided for in, inter alia, Articles 5 and 6 of that Directive, which concern the confidentiality of communications and traffic data, for the purposes of the prevention, detection, investigation and prosecution of criminal offences linked to child sexual abuse. In the absence of such national legislative measures and pending the adoption of a longer-term legal framework to tackle child sexual abuse at Union level, providers can no longer rely on Regulation (EU) 2016/679 to continue to use voluntary measures to detect online child sexual abuse on their services and report it and to remove online child sexual abuse material from their services beyond 21 December 2020. This Regulation does not provide for a legal ground for the processing of personal data by providers for the sole purpose of detecting online child sexual abuse on their services and reporting it and removing online child sexual abuse material from their services, but it provides for a derogation from certain provisions of Directive 2002/58/EC. This Regulation lays down additional safeguards which are to be respected by providers if they wish to rely on it.</p>
+            </recital>
+            <recital xml:id="rec_d503e261">
+               <num>(11)</num>
+               <p>Processing of data for the purposes of this Regulation could entail the processing of special categories of personal data as set out in Regulation (EU) 2016/679. Processing of images and videos by specific technical means which allow for the unique identification or authentication of a natural person is considered processing of special categories of personal data.</p>
+            </recital>
+            <recital xml:id="rec_d503e267">
+               <num>(12)</num>
+               <p>This Regulation provides for a temporary derogation from Articles 5(1) and 6(1) of Directive 2002/58/EC, which protect the confidentiality of communications and traffic data. The voluntary use by providers of technologies for the processing of personal and other data to the extent necessary to detect online child sexual abuse on their services and report it and to remove online child sexual abuse material from their services falls within the scope of the derogation provided for by this Regulation provided that such use complies with the conditions set out in this Regulation and is therefore subject to the safeguards and conditions set out in Regulation (EU) 2016/679.</p>
+            </recital>
+            <recital xml:id="rec_d503e273">
+               <num>(13)</num>
+               <p>Directive 2002/58/EC was adopted on the basis of Article 114 of the Treaty on the Functioning of the European Union (TFEU). Moreover, not all Member States have adopted legislative measures in accordance with Directive 2002/58/EC to restrict the scope of the rights and obligations related to the confidentiality of communications and traffic data as set out in that Directive, and the adoption of such measures involves a significant risk of fragmentation likely to negatively affect the internal market. Consequently, this Regulation should be based on Article 114 TFEU.</p>
+            </recital>
+            <recital xml:id="rec_d503e280">
+               <num>(14)</num>
+               <p>Given that data related to electronic communications involving natural persons usually qualify as personal data, this Regulation should also be based on Article 16 TFEU, which provides a specific legal basis for the adoption of rules relating to the protection of individuals with regard to the processing of personal data by Union institutions, bodies, offices and agencies, and by the Member States when carrying out activities which fall within the scope of Union law, and rules relating to the free movement of such data.</p>
+            </recital>
+            <recital xml:id="rec_d503e286">
+               <num>(15)</num>
+               <p>Regulation (EU) 2016/679 applies to the processing of personal data in connection with the provision of electronic communications services by providers for the sole purpose of detecting online child sexual abuse on their services and reporting it and removing online child sexual abuse material from their services to the extent that that processing falls within the scope of the derogation provided for by this Regulation.</p>
+            </recital>
+            <recital xml:id="rec_d503e292">
+               <num>(16)</num>
+               <p>The types of technologies used for the purposes of this Regulation should be the least privacy-intrusive in accordance with the state of the art in the industry. Those technologies should not be used to systematically filter and scan text in communications unless it is solely to detect patterns which point to possible concrete reasons for suspecting online child sexual abuse, and they should not be able to deduce the substance of the content of the communications. In the case of technology used for identifying solicitation of children, such concrete reasons for suspicion should be based on objectively identified risk factors such as age difference and the likely involvement of a child in the scanned communication.</p>
+            </recital>
+            <recital xml:id="rec_d503e298">
+               <num>(17)</num>
+               <p>Appropriate procedures and redress mechanisms should be put in place to ensure that individuals can lodge complaints with providers. Such procedures and mechanisms are, in particular, relevant where content that does not constitute online child sexual abuse has been removed or reported to law enforcement authorities or to an organisation acting in the public interest against child sexual abuse.</p>
+            </recital>
+            <recital xml:id="rec_d503e304">
+               <num>(18)</num>
+               <p>In order to ensure accuracy and reliability as much as possible, technology used for the purposes of this Regulation should, in accordance with the state of the art in the industry, limit the numbers and ratios of errors (false positives) to the maximum extent possible and should, where necessary, rectify without delay any such errors that might nonetheless occur.</p>
+            </recital>
+            <recital xml:id="rec_d503e310">
+               <num>(19)</num>
+               <p>The content data and traffic data processed and the personal data generated when carrying out the activities covered by this Regulation, and the period during which the data are subsequently stored in the event of the identification of suspected online child sexual abuse, should remain limited to what is strictly necessary to carry out those activities. Any data should be immediately and permanently deleted as soon as they are no longer strictly necessary for one of the purposes specified in this Regulation, including where no suspected online child sexual abuse is identified, and in any event no later than 12 months from the date of the detection of suspected online child sexual abuse. This should be without prejudice to the possibility to store relevant content data and traffic data in accordance with Directive 2002/58/EC. This Regulation does not affect the application of any legal obligation under Union or national law to preserve data that applies to providers.</p>
+            </recital>
+            <recital xml:id="rec_d503e317">
+               <num>(20)</num>
+               <p>This Regulation does not prevent a provider that has reported online child sexual abuse to law enforcement authorities from requesting those authorities to acknowledge receipt of the report.</p>
+            </recital>
+            <recital xml:id="rec_d503e323">
+               <num>(21)</num>
+               <p>In order to ensure transparency and accountability in respect of the activities undertaken pursuant to the derogation provided for by this Regulation, providers should, by 3 February 2022, and by 31 January every year thereafter, publish and submit reports to the competent supervisory authority designated pursuant to Regulation (EU) 2016/679 (&apos;supervisory authority&apos;) and to the Commission. Such reports should cover processing falling within the scope of this Regulation, including the type and volumes of data processed, the specific grounds relied on for the processing of personal data pursuant to Regulation (EU) 2016/679, the grounds relied on for transfers of personal data outside the Union pursuant to Chapter V of Regulation (EU) 2016/679, where applicable, the number of cases of online child sexual abuse identified, differentiating between online child sexual abuse material and solicitation of children, the number of cases in which a user has lodged a complaint with the internal redress mechanism or sought a judicial remedy and the outcome of such complaints and judicial proceedings, the numbers and ratios of errors (false positives) of the different technologies used, the measures applied to limit the error rate and the error rate achieved, the retention policy and the data protection safeguards applied pursuant to Regulation (EU) 2016/679, and the names of the organisations acting in the public interest against child sexual abuse with which data have been shared pursuant to this Regulation.</p>
+            </recital>
+            <recital xml:id="rec_d503e338">
+               <num>(22)</num>
+               <p>In order to support the supervisory authorities with their tasks, the Commission should request the European Data Protection Board to issue guidelines on the compliance of processing falling within the scope of the derogation laid down in this Regulation with Regulation (EU) 2016/679. When the supervisory authorities assess whether an established or new technology to be used is in accordance with the state of the art in the industry, the least privacy-intrusive and operating on an adequate legal basis under Regulation (EU) 2016/679, those guidelines should, in particular, assist the supervisory authorities in providing advice in the framework of the prior consultation procedure set out in that Regulation.</p>
+            </recital>
+            <recital xml:id="rec_d503e344">
+               <num>(23)</num>
+               <p>This Regulation restricts the right to protection of the confidentiality of communications and derogates from the decision taken under Directive (EU) 2018/1972 to subject number-independent interpersonal communications services to the same rules that apply to all other electronic communications services as regards privacy for the sole purpose of detecting online child sexual abuse on those services and reporting it to law enforcement authorities or to organisations acting in the public interest against child sexual abuse and removing online child sexual abuse material from those services. The period of application of this Regulation should, therefore, be limited to three years from its date of application to allow for the necessary time to adopt a new long-term legal framework. Where the long-term legal framework is adopted and enters into force before that date, that long-term legal framework should repeal this Regulation.</p>
+            </recital>
+            <recital xml:id="rec_d503e350">
+               <num>(24)</num>
+               <p>With regard to all other activities that fall within the scope of Directive 2002/58/EC, providers should be subject to the specific obligations set out in that Directive and, consequently, to the monitoring and investigative powers of the competent authorities designated pursuant to that Directive.</p>
+            </recital>
+            <recital xml:id="rec_d503e356">
+               <num>(25)</num>
+               <p>End-to-end encryption is an important tool to guarantee the security and confidentiality of the communications of users, including those of children. Any weakening of encryption could potentially be abused by malicious third parties. Nothing in this Regulation should therefore be interpreted as prohibiting or weakening end-to-end encryption.</p>
+            </recital>
+            <recital xml:id="rec_d503e362">
+               <num>(26)</num>
+               <p>The right to respect for private and family life, including the confidentiality of communications, is a fundamental right guaranteed under Article 7 of the Charter. It is thus also a prerequisite for secure communications between victims of child sexual abuse and a trusted adult or organisations active in the fight against child sexual abuse and for communications between victims and their lawyers.</p>
+            </recital>
+            <recital xml:id="rec_d503e368">
+               <num>(27)</num>
+               <p>This Regulation should be without prejudice to the rules on professional secrecy under national law, such as rules on the protection of professional communications, between doctors and their patients, between journalists and their sources, or between lawyers and their clients, in particular since the confidentiality of communications between lawyers and their clients is key to ensuring the effective exercise of the rights of the defence as an essential part of the right to a fair trial. This Regulation should also be without prejudice to national rules on registers of public authorities or organisations which offer counselling to individuals in distress.</p>
+            </recital>
+            <recital xml:id="rec_d503e374">
+               <num>(28)</num>
+               <p>Providers should communicate to the Commission the names of the organisations acting in the public interest against child sexual abuse to which they report potential online child sexual abuse under this Regulation. While it is the sole responsibility of the providers acting as controllers to assess with which third party they can share personal data under Regulation (EU) 2016/679, the Commission should ensure transparency regarding the transfer of potential cases of online child sexual abuse by making public on its website a list of the organisations acting in the public interest against child sexual abuse communicated to it. That public list should be easily accessible. It should also be possible for providers to use that list in order to identify relevant organisations in the global fight against online child sexual abuse. That list should be without prejudice to the obligations of the providers acting as controllers under Regulation (EU) 2016/679, including with regard to their obligation to conduct any transfer of personal data outside the Union pursuant to Chapter V of that Regulation and their obligation to fulfil all of the obligations under Chapter IV of that Regulation.</p>
+            </recital>
+            <recital xml:id="rec_d503e382">
+               <num>(29)</num>
+               <p>The statistics to be provided by Member States under this Regulation are important indicators for the evaluation of policy, including legislative measures. In addition, it is important to recognise the impact of secondary victimisation inherent in the sharing of images and videos of victims of child sexual abuse that might have been circulating for years and which is not fully reflected in such statistics.</p>
+            </recital>
+            <recital xml:id="rec_d503e388">
+               <num>(30)</num>
+               <p>In line with the requirements laid down in Regulation (EU) 2016/679, in particular the requirement that Member States ensure that supervisory authorities are provided with the human, technical and financial resources necessary for the effective performance of their tasks and exercise of their powers, Member States should ensure that supervisory authorities have such sufficient resources for the effective performance of their tasks and exercise of their powers under this Regulation.</p>
+            </recital>
+            <recital xml:id="rec_d503e395">
+               <num>(31)</num>
+               <p>Where a provider has conducted a data protection impact assessment and consulted the supervisory authorities with regard to a technology in accordance with Regulation (EU) 2016/679 prior to the entry into force of this Regulation, that provider should not be obliged under this Regulation to carry out an additional data protection impact assessment or consultation provided that the supervisory authorities have indicated that the processing of data by that technology would not result in a high risk to the rights and freedoms of natural persons or that measures have been taken by the controller to mitigate such a risk.</p>
+            </recital>
+            <recital xml:id="rec_d503e401">
+               <num>(32)</num>
+               <p>Users should have the right to an effective judicial remedy where their rights have been infringed as a result of the processing of personal and other data for the purpose of detecting online child sexual abuse on number-independent interpersonal communications services and reporting it and removing online child sexual abuse material from those services, for instance where a user&apos;s content or identity have been reported to an organisation acting in the public interest against child sexual abuse or to law enforcement authorities or where a user&apos;s content has been removed or a user&apos;s account has been blocked or a service offered to a user has been suspended.</p>
+            </recital>
+            <recital xml:id="rec_d503e407">
+               <num>(33)</num>
+               <p>In line with Directive 2002/58/EC and the principle of data minimisation, the processing of personal and other data should be limited to content data and related traffic data, in as far as strictly necessary to achieve the purpose of this Regulation.</p>
+            </recital>
+            <recital xml:id="rec_d503e413">
+               <num>(34)</num>
+               <p>The derogation provided for by this Regulation should extend to the categories of data referred to in Articles 5(1) and 6(1) of Directive 2002/58/EC, which are applicable to the processing of both personal and non-personal data processed in the context of the provision of a number-independent interpersonal communications service.</p>
+            </recital>
+            <recital xml:id="rec_d503e419">
+               <num>(35)</num>
+               <p>The objective of this Regulation is to create a temporary derogation from certain provisions of Directive 2002/58/EC without creating fragmentation in the internal market. In addition, it is unlikely that all Member States could adopt national legislative measures in time. Since the objective of this Regulation cannot be sufficiently achieved by the Member States but can rather be better achieved at Union level, the Union may adopt measures, in accordance with the principle of subsidiarity as set out in Article 5 TEU. In accordance with the principle of proportionality as set out in that Article, this Regulation does not go beyond what is necessary in order to achieve that objective. It introduces a temporary and strictly limited derogation from the applicability of Articles 5(1) and 6(1) of Directive 2002/58/EC, with a series of safeguards to ensure that it does not go beyond what is necessary for the achievement of the set objective.</p>
+            </recital>
+            <recital xml:id="rec_d503e426">
+               <num>(36)</num>
+               <p>The European Data Protection Supervisor was consulted in accordance with Article 42(1) of Regulation (EU) 2018/1725 of the European Parliament and of the Council<authorialNote placement="bottom" marker="8">
+                     <p>Regulation (EU) 2018/1725 of the European Parliament and of the Council of 23 October 2018 on the protection of natural persons with regard to the processing of personal data by the Union institutions, bodies, offices and agencies and on the free movement of such data, and repealing Regulation (EC) No 45/2001 and Decision No 1247/2002/EC (OJ L 295, 21.11.2018, p. 39).</p>
+                  </authorialNote> and delivered its opinion on 10 November 2020,</p>
+            </recital>
+         </recitals>
+         <formula name="enactingFormula">
+            <p>HAVE ADOPTED THIS REGULATION:</p>
+         </formula>
+      </preamble>
+      <body>
+         <article xml:id="art_d503e448">
+            <num>Article 1</num>
+            <heading>Subject matter and scope</heading>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>This Regulation lays down temporary and strictly limited rules derogating from certain obligations laid down in Directive 2002/58/EC, with the sole objective of enabling providers of certain number-independent interpersonal communications services (&apos;providers&apos;) to use, without prejudice to Regulation (EU) 2016/679, specific technologies for the processing of personal and other data to the extent strictly necessary to detect online child sexual abuse on their services and report it and to remove online child sexual abuse material from their services.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>This Regulation does not apply to the scanning of audio communications.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d503e467">
+            <num>Article 2</num>
+            <heading>Definitions</heading>
+            <paragraph>
+               <subparagraph>
+                  <content>
+                     <p>For the purposes of this Regulation, the following definitions apply:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(1)</num>
+                     <content>
+                        <p>&apos;number-independent interpersonal communications service&apos; means a number-independent interpersonal communications service as defined in Article 2, point (7), of Directive (EU) 2018/1972;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(2)</num>
+                     <alinea>
+                        <content>
+                           <p>&apos;online child sexual abuse material&apos; means:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <content>
+                              <p>child pornography as defined in Article 2, point (c), of Directive 2011/93/EU;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <content>
+                              <p>pornographic performance as defined in Article 2, point (e), of Directive 2011/93/EU;</p>
+                           </content>
+                        </point>
+                     </list>
+                  </point>
+                  <point>
+                     <num>(3)</num>
+                     <content>
+                        <p>&apos;solicitation of children&apos; means any intentional conduct constituting a criminal offence under Article 6 of Directive 2011/93/EU;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(4)</num>
+                     <content>
+                        <p>&apos;online child sexual abuse&apos; means online child sexual abuse material and solicitation of children.</p>
+                     </content>
+                  </point>
+               </list>
+            </paragraph>
+         </article>
+         <article xml:id="art_d503e526">
+            <num>Article 3</num>
+            <heading>Scope of the derogation</heading>
+            <paragraph>
+               <num>1.</num>
+               <subparagraph>
+                  <content>
+                     <p>Articles 5(1) and 6(1) of Directive 2002/58/EC shall not apply to the confidentiality of communications involving the processing by providers of personal and other data in connection with the provision of number-independent interpersonal communications services provided that:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <alinea>
+                        <content>
+                           <p>the processing is:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(i)</num>
+                           <content>
+                              <p>strictly necessary for the use of specific technology for the sole purpose of detecting and removing online child sexual abuse material and reporting it to law enforcement authorities and to organisations acting in the public interest against child sexual abuse and of detecting solicitation of children and reporting it to law enforcement authorities or organisations acting in the public interest against child sexual abuse;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(ii)</num>
+                           <content>
+                              <p>proportionate and limited to technologies used by providers for the purpose set out in point (i);</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(iii)</num>
+                           <content>
+                              <p>limited to content data and related traffic data that are strictly necessary for the purpose set out in point (i);</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(iv)</num>
+                           <content>
+                              <p>limited to what is strictly necessary for the purpose set out in point (i);</p>
+                           </content>
+                        </point>
+                     </list>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <content>
+                        <p>the technologies used for the purpose set out in point (a)(i) of this paragraph are in accordance with the state of the art in the industry and are the least privacy-intrusive, including with regard to the principle of data protection by design and by default laid down in Article 25 of Regulation (EU) 2016/679 and, to the extent that they are used to scan text in communications, they are not able to deduce the substance of the content of the communications but are solely able to detect patterns which point to possible online child sexual abuse;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(c)</num>
+                     <content>
+                        <p>in respect of any specific technology used for the purpose set out in point (a)(i) of this paragraph, a prior data protection impact assessment as referred to in Article 35 of Regulation (EU) 2016/679 and a prior consultation procedure as referred to in Article 36 of that Regulation have been conducted;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(d)</num>
+                     <content>
+                        <p>with regard to new technology, meaning technology used for the purpose of detecting online child sexual abuse mat erial that has not been used by any provider in relation to services provided to users of number-independent interpersonal communications services (&apos;users&apos;) in the Union before 2 August 2021, and with regard to technology used for the purpose of identifying possible solicitation of children, the provider reports back to the competent authority on the measures taken to demonstrate compliance with written advice issued in accordance with Article 36(2) of Regulation (EU) 2016/679 by the competent supervisory authority designated pursuant to Chapter VI, Section 1, of that Regulation (&apos;supervisory authority&apos;) in the course of the prior consultation procedure;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(e)</num>
+                     <content>
+                        <p>the technologies used are sufficiently reliable in that they limit to the maximum extent possible the rate of errors regarding the detection of content representing online child sexual abuse and, where such occasional errors occur, their consequences are rectified without delay;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(f)</num>
+                     <content>
+                        <p>the technologies used to detect patterns of possible solicitation of children are limited to the use of relevant key indicators and objectively identified risk factors such as age difference and the likely involvement of a child in the scanned communication, without prejudice to the right to human review.</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(g)</num>
+                     <alinea>
+                        <content>
+                           <p>the providers:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(i)</num>
+                           <content>
+                              <p>have established internal procedures to prevent abuse of, unauthorised access to, and unauthorised transfers of, personal and other data;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(ii)</num>
+                           <content>
+                              <p>ensure human oversight of and, where necessary, human intervention in the processing of personal and other data using technologies falling under this Regulation;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(iii)</num>
+                           <content>
+                              <p>ensure that material not previously identified as online child sexual abuse material, or solicitation of children, is not reported to law enforcement authorities or organisations acting in the public interest against child sexual abuse without prior human confirmation;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(iv)</num>
+                           <content>
+                              <p>have established appropriate procedures and redress mechanisms to ensure that users can lodge complaints with them within a reasonable timeframe for the purpose of presenting their views;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(v)</num>
+                           <content>
+                              <p>inform users in a clear, prominent and comprehensible way of the fact that they have invoked, in accordance with this Regulation, the derogation from Articles 5(1) and 6(1) of Directive 2002/58/EC concerning the confidentiality of users&apos; communications for the sole purpose set out in point (a)(i) of this paragraph, the logic behind the measures they have taken under the derogation and the impact on the confidentiality of users&apos; communications, including the possibility that personal data are shared with law enforcement authorities and organisations acting in the public interest against child sexual abuse;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(vi)</num>
+                           <alinea>
+                              <content>
+                                 <p>inform users of the following, where their content has been removed or their account has been blocked or a service offered to them has been suspended:</p>
+                              </content>
+                           </alinea>
+                           <list>
+                              <point>
+                                 <num>(1)</num>
+                                 <content>
+                                    <p>the avenues for seeking redress from them;</p>
+                                 </content>
+                              </point>
+                              <point>
+                                 <num>(2)</num>
+                                 <content>
+                                    <p>the possibility of lodging a complaint with a supervisory authority; and</p>
+                                 </content>
+                              </point>
+                              <point>
+                                 <num>(3)</num>
+                                 <content>
+                                    <p>the right to a judicial remedy;</p>
+                                 </content>
+                              </point>
+                           </list>
+                        </point>
+                        <point>
+                           <num>(vii)</num>
+                           <alinea>
+                              <content>
+                                 <p>by 3 February 2022, and by 31 January every year thereafter, publish and submit to the competent supervisory authority and to the Commission a report on the processing of personal data under this Regulation, including on:</p>
+                              </content>
+                           </alinea>
+                           <list>
+                              <point>
+                                 <num>(1)</num>
+                                 <content>
+                                    <p>the type and volumes of data processed;</p>
+                                 </content>
+                              </point>
+                              <point>
+                                 <num>(2)</num>
+                                 <content>
+                                    <p>the specific ground relied on for the processing pursuant to Regulation (EU) 2016/679;</p>
+                                 </content>
+                              </point>
+                              <point>
+                                 <num>(3)</num>
+                                 <content>
+                                    <p>the ground relied on for transfers of personal data outside the Union pursuant to Chapter V of Regulation (EU) 2016/679, where applicable;</p>
+                                 </content>
+                              </point>
+                              <point>
+                                 <num>(4)</num>
+                                 <content>
+                                    <p>the number of cases of online child sexual abuse identified, differentiating between online child sexual abuse material and solicitation of children;</p>
+                                 </content>
+                              </point>
+                              <point>
+                                 <num>(5)</num>
+                                 <content>
+                                    <p>the number of cases in which a user has lodged a complaint with the internal redress mechanism or with a judicial authority and the outcome of such complaints;</p>
+                                 </content>
+                              </point>
+                              <point>
+                                 <num>(6)</num>
+                                 <content>
+                                    <p>the numbers and ratios of errors (false positives) of the different technologies used;</p>
+                                 </content>
+                              </point>
+                              <point>
+                                 <num>(7)</num>
+                                 <content>
+                                    <p>the measures applied to limit the error rate and the error rate achieved;</p>
+                                 </content>
+                              </point>
+                              <point>
+                                 <num>(8)</num>
+                                 <content>
+                                    <p>the retention policy and the data protection safeguards applied pursuant to Regulation (EU) 2016/679;</p>
+                                 </content>
+                              </point>
+                              <point>
+                                 <num>(9)</num>
+                                 <content>
+                                    <p>the names of the organisations acting in the public interest against child sexual abuse with which data has been shared pursuant to this Regulation;</p>
+                                 </content>
+                              </point>
+                           </list>
+                        </point>
+                     </list>
+                  </point>
+                  <point>
+                     <num>(h)</num>
+                     <alinea>
+                        <content>
+                           <p>where suspected online child sexual abuse has been identified, the content data and related traffic data processed for the purpose set out in point (a)(i), and personal data generated through such processing are stored in a secure manner, solely for the purposes of:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(i)</num>
+                           <content>
+                              <p>reporting, without delay, the suspected online child sexual abuse to the competent law enforcement and judicial authorities or organisations acting in the public interest against child sexual abuse;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(ii)</num>
+                           <content>
+                              <p>blocking the account of, or suspending or terminating the provision of the service to, the user concerned;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(iii)</num>
+                           <content>
+                              <p>creating a unique, non-reconvertible digital signature (&apos;hash&apos;) of data reliably identified as online child sexual abuse material;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(iv)</num>
+                           <content>
+                              <p>enabling the user concerned to seek redress from the provider or pursue administrative review or judicial remedies on matters related to the suspected online child sexual abuse; or</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(v)</num>
+                           <content>
+                              <p>responding to requests issued by competent law enforcement and judicial authorities in accordance with the applicable law to provide them with the necessary data for the prevention, detection, investigation or prosecution of criminal offences as set out in Directive 2011/93/EU;</p>
+                           </content>
+                        </point>
+                     </list>
+                  </point>
+                  <point>
+                     <num>(i)</num>
+                     <content>
+                        <p>the data are stored no longer than strictly necessary for the relevant purpose set out in point (h) and, in any event, no longer than 12 months from the date of the identification of the suspected online child sexual abuse;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(j)</num>
+                     <content>
+                        <p>every case of a reasoned and verified suspicion of online child sexual abuse is reported without delay to the competent national law enforcement authorities or to organisations acting in the public interest against child sexual abuse.</p>
+                     </content>
+                  </point>
+               </list>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <subparagraph>
+                  <content>
+                     <p>Until 3 April 2022, the condition set out in paragraph 1, point (c), shall not apply to providers that:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <content>
+                        <p>were using a specific technology before 2 August 2021 for the purpose set out in paragraph 1, point (a)(i), without having completed a prior consultation procedure in respect of that technology;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <content>
+                        <p>start a prior consultation procedure before 3 September 2021; and</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(c)</num>
+                     <content>
+                        <p>duly cooperate with the competent supervisory authority in connection with the prior consultation procedure referred to in point (b).</p>
+                     </content>
+                  </point>
+               </list>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <subparagraph>
+                  <content>
+                     <p>Until 3 April 2022, the condition set out in paragraph 1, point (d), shall not apply to providers that:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <content>
+                        <p>were using a technology as referred to in paragraph 1, point (d), before 2 August 2021 without having completed a prior consultation procedure in respect of that technology;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <content>
+                        <p>start a procedure as referred to in paragraph 1, point (d), before 3 September 2021; and</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(c)</num>
+                     <content>
+                        <p>duly cooperate with the competent supervisory authority in connection with the procedure referred to in paragraph 1, point (d).</p>
+                     </content>
+                  </point>
+               </list>
+            </paragraph>
+         </article>
+         <article xml:id="art_d503e865">
+            <num>Article 4</num>
+            <heading>European Data Protection Board guidelines</heading>
+            <paragraph>
+               <content>
+                  <p>By 3 September 2021, and pursuant to Article 70 of Regulation (EU) 2016/679, the Commission shall request the European Data Protection Board to issue guidelines for the purpose of assisting the supervisory authorities in assessing whether processing falling within the scope of this Regulation, for existing and new technologies used for the purpose set out in Article 3(1), point (a)(i), of this Regulation, complies with Regulation (EU) 2016/679.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d503e875">
+            <num>Article 5</num>
+            <heading>Effective judicial remedies</heading>
+            <paragraph>
+               <content>
+                  <p>In accordance with Article 79 of Regulation (EU) 2016/679 and Article 15(2) of Directive 2002/58/EC, users shall have the right to an effective judicial remedy where they consider that their rights have been infringed as a result of the processing of personal and other data for the purpose set out in Article 3(1), point (a)(i), of this Regulation.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d503e882">
+            <num>Article 6</num>
+            <heading>Supervisory authorities</heading>
+            <paragraph>
+               <content>
+                  <p>The supervisory authorities designated pursuant to Chapter VI, Section 1, of Regulation (EU) 2016/679 shall monitor the processing falling within the scope of this Regulation in accordance with their competences and powers under that Chapter.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d503e889">
+            <num>Article 7</num>
+            <heading>Public list of organisations acting in the public interest against child sexual abuse</heading>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>By 3 September 2021, providers shall communicate to the Commission a list of the names of organisations acting in the public interest against child sexual abuse to which they report online child sexual abuse under this Regulation. Providers shall communicate any changes to that list to the Commission on a regular basis.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>By 3 October 2021, the Commission shall make public a list of the names of organisations acting in the public interest against child sexual abuse communicated to it under the paragraph 1. The Commission shall keep that public list up to date.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d503e910">
+            <num>Article 8</num>
+            <heading>Statistics</heading>
+            <paragraph>
+               <num>1.</num>
+               <subparagraph>
+                  <content>
+                     <p>By 3 August 2022, and on an annual basis thereafter, the Member States shall make publicly available and submit to the Commission reports with statistics on the following:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <content>
+                        <p>the total number of reports of detected online child sexual abuse that have been submitted by providers and organisations acting in the public interest against child sexual abuse to the competent national law enforcement authorities, differentiating, where such information is available, between the absolute number of cases and those cases reported several times and the type of provider on whose service the online child sexual abuse was detected;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <content>
+                        <p>the number of children identified through actions pursuant to Article 3, differentiated by gender;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(c)</num>
+                     <content>
+                        <p>the number of perpetrators convicted.</p>
+                     </content>
+                  </point>
+               </list>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>The Commission shall aggregate the statistics referred to in paragraph 1 of this Article and shall take them into account when preparing the implementation report pursuant to Article 9.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d503e949">
+            <num>Article 9</num>
+            <heading>Implementation report</heading>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>On the basis of the reports submitted pursuant to Article 3(1), point (g)(vii), and the statistics provided pursuant to Article 8, the Commission shall, by 3 August 2023, prepare a report on the implementation of this Regulation and submit and present it to the European Parliament and to Council.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <subparagraph>
+                  <content>
+                     <p>In the implementation report, the Commission shall consider, in particular:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <content>
+                        <p>the conditions for the processing of personal data and other data set out in Article 3(1), point (a)(ii), and points (b), (c) and (d);</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <content>
+                        <p>the proportionality of the derogation provided for by this Regulation, including an assessment of the statistics submitted by the Member States pursuant to Article 8;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(c)</num>
+                     <content>
+                        <p>developments in technological progress regarding the activities covered by this Regulation, and the extent to which such developments improve accuracy and reduce the numbers and ratios of errors (false positives).</p>
+                     </content>
+                  </point>
+               </list>
+            </paragraph>
+         </article>
+         <article xml:id="art_d503e987">
+            <num>Article 10</num>
+            <heading>Entry into force and application</heading>
+            <paragraph>
+               <content>
+                  <p>This Regulation shall enter into force on the third day following that of its publication in the <i>Official Journal of the European Union</i>.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <content>
+                  <p>It shall apply until 3 August 2024.</p>
+               </content>
+            </paragraph>
+         </article>
+         <clause>
+            <content>
+               <p>This Regulation shall be binding in its entirety and directly applicable in all Member States.</p>
+            </content>
+         </clause>
+      </body>
+      <conclusions>
+         <p>Done at Brussels, 14 July 2021.</p>
+         <block name="signatory">
+            <signature>
+               <organization refersTo="">For the European Parliament</organization>
+               <role refersTo="">The President</role>
+               <person refersTo="">D. M. SASSOLI</person>
+            </signature>
+            <signature>
+               <organization refersTo="">For the Council</organization>
+               <role refersTo="">The President</role>
+               <person refersTo="">A. LOGAR</person>
+            </signature>
+         </block>
+      </conclusions>
+   </bill>
+</akomaNtoso>

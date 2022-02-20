@@ -1,0 +1,495 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"
+            xmlns:fmx="http://formex.publications.europa.eu/schema/formex-05.21-20110601.xd"
+            xmlns:leos="urn:eu:europa:ec:leos"
+            xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <bill name="">
+      <meta xmlns:fn="http://www.w3.org/2005/xpath-functions">
+         <identification source="~COM">
+            <FRBRWork>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRcountry value=""/>
+            </FRBRWork>
+            <FRBRExpression>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+            </FRBRManifestation>
+         </identification>
+      </meta>
+      <preface>
+         <longTitle>
+            <p>
+               <docStage/>
+               <docType>COMMISSION REGULATION (EU) 2016/2119</docType>of 2 December 2016<docPurpose>amending Regulation (EC) No 471/2009 of the European Parliament and of the Council and Commission Regulation (EU) No 113/2010 as regards the adaptation of the list of customs procedures and the definition of the data</docPurpose>
+            </p>
+         </longTitle>
+         <container name="EEArelevance">
+            <p>(Text with EEA relevance)</p>
+         </container>
+      </preface>
+      <preamble>
+         <formula name="actingEntity">
+            <p>THE EUROPEAN COMMISSION,</p>
+         </formula>
+         <citations>
+            <citation>
+               <p>Having regard to the Treaty on the Functioning of the European Union,</p>
+            </citation>
+            <citation>
+               <p>Having regard to Regulation (EC) No 471/2009 of the European Parliament and the Council of 6 May 2009 on Community statistics relating to the external trade with non-member countries and repealing Council Regulation (EC) No 1172/95<authorialNote placement="bottom" marker="1">
+                     <p>OJ L 152, 16.6.2009, p. 23.</p>
+                  </authorialNote>, and in particular Articles 3(2), 5(2) and 6(2) thereof,</p>
+            </citation>
+         </citations>
+         <recitals xml:id="recs_d243e71">
+            <intro>
+               <p>Whereas:</p>
+            </intro>
+            <recital xml:id="rec_d243e74">
+               <num>(1)</num>
+               <p>Regulation (EC) No 471/2009 establishes a common framework for the systematic production of European statistics relating to the trading of goods with non-member countries. The main data source for those statistics is data obtained from customs declarations. That Regulation was set up to take account of specific and new customs clearance simplifications to become implemented under Regulation (EC) No 450/2008 of the European Parliament and of the Council<authorialNote placement="bottom" marker="2">
+                     <p>Regulation (EC) No 450/2008 of the European Parliament and of the Council of 23 April 2008 laying down the Community Customs Code (Modernised Customs Code) (OJ L 145, 4.6.2008, p. 1).</p>
+                  </authorialNote> (&apos;the Modernised Customs Code&apos;). This concerned especially &apos;self-assessment&apos; which was to include a waiver to provide a declaration to customs and the scheme of Centralised Clearance where customs import or export formalities could be fulfilled in more than one Member State.</p>
+            </recital>
+            <recital xml:id="rec_d243e98">
+               <num>(2)</num>
+               <p>Regulation (EU) No 952/2013 of the European Parliament and of the Council<authorialNote placement="bottom" marker="3">
+                     <p>Regulation (EU) No 952/2013 of the European Parliament and of the Council of 9 October 2013 laying down the Union Customs Code (OJ L 269, 10.10.2013, p. 1).</p>
+                  </authorialNote> (&apos;the Union Customs Code&apos;) repealed the Modernised Customs Code and replaced from 1 May 2016 the customs provisions provided by Council Regulation (EEC) No 2913/92<authorialNote placement="bottom" marker="4">
+                     <p>Council Regulation (EEC) No 2913/92 of 12 October 1992 establishing the Community Customs Code (OJ L 302, 19.10.1992, p. 1).</p>
+                  </authorialNote>.</p>
+            </recital>
+            <recital xml:id="rec_d243e131">
+               <num>(3)</num>
+               <p>It is necessary to align the scope of external trade statistics with the customs procedures of the Union Customs Code.</p>
+            </recital>
+            <recital xml:id="rec_d243e137">
+               <num>(4)</num>
+               <p>Regulation (EC) No 471/2009 was implemented by Commission Regulation (EU) No 113/2010<authorialNote placement="bottom" marker="5">
+                     <p>Commission Regulation (EU) No 113/2010 of 9 February 2010 implementing Regulation (EC) No 471/2009 of the European Parliament and of the Council on Community statistics relating to external trade with non-member countries, as regards trade coverage, definition of the data, compilation of statistics on trade by business characteristics and by invoicing currency, and specific goods or movements (OJ L 37, 10.2.2010, p. 1).</p>
+                  </authorialNote> and reflected the customs provisions set out in the Modernised Customs Code. Following the full application of the Union Customs Code as of 1 May 2016 changes to the customs provisions should be reflected in Regulation (EC) No 471/2009 and Regulation (EU) No 113/2010 in relation to the collection of statistical data and the compilation of external trade statistics.</p>
+            </recital>
+            <recital xml:id="rec_d243e156">
+               <num>(5)</num>
+               <p>Commission Implementing Decision (EU) 2016/578<authorialNote placement="bottom" marker="6">
+                     <p>Commission Implementing Decision (EU) 2016/578 of 11 April 2016 establishing the Work Programme relating to the development and deployment of the electronic systems provided for in the Union Customs Code (OJ L 99, 15.4.2016, p. 6.)</p>
+                  </authorialNote> lays down the Work Program referred to in Article 280 of Regulation (EU) No 952/2013, and relates to the electronic customs systems which are to be developed under the Union Customs Code</p>
+            </recital>
+            <recital xml:id="rec_d243e173">
+               <num>(6)</num>
+               <p>Until those electronic systems become available, Commission Delegated Regulation (EU) 2016/341<authorialNote placement="bottom" marker="7">
+                     <p>Commission Delegated Regulation (EU) 2016/341 of 17 December 2015 supplementing Regulation (EU) No 952/2013 of the European Parliament and of the Council as regards transitional rules for certain provisions of the Union Customs Code where the relevant electronic systems are not yet operational and amending Delegated Regulation (EU) 2015/2446 (OJ L 69, 15.3.2016, p. 1).</p>
+                  </authorialNote> (&apos;the Transitional Delegated Act&apos;) provides for transitional measures for the exchange and storage of information between the customs authorities themselves and between the customs authorities and the economic operators.</p>
+            </recital>
+            <recital xml:id="rec_d243e193">
+               <num>(7)</num>
+               <p>With regard to the customs simplification of Centralised Clearance provided for in Article 179 of the Union Customs Code, the imports and exports covered by this scheme need for methodological reasons not necessarily be allocated to the Member State of destination or Member State of actual export, as any respective intra-Community movements of goods between these Member States and the Member State where the goods are located at the time of release into the customs procedure could better and more coherently be covered by intra-EU trade statistics.</p>
+            </recital>
+            <recital xml:id="rec_d243e199">
+               <num>(8)</num>
+               <p>However, the statistical definitions as to the respective Member States should be amended to on the one hand identify an economically relevant movement following the customs clearance, on imports or preceding it, on exports.</p>
+            </recital>
+            <recital xml:id="rec_d243e205">
+               <num>(9)</num>
+               <p>The statistical definitions for those respective Member States should also be coherently aligned to the customs clearance provisions under Centralised Clearance, where only the Member State identified in the clearance process as participating Member State is expected to receive customs clearance related information from the Member State supervising the customs clearance.</p>
+            </recital>
+            <recital xml:id="rec_d243e212">
+               <num>(10)</num>
+               <p>For the purpose of harmonised compilation of external trade statistics, the definitions of certain other data elements should be adjusted to reflect changes introduced by the Union Customs Code.</p>
+            </recital>
+            <recital xml:id="rec_d243e218">
+               <num>(11)</num>
+               <p>Regulations (EC) No 471/2009 and (EU) No 113/2010 should be amended accordingly.</p>
+            </recital>
+            <recital xml:id="rec_d243e224">
+               <num>(12)</num>
+               <p>The measures provided for in this Regulation are in accordance with the opinion of the Committee on statistics relating to the trading of goods with non-member countries,</p>
+            </recital>
+         </recitals>
+         <formula name="enactingFormula">
+            <p>HAS ADOPTED THIS REGULATION:</p>
+         </formula>
+      </preamble>
+      <body>
+         <article xml:id="art_d243e233" leos:compliant="false">
+            <num>Article 1</num>
+            <heading/>
+            <paragraph>
+               <content>
+                  <p>Article 3(1) of Regulation (EC) No 471/2009 is replaced by the following:</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <content>
+                  <p>
+                     <mod>
+                        <quotedStructure startQuote="" endQuote="">
+                           <paragraph>
+                              <num>&apos;1.</num>
+                              <subparagraph>
+                                 <content>
+                                    <p>External trade statistics shall record imports and exports of goods.</p>
+                                 </content>
+                              </subparagraph>
+                              <subparagraph>
+                                 <content>
+                                    <p>An export shall be recorded by Member States in the event that goods leave the statistical territory of the Community</p>
+                                 </content>
+                              </subparagraph>
+                              <list>
+                                 <point>
+                                    <num>(a)</num>
+                                    <alinea>
+                                       <content>
+                                          <p>in accordance with one of the following customs procedures laid down in Regulation (EU) No 952/2013 of the European Parliament and of the Council<authorialNote placement="bottom" marker="8">
+                                                <p>Regulation (EU) No 952/2013 of the European Parliament and of the Council of 9 October 2013 laying down the Union Customs Code (OJ L 269, 10.10.2013, p. 1).&apos;</p>
+                                             </authorialNote> (&quot;the Union Customs Code&quot;):</p>
+                                       </content>
+                                    </alinea>
+                                    <list>
+                                       <indent>
+                                          <num>-</num>
+                                          <content>
+                                             <p>export;</p>
+                                          </content>
+                                       </indent>
+                                       <indent>
+                                          <num>-</num>
+                                          <content>
+                                             <p>outward processing;</p>
+                                          </content>
+                                       </indent>
+                                    </list>
+                                 </point>
+                                 <point>
+                                    <num>(b)</num>
+                                    <content>
+                                       <p>in application of Article 258 of the Union Customs Code;</p>
+                                    </content>
+                                 </point>
+                                 <point>
+                                    <num>(c)</num>
+                                    <content>
+                                       <p>in application of Article 269(3) of the Union Customs Code;</p>
+                                    </content>
+                                 </point>
+                                 <point>
+                                    <num>(d)</num>
+                                    <content>
+                                       <p>in application of Article 270 of the Union Customs Code to discharge an inward processing procedure.</p>
+                                    </content>
+                                 </point>
+                              </list>
+                              <subparagraph>
+                                 <content>
+                                    <p>An import shall be recorded by Member States in the event that goods enter the statistical territory of the Community in accordance with one of the following customs procedures laid down in of the Union Customs Code:</p>
+                                 </content>
+                              </subparagraph>
+                              <list>
+                                 <point>
+                                    <num>(a)</num>
+                                    <content>
+                                       <p>release for free circulation including end-use;</p>
+                                    </content>
+                                 </point>
+                                 <point>
+                                    <num>(b)</num>
+                                    <content>
+                                       <p>inward processing.</p>
+                                    </content>
+                                 </point>
+                              </list>
+                           </paragraph>
+                        </quotedStructure>
+                     </mod>
+                  </p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d243e314" leos:compliant="false">
+            <num>Article 2</num>
+            <heading/>
+            <paragraph>
+               <subparagraph>
+                  <content>
+                     <p>Regulation (EU) No 113/2010 is amended as follows:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(1)</num>
+                     <alinea>
+                        <content>
+                           <p>Article 4 is amended as follows:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <alinea>
+                              <content>
+                                 <p>in paragraph 1, the first subparagraph is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <paragraph>
+                                             <content>
+                                                <p>&apos;The statistical value shall be based on the value of the goods at the time and place they cross the border of the Member State where the goods are located at the time of release into the customs procedure, by entering it (imports) or by leaving it (exports).&apos;</p>
+                                             </content>
+                                          </paragraph>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <alinea>
+                              <content>
+                                 <p>paragraph 4 is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <paragraph>
+                                             <num>&apos;4.</num>
+                                             <content>
+                                                <p>The value as referred to in paragraphs 2 and 3 shall be adjusted, where necessary, in such a way that the statistical value contains solely and entirely the costs of transport and insurance performed to deliver the goods from the place of their departure to the border of the Member State where the goods are located at the time of release into the customs procedure (CIF-type value on imports, FOB-type value on exports).&apos;</p>
+                                             </content>
+                                          </paragraph>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                     </list>
+                  </point>
+                  <point>
+                     <num>(2)</num>
+                     <alinea>
+                        <content>
+                           <p>Article 6(3) and (4) is replaced by the following:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <paragraph>
+                                       <num>&apos;3.</num>
+                                       <subparagraph>
+                                          <content>
+                                             <p>The following shall apply on import:</p>
+                                          </content>
+                                       </subparagraph>
+                                       <list>
+                                          <indent>
+                                             <num> </num>
+                                             <content>
+                                                <p>Where the goods are released for free circulation or placed under the end-use procedure the Member State of destination shall be the Member State where the goods are located at the time of release into the customs procedure. However, where it is known at the time of drawing up the customs declaration, that the goods will be dispatched to another Member State after the release, this latter Member State shall be Member State of destination.</p>
+                                             </content>
+                                          </indent>
+                                          <indent>
+                                             <num> </num>
+                                             <content>
+                                                <p>Where goods are placed under the customs inward processing procedure, the Member State of destination shall be the Member State where the first processing activity is carried out.</p>
+                                             </content>
+                                          </indent>
+                                          <indent>
+                                             <num> </num>
+                                             <content>
+                                                <p>Without prejudice to subparagraphs 1 and 2 of this paragraph for the purpose of the data transmission referred to in Article 7(2) of Regulation (EC) No 471/2009, Member State of destination for the data exchange shall be the Member State where the goods are located at the time of release into the customs procedure.</p>
+                                             </content>
+                                          </indent>
+                                       </list>
+                                    </paragraph>
+                                    <paragraph>
+                                       <num>4.</num>
+                                       <subparagraph>
+                                          <content>
+                                             <p>The following shall apply on export:</p>
+                                          </content>
+                                       </subparagraph>
+                                       <list>
+                                          <indent>
+                                             <num> </num>
+                                             <content>
+                                                <p>Member State of actual export shall be the Member State where the goods are located at the time of release into the customs procedure.</p>
+                                             </content>
+                                          </indent>
+                                          <indent>
+                                             <num> </num>
+                                             <alinea>
+                                                <content>
+                                                   <p>However, where it is known that the goods were brought from another Member State to the Member State in which the goods are located at the time of their release into the customs procedure, that other Member State shall be Member State of actual export, on condition that</p>
+                                                </content>
+                                             </alinea>
+                                             <list>
+                                                <point>
+                                                   <num>(i)</num>
+                                                   <content>
+                                                      <p>the goods were brought from that other Member State only for the purpose of declaring them for export, and</p>
+                                                   </content>
+                                                </point>
+                                                <point>
+                                                   <num>(ii)</num>
+                                                   <content>
+                                                      <p>the exporter is not established in the Member State in which the goods are located at the time of their release into the customs procedure and</p>
+                                                   </content>
+                                                </point>
+                                                <point>
+                                                   <num>(iii)</num>
+                                                   <content>
+                                                      <p>the entry into the Member State in which the goods are located at the time of their release into the customs procedure was not an intra-Union acquisition of goods or transaction treated as such as referred to in Council Directive 2006/112/EC<authorialNote placement="bottom" marker="9">
+                                                            <p>Council Directive 2006/112/EC of 28 November 2006 on the common system of value added tax (OJ L 347, 11.12.2006, p. 1).&apos;</p>
+                                                         </authorialNote>.</p>
+                                                   </content>
+                                                </point>
+                                             </list>
+                                          </indent>
+                                          <indent>
+                                             <num> </num>
+                                             <content>
+                                                <p>Where goods are exported subsequent to a customs inward processing procedure, the Member State where the last processing activity was carried out shall be the Member State of actual export.</p>
+                                             </content>
+                                          </indent>
+                                          <indent>
+                                             <num> </num>
+                                             <content>
+                                                <p>Without prejudice to subparagraphs 1, 2 and 3 of this paragraph for the purpose of the data transmission referred to in Article 7(2) of Regulation (EC) No 471/2009, Member State of actual export for the data exchange shall be the Member State where the goods are located at the time of release into the customs procedure.</p>
+                                             </content>
+                                          </indent>
+                                       </list>
+                                    </paragraph>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(3)</num>
+                     <alinea>
+                        <content>
+                           <p>In Article 7(2), the second subparagraph is replaced by the following:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <paragraph>
+                                       <content>
+                                          <p>&apos;On import, the data on the country of consignment/dispatch shall indicate the Member State or non-member country from which the goods were initially dispatched to the Member State in which the goods are located at the time of their release into the customs procedure, if neither a commercial transaction (e.g. sale or processing), nor a stoppage unrelated to the transport of goods has taken place in an intermediate Member State or non-member country. If such a stoppage or commercial transaction has taken place, the data shall indicate the last intermediate Member State or non-member country.&apos;</p>
+                                       </content>
+                                    </paragraph>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(4)</num>
+                     <alinea>
+                        <content>
+                           <p>Article 13 is replaced by the following:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <article xml:id="art_d243e452">
+                                       <num>&apos;Article 13</num>
+                                       <heading>Trader identification</heading>
+                                       <paragraph>
+                                          <content>
+                                             <p>The data on the trader shall be an appropriate identification number assigned to the importer, on import, and to the exporter, on export&apos;.</p>
+                                          </content>
+                                       </paragraph>
+                                    </article>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(5)</num>
+                     <alinea>
+                        <content>
+                           <p>In Article 15(4), the second sentence is replaced by the following:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <alinea>
+                                       <content>
+                                          <p>&apos;The authorities responsible for assigning the Economic Operator Registration Identification number (EORI number) shall, at the request of the national statistical authorities, provide access to the data available in the electronic system relating to EORI number as referred to in Article 7 of Commission Implementing Regulation (EU) 2015/2447<authorialNote placement="bottom" marker="10">
+                                                <p>Commission Implementing Regulation (EU) 2015/2447 of 24 November 2015 laying down detailed rules for implementing certain provisions of Regulation (EU) No 952/2013 of the European Parliament and of the Council laying down the Union Customs Code (OJ L 343, 29.12.2015, p. 558).&apos;</p>
+                                             </authorialNote>.</p>
+                                       </content>
+                                    </alinea>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+               </list>
+            </paragraph>
+         </article>
+         <article xml:id="art_d243e484">
+            <num>Article 3</num>
+            <heading>Entry into force</heading>
+            <paragraph>
+               <content>
+                  <p>This Regulation shall enter into force on the twentieth day following that of its publication in the <i>Official Journal of the European Union</i>.</p>
+               </content>
+            </paragraph>
+         </article>
+         <clause>
+            <content>
+               <p>This Regulation shall be binding in its entirety and directly applicable in all Member States.</p>
+            </content>
+         </clause>
+      </body>
+      <conclusions>
+         <p>Done at Brussels, 2 December 2016.</p>
+         <block name="signatory">
+            <signature>
+               <organization refersTo="">For the Commission</organization>
+               <role refersTo="">The President</role>
+               <person refersTo="">Jean-Claude JUNCKER</person>
+            </signature>
+         </block>
+      </conclusions>
+   </bill>
+</akomaNtoso>

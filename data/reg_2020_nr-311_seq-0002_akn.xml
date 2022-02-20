@@ -1,0 +1,754 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"
+            xmlns:fmx="http://formex.publications.europa.eu/schema/formex-05.21-20110601.xd"
+            xmlns:leos="urn:eu:europa:ec:leos"
+            xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <bill name="">
+      <meta xmlns:fn="http://www.w3.org/2005/xpath-functions">
+         <identification source="~COM">
+            <FRBRWork>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRcountry value=""/>
+            </FRBRWork>
+            <FRBRExpression>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+            </FRBRManifestation>
+         </identification>
+      </meta>
+      <preface>
+         <longTitle>
+            <p>
+               <docStage/>
+               <docType>COUNCIL REGULATION (EU) 2020/1323</docType>of 21 September 2020<docPurpose>amending Regulation (EU) 2020/123 as regards certain fishing opportunities for 2020 in Union and non-Union waters</docPurpose>
+            </p>
+         </longTitle>
+      </preface>
+      <preamble>
+         <formula name="actingEntity">
+            <p>THE COUNCIL OF THE EUROPEAN UNION,</p>
+         </formula>
+         <citations>
+            <citation>
+               <p>Having regard to the Treaty on the Functioning of the European Union, and in particular Article 43(3) thereof,</p>
+            </citation>
+            <citation>
+               <p>Having regard to the proposal from the European Commission,</p>
+            </citation>
+         </citations>
+         <recitals xml:id="recs_d129e59">
+            <intro>
+               <p>Whereas:</p>
+            </intro>
+            <recital xml:id="rec_d129e62">
+               <num>(1)</num>
+               <p>Council Regulation (EU) 2020/123<authorialNote placement="bottom" marker="1">
+                     <p>Council Regulation (EU) 2020/123 of 27 January 2020 fixing for 2020 the fishing opportunities for certain fish stocks and groups of fish stocks, applicable in Union waters and, for Union fishing vessels, in certain non-Union waters (OJ L 25, 30.1.2020, p. 1).</p>
+                  </authorialNote> fixes for 2020 the fishing opportunities for certain fish stocks and groups of fish stocks applicable in Union waters and, for Union vessels, in certain non-Union waters.</p>
+            </recital>
+            <recital xml:id="rec_d129e78">
+               <num>(2)</num>
+               <p>In Regulation (EU) 2020/123, the total allowable catch (TAC) for anchovy (<i>Engraulis encrasicolus</i>) in International Council for the Exploration of the Sea (ICES) subareas 9 and 10 and in Union waters of Fishery Committee for the Eastern Central Atlantic (CECAF) division 34.1.1 was set at zero. In Council Regulation (EU) 2020/900<authorialNote placement="bottom" marker="2">
+                     <p>Council Regulation (EU) 2020/900 of 25 June 2020 amending Regulation (EU) 2019/1838 as regards certain fishing opportunities for 2020 in the Baltic Sea and amending Regulation (EU) 2020/123 as regards certain fishing opportunities in 2020 in Union and non-Union waters (OJ L 207, 30.6.2020, p. 4).</p>
+                  </authorialNote>, which amends the Regulation (EU) 2020/123, a provisional TAC was established to allow fishing activity to continue. Anchovy is a shortlived species and the latest scientific advice was issued by ICES on 18 June 2020. The catch limits for anchovy in ICES subareas 9 and 10 and in Union waters of CECAF division 34.1.1 should be amended in line with that scientific advice and set at 15699 tonnes.</p>
+            </recital>
+            <recital xml:id="rec_d129e103">
+               <num>(3)</num>
+               <p>In the Agreed Record of fisheries consultations between the Faroe Islands and the European Union for 2020 both parties have agreed to grant each other reciprocal access to one another&apos;s waters to fish for blue whiting (<i>Micromesistius poutassou</i>) in Union and international waters of 1, 2, 3, 4, 5, 6, 7, 8a, 8b, 8d, 8e, 12 and 14 and Faroese waters, within a limit of 37500 tonnes. A special condition in the TAC table grants the Union access to Faroese waters and limits, in the form of a percentage of the total Union share, the amount of blue whiting that Member States may fish from their own quotas in the Faroese waters. That percentage should represent the proportion of the Union access rights in Faroese waters of 37500 tonnes compared to the total Union share of 326484 tonnes of blue whiting. 37500 tonnes amounts to a percentage of 11,4 % of the total Union share of 326484 tonnes of blue whiting. Since the percentage of the total Union share of blue whiting that Member States may fish from their own quotas in Faroese waters is currently set at 7 %, that percentage should be amended accordingly.</p>
+            </recital>
+            <recital xml:id="rec_d129e128">
+               <num>(4)</num>
+               <p>In the Agreed Record of fisheries consultations between Norway and the European Union on ad hoc fisheries arrangements on the management of blue whiting and Norwegian spring-spawning (Atlanto-Scandian) herring for 2020, both parties are granted access to fish 190809 tonnes of blue whiting in each other&apos;s waters. In the TAC table for blue whiting granting Norway&apos;s fishing access in Union waters of 2, 4a, 5, 6 north of 56° 30′ N and 7 west of 12° W, a special condition limits the catch in 4a to no more than 40000 tonnes (in accordance with the Agreed Record on fisheries consultations between Norway and the European Union for 2020). That catch limit in 4a amounts to 21 % of Norway&apos;s total access quota. That percentage, currently set at 18 %, should be amended accordingly.</p>
+            </recital>
+            <recital xml:id="rec_d129e141">
+               <num>(5)</num>
+               <p>The Fisheries Partnership Agreement between the European Community on the one hand, and the Government of Denmark and the Home Rule Government of Greenland, on the other hand<authorialNote placement="bottom" marker="3">
+                     <p>OJ L 172, 30.6.2007, p. 4.</p>
+                  </authorialNote>, and the Protocol<authorialNote placement="bottom" marker="4">
+                     <p>Protocol setting out the fishing opportunities and financial contribution provided for by the Fisheries Partnership Agreement between the European Community on the one hand, and the Government of Denmark and the Home Rule Government of Greenland, on the other hand (OJ L 305, 21.11.2015, p. 3).</p>
+                  </authorialNote> thereto, provides that the Union is to receive 7,7 % of the TAC for capelin (<i>Mallotus villosus</i>) to be fished in Greenland waters of ICES subareas 5 and 14. In accordance with that Protocol, on 12 June 2020 Greenland offered the Union 13053 tonnes of capelin to be fished between 20 June 2020 and 15 April 2021. The fishing opportunities table for capelin should therefore be amended accordingly.</p>
+            </recital>
+            <recital xml:id="rec_d129e176">
+               <num>(6)</num>
+               <p>Regulation (EU) 2020/123 should therefore be amended accordingly.</p>
+            </recital>
+            <recital xml:id="rec_d129e182">
+               <num>(7)</num>
+               <p>The catch limits provided for in Regulation (EU) 2020/123 apply from 1 January 2020 for blue whiting in Union waters of 2, 4a, 5, 6 north of 56° 30′ N and 7 west of 12° W, from 20 June 2020 for capelin in Greenland waters of ICES subareas 5 and 14, and from 1 July 2020 for anchovy in ICES subareas 9 and 10 and in Union waters of CECAF division 34.1.1. The provisions introduced by this Regulation concerning catch limits should therefore enter in force as soon as possible and should apply retroactively for blue whiting from 1 January 2020, for capelin from 20 June 2020, and for anchovy from 1 July 2020. Such retroactive application does not affect the principles of legal certainty and protection of legitimate expectations as the fishing opportunities concerned are increased and have not yet been exhausted.</p>
+            </recital>
+            <recital xml:id="rec_d129e207">
+               <num>(8)</num>
+               <p>According to the scientific advice of ICES, catches of Norway pout (<i>Trisopterus esmarkii</i>) in ICES subarea 4 and ICES division 3a in the period from 1 November 2019 to 31 October 2020 should not exceed 167105 tonnes. From that stock, the Union reserved a share of 92000 tonnes and set a preliminary Union quota of 65000 tonnes in Council Regulation (EU) 2019/1838<authorialNote placement="bottom" marker="5">
+                     <p>Council Regulation (EU) 2019/1838 of 30 October 2019 fixing for 2020 the fishing opportunities for certain fish stocks and groups of fish stocks applicable in the Baltic Sea and amending Regulation (EU) 2019/124 as regards certain fishing opportunities in other waters (OJ L 281, 31.10.2019, p. 1).</p>
+                  </authorialNote>. Following consultations, in December 2019, the Union transferred only 14500 and 5000 tonnes from the remaining reserved amount to Norway and the Faroe Islands respectively. As a result, the remaining 7500 tonnes should be added to the current Union quota.</p>
+            </recital>
+            <recital xml:id="rec_d129e251">
+               <num>(9)</num>
+               <p>The United Kingdom has been consulted in accordance with Article 130(1) of the Agreement on the withdrawal of the United Kingdom of Great Britain and Northern Ireland from the European Union and the European Atomic Energy Community<authorialNote placement="bottom" marker="6">
+                     <p>OJ L 29, 31.1.2020, p. 7.</p>
+                  </authorialNote>,</p>
+            </recital>
+         </recitals>
+         <formula name="enactingFormula">
+            <p>HAS ADOPTED THIS REGULATION:</p>
+         </formula>
+      </preamble>
+      <body>
+         <article xml:id="art_d129e266" leos:compliant="false">
+            <num>Article 1</num>
+            <heading>Amendment of Regulation (EU) 2020/123</heading>
+            <paragraph>
+               <subparagraph>
+                  <content>
+                     <p>Regulation (EU) 2020/123 is amended as follows:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(1)</num>
+                     <alinea>
+                        <content>
+                           <p>Annex IA is amended as follows:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <alinea>
+                              <content>
+                                 <p>the fishing opportunities table for anchovy in ICES subareas 9 and 10 and Union waters of CECAF division 34.1.1 is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <alinea>
+                                             <content>
+                                                <table class="TBL">
+                                                   <authorialNote placement="bottom" marker="7">
+                                                      <p>The quota may only be fished from 1 July 2020 to 30 June 2021.&apos;</p>
+                                                   </authorialNote>
+                                                   <tr>
+                                                      <th>
+                                                         <p>&apos;Species:</p>
+                                                      </th>
+                                                      <th>
+                                                         <p>Anchovy</p>
+                                                      </th>
+                                                      <th>
+                                                         <p>Zone:</p>
+                                                      </th>
+                                                      <th>
+                                                         <p>9 and 10; Union waters of CECAF 34.1.1</p>
+                                                      </th>
+                                                   </tr>
+                                                   <tr>
+                                                      <th>
+                                                         <p/>
+                                                      </th>
+                                                      <th>
+                                                         <p>
+                                                            <i>Engraulis encrasicolus</i>
+                                                         </p>
+                                                      </th>
+                                                      <th>
+                                                         <p/>
+                                                      </th>
+                                                      <th>
+                                                         <p>(ANE/9/3411)</p>
+                                                      </th>
+                                                      <th>
+                                                         <p/>
+                                                      </th>
+                                                   </tr>
+                                                   <tr>
+                                                      <td>
+                                                         <p>Spain</p>
+                                                      </td>
+                                                      <td>
+                                                         <p/>
+                                                      </td>
+                                                      <td>
+                                                         <p>7494</p>
+                                                      </td>
+                                                      <td>
+                                                         <p>
+                                                            <authorialNote placement="bottom" marker="8"/>
+                                                         </p>
+                                                      </td>
+                                                      <td>
+                                                         <p>Precautionary TAC</p>
+                                                      </td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td>
+                                                         <p>Portugal</p>
+                                                      </td>
+                                                      <td>
+                                                         <p/>
+                                                      </td>
+                                                      <td>
+                                                         <p>8175</p>
+                                                      </td>
+                                                      <td>
+                                                         <p>
+                                                            <authorialNote placement="bottom" marker="9"/>
+                                                         </p>
+                                                      </td>
+                                                      <td>
+                                                         <p/>
+                                                      </td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td>
+                                                         <p>Union</p>
+                                                      </td>
+                                                      <td>
+                                                         <p/>
+                                                      </td>
+                                                      <td>
+                                                         <p>15669</p>
+                                                      </td>
+                                                      <td>
+                                                         <p>
+                                                            <authorialNote placement="bottom" marker="10"/>
+                                                         </p>
+                                                      </td>
+                                                      <td>
+                                                         <p/>
+                                                      </td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td>
+                                                         <p>TAC</p>
+                                                      </td>
+                                                      <td>
+                                                         <p/>
+                                                      </td>
+                                                      <td>
+                                                         <p>15669</p>
+                                                      </td>
+                                                      <td>
+                                                         <p>
+                                                            <authorialNote placement="bottom" marker="11"/>
+                                                         </p>
+                                                      </td>
+                                                      <td>
+                                                         <p/>
+                                                      </td>
+                                                   </tr>
+                                                </table>
+                                             </content>
+                                          </alinea>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <alinea>
+                              <content>
+                                 <p>in the fishing opportunities table for blue whiting in Union and international waters of 1, 2, 3, 4, 5, 6, 7, 8a, 8b, 8d, 8e, 12 and 14, footnote 1 is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <list>
+                                             <point>
+                                                <num>&apos;(1)</num>
+                                                <content>
+                                                   <p>Special condition: within a total access quantity of 37500 tonnes for the Union, Member States may fish up to the following percentage of their quotas in Faroese waters (WHB/*05-F.): 11,4 %.&apos;;</p>
+                                                </content>
+                                             </point>
+                                          </list>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(c)</num>
+                           <alinea>
+                              <content>
+                                 <p>in the fishing opportunities table for blue whiting in Union waters of 2, 4a, 5, 6 north of 56° 30′ N and 7 west of 12° W, footnote 2 is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <list>
+                                             <point>
+                                                <num>&apos;(2)</num>
+                                                <alinea>
+                                                   <content>
+                                                      <p>Special condition: the catch in 4a shall be no more than the following amount (WHB/*04A-C): 40000</p>
+                                                   </content>
+                                                </alinea>
+                                                <alinea>
+                                                   <content>
+                                                      <p>This catch limit in 4a amounts to the following percentage of Norway&apos;s access quota: 21 %&apos;;</p>
+                                                   </content>
+                                                </alinea>
+                                             </point>
+                                          </list>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(d)</num>
+                           <alinea>
+                              <content>
+                                 <p>the fishing opportunities table for Norway pout and associated by-catches in ICES division 3a and Union waters of ICES division 2a and ICES subarea 4 is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <alinea>
+                                             <content>
+                                                <table class="TBL">
+                                                   <authorialNote placement="bottom" marker="12">
+                                                      <p>Up to 5 % of the quota may consist of by-catches of haddock and whiting (OT2/*2A3A4). By-catches of haddock and whiting counted against the quota pursuant to this provision and by-catches of species counted against the quota pursuant to Article 15(8) of Regulation (EU) No 1380/2013 shall, together, not exceed 9 % of the quota.</p>
+                                                   </authorialNote>
+                                                   <authorialNote placement="bottom" marker="13">
+                                                      <p>Quota may be fished in Union waters of ICES zones 2a, 3a and 4 only.</p>
+                                                   </authorialNote>
+                                                   <authorialNote placement="bottom" marker="14">
+                                                      <p>Union quota may only be fished from 1 November 2019 to 31 October 2020.</p>
+                                                   </authorialNote>
+                                                   <authorialNote placement="bottom" marker="15">
+                                                      <p>A sorting grid shall be used.</p>
+                                                   </authorialNote>
+                                                   <authorialNote placement="bottom" marker="16">
+                                                      <p>A sorting grid shall be used. Includes a maximum of 15 % of unavoidable by-catches (NOP/*2A3A4), to be counted against this quota.&apos;</p>
+                                                   </authorialNote>
+                                                   <tr>
+                                                      <th>
+                                                         <p>&apos;Species:</p>
+                                                      </th>
+                                                      <th>
+                                                         <p>Norway pout and associated by-catches</p>
+                                                      </th>
+                                                      <th>
+                                                         <p>Zone:</p>
+                                                      </th>
+                                                      <th>
+                                                         <p>3a; Union waters of 2a and 4</p>
+                                                      </th>
+                                                   </tr>
+                                                   <tr>
+                                                      <th>
+                                                         <p>
+                                                            <i>Trisopterus esmarkii</i>
+                                                         </p>
+                                                      </th>
+                                                      <th>
+                                                         <p/>
+                                                      </th>
+                                                      <th>
+                                                         <p>(NOP/2A3A4.)</p>
+                                                      </th>
+                                                   </tr>
+                                                   <tr>
+                                                      <td>
+                                                         <p>Year</p>
+                                                      </td>
+                                                      <td>
+                                                         <p/>
+                                                      </td>
+                                                      <td>
+                                                         <p>2020</p>
+                                                      </td>
+                                                      <td>
+                                                         <p/>
+                                                      </td>
+                                                      <td>
+                                                         <p/>
+                                                      </td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td>
+                                                         <p>Denmark</p>
+                                                      </td>
+                                                      <td>
+                                                         <p/>
+                                                      </td>
+                                                      <td>
+                                                         <p>72433</p>
+                                                      </td>
+                                                      <td>
+                                                         <p>
+                                                            <authorialNote placement="bottom" marker="17"/>
+                                                            <authorialNote placement="bottom" marker="18"/>
+                                                         </p>
+                                                      </td>
+                                                      <td>
+                                                         <p>Analytical TAC</p>
+                                                      </td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td>
+                                                         <p>Germany</p>
+                                                      </td>
+                                                      <td>
+                                                         <p/>
+                                                      </td>
+                                                      <td>
+                                                         <p>14</p>
+                                                      </td>
+                                                      <td>
+                                                         <p>
+                                                            <authorialNote placement="bottom" marker="19"/>
+                                                            <authorialNote placement="bottom" marker="20"/>
+                                                            <authorialNote placement="bottom" marker="21"/>
+                                                         </p>
+                                                      </td>
+                                                      <td>
+                                                         <p>Article 3 of Regulation (EC) No 847/96 shall not apply</p>
+                                                      </td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td>
+                                                         <p>The Netherlands</p>
+                                                      </td>
+                                                      <td>
+                                                         <p>53</p>
+                                                      </td>
+                                                      <td>
+                                                         <p>
+                                                            <authorialNote placement="bottom" marker="22"/>
+                                                            <authorialNote placement="bottom" marker="23"/>
+                                                            <authorialNote placement="bottom" marker="24"/>
+                                                         </p>
+                                                      </td>
+                                                      <td>
+                                                         <p>Article 4 of Regulation (EC) No 847/96 shall not apply</p>
+                                                      </td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td>
+                                                         <p>Union</p>
+                                                      </td>
+                                                      <td>
+                                                         <p/>
+                                                      </td>
+                                                      <td>
+                                                         <p>72500</p>
+                                                      </td>
+                                                      <td>
+                                                         <p>
+                                                            <authorialNote placement="bottom" marker="25"/>
+                                                            <authorialNote placement="bottom" marker="26"/>
+                                                         </p>
+                                                      </td>
+                                                      <td>
+                                                         <p/>
+                                                      </td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td>
+                                                         <p>Norway</p>
+                                                      </td>
+                                                      <td>
+                                                         <p/>
+                                                      </td>
+                                                      <td>
+                                                         <p>14500</p>
+                                                      </td>
+                                                      <td>
+                                                         <p>
+                                                            <authorialNote placement="bottom" marker="27"/>
+                                                         </p>
+                                                      </td>
+                                                      <td>
+                                                         <p/>
+                                                      </td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td>
+                                                         <p>Faroe Islands</p>
+                                                      </td>
+                                                      <td>
+                                                         <p>5000</p>
+                                                      </td>
+                                                      <td>
+                                                         <p>
+                                                            <authorialNote placement="bottom" marker="28"/>
+                                                         </p>
+                                                      </td>
+                                                      <td>
+                                                         <p/>
+                                                      </td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td>
+                                                         <p>TAC</p>
+                                                      </td>
+                                                      <td>
+                                                         <p/>
+                                                      </td>
+                                                      <td>
+                                                         <p>Not relevant</p>
+                                                      </td>
+                                                      <td>
+                                                         <p/>
+                                                      </td>
+                                                      <td>
+                                                         <p/>
+                                                      </td>
+                                                   </tr>
+                                                </table>
+                                             </content>
+                                          </alinea>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                     </list>
+                  </point>
+                  <point>
+                     <num>(2)</num>
+                     <alinea>
+                        <content>
+                           <p>In Annex IB, the fishing opportunities table for capelin in Greenland waters of 5 and 14 is replaced by the following:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <alinea>
+                                       <content>
+                                          <table class="TBL">
+                                             <authorialNote placement="bottom" marker="29">
+                                                <p>Denmark, Germany, Sweden and the United Kingdom may access the &quot;All Member States&quot; quota only once they have exhausted their own quota. However, Member States with more than 10 % of the Union quota shall not access the &quot;All Member States&quot; quota at all.</p>
+                                             </authorialNote>
+                                             <authorialNote placement="bottom" marker="30">
+                                                <p>For a fishing period from 20 June 2020 to 15 April 2021.&apos;</p>
+                                             </authorialNote>
+                                             <tr>
+                                                <th>
+                                                   <p>&apos;Species:</p>
+                                                </th>
+                                                <th>
+                                                   <p>Capelin</p>
+                                                </th>
+                                                <th>
+                                                   <p>Zone:</p>
+                                                </th>
+                                                <th>
+                                                   <p>Greenland waters of 5 and 14</p>
+                                                </th>
+                                             </tr>
+                                             <tr>
+                                                <th>
+                                                   <p/>
+                                                </th>
+                                                <th>
+                                                   <p>
+                                                      <i>Mallotus villosus</i>
+                                                   </p>
+                                                </th>
+                                                <th>
+                                                   <p/>
+                                                </th>
+                                                <th>
+                                                   <p>(CAP/514GRN)</p>
+                                                </th>
+                                             </tr>
+                                             <tr>
+                                                <td>
+                                                   <p>Denmark</p>
+                                                </td>
+                                                <td>
+                                                   <p>2595</p>
+                                                </td>
+                                                <td>
+                                                   <p/>
+                                                </td>
+                                                <td>
+                                                   <p>Analytical TAC</p>
+                                                </td>
+                                             </tr>
+                                             <tr>
+                                                <td>
+                                                   <p>Germany</p>
+                                                </td>
+                                                <td>
+                                                   <p>113</p>
+                                                </td>
+                                                <td>
+                                                   <p/>
+                                                </td>
+                                                <td>
+                                                   <p>Article 3 of Regulation (EC) No 847/96 shall not apply</p>
+                                                </td>
+                                             </tr>
+                                             <tr>
+                                                <td>
+                                                   <p>Sweden</p>
+                                                </td>
+                                                <td>
+                                                   <p>186</p>
+                                                </td>
+                                                <td>
+                                                   <p/>
+                                                </td>
+                                                <td>
+                                                   <p>Article 4 of Regulation (EC) No 847/96 shall not apply</p>
+                                                </td>
+                                             </tr>
+                                             <tr>
+                                                <td>
+                                                   <p>United Kingdom</p>
+                                                </td>
+                                                <td>
+                                                   <p>24</p>
+                                                </td>
+                                                <td>
+                                                   <p/>
+                                                </td>
+                                                <td>
+                                                   <p/>
+                                                </td>
+                                             </tr>
+                                             <tr>
+                                                <td>
+                                                   <p>All Member States</p>
+                                                </td>
+                                                <td>
+                                                   <p>134</p>
+                                                </td>
+                                                <td>
+                                                   <p>
+                                                      <authorialNote placement="bottom" marker="31"/>
+                                                   </p>
+                                                </td>
+                                                <td>
+                                                   <p/>
+                                                </td>
+                                             </tr>
+                                             <tr>
+                                                <td>
+                                                   <p>Union</p>
+                                                </td>
+                                                <td>
+                                                   <p>3053</p>
+                                                </td>
+                                                <td>
+                                                   <p>
+                                                      <authorialNote placement="bottom" marker="32"/>
+                                                   </p>
+                                                </td>
+                                                <td>
+                                                   <p/>
+                                                </td>
+                                             </tr>
+                                             <tr>
+                                                <td>
+                                                   <p>Norway</p>
+                                                </td>
+                                                <td>
+                                                   <p>10000</p>
+                                                </td>
+                                                <td>
+                                                   <p>
+                                                      <authorialNote placement="bottom" marker="33"/>
+                                                   </p>
+                                                </td>
+                                                <td>
+                                                   <p/>
+                                                </td>
+                                             </tr>
+                                             <tr>
+                                                <td>
+                                                   <p>TAC</p>
+                                                </td>
+                                                <td>
+                                                   <p>Not relevant</p>
+                                                </td>
+                                                <td>
+                                                   <p/>
+                                                </td>
+                                                <td>
+                                                   <p/>
+                                                </td>
+                                             </tr>
+                                          </table>
+                                       </content>
+                                    </alinea>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+               </list>
+            </paragraph>
+         </article>
+         <article xml:id="art_d129e691">
+            <num>Article 2</num>
+            <heading>Entry into force and application</heading>
+            <paragraph>
+               <content>
+                  <p>This Regulation shall enter into force on the day following that of its publication in the <i>Official Journal of the European Union</i>.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <content>
+                  <p>Article 1(1) point (a) shall apply from 1 July 2020, points (b) and (c) shall apply from 1 January 2020.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <content>
+                  <p>Article 1(2) shall apply from 20 June 2020.</p>
+               </content>
+            </paragraph>
+         </article>
+         <clause>
+            <content>
+               <p>This Regulation shall be binding in its entirety and directly applicable in all Member States.</p>
+            </content>
+         </clause>
+      </body>
+      <conclusions>
+         <p>Done at Brussels, 21 September 2020.</p>
+         <block name="signatory">
+            <signature>
+               <organization refersTo="">For the Council</organization>
+               <role refersTo="">The President</role>
+               <person refersTo="">J. KLOECKNER</person>
+            </signature>
+         </block>
+      </conclusions>
+   </bill>
+</akomaNtoso>

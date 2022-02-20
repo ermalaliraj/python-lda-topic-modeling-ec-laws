@@ -1,0 +1,796 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"
+            xmlns:fmx="http://formex.publications.europa.eu/schema/formex-05.21-20110601.xd"
+            xmlns:leos="urn:eu:europa:ec:leos"
+            xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <bill name="">
+      <meta xmlns:fn="http://www.w3.org/2005/xpath-functions">
+         <identification source="~COM">
+            <FRBRWork>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRcountry value=""/>
+            </FRBRWork>
+            <FRBRExpression>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+            </FRBRManifestation>
+         </identification>
+      </meta>
+      <preface>
+         <longTitle>
+            <p>
+               <docStage/>
+               <docType>REGULATION (EU) 2019/2155 OF THE EUROPEAN CENTRAL BANK</docType>of 5 December 2019<docPurpose>amending Regulation (EU) No 1163/2014 on supervisory fees (ECB/2019/37)</docPurpose>
+            </p>
+         </longTitle>
+      </preface>
+      <preamble>
+         <formula name="actingEntity">
+            <p>THE GOVERNING COUNCIL OF THE EUROPEAN CENTRAL BANK,</p>
+         </formula>
+         <citations>
+            <citation>
+               <p>Having regard to the Treaty on the Functioning of the European Union,</p>
+            </citation>
+            <citation>
+               <p>Having regard to Council Regulation (EU) No 1024/2013 of 15 October 2013 conferring specific tasks on the European Central Bank concerning policies relating to the prudential supervision of credit institutions<authorialNote placement="bottom" marker="1">
+                     <p>OJ L 287, 29.10.2013, p. 63.</p>
+                  </authorialNote>, and in particular the second subparagraph of Article 4(3), Article 30 and the second subparagraph of Article 33(2) thereof,</p>
+            </citation>
+            <citation>
+               <p>Having regard to the public consultation and to the analysis carried out in accordance with Article 30(2) of Regulation (EU) No 1024/2013,</p>
+            </citation>
+         </citations>
+         <recitals xml:id="recs_d634e72">
+            <intro>
+               <p>Whereas:</p>
+            </intro>
+            <recital xml:id="rec_d634e75">
+               <num>(1)</num>
+               <p>Regulation (EU) No 1163/2014 of the European Central Bank (ECB/2014/41)<authorialNote placement="bottom" marker="2">
+                     <p>Regulation (EU) No 1163/2014 of the European Central Bank of 22 October 2014 on supervisory fees (ECB/2014/41) (OJ L 311, 31.10.2014, p. 23).</p>
+                  </authorialNote> lays down the arrangements for calculating the total amount of the annual supervisory fees to be levied in respect of supervised entities and supervised groups; the methodology and criteria for calculating the annual supervisory fee to be borne by each supervised entity and each supervised group; and the procedure for the collection by the ECB of the annual supervisory fees.</p>
+            </recital>
+            <recital xml:id="rec_d634e91">
+               <num>(2)</num>
+               <p>Article 17(2) of Regulation (EU) No 1163/2014 (ECB/2014/41) requires the ECB to conduct a review of that Regulation, in particular regarding the methodology and criteria for calculating the annual supervisory fees to be levied on each supervised entity and supervised group, by 2017.</p>
+            </recital>
+            <recital xml:id="rec_d634e97">
+               <num>(3)</num>
+               <p>On 2 June 2017 the ECB launched an open public consultation aimed at collecting comments from interested parties with a view to assessing possible improvements to Regulation (EU) No 1163/2014 (ECB/2014/41). The public consultation ended on 20 July 2017.</p>
+            </recital>
+            <recital xml:id="rec_d634e109">
+               <num>(4)</num>
+               <p>Taking into account the responses received, the ECB reviewed Regulation (EU) No 1163/2014 (ECB/2014/41) and concluded that the Regulation should be amended.</p>
+            </recital>
+            <recital xml:id="rec_d634e115">
+               <num>(5)</num>
+               <p>In particular, the ECB has decided to no longer require advance payment of the annual supervisory fees. The fees should be levied only after the end of the relevant fee period when the actual annual costs have been determined. The reference date for the fee factors should, as a general rule, remain 31 December of the preceding fee period to allow sufficient time for fee factor validation.</p>
+            </recital>
+            <recital xml:id="rec_d634e121">
+               <num>(6)</num>
+               <p>For the vast majority of fee debtors, the ECB already receives the information on total assets and total risk exposures pursuant to Commission Implementing Regulation (EU) No 680/2014<authorialNote placement="bottom" marker="3">
+                     <p>Commission Implementing Regulation (EU) No 680/2014 of 16 April 2014 laying down implementing technical standards with regard to supervisory reporting of institutions according to Regulation (EU) No 575/2013 of the European Parliament and of the Council (OJ L 191, 28.6.2014, p. 1).</p>
+                  </authorialNote> and Regulation (EU) 2015/534 of the European Central Bank (ECB/2015/13)<authorialNote placement="bottom" marker="4">
+                     <p>Regulation (EU) 2015/534 of the European Central Bank of 17 March 2015 on reporting of supervisory financial information (ECB/2015/13) (OJ L 86, 31.3.2015, p. 13).</p>
+                  </authorialNote>. This information is readily available for use in the calculation of their annual supervisory fee. The dedicated collection of the fee factors for such fee debtors should therefore cease.</p>
+            </recital>
+            <recital xml:id="rec_d634e147">
+               <num>(7)</num>
+               <p>Furthermore, the ECB has decided to reduce the supervisory fees to be paid by less significant supervised entities and less significant supervised groups with total assets of EUR 1 billion or less. To this end, the minimum fee component for these supervised entities and supervised groups should be halved.</p>
+            </recital>
+            <recital xml:id="rec_d634e153">
+               <num>(8)</num>
+               <p>Moreover, experience gained with the application of Regulation (EU) No 1163/2014 (ECB/2014/41) since 2014 has shown that some clarifications and technical amendments to that Regulation are appropriate.</p>
+            </recital>
+            <recital xml:id="rec_d634e160">
+               <num>(9)</num>
+               <p>It is necessary to provide for transitional arrangements in respect of the 2020 fee period, since that year will be the first fee period for which the ECB no longer requires advance payment of the annual supervisory fee. This Regulation should therefore enter into force at the beginning of 2020.</p>
+            </recital>
+            <recital xml:id="rec_d634e167">
+               <num>(10)</num>
+               <p>Therefore, Regulation (EU) No 1163/2014 (ECB/2014/41) should be amended accordingly,</p>
+            </recital>
+         </recitals>
+         <formula name="enactingFormula">
+            <p>HAS ADOPTED THIS REGULATION:</p>
+         </formula>
+      </preamble>
+      <body>
+         <article xml:id="art_d634e176" leos:compliant="false">
+            <num>Article 1</num>
+            <heading>Amendments</heading>
+            <paragraph>
+               <subparagraph>
+                  <content>
+                     <p>Regulation (EU) No 1163/2014 (ECB/2014/41) is amended as follows:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(1)</num>
+                     <alinea>
+                        <content>
+                           <p>Article 2 is amended as follows:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <content>
+                              <p>point 9 is deleted;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <alinea>
+                              <content>
+                                 <p>points 12 and 13 are replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <list>
+                                             <num>&apos;12.</num>
+                                             <alinea>
+                                                <content>
+                                                   <p>&quot;total assets&quot; means:</p>
+                                                </content>
+                                             </alinea>
+                                             <list>
+                                                <point>
+                                                   <num>(a)</num>
+                                                   <content>
+                                                      <p>for a supervised group, the total value of assets as determined in accordance with Article 51 of Regulation (EU) No 468/2014 (ECB/2014/17), excluding assets of subsidiaries established in non-participating Member States and third countries unless otherwise decided by a supervised group pursuant to Article 10(3)(c);</p>
+                                                   </content>
+                                                </point>
+                                                <point>
+                                                   <num>(b)</num>
+                                                   <content>
+                                                      <p>for a fee-paying branch, the total value of assets as reported for prudential purposes. Where the total value of assets is not required to be reported for prudential purposes, total assets means the total value of assets as determined on the basis of the most recent audited annual accounts prepared in accordance with International Financial Reporting Standards (IFRS) as applicable within the Union in accordance with Regulation (EC) No 1606/2002 of the European Parliament and of the Council<authorialNote placement="bottom" marker="5">
+                                                            <p>Regulation (EC) No 1606/2002 of the European Parliament and of the Council of 19 July 2002 on the application of international accounting standards (OJ L 243, 11.9.2002, p. 1).</p>
+                                                         </authorialNote> and, if those annual accounts are not available, the annual accounts prepared in accordance with applicable national accounting laws. For fee-paying branches that do not prepare annual accounts, total assets means the total value of assets as determined in accordance with Article 51(5) of Regulation (EU) No 468/2014 (ECB/2014/17);</p>
+                                                   </content>
+                                                </point>
+                                                <point>
+                                                   <num>(c)</num>
+                                                   <content>
+                                                      <p>for two or more fee-paying branches that are deemed to be one branch in accordance with Article 3(3), the sum of the total value of assets as determined for each fee-paying branch respectively;</p>
+                                                   </content>
+                                                </point>
+                                                <point>
+                                                   <num>(d)</num>
+                                                   <content>
+                                                      <p>in all other cases, the total value of assets as determined in accordance with Article 51 of Regulation (EU) No 468/2014 (ECB/2014/17);</p>
+                                                   </content>
+                                                </point>
+                                             </list>
+                                             <num>13.</num>
+                                             <alinea>
+                                                <content>
+                                                   <p>&quot;total risk exposure&quot; means:</p>
+                                                </content>
+                                             </alinea>
+                                             <list>
+                                                <point>
+                                                   <num>(a)</num>
+                                                   <content>
+                                                      <p>for a supervised group, the amount as determined at the highest level of consolidation within the participating Member States and calculated in accordance with Article 92(3) of Regulation (EU) No 575/2013 of the European Parliament and of the Council<authorialNote placement="bottom" marker="6">
+                                                            <p>Regulation (EU) No 575/2013 of the European Parliament and of the Council of 26 June 2013 on prudential requirements for credit institutions and investment firms and amending Regulation (EU) No 648/2012 (OJ L 176, 27.6.2013, p. 1).&apos;;</p>
+                                                         </authorialNote>, excluding the risk exposure amount of subsidiaries established in non-participating Member States and third countries unless otherwise decided by a supervised group pursuant to Article 10(3)(c);</p>
+                                                   </content>
+                                                </point>
+                                                <point>
+                                                   <num>(b)</num>
+                                                   <content>
+                                                      <p>for a fee-paying branch and two or more fee-paying branches that are deemed to be one branch in accordance with Article 3(3), zero;</p>
+                                                   </content>
+                                                </point>
+                                                <point>
+                                                   <num>(c)</num>
+                                                   <content>
+                                                      <p>in all other cases, the amount as calculated in accordance with Article 92(3) of Regulation (EU) No 575/2013.</p>
+                                                   </content>
+                                                </point>
+                                             </list>
+                                          </list>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                     </list>
+                  </point>
+                  <point>
+                     <num>(2)</num>
+                     <alinea>
+                        <content>
+                           <p>Article 4 is amended as follows:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <alinea>
+                              <content>
+                                 <p>in paragraph 1, point (c) is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <list>
+                                             <num>&apos;(c)</num>
+                                             <content>
+                                                <p>determined in accordance with the provisions of paragraph 2, in the case of a group of fee-paying entities.&apos;;</p>
+                                             </content>
+                                          </list>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <alinea>
+                              <content>
+                                 <p>paragraph 2 is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <list>
+                                             <num>&apos;2.</num>
+                                             <alinea>
+                                                <content>
+                                                   <p>Without prejudice to the arrangements within a group of fee-paying entities with respect to the allocation of costs, a group of fee-paying entities shall be treated as one unit. Each group of fee-paying entities shall nominate the fee debtor for the whole group and shall notify the identity of the fee debtor to the ECB. The fee debtor shall be established in a participating Member State. Such notification shall be considered valid only if:</p>
+                                                </content>
+                                             </alinea>
+                                             <list>
+                                                <point>
+                                                   <num>(a)</num>
+                                                   <content>
+                                                      <p>it states the name of the group covered by the notification;</p>
+                                                   </content>
+                                                </point>
+                                                <point>
+                                                   <num>(b)</num>
+                                                   <content>
+                                                      <p>it is signed by the fee debtor on behalf of all supervised entities of the group;</p>
+                                                   </content>
+                                                </point>
+                                                <point>
+                                                   <num>(c)</num>
+                                                   <content>
+                                                      <p>it reaches the ECB by 30 September of each year at the latest, in order to be taken into account for the issuance of the fee notice in respect of that fee period.</p>
+                                                   </content>
+                                                </point>
+                                             </list>
+                                          </list>
+                                          <alinea>
+                                             <content>
+                                                <p>If more than one notification per group of fee-paying entities reaches the ECB in time, the latest notification received by the ECB by 30 September shall prevail. If a supervised entity becomes part of the supervised group after the ECB has received a valid fee debtor notification, unless the ECB is otherwise informed in writing, that notification shall be deemed to be signed also on its behalf.&apos;;</p>
+                                             </content>
+                                          </alinea>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                     </list>
+                  </point>
+                  <point>
+                     <num>(3)</num>
+                     <alinea>
+                        <content>
+                           <p>Article 5 is amended as follows:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <content>
+                              <p>in paragraph 2, the second sentence is deleted;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <alinea>
+                              <content>
+                                 <p>the following paragraph 4 is added:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <list>
+                                             <num>&apos;4.</num>
+                                             <content>
+                                                <p>Within four months after the end of each fee period, the total amount of the annual supervisory fees for each category of supervised entities and supervised groups for that fee period shall be published on the ECB&apos;s website.&apos;;</p>
+                                             </content>
+                                          </list>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                     </list>
+                  </point>
+                  <point>
+                     <num>(4)</num>
+                     <content>
+                        <p>Article 6 is deleted;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(5)</num>
+                     <alinea>
+                        <content>
+                           <p>Article 7 is amended as follows:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <alinea>
+                              <content>
+                                 <p>the heading is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <alinea>
+                                             <content>
+                                                <p>&apos;New supervised entities, entities that are no longer supervised or change of status&apos;;</p>
+                                             </content>
+                                          </alinea>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <alinea>
+                              <content>
+                                 <p>paragraph 2 is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <list>
+                                             <num>&apos;2.</num>
+                                             <content>
+                                                <p>Where, following an ECB decision to such effect, the ECB assumes direct supervision of a supervised entity or a supervised group pursuant to Article 45 of Regulation (EU) No 468/2014 (ECB/2014/17), or direct supervision of a supervised entity or a supervised group by the ECB ends pursuant to Article 46 of Regulation (EU) No 468/2014 (ECB/2014/17), the annual supervisory fee shall be calculated on the basis of the number of months for which the supervised entity or the supervised group was directly or indirectly supervised by the ECB at the last day of the month.&apos;;</p>
+                                             </content>
+                                          </list>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                     </list>
+                  </point>
+                  <point>
+                     <num>(6)</num>
+                     <content>
+                        <p>Article 9 is deleted;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(7)</num>
+                     <alinea>
+                        <content>
+                           <p>Article 10 is amended as follows:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <alinea>
+                              <content>
+                                 <p>in paragraph 3, point (a) is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <list>
+                                             <num>&apos;(a)</num>
+                                             <alinea>
+                                                <content>
+                                                   <p>The fee factors used to determine the annual supervisory fee payable in respect of each supervised entity or supervised group shall be the amount at the reference date of:</p>
+                                                </content>
+                                             </alinea>
+                                             <list>
+                                                <point>
+                                                   <num>(i)</num>
+                                                   <content>
+                                                      <p>total assets; and</p>
+                                                   </content>
+                                                </point>
+                                                <point>
+                                                   <num>(ii)</num>
+                                                   <content>
+                                                      <p>total risk exposure.&apos;;</p>
+                                                   </content>
+                                                </point>
+                                             </list>
+                                          </list>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <alinea>
+                              <content>
+                                 <p>in paragraph 3, point (b) is deleted and the following points (ba), (bb), (bc) and (bd) are inserted:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <list>
+                                             <num>&apos;(ba)</num>
+                                             <content>
+                                                <p>The fee factors shall be determined for each fee period on the basis of data reported by supervised entities for prudential purposes with a reference date of 31 December of the preceding fee period.</p>
+                                             </content>
+                                             <num>(bb)</num>
+                                             <content>
+                                                <p>Where a supervised entity prepares annual accounts, including consolidated annual accounts, based on an accounting year which deviates from the calendar year, the reference date for the total assets shall be the accounting year-end corresponding to the preceding fee period.</p>
+                                             </content>
+                                             <num>(bc)</num>
+                                             <content>
+                                                <p>Where a supervised entity or a supervised group is established after the relevant reference date specified in point (ba) or (bb) but before 1 October of the fee period for which the fee is determined and consequently no fee factors with that reference date exist, the reference date for the fee factors shall be the end of the quarter closest to the relevant reference date specified in point (ba) or (bb).</p>
+                                             </content>
+                                             <num>(bd)</num>
+                                             <content>
+                                                <p>For supervised entities and supervised groups which are not subject to mandatory reporting for prudential purposes or supervised groups which exclude assets and/or the risk exposure amount of subsidiaries established in non-participating Member States and third countries in accordance with point (c), the fee factors shall be determined on the basis of information reported by them separately for the purpose of calculating the supervisory fee. The fee factors shall be submitted to the NCA concerned, with the relevant reference date as determined under point (ba), (bb) or (bc), in accordance with an ECB decision.&apos;;</p>
+                                             </content>
+                                          </list>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(c)</num>
+                           <alinea>
+                              <content>
+                                 <p>in paragraph 3, point (c) is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <list>
+                                             <num>&apos;(c)</num>
+                                             <content>
+                                                <p>For the purpose of the calculation of fee factors, supervised groups should &#45; as a rule &#45; exclude assets and the risk exposure amount of subsidiaries established in non-participating Member States and third countries. Supervised groups may decide not to exclude such assets and/or the risk exposure amount for the determination of fee factors.&apos;;</p>
+                                             </content>
+                                          </list>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(d)</num>
+                           <alinea>
+                              <content>
+                                 <p>paragraph 4 is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <list>
+                                             <num>&apos;4.</num>
+                                             <content>
+                                                <p>The sum of all fee debtors&apos; total assets and the sum of all fee debtors&apos; total risk exposure shall be published on the ECB&apos;s website.&apos;;</p>
+                                             </content>
+                                          </list>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(e)</num>
+                           <alinea>
+                              <content>
+                                 <p>paragraph 5 is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <list>
+                                             <num>&apos;5.</num>
+                                             <content>
+                                                <p>In the event that a fee debtor fails to provide the fee factors, the ECB shall determine the fee factors in accordance with an ECB decision.&apos;;</p>
+                                             </content>
+                                          </list>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(f)</num>
+                           <alinea>
+                              <content>
+                                 <p>in paragraph 6, point (b) is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <list>
+                                             <num>&apos;(b)</num>
+                                             <alinea>
+                                                <content>
+                                                   <p>The minimum fee component is calculated as a fixed percentage of the total amount of the annual supervisory fees for each category of supervised entities and supervised groups, as determined in accordance with Article 8.</p>
+                                                </content>
+                                             </alinea>
+                                             <list>
+                                                <point>
+                                                   <num>(i)</num>
+                                                   <content>
+                                                      <p>For the category of significant supervised entities and significant supervised groups, the fixed percentage is 10 %. This amount is split equally among all fee debtors. For significant supervised entities and significant supervised groups with total assets of EUR 10 billion or less, the minimum fee component is halved.</p>
+                                                   </content>
+                                                </point>
+                                                <point>
+                                                   <num>(ii)</num>
+                                                   <content>
+                                                      <p>For the category of less significant supervised entities and less significant supervised groups, the fixed percentage is 10 %. This amount is split equally among all fee debtors. For less significant supervised entities and less significant supervised groups with total assets of EUR 1 billion or less, the minimum fee component is halved.&apos;;</p>
+                                                   </content>
+                                                </point>
+                                             </list>
+                                          </list>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(g)</num>
+                           <content>
+                              <p>in paragraph 6, point (c), the words &apos;Articles 8 and 9&apos; are replaced by &apos;Article 8&apos;;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(h)</num>
+                           <alinea>
+                              <content>
+                                 <p>in paragraph 6, the last subparagraph is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <alinea>
+                                             <content>
+                                                <p>&apos;On the basis of the calculation performed in accordance with this paragraph and of the fee factors determined in accordance with this Article, the ECB shall decide on the annual supervisory fee to be paid by each fee debtor. The annual supervisory fee to be paid will be communicated to the fee debtor via the fee notice.&apos;;</p>
+                                             </content>
+                                          </alinea>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                     </list>
+                  </point>
+                  <point>
+                     <num>(8)</num>
+                     <alinea>
+                        <content>
+                           <p>Article 12(1) is replaced by the following:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <list>
+                                       <num>&apos;1.</num>
+                                       <content>
+                                          <p>A fee notice shall be issued annually by the ECB to each fee debtor within six months after the start of the following fee period.&apos;;</p>
+                                       </content>
+                                    </list>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(9)</num>
+                     <content>
+                        <p>in Article 13(1), the second sentence is deleted;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(10)</num>
+                     <content>
+                        <p>Article 16 is deleted;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(11)</num>
+                     <alinea>
+                        <content>
+                           <p>Article 17 is amended as follows:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <alinea>
+                              <content>
+                                 <p>the heading is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <alinea>
+                                             <content>
+                                                <p>&apos;Reporting&apos;;</p>
+                                             </content>
+                                          </alinea>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <alinea>
+                              <content>
+                                 <p>paragraph 2 is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <list>
+                                             <num>&apos;2.</num>
+                                             <content>
+                                                <p>Within four months of the beginning of each fee period, the estimated amount of the annual costs for that fee period shall be published on the ECB&apos;s website.&apos;;</p>
+                                             </content>
+                                          </list>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                     </list>
+                  </point>
+                  <point>
+                     <num>(12)</num>
+                     <alinea>
+                        <content>
+                           <p>the following Article 17a is inserted:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <article xml:id="art_d634e714">
+                                       <num>&apos;Article 17a</num>
+                                       <heading>Transitional arrangements for the 2020 fee period</heading>
+                                       <paragraph>
+                                          <num>1.</num>
+                                          <content>
+                                             <p>The annual supervisory fee payable in respect of each supervised entity and each supervised group for the fee period of 2020 shall be specified in the fee notice issued to the relevant fee debtor in 2021.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>2.</num>
+                                          <content>
+                                             <p>Any surplus or deficit from the fee period of 2019, determined by deducting the actual annual costs incurred in respect of that fee period from estimated annual costs levied for that fee period, shall be taken into account in determining the annual costs for the fee period of 2020.&apos;.</p>
+                                          </content>
+                                       </paragraph>
+                                    </article>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+               </list>
+            </paragraph>
+         </article>
+         <article xml:id="art_d634e732">
+            <num>Article 2</num>
+            <heading>Entry into force</heading>
+            <paragraph>
+               <content>
+                  <p>This Regulation shall enter into force on the third day following that of its publication in the <i>Official Journal of the European Union</i>.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <content>
+                  <p>This Regulation shall be binding in its entirety and directly applicable in the Member States in accordance with the Treaties.</p>
+               </content>
+            </paragraph>
+         </article>
+      </body>
+      <conclusions>
+         <p>Done at Frankfurt am Main, 5 December 2019.</p>
+         <block name="signatory">
+            <signature>
+               <organization refersTo="">For the Governing Council of the ECB</organization>
+               <role refersTo="">The President of the ECB</role>
+               <person refersTo="">Christine LAGARDE</person>
+            </signature>
+         </block>
+      </conclusions>
+   </bill>
+</akomaNtoso>

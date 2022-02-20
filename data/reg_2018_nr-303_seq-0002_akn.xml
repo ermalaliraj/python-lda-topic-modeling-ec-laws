@@ -1,0 +1,989 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"
+            xmlns:fmx="http://formex.publications.europa.eu/schema/formex-05.21-20110601.xd"
+            xmlns:leos="urn:eu:europa:ec:leos"
+            xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <bill name="">
+      <meta xmlns:fn="http://www.w3.org/2005/xpath-functions">
+         <identification source="~COM">
+            <FRBRWork>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRcountry value=""/>
+            </FRBRWork>
+            <FRBRExpression>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+            </FRBRManifestation>
+         </identification>
+      </meta>
+      <preface>
+         <longTitle>
+            <p>
+               <docStage/>
+               <docType>REGULATION (EU) 2018/1806 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL</docType>of 14 November 2018<docPurpose>listing the third countries whose nationals must be in possession of visas when crossing the external borders and those whose nationals are exempt from that requirement</docPurpose>
+            </p>
+         </longTitle>
+         <container name="EEArelevance">
+            <p>(codification)</p>
+         </container>
+      </preface>
+      <preamble>
+         <formula name="actingEntity">
+            <p>THE EUROPEAN PARLIAMENT AND THE COUNCIL OF THE EUROPEAN UNION,</p>
+         </formula>
+         <citations>
+            <citation>
+               <p>Having regard to the Treaty on the Functioning of the European Union, and in particular Article 77(2)(a) thereof,</p>
+            </citation>
+            <citation>
+               <p>Having regard to the proposal from the European Commission,</p>
+            </citation>
+            <citation>
+               <p>After transmission of the draft legislative act to the national parliaments,</p>
+            </citation>
+            <citation>
+               <p>Acting in accordance with the ordinary legislative procedure<authorialNote placement="bottom" marker="1">
+                     <p>Position of the European Parliament of 2 October 2018 (not yet published in the Official Journal) and decision of the Council of 6 November 2018.</p>
+                  </authorialNote>,</p>
+            </citation>
+         </citations>
+         <recitals xml:id="recs_d440e77">
+            <intro>
+               <p>Whereas:</p>
+            </intro>
+            <recital xml:id="rec_d440e80">
+               <num>(1)</num>
+               <p>Council Regulation (EC) No 539/2001<authorialNote placement="bottom" marker="2">
+                     <p>Council Regulation (EC) No 539/2001 of 15 March 2001 listing the third countries whose nationals must be in possession of visas when crossing the external borders and those whose nationals are exempt from that requirement (OJ L 81, 21.3.2001, p. 1).</p>
+                  </authorialNote> has been substantially amended several times<authorialNote placement="bottom" marker="3">
+                     <p>See Annex III.</p>
+                  </authorialNote>. In the interests of clarity and rationality, that Regulation should be codified.</p>
+            </recital>
+            <recital xml:id="rec_d440e100">
+               <num>(2)</num>
+               <p>This Regulation provides for full harmonisation as regards the third countries whose nationals are subject to a requirement to be in possession of a visa for the crossing of Member States&apos; external borders (also referred to herein as &apos;the visa requirement&apos;) and those whose nationals are exempt from that requirement.</p>
+            </recital>
+            <recital xml:id="rec_d440e110">
+               <num>(3)</num>
+               <p>The determination of the third countries whose nationals are subject to, or exempt from, the visa requirement should be made on the basis of a considered, case-by-case assessment of a variety of criteria. That assessment should be made periodically and could lead to legislative proposals to amend Annex I to this Regulation, which lists the third countries whose nationals are required to be in possession of a visa when crossing the external borders of the Member States, and Annex II to this Regulation, which lists the third countries whose nationals are exempt from the requirement to be in possession of a visa when crossing the external borders of the Member States for stays of no more than 90 days in any 180-day period, notwithstanding the possibility of having country-specific amendments to those Annexes in particular circumstances, for instance as a result of a visa liberalisation process or as the ultimate consequence of a temporary suspension of the exemption from the visa requirement (also referred to herein as &apos;the visa exemption&apos;).</p>
+            </recital>
+            <recital xml:id="rec_d440e120">
+               <num>(4)</num>
+               <p>The composition of the lists of third countries in Annexes I and II should be, and should remain, consistent with the criteria set out in this Regulation. References to third countries in respect of which the situation has changed as regards those criteria should be transferred from one Annex to the other.</p>
+            </recital>
+            <recital xml:id="rec_d440e126">
+               <num>(5)</num>
+               <p>Developments in international law entailing changes in the status or designation of certain States or entities should be reflected in Annexes I and II.</p>
+            </recital>
+            <recital xml:id="rec_d440e132">
+               <num>(6)</num>
+               <p>As the Agreement on the European Economic Area<authorialNote placement="bottom" marker="4">
+                     <p>OJ L 1, 3.1.1994, p. 3.</p>
+                  </authorialNote> exempts nationals of Iceland, Liechtenstein and Norway from the visa requirement, those countries should not be included in the list in Annex II.</p>
+            </recital>
+            <recital xml:id="rec_d440e144">
+               <num>(7)</num>
+               <p>Since the Agreement between the European Community and its Member States, of the one part, and the Swiss Confederation, of the other part, on the free movement of persons<authorialNote placement="bottom" marker="5">
+                     <p>OJ L 114, 30.4.2002, p. 6.</p>
+                  </authorialNote> provides for free movement without visas for nationals of Switzerland and of the Member States, Switzerland should not be included in the list in Annex II.</p>
+            </recital>
+            <recital xml:id="rec_d440e156">
+               <num>(8)</num>
+               <p>As regards recognised refugees and stateless persons, without prejudice to obligations under international agreements signed by the Member States and in particular the European Agreement on the Abolition of Visas for Refugees of the Council of Europe, signed at Strasbourg on 20 April 1959, the decision as to the visa requirement or exemption should be based on the third country in which those persons reside and which issued their travel documents. However, given the differences in the national law applicable to recognised refugees and to stateless persons, Member States should be able to decide whether those categories of persons should be exempted, where the third country in which those persons reside and which issued their travel documents is a third country whose nationals are exempt from the visa requirement.</p>
+            </recital>
+            <recital xml:id="rec_d440e167">
+               <num>(9)</num>
+               <p>In accordance with Regulation (EC) No 1931/2006 of the European Parliament and of the Council<authorialNote placement="bottom" marker="6">
+                     <p>Regulation (EC) No 1931/2006 of the European Parliament and of the Council of 20 December 2006 laying down rules on local border traffic at the external land borders of the Member States and amending the provisions of the Schengen Convention (OJ L 405, 30.12.2006, p. 1).</p>
+                  </authorialNote> an exemption from the visa requirement should be laid down for holders of a local border traffic permit.</p>
+            </recital>
+            <recital xml:id="rec_d440e183">
+               <num>(10)</num>
+               <p>It should be possible for Member States to provide for exemptions from the visa requirement for holders of certain passports other than ordinary passports.</p>
+            </recital>
+            <recital xml:id="rec_d440e190">
+               <num>(11)</num>
+               <p>In specific cases where special visa rules are warranted, it should be possible for Member States to exempt certain categories of persons from the visa requirement or impose it on them in accordance with public international law or custom.</p>
+            </recital>
+            <recital xml:id="rec_d440e196">
+               <num>(12)</num>
+               <p>It should be possible for Member States to exempt from the visa requirement recognised refugees, all stateless persons, both those covered by the United Nations Convention relating to the Status of Stateless Persons of 28 September 1954 and those outside of the scope of that Convention, and school pupils travelling on school excursions, where the persons of these categories reside in a third country that is included in the list in Annex II to this Regulation.</p>
+            </recital>
+            <recital xml:id="rec_d440e205">
+               <num>(13)</num>
+               <p>The arrangements governing exemptions from the visa requirement should fully reflect actual practices. Certain Member States grant exemptions from the visa requirement for nationals of third countries included in the list of third countries whose nationals are required to be in possession of a visa when crossing the external borders of the Member States and who are members of the armed forces travelling on North Atlantic Treaty Organization (NATO) or Partnership for Peace business. For reasons of legal certainty, those exemptions, which are based on international obligations external to Union law, should be referred to in this Regulation.</p>
+            </recital>
+            <recital xml:id="rec_d440e211">
+               <num>(14)</num>
+               <p>Full visa reciprocity is an objective which the Union should pursue in a proactive manner in its relations with third countries, thus contributing to improving the credibility and consistency of the Union&apos;s external policy.</p>
+            </recital>
+            <recital xml:id="rec_d440e217">
+               <num>(15)</num>
+               <p>Provision should be made for a Union mechanism enabling the principle of reciprocity to be implemented if one of the third countries included in the list in Annex II decides to make the nationals of one or more Member States subject to a visa requirement. That mechanism should provide for a Union response as an act of solidarity, if such a third country applies a visa requirement for nationals of at least one Member State.</p>
+            </recital>
+            <recital xml:id="rec_d440e223">
+               <num>(16)</num>
+               <p>Upon receipt of a notification from a Member State that a third country included in the list in Annex II applies a visa requirement for nationals of that Member State, all Member States should react in common, thus providing a Union response to a situation which affects the Union as a whole and subjects its citizens to different treatment.</p>
+            </recital>
+            <recital xml:id="rec_d440e229">
+               <num>(17)</num>
+               <p>In order to ensure the appropriate involvement of the European Parliament and of the Council in the second phase of application of the reciprocity mechanism, given the particularly sensitive political nature of the suspension of the exemption from the visa requirement for all the nationals of a third country included in the list in Annex II and its horizontal implications for the Member States, the Schengen associated countries and the Union itself, in particular for their external relations and for the overall functioning of the Schengen area, the power to adopt acts in accordance with Article 290 of the Treaty on the Functioning of the European Union (TFEU) should be delegated to the Commission in respect of certain elements of the reciprocity mechanism. Conferring such power on the Commission takes into account the need for political discussion on the Union policy on visas in the Schengen area. It reflects also the need to ensure sufficient transparency and legal certainty in the application of the reciprocity mechanism to all the nationals of the third country concerned, in particular through the corresponding temporary amendment of Annex II to this Regulation. It is of particular importance that the Commission carry out appropriate consultations during its preparatory work, including at expert level, and that those consultations be conducted in accordance with the principles laid down in the Interinstitutional Agreement of 13 April 2016 on Better Law-Making<authorialNote placement="bottom" marker="7">
+                     <p>OJ L 123, 12.5.2016, p. 1.</p>
+                  </authorialNote>. In particular, to ensure equal participation in the preparation of delegated acts, the European Parliament and the Council receive all documents at the same time as Member States&apos; experts, and their experts systematically have access to meetings of Commission expert groups dealing with the preparation of delegated acts.</p>
+            </recital>
+            <recital xml:id="rec_d440e245">
+               <num>(18)</num>
+               <p>This Regulation should provide for a mechanism for the temporary suspension of the exemption from the visa requirement for a third country included in the list in Annex II (&apos;the suspension mechanism&apos;) in an emergency situation, where an urgent response is needed in order to solve the difficulties faced by at least one Member State, and taking the overall impact of the emergency situation on the Union as a whole into account.</p>
+            </recital>
+            <recital xml:id="rec_d440e255">
+               <num>(19)</num>
+               <p>In order to ensure the efficient application of the suspension mechanism and of certain provisions of the reciprocity mechanism, and in particular in order to allow for all relevant factors and the possible implications of the application of those mechanisms to be adequately taken into account, implementing powers should be conferred on the Commission with regard to the determination of the categories of nationals of the third country concerned who should be subject to a temporary suspension of the exemption from the visa requirement within the framework of the reciprocity mechanism, and of the corresponding duration of that suspension, as well as with regard to the suspension mechanism. Those powers should be exercised in accordance with Regulation (EU) No 182/2011 of the European Parliament and of the Council<authorialNote placement="bottom" marker="8">
+                     <p>Regulation (EU) No 182/2011 of the European Parliament and of the Council of 16 February 2011 laying down the rules and general principles concerning mechanisms for control by Member States of the Commission&apos;s exercise of implementing powers (OJ L 55, 28.2.2011, p. 13).</p>
+                  </authorialNote>. The examination procedure should be used for the adoption of such implementing acts.</p>
+            </recital>
+            <recital xml:id="rec_d440e271">
+               <num>(20)</num>
+               <p>It is necessary to avoid and counter any abuse resulting from an exemption from the visa requirement for short-stay visits for nationals of a third country where they pose a threat to the public policy (ordre public) and the internal security of the Member State concerned.</p>
+            </recital>
+            <recital xml:id="rec_d440e278">
+               <num>(21)</num>
+               <p>The suspension mechanism should make it possible for Member States to notify circumstances leading to a possible suspension and for the Commission to trigger the suspension mechanism on its own initiative.</p>
+            </recital>
+            <recital xml:id="rec_d440e284">
+               <num>(22)</num>
+               <p>In particular, the use of the suspension mechanism should be facilitated by short reference periods and deadlines, allowing for a fast procedure, and the possible grounds of suspension should include a decrease in cooperation on readmission as well as a substantial increase in risks to the public policy or internal security of Member States. That decrease in cooperation should cover a substantial increase in the refusal rate of readmission applications, including for third-country nationals having transited through the third country concerned, where a readmission agreement concluded between the Union or a Member State and that third country provides for such a readmission obligation. The Commission should also be able to trigger the suspension mechanism in the event that the third country fails to cooperate on readmission, in particular where a readmission agreement has been concluded between the third country concerned and the Union.</p>
+            </recital>
+            <recital xml:id="rec_d440e290">
+               <num>(23)</num>
+               <p>For the purposes of the suspension mechanism, a substantial increase indicates an increase exceeding a threshold of 50 %. It could also indicate a lower increase if the Commission deemed it applicable in the particular case notified by the Member State concerned.</p>
+            </recital>
+            <recital xml:id="rec_d440e296">
+               <num>(24)</num>
+               <p>For the purposes of the suspension mechanism, a low recognition rate indicates a recognition rate of asylum applications of around 3 or 4 %. It could also indicate a higher recognition rate if the Commission deemed it applicable in the particular case notified by the Member State concerned.</p>
+            </recital>
+            <recital xml:id="rec_d440e302">
+               <num>(25)</num>
+               <p>It is necessary to avoid and counter any abuse of the visa exemption where it leads to an increase in migratory pressure, resulting from, for example, an increase in unfounded asylum applications, and also when it leads to unfounded applications for residence permits.</p>
+            </recital>
+            <recital xml:id="rec_d440e308">
+               <num>(26)</num>
+               <p>With a view to ensuring that the specific requirements which were used to assess the appropriateness of a visa exemption, granted as a result of a successful conclusion of a visa liberalisation dialogue, continue to be fulfilled over time, the Commission should monitor the situation in the third countries concerned. The Commission should pay particular attention to the situation of human rights in the third countries concerned.</p>
+            </recital>
+            <recital xml:id="rec_d440e314">
+               <num>(27)</num>
+               <p>The Commission should report regularly to the European Parliament and to the Council, at least once a year, for a period of seven years after the entry into force of visa liberalisation for a particular third country, and thereafter whenever the Commission considers it necessary, or upon request by the European Parliament or by the Council.</p>
+            </recital>
+            <recital xml:id="rec_d440e320">
+               <num>(28)</num>
+               <p>The Commission should, before taking any decision to temporarily suspend the visa exemption for nationals of a third country, take into account the situation of human rights in that third country and the possible consequences of a suspension of the visa exemption for that situation.</p>
+            </recital>
+            <recital xml:id="rec_d440e327">
+               <num>(29)</num>
+               <p>The suspension of the exemption from the visa requirement by an implementing act should cover certain categories of nationals of the third country concerned, by reference to the relevant types of travel documents and, where appropriate, to additional criteria, such as persons travelling for the first time to the territory of the Member States. The implementing act should determine the categories of nationals to which the suspension should apply, taking into account the specific circumstances notified by one or several Member States or reported by the Commission and the principle of proportionality.</p>
+            </recital>
+            <recital xml:id="rec_d440e333">
+               <num>(30)</num>
+               <p>In order to ensure the appropriate involvement of the European Parliament and of the Council in the implementation of the suspension mechanism, given the politically sensitive nature of a suspension of an exemption from the visa requirement for all nationals of a third country included in the list in Annex II to this Regulation and its horizontal implications for the Member States and the Union itself, in particular for their external relations and for the overall functioning of the Schengen area, the power to adopt acts in accordance with Article 290 TFEU should be delegated to the Commission in respect of the temporary suspension of the exemption from the visa requirement for the nationals of the third countries concerned. It is of particular importance that the Commission carry out appropriate consultations during its preparatory work, including at expert level, and that those consultations be conducted in accordance with the principles laid down in the Interinstitutional Agreement of 13 April 2016 on Better Law-Making. In particular, to ensure equal participation in the preparation of delegated acts, the European Parliament and the Council receive all documents at the same time as Member States&apos; experts, and their experts systematically have access to meetings of Commission expert groups dealing with the preparation of delegated acts.</p>
+            </recital>
+            <recital xml:id="rec_d440e343">
+               <num>(31)</num>
+               <p>With a view to ensuring that the visa regime is administered openly and that the persons concerned are informed, Member States should communicate to the Commission and to the other Member States the measures which they take pursuant to this Regulation. For the same reasons, that information should also be published in the <i>Official Journal of the European Union</i>.</p>
+            </recital>
+            <recital xml:id="rec_d440e352">
+               <num>(32)</num>
+               <p>The conditions governing entry into the territory of the Member States or the issue of visas should not affect the rules governing the recognition of the validity of travel documents.</p>
+            </recital>
+            <recital xml:id="rec_d440e358">
+               <num>(33)</num>
+               <p>In accordance with the principle of proportionality as set out in Article 5 of the Treaty on European Union, the recourse to a Regulation listing the third countries whose nationals must be in possession of visas when crossing the external borders and those whose nationals are exempt from that requirement is both a necessary and an appropriate means of ensuring that the common policy on visas operates efficiently.</p>
+            </recital>
+            <recital xml:id="rec_d440e364">
+               <num>(34)</num>
+               <p>This Regulation should be without prejudice to the application of international agreements concluded by the European Community before the entry into force of Regulation (EC) No 539/2001 which give rise to the need to derogate from the common policy on visas, while taking into account the case-law of the Court of Justice of the European Union.</p>
+            </recital>
+            <recital xml:id="rec_d440e370">
+               <num>(35)</num>
+               <p>As regards Iceland and Norway, this Regulation constitutes a development of the provisions of the Schengen <i>acquis</i> within the meaning of the Agreement concluded by the Council of the European Union and the Republic of Iceland and the Kingdom of Norway concerning the latters&apos; association with the implementation, application and development of the Schengen <i>acquis</i>
+                  <authorialNote placement="bottom" marker="9">
+                     <p>OJ L 176, 10.7.1999, p. 36.</p>
+                  </authorialNote>, which fall within the area referred to in point B of Article 1 of Council Decision 1999/437/EC<authorialNote placement="bottom" marker="10">
+                     <p>Council Decision 1999/437/EC of 17 May 1999 on certain arrangements for the application of the Agreement concluded by the Council of the European Union and the Republic of Iceland and the Kingdom of Norway concerning the association of those two States with the implementation, application and development of the Schengen <i>acquis</i> (OJ L 176, 10.7.1999, p. 31).</p>
+                  </authorialNote>.</p>
+            </recital>
+            <recital xml:id="rec_d440e400">
+               <num>(36)</num>
+               <p>As regards Switzerland, this Regulation constitutes a development of the provisions of the Schengen <i>acquis</i> within the meaning of the Agreement signed between the European Union, the European Community and the Swiss Confederation on the Swiss Confederation&apos;s association with the implementation, application and development of the Schengen <i>acquis</i>
+                  <authorialNote placement="bottom" marker="11">
+                     <p>OJ L 53, 27.2.2008, p. 52.</p>
+                  </authorialNote>, which fall within the area referred to in points B and C of Article 1 of Decision 1999/437/EC, read in conjunction with Article 3 of Council Decision 2008/146/EC<authorialNote placement="bottom" marker="12">
+                     <p>Council Decision 2008/146/EC of 28 January 2008 on the conclusion, on behalf of the European Community, of the Agreement between the European Union, the European Community and the Swiss Confederation on the Swiss Confederation&apos;s association with the implementation, application and development of the Schengen <i>acquis</i> (OJ L 53, 27.2.2008, p. 1).</p>
+                  </authorialNote>.</p>
+            </recital>
+            <recital xml:id="rec_d440e430">
+               <num>(37)</num>
+               <p>As regards Liechtenstein, this Regulation constitutes a development of the provisions of the Schengen <i>acquis</i> within the meaning of the Protocol between the European Union, the European Community, the Swiss Confederation and the Principality of Liechtenstein on the accession of the Principality of Liechtenstein to the Agreement between the European Union, the European Community and the Swiss Confederation on the Swiss Confederation&apos;s association with the implementation, application and development of the Schengen <i>acquis</i>
+                  <authorialNote placement="bottom" marker="13">
+                     <p>OJ L 160, 18.6.2011, p. 21.</p>
+                  </authorialNote>, which fall within the area referred to in points B and C of Article 1 of Decision 1999/437/EC, read in conjunction with Article 3 of Council Decision 2011/350/EU<authorialNote placement="bottom" marker="14">
+                     <p>Council Decision 2011/350/EU of 7 March 2011 on the conclusion, on behalf of the European Union, of the Protocol between the European Union, the European Community, the Swiss Confederation and the Principality of Liechtenstein on the accession of the Principality of Liechtenstein to the Agreement between the European Union, the European Community and the Swiss Confederation on the Swiss Confederation&apos;s association with the implementation, application and development of the Schengen <i>acquis</i>, relating to the abolition of checks at internal borders and movement of persons (OJ L 160, 18.6.2011, p. 19).</p>
+                  </authorialNote>.</p>
+            </recital>
+            <recital xml:id="rec_d440e462">
+               <num>(38)</num>
+               <p>This Regulation constitutes a development of the provisions of the Schengen <i>acquis</i> in which the United Kingdom does not take part, in accordance with Council Decision 2000/365/EC<authorialNote placement="bottom" marker="15">
+                     <p>Council Decision 2000/365/EC of 29 May 2000 concerning the request of the United Kingdom of Great Britain and Northern Ireland to take part in some of the provisions of the Schengen <i>acquis</i> (OJ L 131, 1.6.2000, p. 43).</p>
+                  </authorialNote>; the United Kingdom is therefore not taking part in the adoption of this Regulation and is not bound by it or subject to its application.</p>
+            </recital>
+            <recital xml:id="rec_d440e484">
+               <num>(39)</num>
+               <p>This Regulation constitutes a development of the provisions of the Schengen <i>acquis</i> in which Ireland does not take part, in accordance with Council Decision 2002/192/EC<authorialNote placement="bottom" marker="16">
+                     <p>Council Decision 2002/192/EC of 28 February 2002 concerning Ireland&apos;s request to take part in some of the provisions of the Schengen <i>acquis</i> (OJ L 64, 7.3.2002, p. 20).</p>
+                  </authorialNote>; Ireland is therefore not taking part in the adoption of this Regulation and is not bound by it or subject to its application,</p>
+            </recital>
+         </recitals>
+         <formula name="enactingFormula">
+            <p>HAVE ADOPTED THIS REGULATION:</p>
+         </formula>
+      </preamble>
+      <body>
+         <article xml:id="art_d440e509">
+            <num>Article 1</num>
+            <heading/>
+            <paragraph>
+               <content>
+                  <p>This Regulation determines the third countries whose nationals are subject to, or exempt from, the visa requirement, on the basis of a case-by-case assessment of a variety of criteria relating, inter alia, to illegal immigration, public policy and security, economic benefit, in particular in terms of tourism and foreign trade, and the Union&apos;s external relations with the relevant third countries, including, in particular, considerations of human rights and fundamental freedoms, as well as the implications of regional coherence and reciprocity.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d440e514">
+            <num>Article 2</num>
+            <heading/>
+            <paragraph>
+               <content>
+                  <p>For the purposes of this Regulation, &apos;visa&apos; means a visa as defined in point (a) of Article 2(2) of Regulation (EC) No 810/2009 of the European Parliament and of the Council<authorialNote placement="bottom" marker="17">
+                        <p>Regulation (EC) No 810/2009 of the European Parliament and of the Council of 13 July 2009 establishing a Community Code on Visas (Visa Code) (OJ L 243, 15.9.2009, p. 1).</p>
+                     </authorialNote>.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d440e533">
+            <num>Article 3</num>
+            <heading/>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>Nationals of third countries listed in Annex I shall be required to be in possession of a visa when crossing the external borders of the Member States.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>Without prejudice to the requirements stemming from the European Agreement on the Abolition of Visas for Refugees of the Council of Europe signed at Strasbourg on 20 April 1959, recognised refugees and stateless persons shall be required to be in possession of a visa when crossing the external borders of the Member States if the third country where they are resident and which has issued them with their travel document is a third country listed in Annex I to this Regulation.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d440e549">
+            <num>Article 4</num>
+            <heading/>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>Nationals of third countries listed in Annex II shall be exempt from the requirement set out in Article 3(1) for stays of no more than 90 days in any 180-day period.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <subparagraph>
+                  <content>
+                     <p>The following persons shall also be exempt from the visa requirement:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <content>
+                        <p>the nationals of third countries listed in Annex I to this Regulation who are holders of a local border traffic permit issued by the Member States pursuant to Regulation (EC) No 1931/2006 when those holders exercise their right within the context of the local border traffic regime;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <content>
+                        <p>school pupils who are nationals of a third country listed in Annex I to this Regulation, who reside in a Member State applying Council Decision 94/795/JHA<authorialNote placement="bottom" marker="18">
+                              <p>Council Decision 94/795/JHA of 30 November 1994 on a joint action adopted by the Council on the basis of Article K.3.2.b of the Treaty on European Union concerning travel facilities for school pupils from third countries resident in a Member State (OJ L 327, 19.12.1994, p. 1).</p>
+                           </authorialNote> and who are travelling in the context of a school excursion as members of a group of school pupils accompanied by a teacher from the school in question;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(c)</num>
+                     <content>
+                        <p>recognised refugees and stateless persons and other persons who do not hold the nationality of any country, who reside in a Member State and who are holders of a travel document issued by that Member State.</p>
+                     </content>
+                  </point>
+               </list>
+            </paragraph>
+         </article>
+         <article xml:id="art_d440e593">
+            <num>Article 5</num>
+            <heading/>
+            <paragraph>
+               <content>
+                  <p>Nationals of new third countries formerly part of third countries listed in Annexes I and II shall be subject respectively to Articles 3 and 4 unless and until the Council decides otherwise under the procedure laid down in the relevant provision of the TFEU.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d440e598">
+            <num>Article 6</num>
+            <heading/>
+            <paragraph>
+               <num>1.</num>
+               <subparagraph>
+                  <content>
+                     <p>A Member State may provide for exceptions from the visa requirement provided for in Article 3 or from the exemption from the visa requirement provided for in Article 4 as regards:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <content>
+                        <p>holders of diplomatic passports, service/official passports or special passports;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <content>
+                        <p>civilian air and sea crew members in the performance of their duties;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(c)</num>
+                     <content>
+                        <p>civilian sea crew members, when they go ashore, who hold a seafarer&apos;s identity document issued in accordance with the International Labour Organisation Conventions No 108 of 13 May 1958 or No 185 of 19 June 2003 or the International Maritime Organization Convention on Facilitation of International Maritime Traffic of 9 April 1965;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(d)</num>
+                     <content>
+                        <p>crew and members of emergency or rescue missions in the event of a disaster or an accident;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(e)</num>
+                     <content>
+                        <p>civilian crew of ships navigating in international inland waters;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(f)</num>
+                     <content>
+                        <p>holders of travel documents issued by intergovernmental international organisations of which at least one Member State is a member, or by other entities recognised by the Member State concerned as subjects of international law, to officials of those organisations or entities.</p>
+                     </content>
+                  </point>
+               </list>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <subparagraph>
+                  <content>
+                     <p>A Member State may exempt from the visa requirement provided for in Article 3:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <content>
+                        <p>a school pupil having the nationality of a third country listed in Annex I, who resides in a third country listed in Annex II or in Switzerland and Liechtenstein and who is travelling in the context of a school excursion as a member of a group of school pupils accompanied by a teacher from the school in question;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <content>
+                        <p>recognised refugees and stateless persons if the third country where they reside and which issued their travel document is one of the third countries listed in Annex II;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(c)</num>
+                     <content>
+                        <p>members of the armed forces travelling on NATO or Partnership for Peace business and holders of identification and movement orders provided for by the Agreement between the Parties to the North Atlantic Treaty regarding the Status of their Forces of 19 June 1951;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(d)</num>
+                     <content>
+                        <p>without prejudice to the requirements stemming from the European Agreement on the Abolition of Visas for Refugees of the Council of Europe signed at Strasbourg on 20 April 1959, recognised refugees and stateless persons and other persons who do not hold the nationality of any country who reside in the United Kingdom or in Ireland and are holders of a travel document issued by the United Kingdom or Ireland, which is recognised by the Member State concerned.</p>
+                     </content>
+                  </point>
+               </list>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <content>
+                  <p>A Member State may provide for exceptions from the exemption from the visa requirement provided for in Article 4 as regards persons carrying out a paid activity during their stay.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d440e695">
+            <num>Article 7</num>
+            <heading/>
+            <paragraph>
+               <subparagraph>
+                  <content>
+                     <p>Where a third country listed in Annex II applies a visa requirement for nationals of at least one Member State, the following provisions shall apply:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <alinea>
+                        <content>
+                           <p>within 30 days of the implementation by the third country of the visa requirement, the Member State concerned shall notify the European Parliament, the Council and the Commission thereof in writing.</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>That notification shall:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(i)</num>
+                           <content>
+                              <p>specify the date of implementation of the visa requirement and the types of travel documents and visas concerned;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(ii)</num>
+                           <content>
+                              <p>include a detailed explanation of the preliminary measures that the Member State concerned has taken with a view to ensuring visa-free travel with the third country in question and all relevant information.</p>
+                           </content>
+                        </point>
+                     </list>
+                     <alinea>
+                        <content>
+                           <p>Information relating to that notification shall be published without delay by the Commission in the <i>Official Journal of the European Union</i>, including information on the date of implementation of the visa requirement and the types of travel documents and visas concerned.</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>If the third country decides to lift the visa requirement before the expiry of the deadline referred to in the first subparagraph of this point, the notification shall not be made or shall be withdrawn and the information shall not be published;</p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <content>
+                        <p>the Commission shall, immediately following the date of the publication referred to in the third subparagraph of point (a) and in consultation with the Member State concerned, take steps with the authorities of the third country in question, in particular in the political, economic and commercial fields, in order to restore or introduce visa-free travel and shall inform the European Parliament and the Council of those steps without delay;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(c)</num>
+                     <content>
+                        <p>if within 90 days of the date of the publication referred to in the third subparagraph of point (a) and despite all the steps taken in accordance with point (b), the third country has not lifted the visa requirement, the Member State concerned may request the Commission to suspend the exemption from the visa requirement for certain categories of nationals of that third country. Where a Member State makes such a request, it shall inform the European Parliament and the Council thereof;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(d)</num>
+                     <content>
+                        <p>the Commission shall, when considering further steps in accordance with point (e), (f) or (h), take into account the outcome of the measures taken by the Member State concerned with a view to ensuring visa-free travel with the third country in question, the steps taken in accordance with point (b), and the consequences of the suspension of the exemption from the visa requirement for the external relations of the Union and its Member States with the third country in question;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(e)</num>
+                     <alinea>
+                        <content>
+                           <p>if the third country concerned has not lifted the visa requirement, the Commission shall, at the latest within six months of the date of the publication referred to in the third subparagraph of point (a) and subsequently at intervals not exceeding six months within a total period which may not extend beyond the date on which the delegated act referred to in point (f) enters into force or is objected to:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(i)</num>
+                           <alinea>
+                              <content>
+                                 <p>adopt, at the request of the Member State concerned or on its own initiative, an implementing act temporarily suspending the exemption from the visa requirement for certain categories of nationals of the third country concerned for a period of up to six months. That implementing act shall fix a date, within 90 days of its entry into force, on which the suspension of the exemption from the visa requirement is to take effect, taking into account the available resources in the consulates of the Member States. When adopting subsequent implementing acts, the Commission may extend the period of that suspension by further periods of up to six months and may modify the categories of nationals of the third country in question for which the exemption from the visa requirement is suspended.</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>Those implementing acts shall be adopted in accordance with the examination procedure referred to in Article 11(2). Without prejudice to the application of Article 6, during the periods of suspension all the categories of nationals of the third country referred to in the implementing act shall be required to be in possession of a visa when crossing the external borders of the Member States; or</p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(ii)</num>
+                           <alinea>
+                              <content>
+                                 <p>submit to the committee referred to in Article 11(1) a report assessing the situation and stating the reasons why it decided not to suspend the exemption from the visa requirement and inform the European Parliament and the Council thereof.</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>All relevant factors, such as those referred to in point (d), shall be taken into account in that report. The European Parliament and the Council may have a political discussion on the basis of that report;</p>
+                              </content>
+                           </alinea>
+                        </point>
+                     </list>
+                  </point>
+                  <point>
+                     <num>(f)</num>
+                     <alinea>
+                        <content>
+                           <p>if within 24 months of the date of the publication referred to in the third subparagraph of point (a), the third country concerned has not lifted the visa requirement, the Commission shall adopt a delegated act in accordance with Article 10 temporarily suspending the exemption from the visa requirement for a period of 12 months for the nationals of that third country. The delegated act shall fix a date, within 90 days of its entry into force, on which the suspension of the exemption from the visa requirement is to take effect, taking into account the available resources in the consulates of the Member States and shall amend Annex II accordingly. That amendment shall be made by inserting next to the name of the third country in question a footnote indicating that the exemption from the visa requirement is suspended with regard to that third country and specifying the period of that suspension.</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>From the date when the suspension of the exemption from the visa requirement for the nationals of the third country concerned takes effect or when an objection to the delegated act is expressed pursuant to Article 10(7), any implementing act adopted pursuant to point (e) of this Article concerning that third country shall expire. Where the Commission submits a legislative proposal as referred to in point (h), the period of suspension of the exemption from the visa requirement referred to in the first subparagraph of this point shall be extended by six months. The footnote referred to in that subparagraph shall be amended accordingly.</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>Without prejudice to the application of Article 6, during the periods of that suspension the nationals of the third country concerned by the delegated act shall be required to be in possession of a visa when crossing the external borders of the Member States;</p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(g)</num>
+                     <content>
+                        <p>any subsequent notification made by another Member State pursuant to point (a) concerning the same third country during the period of application of measures adopted pursuant to point (e) or (f) with regard to that third country shall be merged into the ongoing procedures without the deadlines or periods set out in those points being extended;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(h)</num>
+                     <content>
+                        <p>if within six months of the entry into force of the delegated act referred to in point (f) the third country in question has not lifted the visa requirement, the Commission may submit a legislative proposal to amend this Regulation in order to transfer the reference to the third country from Annex II to Annex I;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(i)</num>
+                     <content>
+                        <p>the procedures referred to in points (e), (f) and (h) shall not affect the right of the Commission to submit at any time a legislative proposal to amend this Regulation in order to transfer the reference to the third country concerned from Annex II to Annex I;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(j)</num>
+                     <content>
+                        <p>where the third country in question lifts the visa requirement, the Member State concerned shall immediately notify the European Parliament, the Council and the Commission thereof. The notification shall be published without delay by the Commission in the <i>Official Journal of the European Union</i>.</p>
+                     </content>
+                  </point>
+               </list>
+            </paragraph>
+            <paragraph>
+               <content>
+                  <p>Any implementing or delegated act adopted pursuant to point (e) or (f) concerning the third country in question shall expire seven days after the publication referred to in the first subparagraph of this point. Where the third country in question has introduced a visa requirement for nationals of two or more Member States, the implementing or delegated act concerning that third country shall expire seven days after the publication of the notification concerning the last Member State whose nationals were subject to the visa requirement by that third country. The footnote referred to in the first subparagraph of point (f) shall be deleted upon expiry of the delegated act concerned. The information concerning that expiry shall be published without delay by the Commission in the <i>Official Journal of the European Union</i>.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <content>
+                  <p>Where the third country in question lifts the visa requirement without the Member State concerned notifying it in accordance with the first subparagraph of this point, the Commission shall on its own initiative proceed without delay with the publication referred to in that subparagraph, and the second subparagraph of this point shall apply.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d440e819">
+            <num>Article 8</num>
+            <heading/>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>By way of derogation from Article 4, the exemption from the visa requirement for nationals of a third country listed in Annex II shall be temporarily suspended, based on relevant and objective data, in accordance with this Article.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <subparagraph>
+                  <content>
+                     <p>A Member State may notify the Commission if it is confronted, over a two-month period, compared with the same period in the preceding year or compared with the last two months prior to the implementation of the exemption from the visa requirement for nationals of a third country listed in Annex II, with one or more of the following circumstances:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <content>
+                        <p>a substantial increase in the number of nationals of that third country refused entry or found to be staying in the Member State&apos;s territory without a right to do so;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <content>
+                        <p>a substantial increase in the number of asylum applications from the nationals of that third country for which the recognition rate is low;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(c)</num>
+                     <content>
+                        <p>a decrease in cooperation on readmission with that third country, substantiated by adequate data, in particular a substantial increase in the refusal rate of readmission applications submitted by the Member State to that third country for its own nationals or, where a readmission agreement concluded between the Union or that Member State and that third country so provides, for third-country nationals having transited through that third country;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(d)</num>
+                     <content>
+                        <p>an increased risk or imminent threat to the public policy or internal security of Member States, in particular a substantial increase in serious criminal offences, linked to the nationals of that third country, substantiated by objective, concrete and relevant information and data provided by the competent authorities.</p>
+                     </content>
+                  </point>
+               </list>
+               <subparagraph>
+                  <content>
+                     <p>The notification referred to in the first subparagraph of this paragraph shall state the reasons on which it is based and shall include relevant data and statistics as well as a detailed explanation of the preliminary measures that the Member State concerned has taken with a view to remedying the situation. In its notification, the Member State concerned may specify the categories of nationals of the third country concerned which are to be covered by an implementing act under point (a) of paragraph 6, specifying the detailed reasons for doing so. The Commission shall inform the European Parliament and the Council immediately of such notification.</p>
+                  </content>
+               </subparagraph>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <subparagraph>
+                  <content>
+                     <p>Where the Commission, taking into account the relevant data, reports and statistics, has concrete and reliable information that the circumstances referred to in point (a), (b), (c) or (d) of paragraph 2 are occurring in one or more Member States, or that the third country is not cooperating on readmission, in particular where a readmission agreement has been concluded between that third country and the Union, the Commission shall inform the European Parliament and the Council promptly of its analysis, and the provisions of paragraph 6 shall apply.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>For the purposes of the first subparagraph, non-cooperation on readmission may consist in, for instance:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <indent>
+                     <num>-</num>
+                     <content>
+                        <p>refusing or failing to process readmission applications in due time;</p>
+                     </content>
+                  </indent>
+                  <indent>
+                     <num>-</num>
+                     <content>
+                        <p>failing to issue travel documents in due time for the purposes of returning within the deadlines set out in the readmission agreement or refusing to accept European travel documents issued following the expiry of the deadlines set out in the readmission agreement; or</p>
+                     </content>
+                  </indent>
+                  <indent>
+                     <num>-</num>
+                     <content>
+                        <p>terminating or suspending the readmission agreement.</p>
+                     </content>
+                  </indent>
+               </list>
+            </paragraph>
+            <paragraph>
+               <num>4.</num>
+               <subparagraph>
+                  <content>
+                     <p>The Commission shall monitor the continuous compliance with the specific requirements, which are based on Article 1 and which were used to assess the appropriateness of granting visa liberalisation, by the third countries whose nationals have been exempted from the visa requirement when travelling to the territory of Member States as a result of the successful conclusion of a visa liberalisation dialogue conducted between the Union and that third country.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>In addition, the Commission shall report regularly to the European Parliament and to the Council, at least once a year, for a period of seven years after the date of entry into force of visa liberalisation for that third country, and thereafter whenever the Commission considers it to be necessary, or upon request by the European Parliament or by the Council. The report shall focus on the third countries which the Commission considers, based on concrete and reliable information, are no longer complying with certain requirements.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>Paragraph 6 shall apply where a report of the Commission shows that one or more of the specific requirements is no longer complied with as regards a particular third country.</p>
+                  </content>
+               </subparagraph>
+            </paragraph>
+            <paragraph>
+               <num>5.</num>
+               <subparagraph>
+                  <content>
+                     <p>The Commission shall examine any notification made pursuant to paragraph 2, taking the following into account:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <content>
+                        <p>whether any of the circumstances referred to in paragraph 2 exist;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <content>
+                        <p>the number of Member States affected by any of the circumstances referred to in paragraph 2;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(c)</num>
+                     <content>
+                        <p>the overall impact of the circumstances referred to in paragraph 2 on the migratory situation in the Union as it appears from the data provided by the Member States or available to the Commission;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(d)</num>
+                     <content>
+                        <p>the reports prepared by the European Border and Coast Guard, the European Asylum Support Office or the European Union Agency for Law Enforcement Cooperation (Europol) or any other institution, body, office or agency of the Union or international organisation competent in matters covered by this Regulation, if the circumstances so require in the specific case;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(e)</num>
+                     <content>
+                        <p>the information which the Member State concerned may have given in its notification in relation to possible measures under point (a) of paragraph 6;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(f)</num>
+                     <content>
+                        <p>the overall question of public policy and internal security, in consultation with the Member State concerned.</p>
+                     </content>
+                  </point>
+               </list>
+               <subparagraph>
+                  <content>
+                     <p>The Commission shall inform the European Parliament and the Council of the results of its examination.</p>
+                  </content>
+               </subparagraph>
+            </paragraph>
+            <paragraph>
+               <num>6.</num>
+               <subparagraph>
+                  <content>
+                     <p>Where, on the basis of the analysis referred to in paragraph 3, the report referred to in paragraph 4, or the examination referred to in paragraph 5, and taking into account the consequences of a suspension of the exemption from the visa requirement for the external relations of the Union and its Member States with the third country concerned, while working in close cooperation with that third country to find alternative long-term solutions, the Commission decides that action is needed, or where a simple majority of Member States have notified the Commission of the existence of circumstances referred to in point (a), (b), (c) or (d) of paragraph 2, the following provisions shall apply:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <alinea>
+                        <content>
+                           <p>the Commission shall adopt an implementing act temporarily suspending the exemption from the visa requirement for the nationals of the third country concerned for a period of nine months. The suspension shall apply to certain categories of nationals of the third country concerned, by reference to the relevant types of travel documents and, where appropriate, to additional criteria. When deciding to which categories the suspension is to apply, the Commission shall, based on the information available, include categories that are broad enough in order to efficiently contribute to remedying the circumstances referred to in paragraphs 2, 3 and 4 in each specific case, while respecting the principle of proportionality. The Commission shall adopt the implementing act within one month of:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(i)</num>
+                           <content>
+                              <p>receiving the notification referred to in paragraph 2;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(ii)</num>
+                           <content>
+                              <p>being made aware of the information referred to in paragraph 3;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(iii)</num>
+                           <content>
+                              <p>presenting the report referred to in paragraph 4; or</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(iv)</num>
+                           <content>
+                              <p>receiving the notification from a simple majority of Member States of the existence of circumstances referred to in point (a), (b), (c) or (d) of paragraph 2.</p>
+                           </content>
+                        </point>
+                     </list>
+                     <alinea>
+                        <content>
+                           <p>That implementing act shall be adopted in accordance with the examination procedure referred to in Article 11(2). It shall fix the date on which the suspension of the exemption from the visa requirement is to take effect.</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>During the period of suspension, the Commission shall establish an enhanced dialogue with the third country concerned with a view to remedying the circumstances in question.</p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <content>
+                        <p>Where the circumstances referred to in paragraphs 2, 3 and 4 of this Article persist, the Commission shall adopt, at the latest two months before the expiry of the nine-month period referred to in point (a) of this paragraph, a delegated act in accordance with Article 10, temporarily suspending the application of Annex II for a period of 18 months for all nationals of the third country concerned. The delegated act shall take effect from the date of expiry of the implementing act referred to in point (a) of this paragraph and shall amend Annex II accordingly. That amendment shall be made by inserting a footnote next to the name of the third country in question, indicating that the exemption from the visa requirement is suspended with regard to that third country and specifying the period of that suspension.</p>
+                     </content>
+                  </point>
+               </list>
+               <subparagraph>
+                  <content>
+                     <p>Where the Commission has submitted a legislative proposal pursuant to paragraph 7, the period of suspension of the exemption from the visa requirement provided for in the delegated act shall be extended by six months. The footnote shall be amended accordingly.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>Without prejudice to the application of Article 6, during the period of suspension, the nationals of the third country concerned shall be required to be in possession of a visa when crossing the external borders of the Member States.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>A Member State which, in accordance with Article 6, provides for new exemptions from the visa requirement for a category of nationals of the third country covered by the act suspending the exemption from the visa requirement shall communicate those measures in accordance with Article 12.</p>
+                  </content>
+               </subparagraph>
+            </paragraph>
+            <paragraph>
+               <num>7.</num>
+               <content>
+                  <p>Before the end of the period of validity of the delegated act adopted pursuant to point (b) of paragraph 6, the Commission shall submit a report to the European Parliament and to the Council. The report may be accompanied by a legislative proposal to amend this Regulation in order to transfer the reference to the third country concerned from Annex II to Annex I.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>8.</num>
+               <content>
+                  <p>Where the Commission has submitted a legislative proposal pursuant to paragraph 7, it may extend the validity of the implementing act adopted pursuant to point (a) of paragraph 6 of this Article by a period not exceeding 12 months. The decision to extend the validity of the implementing act shall be adopted in accordance with the examination procedure referred to in Article 11(2).</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d440e1000">
+            <num>Article 9</num>
+            <heading/>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>By 10 January 2018, the Commission shall submit a report to the European Parliament and to the Council assessing the effectiveness of the reciprocity mechanism provided for in Article 7 and shall, if necessary, submit a legislative proposal to amend this Regulation. The European Parliament and the Council shall act on any such proposal in accordance with the ordinary legislative procedure.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>By 29 March 2021, the Commission shall submit a report to the European Parliament and to the Council assessing the effectiveness of the suspension mechanism provided for in Article 8 and shall, if necessary, submit a legislative proposal to amend this Regulation. The European Parliament and the Council shall act on any such proposal in accordance with the ordinary legislative procedure.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d440e1020">
+            <num>Article 10</num>
+            <heading/>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>The power to adopt delegated acts is conferred on the Commission subject to the conditions laid down in this Article.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>The power to adopt delegated acts referred to in point (f) of Article 7 shall be conferred on the Commission for a period of five years from 9 January 2014. The Commission shall draw up a report in respect of the delegation of power not later than nine months before the end of the five-year period. The delegation of power shall be tacitly extended for periods of an identical duration, unless the European Parliament or the Council opposes such extension not later than three months before the end of each period.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <content>
+                  <p>The power to adopt delegated acts referred to in point (b) of Article 8(6) shall be conferred on the Commission for a period of five years from 28 March 2017. The Commission shall draw up a report in respect of the delegation of power not later than nine months before the end of the five-year period. The delegation of power shall be tacitly extended for periods of an identical duration, unless the European Parliament or the Council opposes such extension not later than three months before the end of each period.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>4.</num>
+               <content>
+                  <p>The delegation of power referred to in point (f) of Article 7 and in point (b) of Article 8(6) may be revoked at any time by the European Parliament or by the Council. A decision to revoke shall put an end to the delegation of the power specified in that decision. It shall take effect the day following the publication of the decision in the <i>Official Journal of the European Union</i> or at a later date specified therein. It shall not affect the validity of any delegated acts already in force.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>5.</num>
+               <content>
+                  <p>Before adopting a delegated act, the Commission shall consult experts designated by each Member State in accordance with the principles laid down in the Interinstitutional Agreement of 13 April 2016 on Better Law-Making.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>6.</num>
+               <content>
+                  <p>As soon as it adopts a delegated act, the Commission shall notify it simultaneously to the European Parliament and to the Council.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>7.</num>
+               <content>
+                  <p>A delegated act adopted pursuant to point (f) of Article 7 shall enter into force only if no objection has been expressed either by the European Parliament or the Council within a period of four months of notification of that act to the European Parliament and the Council or if, before the expiry of that period, the European Parliament and the Council have both informed the Commission that they will not object. That period shall be extended by two months at the initiative of the European Parliament or of the Council.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>8.</num>
+               <content>
+                  <p>A delegated act adopted pursuant to point (b) of Article 8(6) shall enter into force only if no objection has been expressed either by the European Parliament or by the Council within a period of two months of notification of that act to the European Parliament and to the Council or if, before the expiry of that period, the European Parliament and the Council have both informed the Commission that they will not object.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d440e1076">
+            <num>Article 11</num>
+            <heading/>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>The Commission shall be assisted by a committee. That committee shall be a committee within the meaning of Regulation (EU) No 182/2011.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>Where reference is made to this paragraph, Article 5 of Regulation (EU) No 182/2011 shall apply.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <content>
+                  <p>Where the committee delivers no opinion, the Commission shall not adopt the draft implementing act and the third subparagraph of Article 5(4) of Regulation (EU) No 182/2011 shall apply.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d440e1094">
+            <num>Article 12</num>
+            <heading/>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>Member States shall communicate to the other Member States and the Commission the measures they take pursuant to Article 6, within five working days of the adoption of those measures.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>The Commission shall publish the measures communicated pursuant to paragraph 1 in the <i>Official Journal of the European Union</i> for information.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d440e1110">
+            <num>Article 13</num>
+            <heading/>
+            <paragraph>
+               <content>
+                  <p>This Regulation shall not affect the competence of Member States with regard to the recognition of States and territorial units and passports, travel and identity documents issued by their authorities.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d440e1116">
+            <num>Article 14</num>
+            <heading/>
+            <paragraph>
+               <content>
+                  <p>Regulation (EC) No 539/2001 is repealed.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <content>
+                  <p>References to the repealed Regulation shall be construed as references to this Regulation and shall be read in accordance with the correlation table in Annex IV.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d440e1123">
+            <num>Article 15</num>
+            <heading/>
+            <paragraph>
+               <content>
+                  <p>This Regulation shall enter into force on the twentieth day following that of its publication in the <i>Official Journal of the European Union</i>.</p>
+               </content>
+            </paragraph>
+         </article>
+         <clause>
+            <content>
+               <p>This Regulation shall be binding in its entirety and directly applicable in the Member States in accordance with the Treaties.</p>
+            </content>
+         </clause>
+      </body>
+      <conclusions>
+         <p>Done at Strasbourg, 14 November 2018.</p>
+         <block name="signatory">
+            <signature>
+               <organization refersTo="">For the European Parliament</organization>
+               <role refersTo="">The President</role>
+               <person refersTo="">A. TAJANI</person>
+            </signature>
+            <signature>
+               <organization refersTo="">For the Council</organization>
+               <role refersTo="">The President</role>
+               <person refersTo="">K. EDTSTADLER</person>
+            </signature>
+         </block>
+      </conclusions>
+   </bill>
+</akomaNtoso>

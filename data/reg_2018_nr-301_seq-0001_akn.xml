@@ -1,0 +1,1182 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"
+            xmlns:fmx="http://formex.publications.europa.eu/schema/formex-05.21-20110601.xd"
+            xmlns:leos="urn:eu:europa:ec:leos"
+            xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <bill name="">
+      <meta xmlns:fn="http://www.w3.org/2005/xpath-functions">
+         <identification source="~COM">
+            <FRBRWork>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRcountry value=""/>
+            </FRBRWork>
+            <FRBRExpression>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+            </FRBRManifestation>
+         </identification>
+      </meta>
+      <preface>
+         <longTitle>
+            <p>
+               <docStage/>
+               <docType>COMMISSION REGULATION (EU) 2018/1832</docType>of 5 November 2018<docPurpose>amending Directive 2007/46/EC of the European Parliament and of the Council, Commission Regulation (EC) No 692/2008 and Commission Regulation (EU) 2017/1151 for the purpose of improving the emission type approval tests and procedures for light passenger and commercial vehicles, including those for in-service conformity and real-driving emissions and introducing devices for monitoring the consumption of fuel and electric energy</docPurpose>
+            </p>
+         </longTitle>
+         <container name="EEArelevance">
+            <p>(Text with EEA relevance)</p>
+         </container>
+      </preface>
+      <preamble>
+         <formula name="actingEntity">
+            <p>THE EUROPEAN COMMISSION,</p>
+         </formula>
+         <citations>
+            <citation>
+               <p>Having regard to the Treaty on the Functioning of the European Union,</p>
+            </citation>
+            <citation>
+               <p>Having regard to Regulation (EC) No 715/2007 of the European Parliament and of the Council of 20 June 2007 on type approval of motor vehicles with respect to emissions from light passenger and commercial vehicles (Euro 5 and Euro 6) and on access to vehicle repair and maintenance information<authorialNote placement="bottom" marker="1">
+                     <p>OJ L 171, 29.6.2007, p. 1.</p>
+                  </authorialNote>, and in particular Articles 5(3) and 14(3) thereof,</p>
+            </citation>
+            <citation>
+               <p>Having regard to Directive 2007/46/EC of the European Parliament and of the Council of 5 September 2007 establishing a framework for the approval of motor vehicles and their trailers, and of systems, components and separate technical units intended for such vehicles (Framework Directive)<authorialNote placement="bottom" marker="2">
+                     <p>OJ L 263, 9.10.2007, p. 1.</p>
+                  </authorialNote>, and in particular Article 39(2) thereof,</p>
+            </citation>
+         </citations>
+         <recitals xml:id="recs_d389e82">
+            <intro>
+               <p>Whereas:</p>
+            </intro>
+            <recital xml:id="rec_d389e85">
+               <num>(1)</num>
+               <p>Regulation (EC) No 715/2007 is a separate act under the type-approval procedure laid down by Directive 2007/46/EC. It requires new light passenger and commercial vehicles to comply with certain emission limits and lays down additional requirements on access to vehicle repair and maintenance information. The specific technical provisions necessary to implement that Regulation are contained in Commission Regulation (EU) 2017/1151<authorialNote placement="bottom" marker="3">
+                     <p>Commission Regulation (EU) 2017/1151 of 1 June 2017 supplementing Regulation (EC) No 715/2007 of the European Parliament and of the Council on type-approval of motor vehicles with respect to emissions from light passenger and commercial vehicles (Euro 5 and Euro 6) and on access to vehicle repair and maintenance information, amending Directive 2007/46/EC of the European Parliament and of the Council, Commission Regulation (EC) No 692/2008 and Commission Regulation (EU) No 1230/2012 and repealing Regulation (EC) No 692/2008 (OJ L 175, 7.7.2017, p. 1).</p>
+                  </authorialNote>, which replaces and repeals Commission Regulation (EC) No 692/2008<authorialNote placement="bottom" marker="4">
+                     <p>Commission Regulation (EC) No 692/2008 of 18 July 2008 implementing and amending Regulation (EC) No 715/2007 of the European Parliament and of the Council on type-approval of motor vehicles with respect to emissions from light passenger and commercial vehicles (Euro 5 and Euro 6) and on access to vehicle repair and maintenance information (OJ L 199, 28.7.2008, p. 1).</p>
+                  </authorialNote>.</p>
+            </recital>
+            <recital xml:id="rec_d389e111">
+               <num>(2)</num>
+               <p>Some of the effects of Commission Regulation (EC) No 692/2008 remain until it is repealed as from 1 January 2022. However, it is necessary to clarify that such effects include the possibility to request extensions of existing type-approvals granted under this Regulation.</p>
+            </recital>
+            <recital xml:id="rec_d389e121">
+               <num>(3)</num>
+               <p>By Regulation (EU) 2017/1151, a new regulatory test procedure implementing the Worldwide Harmonised Light Vehicles Test Procedure (WLTP) was introduced into Union legislation. The WLTP contains stricter and more detailed conditions for the execution of the emissions tests at type approval.</p>
+            </recital>
+            <recital xml:id="rec_d389e127">
+               <num>(4)</num>
+               <p>In addition, by Commission Regulations (EU) 2016/427<authorialNote placement="bottom" marker="5">
+                     <p>Commission Regulation (EU) 2016/427 of 10 March 2016 amending Regulation (EC) No 692/2008 as regards emissions from light passenger and commercial vehicles (Euro 6) (OJ L 82, 31.3.2016, p. 1).</p>
+                  </authorialNote>, (EU) 2016/646<authorialNote placement="bottom" marker="6">
+                     <p>Commission Regulation (EU) 2016/646 of 20 April 2016 amending Regulation (EC) No 692/2008 as regards emissions from light passenger and commercial vehicles (Euro 6) (OJ L 109, 26.4.2016, p. 1).</p>
+                  </authorialNote> and (EU) 2017/1154<authorialNote placement="bottom" marker="7">
+                     <p>Commission Regulation (EU) 2017/1154 of 7 June 2017 amending Regulation (EU) 2017/1151 supplementing Regulation (EC) No 715/2007 of the European Parliament and of the Council on type-approval of motor vehicles with respect to emissions from light passenger and commercial vehicles (Euro 5 and Euro 6) and on access to vehicle repair and maintenance information, amending Directive 2007/46/EC of the European Parliament and of the Council, Commission Regulation (EC) No 692/2008 and Commission Regulation (EU) No 1230/2012 and repealing Regulation (EC) No 692/2008 and Directive 2007/46/EC of the European Parliament and of the Council as regards real-driving as regards emissions from light passenger and commercial vehicles (Euro 6) (OJ L 175, 7.7.2017, p. 708).</p>
+                  </authorialNote> a new methodology for testing vehicle emissions in real-driving conditions, the RDE test procedure, was introduced.</p>
+            </recital>
+            <recital xml:id="rec_d389e163">
+               <num>(5)</num>
+               <p>In order for the WLTP test to be possible, some margin of tolerance is necessary. However, the test tolerance should not be exploited to obtain results different from those associated with the execution of the test at set-point conditions. Therefore, in order to provide a level playing field among different vehicle manufacturers and to ensure that the measured CO<sub>2</sub> and fuel consumption values are more in line with real life, a method to normalise the impact of specific test tolerances on CO<sub>2</sub> and fuel consumption test results should be introduced.</p>
+            </recital>
+            <recital xml:id="rec_d389e175">
+               <num>(6)</num>
+               <p>The fuel and/or electric energy consumption values resulting from the regulatory laboratory test procedures should be complemented by information on the vehicles&apos; average real-world consumption when used on the road. Such information, once anonymised, collected and aggregated, is essential for assessing that the regulatory test procedures adequately reflect the average real world CO<sub>2</sub> emissions as well as the fuel and/or electric energy consumed. Moreover, the availability at the vehicle of instantaneous fuel consumption information should facilitate on-road testing.</p>
+            </recital>
+            <recital xml:id="rec_d389e184">
+               <num>(7)</num>
+               <p>To ensure a timely assessment of the representativeness of the new regulatory test procedures, in particular for vehicles with large market shares, the scope of the new requirements for on-board fuel consumption monitoring should be in a first instance limited to conventional and hybrid vehicles running on liquid fuels and to plug-in hybrid vehicles, as these are to-date the only powertrains covered by corresponding technical standards.</p>
+            </recital>
+            <recital xml:id="rec_d389e190">
+               <num>(8)</num>
+               <p>The quantity of fuel and/or electric energy used is already being determined and stored on board of most new vehicles; however, the devices presently used to monitor this information are not subject to standardised requirements. In order to ensure that the data provided by these devices are accessible and may serve as a harmonised basis for a comparison between different vehicle categories and manufacturers, basic type-approval requirements with regard to the devices should be laid down.</p>
+            </recital>
+            <recital xml:id="rec_d389e196">
+               <num>(9)</num>
+               <p>Regulation (EU) 2016/646 introduced the requirement for the manufacturers to declare the use of auxiliary emission strategies. In addition, Regulation (EU) 2017/1154 increased the supervision of emission strategies by the type approval authorities. However, the application of those requirements has highlighted the need to harmonise the application of the rules on auxiliary emission strategies by the different type approval authorities. Therefore it is appropriate to lay down a common format for the extended documentation package and a common methodology for the assessment of auxiliary emission strategies.</p>
+            </recital>
+            <recital xml:id="rec_d389e203">
+               <num>(10)</num>
+               <p>The decision to allow access, if requested, to the manufacturer&apos;s extended documentation package should be left to the national authorities and therefore the confidentiality clause linked to this document should be deleted from Regulation (EU) 2017/1151. This deletion should be without prejudice to the uniform application of the legislation throughout the Union, as well as the possibility for all parties to access all relevant information for conducting RDE testing.</p>
+            </recital>
+            <recital xml:id="rec_d389e209">
+               <num>(11)</num>
+               <p>After the introduction of the RDE tests at the stage of type approval, it is now necessary to update the rules on in-service conformity checks in order to ensure that the real driving emissions are also effectively limited during the normal life of the vehicles under normal conditions of use.</p>
+            </recital>
+            <recital xml:id="rec_d389e216">
+               <num>(12)</num>
+               <p>The application of the new RDE during in-service conformity checks will require more resources for the performance of the in-service conformity testing of a vehicle and the evaluation of its results. In order to balance the need to perform effective in-service conformity tests with the increased testing burden, the maximum number of vehicles in a statistical sample and the pass and fail criteria for the sample applicable to all in-service conformity testing should be adapted.</p>
+            </recital>
+            <recital xml:id="rec_d389e222">
+               <num>(13)</num>
+               <p>In-service conformity checks currently cover only pollutant emissions measured through the Type 1 test. However, in order to ensure that the requirements of Regulation (EC) No 715/2007 are met, they should be extended to tailpipe and evaporative emissions. Therefore, Type 4 and Type 6 tests should be introduced for the purposes of in-service conformity tests. Due to the cost and complexity of such tests, they should remain optional.</p>
+            </recital>
+            <recital xml:id="rec_d389e228">
+               <num>(14)</num>
+               <p>A review of the current in-service conformity tests, performed by the manufacturers, revealed that very few fails were reported to type approval authorities although recall campaigns and other voluntary actions related to emissions were implemented by the manufacturers. Therefore, it is necessary to introduce more transparency and control in the in-service conformity checks.</p>
+            </recital>
+            <recital xml:id="rec_d389e234">
+               <num>(15)</num>
+               <p>In order to control the in-service conformity process more effectively, type approval authorities should be responsible for performing tests and checks on a percentage of the approved vehicle types each year.</p>
+            </recital>
+            <recital xml:id="rec_d389e240">
+               <num>(16)</num>
+               <p>In order to facilitate the information flows generated by in-service conformity testing, as well as to assist type-approval authorities in the decision making process, an electronic platform should be developed by the Commission.</p>
+            </recital>
+            <recital xml:id="rec_d389e246">
+               <num>(17)</num>
+               <p>In order to improve the vehicle selection process for the testing by type-approval authorities, information is needed that could identify potential problems and vehicle types with high emissions. Remote sensing, simplified on-board emissions monitoring systems (SEMS) and testing with portable emission measurement systems (PEMS) should be recognised as valid tools for providing information to the type-approval authorities that can guide the selection of vehicles to test.</p>
+            </recital>
+            <recital xml:id="rec_d389e252">
+               <num>(18)</num>
+               <p>Ensuring the quality of the in-service conformity tests is essential. It is therefore necessary to lay down the rules on the accreditation of testing laboratories.</p>
+            </recital>
+            <recital xml:id="rec_d389e258">
+               <num>(19)</num>
+               <p>In order to allow testing, all relevant information needs to be publicly accessible. In addition, some of the information needed for the performance of in-service conformity checks should be easily available and should therefore be indicated in the certificate of conformity.</p>
+            </recital>
+            <recital xml:id="rec_d389e265">
+               <num>(20)</num>
+               <p>In order to increase the transparency of the in-service conformity process, type approval authorities should be required to publish an annual report with the results of their in-service conformity checks.</p>
+            </recital>
+            <recital xml:id="rec_d389e271">
+               <num>(21)</num>
+               <p>The methodologies prescribed in order to ensure that only trips made under normal conditions be considered valid RDE tests led to too many invalid tests and should therefore be reviewed and simplified.</p>
+            </recital>
+            <recital xml:id="rec_d389e277">
+               <num>(22)</num>
+               <p>A review of the methodologies for the evaluation of the pollutant emissions of a valid trip showed that the results of the two methods currently allowed are not consistent. A new simple and transparent methodology should therefore be laid down. The evaluation factors used in the new methodology should be kept under constant assessment by the Commission in order to reflect the actual state of the technology.</p>
+            </recital>
+            <recital xml:id="rec_d389e283">
+               <num>(23)</num>
+               <p>The use of plug-in hybrids, which are used partly in electric mode and partly with the internal combustion engine, should be duly taken into account for the purposes of RDE testing and therefore the calculated RDE emissions should reflect that advantage.</p>
+            </recital>
+            <recital xml:id="rec_d389e289">
+               <num>(24)</num>
+               <p>A new evaporative emissions test procedure has been developed at the level of the United Nations Economic Commission for Europe (UN/ECE) which takes into account the technological progress in the control of evaporative emissions from petrol (gasoline) vehicles, adapts that procedure to the WLTP test procedure and introduces new provisions for sealed tanks. It is therefore appropriate to update the current Union rules on evaporative emissions tests to reflect the changes at the level of the UN/ECE.</p>
+            </recital>
+            <recital xml:id="rec_d389e296">
+               <num>(25)</num>
+               <p>Also under the auspices of the UN/ECE, the WLTP test procedure has been further improved and complemented with a series of new elements, including alternative ways to measure the road load parameters of a vehicle, more clear provisions for bi-fuel vehicles, improvements of the CO<sub>2</sub> interpolation method, updates related to dual-axis dynamometer requirements and tyre rolling resistances. Those new developments should now be incorporated into Union legislation.</p>
+            </recital>
+            <recital xml:id="rec_d389e305">
+               <num>(26)</num>
+               <p>The practical experience with the application of the WLTP since its mandatory introduction for new vehicle types in the Union on 1 September 2017 has shown that this procedure should be further adapted to the Union type-approval system, in particular as regards the information to be included in the relevant documentation.</p>
+            </recital>
+            <recital xml:id="rec_d389e314">
+               <num>(27)</num>
+               <p>The changes in the type-approval documentation resulting from the amendments in this Regulation need to be reflected also in the certificate of conformity and the whole vehicle type-approval documentation in Directive 2007/46/EC.</p>
+            </recital>
+            <recital xml:id="rec_d389e320">
+               <num>(28)</num>
+               <p>It is therefore appropriate to amend Regulation (EU) 2017/1151, Regulation (EC) No 692/2008 and Directive 2007/46/EC accordingly.</p>
+            </recital>
+            <recital xml:id="rec_d389e326">
+               <num>(29)</num>
+               <p>The measures provided for in this Regulation are in accordance with the opinion of the Technical Committee &#45; Motor Vehicles,</p>
+            </recital>
+         </recitals>
+         <formula name="enactingFormula">
+            <p>HAS ADOPTED THIS REGULATION:</p>
+         </formula>
+      </preamble>
+      <body>
+         <article xml:id="art_d389e335" leos:compliant="false">
+            <num>Article 1</num>
+            <heading>Amendments to Regulation (EU) 2017/1151</heading>
+            <paragraph>
+               <subparagraph>
+                  <content>
+                     <p>Regulation (EU) 2017/1151 is amended as follows:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(1)</num>
+                     <alinea>
+                        <content>
+                           <p>Article 2 is amended as follows:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <alinea>
+                              <content>
+                                 <p>point 1(b) is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <point>
+                                             <num>&apos;(b)</num>
+                                             <content>
+                                                <p>fall in a single &quot;CO<sub>2</sub> interpolation range&quot; within the meaning of point 2.3.2 of Sub-Annex 6 to Annex XXI;&apos;;</p>
+                                             </content>
+                                          </point>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <alinea>
+                              <content>
+                                 <p>point 6 is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <list>
+                                             <point>
+                                                <num>&apos;(6)</num>
+                                                <content>
+                                                   <p>&quot;periodically regenerating system&quot; means an exhaust emissions control device (e.g. catalytic converter, particulate trap) that requires a periodic regeneration process;&apos;;</p>
+                                                </content>
+                                             </point>
+                                          </list>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(c)</num>
+                           <alinea>
+                              <content>
+                                 <p>points 11 and 12 are replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <list>
+                                             <point>
+                                                <num>&apos;(11)</num>
+                                                <content>
+                                                   <p>&quot;bi-fuel vehicle&quot; means a vehicle with two separate fuel storage systems that is designed to run primarily on only one fuel at a time;</p>
+                                                </content>
+                                             </point>
+                                             <point>
+                                                <num>(12)</num>
+                                                <content>
+                                                   <p>&quot;bi-fuel gas vehicle&quot; means a bi-fuel vehicle where the two fuels are petrol (petrol mode) and either LPG, NG/biomethane, or hydrogen;&apos;;</p>
+                                                </content>
+                                             </point>
+                                          </list>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(d)</num>
+                           <alinea>
+                              <content>
+                                 <p>the following point 33 is inserted:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <list>
+                                             <point>
+                                                <num>&apos;(33)</num>
+                                                <content>
+                                                   <p>&quot;pure ICE vehicle&quot; means a vehicle where all of the propulsion energy converters are internal combustion engines;&apos;;</p>
+                                                </content>
+                                             </point>
+                                          </list>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(e)</num>
+                           <alinea>
+                              <content>
+                                 <p>point 38 is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <list>
+                                             <point>
+                                                <num>&apos;(38)</num>
+                                                <content>
+                                                   <p>&quot;rated engine power&quot; (P<sub>rated</sub>) means the maximum net power of the engine or motor in kW measured in accordance with the requirements of Annex XX;&apos;;</p>
+                                                </content>
+                                             </point>
+                                          </list>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(f)</num>
+                           <alinea>
+                              <content>
+                                 <p>points 45 to 48 are replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <list>
+                                             <point>
+                                                <num>&apos;(45)</num>
+                                                <content>
+                                                   <p>&quot;Fuel tank system&quot; means the devices which allow storing the fuel, comprising the fuel tank, the fuel filler, the filler cap and the fuel pump when it is fitted in or on the fuel tank;</p>
+                                                </content>
+                                             </point>
+                                             <point>
+                                                <num>(46)</num>
+                                                <content>
+                                                   <p>&quot;permeability factor&quot; (PF) means the factor determined on the basis of hydrocarbon losses over a period of time and used to determine the final evaporative emissions;</p>
+                                                </content>
+                                             </point>
+                                             <point>
+                                                <num>(47)</num>
+                                                <content>
+                                                   <p>&quot;monolayer non-metal tank&quot; means a fuel tank constructed with a single layer of non-metal material including fluorinated/sulfonated materials;</p>
+                                                </content>
+                                             </point>
+                                             <point>
+                                                <num>(48)</num>
+                                                <content>
+                                                   <p>&quot;multilayer tank&quot; means a fuel tank constructed with at least two different layered materials, one of which is a hydrocarbon barrier material;&apos;;</p>
+                                                </content>
+                                             </point>
+                                          </list>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                     </list>
+                  </point>
+                  <point>
+                     <num>(2)</num>
+                     <alinea>
+                        <content>
+                           <p>Article 3 is amended as follows:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(1)</num>
+                           <alinea>
+                              <content>
+                                 <p>paragraph 1 is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <paragraph>
+                                             <num>&apos;1.</num>
+                                             <content>
+                                                <p>In order to receive an EC type-approval with regard to emissions and vehicle repair and maintenance information, the manufacturer shall demonstrate that the vehicles comply with the requirements of this Regulation when tested in accordance with the test procedures specified in Annexes IIIA to VIII, XI, XIV, XVI, XX, XXI and XXII. The manufacturer shall also ensure that the reference fuels comply with the specifications set out in Annex IX.&apos;;</p>
+                                             </content>
+                                          </paragraph>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(2)</num>
+                           <alinea>
+                              <content>
+                                 <p>paragraph 7 is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <paragraph>
+                                             <num>&apos;7.</num>
+                                             <subparagraph>
+                                                <content>
+                                                   <p>For the Type 1 test set out in Annex XXI, vehicles that are fuelled with LPG or NG/biomethane shall be tested in the Type 1 test for variation in the composition of LPG or NG/biomethane, as set out in Annex 12 to UN/ECE Regulation No 83 for pollutant emissions, with the fuel used for the measurement of the net power in accordance with Annex XX to this Regulation.</p>
+                                                </content>
+                                             </subparagraph>
+                                             <subparagraph>
+                                                <content>
+                                                   <p>Vehicles that can be fuelled both with petrol or LPG or NG/biomethane shall be tested on both the fuels, tests on LPG or NG/biomethane being performed for variation in the composition of LPG or NG/biomethane, as set out in Annex 12 to UN/ECE Regulation No 83, and with the fuel used for the measurement of the net power in accordance with Annex XX to this Regulation.&apos;;</p>
+                                                </content>
+                                             </subparagraph>
+                                          </paragraph>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                     </list>
+                  </point>
+                  <point>
+                     <num>(3)</num>
+                     <alinea>
+                        <content>
+                           <p>the following Article 4a is inserted:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <article xml:id="art_d389e570">
+                                       <num>&apos;Article 4a</num>
+                                       <heading>Requirements for type-approval regarding devices for monitoring the consumption of fuel and/or electric energy</heading>
+                                       <paragraph>
+                                          <subparagraph>
+                                             <content>
+                                                <p>The manufacturer shall ensure that the following vehicles of categories M1 and N1 are equipped with a device for determining, storing and making available data on the quantity of fuel and/or electric energy used for the operation of the vehicle:</p>
+                                             </content>
+                                          </subparagraph>
+                                          <list>
+                                             <point>
+                                                <num>(1)</num>
+                                                <content>
+                                                   <p>pure ICE and Not-Off-Vehicle Charging Hybrid Electric vehicles (NOVC-HEVs) powered exclusively by mineral diesel, biodiesel, petrol, ethanol or any combination of these fuels;</p>
+                                                </content>
+                                             </point>
+                                             <point>
+                                                <num>(2)</num>
+                                                <content>
+                                                   <p>Off-Vehicle Charging Hybrid Electric Vehicles (OVC-HEVs) powered by electricity and any of the fuels mentioned in point 1.</p>
+                                                </content>
+                                             </point>
+                                          </list>
+                                       </paragraph>
+                                       <paragraph>
+                                          <content>
+                                             <p>The device for monitoring the consumption of fuel and/or electric energy shall comply with the requirements laid down in Annex XXII.&apos;;</p>
+                                          </content>
+                                       </paragraph>
+                                    </article>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(4)</num>
+                     <alinea>
+                        <content>
+                           <p>Article 5 is amended as follows:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <alinea>
+                              <content>
+                                 <p>paragraph 11 is amended as follows:</p>
+                              </content>
+                           </alinea>
+                           <list>
+                              <point>
+                                 <num>(a)</num>
+                                 <alinea>
+                                    <content>
+                                       <p>the second subparagraph is replaced by the following:</p>
+                                    </content>
+                                 </alinea>
+                                 <alinea>
+                                    <content>
+                                       <p>
+                                          <mod>
+                                             <quotedStructure startQuote="" endQuote="">
+                                                <paragraph>
+                                                   <content>
+                                                      <p>&apos;The extended documentation package shall be identified and dated by the approval authority and kept by that authority for at least 10 years after the approval is granted.&apos;;</p>
+                                                   </content>
+                                                </paragraph>
+                                             </quotedStructure>
+                                          </mod>
+                                       </p>
+                                    </content>
+                                 </alinea>
+                              </point>
+                              <point>
+                                 <num>(b)</num>
+                                 <alinea>
+                                    <content>
+                                       <p>the following third to sixth subparagraphs are added:</p>
+                                    </content>
+                                 </alinea>
+                                 <alinea>
+                                    <content>
+                                       <p>
+                                          <mod>
+                                             <quotedStructure startQuote="" endQuote="">
+                                                <paragraph>
+                                                   <content>
+                                                      <p>&apos;At the request of the manufacturer, the approval authority shall conduct a preliminary assessment of the AES for new vehicle types. In that case, the relevant documentation shall be provided to the type approval authority between 2 and 12 months before the start of the type-approval process.</p>
+                                                   </content>
+                                                </paragraph>
+                                                <paragraph>
+                                                   <content>
+                                                      <p>The approval authority shall make a preliminary assessment on the basis of the extended documentation package, as described in point (b) of Appendix 3a to Annex I, provided by the manufacturer. The approval authority shall make the assessment in accordance with the methodology described in Appendix 3b of Annex I. The approval authority may deviate from that methodology in exceptional and duly justified cases.</p>
+                                                   </content>
+                                                </paragraph>
+                                                <paragraph>
+                                                   <content>
+                                                      <p>The preliminary assessment of the AES for new vehicle types shall remain valid for the purposes of type approval for a period of 18 months. That period may be extended by a further 12 months if the manufacturer provides to the approval authority proof that no new technologies have become accessible in the market that would change the preliminary assessment of the AES.</p>
+                                                   </content>
+                                                </paragraph>
+                                                <paragraph>
+                                                   <content>
+                                                      <p>A list of AES which were deemed non-acceptable by Type Approval Authorities shall be compiled yearly by the Type-Approval Authorities Expert Group (TAAEG) and made available to the public by the Commission.&apos;;</p>
+                                                   </content>
+                                                </paragraph>
+                                             </quotedStructure>
+                                          </mod>
+                                       </p>
+                                    </content>
+                                 </alinea>
+                              </point>
+                           </list>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <alinea>
+                              <content>
+                                 <p>The following paragraph 12 is inserted:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <paragraph>
+                                             <num>&apos;12.</num>
+                                             <content>
+                                                <p>The manufacturer shall also provide the type approval authority which granted the emission type-approval under this Regulation (&quot;granting approval authority&quot;) with a package on Testing Transparency containing the necessary information in order to allow the performance of testing in accordance with point 5.9 of Part B of Annex II.&apos;;</p>
+                                             </content>
+                                          </paragraph>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                     </list>
+                  </point>
+                  <point>
+                     <num>(5)</num>
+                     <alinea>
+                        <content>
+                           <p>Article 9 is amended as follows:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <alinea>
+                              <content>
+                                 <p>paragraphs 2 to 6 are replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <paragraph>
+                                             <num>&apos;2.</num>
+                                             <content>
+                                                <p>The in-service conformity checks shall be appropriate for confirming that tailpipe and evaporative emissions are effectively limited during the normal life of vehicles under normal conditions of use.</p>
+                                             </content>
+                                          </paragraph>
+                                          <paragraph>
+                                             <num>3.</num>
+                                             <subparagraph>
+                                                <content>
+                                                   <p>In-service conformity shall be checked on properly maintained and used vehicles, in accordance with Appendix 1 of Annex II, between 15000 km or 6 months whichever occurs later and 100000 km or 5 years whichever occurs sooner. In service conformity for evaporative emissions shall be checked on properly maintained and used vehicles, in accordance with Appendix 1 of Annex II, between 30000 km or 12 months whichever occurs later and 100000 km or 5 years whichever occurs sooner.</p>
+                                                </content>
+                                             </subparagraph>
+                                             <subparagraph>
+                                                <content>
+                                                   <p>The requirements for in-service conformity checks are applicable until 5 years after the last Certificate of Conformity or individual approval certificate is issued for vehicles of that in-service conformity family.</p>
+                                                </content>
+                                             </subparagraph>
+                                          </paragraph>
+                                          <paragraph>
+                                             <num>4.</num>
+                                             <content>
+                                                <p>In-service conformity checks shall not be mandatory if the annual sales of the in-service conformity family are less than 5000 vehicles in the Union for the previous year. For such families, the manufacturer shall provide the approval authority with a report of any emissions related warranty, repair claim and OBD fault as set out in point 4.1 of Annex II. Such in-service conformity families may still be selected to be tested in accordance with Annex II.</p>
+                                             </content>
+                                          </paragraph>
+                                          <paragraph>
+                                             <num>5.</num>
+                                             <content>
+                                                <p>The manufacturer and the granting type approval authority shall perform in-service conformity checks in accordance with Annex II.</p>
+                                             </content>
+                                          </paragraph>
+                                          <paragraph>
+                                             <num>6.</num>
+                                             <content>
+                                                <p>The granting approval authority shall take the decision on whether a family failed the provisions of in-service conformity, following a compliance assessment and approve the plan of remedial measures presented by the manufacturer in accordance with Annex II.&apos;;</p>
+                                             </content>
+                                          </paragraph>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <alinea>
+                              <content>
+                                 <p>the following paragraphs 7 and 8 are added:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <paragraph>
+                                             <num>&apos;7.</num>
+                                             <subparagraph>
+                                                <content>
+                                                   <p>If a type approval authority has established that an in-service conformity family fails the in-service conformity check, it shall notify without delay the granting type approval authority, in accordance with Article 30(3) of Directive 2007/46/EC.</p>
+                                                </content>
+                                             </subparagraph>
+                                             <subparagraph>
+                                                <content>
+                                                   <p>Following that notification and subject to the provisions of Article 30(6) of Directive 2007/46/EC, the granting approval authority shall inform the manufacturer that an in-service conformity family fails the in-service conformity checks and that the procedures described in points 6 and 7 of Annex II shall be followed.</p>
+                                                </content>
+                                             </subparagraph>
+                                             <subparagraph>
+                                                <content>
+                                                   <p>If the granting approval authority establishes that no agreement can be reached with a type approval authority that has established that an in-service conformity family fails the in-service conformity check, the procedure pursuant to Article 30(6) of Directive 2007/46/EC shall be initiated.</p>
+                                                </content>
+                                             </subparagraph>
+                                          </paragraph>
+                                          <paragraph>
+                                             <num>8.</num>
+                                             <subparagraph>
+                                                <content>
+                                                   <p>In addition to points 1 to 7, the following shall apply to vehicles type approved according to Part B of Annex II.</p>
+                                                </content>
+                                             </subparagraph>
+                                             <list>
+                                                <point>
+                                                   <num>(a)</num>
+                                                   <content>
+                                                      <p>Vehicles submitted to multi-stage type-approval, as defined in Article 3(7) of Directive 2007/46/EC, shall be checked for in service conformity in accordance with the rules for multistage approval set out in point 5.10.6 of Part B of Annex II to this Regulation.</p>
+                                                   </content>
+                                                </point>
+                                                <point>
+                                                   <num>(b)</num>
+                                                   <content>
+                                                      <p>Armoured vehicles, hearses and wheelchair accessible vehicles, as defined in points 5.2 and 5.5 of Part A of Annex II to Directive 2007/46/EC respectively, shall not be subject to the provisions of this Article. All other special purpose vehicles as defined in point 5 of Part A of Annex II to Directive 2007/46/EC, shall be checked for in service conformity in accordance with the rules for multistage type-approvals set out in Part B of Annex II to this Regulation.&apos;;</p>
+                                                   </content>
+                                                </point>
+                                             </list>
+                                          </paragraph>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                     </list>
+                  </point>
+                  <point>
+                     <num>(6)</num>
+                     <alinea>
+                        <content>
+                           <p>Article 15 is amended as follows:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <alinea>
+                              <content>
+                                 <p>in paragraph 2, the second subparagraph is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <paragraph>
+                                             <content>
+                                                <p>&apos;With effect from 1 September 2019, national authorities shall refuse, on grounds relating to emissions or fuel consumption, to grant EC type approval or national type approval, in respect to new vehicle types which do not comply with Annex VI. At the request of the manufacturer, until 31 August 2019 the evaporative emissions test procedure set out in Annex 7 to UNECE Regulation 83 or the evaporative emissions test procedure set out in in Annex VI of Regulation (EC) No 692/2008 may still be used for the purposes of type-approval under this Regulation.&apos;;</p>
+                                             </content>
+                                          </paragraph>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <alinea>
+                              <content>
+                                 <p>in paragraph 3 the following subparagraph is added:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <paragraph>
+                                             <content>
+                                                <p>&apos;With the exception of vehicles approved for evaporative emissions under the procedure laid down in Annex VI of Regulation (EC) No 692/2008, with effect from 1 September 2019, national authorities shall prohibit the registration, sale or entry into service of new vehicles that do not comply with Annex VI of this Regulation.&apos;;</p>
+                                             </content>
+                                          </paragraph>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(c)</num>
+                           <content>
+                              <p>in paragraph 4, points (d) and (e) are deleted;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(d)</num>
+                           <alinea>
+                              <content>
+                                 <p>paragraph 5 is amended as follows:</p>
+                              </content>
+                           </alinea>
+                           <list>
+                              <point>
+                                 <num>(i)</num>
+                                 <alinea>
+                                    <content>
+                                       <p>point (b) is replaced by the following:</p>
+                                    </content>
+                                 </alinea>
+                                 <alinea>
+                                    <content>
+                                       <p>
+                                          <mod>
+                                             <quotedStructure startQuote="" endQuote="">
+                                                <point>
+                                                   <num>&apos;(b)</num>
+                                                   <content>
+                                                      <p>With respect to vehicles of a WLTP interpolation family which fulfil the extension rules specified in point 3.1.4 of Annex I of Regulation (EC) No 692/2008, procedures performed in accordance with Section 3.13 of Annex III to Regulation (EC) No 692/2008 until 3 years after the dates given in Article 10(4) of Regulation (EC) No 715/2007 shall be accepted by the approval authority for the purposes of fulfilling the requirements of Appendix 1 to Sub-Annex 6 to Annex XXI of this Regulation.;&apos;</p>
+                                                   </content>
+                                                </point>
+                                             </quotedStructure>
+                                          </mod>
+                                       </p>
+                                    </content>
+                                 </alinea>
+                              </point>
+                              <point>
+                                 <num>(ii)</num>
+                                 <alinea>
+                                    <content>
+                                       <p>the following is added in point (c):</p>
+                                    </content>
+                                 </alinea>
+                                 <alinea>
+                                    <content>
+                                       <p>
+                                          <mod>
+                                             <quotedStructure startQuote="" endQuote="">
+                                                <alinea>
+                                                   <content>
+                                                      <p>&apos;For the purposes of this point, the possibility to use test results from procedures performed and completed in accordance with Regulation (EC) No 692/2008 shall only be applicable to those vehicles of a WLTP interpolation family which fulfil the extension rules specified in point 3.3.1 of Annex I of Regulation (EC) No 692/2008&apos;;</p>
+                                                   </content>
+                                                </alinea>
+                                             </quotedStructure>
+                                          </mod>
+                                       </p>
+                                    </content>
+                                 </alinea>
+                              </point>
+                           </list>
+                        </point>
+                        <point>
+                           <num>(e)</num>
+                           <alinea>
+                              <content>
+                                 <p>the following paragraphs 8 to 11 are added</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <paragraph>
+                                             <num>&apos;8.</num>
+                                             <content>
+                                                <p>Part B of Annex II shall apply to categories M1, M2 and category N1 class I based on types approved from 1 January 2019, and for category N1 class II and III and category N2 based on types approved from 1 September 2019. It shall also apply to all vehicles registered from 1 September 2019 for categories M1, M2 and category N1 class I, and to all vehicles registered from 1 September 2020 for category N1 class II and III and category N2. In all other cases Part A of Annex II shall apply.</p>
+                                             </content>
+                                          </paragraph>
+                                          <paragraph>
+                                             <num>9.</num>
+                                             <subparagraph>
+                                                <content>
+                                                   <p>With effect from 1 January 2020 in the case of vehicles as referred to in Article 4a of categories M1 and N1, class I, and from 1 January 2021 in the case of vehicles as referred to in Article 4a of category N1 vehicles, classes II and III, national authorities shall refuse, on grounds relating to emissions or fuel consumption, to grant EC type approval or national type approval in respect of new vehicle types which do not meet the requirements laid down in Article 4a.</p>
+                                                </content>
+                                             </subparagraph>
+                                             <subparagraph>
+                                                <content>
+                                                   <p>With effect from 1 January 2021, in the case vehicles as referred to in Article 4a of categories M1 and N1, class I, and from 1 January 2022 in the case of vehicles as referred to in Article 4a of category N1 vehicles, classes II and III, national authorities shall prohibit the registration, sale or entry into service of new vehicles that do not comply with that Article.</p>
+                                                </content>
+                                             </subparagraph>
+                                          </paragraph>
+                                          <paragraph>
+                                             <num>10.</num>
+                                             <subparagraph>
+                                                <content>
+                                                   <p>With effect from 1 September 2019 national authorities shall prohibit the registration, sale or entry into service of new vehicles that do not comply with the requirements set out in Annex IX of the Directive 2007/46/EC as amended by Commission Regulation (EU) 2018/1832<authorialNote placement="bottom" marker="8">
+                                                         <p>Commission Regulation (EU) 2018/1832 of 5 November 2018 amending Directive 2007/46/EC of the European Parliament and of the Council, Commission Regulation (EC) No 692/2008 and Commission Regulation (EU) 2017/1151 for the purpose of improving the emission type approval tests and procedures for light passenger and commercial vehicles, including those for in-service conformity and real-driving emissions and introducing devices for monitoring the consumption of fuel and electric energy (OJ L 301, 27.11.2018, p. 1).&apos;;</p>
+                                                      </authorialNote>.</p>
+                                                </content>
+                                             </subparagraph>
+                                             <subparagraph>
+                                                <content>
+                                                   <p>For all vehicles registered between 1 January and 31 August 2019 under new type approvals granted in the same period and where the information listed in Annex IX of the Directive 2007/46/EC as amended by Regulation (EU) 2018/1832 is not yet included in the Certificate of Conformity, the manufacturer shall make this information available free-of-charge within 5 working days of the request by an accredited lab or technical service for the purposes of testing under Annex II.</p>
+                                                </content>
+                                             </subparagraph>
+                                          </paragraph>
+                                          <paragraph>
+                                             <num>11.</num>
+                                             <content>
+                                                <p>The requirements of Article 4a shall not apply to type approvals granted to small volume manufacturers.</p>
+                                             </content>
+                                          </paragraph>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                     </list>
+                  </point>
+                  <point>
+                     <num>(7)</num>
+                     <content>
+                        <p>Article 18bis is deleted;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(8)</num>
+                     <content>
+                        <p>Annex I is amended as set out in Annex I to this Regulation;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(9)</num>
+                     <content>
+                        <p>Annex II is amended as set out in Annex II to this Regulation;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(10)</num>
+                     <content>
+                        <p>Annex IIIA is amended as set out in Annex III to this Regulation;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(11)</num>
+                     <alinea>
+                        <content>
+                           <p>in Annex V, point 2.3 is replaced by the following:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <point>
+                                       <num>&apos;2.3.</num>
+                                       <content>
+                                          <p>The road load coefficients to be used shall be those for vehicle low (VL). If VL does not exist, then the VH road load shall be used. VL and VH are defined in point 4.2.1.1.2 of Sub-Annex 4 to Annex XXI. Alternatively, the manufacturer may choose to use road loads that have been determined in accordance with the provisions of Appendix 7 to Annex 4a of UN/ECE Regulation No 83 for a vehicle included in the interpolation family.&apos;;</p>
+                                       </content>
+                                    </point>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(12)</num>
+                     <content>
+                        <p>Annex VI is replaced by the text in Annex IV to this Regulation;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(13)</num>
+                     <alinea>
+                        <content>
+                           <p>Annex VII is amended as follows:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(1)</num>
+                           <content>
+                              <p>in point 2.2, in the table, in the legend, the deterioration factor designation &apos;P&apos; is replaced by &apos;PN&apos;;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(2)</num>
+                           <alinea>
+                              <content>
+                                 <p>point 3.10 is replaced by the following</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <point>
+                                             <num>&apos;3.10.</num>
+                                             <content>
+                                                <p>The road load coefficients to be used shall be those for vehicle low (VL). If VL does not exist or the total load of vehicle (VH) at 80 km/h is higher than the total load of VL at 80 km/h + 5 %, then the VH road load shall be used. VL and VH are defined in point 4.2.1.1.2 of Sub-Annex 4 to Annex XXI.&apos;;</p>
+                                             </content>
+                                          </point>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                     </list>
+                  </point>
+                  <point>
+                     <num>(14)</num>
+                     <alinea>
+                        <content>
+                           <p>in Annex VIII, point 3.3 is replaced by the following:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <point>
+                                       <num>&apos;3.3.</num>
+                                       <content>
+                                          <p>The road load coefficients to be used shall be those for vehicle low (VL). If VL does not exist then the VH road load shall be used. VL and VH are defined in point 4.2.1.1.2 of Sub-Annex 4 to Annex XXI. Alternatively the manufacturer may choose to use road loads that have been determined in accordance with the provisions of Appendix 7 of Annex 4a of UN/ECE Regulation No 83 for a vehicle included in the interpolation family. In both cases, the dynamometer shall be adjusted to simulate the operation of a vehicle on the road at &#45; 7 °C. Such adjustment may be based on a determination of the road load force profile at &#45; 7 °C. Alternatively, the driving resistance determined may be adjusted for a 10 % decrease of the coast-down time. The technical service may approve the use of other methods for determining the driving resistance.&apos;;</p>
+                                       </content>
+                                    </point>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(15)</num>
+                     <content>
+                        <p>Annex IX is amended as set out in Annex V to this Regulation;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(16)</num>
+                     <content>
+                        <p>Annex XI is replaced by the text in Annex VI to this Regulation;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(17)</num>
+                     <content>
+                        <p>Annex XII is amended as set out in Annex VII to this Regulation;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(18)</num>
+                     <content>
+                        <p>in Annex XIV, in Appendix 1, the words &apos;Annex I, Section 2.3.1 and 2.3.5 of Implementing Regulation (EU) 2017/1151&apos; are replaced by the words &apos;Annex I, Section 2.3.1 and 2.3.4 of Regulation (EU) 2017/1151&apos;;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(19)</num>
+                     <content>
+                        <p>Annex XVI is replaced by the text in Annex VIII to this Regulation;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(20)</num>
+                     <content>
+                        <p>Annex XXI is amended as set out in Annex IX to this Regulation;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(21)</num>
+                     <content>
+                        <p>Annex XXII, as set out in Annex X to this Regulation, is added.</p>
+                     </content>
+                  </point>
+               </list>
+            </paragraph>
+         </article>
+         <article xml:id="art_d389e1083" leos:compliant="false">
+            <num>Article 2</num>
+            <heading>Amendment to Regulation (EC) No 692/2008</heading>
+            <paragraph>
+               <subparagraph>
+                  <content>
+                     <p>Regulation (EC) No 692/2008 is amended as follows:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(1)</num>
+                     <alinea>
+                        <content>
+                           <p>in the first subparagraph of Article 16a of Regulation (EC) No 692/2008, the following point (d) is added:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <point>
+                                       <num>&apos;(d)</num>
+                                       <content>
+                                          <p>extensions to type-approvals granted under this Regulation, until new requirements become applicable for new vehicles&apos;;</p>
+                                       </content>
+                                    </point>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(2)</num>
+                     <alinea>
+                        <content>
+                           <p>in Annex 1, Appendix 3 the following point 3.2.12.2.5.7 is added:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <point>
+                                       <num>&apos;3.2.12.2.5.7.</num>
+                                       <content>
+                                          <p>Permeability factor (<sup>1</sup>): …&apos;;</p>
+                                       </content>
+                                    </point>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(3)</num>
+                     <content>
+                        <p>in Annex XII, point 4.4 is deleted.</p>
+                     </content>
+                  </point>
+               </list>
+            </paragraph>
+         </article>
+         <article xml:id="art_d389e1133">
+            <num>Article 3</num>
+            <heading>Amendments to Directive 2007/46/EC</heading>
+            <paragraph>
+               <content>
+                  <p>Annexes I, III, VIII, IX and XI to Directive 2007/46/EC are amended as set out in Annex XI to this Regulation.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d389e1140">
+            <num>Article 4</num>
+            <heading>Entry into force</heading>
+            <paragraph>
+               <content>
+                  <p>This Regulation shall enter into force on the twentieth day following that of its publication in the <i>Official Journal of the European Union</i>.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <content>
+                  <p>It shall apply from 1 January 2019.</p>
+               </content>
+            </paragraph>
+         </article>
+         <clause>
+            <content>
+               <p>This Regulation shall be binding in its entirety and directly applicable in all Member States.</p>
+            </content>
+         </clause>
+      </body>
+      <conclusions>
+         <p>Done at Brussels, 5 November 2018.</p>
+         <block name="signatory">
+            <signature>
+               <organization refersTo="">For the Commission</organization>
+               <role refersTo="">The President</role>
+               <person refersTo="">Jean-Claude JUNCKER</person>
+            </signature>
+         </block>
+      </conclusions>
+   </bill>
+</akomaNtoso>

@@ -1,0 +1,266 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"
+            xmlns:fmx="http://formex.publications.europa.eu/schema/formex-05.21-20110601.xd"
+            xmlns:leos="urn:eu:europa:ec:leos"
+            xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <bill name="">
+      <meta xmlns:fn="http://www.w3.org/2005/xpath-functions">
+         <identification source="~COM">
+            <FRBRWork>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRcountry value=""/>
+            </FRBRWork>
+            <FRBRExpression>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+            </FRBRManifestation>
+         </identification>
+      </meta>
+      <preface>
+         <longTitle>
+            <p>
+               <docStage/>
+               <docType>COUNCIL REGULATION (EU) 2020/261</docType>of 19 December 2019<docPurpose>amending Regulation (EU) No 389/2012 on administrative cooperation in the field of excise duties as regards the content of electronic registers</docPurpose>
+            </p>
+         </longTitle>
+      </preface>
+      <preamble>
+         <formula name="actingEntity">
+            <p>THE COUNCIL OF THE EUROPEAN UNION,</p>
+         </formula>
+         <citations>
+            <citation>
+               <p>Having regard to the Treaty on the Functioning of the European Union, and in particular Article 113 thereof,</p>
+            </citation>
+            <citation>
+               <p>Having regard to the proposal from the European Commission,</p>
+            </citation>
+            <citation>
+               <p>After transmission of the draft legislative act to the national parliaments,</p>
+            </citation>
+            <citation>
+               <p>Having regard to the opinion of the European Parliament<authorialNote placement="bottom" marker="1">
+                     <p>Opinion of 3 October 2018 (not yet published in the Official Journal).</p>
+                  </authorialNote>,</p>
+            </citation>
+            <citation>
+               <p>Having regard to the opinion of the European Economic and Social Committee<authorialNote placement="bottom" marker="2">
+                     <p>Opinion of 17 October 2018 (OJ C 62, 15.2.2019, p. 108).</p>
+                  </authorialNote>,</p>
+            </citation>
+            <citation>
+               <p>Acting in accordance with a special legislative procedure,</p>
+            </citation>
+         </citations>
+         <recitals xml:id="recs_d673e84">
+            <intro>
+               <p>Whereas:</p>
+            </intro>
+            <recital xml:id="rec_d673e87">
+               <num>(1)</num>
+               <p>Article 19 of Council Regulation (EU) No 389/2012<authorialNote placement="bottom" marker="3">
+                     <p>Council Regulation (EU) No 389/2012 of 2 May 2012 on administrative cooperation in the field of excise duties and repealing Regulation (EC) No 2073/2004 (OJ L 121, 8.5.2012, p. 1).</p>
+                  </authorialNote> lays down an obligation for Member States to maintain electronic registers of authorisations of economic operators and warehouses that are engaged in moving excise goods under duty suspension arrangements.</p>
+            </recital>
+            <recital xml:id="rec_d673e103">
+               <num>(2)</num>
+               <p>Council Directive (EU) 2020/262<authorialNote placement="bottom" marker="4">
+                     <p>Council Directive (EU) 2020/262 of 19 December 2019 laying down the general arrangements for excise duty (see page 4 of this Official Journal).</p>
+                  </authorialNote> extends the use of the computerised system under Decision (EU) 2020/263 of the European Parliament and of the Council<authorialNote placement="bottom" marker="5">
+                     <p>Decision (EU) 2020/263 of the European Parliament and of the Council of 15 January 2020 on computerising the movement and surveillance of excise goods (see page 43 of this Official Journal).</p>
+                  </authorialNote>, which is currently used to supervise movements of excise goods under duty suspension, to the supervision of excise goods released for consumption in the territory of one Member State and then moved to the territory of another Member State in order to be delivered for commercial purposes.</p>
+            </recital>
+            <recital xml:id="rec_d673e123">
+               <num>(3)</num>
+               <p>In order to allow for the proper functioning of the computerised system by ensuring storage of complete, up-to-date and accurate data, it is necessary to amend the scope of Article 19 of Regulation (EU) No 389/2012 to include two new categories of economic operators: certified consignors who are registered as consignors for excise goods that have already been released for consumption, and certified consignees who are registered as consignees for excise goods that have already been released for consumption.</p>
+            </recital>
+            <recital xml:id="rec_d673e130">
+               <num>(4)</num>
+               <p>In accordance with Article 22 of Directive (EU) 2020/262, in the case of movement of energy products under a duty suspension arrangement by sea or inland waterways, the competent authorities of the Member State of dispatch may authorise the consignor to omit the details of the consignee at the time of dispatch in the draft electronic administrative document referred to in Article 20(2) of that Directive. In accordance with Regulation (EU) No 389/2012 only an authorised warehousekeeper is to include that information in the electronic register. It is essential that also the registered consignor is able to introduce into the electronic register the information concerning his right to omit the details of the consignee at the time of dispatch.</p>
+            </recital>
+            <recital xml:id="rec_d673e136">
+               <num>(5)</num>
+               <p>Since the objective of this Regulation, namely the extension of the electronic register to include economic operators moving excise goods released for consumption, cannot be sufficiently achieved by the Member States but can rather, by reason of ensuring the harmonised functioning of the computerised system and facilitating the fight against fraud, be better achieved at Union level, the Union may adopt measures, in accordance with the principle of subsidiarity as set out in Article 5 of the Treaty on European Union. In accordance with the principle of proportionality, as set out in that Article, this Regulation does not go beyond what is necessary in order to achieve that objective.</p>
+            </recital>
+            <recital xml:id="rec_d673e142">
+               <num>(6)</num>
+               <p>This Regulation respects the fundamental rights and observes the principles which are recognised by the Charter of Fundamental Rights of the European Union, in particular the right to the protection of personal data. In the view of the limits set by the present Regulation, the processing of such data carried out within the framework of this Regulation does not go beyond what is necessary and proportionate for the purpose of the protecting the legitimate fiscal interest of the Member States.</p>
+            </recital>
+            <recital xml:id="rec_d673e148">
+               <num>(7)</num>
+               <p>The European Data Protection Supervisor was consulted in accordance with Article 28(2) of Regulation (EC) No 45/2001 of the European Parliament and of the Council<authorialNote placement="bottom" marker="6">
+                     <p>Regulation (EC) No 45/2001 of the European Parliament and of the Council of 18 December 2000 on the protection of individuals with regard to the processing of personal data by the Community institutions and bodies and on the free movement of such data (OJ L 8, 12.1.2001, p. 1).</p>
+                  </authorialNote>.</p>
+            </recital>
+            <recital xml:id="rec_d673e164">
+               <num>(8)</num>
+               <p>In order to align the application date of this Regulation with the application date of the provisions of Directive (EU) 2020/262 on automation of movements of excise goods which have been released for consumption in the territory of one Member State and are moved to the territory of another Member State in order to be delivered for commercial purposes in the territory of that other Member State and to allow the Member States adequate time to prepare for the changes resulting from this Regulation, it should apply from 13 February 2023.</p>
+            </recital>
+            <recital xml:id="rec_d673e173">
+               <num>(9)</num>
+               <p>Regulation (EU) No 389/2012 should therefore be amended accordingly,</p>
+            </recital>
+         </recitals>
+         <formula name="enactingFormula">
+            <p>HAS ADOPTED THIS REGULATION:</p>
+         </formula>
+      </preamble>
+      <body>
+         <article xml:id="art_d673e182" leos:compliant="false">
+            <num>Article 1</num>
+            <heading/>
+            <paragraph>
+               <subparagraph>
+                  <content>
+                     <p>Article 19 of Regulation (EU) No 389/2012 is amended as follows:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(1)</num>
+                     <alinea>
+                        <content>
+                           <p>in point (a) of paragraph 1, the following points are added:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <list>
+                                       <point>
+                                          <num>&apos;(iv)</num>
+                                          <content>
+                                             <p>certified consignors within the meaning of point (12) of Article 3 of Council Directive (EU) 2020/262<authorialNote placement="bottom" marker="7">
+                                                   <p>Council Directive (EU) 2020/262 of 19 December 2019 laying down the general arrangements for excise duty (OJ L 58, 27.2.2020, p. 4 ).&apos;;</p>
+                                                </authorialNote>;</p>
+                                          </content>
+                                       </point>
+                                       <point>
+                                          <num>(v)</num>
+                                          <content>
+                                             <p>certified consignees within the meaning of point (13) of Article 3 of Directive (EU) 2020/262;</p>
+                                          </content>
+                                       </point>
+                                    </list>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(2)</num>
+                     <alinea>
+                        <content>
+                           <p>paragraph 2 is amended as follows:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <alinea>
+                              <content>
+                                 <p>points (f) and (g) are replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <list>
+                                             <point>
+                                                <num>&apos;(f)</num>
+                                                <content>
+                                                   <p>for authorised warehousekeepers, the tax warehouse or the list of tax warehouses to which his authorisation applies and, if applicable under national legislation, an indication that he is authorised to omit the details of the consignee at the time of dispatch in accordance with Article 22 of Directive (EU) 2020/262, that he is authorised to split a movement in accordance with Article 23 of that Directive or that he is authorised to have excise goods moved to a place of direct delivery in accordance with Article 16(4) of that Directive, and an indication that he is acting as a certified consignor or a certified consignee in accordance with Article 35(6) and (7) of that Directive;</p>
+                                                </content>
+                                             </point>
+                                             <point>
+                                                <num>(g)</num>
+                                                <content>
+                                                   <p>for registered consignees, if applicable under national legislation, an indication that he is authorised to have excise goods moved to a place of direct delivery in accordance with Article 16(4) of Directive (EU) 2020/262, and an indication that he is acting as a certified consignee in accordance with Article 35(7) of that Directive;&apos;;</p>
+                                                </content>
+                                             </point>
+                                          </list>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <alinea>
+                              <content>
+                                 <p>the following point is added:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <list>
+                                             <point>
+                                                <num>&apos;(k)</num>
+                                                <content>
+                                                   <p>for registered consignors, an indication that he is authorised to omit the details of the consignee at the time of dispatch in accordance with Article 22 of Directive (EU) 2020/262, and an indication that he is acting as a certified consignor in accordance with Article 35(6) of that Directive.&apos;.</p>
+                                                </content>
+                                             </point>
+                                          </list>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                     </list>
+                  </point>
+               </list>
+            </paragraph>
+         </article>
+         <article xml:id="art_d673e274">
+            <num>Article 2</num>
+            <heading/>
+            <paragraph>
+               <content>
+                  <p>This Regulation shall enter into force on the twentieth day following that of its publication in the <i>Official Journal of the European Union</i>.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <content>
+                  <p>It shall apply from 13 February 2023.</p>
+               </content>
+            </paragraph>
+         </article>
+         <clause>
+            <content>
+               <p>This Regulation shall be binding in its entirety and directly applicable in all Member States.</p>
+            </content>
+         </clause>
+      </body>
+      <conclusions>
+         <p>Done at Brussels, 19 December 2019.</p>
+         <block name="signatory">
+            <signature>
+               <organization refersTo="">For the Council</organization>
+               <role refersTo="">The President</role>
+               <person refersTo="">K. MIKKONEN</person>
+            </signature>
+         </block>
+      </conclusions>
+   </bill>
+</akomaNtoso>

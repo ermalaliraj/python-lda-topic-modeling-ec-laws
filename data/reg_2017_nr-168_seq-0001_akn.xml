@@ -1,0 +1,619 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"
+            xmlns:fmx="http://formex.publications.europa.eu/schema/formex-05.21-20110601.xd"
+            xmlns:leos="urn:eu:europa:ec:leos"
+            xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <bill name="">
+      <meta xmlns:fn="http://www.w3.org/2005/xpath-functions">
+         <identification source="~COM">
+            <FRBRWork>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRcountry value=""/>
+            </FRBRWork>
+            <FRBRExpression>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+            </FRBRManifestation>
+         </identification>
+      </meta>
+      <preface>
+         <longTitle>
+            <p>
+               <docStage/>
+               <docType>REGULATION (EU) 2017/1128 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL</docType>of 14 June 2017<docPurpose>on cross-border portability of online content services in the internal market</docPurpose>
+            </p>
+         </longTitle>
+         <container name="EEArelevance">
+            <p>(Text with EEA relevance)</p>
+         </container>
+      </preface>
+      <preamble>
+         <formula name="actingEntity">
+            <p>THE EUROPEAN PARLIAMENT AND THE COUNCIL OF THE EUROPEAN UNION,</p>
+         </formula>
+         <citations>
+            <citation>
+               <p>Having regard to the Treaty on the Functioning of the European Union, and in particular Article 114 thereof,</p>
+            </citation>
+            <citation>
+               <p>Having regard to the proposal from the European Commission,</p>
+            </citation>
+            <citation>
+               <p>After transmission of the draft legislative act to the national parliaments,</p>
+            </citation>
+            <citation>
+               <p>Having regard to the opinion of the European Economic and Social Committee<authorialNote placement="bottom" marker="1">
+                     <p>OJ C 264, 20.7.2016, p. 86.</p>
+                  </authorialNote>,</p>
+            </citation>
+            <citation>
+               <p>Having regard to the opinion of the Committee of the Regions<authorialNote placement="bottom" marker="2">
+                     <p>OJ C 240, 1.7.2016, p. 72.</p>
+                  </authorialNote>,</p>
+            </citation>
+            <citation>
+               <p>Acting in accordance with the ordinary legislative procedure<authorialNote placement="bottom" marker="3">
+                     <p>Position of the European Parliament of 18 May 2017 (not yet published in the Official Journal) and decision of the Council of 8 June 2017.</p>
+                  </authorialNote>,</p>
+            </citation>
+         </citations>
+         <recitals xml:id="recs_d310e92">
+            <intro>
+               <p>Whereas:</p>
+            </intro>
+            <recital xml:id="rec_d310e95">
+               <num>(1)</num>
+               <p>Seamless access throughout the Union to online content services that are lawfully provided to consumers in their Member State of residence is important for the smooth functioning of the internal market and for the effective application of the principles of free movement of persons and services. Since the internal market comprises an area without internal borders relying, inter alia, on the free movement of persons and services, it is necessary to ensure that consumers can use portable online content services which offer access to content such as music, games, films, entertainment programmes or sports events, not only in their Member State of residence but also when they are temporarily present in another Member State for purposes such as leisure, travel, business trips or learning mobility. Therefore, barriers that hamper access to and use of such online content services in such cases should be eliminated.</p>
+            </recital>
+            <recital xml:id="rec_d310e101">
+               <num>(2)</num>
+               <p>The technological developments that have led to a proliferation of portable devices such as laptops, tablets and smartphones are increasingly facilitating the use of online content services by providing access to them regardless of the location of consumers. There is a rapidly growing demand on the part of consumers for access to content and innovative online services not only in their Member State of residence but also when they are temporarily present in another Member State.</p>
+            </recital>
+            <recital xml:id="rec_d310e107">
+               <num>(3)</num>
+               <p>Consumers increasingly enter into contractual arrangements with service providers for the provision of online content services. However, consumers that are temporarily present in a Member State other than their Member State of residence often cannot continue to access and use the online content services that they have lawfully acquired the right to access and use in their Member State of residence.</p>
+            </recital>
+            <recital xml:id="rec_d310e114">
+               <num>(4)</num>
+               <p>There are a number of barriers which hinder the provision of online content services to consumers temporarily present in a Member State other than their Member State of residence. Certain online services include content such as music, games, films or entertainment programmes which are protected by copyright or related rights under Union law. At present, the barriers to cross-border portability of online content services differ from one sector to another. The barriers stem from the fact that the rights for the transmission of content protected by copyright or related rights, such as audiovisual works, are often licensed on a territorial basis, as well as from the fact that providers of online content services might choose to serve specific markets only.</p>
+            </recital>
+            <recital xml:id="rec_d310e120">
+               <num>(5)</num>
+               <p>The same applies to content, such as sports events, which is not protected by copyright or related rights under Union law but which could be protected by copyright or related rights under national law or by virtue of other specific national legislation and which is often also licensed by the organisers of such events or offered by providers of online content services on a territorial basis. Transmissions of such content by broadcasting organisations are protected by related rights which have been harmonised at Union level. Moreover, transmissions of such content often include copyright-protected elements such as music, opening or closing video sequences or graphics. Also, certain aspects of transmissions of such content, specifically those relating to broadcasting events of major importance for society as well as to short news reports on events of high interest to the public, have been harmonised by Directive 2010/13/EU of the European Parliament and of the Council<authorialNote placement="bottom" marker="4">
+                     <p>Directive 2010/13/EU of the European Parliament and of the Council of 10 March 2010 on the coordination of certain provisions laid down by law, regulation or administrative action in Member States concerning the provision of audiovisual media services (Audiovisual Media Services Directive) (OJ L 95, 15.4.2010, p. 1).</p>
+                  </authorialNote>. Finally, audiovisual media services within the meaning of Directive 2010/13/EU include services which provide access to content such as sports events, news or current affairs.</p>
+            </recital>
+            <recital xml:id="rec_d310e136">
+               <num>(6)</num>
+               <p>Increasingly, online content services are marketed in a package in which content which is not protected by copyright or related rights is not separable from content which is protected by copyright or related rights without substantially lessening the value of the service provided to consumers. This is especially the case with premium content such as sports events or other events of significant interest to consumers. In order to enable providers of online content services to provide to consumers full access to their online content services when consumers are temporarily present in a Member State other than their Member State of residence, it is indispensable that this Regulation also covers such content used by online content services and therefore that it applies to audiovisual media services within the meaning of Directive 2010/13/EU as well as to transmissions of broadcasting organisations in their entirety.</p>
+            </recital>
+            <recital xml:id="rec_d310e142">
+               <num>(7)</num>
+               <p>The rights in works protected by copyright and in subject-matter protected by related rights (&apos;works and other protected subject-matter&apos;) are harmonised, inter alia, in Directives 96/9/EC<authorialNote placement="bottom" marker="5">
+                     <p>Directive 96/9/EC of the European Parliament and of the Council of 11 March 1996 on the legal protection of databases (OJ L 77, 27.3.1996, p. 20).</p>
+                  </authorialNote>, 2001/29/EC<authorialNote placement="bottom" marker="6">
+                     <p>Directive 2001/29/EC of the European Parliament and of the Council of 22 May 2001 on the harmonisation of certain aspects of copyright and related rights in the information society (OJ L 167, 22.6.2001, p. 10).</p>
+                  </authorialNote>, 2006/115/EC<authorialNote placement="bottom" marker="7">
+                     <p>Directive 2006/115/EC of the European Parliament and of the Council of 12 December 2006 on rental right and lending right and on certain rights related to copyright in the field of intellectual property (OJ L 376, 27.12.2006, p. 28).</p>
+                  </authorialNote> and 2009/24/EC<authorialNote placement="bottom" marker="8">
+                     <p>Directive 2009/24/EC of the European Parliament and of the Council of 23 April 2009 on the legal protection of computer programs (OJ L 111, 5.5.2009, p. 16).</p>
+                  </authorialNote> of the European Parliament and of the Council. The provisions of international agreements in the area of copyright and related rights concluded by the Union in particular the Agreement on Trade-Related Aspects of Intellectual Property Rights annexed as Annex 1C to the Agreement establishing the World Trade Organization of 15 April 1994, the WIPO Copyright Treaty of 20 December 1996, and the WIPO Performances and Phonograms Treaty of 20 December 1996, as amended, form an integral part of the Union legal order. Union law should, insofar as is possible, be interpreted in a manner that is consistent with international law.</p>
+            </recital>
+            <recital xml:id="rec_d310e202">
+               <num>(8)</num>
+               <p>It is essential that providers of online content services that make use of works or other protected subject-matter, such as books, audiovisual works, recorded music or broadcasts have the right to use such content for the relevant territories.</p>
+            </recital>
+            <recital xml:id="rec_d310e208">
+               <num>(9)</num>
+               <p>The transmission by providers of online content services of content that is protected by copyright or related rights requires the authorisation of the relevant rightholders, such as authors, performers, producers or broadcasting organisations, regarding the content included in the transmission. This is equally true when such transmission takes place for the purpose of allowing a consumer to carry out a download in order to use an online content service.</p>
+            </recital>
+            <recital xml:id="rec_d310e216">
+               <num>(10)</num>
+               <p>The acquisition of a licence for relevant rights is not always possible, in particular when rights in content are licensed on an exclusive basis. In order to ensure that territorial exclusivity is effectively complied with, providers of online content services often undertake, in their licence contracts with rightholders, including broadcasting organisations or events organisers, to prevent their subscribers from accessing and using their services outside the territory for which the providers hold the licence. Such contractual restrictions imposed on providers require them to take measures such as disallowing access to their services from internet protocol (IP) addresses located outside the territory concerned. Therefore, one of the obstacles to the cross-border portability of online content services is to be found in the contracts concluded between the providers of online content services and their subscribers, which reflect the territorial restriction clauses included in contracts concluded between those providers and the rightholders.</p>
+            </recital>
+            <recital xml:id="rec_d310e222">
+               <num>(11)</num>
+               <p>The case law of the Court of Justice of the European Union should be taken into account when balancing the objective of protecting intellectual property rights with the fundamental freedoms guaranteed by the Treaty on the Functioning of the European Union (TFEU).</p>
+            </recital>
+            <recital xml:id="rec_d310e228">
+               <num>(12)</num>
+               <p>Therefore, the objective of this Regulation is to adapt the harmonised legal framework on copyright and related rights and to provide a common approach to the provision of online content services to subscribers temporarily present in a Member State other than their Member State of residence by removing barriers to cross-border portability of online content services which are lawfully provided. This Regulation should ensure cross-border portability of online content services in all sectors concerned and hence provide consumers with an additional means of accessing online content lawfully, without affecting the high level of protection guaranteed by copyright and related rights in the Union, without changing the existing licensing models, such as territorial licensing, and without affecting the existing financing mechanisms. The concept of cross-border portability of online content services should be distinguished from that of cross-border access by consumers to online content services provided in a Member State other than their Member State of residence, which is not covered by this Regulation.</p>
+            </recital>
+            <recital xml:id="rec_d310e234">
+               <num>(13)</num>
+               <p>Given the Union instruments that exist in the field of taxation, it is necessary to exclude the field of taxation from the scope of this Regulation. Therefore, this Regulation should not affect the application of any provision related to taxation.</p>
+            </recital>
+            <recital xml:id="rec_d310e240">
+               <num>(14)</num>
+               <p>This Regulation defines several concepts necessary for its application, including the Member State of residence. The Member State of residence should be determined taking into account the objectives of this Regulation and the necessity to ensure its uniform application in the Union. The definition of the Member State of residence implies that the subscriber has his or her actual and stable residence in that Member State. A provider of an online content service who has verified the Member State of residence in accordance with this Regulation should be allowed to assume, for the purposes of this Regulation, that the Member State of residence as verified is the only Member State of residence of the subscriber. Providers should not be obliged to verify whether their subscribers are also subscribers to an online content service in another Member State.</p>
+            </recital>
+            <recital xml:id="rec_d310e246">
+               <num>(15)</num>
+               <p>This Regulation should apply to online content services that providers, after having obtained the relevant rights from rightholders in a given territory, provide to their subscribers on the basis of a contract, by any means including streaming, downloading, through applications or any other technique which allows use of that content. For the purposes of this Regulation, the term contract should be regarded as covering any agreement between a provider and a subscriber, including any arrangement by which the subscriber accepts the provider&apos;s terms and conditions for the provision of online content services, whether against payment of money or without such payment. A registration to receive content alerts or a mere acceptance of HTML cookies should not be regarded as a contract for the provision of online content services for the purposes of this Regulation.</p>
+            </recital>
+            <recital xml:id="rec_d310e252">
+               <num>(16)</num>
+               <p>An online service which is not an audiovisual media service within the meaning of Directive 2010/13/EU and which uses works, other protected subject-matter or transmissions of broadcasting organisations in a merely ancillary manner should not be covered by this Regulation. Such services include websites that use works or other protected subject-matter only in an ancillary manner such as graphical elements or music used as background, where the main purpose of such websites is, for example, the sale of goods.</p>
+            </recital>
+            <recital xml:id="rec_d310e258">
+               <num>(17)</num>
+               <p>This Regulation should apply only to online content services which subscribers can effectively access and use in their Member State of residence without being limited to a specific location, as it is not appropriate to require providers of online content services that do not offer portable online content services in the Member State of residence of a subscriber to do so across borders.</p>
+            </recital>
+            <recital xml:id="rec_d310e265">
+               <num>(18)</num>
+               <p>This Regulation should apply to online content services which are provided against payment of money. Providers of such services are in a position to verify the Member State of residence of their subscribers. The right to use an online content service should be regarded as acquired against payment of money, whether such payment is made directly to the provider of the online content service, or to another party such as a provider offering a package combining an electronic communications service and an online content service operated by another provider. For the purposes of this Regulation, the payment of a mandatory fee for public broadcasting services should not be regarded as a payment of money for an online content service.</p>
+            </recital>
+            <recital xml:id="rec_d310e271">
+               <num>(19)</num>
+               <p>Providers of online content services should not subject their subscribers to any additional charges for the provision of cross-border portability of online content services in accordance with this Regulation. It is possible however that subscribers, in order to access and use online content services in Member States other than their Member State of residence, could be subject to fees payable to operators of electronic communications networks used to access such services.</p>
+            </recital>
+            <recital xml:id="rec_d310e278">
+               <num>(20)</num>
+               <p>Providers of online content services which are provided without payment of money generally do not verify the Member State of residence of their subscribers. The inclusion of such online content services in the scope of this Regulation would involve a major change to the way those services are delivered and involve disproportionate costs. However, the exclusion of those services from the scope of this Regulation would mean that providers of those services would not be able to take advantage of the legal mechanism which is provided for in this Regulation and which enables providers of online content services to offer cross-border portability of such services, even when they decide to invest in means that allow them to verify their subscribers&apos; Member State of residence. Accordingly, providers of online content services which are provided without payment of money should be able to opt to be included in the scope of this Regulation provided that they comply with the requirements on the verification of the Member State of residence of their subscribers. If such providers exercise that option, they should comply with the same obligations as imposed under this Regulation upon the providers of online content services which are provided against payment of money. Furthermore, they should inform the subscribers, the relevant holders of copyright and related rights and the relevant holders of any other rights in the content of the online content service of their decision to exercise that option in a timely manner. Such information could be provided on the provider&apos;s website.</p>
+            </recital>
+            <recital xml:id="rec_d310e284">
+               <num>(21)</num>
+               <p>In order to ensure the cross-border portability of online content services, it is necessary to require providers of online content services covered by this Regulation to enable subscribers to use such services in the Member State in which they are temporarily present in the same manner as in their Member State of residence. Subscribers should have access to online content services offering the same content on the same range and number of devices, for the same number of users and with the same range of functionalities as those offered in their Member State of residence. It is essential that the obligation to provide cross-border portability of online content services be mandatory and therefore the parties should not be able to exclude it, derogate from it or vary its effect. Any action by a provider which would prevent subscribers from accessing or using the service while temporarily present in a Member State other than their Member State of residence, for example restrictions to the functionalities of the service or to the quality of its delivery should be considered to be a circumvention of the obligation to provide cross-border portability of online content services and therefore contrary to this Regulation.</p>
+            </recital>
+            <recital xml:id="rec_d310e290">
+               <num>(22)</num>
+               <p>Requiring that the delivery of online content services to subscribers temporarily present in a Member State other than their Member State of residence be of the same quality as in the Member State of residence could result in high costs for providers of online content services and thus ultimately for subscribers. Therefore, it is not appropriate for this Regulation to require that providers ensure a quality of delivery of such services that would be beyond the quality available via the local online access chosen by a subscriber while temporarily present in another Member State. In such cases the provider should not be liable if the quality of delivery of the service is lower. Nevertheless, if the provider expressly guarantees a certain quality of delivery to subscribers while temporarily present in another Member State, it should be bound by that guarantee. The provider, on the basis of the information in its possession, should provide its subscribers in advance with information concerning the quality of delivery of an online content service in Member States other than their Member State of residence, in particular the fact that the quality of delivery could differ from that applicable in their Member State of residence. The provider should not be under an obligation to actively seek information on the quality of delivery of a service in Member States other than the subscriber&apos;s Member State of residence. The relevant information could be provided on the provider&apos;s website.</p>
+            </recital>
+            <recital xml:id="rec_d310e297">
+               <num>(23)</num>
+               <p>In order to ensure that providers of online content services covered by this Regulation comply with the obligation to provide cross-border portability of their services, without acquiring the relevant rights in another Member State, it is necessary to stipulate that those providers should always be entitled to provide such services to subscribers when they are temporarily present in a Member State other than their Member State of residence. This should be achieved by establishing that the provision of, access to and use of such online content services should be deemed to occur in the subscriber&apos;s Member State of residence. This legal mechanism should apply for the sole purpose of ensuring the cross-border portability of online content services. An online content service should be considered to be provided lawfully if both the service and the content are provided in a lawful manner in the Member State of residence. This Regulation, and in particular the legal mechanism by which the provision of, access to and use of an online content service are deemed to occur in the subscriber&apos;s Member State of residence, does not prevent a provider from enabling the subscriber to additionally access and use the content lawfully offered by the provider in the Member State where the subscriber is temporarily present.</p>
+            </recital>
+            <recital xml:id="rec_d310e303">
+               <num>(24)</num>
+               <p>For the licensing of copyright or related rights, the legal mechanism laid down in this Regulation means that relevant acts of reproduction, communication to the public and making available of works and other protected subject-matter, as well as the acts of extraction or re-utilization in relation to databases protected by sui generis rights, which occur when the service is provided to subscribers when they are temporarily present in a Member State other than their Member State of residence, should be deemed to occur in the subscribers&apos; Member State of residence. Providers of online content services covered by this Regulation, therefore, should be deemed to carry out such acts on the basis of the respective authorisations from the rightholders concerned for the Member State of residence of their subscribers. Whenever providers have the right to carry out acts of communication to the public or reproduction in their subscribers&apos; Member State of residence on the basis of an authorisation from the rightholders concerned, subscribers who are temporarily present in a Member State other than their Member State of residence should be able to access and use the service and where necessary carry out any relevant acts of reproduction, such as downloading, which they would be entitled to do in their Member State of residence. The provision of an online content service by providers to subscribers temporarily present in a Member State other than their Member State of residence and the access to and use of the service by such subscribers in accordance with this Regulation should not constitute a breach of copyright or related rights or any other rights relevant for the provision of, access to and use of the online content service.</p>
+            </recital>
+            <recital xml:id="rec_d310e309">
+               <num>(25)</num>
+               <p>Providers of online content services covered by this Regulation should not be liable for the breach of any contractual provisions that are contrary to the obligation to enable their subscribers to use such services in the Member State in which they are temporarily present. Therefore, clauses in contracts designed to prohibit or limit the cross-border portability of such online content services should be unenforceable. The providers and holders of rights relevant for the provision of online content services should not be allowed to circumvent the application of this Regulation by choosing the law of a third country as the law applicable to contracts between them. The same should apply to contracts concluded between providers and subscribers.</p>
+            </recital>
+            <recital xml:id="rec_d310e315">
+               <num>(26)</num>
+               <p>This Regulation should enable subscribers to enjoy online content services to which they have subscribed in their Member State of residence when they are temporarily present in another Member State. Subscribers should be eligible for cross-border portability of online content services only if they reside in a Member State of the Union. Therefore, this Regulation should oblige providers of online content services to make use of reasonable, proportionate and effective means in order to verify the Member State of residence of their subscribers. To that end, providers should use the means of verification listed in this Regulation. This does not preclude agreement between providers and rightholders on those means of verification within the limits of this Regulation. The objective of the list is to provide legal certainty as to the means of verification to be used by providers as well as to limit interference with subscribers&apos; privacy. In each case, account should be taken of the effectiveness and proportionality of a particular means of verification in a given Member State and for a given type of online content service. Unless the subscriber&apos;s Member State of residence can be verified with sufficient certainty on the basis of a single means of verification, providers should rely on two means of verification. In cases where the provider has reasonable doubts concerning the subscriber&apos;s Member State of residence, the provider should be able to repeat the verification of the subscriber&apos;s Member State of residence. The provider should implement the necessary technical and organisational measures required under applicable data protection rules for the processing of personal data collected for the purpose of verification of the subscriber&apos;s Member State of residence under this Regulation. Examples of such measures include providing transparent information to the individuals about the methods used for, and the purpose of, the verification, and appropriate security measures.</p>
+            </recital>
+            <recital xml:id="rec_d310e322">
+               <num>(27)</num>
+               <p>In order to verify the subscriber&apos;s Member State of residence, the provider of an online content service should rely, if possible, on information which is in the provider&apos;s possession, such as billing information. As regards contracts concluded prior to the date of application of this Regulation and as regards the verification carried out upon renewal of a contract, the provider should be allowed to request the subscriber to provide the information necessary to verify the subscriber&apos;s Member State of residence only when it cannot be determined on the basis of information which is already in the provider&apos;s possession.</p>
+            </recital>
+            <recital xml:id="rec_d310e328">
+               <num>(28)</num>
+               <p>IP address checks performed under this Regulation should be conducted in accordance with Directives 95/46/EC<authorialNote placement="bottom" marker="9">
+                     <p>Directive 95/46/EC of the European Parliament and of the Council of 24 October 1995 on the protection of individuals with regard to the processing of personal data and on the free movement of such data (OJ L 281, 23.11.1995, p. 31). Directive 95/46/EC is repealed and replaced, with effect from 25 May 2018, by Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (General Data Protection Regulation) (OJ L 119, 4.5.2016, p. 1).</p>
+                  </authorialNote> and 2002/58/EC<authorialNote placement="bottom" marker="10">
+                     <p>Directive 2002/58/EC of the European Parliament and of the Council of 12 July 2002 concerning the processing of personal data and the protection of privacy in the electronic communications sector (Directive on privacy and electronic communications) (OJ L 201, 31.7.2002, p. 37).</p>
+                  </authorialNote> of the European Parliament and of the Council. In addition, for the purpose of verification of the subscriber&apos;s Member State of residence what matters is not the precise location of the subscriber, but rather the Member State in which the subscriber is accessing the service. Accordingly, data on the subscriber&apos;s precise location or any other personal data should neither be collected nor processed for that purpose. Where the provider has reasonable doubts concerning the subscriber&apos;s Member State of residence and carries out an IP address check to verify the Member State of residence, the sole purpose of such checks should be to establish whether the subscriber is accessing or using the online content service within or outside the Member State of residence. Therefore, in such cases, the data resulting from the checking of IP addresses should only be collected in binary format and in compliance with applicable data protection rules. The provider should not exceed that level of detail.</p>
+            </recital>
+            <recital xml:id="rec_d310e364">
+               <num>(29)</num>
+               <p>A holder of copyright, related rights, or any other rights in the content of an online content service should remain able to exercise contractual freedom to authorise such content to be provided, accessed and used under this Regulation without verification of the Member State of residence. This can be particularly relevant in sectors such as music and e-books. Each rightholder should be able to take such decisions freely when entering into contracts with providers of online content services. Contracts between providers and rightholders should not restrict the possibility for rightholders to withdraw such authorisation subject to giving reasonable notice to the provider. The authorisation given by an individual rightholder does not as such release the provider from the obligation to verify the subscriber&apos;s Member State of residence. It is only in cases where all the holders of copyright, related rights or any other rights in the content used by the provider decide to authorise their content to be provided, accessed and used without verification of the subscriber&apos;s Member State of residence that the obligation to verify should not apply, and the contract between the provider and the subscriber for the provision of an online content service should be used to determine the latter&apos;s Member State of residence. All other aspects of this Regulation should remain applicable in such cases.</p>
+            </recital>
+            <recital xml:id="rec_d310e370">
+               <num>(30)</num>
+               <p>This Regulation respects fundamental rights and observes the principles recognised in the Charter of Fundamental Rights of the European Union (&apos;Charter&apos;). Accordingly, this Regulation should be interpreted and applied in accordance with those rights and principles, in particular the right to respect for private and family life, the right to protection of personal data, the right to freedom of expression, the freedom to conduct a business and the right to property, including intellectual property. Any processing of personal data under this Regulation should respect fundamental rights, including the right to respect for private and family life and the right to protection of personal data under Articles 7 and 8 of the Charter, and it is essential that such processing be in compliance with Directives 95/46/EC and 2002/58/EC. In particular, providers of online content services should ensure that any processing of personal data under this Regulation is necessary, reasonable and proportionate in order to achieve the relevant purpose. Where authentication of a subscriber is sufficient in order to provide the service, identification of the subscriber should not be required. Data collected pursuant to this Regulation for the purposes of verification of the Member State of residence should not be stored by the provider longer than necessary to complete such verification. Such data should be immediately and irreversibly destroyed after the verification is completed. However, this is without prejudice to the storage of data which was collected for another legitimate purpose, subject to applicable data protection rules, including rules concerning the storage of that data.</p>
+            </recital>
+            <recital xml:id="rec_d310e381">
+               <num>(31)</num>
+               <p>Contracts under which content is licensed are usually concluded for a relatively long duration. Consequently, and in order to ensure that all consumers residing in the Union can enjoy cross-border portability of online content services on an equal basis in time and without any undue delay, this Regulation should also apply to contracts concluded and rights acquired before the date of its application if those contracts and rights are relevant for the cross-border portability of an online content service provided after that date. Such application of this Regulation is also necessary in order to ensure a level playing field for providers of online content services covered by this Regulation operating in the internal market, particularly for SMEs, by enabling providers that concluded contracts with rightholders for a long duration to offer cross-border portability to their subscribers, independently of the provider&apos;s ability to renegotiate such contracts. Moreover, such application of this Regulation should ensure that when providers make arrangements necessary for the cross-border portability of their services, they will be able to offer such portability with regard to the entirety of their online content. This should also apply to providers of online content services that offer packages combining electronic communications services and online content services. Finally, such application of this Regulation should also allow rightholders not to have to renegotiate their existing licensing contracts in order to enable providers to offer cross-border portability of their services.</p>
+            </recital>
+            <recital xml:id="rec_d310e387">
+               <num>(32)</num>
+               <p>Accordingly, since this Regulation will apply to some contracts concluded and rights acquired before the date of its application, it is also appropriate to provide for a reasonable period between the date of entry into force of this Regulation and the date of its application, so as to allow rightholders and providers of online content services covered by this Regulation to make the arrangements necessary to adapt to the new situation, as well as to allow providers to amend the terms of use of their services. Changes to the terms of use of online content services offered in packages combining an electronic communications service and an online content service that are made strictly in order to comply with the requirements of this Regulation should not trigger for subscribers any right under national laws transposing the regulatory framework for electronic communications networks and services to withdraw from contracts for the provision of such electronic communications services.</p>
+            </recital>
+            <recital xml:id="rec_d310e393">
+               <num>(33)</num>
+               <p>This Regulation is aimed at improving competitiveness by fostering innovation in online content services and attracting more consumers. This Regulation should not affect the application of the rules of competition, and in particular Articles 101 and 102 TFEU. The rules provided for in this Regulation should not be used to restrict competition in a manner contrary to the TFEU.</p>
+            </recital>
+            <recital xml:id="rec_d310e399">
+               <num>(34)</num>
+               <p>This Regulation should not affect the application of Directive 2014/26/EU of the European Parliament and of the Council<authorialNote placement="bottom" marker="11">
+                     <p>Directive 2014/26/EU of the European Parliament and of the Council of 26 February 2014 on collective management of copyright and related rights and multi-territorial licensing of rights in musical works for online use in the internal market (OJ L 84, 20.3.2014, p. 72).</p>
+                  </authorialNote> and in particular Title III thereof. This Regulation is consistent with the objective of facilitating the lawful access to content, which is protected by copyright or related rights, as well as services linked thereto.</p>
+            </recital>
+            <recital xml:id="rec_d310e415">
+               <num>(35)</num>
+               <p>In order to achieve the objective of ensuring cross-border portability of online content services in the Union, it is appropriate to adopt a regulation, which is directly applicable in Member States. This is necessary in order to guarantee a uniform application of the cross-border portability rules across Member States and their entry into force at the same time with regard to all online content services. Only a regulation ensures the degree of legal certainty which is necessary in order to enable consumers to fully benefit from cross-border portability across the Union.</p>
+            </recital>
+            <recital xml:id="rec_d310e421">
+               <num>(36)</num>
+               <p>Since the objective of this Regulation, namely the adaptation of the legal framework so that cross-border portability of online content services is provided in the Union, cannot be sufficiently achieved by the Member States but can rather, by reason of its scale and effects, be better achieved at Union level, the Union may adopt measures in accordance with the principle of subsidiarity as set out in Article 5 of the Treaty on European Union. In accordance with the principle of proportionality as set out in that Article, this Regulation does not go beyond what is necessary in order to achieve that objective. In particular, this Regulation does not substantially affect the way the rights are licensed and does not oblige rightholders and providers to renegotiate contracts. Moreover, this Regulation does not require that providers take measures to ensure the quality of delivery of online content services outside the Member State of residence of the subscribers. Finally, this Regulation does not apply to providers that offer online content services without payment of money and who do not exercise the option to enable the cross-border portability of their services. Therefore, it does not impose any disproportionate costs,</p>
+            </recital>
+         </recitals>
+         <formula name="enactingFormula">
+            <p>HAVE ADOPTED THIS REGULATION:</p>
+         </formula>
+      </preamble>
+      <body>
+         <article xml:id="art_d310e432">
+            <num>Article 1</num>
+            <heading>Subject matter and scope</heading>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>This Regulation introduces a common approach in the Union to the cross-border portability of online content services, by ensuring that subscribers to portable online content services which are lawfully provided in their Member State of residence can access and use those services when temporarily present in a Member State other than their Member State of residence.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>This Regulation shall not apply to the field of taxation.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d310e448">
+            <num>Article 2</num>
+            <heading>Definitions</heading>
+            <paragraph>
+               <subparagraph>
+                  <content>
+                     <p>For the purposes of this Regulation, the following definitions apply:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(1)</num>
+                     <content>
+                        <p>&apos;subscriber&apos; means any consumer who, on the basis of a contract for the provision of an online content service with a provider whether against payment of money or without such payment, is entitled to access and use such service in the Member State of residence;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(2)</num>
+                     <content>
+                        <p>&apos;consumer&apos; means any natural person who, in contracts covered by this Regulation, is acting for purposes which are outside that person&apos;s trade, business, craft or profession;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(3)</num>
+                     <content>
+                        <p>&apos;Member State of residence&apos; means the Member State, determined on the basis of Article 5, where the subscriber has his or her actual and stable residence;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(4)</num>
+                     <content>
+                        <p>&apos;temporarily present in a Member State&apos; means being present in a Member State other than the Member State of residence for a limited period of time;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(5)</num>
+                     <alinea>
+                        <content>
+                           <p>&apos;online content service&apos; means a service as defined in Articles 56 and 57 TFEU that a provider lawfully provides to subscribers in their Member State of residence on agreed terms and online, which is portable and which is:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(i)</num>
+                           <content>
+                              <p>an audiovisual media service as defined in point (a) of Article 1 of Directive 2010/13/EU, or</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(ii)</num>
+                           <content>
+                              <p>a service the main feature of which is the provision of access to, and the use of, works, other protected subject-matter or transmissions of broadcasting organisations, whether in a linear or an on-demand manner;</p>
+                           </content>
+                        </point>
+                     </list>
+                  </point>
+                  <point>
+                     <num>(6)</num>
+                     <content>
+                        <p>&apos;portable&apos; means a feature of an online content service whereby subscribers can effectively access and use the online content service in their Member State of residence without being limited to a specific location.</p>
+                     </content>
+                  </point>
+               </list>
+            </paragraph>
+         </article>
+         <article xml:id="art_d310e526">
+            <num>Article 3</num>
+            <heading>Obligation to enable cross-border portability of online content services</heading>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>The provider of an online content service provided against payment of money shall enable a subscriber who is temporarily present in a Member State to access and use the online content service in the same manner as in the Member State of residence, including by providing access to the same content, on the same range and number of devices, for the same number of users and with the same range of functionalities.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>The provider shall not impose any additional charges on the subscriber for the access to and the use of the online content service pursuant to paragraph 1.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <subparagraph>
+                  <content>
+                     <p>The obligation set out in paragraph 1 shall not extend to any quality requirements applicable to the delivery of an online content service that the provider is subject to when providing that service in the Member State of residence, unless otherwise expressly agreed between the provider and the subscriber.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>The provider shall not take any action to reduce the quality of delivery of the online content service when providing the online content service in accordance with paragraph 1.</p>
+                  </content>
+               </subparagraph>
+            </paragraph>
+            <paragraph>
+               <num>4.</num>
+               <content>
+                  <p>The provider shall, on the basis of the information in its possession, provide the subscriber with information concerning the quality of delivery of the online content service provided in accordance with paragraph 1. The information shall be provided to the subscriber prior to providing the online content service in accordance with paragraph 1 and by means which are adequate and proportionate.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d310e556">
+            <num>Article 4</num>
+            <heading>Localisation of the provision of, access to and use of online content services</heading>
+            <paragraph>
+               <content>
+                  <p>The provision of an online content service under this Regulation to a subscriber who is temporarily present in a Member State, as well as the access to and the use of that service by the subscriber, shall be deemed to occur solely in the subscriber&apos;s Member State of residence.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d310e564">
+            <num>Article 5</num>
+            <heading>Verification of the Member State of residence</heading>
+            <paragraph>
+               <num>1.</num>
+               <subparagraph>
+                  <content>
+                     <p>At the conclusion and upon the renewal of a contract for the provision of an online content service provided against payment of money, the provider shall verify the Member State of residence of the subscriber by using not more than two of the following means of verification and shall ensure that the means used are reasonable, proportionate and effective:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <content>
+                        <p>an identity card, electronic means of identification, in particular those falling under the electronic identification schemes notified in accordance with Regulation (EU) No 910/2014 of the European Parliament and of the Council<authorialNote placement="bottom" marker="12">
+                              <p>Regulation (EU) No 910/2014 of the European Parliament and of the Council of 23 July 2014 on electronic identification and trust services for electronic transactions in the internal market and repealing Directive 1999/93/EC (OJ L 257, 28.8.2014, p. 73).</p>
+                           </authorialNote>, or any other valid identity document confirming the subscriber&apos;s Member State of residence;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <content>
+                        <p>payment details such as the bank account or credit or debit card number of the subscriber;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(c)</num>
+                     <content>
+                        <p>the place of installation of a set top box, a decoder or a similar device used for supply of services to the subscriber;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(d)</num>
+                     <content>
+                        <p>the payment by the subscriber of a licence fee for other services provided in the Member State, such as public service broadcasting;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(e)</num>
+                     <content>
+                        <p>an internet or telephone service supply contract or any similar type of contract linking the subscriber to the Member State;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(f)</num>
+                     <content>
+                        <p>registration on local electoral rolls, if the information concerned is publicly available;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(g)</num>
+                     <content>
+                        <p>payment of local taxes, if the information concerned is publicly available;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(h)</num>
+                     <content>
+                        <p>a utility bill of the subscriber linking the subscriber to the Member State;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(i)</num>
+                     <content>
+                        <p>the billing address or the postal address of the subscriber;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(j)</num>
+                     <content>
+                        <p>a declaration by the subscriber confirming the subscriber&apos;s address in the Member State;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(k)</num>
+                     <content>
+                        <p>an internet protocol (IP) address check, to identify the Member State where the subscriber accesses the online content service.</p>
+                     </content>
+                  </point>
+               </list>
+               <subparagraph>
+                  <content>
+                     <p>The means of verification under points (i) to (k) shall only be used in combination with one of the means of verification under points (a) to (h), unless the postal address under point (i) is included in a publicly available official register.</p>
+                  </content>
+               </subparagraph>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>If the provider has reasonable doubts about the subscriber&apos;s Member State of residence in the course of the duration of the contract for the provision of an online content service, the provider may repeat the verification of the Member State of residence of the subscriber, in accordance with paragraph 1. In such a case, however, the means of verification under point (k) may be used as a sole means. Data resulting from the use of the means of verification under point (k) shall be collected in binary format only.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <content>
+                  <p>The provider shall be entitled to request the subscriber to provide the information necessary to determine the subscriber&apos;s Member State of residence in accordance with paragraphs 1 and 2. If the subscriber fails to provide that information, and as a result the provider is unable to verify the subscriber&apos;s Member State of residence, the provider shall not, on the basis of this Regulation, enable the subscriber to access or use the online content service when the subscriber is temporarily present in a Member State.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>4.</num>
+               <subparagraph>
+                  <content>
+                     <p>The holders of copyright or related rights or those holding any other rights in the content of an online content service may authorise the provision of, access to and use of their content under this Regulation without verification of the Member State of residence. In such cases, the contract between the provider and the subscriber for the provision of an online content service shall be sufficient to determine the subscriber&apos;s Member State of residence.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>The holders of copyright or related rights or those holding any other rights in the content of an online content service shall be entitled to withdraw the authorisation given pursuant to the first subparagraph subject to giving reasonable notice to the provider.</p>
+                  </content>
+               </subparagraph>
+            </paragraph>
+            <paragraph>
+               <num>5.</num>
+               <content>
+                  <p>The contract between the provider and the holders of copyright or related rights or those holding any other rights in the content of an online content service shall not restrict the possibility for such holders of rights to withdraw the authorisation referred to in paragraph 4.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d310e679">
+            <num>Article 6</num>
+            <heading>Cross-border portability of online content services provided without payment of money</heading>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>The provider of an online content service provided without payment of money may decide to enable its subscribers who are temporarily present in a Member State to access and use the online content service on condition that the provider verifies the subscriber&apos;s Member State of residence in accordance with this Regulation.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>The provider shall inform its subscribers, the relevant holders of copyright and related rights and the relevant holders of any other rights in the content of the online content service of its decision to provide the online content service in accordance with paragraph 1, prior to providing that service. The information shall be provided by means which are adequate and proportionate.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <content>
+                  <p>This Regulation shall apply to providers that provide an online content service in accordance with paragraph 1.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d310e700">
+            <num>Article 7</num>
+            <heading>Contractual provisions</heading>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>Any contractual provisions, including those between providers of online content services and holders of copyright or related rights or those holding any other rights in the content of online content services, as well as those between such providers and their subscribers, which are contrary to this Regulation, including those which prohibit cross-border portability of online content services or limit such portability to a specific time period, shall be unenforceable.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>This Regulation shall apply irrespective of the law applicable to contracts concluded between providers of online content services and holders of copyright or related rights or those holding any other rights in the content of online content services, or to contracts concluded between such providers and their subscribers.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d310e716">
+            <num>Article 8</num>
+            <heading>Protection of personal data</heading>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>The processing of personal data carried out within the framework of this Regulation including, in particular, for the purposes of verification of the subscriber&apos;s Member State of residence under Article 5, shall be carried out in compliance with Directives 95/46/EC and 2002/58/EC. In particular, the use of the means of verification in accordance with Article 5 and any processing of personal data under this Regulation, shall be limited to what is necessary and proportionate in order to achieve its purpose.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>Data collected pursuant to Article 5 shall be used solely for the purpose of verifying the subscriber&apos;s Member State of residence. They shall not be communicated, transferred, shared, licensed or otherwise transmitted or disclosed to holders of copyright or related rights or to those holding any other rights in the content of online content services, or to any other third parties.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <content>
+                  <p>Data collected pursuant to Article 5 shall not be stored by the provider of an online content service longer than necessary to complete a verification of a subscriber&apos;s Member State of residence pursuant to Article 5(1) or (2). On completion of each verification, the data shall be immediately and irreversibly destroyed.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d310e738">
+            <num>Article 9</num>
+            <heading>Application to existing contracts and rights acquired</heading>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>This Regulation shall apply also to contracts concluded and rights acquired before the date of its application if they are relevant for the provision of, access to and use of an online content service, in accordance with Articles 3 and 6, after that date.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <subparagraph>
+                  <content>
+                     <p>By 21 May 2018, the provider of an online content service provided against payment of money shall verify, in accordance with this Regulation, the Member State of residence of those subscribers who concluded contracts for the provision of the online content service before that date.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>Within two months of the date upon which the provider of an online content service provided without payment of money first provides the service in accordance with Article 6, the provider shall verify, in accordance with this Regulation, the Member State of residence of those subscribers who concluded contracts for the provision of the online content service before that date.</p>
+                  </content>
+               </subparagraph>
+            </paragraph>
+         </article>
+         <article xml:id="art_d310e760">
+            <num>Article 10</num>
+            <heading>Review</heading>
+            <paragraph>
+               <content>
+                  <p>By 21 March 2021, and as required thereafter, the Commission shall assess the application of this Regulation in the light of legal, technological and economic developments, and submit to the European Parliament and to the Council a report thereon.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <content>
+                  <p>The report referred to in the first paragraph shall include, inter alia, an assessment of the application of the verification means of the Member State of residence referred to in Article 5, taking into account newly developed technologies, industry standards and practices, and, if necessary, consider the need for a review. The report shall pay special attention to the impact of this Regulation on SMEs and the protection of personal data. The Commission&apos;s report shall be accompanied, if appropriate, by a legislative proposal.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d310e775">
+            <num>Article 11</num>
+            <heading>Final provisions</heading>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>This Regulation shall enter into force on the twentieth day following that of its publication in the <i>Official Journal of the European Union</i>.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>It shall apply from 20 March 2018.</p>
+               </content>
+            </paragraph>
+         </article>
+         <clause>
+            <content>
+               <p>This Regulation shall be binding in its entirety and directly applicable in all Member States.</p>
+            </content>
+         </clause>
+      </body>
+      <conclusions>
+         <p>Done at Strasbourg, 14 June 2017.</p>
+         <block name="signatory">
+            <signature>
+               <organization refersTo="">For the European Parliament</organization>
+               <role refersTo="">The President</role>
+               <person refersTo="">A. TAJANI</person>
+            </signature>
+            <signature>
+               <organization refersTo="">For the Council</organization>
+               <role refersTo="">The President</role>
+               <person refersTo="">H. DALLI</person>
+            </signature>
+         </block>
+      </conclusions>
+   </bill>
+</akomaNtoso>

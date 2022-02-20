@@ -1,0 +1,311 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"
+            xmlns:fmx="http://formex.publications.europa.eu/schema/formex-05.21-20110601.xd"
+            xmlns:leos="urn:eu:europa:ec:leos"
+            xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <bill name="">
+      <meta xmlns:fn="http://www.w3.org/2005/xpath-functions">
+         <identification source="~COM">
+            <FRBRWork>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRcountry value=""/>
+            </FRBRWork>
+            <FRBRExpression>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+            </FRBRManifestation>
+         </identification>
+      </meta>
+      <preface>
+         <longTitle>
+            <p>
+               <docStage/>
+               <docType>COMMISSION REGULATION (EU) 2017/712</docType>of 20 April 2017<docPurpose>establishing the reference year and the programme of the statistical data and metadata for population and housing censuses provided for by Regulation (EC) No 763/2008 of the European Parliament and of the Council</docPurpose>
+            </p>
+         </longTitle>
+         <container name="EEArelevance">
+            <p>(Text with EEA relevance)</p>
+         </container>
+      </preface>
+      <preamble>
+         <formula name="actingEntity">
+            <p>THE EUROPEAN COMMISSION,</p>
+         </formula>
+         <citations>
+            <citation>
+               <p>Having regard to the Treaty on the Functioning of the European Union,</p>
+            </citation>
+            <citation>
+               <p>Having regard to Regulation (EC) No 763/2008 of the European Parliament and the Council of 9 July 2008 on population and housing censuses<authorialNote placement="bottom" marker="1">
+                     <p>OJ L 218, 13.8.2008, p. 14.</p>
+                  </authorialNote>, and in particular Article 5(1) and (3) thereof,</p>
+            </citation>
+         </citations>
+         <recitals xml:id="recs_d18e71">
+            <intro>
+               <p>Whereas:</p>
+            </intro>
+            <recital xml:id="rec_d18e74">
+               <num>(1)</num>
+               <p>Pursuant to Article 5(1) of Regulation (EC) No 763/2008, the Commission should define a reference year. The reference date selected by each Member State for the population and housing censuses data to be transmitted to the Commission should fall in that year.</p>
+            </recital>
+            <recital xml:id="rec_d18e80">
+               <num>(2)</num>
+               <p>Pursuant to Article 5(3) of Regulation (EC) No 763/2008, the Commission should adopt a programme of the statistical data and of the metadata for the population and housing censuses to be transmitted to the Commission.</p>
+            </recital>
+            <recital xml:id="rec_d18e86">
+               <num>(3)</num>
+               <p>In order to ensure data from the population and housing censuses conducted in the Member States are comparable, and to allow reliable Union-wide overviews to be drawn up, this programme should be the same in all Member States.</p>
+            </recital>
+            <recital xml:id="rec_d18e92">
+               <num>(4)</num>
+               <p>In particular, it is necessary to define the content, format and structure of hypercubes which should be the same in all Member States, the special cell values and flags that the Member States can use in these hypercubes as well as the metadata on the topics.</p>
+            </recital>
+            <recital xml:id="rec_d18e98">
+               <num>(5)</num>
+               <p>Commission Implementing Regulation (EU) 2017/543<authorialNote placement="bottom" marker="2">
+                     <p>Commission Implementing Regulation (EU) 2017/543 of 22 March 2017 laying down rules for the application of Regulation (EC) No 763/2008 of the European Parliament and of the Council on population and housing censuses as regards the technical specifications of the topics and of their breakdowns (OJ L 78, 23.3.2017, p. 13).</p>
+                  </authorialNote> lays down the technical specifications for the census topics and their breakdowns to be applied to the data to be sent to the Commission for the reference year 2021.</p>
+            </recital>
+            <recital xml:id="rec_d18e114">
+               <num>(6)</num>
+               <p>The measures provided for in this Regulation are in accordance with the opinion of the European Statistical System Committee,</p>
+            </recital>
+         </recitals>
+         <formula name="enactingFormula">
+            <p>HAS ADOPTED THIS REGULATION:</p>
+         </formula>
+      </preamble>
+      <body>
+         <article xml:id="art_d18e124">
+            <num>Article 1</num>
+            <heading>Subject matter</heading>
+            <paragraph>
+               <content>
+                  <p>This Regulation establishes the programme of statistical data and the metadata for the population and housing censuses to be transmitted to the Commission (Eurostat) for the reference year 2021.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d18e131">
+            <num>Article 2</num>
+            <heading>Definitions</heading>
+            <paragraph>
+               <subparagraph>
+                  <content>
+                     <p>The definitions laid down in Regulation (EC) No 763/2008 and the specifications set out in the Annex to Commission Implementing Regulation (EU) 2017/543 shall apply. The following definitions shall also apply for the purpose of this Regulation:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(1)</num>
+                     <content>
+                        <p>&apos;total population&apos; of a well-defined geographical area means all persons whose usual residence, as defined in Article 2(d) of Regulation (EC) No 763/2008, is located in that geographical area;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(2)</num>
+                     <content>
+                        <p>&apos;hypercube&apos; means a multidimensional cross tabulation of breakdowns which contains a cell value for the measurement of each category of each breakdown cross-tabulated by each category of any other breakdown used in that hypercube;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(3)</num>
+                     <content>
+                        <p>&apos;cell value&apos; means the information provided in a hypercube cell. A cell value can be either a &apos;numerical cell value&apos; or a &apos;special cell value&apos;;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(4)</num>
+                     <content>
+                        <p>&apos;numerical cell value&apos; means a numerical value that is transmitted in a cell in order to provide the statistical information on the observation for that cell;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(5)</num>
+                     <content>
+                        <p>&apos;confidential cell value&apos; means a numerical cell value which in order to protect the statistical confidentiality of the data must not be divulged, according to the Member States&apos; protective measures against disclosure of statistical data;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(6)</num>
+                     <content>
+                        <p>&apos;non-confidential cell value&apos; means a numerical cell value which is not a confidential cell value;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(7)</num>
+                     <content>
+                        <p>&apos;unreliable cell value&apos; means a numerical cell value which is unreliable according to the Member States&apos; quality control;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(8)</num>
+                     <content>
+                        <p>&apos;special cell value&apos; means a symbol that is transmitted in a hypercube cell instead of a numerical cell value;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(9)</num>
+                     <content>
+                        <p>&apos;flag&apos; means a code that can accompany a particular cell value to describe a specific characteristic of that cell value.</p>
+                     </content>
+                  </point>
+               </list>
+            </paragraph>
+         </article>
+         <article xml:id="art_d18e229">
+            <num>Article 3</num>
+            <heading>Reference date</heading>
+            <paragraph>
+               <content>
+                  <p>Each Member State shall determine a reference date falling in 2021 for the population and housing census data to be transmitted to the Commission (Eurostat). Member States shall inform the Commission (Eurostat) by 31 December 2019 of the reference date selected.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d18e239">
+            <num>Article 4</num>
+            <heading>Programme of the statistical data</heading>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>The programme of the statistical data to be transmitted to the Commission (Eurostat) for the reference year 2021 shall consist of the hypercubes listed in Annex I.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <subparagraph>
+                  <content>
+                     <p>Member States shall provide the special cell value &apos;not applicable&apos; only in the following cases:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <content>
+                        <p>when a cell refers to the category &apos;not applicable&apos; of at least one breakdown; or</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <content>
+                        <p>when a cell describes an observation that does not exist in the Member State.</p>
+                     </content>
+                  </point>
+               </list>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <content>
+                  <p>Member States shall replace any confidential cell value by the special cell value &apos;not available&apos;.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>4.</num>
+               <content>
+                  <p>At the request of a Member State the Commission (Eurostat) shall refrain from making public any unreliable cell value provided by that Member State.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d18e291">
+            <num>Article 5</num>
+            <heading>Metadata on the cell values</heading>
+            <paragraph>
+               <num>1.</num>
+               <subparagraph>
+                  <content>
+                     <p>Where applicable, Member States shall add the following flags to a hypercube cell:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <content>
+                        <p>&apos;confidential&apos;;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <content>
+                        <p>&apos;unreliable&apos;;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(c)</num>
+                     <content>
+                        <p>&apos;revised after first data transmission&apos;;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(d)</num>
+                     <content>
+                        <p>&apos;see information attached&apos;.</p>
+                     </content>
+                  </point>
+               </list>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>Each cell whose confidential cell value has been replaced by the special value &apos;not available&apos; shall be marked with the flag &apos;confidential&apos;.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <content>
+                  <p>Each cell whose numerical cell value is unreliable shall be marked with the flag &apos;unreliable&apos;.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>4.</num>
+               <content>
+                  <p>For each cell accompanied by at least one of the flags &apos;unreliable&apos;, &apos;revised after first data transmission&apos; or &apos;see information attached&apos; an explanatory text shall be provided.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d18e379">
+            <num>Article 6</num>
+            <heading>Metadata on the topics</heading>
+            <paragraph>
+               <content>
+                  <p>Member States shall provide the Commission (Eurostat) with the metadata on the topics as laid out in Annex II.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d18e386">
+            <num>Article 7</num>
+            <heading>Entry into force</heading>
+            <paragraph>
+               <content>
+                  <p>This Regulation shall enter into force on the twentieth day following that of its publication in the <i>Official Journal of the European Union</i>.</p>
+               </content>
+            </paragraph>
+         </article>
+         <clause>
+            <content>
+               <p>This Regulation shall be binding in its entirety and directly applicable in all Member States.</p>
+            </content>
+         </clause>
+      </body>
+      <conclusions>
+         <p>Done at Brussels, 20 April 2017.</p>
+         <block name="signatory">
+            <signature>
+               <organization refersTo="">For the Commission</organization>
+               <role refersTo="">The President</role>
+               <person refersTo="">Jean-Claude JUNCKER</person>
+            </signature>
+         </block>
+      </conclusions>
+   </bill>
+</akomaNtoso>

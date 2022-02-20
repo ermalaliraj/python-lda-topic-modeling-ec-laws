@@ -1,0 +1,794 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"
+            xmlns:fmx="http://formex.publications.europa.eu/schema/formex-05.21-20110601.xd"
+            xmlns:leos="urn:eu:europa:ec:leos"
+            xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <bill name="">
+      <meta xmlns:fn="http://www.w3.org/2005/xpath-functions">
+         <identification source="~COM">
+            <FRBRWork>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRcountry value=""/>
+            </FRBRWork>
+            <FRBRExpression>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+            </FRBRManifestation>
+         </identification>
+      </meta>
+      <preface>
+         <longTitle>
+            <p>
+               <docStage/>
+               <docType>REGULATION (EU) 2017/2395 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL</docType>of 12 December 2017<docPurpose>amending Regulation (EU) No 575/2013 as regards transitional arrangements for mitigating the impact of the introduction of IFRS 9 on own funds and for the large exposures treatment of certain public sector exposures denominated in the domestic currency of any Member State</docPurpose>
+            </p>
+         </longTitle>
+         <container name="EEArelevance">
+            <p>(Text with EEA relevance)</p>
+         </container>
+      </preface>
+      <preamble>
+         <formula name="actingEntity">
+            <p>THE EUROPEAN PARLIAMENT AND THE COUNCIL OF THE EUROPEAN UNION,</p>
+         </formula>
+         <citations>
+            <citation>
+               <p>Having regard to the Treaty on the Functioning of the European Union, and in particular Article 114 thereof,</p>
+            </citation>
+            <citation>
+               <p>Having regard to the proposal from the European Commission,</p>
+            </citation>
+            <citation>
+               <p>After transmission of the draft legislative act to the national parliaments,</p>
+            </citation>
+            <citation>
+               <p>Having regard to the opinion of the European Central Bank<authorialNote placement="bottom" marker="1">
+                     <p>Opinion of 8 November 2017 (not yet published in the Official Journal).</p>
+                  </authorialNote>,</p>
+            </citation>
+            <citation>
+               <p>Having regard to the opinion of the European Economic and Social Committee<authorialNote placement="bottom" marker="2">
+                     <p>OJ C 209, 30.6.2017, p. 36.</p>
+                  </authorialNote>,</p>
+            </citation>
+            <citation>
+               <p>Acting in accordance with the ordinary legislative procedure<authorialNote placement="bottom" marker="3">
+                     <p>Position of the European Parliament of 30 November 2017 (not yet published in the Official Journal) and decision of the Council of 7 December 2017.</p>
+                  </authorialNote>,</p>
+            </citation>
+         </citations>
+         <recitals xml:id="recs_d643e95">
+            <intro>
+               <p>Whereas:</p>
+            </intro>
+            <recital xml:id="rec_d643e98">
+               <num>(1)</num>
+               <p>On 24 July 2014, the International Accounting Standards Board published International Financial Reporting Standard (IFRS) 9 Financial Instruments (IFRS 9). IFRS 9 aims to improve the financial reporting of financial instruments by addressing concerns that arose in that area during the financial crisis. In particular, IFRS 9 responds to the G20&apos;s call to move to a more forward-looking model for the recognition of expected credit losses on financial assets. In relation to the recognition of expected credit losses on financial assets it replaces International Accounting Standard (IAS) 39.</p>
+            </recital>
+            <recital xml:id="rec_d643e107">
+               <num>(2)</num>
+               <p>The Commission adopted IFRS 9 through Commission Regulation (EU) 2016/2067<authorialNote placement="bottom" marker="4">
+                     <p>Commission Regulation (EU) 2016/2067 of 22 November 2016 amending Regulation (EC) No 1126/2008 adopting certain international accounting standards in accordance with Regulation (EC) No 1606/2002 of the European Parliament and of the Council as regards International Financial Reporting Standard 9 (OJ L 323, 29.11.2016, p. 1).</p>
+                  </authorialNote>. In accordance with that Regulation, credit institutions and investment firms (&apos;institutions&apos;) that use IFRS to prepare their financial statements are required to apply IFRS 9 as of the starting date of their first financial year starting on or after 1 January 2018.</p>
+            </recital>
+            <recital xml:id="rec_d643e130">
+               <num>(3)</num>
+               <p>The application of IFRS 9 may lead to a sudden significant increase in expected credit loss provisions and consequently to a sudden decrease in institutions&apos; Common Equity Tier 1 capital. While the Basel Committee on Banking Supervision is currently considering the longer-term regulatory treatment of expected credit loss provisions, transitional arrangements should be introduced in Regulation (EU) No 575/2013 of the European Parliament and of the Council<authorialNote placement="bottom" marker="5">
+                     <p>Regulation (EU) No 575/2013 of the European Parliament and of the Council of 26 June 2013 on prudential requirements for credit institutions and investment firms and amending Regulation (EU) No 648/2012 (OJ L 176, 27.6.2013, p. 1).</p>
+                  </authorialNote> to mitigate that potentially significant negative impact on Common Equity Tier 1 capital arising from expected credit loss accounting.</p>
+            </recital>
+            <recital xml:id="rec_d643e146">
+               <num>(4)</num>
+               <p>In its resolution of 6 October 2016 on International Financial Reporting Standards: IFRS 9<authorialNote placement="bottom" marker="6">
+                     <p>Not yet published in the Official Journal.</p>
+                  </authorialNote>, the European Parliament called for a progressive phase-in regime that would mitigate the impact of the new impairment model of IFRS 9.</p>
+            </recital>
+            <recital xml:id="rec_d643e160">
+               <num>(5)</num>
+               <p>Where an institution&apos;s opening balance sheet on the day that it first applies IFRS 9 reflects a decrease in Common Equity Tier 1 capital as a result of increased expected credit loss provisions, including the loss allowance for lifetime expected credit losses for financial assets that are credit-impaired, as defined in Appendix A to IFRS 9 as set out in the Annex to Commission Regulation (EC) No 1126/2008<authorialNote placement="bottom" marker="7">
+                     <p>Commission Regulation (EC) No 1126/2008 of 3 November 2008 adopting certain international accounting standards in accordance with Regulation (EC) No 1606/2002 of the European Parliament and of the Council (OJ L 320, 29.11.2008, p. 1).</p>
+                  </authorialNote> (&apos;Annex relating to IFRS 9&apos;), compared to the closing balance sheet on the previous day, the institution should be allowed to include in its Common Equity Tier 1 capital a portion of the increased expected credit loss provisions for a transitional period. That transitional period should have a maximum duration of 5 years and should start in 2018. The portion of expected credit loss provisions that can be included in Common Equity Tier 1 capital should decrease over time down to zero to ensure the full implementation of IFRS 9 on the day immediately after the end of the transitional period. The impact of the expected credit loss provisions on Common Equity Tier 1 capital should not be fully neutralised during the transitional period.</p>
+            </recital>
+            <recital xml:id="rec_d643e180">
+               <num>(6)</num>
+               <p>Institutions should decide whether to apply those transitional arrangements and inform the competent authority accordingly. During the transitional period, an institution should have the possibility to reverse once its initial decision, subject to the prior permission of the competent authority which should ensure that such decision is not motivated by considerations of regulatory arbitrage.</p>
+            </recital>
+            <recital xml:id="rec_d643e186">
+               <num>(7)</num>
+               <p>As expected credit loss provisions incurred after the day that an institution first applies IFRS 9 could rise unexpectedly due to a worsening macroeconomic outlook, institutions should be granted additional relief in such cases.</p>
+            </recital>
+            <recital xml:id="rec_d643e192">
+               <num>(8)</num>
+               <p>Institutions that decide to apply transitional arrangements should be required to adjust the calculation of regulatory items which are directly affected by expected credit loss provisions to ensure that they do not receive inappropriate capital relief. For example, the specific credit risk adjustments by which the exposure value is reduced under the Standardised Approach for credit risk should be reduced by a factor which has the effect of increasing the exposure value. This would ensure that an institution would not benefit from both an increase in its Common Equity Tier 1 capital due to transitional arrangements as well as a reduced exposure value.</p>
+            </recital>
+            <recital xml:id="rec_d643e198">
+               <num>(9)</num>
+               <p>Institutions that decide to apply the IFRS 9 transitional arrangements specified in this Regulation should publicly disclose their own funds, capital ratios and leverage ratios both with and without the application of those arrangements in order to enable the public to determine the impact of those arrangements.</p>
+            </recital>
+            <recital xml:id="rec_d643e205">
+               <num>(10)</num>
+               <p>It is also appropriate to provide for transitional arrangements for the exemption from the large exposure limit available for exposures to certain public sector debt of Member States denominated in the domestic currency of any Member State. The transitional period should have a duration of 3 years starting from 1 January 2018 for exposures of this type incurred on or after 12 December 2017, whilst exposures of this type incurred before that date should be grandfathered and should continue to benefit from the large exposures exemption.</p>
+            </recital>
+            <recital xml:id="rec_d643e217">
+               <num>(11)</num>
+               <p>In order to enable the transitional arrangements provided for in this Regulation to be applied from 1 January 2018, this Regulation should enter into force on the day following that of its publication in the <i>Official Journal of the European Union</i>.</p>
+            </recital>
+            <recital xml:id="rec_d643e229">
+               <num>(12)</num>
+               <p>Regulation (EU) No 575/2013 should therefore be amended accordingly,</p>
+            </recital>
+         </recitals>
+         <formula name="enactingFormula">
+            <p>HAVE ADOPTED THIS REGULATION:</p>
+         </formula>
+      </preamble>
+      <body>
+         <article xml:id="art_d643e239" leos:compliant="false">
+            <num>Article 1</num>
+            <heading/>
+            <paragraph>
+               <subparagraph>
+                  <content>
+                     <p>Regulation (EU) No 575/2013 is amended as follows:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(1)</num>
+                     <alinea>
+                        <content>
+                           <p>the following Article is inserted:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <article xml:id="art_d643e254" leos:compliant="false">
+                                       <num>&apos;Article 473a</num>
+                                       <heading>Introduction of IFRS 9</heading>
+                                       <paragraph>
+                                          <num>1.</num>
+                                          <subparagraph>
+                                             <content>
+                                                <p>By way of derogation from Article 50 and until the end of the transitional period set out in paragraph 6 of this Article, the following may include in their Common Equity Tier 1 capital the amount calculated in accordance with this paragraph:</p>
+                                             </content>
+                                          </subparagraph>
+                                          <list>
+                                             <point>
+                                                <num>(a)</num>
+                                                <content>
+                                                   <p>institutions that prepare their accounts in conformity with the international accounting standards adopted in accordance with the procedure laid down in Article 6(2) of Regulation (EC) No 1606/2002;</p>
+                                                </content>
+                                             </point>
+                                             <point>
+                                                <num>(b)</num>
+                                                <content>
+                                                   <p>institutions that, pursuant to Article 24(2) of this Regulation, effect the valuation of assets and off-balance sheet items and the determination of own funds in conformity with the international accounting standards adopted in accordance with the procedure laid down in Article 6(2) of Regulation (EC) No 1606/2002;</p>
+                                                </content>
+                                             </point>
+                                             <point>
+                                                <num>(c)</num>
+                                                <content>
+                                                   <p>institutions that effect the valuation of assets and off-balance sheet items in conformity with accounting standards under Directive 86/635/EEC and that use an expected credit loss model that is the same as the one used in international accounting standards adopted in accordance with the procedure laid down in Article 6(2) of Regulation (EC) No 1606/2002.</p>
+                                                </content>
+                                             </point>
+                                          </list>
+                                          <subparagraph>
+                                             <content>
+                                                <p>The amount referred to in the first subparagraph shall be calculated as the sum of the following:</p>
+                                             </content>
+                                          </subparagraph>
+                                          <list>
+                                             <point>
+                                                <num>(a)</num>
+                                                <alinea>
+                                                   <content>
+                                                      <p>for exposures which are subject to risk weighting in accordance with Chapter 2 of Title II of Part Three, the amount (AB<sub>SA</sub>) calculated in accordance with the following formula:</p>
+                                                   </content>
+                                                </alinea>
+                                                <alinea>
+                                                   <content>
+                                                      <p>
+                                                         <subFlow name="inlineBlock">
+                                                            <foreign>
+                                                               <fmx:FORMULA>
+                                                                  <fmx:EXPR>AB<fmx:IND>SA</fmx:IND>
+                                                                  </fmx:EXPR>
+                                                                  <fmx:OP.CMP TYPE="EQ"/>
+                                                                  <fmx:EXPR>
+                                                                     <fmx:EXPR TYPE="BRACKET">A<fmx:IND>2,SA</fmx:IND>
+                                                                        <fmx:OP.MATH TYPE="PLUS"/> A<fmx:IND>4,SA</fmx:IND>
+                                                                        <fmx:OP.MATH TYPE="MINUS"/> t</fmx:EXPR> · f</fmx:EXPR>
+                                                               </fmx:FORMULA>
+                                                            </foreign>
+                                                         </subFlow>
+                                                      </p>
+                                                   </content>
+                                                </alinea>
+                                                <alinea>
+                                                   <content>
+                                                      <p>where:</p>
+                                                   </content>
+                                                </alinea>
+                                                <alinea>
+                                                   <content>
+                                                      <table class="DLIST">
+                                                         <tr>
+                                                            <td>
+                                                               <p>
+                                                                  <span class="TERM">A<sub>2,SA</sub>
+                                                                  </span>
+                                                                  <span class="SEPARATOR">=</span>
+                                                               </p>
+                                                            </td>
+                                                            <td>
+                                                               <p class="DEFINITION">the amount calculated in accordance with paragraph 2;</p>
+                                                            </td>
+                                                         </tr>
+                                                         <tr>
+                                                            <td>
+                                                               <p>
+                                                                  <span class="TERM">A<sub>4,SA</sub>
+                                                                  </span>
+                                                                  <span class="SEPARATOR">=</span>
+                                                               </p>
+                                                            </td>
+                                                            <td>
+                                                               <p class="DEFINITION">the amount calculated in accordance with paragraph 4 based on the amounts calculated in accordance with paragraph 3;</p>
+                                                            </td>
+                                                         </tr>
+                                                         <tr>
+                                                            <td>
+                                                               <p>
+                                                                  <span class="TERM">f</span>
+                                                                  <span class="SEPARATOR">=</span>
+                                                               </p>
+                                                            </td>
+                                                            <td>
+                                                               <p class="DEFINITION">the applicable factor laid down in paragraph 6;</p>
+                                                            </td>
+                                                         </tr>
+                                                         <tr>
+                                                            <td>
+                                                               <p>
+                                                                  <span class="TERM">t</span>
+                                                                  <span class="SEPARATOR">=</span>
+                                                               </p>
+                                                            </td>
+                                                            <td>
+                                                               <p class="DEFINITION">increase of Common Equity Tier 1 capital that is due to tax deductibility of the amounts A<sub>2,SA</sub> and A<sub>4,SA</sub>;</p>
+                                                            </td>
+                                                         </tr>
+                                                      </table>
+                                                   </content>
+                                                </alinea>
+                                             </point>
+                                             <point>
+                                                <num>(b)</num>
+                                                <alinea>
+                                                   <content>
+                                                      <p>for exposures which are subject to risk weighting in accordance with Chapter 3 of Title II of Part Three, the amount (AB<sub>IRB</sub>) calculated in accordance with the following formula:</p>
+                                                   </content>
+                                                </alinea>
+                                                <alinea>
+                                                   <content>
+                                                      <p>
+                                                         <subFlow name="inlineBlock">
+                                                            <foreign>
+                                                               <fmx:FORMULA>
+                                                                  <fmx:EXPR>AB<fmx:IND>IRB</fmx:IND>
+                                                                  </fmx:EXPR>
+                                                                  <fmx:OP.CMP TYPE="EQ"/>
+                                                                  <fmx:EXPR>
+                                                                     <fmx:EXPR TYPE="BRACKET">A<fmx:IND>2,IRB</fmx:IND>
+                                                                        <fmx:OP.MATH TYPE="PLUS"/> A<fmx:IND>4,IRB</fmx:IND>
+                                                                        <fmx:OP.MATH TYPE="MINUS"/> t</fmx:EXPR> · f</fmx:EXPR>
+                                                               </fmx:FORMULA>
+                                                            </foreign>
+                                                         </subFlow>
+                                                      </p>
+                                                   </content>
+                                                </alinea>
+                                                <alinea>
+                                                   <content>
+                                                      <p>where:</p>
+                                                   </content>
+                                                </alinea>
+                                                <alinea>
+                                                   <content>
+                                                      <table class="DLIST">
+                                                         <tr>
+                                                            <td>
+                                                               <p>
+                                                                  <span class="TERM">A<sub>2,IRB</sub>
+                                                                  </span>
+                                                                  <span class="SEPARATOR">=</span>
+                                                               </p>
+                                                            </td>
+                                                            <td>
+                                                               <p class="DEFINITION">the amount calculated in accordance with paragraph 2 adjusted in accordance with point (a) of paragraph 5;</p>
+                                                            </td>
+                                                         </tr>
+                                                         <tr>
+                                                            <td>
+                                                               <p>
+                                                                  <span class="TERM">A<sub>4,IRB</sub>
+                                                                  </span>
+                                                                  <span class="SEPARATOR">=</span>
+                                                               </p>
+                                                            </td>
+                                                            <td>
+                                                               <p class="DEFINITION">the amount calculated in accordance with paragraph 4 based on the amounts calculated in accordance with paragraph 3 which are adjusted in accordance with points (b) and (c) of paragraph 5;</p>
+                                                            </td>
+                                                         </tr>
+                                                         <tr>
+                                                            <td>
+                                                               <p>
+                                                                  <span class="TERM">f</span>
+                                                                  <span class="SEPARATOR">=</span>
+                                                               </p>
+                                                            </td>
+                                                            <td>
+                                                               <p class="DEFINITION">the applicable factor laid down in paragraph 6;</p>
+                                                            </td>
+                                                         </tr>
+                                                         <tr>
+                                                            <td>
+                                                               <p>
+                                                                  <span class="TERM">t</span>
+                                                                  <span class="SEPARATOR">=</span>
+                                                               </p>
+                                                            </td>
+                                                            <td>
+                                                               <p class="DEFINITION">increase of Common Equity Tier 1 capital that is due to tax deductibility of the amounts A<sub>2,IRB</sub> and A<sub>4,IRB</sub>.</p>
+                                                            </td>
+                                                         </tr>
+                                                      </table>
+                                                   </content>
+                                                </alinea>
+                                             </point>
+                                          </list>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>2.</num>
+                                          <subparagraph>
+                                             <content>
+                                                <p>Institutions shall calculate the amounts A<sub>2,SA</sub> and A<sub>2,IRB</sub> referred to, respectively, in points (a) and (b) of the second subparagraph of paragraph 1 as the greater of the amounts referred to in points (a) and (b) of this paragraph separately for their exposures which are subject to risk weighting in accordance with Chapter 2 of Title II of Part Three and for their exposures which are subject to risk weighting in accordance with Chapter 3 of Title II of Part Three:</p>
+                                             </content>
+                                          </subparagraph>
+                                          <list>
+                                             <point>
+                                                <num>(a)</num>
+                                                <content>
+                                                   <p>zero;</p>
+                                                </content>
+                                             </point>
+                                             <point>
+                                                <num>(b)</num>
+                                                <alinea>
+                                                   <content>
+                                                      <p>the amount calculated in accordance with point (i) reduced by the amount calculated in accordance with point (ii):</p>
+                                                   </content>
+                                                </alinea>
+                                                <list>
+                                                   <point>
+                                                      <num>(i)</num>
+                                                      <content>
+                                                         <p>the sum of the 12-month expected credit losses determined in accordance with paragraph 5.5.5 of IFRS 9 as set out in the Annex to Commission Regulation (EC) No 1126/2008 (&quot;Annex relating to IFRS 9&quot;) and the amount of the loss allowance for lifetime expected credit losses determined in accordance with paragraph 5.5.3 of the Annex relating to IFRS 9 as of 1 January 2018 or on the date of initial application of IFRS 9;</p>
+                                                      </content>
+                                                   </point>
+                                                   <point>
+                                                      <num>(ii)</num>
+                                                      <content>
+                                                         <p>the total amount of impairment losses on financial assets classified as loans and receivables, held-to-maturity investments and available-for-sale financial assets, as defined in paragraph 9 of IAS 39, other than equity instruments and units or shares in collective investment undertakings, determined in accordance with paragraphs 63, 64, 65, 67, 68 and 70 of IAS 39 as set out in the Annex to Regulation (EC) No 1126/2008 as of 31 December 2017 or the day before the date of initial application of IFRS 9.</p>
+                                                      </content>
+                                                   </point>
+                                                </list>
+                                             </point>
+                                          </list>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>3.</num>
+                                          <subparagraph>
+                                             <content>
+                                                <p>Institutions shall calculate the amount by which the amount referred to in point (a) exceeds the amount referred to in point (b) separately for their exposures which are subject to risk weighting in accordance with Chapter 2 of Title II of Part Three and for their exposures which are subject to risk weighting in accordance with Chapter 3 of Title II of Part Three:</p>
+                                             </content>
+                                          </subparagraph>
+                                          <list>
+                                             <point>
+                                                <num>(a)</num>
+                                                <content>
+                                                   <p>the sum of the 12-month expected credit losses determined in accordance with paragraph 5.5.5 of the Annex relating to IFRS 9 and the amount of the loss allowance for lifetime expected credit losses determined in accordance with paragraph 5.5.3 of the Annex relating to IFRS 9 excluding the loss allowance for lifetime expected credit losses for financial assets that are credit-impaired as defined in Appendix A to the Annex relating to IFRS 9 as of the reporting date;</p>
+                                                </content>
+                                             </point>
+                                             <point>
+                                                <num>(b)</num>
+                                                <content>
+                                                   <p>the sum of the 12-month expected credit losses determined in accordance with paragraph 5.5.5 of the Annex relating to IFRS 9 and the amount of the loss allowance for lifetime expected credit losses determined in accordance with paragraph 5.5.3 of the Annex relating to IFRS 9 excluding the loss allowance for lifetime expected credit losses for financial assets that are credit-impaired as defined in Appendix A to the Annex relating to IFRS 9 as of 1 January 2018 or on the date of initial application of IFRS 9.</p>
+                                                </content>
+                                             </point>
+                                          </list>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>4.</num>
+                                          <subparagraph>
+                                             <content>
+                                                <p>For exposures which are subject to risk weighting in accordance with Chapter 2 of Title II of Part Three, where the amount specified in accordance with point (a) of paragraph 3 exceeds the amount specified in point (b) of paragraph 3, institutions shall set A<sub>4,SA</sub> as equal to the difference between those amounts, otherwise they shall set A<sub>4,SA</sub> as equal to zero.</p>
+                                             </content>
+                                          </subparagraph>
+                                          <subparagraph>
+                                             <content>
+                                                <p>For exposures which are subject to risk weighting in accordance with Chapter 3 of Title II of Part Three, where the amount specified in accordance with point (a) of paragraph 3, after applying point (b) of paragraph 5, exceeds the amount for these exposures as specified in point (b) of paragraph 3, after applying point (c) of paragraph 5, institutions shall set A<sub>4,IRB</sub> as equal to the difference between those amounts, otherwise they shall set A<sub>4,IRB</sub> as equal to zero.</p>
+                                             </content>
+                                          </subparagraph>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>5.</num>
+                                          <subparagraph>
+                                             <content>
+                                                <p>For exposures which are subject to risk weighting in accordance with Chapter 3 of Title II of Part Three, institutions shall apply paragraphs 2 to 4 as follows:</p>
+                                             </content>
+                                          </subparagraph>
+                                          <list>
+                                             <point>
+                                                <num>(a)</num>
+                                                <content>
+                                                   <p>for the calculation of A<sub>2,IRB</sub> institutions shall reduce each of the amounts calculated in accordance with points (b)(i) and (ii) of paragraph 2 of this Article by the sum of expected loss amounts calculated in accordance with Article 158(5), (6) and (10) as of 31 December 2017 or the day before the date of initial application of IFRS 9. Where for the amount referred to in point (b)(i) of paragraph 2 of this Article the calculation results in a negative number, the institution shall set the value of that amount as equal to zero. Where for the amount referred to in point (b)(ii) of paragraph 2 of this Article the calculation results in a negative number, the institution shall set the value of that amount as equal to zero;</p>
+                                                </content>
+                                             </point>
+                                             <point>
+                                                <num>(b)</num>
+                                                <content>
+                                                   <p>institutions shall replace the amount calculated in accordance with point (a) of paragraph 3 of this Article by the sum of the 12-month expected credit losses determined in accordance with paragraph 5.5.5 of the Annex relating to IFRS 9 and the amount of the loss allowance for lifetime expected credit losses determined in accordance with paragraph 5.5.3 of the Annex relating to IFRS 9 excluding the loss allowance for lifetime expected credit losses for financial assets that are credit-impaired, as defined in Appendix A to the Annex relating to IFRS 9, reduced by the sum of related expected loss amounts for the same exposures calculated in accordance with Article 158(5), (6) and (10) as of the reporting date. Where the calculation results in a negative number, the institution shall set the value of the amount referred to in point (a) of paragraph 3 of this Article as equal to zero;</p>
+                                                </content>
+                                             </point>
+                                             <point>
+                                                <num>(c)</num>
+                                                <content>
+                                                   <p>institutions shall replace the amount calculated in accordance with point (b) of paragraph 3 of this Article by the sum of the 12-month expected credit losses determined in accordance with paragraph 5.5.5 of the Annex relating to IFRS 9 and the amount of the loss allowance for lifetime expected credit losses determined in accordance with paragraph 5.5.3 of the Annex relating to IFRS 9 excluding the loss allowance for lifetime expected credit losses for financial assets that are credit-impaired, as defined in Appendix A to the Annex relating to IFRS 9, as of 1 January 2018 or on the date of initial application of IFRS 9, reduced by the sum of related expected loss amounts for the same exposures calculated in accordance with Article 158(5), (6) and (10). Where the calculation results in a negative number, the institution shall set the value of the amount referred to in point (b) of paragraph 3 of this Article as equal to zero.</p>
+                                                </content>
+                                             </point>
+                                          </list>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>6.</num>
+                                          <subparagraph>
+                                             <content>
+                                                <p>Institutions shall apply the following factors to calculate the amounts AB<sub>SA</sub> and AB<sub>IRB</sub> referred to in points (a) and (b) of the second subparagraph of paragraph 1 respectively:</p>
+                                             </content>
+                                          </subparagraph>
+                                          <list>
+                                             <point>
+                                                <num>(a)</num>
+                                                <content>
+                                                   <p>0,95 during the period from 1 January 2018 to 31 December 2018;</p>
+                                                </content>
+                                             </point>
+                                             <point>
+                                                <num>(b)</num>
+                                                <content>
+                                                   <p>0,85 during the period from 1 January 2019 to 31 December 2019;</p>
+                                                </content>
+                                             </point>
+                                             <point>
+                                                <num>(c)</num>
+                                                <content>
+                                                   <p>0,7 during the period from 1 January 2020 to 31 December 2020;</p>
+                                                </content>
+                                             </point>
+                                             <point>
+                                                <num>(d)</num>
+                                                <content>
+                                                   <p>0,5 during the period from 1 January 2021 to 31 December 2021;</p>
+                                                </content>
+                                             </point>
+                                             <point>
+                                                <num>(e)</num>
+                                                <content>
+                                                   <p>0,25 during the period from 1 January 2022 to 31 December 2022.</p>
+                                                </content>
+                                             </point>
+                                          </list>
+                                          <subparagraph>
+                                             <content>
+                                                <p>Institutions whose financial year commences after 1 January 2018 but before 1 January 2019 shall adjust the dates in points (a) to (e) of the first subparagraph so that they correspond to their financial year, shall report the adjusted dates to their competent authority and shall publicly disclose them.</p>
+                                             </content>
+                                          </subparagraph>
+                                          <subparagraph>
+                                             <content>
+                                                <p>Institutions which start to apply accounting standards as referred to in paragraph 1 on or after 1 January 2019 shall apply the relevant factors in accordance with points (b) to (e) of the first subparagraph starting with the factor corresponding to the year of the first application of those accounting standards.</p>
+                                             </content>
+                                          </subparagraph>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>7.</num>
+                                          <subparagraph>
+                                             <content>
+                                                <p>Where an institution includes in its Common Equity Tier 1 capital an amount in accordance with paragraph 1 of this Article, it shall recalculate all requirements laid down in this Regulation and in Directive 2013/36/EU that use any of the following items by not taking into account the effects that the expected credit loss provisions that it included in its Common Equity Tier 1 capital have on those items:</p>
+                                             </content>
+                                          </subparagraph>
+                                          <list>
+                                             <point>
+                                                <num>(a)</num>
+                                                <content>
+                                                   <p>the amount of deferred tax assets that is deducted from Common Equity Tier 1 capital in accordance with point (c) of Article 36(1) or risk weighted in accordance with Article 48(4);</p>
+                                                </content>
+                                             </point>
+                                             <point>
+                                                <num>(b)</num>
+                                                <alinea>
+                                                   <content>
+                                                      <p>the exposure value as determined in accordance with Article 111(1) whereby the specific credit risk adjustments by which the exposure value shall be reduced shall be multiplied by the following scaling factor (sf):</p>
+                                                   </content>
+                                                </alinea>
+                                                <alinea>
+                                                   <content>
+                                                      <p>
+                                                         <subFlow name="inlineBlock">
+                                                            <foreign>
+                                                               <fmx:FORMULA>
+                                                                  <fmx:EXPR>sf</fmx:EXPR>
+                                                                  <fmx:OP.CMP TYPE="EQ"/>
+                                                                  <fmx:EXPR>1<fmx:OP.MATH TYPE="MINUS"/>
+                                                                     <fmx:EXPR TYPE="BRACKET">AB<fmx:IND>SA</fmx:IND>/RA<fmx:IND>SA</fmx:IND>
+                                                                     </fmx:EXPR>
+                                                                  </fmx:EXPR>
+                                                               </fmx:FORMULA>
+                                                            </foreign>
+                                                         </subFlow>
+                                                      </p>
+                                                   </content>
+                                                </alinea>
+                                                <alinea>
+                                                   <content>
+                                                      <p>where:</p>
+                                                   </content>
+                                                </alinea>
+                                                <alinea>
+                                                   <content>
+                                                      <table class="DLIST">
+                                                         <tr>
+                                                            <td>
+                                                               <p>
+                                                                  <span class="TERM">AB<sub>SA</sub>
+                                                                  </span>
+                                                                  <span class="SEPARATOR">=</span>
+                                                               </p>
+                                                            </td>
+                                                            <td>
+                                                               <p class="DEFINITION">the amount calculated in accordance with point (a) of the second subparagraph of paragraph 1;</p>
+                                                            </td>
+                                                         </tr>
+                                                         <tr>
+                                                            <td>
+                                                               <p>
+                                                                  <span class="TERM">RA<sub>SA</sub>
+                                                                  </span>
+                                                                  <span class="SEPARATOR">=</span>
+                                                               </p>
+                                                            </td>
+                                                            <td>
+                                                               <p class="DEFINITION">the total amount of specific credit risk adjustments;</p>
+                                                            </td>
+                                                         </tr>
+                                                      </table>
+                                                   </content>
+                                                </alinea>
+                                             </point>
+                                             <point>
+                                                <num>(c)</num>
+                                                <content>
+                                                   <p>the amount of Tier 2 items calculated in accordance with point (d) of Article 62.</p>
+                                                </content>
+                                             </point>
+                                          </list>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>8.</num>
+                                          <content>
+                                             <p>During the period set out in paragraph 6 of this Article, in addition to disclosing the information required in Part Eight, institutions that have decided to apply the transitional arrangements set out in this Article shall disclose the amounts of own funds, Common Equity Tier 1 capital and Tier 1 capital, the Common Equity Tier 1 capital ratio, the Tier 1 capital ratio, the total capital ratio and the leverage ratio they would have in case they were not to apply this Article.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>9.</num>
+                                          <subparagraph>
+                                             <content>
+                                                <p>An institution shall decide whether to apply the arrangements set out in this Article during the transitional period and shall inform the competent authority of its decision by 1 February 2018. Where an institution has received the prior permission of the competent authority, it may reverse once, during the transitional period, its initial decision. Institutions shall publicly disclose any decision taken in accordance with this subparagraph.</p>
+                                             </content>
+                                          </subparagraph>
+                                          <subparagraph>
+                                             <content>
+                                                <p>An institution that has decided to apply the transitional arrangements set out in this Article may decide not to apply paragraph 4 in which case it shall inform the competent authority of its decision by 1 February 2018. In such a case, the institution shall set the amount A<sub>4</sub> referred to in paragraph 1 as equal to zero. Where an institution has received the prior permission of the competent authority, it may reverse once, during the transitional period, its initial decision. Institutions shall publicly disclose any decision taken in accordance with this subparagraph.</p>
+                                             </content>
+                                          </subparagraph>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>10.</num>
+                                          <content>
+                                             <p>In accordance with Article 16 of Regulation (EU) No 1093/2010, the EBA shall issue guidelines by 30 June 2018 on the disclosure requirements laid down in this Article.&apos;;</p>
+                                          </content>
+                                       </paragraph>
+                                    </article>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(2)</num>
+                     <alinea>
+                        <content>
+                           <p>in Article 493, the following paragraphs are added:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <paragraph>
+                                       <num>&apos;4.</num>
+                                       <subparagraph>
+                                          <content>
+                                             <p>By way of derogation from Article 395(1), competent authorities may allow institutions to incur any of the exposures provided for in paragraph 5 of this Article meeting the conditions set out in paragraph 6 of this Article, up to the following limits:</p>
+                                          </content>
+                                       </subparagraph>
+                                       <list>
+                                          <point>
+                                             <num>(a)</num>
+                                             <content>
+                                                <p>100 % of the institution&apos;s Tier 1 capital until 31 December 2018;</p>
+                                             </content>
+                                          </point>
+                                          <point>
+                                             <num>(b)</num>
+                                             <content>
+                                                <p>75 % of the institution&apos;s Tier 1 capital until 31 December 2019;</p>
+                                             </content>
+                                          </point>
+                                          <point>
+                                             <num>(c)</num>
+                                             <content>
+                                                <p>50 % of the institution&apos;s Tier 1 capital until 31 December 2020.</p>
+                                             </content>
+                                          </point>
+                                       </list>
+                                       <subparagraph>
+                                          <content>
+                                             <p>The limits referred to in points (a), (b) and (c) of the first subparagraph shall apply to exposure values after taking into account the effect of the credit risk mitigation in accordance with Articles 399 to 403.</p>
+                                          </content>
+                                       </subparagraph>
+                                    </paragraph>
+                                    <paragraph>
+                                       <num>5.</num>
+                                       <subparagraph>
+                                          <content>
+                                             <p>The transitional arrangements set out in paragraph 4 shall apply to the following exposures:</p>
+                                          </content>
+                                       </subparagraph>
+                                       <list>
+                                          <point>
+                                             <num>(a)</num>
+                                             <content>
+                                                <p>asset items constituting claims on central governments, central banks, or public sector entities of Member States;</p>
+                                             </content>
+                                          </point>
+                                          <point>
+                                             <num>(b)</num>
+                                             <content>
+                                                <p>asset items constituting claims expressly guaranteed by central governments, central banks, or public sector entities of Member States;</p>
+                                             </content>
+                                          </point>
+                                          <point>
+                                             <num>(c)</num>
+                                             <content>
+                                                <p>other exposures to, or guaranteed by, central governments, central banks, or public sector entities of Member States;</p>
+                                             </content>
+                                          </point>
+                                          <point>
+                                             <num>(d)</num>
+                                             <content>
+                                                <p>asset items constituting claims on regional governments or local authorities of Member States treated as exposures to a central government in accordance with Article 115(2);</p>
+                                             </content>
+                                          </point>
+                                          <point>
+                                             <num>(e)</num>
+                                             <content>
+                                                <p>other exposures to, or guaranteed by, regional governments or local authorities of Member States treated as exposures to a central government in accordance with Article 115(2).</p>
+                                             </content>
+                                          </point>
+                                       </list>
+                                       <subparagraph>
+                                          <content>
+                                             <p>For the purposes of points (a), (b) and (c) of the first subparagraph, the transitional arrangements set out in paragraph 4 of this Article shall apply only to asset items and other exposures to, or guaranteed by, public sector entities which are treated as exposures to a central government, a regional government or a local authority in accordance with Article 116(4). Where asset items and other exposures to, or guaranteed by, public sector entities are treated as exposures to a regional government or a local authority in accordance with Article 116(4), the transitional arrangements set out in paragraph 4 of this Article shall apply only where exposures to that regional government or local authority are treated as exposures to a central government in accordance with Article 115(2).</p>
+                                          </content>
+                                       </subparagraph>
+                                    </paragraph>
+                                    <paragraph>
+                                       <num>6.</num>
+                                       <subparagraph>
+                                          <content>
+                                             <p>The transitional arrangements set out in paragraph 4 of this Article shall apply only where an exposure referred to in paragraph 5 of this Article meets all of the following conditions:</p>
+                                          </content>
+                                       </subparagraph>
+                                       <list>
+                                          <point>
+                                             <num>(a)</num>
+                                             <content>
+                                                <p>the exposure would be assigned a risk weight of 0 % in accordance with the version of Article 495(2) in force on 31 December 2017;</p>
+                                             </content>
+                                          </point>
+                                          <point>
+                                             <num>(b)</num>
+                                             <content>
+                                                <p>the exposure was incurred on or after 12 December 2017.</p>
+                                             </content>
+                                          </point>
+                                       </list>
+                                    </paragraph>
+                                    <paragraph>
+                                       <num>7.</num>
+                                       <content>
+                                          <p>An exposure as referred to in paragraph 5 of this Article incurred before 12 December 2017 to which a risk weight of 0 % was assigned on 31 December 2017 in accordance with Article 495(2) shall be exempted from the application of Article 395(1).&apos;.</p>
+                                       </content>
+                                    </paragraph>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+               </list>
+            </paragraph>
+         </article>
+         <article xml:id="art_d643e840">
+            <num>Article 2</num>
+            <heading/>
+            <paragraph>
+               <content>
+                  <p>This Regulation shall enter into force on the day following that of its publication in the <i>Official Journal of the European Union</i>.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <content>
+                  <p>It shall apply from 1 January 2018.</p>
+               </content>
+            </paragraph>
+         </article>
+         <clause>
+            <content>
+               <p>This Regulation shall be binding in its entirety and directly applicable in all Member States.</p>
+            </content>
+         </clause>
+      </body>
+      <conclusions>
+         <p>Done at Strasbourg, 12 December 2017.</p>
+         <block name="signatory">
+            <signature>
+               <organization refersTo="">For the European Parliament</organization>
+               <role refersTo="">The President</role>
+               <person refersTo="">A. TAJANI</person>
+            </signature>
+            <signature>
+               <organization refersTo="">For the Council</organization>
+               <role refersTo="">The President</role>
+               <person refersTo="">M. MAASIKAS</person>
+            </signature>
+         </block>
+      </conclusions>
+   </bill>
+</akomaNtoso>

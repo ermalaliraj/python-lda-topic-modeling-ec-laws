@@ -1,0 +1,1161 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"
+            xmlns:fmx="http://formex.publications.europa.eu/schema/formex-05.21-20110601.xd"
+            xmlns:leos="urn:eu:europa:ec:leos"
+            xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <bill name="">
+      <meta xmlns:fn="http://www.w3.org/2005/xpath-functions">
+         <identification source="~COM">
+            <FRBRWork>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRcountry value=""/>
+            </FRBRWork>
+            <FRBRExpression>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+            </FRBRManifestation>
+         </identification>
+      </meta>
+      <preface>
+         <longTitle>
+            <p>
+               <docStage/>
+               <docType>REGULATION (EU) 2018/1091 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL</docType>of 18 July 2018<docPurpose>on integrated farm statistics and repealing Regulations (EC) No 1166/2008 and (EU) No 1337/2011</docPurpose>
+            </p>
+         </longTitle>
+         <container name="EEArelevance">
+            <p>(Text with EEA relevance)</p>
+         </container>
+      </preface>
+      <preamble>
+         <formula name="actingEntity">
+            <p>THE EUROPEAN PARLIAMENT AND THE COUNCIL OF THE EUROPEAN UNION,</p>
+         </formula>
+         <citations>
+            <citation>
+               <p>Having regard to the Treaty on the Functioning of the European Union, and in particular Article 338 thereof,</p>
+            </citation>
+            <citation>
+               <p>Having regard to the proposal from the European Commission,</p>
+            </citation>
+            <citation>
+               <p>After transmission of the draft legislative act to the national parliaments,</p>
+            </citation>
+            <citation>
+               <p>Acting in accordance with the ordinary legislative procedure<authorialNote placement="bottom" marker="1">
+                     <p>Position of the European Parliament of 3 July 2018 (not yet published in the Official Journal) and decision of the Council of 16 July 2018.</p>
+                  </authorialNote>,</p>
+            </citation>
+         </citations>
+         <recitals xml:id="recs_d225e78">
+            <intro>
+               <p>Whereas:</p>
+            </intro>
+            <recital xml:id="rec_d225e81">
+               <num>(1)</num>
+               <p>Regulation (EC) No 1166/2008 of the European Parliament and of the Council<authorialNote placement="bottom" marker="2">
+                     <p>Regulation (EC) No 1166/2008 of the European Parliament and of the Council of 19 November 2008 on farm structure surveys and the survey on agricultural production methods and repealing Council Regulation (EEC) No 571/88 (OJ L 321, 1.12.2008, p. 14).</p>
+                  </authorialNote> establishes a framework for European statistics on the structure of agricultural holdings up to 2016. That Regulation should therefore be repealed.</p>
+            </recital>
+            <recital xml:id="rec_d225e97">
+               <num>(2)</num>
+               <p>The programme of European surveys on the structure of agricultural holdings, which has been carried out in the Union since 1966, should be continued in order to examine the trends in the structure of agricultural holdings at the Union level and to provide the statistical knowledge base necessary for the design, implementation, monitoring, evaluation and review of related policies, in particular the common agricultural policy (CAP), including rural development measures, as well as environmental, climate change adaptation and mitigation and land use policies of the Union and some Sustainable Development Goals (SDGs). Such a knowledge base is also required in order to estimate the impact of those policies on the female workforce on agricultural holdings.</p>
+            </recital>
+            <recital xml:id="rec_d225e103">
+               <num>(3)</num>
+               <p>The collection of statistical data, in particular concerning the structure of farms, should aim, amongst other objectives, to inform the decision-making process with updated data with a view to future CAP reforms.</p>
+            </recital>
+            <recital xml:id="rec_d225e109">
+               <num>(4)</num>
+               <p>An international evaluation of agricultural statistics led to setting up the Food and Agriculture Organization&apos;s (FAO) Global Strategy to Improve Agricultural and Rural Statistics that was endorsed by the United Nations Statistics Committee (UNSC) in 2010. European agricultural statistics should, where appropriate, follow the recommendations of the Global Strategy to Improve Agricultural and Rural Statistics, as well as those of the FAO World Programme for the Census of Agriculture 2020.</p>
+            </recital>
+            <recital xml:id="rec_d225e116">
+               <num>(5)</num>
+               <p>Regulation (EC) No 223/2009 of the European Parliament and of the Council<authorialNote placement="bottom" marker="3">
+                     <p>Regulation (EC) No 223/2009 of the European Parliament and of the Council of 11 March 2009 on European statistics and repealing Regulation (EC, Euratom) No 1101/2008 of the European Parliament and of the Council on the transmission of data subject to statistical confidentiality to the Statistical Office of the European Communities, Council Regulation (EC) No 322/97 on Community Statistics, and Council Decision 89/382/EEC, Euratom establishing a Committee on the Statistical Programmes of the European Communities (OJ L 87, 31.3.2009, p. 164).</p>
+                  </authorialNote> provides for a framework for the development, production and dissemination of European statistics, based on common statistical principles. It establishes quality criteria, and refers to the need to minimise the response burden on survey respondents and to contribute to the more general objective of a reduction of administrative burdens.</p>
+            </recital>
+            <recital xml:id="rec_d225e132">
+               <num>(6)</num>
+               <p>A multipurpose statistical programme on agricultural holdings should be set up for the next decade to provide the framework for harmonised, comparable and coherent statistics. Those statistics should be targeted towards policy needs.</p>
+            </recital>
+            <recital xml:id="rec_d225e138">
+               <num>(7)</num>
+               <p>The Strategy for Agricultural Statistics for 2020 and beyond, set up by the European Statistical System Committee (ESSC) in November 2015, envisages the adoption of two framework Regulations covering all aspects of agricultural statistics, with the exception of the Economic Accounts for Agriculture. This Regulation is one of those framework Regulations.</p>
+            </recital>
+            <recital xml:id="rec_d225e144">
+               <num>(8)</num>
+               <p>For the purposes of harmonisation and comparability of information on the structure of agricultural holdings and in order to meet the current needs of the Single Common Market Organisation and in particular the fruit and wine sector, Regulation (EU) No 1337/2011 of the European Parliament and of the Council<authorialNote placement="bottom" marker="4">
+                     <p>Regulation (EU) No 1337/2011 of the European Parliament and of the Council of 13 December 2011 concerning European statistics on permanent crops and repealing Council Regulation (EEC) No 357/79 and Directive 2001/109/EC of the European Parliament and of the Council (OJ L 347, 30.12.2011, p. 7).</p>
+                  </authorialNote> should be integrated with the structural information at the level of agricultural holdings from 2023 onwards and replaced by this Regulation. It is therefore necessary to repeal that Regulation.</p>
+            </recital>
+            <recital xml:id="rec_d225e160">
+               <num>(9)</num>
+               <p>Comparable statistics from all Member States on the structure of agricultural holdings are important to determine the development of the CAP. Therefore standard classifications and common definitions should be used insofar as possible for variables.</p>
+            </recital>
+            <recital xml:id="rec_d225e167">
+               <num>(10)</num>
+               <p>The statistical data records relating to agricultural holdings enable core and module data to be cross-tabulated, therefore allowing for information to be retrieved based on variables such as the gender of the manager of the agricultural holding, that manager&apos;s age, the ownership structure and size of the agricultural holding and the uptake of environmental measures. A disaggregation of results will be possible for the criteria included in the core data and for combinations of criteria.</p>
+            </recital>
+            <recital xml:id="rec_d225e173">
+               <num>(11)</num>
+               <p>The collection of information on year of birth, year when classified as manager of the agricultural holding and gender could provide data for the development of actions in respect of generational renewal and gender-related aspects.</p>
+            </recital>
+            <recital xml:id="rec_d225e179">
+               <num>(12)</num>
+               <p>Amongst other reasons, for the purposes of updating the basic registers of agricultural holdings and the rest of the information required for the stratification of samples, a census of agricultural holdings should be carried out in the Union at least every 10 years. The most recent census took place in 2009/2010.</p>
+            </recital>
+            <recital xml:id="rec_d225e185">
+               <num>(13)</num>
+               <p>Member States in which the periods of fieldwork for the survey reference year 2020 overlap with the work planned for the 10-year population census should have the possibility to bring the farming survey forward a year so as to avoid the heavy burden of conducting two major data collections at the same time.</p>
+            </recital>
+            <recital xml:id="rec_d225e191">
+               <num>(14)</num>
+               <p>In order to avoid placing an unnecessary burden on agricultural holdings and national administrations, thresholds should be established. Properly analysing the structure of European agriculture requires that 98 % of the utilised agricultural area and the livestock on farms should be covered by the statistics. In some Member States, this means that the thresholds listed in this Regulation are too high. However, the agricultural holdings below those thresholds are so small that a sample data collection to be carried out once per decade is sufficient to allow the estimation of their structure and the impact on production, resulting in the reduction of costs and burdens while still enabling the design of effective policy action to support and maintain small farming structures.</p>
+            </recital>
+            <recital xml:id="rec_d225e197">
+               <num>(15)</num>
+               <p>The areas used for agricultural production should be covered by integrated farm statistics, including the land used by two or more agricultural holdings because common rights apply.</p>
+            </recital>
+            <recital xml:id="rec_d225e204">
+               <num>(16)</num>
+               <p>It is necessary to receive information about the affiliation of an agricultural holding to a group of enterprises, the entities of which are controlled by a parent entity.</p>
+            </recital>
+            <recital xml:id="rec_d225e210">
+               <num>(17)</num>
+               <p>In order to reduce the burden on respondents, the National Statistical Institutes (NSIs) and other national authorities should have access to administrative data, to the extent that those data are necessary for the development, production and dissemination of European statistics, in accordance with Article 17a of Regulation (EC) No 223/2009.</p>
+            </recital>
+            <recital xml:id="rec_d225e216">
+               <num>(18)</num>
+               <p>Member States or responsible national authorities should endeavour to modernise data collection modes on agricultural holdings insofar as possible. The use of digital solutions in that regard should be promoted.</p>
+            </recital>
+            <recital xml:id="rec_d225e222">
+               <num>(19)</num>
+               <p>For the purposes of flexibility for the European agricultural statistical system, and for the simplification and modernisation of agricultural statistics, the variables to be collected should be allocated to different collection groups (core data and modules) varying in frequency or representativeness, or both.</p>
+            </recital>
+            <recital xml:id="rec_d225e229">
+               <num>(20)</num>
+               <p>The response burden and costs can be further reduced by reusing data from the year directly preceding or following the reference year. This would be particularly relevant for aspects where no large changes are expected from one year to the next.</p>
+            </recital>
+            <recital xml:id="rec_d225e235">
+               <num>(21)</num>
+               <p>For the purpose of flexibility and to reduce the burden on respondents, the NSIs and other national authorities, the Member States should be allowed to use statistical surveys, administrative records and any other sources, methods or innovative approaches including scientifically based and well documented methods such as imputation, estimation and modelling.</p>
+            </recital>
+            <recital xml:id="rec_d225e241">
+               <num>(22)</num>
+               <p>The collection of information on nutrient and water use and agricultural production methods applied on agricultural holdings should be improved in order to provide additional statistics for the development of agro-environmental policy and to enhance the quality of agro-environmental indicators.</p>
+            </recital>
+            <recital xml:id="rec_d225e247">
+               <num>(23)</num>
+               <p>For geocoding of agricultural holdings, the Statistical Units theme in accordance with Annex III to Directive 2007/2/EC of the European Parliament and of the Council<authorialNote placement="bottom" marker="5">
+                     <p>Directive 2007/2/EC of the European Parliament and of the Council of 14 March 2007 establishing an Infrastructure for Spatial Information in the European Community (INSPIRE) (OJ L 108, 25.4.2007, p. 1).</p>
+                  </authorialNote> should be used.</p>
+            </recital>
+            <recital xml:id="rec_d225e263">
+               <num>(24)</num>
+               <p>The Commission is to respect the confidentiality of the data transmitted in line with Regulation (EC) No 223/2009. The necessary protection of confidentiality of data should be ensured, among other means, by limiting the use of the location parameters to spatial analysis of information and by appropriate aggregation when publishing statistics. For that reason, a harmonised approach to the protection of confidentiality and quality aspects for data dissemination should be developed while making efforts to render online access to official statistics easy and user-friendly.</p>
+            </recital>
+            <recital xml:id="rec_d225e269">
+               <num>(25)</num>
+               <p>Any processing of personal data under this Regulation is subject to Regulation (EU) 2016/679 of the European Parliament and of the Council<authorialNote placement="bottom" marker="6">
+                     <p>Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (General Data Protection Regulation) (OJ L 119, 4.5.2016, p. 1).</p>
+                  </authorialNote> and provisions adopted in accordance with that Regulation, and/or Regulation (EC) No 45/2001 of the European Parliament and of the Council<authorialNote placement="bottom" marker="7">
+                     <p>Regulation (EC) No 45/2001 of the European Parliament and of the Council of 18 December 2000 on the protection of individuals with regard to the processing of personal data by the Community institutions and bodies and on the free movement of such data (OJ L 8, 12.1.2001, p. 1).</p>
+                  </authorialNote>, as the case may be.</p>
+            </recital>
+            <recital xml:id="rec_d225e295">
+               <num>(26)</num>
+               <p>Regulation (EC) No 1893/2006 of the European Parliament and of the Council<authorialNote placement="bottom" marker="8">
+                     <p>Regulation (EC) No 1893/2006 of the European Parliament and of the Council of 20 December 2006 establishing the statistical classification of economic activities NACE Revision 2 and amending Council Regulation (EEC) No 3037/90 as well as certain EC Regulations on specific statistical domains (OJ L 393, 30.12.2006, p. 1).</p>
+                  </authorialNote> establishes the statistical classification of economic activities in the Union referred to in this Regulation for the purpose of defining the relevant population of agricultural holdings.</p>
+            </recital>
+            <recital xml:id="rec_d225e311">
+               <num>(27)</num>
+               <p>In accordance with Regulation (EC) No 1059/2003 of the European Parliament and of the Council<authorialNote placement="bottom" marker="9">
+                     <p>Regulation (EC) No 1059/2003 of the European Parliament and of the Council of 26 May 2003 on the establishment of a common classification of territorial units for statistics (NUTS) (OJ L 154, 21.6.2003, p. 1).</p>
+                  </authorialNote>, territorial units should be defined in accordance with the Nomenclature of Territorial Units for Statistics (NUTS) classification.</p>
+            </recital>
+            <recital xml:id="rec_d225e328">
+               <num>(28)</num>
+               <p>Funding should be required from both the Member States and the Union over a number of years in order to carry out the data collection. Provision should therefore be made for a Union grant to support that programme through the European Agricultural Guarantee Fund under Regulation (EU) No 1306/2013 of the European Parliament and of the Council<authorialNote placement="bottom" marker="10">
+                     <p>Regulation (EU) No 1306/2013 of the European Parliament and of the Council of 17 December 2013 on the financing, management and monitoring of the common agricultural policy and repealing Council Regulations (EEC) No 352/78, (EC) No 165/94, (EC) No 2799/98, (EC) No 814/2000, (EC) No 1290/2005 and (EC) No 485/2008 (OJ L 347, 20.12.2013, p. 549).</p>
+                  </authorialNote>.</p>
+            </recital>
+            <recital xml:id="rec_d225e344">
+               <num>(29)</num>
+               <p>This Regulation lays down a financial envelope for the entire duration of the relevant multiannual financial framework (MFF) which is to constitute the prime reference amount, within the meaning of point 17 of the Interinstitutional Agreement of 2 December 2013 between the European Parliament, the Council and the Commission on cooperation on budgetary discipline, on cooperation in budgetary matters and on sound financial management<authorialNote placement="bottom" marker="11">
+                     <p>OJ C 373, 20.12.2013, p. 1.</p>
+                  </authorialNote>, for the European Parliament and the Council during the annual budgetary procedure. This Regulation makes a provision for establishing the budget for further data collections in the context of the subsequent MFF.</p>
+            </recital>
+            <recital xml:id="rec_d225e360">
+               <num>(30)</num>
+               <p>Economic aspects of this Regulation should be reviewed for the period post-2020 taking into account the new MFF and other relevant changes to Union instruments. Based on that review, the Commission should consider proposing relevant changes to this Regulation.</p>
+            </recital>
+            <recital xml:id="rec_d225e366">
+               <num>(31)</num>
+               <p>Since the objective of this Regulation, namely the systematic production of European statistics on agricultural holdings in the Union, cannot be sufficiently achieved by the Member States but can rather, for reasons of consistency and comparability, be better achieved at the Union level, the Union may adopt measures in accordance with the principle of subsidiarity, as set out in Article 5 of the Treaty on European Union. In accordance with the principle of proportionality, as set out in that Article, this Regulation does not go beyond what is necessary in order to achieve that objective.</p>
+            </recital>
+            <recital xml:id="rec_d225e372">
+               <num>(32)</num>
+               <p>Regulation (EC) No 223/2009 provides for a reference framework for European statistics and requires Member States to comply with the statistical principles and quality criteria specified in that Regulation. Quality reports are essential for assessing, improving and communicating on the quality of European statistics. The ESSC has endorsed a European Statistical System (ESS) standard for Quality Reports Structure, in accordance with Article 12 of Regulation (EC) No 223/2009. That ESS standard should contribute to the harmonisation of quality reporting under this Regulation.</p>
+            </recital>
+            <recital xml:id="rec_d225e378">
+               <num>(33)</num>
+               <p>An impact assessment has been performed in accordance with the principle of sound financial management, in order to focus the statistical programme established by this Regulation on the need for effectiveness in achieving the objectives and in order to incorporate budgetary constraints from the design phase onwards.</p>
+            </recital>
+            <recital xml:id="rec_d225e384">
+               <num>(34)</num>
+               <p>In order to ensure uniform conditions for the implementation of this Regulation, implementing powers should be conferred on the Commission in respect of specifying the descriptions of variables listed in this Regulation and the technical elements of the data to be provided, establishing the descriptions of the variables and other practical arrangements for the collection of ad-hoc data as laid down in this Regulation, as well as setting out the practical arrangements for and contents of the quality reports. Those powers should be exercised in accordance with Regulation (EU) No 182/2011 of the European Parliament and of the Council<authorialNote placement="bottom" marker="12">
+                     <p>Regulation (EU) No 182/2011 of the European Parliament and of the Council of 16 February 2011 laying down the rules and general principles concerning mechanisms for control by Member States of the Commission&apos;s exercise of implementing powers (OJ L 55, 28.2.2011, p. 13).</p>
+                  </authorialNote>. When exercising those powers, the Commission should take into account aspects such as cost and administrative burdens on agricultural holdings and Member States.</p>
+            </recital>
+            <recital xml:id="rec_d225e400">
+               <num>(35)</num>
+               <p>In order to take into account emerging data needs mainly stemming from new developments in agriculture, revised legislation and changing policy priorities, the power to adopt acts in accordance with Article 290 of the Treaty on the Functioning of the European Union (TFEU) should be delegated to the Commission in respect of amending the detailed topics listed in this Regulation and supplementing the relevant module data by specifying the information to be provided on an ad-hoc basis as set out in this Regulation. In order to provide for compatibility and facilitate the use of other data sources, the power to adopt acts in accordance with Article 290 TFEU should be delegated to the Commission in respect of amending the variables listed in this Regulation. When exercising that power, the Commission should take into account aspects such as cost and administrative burdens on agricultural holdings and Member States. It is of particular importance that the Commission carry out appropriate consultations during its preparatory work, including at expert level, and that those consultations be conducted in accordance with the principles laid down in the Interinstitutional Agreement of 13 April 2016 on Better Law-Making<authorialNote placement="bottom" marker="13">
+                     <p>OJ L 123, 12.5.2016, p. 1.</p>
+                  </authorialNote>. In particular, in order to ensure equal participation in the preparation of delegated acts, the European Parliament and the Council receive all documents at the same time as Member States&apos; experts, and their experts systematically have access to meetings of Commission expert groups dealing with the preparation of delegated acts.</p>
+            </recital>
+            <recital xml:id="rec_d225e417">
+               <num>(36)</num>
+               <p>The European Data Protection Supervisor has been consulted and adopted an opinion on 20 November 2017<authorialNote placement="bottom" marker="14">
+                     <p>OJ C 14, 16.1.2018, p. 6.</p>
+                  </authorialNote>.</p>
+            </recital>
+            <recital xml:id="rec_d225e431">
+               <num>(37)</num>
+               <p>The ESSC has been consulted,</p>
+            </recital>
+         </recitals>
+         <formula name="enactingFormula">
+            <p>HAVE ADOPTED THIS REGULATION:</p>
+         </formula>
+      </preamble>
+      <body>
+         <article xml:id="art_d225e440">
+            <num>Article 1</num>
+            <heading>Subject matter</heading>
+            <paragraph>
+               <content>
+                  <p>This Regulation establishes a framework for European statistics at the level of agricultural holdings and provides for the integration of information on the structure with that on production methods, rural development measures, agro-environmental aspects and other related information.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d225e447">
+            <num>Article 2</num>
+            <heading>Definitions</heading>
+            <paragraph>
+               <subparagraph>
+                  <content>
+                     <p>For the purposes of this Regulation, the following definitions shall apply:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <content>
+                        <p>&apos;farm&apos; or &apos;agricultural holding&apos; means a single unit, both technically and economically, that has a single management and that undertakes economic activities in agriculture in accordance with Regulation (EC) No 1893/2006 belonging to groups A.01.1, A.01.2, A.01.3, A.01.4, A.01.5 or to the &apos;maintenance of agricultural land in good agricultural and environmental condition&apos; of group A.01.6 within the economic territory of the Union, either as its primary or secondary activity. Regarding activities of class A.01.49, only the activities &apos;Raising and breeding of semi-domesticated or other live animals&apos; (with the exception of raising of insects) and &apos;Bee-keeping and production of honey and beeswax&apos; are included;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <content>
+                        <p>&apos;common land agricultural unit&apos; means an entity of land on which common rights apply and which is used by two or more agricultural holdings for agricultural production, but is not allocated amongst them;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(c)</num>
+                     <content>
+                        <p>&apos;region&apos; means the territorial unit of the Nomenclature of Territorial Units for Statistics (NUTS), defined in accordance with Regulation (EC) No 1059/2003;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(d)</num>
+                     <content>
+                        <p>&apos;livestock unit&apos; means a standard measurement unit that allows for the aggregation of the various categories of livestock in order for them to be compared; the coefficients for establishing the livestock units for individual livestock categories are listed in Annex I;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(e)</num>
+                     <content>
+                        <p>&apos;utilised agricultural area&apos; or &apos;UAA&apos; means the land area used for farming, including arable land, permanent grassland, permanent crops, and other utilised agricultural land;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(f)</num>
+                     <content>
+                        <p>&apos;reference year&apos; means a calendar year to which the reference periods refer;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(g)</num>
+                     <content>
+                        <p>&apos;kitchen garden&apos; means areas used for food production intended for one&apos;s own consumption;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(h)</num>
+                     <content>
+                        <p>&apos;module&apos; means one or more data sets organised in order to cover topics;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(i)</num>
+                     <content>
+                        <p>&apos;topic&apos; means the content of the information to be collected about the statistical units, each topic covering a number of detailed topics;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(j)</num>
+                     <content>
+                        <p>&apos;detailed topic&apos; means the detailed content of the information to be collected about the statistical units related to a specific topic, each detailed topic covering a number of variables;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(k)</num>
+                     <content>
+                        <p>&apos;variable&apos; means a characteristic of a unit being observed that may assume more than one of a set of values.</p>
+                     </content>
+                  </point>
+               </list>
+            </paragraph>
+         </article>
+         <article xml:id="art_d225e577">
+            <num>Article 3</num>
+            <heading>Coverage</heading>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>The data required by this Regulation shall cover 98 % of the total UAA (excluding kitchen gardens) and 98 % of the livestock units of each Member State.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>In order to meet those requirements, Member States shall provide data representative of the agricultural holdings and common land agricultural units that meet at least one of the physical thresholds listed in Annex II with regard to the size of agricultural land or the number of livestock units.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <content>
+                  <p>By way of exception, where the frame specified under paragraph 2 represents more than 98 % of the national agricultural production, measured by the Standard Output in accordance with Commission Delegated Regulation (EU) No 1198/2014<authorialNote placement="bottom" marker="15">
+                        <p>Commission Delegated Regulation (EU) No 1198/2014 of 1 August 2014 supplementing Council Regulation (EC) No 1217/2009 setting up a network for the collection of accountancy data on the incomes and business operation of agricultural holdings in the European Union (OJ L 321, 7.11.2014, p. 2).</p>
+                     </authorialNote>, Member States may, subject to prior approval by the Commission (Eurostat), establish higher physical or corresponding economic thresholds to reduce the frame, as long as the 98 % coverage of the total UAA (excluding kitchen gardens) and 98 % of the livestock units of the Member States is reached.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>4.</num>
+               <content>
+                  <p>Where the frame specified under paragraph 2 of this Article does not represent 98 % of the UAA and 98 % of the livestock units, Member States shall extend the frame in accordance with Article 6 by establishing lower thresholds than those referred to in paragraph 2 of this Article, or by establishing additional thresholds, or both.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d225e612">
+            <num>Article 4</num>
+            <heading>Data sources and methods</heading>
+            <paragraph>
+               <num>1.</num>
+               <subparagraph>
+                  <content>
+                     <p>For the purpose of obtaining the data referred to in this Regulation, Member States shall use one or more of the following sources or methods, provided that the information allows for the production of statistics that meet the quality requirements laid down in Article 11:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <content>
+                        <p>statistical surveys;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <content>
+                        <p>the administrative data sources specified in paragraph 2 of this Article;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(c)</num>
+                     <content>
+                        <p>other sources, methods or innovative approaches.</p>
+                     </content>
+                  </point>
+               </list>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>Member States may use information from the integrated administration and control system (IACS) established by Regulation (EU) No 1307/2013 of the European Parliament and of the Council<authorialNote placement="bottom" marker="16">
+                        <p>Regulation (EU) No 1307/2013 of the European Parliament and of the Council of 17 December 2013 establishing rules for direct payments to farmers under support schemes within the framework of the common agricultural policy and repealing Council Regulation (EC) No 637/2008 and Council Regulation (EC) No 73/2009 (OJ L 347, 20.12.2013, p. 608).</p>
+                     </authorialNote>, the system for the identification and registration of bovine animals established by Regulation (EC) No 1760/2000 of the European Parliament and of the Council<authorialNote placement="bottom" marker="17">
+                        <p>Regulation (EC) No 1760/2000 of the European Parliament and of the Council of 17 July 2000 establishing a system for the identification and registration of bovine animals and regarding the labelling of beef and beef products and repealing Council Regulation (EC) No 820/97 (OJ L 204, 11.8.2000, p. 1).</p>
+                     </authorialNote> and the system for the identification and registration of ovine and caprine animals established by Council Regulation (EC) No 21/2004<authorialNote placement="bottom" marker="18">
+                        <p>Council Regulation (EC) No 21/2004 of 17 December 2003 establishing a system for the identification and registration of ovine and caprine animals and amending Regulation (EC) No 1782/2003 and Directives 92/102/EEC and 64/432/EEC (OJ L 5, 9.1.2004, p. 8).</p>
+                     </authorialNote>, the vineyard register implemented in accordance with Article 145 of Regulation (EU) No 1308/2013 of the European Parliament and of the Council<authorialNote placement="bottom" marker="19">
+                        <p>Regulation (EU) No 1308/2013 of the European Parliament and of the Council of 17 December 2013 establishing a common organisation of the markets in agricultural products and repealing Council Regulations (EEC) No 922/72, (EEC) No 234/79, (EC) No 1037/2001 and (EC) No 1234/2007 (OJ L 347, 20.12.2013, p. 671).</p>
+                     </authorialNote>, and the organic farming registers set up pursuant to Council Regulation (EC) No 834/2007<authorialNote placement="bottom" marker="20">
+                        <p>Council Regulation (EC) No 834/2007 of 28 June 2007 on organic production and labelling of organic products and repealing Regulation (EEC) No 2092/91 (OJ L 189, 20.7.2007, p. 1).</p>
+                     </authorialNote>. Member States may also use administrative sources associated with specific rural development measures.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <content>
+                  <p>Member States which decide to use the sources, methods or innovative approaches referred to in point (c) of paragraph 1 shall inform the Commission (Eurostat) during the year preceding the reference year and shall provide details concerning the quality of the data obtained from that source, method or innovative approach and the data collection methods to be used.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>4.</num>
+               <content>
+                  <p>National authorities responsible for fulfilling the requirements of this Regulation shall have the right to access and use data, promptly and free of charge, including individual data on agricultural holdings and personal data on their holders contained in administrative files compiled on their national territory pursuant to Article 17a of Regulation (EC) No 223/2009. The national authorities and the owners of the administrative records shall establish the necessary cooperation mechanisms.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d225e708">
+            <num>Article 5</num>
+            <heading>Core structural data</heading>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>Member States shall collect and provide the core structural data (&apos;core data&apos;) related to the agricultural holdings referred to in Article 3(2) and (3), for the reference years 2020, 2023 and 2026, as listed in Annex III. The core data collection for the reference year 2020 shall be carried out as a census.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>The core data collections for the reference years 2023 and 2026 may be carried out on samples. In that case, Member States shall ensure that the weighted results are statistically representative of agricultural holdings within each region and are designed to meet the precision requirements set out in Annex V.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <content>
+                  <p>When a variable listed in Annex III has a low or zero prevalence in a Member State, that variable may be excluded from the data collection subject to the Member State concerned providing information duly justifying its exclusion to the Commission (Eurostat) in the calendar year preceding the reference year.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>4.</num>
+               <subparagraph>
+                  <content>
+                     <p>The Commission shall be empowered to adopt implementing acts specifying the descriptions of variables listed in Annex III.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>Those implementing acts shall be adopted in accordance with the examination procedure referred to in Article 17(2) not later than 28 February 2019 for the reference year 2020, not later than 31 December 2021 for the reference year 2023, and not later than 31 December 2024 for the reference year 2026.</p>
+                  </content>
+               </subparagraph>
+            </paragraph>
+            <paragraph>
+               <num>5.</num>
+               <content>
+                  <p>The Commission is empowered to adopt delegated acts in accordance with Article 16 concerning amendments of the variables listed in Annex III where necessary for the purpose of harmonisation with the data sources specified in Article 4(2), for the years 2023 and 2026. In exercising its power, the Commission shall ensure that such delegated acts only replace variables listed in Annex III that can no longer be derived from the specified data sources. In the event of replacement, the Commission shall ensure that the new variables can be derived from the data sources specified in Article 4(2). It shall further ensure that such delegated acts are duly justified and do not impose significant additional burdens or costs on the Member States or on the respondents.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>6.</num>
+               <content>
+                  <p>Those delegated acts shall be adopted by 30 September 2021 for the reference year 2023 and by 30 September 2024 for the reference year 2026.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d225e764">
+            <num>Article 6</num>
+            <heading>Frame extension</heading>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>Member States that extend the frame in accordance with Article 3(4) shall provide core data on the agricultural holdings included in that frame extension for the reference year 2020, covering the information specified in Annex III.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>The data collection on the agricultural holdings in the frame extension may be carried out on samples. In that case, Member States shall ensure that the weighted results are statistically representative of agricultural holdings within each region and are designed to meet the precision requirements set out in Annex V.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d225e779">
+            <num>Article 7</num>
+            <heading>Module data</heading>
+            <paragraph>
+               <num>1.</num>
+               <subparagraph>
+                  <content>
+                     <p>Member States shall collect and provide the modules on the topics and detailed topics listed in Annex IV for the following reference years:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <content>
+                        <p>&apos;Labour force and other gainful activities&apos; module for 2020, 2023 and 2026;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <content>
+                        <p>&apos;Rural development&apos; module for 2020, 2023 and 2026;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(c)</num>
+                     <content>
+                        <p>&apos;Animal housing and manure management&apos; module for 2020 and 2026;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(d)</num>
+                     <content>
+                        <p>&apos;Irrigation&apos; module for 2023;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(e)</num>
+                     <content>
+                        <p>&apos;Soil management practices&apos; module for 2023;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(f)</num>
+                     <content>
+                        <p>&apos;Machinery and equipment&apos; module for 2023;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(g)</num>
+                     <content>
+                        <p>&apos;Orchard&apos; module for 2023;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(h)</num>
+                     <content>
+                        <p>&apos;Vineyard&apos; module for 2026.</p>
+                     </content>
+                  </point>
+               </list>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>The scope of those data collections shall include the agricultural holdings referred to in Article 3(2) and (3).</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <content>
+                  <p>The data collection of modules may be carried out on samples of agricultural holdings. In that case Member States shall ensure that the weighted results are statistically representative of agricultural holdings within each region and are designed to meet the precision requirements set out in Annex V.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>4.</num>
+               <content>
+                  <p>The modules shall be collected from sub-samples of the agricultural holdings for which core data is collected. The modules shall reflect the situation in the reference year but may be based on the year directly preceding or following the reference year for the modules referred to in points (f), (g) and (h) of paragraph 1 of this Article. In any case, each record providing information on modules shall be accompanied by the core data listed in Annex III.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>5.</num>
+               <content>
+                  <p>Member States with at least 1000 hectares of any of the individual crops, referred to under the detailed topics of the &apos;Orchard&apos; module in Annex IV, producing entirely or mainly for the market, shall carry out the &apos;Orchard&apos; module for that particular crop.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>6.</num>
+               <content>
+                  <p>Member States with at least 1000 hectares of vineyards planted with vines with grapes for wine, producing entirely or mainly for the market shall carry out the &apos;Vineyard&apos; module.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>7.</num>
+               <content>
+                  <p>Member States with less than 2 % irrigable area of the UAA, and with no NUTS 2 level regions with at least 5 % of irrigable area of the UAA, shall be exempted from carrying out the &apos;Irrigation&apos; module.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>8.</num>
+               <content>
+                  <p>The Member States shall inform the Commission (Eurostat) of cases referred to in paragraphs 5, 6 and 7 by the end of June of the year preceding the respective reference year.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>9.</num>
+               <content>
+                  <p>When a variable has a low or zero prevalence in a Member State, that variable may be excluded from the data collection subject to providing information duly justifying the exclusion to the Commission (Eurostat) in the calendar year preceding the reference year.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d225e926">
+            <num>Article 8</num>
+            <heading>Technical specification concerning the module data</heading>
+            <paragraph>
+               <num>1.</num>
+               <subparagraph>
+                  <content>
+                     <p>The Commission may adopt implementing acts specifying the following technical elements of the data to be provided for each module and the corresponding topic and detailed topic listed in Annex IV:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <content>
+                        <p>the list of variables;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <content>
+                        <p>the descriptions of variables.</p>
+                     </content>
+                  </point>
+               </list>
+               <subparagraph>
+                  <content>
+                     <p>Those implementing acts shall be adopted in accordance with the examination procedure referred to in Article 17(2) not later than 28 February 2019 for the reference year 2020, not later than 31 December 2021 for the reference year 2023 and not later than 31 December 2024 for the reference year 2026.</p>
+                  </content>
+               </subparagraph>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>When adopting the implementing acts specifying the list of variables in accordance with paragraph 1, the Commission shall ensure that the overall number of core and module variables does not exceed 300 variables in 2020, 470 variables in 2023 and 350 variables in 2026.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <content>
+                  <p>For the years 2023 and 2026, the Commission is empowered to adopt delegated acts in accordance with Article 16 concerning amendments of the detailed topics listed in Annex IV. In exercising its power, the Commission shall ensure that such delegated acts do not significantly increase the burden imposed by the number of variables. In particular, the Commission shall ensure that the delegated acts do not lead to an increase in the number of variables referred to in paragraph 2 of this Article, and that a maximum of 20 % of the detailed topics listed in Annex IV are changed for each module by means of delegated acts. However, if 20 % represents less than one detailed topic then one detailed topic may nevertheless be changed.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>4.</num>
+               <content>
+                  <p>Those delegated acts shall be adopted by 30 September 2021 for the reference year 2023 and by 30 September 2024 for the reference year 2026.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>5.</num>
+               <content>
+                  <p>The implementing acts referred to in paragraphs 1 and 2 and the delegated acts referred to in paragraph 3 shall not impose significant additional costs which result in a disproportionate and unjustified burden on agricultural holdings and on Member States.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d225e989">
+            <num>Article 9</num>
+            <heading>Ad-hoc data</heading>
+            <paragraph>
+               <num>1.</num>
+               <subparagraph>
+                  <content>
+                     <p>The Commission is empowered to adopt delegated acts in accordance with Article 16 supplementing the module data set out in Annex IV, if collection of additional information is deemed necessary. Those delegated acts shall specify:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <content>
+                        <p>the topics and detailed topics to be provided in the ad-hoc module and the reasons for such additional statistical needs;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <content>
+                        <p>the reference year.</p>
+                     </content>
+                  </point>
+               </list>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>The Commission is empowered to adopt delegated acts referred to in paragraph 1 starting with the reference year 2023 and at three year intervals. It shall not propose ad-hoc modules for reference years during which data collection is carried out as a census.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <subparagraph>
+                  <content>
+                     <p>The Commission may adopt implementing acts to provide:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <content>
+                        <p>a list of variables not exceeding 20 variables to be transmitted to the Commission (Eurostat) and the corresponding measurement units;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <content>
+                        <p>the descriptions of variables;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(c)</num>
+                     <content>
+                        <p>the precision requirements;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(d)</num>
+                     <content>
+                        <p>the reference periods;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(e)</num>
+                     <content>
+                        <p>the transmission dates.</p>
+                     </content>
+                  </point>
+               </list>
+               <subparagraph>
+                  <content>
+                     <p>Those implementing acts shall be adopted in accordance with the examination procedure referred to in Article 17(2) not later than 12 months before the beginning of the reference year.</p>
+                  </content>
+               </subparagraph>
+            </paragraph>
+            <paragraph>
+               <num>4.</num>
+               <content>
+                  <p>The delegated acts referred to in paragraph 1 of this Article and the implementing acts referred to paragraph 3 of this Article shall not impose significant additional costs which result in a disproportionate and unjustified burden on agricultural holdings and on Member States.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d225e1062">
+            <num>Article 10</num>
+            <heading>Reference period</heading>
+            <paragraph>
+               <subparagraph>
+                  <content>
+                     <p>The collected information shall refer to a single reference year that is common to all Member States by referring to the situation during a specified timeframe or date as follows:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <content>
+                        <p>For land variables, the use of the land shall refer to the reference year. In the case of successive crops from the same piece of land, the land use shall refer to a crop that is harvested during the reference year, regardless of when the crop in question is sown.</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <content>
+                        <p>For variables on irrigation and soil management practices, the reference period is a 12-month period ending within the reference year, to be established by each Member State with a view to covering the related production cycles.</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(c)</num>
+                     <content>
+                        <p>For variables on livestock, animal housing and manure management a common reference day within the reference year shall be established by each Member State. The variables on manure management shall refer to a 12-month period including that date.</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(d)</num>
+                     <content>
+                        <p>For variables on labour force, a 12-month reference period ending on a reference day within the reference year shall be established by each Member State.</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(e)</num>
+                     <content>
+                        <p>For variables on rural development measures implemented in the individual agricultural holdings, the reference period shall be the three-year period ending on 31 December of the reference year.</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(f)</num>
+                     <content>
+                        <p>For all other variables, a common reference day within the reference year shall be established by each Member State.</p>
+                     </content>
+                  </point>
+               </list>
+            </paragraph>
+         </article>
+         <article xml:id="art_d225e1109">
+            <num>Article 11</num>
+            <heading>Quality</heading>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>Member States shall take the necessary measures to ensure the quality of the transmitted data and metadata.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>For the purposes of this Regulation, the quality criteria defined in Article 12(1) of Regulation (EC) No 223/2009 shall apply.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <content>
+                  <p>The Commission (Eurostat) shall assess the quality of the data and metadata transmitted.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>4.</num>
+               <subparagraph>
+                  <content>
+                     <p>For that purpose, Member States shall transmit a quality report describing the statistical process to the Commission (Eurostat), for each reference year covered by this Regulation, and in particular:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <content>
+                        <p>metadata describing the methodology used and how technical specifications were achieved by reference to those laid down by this Regulation;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <content>
+                        <p>information on compliance with the minimum requirements for the sampling frames used, including in developing and updating them, as laid down in this Regulation;</p>
+                     </content>
+                  </point>
+               </list>
+               <subparagraph>
+                  <content>
+                     <p>The Commission may adopt implementing acts setting out the practical arrangements for, and the contents of, the quality reports. Those implementing acts shall be adopted in accordance with the examination procedure referred to in Article 17(2) and shall not impose significant additional burdens or costs on the Member States.</p>
+                  </content>
+               </subparagraph>
+            </paragraph>
+            <paragraph>
+               <num>5.</num>
+               <content>
+                  <p>Member States shall inform the Commission (Eurostat) as soon as possible about any relevant information or change with regard to the implementation of this Regulation that could influence the quality of the data transmitted.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>6.</num>
+               <content>
+                  <p>At the request of the Commission (Eurostat), Member States shall provide necessary additional clarification to evaluate the quality of the statistical information.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d225e1160">
+            <num>Article 12</num>
+            <heading>Data and metadata transmission and deadlines</heading>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>For the reference year 2020, Member States shall transmit validated core and module data and a quality report to the Commission (Eurostat) within 15 months after the end of the reference year.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>For the reference years 2023 and 2026, Member States shall transmit validated core and module data and a quality report to the Commission (Eurostat) within 12 months after the end of the reference year.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <content>
+                  <p>The data transmitted to the Commission (Eurostat) shall be at the level of individual agricultural holdings. The module and the ad-hoc data shall be linked to the core data listed in Annex III at the individual agricultural holding level for the same reference year. The records provided shall include the extrapolation factors and information on stratification.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>4.</num>
+               <content>
+                  <p>Member States shall transmit the data and metadata using a technical format specified by the Commission (Eurostat). The data and metadata shall be provided to the Commission (Eurostat) through the single entry point services.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d225e1186">
+            <num>Article 13</num>
+            <heading>Union contribution</heading>
+            <paragraph>
+               <num>1.</num>
+               <subparagraph>
+                  <content>
+                     <p>For the implementation of this Regulation, the Union shall provide grants to the national statistical institutes and other national authorities referred to in Article 5(2) of Regulation (EC) No 223/2009, for:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <content>
+                        <p>developing or implementing data requirements, or both;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <content>
+                        <p>developing methodologies for modernising statistical systems aiming at higher quality or lower costs and reducing the administrative burden for producing integrated farm statistics by using the sources and methods referred to in Article 4.</p>
+                     </content>
+                  </point>
+               </list>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>Member States shall receive grants from the Union towards covering the cost of data collections specified in Articles 5, 6 and 7, within the scope of the financial envelope specified in Article 14.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <content>
+                  <p>The Union financial contribution referred to in paragraph 2 shall not exceed 75 % of the eligible costs, subject to the maximum amounts specified in paragraphs 4 and 5.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>4.</num>
+               <subparagraph>
+                  <content>
+                     <p>For the combined costs of the 2020 core data and module data collections, the Union financial contribution shall be limited to the maximum amounts specified below:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <content>
+                        <p>EUR 50000 each for Luxembourg and Malta;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <content>
+                        <p>EUR 1000000 each for Austria, Croatia, Ireland and Lithuania;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(c)</num>
+                     <content>
+                        <p>EUR 2000000 each for Bulgaria, Germany, Hungary, Portugal and the United Kingdom;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(d)</num>
+                     <content>
+                        <p>EUR 3000000 each for Greece, Spain and France;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(e)</num>
+                     <content>
+                        <p>EUR 4000000 each for Italy, Poland and Romania;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(f)</num>
+                     <content>
+                        <p>EUR 300000 each for all other Member States.</p>
+                     </content>
+                  </point>
+               </list>
+            </paragraph>
+            <paragraph>
+               <num>5.</num>
+               <content>
+                  <p>For the core data and module data collections in 2023 and 2026, the maximum amounts specified in paragraph 4 shall be reduced by 50 %, subject to the provisions under the MFF post-2020.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>6.</num>
+               <content>
+                  <p>For the collection of the ad-hoc data specified in Article 9, the Union shall provide grants to the national statistical institutes and other national authorities referred to in Article 5(2) of Regulation (EC) No 223/2009 towards covering the cost of the implementation of an ad-hoc data collection. That Union financial contribution shall not exceed 90 % of the eligible costs.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>7.</num>
+               <content>
+                  <p>The Union financial contribution for the grants referred to in paragraph 2 of this Article shall be provided by the European Agricultural Guarantee Fund under point (d) of Article 4(2) of Regulation (EU) No 1306/2013.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d225e1296">
+            <num>Article 14</num>
+            <heading>Financial envelope</heading>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>The Union financial envelope for the implementation of the programme of data collections for the reference year 2020, including the appropriations necessary for the management, maintenance and development of the database systems used within the Commission to process the data supplied by the Member States under this Regulation, shall be EUR 40000000 for the period 2018-2020, covered by the MFF 2014-2020.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>Following the date of entry into force of the MFF after 2020, the amount for the period post-2020 shall be fixed by the European Parliament and the Council on a proposal from the Commission.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d225e1314">
+            <num>Article 15</num>
+            <heading>Protection of the financial interests of the Union</heading>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>The Commission shall take appropriate measures ensuring that, when actions financed under this Regulation are implemented, the financial interests of the Union are protected by the application of preventive measures against fraud, corruption and any other illegal activities, through consistent and effective checks and, if irregularities are detected, through the recovery of the amounts wrongly paid and, where appropriate, through effective, proportionate and dissuasive administrative and financial penalties.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>The Commission or its representatives and the Court of Auditors shall have the power of audit, on the basis of documents and on-the-spot checks, over all grant beneficiaries, contractors and subcontractors and third parties who have, directly or indirectly, received Union funds under the Programme.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <content>
+                  <p>The European Anti-Fraud Office (OLAF) may carry out investigations, including on-the-spot checks and inspections on economic operators concerned directly or indirectly by such funding in accordance with the procedures laid down in Regulation (EU, Euratom) No 883/2013 of the European Parliament and of the Council<authorialNote placement="bottom" marker="21">
+                        <p>Regulation (EU, Euratom) No 883/2013 of the European Parliament and of the Council of 11 September 2013 concerning investigations conducted by the European Anti-Fraud Office (OLAF) and repealing Regulation (EC) No 1073/1999 of the European Parliament and of the Council and Council Regulation (Euratom) No 1074/1999 (OJ L 248, 18.9.2013, p. 1).</p>
+                     </authorialNote> and in Council Regulation (Euratom, EC) No 2185/96<authorialNote placement="bottom" marker="22">
+                        <p>Council Regulation (Euratom, EC) No 2185/96 of 11 November 1996 concerning on-the-spot checks and inspections carried out by the Commission in order to protect the European Communities&apos; financial interests against fraud and other irregularities (OJ L 292, 15.11.1996, p. 2).</p>
+                     </authorialNote> with a view to establishing whether there has been fraud, corruption or any other illegal activity affecting the financial interests of the Union in connection with a grant agreement or grant decision or contract funded, directly or indirectly, within the framework of this Regulation.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>4.</num>
+               <content>
+                  <p>Cooperation agreements with third countries and international organisations and grant agreements and grant decisions resulting from the implementation of this Regulation shall expressly empower the Commission, the Court of Auditors and OLAF to conduct such audits, on-the-spot checks and inspections.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>5.</num>
+               <content>
+                  <p>Where the implementation of an action is outsourced or sub-delegated, in whole or in part, or where it requires the award of a procurement contract or financial support to be given to a third party, the contract, grant agreement or grant decision shall include the contractor&apos;s or beneficiary&apos;s obligation to impose explicit acceptance of those powers of the Commission, the Court of Auditors and OLAF on any third party involved.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>6.</num>
+               <content>
+                  <p>Paragraphs 4 and 5 shall apply without prejudice to paragraphs 1, 2 and 3.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d225e1370">
+            <num>Article 16</num>
+            <heading>Exercise of the delegation</heading>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>The power to adopt delegated acts is conferred on the Commission subject to the conditions laid down in this Article.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>The power to adopt delegated acts referred to in Article 5(6), Article 8(3) and Article 9(1) shall be conferred on the Commission for a period of five years from 27 August 2018. The Commission shall draw up a report in respect of the delegation of power not later than nine months before the end of the five-year period. The delegation of power shall be tacitly extended for periods of an identical duration, unless the European Parliament or the Council opposes such extension not later than three months before the end of each period.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <content>
+                  <p>The delegation of power referred to in Article 5(6), Article 8(3) and Article 9(1) may be revoked at any time by the European Parliament or by the Council. A decision to revoke shall put an end to the delegation of the power specified in that decision. It shall take effect the day following the publication of the decision in the <i>Official Journal of the European Union</i> or at a later date specified therein. It shall not affect the validity of any delegated acts already in force.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>4.</num>
+               <content>
+                  <p>Before adopting a delegated act, the Commission shall consult experts designated by each Member State in accordance with the principles laid down in the Interinstitutional Agreement of 13 April 2016 on Better Law-Making.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>5.</num>
+               <content>
+                  <p>As soon as it adopts a delegated act, the Commission shall notify it simultaneously to the European Parliament and to the Council.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>6.</num>
+               <content>
+                  <p>A delegated act adopted pursuant to Article 5(6), Article 8(3) and Article 9(1) shall enter into force only if no objection has been expressed either by the European Parliament or by the Council within a period of two months of notification of that act to the European Parliament and the Council or if, before the expiry of that period, the European Parliament and the Council have both informed the Commission that they will not object. That period shall be extended by two months at the initiative of the European Parliament or of the Council.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d225e1415">
+            <num>Article 17</num>
+            <heading>Committee procedure</heading>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>The Commission shall be assisted by the ESSC established by Regulation (EC) No 223/2009. That Committee shall be a committee within the meaning of Regulation (EU) No 182/2011.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>Where reference is made to this paragraph, Article 5 of Regulation (EU) No 182/2011 shall apply.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d225e1430">
+            <num>Article 18</num>
+            <heading>Report from the Commission</heading>
+            <paragraph>
+               <content>
+                  <p>By 31 December 2024, the Commission shall, after consulting the ESSC, submit a report on the implementation and achievement of the objectives of this Regulation to the European Parliament and to the Council.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d225e1440">
+            <num>Article 19</num>
+            <heading>Derogations</heading>
+            <paragraph>
+               <content>
+                  <p>By way of derogation from Article 5, Article 6(1), points (a), (b) and (c) of Article 7(1), Article 8(2), Article 12(1), Article 13(4), Article 14(1) and Annex V, the references to the year 2020 shall be replaced by references to the year 2019, if necessary, for Greece and Portugal.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d225e1448">
+            <num>Article 20</num>
+            <heading>Repeal</heading>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>Regulation (EU) No 1337/2011 is repealed with effect from 1 January 2022.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>Regulation (EC) No 1166/2008 is repealed with effect from 1 January 2019.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <content>
+                  <p>References to the repealed Regulations shall be construed as references to this Regulation.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d225e1474">
+            <num>Article 21</num>
+            <heading>Entry into force</heading>
+            <paragraph>
+               <content>
+                  <p>This Regulation shall enter into force on the twentieth day following that of its publication in <i>the Official Journal of the European Union</i>.</p>
+               </content>
+            </paragraph>
+         </article>
+         <clause>
+            <content>
+               <p>This Regulation shall be binding in its entirety and directly applicable in all Member States.</p>
+            </content>
+         </clause>
+      </body>
+      <conclusions>
+         <p>Done at Brussels, 18 July 2018.</p>
+         <block name="signatory">
+            <signature>
+               <organization refersTo="">For the European Parliament</organization>
+               <role refersTo="">The President</role>
+               <person refersTo="">A. TAJANI</person>
+            </signature>
+            <signature>
+               <organization refersTo="">For the Council</organization>
+               <role refersTo="">The President</role>
+               <person refersTo="">J. BOGNER-STRAUSS</person>
+            </signature>
+         </block>
+      </conclusions>
+   </bill>
+</akomaNtoso>

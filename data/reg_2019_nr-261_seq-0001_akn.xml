@@ -1,0 +1,1930 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"
+            xmlns:fmx="http://formex.publications.europa.eu/schema/formex-05.21-20110601.xd"
+            xmlns:leos="urn:eu:europa:ec:leos"
+            xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <bill name="">
+      <meta xmlns:fn="http://www.w3.org/2005/xpath-functions">
+         <identification source="~COM">
+            <FRBRWork>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRcountry value=""/>
+            </FRBRWork>
+            <FRBRExpression>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+            </FRBRManifestation>
+         </identification>
+      </meta>
+      <preface>
+         <longTitle>
+            <p>
+               <docStage/>
+               <docType>REGULATION (EU) 2019/1700 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL</docType>of 10 October 2019<docPurpose>establishing a common framework for European statistics relating to persons and households, based on data at individual level collected from samples, amending Regulations (EC) No 808/2004, (EC) No 452/2008 and (EC) No 1338/2008 of the European Parliament and of the Council, and repealing Regulation (EC) No 1177/2003 of the European Parliament and of the Council and Council Regulation (EC) No 577/98</docPurpose>
+            </p>
+         </longTitle>
+         <container name="EEArelevance">
+            <p>(Text with EEA relevance)</p>
+         </container>
+      </preface>
+      <preamble>
+         <formula name="actingEntity">
+            <p>THE EUROPEAN PARLIAMENT AND THE COUNCIL OF THE EUROPEAN UNION,</p>
+         </formula>
+         <citations>
+            <citation>
+               <p>Having regard to the Treaty on the Functioning of the European Union, and in particular Article 338(1) thereof,</p>
+            </citation>
+            <citation>
+               <p>Having regard to the proposal from the European Commission,</p>
+            </citation>
+            <citation>
+               <p>After transmission of the draft legislative act to the national parliaments,</p>
+            </citation>
+            <citation>
+               <p>Acting in accordance with the ordinary legislative procedure<authorialNote placement="bottom" marker="1">
+                     <p>Position of the European Parliament of 16 April 2019 (not yet published in the Official Journal) and decision of the Council of 7 October 2019.</p>
+                  </authorialNote>,</p>
+            </citation>
+         </citations>
+         <recitals xml:id="recs_d608e78">
+            <intro>
+               <p>Whereas:</p>
+            </intro>
+            <recital xml:id="rec_d608e81">
+               <num>(1)</num>
+               <p>Statistical data and indicators are the backbone of responsible evidence‐based policies. In the context of the Europe 2020 Strategy and the strengthening of economic governance, social indicators play an essential role in informing and supporting the Union&apos;s key priorities. Those priorities relate in particular to inclusive and sustainable growth and job creation; social cohesion; the reduction of poverty, inequalities and social exclusion; the inclusion of people with disabilities, and equal treatment; and skills, mobility and the digital economy. In particular, social indicators are needed to provide a sound statistical basis for developing and monitoring the policies introduced by the Union and the Member States to address those priorities. High‐quality social statistics are needed to improve the resilience of the Union and its cohesion targets and to preserve its welfare levels. Sound data are also of utmost importance as a bulwark against misinformation.</p>
+            </recital>
+            <recital xml:id="rec_d608e87">
+               <num>(2)</num>
+               <p>To strengthen the social goals of the European semester, social statistics have a paramount role, and it is essential to improve the availability of social indicators in order to ensure that they are provided in due time for the relevant policy frameworks. Enhancing the social dimension of the European semester would improve the resilience of the Union and its cohesion targets, and would ensure that welfare levels are maintained.</p>
+            </recital>
+            <recital xml:id="rec_d608e93">
+               <num>(3)</num>
+               <p>In line with the &apos;Beyond GDP&apos; initiative, it is important to address social aspects of progress with strong indicators focusing on the situation of citizens, describing the distributions of material living conditions and inequalities as well as investigating better the multiple dimensions of quality of life.</p>
+            </recital>
+            <recital xml:id="rec_d608e104">
+               <num>(4)</num>
+               <p>European social statistics should be provided on the basis of equal treatment of all types of users, such as policy‐makers, public administrations, researchers, trade unions, students, civil society representatives including non‐governmental organisations, and citizens, which should be able to access statistics freely and easily through Commission (Eurostat) databases on its website and in its publications. In that regard, the timeliness and user‐friendliness of the Commission (Eurostat) website should be further improved.</p>
+            </recital>
+            <recital xml:id="rec_d608e110">
+               <num>(5)</num>
+               <p>It is therefore of paramount importance that social indicators are of the necessary high quality, in particular in terms of their accuracy, timeliness, usability and accessibility, their relevance, their adaptability to new users&apos; requests, as well as their comparability, coherence and efficiency. In particular it is essential to improve the timeliness of social indicators so that they are available in due time for the relevant policy frameworks, including the European Semester. Moreover, more accurate and timely indicators could significantly benefit the monitoring of the United Nations Sustainable Development Goals.</p>
+            </recital>
+            <recital xml:id="rec_d608e116">
+               <num>(6)</num>
+               <p>In order to assess the situation of households and persons, it is important to measure income and estimate the minimum level of resources required to participate adequately in society. It is therefore essential to improve data collection and the methodology of standardised indicators in order to provide reference budget estimations on a regional basis, as well as to aim to ensure better coverage of the populations concerned. Statistical data should provide a robust basis for the setting up of indicators adapted to the variety of possible users.</p>
+            </recital>
+            <recital xml:id="rec_d608e122">
+               <num>(7)</num>
+               <p>Income is widely used when assessing the situation of households. However, it is also important to measure consumption, wealth and debts, including possible debts in foreign currency, both from a household and from a macroeconomic perspective. Moreover, poverty, in particular child poverty, is a multifaceted phenomenon which involves not only material living conditions, such as level of income, consumption, wealth and debt, but also health, education, and access to and use of services. Furthermore, in order to address unemployment adequately, in particular youth unemployment, and new employment trends, especially in the context of digital economy, it is important to have extensive, sound and comparable statistical data.</p>
+            </recital>
+            <recital xml:id="rec_d608e128">
+               <num>(8)</num>
+               <p>European statistics relating to persons and households are currently collected on the basis of a number of legislative acts covering surveys on persons and households, demographic statistics, population and housing censuses and data mainly collected from administrative sources. Some data are also gathered from business surveys. Despite significant improvements in recent years, there is a need to further integrate and streamline the data collection for statistics in a more holistic manner, based on surveys conducted on persons and households throughout the Union. In order to obtain sound data for research and policy‐making, it is essential to increase investment in high‐quality, more accurate and holistic data collection, because sound data are a pre‐condition for responsible policy‐making.</p>
+            </recital>
+            <recital xml:id="rec_d608e134">
+               <num>(9)</num>
+               <p>To improve data quality and efficiency, the use of administrative records should be encouraged to the extent possible. The possibility of using administrative sources for statistical purposes has already widened significantly, thanks to technological advances. The use of administrative sources should be further actively promoted in the area of social statistics, while always ensuring the quality, in particular the accuracy, timeliness and comparability of those statistics. Other data sources adapted to persons or relevant subjects which cannot be accessed through administrative records should also be maintained, while safeguarding the right to the protection of personal data.</p>
+            </recital>
+            <recital xml:id="rec_d608e141">
+               <num>(10)</num>
+               <p>The Commission Communication of 10 August 2009 on the production method of EU statistics: a vision for the next decade emphasised the increasing use of multiple data sources and innovative data collection methods as well as the growing importance of harmonising statistical concepts and methods across domains. It called for a new generation of statistical law that would address broader areas.</p>
+            </recital>
+            <recital xml:id="rec_d608e151">
+               <num>(11)</num>
+               <p>In 2011, the European Statistical System Committee (ESSC) established by Regulation (EC) No 223/2009 of the European Parliament and of the Council<authorialNote placement="bottom" marker="2">
+                     <p>Regulation (EC) No 223/2009 of the European Parliament and of the Council of 11 March 2009 on European statistics and repealing Regulation (EC, Euratom) No 1101/2008 of the European Parliament and of the Council on the transmission of data subject to statistical confidentiality to the Statistical Office of the European Communities, Council Regulation (EC) No 322/97 on Community Statistics, and Council Decision 89/382/EEC, Euratom establishing a Committee on the Statistical Programmes of the European Communities (OJ L 87, 31.3.2009, p. 164).</p>
+                  </authorialNote> endorsed the Wiesbaden Memorandum on a New Conceptual Design for Household and Social Statistics, according to which the European surveys that provide data relating to persons and households should be streamlined, and additionally less frequent microdata collection should be used to complement those core social surveys. Furthermore, access to administrative data should be enhanced, and the re‐use of existing data sources and access to new data sources should be developed at Union and national level.</p>
+            </recital>
+            <recital xml:id="rec_d608e167">
+               <num>(12)</num>
+               <p>The European Statistical System (ESS) is committed to engaging all users in a proactive manner by meeting their demands in a responsive manner and to reinforcing cooperation between the Commission (Eurostat), the national statistical institutes (NSIs), the national central banks, the European Statistical Advisory Committee and the Union agencies. It is therefore of the utmost importance that input by all stakeholders, including policy‐makers, researchers and academics, data producers, civil society and other interest groups, be duly taken into account when adapting and modernising the social surveys.</p>
+            </recital>
+            <recital xml:id="rec_d608e173">
+               <num>(13)</num>
+               <p>Those developments need to be gradually streamlined and statistical law in the area of social statistics needs to be modernised in order to ensure that high‐quality social indicators are produced in a more integrated, adaptable, flexible, efficient and timely manner, in order to respond to developments in society. At the same time, due consideration must be given to the needs of users, to the burden on respondents, to Member States&apos; capacities and resources, to the reliability and accuracy of the methods used, to the technical feasibility of producing the statistics, to the time within which statistics can be available and to the reliability of the results.</p>
+            </recital>
+            <recital xml:id="rec_d608e179">
+               <num>(14)</num>
+               <p>In particular, none of the measures taken for the purpose of applying this Regulation should impose significant additional costs which result in a disproportionate or unjustified burden on the respondents and the Member States.</p>
+            </recital>
+            <recital xml:id="rec_d608e185">
+               <num>(15)</num>
+               <p>Regulation (EC) No 223/2009 provides the general legal framework for European Statistics and Article 13 thereof establishes the European statistical programme. This Regulation sets up a specific framework for European statistics relating to persons and households, based on data at individual level collected from samples. It specifies the data and information to be collected by Member States and transmitted to the Commission (Eurostat), and the fundamental quality requirements to be met. It provides for more detailed technical specifications to be given in delegated and implementing acts. It allows the various data collections to be integrated with one another and with the use of administrative records, while consolidating and simplifying existing law, in accordance with the European statistical programme.</p>
+            </recital>
+            <recital xml:id="rec_d608e191">
+               <num>(16)</num>
+               <p>Union law concerning social statistics based on data at individual level was adopted to respond to certain policy needs existing at the time of its adoption. The social area is, however, characterised by new and fast changing realities. New social circumstances and phenomena are emerging, which make it necessary to update the existing legal framework at Union level. This Regulation should therefore provide for a rich statistical base that adequately covers and reflects current needs and allows for the development and production of statistical data that are responsive to the future needs of policy-makers, users and the public at large, taking into account statistical comparability at international level. This Regulation should, in particular, provide for high flexibility for further developments in the field of statistics relating to persons and households. It is also essential that data collection be carried out using the latest technological changes.</p>
+            </recital>
+            <recital xml:id="rec_d608e197">
+               <num>(17)</num>
+               <p>In order to better streamline and rationalise the reference framework for European social statistics based on data collected from samples, existing European statistics relating to persons and households based on data at individual level should be brought together under one framework. This would guarantee that European social statistics based on data collected from samples including the labour force, income and living conditions, health, education and training, use of information and communication technologies, time use and consumption domains are produced in a more consistent and coordinated way.</p>
+            </recital>
+            <recital xml:id="rec_d608e204">
+               <num>(18)</num>
+               <p>In accordance with the objectives of this Regulation, the Commission should institute feasibility and pilot studies aiming to improve the quality of the data sets and social indicators. Such studies should cover data comparability, developing new methodologies, modernising data collection and meeting users&apos; new demands, especially addressing populations that are difficult to reach, data on specific sub‐populations, in particular those that are the most vulnerable, making available statistics at NUTS 2 territorial level, and producing data at detailed local level in a cost‐effective and responsive manner. Member States should cooperate with regard to those feasibility and pilot studies and the Commission should be able to provide financial support for their implementation.</p>
+            </recital>
+            <recital xml:id="rec_d608e211">
+               <num>(19)</num>
+               <p>For the labour force and income and living conditions domains, in order to adapt to users&apos; needs and new expectations, it should be possible to collect data on ad‐hoc subjects at a specific time in order to allow the variables collected on a regular basis to be supplemented by complementary variables, highlighting unexplored aspects of the labour force and income and living conditions. In justified cases, it should be possible for those data also to cover topics not provided for in this Regulation.</p>
+            </recital>
+            <recital xml:id="rec_d608e217">
+               <num>(20)</num>
+               <p>A core set of harmonised variables should be provided for every domain, with a view to better exploiting and disseminating the data available to the Commission (Eurostat) and, in particular, as a prerequisite for data matching and cross‐cutting analyses. That practice is likely to help increase the analytical potential of data sets through the application of modelling techniques and achieve economies of scale.</p>
+            </recital>
+            <recital xml:id="rec_d608e223">
+               <num>(21)</num>
+               <p>Data collection in the time use and consumption domains at Union level provides important multi‐purpose data for Union policies affecting the lives of citizens. Time use data has proven to be of utmost importance in assessing, inter alia, gender equality in sharing work and care responsibilities or in measuring unpaid work. Consumption is also an important element of the material living conditions of the citizens. Data collection, which in both domains is carried out voluntarily by many Member States, on the basis of agreements and general guidelines, should be further developed and modernised. Data collection should be mandatory for the consumption domain and optional for the time use domain. Where implemented, such collection should, however, take place in accordance with this Regulation, so as to ensure comparability. In the long term, all Member States should aim to participate in data collection for the time use domain. Where possible, Union financial support should be provided for the modernisation and implementation of data collection in the time use and consumption domains.</p>
+            </recital>
+            <recital xml:id="rec_d608e229">
+               <num>(22)</num>
+               <p>Due to their specificities, demographic statistics within the meaning of Regulation (EU) No 1260/2013 of the European Parliament and of the Council<authorialNote placement="bottom" marker="3">
+                     <p>Regulation (EU) No 1260/2013 of the European Parliament and of the Council of 20 November 2013 on European demographic statistics (OJ L 330, 10.12.2013, p. 39).</p>
+                  </authorialNote>, population and housing censuses within the meaning of Regulation (EC) No 763/2008 of the European Parliament and of the Council<authorialNote placement="bottom" marker="4">
+                     <p>Regulation (EC) No 763/2008 of the European Parliament and of the Council of 9 July 2008 on population and housing censuses (OJ L 218, 13.8.2008, p. 14).</p>
+                  </authorialNote>, business surveys, and statistics based mainly on administrative sources, are not covered by this Regulation and should be governed separately by specific frameworks adapted to their characteristics.</p>
+            </recital>
+            <recital xml:id="rec_d608e255">
+               <num>(23)</num>
+               <p>Statistics are no longer considered to be just one of many sources of information for policy‐making purposes, but instead play a central role in the decision‐making process. Evidence‐based decision‐making requires statistics that meet high‐quality criteria, as set out in Regulation (EC) No 223/2009, in accordance with the purposes they are serving.</p>
+            </recital>
+            <recital xml:id="rec_d608e261">
+               <num>(24)</num>
+               <p>High‐quality social data are not only necessary for policy purposes but also for research and as a component of sound information infrastructure. Researchers acquiring access to microdata for scientific purposes, granted on the basis of Commission Regulation (EU) No 557/2013<authorialNote placement="bottom" marker="5">
+                     <p>Commission Regulation (EU) No 557/2013 of 17 June 2013 implementing Regulation (EC) No 223/2009 of the European Parliament and of the Council on European Statistics as regards access to confidential data for scientific purposes and repealing Commission Regulation (EC) No 831/2002 (OJ L 164, 18.6.2013, p. 16).</p>
+                  </authorialNote> as regards access to confidential data without direct identifiers for scientific purposes, would benefit greatly from having better linked statistical data sets.</p>
+            </recital>
+            <recital xml:id="rec_d608e278">
+               <num>(25)</num>
+               <p>Income, consumption and wealth are three dimensions determining the material wellbeing of households. It is important to seek, across the existing data sources, to describe better those dimensions, the distribution of each of them as well as their joint distribution across households, more accurately taking into account the existence of several data sources and seeking reinforcement of their joint use. This Regulation should therefore include and enhance the consumption domain and the linkages between those three dimensions.</p>
+            </recital>
+            <recital xml:id="rec_d608e284">
+               <num>(26)</num>
+               <p>Regulation (EC) No 223/2009 requires Member States to comply with the statistical principles and quality criteria specified in that Regulation. Quality reports are essential for assessing, improving and communicating on the quality of European statistics. The ESSC has endorsed an ESS Standard for Quality Reports Structure, in accordance with Article 12 of that Regulation. The European Statistics Code of Practice is the backbone of the ESS common quality framework, setting standards for the development, production and dissemination of European statistics. This should contribute to the harmonisation of quality reporting under this Regulation.</p>
+            </recital>
+            <recital xml:id="rec_d608e290">
+               <num>(27)</num>
+               <p>Regulation (EC) No 223/2009 includes rules on the transmission of data from the Member States to the Commission (Eurostat) and on the use thereof, including on the transmission and protection of confidential data. Measures taken in accordance with this Regulation should ensure that confidential data are transmitted and used exclusively for statistical purposes in accordance with Articles 21 and 22 of Regulation (EC) No 223/2009.</p>
+            </recital>
+            <recital xml:id="rec_d608e296">
+               <num>(28)</num>
+               <p>Regulations (EU) 2016/679<authorialNote placement="bottom" marker="6">
+                     <p>Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (General Data Protection Regulation) (OJ L 119, 4.5.2016, p. 1).</p>
+                  </authorialNote> and (EU) 2018/1725<authorialNote placement="bottom" marker="7">
+                     <p>Regulation (EU) 2018/1725 of the European Parliament and of the Council of 23 October 2018 on the protection of natural persons with regard to the processing of personal data by the Union institutions, bodies, offices and agencies and on the free movement of such data, and repealing Regulation (EC) No 45/2001 and Decision No 1247/2002/EC (OJ L 295, 21.11.2018, p. 39).</p>
+                  </authorialNote> of the European Parliament and of the Council and Directive 2002/58/EC of the European Parliament and of the Council<authorialNote placement="bottom" marker="8">
+                     <p>Directive 2002/58/EC of the European Parliament and of the Council of 12 July 2002 concerning the processing of personal data and the protection of privacy in the electronic communications sector (Directive on privacy and electronic communications) (OJ L 201, 31.7.2002, p. 37).</p>
+                  </authorialNote> apply to the personal data covered by this Regulation. In particular, statistical data required for the purpose of developing and monitoring Union and national actions and strategies in the areas of public health and health and safety at work should be regarded as data processed for reasons of substantial public interest.</p>
+            </recital>
+            <recital xml:id="rec_d608e333">
+               <num>(29)</num>
+               <p>Reliable statistics are needed at national as well as at regional level where better comparability is required. It is important that aggregated data be made available for comparable territorial units such as NUTS 2, while taking costs into account and providing Member States with the appropriate financial resources. In accordance with Regulation (EC) No 1059/2003 of the European Parliament and of the Council<authorialNote placement="bottom" marker="9">
+                     <p>Regulation (EC) No 1059/2003 of the European Parliament and of the Council of 26 May 2003 on the establishment of a common classification of territorial units for statistics (NUTS) (OJ L 154, 21.6.2003, p. 1).</p>
+                  </authorialNote>, all Member States&apos; statistics that are transmitted to the Commission (Eurostat) and that are to be broken down by territorial units should use the NUTS classification. Consequently, in order to establish comparable regional statistics, data on the territorial units should be provided in accordance with the NUTS classification. In the longer term, efforts should be made to achieve more detailed local data, based on the infrastructure set up by Directive 2007/2/EC of the European Parliament and of the Council<authorialNote placement="bottom" marker="10">
+                     <p>Directive 2007/2/EC of the European Parliament and of the Council of 14 March 2007 establishing an Infrastructure for Spatial Information in the European Community (INSPIRE) (OJ L 108, 25.4.2007, p. 1).</p>
+                  </authorialNote>.</p>
+            </recital>
+            <recital xml:id="rec_d608e359">
+               <num>(30)</num>
+               <p>In order to take account of economic, social and technical developments, the power to adopt acts in accordance with Article 290 of the Treaty on the Functioning of the European Union (TFEU) should be delegated to the Commission in order to amend the detailed topics set out in Annex I, to put in place or adapt the eight‐year multiannual rolling planning for the collection of data covered by this Regulation in accordance with the periodicity specified in Annex IV, and to establish the number and title of variables. It is of particular importance that the Commission carry out appropriate consultations during its preparatory work, including at expert level, and that those consultations be conducted in accordance with the principles laid down in the Interinstitutional Agreement of 13 April 2016 on Better Law‐Making<authorialNote placement="bottom" marker="11">
+                     <p>OJ L 123, 12.5.2016, p. 1.</p>
+                  </authorialNote>. In particular, to ensure equal participation in the preparation of delegated acts, the European Parliament and the Council receive all documents at the same time as Member States&apos; experts, and their experts systematically have access to meetings of Commission expert groups dealing with the preparation of delegated acts.</p>
+            </recital>
+            <recital xml:id="rec_d608e375">
+               <num>(31)</num>
+               <p>In order to ensure uniform conditions for the implementation of this Regulation, implementing powers should be conferred on the Commission in respect of the description of variables, the technical specifications of the particular data sets, the technical items when they are common to several data sets, the technical formats needed to facilitate the transmission of information from the Member States to the Commission (Eurostat), the sampling frames, in particular setting out the minimum requirements of the sampling frames, the arrangements for and the content of the quality reports, and any derogations. Those powers should be exercised in accordance with Regulation (EU) No 182/2011 of the European Parliament and of the Council<authorialNote placement="bottom" marker="12">
+                     <p>Regulation (EU) No 182/2011 of the European Parliament and of the Council of 16 February 2011 laying down the rules and general principles concerning mechanisms for control by Member States of the Commission&apos;s exercise of implementing powers (OJ L 55, 28.2.2011, p. 13).</p>
+                  </authorialNote>.</p>
+            </recital>
+            <recital xml:id="rec_d608e391">
+               <num>(32)</num>
+               <p>Where the implementation of this Regulation would require major adaptations to the national statistical system of a Member State, the Commission should be able, in duly justified cases and for a limited period of time, to grant derogations to the Member States concerned. Such major adaptations may arise in particular from the need to improve timeliness, to adapt the design of the data collection, including the access to administrative sources, or to develop new innovative tools to produce data. Where appropriate, a Union financial contribution should also be provided to Member States in the form of grants, in particular for capacity‐building in accordance with Regulation (EU, Euratom) 2018/1046 of the European Parliament and of the Council<authorialNote placement="bottom" marker="13">
+                     <p>Regulation (EU, Euratom) 2018/1046 of the European Parliament and of the Council of 18 July 2018 on the financial rules applicable to the general budget of the Union, amending Regulations (EU) No 1296/2013, (EU) No 1301/2013, (EU) No 1303/2013, (EU) No 1304/2013, (EU) No 1309/2013, (EU) No 1316/2013, (EU) No 223/2014, (EU) No 283/2014, and Decision No 541/2014/EU and repealing Regulation (EU, Euratom) No 966/2012 (OJ L 193, 30.7.2018, p. 1).</p>
+                  </authorialNote>.</p>
+            </recital>
+            <recital xml:id="rec_d608e407">
+               <num>(33)</num>
+               <p>Collaboration and coordination between the authorities in the framework of the ESS should be reinforced to ensure coherence and comparability of European social statistics produced in accordance with the principles laid down in Article 338(2) TFEU. There is also data collection by other Union bodies, in particular Union agencies, as well as the academic community, beyond those referred to in this Regulation. Cooperation between such actors and those involved in the ESS should therefore be reinforced in order to take advantage of synergies.</p>
+            </recital>
+            <recital xml:id="rec_d608e413">
+               <num>(34)</num>
+               <p>Since the objective of this Regulation, namely the establishment of a common framework for European statistics relating to persons and households, based on data at individual level collected from samples, cannot be sufficiently achieved by the Member States but can rather, by reason of harmonisation, data quality and comparability, be better achieved at Union level, and because high‐quality statistics that are collected in a harmonised manner provide a major added value to policy‐making at Union and Member State levels, the Union may adopt measures, in accordance with the principle of subsidiarity set out in Article 5 of the Treaty on European Union. In accordance with the principle of proportionality, as set out in that Article, this Regulation does not go beyond what is necessary in order to achieve that objective.</p>
+            </recital>
+            <recital xml:id="rec_d608e419">
+               <num>(35)</num>
+               <p>The European social statistics based on data collected from samples and the data collection process should become more efficient and relevant. European statistics relating to persons and households, based on data at individual level collected from samples are currently regulated in a number of separate legislative acts which should be replaced by this Regulation. It is therefore necessary to repeal Council Regulation (EC) No 577/98<authorialNote placement="bottom" marker="14">
+                     <p>Council Regulation (EC) No 577/98 of 9 March 1998 on the organisation of a labour force sample survey in the Community (OJ L 77, 14.3.1998, p. 3).</p>
+                  </authorialNote> and Regulation (EC) No 1177/2003 of the European Parliament and of the Council<authorialNote placement="bottom" marker="15">
+                     <p>Regulation (EC) No 1177/2003 of the European Parliament and of the Council of 16 June 2003 concerning Community statistics on income and living conditions (EU-SILC) (OJ L 165, 3.7.2003, p. 1).</p>
+                  </authorialNote> and to amend relevant parts of Regulations (EC) No 808/2004<authorialNote placement="bottom" marker="16">
+                     <p>Regulation (EC) No 808/2004 of the European Parliament and of the Council of 21 April 2004 concerning Community statistics on the information society (OJ L 143, 30.4.2004, p. 49).</p>
+                  </authorialNote>, (EC) No 452/2008<authorialNote placement="bottom" marker="17">
+                     <p>Regulation (EC) No 452/2008 of the European Parliament and of the Council of 23 April 2008 concerning the production and development of statistics on education and lifelong learning (OJ L 145, 4.6.2008, p. 227).</p>
+                  </authorialNote> and (EC) No 1338/2008<authorialNote placement="bottom" marker="18">
+                     <p>Regulation (EC) No 1338/2008 of the European Parliament and of the Council of 16 December 2008 on Community statistics on public health and health and safety at work (OJ L 354, 31.12.2008, p. 70).</p>
+                  </authorialNote> of the European Parliament and of the Council.</p>
+            </recital>
+            <recital xml:id="rec_d608e476">
+               <num>(36)</num>
+               <p>The European Data Protection Supervisor was consulted in accordance with Article 28(2) of Regulation (EC) No 45/2001 of the European Parliament and of the Council<authorialNote placement="bottom" marker="19">
+                     <p>Regulation (EC) No 45/2001 of the European Parliament and of the Council of 18 December 2000 on the protection of individuals with regard to the processing of personal data by the Community institutions and bodies and on the free movement of such data (OJ L 8, 12.1.2001, p. 1).</p>
+                  </authorialNote> and delivered an opinion on 1 March 2017<authorialNote placement="bottom" marker="20">
+                     <p>OJ C 87, 21.3.2017, p. 1.</p>
+                  </authorialNote>.</p>
+            </recital>
+            <recital xml:id="rec_d608e500">
+               <num>(37)</num>
+               <p>The ESSC has been consulted,</p>
+            </recital>
+         </recitals>
+         <formula name="enactingFormula">
+            <p>HAVE ADOPTED THIS REGULATION:</p>
+         </formula>
+      </preamble>
+      <body>
+         <article xml:id="art_d608e509">
+            <num>Article 1</num>
+            <heading>Subject‐matter and scope</heading>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>This Regulation establishes a common framework for European statistics relating to persons and households, based on data at individual level collected from samples of those persons and households.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>This Regulation does not apply to population and housing censuses as referred to in Regulation (EC) No 763/2008.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d608e524">
+            <num>Article 2</num>
+            <heading>Definitions</heading>
+            <paragraph>
+               <subparagraph>
+                  <content>
+                     <p>For the purposes of this Regulation, the following definitions apply:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(1)</num>
+                     <content>
+                        <p>&apos;microdata&apos; means non‐aggregated observations or measurements of characteristics of individual units, without direct identifier;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(2)</num>
+                     <content>
+                        <p>&apos;pre‐checked aggregated data&apos; or &apos;pre‐checked microdata&apos; means data or microdata without direct identifiers, verified by the Member States on the basis of common validation rules where available;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(3)</num>
+                     <content>
+                        <p>&apos;domain&apos; means one or several data sets that covers particular topics;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(4)</num>
+                     <content>
+                        <p>&apos;observation unit&apos; means an identifiable entity about which data can be obtained;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(5)</num>
+                     <content>
+                        <p>&apos;topic&apos; means the content of the information to be collected about the observation units, each topic covering a number of detailed topics;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(6)</num>
+                     <content>
+                        <p>&apos;detailed topic&apos; means the detailed content of the information to be collected about the observation units related to a topic, each detailed topic covering a number of variables;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(7)</num>
+                     <content>
+                        <p>&apos;variable&apos; means a characteristic of an observation unit that may assume more than one of a set of values;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(8)</num>
+                     <content>
+                        <p>&apos;administrative records&apos; mean data generated by a non‐statistical source, usually a public body, the main aim of which is not the provision of statistics;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(9)</num>
+                     <content>
+                        <p>&apos;ad‐hoc subjects&apos; means themes that are of particular interest to users at a specific point in time but that are not included in the regular data sets;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(10)</num>
+                     <content>
+                        <p>&apos;headline indicator&apos; means widely used information that serves to monitor a central objective of Union policy;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(11)</num>
+                     <alinea>
+                        <content>
+                           <p>&apos;usual residence&apos; means the place where a person normally spends the daily period of rest, regardless of temporary absences for purposes of recreation, holidays, visits to friends and relatives, business, medical treatment or religious pilgrimage. The following persons alone are considered to be usual residents of a specific geographical area:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <content>
+                              <p>those who have lived in their place of usual residence for a continuous period of at least 12 months before the reference time; or</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <content>
+                              <p>those who arrived in their place of usual residence during the 12 months before the reference time with the intention of staying there for at least one year.</p>
+                           </content>
+                        </point>
+                     </list>
+                     <alinea>
+                        <content>
+                           <p>Where the circumstances described in point (a) or (b) cannot be established, &apos;usual residence&apos; can be taken to mean the place of legal or registered residence;</p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(12)</num>
+                     <content>
+                        <p>&apos;metadata&apos; means information that is needed to use and interpret statistics and that describes data in a structured way;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(13)</num>
+                     <content>
+                        <p>&apos;quality report&apos; means a report conveying information about the quality of a statistical product or process;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(14)</num>
+                     <content>
+                        <p>&apos;sampling frames&apos; means a list, map or other specification of the units which determine a population that is to be completely enumerated or sampled;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(15)</num>
+                     <content>
+                        <p>&apos;private household&apos; means a person living alone or a group of persons who live together, providing oneself or themselves with the essentials of living.</p>
+                     </content>
+                  </point>
+               </list>
+            </paragraph>
+         </article>
+         <article xml:id="art_d608e694">
+            <num>Article 3</num>
+            <heading>Domains and data sets</heading>
+            <paragraph>
+               <num>1.</num>
+               <subparagraph>
+                  <content>
+                     <p>Data collection as referred to in Article 1, carried out by the Member States, shall be organised into the following domains:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <content>
+                        <p>labour force;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <content>
+                        <p>income and living conditions;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(c)</num>
+                     <content>
+                        <p>health;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(d)</num>
+                     <content>
+                        <p>education and training;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(e)</num>
+                     <content>
+                        <p>use of information and communication technologies;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(f)</num>
+                     <content>
+                        <p>time use;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(g)</num>
+                     <content>
+                        <p>consumption.</p>
+                     </content>
+                  </point>
+               </list>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>With regard to the time use domain, data collection as referred to in Article 1, carried out by the Member States, shall be optional. Where a Member State collects data for the time use domain, it shall do so in accordance with this Regulation in order to ensure comparability. In the long term, all Member States shall aim to carry out data collection for the time use domain.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <subparagraph>
+                  <content>
+                     <p>For all domains referred to in paragraph 1, the data sets shall cover the following common topics, further details of which are set out in Annex I:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <content>
+                        <p>technical items;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <content>
+                        <p>person and household characteristics;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(c)</num>
+                     <content>
+                        <p>health: status and disability, access to and availability and use of health care and health determinants;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(d)</num>
+                     <content>
+                        <p>labour market participation;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(e)</num>
+                     <content>
+                        <p>educational attainment and background.</p>
+                     </content>
+                  </point>
+               </list>
+               <subparagraph>
+                  <content>
+                     <p>For some domains, data sets shall further detail those common topics, as set out in Annex I.</p>
+                  </content>
+               </subparagraph>
+            </paragraph>
+            <paragraph>
+               <num>4.</num>
+               <subparagraph>
+                  <content>
+                     <p>In addition to the topics common to all domains referred to in paragraph 3, the data sets shall cover the following topics, further details of which are set out in Annex I:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <content>
+                        <p>job tenure, work biography and previous work experience;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <content>
+                        <p>working conditions including working hours and working time arrangements;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(c)</num>
+                     <content>
+                        <p>participation in education and training;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(d)</num>
+                     <content>
+                        <p>income, consumption and elements of wealth, including debts;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(e)</num>
+                     <content>
+                        <p>living conditions, including material deprivation, housing, living environment and access to services;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(f)</num>
+                     <content>
+                        <p>quality of life, including social, civil, economic and cultural participation, inclusion and wellbeing;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(g)</num>
+                     <content>
+                        <p>participation in the information society; and</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(h)</num>
+                     <content>
+                        <p>allocation of time (optional).</p>
+                     </content>
+                  </point>
+               </list>
+            </paragraph>
+            <paragraph>
+               <num>5.</num>
+               <content>
+                  <p>The precision requirements and the characteristics of the samples used for the different domains shall be as specified, respectively, in Annexes II and III.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>6.</num>
+               <subparagraph>
+                  <content>
+                     <p>Data collection carried out pursuant to this Article shall include information allowing break‐downs in order to describe sub‐populations of interest, and shall, where relevant, indicate inequalities.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>Save where duly justified for reasons of quality, Member States and the Commission (Eurostat) shall also produce information that allows the information valid at NUTS 2 territorial level to be derived in order to allow for better data comparability across Member States, taking costs into account.</p>
+                  </content>
+               </subparagraph>
+            </paragraph>
+            <paragraph>
+               <num>7.</num>
+               <subparagraph>
+                  <content>
+                     <p>The Commission is empowered to adopt delegated acts in accordance with Article 17 on the basis of a feasibility study in order to amend the detailed topics listed in Annex I for the purpose of reflecting relevant legislative, technical, social, policy and economic developments and responding to the new needs of users. In exercising that power, the Commission shall ensure that:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <content>
+                        <p>such delegated acts do not impose a significant additional burden or cost on the Member States or on respondents;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <content>
+                        <p>unless duly justified by exceptional circumstances, for the labour force and the income and living conditions domains, not more than 5 % of the detailed topics listed in Annex I are changed for each domain in any four‐year period;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(c)</num>
+                     <content>
+                        <p>for domains referred to in paragraph 1 but not in point (b) of this subparagraph, not more than 10 % of the detailed topics listed in Annex I are changed for each domain in the period between two consecutive data collections;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(d)</num>
+                     <content>
+                        <p>any detailed topics not listed in Annex I are duly assessed in respect of their feasibility by means of pilot studies carried out by the Member States in accordance with Article 14;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(e)</num>
+                     <content>
+                        <p>the total number of variables to be provided does not exceed the specifications referred to in Article 6(2) and (3).</p>
+                     </content>
+                  </point>
+               </list>
+               <subparagraph>
+                  <content>
+                     <p>For points (b) and (c) of the first subparagraph, the number of detailed topics that may be changed shall be rounded up to the nearest integer.</p>
+                  </content>
+               </subparagraph>
+            </paragraph>
+         </article>
+         <article xml:id="art_d608e899">
+            <num>Article 4</num>
+            <heading>Multiannual rolling planning</heading>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>The Commission is empowered to adopt delegated acts in accordance with Article 17 in order to supplement this Regulation by establishing or adapting a multiannual rolling planning.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <subparagraph>
+                  <content>
+                     <p>The multiannual rolling planning shall:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <content>
+                        <p>be adopted for an eight‐year period;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <content>
+                        <p>apply to the data collection covered by this Regulation;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(c)</num>
+                     <content>
+                        <p>comply with the periodicity specified in Annex IV;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(d)</num>
+                     <alinea>
+                        <content>
+                           <p>specify the period during which data are collected for:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(i)</num>
+                           <content>
+                              <p>the detailed topics attached to the domains listed in Annex I;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(ii)</num>
+                           <content>
+                              <p>ad‐hoc subjects requested by the users, for the labour force and income and living conditions domains, as provided for in Annex IV.</p>
+                           </content>
+                        </point>
+                     </list>
+                  </point>
+               </list>
+               <subparagraph>
+                  <content>
+                     <p>With regard to point (d)(ii) of the first subparagraph, those ad‐hoc subjects may, in justified cases, cover detailed topics other than those listed in Annex I.</p>
+                  </content>
+               </subparagraph>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <content>
+                  <p>The adaptations of the multiannual rolling planning referred to in paragraph 1 shall enter into force no later than 24 months before the beginning of each data collection period as specified in the planning for annual or infra‐annual data collection, and no later than 36 months before the beginning of such data collection period for other data collection. Those adaptations shall aim to ensure the effectiveness and consistency of the planning with users&apos; needs.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>4.</num>
+               <content>
+                  <p>The Commission shall ensure that the delegated acts adopted pursuant to this Article comply with the principle of proportionality and do not impose a significant additional burden or cost on the Member States or on the respondents.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d608e967">
+            <num>Article 5</num>
+            <heading>Statistical populations and observation units</heading>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>The statistical population shall consist of all persons having their usual residence in private households in each Member State.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>The data collection shall be carried out in each Member State for a sample of observation units constituted by private households or by persons belonging to private households who have their usual residence in that Member State.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <content>
+                  <p>Each Member State shall aim to extend, within the scope of this Regulation, the coverage of data collection to observation units that do not belong to private households, provided that the data transmitted allows the identification of such observation units, and of the persons concerned who have their usual residence in that Member State.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d608e987">
+            <num>Article 6</num>
+            <heading>Specifications of data sets</heading>
+            <paragraph>
+               <num>1.</num>
+               <subparagraph>
+                  <content>
+                     <p>The Commission shall adopt delegated acts in accordance with Article 17 in order to supplement this Regulation by specifying the following items of the different data sets, including when those items are common to several data sets, in order to cover the needs identified in the relevant detailed topics:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <content>
+                        <p>the number of variables; and</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <content>
+                        <p>the title of variables.</p>
+                     </content>
+                  </point>
+               </list>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>With regard to delegated acts adopted pursuant to point (a) of paragraph 1, the number of variables shall not exceed, by more than 5 %, the number of variables for each domain of those already required, on a mandatory basis, by the Commission (Eurostat) on 3 November 2019.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <content>
+                  <p>For the consumption domain, the number of variables shall not exceed, by more than 5 %, the number of variables set out in the first delegated act adopted for that domain pursuant to paragraph 1.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>4.</num>
+               <subparagraph>
+                  <content>
+                     <p>In order to respond to users&apos; needs and to provide for a certain degree of flexibility, the Commission may, where new data are required, change a maximum 10 % of the variables required in accordance with the delegated acts referred to in paragraph 1 of this Article, for each domain listed in Article 3(1).</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>By way of derogation from the first subparagraph of this paragraph, the Commission may, for the use of information and communication technologies domain, change more than 10 % of the variables required in accordance with the delegated acts referred to in paragraph 1 of this Article, provided that such a change is in line with implementing measures adopted pursuant to Article 8(2) of Regulation (EC) No 808/2004 before 1 January 2021.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>The maximum percentage rate referred to in the first subparagraph of this paragraph shall apply in any four‐year period to the labour force and the income and living conditions domains and during the period between two consecutive data collections to the other domains. In all cases, the number of variables shall not exceed the thresholds referred to in paragraphs 2 and 3.</p>
+                  </content>
+               </subparagraph>
+            </paragraph>
+         </article>
+         <article xml:id="art_d608e1037">
+            <num>Article 7</num>
+            <heading>Technical specifications of data sets</heading>
+            <paragraph>
+               <num>1.</num>
+               <subparagraph>
+                  <content>
+                     <p>The Commission shall adopt implementing acts specifying the following technical items of the individual data sets:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <content>
+                        <p>the description of variables;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <content>
+                        <p>the statistical classifications;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(c)</num>
+                     <content>
+                        <p>the precise characteristics of the statistical populations, the observation units and the rules for respondents;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(d)</num>
+                     <content>
+                        <p>the reference periods and reference dates;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(e)</num>
+                     <content>
+                        <p>the requirements relating to geographical coverage, detailed sample characteristics, including subsampling, in accordance with Annex III, common data gathering periods, common standards for editing and imputation, weighting, estimation and variance estimation;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(f)</num>
+                     <content>
+                        <p>the methodology providing for the comparability of the data collected, which may include, in duly justified cases, flowcharts on the order of the questions in order to achieve, where necessary, the common objective of a high level of comparability of employment and unemployment data in the labour force domain.</p>
+                     </content>
+                  </point>
+               </list>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <subparagraph>
+                  <content>
+                     <p>When items are common to several data sets, the Commission shall adopt implementing acts specifying the following technical characteristics of the data sets:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <content>
+                        <p>the description of variables;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <content>
+                        <p>the statistical classifications;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(c)</num>
+                     <content>
+                        <p>the precise characteristics of the statistical populations and of the observation units.</p>
+                     </content>
+                  </point>
+               </list>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <content>
+                  <p>For the data sets on monthly unemployment relating to the labour force domain, the Commission shall adopt implementing acts for the purpose of describing the variables and the length, quality requirements and level of detail of the time series to be transmitted.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>4.</num>
+               <subparagraph>
+                  <content>
+                     <p>The implementing acts referred to in this Article shall be adopted in accordance with the examination procedure referred to in Article 18(2).</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>They shall be adopted at least 12 months before the beginning of the data collection period, except for the use of information and communication technologies domain, for which the implementing acts shall be adopted at least six months before the beginning of the data collection period.</p>
+                  </content>
+               </subparagraph>
+            </paragraph>
+         </article>
+         <article xml:id="art_d608e1122">
+            <num>Article 8</num>
+            <heading>Formats for transmission of information</heading>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>Technical formats shall be put in place to facilitate the transmission of information from the Member States to the Commission (Eurostat), in particular for the purpose of supporting quality management and process documentation related to the statistics covered by this Regulation.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>The technical formats shall cover statistical concepts, processes and products, including data and metadata.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <subparagraph>
+                  <content>
+                     <p>The Commission shall adopt implementing acts establishing the technical formats referred to in paragraph 1. Those implementing acts shall be adopted in accordance with the examination procedure referred to in Article 18(2).</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>The implementing acts shall be adopted at least 12 months before the beginning of the data collection period, except for the use of information and communication technologies domain, for which the implementing acts shall be adopted at least six months before the beginning of the data collection period.</p>
+                  </content>
+               </subparagraph>
+            </paragraph>
+         </article>
+         <article xml:id="art_d608e1145">
+            <num>Article 9</num>
+            <heading>Data sources and methods</heading>
+            <paragraph>
+               <num>1.</num>
+               <subparagraph>
+                  <content>
+                     <p>Member States shall collect the data referred to in Article 1 to be provided to the Commission (Eurostat) by using one or a combination of the following sources, provided that they meet the quality requirements laid down in Article 13:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <content>
+                        <p>information directly provided by the respondents;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <content>
+                        <p>administrative records and other sources, methods or innovative approaches insofar as they allow for the production of data that are comparable and compliant with the applicable specific requirements laid down by this Regulation.</p>
+                     </content>
+                  </point>
+               </list>
+               <subparagraph>
+                  <content>
+                     <p>The methods referred to in point (b) of the first subparagraph of this paragraph may include small area estimations, intended to cover the territorial diversity, provided that they fulfil the precision requirements laid down in Annex II.</p>
+                  </content>
+               </subparagraph>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>Member States shall provide the Commission (Eurostat) with detailed information on the sources and methods used in accordance with Article 13(5).</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d608e1177">
+            <num>Article 10</num>
+            <heading>Periodicity</heading>
+            <paragraph>
+               <content>
+                  <p>Member States shall collect the data referred to in Article 1 in accordance with the periodicity specified in Annex IV.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d608e1184">
+            <num>Article 11</num>
+            <heading>Data transmission and deadlines</heading>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>Member States shall transmit the data referred to in Article 1 to the Commission (Eurostat) in accordance with Annex V.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>For every data set, Member States shall transmit to the Commission (Eurostat), through secure transmission channels, pre‐checked microdata without direct identification.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <content>
+                  <p>Pre‐checked aggregated data shall be transmitted for the compilation of monthly unemployment statistics.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>4.</num>
+               <content>
+                  <p>Member States shall collect and transmit data in accordance with this Regulation from 2021.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>5.</num>
+               <content>
+                  <p>The Commission (Eurostat) shall, in cooperation with Member States, publish the aggregated data on the Commission (Eurostat) website, in a user‐friendly way, as soon as possible and within six months of the transmission deadline for annual and infra‐annual data collection, and within 12 months of the transmission deadline for other data collection, save in duly justified cases.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d608e1214">
+            <num>Article 12</num>
+            <heading>Sampling frames</heading>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>Data collected under this Regulation shall be based on representative samples drawn from sampling frames set up at national level that allow persons or households to be selected at random, with a known probability of selection. The sampling frames shall aim to identify and cover exhaustively the target population with the usual accepted coverage error and shall be regularly updated. The sampling frames shall contain all the information necessary for the sample design, such as information needed for stratification purposes and for contacting the persons or households. The sampling frames shall also include the information needed to link persons to other administrative records, in so far as linking to such other records is necessary and proportionate and specifically permitted under the applicable Union or national law to which the controller as defined in Regulation (EU) 2016/679 is subject and which also lays down suitable measures to safeguard the data subjects&apos; rights and freedoms and legitimate interest.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <subparagraph>
+                  <content>
+                     <p>Where no such sampling frame is available in a Member State, other sampling frames that meet the following criteria shall be used. Such sampling frames shall:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <content>
+                        <p>identify the sample units, which can be persons, households, dwellings or addresses;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <content>
+                        <p>be capable of providing the probability of selection;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(c)</num>
+                     <content>
+                        <p>be regularly updated.</p>
+                     </content>
+                  </point>
+               </list>
+               <subparagraph>
+                  <content>
+                     <p>In exceptional and duly justified cases, for reasons of quality, for the time use and consumption domains, other sampling schemes, such as quota sampling, may be used.</p>
+                  </content>
+               </subparagraph>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <content>
+                  <p>The Commission may adopt implementing acts laying down uniform conditions for the sampling frames, in particular setting out minimum requirements, including the usual accepted coverage error. Those implementing acts shall be adopted in accordance with the examination procedure referred to in Article 18(2).</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d608e1257">
+            <num>Article 13</num>
+            <heading>Quality</heading>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>Member States shall take the measures necessary to ensure the quality of the data and metadata transmitted.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>For the purpose of this Regulation, the quality criteria defined in Article 12(1) of Regulation (EC) No 223/2009 shall apply.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <content>
+                  <p>The Commission (Eurostat) shall assess the quality of the metadata on the specifications, of the data transmitted and of the sampling frames, with a view, inter alia, to publishing them in a user‐friendly manner on the Commission (Eurostat) website.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>4.</num>
+               <subparagraph>
+                  <content>
+                     <p>For the purposes of paragraph 3 of this Article, Member States shall transmit to the Commission (Eurostat), in respect of the data and microdata referred to in Article 11:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <content>
+                        <p>metadata describing the methodology used, including the data sources and methods referred to in Article 9, and how technical specifications were achieved by reference to those laid down by this Regulation;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <content>
+                        <p>information on compliance with the minimum requirements for the sampling frames used, including in developing and updating them, as laid down by this Regulation;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(c)</num>
+                     <content>
+                        <p>information about the sub‐populations that have not been reached by the data collection.</p>
+                     </content>
+                  </point>
+               </list>
+            </paragraph>
+            <paragraph>
+               <num>5.</num>
+               <content>
+                  <p>Member States shall transmit the metadata and information referred to in paragraph 4 within three months of the deadline for transmitting the data and microdata. That additional information shall be provided in the form of quality reports that demonstrate, in particular, how the data and microdata transmitted, and the metadata and information, meet the quality requirements. The Commission (Eurostat) shall make that information public in accordance with Union and national personal data protection law.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>6.</num>
+               <content>
+                  <p>The Commission may adopt implementing acts specifying the arrangements and content of the quality reports, including indications of the method for assessing compliance with precision requirements. Those implementing acts shall be adopted in accordance with the examination procedure referred to in Article 18(2). They shall not impose significant additional burden or cost on the Member States.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>7.</num>
+               <content>
+                  <p>Member States shall inform the Commission (Eurostat) as soon as possible of any relevant information or change with regard to the implementation of this Regulation that would influence the quality of the data transmitted.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>8.</num>
+               <content>
+                  <p>On a duly justified request from the Commission (Eurostat), Member States shall provide necessary additional clarification to evaluate the quality of the statistical information.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d608e1322">
+            <num>Article 14</num>
+            <heading>Feasibility and pilot studies</heading>
+            <paragraph>
+               <num>1.</num>
+               <subparagraph>
+                  <content>
+                     <p>While complying with the objectives of this Regulation and in order to improve the data sets and social indicators, the Commission (Eurostat) shall, where necessary, launch feasibility and pilot studies, in which Member States may participate.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>Member States, together with the Commission (Eurostat), shall ensure the representativeness of those studies at Union level. The studies shall aim to evaluate and develop alternative methodologies, taking into account technological developments, in particular in order to:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <content>
+                        <p>improve the quality and comparability of data sets;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <content>
+                        <p>extend the coverage of the data collection to persons not living in private households or to sub‐populations that are difficult to reach;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(c)</num>
+                     <content>
+                        <p>develop, assess and implement techniques allowing better coverage of the territorial diversity at NUTS 2 level and at local level;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(d)</num>
+                     <content>
+                        <p>follow up on statistical coverage of migrating citizens changing their country of residence;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(e)</num>
+                     <content>
+                        <p>develop and test new detailed topics for data collection;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(f)</num>
+                     <content>
+                        <p>contribute to modernising the time use and consumption domains, including data on consumption volume;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(g)</num>
+                     <content>
+                        <p>explore and implement new ways of improving responsiveness to users&apos; needs;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(h)</num>
+                     <content>
+                        <p>better integrate data collection and the use of other data sources; and</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(i)</num>
+                     <content>
+                        <p>make data collection in Member States more efficient and improve data collection instruments in order to allow full participation of people with disabilities.</p>
+                     </content>
+                  </point>
+               </list>
+               <subparagraph>
+                  <content>
+                     <p>The Commission (Eurostat) shall provide to the Member States that carry out feasibility or pilot studies appropriate financing in accordance with Article 16.</p>
+                  </content>
+               </subparagraph>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>The Commission (Eurostat) shall, where relevant, invite Union agencies which carry out non‐ESS European social surveys to contribute their expertise to the development of new indicators and the collection of pilot data on ad‐hoc subjects as referred to in Annex IV, or subjects of future interest to ESS.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <content>
+                  <p>The results of the feasibility and pilot studies referred to in paragraph 1 shall be evaluated by the Commission (Eurostat) in cooperation with Member States and the main users of the data sets.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d608e1403">
+            <num>Article 15</num>
+            <heading>Access for scientific purposes to confidential data</heading>
+            <paragraph>
+               <content>
+                  <p>The Commission (Eurostat) may grant access on its premises to confidential data and may release sets of anonymised microdata from the data sets for the domains referred to in Article 3, for scientific purposes and under the conditions laid down in Regulation (EU) No 557/2013.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d608e1410">
+            <num>Article 16</num>
+            <heading>Financing</heading>
+            <paragraph>
+               <num>1.</num>
+               <subparagraph>
+                  <content>
+                     <p>For the implementation of this Regulation, the Union shall provide grants to the NSIs and other national authorities as referred to in Article 5(2) of Regulation (EC) No 223/2009, for:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <content>
+                        <p>the development and/or implementation, and the improvement of timeliness, of data collection, data collection methods, sampling frames and data processing for statistics under this Regulation, for the first four years of the data collection for each domain covered by this Regulation;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <content>
+                        <p>the development of methodologies for statistics under this Regulation, including the participation of the Member States in representative feasibility and pilot studies referred to in Article 14;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(c)</num>
+                     <content>
+                        <p>the collection and production of statistics on ad hoc subjects required by the users as provided for in Annex IV, new or revised sets of variables and characteristics implemented for the first time.</p>
+                     </content>
+                  </point>
+               </list>
+               <subparagraph>
+                  <content>
+                     <p>Where this Regulation confers tasks on NSIs and other national authorities which they did not previously carry out, they shall be granted sufficient financial resources from the Union for the purpose of carrying out those tasks. The financial resources shall be re‐evaluated in light of developments with regard to the implementation of this Regulation.</p>
+                  </content>
+               </subparagraph>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>The Union financial contribution referred to in paragraph 1 of this Article under the Multiannual Financial Framework 2014 to 2020 shall be provided in accordance with Article 7 of Regulation (EU) No 99/2013 of the European Parliament and of the Council<authorialNote placement="bottom" marker="21">
+                        <p>Regulation (EU) No 99/2013 of the European Parliament and of the Council of 15 January 2013 on the European statistical programme 2013-17 (OJ L 39, 9.2.2013, p. 12).</p>
+                     </authorialNote>, point (a) of Article 16(1) of Regulation (EU) No 1296/2013 of the European Parliament and of the Council<authorialNote placement="bottom" marker="22">
+                        <p>Regulation (EU) No 1296/2013 of the European Parliament and of the Council of 11 December 2013 on a European Union Programme for Employment and Social Innovation (&apos;EaSI&apos;) and amending Decision No 283/2010/EU establishing a European Progress Microfinance Facility for employment and social inclusion (OJ L 347, 20.12.2013, p. 238).</p>
+                     </authorialNote>, Article 6 of Regulation (EU) No 1291/2013 of the European Parliament and the Council<authorialNote placement="bottom" marker="23">
+                        <p>Regulation (EU) No 1291/2013 of the European Parliament and the Council of 11 December 2013 establishing Horizon 2020 - the Framework Programme for Research and Innovation (2014-2020) and repealing Decision No 1982/2006/EC (OJ L 347, 20.12.2013, p. 104).</p>
+                     </authorialNote>, Article 58 of Regulation (EU) No 1303/2013 of the European Parliament and of the Council<authorialNote placement="bottom" marker="24">
+                        <p>Regulation (EU) No 1303/2013 of the European Parliament and of the Council of 17 December 2013 laying down common provisions on the European Regional Development Fund, the European Social Fund, the Cohesion Fund, the European Agricultural Fund for Rural Development and the European Maritime and Fisheries Fund and laying down general provisions on the European Regional Development Fund, the European Social Fund, the Cohesion Fund and the European Maritime and Fisheries Fund and repealing Council Regulation (EC) No 1083/2006 (OJ L 347, 20.12.2013, p. 320).</p>
+                     </authorialNote>, Article 5 of Regulation (EU) No 282/2014 of the European Parliament and of the Council<authorialNote placement="bottom" marker="25">
+                        <p>Regulation (EU) No 282/2014 of the European Parliament and of the Council of 11 March 2014 on the establishment of a third Programme for the Union&apos;s action in the field of health (2014-2020) and repealing Decision No 1350/2007/EC (OJ L 86, 21.3.2014, p. 1).</p>
+                     </authorialNote>, or Article 6 of Regulation (EU) 2017/825 of the European Parliament and of the Council<authorialNote placement="bottom" marker="26">
+                        <p>Regulation (EU) 2017/825 of the European Parliament and of the Council of 17 May 2017 on the establishment of the Structural Reform Support Programme for the period 2017 to 2020 and amending Regulations (EU) No 1303/2013 and (EU) No 1305/2013 (OJ L 129, 19.5.2017, p. 1).</p>
+                     </authorialNote>.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <content>
+                  <p>This Union financial contribution shall not exceed 90 % of the eligible costs.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d608e1518">
+            <num>Article 17</num>
+            <heading>Exercise of the delegation</heading>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>The power to adopt delegated acts is conferred on the Commission subject to the conditions laid down in this Article.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>The power to adopt delegated acts referred to in Article 3(7), Article 4(1) and Article 6(1) shall be conferred on the Commission for a period of five years from 3 November 2019. The Commission shall draw up a report in respect of the delegation of power not later than nine months before the end of the five‐year period. The delegation of power shall be tacitly extended for periods of an identical duration, unless the European Parliament or the Council opposes such extension not later than three months before the end of each period.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <content>
+                  <p>The delegation of power referred to in Article 3(7), Article 4(1) and Article 6(1) may be revoked at any time by the European Parliament or by the Council. A decision to revoke shall put an end to the delegation of the power specified in that decision. It shall take effect on the day following the publication of the decision in the <i>Official Journal of the European Union</i> or at a later date specified therein. It shall not affect the validity of any delegated acts already in force.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>4.</num>
+               <content>
+                  <p>Before adopting a delegated act, the Commission shall consult experts designated by each Member State in accordance with the principles laid down in the Interinstitutional Agreement of 13 April 2016 on Better Law‐Making.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>5.</num>
+               <content>
+                  <p>As soon as it adopts a delegated act, the Commission shall notify it simultaneously to the European Parliament and to the Council.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>6.</num>
+               <content>
+                  <p>A delegated act adopted pursuant to Article 3(7), Article 4(1) and Article 6(1) shall enter into force only if no objection has been expressed either by the European Parliament or by the Council within a period of two months of notification of that act to the European Parliament and the Council or if, before the expiry of that period, the European Parliament and the Council have both informed the Commission that they will not object. That period shall be extended by two months at the initiative of the European Parliament or the Council.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d608e1563">
+            <num>Article 18</num>
+            <heading>Committee procedure</heading>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>The Commission shall be assisted by the ESSC. That committee shall be a committee within the meaning of Regulation (EU) No 182/2011.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>Where reference is made to this paragraph, Article 5 of Regulation (EU) No 182/2011 shall apply.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d608e1578">
+            <num>Article 19</num>
+            <heading>Derogations and authorisations</heading>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>Where a Member State&apos;s national statistical system would necessitate major adaptations for the purpose of applying this Regulation, or the delegated or implementing acts adopted pursuant thereto, the Commission may, by means of implementing acts, grant a derogation for up to three years. The comparability of Member States&apos; data and the timely calculation of the required representative and reliable European aggregates, including headline indicators, shall be ensured. Such derogations shall not be granted on the same grounds as the authorisations referred to in paragraphs 3 and 4.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>Where a derogation as referred to in paragraph 1 remains justified by sufficient evidence at the end of the period for which it was granted, the Commission may, by means of implementing acts, grant a subsequent derogation for a maximum period of two years.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <content>
+                  <p>Where the only means by which a Member State can provide the required data sets is by using methods other than those laid down in this Regulation or in the delegated or implementing acts adopted pursuant thereto, the Commission may, on an exceptional basis, authorise, by means of implementing acts, the use of such methods for a maximum period of five years. Such authorisations shall not be based on the same grounds as the derogations referred to in paragraphs 1 and 2.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>4.</num>
+               <content>
+                  <p>Where an authorisation as referred to in paragraph 3 remains justified by sufficient evidence at the end of the period for which it was granted, the Commission may, by means of implementing acts, grant a subsequent authorisation for a maximum period of three years.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>5.</num>
+               <content>
+                  <p>For the purpose of a derogation or authorisation as referred to in paragraphs 1 to 4, a Member State shall submit a duly justified request to the Commission by 4 February 2020, within three months of the date of entry into force of the delegated or implementing act concerned, or six months before the end of the period for which a current derogation or authorisation has been granted. When requesting an authorisation referred to in paragraphs 3 and 4, the Member State concerned shall describe in detail the methods used and demonstrate that they lead to comparable results.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>6.</num>
+               <content>
+                  <p>The Commission shall adopt the implementing acts referred to in this Article in accordance with the examination procedure referred to in Article 18(2).</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d608e1617" leos:compliant="false">
+            <num>Article 20</num>
+            <heading>Amendments to Regulation (EC) No 808/2004</heading>
+            <paragraph>
+               <subparagraph>
+                  <content>
+                     <p>Regulation (EC) No 808/2004 is amended as follows:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(1)</num>
+                     <alinea>
+                        <content>
+                           <p>in Article 3, paragraph 2 is replaced by the following:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <paragraph>
+                                       <num>&apos;2.</num>
+                                       <content>
+                                          <p>The statistics shall be grouped in accordance with the Annex.&apos;;</p>
+                                       </content>
+                                    </paragraph>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(2)</num>
+                     <alinea>
+                        <content>
+                           <p>Article 4 is replaced by the following:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <article xml:id="art_d608e1650">
+                                       <num>
+                                          <i>&apos;</i>Article 4</num>
+                                       <heading>
+                                          <i>Domain</i>
+                                       </heading>
+                                       <paragraph>
+                                          <content>
+                                             <p>This Regulation shall cover the enterprises and the information society domain, as defined in the Annex.&apos;;</p>
+                                          </content>
+                                       </paragraph>
+                                    </article>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(3)</num>
+                     <alinea>
+                        <content>
+                           <p>in Article 8, paragraph 1 is replaced by the following:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <paragraph>
+                                       <num>&apos;1.</num>
+                                       <content>
+                                          <p>The measures for implementing the domain defined in the Annex shall concern the selection and specification, adjustment and modification of subjects and their characteristics, the coverage, reference periods and breakdowns of characteristics, the periodicity and timing of data provision and the deadlines for transmission of results.&apos;;</p>
+                                       </content>
+                                    </paragraph>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(4)</num>
+                     <alinea>
+                        <content>
+                           <p>Annex I is amended as follows:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <content>
+                              <p>the heading &apos;Annex I&apos; is replaced by &apos;Annex&apos; and the title &apos;Module 1: enterprises and the information society&apos; is replaced by &apos;Domain: enterprises and the information society&apos;;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <alinea>
+                              <content>
+                                 <p>points (1) and (2) are replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <point>
+                                             <num>&apos;1.</num>
+                                             <alinea>
+                                                <content>
+                                                   <p>Aims</p>
+                                                </content>
+                                             </alinea>
+                                             <alinea>
+                                                <content>
+                                                   <p>The aim of data collection under this domain is the timely provision of statistics on enterprises and the information society. Such data collection provides a framework for the requirements in terms of coverage, duration and periodicity, subjects covered, breakdowns of data provision, type of data provision and any necessary pilot or feasibility studies.</p>
+                                                </content>
+                                             </alinea>
+                                          </point>
+                                          <point>
+                                             <num>2.</num>
+                                             <alinea>
+                                                <content>
+                                                   <p>Coverage</p>
+                                                </content>
+                                             </alinea>
+                                             <alinea>
+                                                <content>
+                                                   <p>This domain covers business activities within Sections C to N and R and Division 95 of the statistical classification of economic activities in the European Community (NACE REV. 2).&apos;;</p>
+                                                </content>
+                                             </alinea>
+                                          </point>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                     </list>
+                  </point>
+                  <point>
+                     <num>(5)</num>
+                     <content>
+                        <p>Annex II is deleted.</p>
+                     </content>
+                  </point>
+               </list>
+            </paragraph>
+         </article>
+         <article xml:id="art_d608e1741" leos:compliant="false">
+            <num>Article 21</num>
+            <heading>Amendments to Regulation (EC) No 452/2008</heading>
+            <paragraph>
+               <subparagraph>
+                  <content>
+                     <p>Regulation (EC) No 452/2008 is amended as follows:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(1)</num>
+                     <alinea>
+                        <content>
+                           <p>Article 3 is replaced by the following:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <article xml:id="art_d608e1758">
+                                       <num>
+                                          <i>&apos;</i>Article 3</num>
+                                       <heading>
+                                          <i>Domains</i>
+                                       </heading>
+                                       <paragraph>
+                                          <subparagraph>
+                                             <content>
+                                                <p>This Regulation shall apply to the production of statistics in two domains:</p>
+                                             </content>
+                                          </subparagraph>
+                                          <list>
+                                             <point>
+                                                <num>(a)</num>
+                                                <content>
+                                                   <p>Domain 1 shall cover statistics on education and training systems;</p>
+                                                </content>
+                                             </point>
+                                             <point>
+                                                <num>(b)</num>
+                                                <content>
+                                                   <p>Domain 2 shall cover other statistics on education and lifelong learning, such as statistics on human capital and on the social and economic benefits of education, which are not covered by Domain 1 or by Regulation (EU) 2019/1700 of the European Parliament and of the Council<authorialNote placement="bottom" marker="27">
+                                                         <p>Regulation (EU) 2019/1700 of the European Parliament and of the Council of 10 October 2019 establishing a common framework for European statistics relating to persons and households, based on data at individual level collected from samples, amending Regulations (EC) No 808/2004, (EC) No 452/2008 and (EC) No 1338/2008 of the European Parliament and of the Council, and repealing Regulation (EC) No 1177/2003 of the European Parliament and of the Council and Council Regulation (EC) No 577/98 (OJ L 261 I, 14.10.2019, p. 1).&apos;;</p>
+                                                      </authorialNote>.</p>
+                                                </content>
+                                             </point>
+                                          </list>
+                                       </paragraph>
+                                       <paragraph>
+                                          <content>
+                                             <p>The production of statistics in those domains shall be carried out in accordance with the Annex.</p>
+                                          </content>
+                                       </paragraph>
+                                    </article>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(2)</num>
+                     <alinea>
+                        <content>
+                           <p>in Article 4(1), points (a) and (b) are replaced by the following:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <list>
+                                       <point>
+                                          <num>&apos;(a)</num>
+                                          <content>
+                                             <p>the regular delivery of statistics on education and lifelong learning by the Member States, within specified deadlines for Domain 1;</p>
+                                          </content>
+                                       </point>
+                                       <point>
+                                          <num>(b)</num>
+                                          <content>
+                                             <p>the use of other statistical information systems and surveys, to provide additional statistical variables and indicators on education and lifelong learning, corresponding to Domain 2;&apos;;</p>
+                                          </content>
+                                       </point>
+                                    </list>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(3)</num>
+                     <alinea>
+                        <content>
+                           <p>Article 6(2) is replaced by the following:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <paragraph>
+                                       <num>&apos;2.</num>
+                                       <subparagraph>
+                                          <content>
+                                             <p>The measures referred to in paragraph 1 shall take account of the following:</p>
+                                          </content>
+                                       </subparagraph>
+                                       <list>
+                                          <point>
+                                             <num>(a)</num>
+                                             <content>
+                                                <p>for both Domains, the potential burden on educational institutions and individuals;</p>
+                                             </content>
+                                          </point>
+                                          <point>
+                                             <num>(b)</num>
+                                             <content>
+                                                <p>for both Domains, the results of the pilot studies referred to in Article 4(3);</p>
+                                             </content>
+                                          </point>
+                                          <point>
+                                             <num>(c)</num>
+                                             <content>
+                                                <p>for Domain 1, the latest agreements between the UIS, the OECD and the Commission (Eurostat) on concepts, definitions, data collection format, data processing, periodicity and deadlines for transmission of results;</p>
+                                             </content>
+                                          </point>
+                                          <point>
+                                             <num>(d)</num>
+                                             <content>
+                                                <p>for Domain 2, the availability, suitability and the legal context of existing Community data sources after an exhaustive examination of all existing data sources.&apos;;</p>
+                                             </content>
+                                          </point>
+                                       </list>
+                                    </paragraph>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(4)</num>
+                     <alinea>
+                        <content>
+                           <p>the Annex is amended as follows:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <content>
+                              <p>the section entitled: &apos;Domain 2: Participation of adults in lifelong learning&apos; is deleted;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <alinea>
+                              <content>
+                                 <p>the section entitled: &apos;Domain 3: Other statistics on education and lifelong learning&apos; is amended as follows:</p>
+                              </content>
+                           </alinea>
+                           <list>
+                              <point>
+                                 <num>(i)</num>
+                                 <alinea>
+                                    <content>
+                                       <p>the title is replaced by the following:</p>
+                                    </content>
+                                 </alinea>
+                                 <alinea>
+                                    <content>
+                                       <p>
+                                          <mod>
+                                             <quotedStructure startQuote="" endQuote="">
+                                                <alinea>
+                                                   <content>
+                                                      <p>&apos;Domain 2: Other statistics on education and lifelong learning&apos;;</p>
+                                                   </content>
+                                                </alinea>
+                                             </quotedStructure>
+                                          </mod>
+                                       </p>
+                                    </content>
+                                 </alinea>
+                              </point>
+                              <point>
+                                 <num>(ii)</num>
+                                 <alinea>
+                                    <content>
+                                       <p>point 1 is replaced by the following:</p>
+                                    </content>
+                                 </alinea>
+                                 <alinea>
+                                    <content>
+                                       <p>
+                                          <mod>
+                                             <quotedStructure startQuote="" endQuote="">
+                                                <list>
+                                                   <point>
+                                                      <num>&apos;1.</num>
+                                                      <alinea>
+                                                         <content>
+                                                            <p>Aim</p>
+                                                         </content>
+                                                      </alinea>
+                                                      <alinea>
+                                                         <content>
+                                                            <p>The aim of this data collection shall be to provide further comparable data on education and lifelong learning to support specific policies at the Community level not included in Domain 1.&apos;.</p>
+                                                         </content>
+                                                      </alinea>
+                                                   </point>
+                                                </list>
+                                             </quotedStructure>
+                                          </mod>
+                                       </p>
+                                    </content>
+                                 </alinea>
+                              </point>
+                           </list>
+                        </point>
+                     </list>
+                  </point>
+               </list>
+            </paragraph>
+         </article>
+         <article xml:id="art_d608e1926" leos:compliant="false">
+            <num>Article 22</num>
+            <heading>Amendments to Regulation (EC) No 1338/2008</heading>
+            <paragraph>
+               <subparagraph>
+                  <content>
+                     <p>In Regulation (EC) No 1338/2008, Annex I is amended as follows:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(1)</num>
+                     <alinea>
+                        <content>
+                           <p>point (b) is replaced by the following:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <list>
+                                       <point>
+                                          <num>&apos;(b)</num>
+                                          <alinea>
+                                             <content>
+                                                <p>Scope</p>
+                                             </content>
+                                          </alinea>
+                                          <alinea>
+                                             <content>
+                                                <p>This domain covers the statistics on health status and health determinants that are based on self‐assessment and compiled from population surveys other than those compiled from data collection with regard to households and individuals referred to in Regulation (EU) 2019/1700 of the European Parliament and of the Council<authorialNote placement="bottom" marker="28">
+                                                      <p>Regulation (EU) 2019/1700. of the European Parliament and of the Council of 10 October 2019 establishing a common framework for European statistics relating to persons and households, based on data at individual level collected from samples, amending Regulations (EC) No 808/2004, (EC) No 452/2008 and (EC) No 1338/2008 of the European Parliament and of the Council, and repealing Regulation (EC) No 1177/2003 of the European Parliament and of the Council and Council Regulation (EC) No 577/98 (OJ L 261 I, 14.10.2019, p. 1).&apos;;</p>
+                                                   </authorialNote>, as well as other statistics compiled from administrative sources such as those on morbidity or accidents and injuries. Persons living in institutions as well as children up to the age of 14 shall be included, where appropriate and at relevant ad hoc intervals, subject to successful prior pilot studies.</p>
+                                             </content>
+                                          </alinea>
+                                       </point>
+                                    </list>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(2)</num>
+                     <alinea>
+                        <content>
+                           <p>point (c) is replaced by the following:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <list>
+                                       <point>
+                                          <num>&apos;(c)</num>
+                                          <alinea>
+                                             <content>
+                                                <p>Reference periods, intervals and time limits for data provision</p>
+                                             </content>
+                                          </alinea>
+                                          <alinea>
+                                             <content>
+                                                <p>The measures relating to the first reference year, the interval and the time limit for provision of the data shall be adopted in accordance with the regulatory procedure with scrutiny referred to in Article 10(2).&apos;;</p>
+                                             </content>
+                                          </alinea>
+                                       </point>
+                                    </list>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(3)</num>
+                     <alinea>
+                        <content>
+                           <p>in point (d), the third paragraph is replaced by the following:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <alinea>
+                                       <content>
+                                          <p>&apos;The implementation of Health Examination Surveys shall be optional in the framework of this Regulation. The average length of the interview per household shall not exceed 20 minutes for the survey modules.&apos;.</p>
+                                       </content>
+                                    </alinea>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+               </list>
+            </paragraph>
+         </article>
+         <article xml:id="art_d608e1999">
+            <num>Article 23</num>
+            <heading>Transitional arrangements for implementing measures</heading>
+            <paragraph>
+               <content>
+                  <p>The implementing measures adopted before 1 January 2021 pursuant to Regulations (EC) No 808/2004, (EC) No 452/2008 and (EC) No 1338/2008 shall continue to apply until they have expired or have been replaced or repealed.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <content>
+                  <p>The obligations set out in those Regulations concerning the transmission of data and metadata, including quality reports, with regard to reference periods that fall, in whole or in part, before 1 January 2021 shall continue to apply.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d608e2014">
+            <num>Article 24</num>
+            <heading>Repeal</heading>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>Regulations (EC) No 577/98 and (EC) No 1177/2003 are repealed with effect from 31 December 2020, without prejudice to the obligations set out in those Regulations concerning the transmission of data and metadata, including quality reports, with regard to reference periods that fall, in whole or in part, before that date.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>References to the repealed Regulations shall be construed as references to this Regulation.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d608e2032">
+            <num>Article 25</num>
+            <heading>Entry into force and date of application</heading>
+            <paragraph>
+               <content>
+                  <p>This Regulation shall enter into force on the twentieth day following that of its publication in the <i>Official Journal of the European Union</i>.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <content>
+                  <p>It shall apply from 1 January 2021.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <content>
+                  <p>However, in respect of the domains set out in points (f) and (g) of Article 3(1) it shall apply from 1 January 2025.</p>
+               </content>
+            </paragraph>
+         </article>
+         <clause>
+            <content>
+               <p>This Regulation shall be binding in its entirety and directly applicable in all Member States.</p>
+            </content>
+         </clause>
+      </body>
+      <conclusions>
+         <p>Done at Brussels, 10 October 2019.</p>
+         <block name="signatory">
+            <signature>
+               <organization refersTo="">For the European Parliament</organization>
+               <role refersTo="">The President</role>
+               <person refersTo="">D. M. SASSOLI</person>
+            </signature>
+            <signature>
+               <organization refersTo="">For the Council</organization>
+               <role refersTo="">The President</role>
+               <person refersTo="">T. TUPPURAINEN</person>
+            </signature>
+         </block>
+      </conclusions>
+   </bill>
+</akomaNtoso>

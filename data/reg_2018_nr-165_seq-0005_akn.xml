@@ -1,0 +1,515 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"
+            xmlns:fmx="http://formex.publications.europa.eu/schema/formex-05.21-20110601.xd"
+            xmlns:leos="urn:eu:europa:ec:leos"
+            xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <bill name="">
+      <meta xmlns:fn="http://www.w3.org/2005/xpath-functions">
+         <identification source="~COM">
+            <FRBRWork>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRcountry value=""/>
+            </FRBRWork>
+            <FRBRExpression>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+            </FRBRManifestation>
+         </identification>
+      </meta>
+      <preface>
+         <longTitle>
+            <p>
+               <docStage/>
+               <docType>COMMISSION REGULATION (EU) 2018/932</docType>of 29 June 2018<docPurpose>amending Regulation (EU) No 582/2011 as regards the provisions on testing by means of portable emission measurement systems (PEMS) and the requirements for universal fuel range type-approval</docPurpose>
+            </p>
+         </longTitle>
+         <container name="EEArelevance">
+            <p>(Text with EEA relevance)</p>
+         </container>
+      </preface>
+      <preamble>
+         <formula name="actingEntity">
+            <p>THE EUROPEAN COMMISSION,</p>
+         </formula>
+         <citations>
+            <citation>
+               <p>Having regard to the Treaty on the Functioning of the European Union,</p>
+            </citation>
+            <citation>
+               <p>Having regard to Regulation (EC) No 595/2009 of the European Parliament and of the Council of 18 June 2009 on type-approval of motor vehicles and engines with respect to emissions from heavy duty vehicles (Euro VI) and on access to vehicle repair and maintenance information and amending Regulation (EC) No 715/2007 and Directive 2007/46/EC and repealing Directives 80/1269/EEC, 2005/55/EC and 2005/78/EC<authorialNote placement="bottom" marker="1">
+                     <p>OJ L 188, 18.7.2009, p. 1.</p>
+                  </authorialNote>, and in particular Article 5(4) thereof,</p>
+            </citation>
+         </citations>
+         <recitals xml:id="recs_d278e71">
+            <intro>
+               <p>Whereas:</p>
+            </intro>
+            <recital xml:id="rec_d278e74">
+               <num>(1)</num>
+               <p>CEN standards for certain common Fatty Acid Methyl Ester (FAME) diesel blends and paraffinic diesel have recently been published. Therefore, it is appropriate to update the current rules to refer also to those new standards.</p>
+            </recital>
+            <recital xml:id="rec_d278e80">
+               <num>(2)</num>
+               <p>In relation to testing with portable emission measurement systems (PEMS), Commission Regulation (EU) 2016/1718<authorialNote placement="bottom" marker="2">
+                     <p>Commission Regulation (EU) 2016/1718 of 20 September 2016 amending Regulation (EU) No 582/2011 with respect to emissions from heavy-duty vehicles as regards the provisions on testing by means of portable emission measurement systems (PEMS) and the procedure for the testing of the durability of replacement pollution control devices (OJ L 259, 27.9.2016, p. 1).</p>
+                  </authorialNote> introduced requirements on both urban trip share as well as the total trip length. Especially on some N<sub>3</sub> category vehicles equipped with an engine with higher power rating, it has been discovered that, due to those limiting requirements, PEMS testing in accordance with the current provisions will result in void tests. In order to resolve the issue, the conditions for compliance with the urban window requirement should be amended, with the urban trip being enlarged at the expense of the motorway trip share and the maximum overall trip length extended.</p>
+            </recital>
+            <recital xml:id="rec_d278e99">
+               <num>(3)</num>
+               <p>Clarification is needed regarding the requirement to have at least one valid window in urban only operations applying to NO<sub>x</sub> emissions specifically, as it is the critical polutant in those conditions.</p>
+            </recital>
+            <recital xml:id="rec_d278e108">
+               <num>(4)</num>
+               <p>In case of universal fuel range type-approval, the procedure for demonstrating compliance with the required tolerances for the engine control unit (ECU) torque signal is currently not set out in Commission Regulation (EU) No 582/2011<authorialNote placement="bottom" marker="3">
+                     <p>Commission Regulation (EU) No 582/2011 of 25 May 2011 implementing and amending Regulation (EC) No 595/2009 of the European Parliament and of the Council with respect to emissions from heavy duty vehicles (Euro VI) and amending Annexes I and III to Directive 2007/46/EC of the European Parliament and of the Council (OJ L 167, 25.6.2011, p. 1).</p>
+                  </authorialNote>. Therefore, when the engine is not equipped with a system to recognise which fuel is being used, the demonstration on how to determine compliance is up to the discretion of the technical service. Due to the increasing interest in type approval of alternative fuels, it is appropriate to harmonise that procedure. The torque deviation caused by the alternative fuel should therefore be determined and the deviation should then be used to calculate a power correction factor, which should be stated in the type approval documentation. The power correction factor may be applied to demonstrate compliance with the ECU torque signal accuracy requirements. Moreover, for PEMS testing with an alternative fuel, the power correction factor may be applied to determine the correct torque value for emission calculations.</p>
+            </recital>
+            <recital xml:id="rec_d278e124">
+               <num>(5)</num>
+               <p>Regulation (EU) No 582/2011 should therefore be amended accordingly.</p>
+            </recital>
+            <recital xml:id="rec_d278e130">
+               <num>(6)</num>
+               <p>The measures provided for in this Regulation are in accordance with the opinion of the Technical Committee &#45; Motor Vehicles,</p>
+            </recital>
+         </recitals>
+         <formula name="enactingFormula">
+            <p>HAS ADOPTED THIS REGULATION:</p>
+         </formula>
+      </preamble>
+      <body>
+         <article xml:id="art_d278e140" leos:compliant="false">
+            <num>Article 1</num>
+            <heading/>
+            <paragraph>
+               <subparagraph>
+                  <content>
+                     <p>Regulation (EU) No 582/2011 is amended as follows:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(1)</num>
+                     <alinea>
+                        <content>
+                           <p>Annex I is amended as follows:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <alinea>
+                              <content>
+                                 <p>in point 1.1.2, the introductory part of the first paragraph is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <alinea>
+                                             <content>
+                                                <p>&apos;If the manufacturer permits the engine family to run on market fuels that do not comply either with Directive 98/70/EC of the European Parliament and of the Council<authorialNote placement="bottom" marker="4">
+                                                      <p>Directive 98/70/EC of the European Parliament and of the Council of 13 October 1998 relating to the quality of petrol and diesel fuels and amending Council Directive 93/12/EEC (OJ L 350, 28.12.1998, p. 58).&apos;;</p>
+                                                   </authorialNote>, or with CEN standard EN 228:2012 in the case of unleaded petrol or CEN standard EN 590:2013 in the case of diesel, such as running on FAME B100 (CEN standard EN 14214), FAME diesel blends B20/B30 (CEN standard EN 16709), paraffinic fuel (CEN standard EN 15940) or others, the manufacturer shall, in addition to the requirements in point 1.1.1, comply with the following requirements:</p>
+                                             </content>
+                                          </alinea>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <alinea>
+                              <content>
+                                 <p>in point 1.1.2, the following point (a1) is inserted:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <point>
+                                             <num>&apos;(a1)</num>
+                                             <content>
+                                                <p>determine the power correction factor for each fuel declared pursuant to point 5.2.7 if applicable;&apos;;</p>
+                                             </content>
+                                          </point>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(c)</num>
+                           <alinea>
+                              <content>
+                                 <p>in point 5.2.5, point (b) is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <point>
+                                             <num>&apos;(b)</num>
+                                             <content>
+                                                <p>10 % when performing the World Harmonised Steady state Cycle (hereinafter &quot;WHSC&quot;) test in accordance with Annex III, except for mode 1 and 13 (idle modes)&apos;;</p>
+                                             </content>
+                                          </point>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(d)</num>
+                           <alinea>
+                              <content>
+                                 <p>the following point 5.2.7 is inserted:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <point>
+                                             <num>&apos;5.2.7.</num>
+                                             <content>
+                                                <p>If the difference between the measured torque value obtained with a declared market fuel and the torque calculated from the information requested in point 5.2.1 exceeds any of the values specified in point 5.2.5, a power correction factor for each additional market fuel permitted by the manufacturer in accordance with point 1.1.2 shall be determined for the engine family. The correction factor shall be calculated as the ratio between average measured peak torque [Nm] on the reference fuel according to Annex IX, and average measured peak torque [Nm] on the market fuel declared.&apos;;</p>
+                                             </content>
+                                          </point>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(e)</num>
+                           <alinea>
+                              <content>
+                                 <p>points 5.3.3 and 5.3.3.1 are replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <point>
+                                             <num>&apos;5.3.3.</num>
+                                             <content>
+                                                <p>The fulfilment of the requirement referred to in point 5.2.5 shall be demonstrated for the parent engine of an engine family when determining the engine power in accordance with Annex XIV and when performing the WHSC test in accordance with Annex III and off-cycle laboratory testing at type-approval in accordance with Section 6 of Annex VI.</p>
+                                             </content>
+                                          </point>
+                                          <point>
+                                             <num>5.3.3.1.</num>
+                                             <content>
+                                                <p>The fulfilment of the requirement referred to in point 5.2.5 shall be demonstrated for each engine family member when determining the engine power in accordance with Annex XIV. For that purpose, additional measurements shall be performed at several part load and engine speed operating points (for example at the modes of the WHSC and some additional random points).&apos;;</p>
+                                             </content>
+                                          </point>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(f)</num>
+                           <alinea>
+                              <content>
+                                 <p>the following point 5.3.3.2 is inserted:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <point>
+                                             <num>&apos;5.3.3.2.</num>
+                                             <content>
+                                                <p>If applicable, the power correction factor for the engine family, as referred to in point 5.2.7, shall be determined with the parent engine of the engine family.&apos;;</p>
+                                             </content>
+                                          </point>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(g)</num>
+                           <alinea>
+                              <content>
+                                 <p>in Appendix 5, in the Addendum to EC type-approval certificate, point 1.5.2 is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <point>
+                                             <num>&apos;1.5.2.</num>
+                                             <content>
+                                                <p>Additional data, e.g. the power correction factor for each fuel declared (if applicable)&apos;;</p>
+                                             </content>
+                                          </point>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(h)</num>
+                           <alinea>
+                              <content>
+                                 <p>in Appendix 7, in the Addendum to EC type-approval certificate, point 1.5.2 is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <point>
+                                             <num>&apos;1.5.2.</num>
+                                             <content>
+                                                <p>Additional data, e.g. the power correction factor for each fuel declared (if applicable)&apos;;</p>
+                                             </content>
+                                          </point>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                     </list>
+                  </point>
+                  <point>
+                     <num>(2)</num>
+                     <alinea>
+                        <content>
+                           <p>Annex II is amended as follows:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <alinea>
+                              <content>
+                                 <p>point 4.4.2 is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote=""><!--GR.SEQ is a special position => not treated --></quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <alinea>
+                              <content>
+                                 <p>the following point 4.4.2.2 is inserted:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <point>
+                                             <num>&apos;4.4.2.2.</num>
+                                             <content>
+                                                <p>Fuel samples shall be taken.&apos;;</p>
+                                             </content>
+                                          </point>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(c)</num>
+                           <alinea>
+                              <content>
+                                 <p>point 4.5.3 is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <point>
+                                             <num>&apos;4.5.3.</num>
+                                             <content>
+                                                <p>For N<sub>3</sub> vehicles the trip shall consist of approximately 30 % urban, 25 % rural and 45 % motorway operation.&apos;;</p>
+                                             </content>
+                                          </point>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(d)</num>
+                           <alinea>
+                              <content>
+                                 <p>point 4.6.5 is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <point>
+                                             <num>&apos;4.6.5.</num>
+                                             <content>
+                                                <p>The test duration shall be long enough to complete between four and eight times the work performed during the WHTC or produce between four and eight times the CO<sub>2</sub> reference mass in kg/cycle from the WHTC as applicable.&apos;;</p>
+                                             </content>
+                                          </point>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(e)</num>
+                           <alinea>
+                              <content>
+                                 <p>Appendix 1 is amended as follows:</p>
+                              </content>
+                           </alinea>
+                           <list>
+                              <point>
+                                 <num>(i)</num>
+                                 <alinea>
+                                    <content>
+                                       <p>the following point 4.2.1.1 is inserted:</p>
+                                    </content>
+                                 </alinea>
+                                 <alinea>
+                                    <content>
+                                       <p>
+                                          <mod>
+                                             <quotedStructure startQuote="" endQuote=""><!--GR.SEQ is a special position => not treated --></quotedStructure>
+                                          </mod>
+                                       </p>
+                                    </content>
+                                 </alinea>
+                              </point>
+                              <point>
+                                 <num>(ii)</num>
+                                 <alinea>
+                                    <content>
+                                       <p>point 4.2.2.2.2 is replaced by the following:</p>
+                                    </content>
+                                 </alinea>
+                                 <alinea>
+                                    <content>
+                                       <p>
+                                          <mod>
+                                             <quotedStructure startQuote="" endQuote="">
+                                                <point>
+                                                   <num>&apos;4.2.2.2.2.</num>
+                                                   <content>
+                                                      <p>The test shall be void if the percentage of valid windows is less than 50 % or if there are no valid windows in respect of nitrogen oxides (NO<sub>x</sub>) left in urban only operations after the 90 percentile rule has been applied.&apos;;</p>
+                                                   </content>
+                                                </point>
+                                             </quotedStructure>
+                                          </mod>
+                                       </p>
+                                    </content>
+                                 </alinea>
+                              </point>
+                           </list>
+                        </point>
+                        <point>
+                           <num>(f)</num>
+                           <alinea>
+                              <content>
+                                 <p>in Appendix 4, the following point 2.1.1 is inserted:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <point>
+                                             <num>&apos;2.1.1.</num>
+                                             <content>
+                                                <p>If a market fuel declared in point 3.2.2.2.1 of Part 1 in Appendix 4 to Annex I is used for the test, the ECU torque signal shall be divided by the correction factor prior to the verification with the reference maximum torque curve performed with that market fuel.&apos;.</p>
+                                             </content>
+                                          </point>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                     </list>
+                  </point>
+               </list>
+            </paragraph>
+         </article>
+         <article xml:id="art_d278e451">
+            <num>Article 2</num>
+            <heading/>
+            <paragraph>
+               <content>
+                  <p>This Regulation shall enter into force on the twentieth day following that of its publication in the <i>Official Journal of the European Union</i>.</p>
+               </content>
+            </paragraph>
+         </article>
+         <clause>
+            <content>
+               <p>This Regulation shall be binding in its entirety and directly applicable in all Member States.</p>
+            </content>
+         </clause>
+      </body>
+      <conclusions>
+         <p>Done at Brussels, 29 June 2018.</p>
+         <block name="signatory">
+            <signature>
+               <organization refersTo="">For the Commission</organization>
+               <role refersTo="">The President</role>
+               <person refersTo="">Jean-Claude JUNCKER</person>
+            </signature>
+         </block>
+      </conclusions>
+   </bill>
+</akomaNtoso>

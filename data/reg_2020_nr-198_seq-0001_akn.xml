@@ -1,0 +1,1447 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"
+            xmlns:fmx="http://formex.publications.europa.eu/schema/formex-05.21-20110601.xd"
+            xmlns:leos="urn:eu:europa:ec:leos"
+            xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <bill name="">
+      <meta xmlns:fn="http://www.w3.org/2005/xpath-functions">
+         <identification source="~COM">
+            <FRBRWork>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRcountry value=""/>
+            </FRBRWork>
+            <FRBRExpression>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+            </FRBRManifestation>
+         </identification>
+      </meta>
+      <preface>
+         <longTitle>
+            <p>
+               <docStage/>
+               <docType>REGULATION (EU) 2020/851 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL</docType>of 18 June 2020<docPurpose>amending Regulation (EC) No 862/2007 on Community statistics on migration and international protection</docPurpose>
+            </p>
+         </longTitle>
+         <container name="EEArelevance">
+            <p>(Text with EEA relevance)</p>
+         </container>
+      </preface>
+      <preamble>
+         <formula name="actingEntity">
+            <p>THE EUROPEAN PARLIAMENT AND THE COUNCIL OF THE EUROPEAN UNION,</p>
+         </formula>
+         <citations>
+            <citation>
+               <p>Having regard to the Treaty on the Functioning of the European Union, and in particular Article 338(1) thereof,</p>
+            </citation>
+            <citation>
+               <p>Having regard to the proposal from the European Commission,</p>
+            </citation>
+            <citation>
+               <p>After transmission of the draft legislative act to the national parliaments,</p>
+            </citation>
+            <citation>
+               <p>Acting in accordance with the ordinary legislative procedure<authorialNote placement="bottom" marker="1">
+                     <p>Position of the European Parliament of 16 April 2019 (not yet published in the Official Journal) and position of the Council at first reading of 20 March 2020 (OJ C 139, 28.4.2020, p. 1). Position of the European Parliament of 17 June 2020 (not yet published in the Official Journal).</p>
+                  </authorialNote>,</p>
+            </citation>
+         </citations>
+         <recitals xml:id="recs_d105e84">
+            <intro>
+               <p>Whereas:</p>
+            </intro>
+            <recital xml:id="rec_d105e87">
+               <num>(1)</num>
+               <p>Regulation (EC) No 862/2007 of the European Parliament and of the Council<authorialNote placement="bottom" marker="2">
+                     <p>Regulation (EC) No 862/2007 of the European Parliament and of the Council of 11 July 2007 on Community statistics on migration and international protection and repealing Council Regulation (EEC) No 311/76 on the compilation of statistics on foreign workers (OJ L 199, 31.7.2007, p. 23).</p>
+                  </authorialNote> establishes a common and comparable legal framework for European statistics on migration and international protection.</p>
+            </recital>
+            <recital xml:id="rec_d105e103">
+               <num>(2)</num>
+               <p>To respond to new needs within the Union for statistics on migration and international protection, and due to the fact that the characteristics of migration are subject to rapid change, there is a need to establish a framework that allows for a quick response to changing needs as regards statistics on migration and international protection.</p>
+            </recital>
+            <recital xml:id="rec_d105e109">
+               <num>(3)</num>
+               <p>In order to support the Union in responding effectively to the challenges posed by migration and in developing human-rights-based policies, it is necessary to collect data on migration and international protection on a sub-annual basis.</p>
+            </recital>
+            <recital xml:id="rec_d105e115">
+               <num>(4)</num>
+               <p>Statistics on migration and international protection are fundamental for the study, formulation and evaluation of a wide range of policies, particularly as regards responses to the arrival of persons seeking protection in Europe, with the aim of defining and applying the best policies.</p>
+            </recital>
+            <recital xml:id="rec_d105e121">
+               <num>(5)</num>
+               <p>Statistics on migration and international protection are essential for having an overview of migratory movements within the Union and for Member States to be able to apply Union law properly in accordance with fundamental rights as laid down in the Charter of Fundamental Rights of the European Union (the &apos;Charter&apos;) and the Convention for the Protection of Human Rights and Fundamental Freedoms.</p>
+            </recital>
+            <recital xml:id="rec_d105e132">
+               <num>(6)</num>
+               <p>In order to ensure the quality and, in particular, the comparability of data provided by the Member States, and in order for reliable overviews to be drawn up at Union level, the data used should be based on the same concepts, and should refer to the same reference date or period.</p>
+            </recital>
+            <recital xml:id="rec_d105e138">
+               <num>(7)</num>
+               <p>Data provided on migration and international protection should be consistent with the relevant statistics collected pursuant to Regulation (EC) No 862/2007.</p>
+            </recital>
+            <recital xml:id="rec_d105e144">
+               <num>(8)</num>
+               <p>Regulation (EC) No 223/2009 of the European Parliament and of the Council<authorialNote placement="bottom" marker="3">
+                     <p>Regulation (EC) No 223/2009 of the European Parliament and of the Council of 11 March 2009 on European statistics and repealing Regulation (EC, Euratom) No 1101/2008 of the European Parliament and of the Council on the transmission of data subject to statistical confidentiality to the Statistical Office of the European Communities, Council Regulation (EC) No 322/97 on Community Statistics, and Council Decision 89/382/EEC, Euratom establishing a Committee on the Statistical Programmes of the European Communities (OJ L 87, 31.3.2009, p. 164).</p>
+                  </authorialNote> provides a reference framework for European statistics on migration and international protection. In particular, it requires Member States to comply with the principles of professional independence, impartiality, objectivity, reliability, statistical confidentiality and cost effectiveness, as well as with the quality criteria specified therein.</p>
+            </recital>
+            <recital xml:id="rec_d105e160">
+               <num>(9)</num>
+               <p>Quality reports are essential for assessing, improving and communicating on the quality of European statistics. The European Statistical System Committee has endorsed a European Statistical System (ESS) standard for Quality Reports Structure in accordance with the provision on statistical quality laid down in Regulation (EC) No 223/2009. That ESS standard should contribute to the harmonisation of quality reporting under Regulation (EC) No 862/2007.</p>
+            </recital>
+            <recital xml:id="rec_d105e167">
+               <num>(10)</num>
+               <p>In order to improve the efficiency of statistical production, national statistical authorities have the right to access and use, promptly and free of charge, all administrative records within their own respective public administrative systems and to integrate those administrative records with statistics to the extent necessary for the development, production and dissemination of European statistics in accordance with the provisions concerning access to, and use and integration of, administrative records laid down in Article 17a of Regulation (EC) No 223/2009.</p>
+            </recital>
+            <recital xml:id="rec_d105e173">
+               <num>(11)</num>
+               <p>When developing, producing and disseminating European statistics, the national and European statistical authorities and, where applicable, other relevant authorities, should take account of the principles set out in the European Statistics Code of Practice, as reviewed and updated by the European Statistical System Committee on 16 November 2017.</p>
+            </recital>
+            <recital xml:id="rec_d105e182">
+               <num>(12)</num>
+               <p>Pilot studies should take into account Union added value, establish the conditions for introducing new data collections within the scope of Regulation (EC) No 862/2007, assess the feasibility and quality of the statistics, including their cross-country comparability, as well as the costs of the related data collections. Before launching each particular pilot study, the Commission (Eurostat) should review relevant administrative sources at Union level and examine whether the required statistics could be based on those sources. Priority should be given to the examination of the number of applications and the number of rejected applications for first-time residence permits. The Commission (Eurostat) should, in close cooperation with the Member States, evaluate the results of those pilot studies and should make the results publicly available. The introduction of new data collections in the Member States should only be considered if the evaluation of the results of the pilot studies is positive. The Commission should also consult the European Data Protection Supervisor under the conditions for legislative consultation laid down in Regulation (EU) 2018/1725 of the European Parliament and of the Council<authorialNote placement="bottom" marker="4">
+                     <p>Regulation (EU) 2018/1725 of the European Parliament and of the Council of 23 October 2018 on the protection of natural persons with regard to the processing of personal data by the Union institutions, bodies, offices and agencies and on the free movement of such data, and repealing Regulation (EC) No 45/2001 and Decision No 1247/2002/EC (OJ L 295, 21.11.2018, p. 39).</p>
+                  </authorialNote>.</p>
+            </recital>
+            <recital xml:id="rec_d105e198">
+               <num>(13)</num>
+               <p>It is important to optimise the use of existing information and data already collected within the scope of Regulation (EC) No 862/2007. To that end, existing data sources at Union and national level, as well as ways to benefit from the frameworks for interoperability established by Regulations (EU) 2019/817<authorialNote placement="bottom" marker="5">
+                     <p>Regulation (EU) 2019/817 of the European Parliament and of the Council of 20 May 2019 on establishing a framework for interoperability between EU information systems in the field of borders and visa and amending Regulations (EC) No 767/2008, (EU) 2016/399, (EU) 2017/2226, (EU) 2018/1240, (EU) 2018/1726 and (EU) 2018/1861 of the European Parliament and of the Council and Council Decisions 2004/512/EC and 2008/633/JHA (OJ L 135, 22.5.2019, p. 27).</p>
+                  </authorialNote> and (EU) 2019/818<authorialNote placement="bottom" marker="6">
+                     <p>Regulation (EU) 2019/818 of the European Parliament and of the Council of 20 May 2019 on establishing a framework for interoperability between EU information systems in the field of police and judicial cooperation, asylum and migration and amending Regulations (EU) 2018/1726, (EU) 2018/1862 and (EU) 2019/816 (OJ L 135, 22.5.2019, p. 85).</p>
+                  </authorialNote> of the European Parliament and of the Council, should be explored in order to assess their usage for official statistics. Such assessment should also include the implementation of the concept of interoperability at Union level in order to allow multiple organisations to use the same data in accordance with their needs and the authorisations they have.</p>
+            </recital>
+            <recital xml:id="rec_d105e226">
+               <num>(14)</num>
+               <p>Within the scope of Regulation (EC) No 862/2007, the Commission (Eurostat) should aim to ensure the coordination of data collections being used by the relevant Union agencies and should, to that end, conclude cooperation agreements with those agencies within the framework of their respective competence.</p>
+            </recital>
+            <recital xml:id="rec_d105e232">
+               <num>(15)</num>
+               <p>In order to achieve the objective of Regulation (EC) No 862/2007, sufficient financial resources should be allocated for the collection, analysis and dissemination of high-quality European and national statistics on migration and international protection.</p>
+            </recital>
+            <recital xml:id="rec_d105e238">
+               <num>(16)</num>
+               <p>Where the implementation of Regulation (EC) No 862/2007 would require the national statistical system of a Member State to develop and implement new methodologies and new data collections for statistics under that Regulation, including the participation of that Member State in pilot studies and the upgrading of data sources and IT systems, a Union financial contribution should be provided to that Member State in the form of a grant in accordance with Regulation (EU, Euratom) 2018/1046 of the European Parliament and of the Council<authorialNote placement="bottom" marker="7">
+                     <p>Regulation (EU, Euratom) 2018/1046 of the European Parliament and of the Council of 18 July 2018 on the financial rules applicable to the general budget of the Union, amending Regulations (EU) No 1296/2013, (EU) No 1301/2013, (EU) No 1303/2013, (EU) No 1304/2013, (EU) No 1309/2013, (EU) No 1316/2013, (EU) No 223/2014, (EU) No 283/2014, and Decision No 541/2014/EU and repealing Regulation (EU, Euratom) No 966/2012 (OJ L 193, 30.7.2018, p. 1).</p>
+                  </authorialNote>.</p>
+            </recital>
+            <recital xml:id="rec_d105e254">
+               <num>(17)</num>
+               <p>This Regulation observes the right to respect for private and family life, to the protection of personal data and to non-discrimination as set out in the Charter. Regulation (EU) 2016/679 of the European Parliament and of the Council<authorialNote placement="bottom" marker="8">
+                     <p>Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (General Data Protection Regulation) (OJ L 119, 4.5.2016, p. 1).</p>
+                  </authorialNote> and Regulation (EU) 2018/1725 apply to the processing of personal data covered by Regulation (EC) No 862/2007.</p>
+            </recital>
+            <recital xml:id="rec_d105e270">
+               <num>(18)</num>
+               <p>In order to ensure uniform conditions for the implementation of Regulation (EC) No 862/2007, implementing powers should be conferred on the Commission in respect of setting out the practical arrangements for, and the content of, the quality reports; defining the appropriate formats for the transmission of data; specifying disaggregations; and determining, on the basis of the evaluation of the results of the pilot studies, new data collections and disaggregations. Those powers should be exercised in accordance with Regulation (EU) No 182/2011 of the European Parliament and of the Council<authorialNote placement="bottom" marker="9">
+                     <p>Regulation (EU) No 182/2011 of the European Parliament and of the Council of 16 February 2011 laying down the rules and general principles concerning mechanisms for control by Member States of the Commission&apos;s exercise of implementing powers (OJ L 55, 28.2.2011, p. 13).</p>
+                  </authorialNote>.</p>
+            </recital>
+            <recital xml:id="rec_d105e286">
+               <num>(19)</num>
+               <p>Where the implementation of Regulation (EC) No 862/2007 would require major adaptations to the national statistical system of a Member State, the Commission should be able, in duly justified cases and for a limited period of time, to grant, by means of implementing acts, a derogation to the Member State concerned. Such major adaptations could arise, in particular, from the need to improve timeliness, to adapt the design of the methods of data collection, including the access to administrative sources, or to develop new tools to produce data.</p>
+            </recital>
+            <recital xml:id="rec_d105e292">
+               <num>(20)</num>
+               <p>The effective monitoring of the application of Regulation (EC) No 862/2007 requires that it be evaluated at regular intervals. The Commission should thoroughly assess the statistics compiled pursuant to that Regulation, as well as their quality and timely provision, for the purpose of submitting reports to the European Parliament and to the Council. The Commission (Eurostat) should closely consult all actors involved in migration and international protection data collection and the main users of those statistics.</p>
+            </recital>
+            <recital xml:id="rec_d105e300">
+               <num>(21)</num>
+               <p>Since the objective of this Regulation, namely to revise and complete the existing common rules for the collection and compilation of European statistics on migration and international protection, cannot be sufficiently achieved by the Member States but can rather, for reasons of harmonisation and comparability, be better achieved at Union level, the Union may adopt measures, in accordance with the principle of subsidiarity as set out in Article 5 of the Treaty on European Union. In accordance with the principle of proportionality as set out in that Article, this Regulation does not go beyond what is necessary in order to achieve that objective.</p>
+            </recital>
+            <recital xml:id="rec_d105e306">
+               <num>(22)</num>
+               <p>Regulation (EC) No 862/2007 should therefore be amended accordingly.</p>
+            </recital>
+            <recital xml:id="rec_d105e312">
+               <num>(23)</num>
+               <p>The European Data Protection Supervisor was consulted in accordance with Article 28(2) of Regulation (EC) No 45/2001 of the European Parliament and of the Council<authorialNote placement="bottom" marker="10">
+                     <p>Regulation (EC) No 45/2001 of the European Parliament and the Council of 18 December 2000 on the protection of individuals with regard to the processing of personal data by the Community institutions and bodies and on the free movement of such data (OJ L 8, 12.1.2001, p. 1).</p>
+                  </authorialNote>.</p>
+            </recital>
+            <recital xml:id="rec_d105e328">
+               <num>(24)</num>
+               <p>The European Statistical System Committee was consulted,</p>
+            </recital>
+         </recitals>
+         <formula name="enactingFormula">
+            <p>HAVE ADOPTED THIS REGULATION:</p>
+         </formula>
+      </preamble>
+      <body>
+         <article xml:id="art_d105e337" leos:compliant="false">
+            <num>Article 1</num>
+            <heading>Amendments to Regulation (EC) No 862/2007</heading>
+            <paragraph>
+               <subparagraph>
+                  <content>
+                     <p>Regulation (EC) No 862/2007 is amended as follows:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(1)</num>
+                     <alinea>
+                        <content>
+                           <p>in Article 1, point (c) is replaced by the following:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <list>
+                                       <num>&apos;(c)</num>
+                                       <content>
+                                          <p>administrative and judicial procedures and processes in the Member States relating to immigration, granting of permission to reside, citizenship, asylum and other forms of international protection, illegal entry and stay, and returns.&apos;;</p>
+                                       </content>
+                                    </list>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(2)</num>
+                     <alinea>
+                        <content>
+                           <p>Article 2 is amended as follows:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <alinea>
+                              <content>
+                                 <p>paragraph 1 is amended as follows:</p>
+                              </content>
+                           </alinea>
+                           <list>
+                              <point>
+                                 <num>(i)</num>
+                                 <alinea>
+                                    <content>
+                                       <p>points (j) to (m) are replaced by the following:</p>
+                                    </content>
+                                 </alinea>
+                                 <alinea>
+                                    <content>
+                                       <p>
+                                          <mod>
+                                             <quotedStructure startQuote="" endQuote="">
+                                                <list>
+                                                   <num>&apos;(j)</num>
+                                                   <content>
+                                                      <p>&quot;application for international protection&quot; means an application for international protection as defined in point (h) of Article 2 of Directive 2011/95/EU of the European Parliament and of the Council of 13 December 2011 on standards for the qualification of third-country nationals or stateless persons as beneficiaries of international protection, for a uniform status for refugees or for persons eligible for subsidiary protection, and for the content of the protection granted<authorialNote placement="bottom" marker="11">
+                                                            <p>OJ L 337, 20.12.2011, p. 9.</p>
+                                                         </authorialNote>;</p>
+                                                   </content>
+                                                   <num>(k)</num>
+                                                   <content>
+                                                      <p>&quot;refugee status&quot; means refugee status as defined in point (e) of Article 2 of Directive 2011/95/EU;</p>
+                                                   </content>
+                                                   <num>(l)</num>
+                                                   <content>
+                                                      <p>&quot;subsidiary protection status&quot; means subsidiary protection status as defined in point (g) of Article 2 of Directive 2011/95/EU;</p>
+                                                   </content>
+                                                   <num>(m)</num>
+                                                   <content>
+                                                      <p>&quot;family members&quot; means family members as defined in point (g) of Article 2 of Regulation (EU) No 604/2013 of the European Parliament and of the Council of 26 June 2013 establishing the criteria and mechanisms for determining the Member State responsible for examining an application for international protection lodged in one of the Member States by a third-country national or a stateless person<authorialNote placement="bottom" marker="12">
+                                                            <p>OJ L 180, 29.6.2013, p. 31.&apos;;</p>
+                                                         </authorialNote>;</p>
+                                                   </content>
+                                                </list>
+                                             </quotedStructure>
+                                          </mod>
+                                       </p>
+                                    </content>
+                                 </alinea>
+                              </point>
+                              <point>
+                                 <num>(ii)</num>
+                                 <alinea>
+                                    <content>
+                                       <p>points (o) to (q) are replaced by the following:</p>
+                                    </content>
+                                 </alinea>
+                                 <alinea>
+                                    <content>
+                                       <p>
+                                          <mod>
+                                             <quotedStructure startQuote="" endQuote="">
+                                                <list>
+                                                   <num>&apos;(o)</num>
+                                                   <content>
+                                                      <p>&quot;unaccompanied minor&quot; means an unaccompanied minor as defined in point (l) of Article 2 of Directive 2011/95/EU;</p>
+                                                   </content>
+                                                   <num>(p)</num>
+                                                   <content>
+                                                      <p>&quot;external borders&quot; means external borders as defined in point 2 of Article 2 of Regulation (EU) 2016/399 of the European Parliament and of the Council of 9 March 2016 on a Union Code on the rules governing the movement of persons across borders (Schengen Borders Code)<authorialNote placement="bottom" marker="13">
+                                                            <p>OJ L 77, 23.3.2016, p. 1.&apos;;</p>
+                                                         </authorialNote>;</p>
+                                                   </content>
+                                                   <num>(q)</num>
+                                                   <content>
+                                                      <p>&quot;third-country nationals refused entry&quot; means third-country nationals who are refused entry at the external border because they do not fulfil all the entry conditions laid down in Article 6(1) of Regulation (EU) 2016/399 and do not belong to any of the categories of persons referred to in Article 6(5) of that Regulation;</p>
+                                                   </content>
+                                                </list>
+                                             </quotedStructure>
+                                          </mod>
+                                       </p>
+                                    </content>
+                                 </alinea>
+                              </point>
+                           </list>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <content>
+                              <p>paragraph 3 is deleted;</p>
+                           </content>
+                        </point>
+                     </list>
+                  </point>
+                  <point>
+                     <num>(3)</num>
+                     <alinea>
+                        <content>
+                           <p>Article 4 is amended as follows:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <alinea>
+                              <content>
+                                 <p>paragraph 1 is amended as follows:</p>
+                              </content>
+                           </alinea>
+                           <list>
+                              <point>
+                                 <num>(i)</num>
+                                 <alinea>
+                                    <content>
+                                       <p>point (c) of the first subparagraph is replaced by the following:</p>
+                                    </content>
+                                 </alinea>
+                                 <alinea>
+                                    <content>
+                                       <p>
+                                          <mod>
+                                             <quotedStructure startQuote="" endQuote="">
+                                                <list>
+                                                   <num>&apos;(c)</num>
+                                                   <content>
+                                                      <p>applications for international protection having been withdrawn during the reference period, disaggregated by explicit and implicit withdrawal as referred to in Articles 27 and 28 of Directive 2013/32/EU of the European Parliament and of the Council<authorialNote placement="bottom" marker="14">
+                                                            <p>Directive 2013/32/EU of the European Parliament and of the Council of 26 June 2013 on common procedures for granting and withdrawing international protection (OJ L 180, 29.6.2013, p. 60).&apos;;</p>
+                                                         </authorialNote>;</p>
+                                                   </content>
+                                                </list>
+                                             </quotedStructure>
+                                          </mod>
+                                       </p>
+                                    </content>
+                                 </alinea>
+                              </point>
+                              <point>
+                                 <num>(ii)</num>
+                                 <alinea>
+                                    <content>
+                                       <p>in the first subparagraph, the following points are added:</p>
+                                    </content>
+                                 </alinea>
+                                 <alinea>
+                                    <content>
+                                       <p>
+                                          <mod>
+                                             <quotedStructure startQuote="" endQuote="">
+                                                <list>
+                                                   <num>&apos;(d)</num>
+                                                   <content>
+                                                      <p>persons having submitted an application for international protection or having been included in such an application as a family member during the reference period and applying for international protection for the first time;</p>
+                                                   </content>
+                                                   <num>(e)</num>
+                                                   <content>
+                                                      <p>persons having submitted an application for international protection or having been included in such an application as a family member during the reference period and having had their applications processed under the accelerated procedure provided for in Article 31(8) of Directive 2013/32/EU;</p>
+                                                   </content>
+                                                   <num>(f)</num>
+                                                   <content>
+                                                      <p>persons having submitted a subsequent application for international protection as referred to in Article 40 of Directive 2013/32/EU or having been included in such an application as a family member during the reference period;</p>
+                                                   </content>
+                                                   <num>(g)</num>
+                                                   <content>
+                                                      <p>persons having submitted an application for international protection or having been included in such an application as a family member and having benefited from material reception conditions providing an adequate standard of living for applicants, in accordance with Article 17 of Directive 2013/33/EU of the European Parliament and of the Council<authorialNote placement="bottom" marker="15">
+                                                            <p>Directive 2013/33/EU of the European Parliament and of the Council of 26 June 2013 laying down standards for the reception of applicants for international protection (OJ L 180, 29.6.2013, p. 96).&apos;;</p>
+                                                         </authorialNote>, at the end of the reference period;</p>
+                                                   </content>
+                                                </list>
+                                             </quotedStructure>
+                                          </mod>
+                                       </p>
+                                    </content>
+                                 </alinea>
+                              </point>
+                              <point>
+                                 <num>(iii)</num>
+                                 <alinea>
+                                    <content>
+                                       <p>the second subparagraph is replaced by the following:</p>
+                                    </content>
+                                 </alinea>
+                                 <alinea>
+                                    <content>
+                                       <p>
+                                          <mod>
+                                             <quotedStructure startQuote="" endQuote="">
+                                                <alinea>
+                                                   <content>
+                                                      <p>&apos;Statistics under points (a) to (f) shall be disaggregated by age and sex, by citizenship of the persons concerned and by unaccompanied minors. They shall relate to reference periods of one calendar month and shall be supplied to the Commission (Eurostat) within two months of the end of the reference month. The first reference month shall be January 2021.</p>
+                                                   </content>
+                                                </alinea>
+                                                <alinea>
+                                                   <content>
+                                                      <p>Statistics under point (g) shall relate to reference periods of one calendar year and shall be supplied to the Commission (Eurostat) within six months of the end of the reference year. The first reference year shall be 2021.&apos;;</p>
+                                                   </content>
+                                                </alinea>
+                                             </quotedStructure>
+                                          </mod>
+                                       </p>
+                                    </content>
+                                 </alinea>
+                              </point>
+                           </list>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <alinea>
+                              <content>
+                                 <p>paragraph 2 is amended as follows:</p>
+                              </content>
+                           </alinea>
+                           <list>
+                              <point>
+                                 <num>(i)</num>
+                                 <alinea>
+                                    <content>
+                                       <p>points (b) and (c) of the first subparagraph are replaced by the following:</p>
+                                    </content>
+                                 </alinea>
+                                 <alinea>
+                                    <content>
+                                       <p>
+                                          <mod>
+                                             <quotedStructure startQuote="" endQuote="">
+                                                <list>
+                                                   <num>&apos;(b)</num>
+                                                   <content>
+                                                      <p>persons covered by first instance decisions granting, revoking, ending or refusing to renew refugee status, taken by administrative or judicial bodies during the reference period;</p>
+                                                   </content>
+                                                   <num>(c)</num>
+                                                   <content>
+                                                      <p>persons covered by first instance decisions granting, revoking, ending or refusing to renew subsidiary protection status, taken by administrative or judicial bodies during the reference period;&apos;;</p>
+                                                   </content>
+                                                </list>
+                                             </quotedStructure>
+                                          </mod>
+                                       </p>
+                                    </content>
+                                 </alinea>
+                              </point>
+                              <point>
+                                 <num>(ii)</num>
+                                 <alinea>
+                                    <content>
+                                       <p>the second subparagraph is replaced by the following:</p>
+                                    </content>
+                                 </alinea>
+                                 <alinea>
+                                    <content>
+                                       <p>
+                                          <mod>
+                                             <quotedStructure startQuote="" endQuote="">
+                                                <alinea>
+                                                   <content>
+                                                      <p>&apos;These statistics shall be disaggregated by age and sex, by citizenship of the persons concerned and by unaccompanied minors. They shall relate to reference periods of three calendar months and shall be supplied to the Commission (Eurostat) within two months of the end of the reference period. The first reference period shall be January to March 2021.&apos;;</p>
+                                                   </content>
+                                                </alinea>
+                                             </quotedStructure>
+                                          </mod>
+                                       </p>
+                                    </content>
+                                 </alinea>
+                              </point>
+                           </list>
+                        </point>
+                        <point>
+                           <num>(c)</num>
+                           <alinea>
+                              <content>
+                                 <p>paragraph 3 is amended as follows:</p>
+                              </content>
+                           </alinea>
+                           <list>
+                              <point>
+                                 <num>(i)</num>
+                                 <alinea>
+                                    <content>
+                                       <p>points (c) and (d) of the first subparagraph are replaced by the following:</p>
+                                    </content>
+                                 </alinea>
+                                 <alinea>
+                                    <content>
+                                       <p>
+                                          <mod>
+                                             <quotedStructure startQuote="" endQuote="">
+                                                <list>
+                                                   <num>&apos;(c)</num>
+                                                   <content>
+                                                      <p>persons covered by final decisions granting, revoking, ending or refusing to renew refugee status, taken by administrative or judicial bodies during the reference period;</p>
+                                                   </content>
+                                                   <num>(d)</num>
+                                                   <content>
+                                                      <p>persons covered by final decisions granting, revoking, ending or refusing to renew subsidiary protection status, taken by administrative or judicial bodies during the reference period;&apos;;</p>
+                                                   </content>
+                                                </list>
+                                             </quotedStructure>
+                                          </mod>
+                                       </p>
+                                    </content>
+                                 </alinea>
+                              </point>
+                              <point>
+                                 <num>(ii)</num>
+                                 <alinea>
+                                    <content>
+                                       <p>the second subparagraph is replaced by the following:</p>
+                                    </content>
+                                 </alinea>
+                                 <alinea>
+                                    <content>
+                                       <p>
+                                          <mod>
+                                             <quotedStructure startQuote="" endQuote="">
+                                                <alinea>
+                                                   <content>
+                                                      <p>&apos;These statistics shall be disaggregated by age and sex, by citizenship of the persons concerned, and, with the exception of point (a), by unaccompanied minors. In addition, statistics under point (g) shall be disaggregated by the country of residence and by the type of asylum decision.</p>
+                                                   </content>
+                                                </alinea>
+                                                <alinea>
+                                                   <content>
+                                                      <p>The statistics referred to in the first subparagraph shall relate to reference periods of one calendar year and shall be supplied to the Commission (Eurostat) within three months of the end of the reference year. The first reference year shall be 2021.&apos;;</p>
+                                                   </content>
+                                                </alinea>
+                                             </quotedStructure>
+                                          </mod>
+                                       </p>
+                                    </content>
+                                 </alinea>
+                              </point>
+                           </list>
+                        </point>
+                        <point>
+                           <num>(d)</num>
+                           <alinea>
+                              <content>
+                                 <p>paragraph 4 is amended as follows:</p>
+                              </content>
+                           </alinea>
+                           <list>
+                              <point>
+                                 <num>(i)</num>
+                                 <alinea>
+                                    <content>
+                                       <p>in the first subparagraph, the following points are added:</p>
+                                    </content>
+                                 </alinea>
+                                 <alinea>
+                                    <content>
+                                       <p>
+                                          <mod>
+                                             <quotedStructure startQuote="" endQuote="">
+                                                <list>
+                                                   <num>&apos;(f)</num>
+                                                   <content>
+                                                      <p>the number of re-examination requests for taking back or taking charge of an asylum seeker;</p>
+                                                   </content>
+                                                   <num>(g)</num>
+                                                   <content>
+                                                      <p>the provisions on which the requests referred to in point (f) are based;</p>
+                                                   </content>
+                                                   <num>(h)</num>
+                                                   <content>
+                                                      <p>the decisions taken in response to the requests referred to in point (f);</p>
+                                                   </content>
+                                                   <num>(i)</num>
+                                                   <content>
+                                                      <p>the numbers of transfers to which the decisions referred to in point (h) lead.&apos;;</p>
+                                                   </content>
+                                                </list>
+                                             </quotedStructure>
+                                          </mod>
+                                       </p>
+                                    </content>
+                                 </alinea>
+                              </point>
+                              <point>
+                                 <num>(ii)</num>
+                                 <alinea>
+                                    <content>
+                                       <p>the second subparagraph is replaced by the following:</p>
+                                    </content>
+                                 </alinea>
+                                 <alinea>
+                                    <content>
+                                       <p>&apos;These statistics shall be disaggregated by sex and by accompanied and unaccompanied minors. They shall relate to reference periods of one calendar year and shall be supplied to the Commission (Eurostat) within three months of the end of the reference year. The first reference year shall be 2021.&apos;;</p>
+                                    </content>
+                                 </alinea>
+                              </point>
+                           </list>
+                        </point>
+                     </list>
+                  </point>
+                  <point>
+                     <num>(4)</num>
+                     <alinea>
+                        <content>
+                           <p>in Article 5, paragraph 1 is amended as follows:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <alinea>
+                              <content>
+                                 <p>the second subparagraph is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <alinea>
+                                             <content>
+                                                <p>&apos;The statistics under point (a) shall be disaggregated in accordance with Article 14(5) of Regulation (EU) 2016/399.&apos;;</p>
+                                             </content>
+                                          </alinea>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <alinea>
+                              <content>
+                                 <p>the third subparagraph is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <alinea>
+                                             <content>
+                                                <p>&apos;The statistics under point (b) shall be disaggregated by age and sex, by citizenship of the persons concerned, by grounds for their apprehension and by place of apprehension.&apos;;</p>
+                                             </content>
+                                          </alinea>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                     </list>
+                  </point>
+                  <point>
+                     <num>(5)</num>
+                     <alinea>
+                        <content>
+                           <p>Article 6 is amended as follows:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <alinea>
+                              <content>
+                                 <p>paragraph 1 is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <list>
+                                             <num>&apos;1.</num>
+                                             <alinea>
+                                                <content>
+                                                   <p>Member States shall supply to the Commission (Eurostat) statistics on the number of:</p>
+                                                </content>
+                                             </alinea>
+                                             <list>
+                                                <point>
+                                                   <num>(a)</num>
+                                                   <alinea>
+                                                      <content>
+                                                         <p>residence permits issued to third-country nationals, disaggregated as follows:</p>
+                                                      </content>
+                                                   </alinea>
+                                                   <list>
+                                                      <point>
+                                                         <num>(i)</num>
+                                                         <content>
+                                                            <p>permits issued during the reference period whereby the third-country national is being granted permission to reside for the first time, disaggregated by citizenship, by the reason for the permit being issued, by the length of validity of the permit, by age and by sex;</p>
+                                                         </content>
+                                                      </point>
+                                                      <point>
+                                                         <num>(ii)</num>
+                                                         <content>
+                                                            <p>permits issued during the reference period and granted on the occasion of a third-country national changing immigration status or reason for stay, disaggregated by citizenship, by the reason for the permit being issued, by the length of validity of the permit, by age and by sex;</p>
+                                                         </content>
+                                                      </point>
+                                                      <point>
+                                                         <num>(iii)</num>
+                                                         <content>
+                                                            <p>valid permits at the end of the reference period (number of permits issued, not withdrawn and not expired), disaggregated by citizenship, by the reason for the issue of the permit, by the length of validity of the permit, by age and by sex;</p>
+                                                         </content>
+                                                      </point>
+                                                   </list>
+                                                </point>
+                                                <point>
+                                                   <num>(b)</num>
+                                                   <content>
+                                                      <p>long-term residents at the end of the reference period, disaggregated by citizenship, by type of long-term status, by age and by sex;</p>
+                                                   </content>
+                                                </point>
+                                                <point>
+                                                   <num>(c)</num>
+                                                   <content>
+                                                      <p>third-country nationals having acquired a long-term residence permit during the reference year, disaggregated by age and by sex.&apos;;</p>
+                                                   </content>
+                                                </point>
+                                             </list>
+                                          </list>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <alinea>
+                              <content>
+                                 <p>paragraph 3 is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <list>
+                                             <num>&apos;3.</num>
+                                             <content>
+                                                <p>The statistics referred to in paragraph 1 shall relate to reference periods of one calendar year and shall be supplied to the Commission (Eurostat) within six months of the end of the reference year. The first reference year shall be 2021.&apos;;</p>
+                                             </content>
+                                          </list>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                     </list>
+                  </point>
+                  <point>
+                     <num>(6)</num>
+                     <alinea>
+                        <content>
+                           <p>Article 7 is amended as follows:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <alinea>
+                              <content>
+                                 <p>in paragraph 1, point (b) is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <list>
+                                             <num>&apos;(b)</num>
+                                             <content>
+                                                <p>the number of third-country nationals who have in fact left the territory of the Member State, following an administrative or judicial decision or act, as referred to in point (a), disaggregated by citizenship of the persons returned, by the type of return and assistance received, and by the country of destination.&apos;;</p>
+                                             </content>
+                                          </list>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <alinea>
+                              <content>
+                                 <p>paragraph 2 is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <list>
+                                             <num>&apos;2.</num>
+                                             <content>
+                                                <p>The statistics referred to in paragraph 1 shall be disaggregated by age and sex of the person concerned and by unaccompanied minors. They shall relate to reference periods of three calendar months and shall be supplied to the Commission (Eurostat) within two months of the end of the reference period. The first reference period shall be January to March 2021.&apos;;</p>
+                                             </content>
+                                          </list>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                     </list>
+                  </point>
+                  <point>
+                     <num>(7)</num>
+                     <content>
+                        <p>Article 8 is deleted;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(8)</num>
+                     <alinea>
+                        <content>
+                           <p>Article 9 is amended as follows:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <alinea>
+                              <content>
+                                 <p>the following paragraphs are inserted:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <list>
+                                             <num>&apos;1a.</num>
+                                             <content>
+                                                <p>Member States shall take the measures necessary to ensure the quality of the data and metadata transmitted under this Regulation.</p>
+                                             </content>
+                                             <num>1b.</num>
+                                             <content>
+                                                <p>The quality criteria listed in Article 12(1) of Regulation (EC) No 223/2009 of the European Parliament and of the Council<authorialNote placement="bottom" marker="16">
+                                                      <p>Regulation (EC) No 223/2009 of the European Parliament and of the Council of 11 March 2009 on European statistics and repealing Regulation (EC, Euratom) No 1101/2008 of the European Parliament and of the Council on the transmission of data subject to statistical confidentiality to the Statistical Office of the European Communities, Council Regulation (EC) No 322/97 on Community Statistics, and Council Decision 89/382/EEC, Euratom establishing a Committee on the Statistical Programmes of the European Communities (OJ L 87, 31.3.2009, p. 164).&apos;;</p>
+                                                   </authorialNote> shall apply for the purposes of this Regulation.</p>
+                                             </content>
+                                          </list>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <alinea>
+                              <content>
+                                 <p>paragraphs 2 to 5 are replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <list>
+                                             <num>&apos;2.</num>
+                                             <content>
+                                                <p>Member States shall report to the Commission (Eurostat), in the form of quality reports, on the data sources used, the reasons for the selection of those sources, the effects of the selected data sources on the quality of the statistics, the technical and organisational measures used to ensure the protection of personal data and the estimation methods used, and shall keep the Commission (Eurostat) informed of any changes thereto.</p>
+                                             </content>
+                                             <num>3.</num>
+                                             <content>
+                                                <p>At the request of the Commission (Eurostat), Member States shall provide it with the necessary additional clarification to evaluate the quality of the statistical information.</p>
+                                             </content>
+                                             <num>4.</num>
+                                             <content>
+                                                <p>Member States shall inform the Commission (Eurostat) without delay of any revisions or corrections to the statistics supplied under this Regulation, of any changes in the methods and data sources used, and of any relevant information or change with regard to the implementation of this Regulation that could influence the quality of the data transmitted.</p>
+                                             </content>
+                                             <num>5.</num>
+                                             <alinea>
+                                                <content>
+                                                   <p>The Commission may adopt implementing acts:</p>
+                                                </content>
+                                             </alinea>
+                                             <list>
+                                                <point>
+                                                   <num>(a)</num>
+                                                   <content>
+                                                      <p>setting out the practical arrangements for, and the content of, the quality reports referred to in paragraph 2 of this Article;</p>
+                                                   </content>
+                                                </point>
+                                                <point>
+                                                   <num>(b)</num>
+                                                   <content>
+                                                      <p>regarding the measures relating to the definition of appropriate formats for the transmission of data under this Regulation.</p>
+                                                   </content>
+                                                </point>
+                                             </list>
+                                             <alinea>
+                                                <content>
+                                                   <p>The acts referred to in point (a) shall not impose significant additional burdens or costs on the Member States.</p>
+                                                </content>
+                                             </alinea>
+                                             <alinea>
+                                                <content>
+                                                   <p>The implementing acts referred to in this paragraph shall be adopted in accordance with the examination procedure referred to in Article 11(2).&apos;;</p>
+                                                </content>
+                                             </alinea>
+                                          </list>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                     </list>
+                  </point>
+                  <point>
+                     <num>(9)</num>
+                     <alinea>
+                        <content>
+                           <p>the following Articles are inserted:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <article xml:id="art_d105e1028">
+                                       <num>&apos;Article 9a</num>
+                                       <heading>Pilot studies</heading>
+                                       <paragraph>
+                                          <num>1.</num>
+                                          <content>
+                                             <p>In accordance with the objectives of this Regulation, the Commission (Eurostat) shall establish pilot studies, to be carried out on a voluntary basis by the Member States, in order to test the feasibility of new data collections or disaggregations within the scope of this Regulation, including the availability of appropriate data sources and production techniques, statistical quality and comparability and the costs and burdens involved. Member States shall, together with the Commission (Eurostat), ensure the representativeness of those pilot studies at Union level.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>2.</num>
+                                          <content>
+                                             <p>Before launching each particular pilot study, the Commission (Eurostat) shall assess whether the new statistics can be based on the information available in the relevant administrative sources at Union level in order to harmonise the concepts used, where possible, and in order to minimise additional burdens on national statistical institutes and other national authorities and enhance the use of existing data in accordance with Article 17a of Regulation (EC) No 223/2009. The Commission (Eurostat) shall also take into account the burden resulting from other ongoing pilot studies in order to limit the number of concurrent pilot studies during the same period of time.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>3.</num>
+                                          <subparagraph>
+                                             <content>
+                                                <p>The pilot studies referred to in this Article shall relate to the following matters:</p>
+                                             </content>
+                                          </subparagraph>
+                                          <list>
+                                             <point>
+                                                <num>(a)</num>
+                                                <content>
+                                                   <p>for statistics required under Article 4 as a whole, disaggregations by month of submission of the application for international protection;</p>
+                                                </content>
+                                             </point>
+                                             <point>
+                                                <num>(b)</num>
+                                                <alinea>
+                                                   <content>
+                                                      <p>for statistics required under Article 4(1):</p>
+                                                   </content>
+                                                </alinea>
+                                                <list>
+                                                   <point>
+                                                      <num>(i)</num>
+                                                      <alinea>
+                                                         <content>
+                                                            <p>the number of persons having submitted an application for international protection or having been included in such an application as a family member and who:</p>
+                                                         </content>
+                                                      </alinea>
+                                                      <list>
+                                                         <indent>
+                                                            <num>-</num>
+                                                            <content>
+                                                               <p>were exempted from an accelerated procedure or a border procedure or had their applications for international protection processed under such border procedure,</p>
+                                                            </content>
+                                                         </indent>
+                                                         <indent>
+                                                            <num>-</num>
+                                                            <content>
+                                                               <p>were not registered in Eurodac,</p>
+                                                            </content>
+                                                         </indent>
+                                                         <indent>
+                                                            <num>-</num>
+                                                            <content>
+                                                               <p>presented documentary evidence which could aid in the establishment of their identity,</p>
+                                                            </content>
+                                                         </indent>
+                                                         <indent>
+                                                            <num>-</num>
+                                                            <content>
+                                                               <p>were in detention, disaggregated by duration of stay in detention and by the grounds for detention, or were subject to an administrative or judicial decision or act ordering their detention or an alternative to detention, disaggregated by type of alternative and by the month such decision or act was issued,</p>
+                                                            </content>
+                                                         </indent>
+                                                         <indent>
+                                                            <num>-</num>
+                                                            <content>
+                                                               <p>benefited from free legal assistance,</p>
+                                                            </content>
+                                                         </indent>
+                                                         <indent>
+                                                            <num>-</num>
+                                                            <content>
+                                                               <p>benefited from material reception conditions as specified under point (g) of Article 4(1), disaggregated by age, by sex, by citizenship and by unaccompanied minors, and the possibility to relate these statistics to reference periods of one month,</p>
+                                                            </content>
+                                                         </indent>
+                                                         <indent>
+                                                            <num>-</num>
+                                                            <content>
+                                                               <p>were unaccompanied minors to whom a representative was appointed, were unaccompanied minors who were granted access to the education system or were unaccompanied minors who were placed in accordance with Article 31(3) of Directive 2011/95/EU,</p>
+                                                            </content>
+                                                         </indent>
+                                                         <indent>
+                                                            <num>-</num>
+                                                            <content>
+                                                               <p>underwent an age assessment, including the results of such assessments;</p>
+                                                            </content>
+                                                         </indent>
+                                                      </list>
+                                                   </point>
+                                                   <point>
+                                                      <num>(ii)</num>
+                                                      <content>
+                                                         <p>the average number of unaccompanied minors having submitted an application for international protection per representative;</p>
+                                                      </content>
+                                                   </point>
+                                                </list>
+                                             </point>
+                                             <point>
+                                                <num>(c)</num>
+                                                <alinea>
+                                                   <content>
+                                                      <p>for statistics required under Article 4(2) and (3):</p>
+                                                   </content>
+                                                </alinea>
+                                                <list>
+                                                   <point>
+                                                      <num>(i)</num>
+                                                      <alinea>
+                                                         <content>
+                                                            <p>for persons covered by point (a) of Article 4(2) or point (b) of Article 4(3), disaggregations by decisions rejecting applications for international protection:</p>
+                                                         </content>
+                                                      </alinea>
+                                                      <list>
+                                                         <indent>
+                                                            <num>-</num>
+                                                            <content>
+                                                               <p>as inadmissible, by ground for inadmissibility,</p>
+                                                            </content>
+                                                         </indent>
+                                                         <indent>
+                                                            <num>-</num>
+                                                            <content>
+                                                               <p>as unfounded,</p>
+                                                            </content>
+                                                         </indent>
+                                                         <indent>
+                                                            <num>-</num>
+                                                            <content>
+                                                               <p>as manifestly unfounded under the regular procedure, by grounds for rejection,</p>
+                                                            </content>
+                                                         </indent>
+                                                         <indent>
+                                                            <num>-</num>
+                                                            <content>
+                                                               <p>as manifestly unfounded under an accelerated procedure, by grounds for rejection and acceleration,</p>
+                                                            </content>
+                                                         </indent>
+                                                         <indent>
+                                                            <num>-</num>
+                                                            <content>
+                                                               <p>on the ground that the applicant is eligible for protection within his or her country of origin;</p>
+                                                            </content>
+                                                         </indent>
+                                                      </list>
+                                                   </point>
+                                                   <point>
+                                                      <num>(ii)</num>
+                                                      <content>
+                                                         <p>for persons covered by points (b) and (c) of Article 4(2) and points (c) and (d) of Article 4(3), disaggregations by decisions on cessation or exclusion, further disaggregated by ground for cessation or exclusion;</p>
+                                                      </content>
+                                                   </point>
+                                                   <point>
+                                                      <num>(iii)</num>
+                                                      <content>
+                                                         <p>the number of persons in respect of whom decisions were taken following a personal interview;</p>
+                                                      </content>
+                                                   </point>
+                                                   <point>
+                                                      <num>(iv)</num>
+                                                      <content>
+                                                         <p>the number of persons in respect of whom first instance decisions or final decisions reducing or withdrawing material reception conditions were taken;</p>
+                                                      </content>
+                                                   </point>
+                                                </list>
+                                             </point>
+                                             <point>
+                                                <num>(d)</num>
+                                                <content>
+                                                   <p>for statistics required under Article 4(3), the duration of appeals;</p>
+                                                </content>
+                                             </point>
+                                             <point>
+                                                <num>(e)</num>
+                                                <content>
+                                                   <p>for statistics required under Article 4(4), disaggregations by age and by citizenship;</p>
+                                                </content>
+                                             </point>
+                                             <point>
+                                                <num>(f)</num>
+                                                <alinea>
+                                                   <content>
+                                                      <p>for statistics required under Article 6, the number of:</p>
+                                                   </content>
+                                                </alinea>
+                                                <list>
+                                                   <point>
+                                                      <num>(i)</num>
+                                                      <content>
+                                                         <p>applications and rejected applications for first-time residence permits made by third-country nationals during the reference period, disaggregated by citizenship, by the reason for the permit being requested, by age and by sex;</p>
+                                                      </content>
+                                                   </point>
+                                                   <point>
+                                                      <num>(ii)</num>
+                                                      <content>
+                                                         <p>rejected applications for residence permits on the occasion of a third-country national changing immigration status or reason for stay;</p>
+                                                      </content>
+                                                   </point>
+                                                   <point>
+                                                      <num>(iii)</num>
+                                                      <content>
+                                                         <p>residence permits issued for family reasons, disaggregated by the reason for the issue of the permit and by status of the sponsor of the third-country national;</p>
+                                                      </content>
+                                                   </point>
+                                                </list>
+                                             </point>
+                                             <point>
+                                                <num>(g)</num>
+                                                <alinea>
+                                                   <content>
+                                                      <p>for statistics required under Article 7, disaggregations by:</p>
+                                                   </content>
+                                                </alinea>
+                                                <list>
+                                                   <point>
+                                                      <num>(i)</num>
+                                                      <content>
+                                                         <p>the reasons for the decisions or acts referred to in point (a) of paragraph 1 of that Article;</p>
+                                                      </content>
+                                                   </point>
+                                                   <point>
+                                                      <num>(ii)</num>
+                                                      <content>
+                                                         <p>the number of persons referred to in point (a) of paragraph 1 of that Article who were subject to an entry ban;</p>
+                                                      </content>
+                                                   </point>
+                                                   <point>
+                                                      <num>(iii)</num>
+                                                      <content>
+                                                         <p>the number of persons in return procedures subject to an administrative or judicial decision or act ordering their detention, further disaggregated by duration of stay in detention, or an alternative to detention, disaggregated by type of alternative, and by the month such decision or act was issued;</p>
+                                                      </content>
+                                                   </point>
+                                                   <point>
+                                                      <num>(iv)</num>
+                                                      <alinea>
+                                                         <content>
+                                                            <p>the number of persons returned, further disaggregated by country of destination and by the type of decision or act as follows:</p>
+                                                         </content>
+                                                      </alinea>
+                                                      <list>
+                                                         <indent>
+                                                            <num>-</num>
+                                                            <content>
+                                                               <p>in accordance with a formal Union readmission agreement,</p>
+                                                            </content>
+                                                         </indent>
+                                                         <indent>
+                                                            <num>-</num>
+                                                            <content>
+                                                               <p>in accordance with an informal Union readmission arrangement,</p>
+                                                            </content>
+                                                         </indent>
+                                                         <indent>
+                                                            <num>-</num>
+                                                            <content>
+                                                               <p>in accordance with a national readmission agreement.</p>
+                                                            </content>
+                                                         </indent>
+                                                      </list>
+                                                   </point>
+                                                </list>
+                                             </point>
+                                          </list>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>4.</num>
+                                          <content>
+                                             <p>The Commission (Eurostat) shall evaluate the results of the pilot studies in close cooperation with the Member States and shall make the results publicly available. The evaluation shall include an assessment of the added value of the new data collections under the pilot studies at Union level and a cost-effectiveness analysis, including an assessment of the burden on respondents and of the production costs in accordance with Article 14(3) of Regulation (EC) No 223/2009.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>5.</num>
+                                          <content>
+                                             <p>Taking account of the positive evaluation of the results of the pilot studies, the Commission may adopt implementing acts regarding the matters referred to in paragraph 3. Those implementing acts shall be adopted in accordance with the examination procedure referred to in Article 11(2).</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>6.</num>
+                                          <content>
+                                             <p>In order to facilitate the carrying out of the pilot studies referred to in this Article, the Commission (Eurostat) shall provide the appropriate financing in accordance with Article 9b to Member States that carry out those pilot studies.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>7.</num>
+                                          <content>
+                                             <p>By 13 July 2022 and every two years thereafter, the Commission (Eurostat) shall report on the overall progress made regarding the matters referred to in paragraph 3. The report shall be made publicly available.</p>
+                                          </content>
+                                       </paragraph>
+                                    </article>
+                                    <article xml:id="art_d105e1258">
+                                       <num>Article 9b</num>
+                                       <heading>Financing</heading>
+                                       <paragraph>
+                                          <num>1.</num>
+                                          <subparagraph>
+                                             <content>
+                                                <p>For the implementation of this Regulation, financial contributions shall be provided from the general budget of the Union to the national statistical institutes and other relevant national authorities referred to in Article 5(2) of Regulation (EC) No 223/2009 for:</p>
+                                             </content>
+                                          </subparagraph>
+                                          <list>
+                                             <point>
+                                                <num>(a)</num>
+                                                <content>
+                                                   <p>the development of new methodologies for statistics under this Regulation, including the participation of the Member States in pilot studies as referred to in Article 9a;</p>
+                                                </content>
+                                             </point>
+                                             <point>
+                                                <num>(b)</num>
+                                                <content>
+                                                   <p>the development or implementation of new data collections and disaggregations within the scope of this Regulation, including upgrading of data sources and IT systems, for a period of up to five years.</p>
+                                                </content>
+                                             </point>
+                                          </list>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>2.</num>
+                                          <content>
+                                             <p>Union financial contributions as referred to in paragraph 1 of this Article shall be provided in accordance with Regulation (EU, Euratom) 2018/1046 of the European Parliament and of the Council<authorialNote placement="bottom" marker="17">
+                                                   <p>Regulation (EU, Euratom) 2018/1046 of the European Parliament and of the Council of 18 July 2018 on the financial rules applicable to the general budget of the Union, amending Regulations (EU) No 1296/2013, (EU) No 1301/2013, (EU) No 1303/2013, (EU) No 1304/2013, (EU) No 1309/2013, (EU) No 1316/2013, (EU) No 223/2014, (EU) No 283/2014, and Decision No 541/2014/EU and repealing Regulation (EU, Euratom) No 966/2012 (OJ L 193, 30.7.2018, p. 1).&apos;;</p>
+                                                </authorialNote>.</p>
+                                          </content>
+                                       </paragraph>
+                                    </article>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <paragraph>
+                                 <num>(10)</num>
+                                 <subparagraph>
+                                    <content>
+                                       <p>Article 10 is replaced by the following:</p>
+                                    </content>
+                                 </subparagraph>
+                                 <mod>
+                                    <quotedStructure startQuote="" endQuote="">
+                                       <article xml:id="art_d105e1308">
+                                          <num>&apos;Article 10</num>
+                                          <heading>Implementing acts for specifying disaggregations</heading>
+                                          <paragraph>
+                                             <content>
+                                                <p>The Commission is empowered to adopt implementing acts for the purpose of specifying disaggregations in accordance with Articles 4 to 7. When adopting such implementing acts, the Commission shall justify the need for the disaggregations concerned for the purposes of developing and monitoring Union policies on migration and asylum and shall ensure that such implementing acts do not impose significant additional costs or burdens on the Member States.</p>
+                                             </content>
+                                          </paragraph>
+                                          <paragraph>
+                                             <content>
+                                                <p>Those implementing acts shall be adopted in accordance with the examination procedure referred to in Article 11(2) no later than 18 months before the end of the reference period, where the data refer to a calendar year, and no later than six months before the end of the reference period, where the data refer to a period of less than a year.&apos;;</p>
+                                             </content>
+                                          </paragraph>
+                                       </article>
+                                    </quotedStructure>
+                                 </mod>
+                              </paragraph>
+                           </p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <paragraph>
+                                 <num>(11)</num>
+                                 <subparagraph>
+                                    <content>
+                                       <p>Article 11 is replaced by the following:</p>
+                                    </content>
+                                 </subparagraph>
+                                 <mod>
+                                    <quotedStructure startQuote="" endQuote="">
+                                       <article xml:id="art_d105e1328">
+                                          <num>&apos;Article 11</num>
+                                          <heading>Committee procedure</heading>
+                                          <paragraph>
+                                             <num>1.</num>
+                                             <content>
+                                                <p>The Commission shall be assisted by the European Statistical System Committee established by Regulation (EC) No 223/2009. That committee shall be a committee within the meaning of Regulation (EU) No 182/2011 of the European Parliament and of the Council<authorialNote placement="bottom" marker="18">
+                                                      <p>Regulation (EU) No 182/2011 of the European Parliament and of the Council of 16 February 2011 laying down the rules and general principles concerning mechanisms for control by Member States of the Commission&apos;s exercise of implementing powers (OJ L 55, 28.2.2011, p. 13).&apos;;</p>
+                                                   </authorialNote>.</p>
+                                             </content>
+                                          </paragraph>
+                                          <paragraph>
+                                             <num>2.</num>
+                                             <content>
+                                                <p>Where reference is made to this paragraph, Article 5 of Regulation (EU) No 182/2011 shall apply.</p>
+                                             </content>
+                                          </paragraph>
+                                       </article>
+                                    </quotedStructure>
+                                 </mod>
+                              </paragraph>
+                           </p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <paragraph>
+                                 <num>(12)</num>
+                                 <subparagraph>
+                                    <content>
+                                       <p>the following Article is inserted:</p>
+                                    </content>
+                                 </subparagraph>
+                                 <mod>
+                                    <quotedStructure startQuote="" endQuote="">
+                                       <article xml:id="art_d105e1364">
+                                          <num>&apos;Article 11a</num>
+                                          <heading>
+                                             <i>Derogations</i>
+                                          </heading>
+                                          <paragraph>
+                                             <num>1.</num>
+                                             <content>
+                                                <p>Where the application of this Regulation, or the implementing acts adopted thereunder, would require major adaptations to be made to the national statistical system of a Member State, the Commission may grant, by means of implementing acts, a derogation for a period of time requested by the Member State concerned, provided that that period does not exceed three years. In doing so, the Commission shall ensure the comparability of Member States&apos; data and the timely calculation of the required representative and reliable European aggregates and shall take into account the burden on Member States and respondents.</p>
+                                             </content>
+                                          </paragraph>
+                                          <paragraph>
+                                             <num>2.</num>
+                                             <content>
+                                                <p>Where a derogation pursuant to paragraph 1 is still justified by sufficient evidence at the end of the period for which it was granted, the Commission may grant, by means of implementing acts, a derogation for a further period of time requested by the Member State concerned, provided that that period does not exceed two years.</p>
+                                             </content>
+                                          </paragraph>
+                                          <paragraph>
+                                             <num>3.</num>
+                                             <content>
+                                                <p>For the purposes of paragraphs 1 and 2, a Member State shall submit a duly justified request to the Commission by 13 October 2020 or within three months of the date of entry into force of the implementing act concerned, or six months before the end of the period for which the current derogation was granted, as appropriate.</p>
+                                             </content>
+                                          </paragraph>
+                                          <paragraph>
+                                             <num>4.</num>
+                                             <content>
+                                                <p>Those implementing acts shall be adopted in accordance with the examination procedure referred to in Article 11(2).&apos;.</p>
+                                             </content>
+                                          </paragraph>
+                                       </article>
+                                    </quotedStructure>
+                                 </mod>
+                              </paragraph>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+               </list>
+            </paragraph>
+         </article>
+         <article xml:id="art_d105e1397">
+            <num>Article 2</num>
+            <heading>Entry into force and application</heading>
+            <paragraph>
+               <content>
+                  <p>This Regulation shall enter into force on the twentieth day following that of its publication in the <i>Official Journal of the European Union</i>.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <content>
+                  <p>Point (3)(a) and (b) and point (6) of Article 1 shall apply from 1 March 2021.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <content>
+                  <p>Point (3)(c) and (d) and point (5) of Article 1 shall apply from 1 July 2021.</p>
+               </content>
+            </paragraph>
+         </article>
+         <clause>
+            <content>
+               <p>This Regulation shall be binding in its entirety and directly applicable in all Member States.</p>
+            </content>
+         </clause>
+      </body>
+      <conclusions>
+         <p>Done at Brussels, 18 June 2020.</p>
+         <block name="signatory">
+            <signature>
+               <organization refersTo="">For the European Parliament</organization>
+               <role refersTo="">The President</role>
+               <person refersTo="">D. M. SASSOLI</person>
+            </signature>
+            <signature>
+               <organization refersTo="">For the Council</organization>
+               <role refersTo="">The President</role>
+               <person refersTo="">N. BRNJAC</person>
+            </signature>
+         </block>
+      </conclusions>
+   </bill>
+</akomaNtoso>

@@ -1,0 +1,412 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"
+            xmlns:fmx="http://formex.publications.europa.eu/schema/formex-05.21-20110601.xd"
+            xmlns:leos="urn:eu:europa:ec:leos"
+            xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <bill name="">
+      <meta xmlns:fn="http://www.w3.org/2005/xpath-functions">
+         <identification source="~COM">
+            <FRBRWork>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRcountry value=""/>
+            </FRBRWork>
+            <FRBRExpression>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+            </FRBRManifestation>
+         </identification>
+      </meta>
+      <preface>
+         <longTitle>
+            <p>
+               <docStage/>
+               <docType>COMMISSION REGULATION (EU) 2017/1347</docType>of 13 July 2017<docPurpose>correcting Directive 2007/46/EC of the European Parliament and of the Council, Commission Regulation (EU) No 582/2011 and Commission Regulation (EU) 2017/1151 supplementing Regulation (EC) No 715/2007 of the European Parliament and of the Council on type-approval of motor vehicles with respect to emissions from light passenger and commercial vehicles (Euro 5 and Euro 6) and on access to vehicle repair and maintenance information, amending Directive 2007/46/EC of the European Parliament and of the Council, Commission Regulation (EC) No 692/2008 and Commission Regulation (EU) No 1230/2012 and repealing Regulation (EC) No 692/2008</docPurpose>
+            </p>
+         </longTitle>
+         <container name="EEArelevance">
+            <p>(Text with EEA relevance)</p>
+         </container>
+      </preface>
+      <preamble>
+         <formula name="actingEntity">
+            <p>THE EUROPEAN COMMISSION,</p>
+         </formula>
+         <citations>
+            <citation>
+               <p>Having regard to the Treaty on the Functioning of the European Union,</p>
+            </citation>
+            <citation>
+               <p>Having regard to Regulation (EC) No 715/2007 of the European Parliament and of the Council of 20 June 2007 on type approval of motor vehicles with respect to emissions from light passenger and commercial vehicles (Euro 5 and Euro 6) and on access to vehicle repair and maintenance information<authorialNote placement="bottom" marker="1">
+                     <p>OJ L 171, 29.6.2007, p. 1.</p>
+                  </authorialNote>, and in particular Article 8 and Article 14(3) thereof,</p>
+            </citation>
+            <citation>
+               <p>Having regard to Directive 2007/46/EC of the European Parliament and of the Council of 5 September 2007 establishing a framework for the approval of motor vehicles and their trailers, and of systems, components and separate technical units intended for such vehicles (Framework Directive)<authorialNote placement="bottom" marker="2">
+                     <p>OJ L 263, 9.10.2007, p. 1.</p>
+                  </authorialNote>, and in particular Article 39(2) thereof,</p>
+            </citation>
+            <citation>
+               <p>Having regard to Regulation (EC) No 595/2009 of the European Parliament and of the Council of 18 June 2009 on type-approval of motor vehicles and engines with respect to emissions from heavy duty vehicles (Euro VI) and on access to vehicle repair and maintenance information and amending Regulation (EC) No 715/2007 and Directive 2007/46/EC and repealing Directives 80/1269/EEC, 2005/55/EC and 2005/78/EC<authorialNote placement="bottom" marker="3">
+                     <p>OJ L 188, 18.7.2009, p. 1.</p>
+                  </authorialNote>, and in particular Article 5(4) thereof,</p>
+            </citation>
+         </citations>
+         <recitals xml:id="recs_d309e93">
+            <intro>
+               <p>Whereas:</p>
+            </intro>
+            <recital xml:id="rec_d309e96">
+               <num>(1)</num>
+               <p>Directive 2007/46/EC sets out the framework for the type approval of motor vehicles and their trailers, and of systems, components and separate technical units intended for such vehicles. Several elements in that framework in particular in relation to the manufacturer&apos;s information document, test reports, certificate of conformity and the type approval conditions need to be adapted to take account of the new Commission Regulation (EU) 2017/1151<authorialNote placement="bottom" marker="4">
+                     <p>Commission Regulation (EU) 2017/1151 of 1 June 2017 supplementing Regulation (EC) No 715/2007 of the European Parliament and of the Council on type-approval of motor vehicles with respect to emissions from light passenger and commercial vehicles (Euro 5 and Euro 6) and on access to vehicle repair and maintenance information, amending Directive 2007/46/EC of the European Parliament and of the Council, Commission Regulation (EC) No 692/2008 and Commission Regulation (EU) No 1230/2012 and repealing Regulation (EC) No 692/2008 (OJ L 175, 7.7.2017, p. 1).</p>
+                  </authorialNote>.</p>
+            </recital>
+            <recital xml:id="rec_d309e112">
+               <num>(2)</num>
+               <p>Regulations (EC) No 715/2007 and (EC) No 595/2009 require, respectively, new light- and heavy-duty vehicles to comply with certain emission limits and lay down additional requirements on access to vehicle repair and maintenance information.</p>
+            </recital>
+            <recital xml:id="rec_d309e119">
+               <num>(3)</num>
+               <p>As regards heavy-duty vehicles, certain specific technical provisions necessary to implement Regulation (EC) No 595/2009 were adopted by Commission Regulation (EU) No 582/2011<authorialNote placement="bottom" marker="5">
+                     <p>Commission Regulation (EU) No 582/2011 of 25 May 2011 implementing and amending Regulation (EC) No 595/2009 of the European Parliament and of the Council with respect to emissions from heavy duty vehicles (Euro VI) and amending Annexes I and III to Directive 2007/46/EC of the European Parliament and of the Council (OJ L 167, 25.6.2011, p. 1).</p>
+                  </authorialNote>. Several technical errors in Annexes I and II to Regulation (EU) No 582/2011 need to be corrected in order to ensure its proper application.</p>
+            </recital>
+            <recital xml:id="rec_d309e135">
+               <num>(4)</num>
+               <p>As regards light-duty vehicles, certain specific technical provisions necessary to implement Regulation (EC) No 715/2007 were adopted by Commission Regulation (EC) No 692/2008<authorialNote placement="bottom" marker="6">
+                     <p>Commission Regulation (EC) No 692/2008 of 18 July 2008 implementing and amending Regulation (EC) No 715/2007 of the European Parliament and of the Council on type-approval of motor vehicles with respect to emissions from light passenger and commercial vehicles (Euro 5 and Euro 6) and on access to vehicle repair and maintenance information (OJ L 199, 28.7.2008, p. 1).</p>
+                  </authorialNote> and Regulation (EU) 2017/1151. By way of an amendment to Regulation (EC) No 692/2008, Commission Regulation (EU) 2017/1221<authorialNote placement="bottom" marker="7">
+                     <p>Commission Regulation (EU) 2017/1221 of 22 June 2017 amending Commission Regulation (EC) No 692/2008 as regards the methodology for the determination of evaporative emissions (Type 4 test) (OJ L 174, 7.7.2017, p. 3).</p>
+                  </authorialNote> introduced a new procedure for evaporative emissions. Regulation (EU) 2017/1151 brought the type-approval procedure in line with the Worldwide Harmonised Light-Duty Vehicles Test Procedures (WLTP) as laid down in Global Technical Regulation (GTR) No 15 of the United Nations Economic Committee for Europe (UNECE).</p>
+            </recital>
+            <recital xml:id="rec_d309e161">
+               <num>(5)</num>
+               <p>As regards the new test procedure for evaporative emissions, the date of application of the amendments introduced by Regulation (EU) 2017/1221 should be clarified. The new test procedure should become mandatory in the Union for all new type approvals and first registration of vehicles as of 1 September 2019.</p>
+            </recital>
+            <recital xml:id="rec_d309e170">
+               <num>(6)</num>
+               <p>As regards the new WLTP procedure, several technical errors in Articles 2 and 15 and in Annexes I, IIIA, V, VII, VIII, XII and XXI to Regulation (EU) 2017/1151 need to be corrected in order to ensure its proper application.</p>
+            </recital>
+            <recital xml:id="rec_d309e176">
+               <num>(7)</num>
+               <p>In addition, the provisions for the road load matrix family of the WLTP test procedure should be clarified.</p>
+            </recital>
+            <recital xml:id="rec_d309e182">
+               <num>(8)</num>
+               <p>The corrections provided for by this Regulation are intrinsically linked since only in their totality they ensure a correct application of the respective type approval measures.</p>
+            </recital>
+            <recital xml:id="rec_d309e188">
+               <num>(9)</num>
+               <p>Consequently, Directive 2007/46/EC, Regulation (EU) No 715/2007, Regulation (EU) No 582/2011, Regulation (EU) 2017/1221 and Regulation (EU) 2017/1151 should be corrected accordingly.</p>
+            </recital>
+            <recital xml:id="rec_d309e195">
+               <num>(10)</num>
+               <p>Given the need to ensure that Regulation (EU) 2017/1221 and Regulation (EU) 2017/1151 are correctly applied, this Regulation should enter into force as a matter of urgency.</p>
+            </recital>
+            <recital xml:id="rec_d309e201">
+               <num>(11)</num>
+               <p>The measures provided for in this Regulation are in accordance with the opinion of the Technical Committee &#45; Motor Vehicles,</p>
+            </recital>
+         </recitals>
+         <formula name="enactingFormula">
+            <p>HAS ADOPTED THIS REGULATION:</p>
+         </formula>
+      </preamble>
+      <body>
+         <article xml:id="art_d309e210">
+            <num>Article 1</num>
+            <heading>Correction to Directive 2007/46/EC</heading>
+            <paragraph>
+               <content>
+                  <p>Annexes I, VIII, IX and XI to Directive 2007/46/EC are corrected in accordance with Annex I to this Regulation.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d309e217">
+            <num>Article 2</num>
+            <heading>Correction to Regulation (EU) No 582/2011</heading>
+            <paragraph>
+               <content>
+                  <p>Annexes I, II and X to Regulation (EU) No 582/2011 are corrected in accordance with Annex II to this Regulation.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d309e225" leos:compliant="false">
+            <num>Article 3</num>
+            <heading>Correction to Regulation (EU) 2017/1221</heading>
+            <paragraph>
+               <content>
+                  <p>In Article 2 of Regulation (EU) 2017/1221, the following paragraph is added:</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <content>
+                  <p>
+                     <mod>
+                        <quotedStructure startQuote="" endQuote="">
+                           <paragraph>
+                              <content>
+                                 <p>&apos;It shall apply from 1 September 2019.&apos;.</p>
+                              </content>
+                           </paragraph>
+                        </quotedStructure>
+                     </mod>
+                  </p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d309e242" leos:compliant="false">
+            <num>Article 4</num>
+            <heading>Correction to Regulation (EU) 2017/1151</heading>
+            <paragraph>
+               <subparagraph>
+                  <content>
+                     <p>Regulation (EU) 2017/1151 is corrected as follows:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(1)</num>
+                     <alinea>
+                        <content>
+                           <p>Article 2 is amended as follows:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <alinea>
+                              <content>
+                                 <p>point 3 is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <point>
+                                             <num>&apos;(3)</num>
+                                             <content>
+                                                <p>&quot;odometer&quot; means an instrument indicating to the driver the total distance driven by the vehicle since its production;&apos;;</p>
+                                             </content>
+                                          </point>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <content>
+                              <p>point 33 is deleted;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(c)</num>
+                           <alinea>
+                              <content>
+                                 <p>points 47 and 48 are replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <list>
+                                             <point>
+                                                <num>&apos;(47)</num>
+                                                <content>
+                                                   <p>&quot;monolayer tank&quot; means a fuel tank constructed with a single layer of material, excluding metal tank, but including fluorinated/sulfonated materials;</p>
+                                                </content>
+                                             </point>
+                                             <point>
+                                                <num>(48)</num>
+                                                <content>
+                                                   <p>&quot;multilayer tank&quot; means a fuel tank constructed with at least two different layered materials, one of which is a hydrocarbon barrier material;&apos;;</p>
+                                                </content>
+                                             </point>
+                                          </list>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(d)</num>
+                           <alinea>
+                              <content>
+                                 <p>the following point 49 is added:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <point>
+                                             <num>&apos;(49)</num>
+                                             <content>
+                                                <p>&quot;inertia category&quot; means a category of test masses of the vehicle corresponding to an equivalent inertia as laid down in Table A4a/3 of Annex 4a to UN/ECE Regulation No 83 when the test mass is set equal to the reference mass&apos;;</p>
+                                             </content>
+                                          </point>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                     </list>
+                  </point>
+                  <point>
+                     <num>(2)</num>
+                     <alinea>
+                        <content>
+                           <p>Article 15 is amended as follows:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <alinea>
+                              <content>
+                                 <p>paragraphs 2 and 3 are replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <paragraph>
+                                             <num>&apos;2.</num>
+                                             <subparagraph>
+                                                <content>
+                                                   <p>With effect from 1 September 2017 in the case of categories M1, M2 and category N1 class I vehicles, and from 1 September 2018 in the case of N1 vehicles of class II and III and category N2 vehicles, national authorities shall refuse, on grounds relating to emissions or fuel consumption, to grant EC type approval or national type approval, in respect to new vehicle types which do not comply with this Regulation.</p>
+                                                </content>
+                                             </subparagraph>
+                                             <subparagraph>
+                                                <content>
+                                                   <p>For new type approvals requested before 1 September 2019 the evaporative emissions test procedure laid down in Annex 7 to UN/ECE Regulation 83 may, at the request of the manufacturer, be applied instead of the procedure laid down in Annex VI to this Regulation for the purposes of determining the evaporative emissions of the vehicle.</p>
+                                                </content>
+                                             </subparagraph>
+                                          </paragraph>
+                                          <paragraph>
+                                             <num>3.</num>
+                                             <subparagraph>
+                                                <content>
+                                                   <p>With effect from 1 September 2018 in the case of categories M1, M2 and category N1 class I vehicles, and from 1 September 2019 in the case of N1 vehicles of class II and III and category N2 vehicles, national authorities shall, on grounds relating to emissions or fuel consumption, in the case of new vehicles which do not comply with this Regulation, consider certificates of conformity to be no longer valid for the purposes of Article 26 of Directive 2007/46/EC and shall prohibit the registration, sale or entry into service of such vehicles.</p>
+                                                </content>
+                                             </subparagraph>
+                                             <subparagraph>
+                                                <content>
+                                                   <p>For new vehicles registered before 1 September 2019 the evaporative emissions test procedure laid down in Annex 7 to UN/ECE Regulation 83 may, at the request of the manufacturer, be applied instead of the procedure laid down in Annex VI to this Regulation for the purposes of determining the evaporative emissions of the vehicle.&apos;;</p>
+                                                </content>
+                                             </subparagraph>
+                                          </paragraph>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <alinea>
+                              <content>
+                                 <p>paragraph 5(a) is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <point>
+                                             <num>&apos;(a)</num>
+                                             <content>
+                                                <p>type 1/I tests performed in accordance with Annex III to Regulation (EC) No 692/2008 until 3 years after the dates specified in Article 10(4) of Regulation (EC) No 715/2007 shall be recognised by the approval authority for the purposes of producing deteriorated or defective components to simulate failures for assessing the requirements of Annex XI to this Regulation;&apos;;</p>
+                                             </content>
+                                          </point>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(c)</num>
+                           <alinea>
+                              <content>
+                                 <p>the following paragraph 5(c) is added:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <point>
+                                             <num>&apos;(c)</num>
+                                             <content>
+                                                <p>durability demonstrations where the first type 1/I test was performed and completed in accordance with Annex VII to Regulation (EC) No 692/2008 until 3 years after the dates specified in Article 10(4) of Regulation (EC) No 715/2007 shall be recognised by the approval authorities as equivalent for the purposes of fulfilling the requirements of Annex VII to this Regulation;&apos;;</p>
+                                             </content>
+                                          </point>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                     </list>
+                  </point>
+                  <point>
+                     <num>(3)</num>
+                     <content>
+                        <p>Annexes I, IIIA, V, VI, VII, VIII, XII and XXI are corrected in accordance with Annex III to this Regulation.</p>
+                     </content>
+                  </point>
+               </list>
+            </paragraph>
+         </article>
+         <article xml:id="art_d309e423">
+            <num>Article 5</num>
+            <heading>Entry into force</heading>
+            <paragraph>
+               <content>
+                  <p>This Regulation shall enter into force on the third day following that of its publication in the <i>Official Journal of the European Union</i>.</p>
+               </content>
+            </paragraph>
+         </article>
+         <clause>
+            <content>
+               <p>This Regulation shall be binding in its entirety and directly applicable in all Member States.</p>
+            </content>
+         </clause>
+      </body>
+      <conclusions>
+         <p>Done at Brussels, 13 July 2017.</p>
+         <block name="signatory">
+            <signature>
+               <organization refersTo="">For the Commission</organization>
+               <role refersTo="">The President</role>
+               <person refersTo="">Jean-Claude JUNCKER</person>
+            </signature>
+         </block>
+      </conclusions>
+   </bill>
+</akomaNtoso>

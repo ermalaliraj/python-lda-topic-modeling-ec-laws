@@ -1,0 +1,433 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"
+            xmlns:fmx="http://formex.publications.europa.eu/schema/formex-05.21-20110601.xd"
+            xmlns:leos="urn:eu:europa:ec:leos"
+            xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <bill name="">
+      <meta xmlns:fn="http://www.w3.org/2005/xpath-functions">
+         <identification source="~COM">
+            <FRBRWork>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRcountry value=""/>
+            </FRBRWork>
+            <FRBRExpression>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+            </FRBRManifestation>
+         </identification>
+      </meta>
+      <preface>
+         <longTitle>
+            <p>
+               <docStage/>
+               <docType>COMMISSION REGULATION (EU) 2016/2282</docType>of 30 November 2016<docPurpose>amending Regulations (EC) No 1275/2008, (EC) No 107/2009, (EC) No 278/2009, (EC) No 640/2009, (EC) No 641/2009, (EC) No 642/2009, (EC) No 643/2009, (EU) No 1015/2010, (EU) No 1016/2010, (EU) No 327/2011, (EU) No 206/2012, (EU) No 547/2012, (EU) No 932/2012, (EU) No 617/2013, (EU) No 666/2013, (EU) No 813/2013, (EU) No 814/2013, (EU) No 66/2014, (EU) No 548/2014, (EU) No 1253/2014, (EU) 2015/1095, (EU) 2015/1185, (EU) 2015/1188, (EU) 2015/1189 and (EU) 2016/2281 with regard to the use of tolerances in verification procedures</docPurpose>
+            </p>
+         </longTitle>
+         <container name="EEArelevance">
+            <p>(Text with EEA relevance)</p>
+         </container>
+      </preface>
+      <preamble>
+         <formula name="actingEntity">
+            <p>THE EUROPEAN COMMISSION,</p>
+         </formula>
+         <citations>
+            <citation>
+               <p>Having regard to the Treaty on the Functioning of the European Union,</p>
+            </citation>
+            <citation>
+               <p>Having regard to Directive 2009/125/EC of the European Parliament and of the Council of 21 October 2009 establishing a framework for the setting of ecodesign requirements for energy-related products<authorialNote placement="bottom" marker="1">
+                     <p>OJ L 285, 31.10.2009, p. 10.</p>
+                  </authorialNote>, and in particular Article 15(1) thereof,</p>
+            </citation>
+            <citation>
+               <p>After consulting the Ecodesign Consultation Forum,</p>
+            </citation>
+         </citations>
+         <recitals xml:id="recs_d649e73">
+            <intro>
+               <p>Whereas:</p>
+            </intro>
+            <recital xml:id="rec_d649e76">
+               <num>(1)</num>
+               <p>Experience in implementing Commission Regulations on ecodesign requirements adopted on the basis of Directive 2009/125/EC has revealed that the verification tolerances laid down in the implementing measures, and intended for use only by market surveillance authorities, have been used by some manufacturers and importers to establish the values required to be provided in the technical documentation or to interpret those values with a view to achieving compliance or to communicate better performance of their products.</p>
+            </recital>
+            <recital xml:id="rec_d649e82">
+               <num>(2)</num>
+               <p>The verification tolerances are designed to allow for variations that emerge in the measurements taken during verification tests, which are due to the differences in the measurement equipment used by manufacturers, importers and surveillance authorities across the Union. Verification tolerances should not be used by the manufacturer or importer for establishing the values in the technical documentation or for interpreting those values in order to achieve compliance with ecodesign rules or to communicate better performance than has actually been measured and calculated. The parameters declared or published by the manufacturer or importer should not be more favourable for the manufacturer or importer than the values contained in the technical documentation.</p>
+            </recital>
+            <recital xml:id="rec_d649e88">
+               <num>(3)</num>
+               <p>To ensure fair competition, to realise the energy savings that the Regulations were designed to achieve and to provide consumers with accurate information about the environmental and functional performance of products, it should be clarified that the verification tolerances set out in the implementing measures may only be used by the Member State authorities, for the purpose of verifying compliance.</p>
+            </recital>
+            <recital xml:id="rec_d649e94">
+               <num>(4)</num>
+               <p>Commission Regulations (EC) No 1275/2008<authorialNote placement="bottom" marker="2">
+                     <p>Commission Regulation (EC) No 1275/2008 of 17 December 2008 implementing Directive 2005/32/EC of the European Parliament and of the Council with regard to ecodesign requirements for standby and off mode electric power consumption of electrical and electronic household and office equipment (OJ L 339, 18.12.2008, p. 45).</p>
+                  </authorialNote>, (EC) No 107/2009<authorialNote placement="bottom" marker="3">
+                     <p>Commission Regulation (EC) No 107/2009 of 4 February 2009 implementing Directive 2005/32/EC of the European Parliament and of the Council with regard to ecodesign requirements for simple set-top boxes (OJ L 36, 5.2.2009, p. 8).</p>
+                  </authorialNote>, (EC) No 278/2009<authorialNote placement="bottom" marker="4">
+                     <p>Commission Regulation (EC) No 278/2009 of 6 April 2009 implementing Directive 2005/32/EC of the European Parliament and of the Council with regard to ecodesign requirements for non-load condition electric power consumption and average active efficiency of external power supplies (OJ L 93, 7.4.2009, p. 3).</p>
+                  </authorialNote>, (EC) No 640/2009<authorialNote placement="bottom" marker="5">
+                     <p>Commission Regulation (EC) No 640/2009 of 22 July 2009 implementing Directive 2005/32/EC of the European Parliament and of the Council with regard to ecodesign requirements for electric motors (OJ L 191, 23.7.2009, p. 26).</p>
+                  </authorialNote>, (EC) No 641/2009<authorialNote placement="bottom" marker="6">
+                     <p>Commission Regulation (EC) No 641/2009 of 22 July 2009 implementing Directive 2005/32/EC of the European Parliament and of the Council with regard to ecodesign requirements for glandless standalone circulators and glandless circulators integrated in products (OJ L 191, 23.7.2009, p. 35).</p>
+                  </authorialNote>, (EC) No 642/2009<authorialNote placement="bottom" marker="7">
+                     <p>Commission Regulation (EC) No 642/2009 of 22 July 2009 implementing Directive 2005/32/EC of the European Parliament and of the Council with regard to ecodesign requirements for televisions (OJ L 191, 23.7.2009, p. 42).</p>
+                  </authorialNote>, (EC) No 643/2009<authorialNote placement="bottom" marker="8">
+                     <p>Commission Regulation (EC) No 643/2009 of 22 July 2009 implementing Directive 2005/32/EC of the European Parliament and of the Council with regard to ecodesign requirements for household refrigerating appliances (OJ L 191, 23.7.2009, p. 53).</p>
+                  </authorialNote>, (EU) No 1015/2010<authorialNote placement="bottom" marker="9">
+                     <p>Commission Regulation (EU) No 1015/2010 of 10 November 2010 implementing Directive 2009/125/EC of the European Parliament and of the Council with regard to ecodesign requirements for household washing machines (OJ L 293, 11.11.2010, p. 21).</p>
+                  </authorialNote>, (EU) No 1016/2010<authorialNote placement="bottom" marker="10">
+                     <p>Commission Regulation (EU) No 1016/2010 of 10 November 2010 implementing Directive 2009/125/EC of the European Parliament and of the Council with regard to ecodesign requirements for household dishwashers (OJ L 293, 11.11.2010, p. 31).</p>
+                  </authorialNote>, (EU) No 327/2011<authorialNote placement="bottom" marker="11">
+                     <p>Commission Regulation (EU) No 327/2011 of 30 March 2011 implementing Directive 2009/125/EC of the European Parliament and of the Council with regard to ecodesign requirements for fans driven by motors with an electric input power between 125 W and 500 kW (OJ L 90, 6.4.2011, p. 8).</p>
+                  </authorialNote>, (EU) No 206/2012<authorialNote placement="bottom" marker="12">
+                     <p>Commission Regulation (EU) No 206/2012 of 6 March 2012 implementing Directive 2009/125/EC of the European Parliament and of the Council with regard to ecodesign requirements for air conditioners and comfort fans (OJ L 72, 10.3.2012, p. 7).</p>
+                  </authorialNote>, (EU) No 547/2012<authorialNote placement="bottom" marker="13">
+                     <p>Commission Regulation (EU) No 547/2012 of 25 June 2012 implementing Directive 2009/125/EC of the European Parliament and of the Council with regard to ecodesign requirements for water pumps (OJ L 165, 26.6.2012, p. 28).</p>
+                  </authorialNote>, (EU) No 932/2012<authorialNote placement="bottom" marker="14">
+                     <p>Commission Regulation (EU) No 932/2012 of 3 October 2012 implementing Directive 2009/125/EC of the European Parliament and of the Council with regard to ecodesign requirements for household tumble driers (OJ L 278, 12.10.2012, p. 41).</p>
+                  </authorialNote>, (EU) No 617/2013<authorialNote placement="bottom" marker="15">
+                     <p>Commission Regulation (EU) No 617/2013 of 26 June 2013 implementing Directive 2009/125/EC of the European Parliament and of the Council with regard to ecodesign requirements for computers and computer servers (OJ L 175, 27.6.2013, p. 13).</p>
+                  </authorialNote>, (EU) No 666/2013<authorialNote placement="bottom" marker="16">
+                     <p>Commission Regulation (EU) No 666/2013 of 8 July 2013 implementing Directive 2009/125/EC of the European Parliament and of the Council with regard to ecodesign requirements for vacuum cleaners (OJ L 192, 13.7.2013, p. 24).</p>
+                  </authorialNote>, (EU) No 813/2013<authorialNote placement="bottom" marker="17">
+                     <p>Commission Regulation (EU) No 813/2013 of 2 August 2013 implementing Directive 2009/125/EC of the European Parliament and of the Council with regard to ecodesign requirements for space heaters and combination heaters (OJ L 239, 6.9.2013, p. 136).</p>
+                  </authorialNote>, (EU) No 814/2013<authorialNote placement="bottom" marker="18">
+                     <p>Commission Regulation (EU) No 814/2013 of 2 August 2013 implementing Directive 2009/125/EC of the European Parliament and of the Council with regard to ecodesign requirements for water heaters and hot water storage tanks (OJ L 239, 6.9.2013, p. 162).</p>
+                  </authorialNote>, (EU) No 66/2014<authorialNote placement="bottom" marker="19">
+                     <p>Commission Regulation (EU) No 66/2014 of 14 January 2014 implementing Directive 2009/125/EC of the European Parliament and of the Council with regard to ecodesign requirements for domestic ovens, hobs and range hoods (OJ L 29, 31.1.2014, p. 33).</p>
+                  </authorialNote>, (EU) No 548/2014<authorialNote placement="bottom" marker="20">
+                     <p>Commission Regulation (EU) No 548/2014 of 21 May 2014 on implementing Directive 2009/125/EC of the European Parliament and of the Council with regard to small, medium and large power transformers (OJ L 152, 22.5.2014, p. 1).</p>
+                  </authorialNote>, (EU) No 1253/2014<authorialNote placement="bottom" marker="21">
+                     <p>Commission Regulation (EU) No 1253/2014 of 7 July 2014 implementing Directive 2009/125/EC of the European Parliament and of the Council with regard to ecodesign requirements for ventilation units (OJ L 337, 25.11.2014, p. 8).</p>
+                  </authorialNote>, (EU) 2015/1095<authorialNote placement="bottom" marker="22">
+                     <p>Commission Regulation (EU) 2015/1095 of 5 May 2015 implementing Directive 2009/125/EC of the European Parliament and of the Council with regard to ecodesign requirements for professional refrigerated storage cabinets, blast cabinets, condensing units and process chillers (OJ L 177, 8.7.2015, p. 19).</p>
+                  </authorialNote>, (EU) 2015/1185<authorialNote placement="bottom" marker="23">
+                     <p>Commission Regulation (EU) 2015/1185 of 24 April 2015 implementing Directive 2009/125/EC of the European Parliament and of the Council with regard to ecodesign requirements for solid fuel local space heaters (OJ L 193, 21.7.2015, p. 1).</p>
+                  </authorialNote>, (EU) 2015/1188<authorialNote placement="bottom" marker="24">
+                     <p>Commission Regulation (EU) 2015/1188 of 28 April 2015 implementing Directive 2009/125/EC of the European Parliament and of the Council with regard to ecodesign requirements for local space heaters (OJ L 193, 21.7.2015, p. 76).</p>
+                  </authorialNote>, (EU) 2015/1189<authorialNote placement="bottom" marker="25">
+                     <p>Commission Regulation (EU) 2015/1189 of 28 April 2015 implementing Directive 2009/125/EC of the European Parliament and of the Council with regard to ecodesign requirements for solid fuel boilers (OJ L 193, 21.7.2015, p. 100).</p>
+                  </authorialNote> and (EU) 2016/2281<authorialNote placement="bottom" marker="26">
+                     <p>Commission Regulation (EU) 2016/2281 of 30 November 2016 implementing Directive 2009/125/EC of the European Parliament and of the Council with regard to ecodesign requirements for air heating products, cooling products and high temperature process chillers and fan coil units (see page 1 of this Official Journal).</p>
+                  </authorialNote> should therefore be amended accordingly.</p>
+            </recital>
+            <recital xml:id="rec_d649e351">
+               <num>(5)</num>
+               <p>Data provided by lighting industry actors shows that many lamp types intended as alternatives to the least efficient banned types (such as the mains-voltage halogen bulbs intended to replace incandescent bulbs) would be entirely removed from the market by Regulations (EC) No 244/2009<authorialNote placement="bottom" marker="27">
+                     <p>Commission Regulation (EC) No 244/2009 of 18 March 2009 implementing Directive 2005/32/EC of the European Parliament and of the Council with regard to ecodesign requirements for non-directional household lamps (OJ L 76, 24.3.2009, p. 3).</p>
+                  </authorialNote>, (EC) No 245/2009<authorialNote placement="bottom" marker="28">
+                     <p>Commission Regulation (EC) No 245/2009 of 18 March 2009 implementing Directive 2005/32/EC of the European Parliament and of the Council with regard to ecodesign requirements for fluorescent lamps without integrated ballast, for high intensity discharge lamps, and for ballasts and luminaires able to operate such lamps, and repealing Directive 2000/55/EC of the European Parliament and of the Council (OJ L 76, 24.3.2009, p. 17).</p>
+                  </authorialNote> and (EU) No 1194/2012<authorialNote placement="bottom" marker="29">
+                     <p>Commission Regulation (EU) No 1194/2012 of 12 December 2012 implementing Directive 2009/125/EC of the European Parliament and of the Council with regard to ecodesign requirements for directional lamps, light emitting diode lamps and related equipment (OJ L 342, 14.12.2012, p. 1).</p>
+                  </authorialNote> if manufacturers were prohibited from using the approach for data and information declaration described in the measurement standards supporting the verification tolerances set out in these Regulations in the way that is current practice throughout the industry. It is therefore appropriate not to amend those three Regulations through this Regulation, but to clarify the intended use of the tolerances in conjunction with a reassessment of the related minimum requirements when those Regulations are next reviewed.</p>
+            </recital>
+            <recital xml:id="rec_d649e388">
+               <num>(6)</num>
+               <p>The measures provided for in this Regulation are in accordance with the opinion of the committee established by Article 19(1) of Directive 2009/125/EC,</p>
+            </recital>
+         </recitals>
+         <formula name="enactingFormula">
+            <p>HAS ADOPTED THIS REGULATION:</p>
+         </formula>
+      </preamble>
+      <body>
+         <article xml:id="art_d649e397">
+            <num>Article 1</num>
+            <heading>Amendments to Regulation (EC) No 1275/2008</heading>
+            <paragraph>
+               <content>
+                  <p>Annex III to Regulation (EC) No 1275/2008 is amended in accordance with Annex I to this Regulation.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d649e404">
+            <num>Article 2</num>
+            <heading>Amendments to Regulation (EC) No 107/2009</heading>
+            <paragraph>
+               <content>
+                  <p>Annexes I and II to Regulation (EC) No 107/2009 are amended in accordance with Annex II to this Regulation.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d649e411">
+            <num>Article 3</num>
+            <heading>Amendments to Regulation (EC) No 278/2009</heading>
+            <paragraph>
+               <content>
+                  <p>Annexes I and II to Regulation (EC) No 278/2009 are amended in accordance with Annex III to this Regulation.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d649e418">
+            <num>Article 4</num>
+            <heading>Amendments to Regulation (EC) No 640/2009</heading>
+            <paragraph>
+               <content>
+                  <p>Annex III to Regulation (EC) No 640/2009 is amended in accordance with Annex IV to this Regulation.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d649e425">
+            <num>Article 5</num>
+            <heading>Amendments to Regulation (EC) No 641/2009</heading>
+            <paragraph>
+               <content>
+                  <p>Annex III to Regulation (EC) No 641/2009 is amended in accordance with Annex V to this Regulation.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d649e432">
+            <num>Article 6</num>
+            <heading>Amendments to Regulation (EC) No 642/2009</heading>
+            <paragraph>
+               <content>
+                  <p>Annexes II and III to Regulation (EC) No 642/2009 are amended in accordance with Annex VI to this Regulation.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d649e439">
+            <num>Article 7</num>
+            <heading>Amendments to Regulation (EC) No 643/2009</heading>
+            <paragraph>
+               <content>
+                  <p>Annex V to Regulation (EC) No 643/2009 is amended in accordance with Annex VII to this Regulation.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d649e447">
+            <num>Article 8</num>
+            <heading>Amendments to Regulation (EU) No 1015/2010</heading>
+            <paragraph>
+               <content>
+                  <p>Annex III to Regulation (EU) No 1015/2010 is amended in accordance with Annex VIII to this Regulation.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d649e454">
+            <num>Article 9</num>
+            <heading>Amendments to Regulation (EU) No 1016/2010</heading>
+            <paragraph>
+               <content>
+                  <p>Annex III to Regulation (EU) No 1016/2010 is amended in accordance with Annex IX to this Regulation.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d649e461">
+            <num>Article 10</num>
+            <heading>Amendments to Regulation (EU) No 327/2011</heading>
+            <paragraph>
+               <content>
+                  <p>Annex III to Regulation (EU) No 327/2011 is amended in accordance with Annex X to this Regulation.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d649e469">
+            <num>Article 11</num>
+            <heading>Amendments to Regulation (EU) No 206/2012</heading>
+            <paragraph>
+               <content>
+                  <p>Annex III to Regulation (EU) No 206/2012 is amended in accordance with Annex XI to this Regulation.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d649e476">
+            <num>Article 12</num>
+            <heading>Amendments to Regulation (EU) No 547/2012</heading>
+            <paragraph>
+               <content>
+                  <p>Annex IV to Regulation (EU) No 547/2012 is amended in accordance with Annex XII to this Regulation.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d649e483">
+            <num>Article 13</num>
+            <heading>Amendments to Regulation (EU) No 932/2012</heading>
+            <paragraph>
+               <content>
+                  <p>Annex III to Regulation (EU) No 932/2012 is amended in accordance with Annex XIII to this Regulation.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d649e490" leos:compliant="false">
+            <num>Article 14</num>
+            <heading>Amendments to Regulation (EU) No 617/2013</heading>
+            <paragraph>
+               <subparagraph>
+                  <content>
+                     <p>Regulation (EU) No 617/2013 is amended as follows:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(1)</num>
+                     <alinea>
+                        <content>
+                           <p>the second point (e) of Article 2(20) is replaced by the following:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <point>
+                                       <num>&apos;(e)</num>
+                                       <content>
+                                          <p>dividing by 1000 converts Mega into Giga;&apos;;</p>
+                                       </content>
+                                    </point>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(2)</num>
+                     <content>
+                        <p>Annexes II and III are amended in accordance with Annex XIV to this Regulation.</p>
+                     </content>
+                  </point>
+               </list>
+            </paragraph>
+         </article>
+         <article xml:id="art_d649e524">
+            <num>Article 15</num>
+            <heading>Amendments to Regulation (EU) No 666/2013</heading>
+            <paragraph>
+               <content>
+                  <p>Annex III to Regulation (EU) No 666/2013 is amended in accordance with Annex XV to this Regulation.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d649e532">
+            <num>Article 16</num>
+            <heading>Amendments to Regulation (EU) No 813/2013</heading>
+            <paragraph>
+               <content>
+                  <p>Annex IV to Regulation (EU) No 813/2013 is amended in accordance with Annex XVI to this Regulation.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d649e539">
+            <num>Article 17</num>
+            <heading>Amendments to Regulation (EU) No 814/2013</heading>
+            <paragraph>
+               <content>
+                  <p>Annex V to Regulation (EU) No 814/2013 is amended in accordance with Annex XVII to this Regulation.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d649e546">
+            <num>Article 18</num>
+            <heading>Amendments to Regulation (EU) No 66/2014</heading>
+            <paragraph>
+               <content>
+                  <p>Annex III to Regulation (EU) No 66/2014 is amended in accordance with Annex XVIII to this Regulation.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d649e553">
+            <num>Article 19</num>
+            <heading>Amendments to Regulation (EU) No 548/2014</heading>
+            <paragraph>
+               <content>
+                  <p>Annex III to Regulation (EU) No 548/2014 is amended in accordance with Annex XIX to this Regulation.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d649e560">
+            <num>Article 20</num>
+            <heading>Amendments to Regulation (EU) No 1253/2014</heading>
+            <paragraph>
+               <content>
+                  <p>Annex VI to Regulation (EU) No 1253/2014 is amended in accordance with Annex XX to this Regulation.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d649e568">
+            <num>Article 21</num>
+            <heading>Amendments to Regulation (EU) 2015/1095</heading>
+            <paragraph>
+               <content>
+                  <p>Annexes IX, X and XI to Regulation (EU) 2015/1095 are amended in accordance with Annex XXI to this Regulation.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d649e575">
+            <num>Article 22</num>
+            <heading>Amendments to Regulation (EU) 2015/1185</heading>
+            <paragraph>
+               <content>
+                  <p>Annex IV to Regulation (EU) 2015/1185 is amended in accordance with Annex XXII to this Regulation.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d649e582">
+            <num>Article 23</num>
+            <heading>Amendments to Regulation (EU) 2015/1188</heading>
+            <paragraph>
+               <content>
+                  <p>Annex IV to Regulation (EU) 2015/1188 is amended in accordance with Annex XXIII to this Regulation.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d649e590">
+            <num>Article 24</num>
+            <heading>Amendments to Regulation (EU) 2015/1189</heading>
+            <paragraph>
+               <content>
+                  <p>Annex IV to Regulation (EU) 2015/1189 is amended in accordance with Annex XXIV to this Regulation.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d649e597">
+            <num>Article 25</num>
+            <heading>Amendments to Regulation (EU) 2016/2281</heading>
+            <paragraph>
+               <content>
+                  <p>Annex IV to Regulation (EU) 2016/2281 is amended in accordance with Annex XXV to this Regulation.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d649e604">
+            <num>Article 26</num>
+            <heading>Entry into force</heading>
+            <paragraph>
+               <content>
+                  <p>This Regulation shall enter into force on the twentieth day following that of its publication in the <i>Official Journal of the European Union</i>.</p>
+               </content>
+            </paragraph>
+         </article>
+         <clause>
+            <content>
+               <p>This Regulation shall be binding in its entirety and directly applicable in all Member States.</p>
+            </content>
+         </clause>
+      </body>
+      <conclusions>
+         <p>Done at Brussels, 30 November 2016.</p>
+         <block name="signatory">
+            <signature>
+               <organization refersTo="">For the Commission</organization>
+               <role refersTo="">The President</role>
+               <person refersTo="">Jean-Claude JUNCKER</person>
+            </signature>
+         </block>
+      </conclusions>
+   </bill>
+</akomaNtoso>

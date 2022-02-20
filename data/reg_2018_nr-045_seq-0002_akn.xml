@@ -1,0 +1,581 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"
+            xmlns:fmx="http://formex.publications.europa.eu/schema/formex-05.21-20110601.xd"
+            xmlns:leos="urn:eu:europa:ec:leos"
+            xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <bill name="">
+      <meta xmlns:fn="http://www.w3.org/2005/xpath-functions">
+         <identification source="~COM">
+            <FRBRWork>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRcountry value=""/>
+            </FRBRWork>
+            <FRBRExpression>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+            </FRBRManifestation>
+         </identification>
+      </meta>
+      <preface>
+         <longTitle>
+            <p>
+               <docStage/>
+               <docType>REGULATION (EU) 2018/231 OF THE EUROPEAN CENTRAL BANK</docType>of 26 January 2018<docPurpose>on statistical reporting requirements for pension funds (ECB/2018/2)</docPurpose>
+            </p>
+         </longTitle>
+      </preface>
+      <preamble>
+         <formula name="actingEntity">
+            <p>THE GOVERNING COUNCIL OF THE EUROPEAN CENTRAL BANK,</p>
+         </formula>
+         <citations>
+            <citation>
+               <p>Having regard to the Treaty on the Functioning of the European Union,</p>
+            </citation>
+            <citation>
+               <p>Having regard to the Statute of the European System of Central Banks and of the European Central Bank, and in particular Article 5 thereof,</p>
+            </citation>
+            <citation>
+               <p>Having regard to Council Regulation (EC) No 2533/98 of 23 November 1998 concerning the collection of statistical information by the European Central Bank<authorialNote placement="bottom" marker="1">
+                     <p>OJ L 318, 27.11.1998, p. 8.</p>
+                  </authorialNote>, and in particular Articles 5(1) and 6(4) thereof,</p>
+            </citation>
+            <citation>
+               <p>Having regard to the opinion of the European Commission<authorialNote placement="bottom" marker="2">
+                     <p>Opinion delivered on 26 September 2017.</p>
+                  </authorialNote>,</p>
+            </citation>
+         </citations>
+         <recitals xml:id="recs_d47e83">
+            <intro>
+               <p>Whereas:</p>
+            </intro>
+            <recital xml:id="rec_d47e86">
+               <num>(1)</num>
+               <p>Article 2(1) of Regulation (EC) No 2533/98 provides that, for the fulfilment of its statistical reporting requirements, the European Central Bank (ECB), assisted by the national central banks (NCBs), has the right to collect statistical information within the limits of the reference reporting population and of what is necessary to carry out the tasks of the European System of Central Banks (ESCB). It follows from Article 2(2)(a) of Regulation (EC) No 2533/98 that pension funds (PFs) form part of the reference reporting population for the purpose of fulfilling the ECB&apos;s statistical reporting requirements, inter alia, in the field of monetary and financial statistics. Article 3 of Regulation (EC) No 2533/98 requires the ECB to specify the actual reporting population within the limits of the reference reporting population and empowers it to fully or partly exempt specific classes of reporting agents from its statistical reporting requirements.</p>
+            </recital>
+            <recital xml:id="rec_d47e92">
+               <num>(2)</num>
+               <p>The purpose of imposing statistical reporting requirements on PFs is to provide the ECB with adequate statistics on the financial activities of the PF subsector in the Member States whose currency is the euro (hereinafter the &apos;euro area Member States&apos;), which are viewed as one economic territory. The collection of statistical information on PFs is necessary to satisfy regular and ad hoc analytical needs, to support the ECB in carrying out monetary and financial analysis, and for the ESCB&apos;s contribution to the stability of the financial system.</p>
+            </recital>
+            <recital xml:id="rec_d47e102">
+               <num>(3)</num>
+               <p>NCBs should have the power to collect and verify the required information on PFs from the actual reporting population as part of a broader statistical reporting framework, provided that the fulfilment of the ECB&apos;s statistical requirements is not jeopardised. In such cases it is appropriate to ensure transparency by informing the reporting agents of the various statistical purposes for which the data are collected. In order to minimise the reporting burden on PFs, NCBs should have the power to combine their reporting requirements under this Regulation with their reporting requirements under Regulation (EU) No 1011/2012 of the European Central Bank (ECB/2012/24)<authorialNote placement="bottom" marker="3">
+                     <p>Regulation (EU) No 1011/2012 of the European Central Bank of 17 October 2012 concerning statistics on holdings of securities (ECB/2012/24) (OJ L 305, 1.11.2012, p. 6).</p>
+                  </authorialNote>.</p>
+            </recital>
+            <recital xml:id="rec_d47e118">
+               <num>(4)</num>
+               <p>Moreover, in order to minimise the reporting burden on PFs, NCBs should have the power to collect the necessary information on PFs via the relevant national competent authority (NCA) that already collects data on PFs, in accordance with local cooperation arrangements.</p>
+            </recital>
+            <recital xml:id="rec_d47e124">
+               <num>(5)</num>
+               <p>The European system of national and regional accounts in the European Union (hereinafter the &apos;ESA 2010&apos;) laid down by Regulation (EU) No 549/2013 of the European Parliament and of the Council<authorialNote placement="bottom" marker="4">
+                     <p>Regulation (EU) No 549/2013 of the European Parliament and of the Council of 21 May 2013 on the European system of national and regional accounts in the European Union (OJ L 174, 26.6.2013, p. 1).</p>
+                  </authorialNote> requires that the assets and liabilities of institutional units are reported in the country of residence.</p>
+            </recital>
+            <recital xml:id="rec_d47e144">
+               <num>(6)</num>
+               <p>The standards for the protection and use of confidential statistical information laid down in Article 8 of Regulation (EC) No 2533/98 should apply to the collection of statistical information under this Regulation.</p>
+            </recital>
+            <recital xml:id="rec_d47e151">
+               <num>(7)</num>
+               <p>While it is recognised that regulations adopted under Article 34.1 of the Statute of the European System of Central Banks and the European Central Bank (hereinafter the &apos;Statute of the ESCB&apos;) do not confer any rights or impose any obligations on Member States whose currency is not the euro (hereinafter the &apos;non-euro area Member States&apos;), Article 5 of the Statute of the ESCB applies to both euro and non-euro area Member States. Article 5 of the Statute of the ESCB, together with Article 4(3) of the Treaty on European Union, implies an obligation to design and implement at national level all the measures that the non-euro area Member States consider appropriate to collect the statistical information needed to fulfil the ECB&apos;s statistical reporting requirements and to make timely preparations in the field of statistics in order to become euro area Member States.</p>
+            </recital>
+            <recital xml:id="rec_d47e165">
+               <num>(8)</num>
+               <p>Although this Regulation is primarily addressed to PFs, complete information on the assets of PFs may not be directly available from PFs, and therefore the relevant NCB may include pension managers in the actual reporting population.</p>
+            </recital>
+            <recital xml:id="rec_d47e171">
+               <num>(9)</num>
+               <p>Article 7(1) of Regulation (EC) No 2533/98 provides that the ECB has the power to impose sanctions on reporting agents that fail to comply with statistical reporting requirements set out in ECB regulations or decisions.</p>
+            </recital>
+            <recital xml:id="rec_d47e178">
+               <num>(10)</num>
+               <p>By the year 2022, the Governing Council should assess the merits and costs of: (a) a reduction in the time for the transmission of data on assets by reporting agents to five weeks following the end of the quarter to which the data relate; and (b) an extension in the scope of the statistical reporting requirements to cover loan-by-loan reporting by PFs, taking into account an increase in the economic significance of loans by this sector,</p>
+            </recital>
+         </recitals>
+         <formula name="enactingFormula">
+            <p>HAS ADOPTED THIS REGULATION:</p>
+         </formula>
+      </preamble>
+      <body>
+         <article xml:id="art_d47e187">
+            <num>Article 1</num>
+            <heading>Definitions</heading>
+            <paragraph>
+               <subparagraph>
+                  <content>
+                     <p>For the purposes of this Regulation:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>1.</num>
+                     <alinea>
+                        <content>
+                           <p>&apos;pension fund (PF)&apos; (subsector S.129 of the ESA 2010) means a financial corporation or quasi-corporation that is principally engaged in financial intermediation as the consequence of the pooling of social risks and needs of the insured persons (social insurance). A pension fund as a social insurance scheme provides income in retirement and may provide benefits for death and disability.</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>The following are not included within the definition:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <content>
+                              <p>investment funds (IFs) as defined in Article 1 of Regulation (EU) No 1073/2013 of the European Central Bank (ECB/2013/38)<authorialNote placement="bottom" marker="5">
+                                    <p>Regulation (EU) No 1073/2013 of the European Central Bank of 18 October 2013 concerning statistics on the assets and liabilities of investment funds (ECB/2013/38) (OJ L 297, 7.11.2013, p. 73).</p>
+                                 </authorialNote>;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <content>
+                              <p>financial vehicle corporations engaged in securitisation transactions as defined in Article 1 of Regulation (EU) No 1075/2013 of the European Central Bank (ECB/2013/40)<authorialNote placement="bottom" marker="6">
+                                    <p>Regulation (EU) No 1075/2013 of the European Central Bank of 18 October 2013 concerning statistics on the assets and liabilities of financial vehicle corporations engaged in securitisation transactions (ECB/2013/40) (OJ L 297, 7.11.2013, p. 107).</p>
+                                 </authorialNote>;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(c)</num>
+                           <content>
+                              <p>monetary financial institutions (MFIs) as defined in Article 1 of Regulation (EU) No 1071/2013 of the European Central Bank (ECB/2013/33)<authorialNote placement="bottom" marker="7">
+                                    <p>Regulation (EU) No 1071/2013 of the European Central Bank of 24 September 2013 concerning the balance sheet of the monetary financial institutions sector (ECB/2013/33) (OJ L 297, 7.11.2013, p. 1).</p>
+                                 </authorialNote>;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(d)</num>
+                           <content>
+                              <p>insurance corporations (ICs) as defined in Article 1 of Regulation (EU) No 1374/2014 of the European Central Bank (ECB/2014/50)<authorialNote placement="bottom" marker="8">
+                                    <p>Regulation (EU) No 1374/2014 of the European Central Bank of 28 November 2014 on statistical reporting requirements for insurance corporations (ECB/2014/50) (OJ L 366, 20.12.2014, p. 36).</p>
+                                 </authorialNote>;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(e)</num>
+                           <content>
+                              <p>non-autonomous pension funds, which are not institutional units and remain part of the institutional unit that set them up;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(f)</num>
+                           <content>
+                              <p>social security funds as defined in paragraph 2.117 of the ESA 2010;</p>
+                           </content>
+                        </point>
+                     </list>
+                  </point>
+                  <point>
+                     <num>2.</num>
+                     <content>
+                        <p>&apos;reporting agents&apos; has the same meaning as defined in Article 1 of Regulation (EC) No 2533/98;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>3.</num>
+                     <content>
+                        <p>&apos;resident&apos; has the same meaning as defined in Article 1 of Regulation (EC) No 2533/98. For the purposes of this Regulation, if a legal entity lacks a physical dimension its residence shall be determined by the economic territory under whose laws the entity is incorporated. If the entity is not incorporated, residence shall be determined by its legal domicile, namely the country whose legal system governs the creation and continued existence of the entity;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>4.</num>
+                     <content>
+                        <p>&apos;relevant NCB&apos; means the NCB of the euro area Member State in which the PF and/or the pension manager is resident;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>5.</num>
+                     <content>
+                        <p>&apos;relevant NCA&apos; means the NCA of the euro area Member State in which the PF and/or the pension manager is resident;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>6.</num>
+                     <content>
+                        <p>&apos;pension manager&apos; has the same meaning as defined in paragraph 5.185 of the ESA 2010;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>7.</num>
+                     <content>
+                        <p>&apos;security-by-security data&apos; means data broken down into individual securities;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>8.</num>
+                     <content>
+                        <p>&apos;item-by-item data&apos; means data broken down into individual assets or liabilities;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>9.</num>
+                     <content>
+                        <p>&apos;aggregated data&apos; means data that has not been broken down into individual assets or liabilities;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>10.</num>
+                     <content>
+                        <p>&apos;financial transaction&apos; means a transaction arising out of the creation, liquidation or change in ownership of financial assets or liabilities, as further described in Part 5 of Annex II;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>11.</num>
+                     <content>
+                        <p>&apos;revaluation adjustments&apos; means changes to the valuation of assets and liabilities that arise from changes in the price of assets and liabilities and/or the effect of exchange rates on the values, expressed in euro, of assets and liabilities denominated in a foreign currency, as further described in Part 5 of Annex II.</p>
+                     </content>
+                  </point>
+               </list>
+            </paragraph>
+         </article>
+         <article xml:id="art_d47e377">
+            <num>Article 2</num>
+            <heading>Actual reporting population</heading>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>The actual reporting population shall consist of the PFs resident in the euro area Member States.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>The PFs in the actual reporting population shall be subject to full statistical reporting requirements unless any derogation granted pursuant to Article 7 applies.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <content>
+                  <p>Without prejudice to paragraph 1, for the purpose of collecting information on the assets and liabilities of PFs in accordance with Part 3 of Annex I, the relevant NCB may decide that the actual reporting population includes individual pension managers resident in its Member State. In such cases, that NCB may grant a derogation to a PF linked to the pension manager included in the actual reporting population provided that the statistical information required in accordance with Part 3 of Annex I is collected from the respective pension manager or other available sources. The NCBs shall check the fulfilment of this condition in good time in order to grant or withdraw, if necessary, any derogation with effect from the start of the following calendar year, in agreement with the ECB.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d47e397">
+            <num>Article 3</num>
+            <heading>List of PFs for statistical purposes</heading>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>The Executive Board of the ECB shall establish and maintain, for statistical purposes, a list of PFs and pension managers that form the actual reporting population subject to this Regulation. The list may be based on lists of PFs that are currently drawn up by national authorities, where such lists are available, supplemented by other PFs and pension managers falling within the definition of PF and pension manager in Article 1.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>The NCBs and the ECB shall make this list and any updates available in an appropriate form, including by electronic means, via the internet or, at the request of the reporting agents concerned, in paper form.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <content>
+                  <p>If the latest electronic version of the list referred to in paragraph 2 is incorrect, the ECB shall not impose sanctions on a reporting agent that has not properly fulfilled its statistical reporting requirements to the extent that it relied on the incorrect list in good faith.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d47e418">
+            <num>Article 4</num>
+            <heading>Statistical reporting requirements</heading>
+            <paragraph>
+               <num>1.</num>
+               <subparagraph>
+                  <content>
+                     <p>The reporting agents shall provide to the relevant NCB, either directly or via the relevant NCA pursuant to local cooperation arrangements, and in accordance with Annexes I and II:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <content>
+                        <p>on a quarterly basis, end-of-quarter stock data on the assets of PFs and, in line with Article 5, quarterly revaluation adjustments or financial transactions concerning assets, where applicable;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <content>
+                        <p>on an annual basis, end-of-year stock data on liabilities of PFs at minimum and, in line with Article 5, annual revaluation adjustments or financial transactions concerning liabilities, where applicable;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(c)</num>
+                     <content>
+                        <p>on an annual basis, end-of-year data on the number of members of pension schemes broken down into active members, deferred members and retired members.</p>
+                     </content>
+                  </point>
+               </list>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>NCBs shall derive quarterly estimates for liabilities of PFs based on data provided on an annual basis by the reporting agents pursuant to Article 4(1)(b).</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <content>
+                  <p>NCBs shall inform reporting agents of the various purposes for which their data are collected.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>4.</num>
+               <content>
+                  <p>In order to minimise the reporting burden on PFs, NCBs shall be empowered to combine their reporting requirements under this Regulation with their reporting requirements under Regulation (EU) No 1011/2012 (ECB/2012/24).</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>5.</num>
+               <content>
+                  <p>Where the relevant NCB has not decided to include a pension manager in the actual reporting population under Article 2(3), the respective pension manager holding data that are required to be reported pursuant to Article 4(1) and (2) and Article 5(1)(a) shall provide such data to the PF in a timely manner to enable the PF to comply with its statistical reporting requirements in accordance with Article 8. If the PF does not comply with its statistical reporting requirements by reason of the failure of the pension manager to provide such data to the PF, the NCB must decide to include the pension manager in the actual reporting population in accordance with Article 2(3).</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d47e468">
+            <num>Article 5</num>
+            <heading>Revaluation adjustments and financial transactions</heading>
+            <paragraph>
+               <num>1.</num>
+               <subparagraph>
+                  <content>
+                     <p>Information on revaluation adjustments and financial transactions shall be obtained as follows.</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <content>
+                        <p>Reporting agents shall report revaluation adjustments or financial transactions, in accordance with the relevant NCB&apos;s instructions, for information reported on an aggregated basis.</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <content>
+                        <p>NCBs shall either derive approximations of the value of securities transactions from security-by-security data or shall directly collect data on such transactions from reporting agents on a security-by-security basis. NCBs may also follow a similar approach for assets other than securities when collecting item-by-item data.</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(c)</num>
+                     <alinea>
+                        <content>
+                           <p>In the case of pension entitlements issued by PFs, approximations of the value of financial transactions shall be derived:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(i)</num>
+                           <content>
+                              <p>by reporting agents, in accordance with the relevant NCB&apos;s guidance, based on common best practices as may be defined at euro area level; or</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(ii)</num>
+                           <content>
+                              <p>by the relevant NCB, based on data provided by PFs.</p>
+                           </content>
+                        </point>
+                     </list>
+                  </point>
+               </list>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>Further guidelines regarding the compilation of revaluation adjustments and financial transactions are laid down in Annex II.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d47e517">
+            <num>Article 6</num>
+            <heading>Accounting rules</heading>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>Unless otherwise provided for in this Regulation, the accounting rules followed by PFs for the purposes of reporting under this Regulation shall be those laid down in the relevant national law implementing Directive 2003/41/EC of the European Parliament and of the Council<authorialNote placement="bottom" marker="9">
+                        <p>Directive 2003/41/EC of the European Parliament and of the Council of 3 June 2003 on the activities and supervision of institutions for occupational retirement provision (OJ L 235, 23.9.2003, p. 10).</p>
+                     </authorialNote> or in any other national or international standards that apply to PFs based on instructions provided by NCBs.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>Write-offs and write-downs as determined by the relevant accounting practices shall be excluded from the principal amount outstanding of loans and reported separately.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <content>
+                  <p>Without prejudice to accounting practices and netting arrangements prevailing in the euro area Member States, all financial assets and liabilities shall be reported on a gross basis for statistical purposes.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d47e548">
+            <num>Article 7</num>
+            <heading>Derogations</heading>
+            <paragraph>
+               <num>1.</num>
+               <subparagraph>
+                  <content>
+                     <p>Derogations may be granted to small PFs as follows:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <content>
+                        <p>NCBs may grant derogations to the smallest PFs in terms of total assets, provided that the PFs that contribute to the quarterly aggregated balance sheet account for at least 85 % of the total assets of PFs resident in the relevant euro area Member State.</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <content>
+                        <p>Subject to Article 13, NCBs may grant derogations to the smallest PFs where the quarterly aggregated total assets of the PF are less than EUR 25 million or the number of its members is fewer than 100, based on the last annual data submission, or, for the first reporting, on data reported for 2018 available at the relevant NCB or NCA. The relevant NCB shall ensure that the PFs that contribute to the quarterly aggregated balance sheet account for at least 80 % of the total assets of PFs resident in the relevant euro area Member State.</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(c)</num>
+                     <content>
+                        <p>A PF granted a derogation under point (a) or (b) from the reporting requirements in Article 4, shall nevertheless comply with the reporting requirements in Article 4(1)(a) on an annual basis, provided that the PFs that contribute to the annual aggregated balance sheet account for at least 95 % of the total assets of PFs resident in the relevant euro area Member State.</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(d)</num>
+                     <content>
+                        <p>A PF granted a derogation under point (a) or (b) shall report, as a minimum, total assets broken down into debt securities, equity, investment fund shares/units and other accounts receivable/payable on an annual basis.</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(e)</num>
+                     <content>
+                        <p>NCBs shall check the fulfilment of the conditions set out in points (a) to (c) annually and in good time in order to grant or withdraw, if necessary, any derogation with effect from the start of the second successive calendar year.</p>
+                     </content>
+                  </point>
+               </list>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>The PFs may choose not to make use of a derogation but instead to fulfil the full statistical reporting requirements specified in Article 4. If a PF makes such a choice, it shall obtain the relevant NCB&apos;s consent prior to any use of the derogation.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d47e595">
+            <num>Article 8</num>
+            <heading>Timeliness</heading>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>Reporting agents shall transmit to the relevant NCB or to the relevant NCA or to both, in accordance with local cooperation arrangements, the required quarterly data, at the latest 10 weeks following the end of the quarter to which the data relate. This deadline shall be brought forward by one week per year thereafter and shall be seven weeks for 2022.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>Reporting agents shall transmit to the relevant NCB or to the relevant NCA or to both, in accordance with local cooperation arrangements, the required annual data, at the latest 20 weeks following the end of the year to which the data relate. This deadline shall be brought forward by two weeks per year thereafter and shall be 14 weeks for 2022.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d47e610">
+            <num>Article 9</num>
+            <heading>Minimum standards and national reporting arrangements</heading>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>Reporting agents shall comply with the statistical reporting requirements to which they are subject in accordance with the minimum standards for transmission, accuracy, compliance with concepts and revisions specified in Annex III.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>The NCBs shall define and implement the reporting arrangements to be followed by the actual reporting population. The NCBs shall ensure that these reporting arrangements provide the required statistical information and allow accurate checking of the fulfilment of the minimum standards for transmission, accuracy, compliance with concepts and revisions specified in Annex III.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d47e627">
+            <num>Article 10</num>
+            <heading>Mergers, divisions and reorganisations</heading>
+            <paragraph>
+               <content>
+                  <p>In the event of a merger, division or reorganisation that might affect the fulfilment of its statistical obligations, each reporting agent concerned shall inform the relevant NCB, directly or via the relevant NCA in accordance with local cooperation arrangements, as soon as the intention to implement such operation has been published and within a reasonable time before it takes effect, of the procedures that are planned in order to fulfil the statistical reporting requirements set out in this Regulation.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d47e634">
+            <num>Article 11</num>
+            <heading>Verification and compulsory collection</heading>
+            <paragraph>
+               <content>
+                  <p>The NCBs shall exercise the right to verify or to collect compulsorily the information which reporting agents are required to provide pursuant to this Regulation, without prejudice to the ECB&apos;s right to exercise these rights itself. In particular, the NCBs shall exercise this right when an institution included in the actual reporting population does not fulfil the minimum standards for transmission, accuracy, compliance with concepts and revisions specified in Annex III.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d47e641">
+            <num>Article 12</num>
+            <heading>First reporting</heading>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>First reporting shall begin with quarterly data on assets for the third quarter of 2019 and annual data on liabilities and members for 2019. These data shall be reported in accordance with Article 8.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>PFs referred to in Article 7(1)(c) and (d) shall report annual data on assets in accordance with those provisions for 2018 by end-2019.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <content>
+                  <p>In order to derive quarterly estimates for liabilities of PFs in accordance with Article 4(2) for 2019, NCBs shall use annual data on liabilities for 2018 available at the relevant NCB or NCA.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d47e661">
+            <num>Article 13</num>
+            <heading>Transitional provisions</heading>
+            <paragraph>
+               <content>
+                  <p>If an NCB grants a derogation pursuant to Article 7(1)(b), the relevant NCB shall ensure that the PFs that contribute to the quarterly aggregated balance sheet account for at least 75 % of the total assets of PFs resident in the relevant euro area Member State for the first reporting and until no later than the date by which reporting agents must transmit quarterly and annual data for 2022 under Article 8.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d47e668">
+            <num>Article 14</num>
+            <heading>Final provisions</heading>
+            <paragraph>
+               <content>
+                  <p>This Regulation shall enter into force on the twentieth day following that of its publication in the <i>Official Journal of the European Union</i>.</p>
+               </content>
+            </paragraph>
+         </article>
+         <clause>
+            <content>
+               <p>This Regulation shall be binding in its entirety and directly applicable in the Member States in accordance with the Treaties.</p>
+            </content>
+         </clause>
+      </body>
+      <conclusions>
+         <p>Done at Frankfurt am Main, 26 January 2018.</p>
+         <block name="signatory">
+            <signature>
+               <organization refersTo="">For the Governing Council of the ECB</organization>
+               <role refersTo="">The President of the ECB</role>
+               <person refersTo="">Mario DRAGHI</person>
+            </signature>
+         </block>
+      </conclusions>
+   </bill>
+</akomaNtoso>

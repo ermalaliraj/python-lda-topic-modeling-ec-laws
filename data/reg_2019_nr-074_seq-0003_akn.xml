@@ -1,0 +1,831 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"
+            xmlns:fmx="http://formex.publications.europa.eu/schema/formex-05.21-20110601.xd"
+            xmlns:leos="urn:eu:europa:ec:leos"
+            xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <bill name="">
+      <meta xmlns:fn="http://www.w3.org/2005/xpath-functions">
+         <identification source="~COM">
+            <FRBRWork>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRcountry value=""/>
+            </FRBRWork>
+            <FRBRExpression>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+            </FRBRManifestation>
+         </identification>
+      </meta>
+      <preface>
+         <longTitle>
+            <p>
+               <docStage/>
+               <docType>COMMISSION REGULATION (EU) 2019/424</docType>of 15 March 2019<docPurpose>laying down ecodesign requirements for servers and data storage products pursuant to Directive 2009/125/EC of the European Parliament and of the Council and amending Commission Regulation (EU) No 617/2013</docPurpose>
+            </p>
+         </longTitle>
+         <container name="EEArelevance">
+            <p>(Text with EEA relevance)</p>
+         </container>
+      </preface>
+      <preamble>
+         <formula name="actingEntity">
+            <p>THE EUROPEAN COMMISSION,</p>
+         </formula>
+         <citations>
+            <citation>
+               <p>Having regard to the Treaty on the Functioning of the European Union,</p>
+            </citation>
+            <citation>
+               <p>Having regard to Directive 2009/125/EC of the European Parliament and of the Council of 21 October 2009 establishing a framework for the setting of ecodesign requirements for energy-related products<authorialNote placement="bottom" marker="1">
+                     <p>OJ L 285, 31.10.2009, p. 10.</p>
+                  </authorialNote>, and in particular Article 15(1) thereof,</p>
+            </citation>
+            <citation>
+               <p>After consulting the Consultation Forum referred to in Article 18 of Directive 2009/125/EC,</p>
+            </citation>
+         </citations>
+         <recitals xml:id="recs_d89e73">
+            <intro>
+               <p>Whereas:</p>
+            </intro>
+            <recital xml:id="rec_d89e76">
+               <num>(1)</num>
+               <p>Directive 2009/125/EC requires the Commission to set ecodesign requirements for energy-related products that represent significant volumes of sales and trade, that have a significant environmental impact and that present significant potential for improvement in terms of their environmental impact without entailing excessive costs.</p>
+            </recital>
+            <recital xml:id="rec_d89e82">
+               <num>(2)</num>
+               <p>The Commission has carried out a preparatory study to analyse the technical, environmental and economic aspects of servers and data storage products typically used for commercial purposes. The study has been carried out with stakeholders and interested parties from the Union and third countries, and the results have been made publicly available.</p>
+            </recital>
+            <recital xml:id="rec_d89e88">
+               <num>(3)</num>
+               <p>Servers and data storage products are typically placed on the market for use in data centres, office and corporate environments.</p>
+            </recital>
+            <recital xml:id="rec_d89e94">
+               <num>(4)</num>
+               <p>The environmental aspects of servers and data storage products that have been identified as significant for the purposes of this Regulation are energy consumption in the use phase and resource efficiency, in particular on the aspects related to reparability, reusability, upgradeability and recyclability for security of supply.</p>
+            </recital>
+            <recital xml:id="rec_d89e100">
+               <num>(5)</num>
+               <p>Ecodesign requirements should harmonise energy consumption and resource efficiency requirements for servers and data storage products throughout the Union, for the internal market to operate better and in order to improve the environmental performance of those products.</p>
+            </recital>
+            <recital xml:id="rec_d89e106">
+               <num>(6)</num>
+               <p>The annual energy consumption related to servers directly is expected to be 48 TWh in 2030, which increases to 75 TWh when the annual energy consumption related to infrastructure (e.g. cooling systems and uninterruptible power supply systems) is also included. The annual energy consumption of data storage products is expected to be 30 TWh in 2030, 47 TWh when infrastructure is also included. The preparatory study shows that use-phase energy consumption by servers and data storage products can be significantly reduced.</p>
+            </recital>
+            <recital xml:id="rec_d89e112">
+               <num>(7)</num>
+               <p>The effect of the ecodesign requirements set out in this Regulation is estimated to result by 2030 in annual energy savings of approximately 9 TWh (approximately the yearly electricity consumption of Estonia in 2014). More in detail, the effect of the ecodesign requirements for servers set out in this Regulation is estimated to result by 2030 in direct annual energy savings of approximately 2,4 TWh and indirect (i.e. related to infrastructure) annual energy savings of 3,7 TWh, summing up to a total saving of 6,1 TWh, corresponding to a total of 2,1 Mt of CO<sub>2</sub> equivalent. The effect of the ecodesign requirements for data storage products set out in this Regulation is estimated to result by 2030 in direct annual energy savings of approximately 0,8 TWh and indirect (i.e. related to infrastructure) annual energy savings of 2 TWh, summing up to a total saving of 2,8 TWh, corresponding to 0,9 Mt of CO<sub>2</sub> equivalent.</p>
+            </recital>
+            <recital xml:id="rec_d89e125">
+               <num>(8)</num>
+               <p>In accordance with the Union action plan for the Circular Economy<authorialNote placement="bottom" marker="2">
+                     <p>COM(2015) 614 final.</p>
+                  </authorialNote> the Commission should make sure that special emphasis is placed on aspects relevant to the circular economy, such as durability and reparability, when setting out or revising ecodesign criteria. Therefore requirements should be laid down on non-energy related aspects, including extraction of key-components and of critical raw materials (CRMs), availability of functionality for secure data deletion and provision of latest available version of firmware.</p>
+            </recital>
+            <recital xml:id="rec_d89e135">
+               <num>(9)</num>
+               <p>The requirement on the extraction of key-components is expected to foster the reparability and upgradability of servers and data storage products, in particular by third parties (such as spare parts repairers and maintenance).</p>
+            </recital>
+            <recital xml:id="rec_d89e142">
+               <num>(10)</num>
+               <p>The possibility to address CRMs in Ecodesign regulations (including for enterprise servers) has been mentioned in the recent Commission Staff Working Document &apos;Report on Critical Raw Materials and the Circular Economy&apos;<authorialNote placement="bottom" marker="3">
+                     <p>SWD(2018) 36 final.</p>
+                  </authorialNote>.</p>
+            </recital>
+            <recital xml:id="rec_d89e155">
+               <num>(11)</num>
+               <p>The requirement on a functionality for secure data deletion could be implemented by means of technical solutions such as, but not limited to, a functionality implemented in firmware, typically in the Basic Input/Output System (BIOS), in software included in a self-contained bootable environment provided in a bootable compact disc, digital versatile disc or universal serial bus memory storage device included with the product, or in software installable in the supported operating systems provided with the product.</p>
+            </recital>
+            <recital xml:id="rec_d89e161">
+               <num>(12)</num>
+               <p>The requirements on non-energy related aspects are expected to contribute prolonging the lifetime of servers by making it easier to refurbish and reuse them, while maintaining compliance with the principles of privacy and protection of personal data as set by Regulation (EU) 2016/679 of the European Parliament and of the Council<authorialNote placement="bottom" marker="4">
+                     <p>Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (General Data Protection Regulation) (OJ L 119, 4.5.2016, p. 1).</p>
+                  </authorialNote>.</p>
+            </recital>
+            <recital xml:id="rec_d89e177">
+               <num>(13)</num>
+               <p>The energy consumption of servers and data storage products could be reduced by applying existing non-proprietary technologies without an increase in the combined costs of purchasing and operating these products.</p>
+            </recital>
+            <recital xml:id="rec_d89e183">
+               <num>(14)</num>
+               <p>The ecodesign requirements should not affect the functionality or affordability of servers and data storage products from the end-user&apos;s perspective and should not negatively affect health, safety or the environment.</p>
+            </recital>
+            <recital xml:id="rec_d89e189">
+               <num>(15)</num>
+               <p>This Regulation should apply without prejudice to the requirements of Union legislation on safety and health, in particular the Directive 2014/35/EU of the European Parliament and of the Council<authorialNote placement="bottom" marker="5">
+                     <p>Directive 2014/35/EU of the European Parliament and of the Council of 26 February 2014 on the harmonisation of the laws of the Member States relating to the making available on the market of electrical equipment designed for use within certain voltage limits (OJ L 96, 29.3.2014, p. 357).</p>
+                  </authorialNote>, which covers all health and safety risks of electrical equipment operating with a voltage between 50 and 1000 V for alternating current and between 75 and 1500 V for direct current.</p>
+            </recital>
+            <recital xml:id="rec_d89e205">
+               <num>(16)</num>
+               <p>The introduction of ecodesign requirements should give manufacturers sufficient time to redesign their products subject to this Regulation. The timing should take into account the impact on manufacturers&apos; costs, in particular for small and medium-sized enterprises, while ensuring timely achievement of the objectives of this Regulation.</p>
+            </recital>
+            <recital xml:id="rec_d89e211">
+               <num>(17)</num>
+               <p>Product parameters should be measured and calculated using reliable, accurate and reproducible methods which take into account recognised state-of-the-art measurement and calculation methods, including, where available, harmonised standards adopted by the European standardisation organisations following a request by the Commission, in accordance with the procedures laid down in Regulation (EU) No 1025/2012 of the European Parliament and of the Council<authorialNote placement="bottom" marker="6">
+                     <p>Regulation (EU) No 1025/2012 of the European Parliament and of the Council of 25 October 2012 on European standardisation, amending Council Directives 89/686/EEC and 93/15/EEC and Directives 94/9/EC, 94/25/EC, 95/16/EC, 97/23/EC, 98/34/EC, 2004/22/EC, 2007/23/EC, 2009/23/EC and 2009/105/EC of the European Parliament and of the Council and repealing Council Decision 87/95/EEC and Decision No 1673/2006/EC of the European Parliament and of the Council (OJ L 316, 14.11.2012, p. 12).</p>
+                  </authorialNote>.</p>
+            </recital>
+            <recital xml:id="rec_d89e227">
+               <num>(18)</num>
+               <p>In accordance with Article 8 of Directive 2009/125/EC, this Regulation specifies which conformity assessment procedures apply.</p>
+            </recital>
+            <recital xml:id="rec_d89e234">
+               <num>(19)</num>
+               <p>In order to facilitate compliance checks, manufacturers should provide the information contained in the technical documentation referred to in Annexes IV and V to Directive 2009/125/EC insofar as that information relates to the requirements laid down in this Regulation.</p>
+            </recital>
+            <recital xml:id="rec_d89e241">
+               <num>(20)</num>
+               <p>In addition to the legally binding requirements laid down in this Regulation, indicative benchmarks for best available technologies should be determined to ensure that information on the life-cycle environmental performance of servers and data storage products is widely available and easily accessible.</p>
+            </recital>
+            <recital xml:id="rec_d89e247">
+               <num>(21)</num>
+               <p>Commission Regulation (EU) No 617/2013<authorialNote placement="bottom" marker="7">
+                     <p>Commission Regulation (EU) No 617/2013 of 26 June 2013 implementing Directive 2009/125/EC of the European Parliament and of the Council with regard to ecodesign requirements for computers and computer servers (OJ L 175, 27.6.2013, p. 13).</p>
+                  </authorialNote> should be amended to exclude computer servers from its scope in order to prevent any overlap with the same products in the scope of this Regulation.</p>
+            </recital>
+            <recital xml:id="rec_d89e263">
+               <num>(22)</num>
+               <p>The definitions of this Regulation related to data storage products are consistent with the terminology developed by the Storage Networking Industry Association (SNIA) Green Storage Initiative as defined in the SNIA Emerald taxonomy.</p>
+            </recital>
+            <recital xml:id="rec_d89e269">
+               <num>(23)</num>
+               <p>In particular, the small data storage products definition corresponds to the online 1 equipment as set out in the SNIA Emerald taxonomy, and the large data storage products definition corresponds to the online 5 and 6 equipment as set out in the SNIA Emerald taxonomy.</p>
+            </recital>
+            <recital xml:id="rec_d89e275">
+               <num>(24)</num>
+               <p>The definitions of this Regulation related to server product types, server efficiency, server performance and maximum power, are consistent with the terminology adopted in EN 303 470:2018. The measurement and calculation methods for the server efficiency are consistent with the methods adopted in EN 303 470:2018.</p>
+            </recital>
+            <recital xml:id="rec_d89e281">
+               <num>(25)</num>
+               <p>The operating conditions classes, and their characteristics, are consistent with the classification set in the Thermal Guidelines for Data Processing Environments by the American Society of Heating, Refrigerating and Air-Conditioning Engineers. In particular, the boundary conditions of each operating condition class (such as temperature and humidity) are in accord with the allowable environmental ranges of the Thermal Guidelines for Data Processing Environments, where manufacturers test their equipment in order to verify that it will function within those boundaries.</p>
+            </recital>
+            <recital xml:id="rec_d89e287">
+               <num>(26)</num>
+               <p>The measures provided for in this Regulation are in accordance with the opinion of the Committee established under Article 19(1) of Directive 2009/125/EC,</p>
+            </recital>
+         </recitals>
+         <formula name="enactingFormula">
+            <p>HAS ADOPTED THIS REGULATION:</p>
+         </formula>
+      </preamble>
+      <body>
+         <article xml:id="art_d89e296">
+            <num>Article 1</num>
+            <heading>Subject matter and scope</heading>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>This Regulation establishes ecodesign requirements for the placing on the market and putting into service of servers and online data storage products.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <subparagraph>
+                  <content>
+                     <p>This Regulation shall not apply to the following products:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <content>
+                        <p>servers intended for embedded applications;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <content>
+                        <p>servers classified as small scale servers in terms of Regulation (EU) No 617/2013;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(c)</num>
+                     <content>
+                        <p>servers with more than four processor sockets;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(d)</num>
+                     <content>
+                        <p>server appliances;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(e)</num>
+                     <content>
+                        <p>large servers;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(f)</num>
+                     <content>
+                        <p>fully fault tolerant servers;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(g)</num>
+                     <content>
+                        <p>network servers;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(h)</num>
+                     <content>
+                        <p>small data storage products;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(i)</num>
+                     <content>
+                        <p>large data storage products.</p>
+                     </content>
+                  </point>
+               </list>
+            </paragraph>
+         </article>
+         <article xml:id="art_d89e368">
+            <num>Article 2</num>
+            <heading>Definitions</heading>
+            <paragraph>
+               <num>1.</num>
+               <subparagraph>
+                  <content>
+                     <p>For the purpose of this Regulation, the following definitions shall apply:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(1)</num>
+                     <alinea>
+                        <content>
+                           <p>&apos;server&apos; means a computing product that provides services and manages networked resources for client devices, such as desktop computers, notebook computers, desktop thin clients, internet protocol telephones, smartphones, tablets, tele-communication, automated systems or other servers, primarily accessed via network connections, and not through direct user input devices, such as a keyboard or a mouse and with the following characteristics:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <content>
+                              <p>it is designed to support server operating systems (OS) and/or hypervisors, and targeted to run user-installed enterprise applications;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <content>
+                              <p>it supports error-correcting code and/or buffered memory (including both buffered dual in-line memory modules and buffered on board configurations);</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(c)</num>
+                           <content>
+                              <p>all processors have access to shared system memory and are independently visible to a single OS or hypervisor;</p>
+                           </content>
+                        </point>
+                     </list>
+                  </point>
+                  <point>
+                     <num>(2)</num>
+                     <content>
+                        <p>&apos;server with more than four processor sockets&apos; means a server containing more than four interfaces designed for the installation of a processor. For multi-node servers, this term refers to a server having more than four processor sockets in each server node;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(3)</num>
+                     <content>
+                        <p>&apos;embedded application&apos; means a software application that permanently resides in an industrial or consumer device, typically stored in a non-volatile memory such as read-only memory or flash memory;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(4)</num>
+                     <content>
+                        <p>&apos;server appliance&apos; means a server that is not intended to execute user-supplied software, delivers services through one or more networks, is typically managed through a web or command line interface and is bundled with a pre-installed OS and application software that is used to perform a dedicated function or set of tightly coupled functions;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(5)</num>
+                     <content>
+                        <p>&apos;resilient server&apos; means a server designed with extensive reliability, availability, serviceability and scalability features integrated in the micro architecture of the system, central processing unit (CPU) and chipset;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(6)</num>
+                     <content>
+                        <p>&apos;large server&apos; means a resilient server which is shipped as a pre-integrated/pre-tested system housed in one or more full frame racks and that includes a high connectivity input/output subsystem with a minimum of 32 dedicated input/output slots;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(7)</num>
+                     <content>
+                        <p>&apos;multi-node server&apos; means a server that is designed with two or more independent server nodes that share a single enclosure and one or more power supply units. In a multi-node server, power is distributed to all nodes through shared power supply units. Server nodes in a multi-node server are not designed to be hot-swappable;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(8)</num>
+                     <content>
+                        <p>&apos;fully fault tolerant server&apos; means a server that is designed with complete hardware redundancy (to simultaneously and repetitively run a single workload for continuous availability in mission critical applications), in which every computing component is replicated between two nodes running identical and concurrent workloads (i.e., if one node fails or needs repair, the second node can run the workload alone to avoid downtime);</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(9)</num>
+                     <content>
+                        <p>&apos;network server&apos; means a network product which contains the same components as a server in addition to more than 11 network ports with a total line rate throughput of 12 Gb/s or more, the capability to dynamically reconfigure ports and speed and support for a virtualized network environment through a software defined network;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(10)</num>
+                     <content>
+                        <p>&apos;data storage product&apos; means a fully-functional storage system that supplies data storage services to clients and devices attached directly or through a network. Components and subsystems that are an integral part of the data storage product architecture (e.g., to provide internal communications between controllers and disks) are considered to be part of the data storage product. In contrast, components that are normally associated with a storage environment at the data centre level (e.g. devices required for operation of an external storage area network) are not considered to be part of the data storage product. A data storage product may be composed of integrated storage controllers, data storage devices, embedded network elements, software, and other devices;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(11)</num>
+                     <content>
+                        <p>&apos;Hard Disk Drive&apos; (HDD) means a data storage device which reads and writes to one or more rotating magnetic disk platters;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(12)</num>
+                     <content>
+                        <p>&apos;Solid State Drive&apos; (SSD) means a data storage device that reads and writes to non-volatile solid state memory instead of rotating magnetic platters for data storage;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(13)</num>
+                     <content>
+                        <p>&apos;data storage device&apos; means a device providing non-volatile data storage, with the exception of aggregating storage elements such as subsystems of redundant arrays of independent disks, robotic tape libraries, filers, and file servers and storage devices which are not directly accessible by end-user application programs, and are instead employed as a form of internal cache;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(14)</num>
+                     <content>
+                        <p>&apos;online data storage product&apos; means a data storage product designed for online, random-access of data, accessible in a random or sequential pattern, with a maximum time to first data of less than 80 milliseconds;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(15)</num>
+                     <content>
+                        <p>&apos;small data storage product&apos; means a data storage product containing a maximum of three data storage devices;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(16)</num>
+                     <content>
+                        <p>&apos;large data storage product&apos; means a high end or mainframe data storage product that supports more than 400 data storage devices in its maximum configuration and with the following required attributes: no single point of failure, non-disruptive serviceability and integrated storage controller.</p>
+                     </content>
+                  </point>
+               </list>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>For the purposes of Annexes II to V, additional definitions are set out in Annex I.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d89e551">
+            <num>Article 3</num>
+            <heading>Ecodesign requirements and timetable</heading>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>The ecodesign requirements for servers and online data storage products are set out in Annex II.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>From 1 March 2020 servers shall comply with the ecodesign requirements set out in Annex II points 1.1.1, 1.2.1, 1.2.2, 2.1, 2.2, 3.1, 3.3 and 3.4.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <subparagraph>
+                  <content>
+                     <p>From 1 March 2020 online data storage products shall comply with the ecodesign requirements set out in Annex II points 1.1.1, 1.2.1, 1.2.2, 3.2, 3.3 and 3.4.</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <content>
+                        <p>From 1 March 2021 servers and online data storage products shall comply with the ecodesign requirement set out in Annex II point 1.2.3.</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <content>
+                        <p>From 1 January 2023 servers and online data storage products shall comply with the ecodesign requirements set out in Annex II point 1.1.2.</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(c)</num>
+                     <content>
+                        <p>Compliance with ecodesign requirements shall be measured and calculated in accordance with the methods set out in Annex III.</p>
+                     </content>
+                  </point>
+               </list>
+            </paragraph>
+         </article>
+         <article xml:id="art_d89e603">
+            <num>Article 4</num>
+            <heading>Conformity assessment</heading>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>The conformity assessment procedure referred to in Article 8(2) of Directive 2009/125/EC shall be the internal design control set out in Annex IV to that Directive or the management system set out in Annex V to that Directive.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>For the purposes of the conformity assessment pursuant to Article 8 of Directive 2009/125/EC, the technical documentation shall contain the information set out in point 3.4 of Annex II to this Regulation.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d89e618">
+            <num>Article 5</num>
+            <heading>Verification procedure for market surveillance purposes</heading>
+            <paragraph>
+               <content>
+                  <p>Member States shall apply the verification procedure set out in Annex IV to this Regulation when performing the market surveillance checks referred to in Article 3(2) of Directive 2009/125/EC.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d89e625">
+            <num>Article 6</num>
+            <heading>Circumvention</heading>
+            <paragraph>
+               <content>
+                  <p>The manufacturer or importer shall not place on the market products that have been designed to be able to detect they are being tested (e.g. by recognizing the test conditions or test cycle), and to react specifically by automatically altering their performance during the test with the objective of reaching a more favourable level for any of the parameters declared by the manufacturer or importer in the technical documentation or included in any of the documentation provided.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d89e633">
+            <num>Article 7</num>
+            <heading>Indicative benchmarks</heading>
+            <paragraph>
+               <content>
+                  <p>The indicative benchmarks for best-performing servers and data storage products available on the market on 7 April 2019 are set out in Annex V.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d89e643">
+            <num>Article 8</num>
+            <heading>Review</heading>
+            <paragraph>
+               <subparagraph>
+                  <content>
+                     <p>The Commission shall assess this Regulation and shall present the results of this assessment, including, if appropriate, a draft revision proposal, to the Consultation Forum by March 2022. This assessment shall review the requirements in the light of the technological progress and shall address in particular the appropriateness:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <content>
+                        <p>to update the specific ecodesign requirements on server active state efficiency;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <content>
+                        <p>to update the specific ecodesign requirements for servers on idle state power;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(c)</num>
+                     <content>
+                        <p>to update the definitions or the scope of the Regulation;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(d)</num>
+                     <content>
+                        <p>to update the material efficiency requirements for servers and data storage products, including the information requirements on additional critical raw materials (tantalum, gallium, dysprosium and palladium), taking into account the needs of the recyclers;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(e)</num>
+                     <content>
+                        <p>to exempt server appliances, large servers, fully fault tolerant servers and network servers from the scope of the regulation;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(f)</num>
+                     <content>
+                        <p>to exclude resilient servers, High Performance Computing (HPC) servers and servers with integrated APA from the ecodesign requirements set out in Annex II point 2.1 and point 2.2;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(g)</num>
+                     <content>
+                        <p>to set specific ecodesign requirements on the Processor Power Management Function of servers;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(h)</num>
+                     <content>
+                        <p>to set specific ecodesign requirements on the operating condition class;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(i)</num>
+                     <content>
+                        <p>to set specific ecodesign requirements on the efficiency, performance and power demand of data storage products.</p>
+                     </content>
+                  </point>
+               </list>
+            </paragraph>
+         </article>
+         <article xml:id="art_d89e706" leos:compliant="false">
+            <num>Article 9</num>
+            <heading>Amendment to Regulation (EU) No 617/2013</heading>
+            <paragraph>
+               <subparagraph>
+                  <content>
+                     <p>Regulation (EU) No 617/2013 is amended as follows:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(1)</num>
+                     <alinea>
+                        <content>
+                           <p>Article 1 is amended as follows:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <alinea>
+                              <content>
+                                 <p>paragraph 1 is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <paragraph>
+                                             <num>&apos;1.</num>
+                                             <content>
+                                                <p>This Regulation establishes ecodesign requirements for the placing on the market of computers.&apos;;</p>
+                                             </content>
+                                          </paragraph>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <content>
+                              <p>in paragraph 2, point (h) is deleted;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(c)</num>
+                           <content>
+                              <p>in paragraph 3, points (a) to (d) are deleted;</p>
+                           </content>
+                        </point>
+                     </list>
+                  </point>
+                  <point>
+                     <num>(2)</num>
+                     <alinea>
+                        <content>
+                           <p>Article 2 is amended as follows:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <content>
+                              <p>point 2 is deleted;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <alinea>
+                              <content>
+                                 <p>point 4 is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <point>
+                                             <num>&apos;(4)</num>
+                                             <alinea>
+                                                <content>
+                                                   <p>&quot;Internal power supply&quot; means a component designed to convert AC voltage from the mains to DC voltage(s) for the purpose of powering the computer and has the following characteristics:</p>
+                                                </content>
+                                             </alinea>
+                                             <list>
+                                                <point>
+                                                   <num>(a)</num>
+                                                   <content>
+                                                      <p>is contained within the computer casing but is separate from the main computer board;</p>
+                                                   </content>
+                                                </point>
+                                                <point>
+                                                   <num>(b)</num>
+                                                   <content>
+                                                      <p>the power supply connects to the mains through a single cable with no intermediate circuitry between the power supply and the mains power; and</p>
+                                                   </content>
+                                                </point>
+                                                <point>
+                                                   <num>(c)</num>
+                                                   <content>
+                                                      <p>all power connections from the power supply to the computer components, with the exception of a DC connection to a display in an integrated desktop computer, are internal to the computer casing.</p>
+                                                   </content>
+                                                </point>
+                                             </list>
+                                             <alinea>
+                                                <content>
+                                                   <p>Internal DC-to-DC converters used to convert a single DC voltage from an external power supply into multiple voltages for use by a computer are not considered internal power supplies;&apos;;</p>
+                                                </content>
+                                             </alinea>
+                                          </point>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(c)</num>
+                           <content>
+                              <p>points 12 to 16 are deleted;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(d)</num>
+                           <alinea>
+                              <content>
+                                 <p>point 22 is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <point>
+                                             <num>&apos;(22)</num>
+                                             <content>
+                                                <p>&quot;Product type&quot; means desktop computer, integrated desktop computer, notebook computer, desktop thin client, workstation, mobile workstation, small-scale server, game console, docking station, internal power supply or external power supply;&apos;;</p>
+                                             </content>
+                                          </point>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                     </list>
+                  </point>
+                  <point>
+                     <num>(3)</num>
+                     <alinea>
+                        <content>
+                           <p>Article 3 is replaced by the following:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <article xml:id="art_d89e840">
+                                       <num>&apos;Article 3</num>
+                                       <heading>Ecodesign requirements</heading>
+                                       <paragraph>
+                                          <content>
+                                             <p>The ecodesign requirements for computers are set out in Annex II.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <content>
+                                             <p>Compliance of computers with the applicable ecodesign requirements shall be measured in accordance with the methods set out in Annex III.&apos;;</p>
+                                          </content>
+                                       </paragraph>
+                                    </article>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(4)</num>
+                     <alinea>
+                        <content>
+                           <p>in Article 7, the second paragraph is replaced by the following:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <paragraph>
+                                       <content>
+                                          <p>&apos;Checking of computers for compliance with the applicable ecodesign requirements shall be carried out in accordance with the verification procedure set out in point 2 of Annex III to this Regulation.&apos;;</p>
+                                       </content>
+                                    </paragraph>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(5)</num>
+                     <alinea>
+                        <content>
+                           <p>Annex II is amended as follows:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <content>
+                              <p>point 5.2 is deleted;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <alinea>
+                              <content>
+                                 <p>the title of point 7.3 is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <alinea>
+                                             <content>
+                                                <p>&apos;Workstation, mobile workstation, desktop thin client and small-scale server&apos;.</p>
+                                             </content>
+                                          </alinea>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                     </list>
+                  </point>
+               </list>
+            </paragraph>
+         </article>
+         <article xml:id="art_d89e893">
+            <num>Article 10</num>
+            <heading>Entry into force</heading>
+            <paragraph>
+               <content>
+                  <p>This Regulation shall enter into force on the twentieth day following that of its publication in the <i>Official Journal of the European Union</i>.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <content>
+                  <p>However, Article 9 shall apply from 1 March 2020.</p>
+               </content>
+            </paragraph>
+         </article>
+         <clause>
+            <content>
+               <p>This Regulation shall be binding in its entirety and directly applicable in all Member States.</p>
+            </content>
+         </clause>
+      </body>
+      <conclusions>
+         <p>Done at Brussels, 15 March 2019.</p>
+         <block name="signatory">
+            <signature>
+               <organization refersTo="">For the Commission</organization>
+               <role refersTo="">The President</role>
+               <person refersTo="">Jean-Claude JUNCKER</person>
+            </signature>
+         </block>
+      </conclusions>
+   </bill>
+</akomaNtoso>

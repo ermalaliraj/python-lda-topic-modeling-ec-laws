@@ -1,0 +1,1155 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"
+            xmlns:fmx="http://formex.publications.europa.eu/schema/formex-05.21-20110601.xd"
+            xmlns:leos="urn:eu:europa:ec:leos"
+            xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <bill name="">
+      <meta xmlns:fn="http://www.w3.org/2005/xpath-functions">
+         <identification source="~COM">
+            <FRBRWork>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRcountry value=""/>
+            </FRBRWork>
+            <FRBRExpression>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+            </FRBRManifestation>
+         </identification>
+      </meta>
+      <preface>
+         <longTitle>
+            <p>
+               <docStage/>
+               <docType>COUNCIL REGULATION (Euratom) 2018/1563</docType>of 15 October 2018<docPurpose>on the Research and Training Programme of the European Atomic Energy Community (2019&#45;2020) complementing the Horizon 2020 Framework Programme for Research and Innovation, and repealing Regulation (Euratom) No 1314/2013</docPurpose>
+            </p>
+         </longTitle>
+      </preface>
+      <preamble>
+         <formula name="actingEntity">
+            <p>THE COUNCIL OF THE EUROPEAN UNION,</p>
+         </formula>
+         <citations>
+            <citation>
+               <p>Having regard to the Treaty establishing the European Atomic Energy Community, and in particular the first paragraph of Article 7 thereof,</p>
+            </citation>
+            <citation>
+               <p>Having regard to the proposal from the European Commission,</p>
+            </citation>
+            <citation>
+               <p>Having regard to the opinion of the European Economic and Social Committee,<authorialNote placement="bottom" marker="1">
+                     <p>Opinion of 6 July 2018 (OJ C 237, 6.7.2018, p. 38).</p>
+                  </authorialNote>
+               </p>
+            </citation>
+            <citation>
+               <p>After consulting the Scientific and Technical Committee,</p>
+            </citation>
+         </citations>
+         <recitals xml:id="recs_d379e72">
+            <intro>
+               <p>Whereas:</p>
+            </intro>
+            <recital xml:id="rec_d379e75">
+               <num>(1)</num>
+               <p>One of the aims of the European Atomic Energy Community (the &apos;Community&apos;) is to contribute to the raising of the standard of living in the Member States, including by promoting and facilitating nuclear research in the Member States and complementing it by carrying out a Community research and training programme.</p>
+            </recital>
+            <recital xml:id="rec_d379e85">
+               <num>(2)</num>
+               <p>Nuclear research can contribute to social and economic prosperity and environmental sustainability by improving nuclear safety, security and radiation protection. Equally important is the potential contribution of nuclear research to the long-term decarbonisation of the energy system in a safe, efficient and secure way.</p>
+            </recital>
+            <recital xml:id="rec_d379e91">
+               <num>(3)</num>
+               <p>The interim evaluation of the 2014&#45;2018 Research and Training Programme of the Community established by Council Regulation (Euratom) No 1314/2013<authorialNote placement="bottom" marker="2">
+                     <p>Council Regulation (Euratom) No 1314/2013 of 16 December 2013 on the Research and Training Programme of the European Atomic Energy Community (2014&#45;2018) complementing the Horizon 2020 Framework Programme for Research and Innovation (OJ L 347, 20.12.2013, p. 948).</p>
+                  </authorialNote> (the &apos;2014&#45;2018 Programme&apos;) concluded that the action is relevant and continues to be instrumental in addressing challenges in nuclear safety, security and safeguards, radioactive waste management, radiation protection and fusion energy.</p>
+            </recital>
+            <recital xml:id="rec_d379e111">
+               <num>(4)</num>
+               <p>In order to ensure continuity of nuclear research at Community level, it is necessary to establish the Research and Training Programme of the Community for the period from 1 January 2019 to 31 December 2020 (the &apos;2019&#45;2020 Programme&apos;). The 2019&#45;2020 Programme should have the same objectives as the 2014&#45;2018 Programme, support the same activities and use the same mode of implementation, which proved to be efficient and appropriate for the purpose of achieving the 2014&#45;2018 Programme&apos;s objectives.</p>
+            </recital>
+            <recital xml:id="rec_d379e127">
+               <num>(5)</num>
+               <p>By supporting nuclear research, the 2019&#45;2020 Programme will contribute to achieving the objectives of the Horizon 2020 Framework Programme for Research and Innovation (the &apos;Horizon 2020 Framework Programme&apos;) established by Regulation (EU) No 1291/2013 of the European Parliament and of the Council<authorialNote placement="bottom" marker="3">
+                     <p>Regulation (EU) No 1291/2013 of the European Parliament and of the Council of 11 December 2013 establishing Horizon 2020 &#45; the Framework Programme for Research and Innovation (2014-2020) and repealing Decision No 1982/2006/EC (OJ L 347, 20.12.2013, p. 104).</p>
+                  </authorialNote> and will facilitate implementation of the Europe 2020 strategy and the creation and operation of the European Research Area.</p>
+            </recital>
+            <recital xml:id="rec_d379e148">
+               <num>(6)</num>
+               <p>Notwithstanding the potential impact of nuclear energy on energy supply and economic development, severe nuclear accidents could endanger human health. Therefore, nuclear safety and, where appropriate, security aspects dealt with by the Joint Research Centre (the &apos;JRC&apos;) should be given the greatest possible attention in the 2019&#45;2020 Programme.</p>
+            </recital>
+            <recital xml:id="rec_d379e158">
+               <num>(7)</num>
+               <p>The European Strategic Energy Technology Plan (the &apos;SET Plan&apos;), set out in the conclusions of the Council meeting in Brussels on 28 February 2008, is accelerating the development of a portfolio of low-carbon technologies. The European Council agreed at its meeting on 4 February 2011 that the Union and its Member States would promote investment in renewables and safe and sustainable low-carbon technologies and would focus on implementing the technology priorities established in the SET Plan. Each Member State remains free to choose the types of technology that it would support.</p>
+            </recital>
+            <recital xml:id="rec_d379e174">
+               <num>(8)</num>
+               <p>As all Member States have nuclear installations or make use of radioactive materials, in particular for medical purposes, the Council recognised in the conclusions of its meeting in Brussels on 1 and 2 December 2008 the continuing need for skills in the nuclear field, in particular through appropriate education and training linked with research and coordinated at Community level.</p>
+            </recital>
+            <recital xml:id="rec_d379e186">
+               <num>(9)</num>
+               <p>While it is for each Member State to choose whether or not to make use of nuclear power, it is also acknowledged that nuclear energy plays different roles in different Member States.</p>
+            </recital>
+            <recital xml:id="rec_d379e193">
+               <num>(10)</num>
+               <p>By signing the Agreement on the Establishment of the ITER International Fusion Energy Organization for the Joint Implementation of the ITER Project<authorialNote placement="bottom" marker="4">
+                     <p>OJ L 358, 16.12.2006, p. 62.</p>
+                  </authorialNote>, the Community has undertaken to participate in the construction of the ITER Project (&apos;ITER&apos;) and its future exploitation. The Community contribution is managed through the European Joint Undertaking for ITER and the Development of Fusion Energy (Fusion for Energy), established by Council Decision 2007/198/Euratom<authorialNote placement="bottom" marker="5">
+                     <p>Council Decision 2007/198/Euratom of 27 March 2007 establishing the European Joint Undertaking for ITER and the Development of Fusion Energy and conferring advantages upon it (OJ L 90, 30.3.2007, p. 58).</p>
+                  </authorialNote>.</p>
+            </recital>
+            <recital xml:id="rec_d379e219">
+               <num>(11)</num>
+               <p>For fusion to become a credible option for commercial energy production, it is, firstly, necessary to successfully complete the construction of ITER in a timely manner and to start its operation. Secondly, it is necessary to establish an ambitious yet realistic roadmap for the production of electricity by 2050. Reaching those goals requires the European fusion programme to be directed towards a joint programme of activities implementing that roadmap. In order to secure the achievements of ongoing fusion research activities, as well as the long-term commitment of, and collaboration between, the fusion stakeholders, continuity of the Community&apos;s support should be ensured. A stronger focus should be placed primarily on the activities in support of ITER but also on the developments towards the demonstration reactor, including the stronger involvement of the private sector where appropriate. Such rationalisation and refocusing should be achieved without jeopardising the European leadership of the fusion scientific community.</p>
+            </recital>
+            <recital xml:id="rec_d379e225">
+               <num>(12)</num>
+               <p>The JRC should continue to provide independent customer-driven scientific and technological support for the formulation, development, implementation and monitoring of Community policies, in particular in the field of nuclear safety and security research and training. To optimise human resources and ensure that there is no duplication of research in the Union, any new activity carried out by the JRC should be analysed to check its consistency with existing activities in the Member States. The security aspects of the Horizon 2020 Framework Programme should be limited to the direct actions of the JRC.</p>
+            </recital>
+            <recital xml:id="rec_d379e231">
+               <num>(13)</num>
+               <p>The JRC should continue to generate additional resources through competitive activities, including participation in indirect actions of the 2019&#45;2020 Programme, third-party work and, to a lesser extent, the exploitation of intellectual property.</p>
+            </recital>
+            <recital xml:id="rec_d379e237">
+               <num>(14)</num>
+               <p>In the interest of all its Member States, the role of the Union is to develop a framework to support joint cutting-edge research, knowledge creation and knowledge preservation on nuclear fission technologies, with special emphasis on safety, security, radiation protection and non-proliferation. That requires independent scientific evidence, to which the JRC can make a key contribution. That has been recognised in the Communication from the Commission to the European Parliament, the Council, the European Economic and Social Committee and the Committee of the Regions, dated 6 October 2010, entitled &apos;Europe 2020 Flagship Initiative Innovation Union&apos;, in which the Commission stated its intention to strengthen scientific evidence for policy-making through the JRC. The JRC proposes to respond to that challenge by focusing its nuclear safety and security research on the Union&apos;s policy priorities.</p>
+            </recital>
+            <recital xml:id="rec_d379e251">
+               <num>(15)</num>
+               <p>With the aim of deepening the relationship between science and society and reinforcing public confidence in science, the 2019&#45;2020 Programme should favour the informed engagement of citizens and civil society on research and innovation matters by promoting science education, making scientific knowledge more accessible, developing responsible research and innovation agendas that meet the concerns and expectations of citizens and civil society, and facilitating their participation in activities under the 2019&#45;2020 Programme.</p>
+            </recital>
+            <recital xml:id="rec_d379e257">
+               <num>(16)</num>
+               <p>The implementation of the 2019&#45;2020 Programme should respond to the evolving opportunities and needs relating to science and technology, industry, policies and society. The agendas should therefore be set in close liaison with stakeholders from all sectors concerned, and sufficient flexibility should be allowed for new developments. External advice might be sought during the 2019&#45;2020 Programme, also making use of relevant structures such as European technology platforms.</p>
+            </recital>
+            <recital xml:id="rec_d379e263">
+               <num>(17)</num>
+               <p>The need to continue nuclear research at European level was recognised in the outcomes of the debates that took place at the Symposium on the benefits and limitations of nuclear fission research for a low-carbon economy prepared by an interdisciplinary study involving, among others, experts from the fields of energy, economics and social sciences, and co-organised by the Commission and the European Economic and Social Committee in Brussels on 26 and 27 February 2013.</p>
+            </recital>
+            <recital xml:id="rec_d379e275">
+               <num>(18)</num>
+               <p>The 2019&#45;2020 Programme should contribute to the attractiveness of the research profession in the Union. Adequate attention should be paid to the Commission Recommendation of 11 March 2005 on the European Charter for Researchers and on a Code of Conduct for the Recruitment of Researchers<authorialNote placement="bottom" marker="6">
+                     <p>OJ L 75, 22.3.2005, p. 67.</p>
+                  </authorialNote>, together with other relevant reference frameworks defined in the context of the European Research Area, while respecting their voluntary nature.</p>
+            </recital>
+            <recital xml:id="rec_d379e290">
+               <num>(19)</num>
+               <p>The activities developed under the 2019&#45;2020 Programme should aim to promote equality between women and men in research and innovation, by addressing in particular the underlying causes of gender imbalance, exploiting the full potential of both female and male researchers, and integrating the gender dimension into the content of projects in order to improve the quality of research and stimulate innovation. Activities should also aim at the implementation of the principles relating to equality between women and men as laid down in Articles 2 and 3 of the Treaty on European Union and Article 8 of the Treaty on the Functioning of the European Union (TFEU).</p>
+            </recital>
+            <recital xml:id="rec_d379e297">
+               <num>(20)</num>
+               <p>Research and innovation activities supported by the 2019&#45;2020 Programme should respect fundamental ethical principles. The opinions on energy matters of the European Group on Ethics in Science and New Technologies should be taken into account where appropriate. Research activities should also take into account Article 13 of the TFEU and reduce the use of animals in research and testing, with a view to ultimately replacing animal use. All activities should be carried out ensuring a high level of human health protection.</p>
+            </recital>
+            <recital xml:id="rec_d379e303">
+               <num>(21)</num>
+               <p>A greater impact should also be achieved by combining the 2019&#45;2020 Programme and private-sector funds within public-private partnerships in key areas where research and innovation could contribute to the Union&apos;s wider competitiveness goals. Particular attention should be given to the involvement of small and medium-sized enterprises.</p>
+            </recital>
+            <recital xml:id="rec_d379e309">
+               <num>(22)</num>
+               <p>The 2019&#45;2020 Programme should promote cooperation, in particular in the field of safety, with third countries based on common interest and mutual benefit, in particular to promote continuous improvement of nuclear safety.</p>
+            </recital>
+            <recital xml:id="rec_d379e315">
+               <num>(23)</num>
+               <p>In order to maintain a level playing field for all undertakings that are active in the internal market, funding provided by the 2019&#45;2020 Programme should be designed in accordance with state-aid rules so as to ensure the effectiveness of public spending and to prevent market distortions such as the crowding-out of private funding, the creation of ineffective market structures or the preservation of inefficient firms.</p>
+            </recital>
+            <recital xml:id="rec_d379e321">
+               <num>(24)</num>
+               <p>The need for a new approach to control and risk management in Union research funding was recognised by the European Council in its conclusions of 4 February 2011, which called for a new balance between trust and control and between risk-taking and risk avoidance. The European Parliament, in its resolution of 11 November 2010 on simplifying the implementation of the Research Framework Programmes<authorialNote placement="bottom" marker="7">
+                     <p>OJ C 74E, 13.3.2012, p. 34.</p>
+                  </authorialNote>, called for a pragmatic shift towards administrative and financial simplification and stated that the management of Union research funding should be more trust-based and risk-tolerant towards participants.</p>
+            </recital>
+            <recital xml:id="rec_d379e339">
+               <num>(25)</num>
+               <p>The financial interests of the Union should be protected through proportionate measures throughout the expenditure cycle, including the prevention, detection and investigation of irregularities, the recovery of funds lost, wrongly paid or incorrectly used and, where appropriate, penalties. A revised control strategy, shifting focus from minimisation of error rates towards risk-based control and fraud detection, should reduce the control burden for participants.</p>
+            </recital>
+            <recital xml:id="rec_d379e345">
+               <num>(26)</num>
+               <p>It is important to ensure sound financial management of the 2019&#45;2020 Programme and its implementation in the most effective and user-friendly manner possible, while also ensuring legal certainty and the accessibility of the 2019&#45;2020 Programme to all participants. It is necessary to ensure compliance with the relevant provisions of Regulation (EU, Euratom) 2018/1046 of the European Parliament and of the Council (the &apos;Financial Regulation&apos;)<authorialNote placement="bottom" marker="8">
+                     <p>Regulation (EU, Euratom) 2018/1046 of the European Parliament and of the Council of 18 July 2018 on the financial rules applicable to the general budget of the Union, amending Regulations (EU) No 1296/2013, (EU) No 1301/2013, (EU) No 1303/2013, (EU) No 1304/2013, (EU) No 1309/2013, (EU) No 1316/2013, (EU) No 223/2014, (EU) No 283/2014, and Decision No 541/2014/EU and repealing Regulation (EU, Euratom) No 966/2012 (OJ L 193, 30.7.2018, p. 1).</p>
+                  </authorialNote> and with the requirements of simplification and better regulation.</p>
+            </recital>
+            <recital xml:id="rec_d379e365">
+               <num>(27)</num>
+               <p>To ensure the most efficient implementation possible and easy access for all participants through simplified procedures, and to achieve a coherent, comprehensive and transparent framework for participants, participation in the 2019&#45;2020 Programme and the dissemination of research results should be subject to the rules applicable to the Horizon 2020 Framework Programme, as set out in Regulation (EU) No 1291/2013 with certain adaptations or exceptions.</p>
+            </recital>
+            <recital xml:id="rec_d379e371">
+               <num>(28)</num>
+               <p>In order to allow for the most effective use of the debt and equity financial instruments set up under the Horizon 2020 Framework Programme, while preserving the distinct nature of actions under the 2019&#45;2020 Programme and making full use of the available budget, repayments resulting from any of those financial instruments due to the non-utilisation of funds made available under the 2019&#45;2020 Programme or the 2014&#45;2018 Programme should directly benefit the 2019&#45;2020 Programme.</p>
+            </recital>
+            <recital xml:id="rec_d379e377">
+               <num>(29)</num>
+               <p>It is important to continue to facilitate the exploitation of intellectual property developed by participants, while protecting the legitimate interests of other participants and the Community in accordance with Chapter 2 of the Treaty establishing the European Atomic Energy Community (&apos;the Euratom Treaty&apos;).</p>
+            </recital>
+            <recital xml:id="rec_d379e388">
+               <num>(30)</num>
+               <p>The participant guarantee funds, managed by the Commission and established pursuant to Council Regulation (Euratom) No 1908/2006<authorialNote placement="bottom" marker="9">
+                     <p>Council Regulation (Euratom) No 1908/2006 of 19 December 2006 laying down the rules for the participation of undertakings, research centres and universities in action under the Seventh Framework Programme of the European Atomic Energy Community and for the dissemination of research results (2007 to 2011) (OJ L 400, 30.12.2006, p. 1).</p>
+                  </authorialNote> and Council Regulation (Euratom) No 139/2012<authorialNote placement="bottom" marker="10">
+                     <p>Council Regulation (Euratom) No 139/2012 of 19 December 2011 laying down the rules for the participation of undertakings, research centres and universities in indirect actions under the Framework Programme of the European Atomic Energy Community and for the dissemination of research results (2012-2013) (OJ L 47, 18.2.2012, p. 1).</p>
+                  </authorialNote>, have proved to be an important safeguard mechanism which mitigates the risks associated with the amounts due and not reimbursed by defaulting participants. The participant guarantee fund established pursuant to Regulation (EU) No 1290/2013 of the European Parliament and of the Council<authorialNote placement="bottom" marker="11">
+                     <p>Regulation (EU) No 1290/2013 of the European Parliament and of the Council of 11 December 2013 laying down the rules for participation and dissemination in &apos;Horizon 2020 &#45; the Framework Programme for Research and Innovation (2014-2020)&apos; and repealing Regulation (EC) No 1906/2006 (OJ L 347, 20.12.2013, p. 81).</p>
+                  </authorialNote> should also cover actions under this Regulation.</p>
+            </recital>
+            <recital xml:id="rec_d379e428">
+               <num>(31)</num>
+               <p>In order to ensure uniform conditions for the implementation of the indirect actions under the 2019&#45;2020 Programme, implementing powers should be conferred on the Commission to adopt work programmes and the decision on the approval of the funding of indirect actions. Those implementing powers should be exercised in accordance with Regulation (EU) No 182/2011 of the European Parliament and of the Council<authorialNote placement="bottom" marker="12">
+                     <p>Regulation (EU) No 182/2011 of the European Parliament and of the Council of 16 February 2011 laying down the rules and general principles concerning mechanisms for control by the Member States of the Commission&apos;s exercise of implementing powers (OJ L 55, 28.2.2011, p. 13).</p>
+                  </authorialNote>.</p>
+            </recital>
+            <recital xml:id="rec_d379e444">
+               <num>(32)</num>
+               <p>Achieving the objectives of the 2019&#45;2020 Programme in relevant areas requires support for cross-cutting activities, both within the 2019&#45;2020 Programme and jointly with the activities of the Horizon 2020 Framework Programme.</p>
+            </recital>
+            <recital xml:id="rec_d379e450">
+               <num>(33)</num>
+               <p>Effective performance management, including evaluation and monitoring, requires the development of specific performance indicators that can be measured over time, are realistic, reflect the logic of the intervention and are relevant to the appropriate hierarchy of objectives and activities. Appropriate coordination mechanisms should be put in place between the implementation and monitoring of the 2019&#45;2020 Programme, on the one hand, and the monitoring of the progress, achievements and functioning of the European Research Area, on the other.</p>
+            </recital>
+            <recital xml:id="rec_d379e458">
+               <num>(34)</num>
+               <p>The Board of Governors of the JRC, set up by Commission Decision 96/282/Euratom<authorialNote placement="bottom" marker="13">
+                     <p>Commission Decision 96/282/Euratom of 10 April 1996 on the reorganization of the Joint Research Centre (OJ L 107, 30.4.1996, p. 12).</p>
+                  </authorialNote>, has been consulted on the scientific and technological content of the direct actions of the JRC.</p>
+            </recital>
+            <recital xml:id="rec_d379e474">
+               <num>(35)</num>
+               <p>For reasons of legal certainty, Regulation (Euratom) No 1314/2013 should be repealed.</p>
+            </recital>
+            <recital xml:id="rec_d379e480">
+               <num>(36)</num>
+               <p>The European Parliament has been consulted on a voluntary basis and has delivered an opinion<authorialNote placement="bottom" marker="14">
+                     <p>Opinion of 11 September 2018 (not yet published in the Official Journal).</p>
+                  </authorialNote>,</p>
+            </recital>
+         </recitals>
+         <formula name="enactingFormula">
+            <p>HAS ADOPTED THIS REGULATION:</p>
+         </formula>
+      </preamble>
+      <body>
+         <title>
+            <num>TITLE I</num>
+            <heading>ESTABLISHMENT</heading>
+            <article xml:id="art_d379e505">
+               <num>Article 1</num>
+               <heading>Establishment</heading>
+               <paragraph>
+                  <content>
+                     <p>This Regulation establishes the Research and Training Programme of the European Atomic Energy Community for the period from 1 January 2019 to 31 December 2020 (the &apos;2019&#45;2020 Programme&apos;), and lays down the rules for participation in that Programme, including participation in programmes of funding bodies managing the funds granted in accordance with this Regulation and in activities conducted jointly under this Regulation and under the Horizon 2020 Framework Programme for Research and Innovation (the &apos;Horizon 2020 Framework Programme&apos;) established by Regulation (EU) No 1291/2013.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d379e527">
+               <num>Article 2</num>
+               <heading>Definitions</heading>
+               <paragraph>
+                  <subparagraph>
+                     <content>
+                        <p>For the purposes of this Regulation, the following definitions apply:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(a)</num>
+                        <content>
+                           <p>&apos;research and innovation activities&apos; means the whole spectrum of activities of research, technological development, demonstration and innovation, including the promotion of cooperation with third countries and international organisations, dissemination and optimisation of results and stimulation of the training and mobility of researchers in the European Atomic Energy Community (the &apos;Community&apos;);</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(b)</num>
+                        <content>
+                           <p>&apos;direct actions&apos; means research and innovation activities undertaken by the Commission through its Joint Research Centre (the &apos;JRC&apos;);</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(c)</num>
+                        <content>
+                           <p>&apos;indirect actions&apos; means research and innovation activities to which the Community or the Union (the &apos;Union&apos;) provides financial support and which are undertaken by participants;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(d)</num>
+                        <content>
+                           <p>&apos;public-private partnership&apos; means a partnership where private-sector partners, the Community and, where appropriate, other partners, such as public-sector bodies, commit to jointly support the development and implementation of a research and innovation programme or research and innovation activities;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(e)</num>
+                        <content>
+                           <p>&apos;public-public partnership&apos; means a partnership where public-sector bodies or bodies with a public-service mission at local, regional, national or international level commit with the Community to jointly support the development and implementation of a research and innovation programme or research and innovation activities.</p>
+                        </content>
+                     </point>
+                  </list>
+               </paragraph>
+            </article>
+            <article xml:id="art_d379e593">
+               <num>Article 3</num>
+               <heading>Objectives</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>The general objective of the 2019&#45;2020 Programme is to pursue nuclear research and training activities with an emphasis on the continuous improvement of nuclear safety, security and radiation protection, in particular to potentially contribute to the long-term decarbonisation of the energy system in a safe, efficient and secure way. The general objective shall be implemented through the activities specified in Annex I in the form of direct and indirect actions which pursue the specific objectives set out in paragraphs 2 and 3 of this Article.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <subparagraph>
+                     <content>
+                        <p>The 2019&#45;2020 Programme indirect actions shall have the following specific objectives:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(a)</num>
+                        <content>
+                           <p>supporting the safety of nuclear systems;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(b)</num>
+                        <content>
+                           <p>contributing to the development of safe, longer-term solutions for the management of ultimate nuclear waste, including final geological disposal as well as partitioning and transmutation;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(c)</num>
+                        <content>
+                           <p>supporting the development and sustainability of nuclear expertise and excellence in the Union;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(d)</num>
+                        <content>
+                           <p>supporting radiation protection and the development of medical applications of radiation, including, inter alia, the secure and safe supply and use of radioisotopes;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(e)</num>
+                        <content>
+                           <p>moving towards demonstrating the feasibility of fusion as a power source by exploiting existing and future fusion facilities;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(f)</num>
+                        <content>
+                           <p>laying the foundations for future fusion power plants by developing materials, technologies and conceptual design;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(g)</num>
+                        <content>
+                           <p>promoting innovation and industrial competitiveness;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(h)</num>
+                        <content>
+                           <p>ensuring the availability and use of research infrastructures of pan-European relevance.</p>
+                        </content>
+                     </point>
+                  </list>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <subparagraph>
+                     <content>
+                        <p>The 2019&#45;2020 Programme direct actions shall have the following specific objectives:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(a)</num>
+                        <content>
+                           <p>improving nuclear safety, including: nuclear reactor and fuel safety, waste management, including final geological disposal as well as partitioning and transmutation; decommissioning, and emergency preparedness;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(b)</num>
+                        <content>
+                           <p>improving nuclear security, including: nuclear safeguards, non-proliferation, combating illicit trafficking, and nuclear forensics;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(c)</num>
+                        <content>
+                           <p>increasing excellence in the nuclear science base for standardisation;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(d)</num>
+                        <content>
+                           <p>fostering knowledge management, education and training;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(e)</num>
+                        <content>
+                           <p>supporting the policy of the Union on nuclear safety and security.</p>
+                        </content>
+                     </point>
+                  </list>
+                  <subparagraph>
+                     <content>
+                        <p>Any new activity assigned to the JRC shall be analysed by the Board of Governors of the JRC to check its consistency with existing activities in the Member States.</p>
+                     </content>
+                  </subparagraph>
+               </paragraph>
+               <paragraph>
+                  <num>4.</num>
+                  <content>
+                     <p>The 2019&#45;2020 Programme shall be implemented in such a way as to ensure that the priorities and activities supported are relevant to changing needs and take account of the evolving nature of science, technology, innovation, policy-making, markets and society, with the aim of optimizing human and financial resources, and to avoid duplication on nuclear research and development in the Union.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>5.</num>
+                  <content>
+                     <p>Within the specific objectives referred to in paragraphs 2 and 3, account may be taken of new and unforeseen needs that arise during the period of implementation of the 2019&#45;2020 Programme. This may, if duly justified, include responses to emerging opportunities, crises and threats, to needs relating to the development of new Union policies, and to the piloting of actions foreseen for support under future programmes.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d379e708">
+               <num>Article 4</num>
+               <heading>Budget</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <subparagraph>
+                     <content>
+                        <p>The financial envelope for the implementation of the 2019&#45;2020 Programme shall be EUR 770220000. That amount shall be distributed as follows:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(a)</num>
+                        <content>
+                           <p>for indirect actions for the fusion research and development programme, EUR 349834000;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(b)</num>
+                        <content>
+                           <p>for indirect actions for nuclear fission, safety and radiation protection, EUR 151579000;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(c)</num>
+                        <content>
+                           <p>for direct actions, EUR 268807000.</p>
+                        </content>
+                     </point>
+                  </list>
+                  <subparagraph>
+                     <content>
+                        <p>For the implementation of indirect actions of the 2019&#45;2020 Programme, the Commission&apos;s administrative expenditure shall account on average for no more than 6 % of the combined total of the amounts set out in points (a) and (b) of the first subparagraph during the duration of the 2019&#45;2020 Programme.</p>
+                     </content>
+                  </subparagraph>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>The financial envelope of the 2019&#45;2020 Programme may cover expenses pertaining to preparatory, monitoring, control, audit and evaluation activities which are required for the management of that Programme and the achievement of its objectives, in particular studies and meetings of experts, in so far as they relate to the general objectives of this Regulation, and expenses linked to information technology networks focusing on information processing and exchange, together with all other technical and administrative assistance expenses incurred by the Commission for the management of the 2019&#45;2020 Programme. The expenses for continuous and repetitive actions such as control, audit and IT networks will be covered within the limits of the Commission&apos;s administrative expenditure specified in paragraph 1.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <content>
+                     <p>Where necessary and duly justified, appropriations may be entered in the budget beyond 2020 to cover technical and administrative assistance expenses, in order to enable the management of actions not yet completed by 31 December 2020.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>4.</num>
+                  <content>
+                     <p>Where the direct actions contribute to initiatives established by entities entrusted by the Commission with implementation tasks in accordance with Article 6(2) and Article 15, that contribution shall not be considered as part of the financial contribution allocated to those initiatives.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>5.</num>
+                  <content>
+                     <p>Budgetary commitments may be divided into annual instalments. Each year the Commission shall commit the annual instalments taking into account the progress of the actions receiving financial support, the estimated needs and the budget available.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d379e777">
+               <num>Article 5</num>
+               <heading>Association of third countries</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <subparagraph>
+                     <content>
+                        <p>The 2019&#45;2020 Programme shall be open to the association of:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(a)</num>
+                        <content>
+                           <p>acceding countries, candidate countries and potential candidates, in accordance with the general principles and general terms and conditions for the participation of those countries in Union programmes established in the respective framework agreements and decisions of association councils or similar agreements;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(b)</num>
+                        <alinea>
+                           <content>
+                              <p>European Free Trade Association (EFTA) members, or countries or territories covered by the European Neighbourhood Policy, that fulfil all of the following criteria:</p>
+                           </content>
+                        </alinea>
+                        <list>
+                           <point>
+                              <num>(i)</num>
+                              <content>
+                                 <p>a good capacity in science, technology and innovation;</p>
+                              </content>
+                           </point>
+                           <point>
+                              <num>(ii)</num>
+                              <content>
+                                 <p>a good track record of participation in Union research and innovation programmes;</p>
+                              </content>
+                           </point>
+                           <point>
+                              <num>(iii)</num>
+                              <content>
+                                 <p>fair and equitable dealing with intellectual property rights;</p>
+                              </content>
+                           </point>
+                        </list>
+                     </point>
+                     <point>
+                        <num>(c)</num>
+                        <content>
+                           <p>countries or territories associated with the Seventh Euratom Framework Programme or the Euratom Research and Training Programme 2014&#45;2018.</p>
+                        </content>
+                     </point>
+                  </list>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>Specific terms and conditions regarding the participation of associated countries in the 2019&#45;2020 Programme, including the financial contribution, based on the gross domestic product of the associated country, shall be determined by international agreements between the Union and the associated countries.</p>
+                  </content>
+               </paragraph>
+            </article>
+         </title>
+         <title>
+            <num>TITLE II</num>
+            <heading>IMPLEMENTATION</heading>
+            <chapter>
+               <num>CHAPTER I</num>
+               <heading>Implementation, management and forms of support</heading>
+               <article xml:id="art_d379e852">
+                  <num>Article 6</num>
+                  <heading>Management and forms of Community support</heading>
+                  <paragraph>
+                     <num>1.</num>
+                     <content>
+                        <p>The 2019&#45;2020 Programme shall be implemented through indirect actions using one or several of the forms of funding provided for by the Financial Regulation, in particular grants, prizes, procurement and financial instruments. The Community support shall also consist of direct actions in the form of research and innovation activities undertaken by the JRC.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>2.</num>
+                     <subparagraph>
+                        <content>
+                           <p>Without prejudice to Article 10 of the Euratom Treaty, the Commission may entrust part of the implementation of the 2019&#45;2020 Programme to the funding bodies referred to in point (c) of Article 62(1) of the Financial Regulation.</p>
+                        </content>
+                     </subparagraph>
+                     <subparagraph>
+                        <content>
+                           <p>The Commission may also entrust the implementation of indirect actions under the 2019&#45;2020 Programme to bodies created under, or referred to in, the Horizon 2020 Framework Programme.</p>
+                        </content>
+                     </subparagraph>
+                  </paragraph>
+                  <paragraph>
+                     <num>3.</num>
+                     <content>
+                        <p>The Commission shall adopt, by means of implementing acts, in accordance with the examination procedure referred to in Article 12(3), the decision on the approval of the funding of indirect actions.</p>
+                     </content>
+                  </paragraph>
+               </article>
+               <article xml:id="art_d379e875">
+                  <num>Article 7</num>
+                  <heading>Rules for participation and dissemination of research results</heading>
+                  <paragraph>
+                     <num>1.</num>
+                     <content>
+                        <p>Subject to paragraphs 2 and 3 of this Article, the participation of any legal entity in indirect actions undertaken under the 2019&#45;2020 Programme shall be governed by the rules laid down in Regulation (EU) No 1290/2013.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>2.</num>
+                     <subparagraph>
+                        <content>
+                           <p>For the purposes of the 2019&#45;2020 Programme, the &apos;security rules&apos; referred to in the first subparagraph of Article 43(2) of Regulation (EU) No 1290/2013 shall include the defence interests of the Member States within the meaning of Article 24 of the Euratom Treaty.</p>
+                        </content>
+                     </subparagraph>
+                     <subparagraph>
+                        <content>
+                           <p>By way of derogation from the first subparagraph of Article 44(3) of Regulation (EU) No 1290/2013, the Commission or the funding body may, with regard to results which are generated by participants having received Community financial contribution, object to transfers of ownership, or to grants of an exclusive or non-exclusive licence, to third parties established in a third country not associated with the 2019&#45;2020 Programme where it considers that the transfer or grant is not in accordance with the interest of developing the competitiveness of the Union economy or is inconsistent with ethical principles or security considerations. &apos;Security considerations&apos; shall include the defence interests of the Member States within the meaning of Article 24 of the Euratom Treaty.</p>
+                        </content>
+                     </subparagraph>
+                     <subparagraph>
+                        <content>
+                           <p>By way of derogation from the first subparagraph of Article 49(1) of Regulation (EU) No 1290/2013, the Community and its joint undertakings shall, for the purpose of developing, implementing and monitoring Community policies and programmes or obligations assumed through international cooperation with third countries and international organisations, enjoy access rights to the results of a participant having received a Community financial contribution. Such access rights shall include the right to authorise third parties to use the results in public procurement and the right to sublicense, shall be limited to non-commercial and non-competitive use and shall be granted on a royalty-free basis.</p>
+                        </content>
+                     </subparagraph>
+                  </paragraph>
+                  <paragraph>
+                     <num>3.</num>
+                     <content>
+                        <p>The participant guarantee fund established pursuant to Regulation (EU) No 1290/2013 shall cover the risk associated with non-recovery of sums due by participants in actions financed through grants by the Commission or funding bodies under this Regulation.</p>
+                     </content>
+                  </paragraph>
+               </article>
+               <article xml:id="art_d379e907">
+                  <num>Article 8</num>
+                  <heading>Cross-cutting activities</heading>
+                  <paragraph>
+                     <num>1.</num>
+                     <content>
+                        <p>In order to achieve the objectives of the 2019&#45;2020 Programme and to address challenges common to the 2019&#45;2020 Programme and the Horizon 2020 Framework Programme, activities cutting across the indirect actions set out in Annex I and the indirect actions implementing the Specific Programme of the Horizon 2020 Framework Programme, as established by Council Decision 2013/743/EU<authorialNote placement="bottom" marker="15">
+                              <p>Council Decision 2013/743/EU of 3 December 2013 establishing the specific programme implementing Horizon 2020 &#45; the Framework Programme for Research and Innovation (2014-2020) and repealing Decisions 2006/971/EC, 2006/972/EC, 2006/973/EC, 2006/974/EC and 2006/975/EC (OJ L 347, 20.12.2013, p. 965).</p>
+                           </authorialNote>, may benefit from the Union financial contribution.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>2.</num>
+                     <content>
+                        <p>The financial contribution referred to in paragraph 1 of this Article may be combined from the financial contributions for indirect actions set out in Article 4 of this Regulation and in Article 6 of Regulation (EU) No 1291/2013, and implemented through a single funding scheme.</p>
+                     </content>
+                  </paragraph>
+               </article>
+               <article xml:id="art_d379e932">
+                  <num>Article 9</num>
+                  <heading>Gender equality</heading>
+                  <paragraph>
+                     <content>
+                        <p>The 2019&#45;2020 Programme shall ensure the effective promotion of gender equality and the gender dimension in research and innovation content.</p>
+                     </content>
+                  </paragraph>
+               </article>
+               <article xml:id="art_d379e939">
+                  <num>Article 10</num>
+                  <heading>Ethical principles</heading>
+                  <paragraph>
+                     <num>1.</num>
+                     <subparagraph>
+                        <content>
+                           <p>All the research and innovation activities carried out under the 2019&#45;2020 Programme shall comply with ethical principles and relevant national, Union and international legislation, including the Charter of Fundamental Rights of the European Union and the European Convention on Human Rights and its Supplementary Protocols.</p>
+                        </content>
+                     </subparagraph>
+                     <subparagraph>
+                        <content>
+                           <p>Particular attention shall be paid to the principle of proportionality, the right to privacy, the right to the protection of personal data, the right to the physical and mental integrity of a person, the right to non-discrimination and the need to ensure high levels of human health protection.</p>
+                        </content>
+                     </subparagraph>
+                  </paragraph>
+                  <paragraph>
+                     <num>2.</num>
+                     <content>
+                        <p>Research and innovation activities carried out under the 2019&#45;2020 Programme shall have an exclusive focus on civil applications.</p>
+                     </content>
+                  </paragraph>
+               </article>
+               <article xml:id="art_d379e957">
+                  <num>Article 11</num>
+                  <heading>Work programmes</heading>
+                  <paragraph>
+                     <num>1.</num>
+                     <subparagraph>
+                        <content>
+                           <p>The Commission shall adopt, by means of implementing acts, in accordance with the examination procedure referred to in Article 12(3), work programmes for the implementation of the indirect actions. Such work programmes shall allow for bottom-up approaches that address the objectives in innovative ways.</p>
+                        </content>
+                     </subparagraph>
+                     <subparagraph>
+                        <content>
+                           <p>The work programmes shall set out the essential elements for implementing the actions in accordance with the Financial Regulation, including their detailed objectives, the associated funding and a timetable, as well as a multiannual approach and strategic orientations for the following years of implementation.</p>
+                        </content>
+                     </subparagraph>
+                  </paragraph>
+                  <paragraph>
+                     <num>2.</num>
+                     <subparagraph>
+                        <content>
+                           <p>For direct actions, the Commission shall, in accordance with Decision 96/282/Euratom, draw up a multiannual work programme, setting out in greater detail the objectives and scientific and technological priorities presented in Annex I, and a timetable for implementation.</p>
+                        </content>
+                     </subparagraph>
+                     <subparagraph>
+                        <content>
+                           <p>The multiannual work programme referred to in the first subparagraph shall also take account of relevant research activities carried out by the Member States, associated countries and European and international organisations. It shall be updated as and when appropriate.</p>
+                        </content>
+                     </subparagraph>
+                  </paragraph>
+                  <paragraph>
+                     <num>3.</num>
+                     <content>
+                        <p>The work programmes referred to in paragraphs 1 and 2 shall take account of the state of science, technology and innovation at national, Union and international level and of relevant policy, market and societal developments. They shall be updated as and where appropriate.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>4.</num>
+                     <content>
+                        <p>The work programmes referred to in paragraphs 1 and 2 shall contain a section which identifies the cross-cutting activities referred to in Article 8.</p>
+                     </content>
+                  </paragraph>
+               </article>
+               <article xml:id="art_d379e986">
+                  <num>Article 12</num>
+                  <heading>Committee procedure</heading>
+                  <paragraph>
+                     <num>1.</num>
+                     <content>
+                        <p>The Commission shall be assisted by a Committee. That Committee shall be a committee within the meaning of Regulation (EU) No 182/2011.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>2.</num>
+                     <subparagraph>
+                        <content>
+                           <p>The Committee shall meet in two different configurations, dealing respectively with fission-related aspects and fusion-related aspects of the 2019&#45;2020 Programme.</p>
+                        </content>
+                     </subparagraph>
+                     <subparagraph>
+                        <content>
+                           <p>With a view to facilitating the implementation of the 2019&#45;2020 Programme, for each meeting of the Committee as defined in the agenda, the Commission shall reimburse, in accordance with its established guidelines, the expenses of one representative per Member State, as well as one expert/adviser per Member State for those agenda items where a Member State requires specific expertise.</p>
+                        </content>
+                     </subparagraph>
+                  </paragraph>
+                  <paragraph>
+                     <num>3.</num>
+                     <content>
+                        <p>Where reference is made to this paragraph, the examination procedure in accordance with Article 5 of Regulation (EU) No 182/2011 shall apply.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>4.</num>
+                     <content>
+                        <p>Where the opinion of the Committee is to be obtained by written procedure, that procedure shall be terminated without result when, within the time-limit for delivery of the opinion, the chair of the Committee so decides or a simple majority of Committee members so requests.</p>
+                     </content>
+                  </paragraph>
+               </article>
+               <article xml:id="art_d379e1013">
+                  <num>Article 13</num>
+                  <heading>Provision of information to the Committee</heading>
+                  <paragraph>
+                     <content>
+                        <p>The Commission shall regularly inform the Committee referred to in Article 12 of the overall progress made in implementing the 2019&#45;2020 Programme, and shall provide it with timely information on all indirect actions proposed or funded under the 2019&#45;2020 Programme.</p>
+                     </content>
+                  </paragraph>
+               </article>
+               <article xml:id="art_d379e1022">
+                  <num>Article 14</num>
+                  <heading>External advice and societal engagement</heading>
+                  <paragraph>
+                     <num>1.</num>
+                     <subparagraph>
+                        <content>
+                           <p>For the implementation of the 2019&#45;2020 Programme, account shall be taken of advice and inputs provided, where appropriate, by:</p>
+                        </content>
+                     </subparagraph>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <content>
+                              <p>the Euratom Scientific and Technical Committee pursuant to Article 134 of the Euratom Treaty;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <content>
+                              <p>independent advisory groups of high-level experts set up by the Commission;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(c)</num>
+                           <content>
+                              <p>dialogue structures created under international science and technology agreements;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(d)</num>
+                           <content>
+                              <p>forward-looking activities;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(e)</num>
+                           <content>
+                              <p>targeted public consultations (including, where appropriate, regional and national authorities or stakeholders); and</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(f)</num>
+                           <content>
+                              <p>transparent and interactive processes that ensure support for responsible research and innovation.</p>
+                           </content>
+                        </point>
+                     </list>
+                  </paragraph>
+                  <paragraph>
+                     <num>2.</num>
+                     <content>
+                        <p>Full account shall also be taken of the research and innovation agendas established by, inter alia, European technology platforms, joint programming initiatives and European innovation partnerships.</p>
+                     </content>
+                  </paragraph>
+               </article>
+            </chapter>
+            <chapter>
+               <num>CHAPTER II</num>
+               <heading>Specific fields of action</heading>
+               <article xml:id="art_d379e1086">
+                  <num>Article 15</num>
+                  <heading>Small and medium-sized enterprises</heading>
+                  <paragraph>
+                     <content>
+                        <p>Particular attention shall be paid to ensuring the adequate participation of, and innovation impact on, small and medium-sized enterprises (SMEs) and the private sector in general in the 2019&#45;2020 Programme. Quantitative and qualitative assessments of SME participation shall be undertaken as part of the evaluation and monitoring arrangements.</p>
+                     </content>
+                  </paragraph>
+               </article>
+               <article xml:id="art_d379e1093">
+                  <num>Article 16</num>
+                  <heading>Public-private and public-public partnerships</heading>
+                  <paragraph>
+                     <subparagraph>
+                        <content>
+                           <p>To attain the objectives set out in Article 3 of this Regulation, specific activities of the 2019&#45;2020 Programme may be implemented through:</p>
+                        </content>
+                     </subparagraph>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <content>
+                              <p>Joint Undertakings established on the basis of Chapter 5 of the Euratom Treaty;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <content>
+                              <p>public-public partnerships based on the &apos;Programme co-fund actions&apos; funding scheme;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(c)</num>
+                           <content>
+                              <p>contractual public-private partnerships, as referred to in Article 25 of Regulation (EU) No 1291/2013.</p>
+                           </content>
+                        </point>
+                     </list>
+                  </paragraph>
+               </article>
+               <article xml:id="art_d379e1124">
+                  <num>Article 17</num>
+                  <heading>International cooperation with third countries and international organisations</heading>
+                  <paragraph>
+                     <num>1.</num>
+                     <subparagraph>
+                        <content>
+                           <p>Entities established in third countries and international organisations shall be eligible to participate in indirect actions of the 2019&#45;2020 Programme under the conditions set out in Regulation (EU) No 1290/2013. Exceptions to the general principle in that regard are set out in Article 7 of this Regulation. International cooperation with third countries and international organisations shall be promoted by the 2019&#45;2020 Programme with a view to:</p>
+                        </content>
+                     </subparagraph>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <content>
+                              <p>strengthening the Union&apos;s excellence and attractiveness in research and innovation as well as its economic and industrial competitiveness;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <content>
+                              <p>effectively tackling common societal challenges;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(c)</num>
+                           <content>
+                              <p>supporting the Union&apos;s external and development policy objectives, complementing external and development programmes and seeking synergies with other Union policies.</p>
+                           </content>
+                        </point>
+                     </list>
+                  </paragraph>
+                  <paragraph>
+                     <num>2.</num>
+                     <subparagraph>
+                        <content>
+                           <p>Targeted actions with the objective of promoting cooperation with specific third countries or groups of third countries shall be implemented on the basis of a strategic approach as well as common interest, priorities and mutual benefit, taking into account their scientific and technological capabilities and market opportunities, and the expected impact.</p>
+                        </content>
+                     </subparagraph>
+                     <subparagraph>
+                        <content>
+                           <p>Reciprocal access to third-country programmes should be encouraged. In order to maximise impact, coordination and synergies with initiatives of Member States and associated countries shall be promoted. The nature of the cooperation may vary according to the specific partner countries.</p>
+                        </content>
+                     </subparagraph>
+                     <subparagraph>
+                        <content>
+                           <p>Cooperation priorities shall take into account developments in Union policy opportunities for cooperation with third countries, and the fair and equitable treatment of intellectual property rights.</p>
+                        </content>
+                     </subparagraph>
+                  </paragraph>
+               </article>
+               <article xml:id="art_d379e1164">
+                  <num>Article 18</num>
+                  <heading>Information, communication, exploitation and dissemination</heading>
+                  <paragraph>
+                     <num>1.</num>
+                     <content>
+                        <p>When implementing the 2019&#45;2020 Programme, communication and dissemination activities shall be considered an integral part of the actions supported by the 2019&#45;2020 Programme.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>2.</num>
+                     <subparagraph>
+                        <content>
+                           <p>The communication activities referred to in paragraph 1 may include:</p>
+                        </content>
+                     </subparagraph>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <content>
+                              <p>initiatives aimed at increasing awareness and facilitating access to funding under the 2019&#45;2020 Programme, in particular for those regions or types of participant that have a relatively low participation;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <content>
+                              <p>targeted assistance to projects and consortia to provide them with access to the necessary skills to optimise the communication, exploitation and dissemination of results;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(c)</num>
+                           <content>
+                              <p>initiatives to foster dialogue and debate on scientific, technological and innovation-related issues with the public, and to take advantage of social media and other innovative technologies and methodologies;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(d)</num>
+                           <content>
+                              <p>communication of the Union&apos;s political priorities, provided that they are related to the aims of this Regulation, in particular the provision by the Commission of timely and thorough information to Member States.</p>
+                           </content>
+                        </point>
+                     </list>
+                  </paragraph>
+                  <paragraph>
+                     <num>3.</num>
+                     <subparagraph>
+                        <content>
+                           <p>Subject to the Euratom Treaty and relevant Union legislation, the dissemination activities referred to in paragraph 1 may include:</p>
+                        </content>
+                     </subparagraph>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <content>
+                              <p>actions which bring together results from a range of projects, including those that may be funded from other sources, to provide user-friendly databases and reports that summarise key findings;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <content>
+                              <p>dissemination of results to policy-makers, including standardisation bodies, to promote the use of policy-relevant results by the appropriate bodies at international, Union, national and regional level.</p>
+                           </content>
+                        </point>
+                     </list>
+                  </paragraph>
+               </article>
+            </chapter>
+            <chapter>
+               <num>CHAPTER III</num>
+               <heading>Control</heading>
+               <article xml:id="art_d379e1235">
+                  <num>Article 19</num>
+                  <heading>Control and audit</heading>
+                  <paragraph>
+                     <num>1.</num>
+                     <content>
+                        <p>The control system set up for the implementation of this Regulation shall be designed so as to provide reasonable assurance of achieving adequate management of the risks relating to the effectiveness and efficiency of the operations as well as the legality and regularity of the underlying transactions, taking into account the multiannual character of programmes as well as the nature of the payments concerned.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>2.</num>
+                     <content>
+                        <p>The control system referred to in paragraph 1 shall ensure an appropriate balance between trust and control, taking into account administrative and other costs of controls at all levels, especially for participants, so that the 2019&#45;2020 Programme objectives can be achieved and the most excellent researchers and most innovative enterprises can be attracted to it.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>3.</num>
+                     <subparagraph>
+                        <content>
+                           <p>As part of the control system referred to in paragraph 1, the audit strategy for expenditure in the indirect actions under the 2019&#45;2020 Programme shall be based on the financial audit of a representative sample of expenditure across the whole 2019&#45;2020 Programme. That representative sample shall be complemented by a selection based on an assessment of the risks related to expenditure.</p>
+                        </content>
+                     </subparagraph>
+                     <subparagraph>
+                        <content>
+                           <p>Audits of expenditure in the indirect actions under the 2019&#45;2020 Programme shall be carried out in a coherent manner in accordance with the principles of economy, efficiency and effectiveness in order to minimise the audit burden of the participants.</p>
+                        </content>
+                     </subparagraph>
+                  </paragraph>
+               </article>
+               <article xml:id="art_d379e1258">
+                  <num>Article 20</num>
+                  <heading>Protection of the financial interests of the Union</heading>
+                  <paragraph>
+                     <num>1.</num>
+                     <content>
+                        <p>The Commission shall take appropriate measures to ensure that, when actions financed under this Regulation are implemented, the financial interests of the Union are protected by the application of preventive measures against fraud, corruption and any other illegal activities, by effective checks and, where irregularities are detected, by the recovery of the amounts wrongly paid and, where appropriate, by effective, proportionate and dissuasive administrative and financial penalties.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>2.</num>
+                     <subparagraph>
+                        <content>
+                           <p>The Commission or its representatives and the Court of Auditors shall have the power of audit, on the basis of documents and on the spot, over all grant beneficiaries, contractors and subcontractors who have received Union funds under this Regulation.</p>
+                        </content>
+                     </subparagraph>
+                     <subparagraph>
+                        <content>
+                           <p>Without prejudice to paragraph 3, audits by the Commission may be carried out up to two years after the final payment.</p>
+                        </content>
+                     </subparagraph>
+                  </paragraph>
+                  <paragraph>
+                     <num>3.</num>
+                     <content>
+                        <p>The European Anti-Fraud Office (OLAF) may carry out investigations, including on-the-spot checks and inspections in accordance with the provisions and procedures laid down in Regulation (EU, Euratom) No 883/2013 of the European Parliament and of the Council<authorialNote placement="bottom" marker="16">
+                              <p>Regulation (EU, Euratom) No 883/2013 of the European Parliament and of the Council of 11 September 2013 concerning investigations conducted by the European Anti-Fraud Office (OLAF) and repealing Regulation (EC) No 1073/1999 of the European Parliament and of the Council and Council Regulation (Euratom) No 1074/1999 (OJ L 248, 18.9.2013, p. 1).</p>
+                           </authorialNote> and Council Regulation (Euratom, EC) No 2185/96<authorialNote placement="bottom" marker="17">
+                              <p>Council Regulation (Euratom, EC) No 2185/96 of 11 November 1996 concerning on-the-spot checks and inspections carried out by the Commission in order to protect the European Communities&apos; financial interests against fraud and other irregularities (OJ L 292, 15.11.1996, p. 2).</p>
+                           </authorialNote>, with a view to establishing whether there has been fraud, corruption or any other illegal activity affecting the financial interests of the Union in connection with a grant agreement or grant decision or a contract funded under the 2019&#45;2020 Programme.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>4.</num>
+                     <content>
+                        <p>Without prejudice to paragraphs 1, 2 and 3, cooperation agreements with third countries and with international organisations, contracts, grant agreements and grant decisions resulting from the implementation of this Regulation shall contain provisions expressly empowering the Commission, the Court of Auditors and OLAF to conduct such audits and investigations, according to their respective competences.</p>
+                     </content>
+                  </paragraph>
+               </article>
+            </chapter>
+            <chapter>
+               <num>CHAPTER IV</num>
+               <heading>Monitoring and evaluation</heading>
+               <article xml:id="art_d379e1316">
+                  <num>Article 21</num>
+                  <heading>Monitoring</heading>
+                  <paragraph>
+                     <num>1.</num>
+                     <content>
+                        <p>The Commission shall annually monitor the implementation, including the progress and achievements, of the 2019&#45;2020 Programme. The Commission shall provide the Committee referred to in Article 12 with information in that regard.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>2.</num>
+                     <content>
+                        <p>The Commission shall report and make publicly available the results of the monitoring referred to in paragraph 1.</p>
+                     </content>
+                  </paragraph>
+               </article>
+               <article xml:id="art_d379e1331">
+                  <num>Article 22</num>
+                  <heading>Evaluation</heading>
+                  <paragraph>
+                     <num>1.</num>
+                     <subparagraph>
+                        <content>
+                           <p>Evaluations shall be carried out in a sufficiently timely manner to feed into the decision-making process.</p>
+                        </content>
+                     </subparagraph>
+                     <subparagraph>
+                        <content>
+                           <p>By 31 December 2022, the Commission shall carry out, with the assistance of independent experts selected on the basis of a transparent process, an <i>ex post</i> evaluation of the 2019&#45;2020 Programme. That evaluation shall cover the rationale, implementation and achievements, as well as the longer-term impacts and sustainability, of the measures, to feed into a decision on a possible renewal, modification or suspension of a subsequent measure.</p>
+                        </content>
+                     </subparagraph>
+                  </paragraph>
+                  <paragraph>
+                     <num>2.</num>
+                     <content>
+                        <p>Without prejudice to paragraph 1, direct and indirect actions of the 2019&#45;2020 Programme shall be subject to separate evaluations.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>3.</num>
+                     <content>
+                        <p>The evaluations referred to in paragraphs 1 and 2 shall assess the progress made towards the objectives set out in Article 3, taking into account the relevant performance indicators defined in Annex II.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>4.</num>
+                     <content>
+                        <p>Where appropriate and available, Member States shall provide the Commission with data and information necessary for the monitoring and evaluation of the measures concerned.</p>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <num>5.</num>
+                     <content>
+                        <p>The Commission shall communicate the conclusions of the evaluations referred to in paragraphs 1 and 2, accompanied by its observations, to the European Parliament, the Council and the European Economic and Social Committee.</p>
+                     </content>
+                  </paragraph>
+               </article>
+            </chapter>
+         </title>
+         <title>
+            <num>TITLE III</num>
+            <heading>FINAL AND TRANSITIONAL PROVISIONS</heading>
+            <article xml:id="art_d379e1379">
+               <num>Article 23</num>
+               <heading>Repeal and transitional provisions</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>Regulation (Euratom) No 1314/2013 is repealed with effect from 1 January 2019.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>Without prejudice to paragraph 1, activities or actions benefiting from the Community financial support under Regulation (Euratom) No 1314/2013 shall continue to be governed by the rules applicable to those activities or actions until their termination, completion or closure. Where necessary, any remaining tasks of the Committee set up pursuant to Regulation (Euratom) No 1314/2013 shall be undertaken by the Committee referred to in Article 12 of this Regulation.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <content>
+                     <p>The financial envelope referred to in Article 4 may also cover the technical and administrative assistance expenses necessary to ensure the transition between the 2019&#45;2020 Programme and the measures adopted under Regulation (Euratom) No 1314/2013.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>4.</num>
+                  <content>
+                     <p>By way of derogation from the second subparagraph of Article 209(3) of the Financial Regulation, annual repayments generated by a financial instrument established under Regulation (EU) No 1291/2013 and resulting from the non-utilisation of funds made available under this Regulation or Regulation (Euratom) No 1314/2013 shall be assigned to the 2019&#45;2020 Programme.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d379e1407">
+               <num>Article 24</num>
+               <heading>Entry into force</heading>
+               <paragraph>
+                  <content>
+                     <p>This Regulation shall enter into force on the third day following that of its publication in the <i>Official Journal of the European Union</i>.</p>
+                  </content>
+               </paragraph>
+            </article>
+         </title>
+         <clause>
+            <content>
+               <p>This Regulation shall be binding in its entirety and directly applicable in all Member States.</p>
+            </content>
+         </clause>
+      </body>
+      <conclusions>
+         <p>Done at Luxembourg, 15 October 2018.</p>
+         <block name="signatory">
+            <signature>
+               <organization refersTo="">For the Council</organization>
+               <role refersTo="">The President</role>
+               <person refersTo="">F. MOGHERINI</person>
+            </signature>
+         </block>
+      </conclusions>
+   </bill>
+</akomaNtoso>

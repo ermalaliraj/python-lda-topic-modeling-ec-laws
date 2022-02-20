@@ -1,0 +1,178 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"
+            xmlns:fmx="http://formex.publications.europa.eu/schema/formex-05.21-20110601.xd"
+            xmlns:leos="urn:eu:europa:ec:leos"
+            xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <bill name="">
+      <meta xmlns:fn="http://www.w3.org/2005/xpath-functions">
+         <identification source="~COM">
+            <FRBRWork>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRcountry value=""/>
+            </FRBRWork>
+            <FRBRExpression>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+            </FRBRManifestation>
+         </identification>
+      </meta>
+      <preface>
+         <longTitle>
+            <p>
+               <docStage/>
+               <docType>COMMISSION REGULATION (EU) 2021/1297</docType>of 4 August 2021<docPurpose>amending Annex XVII to Regulation (EC) No 1907/2006 of the European Parliament and of the Council as regards perfluorocarboxylic acids containing 9 to 14 carbon atoms in the chain (C9-C14 PFCAs), their salts and C9-C14 PFCA-related substances</docPurpose>
+            </p>
+         </longTitle>
+         <container name="EEArelevance">
+            <p>(Text with EEA relevance)</p>
+         </container>
+      </preface>
+      <preamble>
+         <formula name="actingEntity">
+            <p>THE EUROPEAN COMMISSION,</p>
+         </formula>
+         <citations>
+            <citation>
+               <p>Having regard to the Treaty on the Functioning of the European Union,</p>
+            </citation>
+            <citation>
+               <p>Having regard to Regulation (EC) No 1907/2006 of the European Parliament and of the Council of 18 December 2006 concerning the Registration, Evaluation, Authorisation and Restriction of Chemicals (REACH), establishing a European Chemicals Agency (ECHA), amending Directive 1999/45/EC and repealing Council Regulation (EEC) No 793/93 and Commission Regulation (EC) No 1488/94 as well as Council Directive 76/769/EEC and Commission Directives 91/155/EEC, 93/67/EEC, 93/105/EC and 2000/21/EC<authorialNote placement="bottom" marker="1">
+                     <p>OJ L 396, 30.12.2006, p. 1.</p>
+                  </authorialNote>, and in particular Article 68(1) thereof,</p>
+            </citation>
+         </citations>
+         <recitals xml:id="recs_d391e71">
+            <intro>
+               <p>Whereas:</p>
+            </intro>
+            <recital xml:id="rec_d391e74">
+               <num>(1)</num>
+               <p>Linear and branched perfluorocarboxylic acids containing 9 to 14 carbon atoms in the chain (&apos;C9-C14 PFCAs&apos;), their salts and C9-C14 PFCA- related substances<authorialNote placement="bottom" marker="2">
+                     <p>C9-C14 PFCA-related substances are substances that, based on their molecular structure are considered to have the potential to degrade or be transformed to C9-C14 PFCAs.</p>
+                  </authorialNote> currently mainly occur in the Union as unintended by-products during the manufacture of perfluorinated and polyfluorinated substances containing a carbon chain of less than nine carbon atoms, such as perfluorooctanoic acid (PFOA). Furthermore, it is possible that companies may consider the use of C9-C14 PFCAs, their salts and C9-C14 PFCA- related substances as substitutes for PFOA, its salts and related substances in the future, especially after the Union Law restrictions on PFOA become applicable. Thus, it is necessary to prevent future possible manufacturing and use resulting in increasing releases into the environment.</p>
+            </recital>
+            <recital xml:id="rec_d391e88">
+               <num>(2)</num>
+               <p>On 17 December 2015 and 12 January 2017, respectively, two groups of C9-C14 PFCAs, namely perfluorononan-1-oic acid (&apos;PFNA&apos;) containing 9 carbon atoms in the chain, as well as its sodium and ammonium salts, and nonadecafluorodecanoic acid (&apos;PFDA&apos;) containing 10 carbon atoms in the chain, as well as its sodium and ammonium salts, were included in the Candidate List of Substances of Very High Concern (&apos;SVHC&apos;) to be potentially included in Annex XIV to Regulation (EC) No 1907/2006, as toxic for reproduction in accordance with Article 57(c) of that Regulation, and persistent, bioaccumulative and toxic (&apos;PBT&apos;) substances, in accordance with Article 57(d) of that Regulation. Moreover, PFNA and PFDA, as well as their sodium and ammonium salts, are listed in Part 3 of Annex VI to Regulation (EC) No 1272/2008 of the European Parliament and of the Council<authorialNote placement="bottom" marker="3">
+                     <p>Regulation (EC) No 1272/2008 of the European Parliament and of the Council of 16 December 2008 on classification, labelling and packaging of substances and mixtures, amending and repealing Directives 67/548/EEC and 1999/45/EC, and amending Regulation (EC) No 1907/2006 (OJ L 353, 31.12.2008, p. 1).</p>
+                  </authorialNote> as carcinogenic, category 2 and toxic to reproduction, category 1B. On 19 December 2012, henicosafluoroundecanoic acid (&apos;PFUnDA&apos;) containing 11 carbon atoms in the chain, tricosafluorododecanoic acid (&apos;PFDoDA&apos;) containing 12 carbon atoms in the chain, pentacosafluorotridecanoic acid (&apos;PFTrDA&apos;) containing 13 carbon atoms in the chain and heptacosafluorotetradecanoic acid (&apos;PFTDA&apos;) containing 14 carbon atoms in the chain were included in the Candidate List of SVHC, as very persistent and very bioaccumulative (&apos;vPvB&apos;) substances, in accordance with Article 57(e) of Regulation (EC) No 1907/2006. C9-C14 PFCA-related substances are also to be regarded as PBT or vPvB substances, respectively, due to their transformation or degradation in the environment to C9-C14 PFCAs.</p>
+            </recital>
+            <recital xml:id="rec_d391e152">
+               <num>(3)</num>
+               <p>On 6 October 2017, Germany and Sweden submitted to the European Chemicals Agency (&apos;the Agency&apos;), a dossier<authorialNote placement="bottom" marker="4">
+                     <p>https://www.echa.europa.eu/documents/10162/2ec5dfdd-0e63-0b49-d756-4dc1bae7ec61</p>
+                  </authorialNote> pursuant to Article 69(4) of Regulation (EC) No 1907/2006 (&apos;the Annex XV dossier&apos;) proposing to restrict the manufacture and placing on the market of C9-C14 PFCAs, their salts and C9-C14 PFCA-related substances on their own, and to restrict their use in the production of, and placing on the market in, other substances as a constituent, mixtures and articles or parts thereof. In order to reduce the release of those substances into the environment and to prevent them from being manufactured, placed on the market and used as substitutes for the substances restricted by entry 68 of Annex XVII to Regulation (EC) No 1907/2006<authorialNote placement="bottom" marker="5">
+                     <p>Commission Regulation (EU) 2017/1000 of 13 June 2017 amending Annex XVII to Regulation (EC) No 1907/2006 of the European Parliament and of the Council concerning the Registration, Evaluation, Authorisation and restriction of Chemicals (REACH) as regards perfluorooctanoic acid (PFOA), its salts and PFOA-related substances (OJ L 150, 14.6.2017, p. 14).</p>
+                  </authorialNote>, Germany and Sweden proposed a concentration limit of 25 ppb for the sum of C9-C14 PFCAs and their salts and 260 ppb for the sum of C9-C14 PFCA-related substances. Exemptions were proposed by Germany and Sweden for C9-C14 PFCAs, their salts and C9-C14 PFCA-related substances when they occur as unintended by-products during the manufacturing of fluorochemicals with a perfluoro carbon chain equal to or shorter than eight atoms or for use as transported isolated intermediates.</p>
+            </recital>
+            <recital xml:id="rec_d391e186">
+               <num>(4)</num>
+               <p>On 14 September 2018, the Agency&apos;s Committee for Risk Assessment (&apos;RAC&apos;) adopted its opinion concluding that, subject to modification of the scope and conditions proposed in the Annex XV dossier, a restriction on manufacture, use and placing on the market of C9-C14 PFCAs, their salts and related substances, is the most appropriate Union-wide measure to address the identified risks in terms of effectiveness in reducing those risks. RAC agreed with the concentration limits as proposed by Germany and Sweden. RAC agreed with the exemptions proposed by Germany and Sweden as the proposed restriction is not intended to prevent the manufacture of the fluorochemicals with six or less carbon atoms in the molecular chain. RAC recommended exempting for a limited period the use in the production of pressurised metered-dose inhalers that are critical for the treatment of lung diseases because of the low volumes in the order of few grams involved and the important medical use. RAC expressed the opinion to grant a time-limited exemption for semiconductors that contain low levels of C9-C14 PFCAs and for semi-finished and finished electronic equipment containing specialty semiconductors to be used as replacement parts for finished electronic equipment.</p>
+            </recital>
+            <recital xml:id="rec_d391e199">
+               <num>(5)</num>
+               <p>Furthermore, RAC recommended to apply to the restriction of C9-C14 PFCAs, their salts and C9-C14 PFCA- related substances the same exemptions which apply to the PFOA restriction in entry 68 to Annex XVII of Regulation (EC) No 1907/2006.</p>
+            </recital>
+            <recital xml:id="rec_d391e205">
+               <num>(6)</num>
+               <p>On 29 November 2018, the Agency&apos;s Committee for Socio-Economic Analysis (&apos;SEAC&apos;) adopted its opinion, indicating that the restriction proposed in the Annex XV dossier, as modified by RAC and SEAC, is the most appropriate Union-wide measure to address the identified risks in terms of its socioeconomic benefits and socioeconomic costs.</p>
+            </recital>
+            <recital xml:id="rec_d391e218">
+               <num>(7)</num>
+               <p>Based on the socioeconomic elements provided in the Annex XV dossier and submitted during the public consultations, SEAC agreed with the exemptions proposed in the Annex XV dossier and recommended by RAC. SEAC concurred with the proposed 18-month deferral of the restriction. In addition, SEAC suggested higher limit values for fluoropolymers that contain perfluoropropoxy-groups or perfluoromethoxy-groups and are used in specific product groups in order to allow their production. Nonetheless, the generic threshold of 25 ppb remains applicable to the final articles manufactured from those materials.</p>
+            </recital>
+            <recital xml:id="rec_d391e224">
+               <num>(8)</num>
+               <p>The Agency&apos;s Forum for Exchange of Information on Enforcement, referred to in Article 76(1)(f) of Regulation (EC) No 1907/2006, was consulted during the restriction process and its opinion has been taken into account.</p>
+            </recital>
+            <recital xml:id="rec_d391e230">
+               <num>(9)</num>
+               <p>On 16 January 2019, the Agency submitted the opinions of the RAC and SEAC<authorialNote placement="bottom" marker="6">
+                     <p>https://echa.europa.eu/documents/10162/13641/rest_pfcas_compiled_racseac_opi_en.pdf/b06db225-3995-13fd-d89a-a9b73ef6bfc2</p>
+                  </authorialNote> to the Commission.</p>
+            </recital>
+            <recital xml:id="rec_d391e243">
+               <num>(10)</num>
+               <p>Regulation (EU) 2019/1021 of the European Parliament and of the Council<authorialNote placement="bottom" marker="7">
+                     <p>OJ L 188 I, 15.6.2020, p. 1.</p>
+                  </authorialNote> was amended in accordance with the decision adopted by the Conference of the Parties (SC-9/12) of the Stockholm Convention on Persistent Organic Pollutants for PFOA<authorialNote placement="bottom" marker="8">
+                     <p>http://www.pops.int/TheConvention/ConferenceoftheParties/Meetings/COP9/tabid/7521/Default.aspx</p>
+                  </authorialNote>, which contains some but not all the derogations included in entry 68 of Annex XVII of Regulation (EC) No 1907/2006. Entry 68 of that Annex was effectively replaced by the abovementioned amendment of Regulation (EU) 2019/1021. The exemptions which apply to the use of PFOA, its salts and PFOA-related compounds in the amendment of Regulation (EU) 2019/1021 should also apply to C9-C14 PFCAs, their salts and C9-C14 PFCA- related substances under the same conditions because of the manufacturing process of fluorochemicals in which both group of substances are present as impurities.</p>
+            </recital>
+            <recital xml:id="rec_d391e261">
+               <num>(11)</num>
+               <p>After the finalisation of the RAC and SEAC opinion on the proposed restriction for C9-C14 PFCAs, the Commission received two additional requests for exemptions to allow the production of fluoropolymers and fluoroelastomers, as well as the production of polytetrafluoroethylene (PTFE) micro powders and the use in mixtures and articles for industrial and professional applications. The Commission asked ECHA for a supplementary opinion, as the final products are used in high value applications<authorialNote placement="bottom" marker="9">
+                     <p>https://echa.europa.eu/documents/10162/034d97c3-7975-19f5-3739-76c288ad2b0c</p>
+                  </authorialNote>. The Commission received RAC&apos;s and SEAC&apos;s supplementary opinion on 15 December 2020<authorialNote placement="bottom" marker="10">
+                     <p>https://echa.europa.eu/documents/10162/13579/art77_3c_pfoa_pfca_derogations_compiled_rac_seac_opinions_en.pdf/6582d9a1-56b2-3e88-a70f-cdf3ab33d421</p>
+                  </authorialNote>.</p>
+            </recital>
+            <recital xml:id="rec_d391e277">
+               <num>(12)</num>
+               <p>Taking into account the Annex XV dossier, the opinions of RAC and SEAC, the Commission considers that an unacceptable risk to human health and the environment arises from the manufacture, use or placing on the market of linear and/or branched C9-C14 PFCAs, their salts and C9-C14 PFCA- related substances on their own, as a constituent of other substances, in mixtures and in articles, which needs to be addressed on a Union-wide basis. The Commission considers that the proposed restriction, as amended by RAC and SEAC opinions, taking into account its socioeconomic impact and availability of alternatives as well as the alignment of some of the exemptions in this restriction to the exemptions in the amendment of Regulation (EU) 2019/1021 is an appropriate Union-wide measure to address the identified risk.</p>
+            </recital>
+            <recital xml:id="rec_d391e283">
+               <num>(13)</num>
+               <p>Stakeholders should be allowed sufficient time to take appropriate measures to comply with the restriction. Therefore, taking into account the suggestion from the Annex XV dossier as well as RAC&apos;s and SEAC&apos;s considerations, the application of the restriction should be deferred for 18 months. Longer deferrals or overall exemptions should apply to address the particular cases of specific sectors.</p>
+            </recital>
+            <recital xml:id="rec_d391e289">
+               <num>(14)</num>
+               <p>Regulation (EC) No 1907/2006 should therefore be amended accordingly.</p>
+            </recital>
+            <recital xml:id="rec_d391e295">
+               <num>(15)</num>
+               <p>The measures provided for in this Regulation are in accordance with the opinion of the Committee established under Article 133 of Regulation (EC) No 1907/2006,</p>
+            </recital>
+         </recitals>
+         <formula name="enactingFormula">
+            <p>HAS ADOPTED THIS REGULATION:</p>
+         </formula>
+      </preamble>
+      <body>
+         <article xml:id="art_d391e304">
+            <num>Article 1</num>
+            <heading/>
+            <paragraph>
+               <content>
+                  <p>Annex XVII to Regulation (EC) No 1907/2006 is amended in accordance with the Annex to this Regulation.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d391e309">
+            <num>Article 2</num>
+            <heading/>
+            <paragraph>
+               <content>
+                  <p>This Regulation shall enter into force on the twentieth day following that of its publication in the <i>Official Journal of the European Union</i>.</p>
+               </content>
+            </paragraph>
+         </article>
+         <clause>
+            <content>
+               <p>This Regulation shall be binding in its entirety and directly applicable in all Member States.</p>
+            </content>
+         </clause>
+      </body>
+      <conclusions>
+         <p>Done at Brussels, 4 August 2021.</p>
+         <block name="signatory">
+            <signature>
+               <organization refersTo="">For the Commission</organization>
+               <role refersTo="">The President</role>
+               <person refersTo="">Ursula VON DER LEYEN</person>
+            </signature>
+         </block>
+      </conclusions>
+   </bill>
+</akomaNtoso>

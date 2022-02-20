@@ -1,0 +1,1811 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"
+            xmlns:fmx="http://formex.publications.europa.eu/schema/formex-05.21-20110601.xd"
+            xmlns:leos="urn:eu:europa:ec:leos"
+            xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <bill name="">
+      <meta xmlns:fn="http://www.w3.org/2005/xpath-functions">
+         <identification source="~COM">
+            <FRBRWork>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRcountry value=""/>
+            </FRBRWork>
+            <FRBRExpression>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+            </FRBRManifestation>
+         </identification>
+      </meta>
+      <preface>
+         <longTitle>
+            <p>
+               <docStage/>
+               <docType>REGULATION (EU) 2019/1242 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL</docType>of 20 June 2019<docPurpose>setting CO<sub>2</sub> emission performance standards for new heavy-duty vehicles and amending Regulations (EC) No 595/2009 and (EU) 2018/956 of the European Parliament and of the Council and Council Directive 96/53/EC</docPurpose>
+            </p>
+         </longTitle>
+         <container name="EEArelevance">
+            <p>(Text with EEA relevance)</p>
+         </container>
+      </preface>
+      <preamble>
+         <formula name="actingEntity">
+            <p>THE EUROPEAN PARLIAMENT AND THE COUNCIL OF THE EUROPEAN UNION,</p>
+         </formula>
+         <citations>
+            <citation>
+               <p>Having regard to the Treaty on the Functioning of the European Union, and in particular Article 192(1) thereof,</p>
+            </citation>
+            <citation>
+               <p>Having regard to the proposal from the European Commission,</p>
+            </citation>
+            <citation>
+               <p>After transmission of the draft legislative act to the national parliaments,</p>
+            </citation>
+            <citation>
+               <p>Having regard to the opinion of the European Economic and Social Committee<authorialNote placement="bottom" marker="1">
+                     <p>OJ C 62, 15.2.2019, p. 286.</p>
+                  </authorialNote>,</p>
+            </citation>
+            <citation>
+               <p>After consulting the Committee of the Regions,</p>
+            </citation>
+            <citation>
+               <p>Acting in accordance with the ordinary legislative procedure<authorialNote placement="bottom" marker="2">
+                     <p>Position of the European Parliament of 18 April 2019 (not yet published in the Official Journal) and decision of the Council of 13 June 2019.</p>
+                  </authorialNote>,</p>
+            </citation>
+         </citations>
+         <recitals xml:id="recs_d458e91">
+            <intro>
+               <p>Whereas:</p>
+            </intro>
+            <recital xml:id="rec_d458e94">
+               <num>(1)</num>
+               <p>The Paris Agreement sets out, inter alia, a long-term goal in line with the objective to keep the global average temperature increase well below 2 °C above pre-industrial levels and to pursue efforts to keep it to 1,5 °C above pre-industrial levels. The latest scientific findings reported by the Intergovernmental Panel on Climate Change (IPCC) in its special report on the impacts of global warming of 1,5 °C above pre-industrial levels and related global greenhouse gas emission pathways unequivocally confirm the negative impacts of climate change. That special report concludes that emissions reductions in all sectors are crucial to limit global warming.</p>
+            </recital>
+            <recital xml:id="rec_d458e100">
+               <num>(2)</num>
+               <p>In order to contribute to the objectives of the Paris Agreement, the transformation of the entire transport sector towards zero emissions needs to be accelerated, considering the Commission&apos;s communication of 28 November 2018 entitled &apos;A Clean Planet for all &#45; a European strategic long-term vision for a prosperous, modern, competitive and climate neutral economy&apos;, which outlines a vision of the economic and societal transformations required, engaging all sectors of the economy and society, to achieve the transition to net-zero greenhouse gas emissions by 2050. Emissions of air pollutants from transport that significantly harm our health, and the environment, need also to be drastically reduced without delay.</p>
+            </recital>
+            <recital xml:id="rec_d458e114">
+               <num>(3)</num>
+               <p>The Commission adopted mobility packages on 31 May 2017 (&apos;Europe on the Move: An agenda for a socially fair transition towards clean, competitive and connected mobility for all&apos;) and 8 November 2017 (&apos;Delivering on low-emission mobility &#45; A European Union that protects the planet, empowers its consumers and defends its industry and workers&apos;). Those packages set out a positive agenda which also aimed at ensuring a smooth transition towards clean, competitive and connected mobility for all.</p>
+            </recital>
+            <recital xml:id="rec_d458e135">
+               <num>(4)</num>
+               <p>This Regulation is part of the Commission&apos;s third mobility package, of 17 May 2018, entitled &apos;Europe on the Move &#45; Sustainable Mobility for Europe: safe, connected and clean&apos;, which is a follow-up to the Commission&apos;s communication of 13 September 2017 entitled &apos;Investing in a smart, innovative and sustainable Industry: A renewed EU Industrial Policy Strategy&apos;. This Regulation is also designed to complete the process of enabling the Union to reap the full benefits of the modernisation and decarbonisation of mobility. The aim of that third mobility package is to make European mobility safer and more accessible, European industry more competitive, European jobs more secure, and the mobility system cleaner and better adapted to the imperative of tackling climate change. That will require the full commitment of the Union, Member States and stakeholders, not least in strengthening efforts to reduce carbon dioxide (CO<sub>2</sub>) emissions and air pollution.</p>
+            </recital>
+            <recital xml:id="rec_d458e159">
+               <num>(5)</num>
+               <p>This Regulation, together with Regulation (EU) 2019/631 of the European Parliament and of the Council<authorialNote placement="bottom" marker="3">
+                     <p>Regulation (EU) 2019/631 of the European Parliament and of the Council of 17 April 2019 setting CO<sub>2</sub> emission performance standards for new passenger cars and for new light commercial vehicles, and repealing Regulations (EC) No 443/2009 and (EU) No 510/2011 (OJ L 111, 25.4.2019, p. 13).</p>
+                  </authorialNote>, provides a clear pathway for CO<sub>2</sub> emissions reductions from the road transport sector and contributes to the binding target of at least a 40 % domestic reduction in economy-wide greenhouse gas emissions by 2030 compared to 1990, as was endorsed in the conclusions of the European Council of 23-24 October 2014, and approved by the Council on 6 March 2015 as the &apos;Union Intended Nationally Determined Contribution under the Paris Agreement&apos;.</p>
+            </recital>
+            <recital xml:id="rec_d458e195">
+               <num>(6)</num>
+               <p>The European Council conclusions of 23-24 October 2014 endorsed a greenhouse gas emissions reduction of 30 % by 2030 compared to 2005 for the sectors that are not part of the Union&apos;s emissions trading system. Greenhouse gas emissions from the road transport sector constitute a major contribution to the emissions of those sectors. The road transport sector was responsible for around a quarter of the total Union&apos;s emissions in 2016. Its emissions show an increasing trend and remain significantly above 1990 levels. If road transport emissions increase further, they will offset emissions reductions made by other sectors to combat climate change.</p>
+            </recital>
+            <recital xml:id="rec_d458e207">
+               <num>(7)</num>
+               <p>The European Council conclusions of 23-24 October 2014 highlighted the importance of reducing greenhouse gas emissions and risks related to fossil fuel dependency in the transport sector through a comprehensive and technology neutral approach for the promotion of emissions reductions and energy efficiency in transport, for electric transportation and for renewable energy sources in the transport sector also after 2020.</p>
+            </recital>
+            <recital xml:id="rec_d458e219">
+               <num>(8)</num>
+               <p>In order to give consumers in the Union secure, sustainable, competitive and affordable energy, the contribution of energy efficiency to moderation of demand is one of the five mutually-reinforcing and closely interrelated dimensions set out in the Commission&apos;s communication of 25 February 2015 entitled &apos;A Framework Strategy for a Resilient Energy Union with a Forward-Looking Climate Change Policy&apos;. That communication states that, while all economic sectors must take steps to increase the efficiency of their energy consumption, the transport sector has huge energy efficiency potential.</p>
+            </recital>
+            <recital xml:id="rec_d458e232">
+               <num>(9)</num>
+               <p>CO<sub>2</sub> emissions from heavy-duty vehicles, including lorries, buses and coaches, represent around 6 % of total CO<sub>2</sub> emissions in the Union and about 25 % of total road transport CO<sub>2</sub> emissions. Without further action, the share of CO<sub>2</sub> emissions from heavy-duty vehicles is expected to grow by around 9 % between 2010 and 2030. Currently, Union law does not set any CO<sub>2</sub> emissions reduction requirements for heavy-duty vehicles, and therefore specific measures for such vehicles are needed without delay.</p>
+            </recital>
+            <recital xml:id="rec_d458e255">
+               <num>(10)</num>
+               <p>CO<sub>2</sub> emissions reduction targets for the Union-wide fleets of new heavy-duty vehicles should therefore be set for 2025 and for 2030, taking into account the vehicle fleet renewal time and the need for the road transport sector to contribute to the Union climate and energy targets for 2030 and beyond. Such a stepwise approach also provides a clear and early signal for the industry to accelerate the market introduction of energy efficient technologies and zero- and low-emission heavy-duty vehicles. The deployment of zero-emission heavy-duty vehicles should also contribute to addressing urban mobility problems. While it is essential to reduce CO<sub>2</sub> emissions from road transport, the promotion of such heavy-duty vehicles by manufacturers is also important for the effective reduction of air pollutants and excessive noise levels in cities and urban areas.</p>
+            </recital>
+            <recital xml:id="rec_d458e267">
+               <num>(11)</num>
+               <p>In order to fully realise the energy efficiency potential and ensure that the road transport sector as a whole contributes to the greenhouse gas emission reductions agreed, it is appropriate to complement the already existing CO<sub>2</sub> emission performance standards for new passenger cars and for light commercial vehicles by setting CO<sub>2</sub> emission performance standards for new heavy-duty vehicles. Those performance standards will be a driver for innovation in fuel-efficient technologies, contributing to the strengthening of the technological leadership of the Union&apos;s manufacturers and suppliers, and securing high-skilled jobs in the long term.</p>
+            </recital>
+            <recital xml:id="rec_d458e279">
+               <num>(12)</num>
+               <p>Taking into account that climate change is a trans-boundary problem and the need to safeguard a well-functioning single market both for road transport services as well as for heavy-duty vehicles while avoiding market fragmentation, it is appropriate to set CO<sub>2</sub> emission performance standards for heavy-duty vehicles at Union level. Those performance standards should be without prejudice to Union competition law.</p>
+            </recital>
+            <recital xml:id="rec_d458e288">
+               <num>(13)</num>
+               <p>In defining the CO<sub>2</sub> emissions reduction levels that should be achieved by the Union fleet of heavy-duty vehicles, account should be taken of the effectiveness of those reduction levels in delivering a cost-effective contribution to reducing the CO<sub>2</sub> emissions of the sectors covered by Regulation (EU) 2018/842 of the European Parliament and of the Council<authorialNote placement="bottom" marker="4">
+                     <p>Regulation (EU) 2018/842 of the European Parliament and of the Council of 30 May 2018 on binding annual greenhouse gas emission reductions by Member States from 2021 to 2030 contributing to climate action to meet commitments under the Paris Agreement and amending Regulation (EU) No 525/2013 (OJ L 156, 19.6.2018, p. 26).</p>
+                  </authorialNote> by 2030, of the resulting costs and savings for society, manufacturers, transport operators, consumers, as well as of their direct and indirect implications for employment, innovation and co-benefits generated in terms of reduced air pollution and improved energy security.</p>
+            </recital>
+            <recital xml:id="rec_d458e310">
+               <num>(14)</num>
+               <p>A socially acceptable and just transition towards zero-emission mobility should be ensured. It is therefore important to take into account the social effects of the transition throughout the whole automotive value chain and to address proactively the implications on employment. Targeted programmes at Union, national and regional levels are therefore to be considered for the re-skilling, up-skilling and redeployment of workers, as well as education and job-seeking initiatives in adversely affected communities and regions, in close dialogue with the social partners and competent authorities. As part of that transition, the employment of women as well as equal opportunities in that sector should be strengthened.</p>
+            </recital>
+            <recital xml:id="rec_d458e316">
+               <num>(15)</num>
+               <p>A successful transition to zero-emission mobility requires an integrated approach and the right enabling environment to stimulate innovation and maintain the Union&apos;s technological leadership in the road transport sector. This includes public and private investments in research and innovation, the increasing supply of zero-and low-emission heavy-duty vehicles, the roll-out of recharging and refuelling infrastructure, integration into the energy systems, as well as the sustainable materials supply for, and sustainable production, re-use and recycling of, batteries in Europe. This requires coherent action at Union, national, regional and local levels, including through incentives to support the uptake of zero- and low-emission heavy-duty vehicles.</p>
+            </recital>
+            <recital xml:id="rec_d458e323">
+               <num>(16)</num>
+               <p>A new procedure for determining the CO<sub>2</sub> emissions and fuel consumption of individual heavy-duty vehicles has been introduced as part of the implementation of Regulation (EC) No 595/2009 of the European Parliament and of the Council<authorialNote placement="bottom" marker="5">
+                     <p>Regulation (EC) No 595/2009 of the European Parliament and of the Council of 18 June 2009 on type-approval of motor vehicles and engines with respect to emissions from heavy-duty vehicles (Euro VI) and on access to vehicle repair and maintenance information and amending Regulation (EC) No 715/2007 and Directive 2007/46/EC and repealing Directives 80/1269/EEC, 2005/55/EC and 2005/78/EC (OJ L 188, 18.7.2009, p. 1).</p>
+                  </authorialNote>. Commission Regulation (EU) 2017/2400<authorialNote placement="bottom" marker="6">
+                     <p>Commission Regulation (EU) 2017/2400 of 12 December 2017 implementing Regulation (EC) No 595/2009 of the European Parliament and of the Council as regards the determination of the CO<sub>2</sub> emissions and fuel consumption of heavy-duty vehicles and amending Directive 2007/46/EC of the European Parliament and of the Council and Commission Regulation (EU) No 582/2011 (OJ L 349, 29.12.2017, p. 1).</p>
+                  </authorialNote> provides a methodology, based on the VECTO tool, through which the CO<sub>2</sub> emissions and fuel consumption of whole heavy-duty vehicles can be simulated. That methodology allows the diversity of the heavy-duty vehicle sector and the high degree of customisation of individual heavy-duty vehicles to be taken into account. As a first step, from 1 July 2019, the CO<sub>2</sub> emissions are determined for four groups of heavy-duty vehicles that account for around 65 % to 70 % of all CO<sub>2</sub> emissions from the Union fleet of heavy-duty vehicles.</p>
+            </recital>
+            <recital xml:id="rec_d458e368">
+               <num>(17)</num>
+               <p>In light of innovation and to take into account the implementation of new technologies that improve the fuel efficiency of heavy-duty vehicles, the VECTO simulation tool as well as Regulation (EU) 2017/2400 will be continually updated in a timely manner.</p>
+            </recital>
+            <recital xml:id="rec_d458e374">
+               <num>(18)</num>
+               <p>The CO<sub>2</sub> emissions data determined pursuant to Regulation (EU) 2017/2400 are to be monitored under Regulation (EU) 2018/956 of the European Parliament and of the Council<authorialNote placement="bottom" marker="7">
+                     <p>Regulation (EU) 2018/956 of the European Parliament and of the Council of 28 June 2018 on the monitoring and reporting of CO<sub>2</sub> emissions from and fuel consumption of new heavy-duty vehicles (OJ L 173, 9.7.2018, p. 1).</p>
+                  </authorialNote>. Those data should form the basis for determining the CO<sub>2</sub> emissions reduction targets to be achieved by the four groups of the most emitting heavy-duty vehicles in the Union, as well as for determining a manufacturer&apos;s average specific CO<sub>2</sub> emissions in a given reporting period.</p>
+            </recital>
+            <recital xml:id="rec_d458e402">
+               <num>(19)</num>
+               <p>A CO<sub>2</sub> emissions reduction target should be set for 2025 as a relative reduction based on the average CO<sub>2</sub> emissions of those heavy-duty vehicles that were newly registered in the period from 1 July 2019 to 30 June 2020, reflecting the deployment of readily available cost-effective technologies for conventional vehicles. For 2030 onwards, a CO<sub>2</sub> emissions reduction target should also be set. That target should apply unless decided otherwise pursuant to the review to be carried out in 2022. The 2030 target should be assessed in accordance with the European Union commitments under the Paris Agreement.</p>
+            </recital>
+            <recital xml:id="rec_d458e424">
+               <num>(20)</num>
+               <p>To ensure the robustness of the reference CO<sub>2</sub> emissions against increasing CO<sub>2</sub> emissions of heavy-duty vehicles by undue procedural means, which would not be representative for a situation where CO<sub>2</sub> emissions are already regulated, it is appropriate to provide a methodology for correcting the reference CO<sub>2</sub> emissions where necessary.</p>
+            </recital>
+            <recital xml:id="rec_d458e442">
+               <num>(21)</num>
+               <p>Liquefied natural gas (LNG) is an available alternative fuel to diesel for heavy-duty vehicles. The deployment of current and upcoming more innovative LNG-based technologies will contribute to meeting the CO<sub>2</sub> emissions reduction targets in the short and medium term as the use of LNG technologies leads to lower CO<sub>2</sub> emissions when compared to diesel vehicles. The CO<sub>2</sub> emissions reduction potential of LNG vehicles is already fully reflected in VECTO. In addition, current LNG technologies ensure a low level of air pollutant emissions, such as NO<sub>x</sub> and particulate matters. A sufficient minimum refuelling infrastructure is also in place and is being further deployed as part of national policy frameworks for alternative fuel infrastructure.</p>
+            </recital>
+            <recital xml:id="rec_d458e460">
+               <num>(22)</num>
+               <p>In calculating the reference CO<sub>2</sub> emissions serving as the basis for determining the 2025 and 2030 specific CO<sub>2</sub> emissions targets, the expected CO<sub>2</sub> emissions reduction potential of the heavy-duty fleet should be taken into account. It is therefore appropriate to exclude vocational vehicles, such as vehicles used for garbage collection or construction works, from that calculation. Those vehicles have a comparatively low mileage, and due to their specific driving pattern, technical measures for reducing CO<sub>2</sub> emissions and fuel consumption do not appear to be as cost effective in the same way as they are for heavy-duty vehicles used for the delivery of goods.</p>
+            </recital>
+            <recital xml:id="rec_d458e479">
+               <num>(23)</num>
+               <p>The CO<sub>2</sub> emissions reduction requirements should be expressed in grams of CO<sub>2</sub> per tonne kilometre to reflect the utility of the heavy-duty vehicles.</p>
+            </recital>
+            <recital xml:id="rec_d458e491">
+               <num>(24)</num>
+               <p>A fair distribution of the overall CO<sub>2</sub> emissions reduction requirements among the manufacturers needs to be ensured, taking into account the diversity of heavy-duty vehicles in terms of their design and driving pattern, annual mileage, payload and trailer configuration. It is therefore appropriate to distinguish the heavy-duty vehicles according to different and separate vehicle sub-groups that reflect the vehicles&apos; typical usage pattern and specific technical characteristics. By setting annual manufacturer specific CO<sub>2</sub> emissions targets as a weighted average of the targets defined for each such vehicle sub-group, manufacturers are also given the means to effectively balance a possible underperformance of vehicles in certain vehicle sub-groups with an overachievement in other vehicle sub-groups, taking into account the average lifetime CO<sub>2</sub> emissions of vehicles in the different vehicle sub-groups.</p>
+            </recital>
+            <recital xml:id="rec_d458e506">
+               <num>(25)</num>
+               <p>A manufacturer&apos;s compliance with its annual specific CO<sub>2</sub> emissions targets should be assessed on the basis of its average CO<sub>2</sub> emissions. In determining the average specific CO<sub>2</sub> emissions, the specificities that are reflected in the different vehicle sub-groups should also be considered. As a consequence, the average specific CO<sub>2</sub> emissions of a manufacturer should be based on the average CO<sub>2</sub> emissions determined for each vehicle sub-group, including a weighting based on its assumed average annual mileage and average payload, which reflects the total lifetime CO<sub>2</sub> emissions. Due to the limited CO<sub>2</sub> emissions reduction potential of vocational vehicles, those vehicles should not be taken into account for the calculation of the average specific CO<sub>2</sub> emissions.</p>
+            </recital>
+            <recital xml:id="rec_d458e537">
+               <num>(26)</num>
+               <p>In order to ensure the smooth transition towards zero-emission mobility and to provide incentives for the development and deployment on the Union market of zero- and low-emission heavy-duty vehicles that would complement demand-side instruments, such as Directive 2009/33/EC of the European Parliament and of the Council<authorialNote placement="bottom" marker="8">
+                     <p>Directive 2009/33/EC of the European Parliament and of the Council of 23 April 2009 on the promotion of clean and energy-efficient road transport vehicles (OJ L 120, 15.5.2009, p. 5).</p>
+                  </authorialNote>, a dedicated mechanism in the form of super credits should be introduced for the reporting periods before 2025 and a benchmark for the share of zero- and low-emission heavy-duty vehicles in a manufacturer&apos;s fleet should be set for the reporting periods as from 2025.</p>
+            </recital>
+            <recital xml:id="rec_d458e553">
+               <num>(27)</num>
+               <p>The incentive system should be designed so as to ensure investment certainty for charging infrastructure providers and manufacturers in order to promote the rapid deployment on the Union market of zero- and low-emission heavy-duty vehicles, while allowing certain flexibility for the manufacturers to decide on their investment timeline.</p>
+            </recital>
+            <recital xml:id="rec_d458e559">
+               <num>(28)</num>
+               <p>For the purpose of calculating the average specific CO<sub>2</sub> emissions of a manufacturer, in the reporting periods prior to 2025, all zero- and low-emission heavy-duty vehicles should be counted multiple times. For the reporting periods as from 2025, the average specific CO<sub>2</sub> emissions of a manufacturer should be calculated taking into account its performance against the benchmark of zero- and low-emission heavy-duty vehicles. The level of incentives should vary according to the actual CO<sub>2</sub> emissions of the vehicle. In order to avoid a weakening of the environmental objectives, the resulting CO<sub>2</sub> emissions reduction should be subject to a cap.</p>
+            </recital>
+            <recital xml:id="rec_d458e577">
+               <num>(29)</num>
+               <p>Low-emission heavy-duty vehicles should only be incentivised if their CO<sub>2</sub> emissions are less than half of the reference CO<sub>2</sub> emissions of all vehicles in the vehicle sub-group to which the heavy-duty vehicle belongs. That would incentivise innovation in this field.</p>
+            </recital>
+            <recital xml:id="rec_d458e590">
+               <num>(30)</num>
+               <p>In designing the incentive mechanism for the deployment of zero-emission heavy-duty vehicles, smaller lorries that are not subject to the CO<sub>2</sub> emissions reduction targets under this Regulation should also be included. Those vehicles also have significant benefits in terms of helping to address air pollution problems in cities. In order to ensure that the incentives are well balanced between the different types of vehicles, the reduction in the average specific CO<sub>2</sub> emissions of a manufacturer resulting from zero-emission smaller lorries should therefore also be subject to a cap.</p>
+            </recital>
+            <recital xml:id="rec_d458e603">
+               <num>(31)</num>
+               <p>In order to promote a cost-effective implementation of the CO<sub>2</sub> emissions reduction requirements, while taking into account fluctuations in the heavy-duty vehicles fleet composition and CO<sub>2</sub> emissions over the years, manufacturers should have the possibility of balancing their overachievement in complying with their specific CO<sub>2</sub> emissions target in one year with an underperformance in another year.</p>
+            </recital>
+            <recital xml:id="rec_d458e618">
+               <num>(32)</num>
+               <p>In order to incentivise early CO<sub>2</sub> emissions reductions, a manufacturer whose average specific CO<sub>2</sub> emissions are below the CO<sub>2</sub> emissions reduction trajectory defined by the reference CO<sub>2</sub> emissions and the 2025 CO<sub>2</sub> emissions target, should be able to bank those emission credits for the purpose of compliance with the 2025 target. Similarly, a manufacturer whose average specific CO<sub>2</sub> emissions are below the CO<sub>2</sub> emissions reduction trajectory between the 2025 target and the target applicable from 2030 onwards, should be able to bank those emission credits for the purpose of compliance with the CO<sub>2</sub> emissions targets from 1 July 2025 to 30 June 2030.</p>
+            </recital>
+            <recital xml:id="rec_d458e655">
+               <num>(33)</num>
+               <p>In the case of non-compliance with its specific CO<sub>2</sub> emissions target in any of the 12-month reporting periods starting from 1 July 2025 to 30 June 2030, a manufacturer should also have the possibility to acquire a limited emission debt. However, manufacturers should clear any remaining emission debt in the reporting period of the year 2029 ending on 30 June 2030.</p>
+            </recital>
+            <recital xml:id="rec_d458e673">
+               <num>(34)</num>
+               <p>Emission credits and emission debts should be considered only for the purpose of determining a manufacturer&apos;s compliance with its specific CO<sub>2</sub> emissions target and not as assets that are transferrable or subject to fiscal measures.</p>
+            </recital>
+            <recital xml:id="rec_d458e682">
+               <num>(35)</num>
+               <p>The Commission should impose a financial penalty, in the form of an excess CO<sub>2</sub> emissions premium, where a manufacturer is found to have excess CO<sub>2</sub> emissions, taking into account the emission credits and emission debts. Information about excess CO<sub>2</sub> emissions of manufacturers should be made publicly available. In order to provide manufacturers with sufficient incentive to take measures to reduce the specific CO<sub>2</sub> emissions from heavy-duty vehicles, it is important that the premium exceed the average marginal costs of the technologies needed to meet the CO<sub>2</sub> emissions targets. The methodology for collecting the premiums should be determined by means of an implementing act, taking into account the methodology adopted pursuant to Regulation (EC) No 443/2009 of the European Parliament and of the Council<authorialNote placement="bottom" marker="9">
+                     <p>Regulation (EC) No 443/2009 of the European Parliament and of the Council of 23 April 2009 setting emission performance standards for new passenger cars as part of the Community&apos;s integrated approach to reduce CO<sub>2</sub> emissions from light-duty vehicles (OJ L 140, 5.6.2009, p. 1).</p>
+                  </authorialNote>. The premium should be considered as revenue for the general budget of the European Union. As part of the evaluation to be performed pursuant to Regulation (EU) 2019/631, the Commission should evaluate the possibility of allocating those amounts to a specific fund or a relevant programme that aims to ensure a just transition towards zero-emission mobility and to support re-skilling, up-skilling and other skills training of workers in the automotive sector.</p>
+            </recital>
+            <recital xml:id="rec_d458e717">
+               <num>(36)</num>
+               <p>A robust compliance mechanism is necessary in order to ensure that the CO<sub>2</sub> emissions targets under this Regulation are met. The obligations on manufacturers to deliver accurate data pursuant to Regulation (EU) 2018/956 and the administrative fines that may be imposed in the case of non-compliance with that obligation contribute to ensuring the robustness of the data used for target compliance purposes under this Regulation.</p>
+            </recital>
+            <recital xml:id="rec_d458e726">
+               <num>(37)</num>
+               <p>In order to achieve the CO<sub>2</sub> emissions reductions pursuant to this Regulation, the CO<sub>2</sub> emissions of heavy-duty vehicles in use should be in conformity with the values determined pursuant to Regulation (EC) No 595/2009 and its implementing measures. It should therefore be possible for the Commission to take into account, in the calculation of the average specific CO<sub>2</sub> emissions of a manufacturer, any systematic non-conformity found by type-approval authorities with regard to the CO<sub>2</sub> emissions of heavy-duty vehicles in use.</p>
+            </recital>
+            <recital xml:id="rec_d458e745">
+               <num>(38)</num>
+               <p>In order to be in a position to take such measures, the Commission should have the powers to establish and implement a procedure for verifying the correspondence between the CO<sub>2</sub> emissions of heavy-duty vehicles in-service as determined in accordance with Regulation (EC) No 595/2009 and its implementing measures, and the CO<sub>2</sub> emission values recorded in the certificates of conformity, individual approval certificates or customer information files. In developing that procedure, particular consideration should be given to identifying methods, including the use of data from on-board fuel and/or energy consumption monitoring devices, for detecting strategies through which a vehicle&apos;s CO<sub>2</sub> performance is artificially improved in the certification procedure. Where deviations or strategies that artificially improve a vehicle&apos;s CO<sub>2</sub> performance are found in the course of such verifications, those findings are to be considered as sufficient reason to suspect that there is a serious risk of non-compliance with the requirements laid down in Regulation (EC) No 595/2009 and in Regulation (EU) 2018/858 of the European Parliament and of the Council<authorialNote placement="bottom" marker="10">
+                     <p>Regulation (EU) 2018/858 of the European Parliament and of the Council of 30 May 2018 on the approval and market surveillance of motor vehicles and their trailers, and of systems, components and separate technical units intended for such vehicles, amending Regulations (EC) No 715/2007 and (EC) No 595/2009 and repealing Directive 2007/46/EC (OJ L 151, 14.6.2018, p. 1).</p>
+                  </authorialNote>, and Member States should, on that basis, take the necessary measures pursuant to Chapter XI of Regulation (EU) 2018/858.</p>
+            </recital>
+            <recital xml:id="rec_d458e774">
+               <num>(39)</num>
+               <p>The effectiveness of the CO<sub>2</sub> emissions targets set out in this Regulation is strongly dependent on the real-world representativeness of the methodology used for determining the CO<sub>2</sub> emissions. In line with the 2016 Opinion of the Scientific Advice Mechanism (SAM) as regards light-duty vehicles, and the recommendation of the European Parliament following its inquiry into emission measurements in the automotive sector, it is appropriate also in the case of heavy-duty vehicles to put in place a mechanism to assess the real-world representativeness of the CO<sub>2</sub> emission and energy consumption values determined pursuant to Regulation (EU) 2017/2400. The most reliable way to ensure the real-world representativeness of those values is by using data from the on-board fuel and/or energy consumption monitoring devices. The Commission should therefore have the powers to develop the procedures needed for collecting and processing fuel and energy consumption data required for making such assessments and to ensure the public availability of such data, whilst providing for the protection of any personal data.</p>
+            </recital>
+            <recital xml:id="rec_d458e789">
+               <num>(40)</num>
+               <p>The Commission should assess how fuel and energy consumption data may help to ensure that the vehicle CO<sub>2</sub> emissions determined with the VECTO tool in accordance with Regulation (EC) No 595/2009 and its implementing measures remain representative of real-world CO<sub>2</sub> emissions over time for all manufacturers, and, more precisely, how such data can be used to monitor the gap between the CO<sub>2</sub> emission values determined by the VECTO tool and real-world CO<sub>2</sub> emissions and, where necessary, to prevent this gap increasing.</p>
+            </recital>
+            <recital xml:id="rec_d458e807">
+               <num>(41)</num>
+               <p>In 2022, the Commission should assess the effectiveness of the CO<sub>2</sub> emission performance standards laid down in this Regulation and in particular the level of the CO<sub>2</sub> emissions reduction target to be achieved by 2030, the modalities that should be available for achieving that target and beyond, as well as the setting of CO<sub>2</sub> emissions reduction targets for other types of heavy-duty vehicles, such as smaller lorries, vocational vehicles, buses, coaches and trailers. That assessment should also include, strictly for the purpose of this Regulation, considerations of heavy-duty vehicles and vehicle combinations, taking into account weights and dimensions applicable to national transport, for example modular and intermodal concepts, while also assessing possible transport safety and efficiency aspects, intermodal, environmental, infrastructural and rebound effects as well as the geographical situation of Member States.</p>
+            </recital>
+            <recital xml:id="rec_d458e822">
+               <num>(42)</num>
+               <p>It is important to assess the full life-cycle CO<sub>2</sub> emissions from heavy-duty vehicles at Union level. To that end, the Commission should evaluate not later than 2023 the possibility of developing a common Union methodology for the assessment and the consistent data reporting of the full life-cycle CO<sub>2</sub> emissions of heavy-duty vehicles that are placed on the Union market. The Commission should adopt follow-up measures, including, where appropriate, legislative proposals.</p>
+            </recital>
+            <recital xml:id="rec_d458e834">
+               <num>(43)</num>
+               <p>In order to ensure that the specific CO<sub>2</sub> emissions of heavy-duty vehicles remain representative and fully up-to-date, amendments to Regulation (EC) No 595/2009 and its implementing measures that affect those specific CO<sub>2</sub> emissions, need to be reflected in this Regulation. For that purpose, the Commission should have the powers to determine a methodology for defining a representative heavy-duty vehicle for each vehicle sub-group, on the basis of which changes of the specific CO<sub>2</sub> emissions should be assessed.</p>
+            </recital>
+            <recital xml:id="rec_d458e850">
+               <num>(44)</num>
+               <p>In order to ensure uniform conditions for the implementation of this Regulation, implementing powers in relation to the publication of a list of certain data and manufacturer performance should be conferred on the Commission.</p>
+            </recital>
+            <recital xml:id="rec_d458e856">
+               <num>(45)</num>
+               <p>In order to ensure uniform conditions for the implementation of this Regulation, implementing powers in relation to identifying vehicles that are certified as vocational vehicles and applying corrections to the annual average specific CO<sub>2</sub> emissions of a manufacturer, collecting excess CO<sub>2</sub> emissions premiums, reporting deviations in CO<sub>2</sub> emissions values and taking them into account in the calculation of the average specific CO<sub>2</sub> emissions, assessing the application of the conditions under which the reference CO<sub>2</sub> emissions have been determined and the criteria to determine whether those emissions have been unduly increased and, if so, how they are to be corrected, ensuring that certain parameters relating to real world CO<sub>2</sub> emissions and energy consumption of heavy-duty vehicles are made available to the Commission, performing verifications that the CO<sub>2</sub> emission and fuel consumption values in the customer information files correspond to the CO<sub>2</sub> emission from and fuel consumption of heavy-duty vehicles in-service and on the presence of strategies to artificially improve the vehicle&apos;s performance in the tests performed or in calculations made, and defining one or more representative vehicles of a vehicle sub-group on the basis of which a payload adjustment is to be determined, should be conferred on the Commission. In order to ensure uniform conditions for the implementation of Regulation (EC) No 595/2009, implementing powers in relation to determining certain aspects of the environmental performance of vehicles of categories M<sub>2</sub>, M<sub>3</sub>, N<sub>2</sub>, N<sub>3</sub>, O<sub>3</sub> and O<sub>4</sub> should be conferred on the Commission. The implementing powers referred to in this recital should be exercised in accordance with Regulation (EU) No 182/2011 of the European Parliament and of the Council<authorialNote placement="bottom" marker="11">
+                     <p>Regulation (EU) No 182/2011 of the European Parliament and of the Council of 16 February 2011 laying down the rules and general principles concerning mechanisms for control by Member States of the Commission&apos;s exercise of implementing powers (OJ L 55, 28.2.2011, p. 13).</p>
+                  </authorialNote>.</p>
+            </recital>
+            <recital xml:id="rec_d458e916">
+               <num>(46)</num>
+               <p>In order to amend or supplement non-essential elements of the provisions of this Regulation, the power to adopt acts in accordance with Article 290 of the Treaty on the Functioning of the European Union should be delegated to the Commission in respect of adjusting the reference CO<sub>2</sub> emissions, in respect of setting out the guiding principles and criteria to define the procedures to verify CO<sub>2</sub> emissions of heavy-duty vehicles in-service and in respect of amending the Annexes to this Regulation as regards certain technical parameters, including the mission profile weights, the payload values, the annual mileage values and the payload adjustment factors. It is of particular importance that the Commission carry out appropriate consultations during its preparatory work, including at expert level, and that those consultations be conducted in accordance with the principles laid down in the Interinstitutional Agreement of 13 April 2016 on Better Law-Making<authorialNote placement="bottom" marker="12">
+                     <p>OJ L 123, 12.5.2016, p. 1.</p>
+                  </authorialNote>. In particular, to ensure equal participation in the preparation of delegated acts, the European Parliament and the Council should receive all documents at the same time as Member States&apos; experts, and their experts should systematically have access to meetings of Commission expert groups dealing with the preparation of delegated acts.</p>
+            </recital>
+            <recital xml:id="rec_d458e937">
+               <num>(47)</num>
+               <p>Since the objective of this Regulation, namely the establishment of CO<sub>2</sub> emissions performance standards for new heavy-duty vehicles, cannot be sufficiently achieved by the Member States, but can rather, by reason of its scale and effects, be better achieved at Union level, the Union may adopt measures, in accordance with the principle of subsidiarity as set out in Article 5 of the Treaty on European Union. In accordance with the principle of proportionality, as set out in that Article, this Regulation does not go beyond what is necessary in order to achieve that objective.</p>
+            </recital>
+            <recital xml:id="rec_d458e946">
+               <num>(48)</num>
+               <p>Regulations (EC) No 595/2009 and (EU) 2018/956 and Council Directive 96/53/EC<authorialNote placement="bottom" marker="13">
+                     <p>Council Directive 96/53/EC of 25 July 1996 laying down for certain road vehicles circulating within the Community the maximum authorized dimensions in national and international traffic and the maximum authorized weights in international traffic (OJ L 235, 17.9.1996, p. 59).</p>
+                  </authorialNote> should therefore also be amended accordingly,</p>
+            </recital>
+         </recitals>
+         <formula name="enactingFormula">
+            <p>HAVE ADOPTED THIS REGULATION:</p>
+         </formula>
+      </preamble>
+      <body>
+         <article xml:id="art_d458e965">
+            <num>Article 1</num>
+            <heading>Subject matter and objective</heading>
+            <paragraph>
+               <subparagraph>
+                  <content>
+                     <p>In order to contribute to achieving the Union&apos;s target of reducing its greenhouse gas emissions by 30 % below 2005 levels in 2030 in the sectors covered by Article 2 of Regulation (EU) 2018/842 and to achieving the objectives of the Paris Agreement, and to ensure the proper functioning of the internal market, this Regulation sets CO<sub>2</sub> emission performance requirements for new heavy-duty vehicles whereby the specific CO<sub>2</sub> emissions of the Union fleet of new heavy-duty vehicles shall be reduced compared to the reference CO<sub>2</sub> emissions as follows:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <content>
+                        <p>for the reporting periods of the year 2025 onwards by 15 %;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <content>
+                        <p>for the reporting periods of the year 2030 onwards by 30 %, unless decided otherwise pursuant to the review referred to in Article 15.</p>
+                     </content>
+                  </point>
+               </list>
+            </paragraph>
+            <paragraph>
+               <content>
+                  <p>The reference CO<sub>2</sub> emissions shall be based on the monitoring data reported pursuant to Regulation (EU) 2018/956 for the period from 1 July 2019 to 30 June 2020 (&apos;the reference period&apos;), excluding vocational vehicles, and shall be calculated in accordance with point 3 of Annex I to this Regulation.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d458e1012">
+            <num>Article 2</num>
+            <heading>Scope</heading>
+            <paragraph>
+               <num>1.</num>
+               <subparagraph>
+                  <content>
+                     <p>This Regulation shall apply to new heavy-duty vehicles of categories N<sub>2</sub> and N<sub>3</sub> that meet the following characteristics:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <content>
+                        <p>rigid lorries with an axle configuration of 4×2 and a technically permissible maximum laden mass exceeding 16 tonnes;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <content>
+                        <p>rigid lorries with an axle configuration of 6×2;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(c)</num>
+                     <content>
+                        <p>tractors with an axle configuration of 4x2 and a technically permissible maximum laden mass exceeding 16 tonnes; and</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(d)</num>
+                     <content>
+                        <p>tractors with an axle configuration of 6x2.</p>
+                     </content>
+                  </point>
+               </list>
+               <subparagraph>
+                  <content>
+                     <p>It shall also apply, for the purposes of Article 5 of, and point 2.3 of Annex I to, this Regulation, to new heavy-duty vehicles of category N that do not fall within the scope of Regulation (EU) No 510/2011 of the European Parliament and of the Council<authorialNote placement="bottom" marker="14">
+                           <p>Regulation (EU) No 510/2011 of the European Parliament and of the Council of 11 May 2011 setting emission performance standards for new light commercial vehicles as part of the Union&apos;s integrated approach to reduce CO<sub>2</sub> emissions from light-duty vehicles (OJ L 145, 31.5.2011, p. 1).</p>
+                        </authorialNote> and do not meet the characteristics set out in points (a) to (d) of the first subparagraph.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>The vehicle categories referred to in the first and second subparagraphs of this paragraph refer to the vehicle categories as defined in Annex II to Directive 2007/46/EC of the European Parliament and of the Council<authorialNote placement="bottom" marker="15">
+                           <p>Directive 2007/46/EC of the European Parliament and of the Council of 5 September 2007 establishing a framework for the approval of motor vehicles and their trailers, and of systems, components and separate technical units intended for such vehicles (Framework Directive) (OJ L 263, 9.10.2007, p. 1).</p>
+                        </authorialNote>.</p>
+                  </content>
+               </subparagraph>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <subparagraph>
+                  <content>
+                     <p>The vehicles referred to paragraph 1 shall, for the purposes of this Regulation, be considered as new heavy-duty vehicles in a given 12-month period starting from 1 July, if they are registered in the Union for the first time in that period and have not been previously registered outside the Union.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>A previous registration outside the Union made less than three months before registration in the Union shall not be taken into account.</p>
+                  </content>
+               </subparagraph>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <content>
+                  <p>The Commission shall, by means of implementing acts, adopt a specific procedure for identifying heavy-duty vehicles that are certified as vocational vehicles pursuant to Regulation (EC) No 595/2009 and its implementing measures but are not registered as such, and shall apply corrections to the annual average specific CO<sub>2</sub> emissions of a manufacturer to take those vehicles into account, starting from the reporting period of the year 2021 and for each subsequent reporting period. Those implementing acts shall be adopted in accordance with the examination procedure referred to in Article 16(2) of this Regulation.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d458e1097">
+            <num>Article 3</num>
+            <heading>Definitions</heading>
+            <paragraph>
+               <subparagraph>
+                  <content>
+                     <p>For the purposes of this Regulation, the following definitions apply:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(1)</num>
+                     <content>
+                        <p>&apos;reference CO<sub>2</sub> emissions&apos; means the average of the specific CO<sub>2</sub> emissions in the reference period referred to in the second paragraph of Article 1 of all new heavy-duty vehicles in each of the vehicle sub-groups, excluding vocational vehicles, determined in accordance with point 3 of Annex I;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(2)</num>
+                     <content>
+                        <p>&apos;specific CO<sub>2</sub> emissions&apos; means the CO<sub>2</sub> emissions of an individual heavy-duty vehicle determined in accordance with point 2.1 of Annex I;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(3)</num>
+                     <content>
+                        <p>&apos;reporting period of the year Y&apos; means the period from 1 July of the year Y to 30 June of the year Y+1;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(4)</num>
+                     <content>
+                        <p>&apos;average specific CO<sub>2</sub> emissions&apos; means the average of the specific CO<sub>2</sub> emissions of a manufacturer&apos;s new heavy-duty vehicles in a given reporting period determined in accordance with point 2.7 of Annex I;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(5)</num>
+                     <content>
+                        <p>&apos;specific CO<sub>2</sub> emissions target&apos; means the CO<sub>2</sub> emissions target of an individual manufacturer, expressed in g/tkm and determined annually for the preceding reporting period in accordance with point 4 of Annex I;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(6)</num>
+                     <content>
+                        <p>&apos;rigid lorry&apos; means a lorry that is not designed or constructed for the towing of a semi-trailer;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(7)</num>
+                     <content>
+                        <p>&apos;tractor&apos; means a tractor unit that is designed and constructed exclusively or principally to tow semi-trailers;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(8)</num>
+                     <content>
+                        <p>&apos;vehicle sub-group&apos; means a grouping of vehicles as defined in point 1 of Annex I, that are characterised by a common and distinctive set of technical criteria relevant for determining the CO<sub>2</sub> emissions and fuel consumption of those vehicles;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(9)</num>
+                     <content>
+                        <p>&apos;vocational vehicle&apos; means a heavy-duty vehicle for which the CO<sub>2</sub> emissions and fuel consumption have been determined, in accordance with Regulation (EC) No 595/2009 and its implementing measures, only for mission profiles other than those defined in point 2.1 of Annex I to this Regulation;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(10)</num>
+                     <content>
+                        <p>&apos;manufacturer&apos; means the person or body responsible for submitting the data related to new heavy-duty vehicles pursuant to Article 5 of Regulation (EU) 2018/956 or, in the case of zero-emission heavy-duty vehicles, the person or body responsible to the approval authority for all aspects of the EC whole vehicle type-approval procedure or of the individual approval procedure in accordance with Directive 2007/46/EC and for ensuring conformity of production;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(11)</num>
+                     <content>
+                        <p>&apos;zero-emission heavy-duty vehicle&apos; means a heavy-duty vehicle without an internal combustion engine, or with an internal combustion engine that emits less than 1 g CO<sub>2</sub>/kWh as determined in accordance with Regulation (EC) No 595/2009 and its implementing measures, or which emits less than 1 g CO<sub>2</sub>/km as determined in accordance with Regulation (EC) No 715/2007 of the European Parliament and of the Council<authorialNote placement="bottom" marker="16">
+                              <p>Regulation (EC) No 715/2007 of the European Parliament and of the Council of 20 June 2007 on type approval of motor vehicles with respect to emissions from light passenger and commercial vehicles (Euro 5 and Euro 6) and on access to vehicle repair and maintenance information (OJ L 171, 29.6.2007, p. 1).</p>
+                           </authorialNote> and its implementing measures;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(12)</num>
+                     <content>
+                        <p>&apos;low-emission heavy-duty vehicle&apos; means a heavy-duty vehicle, other than a zero-emission heavy-duty vehicle, with specific CO<sub>2</sub> emissions of less than half of the reference CO<sub>2</sub> emissions of all vehicles in the vehicle sub-group to which the heavy-duty vehicle belongs, as determined in accordance with point 2.3.3 of Annex I;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(13)</num>
+                     <content>
+                        <p>&apos;mission profile&apos; means a combination of a target speed cycle, a payload value, a body or trailer configuration and other parameters, if applicable, reflecting the specific use of a vehicle, on the basis of which official CO<sub>2</sub> emissions and fuel consumption of a heavy-duty vehicle are determined;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(14)</num>
+                     <content>
+                        <p>&apos;target speed cycle&apos; means the description of the vehicle velocity, which the driver wants to reach or to which he is limited by traffic conditions, as a function of the distance covered in a trip;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(15)</num>
+                     <content>
+                        <p>&apos;payload&apos; means the weight of the goods that a vehicle is carrying under different conditions.</p>
+                     </content>
+                  </point>
+               </list>
+            </paragraph>
+         </article>
+         <article xml:id="art_d458e1298">
+            <num>Article 4</num>
+            <heading>Average specific CO<sub>2</sub> emissions of a manufacturer</heading>
+            <paragraph>
+               <subparagraph>
+                  <content>
+                     <p>Starting from 1 July 2020, and in each subsequent reporting period, the Commission shall determine for each manufacturer the average specific CO<sub>2</sub> emissions in g/tkm for the preceding reporting period, by taking the following into account:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <content>
+                        <p>the data reported pursuant to Regulation (EU) 2018/956 for the manufacturer&apos;s new heavy-duty vehicles registered in the preceding reporting period, excluding vocational vehicles; and</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <content>
+                        <p>the zero- and low-emission factor determined in accordance with Article 5.</p>
+                     </content>
+                  </point>
+               </list>
+            </paragraph>
+            <paragraph>
+               <content>
+                  <p>The average specific CO<sub>2</sub> emissions shall be determined in accordance with point 2.7 of Annex I.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d458e1333">
+            <num>Article 5</num>
+            <heading>Zero- and low-emission heavy-duty vehicles</heading>
+            <paragraph>
+               <num>1.</num>
+               <subparagraph>
+                  <content>
+                     <p>Starting from 1 July 2020 and for each subsequent reporting period, the Commission shall determine for each manufacturer the zero- and low-emission factor for the preceding reporting period.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>The zero- and low-emission factor shall take into account the number and the CO<sub>2</sub> emissions of zero- and low-emission heavy-duty vehicles in the manufacturer&apos;s fleet in a reporting period, including zero-emission heavy-duty vehicles referred to in the second subparagraph of Article 2(1), as well as zero- and low-emission vocational vehicles and shall be determined in accordance with point 2.3 of Annex I.</p>
+                  </content>
+               </subparagraph>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <subparagraph>
+                  <content>
+                     <p>For the reporting periods 2019 to 2024, the zero- and low-emission heavy-duty vehicles shall be counted as follows for the purposes of paragraph 1:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <content>
+                        <p>a zero-emission heavy-duty vehicle shall be counted as two vehicles; and</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <content>
+                        <p>a low-emission heavy-duty vehicle shall be counted as up to two vehicles according to a function of its specific CO<sub>2</sub> emissions and the low-emission threshold of the vehicle sub-group to which the vehicle belongs as defined in point 2.3.3 of Annex I.</p>
+                     </content>
+                  </point>
+               </list>
+               <subparagraph>
+                  <content>
+                     <p>The zero- and low-emission factor shall be determined in accordance with point 2.3.1 of Annex I.</p>
+                  </content>
+               </subparagraph>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <content>
+                  <p>For the reporting periods from 2025, onwards the zero- and low-emission factor shall be determined on the basis of a 2 % benchmark in accordance with point 2.3.2 of Annex I.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>4.</num>
+               <content>
+                  <p>The zero- and low-emission factor shall reduce the average specific CO<sub>2</sub> emissions of a manufacturer by a maximum of 3 %. The contribution of the zero-emission heavy-duty vehicles referred to in the second subparagraph of Article 2(1) to that factor shall reduce the average specific CO<sub>2</sub> emissions of a manufacturer by a maximum of 1,5 %.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d458e1392">
+            <num>Article 6</num>
+            <heading>Specific CO<sub>2</sub> emissions targets of a manufacturer</heading>
+            <paragraph>
+               <subparagraph>
+                  <content>
+                     <p>Starting from 1 July 2026 and in each subsequent reporting period, the Commission shall determine for each manufacturer a specific CO<sub>2</sub> emissions target for the preceding reporting period. That specific CO<sub>2</sub> emissions target shall be the sum, over all vehicle sub-groups, of the products of the following values:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <content>
+                        <p>the CO<sub>2</sub> emissions reduction target referred to in point (a) or (b) of the first paragraph of Article 1, as applicable;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <content>
+                        <p>the reference CO<sub>2</sub> emissions;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(c)</num>
+                     <content>
+                        <p>the manufacturer&apos;s share of vehicles in each vehicle sub-group;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(d)</num>
+                     <content>
+                        <p>the annual mileage and payload weighting factors applied to each vehicle sub-group.</p>
+                     </content>
+                  </point>
+               </list>
+            </paragraph>
+            <paragraph>
+               <content>
+                  <p>The specific CO<sub>2</sub> emissions target shall be determined in accordance with point 4 of Annex I.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d458e1448">
+            <num>Article 7</num>
+            <heading>Emission credits and emission debts</heading>
+            <paragraph>
+               <num>1.</num>
+               <subparagraph>
+                  <content>
+                     <p>For the purpose of determining a manufacturer&apos;s compliance with its specific CO<sub>2</sub> emissions targets in the reporting periods of the years 2025 to 2029, account shall be taken of its emission credits or emission debts determined in accordance with point 5 of Annex I, which correspond to the number of new heavy-duty vehicles, excluding vocational vehicles, of the manufacturer in a reporting period, multiplied by:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <content>
+                        <p>the difference between the CO<sub>2</sub> emissions reduction trajectory as referred to in paragraph 2 and the average specific CO<sub>2</sub> emissions of that manufacturer, if that difference is positive (&apos;emission credits&apos;); or</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <content>
+                        <p>the difference between the average specific CO<sub>2</sub> emissions and the specific CO<sub>2</sub> emissions target of that manufacturer, if that difference is positive (&apos;emission debts&apos;).</p>
+                     </content>
+                  </point>
+               </list>
+               <subparagraph>
+                  <content>
+                     <p>Emission credits shall be acquired in the reporting periods of the years 2019 to 2029. However, the emission credits acquired in the reporting periods of the years 2019 to 2024 shall be taken into account for the purpose of determining the manufacturer&apos;s compliance with the specific CO<sub>2</sub> emissions target of the reporting period of the year 2025 only.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>Emission debts shall be acquired in the reporting periods of the years 2025 to 2029. However, the total emission debt of a manufacturer shall not exceed 5 % of the manufacturer&apos;s specific CO<sub>2</sub> emissions target in the reporting period of the year 2025 multiplied by the number of heavy-duty vehicles of the manufacturer in that period (&apos;emission debt limit&apos;).</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>Emission credits and emission debts acquired in the reporting periods of the years 2025 to 2028 shall, where applicable, be carried-over from one reporting period to the next reporting period. Any remaining emission debts shall be cleared in the reporting period of the year 2029.</p>
+                  </content>
+               </subparagraph>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>The CO<sub>2</sub> emissions reduction trajectory shall be set for each manufacturer in accordance with point 5.1 of Annex I, based on a linear trajectory between the reference CO<sub>2</sub> emissions referred to in the second paragraph of Article 1 and the CO<sub>2</sub> emissions target for the reporting period of the year 2025 as specified in point (a) of the first paragraph of that Article, and between the CO<sub>2</sub> emissions target for the reporting period of the year 2025 and the CO<sub>2</sub> emissions target for the reporting periods of the year 2030 onwards as specified in point (b) of the first paragraph of that Article.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d458e1532">
+            <num>Article 8</num>
+            <heading>Compliance with the specific CO<sub>2</sub> emissions targets</heading>
+            <paragraph>
+               <num>1.</num>
+               <subparagraph>
+                  <content>
+                     <p>Where a manufacturer is found, pursuant to paragraph 2, to have excess CO<sub>2</sub> emissions in a given reporting period from 2025 onwards, the Commission shall impose an excess CO<sub>2</sub> emissions premium, calculated in accordance with the following formula:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <alinea>
+                        <content>
+                           <p>from 2025 to 2029,</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>(Excess CO<sub>2</sub> emissions premium) = (Excess CO<sub>2</sub> emissions × 4250 EUR/gCO<sub>2</sub>/tkm)</p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <alinea>
+                        <content>
+                           <p>from 2030 onwards,</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>(Excess CO<sub>2</sub> emissions premium) = (Excess CO<sub>2</sub> emissions × 6800 EUR/gCO<sub>2</sub>/tkm).</p>
+                        </content>
+                     </alinea>
+                  </point>
+               </list>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <subparagraph>
+                  <content>
+                     <p>A manufacturer shall be deemed to have excess CO<sub>2</sub> emissions in any of the following cases:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <content>
+                        <p>where, in any of the reporting periods of the years 2025 to 2028, the sum of the emission debts reduced by the sum of the emission credits exceeds the emission debt limit referred to in the third subparagraph of Article 7(1);</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <content>
+                        <p>where, in the reporting period of the year 2029, the sum of the emission debts reduced by the sum of the emission credits is positive;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(c)</num>
+                     <content>
+                        <p>where, from the reporting period of the year 2030 onwards, the manufacturer&apos;s average specific CO<sub>2</sub> emissions exceed its specific CO<sub>2</sub> emissions target.</p>
+                     </content>
+                  </point>
+               </list>
+               <subparagraph>
+                  <content>
+                     <p>The excess CO<sub>2</sub> emissions in a given reporting period shall be calculated in accordance with point 6 of Annex I.</p>
+                  </content>
+               </subparagraph>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <content>
+                  <p>The Commission shall, by means of implementing acts, determine the means for collecting excess CO<sub>2</sub> emissions premiums under paragraph 1 of this Article. Those implementing acts shall be adopted in accordance with the examination procedure referred to in Article 16(2).</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>4.</num>
+               <content>
+                  <p>The excess CO<sub>2</sub> emissions premiums shall be considered as revenue for the general budget of the European Union.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d458e1649">
+            <num>Article 9</num>
+            <heading>Verification of the monitoring data</heading>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>Type-approval authorities shall, without delay, report to the Commission any deviations in the CO<sub>2</sub> emission values of heavy-duty vehicles in service as compared to the values that are indicated in certificates of conformity or in the customer information file referred to in Article 9(4) of Regulation (EU) 2017/2400 as a result of verifications performed in accordance with the procedure referred to in Article 13 of this Regulation.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>The Commission shall take the deviations referred to in paragraph 1 into account for the purpose of calculating the average specific CO<sub>2</sub> emissions of a manufacturer.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <content>
+                  <p>The Commission shall, by means of implementing acts, adopt detailed rules on the procedures for reporting such deviations and for taking them into account in the calculation of the average specific CO<sub>2</sub> emissions. Those implementing acts shall be adopted in accordance with the examination procedure referred to in Article 16(2).</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d458e1678">
+            <num>Article 10</num>
+            <heading>Assessment of reference CO<sub>2</sub> emissions</heading>
+            <paragraph>
+               <content>
+                  <p>In order to ensure the robustness and representativeness of the reference CO<sub>2</sub> emissions as a basis for determining the Union fleet-wide CO<sub>2</sub> emissions targets, the Commission shall, by means of implementing acts, establish the methodology for assessing the application of the conditions under which the reference CO<sub>2</sub> emissions have been determined and establish the criteria to determine whether those emissions have been unduly increased and, if so, how they are to be corrected.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <content>
+                  <p>Those implementing acts shall be adopted in accordance with the examination procedure referred to in Article 16(2).</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d458e1699">
+            <num>Article 11</num>
+            <heading>Publication of data and manufacturer performance</heading>
+            <paragraph>
+               <num>1.</num>
+               <subparagraph>
+                  <content>
+                     <p>By 30 April each year, the Commission shall, by means of implementing acts, publish a list indicating:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <content>
+                        <p>from 1 July 2020, for each manufacturer, its average specific CO<sub>2</sub> emissions in the preceding reporting period, as referred to in Article 4;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <content>
+                        <p>from 1 July 2020, for each manufacturer, its zero- and low-emission factor in the preceding reporting period, as referred to in Article 5(1);</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(c)</num>
+                     <content>
+                        <p>from 1 July 2026, for each manufacturer, its specific CO<sub>2</sub> emissions target for the preceding reporting period, as referred to in Article 6;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(d)</num>
+                     <content>
+                        <p>from 1 July 2020 until 30 June 2031, for each manufacturer, its CO<sub>2</sub> emissions reduction trajectory, its emission credits and, from 1 July 2026 until 30 June 2031, its emission debts in the preceding reporting period, as referred to in Article 7;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(e)</num>
+                     <content>
+                        <p>from 1 July 2026, for each manufacturer, its excess CO<sub>2</sub> emissions in the preceding reporting period, as referred to in Article 8(1);</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(f)</num>
+                     <content>
+                        <p>from 1 July 2020, the average specific CO<sub>2</sub> emissions of all new heavy-duty vehicles registered in the Union in the preceding reporting period.</p>
+                     </content>
+                  </point>
+               </list>
+               <subparagraph>
+                  <content>
+                     <p>The list to be published by 30 April 2021 shall include the reference CO<sub>2</sub> emissions referred to in the second paragraph of Article 1.</p>
+                  </content>
+               </subparagraph>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <subparagraph>
+                  <content>
+                     <p>The Commission shall adopt delegated acts in accordance with Article 17 to adjust the reference CO<sub>2</sub> emissions in accordance with the following:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <content>
+                        <p>where the mission profile weights or the payload values have been adjusted pursuant to point (b) or (c) of Article 14(1), by applying the procedure set out in point 1 of Annex II;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <content>
+                        <p>where adjustment factors have been determined pursuant to Article 14(2), by applying those adjustment factors to the reference CO<sub>2</sub> emissions;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(c)</num>
+                     <content>
+                        <p>where an undue increase in the reference CO<sub>2</sub> emissions has been determined in accordance with the methodology referred to in Article 10, by correcting the reference CO<sub>2</sub> emissions by 30 April 2022.</p>
+                     </content>
+                  </point>
+               </list>
+               <subparagraph>
+                  <content>
+                     <p>The Commission shall publish the adjusted reference CO<sub>2</sub> emissions values and shall apply those values for the calculation of the manufacturer specific CO<sub>2</sub> emissions targets applicable in the reporting periods starting from the date of application of the delegated acts adjusting the values.</p>
+                  </content>
+               </subparagraph>
+            </paragraph>
+         </article>
+         <article xml:id="art_d458e1847">
+            <num>Article 12</num>
+            <heading>Real-world CO<sub>2</sub> emissions and energy consumption</heading>
+            <paragraph>
+               <num>1.</num>
+               <subparagraph>
+                  <content>
+                     <p>The Commission shall monitor and assess the real-world representativeness of the CO<sub>2</sub> emissions and energy consumption values determined within the framework of Regulation (EC) No 595/2009.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>Furthermore, the Commission shall regularly collect data on the real-world CO<sub>2</sub> emissions and energy consumption of heavy-duty vehicles using on-board fuel and/or energy consumption monitoring devices, starting with new heavy-duty vehicles registered from the date of application of the measures referred to in point (b) of Article 5c of Regulation (EC) No 595/2009.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>The Commission shall ensure that the public is informed of how that representativeness evolves over time.</p>
+                  </content>
+               </subparagraph>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <subparagraph>
+                  <content>
+                     <p>For the purpose of paragraph 1 of this Article, the Commission shall ensure that the following parameters relating to real-world CO<sub>2</sub> emissions and energy consumption of heavy-duty vehicles are made available to it at regular intervals, starting from the date of application of the measures referred to in point (b) of Article 5c of Regulation (EC) No 595/2009, by manufacturers, national authorities or through direct data transfer from vehicles, as the case may be:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <content>
+                        <p>vehicle identification number;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <content>
+                        <p>fuel and electric energy consumed;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(c)</num>
+                     <content>
+                        <p>total distance travelled;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(d)</num>
+                     <content>
+                        <p>payload;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(e)</num>
+                     <content>
+                        <p>for externally chargeable hybrid electric heavy-duty vehicles, the fuel and electric energy consumed, and the distance travelled distributed over the different driving modes;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(f)</num>
+                     <content>
+                        <p>other parameters necessary to ensure that the obligations set out in paragraph 1 of this Article can be met.</p>
+                     </content>
+                  </point>
+               </list>
+               <subparagraph>
+                  <content>
+                     <p>The Commission shall process the data received under the first subparagraph of this paragraph to create an anonymised and aggregated dataset, including per manufacturer, for the purposes of paragraph 1. The vehicle identification numbers shall be used only for the purpose of that data processing and shall not be retained longer than needed for that purpose.</p>
+                  </content>
+               </subparagraph>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <subparagraph>
+                  <content>
+                     <p>In order to prevent the real-world emissions gap from growing, the Commission shall, not later than two years and five months following the date of application of the measures referred to in point (b) of Article 5c of Regulation (EC) No 595/2009, assess how fuel and energy consumption data may be used to ensure that the vehicle CO<sub>2</sub> emission and energy consumption values determined pursuant to that Regulation remain representative of real-world emissions over time for each manufacturer.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>The Commission shall monitor and report annually on how the gap referred to in the first subparagraph evolves, and shall, with a view to preventing an increase in that gap, assess, in 2027, the feasibility of a mechanism to adjust the manufacturer&apos;s average specific CO<sub>2</sub> emissions as of 2030, and, if appropriate, submit a legislative proposal to put such a mechanism in place.</p>
+                  </content>
+               </subparagraph>
+            </paragraph>
+            <paragraph>
+               <num>4.</num>
+               <content>
+                  <p>The Commission shall adopt, by means of implementing acts, the detailed procedure for collecting and processing the data referred to in paragraph 2 of this Article. Those implementing acts shall be adopted in accordance with the examination procedure referred to in Article 16(2).</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d458e1937">
+            <num>Article 13</num>
+            <heading>Verification of the CO<sub>2</sub> emissions of heavy-duty vehicles in-service</heading>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>Manufacturers shall ensure that the CO<sub>2</sub> emission and fuel consumption values recorded in the customer information file referred to in Article 9(4) of Regulation (EU) 2017/2400 correspond to the CO<sub>2</sub> emissions from and fuel consumption of heavy-duty vehicles in-service as determined in accordance with that Regulation.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <subparagraph>
+                  <content>
+                     <p>Following the entry into force of the procedures referred to in paragraph 4, type-approval authorities shall verify, for those manufacturers to which they have granted a licence to operate the simulation tool in accordance with Regulation (EC) No 595/2009 and its implementing measures, on the basis of appropriate and representative vehicle samples, that the CO<sub>2</sub> emission and fuel consumption values recorded in the customer information files correspond to the CO<sub>2</sub> emissions from and fuel consumption of heavy-duty vehicles in-service as determined in accordance with that Regulation and its implementing measures, while considering, inter alia, using available data from on-board fuel and/or energy consumption monitoring devices.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>Type-approval authorities shall also verify the presence of any strategies on board or relating to the sampled vehicles that artificially improve the vehicle&apos;s performance in the tests performed or in the calculations made for the purpose of certifying the CO<sub>2</sub> emissions and fuel consumption by, inter alia, using data from on-board fuel and/or energy consumption monitoring devices.</p>
+                  </content>
+               </subparagraph>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <content>
+                  <p>Where a lack of correspondence of CO<sub>2</sub> emission and fuel consumption values which cannot be attributed to a malfunctioning of the simulation tool, or the presence of any strategies artificially improving a vehicle&apos;s performance, is found as a result of the verifications performed pursuant to paragraph 2, the responsible type-approval authority shall, in addition to taking the necessary measures set out in Chapter XI of Regulation (EU) 2018/858, ensure that the customer information files, the certificates of conformity and the individual approval certificates are corrected, as the case may be.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>4.</num>
+               <subparagraph>
+                  <content>
+                     <p>The Commission shall determine, by means of implementing acts, the procedures for performing the verifications referred to in paragraph 2 of this Article. Those implementing acts shall be adopted in accordance with the examination procedure referred to in Article 16(2).</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>The Commission is empowered, prior to adopting the implementing acts referred to in the first subparagraph, to adopt a delegated act in accordance with Article 17, in order to supplement this Regulation by setting out the guiding principles and criteria for defining the procedures referred to in the first subparagraph.</p>
+                  </content>
+               </subparagraph>
+            </paragraph>
+         </article>
+         <article xml:id="art_d458e1988">
+            <num>Article 14</num>
+            <heading>Amendments to Annexes I and II</heading>
+            <paragraph>
+               <num>1.</num>
+               <subparagraph>
+                  <content>
+                     <p>In order to ensure that the technical parameters used for the calculation of the average specific CO<sub>2</sub> emissions of a manufacturer pursuant to Article 4 and the calculation of the specific CO<sub>2</sub> emissions targets pursuant to Article 6 take into account technical progress and the evolution of freight transport logistics, the Commission is empowered to adopt delegated acts in accordance with Article 17 to amend the following provisions set out in Annexes I and II:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <content>
+                        <p>the entries for cab type and engine power set out in Table 1 of Annex I and the definitions of &apos;sleeper cab&apos; and &apos;day cab&apos; referred to in that Table;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <content>
+                        <p>the mission profile weights set out in Table 2 of Annex I;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(c)</num>
+                     <content>
+                        <p>the payload values set out in Table 3 of Annex I, and the payload adjustment factors set out in Table 1 of Annex II;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(d)</num>
+                     <content>
+                        <p>the annual mileage values set out in Table 4 of Annex I.</p>
+                     </content>
+                  </point>
+               </list>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>Where the type-approval procedures laid down in Regulation (EC) No 595/2009 and its implementing measures are modified by amendments other than those referred to in points (b) and (c) of paragraph 1 of this Article in such a way that the level of the CO<sub>2</sub> emissions of the representative vehicles defined pursuant to this paragraph increase or decrease by more than 5 g CO<sub>2</sub>/km, the Commission shall, in accordance with point (b) of the first subparagraph of Article 11(2), apply an adjustment factor to the reference CO<sub>2</sub> emissions that is to be calculated in accordance with the formula set out in point 2 of Annex II.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <content>
+                  <p>The Commission shall, by means of implementing acts, establish a methodology for defining one or more representative vehicles of a vehicle sub-group, including their statistical weightings, on the basis of which the adjustment referred to in paragraph 2 of this Article shall be determined, taking into account the monitoring data reported pursuant to Regulation (EU) 2018/956 and the technical characteristics of the vehicles listed in Article 12(1) of Regulation (EU) 2017/2400. Those implementing acts shall be adopted in accordance with the examination procedure set out in Article 16(2) of this Regulation.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d458e2058">
+            <num>Article 15</num>
+            <heading>Review and report</heading>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>By 31 December 2022, the Commission shall submit a report to the European Parliament and to the Council on the effectiveness of this Regulation, on the CO<sub>2</sub> emissions reduction target and the level of the incentive mechanism for zero- and low-emission heavy-duty vehicles applicable from 2030, on setting CO<sub>2</sub> emissions reduction targets for other types of heavy-duty vehicles, including trailers, buses and coaches, and vocational vehicles, and on the introduction of binding CO<sub>2</sub> emissions reduction targets for heavy-duty vehicles for 2035 and 2040 onwards. The 2030 target shall be assessed in accordance with the European Union commitments under the Paris Agreement.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <subparagraph>
+                  <content>
+                     <p>The report referred to in paragraph 1 of this Article shall also, in particular, include the following:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <content>
+                        <p>an assessment of the effectiveness of the system of emission credits and emission debts referred to in Article 7 and the appropriateness of extending its application to 2030 and beyond;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <content>
+                        <p>an assessment of the deployment of zero- and low-emission heavy-duty vehicles, taking into account the targets set out in Directive 2009/33/EC, as well as relevant parameters and conditions affecting the placing on the market of such heavy-duty vehicles;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(c)</num>
+                     <content>
+                        <p>an assessment of the effectiveness of the incentive mechanism for zero- and low-emission heavy-duty vehicles set out in Article 5 and the appropriateness of its different elements, with a view to adjusting it for the period after 2025 towards a possible differentiation by zero-emission driving range and vehicle sub-group, combined with mileage payload weighting factors, with a date of application that provides at least three years of lead time;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(d)</num>
+                     <content>
+                        <p>an assessment of the roll-out of the necessary recharging and refuelling infrastructure, of the possibility of introducing engine CO<sub>2</sub> emission performance standards, in particular for vocational vehicles, and of the real-world representativeness of the CO<sub>2</sub> emission and fuel consumption values determined in accordance with Regulation (EU) 2017/2400;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(e)</num>
+                     <content>
+                        <p>strictly for the purpose of this Regulation, considerations of heavy-duty vehicles and vehicle combinations taking into account weights and dimensions applicable to national transport, for example modular and intermodal concepts, while also assessing possible transport safety and efficiency aspects, intermodal, environmental, infrastructural and rebound effects as well as the geographical situation of Member States;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(f)</num>
+                     <content>
+                        <p>an assessment of the VECTO simulation tool to ensure that this tool is updated continually and in a timely manner;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(g)</num>
+                     <content>
+                        <p>an assessment of the possibility of developing a specific methodology to include the potential contribution to CO<sub>2</sub> emissions reductions of the use of synthetic and advanced alternative liquid and gaseous renewable fuels, including e-fuels, produced with renewable energy and meeting the sustainability and greenhouse gas emissions saving criteria referred to in Directive (EU) 2018/2001 of the European Parliament and of the Council<authorialNote placement="bottom" marker="17">
+                              <p>Directive (EU) 2018/2001 of the European Parliament and of the Council of 11 December 2018 on the promotion of the use of energy from renewable sources (OJ L 328, 21.12.2018, p. 82).</p>
+                           </authorialNote>;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(h)</num>
+                     <content>
+                        <p>an assessment of the feasibility of introducing an open, transparent and non-discriminatory pooling mechanism between manufacturers;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(i)</num>
+                     <content>
+                        <p>an assessment of the level of the excess CO<sub>2</sub> emissions premium to ensure that it exceeds the average marginal costs of the technologies needed to meet the CO<sub>2</sub> emissions targets.</p>
+                     </content>
+                  </point>
+               </list>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <content>
+                  <p>The report referred to in paragraph 1 shall, where appropriate, be accompanied by a legislative proposal to amend this Regulation.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>4.</num>
+               <content>
+                  <p>As part of the evaluation pursuant to Article 15(5) of Regulation (EU) 2019/631, the Commission shall evaluate the possibility to assign the revenues from the excess CO<sub>2</sub> emissions premiums to a specific fund or a relevant programme, with the objective of ensuring a just transition towards a climate-neutral economy as referred to in Article 4.1 of the Paris Agreement, in particular to support re-skilling, up-skilling and other skills training and reallocation of workers in the automotive sector in all affected Member States, in particular in the regions and the communities most affected by the transition. The Commission shall, if appropriate, submit a legislative proposal to that effect by 2027 at the latest.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>5.</num>
+               <content>
+                  <p>The Commission shall, not later than 2023, evaluate the possibility of developing a common Union methodology for the assessment, and the consistent data reporting, of the full life-cycle CO<sub>2</sub> emissions of new heavy-duty vehicles that are placed on the Union market. The Commission shall transmit that evaluation, including where appropriate proposals for follow-up measures, such as legislative proposals, to the European Parliament and to the Council.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d458e2188">
+            <num>Article 16</num>
+            <heading>Committee procedure</heading>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>The Commission shall be assisted by the Climate Change Committee referred to in point (a) of Article 44(1) of Regulation (EU) 2018/1999 of the European Parliament and of the Council<authorialNote placement="bottom" marker="18">
+                        <p>Regulation (EU) 2018/1999 of the European Parliament and of the Council of 11 December 2018 on the Governance of the Energy Union and Climate Action, amending Regulations (EC) No 663/2009 and (EC) No 715/2009 of the European Parliament and of the Council, Directives 94/22/EC, 98/70/EC, 2009/31/EC, 2009/73/EC, 2010/31/EU, 2012/27/EU and 2013/30/EU of the European Parliament and of the Council, Council Directives 2009/119/EC and (EU) 2015/652 and repealing Regulation (EU) No 525/2013 of the European Parliament and of the Council (OJ L 328, 21.12.2018, p. 1).</p>
+                     </authorialNote>. That committee shall be a committee within the meaning of Regulation (EU) No 182/2011.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>Where reference is made to this paragraph, Article 5 of Regulation (EU) No 182/2011 shall apply.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <content>
+                  <p>Where the committee delivers no opinion, the Commission shall not adopt the draft implementing act and the third subparagraph of Article 5(4) of Regulation (EU) No 182/2011 shall apply.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d458e2219">
+            <num>Article 17</num>
+            <heading>Exercise of the delegation</heading>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>The power to adopt delegated acts is conferred on the Commission subject to the conditions laid down in this Article.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>The power to adopt delegated acts referred to in Article 11(2), the second subparagraph of Article 13(4) and Article 14(1) shall be conferred on the Commission for a period of five years from 14 August 2019. The Commission shall draw up a report in respect of the delegation of power not later than nine months before the end of the five-year period. The delegation of power shall be tacitly extended for periods of an identical duration, unless the European Parliament or the Council opposes such extension not later than three months before the end of each period.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <content>
+                  <p>The delegation of power referred to in Article 11(2), the second subparagraph of Article 13(4) and Article 14(1) may be revoked at any time by the European Parliament or by the Council. A decision to revoke shall put an end to the delegation of the power specified in that decision. It shall take effect the day following the publication of the decision in the <i>Official Journal of the European Union</i> or at a later date specified therein. It shall not affect the validity of any delegated act already in force.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>4.</num>
+               <content>
+                  <p>Before adopting a delegated act, the Commission shall consult experts designated by each Member State in accordance with the principles laid down in the Interinstitutional Agreement of 13 April 2016 on Better Law-Making.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>5.</num>
+               <content>
+                  <p>As soon as it adopts a delegated act, the Commission shall notify it simultaneously to the European Parliament and to the Council.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>6.</num>
+               <content>
+                  <p>A delegated act adopted pursuant to Article 11(2), the second subparagraph of Article 13(4) and Article 14(1) shall enter into force only if no objection has been expressed either by the European Parliament or by the Council within a period of two months of notification of that act to the European Parliament and to the Council or if, before the expiry of that period, the European Parliament and the Council have both informed the Commission that they will not object. That period shall be extended by two months at the initiative of the European Parliament or of the Council.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d458e2263" leos:compliant="false">
+            <num>Article 18</num>
+            <heading>Amendments to Regulation (EC) No 595/2009</heading>
+            <paragraph>
+               <subparagraph>
+                  <content>
+                     <p>Regulation (EC) No 595/2009 is amended as follows:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(1)</num>
+                     <alinea>
+                        <content>
+                           <p>in Article 2, first paragraph, the following sentence is added:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <alinea>
+                                       <content>
+                                          <p>&apos;It shall also apply, for the purpose of Articles 5a, 5b, and 5c, to vehicles of categories O<sub>3</sub> and O<sub>4</sub>.&apos;;</p>
+                                       </content>
+                                    </alinea>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(2)</num>
+                     <alinea>
+                        <content>
+                           <p>the following Articles are inserted:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <article xml:id="art_d458e2300">
+                                       <num>&apos;Article 5a</num>
+                                       <heading>Specific requirements for manufacturers with regard to the environmental performance of vehicles of categories M<sub>2</sub>, M<sub>3</sub>, N<sub>2</sub>, N<sub>3</sub>, O<sub>3</sub> and O<sub>4</sub>
+                                       </heading>
+                                       <paragraph>
+                                          <num>1.</num>
+                                          <subparagraph>
+                                             <content>
+                                                <p>Manufacturers shall ensure that new vehicles of categories O<sub>3</sub> and O<sub>4</sub> that are sold, registered or put into service meet the following requirements:</p>
+                                             </content>
+                                          </subparagraph>
+                                          <list>
+                                             <point>
+                                                <num>(a)</num>
+                                                <content>
+                                                   <p>the influence of those vehicles on the CO<sub>2</sub> emissions, fuel consumption, electric consumption and zero-emission driving range of motor vehicles is determined in accordance with the methodology referred to in point (a) of Article 5c;</p>
+                                                </content>
+                                             </point>
+                                             <point>
+                                                <num>(b)</num>
+                                                <content>
+                                                   <p>they are fitted with on-board devices for the monitoring and recording of the payload in accordance with the requirements referred to in point (b) of Article 5c.</p>
+                                                </content>
+                                             </point>
+                                          </list>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>2.</num>
+                                          <subparagraph>
+                                             <content>
+                                                <p>Manufacturers shall ensure that new vehicles of categories M<sub>2</sub>, M<sub>3</sub>, N<sub>2</sub> and N<sub>3</sub> that are sold, registered or put into service are fitted with on-board devices for the monitoring and recording of fuel and/or energy consumption, payload and mileage in accordance with the requirements referred to in point (b) of Article 5c.</p>
+                                             </content>
+                                          </subparagraph>
+                                          <subparagraph>
+                                             <content>
+                                                <p>They shall also ensure that the zero-emission driving range and electricity consumption of those vehicles are determined in accordance with the methodology referred to in point (c) of Article 5c.</p>
+                                             </content>
+                                          </subparagraph>
+                                       </paragraph>
+                                    </article>
+                                    <article xml:id="art_d458e2371">
+                                       <num>Article 5b</num>
+                                       <heading>Specific requirements for Member States with regard to the environmental performance of vehicles of categories M<sub>2</sub>, M<sub>3</sub>, N<sub>2</sub>, N<sub>3</sub>, O<sub>3</sub> and O<sub>4</sub>
+                                       </heading>
+                                       <paragraph>
+                                          <num>1.</num>
+                                          <content>
+                                             <p>National authorities shall, in accordance with the implementing measures referred to in Article 5c, refuse to grant EC type-approval or national type-approval in respect of new vehicle types of categories M<sub>2</sub>, M<sub>3</sub>, N<sub>2</sub>, N<sub>3</sub>, O<sub>3</sub> and O<sub>4</sub> which do not comply with the requirements set out in those implementing measures.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>2.</num>
+                                          <content>
+                                             <p>National authorities shall, in accordance with the implementing measures referred to in Article 5c, prohibit the sale, registration or entry into service of new vehicles of categories M<sub>2</sub>, M<sub>3</sub>, N<sub>2</sub>, N<sub>3</sub>, O<sub>3</sub> and O<sub>4</sub> which do not comply with the requirements set out in those implementing measures.</p>
+                                          </content>
+                                       </paragraph>
+                                    </article>
+                                    <article xml:id="art_d458e2442">
+                                       <num>Article 5c</num>
+                                       <heading>Measures for determining certain aspects of the environmental performance of vehicles of categories M<sub>2</sub>, M<sub>3</sub>, N<sub>2</sub>, N<sub>3</sub>, O<sub>3</sub> and O<sub>4</sub>
+                                       </heading>
+                                       <paragraph>
+                                          <subparagraph>
+                                             <content>
+                                                <p>By 31 December 2021, the Commission shall, by means of implementing acts, adopt the following measures:</p>
+                                             </content>
+                                          </subparagraph>
+                                          <list>
+                                             <point>
+                                                <num>(a)</num>
+                                                <content>
+                                                   <p>a methodology for assessing the performance of vehicles of categories O<sub>3</sub> and O<sub>4</sub> with regard to their influence on the CO<sub>2</sub> emissions, fuel consumption, electricity consumption and zero-emission driving ranges of motor vehicles;</p>
+                                                </content>
+                                             </point>
+                                             <point>
+                                                <num>(b)</num>
+                                                <content>
+                                                   <p>technical requirements for the fitting of on-board devices for the monitoring and recording of fuel and/or energy consumption and mileage of motor vehicles of categories M<sub>2</sub>, M<sub>3</sub>, N<sub>2</sub> and N<sub>3</sub>, and for determining and recording the payloads or total weight of vehicles meeting the characteristics set out in point (a), (b), (c) or (d) of the first subparagraph of Article 2(1) of Regulation (EU) 2019/1242 of the European Parliament and of the Council<authorialNote placement="bottom" marker="19">
+                                                         <p>Regulation (EU) 2019/1242 of the European Parliament and of the Council of 20 June 2019 setting CO<sub>2</sub> emission performance standards for new heavy-duty vehicles and amending Regulations (EC) No 595/2009 and (EU) 2018/956 of the European Parliament and of the Council and Council Directive 96/53/EC (OJ L 198, 25.7.2019, p. 202).&apos;;</p>
+                                                      </authorialNote> and of their combinations with category O<sub>3</sub> and O<sub>4</sub> vehicles, including the transmission of data between vehicles within a combination, as necessary;</p>
+                                                </content>
+                                             </point>
+                                             <point>
+                                                <num>(c)</num>
+                                                <content>
+                                                   <p>a methodology for determining the zero-emission driving range and electricity consumption of new vehicles of categories M<sub>2</sub>, M<sub>3</sub>, N<sub>2</sub> and N<sub>3</sub>.</p>
+                                                </content>
+                                             </point>
+                                          </list>
+                                       </paragraph>
+                                       <paragraph>
+                                          <content>
+                                             <p>Those implementing acts shall be adopted in accordance with the examination procedure referred to in Article 13a.</p>
+                                          </content>
+                                       </paragraph>
+                                    </article>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(3)</num>
+                     <alinea>
+                        <content>
+                           <p>the following Article is added:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <article xml:id="art_d458e2556">
+                                       <num>&apos;Article 13a</num>
+                                       <heading>Committee procedure</heading>
+                                       <paragraph>
+                                          <num>1.</num>
+                                          <content>
+                                             <p>The Commission shall be assisted by the Technical Committee for Motor Vehicles established by Regulation (EU) 2018/858 of the European Parliament and of the Council<authorialNote placement="bottom" marker="20">
+                                                   <p>Regulation (EU) 2018/858 of the European Parliament and of the Council of 30 May 2018 on the approval and market surveillance of motor vehicles and their trailers, and of systems, components and separate technical units intended for such vehicles, amending Regulations (EC) No 715/2007 and (EC) No 595/2009 and repealing Directive 2007/46/EC (OJ L 151, 14.6.2018, p. 1).&apos;.</p>
+                                                </authorialNote>. That committee shall be a committee within the meaning of Regulation (EU) No 182/2011.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>2.</num>
+                                          <content>
+                                             <p>Where reference is made to this paragraph, Article 5 of Regulation (EU) No 182/2011 shall apply.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>3.</num>
+                                          <content>
+                                             <p>Where the Committee delivers no opinion, the Commission shall not adopt the draft implementing act and the third subparagraph of Article 5(4) of Regulation (EU) No 182/2011 shall apply.</p>
+                                          </content>
+                                       </paragraph>
+                                    </article>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+               </list>
+            </paragraph>
+         </article>
+         <article xml:id="art_d458e2590" leos:compliant="false">
+            <num>Article 19</num>
+            <heading>Amendments to Regulation (EU) 2018/956</heading>
+            <paragraph>
+               <subparagraph>
+                  <content>
+                     <p>Regulation (EU) 2018/956 is amended as follows:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(1)</num>
+                     <alinea>
+                        <content>
+                           <p>Article 3 is replaced by the following:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <article xml:id="art_d458e2607">
+                                       <num>&apos;Article 3</num>
+                                       <heading>Definitions</heading>
+                                       <paragraph>
+                                          <content>
+                                             <p>For the purposes of this Regulation, the definitions set out in Directive 2007/46/EC of the European Parliament and of the Council<authorialNote placement="bottom" marker="21">
+                                                   <p>Directive 2007/46/EC of the European Parliament and of the Council of 5 September 2007 establishing a framework for the approval of motor vehicles and their trailers, and of systems, components and separate technical units intended for such vehicles (Framework Directive) (OJ L 263, 9.10.2007, p. 1).</p>
+                                                </authorialNote>, in Regulation (EC) No 595/2009 and in Regulation (EU) 2019/1242 of the European Parliament and of the Council<authorialNote placement="bottom" marker="22">
+                                                   <p>Regulation (EU) 2019/1242 of the European Parliament and of the Council of 20 June 2019 setting CO<sub>2</sub> emission performance standards for new heavy-duty vehicles and amending Regulations (EC) No 595/2009 and (EU) 2018/956 of the European Parliament and of the Council and Council Directive 96/53/EC (OJ L 198, 25.7.2019, p. 202).&apos;;</p>
+                                                </authorialNote> apply.</p>
+                                          </content>
+                                       </paragraph>
+                                    </article>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(2)</num>
+                     <alinea>
+                        <content>
+                           <p>in Article 4, paragraph 1 is replaced by the following:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <paragraph>
+                                       <num>&apos;1.</num>
+                                       <subparagraph>
+                                          <content>
+                                             <p>Starting from 1 January 2019, Member States shall monitor the data specified in Part A of Annex I relating to new heavy-duty vehicles registered for the first time in the Union.</p>
+                                          </content>
+                                       </subparagraph>
+                                       <subparagraph>
+                                          <content>
+                                             <p>By 30 September each year, starting in 2020, the competent authorities of the Member States shall report those data of the previous reporting period of 1 July to 30 June to the Commission in accordance with the reporting procedure set out in Annex II.</p>
+                                          </content>
+                                       </subparagraph>
+                                       <subparagraph>
+                                          <content>
+                                             <p>With regard to 2019, the data reported by 30 September 2020 shall include data monitored from 1 January 2019 to 30 June 2020.</p>
+                                          </content>
+                                       </subparagraph>
+                                       <subparagraph>
+                                          <content>
+                                             <p>Data relating to new heavy-duty vehicles that were registered previously outside the Union shall not be monitored and reported, unless that registration was made less than three months before registration in the Union.&apos;;</p>
+                                          </content>
+                                       </subparagraph>
+                                    </paragraph>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(3)</num>
+                     <alinea>
+                        <content>
+                           <p>in Article 5, paragraph 1 is replaced by the following:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <paragraph>
+                                       <num>&apos;1.</num>
+                                       <subparagraph>
+                                          <content>
+                                             <p>From the starting years set out in point 1 of Part B of Annex I, manufacturers of heavy-duty vehicles shall monitor the data specified in point 2 of Part B of Annex I, for each new heavy-duty vehicle.</p>
+                                          </content>
+                                       </subparagraph>
+                                       <subparagraph>
+                                          <content>
+                                             <p>By 30 September each year, from the starting years set out in point 1 of Part B of Annex I, manufacturers of heavy-duty vehicles shall report those data for each new heavy-duty vehicle with a date of simulation falling within the preceding reporting period of 1 July to 30 June to the Commission in accordance with the reporting procedure set out in Annex II.</p>
+                                          </content>
+                                       </subparagraph>
+                                       <subparagraph>
+                                          <content>
+                                             <p>With regard to 2019, manufacturers shall report the data for each new heavy-duty vehicle with a date of simulation falling within the period 1 January 2019 to 30 June 2020.</p>
+                                          </content>
+                                       </subparagraph>
+                                       <subparagraph>
+                                          <content>
+                                             <p>The date of simulation shall be the date reported in accordance with data entry 71 in point 2 of Part B of Annex I.&apos;;</p>
+                                          </content>
+                                       </subparagraph>
+                                    </paragraph>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(4)</num>
+                     <alinea>
+                        <content>
+                           <p>in Article 10, paragraph 1 is replaced by the following:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <paragraph>
+                                       <num>&apos;1.</num>
+                                       <content>
+                                          <p>By 30 April every year, the Commission shall publish an annual report with its analysis of the data transmitted by Member States and manufacturers for the preceding reporting period.&apos;;</p>
+                                       </content>
+                                    </paragraph>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(5)</num>
+                     <alinea>
+                        <content>
+                           <p>in Annex II, point 3.2 is replaced by the following:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <list>
+                                       <point>
+                                          <num>&apos;3.2.</num>
+                                          <content>
+                                             <p>The data relating to heavy-duty vehicles registered in the preceding reporting period and recorded in the Register shall be made public by 30 April each year, starting from 2021, with the exception of the data entries specified in Article 6(1).&apos;.</p>
+                                          </content>
+                                       </point>
+                                    </list>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+               </list>
+            </paragraph>
+         </article>
+         <article xml:id="art_d458e2737" leos:compliant="false">
+            <num>Article 20</num>
+            <heading>Amendments to Directive 96/53/EC</heading>
+            <paragraph>
+               <subparagraph>
+                  <content>
+                     <p>Directive 96/53/EC is amended as follows:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(1)</num>
+                     <alinea>
+                        <content>
+                           <p>in Article 2, the following definition is inserted after the definition of &apos;alternatively fuelled vehicle&apos;:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <list>
+                                       <indent>
+                                          <num>-</num>
+                                          <num>&apos;&#45;</num>
+                                          <content>
+                                             <p>&quot;zero-emission vehicle&quot; shall mean a zero-emission heavy-duty vehicle as defined in point (11) of Article 3 of Regulation (EU) 2019/1242 of the European Parliament and of the Council<authorialNote placement="bottom" marker="23">
+                                                   <p>Regulation (EU) 2019/1242 of the European Parliament and of the Council of 20 June 2019 setting CO<sub>2</sub> emission performance standards for new heavy-duty vehicles and amending Regulations (EC) No 595/2009 and (EU) 2018/956 of the European Parliament and of the Council and Council Directive 96/53/EC (OJ L 198, 25.7.2019, p. 202).&apos;;</p>
+                                                </authorialNote>.</p>
+                                          </content>
+                                       </indent>
+                                    </list>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(2)</num>
+                     <alinea>
+                        <content>
+                           <p>Article 10b is replaced by the following:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <article xml:id="art_d458e2792">
+                                       <num>&apos;Article 10b</num>
+                                       <heading/>
+                                       <paragraph>
+                                          <content>
+                                             <p>The maximum authorised weights of alternatively fuelled or zero-emission vehicles shall be those set out in points 2.2.1, 2.2.2, 2.2.3, 2.2.4, 2.3.1, 2.3.2 and 2.4 of Annex I.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <content>
+                                             <p>Alternatively fuelled or zero-emission vehicles shall also comply with the maximum authorised axle weight limits set out in point 3 of Annex I.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <content>
+                                             <p>The additional weight required by alternatively fuelled or zero-emission vehicles shall be defined on the basis of the documentation provided by the manufacturer when the vehicle in question is approved. That additional weight shall be indicated in the official proof required in accordance with Article 6.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <content>
+                                             <p>The Commission shall be empowered to adopt delegated acts in accordance with Article 10h to update, for the purposes of this Directive, the list of alternative fuels referred to in Article 2 that require additional weight. It is of particular importance that the Commission follow its usual practice and carry out consultations with experts, including Member States&apos; experts, before adopting those delegated acts.&apos;;</p>
+                                          </content>
+                                       </paragraph>
+                                    </article>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(3)</num>
+                     <alinea>
+                        <content>
+                           <p>Annex I is amended as follows:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <alinea>
+                              <content>
+                                 <p>the following subparagraph is added to the second column of points 2.2.1, 2.2.2, 2.2.3 and 2.2.4:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <alinea>
+                                             <content>
+                                                <p>&apos;In the case of vehicle combinations including alternatively fuelled or zero-emission vehicles, the maximum authorised weights provided for in this section shall be increased by the additional weight of the alternative fuel or zero-emission technology with a maximum of 1 tonne and 2 tonnes respectively.&apos;;</p>
+                                             </content>
+                                          </alinea>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <alinea>
+                              <content>
+                                 <p>the following subparagraph is added to the second column of point 2.3.1:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <alinea>
+                                             <content>
+                                                <p>&apos;Zero-emission vehicles: the maximum authorised weight of 18 tonnes is increased by the additional weight of the zero-emission technology with a maximum of 2 tonnes.&apos;;</p>
+                                             </content>
+                                          </alinea>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(c)</num>
+                           <alinea>
+                              <content>
+                                 <p>the following subparagraph is added to the third column of point 2.3.2:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <alinea>
+                                             <content>
+                                                <p>&apos;Three-axle zero-emission vehicles: the maximum authorised weight of 25 tonnes, or 26 tonnes where the driving axle is fitted with twin tyres and air suspension or suspension recognised as being equivalent within the Union as defined in Annex II or where each driving axle is fitted with twin tyres and the maximum weight of each axle does not exceed 9,5 tonnes, is increased by the additional weight of the zero-emission technology with a maximum of 2 tonnes.&apos;;</p>
+                                             </content>
+                                          </alinea>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(d)</num>
+                           <alinea>
+                              <content>
+                                 <p>the following subparagraph is added to the third column of point 2.4:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <alinea>
+                                             <content>
+                                                <p>&apos;Three-axle articulated buses that are zero-emission vehicles: the maximum authorised weight of 28 tonnes is increased by the additional weight of the zero-emission technology with a maximum of 2 tonnes.&apos;.</p>
+                                             </content>
+                                          </alinea>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                     </list>
+                  </point>
+               </list>
+            </paragraph>
+         </article>
+         <article xml:id="art_d458e2867">
+            <num>Article 21</num>
+            <heading>Entry into force</heading>
+            <paragraph>
+               <content>
+                  <p>This Regulation shall enter into force on the twentieth day following that of its publication in the <i>Official Journal of the European Union</i>
+                  </p>
+               </content>
+            </paragraph>
+         </article>
+         <clause>
+            <content>
+               <p>This Regulation shall be binding in its entirety and directly applicable in all Member States.</p>
+            </content>
+         </clause>
+      </body>
+      <conclusions>
+         <p>Done at Brussels, 20 June 2019.</p>
+         <block name="signatory">
+            <signature>
+               <organization refersTo="">For the European Parliament</organization>
+               <role refersTo="">The President</role>
+               <person refersTo="">A. TAJANI</person>
+            </signature>
+            <signature>
+               <organization refersTo="">For the Council</organization>
+               <role refersTo="">The President</role>
+               <person refersTo="">G. CIAMBA</person>
+            </signature>
+         </block>
+      </conclusions>
+   </bill>
+</akomaNtoso>

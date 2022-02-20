@@ -1,0 +1,1000 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"
+            xmlns:fmx="http://formex.publications.europa.eu/schema/formex-05.21-20110601.xd"
+            xmlns:leos="urn:eu:europa:ec:leos"
+            xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <bill name="">
+      <meta xmlns:fn="http://www.w3.org/2005/xpath-functions">
+         <identification source="~COM">
+            <FRBRWork>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRcountry value=""/>
+            </FRBRWork>
+            <FRBRExpression>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+            </FRBRManifestation>
+         </identification>
+      </meta>
+      <preface>
+         <longTitle>
+            <p>
+               <docStage/>
+               <docType>COMMISSION REGULATION (EU) 2019/1939</docType>of 7 November 2019<docPurpose>amending Regulation (EU) No 582/2011 as regards Auxiliary Emission Strategies (AES), access to vehicle OBD information and vehicle repair and maintenance information, measurement of emissions during cold engine start periods and use of portable emissions measurement systems (PEMS) to measure particle numbers, with respect to heavy duty vehicles</docPurpose>
+            </p>
+         </longTitle>
+         <container name="EEArelevance">
+            <p>(Text with EEA relevance)</p>
+         </container>
+      </preface>
+      <preamble>
+         <formula name="actingEntity">
+            <p>THE EUROPEAN COMMISSION,</p>
+         </formula>
+         <citations>
+            <citation>
+               <p>Having regard to the Treaty on the Functioning of the European Union,</p>
+            </citation>
+            <citation>
+               <p>Having regard to Regulation (EC) No 595/2009 of the European Parliament and of the Council of 18 June 2009 on type-approval of motor vehicles and engines with respect to emissions from heavy duty vehicles (Euro VI) and on access to vehicle repair and maintenance information and amending Regulation (EC) No 715/2007 and Directive 2007/46/EC and repealing Directives 80/1269/EEC, 2005/55/EC and 2005/78/EC<authorialNote placement="bottom" marker="1">
+                     <p>OJ L 188, 18.7.2009, p. 1.</p>
+                  </authorialNote>, and in particular Articles 4(3), 5(4), 6(2) and 12 thereof.</p>
+            </citation>
+         </citations>
+         <recitals xml:id="recs_d612e71">
+            <intro>
+               <p>Whereas:</p>
+            </intro>
+            <recital xml:id="rec_d612e74">
+               <num>(1)</num>
+               <p>The rules for declaring and assessing Auxiliary Emission Strategies (AES) were recently changed for light passenger and commercial vehicles by Commission Regulation (EU) 2017/1151<authorialNote placement="bottom" marker="2">
+                     <p>Commission Regulation (EU) 2017/1151 of 1 June 2017 supplementing Regulation (EC) No 715/2007 of the European Parliament and of the Council on type-approval of motor vehicles with respect to emissions from light passenger and commercial vehicles (Euro 5 and Euro 6) and on access to vehicle repair and maintenance information, amending Directive 2007/46/EC of the European Parliament and of the Council, Commission Regulation (EC) No 692/2008 and Commission Regulation (EU) No 1230/2012 and repealing Commission Regulation (EC) No 692/2008 (OJ L 175, 7.7.2017, p. 1).</p>
+                  </authorialNote>. The provisions already established in Commission Regulation (EU) No 582/2011<authorialNote placement="bottom" marker="3">
+                     <p>Commission Regulation (EU) No 582/2011 of 25 May 2011 implementing and amending Regulation (EC) No 595/2009 of the European Parliament and of the Council with respect to emissions from heavy duty vehicles (Euro VI) and amending Annexes I and III to Directive 2007/46/EC of the European Parliament and of the Council (OJ L 167, 25.6.2011, p. 1).</p>
+                  </authorialNote> for heavy duty vehicles should be aligned for the sake of consistency.</p>
+            </recital>
+            <recital xml:id="rec_d612e100">
+               <num>(2)</num>
+               <p>In-service conformity testing represents one of the building blocks of the vehicle type-approval procedure and allows the performance of emission control systems to be verified throughout a vehicle&apos;s useful life. Commission Regulation (EU) No 582/2011 requires the tests to be performed by means of a portable emissions measurement system (PEMS), which assesses emissions under normal conditions of use. The PEMS approach is equally used to check off-cycle emissions during type-approval.</p>
+            </recital>
+            <recital xml:id="rec_d612e107">
+               <num>(3)</num>
+               <p>The emissions performance of heavy duty vehicles in the period following a cold engine start is currently not assessed as part of the type-approval demonstration test or the in-service conformity test. Following a monitoring exercise when data from type-approval and in-service conformity tests were collected and analysed, it was found that significant amounts of the total NO<sub>x</sub> emitted were excluded from the analysis as a result of not assessing the cold engine start period. In order to represent real world emissions better, the measurement procedure should therefore be revised to include measurement of pollutant emissions during the cold engine start period.</p>
+            </recital>
+            <recital xml:id="rec_d612e116">
+               <num>(4)</num>
+               <p>Particle number measurements using PEMS have been successfully implemented under the emissions type-approval rules for light passenger and commercial vehicles<authorialNote placement="bottom" marker="4">
+                     <p>Commission Regulation (EC) No 692/2008 of 18 July 2008 implementing and amending Regulation (EC) No 715/2007 of the European Parliament and of the Council on type-approval of motor vehicles with respect to emissions from light passenger and commercial vehicles (Euro 5 and Euro 6) and on access to vehicle repair and maintenance information (OJ L 199, 28.7.2008, p. 1).</p>
+                  </authorialNote>. Following a pilot study by the Commission&apos;s Joint Research Centre in which an analysis was performed on the portable particle number equipment for heavy duty vehicles, it is considered appropriate to introduce a similar requirement in the emissions type-approval rules for heavy duty vehicles. The Commission will be obliged under Regulation (EC) No 595/2009 to keep the level of the final conformity factor for particle number emissions under review, taking into account technical progress.</p>
+            </recital>
+            <recital xml:id="rec_d612e132">
+               <num>(5)</num>
+               <p>The Commission recognises that vehicles equipped with a spark-ignition engine or a dual-fuel engine fuelled with gas from Compressed Natural Gas (CNG), Liquefied Natural Gas (LNG) or Liquefied Petroleum Gas (LPG) may require technical adaptations to comply with the particle number conformity factor. In order to ensure a sufficient lead time to allow manufacturers of gas engines to modify their products in accordance with the requirements laid down by this Regulation, a transitional period should be permitted for compliance with the maximum allowed conformity factor for vehicles equipped with such engines.</p>
+            </recital>
+            <recital xml:id="rec_d612e138">
+               <num>(6)</num>
+               <p>The requirements introduced by this Regulation for in-service conformity testing should not apply retroactively to engines and vehicles which were type-approved before introduction of those requirements. Therefore, the amendments set out in Annexes I, II and III to this Regulation should only apply to the in-service conformity testing of new types of engine or vehicle, in other words to engines or vehicles which are type-approved in accordance with the amendments introduced by this Regulation.</p>
+            </recital>
+            <recital xml:id="rec_d612e144">
+               <num>(7)</num>
+               <p>The rules on access to vehicle OBD information and vehicle repair and maintenance information have been incorporated into Regulation (EU) 2018/858 of the European Parliament and of the Council<authorialNote placement="bottom" marker="5">
+                     <p>Regulation (EU) 2018/858 of the European Parliament and of the Council of 30 May 2018 on the approval and market surveillance of motor vehicles and their trailers, and of systems, components and separate technical units intended for such vehicles, amending Regulations (EC) No 715/2007 and (EC) No 595/2009 and repealing Directive 2007/46/EC (OJ L 151, 14.6.2018, p. 1).</p>
+                  </authorialNote>, which applies from 1 September 2020. Therefore, the provisions in Regulation (EU) No 582/2011 relating to access to such information should be omitted with effect from that date.</p>
+            </recital>
+            <recital xml:id="rec_d612e163">
+               <num>(8)</num>
+               <p>Regulation (EU) No 582/2011 should therefore be amended accordingly.</p>
+            </recital>
+            <recital xml:id="rec_d612e169">
+               <num>(9)</num>
+               <p>The measures provided for in this Regulation are in accordance with the opinion of the Technical Committee &#45; Motor Vehicles,</p>
+            </recital>
+         </recitals>
+         <formula name="enactingFormula">
+            <p>HAS ADOPTED THIS REGULATION:</p>
+         </formula>
+      </preamble>
+      <body>
+         <article xml:id="art_d612e178" leos:compliant="false">
+            <num>Article 1</num>
+            <heading/>
+            <paragraph>
+               <subparagraph>
+                  <content>
+                     <p>Regulation (EU) No 582/2011 is amended as follows:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(1)</num>
+                     <alinea>
+                        <content>
+                           <p>Article 2 is amended as follows:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <content>
+                              <p>in point (5), the words &apos;and vehicle repair and maintenance information&apos; are deleted;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <content>
+                              <p>point (43) is deleted;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(c)</num>
+                           <alinea>
+                              <content>
+                                 <p>the following point is added:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <point>
+                                             <num>&apos;(57)</num>
+                                             <content>
+                                                <p>&quot;Particulate Matter number&quot; (PM number) means the total number of solid particles emitted from the exhaust quantified according to the dilution, sampling and measurement methods as specified in Annex 4 to UNECE Regulation 49<authorialNote placement="bottom" marker="6">
+                                                      <p>Regulation No 49 of the Economic Commission for Europe of the United Nations (UN/ECE) - Uniform provisions concerning the measures to be taken against the emission of gaseous and particulate pollutants from compression-ignition engines and positive ignition engines for use in vehicles (OJ L 171, 24.6.2013, p. 1).&apos;;</p>
+                                                   </authorialNote>.</p>
+                                             </content>
+                                          </point>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                     </list>
+                  </point>
+                  <point>
+                     <num>(2)</num>
+                     <content>
+                        <p>Articles 2a, 2b, 2c, 2d, 2e, 2f, 2g and 2h are deleted;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(3)</num>
+                     <alinea>
+                        <content>
+                           <p>Article 3 is amended as follows:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <alinea>
+                              <content>
+                                 <p>paragraph 1 is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <paragraph>
+                                             <num>&apos;1.</num>
+                                             <subparagraph>
+                                                <content>
+                                                   <p>In order to receive an EU type-approval of an engine system or engine family as a separate technical unit, an EU type-approval of a vehicle with an approved engine system with regard to emissions, or an EU type-approval of a vehicle with regard to emissions, the manufacturer shall, in accordance with the provisions of Annex I, demonstrate that the vehicles or engine systems or engine families are subject to the tests and comply with the requirements set out in Articles 4 and 14 and in Annexes III to VIII, X, XIII and XIV. The manufacturer shall also ensure compliance with the specifications of reference fuels set out in Annex IX. In the case of dual-fuel engines and vehicles, the manufacturer shall, in addition, comply with the requirements set out in Annex XVIII.</p>
+                                                </content>
+                                             </subparagraph>
+                                             <subparagraph>
+                                                <content>
+                                                   <p>In order to receive an EU type-approval of a vehicle with an approved engine system with regard to emissions, or an EU type-approval of a vehicle with regard to emissions, the manufacturer shall also demonstrate that the requirements laid down in Article 6 of and Annex II to Commission Regulation (EU) 2017/2400<authorialNote placement="bottom" marker="7">
+                                                         <p>Commission Regulation (EU) 2017/2400 of 12 December 2017 implementing Regulation (EC) No 595/2009 of the European Parliament and of the Council as regards the determination of the CO<sub>2</sub> emissions and fuel consumption of heavy-duty vehicles and amending Directive 2007/46/EC of the European Parliament and of the Council and Commission Regulation (EU) No 582/2011 (OJ L 349, 29.12.2017, p. 1).&apos;;</p>
+                                                      </authorialNote> are met with respect to the vehicle group concerned. However, that requirement shall not apply where the manufacturer indicates that new vehicles of the type to be approved will not be registered, placed on the market or entered into service in the Union on or after the dates laid down in points (a), (b) and (c) of paragraph 1 of Article 24 of Regulation (EU) 2017/2400 for the respective vehicle group.</p>
+                                                </content>
+                                             </subparagraph>
+                                          </paragraph>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <content>
+                              <p>paragraphs 1a, 1b and 1c are deleted;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(c)</num>
+                           <alinea>
+                              <content>
+                                 <p>paragraph 2 is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <paragraph>
+                                             <num>&apos;2.</num>
+                                             <content>
+                                                <p>In order to receive an EU type-approval of a vehicle with an approved engine system with regard to emissions, or an EU type-approval of a vehicle with regard to emissions, the manufacturer shall ensure compliance with the installation requirements set out in Section 4 of Annex I and, in the case of dual-fuel vehicles, with the additional installation requirements set out in Section 6 of Annex XVIII.&apos;;</p>
+                                             </content>
+                                          </paragraph>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(d)</num>
+                           <alinea>
+                              <content>
+                                 <p>paragraph 3 is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <paragraph>
+                                             <num>&apos;3.</num>
+                                             <content>
+                                                <p>In order to receive an extension of the EU type-approval of a vehicle with regard to emissions type-approved under this Regulation with a reference mass exceeding 2380 kg but not exceeding 2610 kg, the manufacturer shall meet the requirements set out in Section 5 of Annex VIII.&apos;;</p>
+                                             </content>
+                                          </paragraph>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(e)</num>
+                           <alinea>
+                              <content>
+                                 <p>paragraph 6 is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <paragraph>
+                                             <num>&apos;6.</num>
+                                             <content>
+                                                <p>In order to receive an EU type-approval of an engine system or engine family as a separate technical unit or an EU type-approval of a vehicle with regard to emissions for the purposes of obtaining universal fuel-range type-approval, a restricted fuel-range type-approval or a fuel-specific type-approval, the manufacturer shall ensure compliance with the requirements set out in Section 1 of Annex I.&apos;;</p>
+                                             </content>
+                                          </paragraph>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                     </list>
+                  </point>
+                  <point>
+                     <num>(4)</num>
+                     <alinea>
+                        <content>
+                           <p>Article 5 is amended as follows:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <alinea>
+                              <content>
+                                 <p>the heading is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <alinea>
+                                             <content>
+                                                <p>&apos;<b>Application for EU type-approval of an engine system or engine family as a separate technical unit with regard to emissions</b>&apos;;</p>
+                                             </content>
+                                          </alinea>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <alinea>
+                              <content>
+                                 <p>paragraph 3 is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <paragraph>
+                                             <num>&apos;3.</num>
+                                             <subparagraph>
+                                                <content>
+                                                   <p>Together with the application, the manufacturer shall provide a documentation package that fully explains any element of design which affects emissions, the emission control strategy of the engine system, the means by which the engine system controls the output variables which have a bearing upon emissions, whether that control is direct or indirect, anti-tampering measures and fully explains the warning and inducement system required by Sections 4 and 5 of Annex XIII. The documentation package shall be identified and dated by the approval authority and kept by that authority for at least 10 years after the approval is granted.</p>
+                                                </content>
+                                             </subparagraph>
+                                             <subparagraph>
+                                                <content>
+                                                   <p>The documentation package shall consist of the following parts:</p>
+                                                </content>
+                                             </subparagraph>
+                                             <subparagraph>
+                                                <content>
+                                                   <p>the information set out in Section 8 to Annex I,</p>
+                                                </content>
+                                             </subparagraph>
+                                             <subparagraph>
+                                                <content>
+                                                   <p>an AES documentation package, as described in Appendix 11 of Annex I to this Regulation in order for the approval authorities to be able to assess the proper use of AES.</p>
+                                                </content>
+                                             </subparagraph>
+                                             <subparagraph>
+                                                <content>
+                                                   <p>At the request of the manufacturer, the approval authority shall conduct a preliminary assessment of the AES for new vehicle types. In that case, the manufacturer shall provide the draft AES documentation package to the approval authority between 2 and 12 months before the start of the type-approval process.</p>
+                                                </content>
+                                             </subparagraph>
+                                             <subparagraph>
+                                                <content>
+                                                   <p>The approval authority shall make a preliminary assessment on the basis of the draft AES documentation package provided by the manufacturer. The approval authority shall make the preliminary assessment in accordance with the methodology described in Appendix 2 of Annex VI. The approval authority may deviate from that methodology in exceptional and duly justified cases.</p>
+                                                </content>
+                                             </subparagraph>
+                                             <subparagraph>
+                                                <content>
+                                                   <p>The preliminary assessment of the AES for new vehicle types shall remain valid for the purposes of type approval for a period of 18 months. That period may be extended by a further 12 months if the manufacturer provides the approval authority with proof that no new technologies have become available on the market that would change the preliminary assessment of the AES.</p>
+                                                </content>
+                                             </subparagraph>
+                                             <subparagraph>
+                                                <content>
+                                                   <p>A list of AES which were deemed non-acceptable by approval authorities shall be compiled yearly by the Forum for Exchange of Information on Enforcement and made available to the public by the Commission.&apos;</p>
+                                                </content>
+                                             </subparagraph>
+                                          </paragraph>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(c)</num>
+                           <content>
+                              <p>in paragraph 4, points (d) and (g) are deleted;</p>
+                           </content>
+                        </point>
+                     </list>
+                  </point>
+                  <point>
+                     <num>(5)</num>
+                     <alinea>
+                        <content>
+                           <p>Article 6 is amended as follows:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <alinea>
+                              <content>
+                                 <p>the heading is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <alinea>
+                                             <content>
+                                                <p>&apos;<b>Administrative provisions for EU type-approval of an engine system or engine family as a separate technical unit with regard to emissions</b>&apos;;</p>
+                                             </content>
+                                          </alinea>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <alinea>
+                              <content>
+                                 <p>in paragraph 1, the first and second subparagraphs are replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <alinea>
+                                             <content>
+                                                <p>&apos;If all the relevant requirements are met, the approval authority shall grant an EU type-approval of an engine system or engine family as a separate technical unit and issue a type-approval number in accordance with the numbering system set out in the applicable implementing act adopted pursuant to Article 28(3) of Regulation (EU) 2018/858 of the European Parliament and of the Council<authorialNote placement="bottom" marker="8">
+                                                      <p>Regulation (EU) 2018/858 of the European Parliament and of the Council of 30 May 2018 on the approval and market surveillance of motor vehicles and their trailers, and of systems, components and separate technical units intended for such vehicles, amending Regulations (EC) No 715/2007 and (EC) No 595/2009 and repealing Directive 2007/46/EC (OJ L 151, 14.6.2018, p. 1)&apos;;</p>
+                                                   </authorialNote>.</p>
+                                             </content>
+                                          </alinea>
+                                          <alinea>
+                                             <content>
+                                                <p>Without prejudice to the provisions of that implementing act, Section 3 of the type-approval number shall be drawn up in accordance with Appendix 9 to Annex I to this Regulation.</p>
+                                             </content>
+                                          </alinea>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(c)</num>
+                           <content>
+                              <p>in paragraph 1a, point (b) is deleted;</p>
+                           </content>
+                        </point>
+                     </list>
+                  </point>
+                  <point>
+                     <num>(6)</num>
+                     <alinea>
+                        <content>
+                           <p>Article 7 is amended as follows:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <alinea>
+                              <content>
+                                 <p>the heading is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <alinea>
+                                             <content>
+                                                <p>&apos;<b>Application for EU type-approval of a vehicle with an approved engine system with regard to emissions</b>&apos;;</p>
+                                             </content>
+                                          </alinea>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <alinea>
+                              <content>
+                                 <p>paragraph 1 is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <paragraph>
+                                             <num>&apos;1.</num>
+                                             <content>
+                                                <p>The manufacturer shall submit to the approval authority an application for EU type-approval of a vehicle with an approved engine system with regard to emissions.&apos;;</p>
+                                             </content>
+                                          </paragraph>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(c)</num>
+                           <content>
+                              <p>in paragraph 4, points (c) and (d) are deleted;</p>
+                           </content>
+                        </point>
+                     </list>
+                  </point>
+                  <point>
+                     <num>(7)</num>
+                     <alinea>
+                        <content>
+                           <p>Article 8 is amended as follows:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <alinea>
+                              <content>
+                                 <p>the heading is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <alinea>
+                                             <content>
+                                                <p>&apos;<b>Administrative provisions for EU type-approval of a vehicle with an approved engine system with regard to emissions</b>&apos;;</p>
+                                             </content>
+                                          </alinea>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <alinea>
+                              <content>
+                                 <p>in paragraph 1, the first and second subparagraphs are replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <alinea>
+                                             <content>
+                                                <p>&apos;If all the relevant requirements are met, the approval authority shall grant an EU type-approval of a vehicle with an approved engine system with regard to emissions and issue a type-approval number in accordance with the numbering system set out in the applicable implementing act adopted pursuant to Article 28(3) of Regulation (EU) 2018/858.</p>
+                                             </content>
+                                          </alinea>
+                                          <alinea>
+                                             <content>
+                                                <p>Without prejudice to the provisions of that implementing act, Section 3 of the type-approval number shall be drawn up in accordance with Appendix 9 to Annex I to this Regulation.&apos;;</p>
+                                             </content>
+                                          </alinea>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(c)</num>
+                           <alinea>
+                              <content>
+                                 <p>paragraph 1a is amended as follows:</p>
+                              </content>
+                           </alinea>
+                           <list>
+                              <point>
+                                 <num>(i)</num>
+                                 <alinea>
+                                    <content>
+                                       <p>the introductory wording is replaced by the following:</p>
+                                    </content>
+                                 </alinea>
+                                 <alinea>
+                                    <content>
+                                       <p>
+                                          <mod>
+                                             <quotedStructure startQuote="" endQuote="">
+                                                <alinea>
+                                                   <content>
+                                                      <p>&apos;As an alternative to the procedure provided for in paragraph 1, the approval authority shall grant an EU type-approval of a vehicle with an approved engine system with regard to emissions if all the following conditions are fulfilled:&apos;;</p>
+                                                   </content>
+                                                </alinea>
+                                             </quotedStructure>
+                                          </mod>
+                                       </p>
+                                    </content>
+                                 </alinea>
+                              </point>
+                              <point>
+                                 <num>(ii)</num>
+                                 <content>
+                                    <p>point (b) is deleted;</p>
+                                 </content>
+                              </point>
+                           </list>
+                        </point>
+                     </list>
+                  </point>
+                  <point>
+                     <num>(8)</num>
+                     <alinea>
+                        <content>
+                           <p>Article 9 is amended as follows:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <alinea>
+                              <content>
+                                 <p>the heading is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <alinea>
+                                             <content>
+                                                <p>&apos;<b>Application for EU type-approval of a vehicle with regard to emissions</b>&apos;;</p>
+                                             </content>
+                                          </alinea>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <alinea>
+                              <content>
+                                 <p>paragraph 1 is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <paragraph>
+                                             <num>&apos;1.</num>
+                                             <content>
+                                                <p>The manufacturer shall submit to the approval authority an application for EU type-approval of a vehicle with regard to emissions.&apos;;</p>
+                                             </content>
+                                          </paragraph>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                     </list>
+                  </point>
+                  <point>
+                     <num>(9)</num>
+                     <alinea>
+                        <content>
+                           <p>Article 10 is amended as follows:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <alinea>
+                              <content>
+                                 <p>the heading is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <alinea>
+                                             <content>
+                                                <p>&apos;<b>Administrative provisions for EU type-approval of a vehicle with regard to emissions</b>&apos;;</p>
+                                             </content>
+                                          </alinea>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <alinea>
+                              <content>
+                                 <p>in paragraph 1, the first and second subparagraphs are replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <alinea>
+                                             <content>
+                                                <p>&apos;If all the relevant requirements are met, the approval authority shall grant an EU type-approval of a vehicle with regard to emissions and issue a type-approval number in accordance with the numbering system set out in the applicable implementing act adopted pursuant to Article 28(3) of Regulation (EU) 2018/858.</p>
+                                             </content>
+                                          </alinea>
+                                          <alinea>
+                                             <content>
+                                                <p>Without prejudice to the provisions of that implementing act, Section 3 of the type-approval number shall be drawn up in accordance with Appendix 9 to Annex I to this Regulation.&apos;;</p>
+                                             </content>
+                                          </alinea>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(c)</num>
+                           <alinea>
+                              <content>
+                                 <p>paragraph 1a is amended as follows:</p>
+                              </content>
+                           </alinea>
+                           <list>
+                              <point>
+                                 <num>(i)</num>
+                                 <alinea>
+                                    <content>
+                                       <p>the introductory wording is replaced by the following:</p>
+                                    </content>
+                                 </alinea>
+                                 <alinea>
+                                    <content>
+                                       <p>
+                                          <mod>
+                                             <quotedStructure startQuote="" endQuote="">
+                                                <alinea>
+                                                   <content>
+                                                      <p>&apos;As an alternative to the procedure provided for in paragraph 1, the approval authority shall grant an EU type-approval of a vehicle with regard to emissions if all the following conditions are fulfilled:&apos;;</p>
+                                                   </content>
+                                                </alinea>
+                                             </quotedStructure>
+                                          </mod>
+                                       </p>
+                                    </content>
+                                 </alinea>
+                              </point>
+                              <point>
+                                 <num>(ii)</num>
+                                 <content>
+                                    <p>point (b) is deleted;</p>
+                                 </content>
+                              </point>
+                           </list>
+                        </point>
+                     </list>
+                  </point>
+                  <point>
+                     <num>(10)</num>
+                     <content>
+                        <p>in Article 16, paragraph 3 is deleted;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(11)</num>
+                     <alinea>
+                        <content>
+                           <p>in Article 17a, the following paragraphs are added:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <paragraph>
+                                       <num>&apos;3.</num>
+                                       <subparagraph>
+                                          <content>
+                                             <p>With effect from 1 January 2021, national authorities shall refuse, on grounds relating to emissions, to grant EU type-approval or national type-approval in respect of new types of vehicle or engine which do not comply with the requirements of this Regulation as amended by Commission Regulation (EU) 2019/1939<authorialNote placement="bottom" marker="9">
+                                                   <p>Commission Regulation (EU) 2019/1939 of 7 November 2019 amending Regulation (EU) No 582/2011 as regards Auxiliary Emission Strategies (AES), access to vehicle OBD information and vehicle repair and maintenance information, measurement of emissions during cold engine start periods and use of portable emissions measurement systems (PEMS) to measure particle numbers, with respect to heavy duty vehicles (OJ L 303, 25.11.2019, p. 1)&apos;;</p>
+                                                </authorialNote>.</p>
+                                          </content>
+                                       </subparagraph>
+                                       <subparagraph>
+                                          <content>
+                                             <p>By way of derogation from the first subparagraph, new types of positive-ignition engines, type 1A dual-fuel engines and type 1B dual-fuel engines (in dual-fuel mode), and vehicles equipped with such engines, shall comply with the maximum allowed conformity factor for PM number according to point 6.3 of Annex II with effect from 1 January 2023. However, as from 1 January 2021, the particle number work window conformity factor and CO<sub>2</sub> mass window conformity factor shall be stated in the PEMS demonstration test results on the type-approval certificate for monitoring purposes.</p>
+                                          </content>
+                                       </subparagraph>
+                                    </paragraph>
+                                    <paragraph>
+                                       <num>4.</num>
+                                       <subparagraph>
+                                          <content>
+                                             <p>With effect from 1 January 2022, national authorities shall, in the case of new vehicles which do not comply with the requirements of this Regulation as amended by Regulation (EU) 2019/1939, consider certificates of conformity issued in respect of those vehicles to be no longer valid for the purposes of Article 48 of Regulation (EU) 2018/858 and shall, on grounds relating to emissions, prohibit the registration, making available on the market and entry into service of such vehicles.</p>
+                                          </content>
+                                       </subparagraph>
+                                       <subparagraph>
+                                          <content>
+                                             <p>By way of derogation from the first subparagraph, with effect from 1 January 2024, national authorities shall, in the case of new vehicles equipped with positive-ignition engines, type 1A dual-fuel engines and type 1B dual-fuel engines (in dual-fuel mode) which do not comply with the maximum allowed conformity factor for PM number according to point 6.3 of Annex II and the requirements of this Regulation as amended by Regulation (EU) 2019/1939, consider certificates of conformity issued in respect of those vehicles to be no longer valid for the purposes of Article 48 of Regulation (EU) 2018/858 and shall, on grounds relating to emissions, prohibit the registration, making available on the market and entry into service of such vehicles. However, as from 1 January 2022, the particle number work window conformity factor and CO<sub>2</sub> mass window conformity factor shall be stated in the PEMS demonstration test results on the type-approval certificate for monitoring purposes.</p>
+                                          </content>
+                                       </subparagraph>
+                                       <subparagraph>
+                                          <content>
+                                             <p>With effect from 1 January 2022 and except in the case of replacement engines for in-service vehicles, national authorities shall on grounds relating to emissions prohibit the making available on the market and entry into service of new engines which do not comply with the requirements of this Regulation as amended by Regulation (EU) 2019/1939.</p>
+                                          </content>
+                                       </subparagraph>
+                                       <subparagraph>
+                                          <content>
+                                             <p>By way of derogation from the third subparagraph, with effect from 1 January 2024, and except in the case of replacement engines for in-service vehicles, national authorities shall, on grounds relating to emissions, prohibit the making available on the market and entry into service of new positive-ignition engines, new type 1A dual-fuel engines and new type 1B dual-fuel engines (in dual-fuel mode) which do not comply with the requirements of this Regulation as amended by Regulation (EU) 2019/1939.</p>
+                                          </content>
+                                       </subparagraph>
+                                    </paragraph>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(12)</num>
+                     <content>
+                        <p>Annex I is amended in accordance to Annex I to this Regulation;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(13)</num>
+                     <content>
+                        <p>Annex II is amended in accordance to Annex II to this Regulation;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(14)</num>
+                     <content>
+                        <p>Annex VI is amended in accordance to Annex III to this Regulation;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(15)</num>
+                     <alinea>
+                        <content>
+                           <p>in Annex VIII, point 5.1.2. is replaced by the following:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <point>
+                                       <num>&apos;5.1.2.</num>
+                                       <alinea>
+                                          <content>
+                                             <p>Paragraph A.1.2.1 of Appendix 1 of Annex 12 to UNECE Regulation No 49 shall be understood as follows:</p>
+                                          </content>
+                                       </alinea>
+                                       <list>
+                                          <num>&quot;A.1.2.1.</num>
+                                          <alinea>
+                                             <content>
+                                                <p>In order to receive an extension of an EU type-approval for a vehicle in respect of its engine type-approved under Regulation (EC) No 595/2009 and this Regulation to a vehicle with a reference mass exceeding 2380 kg but not exceeding 2610 kg, the manufacturer shall meet the requirements relating to the measurement of CO<sub>2</sub> emissions and fuel consumption established by the type 1 emissions test procedures set out in sub-annex 6 to Annex XXI to Commission Regulation (EU) 2017/1151 with only speed trace and RCB corrections. The CO<sub>2</sub> emissions shall be determined in accordance with table A6/2 not taking into account the criteria emission test results, where the vehicle during testing shall apply no AES and be considered as VH. The test reports specified in Appendices 8a part I until point 2.1. included and 8b of Annex I, to Commission Regulation (EU) 2017/1151, shall be submitted to the type approval authorities including the results of pollutant emissions.</p>
+                                             </content>
+                                          </alinea>
+                                          <alinea>
+                                             <content>
+                                                <p>The manufacturer shall provide the type approval authority with a signed declaration that all variants and versions for which this extension is requested are in conformity with the type-approval emission requirements in Regulation (EC) No 595/2009 and that the type 1 test was performed in compliance with the previous paragraph.</p>
+                                             </content>
+                                          </alinea>
+                                          <alinea>
+                                             <content>
+                                                <p>Existing EU type-approvals for a vehicle with a reference mass exceeding 2380 kg but not exceeding 2610 kg, in respect of its engine type-approved under Regulation (EC) No 595/2009, may be extended at the latest by the application date of this Regulation.</p>
+                                             </content>
+                                          </alinea>
+                                          <alinea>
+                                             <content>
+                                                <p>For dedicated compression ignition engines fuelled with ethanol (ED95), a fixed carbon-hydrogen-oxygen ratio shall be used for the purposes of calculating fuel consumption values, which shall be C<sub>1</sub>H<sub>2,92</sub>O<sub>0,46</sub>.&quot;&quot;;</p>
+                                             </content>
+                                          </alinea>
+                                       </list>
+                                    </point>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(16)</num>
+                     <alinea>
+                        <content>
+                           <p>in Annex X, the following point is inserted after point 2.4.1.3.:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <point>
+                                       <num>&apos;2.4.1.4.</num>
+                                       <content>
+                                          <p>The OBD standard Euro 6-2 in Table 1 of Appendix 6 to Annex I to Commission Regulation (EU) 2017/1151 shall be considered equivalent to the character E of Table 1 of Appendix 9 to Annex I to this Regulation.&apos;;</p>
+                                       </content>
+                                    </point>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(17)</num>
+                     <content>
+                        <p>in Annex XI, in Appendix 1, in the model of the information document, points 2 to 2.3. are deleted;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(18)</num>
+                     <alinea>
+                        <content>
+                           <p>in Annex XIII, the second paragraph of point 12 is replaced by the following:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>&apos;This Appendix applies when the vehicle manufacturer requests EU type-approval of a vehicle with an approved engine with regard to emissions in accordance with Regulation (EC) No 595/2009 and this Regulation.&apos;;</p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(19)</num>
+                     <content>
+                        <p>Annex XVII is deleted.</p>
+                     </content>
+                  </point>
+               </list>
+            </paragraph>
+         </article>
+         <article xml:id="art_d612e861">
+            <num>Article 2</num>
+            <heading/>
+            <paragraph>
+               <content>
+                  <p>This Regulation shall enter into force on the twentieth day following that of its publication in the <i>Official Journal of the European Union</i>.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <content>
+                  <p>It shall apply from 1 January 2021.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <content>
+                  <p>Article 1(15) shall apply from the date of entry into force.</p>
+               </content>
+            </paragraph>
+         </article>
+         <clause>
+            <content>
+               <p>This Regulation shall be binding in its entirety and directly applicable in all Member States.</p>
+            </content>
+         </clause>
+      </body>
+      <conclusions>
+         <p>Done at Brussels, 7 November 2019.</p>
+         <block name="signatory">
+            <signature>
+               <organization refersTo="">For the Commission</organization>
+               <role refersTo="">The President</role>
+               <person refersTo="">Jean-Claude JUNCKER</person>
+            </signature>
+         </block>
+      </conclusions>
+   </bill>
+</akomaNtoso>

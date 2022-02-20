@@ -1,0 +1,685 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"
+            xmlns:fmx="http://formex.publications.europa.eu/schema/formex-05.21-20110601.xd"
+            xmlns:leos="urn:eu:europa:ec:leos"
+            xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <bill name="">
+      <meta xmlns:fn="http://www.w3.org/2005/xpath-functions">
+         <identification source="~COM">
+            <FRBRWork>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRcountry value=""/>
+            </FRBRWork>
+            <FRBRExpression>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+            </FRBRManifestation>
+         </identification>
+      </meta>
+      <preface>
+         <longTitle>
+            <p>
+               <docStage/>
+               <docType>COUNCIL REGULATION (EU) 2017/2454</docType>of 5 December 2017<docPurpose>amending Regulation (EU) No 904/2010 on administrative cooperation and combating fraud in the field of value added tax</docPurpose>
+            </p>
+         </longTitle>
+      </preface>
+      <preamble>
+         <formula name="actingEntity">
+            <p>THE COUNCIL OF THE EUROPEAN UNION,</p>
+         </formula>
+         <citations>
+            <citation>
+               <p>Having regard to the Treaty on the Functioning of the European Union, and in particular Article 113 thereof,</p>
+            </citation>
+            <citation>
+               <p>Having regard to the proposal from the European Commission,</p>
+            </citation>
+            <citation>
+               <p>After transmission of the draft legislative act to the national parliaments,</p>
+            </citation>
+            <citation>
+               <p>Having regard to the opinion of the European Parliament<authorialNote placement="bottom" marker="1">
+                     <p>Opinion of 30 November 2017 (not yet published in the Official Journal).</p>
+                  </authorialNote>,</p>
+            </citation>
+            <citation>
+               <p>Having regard to the opinion of the European Economic and Social Committee<authorialNote placement="bottom" marker="2">
+                     <p>OJ C 345, 13.10.2017, p. 79.</p>
+                  </authorialNote>,</p>
+            </citation>
+            <citation>
+               <p>Acting in accordance with a special legislative procedure,</p>
+            </citation>
+         </citations>
+         <recitals xml:id="recs_d603e80">
+            <intro>
+               <p>Whereas:</p>
+            </intro>
+            <recital xml:id="rec_d603e83">
+               <num>(1)</num>
+               <p>Council Regulation (EU) No 904/2010<authorialNote placement="bottom" marker="3">
+                     <p>Council Regulation (EU) No 904/2010 of 7 October 2010 on administrative cooperation and combating fraud in the field of value added tax (OJ L 268, 12.10.2010, p. 1).</p>
+                  </authorialNote> lays down rules on the exchange and storage of information by Member States in order to establish the special schemes provided for by Chapter 6 of Title XII of Council Directive 2006/112/EC<authorialNote placement="bottom" marker="4">
+                     <p>Council Directive 2006/112/EC of 28 November 2006 on the common system of value added tax (OJ L 347, 11.12.2006, p. 1).</p>
+                  </authorialNote>.</p>
+            </recital>
+            <recital xml:id="rec_d603e109">
+               <num>(2)</num>
+               <p>The extension from 1 January 2021 of those special schemes to distance sales of goods and services other than telecommunications, broadcasting or electronically supplied services requires extending the scope of the rules of this Regulation concerning the provision of information and transfer of money between the Member State of identification and the Member States of consumption.</p>
+            </recital>
+            <recital xml:id="rec_d603e118">
+               <num>(3)</num>
+               <p>Due to the extended scope of the special schemes to cover also distance sales of goods and all services, the number of transactions to be reported in the VAT return will increase considerably. In order to allow the Member State of identification sufficient time to treat the VAT returns submitted by taxable persons under the special scheme, the deadline for transferring the information of the VAT return and the VAT amount paid to every Member State of consumption should be extended by 10 days.</p>
+            </recital>
+            <recital xml:id="rec_d603e124">
+               <num>(4)</num>
+               <p>The extension of the special schemes to distance sales of goods imported from third territories or third countries requires that the customs authority of the Member State of importation is able to identify imports of goods in small consignments for which value added tax (VAT) is to be paid through one of the special schemes. The identification number under which VAT is paid should therefore be communicated in advance to enable customs authorities to check its validity upon importation of the goods.</p>
+            </recital>
+            <recital xml:id="rec_d603e131">
+               <num>(5)</num>
+               <p>Taxable persons using such special schemes may be subject to requests for records from and administrative enquiries by the Member State of identification and all the Member States of consumption where goods or services are supplied to. To reduce the administrative burden and compliance costs for businesses as well as for tax administrations of multiple requests for records and administrative enquiries and to avoid duplication of work, such requests and enquiries should as much as possible be coordinated by the Member State of identification.</p>
+            </recital>
+            <recital xml:id="rec_d603e137">
+               <num>(6)</num>
+               <p>To simplify the collection of statistical data concerning the application of the special schemes, the Commission should be authorised to extract aggregated statistical and diagnostic information, such as the number of the different types of electronic messages exchanged between Member States, related to the special schemes, with the exception of data concerning individual taxable persons.</p>
+            </recital>
+            <recital xml:id="rec_d603e143">
+               <num>(7)</num>
+               <p>The information to be submitted by the taxable person and to be transmitted between Member States for the application of the special schemes, as well as the technical details, including common electronic messages, for the submission by the taxable person or the transmission of this information between Member States should be adopted in accordance with the comitology procedure provided for in this Regulation.</p>
+            </recital>
+            <recital xml:id="rec_d603e149">
+               <num>(8)</num>
+               <p>Taking account of the time needed to put in place the measures necessary to implement this Regulation and for the Member States to adapt their IT system for registration and for declaration and payment of the VAT as well as to take into account amendments introduced by Article 2 of Council Directive (EU) 2017/2455<authorialNote placement="bottom" marker="5">
+                     <p>Council Directive (EU) 2017/2455 of 5 December 2017 amending Directive 2006/112/EC and Directive 2009/132/EC as regards certain value added tax obligations for supplies of services and distance sales of goods (see page 7 of this Official Journal).</p>
+                  </authorialNote>, this Regulation should apply from the date of the application of those amendments.</p>
+            </recital>
+            <recital xml:id="rec_d603e162">
+               <num>(9)</num>
+               <p>Regulation (EU) No 904/2010 should therefore be amended accordingly,</p>
+            </recital>
+         </recitals>
+         <formula name="enactingFormula">
+            <p>HAS ADOPTED THIS REGULATION:</p>
+         </formula>
+      </preamble>
+      <body>
+         <article xml:id="art_d603e171" leos:compliant="false">
+            <num>Article 1</num>
+            <heading/>
+            <paragraph>
+               <subparagraph>
+                  <content>
+                     <p>Regulation (EU) No 904/2010 is amended as follows:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(1)</num>
+                     <alinea>
+                        <content>
+                           <p>in Article 1, paragraph 4 is replaced by the following:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <paragraph>
+                                       <num>&apos;4.</num>
+                                       <content>
+                                          <p>This Regulation also lays down rules and procedures for the exchange by electronic means of VAT information on goods and services supplied in accordance with the special schemes provided for in Chapter 6 of Title XII of Directive 2006/112/EC and also for any subsequent exchange of information and, as far as goods and services covered by the special schemes are concerned, for the transfer of money between Member States&apos; competent authorities.&apos;.</p>
+                                       </content>
+                                    </paragraph>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(2)</num>
+                     <alinea>
+                        <content>
+                           <p>in Article 2, paragraph 2 is replaced by the following:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <paragraph>
+                                       <num>&apos;2.</num>
+                                       <content>
+                                          <p>The definitions contained in Articles 358, 358a, 369a and 369l of Directive 2006/112/EC for the purposes of each special scheme shall also apply for the purposes of this Regulation.&apos;.</p>
+                                       </content>
+                                    </paragraph>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(3)</num>
+                     <alinea>
+                        <content>
+                           <p>in Article 17(1), point (d) is replaced by the following:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <point>
+                                       <num>&apos;(d)</num>
+                                       <content>
+                                          <p>information which it collects pursuant to Articles 360, 361, 364, 365, 369c, 369f, 369g, 369o, 369p, 369s and 369t of Directive 2006/112/EC.&apos;.</p>
+                                       </content>
+                                    </point>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(4)</num>
+                     <alinea>
+                        <content>
+                           <p>in Article 17(1), the following point is added:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <point>
+                                       <num>&apos;(e)</num>
+                                       <content>
+                                          <p>data on the VAT identification numbers referred to Article 369q of Directive 2006/112/EC it has issued and, per VAT identification number issued by any Member State, the total value of the imports of goods exempted under Article 143(1), point (ca), during each month.&apos;.</p>
+                                       </content>
+                                    </point>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(5)</num>
+                     <alinea>
+                        <content>
+                           <p>in Article 17, paragraph 2 is replaced by the following:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <paragraph>
+                                       <num>&apos;2.</num>
+                                       <content>
+                                          <p>The technical details concerning the automated enquiry of the information referred to in points (b), (c), (d) and (e) of paragraph 1 shall be adopted in accordance with the procedure provided for in Article 58(2).&apos;.</p>
+                                       </content>
+                                    </paragraph>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(6)</num>
+                     <alinea>
+                        <content>
+                           <p>Article 31 is amended as follows:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <alinea>
+                              <content>
+                                 <p>paragraph 1 is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <paragraph>
+                                             <num>&apos;1.</num>
+                                             <content>
+                                                <p>The competent authorities of each Member State shall ensure that persons involved in the intra-Community supply of goods or of services and non-established taxable persons supplying services, are allowed to obtain, for the purposes of such transactions, confirmation by electronic means of the validity of the VAT identification number of any specified person as well as the associated name and address. This information shall correspond to the data referred to in Article 17.&apos;;</p>
+                                             </content>
+                                          </paragraph>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <content>
+                              <p>paragraph 3 is deleted.</p>
+                           </content>
+                        </point>
+                     </list>
+                  </point>
+                  <point>
+                     <num>(7)</num>
+                     <alinea>
+                        <content>
+                           <p>Chapter XI is amended as follows:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <alinea>
+                              <content>
+                                 <p>the heading of Section 2 is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <num>&apos;Provisions applicable from 1 january 2015 until 31 december 2020&apos;;</num>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <alinea>
+                              <content>
+                                 <p>the following Section is added:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <section>
+                                             <num>&apos;SECTION 3</num>
+                                             <heading>Provisions applicable from 1 january 2021</heading>
+                                             <subsection>
+                                                <num>Subsection 1</num>
+                                                <heading>General provision</heading>
+                                                <article xml:id="art_d603e352">
+                                                   <num>Article 47a</num>
+                                                   <heading/>
+                                                   <paragraph>
+                                                      <content>
+                                                         <p>The provisions of this Section shall apply from 1 January 2021.</p>
+                                                      </content>
+                                                   </paragraph>
+                                                </article>
+                                             </subsection>
+                                             <subsection>
+                                                <num>Subsection 2</num>
+                                                <heading>Exchange of information</heading>
+                                                <article xml:id="art_d603e371">
+                                                   <num>Article 47b</num>
+                                                   <heading/>
+                                                   <paragraph>
+                                                      <num>1.</num>
+                                                      <content>
+                                                         <p>Member States shall provide that the information provided by the taxable person making use of the special scheme in Section 2 of Chapter 6 of Title XII of Directive 2006/112/EC to the Member State of identification when his activities commence pursuant to Article 361 of that Directive shall be submitted by electronic means. Similar details for the identification of the taxable person making use of the special scheme in Section 3 of Chapter 6 of Title XII of Directive 2006/112/EC when his activities commence pursuant to Article 369c of that Directive shall be submitted by electronic means. Any changes in the information provided pursuant to Article 361(2) and 369c of Directive 2006/112/EC shall also be submitted by electronic means.</p>
+                                                      </content>
+                                                   </paragraph>
+                                                   <paragraph>
+                                                      <num>2.</num>
+                                                      <content>
+                                                         <p>The Member State of identification shall transmit the information referred to in paragraph 1 by electronic means to the competent authorities of the other Member States within 10 days from the end of the month during which the information was received from the taxable person making use of one of the special schemes in Sections 2 and 3 of Chapter 6 of Title XII of Directive 2006/112/EC. In the same manner, the Member State of identification shall inform the competent authorities of the other Member States of the VAT identification numbers referred to in these sections 2 and 3.</p>
+                                                      </content>
+                                                   </paragraph>
+                                                   <paragraph>
+                                                      <num>3.</num>
+                                                      <content>
+                                                         <p>The Member State of identification shall without delay inform by electronic means the competent authorities of the other Member States if the taxable person making use of one of the special schemes in Sections 2 and 3 of Chapter 6 of Title XII of Directive 2006/112/EC is excluded from that special scheme.</p>
+                                                      </content>
+                                                   </paragraph>
+                                                </article>
+                                                <article xml:id="art_d603e389">
+                                                   <num>Article 47c</num>
+                                                   <heading/>
+                                                   <paragraph>
+                                                      <num>1.</num>
+                                                      <content>
+                                                         <p>Member States shall provide that the information provided by the taxable person making use of the special scheme in Section 4 of Chapter 6 of Title XII of Directive 2006/112/EC or his intermediary, to the Member State of identification when his activities commence pursuant to Article 369p(1), (2) and (2a) of that Directive shall be submitted by electronic means. Any changes in this information provided pursuant to Article 369p(3) of Directive 2006/112/EC shall also be submitted by electronic means.</p>
+                                                      </content>
+                                                   </paragraph>
+                                                   <paragraph>
+                                                      <num>2.</num>
+                                                      <content>
+                                                         <p>The Member State of identification shall transmit the information referred to in paragraph 1 by electronic means to the competent authorities of the other Member States within 10 days from the end of the month during which the information was received from the taxable person making use of the special scheme in Section 4 of Chapter 6 of Title XII of Directive 2006/112/EC or, where applicable, his intermediary. In the same manner, the Member State of identification shall inform the competent authorities of the other Member States of the allocated individual VAT identification number for the application of this special scheme.</p>
+                                                      </content>
+                                                   </paragraph>
+                                                   <paragraph>
+                                                      <num>3.</num>
+                                                      <content>
+                                                         <p>The Member State of identification shall without delay inform by electronic means the competent authorities of the other Member States if the taxable person making use of the special scheme in Section 4 of Chapter 6 of Title XII of Directive 2006/112/EC or, where applicable, his intermediary is deleted from the identification register.</p>
+                                                      </content>
+                                                   </paragraph>
+                                                </article>
+                                                <article xml:id="art_d603e408">
+                                                   <num>Article 47d</num>
+                                                   <heading/>
+                                                   <paragraph>
+                                                      <num>1.</num>
+                                                      <content>
+                                                         <p>Member States shall provide that the VAT return with the details set out in Articles 365, 369g and 369t of Directive 2006/112/EC shall be submitted by electronic means.</p>
+                                                      </content>
+                                                   </paragraph>
+                                                   <paragraph>
+                                                      <num>2.</num>
+                                                      <subparagraph>
+                                                         <content>
+                                                            <p>The Member State of identification shall transmit the information referred to in paragraph 1 by electronic means to the competent authority of the Member State of consumption concerned at the latest 20 days after the end of the month during which the return was received.</p>
+                                                         </content>
+                                                      </subparagraph>
+                                                      <subparagraph>
+                                                         <content>
+                                                            <p>The Member State of identification shall also transmit the information provided for in paragraphs 2 of Article 369g of Directive 2006/112/EC to the competent authority of each other Member State from which goods are dispatched or transported and the information provided for in paragraph 3 of Article 369g of Directive 2006/112/EC to the competent authority of each Member State of establishment concerned.</p>
+                                                         </content>
+                                                      </subparagraph>
+                                                      <subparagraph>
+                                                         <content>
+                                                            <p>Member States which have required the VAT return to be made in a national currency other than euro, shall convert the amounts into euro using the exchange rate valid for the last date of the tax period. The exchange shall be done following the exchange rates published by the European Central Bank for that day, or, if there is no publication on that day, on the next day of publication.</p>
+                                                         </content>
+                                                      </subparagraph>
+                                                   </paragraph>
+                                                </article>
+                                                <article xml:id="art_d603e425">
+                                                   <num>Article 47e</num>
+                                                   <heading/>
+                                                   <paragraph>
+                                                      <content>
+                                                         <p>The Member State of identification shall without delay transmit by electronic means to the Member State of consumption the information needed to link each payment with a relevant VAT return.</p>
+                                                      </content>
+                                                   </paragraph>
+                                                </article>
+                                                <article xml:id="art_d603e430">
+                                                   <num>Article 47f</num>
+                                                   <heading/>
+                                                   <paragraph>
+                                                      <num>1.</num>
+                                                      <subparagraph>
+                                                         <content>
+                                                            <p>The Member State of identification shall ensure that the amount the taxable person making use of one of the special schemes provided for in Chapter 6 of Title XII of Directive 2006/112/EC or, if applicable his intermediary, has paid is transferred to the bank account denominated in euro which has been designated by the Member State of consumption to which the payment is due.</p>
+                                                         </content>
+                                                      </subparagraph>
+                                                      <subparagraph>
+                                                         <content>
+                                                            <p>Member States which required the payments in a national currency other than euro shall convert the amounts into euro using the exchange rate valid for the last date of the tax period. The exchange shall be done following the exchange rates published by the European Central Bank for that day, or, if there is no publication on that day, on the next day of publication.</p>
+                                                         </content>
+                                                      </subparagraph>
+                                                      <subparagraph>
+                                                         <content>
+                                                            <p>The transfer shall take place at the latest 20 days after the end of the month during which the payment was received.</p>
+                                                         </content>
+                                                      </subparagraph>
+                                                   </paragraph>
+                                                   <paragraph>
+                                                      <num>2.</num>
+                                                      <content>
+                                                         <p>If the taxable person making use of one of the special schemes or, if applicable, his intermediary does not pay the total tax due, the Member State of identification shall ensure that the payment is transferred to the Member States of consumption in proportion to the tax due in each Member State. The Member State of identification shall inform by electronic means the competent authorities of the Member States of consumption thereof.</p>
+                                                      </content>
+                                                   </paragraph>
+                                                </article>
+                                                <article xml:id="art_d603e447">
+                                                   <num>Article 47g</num>
+                                                   <heading/>
+                                                   <paragraph>
+                                                      <content>
+                                                         <p>Member States shall notify by electronic means the competent authorities of the other Member States of the relevant bank account numbers for receiving payments in accordance with Article 47f.</p>
+                                                      </content>
+                                                   </paragraph>
+                                                   <paragraph>
+                                                      <content>
+                                                         <p>Member States shall without delay notify by electronic means the competent authorities of the other Member States and the Commission of changes in the tax rates applicable for supplies of goods and services to which the special schemes apply.</p>
+                                                      </content>
+                                                   </paragraph>
+                                                </article>
+                                             </subsection>
+                                             <subsection>
+                                                <num>Subsection 3</num>
+                                                <heading>Control of transactions and taxable persons</heading>
+                                                <article xml:id="art_d603e466">
+                                                   <num>Article 47h</num>
+                                                   <heading/>
+                                                   <paragraph>
+                                                      <content>
+                                                         <p>Member States shall, upon importation of goods on which VAT is to be declared under the special scheme provided for in Section 4 of Chapter 6 of Title XII of Directive 2006/112/EC, carry out an electronic verification of the validity of the individual VAT identification number allocated by way of Article 369q of that Directive and communicated at the latest upon lodging of the import declaration.</p>
+                                                      </content>
+                                                   </paragraph>
+                                                </article>
+                                                <article xml:id="art_d603e471">
+                                                   <num>Article 47i</num>
+                                                   <heading/>
+                                                   <paragraph>
+                                                      <num>1.</num>
+                                                      <content>
+                                                         <p>To obtain the records held by a taxable person or intermediary pursuant to Articles 369, 369k and 369x of Directive 2006/112/EC, the Member State of consumption shall first make a request to the Member State of identification by electronic means.</p>
+                                                      </content>
+                                                   </paragraph>
+                                                   <paragraph>
+                                                      <num>2.</num>
+                                                      <content>
+                                                         <p>Where the Member State of identification receives a request referred to in paragraph 1, it shall transmit that request by electronic means and without delay to the taxable person or his intermediary.</p>
+                                                      </content>
+                                                   </paragraph>
+                                                   <paragraph>
+                                                      <num>3.</num>
+                                                      <content>
+                                                         <p>Member States shall provide that, upon request, a taxable person or his intermediary submits the requested records by electronic means to the Member State of identification. Member States shall accept that the records may be submitted using a standard form.</p>
+                                                      </content>
+                                                   </paragraph>
+                                                   <paragraph>
+                                                      <num>4.</num>
+                                                      <content>
+                                                         <p>The Member State of identification shall transmit the records obtained by electronic means and without delay to the requesting Member State of consumption.</p>
+                                                      </content>
+                                                   </paragraph>
+                                                   <paragraph>
+                                                      <num>5.</num>
+                                                      <content>
+                                                         <p>Where the requesting Member State of consumption does not receive the records within 30 days of the date of the making of the request, that Member State may take any action in accordance with its national legislation to obtain such records.</p>
+                                                      </content>
+                                                   </paragraph>
+                                                </article>
+                                                <article xml:id="art_d603e499">
+                                                   <num>Article 47j</num>
+                                                   <heading/>
+                                                   <paragraph>
+                                                      <num>1.</num>
+                                                      <subparagraph>
+                                                         <content>
+                                                            <p>If the Member State of identification decides to carry out in its territory an administrative enquiry on a taxable person who makes use of one of the special schemes provided for in Chapter 6 of Title XII of Directive 2006/112/EC or, if applicable, on an intermediary it shall inform in advance of the enquiry the competent authorities of all the other Member States.</p>
+                                                         </content>
+                                                      </subparagraph>
+                                                      <subparagraph>
+                                                         <content>
+                                                            <p>The first subparagraph shall apply only in respect of an administrative enquiry concerning the special schemes.</p>
+                                                         </content>
+                                                      </subparagraph>
+                                                   </paragraph>
+                                                   <paragraph>
+                                                      <num>2.</num>
+                                                      <subparagraph>
+                                                         <content>
+                                                            <p>Without prejudice to Article 7(4), if the Member State of consumption decides that an administrative enquiry is required, it shall first consult with the Member State of identification on the need for such an enquiry.</p>
+                                                         </content>
+                                                      </subparagraph>
+                                                      <subparagraph>
+                                                         <content>
+                                                            <p>In cases where the need for an administrative enquiry is agreed, the Member State of identification shall inform the other Member States.</p>
+                                                         </content>
+                                                      </subparagraph>
+                                                      <subparagraph>
+                                                         <content>
+                                                            <p>This shall not preclude Member States to take any action in accordance with their national legislation.</p>
+                                                         </content>
+                                                      </subparagraph>
+                                                   </paragraph>
+                                                   <paragraph>
+                                                      <num>3.</num>
+                                                      <content>
+                                                         <p>Each Member State shall communicate to the other Member States and the Commission the details of the competent authority responsible for coordination of administrative enquiries within that Member State.</p>
+                                                      </content>
+                                                   </paragraph>
+                                                </article>
+                                             </subsection>
+                                             <subsection>
+                                                <num>Subsection 4</num>
+                                                <heading>Statistical information</heading>
+                                                <article xml:id="art_d603e534">
+                                                   <num>Article 47k</num>
+                                                   <heading/>
+                                                   <paragraph>
+                                                      <content>
+                                                         <p>Member States shall allow the Commission to extract information directly from messages generated by the computerised system referred to in Article 53 for aggregated statistical and diagnostic purposes pursuant to points (d) and (e) of Article 17(1). This information shall not contain data concerning individual taxable persons.</p>
+                                                      </content>
+                                                   </paragraph>
+                                                </article>
+                                             </subsection>
+                                             <subsection>
+                                                <num>Subsection 5</num>
+                                                <heading>Conferral of implementing powers</heading>
+                                                <article xml:id="art_d603e551">
+                                                   <num>Article 47l</num>
+                                                   <heading/>
+                                                   <paragraph>
+                                                      <subparagraph>
+                                                         <content>
+                                                            <p>For the purpose of the uniform application of this Regulation, the Commission shall be empowered to adopt the following measures in accordance with the procedure referred to in Article 58(2):</p>
+                                                         </content>
+                                                      </subparagraph>
+                                                      <list>
+                                                         <point>
+                                                            <num>(a)</num>
+                                                            <content>
+                                                               <p>the technical details, including a common electronic message, for providing the information referred to in Articles 47b(1), 47c(1), and 47d(1), and the standard form as referred to in Article 47i(3);</p>
+                                                            </content>
+                                                         </point>
+                                                         <point>
+                                                            <num>(b)</num>
+                                                            <content>
+                                                               <p>the technical details, including a common electronic message, for providing the information referred to in Articles 47b(2) and (3), 47c(2) and (3), 47d(2), 47e, 47f(2), 47i(1), (2) and (4), and 47j(1), (2) and (4) as well as the technical means for the transmission of this information;</p>
+                                                            </content>
+                                                         </point>
+                                                         <point>
+                                                            <num>(c)</num>
+                                                            <content>
+                                                               <p>the technical details for the transmission between Member States of the information referred to in Article 47g;</p>
+                                                            </content>
+                                                         </point>
+                                                         <point>
+                                                            <num>(d)</num>
+                                                            <content>
+                                                               <p>the technical details concerning the verification of the information referred to in Article 47h by the Member State of importation;</p>
+                                                            </content>
+                                                         </point>
+                                                         <point>
+                                                            <num>(e)</num>
+                                                            <content>
+                                                               <p>the aggregated statistical and diagnostic information to be extracted by the Commission as referred to in Article 47k as well as the technical means for the extraction of this information.&apos;.</p>
+                                                            </content>
+                                                         </point>
+                                                      </list>
+                                                   </paragraph>
+                                                </article>
+                                             </subsection>
+                                          </section>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                     </list>
+                  </point>
+                  <point>
+                     <num>(8)</num>
+                     <alinea>
+                        <content>
+                           <p>in Annex I, point 1 is replaced by the following:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <point>
+                                       <num>&apos;1.</num>
+                                       <content>
+                                          <p>distance selling (Article 33 of Directive 2006/112/EC);&apos;.</p>
+                                       </content>
+                                    </point>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+               </list>
+            </paragraph>
+         </article>
+         <article xml:id="art_d603e606">
+            <num>Article 2</num>
+            <heading/>
+            <paragraph>
+               <content>
+                  <p>This Regulation shall enter into force on the twentieth day following that of its publication in the <i>Official Journal of the European Union</i>.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <content>
+                  <p>It shall apply from 1 January 2021.</p>
+               </content>
+            </paragraph>
+         </article>
+         <clause>
+            <content>
+               <p>This Regulation shall be binding in its entirety and directly applicable in all Member States.</p>
+            </content>
+         </clause>
+      </body>
+      <conclusions>
+         <p>Done at Brussels, 5 December 2017.</p>
+         <block name="signatory">
+            <signature>
+               <organization refersTo="">For the Council</organization>
+               <role refersTo="">The President</role>
+               <person refersTo="">T. TÕNISTE</person>
+            </signature>
+         </block>
+      </conclusions>
+   </bill>
+</akomaNtoso>

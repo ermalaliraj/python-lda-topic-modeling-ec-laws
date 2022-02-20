@@ -1,0 +1,1369 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"
+            xmlns:fmx="http://formex.publications.europa.eu/schema/formex-05.21-20110601.xd"
+            xmlns:leos="urn:eu:europa:ec:leos"
+            xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <bill name="">
+      <meta xmlns:fn="http://www.w3.org/2005/xpath-functions">
+         <identification source="~COM">
+            <FRBRWork>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRcountry value=""/>
+            </FRBRWork>
+            <FRBRExpression>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+            </FRBRManifestation>
+         </identification>
+      </meta>
+      <preface>
+         <longTitle>
+            <p>
+               <docStage/>
+               <docType>REGULATION (EU) 2016/1035 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL</docType>of 8 June 2016<docPurpose>on protection against injurious pricing of vessels</docPurpose>
+            </p>
+         </longTitle>
+         <container name="EEArelevance">
+            <p>(codification)</p>
+         </container>
+      </preface>
+      <preamble>
+         <formula name="actingEntity">
+            <p>THE EUROPEAN PARLIAMENT AND THE COUNCIL OF THE EUROPEAN UNION,</p>
+         </formula>
+         <citations>
+            <citation>
+               <p>Having regard to the Treaty on the Functioning of the European Union, and in particular Article 207(2) thereof,</p>
+            </citation>
+            <citation>
+               <p>Having regard to the proposal from the European Commission,</p>
+            </citation>
+            <citation>
+               <p>After transmission of the draft legislative act to the national parliaments,</p>
+            </citation>
+            <citation>
+               <p>Acting in accordance with the ordinary legislative procedure<authorialNote placement="bottom" marker="1">
+                     <p>Position of the European Parliament of 7 July 2015 (not yet published in the Official Journal) and decision of the Council of 15 January 2016.</p>
+                  </authorialNote>,</p>
+            </citation>
+         </citations>
+         <recitals xml:id="recs_d327e77">
+            <intro>
+               <p>Whereas:</p>
+            </intro>
+            <recital xml:id="rec_d327e80">
+               <num>(1)</num>
+               <p>Council Regulation (EC) No 385/96<authorialNote placement="bottom" marker="2">
+                     <p>Council Regulation (EC) No 385/96 of 29 January 1996 on protection against injurious pricing of vessels (OJ L 56, 6.3.1996, p. 21).</p>
+                  </authorialNote> has been substantially amended<authorialNote placement="bottom" marker="3">
+                     <p>See Annex I.</p>
+                  </authorialNote>. In the interests of clarity and rationality, that Regulation should be codified.</p>
+            </recital>
+            <recital xml:id="rec_d327e100">
+               <num>(2)</num>
+               <p>Multilateral negotiations conducted under the auspices of the Organisation for Economic Cooperation and Development led to the conclusion, on 21 December 1994, of an Agreement Respecting Normal Competitive Conditions in the Commercial Shipbuilding and Repair Industry (&apos;the Shipbuilding Agreement&apos;).</p>
+            </recital>
+            <recital xml:id="rec_d327e113">
+               <num>(3)</num>
+               <p>It has been recognised in the framework of the Shipbuilding Agreement that the special characteristics of ship-purchase transactions have made it impractical to apply countervailing and anti-dumping duties, as provided for under Article VI of the General Agreement on Tariffs and Trade, the Agreement on Subsidies and Countervailing Measures, and the Agreement on Implementation of Article VI of the General Agreement on Tariffs and Trade 1994 (&apos;the 1994 Anti-Dumping Agreement&apos;) annexed to the Agreement establishing the World Trade Organisation. The need to provide for an effective means of protection against sales of ships below their normal value which cause injury has led to the conclusion of a Shipbuilding Injurious Pricing Code which, together with its Basic Principles, constitutes Annex III to the Shipbuilding Agreement (&apos;the IPI Code&apos;).</p>
+            </recital>
+            <recital xml:id="rec_d327e127">
+               <num>(4)</num>
+               <p>The text of the IPI Code is mainly based on the 1994 Anti-Dumping Agreement, but deviates from that Agreement when warranted by the specific nature of ship-purchase transactions. Therefore, the language of the IPI Code should be reflected in Union legislation, to the extent possible on the basis of the text of Regulation (EU) 2016/1036 of the European Parliament and of the Council<authorialNote placement="bottom" marker="4">
+                     <p>Regulation (EU) 2016/1036 of the European Parliament and of the Council of 8 June 2016 on protection against dumped imports from countries not members of the European Union (see page 21 of this Official Journal).</p>
+                  </authorialNote>.</p>
+            </recital>
+            <recital xml:id="rec_d327e141">
+               <num>(5)</num>
+               <p>The Shipbuilding Agreement and the legislative provisions deriving therefrom are of significant importance for Union law.</p>
+            </recital>
+            <recital xml:id="rec_d327e147">
+               <num>(6)</num>
+               <p>To maintain the balance of rights and obligations which the Shipbuilding Agreement establishes, action should be taken by the Union against any injuriously priced vessel whose sale at less than normal value causes injury to the Union industry.</p>
+            </recital>
+            <recital xml:id="rec_d327e153">
+               <num>(7)</num>
+               <p>As regards shipbuilders from Contracting Parties to the Shipbuilding Agreement, the sale of a vessel may be subject to an investigation by the Union only when the buyer of the vessel is a Union buyer, and provided the ship is not a military vessel.</p>
+            </recital>
+            <recital xml:id="rec_d327e159">
+               <num>(8)</num>
+               <p>It is desirable to set out clear and detailed rules on the calculation of the normal value. In particular, such value should, where possible, be based on a representative sale of a like vessel in the ordinary course of trade in the exporting country. It is expedient to define the circumstances in which a domestic sale may be considered to be made at a loss and may be disregarded, and in which recourse may be had to sale of a like vessel to a third country, or to constructed normal value. It is also desirable to provide for a proper allocation of costs, even in start-up situations. It is also necessary, when constructing the normal value, to indicate the methodology to be applied in determining the amounts for selling, general and administrative costs and the profit margin that should be included in such value.</p>
+            </recital>
+            <recital xml:id="rec_d327e165">
+               <num>(9)</num>
+               <p>In order to be able to apply correctly the instrument for combating injurious pricing, the Commission should take all necessary steps to ascertain, in the large conglomerates and holdings of third countries, the validity of accounting charges when the cost price structure needs to be estimated.</p>
+            </recital>
+            <recital xml:id="rec_d327e172">
+               <num>(10)</num>
+               <p>When determining the normal value for non-market economy countries, it appears prudent to set out rules for choosing the appropriate market-economy third country to be used for such purpose and, where it is not possible to find a suitable third country, to provide that the normal value may be established on any other reasonable basis.</p>
+            </recital>
+            <recital xml:id="rec_d327e178">
+               <num>(11)</num>
+               <p>It is expedient to define the export price and to enumerate the adjustments which should be made in those cases where a reconstruction of that price from the first open-market price is deemed necessary.</p>
+            </recital>
+            <recital xml:id="rec_d327e184">
+               <num>(12)</num>
+               <p>For the purpose of ensuring a fair comparison between the export price and the normal value, it is advisable to list the factors, including contractual penalties, which may affect prices and price comparability.</p>
+            </recital>
+            <recital xml:id="rec_d327e190">
+               <num>(13)</num>
+               <p>It is desirable to provide clear and detailed guidance as to the factors which may be relevant for the determination of whether the injuriously priced sale has caused material injury or is threatening to cause injury. In demonstrating that the price level of the sale concerned is responsible for injury sustained by the Union industry, attention should be given to the effect of other factors and, in particular, prevailing market conditions in the Union.</p>
+            </recital>
+            <recital xml:id="rec_d327e196">
+               <num>(14)</num>
+               <p>It is advisable to define the term &apos;Union industry&apos; by reference to the capability to build a like vessel and to provide that parties related to exporters may be excluded from such an industry, and to define the term &apos;related&apos;.</p>
+            </recital>
+            <recital xml:id="rec_d327e210">
+               <num>(15)</num>
+               <p>It is necessary to set out the procedural and substantive conditions for lodging a complaint against injurious pricing, including the extent to which it should be supported by the Union industry, and the information on the buyer of the vessel, injurious pricing, injury and causation which such a complaint should contain. It is also expedient to specify the procedures for the rejection of complaints or the initiation of proceedings.</p>
+            </recital>
+            <recital xml:id="rec_d327e216">
+               <num>(16)</num>
+               <p>When the buyer of the injuriously priced vessel is established in the territory of another Contracting Party to the Shipbuilding Agreement, a complaint may also contain a request that an investigation be initiated by the authorities of that Contracting Party. Such request should be transmitted to the authorities of the Contracting Party, where warranted.</p>
+            </recital>
+            <recital xml:id="rec_d327e222">
+               <num>(17)</num>
+               <p>Where appropriate, an investigation may also be initiated upon a written complaint by the authorities of a Contracting Party to the Shipbuilding Agreement, in accordance with this Regulation and under the conditions of the Shipbuilding Agreement.</p>
+            </recital>
+            <recital xml:id="rec_d327e229">
+               <num>(18)</num>
+               <p>It is necessary to specify the manner in which interested parties should be given notice of the information which the authorities require. Interested parties should have ample opportunity to present all relevant evidence and to defend their interests. It is also desirable to set out clearly the rules and procedures to be followed during the investigation, in particular the rules whereby interested parties are to make themselves known, present their views and submit information within specified time limits, if such views and information are to be taken into account. It is also appropriate to set out the conditions under which an interested party may have access to, and comment on, information presented by other interested parties. There should also be cooperation between the Member States and the Commission in the collection of information.</p>
+            </recital>
+            <recital xml:id="rec_d327e235">
+               <num>(19)</num>
+               <p>It is necessary to provide that the termination of cases should, irrespective of whether an injurious pricing charge is imposed or not, take place no later than 1 year from the date of initiation or the date of delivery of the vessel, as the case may be.</p>
+            </recital>
+            <recital xml:id="rec_d327e242">
+               <num>(20)</num>
+               <p>Investigations or proceedings should be terminated where the margin of injurious pricing is <i>de minimis</i>.</p>
+            </recital>
+            <recital xml:id="rec_d327e251">
+               <num>(21)</num>
+               <p>The investigation may be terminated without the imposition of an injurious pricing charge if the sale of the injuriously priced vessel is definitively and unconditionally voided or if an alternative equivalent remedy is accepted. However, the need to avoid jeopardising achievement of the aim pursued under this Regulation should be given special consideration.</p>
+            </recital>
+            <recital xml:id="rec_d327e257">
+               <num>(22)</num>
+               <p>An injurious pricing charge equal to the amount of the injurious pricing margin should be imposed by decision on the shipbuilder whose injuriously priced sale of a vessel has caused injury to the Union industry, where all the conditions provided for in this Regulation are fulfilled. Precise and detailed rules should be laid down for the implementation of such decision, including all measures necessary for its actual enforcement, in particular the taking of countermeasures if the shipbuilder does not pay the injurious pricing charge within the applicable time limit.</p>
+            </recital>
+            <recital xml:id="rec_d327e263">
+               <num>(23)</num>
+               <p>It is necessary to set out precise rules for the denial of the right to load and unload in Union ports to vessels built by shipbuilders subject to countermeasures.</p>
+            </recital>
+            <recital xml:id="rec_d327e269">
+               <num>(24)</num>
+               <p>The obligation to pay the injurious pricing charge expires only when such charge is fully paid or at the end of the period during which the countermeasures are applicable.</p>
+            </recital>
+            <recital xml:id="rec_d327e275">
+               <num>(25)</num>
+               <p>Any action taken under this Regulation should not be contrary to the Union interest.</p>
+            </recital>
+            <recital xml:id="rec_d327e281">
+               <num>(26)</num>
+               <p>In acting pursuant to this Regulation, the Union should bear in mind the need for rapid and effective action.</p>
+            </recital>
+            <recital xml:id="rec_d327e287">
+               <num>(27)</num>
+               <p>It is expedient to provide for verification visits to check information submitted on injurious pricing and injury, such visits being, however, conditional on proper replies to questionnaires being received.</p>
+            </recital>
+            <recital xml:id="rec_d327e293">
+               <num>(28)</num>
+               <p>It is necessary to provide that, where parties do not cooperate satisfactorily, other information may be used to establish findings and that such information may be less favourable to the parties than if they had cooperated.</p>
+            </recital>
+            <recital xml:id="rec_d327e299">
+               <num>(29)</num>
+               <p>Provision should be made for the treatment of confidential information so that business secrets are not divulged.</p>
+            </recital>
+            <recital xml:id="rec_d327e305">
+               <num>(30)</num>
+               <p>It is essential that provision be made for the proper disclosure of the essential facts and considerations to parties which qualify for such treatment and that such disclosure be made, with due regard to the decision-making process in the Union, within a time period which permits parties to defend their interests.</p>
+            </recital>
+            <recital xml:id="rec_d327e312">
+               <num>(31)</num>
+               <p>The implementation of the procedures provided for in this Regulation requires uniform conditions for the adoption of measures necessary for its implementation in accordance with Regulation (EU) No 182/2011 of the European Parliament and of the Council<authorialNote placement="bottom" marker="5">
+                     <p>Regulation (EU) No 182/2011 of the European Parliament and of the Council of 16 February 2011 laying down the rules and general principles concerning mechanisms for control by Member States of the Commission&apos;s exercise of implementing powers (OJ L 55, 28.2.2011, p. 13).</p>
+                  </authorialNote>,</p>
+            </recital>
+         </recitals>
+         <formula name="enactingFormula">
+            <p>HAVE ADOPTED THIS REGULATION:</p>
+         </formula>
+      </preamble>
+      <body>
+         <article xml:id="art_d327e332">
+            <num>Article 1</num>
+            <heading>Principles and definitions</heading>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>An injurious pricing charge may be imposed on the builder of any injuriously priced vessel whose sale to a buyer other than a buyer of the country in which the vessel originates causes injury.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>A vessel is to be considered as being injuriously priced if the export price of the vessel sold is less than a comparable price for a like vessel, in the ordinary course of trade, when sold to a buyer of the exporting country.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <subparagraph>
+                  <content>
+                     <p>For the purposes of this Regulation, the following definitions apply:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <content>
+                        <p>&apos;vessel&apos; means any self-propelled sea-going vessel of 100 gross tonnes and above, used for transportation of goods or persons or for performance of a specialised service (for example, ice breakers and dredgers) and any tug of 365 kW and above;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <content>
+                        <p>&apos;like vessel&apos; means any vessel of the same type, purpose and approximate size as the vessel under consideration and possessing characteristics closely resembling those of the vessel under consideration;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(c)</num>
+                     <content>
+                        <p>&apos;same general category of vessel&apos; means any vessel of the same type and purpose, but of a significantly different size;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(d)</num>
+                     <content>
+                        <p>&apos;sale&apos; covers the creation or transfer of an ownership interest in the vessel, except for an ownership interest created or acquired solely for the purpose of providing security for a normal commercial loan;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(e)</num>
+                     <alinea>
+                        <content>
+                           <p>&apos;ownership interest&apos; includes any contractual or proprietary interest which allows the beneficiary or beneficiaries of such interest to take advantage of the operation of the vessel in a manner substantially comparable to the way in which an owner may benefit from the operation of the vessel. In determining whether such substantial comparability exists, the following factors shall be considered, inter alia:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(i)</num>
+                           <content>
+                              <p>the terms and circumstances of the transaction;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(ii)</num>
+                           <content>
+                              <p>commercial practice within the industry;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(iii)</num>
+                           <content>
+                              <p>whether the vessel subject to the transaction is integrated into the operations of the beneficiary or beneficiaries; and</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(iv)</num>
+                           <content>
+                              <p>whether in practice there is a likelihood that the beneficiary or beneficiaries of such interests will take advantage of, and the risk for, the operation of the vessel for a significant part of the life-time of the vessel;</p>
+                           </content>
+                        </point>
+                     </list>
+                  </point>
+                  <point>
+                     <num>(f)</num>
+                     <content>
+                        <p>&apos;buyer&apos; means any person who, or any company which, acquires an ownership interest, including by way of lease or long-term bareboat charter, in conjunction with the original transfer from the shipbuilder, either directly or indirectly, including a person who, or company which, owns or controls a buyer, or gives instructions to the buyer. A person or company owns a buyer when it has more than a 50 % interest in the buyer. A person or company controls a buyer when the person or company is legally or operationally in a position to exercise restraint or direction over the buyer, which is presumed at a 25 % interest. If ownership of a buyer is shown, separate control of it is presumed not to exist unless established otherwise. There may be more than one buyer of any one vessel;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(g)</num>
+                     <content>
+                        <p>&apos;company&apos; means any company or firm constituted under civil or commercial law, including cooperative societies, and other legal persons governed by public or private law, including those which are non-profitmaking;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(h)</num>
+                     <content>
+                        <p>&apos;Contracting Party&apos; means any third country that is party to the Shipbuilding Agreement.</p>
+                     </content>
+                  </point>
+               </list>
+            </paragraph>
+         </article>
+         <article xml:id="art_d327e452">
+            <num>Article 2</num>
+            <heading>Determination of injurious pricing</heading><!-- <leos:unknown><SUBDIV>
+               <TITLE xmlns=""
+                      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                      xmlns:fmx="http://opoce">
+                  <TI>
+                     <NP>
+                        <NO.P>A.</NO.P>
+                        <TXT>Normal value</TXT>
+                     </NP>
+                  </TI>
+               </TITLE>
+            </SUBDIV></leo:unknown> --><paragraph>
+               <num>1.</num>
+               <content>
+                  <p>The normal value shall normally be based on the price paid or payable, in the ordinary course of trade, for a like vessel by an independent buyer in the exporting country.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>Prices between parties which appear to be associated or to have a compensatory arrangement with each other may not be considered to be in the ordinary course of trade and may not be used to establish the normal value unless it is determined that they are unaffected by the relationship.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <content>
+                  <p>When there are no sales of like vessels in the ordinary course of trade, or where, because of the particular market situation, such sales do not permit a proper comparison, the normal value of the like vessel shall be calculated on the basis of the export price of a like vessel, in the ordinary course of trade, to an appropriate third country, provided that this price is representative. If such sales to any appropriate third country do not exist or do not permit a proper comparison, the normal value of the like vessels shall be calculated on the basis of the cost of production in the country of origin plus a reasonable amount for selling, general and administrative costs and for profits.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>4.</num>
+               <content>
+                  <p>Sales of like vessels in the domestic market of the exporting country, or export sales to a third country, at prices below unit production costs (fixed and variable) plus selling, general and administrative costs, may be treated as not being in the ordinary course of trade by reason of price, and may be disregarded in determining the normal value, only if it is determined that such sales are at prices which do not provide for the recovery of all costs within a reasonable period, which should normally be 5 years.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>5.</num>
+               <subparagraph>
+                  <content>
+                     <p>Costs shall normally be calculated on the basis of records kept by the shipbuilder under investigation, provided that such records are in accordance with the generally accepted accounting principles of the country concerned and that it is shown that the records reasonably reflect the costs associated with the production and sale of the vessel under consideration.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>Consideration shall be given to evidence submitted on the proper allocation of costs, provided that it is shown that such allocations have been historically utilised. In the absence of a more appropriate method, preference shall be given to the allocation of costs on the basis of turnover. Unless already reflected in the cost allocations under this subparagraph, costs shall be adjusted appropriately for those non-recurring items of cost which benefit future and/or current production, or for circumstances in which costs are affected by start-up operations.</p>
+                  </content>
+               </subparagraph>
+            </paragraph>
+            <paragraph>
+               <num>6.</num>
+               <subparagraph>
+                  <content>
+                     <p>The amounts for selling, for general and administrative costs and for profits shall be based on actual data pertaining to production and sales, in the ordinary course of trade, of like vessels by the shipbuilder under investigation. When such amounts cannot be determined on that basis, the amounts may be determined on the basis of:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <content>
+                        <p>the weighted average of the actual amounts determined for other shipbuilders of the country of origin in respect of production and sales of like vessels in that country&apos;s domestic market;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <content>
+                        <p>the actual amounts applicable to production and sales, in the ordinary course of trade, of the same general category of vessels for the shipbuilder in question in the domestic market of the country of origin;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(c)</num>
+                     <content>
+                        <p>any other reasonable method, provided that the amount for profit so established shall not exceed the profit normally realised by other shipbuilders on sales of vessels of the same general category in the domestic market of the country of origin.</p>
+                     </content>
+                  </point>
+               </list>
+               <subparagraph>
+                  <content>
+                     <p>Furthermore, the profit added in constructing value shall, in all instances, be based upon the average profit realised over a reasonable period of time of normally 6 months both before and after the sale under investigation and shall reflect a reasonable profit at the time of such sale. In making such calculation, any distortion which is demonstrated to result in a profit which is not a reasonable one at the time of the sale shall be eliminated.</p>
+                  </content>
+               </subparagraph>
+            </paragraph>
+            <paragraph>
+               <num>7.</num>
+               <content>
+                  <p>Given the long lead time between contract and delivery of vessels, a normal value shall not include actual costs which the shipbuilder demonstrates are due to <i>force majeure</i> and are significantly above the cost increase which the shipbuilder could reasonably have anticipated and taken into account when the material terms of sales were fixed.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>8.</num>
+               <subparagraph>
+                  <content>
+                     <p>In the case of sales from non-market-economy countries and, in particular, those to which Regulation (EU) 2015/755 of the European Parliament and of the Council<authorialNote placement="bottom" marker="6">
+                           <p>Regulation (EU) 2015/755 of the European Parliament and of the Council of 29 April 2015 on common rules for imports from certain third countries (OJ L 123, 19.5.2015, p. 33).</p>
+                        </authorialNote> applies, the normal value shall be determined on the basis of the price or constructed value in a market-economy third country, or the price from such a third country to other countries, including the Union, or, where those are not possible, on any other reasonable basis, including the price actually paid or payable in the Union for the like vessel, duly adjusted if necessary to include a reasonable profit margin.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>An appropriate market-economy third country shall be selected in a not unreasonable manner, due account being taken of any reliable information made available at the time of selection. Account shall also be taken of time limits.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>The parties to the investigation shall be informed, shortly after its initiation, of the market-economy third country envisaged and shall be given 10 days to comment.</p>
+                  </content>
+               </subparagraph>
+            </paragraph><!-- <leos:unknown><SUBDIV>
+               <TITLE xmlns=""
+                      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                      xmlns:fmx="http://opoce">
+                  <TI>
+                     <NP>
+                        <NO.P>B.</NO.P>
+                        <TXT>Export price</TXT>
+                     </NP>
+                  </TI>
+               </TITLE>
+            </SUBDIV></leo:unknown> --><paragraph>
+               <num>9.</num>
+               <content>
+                  <p>The export price shall be the price actually paid or payable for the vessel under consideration.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>10.</num>
+               <subparagraph>
+                  <content>
+                     <p>In cases where there is no export price or where it appears that the export price is unreliable because of an association or a compensatory arrangement between the shipbuilder and the buyer or a third party, the export price may be constructed on the basis of the price at which the vessel is first resold to an independent buyer, or, if the vessel is not resold to an independent buyer or is not resold in the condition in which it was originally sold, on any reasonable basis.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>In those cases, adjustment for all costs, including duties and taxes, incurred between the original sale and resale, and for profits accruing, shall be made so as to establish a reliable export price.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>The items for which adjustment shall be made shall include those normally borne by a buyer but paid by any party, either inside or outside the Union, which appears to be associated or to have a compensatory arrangement with the shipbuilder or buyer, including usual transport, insurance, handling, loading and ancillary costs, customs duties, and other taxes payable in the importing country by reason of the purchase of the vessel, and a reasonable margin for selling, general and administrative costs, and profit.</p>
+                  </content>
+               </subparagraph>
+            </paragraph><!-- <leos:unknown><SUBDIV>
+               <TITLE xmlns=""
+                      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                      xmlns:fmx="http://opoce">
+                  <TI>
+                     <NP>
+                        <NO.P>C.</NO.P>
+                        <TXT>Comparison</TXT>
+                     </NP>
+                  </TI>
+               </TITLE>
+            </SUBDIV></leo:unknown> --><paragraph>
+               <num>11.</num>
+               <content>
+                  <p>A fair comparison shall be made between the export price and the normal value. This comparison shall be made at the same level of trade and in respect of sales made at, as closely as possible, the same time, which will normally mean sales that take place within 3 months before or after the sale under investigation, or in the absence of such sales, any appropriate period. Due allowance shall be made in each case, on its merits, for differences which affect price comparability, including differences in conditions and terms of sale, contractual penalties, taxation, level of trade, quantities, physical characteristics, and any other differences which are also demonstrated to affect price comparability. Where, in cases referred to in paragraph 10, price comparability has been affected, the normal value shall be established at a level of trade equivalent to the level of trade of the constructed export price, or due allowance made, as warranted, under this paragraph. Any duplication when making adjustments shall be avoided, in particular in relation to discounts and contractual penalties. When the price comparison requires a conversion of currencies, such conversion shall be made using the rate of exchange on the date of sale, except that when a sale of foreign currency on forward markets is directly linked to the export sale involved the rate of exchange in the forward sale shall be used. For the purpose of this provision, the date of sale shall be the date on which the material terms of sale are established, normally the date of contract. However, if the material terms of sale are significantly changed on another date, the rate of exchange on the date of the change should be applied. In such a case, appropriate adjustments shall be made to take into account any unreasonable effect on the injurious pricing margin due solely to exchange rate fluctuations between the original date of sale and the date of the change.</p>
+               </content>
+            </paragraph><!-- <leos:unknown><SUBDIV>
+               <TITLE xmlns=""
+                      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                      xmlns:fmx="http://opoce">
+                  <TI>
+                     <NP>
+                        <NO.P>D.</NO.P>
+                        <TXT>Injurious pricing margin</TXT>
+                     </NP>
+                  </TI>
+               </TITLE>
+            </SUBDIV></leo:unknown> --><paragraph>
+               <num>12.</num>
+               <content>
+                  <p>Subject to the relevant provisions governing fair comparison, the existence of injurious pricing margins shall normally be established on the basis of a comparison of a weighted average normal value with a weighted average of prices of all sales, or by a comparison of individual normal values and individual export prices on a transaction-to-transaction basis. However, a normal value established on a weighted average basis may be compared to prices of all individual sales, if there is a significant difference in the pattern of export prices among different purchasers, regions or time periods, and should the methods specified in the first sentence of this paragraph not reflect the full degree of injurious pricing being practised.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>13.</num>
+               <content>
+                  <p>The injurious pricing margin shall be the amount by which the normal value exceeds the export price. Where injurious pricing margins vary, a weighted average injurious pricing margin may be established.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d327e602">
+            <num>Article 3</num>
+            <heading>Determination of injury</heading>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>Pursuant to this Regulation, the term &apos;injury&apos; shall, unless otherwise specified, be taken to mean material injury to the Union industry, threat of material injury to the Union industry or material retardation of the establishment of such an industry and shall be interpreted in accordance with the provisions of this Article.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <subparagraph>
+                  <content>
+                     <p>A determination of injury shall be based on positive evidence and shall involve an objective examination of:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <content>
+                        <p>the effect of the sale at less than normal value on prices in the Union market for like vessels; and</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <content>
+                        <p>the consequent impact of that sale on the Union industry.</p>
+                     </content>
+                  </point>
+               </list>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <content>
+                  <p>With regard to the effect of the sale at less than normal value on prices, consideration shall be given to whether there has been significant price undercutting by the sale at less than normal value as compared with the price of like vessels of the Union industry, or whether the effect of such sale is otherwise to depress prices to a significant degree or prevent price increases, which would otherwise have occurred, to a significant degree. No one or more of those factors can necessarily give decisive guidance.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>4.</num>
+               <subparagraph>
+                  <content>
+                     <p>Where sales of vessels from more than one country are simultaneously subject to injurious pricing investigations, the effects of such sales shall be cumulatively assessed only if it is determined that:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <content>
+                        <p>the margin of injurious pricing established in relation to the purchases from each country is more than <i>de minimis</i> as defined in Article 7(3); and</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <content>
+                        <p>a cumulative assessment of the effects of the sales is appropriate in the light of the conditions of competition between vessels sold by non-Union shipbuilders to the buyer and the conditions of competition between such vessels and the like Union vessels.</p>
+                     </content>
+                  </point>
+               </list>
+            </paragraph>
+            <paragraph>
+               <num>5.</num>
+               <content>
+                  <p>The examination of the impact of the sale at less than normal value on the Union industry concerned shall include an evaluation of all relevant economic factors and indices having a bearing on the state of the industry, including the fact that an industry is still in the process of recovering from the effects of past dumping, injurious pricing or subsidisation; the magnitude of the actual margin of injurious pricing; actual and potential decline in sales, profits, output, market share, productivity, return on investments and utilisation of capacity; factors affecting Union prices; actual and potential negative effects on cash flow, inventories, employment, wages, growth, ability to raise capital or investments. This list is not exhaustive, nor can any one or more of these factors necessarily give decisive guidance.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>6.</num>
+               <content>
+                  <p>It must be demonstrated, from all the relevant evidence presented in relation to paragraph 2, that the sale at less than normal value is causing, or has caused, injury within the meaning of this Regulation. Specifically, that shall entail demonstrating that the price levels identified pursuant to paragraph 3 are responsible for an impact on the Union industry as provided for in paragraph 5, and that that impact exists to a degree which enables it to be classified as material.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>7.</num>
+               <content>
+                  <p>Known factors, other than the sale at less than normal value, which at the same time are injuring the Union industry shall also be examined to ensure that the injury caused by those other factors is not attributed to the sale at less than normal value under paragraph 6. Factors which may be considered in that respect shall include: the volume and prices of sales by shipbuilders of countries other than the exporting country not realised at less than normal value; contraction in demand or changes in the patterns of consumption; restrictive trade practices of, and competition between, third country and Union producers; developments in technology; and the export performance and productivity of the Union industry.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>8.</num>
+               <content>
+                  <p>The effect of the sale at less than normal value shall be assessed in relation to the production of the Union industry of like vessels when available data permit the separate identification of that production on the basis of criteria such as the production process, producers&apos; sales and profits. If such separate identification of that production is not possible, the effects of the sale at less than normal value shall be assessed by examination of the production of the narrowest group or range of vessels, which includes the like vessel, for which the necessary information can be provided.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>9.</num>
+               <subparagraph>
+                  <content>
+                     <p>A determination of a threat of material injury shall be based on facts and not merely on allegation, conjecture or remote possibility. The change in circumstances which would create a situation in which the sale at less than normal value would cause injury must have been clearly foreseen and must be imminent.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>In making a determination regarding the existence of a threat of material injury, consideration should be given to factors such as:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <content>
+                        <p>whether there is sufficient freely disposable capacity on the part of the shipbuilder or an imminent and substantial increase in such capacity indicating the likelihood of substantially increased sales at less than normal value, account being taken of the availability of other export markets to absorb any additional exports;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <content>
+                        <p>whether vessels are being exported at prices that would, to a significant degree, depress prices or prevent price increases which otherwise would have occurred, and would probably increase demand for further purchases from other countries.</p>
+                     </content>
+                  </point>
+               </list>
+               <subparagraph>
+                  <content>
+                     <p>No one of the factors listed above by itself can necessarily give decisive guidance, but the totality of the factors considered shall be such as to lead to the conclusion that further sales at less than normal value are imminent and that, unless protective action is taken, material injury will occur.</p>
+                  </content>
+               </subparagraph>
+            </paragraph>
+         </article>
+         <article xml:id="art_d327e707">
+            <num>Article 4</num>
+            <heading>Definition of Union industry</heading>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>For the purposes of this Regulation, the term &apos;Union industry&apos; shall be interpreted as referring to the Union producers as a whole capable of producing a like vessel with their present facilities or whose facilities can be adapted in a timely manner to produce a like vessel, or to those of them whose collective capability to produce a like vessel constitutes a major proportion, as defined in Article 5(6), of the total Union capability to produce a like vessel. However, when producers are related to the shipbuilder, exporters or buyers, or are themselves buyers of the allegedly injuriously priced vessel, the term &apos;Union industry&apos; may be interpreted as referring to the rest of the producers.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <subparagraph>
+                  <content>
+                     <p>For the purpose of paragraph 1, producers shall be considered to be related to the shipbuilder, exporters or buyers only if:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <content>
+                        <p>one of them directly or indirectly controls the other;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <content>
+                        <p>both of them are directly or indirectly controlled by a third person; or</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(c)</num>
+                     <content>
+                        <p>together they directly or indirectly control a third person, provided that there are grounds for believing or suspecting that the effect of the relationship is such as to cause the producer concerned to behave differently from non-related producers.</p>
+                     </content>
+                  </point>
+               </list>
+               <subparagraph>
+                  <content>
+                     <p>For the purpose of this paragraph, one shall be deemed to control another when the former is legally or operationally in a position to exercise restraint or direction over the latter.</p>
+                  </content>
+               </subparagraph>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <content>
+                  <p>The provisions of Article 3(8) shall be applicable to this Article.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d327e757">
+            <num>Article 5</num>
+            <heading>Initiation of proceedings</heading>
+            <paragraph>
+               <num>1.</num>
+               <subparagraph>
+                  <content>
+                     <p>Except as provided for in paragraph 8, an investigation to determine the existence, degree and effect of any alleged injurious pricing shall be initiated upon a written complaint by any natural or legal person, or any association not having legal personality, acting on behalf of the Union industry.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>The complaint may be submitted to the Commission or to a Member State, which shall forward it to the Commission. The Commission shall send Member States a copy of any complaint it receives. The complaint shall be deemed to have been lodged on the first working day following its delivery to the Commission by registered mail or the issuing of an acknowledgement of receipt by the Commission.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>Where, in the absence of any complaint, a Member State is in possession of sufficient evidence of injurious pricing and of resultant injury to the Union industry, it shall immediately communicate such evidence to the Commission.</p>
+                  </content>
+               </subparagraph>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <subparagraph>
+                  <content>
+                     <p>A complaint under paragraph 1 shall be filed no later than:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <alinea>
+                        <content>
+                           <p>6 months from the time that the complainant knew, or should have known, of the sale of the vessel, when:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(i)</num>
+                           <content>
+                              <p>the complainant was invited to tender a bid on the contract at issue through a broad multiple bid or any other bidding process;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(ii)</num>
+                           <content>
+                              <p>the complainant actually did tender a bid; and</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(iii)</num>
+                           <content>
+                              <p>the bid of the complainant substantially met bid specifications;</p>
+                           </content>
+                        </point>
+                     </list>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <content>
+                        <p>9 months from the time that the complainant knew, or should have known, of the sale of the vessel in the absence of an invitation to tender, provided that a notice of intent to apply, including information reasonably available to the complainant to identify the transaction concerned, had been submitted no later than 6 months from that time to the Commission or a Member State.</p>
+                     </content>
+                  </point>
+               </list>
+               <subparagraph>
+                  <content>
+                     <p>In no event shall a complaint be filed later than 6 months from the date of delivery of the vessel.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>The complainant may be considered to have known of the sale of a vessel from the time of publication of the fact of the conclusion of the contract, along with very general information concerning the vessel, in the international trade press.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>For the purpose of this Article, a broad multiple bid shall be interpreted to mean a bid in which the proposed buyer extends an invitation to bid to at least all the shipbuilders known to the buyer to be capable of building the vessel in question.</p>
+                  </content>
+               </subparagraph>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <subparagraph>
+                  <content>
+                     <p>A complaint under paragraph 1 shall include evidence:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <content>
+                        <p>of injurious pricing;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <content>
+                        <p>of injury;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(c)</num>
+                     <content>
+                        <p>of a causal link between the injuriously priced sale and the alleged injury; and</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(d)</num>
+                     <list>
+                        <point>
+                           <num>(i)</num>
+                           <content>
+                              <p>that, if the vessel was sold through a broad multiple bid, the complainant was invited to tender a bid on the contract at issue, it actually did so, and the bid of the complainant substantially met bid specifications (namely, delivery date and technical requirements); or</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(ii)</num>
+                           <content>
+                              <p>that, if the vessel was sold through any other bidding process and the complainant was invited to tender a bid on the contract at issue, it actually did so, and the bid of the complainant substantially met bid specifications; or</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(iii)</num>
+                           <content>
+                              <p>that, in the absence of an invitation to tender a bid other than under a broad multiple bid, the complainant was capable of building the vessel concerned and, if the complainant knew, or should have known, of the proposed purchase, it made demonstrable efforts to conclude a sale with the buyer consistent with the bid specifications in question. The complainant may be considered to have known of the proposed purchase if it is demonstrated that the majority of the relevant industry has made efforts with that buyer to conclude a sale of the vessel in question, or if it is demonstrated that general information on the proposed purchase was available from brokers, financiers, classification societies, charterers, trade associations, or other entities normally involved in shipbuilding transactions with whom the complainant had regular contacts or dealings.</p>
+                           </content>
+                        </point>
+                     </list>
+                  </point>
+               </list>
+            </paragraph>
+            <paragraph>
+               <num>4.</num>
+               <subparagraph>
+                  <content>
+                     <p>The complaint shall contain such information as is reasonably available to the complainant on the following:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <content>
+                        <p>the identity of the complainant and a description of the volume and value of the Union production of the like vessel by the complainant. Where a written complaint is made on behalf of the Union industry, the complaint shall identify the industry on behalf of which the complaint is made by a list of all known Union producers capable of building the like vessel and, to the extent possible, a description of the volume and value of Union production of the like vessel accounted for by such producers;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <content>
+                        <p>a complete description of the allegedly injuriously priced vessel, the names of the country or countries of origin or export in question, the identity of each known exporter or foreign producer and the identity of the buyer of the vessel in question;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(c)</num>
+                     <content>
+                        <p>the prices at which such vessels are sold in the domestic markets of the country or countries of origin or export (or, where appropriate, the prices at which such vessels are sold from the country or countries of origin or export to a third country or countries or the constructed value of the vessel) and the export prices or, where appropriate, the prices at which such vessels are first resold to an independent buyer;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(d)</num>
+                     <content>
+                        <p>the effect of the injuriously priced sale on prices of the like vessel on the Union market and the consequent impact of the sale on the Union industry, as demonstrated by relevant factors and indices having a bearing on the state of the Union industry, such as those listed in Article 3(3) and (5).</p>
+                     </content>
+                  </point>
+               </list>
+            </paragraph>
+            <paragraph>
+               <num>5.</num>
+               <content>
+                  <p>The Commission shall, as far as possible, examine the accuracy and adequacy of the evidence provided in the complaint, to determine whether there is sufficient evidence to justify the initiation of an investigation.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>6.</num>
+               <content>
+                  <p>An investigation shall not be initiated pursuant to paragraph 1 unless it has been determined, on the basis of an examination as to the degree of support for, or opposition to, the complaint expressed by Union producers capable of building the like vessel, that the complaint has been made by, or on behalf of, the Union industry. The complaint shall be considered to have been made by, or on behalf of, the Union industry if it is supported by those Union producers whose collective capacity to produce the like vessel constitutes more than 50 % of the total capacity of that portion of the Union industry expressing either support for, or opposition to, the complaint. However, no investigation shall be initiated where Union producers expressly supporting the complaint account for less than 25 % of total capacity of the Union producers capable of producing the like vessel.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>7.</num>
+               <content>
+                  <p>The authorities shall avoid, unless a decision has been taken to initiate an investigation, any publicising of the complaint seeking the initiation of an investigation. However, before proceeding to initiate an investigation, the government of the exporting country concerned shall be notified.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>8.</num>
+               <subparagraph>
+                  <content>
+                     <p>If, in special circumstances, the Commission decides to initiate an investigation without having received a written complaint by, or on behalf of, the Union industry for the initiation of such investigation, this shall be done on the basis of sufficient evidence of injurious pricing, injury, a causal link, and that a member of the allegedly injured Union industry met the criteria referred to in paragraph 3 (d), to justify such initiation.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>Where appropriate, an investigation may also be initiated upon a written complaint by the authorities of a Contracting Party. Such a complaint shall be supported by sufficient evidence to show that a vessel is being, or has been, injuriously priced and that the alleged sale to a Union buyer at less than normal value is causing, or has caused, injury to the domestic industry of the Contracting Party concerned.</p>
+                  </content>
+               </subparagraph>
+            </paragraph>
+            <paragraph>
+               <num>9.</num>
+               <content>
+                  <p>The evidence of both injurious pricing and injury shall be considered simultaneously in the decision on whether or not to initiate an investigation. A complaint shall be rejected where there is insufficient evidence of either injurious pricing or of injury to justify proceeding with the case.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>10.</num>
+               <content>
+                  <p>The complaint may be withdrawn prior to initiation, in which case it shall be considered not to have been lodged.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>11.</num>
+               <content>
+                  <p>Where it is apparent that there is sufficient evidence to justify initiating proceedings, the Commission shall do so within 45 days of the date on which the complaint was lodged, or, in the case of initiation pursuant to paragraph 8, no later than 6 months from the time the sale of the vessel was known or should have been known, and shall publish a notice in the <i>Official Journal of the European Union</i>. Where insufficient evidence has been presented, the complainant shall be so informed within 45 days of the date on which the complaint is lodged with the Commission. The Commission shall provide information to the Member States once it has determined that there is a need to initiate such proceedings.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>12.</num>
+               <subparagraph>
+                  <content>
+                     <p>The notice of initiation of the proceedings shall announce the initiation of an investigation, indicate the name and country of the shipbuilder and the buyer or buyers and a description of the vessel concerned, give a summary of the information received, and provide that all relevant information is to be communicated to the Commission.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>It shall state the periods within which interested parties may make themselves known, present their views in writing and submit information if such views and information are to be taken into account during the investigation. It shall also state the period within which interested parties may apply to be heard by the Commission in accordance with Article 6(5).</p>
+                  </content>
+               </subparagraph>
+            </paragraph>
+            <paragraph>
+               <num>13.</num>
+               <content>
+                  <p>The Commission shall advise the exporter, the buyer or buyers of the vessel and representative associations of producers, exporters or buyers of such vessels known to it to be concerned, as well as representatives of the country the vessel of which is subject to such investigation and the complainants, of the initiation of the proceedings and, with due regard to the protection of confidential information, provide the full text of the written complaint received pursuant to paragraph 1 to the exporter, and to the authorities of the exporting country, and make it available upon request to other interested parties involved.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d327e952">
+            <num>Article 6</num>
+            <heading>The investigation</heading>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>Following the initiation of the proceedings, the Commission, acting in cooperation with the Member States and, where appropriate, with the authorities of third countries, shall commence an investigation at Union level. Such an investigation shall cover both injurious pricing and injury, and they shall be investigated simultaneously.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>Parties receiving questionnaires used in an injurious pricing investigation shall be given at least 30 days to reply. The time-limit for exporters shall be counted from the date of receipt of the questionnaire, which for this purpose shall be deemed to have been received 1 week from the day on which it was sent to the exporter or transmitted to the appropriate diplomatic representative of the exporting country. An extension to the 30-day period may be granted, due account being taken of the time limits of the investigation, provided that the party shows due cause for such an extension in terms of its particular circumstances.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <subparagraph>
+                  <content>
+                     <p>The Commission may request the authorities of third countries, where appropriate, as well as the Member States, to supply information, and Member States shall take whatever steps are necessary in order to give effect to such requests.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>They shall send to the Commission the information requested together with the results of all inspections, checks or investigations carried out.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>Where that information is of general interest or where its transmission has been requested by a Member State, the Commission shall forward it to the Member States, provided that it is not confidential, in which case a non-confidential summary shall be forwarded.</p>
+                  </content>
+               </subparagraph>
+            </paragraph>
+            <paragraph>
+               <num>4.</num>
+               <subparagraph>
+                  <content>
+                     <p>The Commission may request the authorities of third countries, where appropriate, as well as the Member States, to carry out all necessary checks and inspections, particularly amongst Union producers, and to carry out investigations in third countries, provided that the firms concerned give their consent and that the government of the country in question has been officially notified and raises no objection.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>Member States shall take whatever steps are necessary in order to give effect to such requests from the Commission.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>Officials of the Commission shall be authorised, if the Commission or a Member State so requests, to assist the officials of Member States in carrying out their duties. Likewise, officials of the Commission may assist the officials of the authorities of third countries in carrying out their duties, upon agreement between the Commission and such authorities.</p>
+                  </content>
+               </subparagraph>
+            </paragraph>
+            <paragraph>
+               <num>5.</num>
+               <content>
+                  <p>The interested parties which have made themselves known in accordance with Article 5(12) shall be heard if they have, within the period prescribed in the notice published in the <i>Official Journal of the European Union</i>, made a written request for a hearing showing that they are an interested party likely to be affected by the result of the proceedings and that there are particular reasons why they should be heard.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>6.</num>
+               <subparagraph>
+                  <content>
+                     <p>Opportunities shall, on request, be provided for the shipbuilder, the buyer or buyers, representatives of the government of the exporting country, the complainants, and other interested parties, which have made themselves known in accordance with Article 5(12), to meet those parties with adverse interests, so that opposing views may be presented and rebuttal arguments offered.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>Provision of such opportunities shall take account of the need to preserve confidentiality and of the convenience to the parties.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>There shall be no obligation on any party to attend a meeting, and failure to do so shall not be prejudicial to that party&apos;s case.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>Oral information provided under this paragraph shall be taken into account insofar as it is subsequently confirmed in writing.</p>
+                  </content>
+               </subparagraph>
+            </paragraph>
+            <paragraph>
+               <num>7.</num>
+               <subparagraph>
+                  <content>
+                     <p>The complainants, the shipbuilder, the buyer or buyers and other interested parties, which have made themselves known in accordance with Article 5(12), as well as the representatives of the exporting country, may, upon written request, inspect all information, made available by any party to an investigation, as distinct from internal documents prepared by the authorities of the Union or its Member States, which is relevant to the presentation of their cases and not confidential within the meaning of Article 13, and is used in the investigation.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>Such parties may respond to such information and their comments shall be taken into consideration, wherever they are sufficiently substantiated in the response.</p>
+                  </content>
+               </subparagraph>
+            </paragraph>
+            <paragraph>
+               <num>8.</num>
+               <content>
+                  <p>Except in the circumstances provided for in Article 12, the information which is supplied by interested parties and upon which findings are based shall be examined for accuracy as far as possible.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>9.</num>
+               <subparagraph>
+                  <content>
+                     <p>For proceedings involving price to price comparison, where a like vessel has been delivered, the investigation shall be concluded no later than 1 year from the date of initiation.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>For proceedings in which the like vessel is under construction, the investigation shall be concluded no later than 1 year from the date of delivery of that like vessel.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>Investigations involving constructed value shall be concluded within 1 year of their initiation or within 1 year of delivery of the vessel, whichever is the later.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>Those time limits shall be suspended to the extent that Article 16(2) is applied.</p>
+                  </content>
+               </subparagraph>
+            </paragraph>
+         </article>
+         <article xml:id="art_d327e1029">
+            <num>Article 7</num>
+            <heading>Termination without measures, imposition and collection of injurious pricing charges</heading>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>Where the complaint is withdrawn, the proceedings may be terminated.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>Where measures are unnecessary, the investigation or proceedings shall be terminated. The Commission shall terminate the investigation in accordance with the examination procedure referred to in Article 10(2).</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <content>
+                  <p>There shall be immediate termination of the proceedings where it is determined that the margin of injurious pricing is less than 2 %, expressed as a percentage of the export price.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>4.</num>
+               <content>
+                  <p>Where the facts as finally established show that there is injurious pricing and injury caused thereby, an injurious pricing charge shall be imposed on the shipbuilder by the Commission acting in accordance with the examination procedure referred to in Article 10(2). The amount of the injurious pricing charge shall be equal to the margin of injurious pricing established. The Commission shall, after having informed the Member States, take the necessary measures for the implementation of its decision, in particular the collection of the injurious pricing charge.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>5.</num>
+               <content>
+                  <p>The shipbuilder shall pay the injurious pricing charge within 180 days of notification to it of the imposition of the charge, which for this purpose shall be deemed to have been received 1 week from the day on which it was sent to the shipbuilder. The Commission may give the shipbuilder a reasonably extended period of time to pay where the shipbuilder demonstrates that payment within 180 days would render it insolvent or would be incompatible with a judicially supervised reorganisation, in which case interest shall accrue on any unpaid portion of the charge, at a rate equal to the secondary market yield on medium-term euro bonds in the Luxembourg stock exchange plus 50 basis points.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d327e1060">
+            <num>Article 8</num>
+            <heading>Alternative remedies</heading>
+            <paragraph>
+               <content>
+                  <p>The investigation may be terminated without the imposition of an injurious pricing charge if the shipbuilder definitively and unconditionally voids the sale of the injuriously priced vessel or complies with an alternative, equivalent remedy accepted by the Commission.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <content>
+                  <p>A sale shall be considered to have been voided only where all contractual relationships between the parties concerned by the sale in question have been terminated, all consideration paid in connection with the sale is reimbursed and all rights in the vessel concerned or parts thereof are returned to the shipbuilder.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d327e1069">
+            <num>Article 9</num>
+            <heading>Countermeasures &#45; denial of loading and unloading rights</heading>
+            <paragraph>
+               <num>1.</num>
+               <subparagraph>
+                  <content>
+                     <p>If the shipbuilder concerned does not pay the injurious pricing charge imposed under Article 7, countermeasures under the form of denial of loading and unloading rights shall be imposed by the Commission on the vessels built by the shipbuilder in question.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>The Commission shall provide information to the Member States once the grounds for countermeasures referred to in the first subparagraph arise.</p>
+                  </content>
+               </subparagraph>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <subparagraph>
+                  <content>
+                     <p>The decision imposing the countermeasures shall enter into force 30 days after its publication in the <i>Official Journal of the European Union</i> and shall be repealed on full payment of the injurious pricing charge by the shipbuilder. The countermeasure shall cover all vessels contracted for during a period of 4 years from the date of entry into force of the decision. Each vessel shall be subject to the countermeasure for a period of 4 years after its delivery. Such periods may be reduced only following and in accordance with the outcome of an international dispute settlement procedure concerning the countermeasures imposed.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>The vessels subject to the denial of loading and unloading rights shall be specified by decision to be adopted by the Commission and published in the <i>Official Journal of the European Union</i>.</p>
+                  </content>
+               </subparagraph>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <content>
+                  <p>The Member States&apos; customs authorities shall not grant permission to load or unload to vessels subject to the denial of loading and unloading rights.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d327e1101">
+            <num>Article 10</num>
+            <heading>Committee procedure</heading>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>The Commission shall be assisted by the Committee established by Regulation (EU) 2016/1036. That Committee shall be a committee within the meaning of Regulation (EU) No 182/2011.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>Where reference is made to this paragraph, Article 5 of Regulation (EU) No 182/2011 shall apply.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d327e1116">
+            <num>Article 11</num>
+            <heading>Verification visits</heading>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>The Commission shall, where it considers it appropriate, carry out visits to examine the records of exporters, shipbuilders, traders, agents, producers, trade associations and organisations, to verify information provided on injurious pricing and injury. In the absence of a proper and timely reply, the Commission may choose not to carry out a verification visit.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>The Commission may carry out investigations in third countries as required, provided that it obtains the agreement of the firms concerned, that it notifies the representatives of the government of the country in question and that the latter does not object to the investigation. As soon as the agreement of the firms concerned has been obtained, the Commission shall notify the authorities of the exporting country of the names and addresses of the firms to be visited and the dates agreed.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <content>
+                  <p>The firms concerned shall be advised of the nature of the information to be verified during verification visits and of any further information which needs to be provided during such visits, though this does not preclude requests, made during the verification, for further details to be provided in the light of information obtained.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>4.</num>
+               <content>
+                  <p>In investigations carried out under paragraphs 1, 2 and 3, the Commission shall be assisted by officials of those Member States which so request.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d327e1141">
+            <num>Article 12</num>
+            <heading>Non-cooperation</heading>
+            <paragraph>
+               <num>1.</num>
+               <subparagraph>
+                  <content>
+                     <p>In cases in which any interested party refuses access to, or otherwise does not provide, necessary information within the time limits provided for in this Regulation, or significantly impedes the investigation, provisional or final findings, affirmative or negative, may be made on the basis of the facts available.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>Where it is found that any interested party has supplied false or misleading information, that information shall be disregarded and use may be made of facts available.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>Interested parties shall be made aware of the consequences of non-cooperation.</p>
+                  </content>
+               </subparagraph>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>Failure to give a computerised response shall not be deemed to constitute non-cooperation, provided that the interested party shows that presenting the response as requested would result in an unreasonable extra burden or unreasonable additional cost.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <content>
+                  <p>Where the information submitted by an interested party is not ideal in all respects, it shall nevertheless not be disregarded, provided that any deficiencies are not such as to cause undue difficulty in arriving at a reasonably accurate finding and that the information is appropriately submitted in good time and is verifiable, and that the party has acted to the best of its ability.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>4.</num>
+               <content>
+                  <p>If evidence or information is not accepted, the supplying party shall be informed forthwith of the reasons therefor and shall be granted an opportunity to provide further explanations within the time limit specified. If the explanations are considered unsatisfactory, the reasons for rejection of such evidence or information shall be disclosed and given in published findings.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>5.</num>
+               <content>
+                  <p>If determinations, including those regarding normal value, are based on the provisions of paragraph 1, including the information supplied in the complaint, it shall, where practicable and with due regard to the time limits of the investigation, be checked by reference to information from other independent sources which may be available, such as published price lists, official statistics of sales and customs returns, or information obtained from other interested parties during the investigation.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>6.</num>
+               <content>
+                  <p>If an interested party does not cooperate, or cooperates only partially, so that relevant information is thereby withheld, the result of the investigation may be less favourable to the party than if it had cooperated.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d327e1181">
+            <num>Article 13</num>
+            <heading>Confidentiality</heading>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>Any information which is by nature confidential (for example, because its disclosure would be of significant competitive advantage to a competitor or would have a significantly adverse effect upon a person supplying the information or upon a person from whom the person supplying the information has acquired the information) or which is provided on a confidential basis by parties to an investigation shall, if good cause is shown, be treated as such by the authorities.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>Interested parties providing confidential information shall be required to provide non-confidential summaries thereof. Those summaries shall be in sufficient detail to permit a reasonable understanding of the substance of the information submitted in confidence. In exceptional circumstances, such parties may indicate that such information is not capable of being summarised. In such exceptional circumstances, a statement of the reasons why summarisation is not possible shall be provided.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <content>
+                  <p>If it is considered that a request for confidentiality is not warranted and if the supplier of the information is either unwilling to make the information available or to authorise its disclosure in generalised or summary form, such information may be disregarded unless it can be satisfactorily demonstrated from appropriate sources that the information is correct. Requests for confidentiality shall not be arbitrarily rejected.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>4.</num>
+               <content>
+                  <p>This Article shall not preclude the disclosure of general information by the Union authorities, and, in particular, of the reasons on which decisions taken pursuant to this Regulation are based, or disclosure of the evidence relied on by the Union authorities insofar as is necessary to explain those reasons in court proceedings. Such disclosure shall take into account the legitimate interest of the parties concerned that their business secrets not be divulged.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>5.</num>
+               <content>
+                  <p>The Commission and the Member States, including the officials of either, shall not reveal any information received pursuant to this Regulation for which confidential treatment has been requested by its supplier, without specific permission from that supplier. Exchanges of information between the Commission and Member States, or any internal documents prepared by the authorities of the Union or the Member States, shall not be divulged except as specifically provided for in this Regulation.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>6.</num>
+               <content>
+                  <p>Information received pursuant to this Regulation shall be used only for the purpose for which it was requested.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d327e1216">
+            <num>Article 14</num>
+            <heading>Disclosure</heading>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>The complainants, the shipbuilder, the exporter, the buyer or the buyers of the vessel and their representative associations, and representatives of the exporting country, may request disclosure of the details underlying the essential facts and considerations on the basis of which it is intended to recommend the imposition of an injurious pricing charge, or the termination of an investigation or proceedings without the imposition of a charge.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>Requests for final disclosure, as defined in paragraph 1, shall be addressed to the Commission in writing and be received within time limits set by the Commission.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <subparagraph>
+                  <content>
+                     <p>Final disclosure shall be given in writing. It shall be made, due regard being had to the need to protect confidential information, as soon as possible and, normally, not less than 1 month before a definitive decision. Where the Commission is not in a position to disclose certain facts or considerations at that time, they shall be disclosed as soon as possible thereafter.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>Disclosure shall not prejudice any subsequent decision which may be taken by the Commission, but where such a decision is based on any different facts and considerations they shall be disclosed as soon as possible.</p>
+                  </content>
+               </subparagraph>
+            </paragraph>
+            <paragraph>
+               <num>4.</num>
+               <content>
+                  <p>Representations made after disclosure is given shall be taken into consideration only if received within a period to be set by the Commission in each case, which shall be at least 10 days, due consideration being given to the urgency of the matter.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d327e1244">
+            <num>Article 15</num>
+            <heading>Report</heading>
+            <paragraph>
+               <content>
+                  <p>The Commission shall include information on the implementation of this Regulation in its annual report on the application and implementation of trade defence measures presented to the European Parliament and to the Council pursuant to Article 23 of Regulation (EU) 2016/1036.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d327e1251">
+            <num>Article 16</num>
+            <heading>Final provisions</heading>
+            <paragraph>
+               <num>1.</num>
+               <subparagraph>
+                  <content>
+                     <p>This Regulation shall not preclude the application of:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <content>
+                        <p>any special rules laid down in agreements concluded between the Union and third countries;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <content>
+                        <p>special measures, provided that such action does not run counter to obligations pursuant to the Shipbuilding Agreement.</p>
+                     </content>
+                  </point>
+               </list>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <subparagraph>
+                  <content>
+                     <p>An investigation pursuant to this Regulation shall not be carried out and measures shall not be imposed or maintained where such measures would be contrary to the Union&apos;s obligations emanating from the Shipbuilding Agreement or any other relevant international agreement.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>This Regulation shall not prevent the Union from fulfilling its obligations under the provisions of the Shipbuilding Agreement concerning dispute settlement.</p>
+                  </content>
+               </subparagraph>
+            </paragraph>
+         </article>
+         <article xml:id="art_d327e1282">
+            <num>Article 17</num>
+            <heading>Repeal</heading>
+            <paragraph>
+               <content>
+                  <p>Regulation (EC) No 385/96 is repealed.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <content>
+                  <p>References to the repealed Regulation shall be construed as references to this Regulation and shall be read in accordance with the correlation table in Annex II.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d327e1292">
+            <num>Article 18</num>
+            <heading>Entry into force</heading>
+            <paragraph>
+               <content>
+                  <p>This Regulation shall enter into force on the twentieth day following that of its publication in the <i>Official Journal of the European Union</i>.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <content>
+                  <p>It shall apply from the date of entry into force of the Shipbuilding Agreement<authorialNote placement="bottom" marker="7">
+                        <p>The date of entry into force of the Shipbuilding Agreement will be published in the <i>Official Journal of the European Union</i>, L series.</p>
+                     </authorialNote>.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <content>
+                  <p>It shall not apply to vessels contracted for before the date of entry into force of the Shipbuilding Agreement, except for vessels contracted for after 21 December 1994 and for delivery more than 5 years from the date of the contract. Such vessels shall be subject to this Regulation, unless the shipbuilder demonstrates that the extended delivery date was for normal commercial reasons and not to avoid the application of this Regulation.</p>
+               </content>
+            </paragraph>
+         </article>
+         <clause>
+            <content>
+               <p>This Regulation shall be binding in its entirety and directly applicable in all Member States.</p>
+            </content>
+         </clause>
+      </body>
+      <conclusions>
+         <p>Done at Strasbourg, 8 June 2016.</p>
+         <block name="signatory">
+            <signature>
+               <organization refersTo="">For the European Parliament</organization>
+               <role refersTo="">The President</role>
+               <person refersTo="">M. SCHULZ</person>
+            </signature>
+            <signature>
+               <organization refersTo="">For the Council</organization>
+               <role refersTo="">The President</role>
+               <person refersTo="">A.G. KOENDERS</person>
+            </signature>
+         </block>
+      </conclusions>
+   </bill>
+</akomaNtoso>

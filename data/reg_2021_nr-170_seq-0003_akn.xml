@@ -1,0 +1,2006 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"
+            xmlns:fmx="http://formex.publications.europa.eu/schema/formex-05.21-20110601.xd"
+            xmlns:leos="urn:eu:europa:ec:leos"
+            xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <bill name="">
+      <meta xmlns:fn="http://www.w3.org/2005/xpath-functions">
+         <identification source="~COM">
+            <FRBRWork>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRcountry value=""/>
+            </FRBRWork>
+            <FRBRExpression>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+            </FRBRManifestation>
+         </identification>
+      </meta>
+      <preface>
+         <longTitle>
+            <p>
+               <docStage/>
+               <docType>REGULATION (EU) 2021/697 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL</docType>of 29 April 2021<docPurpose>establishing the European Defence Fund and repealing Regulation (EU) 2018/1092</docPurpose>
+            </p>
+         </longTitle>
+         <container name="EEArelevance">
+            <p>(Text with EEA relevance)</p>
+         </container>
+      </preface>
+      <preamble>
+         <formula name="actingEntity">
+            <p>THE EUROPEAN PARLIAMENT AND THE COUNCIL OF THE EUROPEAN UNION,</p>
+         </formula>
+         <citations>
+            <citation>
+               <p>Having regard to the Treaty on the Functioning of the European Union, and in particular Article 173(3), Article 182(4), Article 183 and the second paragraph of Article 188 thereof,</p>
+            </citation>
+            <citation>
+               <p>Having regard to the proposal from the European Commission,</p>
+            </citation>
+            <citation>
+               <p>After transmission of the draft legislative act to the national parliaments,</p>
+            </citation>
+            <citation>
+               <p>Having regard to the opinion of the European Economic and Social Committee<authorialNote placement="bottom" marker="1">
+                     <p>OJ C 110, 22.3.2019, p. 75.</p>
+                  </authorialNote>,</p>
+            </citation>
+            <citation>
+               <p>Acting in accordance with the ordinary legislative procedure<authorialNote placement="bottom" marker="2">
+                     <p>Position of the European Parliament of 18 April 2019 (not yet published in the Official Journal) and position of the Council at first reading of 16 March 2021 (not yet published in the Official Journal). Position of the European Parliament of 29 April 2021 (not yet published in the Official Journal).</p>
+                  </authorialNote>,</p>
+            </citation>
+         </citations>
+         <recitals xml:id="recs_d270e89">
+            <intro>
+               <p>Whereas:</p>
+            </intro>
+            <recital xml:id="rec_d270e92">
+               <num>(1)</num>
+               <p>The Union&apos;s geopolitical context has changed dramatically in the last decade. The situation in Europe&apos;s neighbouring regions is unstable and the Union faces a complex and challenging environment, combining the emergence of new threats, such as hybrid attacks and cyber attacks, and the return of more conventional challenges. Given that context, both European citizens and their political leaders share the view that more has to be done collectively in the area of defence.</p>
+            </recital>
+            <recital xml:id="rec_d270e98">
+               <num>(2)</num>
+               <p>The defence sector is characterised by increasing costs of defence equipment and by high research and development (R &amp; D) costs that limit the launch of new defence programmes and have a direct impact on the competitiveness and innovation capacity of the European defence technological and industrial base (EDTIB). In view of that cost escalation, the development of a new generation of major defence systems and of new defence technologies should be supported at Union level in order to increase cooperation between Member States with regard to defence equipment investments.</p>
+            </recital>
+            <recital xml:id="rec_d270e104">
+               <num>(3)</num>
+               <p>In its communication of 30 November 2016&apos;European Defence Action Plan&apos;, the Commission undertook to complement, leverage and consolidate collaborative efforts by Member States in developing defence technological and industrial capabilities to respond to security challenges, as well as to foster a competitive, innovative and efficient European defence industry throughout the Union and beyond. Moreover, the Commission committed itself to supporting the creation of a more integrated defence market in the Union and fostering the uptake of European defence products and technologies in the internal market, thus increasing the non-dependency on non-Union sources. The Commission proposed in particular to launch a European Defence Fund to support investments in joint research and the joint development of defence products and technologies, thereby fostering synergies and cost-effectiveness, and to promote the Member States&apos; joint purchase and maintenance of defence equipment. The European Defence Fund should complement national funding already used for that purpose, act as an incentive for Member States to cooperate and invest more in defence and support cooperation during the whole life cycle of defence products and technologies.</p>
+            </recital>
+            <recital xml:id="rec_d270e117">
+               <num>(4)</num>
+               <p>The European Defence Fund should contribute to a strong, competitive and innovative EDTIB and complement the Union&apos;s initiatives towards a more integrated European defence market and, in particular, Directives 2009/43/EC<authorialNote placement="bottom" marker="3">
+                     <p>Directive 2009/43/EC of the European Parliament and of the Council of 6 May 2009 simplifying terms and conditions of transfers of defence-related products within the Community (OJ L 146, 10.6.2009, p. 1).</p>
+                  </authorialNote> and 2009/81/EC<authorialNote placement="bottom" marker="4">
+                     <p>Directive 2009/81/EC of the European Parliament and of the Council of 13 July 2009 on the coordination of procedures for the award of certain works contracts, supply contracts and service contracts by contracting authorities or entities in the fields of defence and security, and amending Directives 2004/17/EC and 2004/18/EC (OJ L 216, 20.8.2009, p. 76).</p>
+                  </authorialNote> of the European Parliament and of the Council on Union transfers and procurement in the defence sector adopted in 2009.</p>
+            </recital>
+            <recital xml:id="rec_d270e143">
+               <num>(5)</num>
+               <p>In order to contribute to the enhancement of the competitiveness and innovation capacity of the Union&apos;s defence industry, a European Defence Fund (the &apos;Fund&apos;) should be established for a period of seven years to align its duration with that of the multiannual financial framework 2021-2027 (MFF 2021-2027) laid down in Council Regulation (EU, Euratom) 2020/2093<authorialNote placement="bottom" marker="5">
+                     <p>Council Regulation (EU, Euratom) 2020/2093 of 17 December 2020 laying down the multiannual financial framework for the years 2021 to 2027 (OJ L 433I, 22.12.2020, p. 11).</p>
+                  </authorialNote> on the basis of an integrated approach. The aim of the Fund is to enhance the competitiveness, innovation, efficiency and technological autonomy of the Union&apos;s defence industry, thereby contributing to the Union&apos;s strategic autonomy by supporting the cross-border cooperation between Member States as well as cooperation between enterprises, research centres, national administrations, international organisations and universities throughout the Union, both in the research and in the development phases of defence products and technologies. To achieve more innovative solutions and to foster an open internal market, the Fund should support and facilitate the widening of cross-border cooperation of small- and medium-sized enterprises (SMEs) and middle capitalisation companies (mid-caps) in the defence sector. Within the Union, common defence capability shortfalls are identified within the framework of the Common Security and Defence Policy, in particular through the Capability Development Plan (CDP), while the Overarching Strategic Research Agenda (OSRA) also identifies common defence research objectives. Other Union processes such as the Coordinated Annual Review on Defence (CARD) and Permanent Structured Cooperation (PESCO) have the purpose of supporting the implementation of relevant priorities by identifying and taking up opportunities for enhanced cooperation with a view to fulfilling the Union&apos;s level of ambition in the area of security and defence. Where appropriate, regional and international priorities, including those in the North Atlantic Treaty Organization context, may also be taken into account if they are in line with Union priorities and do not prevent any Member State or associated country from participating, while seeking to avoid unnecessary duplication.</p>
+            </recital>
+            <recital xml:id="rec_d270e165">
+               <num>(6)</num>
+               <p>The research phase linked to the development of defence capabilities is crucial, as it underpins the capacity and the autonomy of the European industry to develop defence products and the independence of Member States as the end-users of such products. The research phase may include significant risks, in particular in relation to the low level of maturity and the disruptive nature of technologies. The development phase, which usually follows the research phase, also entails significant risks and costs that hamper the further exploitation of the results of research and have an adverse impact on the competitiveness and innovation of the Union&apos;s defence industry. The Fund should thus foster the link between the research and the development phases.</p>
+            </recital>
+            <recital xml:id="rec_d270e171">
+               <num>(7)</num>
+               <p>The Fund does not support basic research, which should instead be supported through other funding programmes, but its support may include defence-oriented fundamental research likely to form the basis of the solution to recognised or expected problems or to create new possibilities.</p>
+            </recital>
+            <recital xml:id="rec_d270e177">
+               <num>(8)</num>
+               <p>The Fund could support actions pertaining to both new defence products and technologies and the upgrade of existing defence products and technologies, including the interoperability thereof. Actions for the upgrade of existing defence products and technologies should be eligible only where pre-existing information needed to carry out the action is not subject to any restriction by a non-associated third country or a non-associated third-country entity in such a way that the action cannot be carried out. When applying for Union funding, legal entities should be required to provide the relevant information to establish the absence of restrictions. In the absence of such information, there should be no Union funding.</p>
+            </recital>
+            <recital xml:id="rec_d270e185">
+               <num>(9)</num>
+               <p>The Fund should support actions that are conducive to developing disruptive technologies for defence. As disruptive technologies can be based on concepts or ideas originating from non-traditional defence actors, the Fund should allow for sufficient flexibility with regard to the consultation of stakeholders and the carrying out such actions.</p>
+            </recital>
+            <recital xml:id="rec_d270e191">
+               <num>(10)</num>
+               <p>In order to ensure that, in the implementation of this Regulation, the international obligations of the Union and its Member States are respected, actions relating to products or technologies the use, development or production of which is prohibited by international law should not be supported by the Fund. In that respect, the eligibility of actions related to new defence products or technologies should also be subject to developments in international law. Moreover, actions for the development of lethal autonomous weapons without the possibility for meaningful human control over selection and engagement decisions when carrying out strikes against humans should not be eligible for support from the Fund, without prejudice to the possibility of providing funding for actions for the development of early warning systems and countermeasures for defensive purposes.</p>
+            </recital>
+            <recital xml:id="rec_d270e197">
+               <num>(11)</num>
+               <p>The fact that it is difficult to agree on harmonised defence capability requirements and common technical specifications or standards hampers cross-border collaboration between Member States and between legal entities established in different Member States. The absence of such requirements, specifications and standards has led to increased fragmentation of the defence sector, technical complexity, delays, inflated costs, unnecessary duplication as well as decreased interoperability. The agreement on common technical specifications should be a prerequisite for actions involving a higher level of technological readiness. Activities leading to harmonised defence capability requirements as well as activities aiming to support the creation of a common definition of technical specifications or standards should also be eligible for support from the Fund, in particular where they foster interoperability.</p>
+            </recital>
+            <recital xml:id="rec_d270e203">
+               <num>(12)</num>
+               <p>As the objective of the Fund is to support the competitiveness, efficiency and innovation of the Union&apos;s defence industry by leveraging and complementing collaborative defence research and technology activities and de-risking the development phase of cooperative projects, actions related to the research and the development phases of a defence product or technology should be eligible for support from the Fund.</p>
+            </recital>
+            <recital xml:id="rec_d270e209">
+               <num>(13)</num>
+               <p>Given that the aim of the Fund is, in particular, to enhance cooperation between legal entities and Member States across the Union, an action should be eligible for funding only if it is to be carried out by legal entities cooperating within a consortium of at least three eligible legal entities which are established in at least three different Member States or associated countries. At least three of those eligible legal entities established in at least two different Member States or associated countries should not, during the entire period in which the action is carried out, be controlled, directly or indirectly, by the same legal entity and should not control each other. In that context, control should be understood to be the ability to exercise a decisive influence on a legal entity directly, or indirectly through one or more intermediate legal entities. Taking into account the specificities of disruptive technologies for defence, as well as of studies, the actions could be carried out by a single legal entity. In order to boost cooperation between Member States, it should also be possible for the Fund to support joint pre-commercial procurement.</p>
+            </recital>
+            <recital xml:id="rec_d270e215">
+               <num>(14)</num>
+               <p>Pursuant to Council Decision 2013/755/EU<authorialNote placement="bottom" marker="6">
+                     <p>Council Decision 2013/755/EU of 25 November 2013 on the association of the overseas countries and territories with the European Union (&apos;Overseas Association Decision&apos;) (OJ L 344, 19.12.2013, p. 1).</p>
+                  </authorialNote>, entities established in overseas countries or territories are eligible for funding subject to the rules and objectives of the Fund and to possible arrangements applicable to the Member State to which the relevant overseas country or territory is linked.</p>
+            </recital>
+            <recital xml:id="rec_d270e235">
+               <num>(15)</num>
+               <p>As the Fund aims to enhance the competitiveness and efficiency of the Union&apos;s defence industry, only legal entities which are established in the Union or in associated countries and are not subject to control by non-associated third countries or by non-associated third-country entities should, in principle, be eligible for support. In that context, control should be understood to be the ability to exercise a decisive influence on a legal entity directly, or indirectly through one or more intermediate legal entities. Additionally, in order to ensure the protection of essential security and defence interests of the Union and its Member States, the infrastructure, facilities, assets and resources of the recipients and subcontractors involved in an action supported by the Fund should be located on the territory of a Member State or of an associated country for the entire duration of an action, and the recipients and subcontractors involved in an action should have their executive management structures in the Union or in an associated country. Accordingly, a legal entity which is established in a non-associated third country or a legal entity which is established in the Union or in an associated country but which has its executive management structures in a non-associated third country should not be eligible to be a recipient or subcontractor involved in an action. In order to safeguard the essential security and defence interests of the Union and its Member States, those eligibility criteria should also apply to funding provided through procurement, by way of derogation from Article 176 of the Regulation (EU, Euratom) 2018/1046 of the European Parliament and of the Council<authorialNote placement="bottom" marker="7">
+                     <p>Regulation (EU, Euratom) 2018/1046 of the European Parliament and of the Council of 18 July 2018 on the financial rules applicable to the general budget of the Union, amending Regulations (EU) No 1296/2013, (EU) No 1301/2013, (EU) No 1303/2013, (EU) No 1304/2013, (EU) No 1309/2013, (EU) No 1316/2013, (EU) No 223/2014, (EU) No 283/2014, and Decision No 541/2014/EU and repealing Regulation (EU, Euratom) No 966/2012 (OJ L 193, 30.7.2018, p. 1).</p>
+                  </authorialNote> (the &apos;Financial Regulation&apos;).</p>
+            </recital>
+            <recital xml:id="rec_d270e257">
+               <num>(16)</num>
+               <p>In certain circumstances, it should be possible to derogate from the principle that recipients and subcontractors involved in an action supported by the Fund are not subject to control by non-associated third countries or non-associated third-country entities. In that context, legal entities established in the Union or in an associated country that are controlled by a non-associated third country or a non-associated third-country entity should be eligible to be recipients or subcontractors involved in an action provided that strict conditions relating to the security and defence interests of the Union and its Member States are fulfilled. The participation of such legal entities should not contravene the objectives of the Fund. Applicants should provide all relevant information about the infrastructure, facilities, assets and resources to be used in the action. Member States&apos; concerns regarding security of supply should also be taken into account in that respect.</p>
+            </recital>
+            <recital xml:id="rec_d270e263">
+               <num>(17)</num>
+               <p>In the framework of the Union&apos;s restrictive measures, adopted on the basis of Article 29 of the Treaty on European Union (TEU) and 215(2) of the Treaty on the Functioning of the European Union (TFEU), no funds or economic resources may be made available, directly or indirectly, to or for the benefit of designated legal persons, entities or bodies. Such designated entities, and entities owned or controlled by them, therefore cannot be supported by the Fund.</p>
+            </recital>
+            <recital xml:id="rec_d270e269">
+               <num>(18)</num>
+               <p>Union funding should be granted following competitive calls for proposals issued in accordance with the Financial Regulation. However, in certain duly substantiated and exceptional circumstances, it should also be possible for Union funding to be granted without a call for proposals in accordance with point (e) of the first paragraph of Article 195 of the Financial Regulation. As the award of funding in accordance with point (e) of the first paragraph of Article 195 of the Financial Regulation constitutes a derogation from the general rule that funding is to be granted following competitive calls for proposals, those exceptional circumstances should be interpreted strictly. In that context, for a grant to be awarded without a call for proposals, the degree to which the proposed action corresponds to the objectives of the Fund with respect to cross-border industrial collaboration and competition throughout the supply chain should be assessed by the Commission, with the assistance of a committee of Member States (the &apos;committee&apos;).</p>
+            </recital>
+            <recital xml:id="rec_d270e279">
+               <num>(19)</num>
+               <p>If a consortium wishes to participate in an eligible action and the Union support is to take the form of a grant, the consortium should appoint one of its members as a coordinator. The coordinator should be the principal point of contact for the purpose of the consortium&apos;s relations with the Commission.</p>
+            </recital>
+            <recital xml:id="rec_d270e286">
+               <num>(20)</num>
+               <p>Where an action supported by the Fund is managed by a project manager appointed by Member States or associated countries, the Commission should consult the project manager on progress made with regard to the action prior to executing the payment to the recipients, so that the project manager can ensure that the time-frames are respected by the recipients. The project manager should provide the Commission with observations on progress made with regard to the action so that the Commission can determine whether the conditions for proceeding with the payment have been fulfilled.</p>
+            </recital>
+            <recital xml:id="rec_d270e293">
+               <num>(21)</num>
+               <p>The Fund should be implemented under direct management so as to maximise the effectiveness and efficiency of the delivery and to ensure full consistency with other Union initiatives. Therefore, the Commission should remain responsible for the selection and award procedures, including as regards ethics screening and assessment. In substantiated cases, however, the Commission should be able to entrust budget implementation tasks for specific actions supported by the Fund to bodies as referred to in point (c) of the first subparagraph of Article 62(1) of the Financial Regulation, for example where a project manager has been appointed by Member States co-financing an action, provided that the requirements of the Financial Regulation are met. Such entrusting of budget implementation tasks would help to streamline the management of co-financed actions and ensure smooth coordination between the financing agreement and the contract signed by the consortium and the project manager appointed by Member States which co-finance the action.</p>
+            </recital>
+            <recital xml:id="rec_d270e299">
+               <num>(22)</num>
+               <p>In order to ensure that the funded development actions are financially viable, it is necessary that the applicants demonstrate that the costs of the action not covered by Union funding are covered by other means of financing.</p>
+            </recital>
+            <recital xml:id="rec_d270e305">
+               <num>(23)</num>
+               <p>Different types of financial arrangements should be at the disposal of Member States for the joint development and acquisition of defence capabilities. The Commission could provide different types of arrangements that Member States could use on a voluntary basis to address challenges for collaborative development and procurement from a financing perspective. The use of such financial arrangements could further foster the launch of collaborative and cross-border defence projects and increase the efficiency of defence spending, including for projects supported by the Fund.</p>
+            </recital>
+            <recital xml:id="rec_d270e311">
+               <num>(24)</num>
+               <p>Given the specificities of the defence industry, where demand comes almost exclusively from Member States and associated countries, which also control all acquisition of defence-related products and technologies, including exports, the functioning of the defence sector does not follow the conventional rules and business models that govern more traditional markets. Industry therefore cannot undertake substantial self-funded defence R &amp; D projects, and Member States and associated countries often fully fund all R &amp; D costs. To achieve the objectives of the Fund, in particular to foster cooperation between legal entities from different Member States and associated countries, and taking into account the specificities of the defence sector, up to the totality of the eligible costs should be covered for actions that take place before the prototype phase.</p>
+            </recital>
+            <recital xml:id="rec_d270e317">
+               <num>(25)</num>
+               <p>The prototype phase is a crucial phase where Member States or associated countries usually decide on their consolidated investment and start the acquisition process of their future defence products or technologies. This is the reason why, at this specific stage, Member States and associated countries agree on the necessary commitments, including cost-sharing and ownership of the project. To ensure the credibility of their commitment, support from the Fund should, in normal cases, not exceed 20 % of the eligible costs.</p>
+            </recital>
+            <recital xml:id="rec_d270e323">
+               <num>(26)</num>
+               <p>For actions beyond the prototype phase, funding up to 80 % should be provided for. Such actions, which are closer to product and technology finalisation, may still involve substantial costs.</p>
+            </recital>
+            <recital xml:id="rec_d270e329">
+               <num>(27)</num>
+               <p>Stakeholders in the defence sector face specific indirect costs, such as with regard to security. Furthermore, stakeholders work in a specific market where they &#45; absent demand on the buyers&apos; side &#45; cannot recover the R &amp; D costs in the same manner as those in the civilian sector. Therefore, it is appropriate to allow a flat rate of 25 % of the total direct eligible costs of the action as well as the possibility to charge indirect eligible costs determined in accordance with the usual cost accounting practices of the recipients if those practices are accepted by their national authorities for comparable activities in the defence domain and if they have been communicated to the Commission by the recipient.</p>
+            </recital>
+            <recital xml:id="rec_d270e335">
+               <num>(28)</num>
+               <p>Actions comprising the participation of cross-border SMEs and mid-caps support the opening-up of supply chains and contribute to the objectives of the Fund. Such actions should therefore be eligible for an increased rate of funding that benefits all participating legal entities.</p>
+            </recital>
+            <recital xml:id="rec_d270e343">
+               <num>(29)</num>
+               <p>In order to ensure that the funded actions will contribute to the competitiveness and efficiency of the European defence industry, it is important that Member States intend to jointly procure the final product or use the technology, in particular through joint cross-border procurement, where Member States jointly organise their procurement procedures in particular through a central purchasing body.</p>
+            </recital>
+            <recital xml:id="rec_d270e349">
+               <num>(30)</num>
+               <p>In order to ensure that the actions supported by the Fund contribute to the competitiveness and efficiency of the European defence industry, they should be market-oriented, demand-driven and commercially viable in the medium-to-long term. The eligibility criteria for development actions should therefore take into account the fact that Member States intend, including through a memorandum of understanding or a letter of intent, to procure the final product, or use the technology, in a coordinated manner. The award criteria for development actions should in addition take into account the fact that Member States have undertaken, politically or legally, to jointly use, own or maintain the final product or technology in a coordinated manner.</p>
+            </recital>
+            <recital xml:id="rec_d270e355">
+               <num>(31)</num>
+               <p>The promotion of innovation and technological development in the Union&apos;s defence industry should take place in a manner consistent with the security and defence interests of the Union. Accordingly, the contributions of actions to those interests and to the defence research and capability priorities commonly agreed by Member States should serve as an award criterion.</p>
+            </recital>
+            <recital xml:id="rec_d270e361">
+               <num>(32)</num>
+               <p>Eligible actions developed in the context of PESCO projects in the institutional framework of the Union should ensure enhanced cooperation between legal entities in the different Member States on a continuous basis and should thus directly contribute to the objectives of the Fund. If selected, such actions should therefore be eligible for an increased funding rate.</p>
+            </recital>
+            <recital xml:id="rec_d270e367">
+               <num>(33)</num>
+               <p>The Commission will take into account other activities financed under Horizon Europe &#45; the Framework Programme for Research and Innovation established by Regulation (EU) 2021/695 of the European Parliament and of the Council<authorialNote placement="bottom" marker="8">
+                     <p>Regulation (EU) 2021/695 of the European Parliament and of the Council of 28 April 2021 establishing Horizon Europe &#45; the Framework Programme for Research and Innovation, laying down its rules for participation and dissemination, and repealing Regulations (EU) No 1290/2013 and (EU) No 1291/2013 (see page 1 of this Official Journal).</p>
+                  </authorialNote> &#45; in order to avoid unnecessary duplication and ensure cross-fertilisation and synergies between civil and defence research.</p>
+            </recital>
+            <recital xml:id="rec_d270e380">
+               <num>(34)</num>
+               <p>Cybersecurity and cyber defence are increasingly important challenges and the Commission and the High Representative of the Union for Foreign Affairs and Security Policy recognised the need to establish synergies between cyber-defence actions within the scope of this Regulation and Union initiatives in the field of cybersecurity, such as those announced in the joint communication of the Commission of 13 September 2017&apos;Resilience, Deterrence and Defence: Building strong cybersecurity for the EU&apos;. In particular, stakeholders should seek synergies between the civilian and defence dimensions of cybersecurity, with a view to increasing cyber resilience.</p>
+            </recital>
+            <recital xml:id="rec_d270e392">
+               <num>(35)</num>
+               <p>An integrated approach should be ensured by bringing together activities covered by the Preparatory Action on Defence Research (PADR), launched by the Commission in accordance with point (b) of Article 58(2) of the Financial Regulation and the European Defence Industrial Development Programme (EDIDP) established by Regulation (EU) 2018/1092 of the European Parliament and of the Council<authorialNote placement="bottom" marker="9">
+                     <p>Regulation (EU) 2018/1092 of the European Parliament and of the Council of 18 July 2018 establishing the European Defence Industrial Development Programme aiming at supporting the competitiveness and innovation capacity of the Union&apos;s defence industry (OJ L 200, 7.8.2018, p. 30).</p>
+                  </authorialNote>, as well as by harmonising the conditions for participation. Such an integrated approach should create a more coherent set of instruments and increase the innovative, collaborative and economic impact of the Fund, while avoiding unnecessary duplication and fragmentation. It would also ensure that the Fund contributes to the better exploitation of the results of defence research, covering the gap between the research and the development phases taking into account the specificities of the defence sector, and promoting all forms of innovation, including disruptive technologies for defence. Moreover, positive spillover effects to the civilian sector can also be expected, where applicable.</p>
+            </recital>
+            <recital xml:id="rec_d270e409">
+               <num>(36)</num>
+               <p>Where appropriate in view of the specificities of the action, the objectives of the Fund should also be addressed through financial instruments and budgetary guarantees under the InvestEU Fund established by Regulation (EU) 2021/523 of the European Parliament and of the Council<authorialNote placement="bottom" marker="10">
+                     <p>Regulation (EU) 2021/523 of the European Parliament and of the Council of 24 March 2021 establishing the InvestEU Programme and amending Regulation (EU) 2015/1017 (OJ L 107, 26.3.2021, p. 30).</p>
+                  </authorialNote>.</p>
+            </recital>
+            <recital xml:id="rec_d270e425">
+               <num>(37)</num>
+               <p>Support from the Fund should be used to address market failures or sub-optimal investment situations in a proportionate manner, and actions should not duplicate or crowd out private financing or distort competition in the internal market. Actions should have a clear added value for the Union.</p>
+            </recital>
+            <recital xml:id="rec_d270e431">
+               <num>(38)</num>
+               <p>The forms of Union funding and the methods of implementation of the Fund should be chosen on the basis of their ability to achieve the specific objectives of the actions and to deliver results, taking into account in particular the costs of controls, the administrative burden and the expected risk of non-compliance. That choice should include the consideration of the use of lump sums, flat-rate financing and unit costs, as well as financing not linked to costs as referred to in Article 125(1) of the Financial Regulation.</p>
+            </recital>
+            <recital xml:id="rec_d270e438">
+               <num>(39)</num>
+               <p>The Commission should, by means of implementing acts, adopt annual work programmes in line with the objectives of the Fund, and taking into account the initial lessons learned from the EDIDP and the PADR. The Commission should be assisted in the establishment of the work programmes by the committee. The Commission should endeavour to find solutions which command the widest possible support within the committee. In that context, the committee should be able to meet in the configuration of national defence and security experts to provide specific assistance to the Commission, including advice with regard to the protection of classified information in the framework of the actions. It is for the Member States to designate their respective representatives on that committee. Committee members should be given early and effective opportunities to examine the draft implementing acts and express their views.</p>
+            </recital>
+            <recital xml:id="rec_d270e444">
+               <num>(40)</num>
+               <p>The categories set out in the work programmes should contain functional requirements where appropriate in order to clarify for industry what functionalities and tasks are to be carried out by the capabilities which are to be developed. Such requirements should give a clear indication of the expected performance but should not be directed towards specific solutions or specific legal entities and should not prevent competition at the level of calls for proposals.</p>
+            </recital>
+            <recital xml:id="rec_d270e450">
+               <num>(41)</num>
+               <p>During the development of the work programmes, the Commission should also ensure, through the appropriate consultation of the committee, that the proposed research actions or development actions avoid unnecessary duplication. In that context, the Commission may carry out a prior assessment of possible duplication cases with existing capabilities or already funded research or development projects within the Union.</p>
+            </recital>
+            <recital xml:id="rec_d270e456">
+               <num>(42)</num>
+               <p>The Commission should ensure the coherence of the work programmes throughout the industrial life cycle of defence products and technologies.</p>
+            </recital>
+            <recital xml:id="rec_d270e462">
+               <num>(43)</num>
+               <p>The work programmes should also ensure that a credible proportion of the overall budget benefits actions enabling the cross-border participation of SMEs.</p>
+            </recital>
+            <recital xml:id="rec_d270e468">
+               <num>(44)</num>
+               <p>In order to benefit from its expertise in the defence sector, the European Defence Agency should have observer status within the committee. Given the specificities of the defence area, the European External Action Service should also assist in the committee.</p>
+            </recital>
+            <recital xml:id="rec_d270e474">
+               <num>(45)</num>
+               <p>In order to ensure the effectiveness of this Regulation, the power to adopt acts in accordance with Article 290 TFEU should be delegated to the Commission in order to amend the Annex to this Regulation with regard to the indicators where considered to be necessary as well as to supplement this Regulation with provisions on the establishment of a monitoring and evaluation framework. It is of particular importance that the Commission carry out appropriate consultations during its preparatory work, including at expert level, and that those consultations be conducted in accordance with the principles laid down in the Interinstitutional Agreement of 13 April 2016 on Better Law-Making<authorialNote placement="bottom" marker="11">
+                     <p>OJ L 123, 12.5.2016, p. 1.</p>
+                  </authorialNote>. In particular, to ensure equal participation in the preparation of delegated acts, the European Parliament and the Council receive all documents at the same time as Member States&apos; experts, and their experts systematically have access to meetings of Commission expert groups dealing with the preparation of delegated acts.</p>
+            </recital>
+            <recital xml:id="rec_d270e490">
+               <num>(46)</num>
+               <p>In order to ensure uniform conditions for the implementation of this Regulation, implementing powers should be conferred on the Commission as regards the adoption of work programmes and the award of funding to selected research and development actions. In particular, while carrying out research and development actions, the specificities of the defence sector, in particular the responsibility of Member States, associated countries or both for the planning and acquisition process, should be taken into account. Those powers should be exercised in accordance with Regulation (EU) No 182/2011 of the European Parliament and of the Council<authorialNote placement="bottom" marker="12">
+                     <p>Regulation (EU) No 182/2011 of the European Parliament and of the Council of 16 February 2011 laying down the rules and general principles concerning mechanisms for control by Member States of the Commission&apos;s exercise of implementing powers (OJ L 55, 28.2.2011, p. 13).</p>
+                  </authorialNote>.</p>
+            </recital>
+            <recital xml:id="rec_d270e506">
+               <num>(47)</num>
+               <p>The Commission should establish a list of independent experts. The security credentials of those independent experts should be validated by the relevant Member States. That list should not be made public. The independent experts should be chosen on the basis of their skills, experience and knowledge, taking account of the tasks to be assigned to them. As far as possible, when appointing the independent experts, the Commission should take appropriate measures to seek a balanced composition within the independent expert groups and evaluation panels in terms of variety of skills, experience, knowledge, geographical diversity and gender, taking into account the situation in the field of the action. An appropriate rotation of the independent experts and appropriate private-public sector balance should also be sought.</p>
+            </recital>
+            <recital xml:id="rec_d270e512">
+               <num>(48)</num>
+               <p>The independent experts should not evaluate, advise or assist on matters with regard to which they have any conflicts of interest, in particular as regards their position at the time of the evaluation. In particular, they should not be in a position where they could use the information received to the detriment of the consortium that they evaluate.</p>
+            </recital>
+            <recital xml:id="rec_d270e519">
+               <num>(49)</num>
+               <p>After evaluation of the proposals with the help of independent experts, the Commission should select the actions to be supported by the Fund. Member States should be informed of the evaluation results with the ranking list of selected actions and of progress of the funded actions.</p>
+            </recital>
+            <recital xml:id="rec_d270e525">
+               <num>(50)</num>
+               <p>When proposing new defence products or technologies or the upgrade of existing defence products and technologies, applicants should undertake to comply with ethical principles, such as those relating to the welfare of human beings and the protection of the human genome, reflected also in relevant Union, national and international law, including the Charter of Fundamental Rights of the European Union and the European Convention for the Protection of Human Rights and Fundamental Freedoms and, where relevant, the protocols thereto. The Commission should screen the proposals systematically in order to identify those that raise serious ethical issues. Where appropriate, such proposals should be subject to an ethics assessment.</p>
+            </recital>
+            <recital xml:id="rec_d270e531">
+               <num>(51)</num>
+               <p>In order to support an open internal market, the participation of cross-border SMEs and mid-caps, as members of consortia, subcontractors or other legal entities in the supply chain, should be encouraged.</p>
+            </recital>
+            <recital xml:id="rec_d270e537">
+               <num>(52)</num>
+               <p>The Commission should endeavour to maintain a dialogue with Member States and industry to ensure the success of the Fund. As co-legislator and a key stakeholder, the European Parliament should also be engaged in that regard.</p>
+            </recital>
+            <recital xml:id="rec_d270e543">
+               <num>(53)</num>
+               <p>This Regulation lays down a financial envelope for the Fund, which is to constitute the prime reference amount, within the meaning of point 18 of the Inter-institutional Agreement of 16 December 2020 between the European Parliament, the Council and the European Commission on budgetary discipline, on cooperation in budgetary matters and on sound financial management, as well as on new own resources, including a roadmap towards the introduction of new own resources<authorialNote placement="bottom" marker="13">
+                     <p>OJ L 433I, 22.12.2020, p. 28.</p>
+                  </authorialNote> (Interinstitutional Agreement of 16 December 2020), for the European Parliament and for the Council during the annual budgetary procedure. The Commission should ensure that administrative procedures are kept as simple as possible and incur a minimum amount of additional expenses.</p>
+            </recital>
+            <recital xml:id="rec_d270e562">
+               <num>(54)</num>
+               <p>The Financial Regulation applies to the Fund, unless otherwise specified. The Financial Regulation lays down rules on the implementation of the Union budget, including the rules on grants, prizes, procurement, indirect management, financial instruments, budgetary guarantees and financial assistance.</p>
+            </recital>
+            <recital xml:id="rec_d270e568">
+               <num>(55)</num>
+               <p>Horizontal financial rules adopted by the European Parliament and by the Council on the basis of Article 322 TFEU apply to this Regulation. Those rules are laid down in the Financial Regulation and determine in particular the procedure for establishing and implementing the budget through grants, prizes, procurement, indirect implementation, and provide for checks on the responsibility of financial actors. Rules adopted on the basis of Article 322 TFEU also include a general regime of conditionality for the protection of the Union budget.</p>
+            </recital>
+            <recital xml:id="rec_d270e574">
+               <num>(56)</num>
+               <p>In accordance with the Financial Regulation, Regulation (EU, Euratom) No 883/2013 of the European Parliament and of the Council<authorialNote placement="bottom" marker="14">
+                     <p>Regulation (EU, Euratom) No 883/2013 of the European Parliament and of the Council of 11 September 2013 concerning investigations conducted by the European Anti-Fraud Office (OLAF) and repealing Regulation (EC) No 1073/1999 of the European Parliament and of the Council and Council Regulation (Euratom) No 1074/1999 (OJ L 248, 18.9.2013, p. 1).</p>
+                  </authorialNote> and Council Regulations (EC, Euratom) No 2988/95<authorialNote placement="bottom" marker="15">
+                     <p>Council Regulation (EC, Euratom) No 2988/95 of 18 December 1995 on the protection of the European Communities financial interests (OJ L 312, 23.12.1995, p. 1).</p>
+                  </authorialNote>, (Euratom, EC) No 2185/96<authorialNote placement="bottom" marker="16">
+                     <p>Council Regulation (Euratom, EC) No 2185/96 of 11 November 1996 concerning on-the-spot checks and inspections carried out by the Commission in order to protect the European Communities&apos; financial interests against fraud and other irregularities (OJ L 292, 15.11.1996, p. 2).</p>
+                  </authorialNote> and (EU) 2017/1939<authorialNote placement="bottom" marker="17">
+                     <p>Council Regulation (EU) 2017/1939 of 12 October 2017 implementing enhanced cooperation on the establishment of the European Public Prosecutor&apos;s Office (&apos;the EPPO&apos;) (OJ L 283, 31.10.2017, p. 1).</p>
+                  </authorialNote>, the financial interests of the Union are to be protected by means of proportionate measures, including measures relating to the prevention, detection, correction and investigation of irregularities, including fraud, to the recovery of funds lost, wrongly paid or incorrectly used, and, where appropriate, to the imposition of administrative penalties. In particular, in accordance with Regulations (Euratom, EC) No 2185/96 and (EU, Euratom) No 883/2013, the European Anti-Fraud Office (OLAF) has the power to carry out administrative investigations, including on-the-spot checks and inspections, with a view to establishing whether there has been fraud, corruption or any other illegal activity affecting the financial interests of the Union. The European Public Prosecutor&apos;s Office (EPPO) is empowered, in accordance with Regulation (EU) 2017/1939, to investigate and prosecute criminal offences affecting the financial interests of the Union as provided for in Directive (EU) 2017/1371 of the European Parliament and of the Council<authorialNote placement="bottom" marker="18">
+                     <p>Directive (EU) 2017/1371 of the European Parliament and of the Council of 5 July 2017 on the fight against fraud to the Union&apos;s financial interests by means of criminal law (OJ L 198, 28.7.2017, p. 29).</p>
+                  </authorialNote>. In accordance with the Financial Regulation, any person or entity receiving Union funds is to fully cooperate in the protection of the financial interests of the Union, grant the necessary rights and access to the Commission, OLAF, the Court of Auditors and, in respect of those Member States participating in enhanced cooperation pursuant to Regulation (EU) 2017/1939, the EPPO, and ensure that any third parties involved in the implementation of Union funds grant equivalent rights.</p>
+            </recital>
+            <recital xml:id="rec_d270e636">
+               <num>(57)</num>
+               <p>Third countries which are members of the European Economic Area (EEA) may participate in Union programmes in the framework of the cooperation established under the Agreement on the European Economic Area<authorialNote placement="bottom" marker="19">
+                     <p>OJ L 1, 3.1.1994, p. 3.</p>
+                  </authorialNote>, which provides for the implementation of the programmes on the basis of a decision adopted under that Agreement. A specific provision should be introduced in this Regulation requiring those third countries to grant the necessary rights and access required for the authorising officer responsible, OLAF and the Court of Auditors to comprehensively exercise their respective competences.</p>
+            </recital>
+            <recital xml:id="rec_d270e648">
+               <num>(58)</num>
+               <p>Pursuant to paragraphs 22 and 23 of the Interinstitutional Agreement of 13 April 2016 on Better Law-Making, the Fund should be evaluated on the basis of information collected in accordance with specific monitoring requirements, while avoiding an administrative burden, in particular on Member States, and overregulation. Those requirements, where appropriate, should include measurable indicators as a basis for evaluating the effects of the Fund on the ground. The Commission should carry out an interim evaluation no later than four years after the start of the implementation period of the Fund, including with a view to submitting proposals for any appropriate amendments to this Regulation. The Commission should also carry out a final evaluation at the end of the implementation period of the Fund, examining the financial activities in terms of financial implementation results and to the extent possible at that point in time, results of implementation and impact of the Fund. In that context, the final evaluation report should also help identify where the Union is dependent on third countries for the development of defence products and technologies. The final report should also analyse the cross-border participation of SMEs and mid-caps in projects supported by the Fund as well as the participation of SMEs and mid-caps to the global value chain, and the contribution of the Fund to addressing the shortfalls identified in the CDP, and should include information on the countries of origin of the recipients, the number of Member States and associated countries involved in individual actions and the distribution of the generated intellectual property rights (IPRs). The Commission may also propose amendments to this Regulation to react to possible developments during the implementation of the Fund.</p>
+            </recital>
+            <recital xml:id="rec_d270e660">
+               <num>(59)</num>
+               <p>The Commission should monitor the implementation of the Fund on a regular basis and should submit an annual report on progress made, including how lessons identified and lessons learned from the EDIDP and the PADR are taken into account in the implementation of the Fund, to the European Parliament and to the Council. To that end, the Commission should put in place necessary monitoring arrangements. The report should not contain sensitive information.</p>
+            </recital>
+            <recital xml:id="rec_d270e666">
+               <num>(60)</num>
+               <p>Reflecting the importance of tackling climate change in line with the Union&apos;s commitments to implement the Paris Agreement adopted under the United Nations Framework Convention on Climate Change<authorialNote placement="bottom" marker="20">
+                     <p>OJ L 282, 19.10.2016, p. 4.</p>
+                  </authorialNote> and the United Nations Sustainable Development Goals, the Fund contributes to the mainstreaming of climate actions in Union policies and to the achievement of an overall target of 30 % of the Union budget expenditure supporting climate objectives. Relevant actions will be identified during the Fund&apos;s preparation and implementation, and reassessed in the context of its interim evaluation.</p>
+            </recital>
+            <recital xml:id="rec_d270e678">
+               <num>(61)</num>
+               <p>Reflecting the importance of tackling the dramatic loss of biodiversity, this Regulation contributes to the mainstreaming of biodiversity action in Union policies and to the achievement of the overall ambition of providing 7,5 % of annual spending under the MFF 2021-2027 to biodiversity objectives in 2024 and 10 % thereof in 2026 and 2027, while considering the existing overlaps between climate and biodiversity goals in accordance with the Interinstitutional Agreement of 16 December 2020.</p>
+            </recital>
+            <recital xml:id="rec_d270e687">
+               <num>(62)</num>
+               <p>As the Fund should support only the research and the development phases of defence products and technologies, the Union should not, in principle, have ownership of or IPRs in the defence products or technologies resulting from the funded actions unless the Union support is provided through public procurement. However, for research actions, interested Member States and associated countries should be able to use the results of funded actions to participate in follow-up cooperative development.</p>
+            </recital>
+            <recital xml:id="rec_d270e693">
+               <num>(63)</num>
+               <p>The Union&apos;s support should not affect the transfer of defence-related products within the Union, in accordance with Directive 2009/43/EC, or the export of products, equipment or technologies. The export of military equipment and technologies by the Member States is regulated by Council Common Position 2008/944/CFSP<authorialNote placement="bottom" marker="21">
+                     <p>Council Common Position 2008/944/CFSP of 8 December 2008 defining common rules governing control of exports of military technology and equipment (OJ L 335, 13.12.2008, p. 99).</p>
+                  </authorialNote>.</p>
+            </recital>
+            <recital xml:id="rec_d270e709">
+               <num>(64)</num>
+               <p>The use of sensitive background information, including data, knowhow or information, generated before or outside the operation of the Fund, or access by unauthorised individuals to results generated in connection to actions supported by the Fund could have an adverse impact on the interests of the Union or of one or more of the Member States. The handling of sensitive information should therefore be governed by relevant Union and national law.</p>
+            </recital>
+            <recital xml:id="rec_d270e715">
+               <num>(65)</num>
+               <p>In order to ensure the security of classified information at the requisite level, the minimum standards on industrial security should be complied with when signing classified funding and financing agreements. To that end, and in accordance with Commission Decision (EU, Euratom) 2015/444<authorialNote placement="bottom" marker="22">
+                     <p>Commission Decision (EU, Euratom) 2015/444 of 13 March 2015 on the security rules for protecting EU classified information (OJ L 72, 17.3.2015, p. 53).</p>
+                  </authorialNote>, the Commission is to communicate the Programme Security Instructions, including the Security Classification Guide, for advice to the independent experts designated by Member States.</p>
+            </recital>
+            <recital xml:id="rec_d270e732">
+               <num>(66)</num>
+               <p>Since the objectives of this Regulation cannot be sufficiently achieved by the Member States but can rather be better achieved at Union level, the Union may adopt measures, in accordance with the principle of subsidiarity as set out in Article 5 TEU. In accordance with the principle of proportionality as set out in that Article, this Regulation does not go beyond what is necessary in order to achieve those objectives.</p>
+            </recital>
+            <recital xml:id="rec_d270e738">
+               <num>(67)</num>
+               <p>The Commission should manage the Fund while having due regard to the requirements of confidentiality and security, in particular those relating to sensitive information including classified information.</p>
+            </recital>
+            <recital xml:id="rec_d270e744">
+               <num>(68)</num>
+               <p>In order to ensure continuity in providing support in the relevant policy area and to allow implementation to start from the beginning of the MFF 2021-2027, this Regulation should enter into force as a matter of urgency and should apply, with retroactive effect, from 1 January 2021.</p>
+            </recital>
+            <recital xml:id="rec_d270e754">
+               <num>(69)</num>
+               <p>Regulation (EU) 2018/1092 should therefore be repealed,</p>
+            </recital>
+         </recitals>
+         <formula name="enactingFormula">
+            <p>HAVE ADOPTED THIS REGULATION:</p>
+         </formula>
+      </preamble>
+      <body>
+         <title>
+            <num>TITLE I</num>
+            <heading>COMMON PROVISIONS APPLICABLE FOR RESEARCH AND DEVELOPMENT</heading>
+            <article xml:id="art_d270e772">
+               <num>Article 1</num>
+               <heading>Subject matter</heading>
+               <paragraph>
+                  <content>
+                     <p>This Regulation establishes the European Defence Fund (the &apos;Fund&apos;), as set out in point (c) of Article 1(2) of Regulation (EU) 2021/695, for the period from 1 January 2021 to 31 December 2027. The duration of the Fund is aligned with the duration of the MFF 2021-2027.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <content>
+                     <p>This Regulation lays down the objectives of the Fund, its budget for the period from 1 January 2021 to 31 December 2027, the forms of Union funding and the rules for providing such funding.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d270e797">
+               <num>Article 2</num>
+               <heading>Definitions</heading>
+               <paragraph>
+                  <subparagraph>
+                     <content>
+                        <p>For the purposes of this Regulation, the following definitions apply:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(1)</num>
+                        <content>
+                           <p>&apos;legal entity&apos; means a legal person created and recognised as such under Union, national or international law, which has legal personality and the capacity to act in its own name, exercise rights and be subject to obligations, or an entity which does not have legal personality as referred to in point (c) of Article 197(2) of the Financial Regulation;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(2)</num>
+                        <content>
+                           <p>&apos;applicant&apos; means a legal entity that submits an application for support from the Fund after a call for proposals or in accordance with point (e) of the first paragraph of Article 195 of the Financial Regulation;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(3)</num>
+                        <content>
+                           <p>&apos;recipient&apos; means a legal entity with which a funding or financing agreement has been signed or to which a funding or financing decision has been notified;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(4)</num>
+                        <content>
+                           <p>&apos;consortium&apos; means a collaborative grouping of applicants or recipients that is subject to an agreement and constituted for the purpose of carrying out an action under the Fund;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(5)</num>
+                        <content>
+                           <p>&apos;coordinator&apos; means a legal entity which is a member of a consortium and has been appointed by all the members of the consortium to be the principal point of contact for the purpose of the consortium&apos;s relations with the Commission;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(6)</num>
+                        <content>
+                           <p>&apos;control&apos; means the ability to exercise a decisive influence on a legal entity directly, or indirectly through one or more intermediate legal entities;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(7)</num>
+                        <content>
+                           <p>&apos;executive management structure&apos; means a body of a legal entity, appointed in accordance with national law, and, where applicable, reporting to the chief executive officer, which is empowered to establish the legal entity&apos;s strategy, objectives and overall direction, and which oversees and monitors management decision-making;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(8)</num>
+                        <content>
+                           <p>&apos;system prototype&apos; means a model of a product or technology that can demonstrate performance in an operational environment;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(9)</num>
+                        <content>
+                           <p>&apos;qualification&apos; means the entire process of demonstrating that the design of a defence product, tangible or intangible component or technology meets the specified requirements, providing objective evidence by which particular requirements of a design are demonstrated to have been met;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(10)</num>
+                        <content>
+                           <p>&apos;certification&apos; means the process by which a national authority certifies that the defence product, tangible or intangible component or technology complies with the applicable regulations;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(11)</num>
+                        <content>
+                           <p>&apos;research action&apos; means an action consisting primarily of research activities, in particular applied research and where necessary fundamental research, with the aim of acquiring new knowledge and with an exclusive focus on defence applications;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(12)</num>
+                        <content>
+                           <p>&apos;development action&apos; means an action consisting of defence-oriented activities primarily in the development phase, covering new defence products or technologies or the upgrading of existing ones, excluding the production or use of weapons;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(13)</num>
+                        <content>
+                           <p>&apos;disruptive technology for defence&apos; means an enhanced or completely new technology that brings about a radical change, including a paradigm shift in the concept and conduct of defence affairs such as by replacing existing defence technologies or rendering them obsolete;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(14)</num>
+                        <content>
+                           <p>&apos;small and medium-sized enterprises&apos; or &apos;SMEs&apos; means small and medium-sized enterprises as defined in Article 2 of the Annex to Commission Recommendation 2003/361/EC<authorialNote placement="bottom" marker="23">
+                                 <p>Commission Recommendation 2003/361/EC of 6 May 2003 concerning the definition of micro, small and medium-sized enterprises (OJ L 124, 20.5.2003, p. 36).</p>
+                              </authorialNote>;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(15)</num>
+                        <content>
+                           <p>&apos;middle capitalisation company&apos; or &apos;mid-cap&apos; means an enterprise that is not a SME and that employs a maximum of 3000 persons, where the headcount of staff is calculated in accordance with Articles 3 to 6 of the Annex to Recommendation 2003/361/EC;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(16)</num>
+                        <content>
+                           <p>&apos;blending operation&apos; means an action supported by the Union budget, including within a blending facility or platform as defined in point (6) of Article 2 of the Financial Regulation, that combines non-repayable forms of support or financial instruments from the Union budget with repayable forms of support from development or other public finance institutions as well as from commercial finance institutions and investors;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(17)</num>
+                        <content>
+                           <p>&apos;pre-commercial procurement&apos; means the procurement of research and development services involving risk-benefit sharing under market conditions, and competitive development in phases, where there is a clear separation of the research and development services procured from the deployment of commercial volumes of end-products;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(18)</num>
+                        <content>
+                           <p>&apos;project manager&apos; means a contracting authority established in a Member State or an associated country, appointed by a Member State or an associated country or a group of Member States or associated countries to manage multinational armament projects on an on-going or ad-hoc basis;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(19)</num>
+                        <content>
+                           <p>&apos;results&apos; means any tangible or intangible effect of a given action, such as data, knowhow or information, whatever its form or nature and whether or not it can be protected, as well as any rights attached to it, including IPRs;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(20)</num>
+                        <content>
+                           <p>&apos;foreground information&apos; means data, knowhow or information generated in the operation of the Fund, whatever its form or nature;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(21)</num>
+                        <content>
+                           <p>&apos;classified information&apos; means information or material, in any form, the unauthorised disclosure of which could cause varying degrees of prejudice to the interests of the Union, or of one or more of the Member States, and which bears an EU classification marking or a corresponding classification marking, as established in the Agreement between the Member States of the European Union, meeting within the Council, regarding the protection of classified information exchanged in the interests of the European Union<authorialNote placement="bottom" marker="24">
+                                 <p>Agreement between the Member States of the European Union, meeting within the Council, regarding the protection of classified information exchanged in the interests of the European Union (OJ C 202, 8.7.2011, p. 13).</p>
+                              </authorialNote>;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(22)</num>
+                        <content>
+                           <p>&apos;sensitive information&apos; means information and data, including classified information, that is to be protected from unauthorised access or disclosure because of obligations laid down in Union or national law or in order to safeguard the privacy or security of a natural or legal person;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(23)</num>
+                        <content>
+                           <p>&apos;special report&apos; means a specific deliverable of a research action summarising its results, providing extensive information on the basic principles, the aims, the outcomes, the basic properties, the tests performed, the potential benefits, the potential defence applications and the expected exploitation path of the research towards development, including information on the ownership of IPRs but not requiring the inclusion of IPR information;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(24)</num>
+                        <content>
+                           <p>&apos;non-associated third-country entity&apos; means a legal entity that is established in a non-associated third country or, where it is established in the Union or in an associated country, that has its executive management structures in a non-associated third country.</p>
+                        </content>
+                     </point>
+                  </list>
+               </paragraph>
+            </article>
+            <article xml:id="art_d270e1054">
+               <num>Article 3</num>
+               <heading>Objectives</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>The general objective of the Fund is to foster the competitiveness, efficiency and innovation capacity of the European defence technological and industrial base (EDTIB) throughout the Union, which contributes to the Union strategic autonomy and its freedom of action, by supporting collaborative actions and cross-border cooperation between legal entities throughout the Union, in particular SMEs and mid-caps, as well as by strengthening and improving the agility of both defence supply and value chains, widening cross-border cooperation between legal entities and fostering the better exploitation of the industrial potential of innovation, research and technological development, at each stage of the industrial life cycle of defence products and technologies.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <subparagraph>
+                     <content>
+                        <p>The Fund shall have the following specific objectives:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(a)</num>
+                        <content>
+                           <p>to support collaborative research that could significantly boost the performance of future capabilities throughout the Union, aiming to maximise innovation and introduce new defence products and technologies, including disruptive technologies for defence, and aiming to make the most efficient use of defence research spending in the Union;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(b)</num>
+                        <content>
+                           <p>to support the collaborative development of defence products and technologies, thus contributing to the greater efficiency of defence spending within the Union, achieving greater economies of scale, reducing the risk of unnecessary duplication and thereby fostering the market uptake of European defence products and technologies and reducing the fragmentation of defence products and technologies throughout the Union, ultimately leading to an increase in the standardisation of defence systems and a greater interoperability between Member States&apos; capabilities.</p>
+                        </content>
+                     </point>
+                  </list>
+                  <subparagraph>
+                     <content>
+                        <p>Such collaboration shall be consistent with defence capability priorities commonly agreed by Member States within the framework of the Common Foreign and Security Policy (CFSP) and in particular in the context of the CDP.</p>
+                     </content>
+                  </subparagraph>
+                  <subparagraph>
+                     <content>
+                        <p>In that regard, regional and international priorities, when they serve the security and defence interests of the Union as determined under the CFSP, and taking into account the need to avoid unnecessary duplication, may also be taken into account, where appropriate, where they do not exclude the possibility of participation of any Member State or associated country.</p>
+                     </content>
+                  </subparagraph>
+               </paragraph>
+            </article>
+            <article xml:id="art_d270e1088">
+               <num>Article 4</num>
+               <heading>Budget</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>In accordance with Article 12(1) of Regulation (EU) 2021/695, the financial envelope for the implementation of the Fund for the period from 1 January 2021 to 31 December 2027 shall be EUR 7953000000 in current prices.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <subparagraph>
+                     <content>
+                        <p>The distribution of the amount referred to in paragraph 1 shall be:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(a)</num>
+                        <content>
+                           <p>EUR 2651000000 for research actions;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(b)</num>
+                        <content>
+                           <p>EUR 5302000000 for development actions.</p>
+                        </content>
+                     </point>
+                  </list>
+                  <subparagraph>
+                     <content>
+                        <p>In order to respond to unforeseen situations or to new developments and needs, the Commission may reallocate the amount allocated to research or development actions, by up to a maximum of 20 %.</p>
+                     </content>
+                  </subparagraph>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <content>
+                     <p>The amount referred to in paragraph 1 may also be used for technical and administrative assistance for the implementation of the Fund, such as preparatory, monitoring, control, audit and evaluation activities, including the design, set up, operation and maintenance of corporate information technology systems.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>4.</num>
+                  <content>
+                     <p>At least 4 % and up to 8 % of the financial envelope referred to in paragraph 1 shall be allocated to calls for proposals or awards of funding supporting disruptive technologies for defence.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d270e1144">
+               <num>Article 5</num>
+               <heading>Associated countries</heading>
+               <paragraph>
+                  <content>
+                     <p>The Fund shall be open to the participation of members of the European Free Trade Association which are members of the EEA, in accordance with the conditions laid down in the Agreement on the European Economic Area (associated countries).</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d270e1151">
+               <num>Article 6</num>
+               <heading>Support for disruptive technologies for defence</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>The Commission shall, by means of implementing acts, award funding following open and public consultations on disruptive technologies for defence in the areas of intervention defined in the work programmes referred to in Article 24. Those implementing acts shall be adopted in accordance with the examination procedure referred to in Article 34(2).</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>The work programmes shall lay down the most appropriate forms of funding for disruptive technologies for defence.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d270e1166">
+               <num>Article 7</num>
+               <heading>Ethics</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>Actions carried out under the Fund shall comply with relevant Union, national and international law, including the Charter of Fundamental Rights of the European Union. Moreover, those actions shall comply with ethical principles also reflected in relevant Union, national and international law.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <subparagraph>
+                     <content>
+                        <p>Before the signature of a funding agreement, proposals shall be screened by the Commission on the basis of an ethics self-assessment prepared by the consortium, in order to identify those that raise serious ethical issues, including with regard to conditions under which the activities are to be carried out. Where appropriate, such proposals shall be subject to an ethics assessment.</p>
+                     </content>
+                  </subparagraph>
+                  <subparagraph>
+                     <content>
+                        <p>Ethics screening and assessment shall be carried out by the Commission with the support of independent experts appointed in accordance with Article 26. Those independent experts shall have a variety of backgrounds, in particular recognised expertise in defence ethics, and shall be nationals of as broad a range of Member States as possible.</p>
+                     </content>
+                  </subparagraph>
+                  <subparagraph>
+                     <content>
+                        <p>The conditions under which the activities with ethically sensitive issues are to be carried out shall be specified in the funding agreement.</p>
+                     </content>
+                  </subparagraph>
+                  <subparagraph>
+                     <content>
+                        <p>The Commission shall ensure that the ethics procedures are as transparent as possible and shall include them in its interim evaluation report in accordance with Article 29.</p>
+                     </content>
+                  </subparagraph>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <content>
+                     <p>Legal entities participating in the action shall obtain all relevant approvals, or other documents required by national or local ethics committees and other bodies such as data protection authorities, before the start of the relevant activities. Those approvals and other documents shall be kept and provided to the Commission upon request.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>4.</num>
+                  <content>
+                     <p>Proposals which are considered not to be ethically acceptable shall be rejected.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d270e1198">
+               <num>Article 8</num>
+               <heading>Implementation and forms of Union funding</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>The Fund shall be implemented under direct management in accordance with the Financial Regulation.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>By way of derogation from paragraph 1 of this Article, specific actions may, in substantiated cases, be carried out under indirect management by bodies as referred to in point (c) of Article 62(1) of the Financial Regulation. This shall not include the selection and award procedure referred to in Article 11 of this Regulation.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <content>
+                     <p>The Fund may provide funding in accordance with the Financial Regulation, through grants, prizes and procurement, and, where appropriate in view of the specificities of the action, financial instruments within blending operations.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>4.</num>
+                  <content>
+                     <p>Blending operations shall be carried out in accordance with Title X of the Financial Regulation and Regulation (EU) 2021/523.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>5.</num>
+                  <content>
+                     <p>Financial instruments shall be strictly directed only to the recipients.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d270e1228">
+               <num>Article 9</num>
+               <heading>Eligible legal entities</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>Recipients and subcontractors involved in an action shall be established in the Union or in an associated country.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>The infrastructure, facilities, assets and resources of the recipients and subcontractors involved in an action which are used for the purposes of an action supported by the Fund shall be located on the territory of a Member State or of an associated country for the entire duration of an action, and their executive management structures shall be established in the Union or in an associated country.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <content>
+                     <p>For the purposes of an action supported by the Fund, the recipients and subcontractors involved in an action shall not be subject to control by a non-associated third country or by a non-associated third-country entity.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>4.</num>
+                  <subparagraph>
+                     <content>
+                        <p>By way of derogation from paragraph 3, a legal entity established in the Union or in an associated country and controlled by a non-associated third country or a non-associated third-country entity shall be eligible to be a recipient or subcontractor involved in an action only if guarantees approved by the Member State or the associated country in which it is established in accordance with its national procedures are made available to the Commission. Those guarantees may refer to the legal entity&apos;s executive management structure established in the Union or in an associated country. If considered to be appropriate by the Member State or associated country in which the legal entity is established, those guarantees may also refer to specific governmental rights in the control over the legal entity.</p>
+                     </content>
+                  </subparagraph>
+                  <subparagraph>
+                     <content>
+                        <p>The guarantees shall provide assurances that the involvement in an action of such a legal entity would not contravene the security and defence interests of the Union and its Member States as established in the framework of the CFSP pursuant to Title V of the TEU, or the objectives set out in Article 3 of this Regulation. The guarantees shall also comply with Articles 20 and 23 of this Regulation. The guarantees shall in particular substantiate that, for the purposes of an action, measures are in place to ensure that:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(a)</num>
+                        <content>
+                           <p>control over the legal entity is not exercised in a manner that restrains or restricts its ability to carry out the action and to deliver results, that imposes restrictions concerning its infrastructure, facilities, assets, resources, intellectual property or knowhow needed for the purposes of the action, or that undermines its capabilities and standards necessary to carry out the action;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(b)</num>
+                        <content>
+                           <p>access by a non-associated third country or by a non-associated third-country entity to sensitive information relating to the action is prevented and the employees or other persons involved in the action have national security clearance issued by a Member State or an associated country, where appropriate;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(c)</num>
+                        <content>
+                           <p>ownership of the intellectual property arising from, and the results of, the action remain within the recipient during and after completion of the action, are not subject to control or restriction by a non-associated third country or by a non-associated third-country entity, and are neither exported outside the Union or outside associated countries nor accessible from outside the Union or outside associated countries without the approval of the Member State or the associated country in which the legal entity is established and in accordance with the objectives set out in Article 3.</p>
+                        </content>
+                     </point>
+                  </list>
+                  <subparagraph>
+                     <content>
+                        <p>If considered to be appropriate by the Member State or the associated country in which the legal entity is established, additional guarantees may be provided.</p>
+                     </content>
+                  </subparagraph>
+                  <subparagraph>
+                     <content>
+                        <p>The Commission shall inform the committee referred to in Article 34 of any legal entity considered to be eligible in accordance with this paragraph.</p>
+                     </content>
+                  </subparagraph>
+               </paragraph>
+               <paragraph>
+                  <num>5.</num>
+                  <subparagraph>
+                     <content>
+                        <p>Where no competitive substitutes are readily available in the Union or in an associated country, recipients and subcontractors involved in an action may use their assets, infrastructure, facilities and resources located or held outside the territory of the Member States or of the associated countries provided that such use does not contravene the security and defence interests of the Union and its Member States, is consistent with the objectives set out in Article 3 and complies with Articles 20 and 23.</p>
+                     </content>
+                  </subparagraph>
+                  <subparagraph>
+                     <content>
+                        <p>The costs related to those activities shall not be eligible for support from the Fund.</p>
+                     </content>
+                  </subparagraph>
+               </paragraph>
+               <paragraph>
+                  <num>6.</num>
+                  <subparagraph>
+                     <content>
+                        <p>When carrying out an eligible action, recipients and subcontractors involved in an action may also cooperate with legal entities established outside the territory of the Member States or of associated countries, or controlled by a non-associated third country or by a non-associated third-country entity, including by using the assets, infrastructure, facilities and resources of such legal entities, provided that this does not contravene the security and defence interests of the Union and its Member States. Such cooperation shall be consistent with the objectives set out in Article 3 and shall comply with Articles 20 and 23.</p>
+                     </content>
+                  </subparagraph>
+                  <subparagraph>
+                     <content>
+                        <p>There shall be no unauthorised access by a non-associated third country or other non-associated third-country entity to classified information relating to the carrying out of the action and potential negative effects over security of supply of inputs critical to the action shall be avoided.</p>
+                     </content>
+                  </subparagraph>
+                  <subparagraph>
+                     <content>
+                        <p>The costs related to those activities shall not be eligible for support from the Fund.</p>
+                     </content>
+                  </subparagraph>
+               </paragraph>
+               <paragraph>
+                  <num>7.</num>
+                  <content>
+                     <p>Applicants shall provide all relevant information necessary for the assessment of the eligibility criteria. In the event of a change during the carrying out of an action which might put into question the fulfilment of the eligibility criteria, the relevant legal entity shall inform the Commission, which shall assess whether those eligibility criteria continue to be met and shall address the potential impact of that change on the funding of the action.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>8.</num>
+                  <content>
+                     <p>For the purposes of this Article, &apos;subcontractors involved in an action&apos; refers to subcontractors with a direct contractual relationship to a recipient, other subcontractors to which at least 10 % of the total eligible costs of the action is allocated, and subcontractors which may require access to classified information in order to carry out the action. Subcontractors involved in an action are not members of the consortium.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d270e1312">
+               <num>Article 10</num>
+               <heading>Eligible actions</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>Only actions implementing the objectives set out in Article 3 shall be eligible for funding.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>The Fund shall provide support for actions covering new defence products and technologies and the upgrade of existing defence products and technologies provided that the use of pre-existing information needed to carry out the action for the upgrade is not subject to a restriction by a non-associated third country or a non-associated third-country entity directly, or indirectly through one or more intermediary legal entities, in such a way that the action cannot be carried out.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <subparagraph>
+                     <content>
+                        <p>An eligible action shall relate to one or more of the following activities:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(a)</num>
+                        <content>
+                           <p>activities that aim to create, underpin and improve knowledge, products and technologies, including disruptive technologies for defence, which can achieve significant effects in the area of defence;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(b)</num>
+                        <content>
+                           <p>activities that aim to increase interoperability and resilience, including secured production and exchange of data, to master critical defence technologies, to strengthen the security of supply or to enable the effective exploitation of results for defence products and technologies;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(c)</num>
+                        <content>
+                           <p>studies, such as feasibility studies to explore the feasibility of new or upgraded products, technologies, processes, services and solutions;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(d)</num>
+                        <content>
+                           <p>the design of a defence product, tangible or intangible component or technology as well as the definition of the technical specifications on which such a design has been developed, including any partial tests for risk reduction in an industrial or representative environment;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(e)</num>
+                        <content>
+                           <p>the system prototyping of a defence product, tangible or intangible component or technology;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(f)</num>
+                        <content>
+                           <p>the testing of a defence product, tangible or intangible component or technology;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(g)</num>
+                        <content>
+                           <p>the qualification of a defence product, tangible or intangible component or technology;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(h)</num>
+                        <content>
+                           <p>the certification of a defence product, tangible or intangible component or technology;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(i)</num>
+                        <content>
+                           <p>the development of technologies or assets increasing efficiency across the life cycle of defence products and technologies.</p>
+                        </content>
+                     </point>
+                  </list>
+               </paragraph>
+               <paragraph>
+                  <num>4.</num>
+                  <content>
+                     <p>The action shall be carried out by legal entities cooperating within a consortium of at least three eligible legal entities which are established in at least three different Member States or associated countries. At least three of those eligible legal entities established in at least two different Member States or associated countries shall not, during the entire period in which the action is carried out, be controlled, directly or indirectly, by the same legal entity and shall not control each other.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>5.</num>
+                  <content>
+                     <p>Paragraph 4 shall not apply to actions relating to disruptive technologies for defence or to activities referred to in point (c) of paragraph 3.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>6.</num>
+                  <subparagraph>
+                     <content>
+                        <p>Actions for the development of products and technologies the use, development or production of which is prohibited by applicable international law shall not be eligible for support from the Fund.</p>
+                     </content>
+                  </subparagraph>
+                  <subparagraph>
+                     <content>
+                        <p>Moreover, actions for the development of lethal autonomous weapons without the possibility for meaningful human control over selection and engagement decisions when carrying out strikes against humans shall not be eligible for support from the Fund, without prejudice to the possibility of providing funding for actions for the development of early warning systems and countermeasures for defensive purposes.</p>
+                     </content>
+                  </subparagraph>
+               </paragraph>
+            </article>
+            <article xml:id="art_d270e1406">
+               <num>Article 11</num>
+               <heading>Selection and award procedure</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <subparagraph>
+                     <content>
+                        <p>Union funding shall be granted following competitive calls for proposals issued in accordance with the Financial Regulation.</p>
+                     </content>
+                  </subparagraph>
+                  <subparagraph>
+                     <content>
+                        <p>In certain duly substantiated and exceptional circumstances, Union funding may also be granted without a call for proposals in accordance with point (e) of the first paragraph of Article 195 of the Financial Regulation.</p>
+                     </content>
+                  </subparagraph>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>The Commission shall, by means of implementing acts, award the funding referred to in paragraph 1 of this Article. Those implementing acts shall be adopted in accordance with the examination procedure referred to in Article 34(2).</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d270e1423">
+               <num>Article 12</num>
+               <heading>Award criteria</heading>
+               <paragraph>
+                  <subparagraph>
+                     <content>
+                        <p>Each proposal shall be assessed on the basis of the following criteria:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(a)</num>
+                        <content>
+                           <p>its contribution to excellence or potential of disruption in the defence domain, in particular by showing that the expected results of the proposed action present significant advantages over existing defence products or technologies;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(b)</num>
+                        <content>
+                           <p>its contribution to the innovation and technological development of the European defence industry, in particular by showing that the proposed action includes ground-breaking or novel concepts and approaches, new promising future technological improvements or the application of technologies or concepts previously not applied in defence sector, while avoiding unnecessary duplication;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(c)</num>
+                        <content>
+                           <p>its contribution to the competitiveness of the European defence industry by showing that the proposed action is a demonstrably positive balance of cost-efficiency and effectiveness thus creating new market opportunities across the Union and beyond and accelerating the growth of companies throughout the Union;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(d)</num>
+                        <content>
+                           <p>its contribution to the autonomy of the EDTIB, including by increasing the non-dependency on non-Union sources and strengthening security of supply, and to the security and defence interests of the Union in line with the priorities referred to in Article 3;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(e)</num>
+                        <content>
+                           <p>its contribution to the creation of new cross-border cooperation between legal entities established in Member States or associated countries, in particular SMEs and mid-caps with a substantial participation in the action, as recipients, subcontractors or as other legal entities in the supply chain, and which are established in Member States or associated countries other than those where the legal entities cooperating within a consortium which are not SMEs or mid-caps are established;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(f)</num>
+                        <content>
+                           <p>the quality and efficiency of the carrying out the action.</p>
+                        </content>
+                     </point>
+                  </list>
+               </paragraph>
+            </article>
+            <article xml:id="art_d270e1468">
+               <num>Article 13</num>
+               <heading>Co-financing rate</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>The Fund shall finance up to 100 % of the eligible costs of an activity referred to in Article 10(3) of this Regulation without prejudice to Article 190 of the Financial Regulation.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <subparagraph>
+                     <content>
+                        <p>By way of derogation from paragraph 1 of this Article:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(a)</num>
+                        <content>
+                           <p>for activities referred to in point (e) of Article 10(3), support from the Fund shall not exceed 20 % of the eligible costs;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(b)</num>
+                        <content>
+                           <p>for activities referred to in points (f), (g) and (h) of Article 10(3), support from the Fund shall not exceed 80 % of the eligible costs.</p>
+                        </content>
+                     </point>
+                  </list>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <subparagraph>
+                     <content>
+                        <p>For development actions, the funding rates shall be increased in the following cases:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(a)</num>
+                        <content>
+                           <p>an action developed in the context of a project of PESCO, as established by Council Decision (CFSP) 2017/2315<authorialNote placement="bottom" marker="25">
+                                 <p>Council Decision (CFSP) 2017/2315 of 11 December 2017 establishing permanent structured cooperation (PESCO) and determining the list of participating Member States (OJ L 331, 14.12.2017, p. 57).</p>
+                              </authorialNote>, may benefit from a funding rate increased by an additional 10 percentage points;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(b)</num>
+                        <alinea>
+                           <content>
+                              <p>an activity may benefit from an increased funding rate, as referred to in this point, where at least 10 % of the total eligible costs of the activity are allocated to SMEs established in Member States or in associated countries and which participate in the activity as recipients, subcontractors or other legal entities in the supply chain.</p>
+                           </content>
+                        </alinea>
+                        <alinea>
+                           <content>
+                              <p>The funding rate may be increased by percentage points equivalent to the percentage of the total eligible costs of the activity allocated to SMEs established in Member States or in associated countries in which recipients that are not SMEs are established and which participate in the activity as recipients, subcontractors or other legal entities in the supply chain, up to an additional 5 percentage points.</p>
+                           </content>
+                        </alinea>
+                        <alinea>
+                           <content>
+                              <p>The funding rate may be increased by percentage points equivalent to twice the percentage of the total eligible costs of the activity allocated to SMEs established in Member States or in associated countries other than those in which recipients that are not SMEs are established and which participate in the activity as recipients, subcontractors or other legal entities in the supply chain;</p>
+                           </content>
+                        </alinea>
+                     </point>
+                     <point>
+                        <num>(c)</num>
+                        <content>
+                           <p>an activity may benefit from a funding rate increased by an additional 10 percentage points where at least 15 % of the total eligible costs of the activity are allocated to mid-caps established in Member States or in associated countries.</p>
+                        </content>
+                     </point>
+                  </list>
+                  <subparagraph>
+                     <content>
+                        <p>The overall increase in the funding rate of an activity following the application of points (a), (b) and (c) shall not exceed 35 percentage points.</p>
+                     </content>
+                  </subparagraph>
+                  <subparagraph>
+                     <content>
+                        <p>Support from the Fund, including increased funding rates, shall not cover more than 100 % of the eligible costs of the action.</p>
+                     </content>
+                  </subparagraph>
+               </paragraph>
+            </article>
+            <article xml:id="art_d270e1541">
+               <num>Article 14</num>
+               <heading>Financial capacity</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <subparagraph>
+                     <content>
+                        <p>Notwithstanding Article 198(5) of the Financial Regulation, only the financial capacity of a coordinator shall be verified and only where the requested funding from the Union is at least EUR 500000.</p>
+                     </content>
+                  </subparagraph>
+                  <subparagraph>
+                     <content>
+                        <p>However, where there are grounds to doubt the financial capacity of one of the applicants or of the coordinator, the Commission shall also verify the financial capacity of all of the applicants and of the coordinator where the requested funding from the Union is below EUR 500000.</p>
+                     </content>
+                  </subparagraph>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>Financial capacity shall not be verified in respect of legal entities whose viability is guaranteed by Member States&apos; relevant authorities.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <content>
+                     <p>If financial capacity is structurally guaranteed by another legal entity, the financial capacity of that other legal entity shall be verified.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d270e1569">
+               <num>Article 15</num>
+               <heading>Indirect costs</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>By way of derogation from Article 181(6) of the Financial Regulation, indirect eligible costs shall be determined by applying a flat rate of 25 % of the total direct eligible costs of the action, excluding direct eligible costs of subcontracting and support to third parties and any unit costs or lump sums which include indirect costs.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>As an alternative, indirect eligible costs may be determined in accordance with the recipient&apos;s usual cost accounting practices on the basis of actual indirect costs provided that those cost accounting practices are accepted by national authorities for comparable activities in the defence domain, in accordance with Article 185 of the Financial Regulation, and that they have been communicated to the Commission by the recipient.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d270e1585">
+               <num>Article 16</num>
+               <heading>Use of contribution not linked to costs or single lump sum</heading>
+               <paragraph>
+                  <subparagraph>
+                     <content>
+                        <p>Where the Union grant co-finances less than 50 % of the total costs of the action, the Commission may use either:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(a)</num>
+                        <content>
+                           <p>a contribution not linked to costs referred to in Article 180(3) of the Financial Regulation and based on the achievement of results measured by reference to previous set milestones or through performance indicators; or</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(b)</num>
+                        <content>
+                           <p>a single lump sum referred to in Article 182 of the Financial Regulation and based on the provisional budget of the action already endorsed by the national authorities of the co-financing Member States and associated countries.</p>
+                        </content>
+                     </point>
+                  </list>
+               </paragraph>
+               <paragraph>
+                  <content>
+                     <p>Indirect costs shall be included in the lump sum referred to in point (b) of the first paragraph.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d270e1608">
+               <num>Article 17</num>
+               <heading>Pre-commercial procurement</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>The Union may support pre-commercial procurement by awarding a grant to contracting authorities or contracting entities as defined in Directives 2014/24/EU<authorialNote placement="bottom" marker="26">
+                           <p>Directive 2014/24/EU of the European Parliament and of the Council of 26 February 2014 on public procurement and repealing Directive 2004/18/EC (OJ L 94, 28.3.2014, p. 65).</p>
+                        </authorialNote> and 2014/25/EU<authorialNote placement="bottom" marker="27">
+                           <p>Directive 2014/25/EU of the European Parliament and of the Council of 26 February 2014 on procurement by entities operating in the water, energy, transport and postal services sectors and repealing Directive 2004/17/EC (OJ L 94, 28.3.2014, p. 243).</p>
+                        </authorialNote> of the European Parliament and of the Council which jointly procure defence research and development services or coordinate their procurement procedures.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <subparagraph>
+                     <content>
+                        <p>The procurement procedures referred to in paragraph 1:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(a)</num>
+                        <content>
+                           <p>shall comply with this Regulation;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(b)</num>
+                        <content>
+                           <p>may authorise the award of multiple contracts within the same procedure (multiple sourcing);</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(c)</num>
+                        <content>
+                           <p>shall provide for the award of the contracts to the tenders offering best value for money while ensuring the absence of conflicts of interest.</p>
+                        </content>
+                     </point>
+                  </list>
+               </paragraph>
+            </article>
+            <article xml:id="art_d270e1663">
+               <num>Article 18</num>
+               <heading>Guarantee Fund</heading>
+               <paragraph>
+                  <content>
+                     <p>Contributions to a mutual insurance mechanism may cover the risk associated with the recovery of sums due by recipients and shall be considered to be a sufficient guarantee under the Financial Regulation. Article 37 of Regulation (EU) 2021/695 shall apply.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d270e1671">
+               <num>Article 19</num>
+               <heading>Eligibility criteria for procurement and prizes</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>Articles 9 and 10 shall apply <i>mutatis mutandis</i> to prizes.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>By way of derogation from Article 176 of the Financial Regulation, Article 9 of this Regulation as well as Article 10 of this Regulation shall apply <i>mutatis mutandis</i> for the procurement of studies referred to in point (c) of Article 10(3) of this Regulation.</p>
+                  </content>
+               </paragraph>
+            </article>
+         </title>
+         <title>
+            <num>TITLE II</num>
+            <heading>SPECIFIC PROVISIONS APPLICABLE FOR RESEARCH ACTIONS</heading>
+            <article xml:id="art_d270e1702">
+               <num>Article 20</num>
+               <heading>Ownership of results of research actions</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>The results of research actions that are supported by the Fund shall be owned by the recipients generating them. Where legal entities generate results jointly and where their respective contributions cannot be ascertained, or where it is not possible to separate such joint results, the legal entities shall have joint ownership of the results. Joint owners shall enter into an agreement regarding the allocation of their shares and the terms of exercise of their joint ownership in accordance with their obligations under the grant agreement.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>By way of derogation from paragraph 1, where Union support is provided in the form of public procurement, results of research actions supported by the Fund shall be owned by the Union. Member States and associated countries shall enjoy access rights to the results, free of charge, upon written request.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <content>
+                     <p>The results of research actions supported by the Fund shall not be subject to any control or restriction by a non-associated third country or by a non-associated third-country entity, directly, or indirectly through one or more intermediate legal entities, including in terms of technology transfer.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>4.</num>
+                  <content>
+                     <p>With regard to results generated by recipients through research actions supported by the Fund and without prejudice to paragraph 9 of this Article, the Commission shall be notified prior to any transfer of ownership or granting of an exclusive licence to a non-associated third country or to a non-associated third-country entity. Where such transfer of ownership or granting of an exclusive licence contravenes the security and defence interests of the Union and its Member States or the objectives set out in Article 3, the support provided from the Fund shall be reimbursed.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>5.</num>
+                  <content>
+                     <p>The national authorities of Member States and associated countries shall enjoy access rights to the special reports. Such access rights shall be granted on a royalty-free basis and transferred by the Commission to the Member States and associated countries after the Commission has ensured that appropriate confidentiality obligations are in place.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>6.</num>
+                  <content>
+                     <p>The national authorities of Member States and associated countries shall use the special report solely for purposes related to the use by or for their armed forces, or security or intelligence forces, including within the framework of their cooperative programmes. Such use shall include study, evaluation, assessment, research, design, product acceptance and certification, operation, training and disposal, as well as the assessment and drafting of technical requirements for procurement.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>7.</num>
+                  <content>
+                     <p>The recipients shall grant access rights to the results of research actions supported by the Fund on a royalty-free basis to the Union institutions, bodies, offices or agencies, for the duly substantiated purpose of developing, implementing and monitoring existing Union policies or programmes in the fields of its competence. Such access rights shall be limited to non-commercial and non-competitive use.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>8.</num>
+                  <content>
+                     <p>Specific provisions regarding ownership, access rights and licensing shall be laid down in the funding agreements and the contracts regarding pre-commercial procurement to ensure maximum uptake of the results and to avoid any unfair advantage. The contracting authorities shall enjoy at least royalty-free access rights to the results for their own use and the right to grant, or to require the recipients to grant, non-exclusive licences to third parties to exploit the results under fair and reasonable conditions without any right to sublicense. All Member States and associated countries shall have royalty-free access to the special report. Where a contractor fails to exploit the results commercially within a given period after the pre-commercial procurement as identified in the contract, it shall transfer any ownership of the results to the contracting authorities.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>9.</num>
+                  <content>
+                     <p>This Regulation shall not affect the export of products, equipment or technologies integrating results of research actions supported by the Fund, and shall not affect the Member States&apos; discretion as regards their policy on the export of defence-related products.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>10.</num>
+                  <content>
+                     <p>Where two or more Member States or associated countries have, multilaterally or within the framework of the Union, jointly concluded one or several contracts with one or more recipients to further develop together results of research actions supported by the Fund, they shall enjoy access rights to those results insofar as they are owned by such recipients and are necessary for the execution of the contract or contracts. Such access rights shall be granted on a royalty-free basis and under specific conditions aiming to ensure that those rights are used only for the purposes of the contract or contracts and that appropriate confidentiality obligations are put in place.</p>
+                  </content>
+               </paragraph>
+            </article>
+         </title>
+         <title>
+            <num>TITLE III</num>
+            <heading>SPECIFIC PROVISIONS APPLICABLE FOR DEVELOPMENT ACTIONS</heading>
+            <article xml:id="art_d270e1768">
+               <num>Article 21</num>
+               <heading>Additional eligibility criteria for development actions</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>The consortium shall demonstrate that the costs of an action that are not covered by Union support are to be covered by other means of financing, such as by Member States&apos; or associated countries&apos; contributions or co-financing from legal entities.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>Activities referred to in point (d) of Article 10(3) shall be based on harmonised defence capability requirements jointly agreed by at least two Member States or associated countries.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <subparagraph>
+                     <content>
+                        <p>With regard to activities referred to in points (e) to (h) of Article 10(3), the consortium shall demonstrate by means of documents issued by national authorities that:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(a)</num>
+                        <content>
+                           <p>at least two Member States or associated countries intend to procure the final product or use the technology in a coordinated manner, including through joint procurement where applicable;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(b)</num>
+                        <content>
+                           <p>the activity is based on common technical specifications jointly agreed by the Member States or associated countries that are to co-finance the action or that intend to jointly procure the final product or to jointly use the technology.</p>
+                        </content>
+                     </point>
+                  </list>
+               </paragraph>
+            </article>
+            <article xml:id="art_d270e1802">
+               <num>Article 22</num>
+               <heading>Additional award criteria for development actions</heading>
+               <paragraph>
+                  <subparagraph>
+                     <content>
+                        <p>In addition to the award criteria referred to in Article 12, the work programme shall also take into consideration:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(a)</num>
+                        <content>
+                           <p>the contribution to increasing efficiency across the life cycle of defence products and technologies, including cost-effectiveness and the potential for synergies in the procurement, maintenance and disposal processes;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(b)</num>
+                        <content>
+                           <p>the contribution to the further integration of the European defence industry throughout the Union through the demonstration by the recipients that Member States have undertaken to jointly use, own or maintain the final product or technology in a coordinated manner.</p>
+                        </content>
+                     </point>
+                  </list>
+               </paragraph>
+            </article>
+            <article xml:id="art_d270e1823">
+               <num>Article 23</num>
+               <heading>Ownership of results of development actions</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>The Union shall neither own the defence products or technologies resulting from development actions supported by the Fund, nor have any IPRs claim pertaining to those actions.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>The results of development actions supported by the Fund shall not be subject to any control or restriction by non-associated third countries or by non-associated third-country entities, directly, or indirectly through one or more intermediate legal entities, including in terms of technology transfer.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <content>
+                     <p>This Regulation shall not affect the Member States&apos; discretion as regards their policy on the export of defence-related products.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>4.</num>
+                  <content>
+                     <p>With regard to results generated by recipients through development actions supported by the Fund, and without prejudice to paragraph 3 of this Article, the Commission shall be notified prior to any transfer of ownership to a non-associated third country or to a non-associated third-country entity. Where such a transfer of ownership contravenes the security and defence interests of the Union and its Member States or the objectives set out in Article 3, the support provided from the Fund shall be reimbursed.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>5.</num>
+                  <content>
+                     <p>Where Union support is provided in the form of the public procurement of a study, all Member States or associated countries shall have the right, free of charge, to a non-exclusive licence for the use of the study upon written request.</p>
+                  </content>
+               </paragraph>
+            </article>
+         </title>
+         <title>
+            <num>TITLE IV</num>
+            <heading>GOVERNANCE, MONITORING, EVALUATION AND CONTROL</heading>
+            <article xml:id="art_d270e1863">
+               <num>Article 24</num>
+               <heading>Work programmes</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>The Fund shall be implemented by means of annual work programmes as referred to in Article 110(2) of the Financial Regulation. Work programmes shall set out, where applicable, the overall amount reserved for blending operations. Work programmes shall set out the overall budget benefiting the cross-border participation of SMEs.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>The Commission shall, by means of implementing acts, adopt the work programmes referred to in paragraph 1 of this Article. Those implementing acts shall be adopted in accordance with the examination procedure referred to in Article 34(2).</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <subparagraph>
+                     <content>
+                        <p>The work programmes shall set out in detail the research topics and the categories of actions to be supported by the Fund. Those categories shall be in line with the defence priorities referred to in Article 3.</p>
+                     </content>
+                  </subparagraph>
+                  <subparagraph>
+                     <content>
+                        <p>With the exception of the part of the work programme dedicated to disruptive technologies for defence, the research topics and categories of actions referred to in the first subparagraph shall cover defence products and technologies in the fields of:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(a)</num>
+                        <content>
+                           <p>preparation, protection, deployment and sustainability;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(b)</num>
+                        <content>
+                           <p>information management and superiority, and command, control, communication, computers, intelligence, surveillance and reconnaissance (C4ISR), cyber defence and cybersecurity; and</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(c)</num>
+                        <alinea>
+                           <content>
+                              <p>engagement and effectors.</p>
+                           </content>
+                        </alinea>
+                        <alinea>
+                           <content>
+                              <p>
+                                 <paragraph>
+                                    <num>4.</num>
+                                    <subparagraph>
+                                       <content>
+                                          <p>The work programmes shall contain functional requirements where appropriate and shall specify the form of Union funding under Article 8, while not preventing competition at the level of calls for proposals.</p>
+                                       </content>
+                                    </subparagraph>
+                                    <subparagraph>
+                                       <content>
+                                          <p>The transition of results of research actions demonstrating added value already supported by the Fund into the development phase may also be taken into consideration in the work programmes.</p>
+                                       </content>
+                                    </subparagraph>
+                                 </paragraph>
+                              </p>
+                           </content>
+                        </alinea>
+                     </point>
+                  </list>
+               </paragraph>
+            </article>
+            <article xml:id="art_d270e1913">
+               <num>Article 25</num>
+               <heading>Consultation of the project manager</heading>
+               <paragraph>
+                  <content>
+                     <p>Where a project manager is appointed, the Commission shall consult the project manager on progress made with regard to the action before the payment is executed.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d270e1921">
+               <num>Article 26</num>
+               <heading>Independent experts</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>The Commission shall appoint independent experts to assist in the ethics screening and assessment as referred to in Article 7 of this Regulation and in the evaluation of proposals pursuant to Article 237 of the Financial Regulation.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>The independent experts referred to in paragraph 1 of this Article shall be nationals of as broad a range of Member States as possible and shall be selected on the basis of calls for expressions of interest addressed to ministries of defence and subordinated agencies, other relevant governmental bodies, research institutes, universities, business associations or enterprises of the defence sector with a view to establishing a list of independent experts. By way of derogation from Article 237 of the Financial Regulation, the list of independent experts shall not be made public.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <content>
+                     <p>The security credentials of appointed independent experts shall be validated by the relevant Member State.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>4.</num>
+                  <content>
+                     <p>The committee referred to in Article 34 shall be informed of the list of independent experts, in order to be transparent as to their security credentials, on an annual basis. The Commission shall ensure that independent experts do not evaluate, advise or assist on matters with regard to which they have any conflicts of interest.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>5.</num>
+                  <content>
+                     <p>The independent experts shall be chosen on the basis of their skills, experience and knowledge relevant to the tasks to be assigned to them.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d270e1951">
+               <num>Article 27</num>
+               <heading>Application of the rules on classified information</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <subparagraph>
+                     <content>
+                        <p>Within the scope of this Regulation:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(a)</num>
+                        <content>
+                           <p>each Member State shall ensure that it offers a degree of protection of EU classified information equivalent to that provided by the security rules of the Council set out in Council Decision 2013/488/EU<authorialNote placement="bottom" marker="28">
+                                 <p>Council Decision 2013/488/EU of 23 September 2013 on the security rules for protecting EU classified information (OJ L 274, 15.10.2013, p. 1).</p>
+                              </authorialNote>;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(b)</num>
+                        <content>
+                           <p>the Commission shall protect classified information in accordance with the security rules set out in Decision (EU, Euratom) 2015/444;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(c)</num>
+                        <content>
+                           <p>natural persons who are resident in and legal persons that are established in a third country may handle EU classified information regarding the Fund only where they are subject, in those countries, to security regulations ensuring a degree of protection at least equivalent to that provided by the security rules of the Commission and of the Council, as set out in Decision (EU, Euratom) 2015/444 and Decision 2013/488/EU, respectively;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(d)</num>
+                        <content>
+                           <p>the equivalence of the security regulations applied in a third country or by an international organisation shall be laid down in a security of information agreement, including industrial security matters if relevant, concluded or to be concluded between the Union and that third country or international organisation in accordance with the procedure provided for in Article 218 TFEU and taking into account Article 13 of Decision 2013/488/EU; and</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(e)</num>
+                        <content>
+                           <p>without prejudice to Article 13 of Decision 2013/488/EU and to the rules governing the field of industrial security set out in Decision (EU, Euratom) 2015/444, a natural or legal person, third country or international organisation may be given access to EU classified information where considered to be necessary on a case-by-case basis, according to the nature and content of such information, the recipient&apos;s need to know and the degree of advantage to the Union.</p>
+                        </content>
+                     </point>
+                  </list>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>When actions involve, require or contain classified information, the relevant funding body shall specify in the documents concerning the call for proposals or tenders the measures and requirements necessary to ensure the security of such information at the requisite level.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <content>
+                     <p>The Commission shall set up a secured exchange system in order to facilitate the exchange of sensitive information, including classified information, between the Commission and the Member States and associated countries and, where appropriate, with the applicants and the recipients. That system shall take into account the Member States&apos; national security regulations.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>4.</num>
+                  <subparagraph>
+                     <content>
+                        <p>The originatorship of classified foreground information generated in carrying out a research or development action shall be decided upon by the Member States on whose territory the recipients are established. To that end, those Member States may decide on a specific security framework for the protection and handling of classified information relating to the action and shall inform the Commission thereof. Such a security framework shall be without prejudice to the possibility for the Commission to have access to the necessary information for carrying out the research or development action.</p>
+                     </content>
+                  </subparagraph>
+                  <subparagraph>
+                     <content>
+                        <p>If no such specific security framework is set up by those Member States, the Commission shall set up the security framework for the action in accordance with the Decision (EU, Euratom) 2015/444.</p>
+                     </content>
+                  </subparagraph>
+                  <subparagraph>
+                     <content>
+                        <p>The applicable security framework for the action shall in any event be put in place before the signature of the funding agreement or the contract.</p>
+                     </content>
+                  </subparagraph>
+               </paragraph>
+            </article>
+            <article xml:id="art_d270e2023">
+               <num>Article 28</num>
+               <heading>Monitoring and reporting</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>Indicators to report on the progress of the Fund towards the achievement of the specific objectives laid down in Article 3(2) are set out in the Annex.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>To ensure the effective assessment of the Fund&apos;s progress towards the achievement of its objectives, the Commission is empowered to adopt delegated acts, in accordance with Article 33, to amend the Annex with regard to the indicators where considered to be necessary as well as to supplement this Regulation with provisions on the establishment of a monitoring and evaluation framework.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <content>
+                     <p>The Commission shall monitor the implementation of the Fund on a regular basis and shall report annually on progress made, including how lessons identified and lessons learned from the EDIDP and the PADR are taken into account in the implementation of the Fund, to the European Parliament and to the Council. To that end, the Commission shall put in place necessary monitoring arrangements.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>4.</num>
+                  <subparagraph>
+                     <content>
+                        <p>The performance reporting system shall ensure that data for monitoring the implementation and the results of the Fund are collected efficiently, effectively and in a timely manner.</p>
+                     </content>
+                  </subparagraph>
+                  <subparagraph>
+                     <content>
+                        <p>To that end, proportionate reporting requirements shall be imposed on recipients of Union funds and, where appropriate, on Member States.</p>
+                     </content>
+                  </subparagraph>
+               </paragraph>
+            </article>
+            <article xml:id="art_d270e2050">
+               <num>Article 29</num>
+               <heading>Evaluation of the Fund</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>Evaluations of the Fund shall be carried out to feed into the decision-making process in a timely manner.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <subparagraph>
+                     <content>
+                        <p>The interim evaluation of the Fund shall be carried out once there is sufficient information available about its implementation, but no later than four years after the start of the implementation period of the Fund.</p>
+                     </content>
+                  </subparagraph>
+                  <subparagraph>
+                     <content>
+                        <p>The interim evaluation report covering the period until 31 July 2024, shall include in particular:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(a)</num>
+                        <alinea>
+                           <content>
+                              <p>an assessment of the governance of the Fund, including as regards:</p>
+                           </content>
+                        </alinea>
+                        <list>
+                           <point>
+                              <num>(i)</num>
+                              <content>
+                                 <p>the provisions related to independent experts;</p>
+                              </content>
+                           </point>
+                           <point>
+                              <num>(ii)</num>
+                              <content>
+                                 <p>the implementation of the ethics procedures set out to in Article 7 of this Regulation;</p>
+                              </content>
+                           </point>
+                        </list>
+                     </point>
+                     <point>
+                        <num>(b)</num>
+                        <content>
+                           <p>the lessons learned from the EDIDP and the PADR;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(c)</num>
+                        <content>
+                           <p>the implementation rates;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(d)</num>
+                        <content>
+                           <p>the project award results, including the level of involvement of SMEs and mid-caps and the degree of their cross-border participation;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(e)</num>
+                        <content>
+                           <p>the rates of reimbursement of indirect costs as set out in Article 15 of this Regulation;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(f)</num>
+                        <content>
+                           <p>the amounts allocated to disruptive technologies for defence in calls for proposals; and</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(g)</num>
+                        <content>
+                           <p>funding granted in accordance with Article 195 of the Financial Regulation.</p>
+                        </content>
+                     </point>
+                  </list>
+                  <subparagraph>
+                     <content>
+                        <p>The interim evaluation shall also contain information on the countries of origin of the recipients, the number of countries involved in individual projects and, where possible, the distribution of the generated IPRs. The Commission may submit proposals for any appropriate amendments to this Regulation.</p>
+                     </content>
+                  </subparagraph>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <subparagraph>
+                     <content>
+                        <p>At the end of the implementation period but no later than 31 December 2031, the Commission shall carry out a final evaluation and prepare a report on the implementation of the Fund.</p>
+                     </content>
+                  </subparagraph>
+                  <subparagraph>
+                     <content>
+                        <p>The final evaluation report shall:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(a)</num>
+                        <content>
+                           <p>include the results of the implementation and, to the extent possible, the impact of the Fund;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(b)</num>
+                        <content>
+                           <p>build on relevant consultations of Member States and associated countries and key stakeholders and shall in particular assess progress made towards the achievement of the objectives set out in Article 3;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(c)</num>
+                        <content>
+                           <p>help to identify where the Union is dependent on third countries for the development of defence products and technologies;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(d)</num>
+                        <content>
+                           <p>analyse cross-border participation, including of SMEs and mid-caps, in actions carried out under the Fund as well as the integration of SMEs and mid-caps in the global value chain and the contribution of the Fund to addressing the shortfalls identified in the CDP; and</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(e)</num>
+                        <content>
+                           <p>contain information on the countries of origin of the recipients and, where possible, the distribution of the generated IPRs.</p>
+                        </content>
+                     </point>
+                  </list>
+               </paragraph>
+               <paragraph>
+                  <num>4.</num>
+                  <content>
+                     <p>The Commission shall communicate the conclusions of the evaluations, accompanied by its observations, to the European Parliament, to the Council, to the European Economic and Social Committee and to the Committee of the Regions.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d270e2178">
+               <num>Article 30</num>
+               <heading>Audits</heading>
+               <paragraph>
+                  <content>
+                     <p>Audits on the use of the Union contribution carried out by persons or entities, including by other than those mandated by the Union institutions, bodies, offices or agencies, shall form the basis of the overall assurance pursuant to Article 127 of the Financial Regulation. The Court of Auditors shall examine the accounts of all revenue and expenditure of the Union in accordance with Article 287 TFEU.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d270e2185">
+               <num>Article 31</num>
+               <heading>Protection of the financial interests of the Union</heading>
+               <paragraph>
+                  <content>
+                     <p>Where a third country participates in the Fund by means of a decision adopted pursuant to an international agreement or on the basis of any other legal instrument, the third country shall grant the necessary rights and access required for the authorising officer responsible, OLAF and the Court of Auditors to comprehensively exercise their respective competences. In the case of OLAF, such rights shall include the right to carry out investigations, including on-the-spot checks and inspections, as provided for in Regulation (EU, Euratom) No 883/2013.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d270e2194">
+               <num>Article 32</num>
+               <heading>Information, communication and publicity</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>The recipients of Union funding shall acknowledge the origin of those funds and ensure the visibility of the Union funding, in particular when promoting the actions and their results, by providing coherent, effective and proportionate targeted information to multiple audiences, including the media and the public. The funding or financing agreement shall contain provisions regulating the possibility to publish academic papers based on the results of research actions.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <subparagraph>
+                     <content>
+                        <p>The Commission shall implement information and communication actions relating to the Fund, to actions taken pursuant to the Fund and to the results obtained.</p>
+                     </content>
+                  </subparagraph>
+                  <subparagraph>
+                     <content>
+                        <p>Financial resources allocated to the Fund shall also contribute to the corporate communication of the political priorities of the Union, insofar as those priorities are related to the objectives referred to in Article 3.</p>
+                     </content>
+                  </subparagraph>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <content>
+                     <p>Financial resources allocated to the Fund may also contribute to the organisation of dissemination activities, match-making events and awareness-raising activities, in particular aiming at opening up supply chains to foster the cross-border participation of SMEs.</p>
+                  </content>
+               </paragraph>
+            </article>
+         </title>
+         <title>
+            <num>TITLE V</num>
+            <heading>DELEGATED ACTS, IMPLEMENTING ACTS, TRANSITIONAL AND FINAL PROVISIONS</heading>
+            <article xml:id="art_d270e2225">
+               <num>Article 33</num>
+               <heading>Exercise of the delegation</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>The power to adopt delegated acts is conferred on the Commission subject to the conditions laid down in this Article.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>The power to adopt delegated acts referred to in Article 28 shall be conferred on the Commission for an indeterminate period of time from 12 May 2021.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <content>
+                     <p>The delegation of power referred to in Article 28 may be revoked at any time by the European Parliament or by the Council. A decision to revoke shall put an end to the delegation of the power specified in that decision. It shall take effect the day following the publication of the decision in the <i>Official Journal of the European Union</i> or at a later date specified therein. It shall not affect the validity of any delegated acts already in force.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>4.</num>
+                  <content>
+                     <p>Before adopting a delegated act, the Commission shall consult experts designated by each Member State in accordance with the principles laid down in the Interinstitutional Agreement of 13 April 2016 on Better Law-Making.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>5.</num>
+                  <content>
+                     <p>As soon as it adopts a delegated act, the Commission shall notify it simultaneously to the European Parliament and to the Council.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>6.</num>
+                  <content>
+                     <p>A delegated act adopted pursuant to Article 28 shall enter into force only if no objection has been expressed either by the European Parliament or the Council within a period of two months of notification of that act to the European Parliament and the Council or if, before the expiry of that period, the European Parliament and the Council have both informed the Commission that they will not object. That period shall be extended by two months at the initiative of the European Parliament or of the Council.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d270e2269">
+               <num>Article 34</num>
+               <heading>Committee procedure</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <subparagraph>
+                     <content>
+                        <p>The Commission shall be assisted by a committee. That committee shall be a committee within the meaning of Regulation (EU) No 182/2011.</p>
+                     </content>
+                  </subparagraph>
+                  <subparagraph>
+                     <content>
+                        <p>The European Defence Agency shall be invited to provide its views and expertise to the committee as an observer. The European External Action Service shall also be invited to assist in the committee.</p>
+                     </content>
+                  </subparagraph>
+                  <subparagraph>
+                     <content>
+                        <p>The committee shall also meet in special configurations, including in order to discuss defence and security aspects relating to actions carried out under the Fund.</p>
+                     </content>
+                  </subparagraph>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <subparagraph>
+                     <content>
+                        <p>Where reference is made to this paragraph, Article 5 of Regulation (EU) No 182/2011 shall apply.</p>
+                     </content>
+                  </subparagraph>
+                  <subparagraph>
+                     <content>
+                        <p>Where the committee delivers no opinion, the Commission shall not adopt the draft implementing act and the third subparagraph of Article 5(4) of Regulation (EU) No 182/2011 shall apply.</p>
+                     </content>
+                  </subparagraph>
+               </paragraph>
+            </article>
+            <article xml:id="art_d270e2291">
+               <num>Article 35</num>
+               <heading>Repeal</heading>
+               <paragraph>
+                  <content>
+                     <p>Regulation (EU) 2018/1092 is repealed with effect from 1 January 2021.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d270e2301">
+               <num>Article 36</num>
+               <heading>Transitional provisions</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>This Regulation shall not affect the continuation of or modification of actions initiated pursuant to Regulation (EU) 2018/1092 or the PADR, which shall continue to apply to those actions until their closure as well as to their results.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>The financial envelope for the Fund may also cover the technical and administrative assistance expenses necessary to ensure the transition between the Fund and the measures adopted pursuant to Regulation (EU) 2018/1092 and the PADR.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <content>
+                     <p>If necessary, appropriations may be entered in the Union budget beyond 31 December 2027 to cover the expenses provided for in Article 4(4), to enable the management of actions not completed by the end of the duration of the Fund.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d270e2324">
+               <num>Article 37</num>
+               <heading>Entry into force and application</heading>
+               <paragraph>
+                  <content>
+                     <p>This Regulation shall enter into force on the day of its publication in the <i>Official Journal of the European Union</i>.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <content>
+                     <p>It shall apply from 1 January 2021.</p>
+                  </content>
+               </paragraph>
+            </article>
+         </title>
+         <clause>
+            <content>
+               <p>This Regulation shall be binding in its entirety and directly applicable in all Member States.</p>
+            </content>
+         </clause>
+      </body>
+      <conclusions>
+         <p>Done at Brussels, 29 April 2021.</p>
+         <block name="signatory">
+            <signature>
+               <organization refersTo="">For the European Parliament</organization>
+               <role refersTo="">The President</role>
+               <person refersTo="">D. M. SASSOLI</person>
+            </signature>
+            <signature>
+               <organization refersTo="">For the Council</organization>
+               <role refersTo="">The President</role>
+               <person refersTo="">A. P. ZACARIAS</person>
+            </signature>
+         </block>
+      </conclusions>
+   </bill>
+</akomaNtoso>

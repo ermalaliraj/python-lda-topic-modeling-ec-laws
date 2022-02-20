@@ -1,0 +1,1357 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"
+            xmlns:fmx="http://formex.publications.europa.eu/schema/formex-05.21-20110601.xd"
+            xmlns:leos="urn:eu:europa:ec:leos"
+            xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <bill name="">
+      <meta xmlns:fn="http://www.w3.org/2005/xpath-functions">
+         <identification source="~COM">
+            <FRBRWork>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRcountry value=""/>
+            </FRBRWork>
+            <FRBRExpression>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+            </FRBRManifestation>
+         </identification>
+      </meta>
+      <preface>
+         <longTitle>
+            <p>
+               <docStage/>
+               <docType>REGULATION (EU) 2017/2094 OF THE EUROPEAN CENTRAL BANK</docType>of 3 November 2017<docPurpose>amending Regulation (EU) No 795/2014 on oversight requirements for systemically important payment systems (ECB/2017/32)</docPurpose>
+            </p>
+         </longTitle>
+      </preface>
+      <preamble>
+         <formula name="actingEntity">
+            <p>THE GOVERNING COUNCIL OF THE EUROPEAN CENTRAL BANK,</p>
+         </formula>
+         <citations>
+            <citation>
+               <p>Having regard to the Treaty on the Functioning of the European Union, and in particular Article 127(2) thereof,</p>
+            </citation>
+            <citation>
+               <p>Having regard to the Statute of the European System of Central Banks and of the European Central Bank, and in particular Article 3.1, Article 22 and the first indent of Article 34.1 thereof,</p>
+            </citation>
+         </citations>
+         <recitals xml:id="recs_d555e66">
+            <intro>
+               <p>Whereas:</p>
+            </intro>
+            <recital xml:id="rec_d555e69">
+               <num>(1)</num>
+               <p>The Committee on Payment and Settlement Systems (CPSS) of the Bank for International Settlements and the Technical Committee of the International Organization of Securities Commissions (IOSCO) published the Principles for financial market infrastructures in April 2012<authorialNote placement="bottom" marker="1">
+                     <p>Available on the Bank for International Settlements&apos; website at www.bis.org.</p>
+                  </authorialNote>. The Committee on Payments and Market Infrastructures (CPMI), the successor of the CPSS, and IOSCO subsequently published guidance on these principles. The European Central Bank (ECB) has decided to implement the CPMI-IOSCO principles and subsequent guidance insofar as they apply to systemically important payment systems (SIPS) by means of Regulation (EU) No 795/2014 of the European Central Bank (ECB/2014/28)<authorialNote placement="bottom" marker="2">
+                     <p>Regulation (EU) No 795/2014 of the European Central Bank of 3 July 2014 on oversight requirements for systemically important payment systems (ECB/2014/28) (OJ L 217, 23.7.2014, p. 16).</p>
+                  </authorialNote>.</p>
+            </recital>
+            <recital xml:id="rec_d555e89">
+               <num>(2)</num>
+               <p>The Governing Council has reviewed the general application of Regulation (EU) No 795/2014 (ECB/2014/28), pursuant to Article 24 thereof. That review took account of the findings of the first comprehensive assessment of SIPS. The assessment found that certain matters required improvement or clarification and, in a few cases, a need for more substantial amendments seeking to ensure the application of the highest oversight standards.</p>
+            </recital>
+            <recital xml:id="rec_d555e95">
+               <num>(3)</num>
+               <p>For the purposes of this Regulation, payment institutions and e-money institutions that have access to SIPS via direct participants, pursuant to Article 35(2) of Directive (EU) 2015/2366 of the European Parliament and of the Council<authorialNote placement="bottom" marker="3">
+                     <p>Directive (EU) 2015/2366 of the European Parliament and of the Council of 25 November 2015 on payment services in the internal market, amending Directives 2002/65/EC, 2009/110/EC and 2013/36/EU and Regulation (EU) No 1093/2010, and repealing Directive 2007/64/EC (OJ L 337, 23.12.2015, p. 35).</p>
+                  </authorialNote>, should be treated as indirect participants.</p>
+            </recital>
+            <recital xml:id="rec_d555e111">
+               <num>(4)</num>
+               <p>To ensure effective risk mitigation, it is important to maintain a clear separation between operational, risk management and internal audit functions, including through mandating the carrying out of these functions by different persons. Furthermore, for non-Eurosystem SIPS operators, it should be ensured, subject to national law, that there is an independent member on their Board to enhance its effectiveness. As the Eurosystem has public policy objectives and responsibilities and an institutional set-up defined in the Treaty and the Statute of the European System of Central Banks and of the European Central Bank, Eurosystem SIPS operators should be granted an exemption from this requirement.</p>
+            </recital>
+            <recital xml:id="rec_d555e117">
+               <num>(5)</num>
+               <p>Furthermore, the Governing Council identified a need to provide further clarity on the responsibilities of a SIPS operator&apos;s Board which include the approval of decisions that have a significant impact on the risk profile of a SIPS or SIPS operator and of the key risk documents governing the operation of the SIPS.</p>
+            </recital>
+            <recital xml:id="rec_d555e123">
+               <num>(6)</num>
+               <p>The Governing Council generally agreed that there is a need to substantially improve the mitigation of liquidity risk generated in deferred net settlement (DNS) systems through ensuring effective liquidity risk mitigation for all cycles from the moment a transfer order has been included in the calculation of net settlement positions and the position is visible to the participant.</p>
+            </recital>
+            <recital xml:id="rec_d555e129">
+               <num>(7)</num>
+               <p>To allow for the smooth functioning of a SIPS, participants need to have adequate tools to effectively manage their liquidity. The SIPS operator has to monitor and facilitate the smooth flow of liquidity at a system level, taking into account the liquidity exposure of each participant.</p>
+            </recital>
+            <recital xml:id="rec_d555e136">
+               <num>(8)</num>
+               <p>A SIPS operator settling one-sided payments in euro has to ensure that final settlement takes place in central bank money. Because this requirement also applies where a SIPS offering settlement in central bank money is in an emergency situation, SIPS operators settling payments for other SIPS should endeavour to allow final settlement even in such a situation.</p>
+            </recital>
+            <recital xml:id="rec_d555e142">
+               <num>(9)</num>
+               <p>To ensure that SIPS funds are protected against possible business losses, the assets held by a SIPS operator to cover general business risk should be segregated from the assets held for daily business operations. In addition, a distinction should be drawn between a SIPS recovery and orderly wind-down plan, on the one hand, and a SIPS capital plan, on the other. While the latter needs to reflect the possibility of raising capital, the former should ensure that, within the normal course of business, funds available for the recovery and orderly wind-down plan do not fall below the amount required to implement them.</p>
+            </recital>
+            <recital xml:id="rec_d555e149">
+               <num>(10)</num>
+               <p>Ensuring effective operational risk management is a continuous process which requires that operational policies and procedures are periodically, and whenever necessary, tested and reviewed, especially following significant changes to the system. This is particularly true for the management of cyber risks which has grown in importance since the publication of Regulation (EU) No 795/2014 (ECB/2014/28). This Regulation sets out specific requirements that are important in order to mitigate cyber risks.</p>
+            </recital>
+            <recital xml:id="rec_d555e155">
+               <num>(11)</num>
+               <p>In order for a competent authority to exercise its oversight powers effectively, these powers should be complemented with two additional tools. First, the competent authority should have the power to require a SIPS operator to appoint an independent expert to perform an investigation or independent review of the SIPS&apos;s operation. In addition, it should be able to impose requirements concerning the type of expert to be appointed, the content and scope of the report to be produced, the treatment of the report, including disclosure and publication, and timing for the production of the report. Second, in line with Responsibility B of the abovementioned Principles for financial market infrastructures, a competent authority should be able to conduct on-site inspections or delegate this task.</p>
+            </recital>
+            <recital xml:id="rec_d555e161">
+               <num>(12)</num>
+               <p>While corrective measures may only be imposed for infringements of Regulation (EU) No 795/2014 (ECB/2014/28), there could be situations that merit initiating the procedure for the imposition of such measures on the grounds of suspected non-compliance, giving a SIPS operator the opportunity to be heard and to provide explanations before an infringement is established. The procedure for the imposition of corrective measures should be set out in a decision. Moreover, a competent authority other than the ECB should notify the ECB of its intention to impose corrective measures without undue delay.</p>
+            </recital>
+            <recital xml:id="rec_d555e167">
+               <num>(13)</num>
+               <p>In view of the findings of the Governing Council&apos;s review and to implement the CPMI-IOSCO guidance insofar as they apply to SIPS, Regulation (EU) No 795/2014 (ECB/2014/28) should be amended accordingly,</p>
+            </recital>
+         </recitals>
+         <formula name="enactingFormula">
+            <p>HAS ADOPTED THIS REGULATION:</p>
+         </formula>
+      </preamble>
+      <body>
+         <article xml:id="art_d555e176" leos:compliant="false">
+            <num>Article 1</num>
+            <heading>Amendments</heading>
+            <paragraph>
+               <subparagraph>
+                  <content>
+                     <p>Regulation (EU) No 795/2014 (ECB/2014/28) is amended as follows:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>1.</num>
+                     <alinea>
+                        <content>
+                           <p>Article 1 is amended as follows:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <alinea>
+                              <content>
+                                 <p>in paragraph 3, point (ii) is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <point>
+                                             <num>&apos;(ii)</num>
+                                             <alinea>
+                                                <content>
+                                                   <p>the total euro-denominated payments processed represent at least one of the following:</p>
+                                                </content>
+                                             </alinea>
+                                             <list>
+                                                <indent>
+                                                   <num>-</num>
+                                                   <content>
+                                                      <p>15 % of the total volume of euro-denominated payments in the Union,</p>
+                                                   </content>
+                                                </indent>
+                                                <indent>
+                                                   <num>-</num>
+                                                   <content>
+                                                      <p>5 % of the total volume of euro-denominated cross-border payments in the Union,</p>
+                                                   </content>
+                                                </indent>
+                                                <indent>
+                                                   <num>-</num>
+                                                   <content>
+                                                      <p>a market share of 75 % of the total volume of euro-denominated payments at the level of a Member State whose currency is the euro;&apos;;</p>
+                                                   </content>
+                                                </indent>
+                                             </list>
+                                          </point>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <alinea>
+                              <content>
+                                 <p>in paragraph 3, the following subparagraph is added:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <paragraph>
+                                             <content>
+                                                <p>&apos;An identification exercise shall be performed on an annual basis.&apos;;</p>
+                                             </content>
+                                          </paragraph>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(c)</num>
+                           <alinea>
+                              <content>
+                                 <p>the following paragraph 3a is inserted:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <paragraph>
+                                             <num>&apos;3a.</num>
+                                             <content>
+                                                <p>A decision adopted under paragraph 2 shall remain in force until it has been repealed. Verification reviews of payment systems that have been identified as SIPS shall be carried out on an annual basis in order to verify that they continue to meet the criteria on the basis of which such identification was made.&apos;;</p>
+                                             </content>
+                                          </paragraph>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(d)</num>
+                           <alinea>
+                              <content>
+                                 <p>paragraph 4 is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <paragraph>
+                                             <num>&apos;4.</num>
+                                             <content>
+                                                <p>SIPS operators shall cooperate, on a continuous basis, with the competent authority, and ensure compliance of the SIPS they operate with the requirements set out in Articles 3 to 21, including in terms of the overall effectiveness of their rules, procedures, processes and frameworks. SIPS operators shall further cooperate with the competent authority to facilitate the broader objective of promoting the smooth operation of payment systems at systemic level.&apos;;</p>
+                                             </content>
+                                          </paragraph>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                     </list>
+                  </point>
+                  <point>
+                     <num>2.</num>
+                     <alinea>
+                        <content>
+                           <p>Article 2 is amended as follows:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <alinea>
+                              <content>
+                                 <p>point (14) is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <point>
+                                             <num>&apos;(14)</num>
+                                             <content>
+                                                <p>&quot;deferred net settlement system&quot; (DNS system) means a system in relation to which settlement in central bank money takes place on a net basis at the end of a predefined settlement cycle, e.g. at the end of, or during, a business day;&apos;;</p>
+                                             </content>
+                                          </point>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <alinea>
+                              <content>
+                                 <p>point (18) is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <point>
+                                             <num>&apos;(18)</num>
+                                             <content>
+                                                <p>&quot;direct participant&quot; means a legal entity that has a contractual relationship with a SIPS operator, is bound by the relevant SIPS&apos;s rules, is allowed to send transfer orders to that system and is capable of receiving transfer orders from it;&apos;;</p>
+                                             </content>
+                                          </point>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(c)</num>
+                           <alinea>
+                              <content>
+                                 <p>the following point (18a) is inserted:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <point>
+                                             <num>&apos;(18a)</num>
+                                             <alinea>
+                                                <content>
+                                                   <p>&quot;indirect participant&quot; means a legal entity that does not have direct access to a SIPS&apos;s services and is typically not directly bound by the relevant SIPS&apos;s rules, and whose transfer orders are cleared, settled and recorded by the SIPS through a direct participant. An indirect participant has a contractual relationship with a direct participant. The relevant legal entities are limited to:</p>
+                                                </content>
+                                             </alinea>
+                                             <list>
+                                                <point>
+                                                   <num>(i)</num>
+                                                   <content>
+                                                      <p>credit institutions as defined in point (1) of Article 4(1) of Regulation (EU) No 575/2013 of the European Parliament and of the Council<authorialNote placement="bottom" marker="4">
+                                                            <p>Regulation (EU) No 575/2013 of the European Parliament and of the Council of 26 June 2013 on prudential requirements for credit institutions and investment firms and amending Regulation (EU) No 648/2012 (OJ L 176, 27.6.2013, p. 1).</p>
+                                                         </authorialNote>,</p>
+                                                   </content>
+                                                </point>
+                                                <point>
+                                                   <num>(ii)</num>
+                                                   <content>
+                                                      <p>investment firms as defined in point (1) of Article 4(1) of Directive 2004/39/EC of the European Parliament and of the Council<authorialNote placement="bottom" marker="5">
+                                                            <p>Directive 2004/39/EC of the European Parliament and of the Council of 21 April 2004 on markets in financial instruments amending Council Directives 85/611/EEC and 93/6/EEC and Directive 2000/12/EC of the European Parliament and of the Council and repealing Council Directive 93/22/EEC (OJ L 145, 30.4.2004, p. 1).</p>
+                                                         </authorialNote>,</p>
+                                                   </content>
+                                                </point>
+                                                <point>
+                                                   <num>(iii)</num>
+                                                   <content>
+                                                      <p>any undertaking whose head office is outside the Union and whose functions correspond to those of a Union credit institution or investment firm, as defined in points (i) and (ii),</p>
+                                                   </content>
+                                                </point>
+                                                <point>
+                                                   <num>(iv)</num>
+                                                   <content>
+                                                      <p>public authorities and publicly guaranteed undertakings, and central counterparties, settlement agents, clearing houses and system operators as defined in Article 2(c), (d), (e) and (p) of Directive 98/26/EC,</p>
+                                                   </content>
+                                                </point>
+                                                <point>
+                                                   <num>(v)</num>
+                                                   <content>
+                                                      <p>payment institutions and e-money institutions as defined in point (4) of Article 4 of Directive (EU) 2015/2366 of the European Parliament and of the Council<authorialNote placement="bottom" marker="6">
+                                                            <p>Directive (EU) 2015/2366 of the European Parliament and of the Council of 25 November 2015 on payment services in the internal market, amending Directives 2002/65/EC, 2009/110/EC and 2013/36/EU and Regulation (EU) No 1093/2010, and repealing Directive 2007/64/EC (OJ L 337, 23.12.2015, p. 35).</p>
+                                                         </authorialNote> and point (1) of Article 2 of Directive 2009/110/EC of the European Parliament and of the Council<authorialNote placement="bottom" marker="7">
+                                                            <p>Directive 2009/110/EC of the European Parliament and of the Council of 16 September 2009 on the taking up, pursuit and prudential supervision of the business of electronic money institutions amending Directives 2005/60/EC and 2006/48/EC and repealing Directive 2000/46/EC (OJ L 267, 10.10.2009, p. 7).&apos;;</p>
+                                                         </authorialNote>;</p>
+                                                   </content>
+                                                </point>
+                                             </list>
+                                          </point>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(d)</num>
+                           <alinea>
+                              <content>
+                                 <p>the following points (40) to (44) are added:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <list>
+                                             <point>
+                                                <num>&apos;(40)</num>
+                                                <content>
+                                                   <p>&quot;independent director&quot; means a non-executive member of the Board who has no business, family or other relationship that raises a conflict of interests regarding the SIPS or SIPS operator, their controlling shareholders, their management or their participants, and who has had no such relationship during the two years preceding their membership of the Board;</p>
+                                                </content>
+                                             </point>
+                                             <point>
+                                                <num>(41)</num>
+                                                <content>
+                                                   <p>&quot;affiliate&quot; means a company that controls, or is controlled by, or is under control with, the participant. Control of a company is defined as (a) ownership, control or holding of 20 % or more of a class of voting securities of the company; or (b) consolidation of the company for financial reporting purposes;</p>
+                                                </content>
+                                             </point>
+                                             <point>
+                                                <num>(42)</num>
+                                                <content>
+                                                   <p>&quot;emergency situation&quot; means an event, occurrence or circumstance that has the capacity to lead to the loss of or disruption to a SIPS&apos;s operations, services, or functions, including interfering with or preventing final settlement;</p>
+                                                </content>
+                                             </point>
+                                             <point>
+                                                <num>(43)</num>
+                                                <content>
+                                                   <p>&quot;financial obligations&quot; means legal obligations arising, within the SIPS, between participants or between participants and the SIPS operator, as a consequence of transfer orders being entered into that SIPS;</p>
+                                                </content>
+                                             </point>
+                                             <point>
+                                                <num>(44)</num>
+                                                <content>
+                                                   <p>&quot;corrective measure&quot; means a specific measure or action, regardless of its form, duration or gravity, that is imposed on a SIPS operator by a competent authority to remedy, or avoid a repetition of, non-compliance with the requirements of Articles 3 to 21.&apos;;</p>
+                                                </content>
+                                             </point>
+                                          </list>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                     </list>
+                  </point>
+                  <point>
+                     <num>3.</num>
+                     <alinea>
+                        <content>
+                           <p>Article 4 is amended as follows:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <alinea>
+                              <content>
+                                 <p>paragraph 2 is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <paragraph>
+                                             <num>&apos;2.</num>
+                                             <content>
+                                                <p>A SIPS operator shall have effective and documented governance arrangements that provide clear and direct lines of responsibility and accountability. These arrangements shall be made available to the competent authority, owners and participants. The SIPS operator shall make abridged versions thereof available to the public.&apos;;</p>
+                                             </content>
+                                          </paragraph>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <alinea>
+                              <content>
+                                 <p>paragraph 5 is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <paragraph>
+                                             <num>&apos;5.</num>
+                                             <content>
+                                                <p>The Board&apos;s composition shall ensure integrity and, except for Eurosystem SIPS, an appropriate mix of technical skills, knowledge and experience both of SIPS and of the financial market in general, allowing the Board to fulfil its roles and responsibilities. The composition shall also take into account the allocation of competences in accordance with national law. Except for Eurosystem SIPS, and if permitted by national law, the Board shall include non-executive board members, including at least one independent director.&apos;;</p>
+                                             </content>
+                                          </paragraph>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(c)</num>
+                           <alinea>
+                              <content>
+                                 <p>the second subparagraph of paragraph 7 is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <paragraph>
+                                             <content>
+                                                <p>&apos;The Board shall ensure that there are three clear and effective lines of defence (operations, risk management and internal audit), which are separate from each other and have sufficient authority, independence, resources and access to the Board.&apos;;</p>
+                                             </content>
+                                          </paragraph>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(d)</num>
+                           <alinea>
+                              <content>
+                                 <p>the following paragraph 7a is inserted:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <paragraph>
+                                             <num>&apos;7a.</num>
+                                             <content>
+                                                <p>The Board&apos;s approval shall be required for decisions that have a significant impact on the SIPS&apos;s risk profile and for the key risk documents governing the SIPS&apos;s operations. As a minimum, the Board shall approve and annually review the comprehensive risk management framework referred to in Article 5(1), the operational risk framework and the associated business continuity plan referred to in Articles 15(1) and 15(5) respectively, the recovery and orderly wind-down plan and the capital plan referred to in Articles 5(4) and 13(6) respectively, the frameworks on credit and liquidity risk referred to in Articles 6(1) and 8(1) respectively, the collateral framework that governs the management of risks referred to in Article 7, the SIPS&apos;s investment strategy referred to in Article 14(4), and the cyber resilience framework referred to in Article 15(4a).&apos;;</p>
+                                             </content>
+                                          </paragraph>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                     </list>
+                  </point>
+                  <point>
+                     <num>4.</num>
+                     <alinea>
+                        <content>
+                           <p>in Article 5, paragraph 4 is replaced by the following:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <paragraph>
+                                       <num>&apos;4.</num>
+                                       <content>
+                                          <p>A SIPS operator shall define the SIPS&apos;s critical operations and services. The SIPS operator shall identify specific scenarios that may prevent it from being able to provide these critical operations and services as a going concern and shall assess the effectiveness of all options for recovery and, with the exception of Eurosystem SIPS, an orderly wind-down. It shall review the SIPS&apos;s critical operations and services at least annually. Based on thisassessment, a SIPS operator shall prepare a viable plan for the SIPS&apos;s recovery and, except for Eurosystem SIPS, an orderly wind-down. The recovery and orderly wind-down plan shall contain, inter alia, a substantive summary of the key recovery and orderly wind-down strategies, a restatement of the SIPS&apos;s critical operations and services, and a description of the measures needed to implement the key strategies. A SIPS operator shall, where applicable, provide the relevant authorities with the information needed for the purposes of resolution planning.&apos;;</p>
+                                       </content>
+                                    </paragraph>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>5.</num>
+                     <alinea>
+                        <content>
+                           <p>Article 6 is replaced by the following:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <article xml:id="art_d555e556">
+                                       <num>&apos;Article 6</num>
+                                       <heading>Credit risk</heading>
+                                       <paragraph>
+                                          <num>1.</num>
+                                          <content>
+                                             <p>A SIPS operator shall establish a robust framework to measure, monitor and manage its credit exposures to its participants and credit exposures among participants arising from the SIPS payment, clearing and settlement processes.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>2.</num>
+                                          <content>
+                                             <p>A SIPS operator shall identify all sources of credit risk. The measurement and monitoring of credit exposures shall take place throughout the day, using timely information and appropriate risk management tools.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>2a.</num>
+                                          <subparagraph>
+                                             <content>
+                                                <p>A SIPS operator operating a DNS system shall ensure that</p>
+                                             </content>
+                                          </subparagraph>
+                                          <list>
+                                             <point>
+                                                <num>(a)</num>
+                                                <content>
+                                                   <p>financial obligations are established no later than the moment at which a transfer order is included in the calculation of the net settlement positions accessible to each participant; and</p>
+                                                </content>
+                                             </point>
+                                             <point>
+                                                <num>(b)</num>
+                                                <content>
+                                                   <p>sufficient resources are held to cover the resulting credit exposures in accordance with paragraphs 3 and 4 at the latest at the moment referred to in point (a).</p>
+                                                </content>
+                                             </point>
+                                          </list>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>3.</num>
+                                          <content>
+                                             <p>A SIPS operator, including one operating a DNS system with a settlement guarantee, that in the course of SIPS operations incurs credit exposure vis-à-vis its participants, shall cover its credit exposure to each participant using collateral, guarantee funds, equity (after deduction of the amount dedicated to cover general business risk) or other equivalent financial resources.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>4.</num>
+                                          <content>
+                                             <p>A SIPS operator, including one operating a DNS system with no settlement guarantee, but in which participants face credit exposures arising from the SIPS payment, clearing and settlement processes, shall have in place rules or contractual arrangements with these participants. The rules or contractual arrangements shall ensure that the participants provide sufficient resources, as referred to in paragraph 3, to cover credit exposures resulting from the SIPS payment, clearing and settlement processes in relation to the two participants which, together with their affiliates, have the largest aggregate credit exposure.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>5.</num>
+                                          <content>
+                                             <p>A SIPS operator shall establish rules and procedures to address losses directly resulting from defaults by one or more participants on their obligations to the SIPS. These rules and procedures shall address the allocation of potentially uncovered losses, including the repayment of any funds a SIPS operator may borrow from liquidity providers. They shall include the SIPS operator&apos;s rules and procedures concerning the replenishment of any financial resources used by the SIPS during a stress event, to the level laid down in paragraphs 3 and 4.&apos;;</p>
+                                          </content>
+                                       </paragraph>
+                                    </article>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>6.</num>
+                     <alinea>
+                        <content>
+                           <p>Article 8 is replaced by the following:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <article xml:id="art_d555e616">
+                                       <num>&apos;Article 8</num>
+                                       <heading>Liquidity risk</heading>
+                                       <paragraph>
+                                          <num>1.</num>
+                                          <content>
+                                             <p>A SIPS operator shall establish a comprehensive framework to manage liquidity risks posed by the SIPS&apos;s participants, settlement banks, <i>nostro</i> agents, custodian banks, liquidity providers and other relevant entities. The SIPS operator shall provide the participants with adequate tools to effectively manage their liquidity and shall monitor and facilitate the smooth flow of liquidity in the system.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>2.</num>
+                                          <content>
+                                             <p>A SIPS operator shall put in place operational and analytical tools which enable it to identify, measure and monitor settlement and funding flows, including the use of intraday liquidity, on an ongoing and timely basis.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>2a.</num>
+                                          <subparagraph>
+                                             <content>
+                                                <p>A SIPS operator operating a DNS system shall ensure that</p>
+                                             </content>
+                                          </subparagraph>
+                                          <list>
+                                             <point>
+                                                <num>(a)</num>
+                                                <content>
+                                                   <p>financial obligations are established no later than the moment at which a transfer order is included in the calculation of the net settlement positions accessible to each participant; and</p>
+                                                </content>
+                                             </point>
+                                             <point>
+                                                <num>(b)</num>
+                                                <content>
+                                                   <p>sufficient liquid resources are held in accordance with paragraphs 3 to 6 at the latest at the moment referred to in point (a).</p>
+                                                </content>
+                                             </point>
+                                          </list>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>3.</num>
+                                          <content>
+                                             <p>A SIPS operator shall hold, or ensure that participants hold, sufficient liquid resources at all times as from the moment financial obligations are established, in all currencies in which it operates, to effect same-day settlement of financial obligations in a wide range of potential stress scenarios. Where appropriate, this shall include intraday or multiday settlement. The stress scenarios shall include: (a) the default, under extreme but plausible market conditions, of the participant which, together with its affiliates, has the largest aggregate financial obligation; and (b) other scenarios in accordance with paragraph 11.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>4.</num>
+                                          <subparagraph>
+                                             <content>
+                                                <p>A SIPS operator settling one-sided payments in euro shall hold, or ensure that participants hold, sufficient liquid resources, in accordance with paragraph 3, to effect timely settlement of financial obligations in the event of a default of the participant which, together with its affiliates, has the largest aggregate financial obligation as determined by paragraph 3(a), in any of the following ways:</p>
+                                             </content>
+                                          </subparagraph>
+                                          <list>
+                                             <point>
+                                                <num>(a)</num>
+                                                <content>
+                                                   <p>in cash with the Eurosystem; or</p>
+                                                </content>
+                                             </point>
+                                             <point>
+                                                <num>(b)</num>
+                                                <content>
+                                                   <p>in eligible collateral as defined in the collateral framework of the Eurosystem laid down in Guideline (EU) 2015/510 of the European Central Bank (ECB/2014/60)<authorialNote placement="bottom" marker="8">
+                                                         <p>Guideline (EU) 2015/510 of the European Central Bank of 19 December 2014 on the implementation of the Eurosystem monetary policy framework (ECB/2014/60) (OJ L 91, 2.4.2015, p. 3).</p>
+                                                      </authorialNote> and Guideline ECB/2014/31 of the European Central Bank<authorialNote placement="bottom" marker="9">
+                                                         <p>Guideline ECB/2014/31 of the European Central Bank of 9 July 2014 on additional temporary measures relating to Eurosystem refinancing operations and eligibility of collateral and amending Guideline ECB/2007/9 (OJ L 240, 13.8.2014, p. 28).&apos;;</p>
+                                                      </authorialNote> provided that the SIPS operator can demonstrate that such collateral is readily available and convertible into cash on a same-day basis using prearranged and highly reliable funding arrangements, including in stressed market conditions.</p>
+                                                </content>
+                                             </point>
+                                          </list>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>5.</num>
+                                          <subparagraph>
+                                             <content>
+                                                <p>A SIPS operator settling one-sided payments in euro shall hold, or ensure that participants hold, additional liquid resources, in accordance with paragraph 3(b), in the ways referred to in paragraph 4 or with a creditworthy commercial bank in one or more of the following instruments:</p>
+                                             </content>
+                                          </subparagraph>
+                                          <list>
+                                             <point>
+                                                <num>(a)</num>
+                                                <content>
+                                                   <p>committed lines of credit;</p>
+                                                </content>
+                                             </point>
+                                             <point>
+                                                <num>(b)</num>
+                                                <content>
+                                                   <p>committed foreign exchange swaps;</p>
+                                                </content>
+                                             </point>
+                                             <point>
+                                                <num>(c)</num>
+                                                <content>
+                                                   <p>committed repos;</p>
+                                                </content>
+                                             </point>
+                                             <point>
+                                                <num>(d)</num>
+                                                <content>
+                                                   <p>assets meeting the requirements of Article 7(1), which are held by a custodian;</p>
+                                                </content>
+                                             </point>
+                                             <point>
+                                                <num>(e)</num>
+                                                <content>
+                                                   <p>investments.</p>
+                                                </content>
+                                             </point>
+                                          </list>
+                                          <subparagraph>
+                                             <content>
+                                                <p>All of these instruments must allow cash to be available within a timeframe that allows the completion of same-day settlement. In particular, the SIPS operator must be able to demonstrate that non-cash instruments are readily available and convertible into cash on a same-day basis using prearranged and highly reliable funding arrangements, including in stressed market conditions.</p>
+                                             </content>
+                                          </subparagraph>
+                                          <subparagraph>
+                                             <content>
+                                                <p>The SIPS operator shall be prepared to demonstrate to the competent authority, based on an adequate internal assessment, that the commercial bank is creditworthy.</p>
+                                             </content>
+                                          </subparagraph>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>6.</num>
+                                          <content>
+                                             <p>A SIPS operator settling two-sided payments, or one-sided payments in currencies other than euro, shall hold, or ensure that participants hold, sufficient liquid resources, in accordance with paragraph 3, in the ways referred to in paragraph 5.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>7.</num>
+                                          <content>
+                                             <p>Where a SIPS operator supplements the resources referred to in paragraph 3 with other assets, these assets shall be likely to be marketable or acceptable as collateral (for, e.g., lines of credit, swaps, or repos) on an ad hoc basis following a default, even if this cannot be reliably prearranged or guaranteed under extreme but plausible market conditions. Where a participant supplements the resources referred to in paragraph 3 with other assets, the SIPS operator shall ensure that these other assets meet the requirements set out in the first sentence of this paragraph. Assets shall be presumed to be likely to be marketable or acceptable as collateral if the SIPS operator has taken into account the rules and practices of the relevant central bank on the eligibility of collateral.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>8.</num>
+                                          <content>
+                                             <p>A SIPS operator shall not assume that emergency central bank credit will be available.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>9.</num>
+                                          <content>
+                                             <p>A SIPS operator shall carry out due diligence to verify that each provider of the SIPS&apos;s liquid resources, as referred to in paragraph 3: (a) has sufficient and up-to-date information to understand and to manage the liquidity risks associated with the provision of cash or assets; and (b) has the capacity to provide cash or assets as required. The SIPS operator shall review its compliance with the due diligence obligation at least annually. Only entities with access to credit from the central bank of issue shall be accepted as liquidity providers. The SIPS operator shall regularly test the SIPS&apos;s procedures for accessing its liquid resources.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>10.</num>
+                                          <content>
+                                             <p>A SIPS operator with access to central bank accounts, payment services or securities services shall use these services, where practicable.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>11.</num>
+                                          <subparagraph>
+                                             <content>
+                                                <p>A SIPS operator shall, through rigorous stress testing, determine the amount and regularly test the sufficiency of its liquid resources to satisfy the requirements under paragraphs 3 and 4. In conducting stress testing, the SIPS operator shall consider a wide range of relevant scenarios, including one or more participant defaults on the same day and on two or more subsequent days.</p>
+                                             </content>
+                                          </subparagraph>
+                                          <subparagraph>
+                                             <content>
+                                                <p>When such scenarios are considered, the design and operation of the SIPS shall be taken into account and all entities that might pose material liquidity risks to the SIPS shall be examined, including settlement banks, <i>nostro</i> agents, custodian banks, liquidity providers and linked FMIs. Where appropriate, the scenarios shall cover a multiday period.</p>
+                                             </content>
+                                          </subparagraph>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>12.</num>
+                                          <content>
+                                             <p>A SIPS operator shall document its reasons for holding, and shall have appropriate governance arrangements relating to, the cash and other assets maintained by it or by participants. It shall establish clear procedures for reporting the results of its stress tests to the Board and shall use these results to evaluate the adequacy of and make adjustments to its liquidity risk-management framework.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>13.</num>
+                                          <subparagraph>
+                                             <content>
+                                                <p>A SIPS operator shall establish clear rules and procedures enabling the SIPS to effect same-day and, where appropriate, timely intraday and multiday settlement of financial obligations following the default of one or more of its participants. These rules and procedures shall:</p>
+                                             </content>
+                                          </subparagraph>
+                                          <list>
+                                             <point>
+                                                <num>(a)</num>
+                                                <content>
+                                                   <p>address unforeseen and potentially uncovered liquidity shortfalls;</p>
+                                                </content>
+                                             </point>
+                                             <point>
+                                                <num>(b)</num>
+                                                <content>
+                                                   <p>aim to avoid the unwinding, revocation or delay of same-day settlement of financial obligations;</p>
+                                                </content>
+                                             </point>
+                                             <point>
+                                                <num>(c)</num>
+                                                <content>
+                                                   <p>indicate how to replenish the cash and other assets used by the SIPS during a stress event, to the extent required pursuant to paragraphs 3 to 5.</p>
+                                                </content>
+                                             </point>
+                                          </list>
+                                       </paragraph>
+                                    </article>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>7.</num>
+                     <alinea>
+                        <content>
+                           <p>in Article 10, paragraph 1 is replaced by the following:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <paragraph>
+                                       <num>&apos;1.</num>
+                                       <content>
+                                          <p>A SIPS operator settling one-sided payments in euro shall ensure that final settlement takes place in central bank money. A SIPS operator settling payments for other SIPS shall endeavour to enable such other SIPS to settle even in emergency situations.&apos;;</p>
+                                       </content>
+                                    </paragraph>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>8.</num>
+                     <alinea>
+                        <content>
+                           <p>Article 13 is replaced by the following:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <article xml:id="art_d555e833">
+                                       <num>&apos;Article 13</num>
+                                       <heading>General business risk</heading>
+                                       <paragraph>
+                                          <num>1.</num>
+                                          <content>
+                                             <p>A SIPS operator shall establish robust management and control systems to identify, monitor and manage general business risks, including losses resulting from poor execution of business strategy, negative cash flows, or unexpected and excessively large operating expenses.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>2.</num>
+                                          <content>
+                                             <p>A SIPS operator shall maintain a viable recovery and, except for Eurosystem SIPS, orderly wind-down plan as required under Article 5(4).</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>3.</num>
+                                          <content>
+                                             <p>A SIPS operator shall determine, based on its general business risk profile and the time required to achieve a recovery and/or orderly wind-down of its critical operations and services, the amount of assets required to implement the plan referred to in paragraph 2. This amount shall be no less than that represented by six months of current operating expenses.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>4.</num>
+                                          <content>
+                                             <p>To cover the amount referred to in paragraph 3, a SIPS operator shall hold liquid net assets funded by equity, e.g. common stock, disclosed reserves or other retained earnings, to enable it to continue operations and services as a going concern. These assets shall be in addition to resources held to cover participant default or other risks covered under Articles 6 and 8. Equity held under international risk-based capital standards may be included to avoid duplicate capital requirements.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>5.</num>
+                                          <content>
+                                             <p>Assets as referred to in paragraph 4 held to cover general business risk shall be of sufficient liquidity and quality to be available in a timely manner, and shall be segregated from the SIPS operator&apos;s assets used for daily operations. The SIPS operator shall be able to realise assets held to cover general business risk with little, if any, adverse price effect, to enable it to continue operations and services as a going concern if it incurs general business losses.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>6.</num>
+                                          <content>
+                                             <p>A SIPS operator shall establish a viable capital plan for raising additional equity if its equity falls close to or below the amount referred to in paragraph 3.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>7.</num>
+                                          <content>
+                                             <p>Paragraphs 3 to 6 shall not apply to Eurosystem SIPS.&apos;;</p>
+                                          </content>
+                                       </paragraph>
+                                    </article>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>9.</num>
+                     <alinea>
+                        <content>
+                           <p>Article 15 is amended as follows:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <alinea>
+                              <content>
+                                 <p>the following paragraph 1a is inserted:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <paragraph>
+                                             <num>&apos;1a.</num>
+                                             <content>
+                                                <p>A SIPS operator shall review, audit, and test systems, operational policies, procedures and controls periodically and after significant changes.&apos;;</p>
+                                             </content>
+                                          </paragraph>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <alinea>
+                              <content>
+                                 <p>the following paragraph 4a is inserted:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <paragraph>
+                                             <num>&apos;4a.</num>
+                                             <content>
+                                                <p>A SIPS operator shall establish an effective cyber resilience framework with appropriate governance measures in place to manage cyber risk. The SIPS operator shall identify its critical operations and supporting assets, and have appropriate measures in place to protect them from, detect, respond to and recover from cyber attacks. These measures shall be regularly tested. The SIPS operator shall ensure it has a sound level of situational awareness of cyber threats. The SIPS operator shall ensure that there is a process of continuous learning and evolving to enable it to adapt its cyber resilience framework to the dynamic nature of cyber risks, in a timely manner, whenever needed.&apos;;</p>
+                                             </content>
+                                          </paragraph>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                     </list>
+                  </point>
+                  <point>
+                     <num>10.</num>
+                     <alinea>
+                        <content>
+                           <p>Article 16 is replaced by the following:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <article xml:id="art_d555e925">
+                                       <num>&apos;Article 16</num>
+                                       <heading>Access and participation criteria</heading>
+                                       <paragraph>
+                                          <num>1.</num>
+                                          <content>
+                                             <p>A SIPS operator shall establish and publicly disclose non-discriminatory access and participation criteria to the SIPS&apos;s services for direct and, where relevant, indirect participants and for other FMIs. It shall review the criteria at least annually.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>2.</num>
+                                          <content>
+                                             <p>The access and participation criteria referred to in paragraph 1 shall be justified in terms of the safety and efficiency of the SIPS and the markets it serves, and be tailored to and commensurate with the SIPS&apos;s specific risks. In compliance with the principle of proportionality, a SIPS operator shall set requirements that restrict access to the minimum possible extent. If a SIPS operator denies access to an applying entity, it shall give reasons in writing, based on a comprehensive risk analysis.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>3.</num>
+                                          <content>
+                                             <p>A SIPS operator shall monitor participants&apos; compliance with the SIPS&apos;s access and participation criteria on an ongoing basis. It shall establish non-discriminatory procedures to facilitate the suspension and orderly termination of a participant&apos;s right of participation where the participant fails to comply with the criteria and shall publicly disclose relevant key aspects of such procedures. It shall review the procedures at least annually.&apos;;</p>
+                                          </content>
+                                       </paragraph>
+                                    </article>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>11.</num>
+                     <alinea>
+                        <content>
+                           <p>in Article 17, paragraphs 1 and 2 are replaced by the following:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <paragraph>
+                                       <num>&apos;1.</num>
+                                       <subparagraph>
+                                          <content>
+                                             <p>For the purpose of risk management, a SIPS operator shall ensure that the SIPS&apos;s rules, procedures and contractual arrangements allow it to gather information about indirect participation in order to identify, monitor and manage any material risks to the SIPS arising from participation. This information shall, as a minimum, cover the following:</p>
+                                          </content>
+                                       </subparagraph>
+                                       <list>
+                                          <point>
+                                             <num>(a)</num>
+                                             <content>
+                                                <p>the activity that direct participants conduct on their own behalf and on behalf of indirect participants in proportion to the activity at system level;</p>
+                                             </content>
+                                          </point>
+                                          <point>
+                                             <num>(b)</num>
+                                             <content>
+                                                <p>the number of indirect participants that settle via individual direct participants;</p>
+                                             </content>
+                                          </point>
+                                          <point>
+                                             <num>(c)</num>
+                                             <content>
+                                                <p>the volumes and values of payments in the SIPS originating from each indirect participant;</p>
+                                             </content>
+                                          </point>
+                                          <point>
+                                             <num>(d)</num>
+                                             <content>
+                                                <p>the volumes and values of payments referred to in point (c) in proportion to those of the direct participant through which the indirect participant accesses the SIPS.</p>
+                                             </content>
+                                          </point>
+                                       </list>
+                                    </paragraph>
+                                    <paragraph>
+                                       <num>2.</num>
+                                       <content>
+                                          <p>A SIPS operator shall identify material dependencies between direct and indirect participants that might affect the SIPS, taking into account the information referred to in paragraph 1.&apos;;</p>
+                                       </content>
+                                    </paragraph>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>12.</num>
+                     <alinea>
+                        <content>
+                           <p>Article 21 is replaced by the following:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <article xml:id="art_d555e1005">
+                                       <num>&apos;Article 21</num>
+                                       <heading>Powers of a competent authority</heading>
+                                       <paragraph>
+                                          <num>1.</num>
+                                          <subparagraph>
+                                             <content>
+                                                <p>A competent authority shall have the power to:</p>
+                                             </content>
+                                          </subparagraph>
+                                          <list>
+                                             <point>
+                                                <num>(a)</num>
+                                                <content>
+                                                   <p>obtain, at any time, from a SIPS operator all of the information and documents necessary to assess compliance with the requirements under this Regulation or to promote the smooth operation of payment systems at systemic level. The SIPS operator shall report the relevant information to the competent authority without undue delay;</p>
+                                                </content>
+                                             </point>
+                                             <point>
+                                                <num>(b)</num>
+                                                <content>
+                                                   <p>require a SIPS operator to appoint an independent expert to perform an investigation or independent review on the operation of the SIPS. The competent authority may impose requirements concerning the type of expert to be appointed, the content and scope of the report to be produced, the treatment of the report, including disclosure and publication of certain elements, and timing for the production of the report. A SIPS operator shall inform the competent authority how the imposed requirements have been satisfied;</p>
+                                                </content>
+                                             </point>
+                                             <point>
+                                                <num>(c)</num>
+                                                <content>
+                                                   <p>conduct on-site inspections or delegate the carrying out of on-site inspections. Where the proper conduct and efficiency of an inspection so requires, the competent authority may carry it out without prior announcement.</p>
+                                                </content>
+                                             </point>
+                                          </list>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>2.</num>
+                                          <content>
+                                             <p>The ECB shall adopt a decision on the procedure and conditions for exercising the powers referred to in paragraph 1.&apos;;</p>
+                                          </content>
+                                       </paragraph>
+                                    </article>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>13.</num>
+                     <alinea>
+                        <content>
+                           <p>the following Articles 21a and 21b are inserted:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <article xml:id="art_d555e1051">
+                                       <num>&apos;Article 21a</num>
+                                       <heading>Organisation of oversight activities</heading>
+                                       <paragraph>
+                                          <content>
+                                             <p>A competent authority may carry out continuous and/or ad hoc oversight activities to assess the compliance by a SIPS operator with the requirements set out in Articles 3 to 21 or to promote the smooth operation of payment systems at systemic level.</p>
+                                          </content>
+                                       </paragraph>
+                                    </article>
+                                    <article xml:id="art_d555e1059">
+                                       <num>Article 21b</num>
+                                       <heading>Confidentiality</heading>
+                                       <paragraph>
+                                          <content>
+                                             <p>Information shared by a SIPS operator with a competent authority on a confidential basis may be shared within the European System of Central Banks (ESCB). Such information shall be treated as confidential by the members of the ESCB, in accordance with the duty of professional secrecy laid down in Article 37.1 of the Statute of the ESCB.&apos;;</p>
+                                          </content>
+                                       </paragraph>
+                                    </article>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>14.</num>
+                     <alinea>
+                        <content>
+                           <p>Article 22 is replaced by the following:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <article xml:id="art_d555e1077">
+                                       <num>&apos;Article 22</num>
+                                       <heading>Corrective measures</heading>
+                                       <paragraph>
+                                          <num>1.</num>
+                                          <subparagraph>
+                                             <content>
+                                                <p>Where a SIPS operator has not complied with this Regulation or where there are reasonable grounds for suspecting that a SIPS operator has not complied with this Regulation, the competent authority shall:</p>
+                                             </content>
+                                          </subparagraph>
+                                          <list>
+                                             <point>
+                                                <num>(a)</num>
+                                                <content>
+                                                   <p>give written notice to the SIPS operator of the nature of the non-compliance or suspected non-compliance; and</p>
+                                                </content>
+                                             </point>
+                                             <point>
+                                                <num>(b)</num>
+                                                <content>
+                                                   <p>give the SIPS operator the opportunity to be heard and to provide explanations.</p>
+                                                </content>
+                                             </point>
+                                          </list>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>2.</num>
+                                          <content>
+                                             <p>Taking into account the information provided by the SIPS operator, the competent authority may impose corrective measures on the SIPS operator to remedy the non-compliance and/or avoid repeating it.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>3.</num>
+                                          <content>
+                                             <p>The competent authority may impose corrective measures immediately if it finds that the non-compliance is serious enough to require immediate action. It shall provide reasons for its decision.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>4.</num>
+                                          <content>
+                                             <p>A competent authority other than the ECB shall inform the ECB of its intention to impose corrective measures on a SIPS operator without undue delay.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>5.</num>
+                                          <content>
+                                             <p>Corrective measures may be imposed independently of or in parallel to sanctions imposed under Council Regulation (EC) No 2532/98<authorialNote placement="bottom" marker="10">
+                                                   <p>Council Regulation (EC) No 2532/98 of 23 November 1998 concerning the powers of the European Central Bank to impose sanctions (OJ L 318, 27.11.1998, p. 4).&apos;;</p>
+                                                </authorialNote>.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>6.</num>
+                                          <content>
+                                             <p>The ECB shall adopt a decision on the procedure to be followed if corrective measures are imposed.</p>
+                                          </content>
+                                       </paragraph>
+                                    </article>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>15.</num>
+                     <alinea>
+                        <content>
+                           <p>Article 23 is replaced by the following:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <article xml:id="art_d555e1147">
+                                       <num>&apos;Article 23</num>
+                                       <heading>Sanctions</heading>
+                                       <paragraph>
+                                          <content>
+                                             <p>In the case of an infringement of this Regulation, the ECB may impose sanctions. Such sanctions shall be in accordance with Regulation (EC) No 2532/98 and Regulation (EC) No 2157/99 of the European Central Bank (ECB/1999/4)<authorialNote placement="bottom" marker="11">
+                                                   <p>Regulation (EC) No 2157/99 of the European Central Bank of 23 September 1999 on the powers of the European Central Bank to impose sanctions (ECB/1999/4) (OJ L 264, 12.10.1999, p. 21).&apos;;</p>
+                                                </authorialNote>. The ECB shall adopt a decision on the methodology for the calculation of the amount of the sanctions.</p>
+                                          </content>
+                                       </paragraph>
+                                    </article>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>16.</num>
+                     <alinea>
+                        <content>
+                           <p>Article 24 is replaced by the following:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <article xml:id="art_d555e1175">
+                                       <num>&apos;Article 24</num>
+                                       <heading>Review</heading>
+                                       <paragraph>
+                                          <content>
+                                             <p>The Governing Council shall review the general application of this Regulation by no later than two years following the date on which it enters into force, and thereafter every three years, and assess whether it needs to be amended.&apos;.</p>
+                                          </content>
+                                       </paragraph>
+                                    </article>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+               </list>
+            </paragraph>
+         </article>
+         <article xml:id="art_d555e1185">
+            <num>Article 2</num>
+            <heading>Final provisions</heading>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>This Regulation shall enter into force on the twentieth day following that of its publication in the <i>Official Journal of the European Union</i>.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>SIPS operators who were notified of the decision of the Governing Council pursuant to Article 1(2) of Regulation (EU) No 795/2014 (ECB/2014/28) before this Regulation enters into force shall have one year from the date of entry into force to comply with the requirements laid down in this Regulation, except for the requirements laid down in points (5) and (6) of Article 1 in respect of which they shall have 18 months.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <content>
+                  <p>SIPS operators who are notified of the decision of the Governing Council pursuant to Article 1(2) of Regulation (EU) No 795/2014 (ECB/2014/28) after this Regulation enters into force shall have one year from the date of notification to comply with the requirements laid down in this Regulation, except for the requirements laid down in points (5) and (6) of Article 1 in respect of which they shall have 18 months.</p>
+               </content>
+            </paragraph>
+         </article>
+         <clause>
+            <content>
+               <p>This Regulation shall be binding in its entirety and directly applicable in the Member States in accordance with the Treaties.</p>
+            </content>
+         </clause>
+      </body>
+      <conclusions>
+         <p>Done at Frankfurt am Main, 3 November 2017.</p>
+         <block name="signatory">
+            <signature>
+               <organization refersTo="">For the Governing Council of the ECB</organization>
+               <role refersTo="">The President of the ECB</role>
+               <person refersTo="">Mario DRAGHI</person>
+            </signature>
+         </block>
+      </conclusions>
+   </bill>
+</akomaNtoso>

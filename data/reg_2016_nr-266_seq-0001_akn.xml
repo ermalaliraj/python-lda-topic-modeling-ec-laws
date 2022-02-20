@@ -1,0 +1,710 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"
+            xmlns:fmx="http://formex.publications.europa.eu/schema/formex-05.21-20110601.xd"
+            xmlns:leos="urn:eu:europa:ec:leos"
+            xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <bill name="">
+      <meta xmlns:fn="http://www.w3.org/2005/xpath-functions">
+         <identification source="~COM">
+            <FRBRWork>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRcountry value=""/>
+            </FRBRWork>
+            <FRBRExpression>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+            </FRBRManifestation>
+         </identification>
+      </meta>
+      <preface>
+         <longTitle>
+            <p>
+               <docStage/>
+               <docType>REGULATION (EU) 2016/1724 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL</docType>of 14 September 2016<docPurpose>amending Regulation (EC) No 471/2009 on Community statistics relating to external trade with non-member countries as regards conferring of delegated and implementing powers upon the Commission for the adoption of certain measures</docPurpose>
+            </p>
+         </longTitle>
+         <container name="EEArelevance">
+            <p>(Text with EEA relevance)</p>
+         </container>
+      </preface>
+      <preamble>
+         <formula name="actingEntity">
+            <p>THE EUROPEAN PARLIAMENT AND THE COUNCIL OF THE EUROPEAN UNION,</p>
+         </formula>
+         <citations>
+            <citation>
+               <p>Having regard to the Treaty on the Functioning of the European Union, and in particular Article 338(1) thereof,</p>
+            </citation>
+            <citation>
+               <p>Having regard to the proposal from the European Commission,</p>
+            </citation>
+            <citation>
+               <p>After transmission of the draft legislative act to the national parliaments,</p>
+            </citation>
+            <citation>
+               <p>Acting in accordance with the ordinary legislative procedure<authorialNote placement="bottom" marker="1">
+                     <p>Position of the European Parliament of 12 March 2014 (not yet published in the Official Journal) and position of the Council at first reading of 16 June 2016 (not yet published in the Official Journal). Position of the European Parliament of 13 September 2016 (not yet published in the Official Journal).</p>
+                  </authorialNote>,</p>
+            </citation>
+         </citations>
+         <recitals xml:id="recs_d382e81">
+            <intro>
+               <p>Whereas:</p>
+            </intro>
+            <recital xml:id="rec_d382e84">
+               <num>(1)</num>
+               <p>As a consequence of the entry into force of the Treaty on the Functioning of the European Union (the &apos;Treaty&apos;), the powers conferred on the Commission should be aligned with Articles 290 and 291 of the Treaty.</p>
+            </recital>
+            <recital xml:id="rec_d382e94">
+               <num>(2)</num>
+               <p>In light of the adoption of Regulation (EU) No 182/2011 of the European Parliament and of the Council<authorialNote placement="bottom" marker="2">
+                     <p>Regulation (EU) No 182/2011 of the European Parliament and of the Council of 16 February 2011 laying down the rules and general principles concerning mechanisms for control by Member States of the Commission&apos;s exercise of implementing powers (OJ L 55, 28.2.2011, p. 13).</p>
+                  </authorialNote>, the Commission has committed itself, by means of a Statement<authorialNote placement="bottom" marker="3">
+                     <p>OJ L 55, 28.2.2011, p. 19.</p>
+                  </authorialNote>, to reviewing, in light of the criteria laid down in the Treaty, legislative acts which currently contain references to the regulatory procedure with scrutiny.</p>
+            </recital>
+            <recital xml:id="rec_d382e116">
+               <num>(3)</num>
+               <p>Regulation (EC) No 471/2009 of the European Parliament and of the Council<authorialNote placement="bottom" marker="4">
+                     <p>Regulation (EC) No 471/2009 of the European Parliament and of the Council of 6 May 2009 on Community statistics relating to external trade with non-member countries and repealing Council Regulation (EC) No 1172/95 (OJ L 152, 16.6.2009, p. 23).</p>
+                  </authorialNote> confers powers on the Commission in order to implement some of the provisions of that Regulation.</p>
+            </recital>
+            <recital xml:id="rec_d382e132">
+               <num>(4)</num>
+               <p>In order to align Regulation (EC) No 471/2009 with Articles 290 and 291 of the Treaty, implementing powers conferred on the Commission by that Regulation should be replaced by powers to adopt delegated and implementing acts.</p>
+            </recital>
+            <recital xml:id="rec_d382e139">
+               <num>(5)</num>
+               <p>In order to take account of changes in the Customs Code or provisions deriving from international conventions, changes necessary for methodological reasons and the need to set up an efficient system for the collection of data and the compilation of statistics, the power to adopt acts in accordance with Article 290 of the Treaty should be delegated to the Commission in respect of:<list>
+                     <indent>
+                        <num>-</num>
+                        <content>
+                           <p>the adaptation of the list of customs procedures or customs-approved treatment or use,</p>
+                        </content>
+                     </indent>
+                     <indent>
+                        <num>-</num>
+                        <content>
+                           <p>specific goods or movements and different or specific provisions applicable to them,</p>
+                        </content>
+                     </indent>
+                     <indent>
+                        <num>-</num>
+                        <content>
+                           <p>the exclusion of goods or movements from external trade statistics,</p>
+                        </content>
+                     </indent>
+                     <indent>
+                        <num>-</num>
+                        <content>
+                           <p>the data collection referred to in Article 4(2) and (4) of Regulation (EC) No 471/2009,</p>
+                        </content>
+                     </indent>
+                     <indent>
+                        <num>-</num>
+                        <content>
+                           <p>the further specification of the statistical data,</p>
+                        </content>
+                     </indent>
+                     <indent>
+                        <num>-</num>
+                        <content>
+                           <p>the requirement for limited sets of data for the specific goods or movements referred to in Article 3(3) of Regulation (EC) No 471/2009, and data provided in accordance with Article 4(2) of that Regulation,</p>
+                        </content>
+                     </indent>
+                     <indent>
+                        <num>-</num>
+                        <content>
+                           <p>the level of aggregation for partner countries, goods and currencies for statistics on trade by invoicing currency.</p>
+                        </content>
+                     </indent>
+                  </list> It is of particular importance that the Commission carry out appropriate consultations during its preparatory work, including at expert level, and that those consultations be conducted in accordance with the principles laid down in the Interinstitutional Agreement of 13 April 2016 on Better Law-Making<authorialNote placement="bottom" marker="5">
+                     <p>OJ L 123, 12.5.2016, p. 1.</p>
+                  </authorialNote>. In particular, to ensure equal participation in the preparation of delegated acts, the European Parliament and the Council receive all documents at the same time as Member States&apos; experts, and their experts systematically have access to meetings of Commission expert groups dealing with the preparation of delegated acts.</p>
+            </recital>
+            <recital xml:id="rec_d382e179">
+               <num>(6)</num>
+               <p>The Commission should ensure that those delegated acts do not impose a significant additional burden on the Member States or on the respondents and that they remain as economical as possible.</p>
+            </recital>
+            <recital xml:id="rec_d382e185">
+               <num>(7)</num>
+               <p>In order to ensure uniform conditions for the implementation of Regulation (EC) No 471/2009, implementing powers should be conferred on the Commission enabling it to adopt measures relating to:<list>
+                     <indent>
+                        <num>-</num>
+                        <content>
+                           <p>the codes and their format to be used in respect of the data referred to in Article 5(1) of that Regulation,</p>
+                        </content>
+                     </indent>
+                     <indent>
+                        <num>-</num>
+                        <content>
+                           <p>the linking of the data on business characteristics with data recorded in accordance with that Article, and</p>
+                        </content>
+                     </indent>
+                     <indent>
+                        <num>-</num>
+                        <content>
+                           <p>the uniform content and coverage of transmitted statistics.</p>
+                        </content>
+                     </indent>
+                  </list> Those powers should be exercised in accordance with Regulation (EU) No 182/2011.</p>
+            </recital>
+            <recital xml:id="rec_d382e204">
+               <num>(8)</num>
+               <p>The Committee on statistics relating to the trading of goods with non-member countries (&apos;Extrastat Committee&apos;), referred to in Article 11 of Regulation (EC) No 471/2009, has provided advice to and assisted the Commission in the exercise of its implementing powers. Under the strategy for a new European Statistical System (&apos;ESS&apos;) structure aimed at improving coordination and partnership in a clear pyramid structure within the ESS, the European Statistical System Committee (&apos;ESSC&apos;), established by Regulation (EC) No 223/2009 of the European Parliament and of the Council<authorialNote placement="bottom" marker="6">
+                     <p>Regulation (EC) No 223/2009 of the European Parliament and of the Council of 11 March 2009 on European statistics and repealing Regulation (EC, Euratom) No 1101/2008 of the European Parliament and of the Council on the transmission of data subject to statistical confidentiality to the Statistical Office of the European Communities, Council Regulation (EC) No 322/97 on Community Statistics, and Council Decision 89/382/EEC, Euratom establishing a Committee on the Statistical Programmes of the European Communities (OJ L 87, 31.3.2009, p. 164).</p>
+                  </authorialNote>, should have an advisory role and assist the Commission in exercising its implementing powers. To that effect, Regulation (EC) No 471/2009 should be amended by replacing the reference to the Extrastat Committee with a reference to the ESSC.</p>
+            </recital>
+            <recital xml:id="rec_d382e233">
+               <num>(9)</num>
+               <p>To ensure legal certainty, procedures for adopting measures that have been initiated but not completed before the entry into force of this Regulation are not affected by this Regulation.</p>
+            </recital>
+            <recital xml:id="rec_d382e241">
+               <num>(10)</num>
+               <p>Regulation (EC) No 471/2009 should therefore be amended accordingly,</p>
+            </recital>
+         </recitals>
+         <formula name="enactingFormula">
+            <p>HAVE ADOPTED THIS REGULATION:</p>
+         </formula>
+      </preamble>
+      <body>
+         <article xml:id="art_d382e250" leos:compliant="false">
+            <num>Article 1</num>
+            <heading/>
+            <paragraph>
+               <subparagraph>
+                  <content>
+                     <p>Regulation (EC) No 471/2009 is amended as follows:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(1)</num>
+                     <alinea>
+                        <content>
+                           <p>Article 3 is amended as follows:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <alinea>
+                              <content>
+                                 <p>paragraph 2 is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <paragraph>
+                                             <num>&apos;2.</num>
+                                             <content>
+                                                <p>In order to take account of changes in the Customs Code and provisions deriving from international conventions, the Commission is empowered to adopt delegated acts in accordance with Article 10a adapting the list of customs procedures or customs-approved treatment or use referred to in the second subparagraph of paragraph 1 of this Article.&apos;;</p>
+                                             </content>
+                                          </paragraph>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <alinea>
+                              <content>
+                                 <p>in paragraph 3, the second subparagraph is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <paragraph>
+                                             <content>
+                                                <p>&apos;The Commission is empowered to adopt delegated acts in accordance with Article 10a relating to specific goods or movements and to different or specific provisions applicable to them.&apos;;</p>
+                                             </content>
+                                          </paragraph>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(c)</num>
+                           <alinea>
+                              <content>
+                                 <p>in paragraph 4, the second subparagraph is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <paragraph>
+                                             <content>
+                                                <p>&apos;The Commission is empowered to adopt delegated acts in accordance with Article 10a relating to the exclusion of goods or movements from external trade statistics.&apos;;</p>
+                                             </content>
+                                          </paragraph>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(d)</num>
+                           <alinea>
+                              <content>
+                                 <p>the following paragraph is added:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <paragraph>
+                                             <num>&apos;5.</num>
+                                             <content>
+                                                <p>When exercising the powers delegated in paragraphs 2, 3 and 4, the Commission shall ensure that the delegated acts do not impose a significant additional burden on the Member States or on the respondents.&apos;;</p>
+                                             </content>
+                                          </paragraph>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                     </list>
+                  </point>
+                  <point>
+                     <num>(2)</num>
+                     <alinea>
+                        <content>
+                           <p>in Article 4, paragraph 5 is replaced by the following:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <paragraph>
+                                       <num>&apos;5.</num>
+                                       <content>
+                                          <p>The Commission is empowered to adopt delegated acts in accordance with Article 10a relating to the data collection referred to in paragraphs 2 and 4 of this Article. When exercising those powers, the Commission shall ensure that the delegated acts do not impose a significant additional burden on the Member States or on the respondents.&apos;;</p>
+                                       </content>
+                                    </paragraph>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(3)</num>
+                     <alinea>
+                        <content>
+                           <p>Article 5 is amended as follows:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <alinea>
+                              <content>
+                                 <p>paragraph 2 is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <paragraph>
+                                             <num>&apos;2.</num>
+                                             <content>
+                                                <p>The Commission is empowered to adopt delegated acts in accordance with Article 10a relating to further specification of the data referred to in paragraph 1 of this Article.</p>
+                                             </content>
+                                          </paragraph>
+                                          <paragraph>
+                                             <num>2a.</num>
+                                             <subparagraph>
+                                                <content>
+                                                   <p>The Commission shall adopt, by means of implementing acts, measures relating to the codes and their format to be used in respect of the data referred to in paragraph 1 of this Article.</p>
+                                                </content>
+                                             </subparagraph>
+                                             <subparagraph>
+                                                <content>
+                                                   <p>Those implementing acts shall be adopted in accordance with the examination procedure referred to in Article 11(2).&apos;;</p>
+                                                </content>
+                                             </subparagraph>
+                                          </paragraph>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <alinea>
+                              <content>
+                                 <p>in paragraph 4, the second subparagraph is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <paragraph>
+                                             <content>
+                                                <p>&apos;The Commission is empowered to adopt delegated acts in accordance with Article 10a relating to those limited sets of data.&apos;;</p>
+                                             </content>
+                                          </paragraph>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(c)</num>
+                           <alinea>
+                              <content>
+                                 <p>the following paragraph is added:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <paragraph>
+                                             <num>&apos;5.</num>
+                                             <content>
+                                                <p>When exercising the powers delegated in paragraphs 2 and 4, the Commission shall ensure that the delegated acts do not impose a significant additional burden on the Member States or on the respondents.&apos;;</p>
+                                             </content>
+                                          </paragraph>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                     </list>
+                  </point>
+                  <point>
+                     <num>(4)</num>
+                     <alinea>
+                        <content>
+                           <p>Article 6 is amended as follows:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <alinea>
+                              <content>
+                                 <p>in paragraph 2, the third subparagraph is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <paragraph>
+                                             <content>
+                                                <p>&apos;The Commission shall adopt, by means of implementing acts, measures relating to the linking of the data and the statistics to be compiled.</p>
+                                             </content>
+                                          </paragraph>
+                                          <paragraph>
+                                             <content>
+                                                <p>Those implementing acts shall be adopted in accordance with the examination procedure referred to in Article 11(2).&apos;;</p>
+                                             </content>
+                                          </paragraph>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <alinea>
+                              <content>
+                                 <p>paragraph 3 is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <paragraph>
+                                             <num>&apos;3.</num>
+                                             <subparagraph>
+                                                <content>
+                                                   <p>Every two years Member States shall compile annual statistics on trade broken down by invoicing currency.</p>
+                                                </content>
+                                             </subparagraph>
+                                             <subparagraph>
+                                                <content>
+                                                   <p>Member States shall compile the statistics using a representative sample of records on imports and exports from customs declarations which contain the data on the invoicing currency. If the invoicing currency for exports is not available on the customs declaration, a survey shall be carried out to collect the required data.</p>
+                                                </content>
+                                             </subparagraph>
+                                             <subparagraph>
+                                                <content>
+                                                   <p>The Commission is empowered to adopt delegated acts in accordance with Article 10a relating to the level of aggregation for partner countries, goods and currencies. When exercising those powers, the Commission shall ensure that the delegated acts do not impose a significant additional burden on the Member States or on the respondents.&apos;;</p>
+                                                </content>
+                                             </subparagraph>
+                                          </paragraph>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                     </list>
+                  </point>
+                  <point>
+                     <num>(5)</num>
+                     <alinea>
+                        <content>
+                           <p>Article 8 is amended as follows:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <alinea>
+                              <content>
+                                 <p>paragraph 1 is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <paragraph>
+                                             <num>&apos;1.</num>
+                                             <subparagraph>
+                                                <content>
+                                                   <p>Member States shall transmit to the Commission (Eurostat) the statistics referred to in Article 6(1) no later than 40 days after the end of each monthly reference period. Member States shall ensure that the statistics contain information on all imports and exports in the reference period in question, making adjustments where records are not available.</p>
+                                                </content>
+                                             </subparagraph>
+                                             <subparagraph>
+                                                <content>
+                                                   <p>Where the statistics transmitted are subject to revisions, Member States shall transmit the revised results no later than the last day of the month following the date on which the revised data became available.</p>
+                                                </content>
+                                             </subparagraph>
+                                             <subparagraph>
+                                                <content>
+                                                   <p>Member States shall include in the results transmitted to the Commission (Eurostat) any statistical information which is confidential.</p>
+                                                </content>
+                                             </subparagraph>
+                                             <subparagraph>
+                                                <content>
+                                                   <p>The Commission shall adopt, by means of implementing acts, measures relating to the uniform technical specifications for the content and coverage of the transmitted statistics. Those implementing acts shall be adopted in accordance with the examination procedure referred to in Article 11(2).&apos;;</p>
+                                                </content>
+                                             </subparagraph>
+                                          </paragraph>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <alinea>
+                              <content>
+                                 <p>paragraph 2 is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <paragraph>
+                                             <num>&apos;2.</num>
+                                             <subparagraph>
+                                                <content>
+                                                   <p>The statistics on trade by business characteristics referred to in Article 6(2) shall be transmitted to the Commission (Eurostat) within 18 months of the end of the reference year.</p>
+                                                </content>
+                                             </subparagraph>
+                                             <subparagraph>
+                                                <content>
+                                                   <p>The statistics on trade broken down by invoicing currency referred to in Article 6(3) shall be transmitted to the Commission (Eurostat) within three months of the end of the reference year.&apos;;</p>
+                                                </content>
+                                             </subparagraph>
+                                          </paragraph>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                     </list>
+                  </point>
+                  <point>
+                     <num>(6)</num>
+                     <alinea>
+                        <content>
+                           <p>the following Article is inserted:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <article xml:id="art_d382e499">
+                                       <num>&apos;Article 10a</num>
+                                       <heading>Exercise of the delegation</heading>
+                                       <paragraph>
+                                          <num>1.</num>
+                                          <content>
+                                             <p>The power to adopt delegated acts is conferred on the Commission subject to the conditions laid down in this Article.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>2.</num>
+                                          <content>
+                                             <p>The power to adopt delegated acts referred to in Articles 3(2), (3) and (4), 4(5), 5(2) and (4), and 6(3) shall be conferred on the Commission for a period of five years from 20 October 2016. The Commission shall draw up a report in respect of the delegation of power not later than nine months before the end of the five-year period. The delegation of power shall be tacitly extended for periods of an identical duration, unless the European Parliament or the Council opposes such extension not later than three months before the end of each period.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>3.</num>
+                                          <content>
+                                             <p>The delegation of power referred to in Articles 3(2), (3) and (4), 4(5), 5(2) and (4), and 6(3) may be revoked at any time by the European Parliament or by the Council. A decision to revoke shall put an end to the delegation of the power specified in that decision. It shall take effect the day following the publication of the decision in the <i>Official Journal of the European Union</i> or at a later date specified therein. It shall not affect the validity of any delegated acts already in force.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>4.</num>
+                                          <content>
+                                             <p>Before adopting a delegated act, the Commission shall consult experts designated by each Member State in accordance with the principles laid down in the Interinstitutional Agreement of 13 April 2016 on Better Law-Making<authorialNote placement="bottom" marker="7">
+                                                   <p>OJ L 123, 12.5.2016, p. 1.&apos;;</p>
+                                                </authorialNote>.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>5.</num>
+                                          <content>
+                                             <p>As soon as it adopts a delegated act, the Commission shall notify it simultaneously to the European Parliament and to the Council.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>6.</num>
+                                          <content>
+                                             <p>A delegated act adopted pursuant to Articles 3(2), (3) and (4), 4(5), 5(2) and (4), and 6(3) shall enter into force only if no objection has been expressed either by the European Parliament or the Council within a period of three months of notification of that act to the European Parliament and the Council or if, before the expiry of that period, the European Parliament and the Council have both informed the Commission that they will not object. That period shall be extended by three months at the initiative of the European Parliament or of the Council.</p>
+                                          </content>
+                                       </paragraph>
+                                    </article>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(7)</num>
+                     <alinea>
+                        <content>
+                           <p>Article 11 is replaced by the following:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <article xml:id="art_d382e561">
+                                       <num>&apos;Article 11</num>
+                                       <heading>Committee procedure</heading>
+                                       <paragraph>
+                                          <num>1.</num>
+                                          <content>
+                                             <p>The Commission shall be assisted by the European Statistical System Committee established by Regulation (EC) No 223/2009. That committee shall be a committee within the meaning of Regulation (EU) No 182/2011 of the European Parliament and of the Council<authorialNote placement="bottom" marker="8">
+                                                   <p>Regulation (EU) No 182/2011 of the European Parliament and of the Council of 16 February 2011 laying down the rules and general principles concerning mechanisms for control by Member States of the Commission&apos;s exercise of implementing powers (OJ L 55, 28.2.2011, p. 13).&apos;.</p>
+                                                </authorialNote>.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>2.</num>
+                                          <content>
+                                             <p>Where reference is made to this paragraph, Article 5 of Regulation (EU) No 182/2011 shall apply.</p>
+                                          </content>
+                                       </paragraph>
+                                    </article>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+               </list>
+            </paragraph>
+         </article>
+         <article xml:id="art_d382e589">
+            <num>Article 2</num>
+            <heading/>
+            <paragraph>
+               <content>
+                  <p>This Regulation shall not affect the procedures for the adoption of measures provided for in Regulation (EC) No 471/2009 that have been initiated but not completed before the entry into force of this Regulation.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d382e594">
+            <num>Article 3</num>
+            <heading/>
+            <paragraph>
+               <content>
+                  <p>This Regulation shall enter into force on the twentieth day following that of its publication in the <i>Official Journal of the European Union</i>.</p>
+               </content>
+            </paragraph>
+         </article>
+         <clause>
+            <content>
+               <p>This Regulation shall be binding in its entirety and directly applicable in all Member States.</p>
+            </content>
+         </clause>
+      </body>
+      <conclusions>
+         <p>Done at Strasbourg, 14 September 2016.</p>
+         <block name="signatory">
+            <signature>
+               <organization refersTo="">For the European Parliament</organization>
+               <role refersTo="">The President</role>
+               <person refersTo="">M. SCHULZ</person>
+            </signature>
+            <signature>
+               <organization refersTo="">For the Council</organization>
+               <role refersTo="">The President</role>
+               <person refersTo="">I. KORČOK</person>
+            </signature>
+         </block>
+      </conclusions>
+   </bill>
+</akomaNtoso>

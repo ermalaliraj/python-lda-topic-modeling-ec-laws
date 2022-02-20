@@ -1,0 +1,520 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"
+            xmlns:fmx="http://formex.publications.europa.eu/schema/formex-05.21-20110601.xd"
+            xmlns:leos="urn:eu:europa:ec:leos"
+            xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <bill name="">
+      <meta xmlns:fn="http://www.w3.org/2005/xpath-functions">
+         <identification source="~COM">
+            <FRBRWork>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRcountry value=""/>
+            </FRBRWork>
+            <FRBRExpression>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+            </FRBRManifestation>
+         </identification>
+      </meta>
+      <preface>
+         <longTitle>
+            <p>
+               <docStage/>
+               <docType>COMMISSION REGULATION (EU) 2016/1199</docType>of 22 July 2016<docPurpose>amending Regulation (EU) No 965/2012 as regards operational approval of performance-based navigation, certification and oversight of data services providers and helicopter offshore operations, and correcting that Regulation</docPurpose>
+            </p>
+         </longTitle>
+      </preface>
+      <preamble>
+         <formula name="actingEntity">
+            <p>THE EUROPEAN COMMISSION,</p>
+         </formula>
+         <citations>
+            <citation>
+               <p>Having regard to the Treaty on the Functioning of the European Union,</p>
+            </citation>
+            <citation>
+               <p>Having regard to Regulation (EC) No 216/2008 of the European Parliament and of the Council of 20 February 2008 on common rules in the field of civil aviation and establishing a European Aviation Safety Agency, and repealing Council Directive 91/670/EEC, Regulation (EC) No 1592/2002 and Directive 2004/36/EC<authorialNote placement="bottom" marker="1">
+                     <p>OJ L 79, 19.3.2008, p. 1.</p>
+                  </authorialNote>, and in particular Article 8(5) thereof,</p>
+            </citation>
+         </citations>
+         <recitals xml:id="recs_d656e68">
+            <intro>
+               <p>Whereas:</p>
+            </intro>
+            <recital xml:id="rec_d656e71">
+               <num>(1)</num>
+               <p>Commission Regulation (EU) No 965/2012<authorialNote placement="bottom" marker="2">
+                     <p>Commission Regulation (EU) No 965/2012 of 5 October 2012 laying down technical requirements and administrative procedures related to air operations pursuant to Regulation (EC) No 216/2008 of the European Parliament and of the Council (OJ L 296, 25.10.2012, p. 1).</p>
+                  </authorialNote> establishes conditions for the safe operation of aircraft.</p>
+            </recital>
+            <recital xml:id="rec_d656e87">
+               <num>(2)</num>
+               <p>Incorrect aeronautical data or information being fed into airborne aircraft systems can pose significant risks to flight safety. It should therefore be ensured that data services providers process aeronautical data and information in a way that guarantees their quality and meets the requirements set by aircraft manufacturers for the airspace end-users&apos; intended use.</p>
+            </recital>
+            <recital xml:id="rec_d656e93">
+               <num>(3)</num>
+               <p>Regulation (EU) No 965/2012 requires a specific approval for all performance-based navigation (&apos;PBN&apos;) operations, except for some basic navigational methods. Cases requiring specific approval should be significantly reduced in order to alleviate the unnecessary economic and administrative burden on the general aviation operators, taking into account the experience and maturity already reached in approach operations utilising the global navigation satellite system (&apos;GNSS&apos;), and in order to ensure consistency with the latest international safety standards.</p>
+            </recital>
+            <recital xml:id="rec_d656e107">
+               <num>(4)</num>
+               <p>In order to facilitate compliance by the operators with the rules related to transport of dangerous goods as well as those related to upper torso restraint systems on flight crew seats and on passenger seats of certain small aeroplanes, and thus to improve safety, it is necessary to adapt those rules to the type of operation and to the complexity of aircraft used.</p>
+            </recital>
+            <recital xml:id="rec_d656e113">
+               <num>(5)</num>
+               <p>Pursuant to Regulation (EU) No 965/2012, certain small non-commercial operators must establish a management system within their organisation because they operate complex motor-powered aircraft. However, in certain cases, such as in the non-commercial operation of lighter twin-turboprop aeroplanes, those operators may have difficulties in implementing the management system requirements contained in Annex III to that Regulation. As the compliance effort that is required of such operators is disproportionate to the benefits that implementing those requirements bring to the safety of their operations, those operators should be excluded from the scope of Annex VI to Regulation (EU) No 965/2012 and, instead, be allowed to comply with the requirements set out in its Annex VII. For consistency, training organisations which conduct flight training on the same lighter twin-turboprop aeroplanes should also be allowed to comply with the requirements set out in its Annex VII.</p>
+            </recital>
+            <recital xml:id="rec_d656e119">
+               <num>(6)</num>
+               <p>Annex VII to Regulation (EU) No 965/2012 requires carrying and using oxygen when flying above a fixed pressure altitude. Based on the principle of risk differentiation, whereby the level of regulatory protection afforded to stakeholders depends on their ability to assess and control risks, the need of oxygen in non-pressurised aircraft engaged in non-commercial operations should be determined by the pilot of such aircraft, taking into account certain objective factors.</p>
+            </recital>
+            <recital xml:id="rec_d656e126">
+               <num>(7)</num>
+               <p>Helicopter offshore operations (&apos;HOFO&apos;) pose certain specific safety risks which are not adequately addressed by Regulation (EU) No 965/2012 as it stands. Some Member States therefore adopt additional requirements, including the mandatory use of new technologies, to mitigate such risks and maintain safety levels. However, in order to ensure that the safety objectives of Regulation (EC) No 216/2008 are achieved and in order to guarantee a level playing field for air operators, common safety measures should be established at Union level, taking into account the experience at national level as well as the developments in the sector of helicopter offshore operations.</p>
+            </recital>
+            <recital xml:id="rec_d656e136">
+               <num>(8)</num>
+               <p>Certain editorial errors leading to implementation difficulties have also been identified in Regulation (EU) No 965/2012.</p>
+            </recital>
+            <recital xml:id="rec_d656e142">
+               <num>(9)</num>
+               <p>Regulation (EU) No 965/2012 should therefore be amended and corrected accordingly.</p>
+            </recital>
+            <recital xml:id="rec_d656e149">
+               <num>(10)</num>
+               <p>It is necessary to provide sufficient time for the operators concerned and the competent authorities of the Member States to adjust to the new rules on aeronautical data and information and on helicopter offshore operations provided for in this Regulation.</p>
+            </recital>
+            <recital xml:id="rec_d656e155">
+               <num>(11)</num>
+               <p>The Commission intends to revise the rules related to balloons and sailplanes set out in Regulation (EU) No 965/2012, in the context of the initiative for simpler, lighter and better legislation on civil aviation. The preparatory work for that revision is currently ongoing. The date of application of those rules should therefore now be adapted so as to ensure that that revision can be completed and those rules can be amended where necessary before they start to apply.</p>
+            </recital>
+            <recital xml:id="rec_d656e161">
+               <num>(12)</num>
+               <p>In the interest of legal clarity and harmonised implementation of the common requirements throughout the Union there should be fixed dates of application of those requirements, either immediately upon entry into force or at a future time. The transitional measures and tasks to be duly implemented by all Member States should be included in the legal act, so as to avoid legal concerns and uncertainty. The possibility to use opt-outs as provided for in some Commission implementing regulations in the field of aviation safety should be restricted to duly justified cases, where it is absolutely necessary, and a predictable and transparent system should be employed, instead. It is therefore imperative that Regulation (EU) No 965/2012 is amended to account for these considerations.</p>
+            </recital>
+            <recital xml:id="rec_d656e167">
+               <num>(13)</num>
+               <p>The measures provided for in this Regulation are based on the opinions<authorialNote placement="bottom" marker="3">
+                     <p>European Aviation Safety Agency Opinion No 02/2015 of 12.3.2015 for a Commission Regulation establishing technical requirements and operating procedures for the provision of data to airspace users for the purpose of air navigation; European Aviation Safety Agency Opinion No 03/2015 of 31.3.2015 for a Commission Regulation on revision of operational approval criteria for Performance Based Navigation (PBN); European Aviation Safety Agency Opinion No 04/2015 of 8.5.2015 for a Commission Regulation on specific approval for helicopter offshore operations.</p>
+                  </authorialNote> issued by the European Aviation Safety Agency in accordance with Article 17(2)(b) and Article 19(1) of Regulation (EC) No 216/2008.</p>
+            </recital>
+            <recital xml:id="rec_d656e186">
+               <num>(14)</num>
+               <p>The measures provided for in this Regulation are in accordance with the opinion of the Committee established by Article 65 of Regulation (EC) No 216/2008,</p>
+            </recital>
+         </recitals>
+         <formula name="enactingFormula">
+            <p>HAS ADOPTED THIS REGULATION:</p>
+         </formula>
+      </preamble>
+      <body>
+         <article xml:id="art_d656e195" leos:compliant="false">
+            <num>Article 1</num>
+            <heading/>
+            <paragraph>
+               <subparagraph>
+                  <content>
+                     <p>Regulation (EU) No 965/2012 is amended as follows:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(1)</num>
+                     <alinea>
+                        <content>
+                           <p>Article 5(2) is amended as follows:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <content>
+                              <p>the word &apos;and&apos; at the end of point (e) is deleted;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <alinea>
+                              <content>
+                                 <p>the following point (g) is added:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <point>
+                                             <num>&apos;(g)</num>
+                                             <content>
+                                                <p>helicopters used for offshore operations (HOFO).&apos;</p>
+                                             </content>
+                                          </point>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                     </list>
+                  </point>
+                  <point>
+                     <num>(2)</num>
+                     <alinea>
+                        <content>
+                           <p>Article 6 is amended as follows:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <alinea>
+                              <content>
+                                 <p>paragraph 4 is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <paragraph>
+                                             <num>&apos;4.</num>
+                                             <content>
+                                                <p>Notwithstanding Article 5, Member States may, until 30 June 2018, continue to require a specific approval and additional requirements regarding operational procedures, equipment, crew qualification and training for CAT helicopter offshore operations in accordance with their national law. Member States shall notify the Commission and the Agency of the additional requirements being applied to such specific approvals. Those requirements shall not be less restrictive than those of Annexes III and IV.&apos;;</p>
+                                             </content>
+                                          </paragraph>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <content>
+                              <p>paragraph 7 is deleted;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(c)</num>
+                           <alinea>
+                              <content>
+                                 <p>the following paragraphs 8 and 9 are added:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <paragraph>
+                                             <num>&apos;8.</num>
+                                             <content>
+                                                <p>By way of derogation from the first sentence of Article 5(3), operators of complex motor-powered aeroplanes with a maximum certificated take-off mass (MCTOM) at or below 5700 kg, equipped with turboprop engines, involved in non-commercial operations, shall operate those aircraft only in accordance with Annex VII.</p>
+                                             </content>
+                                          </paragraph>
+                                          <paragraph>
+                                             <num>9.</num>
+                                             <content>
+                                                <p>By way of derogation from Article 5(5)(a), training organisations shall, when conducting flight training on complex motor-powered aeroplanes with a maximum certificated take-off mass (MCTOM) at or below 5700 kg, equipped with turboprop engines, operate those aircraft in accordance with Annex VII.&apos;</p>
+                                             </content>
+                                          </paragraph>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                     </list>
+                  </point>
+                  <point>
+                     <num>(3)</num>
+                     <alinea>
+                        <content>
+                           <p>Article 10 is replaced by the following:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <article xml:id="art_d656e303">
+                                       <num>&apos;Article 10</num>
+                                       <heading>Entry into force</heading>
+                                       <paragraph>
+                                          <num>1.</num>
+                                          <subparagraph>
+                                             <content>
+                                                <p>This Regulation shall enter into force on the third day following that of its publication in the <i>Official Journal of the European Union</i>.</p>
+                                             </content>
+                                          </subparagraph>
+                                          <subparagraph>
+                                             <content>
+                                                <p>It shall apply from 28 October 2012, subject to paragraphs 2, 3, 4, 5 and 6 below.</p>
+                                             </content>
+                                          </subparagraph>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>2.</num>
+                                          <content>
+                                             <p>Annexes II and VII shall apply to non-commercial operations with balloons and sailplanes from 25 August 2013, except for Member States that have decided not to apply all or part of them in accordance with the provisions in force at the time of that decision and to the extent they have decided to do so. Those Member States shall apply Annexes II and VII from 8 April 2018 to non-commercial operations with balloons and from 8 April 2019 to non-commercial operations with sailplanes or from the dates indicated in their decision, as the case may be.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>3.</num>
+                                          <content>
+                                             <p>Annexes II, III, VII and VIII shall apply to specialised operations with balloons and sailplanes from 1 July 2014, except for Member States that have decided not to apply all or part of them in accordance with the provisions in force at the time of that decision, and to the extent they have decided to do so. Those Member States shall apply Annexes II, III, VII and VIII from 8 April 2018 to specialised operations with balloons and from 8 April 2019 to specialised operations with sailplanes or from the dates indicated in their decision, as the case may be.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>4.</num>
+                                          <content>
+                                             <p>Annexes II, III, VII and VIII shall apply to specialised operations with aeroplanes and helicopters from 1 July 2014, except for Member States that have decided not to apply all or part of them in accordance with the provisions in force at the time of that decision and to the extent they have decided to do so. Those Member States shall apply Annexes II, III, VII and VIII to specialised operations with aeroplanes and helicopters from 21 April 2017 or from the dates indicated in their decision, as the case may be.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>5.</num>
+                                          <subparagraph>
+                                             <content>
+                                                <p>Annexes II, III and IV shall apply to:</p>
+                                             </content>
+                                          </subparagraph>
+                                          <list>
+                                             <point>
+                                                <num>(a)</num>
+                                                <content>
+                                                   <p>CAT operations starting and ending at the same aerodrome or operating site with Performance class B aeroplanes or non-complex helicopters from 1 July 2014, except for Member States that have decided not to apply all or part of them in accordance with the provisions in force at the time of that decision and to the extent they have decided to do so. Those Member States shall apply Annexes II, III and IV to CAT operations starting and ending at the same aerodrome or operating site with Performance class B aeroplanes or non-complex helicopters from 21 April 2017 or from the dates indicated in their decision, as the case may be;</p>
+                                                </content>
+                                             </point>
+                                             <point>
+                                                <num>(b)</num>
+                                                <content>
+                                                   <p>CAT operations with balloons and sailplanes from 1 July 2014, except for Member States that have decided not to apply all or part of them in accordance with the provisions in force at the time of that decision and to the extent they have decided to do so. Those Member States shall apply Annexes II, III and IV from 8 April 2018 to CAT operations with balloons, and from 8 April 2019 to CAT operations with sailplanes or from the dates indicated in their decision, as the case may be.</p>
+                                                </content>
+                                             </point>
+                                          </list>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>6.</num>
+                                          <subparagraph>
+                                             <content>
+                                                <p>The following shall apply during the periods provided for in paragraphs 2, 3, 4 and 5 of this Article, as applicable:</p>
+                                             </content>
+                                          </subparagraph>
+                                          <list>
+                                             <point>
+                                                <num>(a)</num>
+                                                <content>
+                                                   <p>The competent authorities shall, from the date of entry into force of the requirements of this Regulation, take gradual and effective measures to comply with those requirements, including by adapting their organisation and management system, training of personnel, procedures and manuals and oversight programme;</p>
+                                                </content>
+                                             </point>
+                                             <point>
+                                                <num>(b)</num>
+                                                <content>
+                                                   <p>Operators shall adapt their management system, training programmes, procedures and manuals to be compliant with the requirements of this Regulation, as relevant, no later than the date of application of those requirements;</p>
+                                                </content>
+                                             </point>
+                                             <point>
+                                                <num>(c)</num>
+                                                <alinea>
+                                                   <content>
+                                                      <p>Until the date of application of the relevant requirements of this Regulation, Member States shall continue to issue, renew or modify certificates, authorisations and approvals in accordance with the rules in force before the entry into force of those requirements or, in the case of CAT operations starting and ending at the same aerodrome or operating site with Performance class B aeroplanes or non-complex helicopters, in accordance with:</p>
+                                                   </content>
+                                                </alinea>
+                                                <list>
+                                                   <indent>
+                                                      <num>-</num>
+                                                      <content>
+                                                         <p>Annex III to Regulation (EEC) No 3922/91 and related national exemptions in accordance with Article 8(2) of Regulation (EEC) No 3922/91, for aeroplanes; and</p>
+                                                      </content>
+                                                   </indent>
+                                                   <indent>
+                                                      <num>-</num>
+                                                      <content>
+                                                         <p>national requirements, for helicopters.</p>
+                                                      </content>
+                                                   </indent>
+                                                </list>
+                                             </point>
+                                             <point>
+                                                <num>d)</num>
+                                                <content>
+                                                   <p>Certificates, authorisations and approvals issued by Member States before the date of application of the relevant requirements of this Regulation shall be deemed to have been issued in accordance with those requirements. However, they shall be replaced by certificates, authorisations and approvals, as appropriate, issued in accordance with this Regulation no later than six months from the date of application of the relevant requirements of this Regulation;</p>
+                                                </content>
+                                             </point>
+                                             <point>
+                                                <num>e)</num>
+                                                <content>
+                                                   <p>Operators subject to a declaration obligation in accordance with this Regulation shall submit their declarations no later than the date of application of the relevant requirements of this Regulation.&apos;</p>
+                                                </content>
+                                             </point>
+                                          </list>
+                                       </paragraph>
+                                    </article>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(4)</num>
+                     <content>
+                        <p>Annexes I, II, IV, V, VI, VII and VIII are amended in accordance with the Annex to this Regulation.</p>
+                     </content>
+                  </point>
+               </list>
+            </paragraph>
+         </article>
+         <article xml:id="art_d656e448" leos:compliant="false">
+            <num>Article 2</num>
+            <heading/>
+            <paragraph>
+               <subparagraph>
+                  <content>
+                     <p>Regulation (EU) No 965/2012 is corrected as follows:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(1)</num>
+                     <alinea>
+                        <content>
+                           <p>In Annex IV (Part-CAT), CAT.POL.A.240, point (b)(4) is replaced by the following:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <point>
+                                       <num>&apos;(4)</num>
+                                       <content>
+                                          <p>the flight crew has obtained adequate knowledge of the route to be flown and of the procedures to be used in accordance with Subpart FC of Part-ORO.&apos;;</p>
+                                       </content>
+                                    </point>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(2)</num>
+                     <alinea>
+                        <content>
+                           <p>In Annex VII (Part-NCO), the text of NCO.GEN.103 is replaced by the following:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <alinea>
+                                       <content>
+                                          <p>&apos;Introductory flights referred to in Article 6(4a)(c) of this Regulation, when conducted in accordance with this Annex, shall:</p>
+                                       </content>
+                                    </alinea>
+                                    <list>
+                                       <point>
+                                          <num>(a)</num>
+                                          <content>
+                                             <p>start and end at the same aerodrome or operating site, except for balloons and sailplanes;</p>
+                                          </content>
+                                       </point>
+                                       <point>
+                                          <num>(b)</num>
+                                          <content>
+                                             <p>be operated under VFR by day;</p>
+                                          </content>
+                                       </point>
+                                       <point>
+                                          <num>(c)</num>
+                                          <content>
+                                             <p>be overseen by a nominated person responsible for their safety; and</p>
+                                          </content>
+                                       </point>
+                                       <point>
+                                          <num>(d)</num>
+                                          <content>
+                                             <p>comply with any other conditions stipulated by the competent authority.&apos;.</p>
+                                          </content>
+                                       </point>
+                                    </list>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+               </list>
+            </paragraph>
+         </article>
+         <article xml:id="art_d656e510">
+            <num>Article 3</num>
+            <heading/>
+            <paragraph>
+               <content>
+                  <p>This Regulation shall enter into force on the twentieth day following that of its publication in the <i>Official Journal of the European Union</i>.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <content>
+                  <p>It shall apply from 25 August 2016.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <subparagraph>
+                  <content>
+                     <p>However,</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <content>
+                        <p>point 1 of Article 1 and points 1(a), 1(b), 1(c), 1(d), 2(c), 3(a), 3(e), 3(g), 3(m), 3(n), 3(o), 4(c), 5(d), 5(j), 5(k), 5(l), 7(d), 7(k) and 7(l) of the Annex shall apply from 1 July 2018;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <content>
+                        <p>points 3(l), 3(q), 5(i), 5(n), 6(k), 6(n), 7(j) and 7(n) of the Annex shall apply from 1 January 2019.</p>
+                     </content>
+                  </point>
+               </list>
+            </paragraph>
+         </article>
+         <clause>
+            <content>
+               <p>This Regulation shall be binding in its entirety and directly applicable in all Member States.</p>
+            </content>
+         </clause>
+      </body>
+      <conclusions>
+         <p>Done at Brussels, 22 July 2016.</p>
+         <block name="signatory">
+            <signature>
+               <organization refersTo="">For the Commission</organization>
+               <role refersTo="">The President</role>
+               <person refersTo="">Jean-Claude JUNCKER</person>
+            </signature>
+         </block>
+      </conclusions>
+   </bill>
+</akomaNtoso>

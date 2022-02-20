@@ -1,0 +1,396 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"
+            xmlns:fmx="http://formex.publications.europa.eu/schema/formex-05.21-20110601.xd"
+            xmlns:leos="urn:eu:europa:ec:leos"
+            xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <bill name="">
+      <meta xmlns:fn="http://www.w3.org/2005/xpath-functions">
+         <identification source="~COM">
+            <FRBRWork>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRcountry value=""/>
+            </FRBRWork>
+            <FRBRExpression>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+            </FRBRManifestation>
+         </identification>
+      </meta>
+      <preface>
+         <longTitle>
+            <p>
+               <docStage/>
+               <docType>REGULATION (EU, Euratom) 2019/493 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL</docType>of 25 March 2019<docPurpose>amending Regulation (EU, Euratom) No 1141/2014 as regards a verification procedure related to infringements of rules on the protection of personal data in the context of elections to the European Parliament</docPurpose>
+            </p>
+         </longTitle>
+      </preface>
+      <preamble>
+         <formula name="actingEntity">
+            <p>THE EUROPEAN PARLIAMENT AND THE COUNCIL OF THE EUROPEAN UNION,</p>
+         </formula>
+         <citations>
+            <citation>
+               <p>Having regard to the Treaty on the Functioning of the European Union, and in particular Article 224 thereof,</p>
+            </citation>
+            <citation>
+               <p>Having regard to the Treaty establishing the European Atomic Energy Community, and in particular Article 106a thereof,</p>
+            </citation>
+            <citation>
+               <p>Having regard to the proposal from the European Commission,</p>
+            </citation>
+            <citation>
+               <p>After transmission of the draft legislative act to the national parliaments,</p>
+            </citation>
+            <citation>
+               <p>Having regard to the opinion of the European Economic and Social Committee<authorialNote placement="bottom" marker="1">
+                     <p>Opinion of 12 December 2018 (not yet published in the Official Journal).</p>
+                  </authorialNote>,</p>
+            </citation>
+            <citation>
+               <p>After consulting the Committee of the Regions,</p>
+            </citation>
+            <citation>
+               <p>Acting in accordance with the ordinary legislative procedure<authorialNote placement="bottom" marker="2">
+                     <p>Position of the European Parliament of 12 March 2019 (not yet published in the Official Journal) and decision of the Council of 19 March 2019.</p>
+                  </authorialNote>,</p>
+            </citation>
+         </citations>
+         <recitals xml:id="recs_d136e88">
+            <intro>
+               <p>Whereas:</p>
+            </intro>
+            <recital xml:id="rec_d136e91">
+               <num>(1)</num>
+               <p>Regulation (EU, Euratom) No 1141/2014 of the European Parliament and of the Council<authorialNote placement="bottom" marker="3">
+                     <p>Regulation (EU, Euratom) No 1141/2014 of the European Parliament and of the Council of 22 October 2014 on the statute and funding of European political parties and European political foundations (OJ L 317, 4.11.2014, p. 1).</p>
+                  </authorialNote> established a specific European legal status for European political parties and European political foundations and provides for their funding from the general budget of the European Union. It also established an Authority for European political parties and European political foundations (&apos;the Authority&apos;).</p>
+            </recital>
+            <recital xml:id="rec_d136e111">
+               <num>(2)</num>
+               <p>In order to enable the Authority to fully fulfil its tasks, including the new ones provided for in this Regulation, and to enable it to do so in an independent manner, it is necessary to staff it in a permanent way and to confer the powers of an appointing authority on the Director of the Authority.</p>
+            </recital>
+            <recital xml:id="rec_d136e117">
+               <num>(3)</num>
+               <p>Recent events have demonstrated the potential risks to electoral processes and to democracy that can arise from the unlawful use of personal data. It is therefore necessary to protect the integrity of the European democratic process by providing for financial sanctions in situations where European political parties or European political foundations take advantage of infringements of rules on protection of personal data with a view to influencing the outcome of elections to the European Parliament.</p>
+            </recital>
+            <recital xml:id="rec_d136e123">
+               <num>(4)</num>
+               <p>To that end, a verification procedure should be established whereby the Authority must, in certain circumstances, ask the committee of independent eminent persons established by Regulation (EU, Euratom) No 1141/2014 to assess whether a European political party or a European political foundation has deliberately influenced or attempted to influence the outcome of elections to the European Parliament by taking advantage of an infringement of the applicable rules on protection of personal data. Where, in accordance with the verification procedure, that is found to be the case, the Authority should impose sanctions under the effective, proportionate and dissuasive sanctioning system established by Regulation (EU, Euratom) No 1141/2014.</p>
+            </recital>
+            <recital xml:id="rec_d136e129">
+               <num>(5)</num>
+               <p>When the Authority imposes a sanction on a European political party or foundation in accordance with the verification procedure, it should take due account of the <i>ne bis in idem</i> principle, whereby sanctions cannot be imposed twice for the same offence. The Authority should also ensure that the principle of legal certainty is respected and that the European political party or European political foundation concerned has been given the opportunity to be heard.</p>
+            </recital>
+            <recital xml:id="rec_d136e139">
+               <num>(6)</num>
+               <p>The new procedure should exist alongside the current procedures used for the verification of compliance with registration conditions and in cases of manifest and serious breaches of the values on which the Union is founded. However, the time limits for verification of compliance with registration conditions and requirements set in Article 10 of Regulation (EU, Euratom) No 1141/2014 should not apply to the new procedure.</p>
+            </recital>
+            <recital xml:id="rec_d136e145">
+               <num>(7)</num>
+               <p>Since the new procedure is triggered by a decision of a competent national data protection supervisory authority, it should be possible for the European political party or European political foundation concerned to request that the sanction be reviewed if the decision of that national supervisory authority is repealed, or a remedy against that decision has been granted, provided that all national remedies have been exhausted.</p>
+            </recital>
+            <recital xml:id="rec_d136e151">
+               <num>(8)</num>
+               <p>In order to ensure that the 2019 elections to the European Parliament take place in accordance with strong democratic rules and in full respect of the European values of democracy, rule of law and respect of fundamental rights, it is important that the provisions on the new verification procedure enter into force in timely manner and that the procedure applies as soon as possible. In order to achieve this, the amendments to Regulation (EU, Euratom) No 1141/2014 introduced by this Regulation should enter into force on the date of its publication in the <i>Official Journal of the European Union</i>.</p>
+            </recital>
+            <recital xml:id="rec_d136e160">
+               <num>(9)</num>
+               <p>Regulation (EU, Euratom) No 1141/2014 should therefore be amended accordingly,</p>
+            </recital>
+         </recitals>
+         <formula name="enactingFormula">
+            <p>HAVE ADOPTED THIS REGULATION:</p>
+         </formula>
+      </preamble>
+      <body>
+         <article xml:id="art_d136e169" leos:compliant="false">
+            <num>Article 1</num>
+            <heading/>
+            <paragraph>
+               <subparagraph>
+                  <content>
+                     <p>Regulation (EU, Euratom) No 1141/2014 is amended as follows:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(1)</num>
+                     <alinea>
+                        <content>
+                           <p>In Article 6, paragraph (5) is replaced by the following:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <paragraph>
+                                       <num>&apos;5.</num>
+                                       <subparagraph>
+                                          <content>
+                                             <p>The Director of the Authority shall be assisted by staff in respect of whom he or she shall exercise the powers conferred on the appointing authority by the Staff Regulations of Officials of the European Union and the powers conferred on the authority empowered to conclude contracts of employment of other servants by the Conditions of Employment of Other Servants of the Union, laid down in Council Regulation (EEC, Euratom, ECSC) No 259/68 (&apos;the appointing authority&apos;s powers&apos;). The Authority may make use in any areas of its work of other seconded national experts or of other staff not employed by the Authority.</p>
+                                          </content>
+                                       </subparagraph>
+                                       <subparagraph>
+                                          <content>
+                                             <p>The Staff Regulations and the Conditions of Employment of Other Servants and the rules adopted by agreement between the institutions of the Union for giving effect to those Staff Regulations and Conditions of Employment of Other Servants shall apply to the staff of the Authority.</p>
+                                          </content>
+                                       </subparagraph>
+                                       <subparagraph>
+                                          <content>
+                                             <p>The selection of the staff shall not be liable to result in a conflict of interests between their duties at the Authority and any other official duties, and they shall refrain from any act which is incompatible with the nature of their duties.&apos;</p>
+                                          </content>
+                                       </subparagraph>
+                                    </paragraph>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(2)</num>
+                     <alinea>
+                        <content>
+                           <p>In Article 10(3), the third subparagraph is replaced by the following:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <paragraph>
+                                       <content>
+                                          <p>&apos;The procedures laid down in the first and second subparagraphs shall not be initiated within a period of two months prior to elections to the European Parliament. That time limit shall not apply with regard to the procedure set out in Article 10a.&apos;</p>
+                                       </content>
+                                    </paragraph>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(3)</num>
+                     <alinea>
+                        <content>
+                           <p>The following Article is inserted:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <article xml:id="art_d136e219">
+                                       <num>&apos;Article 10a</num>
+                                       <heading>Verification procedure related to infringements of rules on the protection of personal data</heading>
+                                       <paragraph>
+                                          <num>1.</num>
+                                          <content>
+                                             <p>No European political party or European political foundation shall deliberately influence, or attempt to influence, the outcome of elections to the European Parliament by taking advantage of an infringement by a natural or legal person of the applicable rules on the protection of personal data.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>2.</num>
+                                          <content>
+                                             <p>If the Authority is informed of a decision of a national supervisory authority within the meaning of point 21 of Article 4 of Regulation (EU) 2016/679 of the European Parliament and of the Council<authorialNote placement="bottom" marker="4">
+                                                   <p>Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (General Data Protection Regulation) (OJ L 119, 4.5.2016, p. 1).&apos;</p>
+                                                </authorialNote> finding that a natural or legal person has infringed applicable rules on the protection of personal data, and if it follows from that decision, or if there are otherwise reasonable grounds to believe, that the infringement is linked to political activities by a European political party or a European political foundation in the context of elections to the European Parliament, the Authority shall refer this matter to the committee of independent eminent persons established by Article 11 of this Regulation. The Authority may, if necessary, liaise with the national supervisory authority concerned.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>3.</num>
+                                          <content>
+                                             <p>The committee referred to in paragraph 2 shall give an opinion as to whether the European political party or European political foundation concerned has deliberately influenced or attempted to influence the outcome of elections to the European Parliament by taking advantage of that infringement. The Authority shall request the opinion without undue delay, and no later than 1 month after being informed of the decision of the national supervisory authority. The Authority shall set a short, reasonable deadline for the committee to give its opinion. The committee shall comply with that deadline.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>4.</num>
+                                          <content>
+                                             <p>Having regard to the committee&apos;s opinion, the Authority shall decide, pursuant to point (a)(vii) of Article 27(2), whether to impose financial sanctions on the European political party or European political foundation concerned. The decision of the Authority shall be duly reasoned, in particular with regard to the committee&apos;s opinion, and shall be published expeditiously.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>5.</num>
+                                          <content>
+                                             <p>The procedure set out in this Article is without prejudice to the procedure set out in Article 10.</p>
+                                          </content>
+                                       </paragraph>
+                                    </article>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(4)</num>
+                     <alinea>
+                        <content>
+                           <p>In Article 11(3), the first subparagraph is replaced by the following:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <p><!--default P | TXT -->&apos;When requested by the Authority, the committee shall give an opinion on:</p>
+                                    <alinea>
+                                       <list>
+                                          <point>
+                                             <num>(a)</num>
+                                             <content>
+                                                <p>any possible manifest and serious breach of the values on which the Union is founded, as referred to in point (c) of Article 3(1) and point (c) of Article 3(2), by a European political party or a European political foundation;</p>
+                                             </content>
+                                          </point>
+                                          <point>
+                                             <num>(b)</num>
+                                             <content>
+                                                <p>whether a European political party or a European political foundation has deliberately influenced or attempted to influence the outcome of elections to the European Parliament by taking advantage of an infringement of the applicable rules on the protection of personal data.</p>
+                                             </content>
+                                          </point>
+                                       </list>
+                                    </alinea>
+                                    <paragraph>
+                                       <content>
+                                          <p>In the cases referred to in points (a) and (b) of the first subparagraph, the committee may request any relevant document or evidence from the Authority, the European Parliament, the European political party or European political foundation concerned, other political parties, political foundations or other stakeholders, and it may request to hear their representatives. In the case referred to in point (b) of the first subparagraph, the national supervisory authority referred to in Article 10a shall cooperate with the committee in accordance with applicable law.&apos;</p>
+                                       </content>
+                                    </paragraph>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(5)</num>
+                     <alinea>
+                        <content>
+                           <p>In Article 18, paragraph (2) is replaced by the following:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <paragraph>
+                                       <num>&apos;2.</num>
+                                       <content>
+                                          <p>The European political party and the European political foundation must, at the time of its application, comply with the obligations listed in Article 23, and, from the date of its application until the end of the financial year or of the action covered by the contribution or grant, remain registered in the Register and may not be the subject of any of the sanctions provided for in Article 27(1) and in point (a) (v), (vi) and (vii) of Article 27(2).&apos;</p>
+                                       </content>
+                                    </paragraph>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(6)</num>
+                     <alinea>
+                        <content>
+                           <p>Article 27 is amended as follows:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <alinea>
+                              <content>
+                                 <p>in point (a) of paragraph (2), the following point is added:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <point>
+                                             <num>&apos;(vii)</num>
+                                             <content>
+                                                <p>where, in accordance with the verification procedure provided for in Article 10a, it is established that a European political party or a European political foundation has deliberately influenced or attempted to influence the outcome of elections to the European Parliament by taking advantage of an infringement of the applicable rules on the protection of personal data.&apos;;</p>
+                                             </content>
+                                          </point>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <alinea>
+                              <content>
+                                 <p>the following paragraph is added:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <paragraph>
+                                             <num>&apos;7.</num>
+                                             <content>
+                                                <p>Where a decision of the national supervisory authority as referred to in Article 10a has been repealed, or where a remedy against such decision has been granted, provided that all national remedies have been exhausted, the Authority shall review any sanction imposed pursuant to point (a)(vii) of paragraph 2 at the request of the European political party or European political foundation concerned.&apos;</p>
+                                             </content>
+                                          </paragraph>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                     </list>
+                  </point>
+               </list>
+            </paragraph>
+         </article>
+         <article xml:id="art_d136e344">
+            <num>Article 2</num>
+            <heading/>
+            <paragraph>
+               <content>
+                  <p>This Regulation shall enter into force on the day of its publication in the <i>Official Journal of the European Union</i>.</p>
+               </content>
+            </paragraph>
+         </article>
+         <clause>
+            <content>
+               <p>This Regulation shall be binding in its entirety and directly applicable in all Member States.</p>
+            </content>
+         </clause>
+      </body>
+      <conclusions>
+         <p>Done at Strasbourg, 25 March 2019.</p>
+         <block name="signatory">
+            <signature>
+               <organization refersTo="">For the European Parliament</organization>
+               <role refersTo="">The President</role>
+               <person refersTo="">A. TAJANI</person>
+            </signature>
+            <signature>
+               <organization refersTo="">For the Council</organization>
+               <role refersTo="">The President</role>
+               <person refersTo="">G. CIAMBA</person>
+            </signature>
+         </block>
+      </conclusions>
+   </bill>
+</akomaNtoso>

@@ -1,0 +1,746 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"
+            xmlns:fmx="http://formex.publications.europa.eu/schema/formex-05.21-20110601.xd"
+            xmlns:leos="urn:eu:europa:ec:leos"
+            xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <bill name="">
+      <meta xmlns:fn="http://www.w3.org/2005/xpath-functions">
+         <identification source="~COM">
+            <FRBRWork>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRcountry value=""/>
+            </FRBRWork>
+            <FRBRExpression>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+            </FRBRManifestation>
+         </identification>
+      </meta>
+      <preface>
+         <longTitle>
+            <p>
+               <docStage/>
+               <docType>REGULATION (EU, Euratom) 2021/1163 OF THE EUROPEAN PARLIAMENT</docType>of 24 June 2021<docPurpose>laying down the regulations and general conditions governing the performance of the Ombudsman&apos;s duties (Statute of the European Ombudsman) and repealing Decision 94/262/ECSC, EC, Euratom</docPurpose>
+            </p>
+         </longTitle>
+      </preface>
+      <preamble>
+         <formula name="actingEntity">
+            <p>THE EUROPEAN PARLIAMENT,</p>
+         </formula>
+         <citations>
+            <citation>
+               <p>Having regard to the Treaty on the Functioning of the European Union, and in particular Article 228(4) thereof,</p>
+            </citation>
+            <citation>
+               <p>Having regard to the Treaty establishing the European Atomic Energy Community, and in particular Article 106a(1) thereof,</p>
+            </citation>
+            <citation>
+               <p>After transmission of the draft legislative act to the national parliaments,</p>
+            </citation>
+            <citation>
+               <p>Having regard to the consent of the Council of the European Union<authorialNote placement="bottom" marker="1">
+                     <p>Consent of 18 June 2021 (not yet published in the Official Journal).</p>
+                  </authorialNote>,</p>
+            </citation>
+            <citation>
+               <p>Having regard to the opinion of the European Commission<authorialNote placement="bottom" marker="2">
+                     <p>Opinion of 18 June 2021 (not yet published in the Official Journal).</p>
+                  </authorialNote>,</p>
+            </citation>
+            <citation>
+               <p>Acting in accordance with a special legislative procedure,</p>
+            </citation>
+         </citations>
+         <recitals xml:id="recs_d434e83">
+            <intro>
+               <p>Whereas:</p>
+            </intro>
+            <recital xml:id="rec_d434e86">
+               <num>(1)</num>
+               <p>The regulations and general conditions governing the performance of the Ombudsman&apos;s duties should be laid down in compliance with the provisions of the Treaty on the Functioning of the European Union (TFEU), and in particular point (d) of Article 20(2) and Article 228 thereof, the Treaty establishing the European Atomic Energy Community and the Charter of Fundamental Rights of the European Union (the &apos;Charter&apos;).</p>
+            </recital>
+            <recital xml:id="rec_d434e96">
+               <num>(2)</num>
+               <p>Decision 94/262/ECSC, EC, Euratom of the European Parliament<authorialNote placement="bottom" marker="3">
+                     <p>Decision 94/262/ECSC, EC, Euratom of the European Parliament of 9 March 1994 on the regulations and general conditions governing the performance of the Ombudsman&apos;s duties (OJ L 113, 4.5.1994, p. 15).</p>
+                  </authorialNote> was last amended in 2008. Following the entry into force of the Treaty of Lisbon on 1 December 2009, Decision 94/262/ECSC, EC, Euratom should be repealed and replaced by a Regulation adopted on the basis of Article 228(4) TFEU.</p>
+            </recital>
+            <recital xml:id="rec_d434e115">
+               <num>(3)</num>
+               <p>Article 41 of the Charter recognises the right to good administration as a fundamental right of citizens of the Union. Article 43 of the Charter recognises the right to refer to the European Ombudsman cases of maladministration in the activities of the institutions, bodies, offices or agencies of the Union. In order to ensure that those rights are effective and to enhance the capacity of the Ombudsman to conduct thorough and impartial inquiries, thereby underpinning the Ombudsman&apos;s independence upon which they both depend, he or she should be provided with all the tools necessary to successfully perform the Ombudsman&apos;s duties referred to in the Treaties and in this Regulation.</p>
+            </recital>
+            <recital xml:id="rec_d434e122">
+               <num>(4)</num>
+               <p>The establishment of the conditions under which a complaint may be lodged with the Ombudsman should comply with the principle of full, free and easy access, with due regard being given to the specific restrictions arising from legal and administrative proceedings.</p>
+            </recital>
+            <recital xml:id="rec_d434e128">
+               <num>(5)</num>
+               <p>The Ombudsman should act with due regard to the competences of the Union institutions, bodies, offices or agencies which are the subject of his or her inquiries.</p>
+            </recital>
+            <recital xml:id="rec_d434e134">
+               <num>(6)</num>
+               <p>It is necessary to lay down the procedures to be followed where the Ombudsman&apos;s inquiries reveal cases of maladministration. The Ombudsman should submit a comprehensive report to the European Parliament at the end of each annual session. The Ombudsman should also be entitled to include in that annual report an assessment of compliance with recommendations made.</p>
+            </recital>
+            <recital xml:id="rec_d434e140">
+               <num>(7)</num>
+               <p>In order to strengthen the Ombudsman&apos;s role and to promote administrative best practices within the Union institutions, bodies, offices and agencies, it is desirable to allow the Ombudsman, without prejudice to his or her primary duty, which is to handle complaints, to conduct own-initiative inquiries whenever he or she finds grounds, and in particular in repeated, systemic or particularly serious instances of maladministration.</p>
+            </recital>
+            <recital xml:id="rec_d434e146">
+               <num>(8)</num>
+               <p>Regulation (EC) No 1049/2001 of the European Parliament and of the Council<authorialNote placement="bottom" marker="4">
+                     <p>Regulation (EC) No 1049/2001 of the European Parliament and of the Council of 30 May 2001 regarding public access to European Parliament, Council and Commission documents (OJ L 145, 31.5.2001, p. 43).</p>
+                  </authorialNote>, as complemented by Regulation (EC) No 1367/2006 of the European Parliament and of the Council<authorialNote placement="bottom" marker="5">
+                     <p>Regulation (EC) No 1367/2006 of the European Parliament and of the Council of 6 September 2006 on the application of the provisions of the Aarhus Convention on Access to Information, Public Participation in Decision-making and Access to Justice in Environmental Matters to Community institutions and bodies (OJ L 264, 25.9.2006, p. 13).</p>
+                  </authorialNote>, should apply to requests for public access to documents of the Ombudsman, with the exception of those obtained in the course of an inquiry, in which case requests should be dealt with by the originating Union institution, body, office or agency.</p>
+            </recital>
+            <recital xml:id="rec_d434e172">
+               <num>(9)</num>
+               <p>The Ombudsman should have access to all elements required for the performance of his or her duties. To that end, Union institutions, bodies, offices and agencies should provide the Ombudsman with any information that he or she requests for the purposes of an inquiry. Where the exercise of the Ombudsman&apos;s duties would require the Ombudsman to be provided with classified information held by the Union institutions, bodies, offices and agencies or by the authorities of the Member States, the Ombudsman should be able to access such information, subject to ensuring that the rules for its protection are complied with.</p>
+            </recital>
+            <recital xml:id="rec_d434e179">
+               <num>(10)</num>
+               <p>The Ombudsman and his or her staff should be obliged to treat in confidence any information which they have acquired in the course of their duties, without prejudice to the Ombudsman&apos;s obligation to inform the authorities of the Member States of facts which might relate to criminal offences and have come to his or her attention in the course of an inquiry. The Ombudsman should also be able to inform the Union institution, body, office or agency concerned of the facts that call into question the conduct of a member of their staff. The obligation of the Ombudsman to treat in confidence any information acquired in the course of his or her duties should be without prejudice to the Ombudsman&apos;s obligation to conduct his or her work as openly as possible pursuant to Article 15(1) TFEU. In particular, in order to duly carry out his or her duties and to support his or her findings, the Ombudsman should be able to refer in his or her reports to any information accessible to the public.</p>
+            </recital>
+            <recital xml:id="rec_d434e185">
+               <num>(11)</num>
+               <p>Where necessary for the effective performance of his or her duties, the Ombudsman should be given the possibility to cooperate and exchange information with the authorities of the Member States, in compliance with the applicable national and Union law, and with other Union institutions, bodies, offices or agencies, in compliance with applicable Union law.</p>
+            </recital>
+            <recital xml:id="rec_d434e192">
+               <num>(12)</num>
+               <p>The Ombudsman should be elected by the European Parliament at the beginning of the parliamentary term and for the duration thereof, chosen from among persons who are citizens of the Union and who offer all requisite guarantees of independence and competence. General conditions should also be laid down, inter alia, concerning the cessation of the Ombudsman&apos;s duties, the replacement of the Ombudsman, incompatibilities, the remuneration of the Ombudsman and the privileges and immunities of the Ombudsman.</p>
+            </recital>
+            <recital xml:id="rec_d434e198">
+               <num>(13)</num>
+               <p>It should be specified that the seat of the Ombudsman is that of the European Parliament as determined by point (a) of the sole Article of Protocol No 6 on the location of the seats of the institutions and of certain bodies, offices, agencies and departments of the European Union, annexed to the Treaty on European Union, to the Treaty on the Functioning of the European Union and to the Treaty establishing the European Atomic Energy Community (&apos;Protocol No 6&apos;).</p>
+            </recital>
+            <recital xml:id="rec_d434e208">
+               <num>(14)</num>
+               <p>The Ombudsman should achieve gender parity within the composition of his or her secretariat, paying due regard to Article 1d(2) of the Staff Regulations of Officials of the European Union and the Conditions of Employment of Other Servants of the Union, laid down in Council Regulation (EEC, Euratom, ECSC) No 259/68<authorialNote placement="bottom" marker="6">
+                     <p>OJ L 56, 4.3.1968, p. 1.</p>
+                  </authorialNote> (the &apos;Staff Regulations&apos;).</p>
+            </recital>
+            <recital xml:id="rec_d434e224">
+               <num>(15)</num>
+               <p>It is for the Ombudsman to adopt the implementing provisions for this Regulation after consultation of the European Parliament, the Council and the European Commission. In the absence of an opinion from these institutions within the timeframe reasonably set by the Ombudsman in advance, he or she may adopt the implementing provisions concerned. In order to guarantee legal certainty and the highest standards in performing the Ombudsman&apos;s duties, the minimum content of the implementing provisions to be adopted should be established in this Regulation,</p>
+            </recital>
+         </recitals>
+         <formula name="enactingFormula">
+            <p>HAS ADOPTED THIS REGULATION:</p>
+         </formula>
+      </preamble>
+      <body>
+         <article xml:id="art_d434e233">
+            <num>Article 1</num>
+            <heading>Subject matter and principles</heading>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>This Regulation lays down the regulations and general conditions governing the performance of the Ombudsman&apos;s duties (Statute of the European Ombudsman).</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>The Ombudsman shall be completely independent in the performance of his or her duties and shall act without any prior authorisation.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <subparagraph>
+                  <content>
+                     <p>The Ombudsman shall help to uncover maladministration in the activities of the Union institutions, bodies, offices and agencies, with the exception of the Court of Justice of the European Union acting in its judicial role, paying due regard to point (d) of Article 20(2) and Article 228 TFEU and Article 41 of the Charter on the right to good administration.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>No action by any other authority or person may be the subject of a complaint to the Ombudsman.</p>
+                  </content>
+               </subparagraph>
+            </paragraph>
+            <paragraph>
+               <num>4.</num>
+               <content>
+                  <p>Where appropriate, the Ombudsman shall make recommendations, proposals for solutions and suggestions for improvement to address the issue.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>5.</num>
+               <content>
+                  <p>In the performance of his or her duties, the Ombudsman may not question the soundness of a court&apos;s ruling or a court&apos;s competence to issue a ruling.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d434e265">
+            <num>Article 2</num>
+            <heading>Complaints</heading>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>Any citizen of the Union or any natural or legal person residing or having its registered office in a Member State may, directly or through a member of the European Parliament, lodge a complaint with the Ombudsman in respect of an instance of maladministration.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>A complaint shall make clear reference to its object and to the identity of the complainant. A complainant may request that the complaint, or parts of it, remains confidential.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <content>
+                  <p>A complaint shall be lodged within two years of the date on which the facts on which it is based came to the attention of the complainant. Before the complaint is lodged, the complainant shall make the appropriate administrative approaches to the Union institution, body, office or agency concerned.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>4.</num>
+               <content>
+                  <p>The Ombudsman shall dismiss a complaint as inadmissible if it is outside the scope of the Ombudsman&apos;s mandate or if the procedural requirements laid down in paragraphs 2 and 3 are not fulfilled. Where a complaint is outside the scope of the Ombudsman&apos;s mandate, he or she may advise the complainant to address it to another authority.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>5.</num>
+               <content>
+                  <p>If the Ombudsman finds that the complaint is manifestly unfounded, he or she shall close the file and inform the complainant of that finding. In cases where the complainant has informed the Union institution, body, office or agency concerned about the complaint, the Ombudsman shall also inform the authority concerned.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>6.</num>
+               <content>
+                  <p>Complaints concerning employment relations between the Union institutions, bodies, offices or agencies and their staff shall be admissible only if the person concerned has exhausted all internal administrative procedures, in particular those referred to in Article 90 of the Staff Regulations, and the competent authority of the Union institution, body, office or agency concerned has taken a decision or the time limits for its reply have expired. The Ombudsman shall also be entitled to verify the measures adopted by the competent authority of the Union institution, body, office or agency concerned to ensure the protection of alleged victims of harassment and to restore a healthy and safe working environment respecting the dignity of the persons concerned while an administrative inquiry is ongoing, provided that the persons concerned have exhausted the internal administrative procedures in relation to these measures.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>7.</num>
+               <content>
+                  <p>The Ombudsman shall inform the Union institution, body, office or agency concerned of a registered complaint, as soon as that complaint has been declared admissible and the decision has been taken to open an inquiry.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>8.</num>
+               <content>
+                  <p>Complaints lodged with the Ombudsman shall not affect time limits for appeals in administrative or judicial proceedings.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>9.</num>
+               <content>
+                  <p>Where, because of legal proceedings in progress or concluded concerning the facts which have been put forward, the Ombudsman declares a complaint inadmissible or decides to terminate consideration of it, the outcome of any inquiries that the Ombudsman has carried out up to that point shall be put on file and that file shall be closed.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>10.</num>
+               <subparagraph>
+                  <content>
+                     <p>The Ombudsman shall as soon as possible inform the complainant of the action taken on the complaint and, as far as possible, seek a solution with the Union institution, body, office or agency concerned to eliminate the instance of maladministration. The Ombudsman shall inform the complainant of the solution proposed along with the comments, if any, of the Union institution, body, office or agency concerned. The complainant may submit comments or provide, at any stage, additional information that was not known at the time of the submission of the complaint.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>Where a solution accepted by the complainant and the Union institution, body, office or agency concerned has been found, the Ombudsman may close the file without pursuing the procedure provided for in Article 4.</p>
+                  </content>
+               </subparagraph>
+            </paragraph>
+         </article>
+         <article xml:id="art_d434e324">
+            <num>Article 3</num>
+            <heading>Inquiries</heading>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>In accordance with his or her duties, the Ombudsman shall conduct inquiries for which he or she finds grounds, on his or her own initiative or following a complaint.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>The Ombudsman shall inform the Union institution, body, office or agency concerned of such inquiries without undue delay. Without prejudice to Article 5, the Union institution, body, office or agency concerned may, on its own initiative or at the Ombudsman&apos;s request, submit any useful comment or evidence.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <content>
+                  <p>The Ombudsman may conduct own-initiative inquiries whenever he or she finds grounds, and in particular in repeated, systemic or particularly serious instances of maladministration, in order to address those instances as an issue of public interest. In the context of such inquiries, he or she may also make proposals and initiatives to promote administrative best practices within Union institutions, bodies, offices and agencies.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d434e345">
+            <num>Article 4</num>
+            <heading>Interaction between the Ombudsman and the institutions</heading>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>Where, following an inquiry, instances of maladministration are found, the Ombudsman shall inform, without undue delay, the Union institution, body, office or agency concerned of the findings of the inquiry and, where appropriate, shall make recommendations.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>The Union institution, body, office or agency concerned shall send the Ombudsman a detailed opinion within three months. The Ombudsman may, upon a reasoned request of the Union institution, body, office or agency concerned, grant an extension of that deadline. That extension shall not exceed two months. Where no opinion is delivered by the Union institution, body, office or agency concerned within the original three-month deadline or within the extended deadline, the Ombudsman may close the inquiry without such an opinion.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <content>
+                  <p>Upon the closure of an inquiry, the Ombudsman shall forward a report to the Union institution, body, office or agency concerned and, where the nature or the scale of the instance of maladministration uncovered so requires, to the European Parliament. The Ombudsman may make recommendations in the report. The Ombudsman shall inform the complainant of the outcome of the inquiry, of the opinion delivered by the Union institution, body, office or agency concerned and of any recommendations made in the report.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>4.</num>
+               <content>
+                  <p>Where appropriate in relation to an inquiry into the activities of a Union institution, body, office or agency, the Ombudsman may be heard before the European Parliament, at the appropriate level, on his or her own initiative or at the request of the European Parliament.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>5.</num>
+               <content>
+                  <p>At the end of each annual session, the Ombudsman shall submit to the European Parliament a report on the outcome of the inquiries that he or she carried out. The report shall include an assessment of compliance with the Ombudsman&apos;s recommendations, proposals for solutions and suggestions for improvement. The report shall also include, where relevant, the outcome of the Ombudsman&apos;s inquiries related to harassment, whistleblowing and conflicts of interest within the Union institutions, bodies, offices or agencies.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d434e375">
+            <num>Article 5</num>
+            <heading>Provision of information to the Ombudsman</heading>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>For the purposes of this Article, &apos;provision of information&apos; includes all physical and electronic means by which the Ombudsman and his or her secretariat are given access to information, including documents, independently of its form.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>&apos;EU classified information&apos; means any information or material designated by EU security classification, the unauthorised disclosure of which could cause varying degrees of prejudice to the interests of the Union or to those of one or more of the Member States.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <content>
+                  <p>Subject to the conditions laid down in this Article, the Union institutions, bodies, offices and agencies and the competent authorities of the Member States shall, at the request of the Ombudsman or on their own initiative, and without undue delay, provide the Ombudsman with any information he or she has requested for the purposes of an inquiry.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>4.</num>
+               <subparagraph>
+                  <content>
+                     <p>The Ombudsman shall be provided with EU classified information subject to the following principles and conditions:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <content>
+                        <p>the Union institution, body, office or agency providing the EU classified information must have completed its relevant internal procedures and, where the originator is a third party, the latter must have given its prior written consent;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <content>
+                        <p>the Ombudsman&apos;s &apos;need to know&apos; must have been established;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(c)</num>
+                     <content>
+                        <p>it must be ensured that access to information classified CONFIDENTIEL UE/EU CONFIDENTIAL or above is granted only to persons holding a security clearance to the relevant security level in accordance with national law and authorised by the competent security authority.</p>
+                     </content>
+                  </point>
+               </list>
+            </paragraph>
+            <paragraph>
+               <num>5.</num>
+               <content>
+                  <p>For the provision of EU classified information, the Union institution, body, office or agency concerned shall assess whether the Ombudsman has effectively put in place internal security rules as well as physical and procedural measures to protect EU classified information. To this effect, the Ombudsman and a Union institution, body, office or agency may also enter into an arrangement establishing a general framework governing the provision of EU classified information.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>6.</num>
+               <content>
+                  <p>In accordance with paragraphs 4 and 5, access to EU classified information shall be provided in the premises of the Union institution, body, office or agency concerned, unless otherwise agreed with the Ombudsman.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>7.</num>
+               <subparagraph>
+                  <content>
+                     <p>Without prejudice to paragraph 3, the competent authorities of the Member States may refuse to provide the Ombudsman with information covered by national law on protection of classified information or by provisions preventing its communication.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>Nonetheless, the Member State concerned may provide such information to the Ombudsman subject to conditions set out by its competent authority.</p>
+                  </content>
+               </subparagraph>
+            </paragraph>
+            <paragraph>
+               <num>8.</num>
+               <subparagraph>
+                  <content>
+                     <p>Where the Union institutions, bodies, offices or agencies and the authorities of the Member States intend to provide the Ombudsman with EU classified information or any other information which is not accessible to the public, they shall give the Ombudsman advance notice thereof.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>The Ombudsman shall ensure that such information is adequately protected and in particular shall not disclose it to the complainant or to the public without the prior consent of the Union institution, body, office or agency or the competent authority of the Member State concerned. As regards EU classified information, the consent shall be given in writing.</p>
+                  </content>
+               </subparagraph>
+            </paragraph>
+            <paragraph>
+               <num>9.</num>
+               <content>
+                  <p>The Union institutions, bodies, offices or agencies refusing access to EU classified information shall provide the Ombudsman with a justification in writing, indicating, as a minimum, the grounds for refusal.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>10.</num>
+               <subparagraph>
+                  <content>
+                     <p>The Ombudsman shall retain possession of information referred to in paragraph 8 only until the inquiry is definitively closed.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>The Ombudsman may request a Union institution, body, office or agency, or a Member State, to retain such information for a period of at least five years.</p>
+                  </content>
+               </subparagraph>
+            </paragraph>
+            <paragraph>
+               <num>11.</num>
+               <content>
+                  <p>If the requested assistance is not forthcoming, the Ombudsman may inform the European Parliament, which shall act accordingly.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d434e474">
+            <num>Article 6</num>
+            <heading>Public access to documents of the Ombudsman</heading>
+            <paragraph>
+               <content>
+                  <p>The Ombudsman shall deal with requests for public access to documents, with the exception of those obtained in the course of an inquiry and held by the Ombudsman for the duration of that inquiry or after its closure, in accordance with the conditions and limits provided for in Regulation (EC) No 1049/2001, as complemented by Regulation (EC) No 1367/2006.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d434e481">
+            <num>Article 7</num>
+            <heading>Hearing of officials and other servants</heading>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>Officials and other servants of Union institutions, bodies, offices and agencies shall be heard, at the request of the Ombudsman, with regard to facts which relate to an ongoing inquiry by the Ombudsman.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>Those officials and other servants shall speak on behalf of their institution, body, office or agency. They shall continue to be bound by the obligations arising from the rules to which they are subject.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d434e497">
+            <num>Article 8</num>
+            <heading>Inquiries in the context of whistleblowing</heading>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>The Ombudsman may conduct an inquiry to uncover instances of maladministration in the treatment of information as defined in Article 22a of the Staff Regulations which have been disclosed to him or her by an official or other servant in accordance with the relevant rules laid down in the Staff Regulations.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>In such cases, the official or other servant shall benefit from the protection offered by the Staff Regulations against any prejudicial effects on the part of the Union institution, body, office or agency as a result of having communicated the information.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <content>
+                  <p>The Ombudsman may also inquire whether there was an instance of maladministration in the handling of such case by the Union institution, body, office or agency concerned, including as regards the protection of the official or other servant concerned.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d434e517">
+            <num>Article 9</num>
+            <heading>Professional secrecy</heading>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>The Ombudsman and his or her staff shall not divulge information or documents which they obtain in the course of an inquiry. Without prejudice to paragraph 2, they shall, in particular, not divulge any EU classified information or internal documents of the Union institutions, bodies, offices or agencies supplied to the Ombudsman or documents falling within the scope of Union law regarding the protection of personal data. They shall also not divulge any information which could harm the rights of the complainant or of any other person involved.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>Without prejudice to the general reporting obligation of all Union institutions, bodies, offices and agencies to the European Anti-Fraud Office (OLAF), in accordance with Article 8 of Regulation (EU, Euratom) No 883/2013 of the European Parliament and of the Council<authorialNote placement="bottom" marker="7">
+                        <p>Regulation (EU, Euratom) No 883/2013 of the European Parliament and of the Council of 11 September 2013 concerning investigations conducted by the European Anti-Fraud Office (OLAF) and repealing Regulation (EC) No 1073/1999 of the European Parliament and of the Council and Council Regulation (Euratom) No 1074/1999 (OJ L 248, 18.9.2013, p. 1).</p>
+                     </authorialNote>, if facts learnt in the course of an Ombudsman inquiry might constitute or relate to a criminal offence, the Ombudsman shall report to the competent authorities of the Member States and, in so far as the case falls within their respective competences, to the European Public Prosecutor&apos;s Office, in accordance with Article 24 of Council Regulation (EU) 2017/1939<authorialNote placement="bottom" marker="8">
+                        <p>Council Regulation (EU) 2017/1939 of 12 October 2017 implementing enhanced cooperation on the establishment of the European Public Prosecutor&apos;s Office (&apos;the EPPO&apos;) (OJ L 283, 31.10.2017, p. 1).</p>
+                     </authorialNote> and to OLAF.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <content>
+                  <p>If appropriate, and with the agreement of the European Public Prosecutor&apos;s Office or OLAF, the Ombudsman shall also notify the Union institution, body, office or agency with authority over the official or other servant concerned, which may initiate the appropriate procedures.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d434e561">
+            <num>Article 10</num>
+            <heading>Cooperation with the authorities of the Member States and with Union institutions, bodies, offices and agencies</heading>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>Where necessary for the performance of his or her duties, the Ombudsman may cooperate with the authorities of the Member States, in compliance with the applicable national and Union law.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>Within the scope of his or her duties, the Ombudsman may also cooperate with other Union institutions, bodies, offices and agencies, in particular with those in charge of the promotion and protection of fundamental rights. The Ombudsman shall avoid any overlap or duplication with the activities of those Union institutions, bodies, offices or agencies.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <content>
+                  <p>Communication addressed to the authorities of the Member States for the purposes of applying this Regulation shall be made through their permanent representations to the Union, except where the permanent representation concerned agrees that the Ombudsman&apos;s secretariat may directly contact the authorities of the Member State concerned.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d434e582">
+            <num>Article 11</num>
+            <heading>Election of the Ombudsman</heading>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>The Ombudsman shall be elected, and eligible for reappointment, in accordance with Article 228(2) TFEU from candidates selected following a transparent procedure.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <subparagraph>
+                  <content>
+                     <p>Following the publication of the call for nominations in the <i>Official Journal of the European Union</i>, the Ombudsman shall be chosen from persons who:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <indent>
+                     <num>-</num>
+                     <content>
+                        <p>are citizens of the Union,</p>
+                     </content>
+                  </indent>
+                  <indent>
+                     <num>-</num>
+                     <content>
+                        <p>have full civil and political rights,</p>
+                     </content>
+                  </indent>
+                  <indent>
+                     <num>-</num>
+                     <content>
+                        <p>offer every guarantee of independence,</p>
+                     </content>
+                  </indent>
+                  <indent>
+                     <num>-</num>
+                     <content>
+                        <p>meet the conditions required for the exercise of the highest judicial office in their country or have the acknowledged competence and qualifications to undertake the duties of the Ombudsman, and</p>
+                     </content>
+                  </indent>
+                  <indent>
+                     <num>-</num>
+                     <content>
+                        <p>have not been members of national governments or members of the European Parliament, the European Council or the European Commission within the two years preceding the date of publication of the call for nominations.</p>
+                     </content>
+                  </indent>
+               </list>
+            </paragraph>
+         </article>
+         <article xml:id="art_d434e618">
+            <num>Article 12</num>
+            <heading>Cessation of the Ombudsman&apos;s duties</heading>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>The Ombudsman shall cease to exercise his or her duties either at the end of his or her term of office or upon resignation or dismissal.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>Save in the event of dismissal, the Ombudsman shall remain in office until a new Ombudsman has been elected.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <content>
+                  <p>In the event of early cessation of duties, a new Ombudsman shall within three months of the office falling vacant be elected for the remainder of the term of office of the European Parliament. Until a new Ombudsman has been elected, the principal officer referred to in Article 16(2) shall be responsible for urgent matters falling within the Ombudsman&apos;s duties.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d434e638">
+            <num>Article 13</num>
+            <heading>Dismissal</heading>
+            <paragraph>
+               <content>
+                  <p>Where the European Parliament intends to request the dismissal of the Ombudsman in accordance with Article 228(2) TFEU, it shall hear the Ombudsman before making such a request.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d434e645">
+            <num>Article 14</num>
+            <heading>Exercise of the Ombudsman&apos;s duties</heading>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>In the performance of his or her duties, the Ombudsman shall act in accordance with Article 228(3) TFEU. The Ombudsman shall refrain from any act incompatible with the nature of those duties.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>When taking up office, the Ombudsman shall give a solemn undertaking before the Court of Justice that he or she will perform the duties referred to in the Treaties and in this Regulation with complete independence and impartiality and will respect the obligations arising therefrom during and after his or her term of office. The solemn undertaking shall in particular include the duty to behave with integrity and discretion as regards the acceptance of certain appointments or benefits after the end of the term of office.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <content>
+                  <p>During the Ombudsman&apos;s term of office, he or she may not engage in any other political or administrative duties, or any other occupation, whether gainful or not.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d434e666">
+            <num>Article 15</num>
+            <heading>Remuneration, privileges and immunities</heading>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>The Ombudsman shall have the same rank in terms of remuneration, allowances and pension as a judge at the Court of Justice.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>Articles 11 to 14 and Article 17 of Protocol No 7 on the privileges and immunities of the European Union, annexed to the Treaty on European Union, to the Treaty on the Functioning of the European Union and to the Treaty establishing the European Atomic Energy Community shall apply to the Ombudsman and to the officials and other servants of the Ombudsman&apos;s secretariat.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d434e681">
+            <num>Article 16</num>
+            <heading>Secretariat of the Ombudsman</heading>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>The Ombudsman shall be awarded an adequate budget, sufficient to ensure the Ombudsman&apos;s independence and the performance of his or her duties.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>The Ombudsman shall be assisted by a secretariat. The Ombudsman shall appoint the principal officer of the secretariat.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <content>
+                  <p>The officials and other servants of the Ombudsman&apos;s secretariat shall be subject to the Staff Regulations. The number of members of staff of the secretariat shall be adopted each year as part of the budgetary procedure.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>4.</num>
+               <content>
+                  <p>Where officials of the Union are seconded to the Ombudsman&apos;s secretariat, that secondment shall be considered as a secondment in the interests of the service in accordance with point (a) of the first paragraph of Article 37 and Article 38 of the Staff Regulations.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d434e706">
+            <num>Article 17</num>
+            <heading>Seat of the Ombudsman</heading>
+            <paragraph>
+               <content>
+                  <p>The seat of the Ombudsman shall be that of the European Parliament as determined by point (a) of the sole Article of Protocol No 6.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d434e713">
+            <num>Article 18</num>
+            <heading>Implementing provisions</heading>
+            <paragraph>
+               <subparagraph>
+                  <content>
+                     <p>The Ombudsman shall adopt the implementing provisions for this Regulation, after consultation of the European Parliament, the Council and the European Commission. Those shall be in accordance with this Regulation and shall, as a minimum, include provisions on:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <content>
+                        <p>procedural rights of the complainant and the Union institution, body, office or agency concerned;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <content>
+                        <p>receipt, processing and closure of complaints;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(c)</num>
+                     <content>
+                        <p>own-initiative inquiries; and</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(d)</num>
+                     <content>
+                        <p>follow-up inquiries.</p>
+                     </content>
+                  </point>
+               </list>
+            </paragraph>
+         </article>
+         <article xml:id="art_d434e747">
+            <num>Article 19</num>
+            <heading>Final provisions</heading>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>Decision 94/262/ECSC, EC, Euratom is repealed.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>This Regulation shall enter into force on the twentieth day following that of its publication in the <i>Official Journal of the European Union</i>.</p>
+               </content>
+            </paragraph>
+         </article>
+         <clause>
+            <content>
+               <p>This Regulation shall be binding in its entirety and directly applicable in all Member States.</p>
+            </content>
+         </clause>
+      </body>
+      <conclusions>
+         <p>Done at Brussels, 24 June 2021.</p>
+         <block name="signatory">
+            <signature>
+               <organization refersTo="">For the European Parliament</organization>
+               <role refersTo="">The President</role>
+               <person refersTo="">D. M. SASSOLI</person>
+            </signature>
+         </block>
+      </conclusions>
+   </bill>
+</akomaNtoso>

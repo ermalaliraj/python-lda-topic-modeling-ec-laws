@@ -1,0 +1,523 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"
+            xmlns:fmx="http://formex.publications.europa.eu/schema/formex-05.21-20110601.xd"
+            xmlns:leos="urn:eu:europa:ec:leos"
+            xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <bill name="">
+      <meta xmlns:fn="http://www.w3.org/2005/xpath-functions">
+         <identification source="~COM">
+            <FRBRWork>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRcountry value=""/>
+            </FRBRWork>
+            <FRBRExpression>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+            </FRBRManifestation>
+         </identification>
+      </meta>
+      <preface>
+         <longTitle>
+            <p>
+               <docStage/>
+               <docType>COMMISSION REGULATION (EU) 2017/1981</docType>of 31 October 2017<docPurpose>amending Annex III to Regulation (EC) No 853/2004 of the European Parliament and of the Council as regards temperature conditions during transport of meat</docPurpose>
+            </p>
+         </longTitle>
+         <container name="EEArelevance">
+            <p>(Text with EEA relevance)</p>
+         </container>
+      </preface>
+      <preamble>
+         <formula name="actingEntity">
+            <p>THE EUROPEAN COMMISSION,</p>
+         </formula>
+         <citations>
+            <citation>
+               <p>Having regard to the Treaty on the Functioning of the European Union,</p>
+            </citation>
+            <citation>
+               <p>Having regard to Regulation (EC) No 853/2004 of the European Parliament and of the Council of 29 April 2004 laying down specific hygiene rules for food of animal origin<authorialNote placement="bottom" marker="1">
+                     <p>OJ L 139, 30.4.2004, p. 55.</p>
+                  </authorialNote>, and in particular Article 10(1)(d) and (e) thereof,</p>
+            </citation>
+         </citations>
+         <recitals xml:id="recs_d551e71">
+            <intro>
+               <p>Whereas:</p>
+            </intro>
+            <recital xml:id="rec_d551e74">
+               <num>(1)</num>
+               <p>Regulation (EC) No 853/2004 lays down specific rules on the hygiene of food of animal origin for food business operators. That Regulation provides that food business operators are to ensure compliance with specific temperature requirements before and during the transport of meat.</p>
+            </recital>
+            <recital xml:id="rec_d551e80">
+               <num>(2)</num>
+               <p>In accordance with Annex III to that Regulation, meat, other than offal, of domestic ungulates is to be immediately chilled after post-mortem inspection to a core temperature of not more than 7 °C along a chilling curve that ensures a continuous decrease of the temperature, unless other specific provisions provide otherwise. This is to be completed in the slaughterhouse chillers, before transportation may begin.</p>
+            </recital>
+            <recital xml:id="rec_d551e86">
+               <num>(3)</num>
+               <p>On 6 March 2014, the Scientific Panel on biological hazards of the European Food Safety Authority (EFSA) adopted Part 1 of a scientific opinion<authorialNote placement="bottom" marker="2">
+                     <p>
+                        <i>EFSA Journal</i> 2014; 12(3):3601 [81 pp.].</p>
+                  </authorialNote> on the public health risks related to the maintenance of the cold chain during storage and transport of meat, which concerns meat of domestic ungulates only. That opinion concludes that since most bacterial contamination occurs on the surface of the carcass, the surface temperature is an appropriate indicator of bacterial growth. It also provides for combinations of maximum surface temperatures at carcass loading and maximum chilling and transport times, which result in growth of pathogens (micro-organisms that cause food-borne illness) equivalent to or less than that obtained when carcasses are chilled to a core temperature of 7 °C in the slaughterhouse.</p>
+            </recital>
+            <recital xml:id="rec_d551e101">
+               <num>(4)</num>
+               <p>On 8 June 2016, EFSA adopted a further scientific opinion<authorialNote placement="bottom" marker="3">
+                     <p>
+                        <i>EFSA Journal</i> 2016; 14(6):4523 [38 pp.].</p>
+                  </authorialNote> on growth of spoilage bacteria during storage and transport of meat. That opinion found that some spoilage bacteria (bacteria which do not necessarily cause illness, but can render food unacceptable for human consumption due to decay), in particular <i>Pseudomonas</i> spp., can reach critical levels more quickly than pathogens, depending upon the level of initial contamination with spoilage bacteria, as well as on temperature conditions.</p>
+            </recital>
+            <recital xml:id="rec_d551e119">
+               <num>(5)</num>
+               <p>The aerobic colony count must be routinely assessed by food business operators in accordance with Commission Regulation (EC) No 2073/2005<authorialNote placement="bottom" marker="4">
+                     <p>Commission Regulation (EC) No 2073/2005 of 15 November 2005 on microbiological criteria for foodstuffs (OJ L 338, 22.12.2005, p. 1).</p>
+                  </authorialNote> It can be used as an indicator of the upper limit of the concentration of any spoilage bacteria species present on the meat.</p>
+            </recital>
+            <recital xml:id="rec_d551e135">
+               <num>(6)</num>
+               <p>Based on the EFSA opinion and considering the assessment tools available, it is therefore possible to introduce alternative, more flexibility approaches for the temperature conditions during transport of fresh meat, in particular carcasses or larger cuts without any increased public health risk, and without deviating from the basic principle that such meat should be chilled to 7 °C by a continuous decrease of temperature. This increased flexibility would enable meat to reach the consumer more swiftly after slaughter, thus facilitating trade flows of fresh meat within the Union.</p>
+            </recital>
+            <recital xml:id="rec_d551e141">
+               <num>(7)</num>
+               <p>While the alternative approaches are based on the surface and transport air temperatures, a continuous decrease of the temperature as already mandatory by current provisions requires that part of the body heat should also be removed prior to long distance transport. Setting a core temperature to which carcasses and larger cuts must be chilled before transport is a way to ensure that a significant proportion of body heat is removed.</p>
+            </recital>
+            <recital xml:id="rec_d551e148">
+               <num>(8)</num>
+               <p>Regulation (EC) No 853/2004 also provides for a derogation from the obligation to chill the meat to 7 °C before transport with regard to specific products under specific conditions. To avoid any misuse of this derogation, it is appropriate to clarify that this is only allowed if justified by technological reasons, e.g. when chilling to 7 °C may not contribute to the hygienic and technically most appropriate processing of the product.</p>
+            </recital>
+            <recital xml:id="rec_d551e154">
+               <num>(9)</num>
+               <p>Annex III to Regulation (EC) No 853/2004 should therefore be amended accordingly.</p>
+            </recital>
+            <recital xml:id="rec_d551e161">
+               <num>(10)</num>
+               <p>The measures provided for in this Regulation are in accordance with the opinion of the Standing Committee for Plants, Animals, Food and Feed,</p>
+            </recital>
+         </recitals>
+         <formula name="enactingFormula">
+            <p>HAS ADOPTED THIS REGULATION:</p>
+         </formula>
+      </preamble>
+      <body>
+         <article xml:id="art_d551e170" leos:compliant="false">
+            <num>Article 1</num>
+            <heading/>
+            <paragraph>
+               <subparagraph>
+                  <content>
+                     <p>Annex III to Regulation (EC) No 853/2004 is amended as follows:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(1)</num>
+                     <alinea>
+                        <content>
+                           <p>in Section I, Chapter VII, point 3 is replaced by the following:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <point>
+                                       <num>&apos;3.</num>
+                                       <alinea>
+                                          <content>
+                                             <p>Meat must attain the temperature specified in point 1 before transport, and remain at that temperature during transport.</p>
+                                          </content>
+                                       </alinea>
+                                       <alinea>
+                                          <content>
+                                             <p>However, following points (a) and (b) shall apply.</p>
+                                          </content>
+                                       </alinea>
+                                       <list>
+                                          <point>
+                                             <num>(a)</num>
+                                             <alinea>
+                                                <content>
+                                                   <p>Transport of meat for the production of specific products may take place before the temperature specified in point 1 is attained if the competent authority so authorises, provided that:</p>
+                                                </content>
+                                             </alinea>
+                                             <list>
+                                                <point>
+                                                   <num>(i)</num>
+                                                   <content>
+                                                      <p>such transport takes place in accordance with the requirements that the competent authorities of origin and destination specify in respect of transport from one given establishment to another;</p>
+                                                   </content>
+                                                </point>
+                                                <point>
+                                                   <num>(ii)</num>
+                                                   <alinea>
+                                                      <content>
+                                                         <p>the meat leaves the slaughterhouse, or a cutting room on the same site as the slaughter premises, immediately and transport takes no more than 2 hours;</p>
+                                                      </content>
+                                                   </alinea>
+                                                   <alinea>
+                                                      <content>
+                                                         <p>and,</p>
+                                                      </content>
+                                                   </alinea>
+                                                </point>
+                                                <point>
+                                                   <num>(iii)</num>
+                                                   <content>
+                                                      <p>such transport is justified for technological reasons.</p>
+                                                   </content>
+                                                </point>
+                                             </list>
+                                          </point>
+                                          <point>
+                                             <num>(b)</num>
+                                             <alinea>
+                                                <content>
+                                                   <p>Transport of carcases, half carcases, quarters, or half carcases cut into three wholesale cuts of ovine and caprine animals, bovine animals and porcine animals may commence before the temperature specified in point 1 is attained, provided that all of the following conditions are fulfilled:</p>
+                                                </content>
+                                             </alinea>
+                                             <list>
+                                                <point>
+                                                   <num>(i)</num>
+                                                   <content>
+                                                      <p>the temperature is monitored and recorded within the framework of procedures based on the HACCP principles;</p>
+                                                   </content>
+                                                </point>
+                                                <point>
+                                                   <num>(ii)</num>
+                                                   <content>
+                                                      <p>food business operators dispatching and transporting the carcases, half carcases, quarters, or half carcases cut into three wholesale cuts have received documented authorisation from the competent authority at the place of departure to make use of this derogation;</p>
+                                                   </content>
+                                                </point>
+                                                <point>
+                                                   <num>(iii)</num>
+                                                   <content>
+                                                      <p>the vehicle transporting the carcases, half carcases, quarters, or half carcases cut into three wholesale cuts are fitted with an instrument that monitors and records air temperatures to which the carcases, half carcases, quarters, or half carcases cut into three wholesale cuts are subjected in such a way that competent authorities are enabled to verify compliance with the time and temperature conditions set out in point (viii);</p>
+                                                   </content>
+                                                </point>
+                                                <point>
+                                                   <num>(iv)</num>
+                                                   <content>
+                                                      <p>the vehicle transporting the carcases, half carcases, quarters, or half carcases cut into three wholesale cuts collects meat from only one slaughterhouse per transport;</p>
+                                                   </content>
+                                                </point>
+                                                <point>
+                                                   <num>(v)</num>
+                                                   <content>
+                                                      <p>carcases, half carcases, quarters, or half carcases cut into three wholesale cuts subject to this derogation must have a core temperature of 15 degrees at the start of the transport if they are to be transported in the same compartment as carcases, half carcases, quarters, or half carcases cut into three wholesale cuts which meets the temperature requirement at Point 1 (i.e. 7 degrees);</p>
+                                                   </content>
+                                                </point>
+                                                <point>
+                                                   <num>(vi)</num>
+                                                   <content>
+                                                      <p>a declaration by the food business operator accompanies the consignment; that declaration must state the duration of chilling before loading, the time at which loading of the carcases, half carcases, quarters, or half carcases cut into three wholesale cuts were started, the surface temperature at that time, the maximum transportation air temperature to which carcases, half carcases, quarters, or half carcases cut into three wholesale cuts may be subjected, the maximum transport time permitted, the date of authorisation and the name of the competent authority providing the derogation;</p>
+                                                   </content>
+                                                </point>
+                                                <point>
+                                                   <num>(vii)</num>
+                                                   <content>
+                                                      <p>the food business operator of destination must notify the competent authorities before he receives for the first time carcases, half carcases, quarters, or half carcases cut into three wholesale cuts, not attaining the temperature specified in point 1 before transport;</p>
+                                                   </content>
+                                                </point>
+                                                <point>
+                                                   <num>(viii)</num>
+                                                   <alinea>
+                                                      <content>
+                                                         <p>such meat is transported in accordance with the following parameters:</p>
+                                                      </content>
+                                                   </alinea>
+                                                   <list>
+                                                      <indent>
+                                                         <num>-</num>
+                                                         <alinea>
+                                                            <content>
+                                                               <p>for a maximum transport time<authorialNote placement="bottom" marker="5">
+                                                                     <p>Maximum time allowed from the start of loading of meat into the vehicle until the completion of the final delivery. Loading of the meat into the vehicle may be postponed beyond the maximum time allowed for chilling of the meat to its specified surface temperature. If this happens, then the maximum transport time allowed must be shortened by the same length of time by which the loading was postponed. The competent authority of the Member State of destination may limit the number of delivery points.</p>
+                                                                  </authorialNote> of 6 hours:</p>
+                                                            </content>
+                                                         </alinea>
+                                                         <alinea>
+                                                            <content>
+                                                               <table class="TBL">
+                                                                  <authorialNote placement="bottom" marker="6">
+                                                                     <p>Maximum surface temperature allowed at loading and thereafter measures at the thickest part of the carcase, half carcases, quarters, or half carcases cut into three wholesale cuts.</p>
+                                                                  </authorialNote>
+                                                                  <authorialNote placement="bottom" marker="7">
+                                                                     <p>Maximum time allowed from the moment of killing until the reaching of the maximum surface temperature allowed at loading.</p>
+                                                                  </authorialNote>
+                                                                  <authorialNote placement="bottom" marker="8">
+                                                                     <p>The maximum air temperature to which the meat is allowed to be subjected from the moment loading begins, and throughout the whole duration of the transport.</p>
+                                                                  </authorialNote>
+                                                                  <authorialNote placement="bottom" marker="9">
+                                                                     <p>Slaughterhouse maximum daily mean carcase aerobic colony count using a rolling window of 10 weeks, allowed for carcases of the relevant species, as assessed by the operator to the satisfaction of the competent authority, according to the sampling and testing procedures laid out in points 2.1.1, 2.1.2 of Chapter 2, and point 3.2 of Chapter 3, of Annex I to Commission Regulation (EC) No 2073/2005 of 15 November 2005 on microbiological criteria for foodstuffs (OJ L 338, 22.12.2005, p. 1).</p>
+                                                                  </authorialNote>
+                                                                  <tr>
+                                                                     <th>
+                                                                        <p>Species</p>
+                                                                     </th>
+                                                                     <th>
+                                                                        <p>Surface temperature<authorialNote placement="bottom" marker="10"/>
+                                                                        </p>
+                                                                     </th>
+                                                                     <th>
+                                                                        <p>Maximum time to chill to surface temperature<authorialNote placement="bottom" marker="11"/>
+                                                                        </p>
+                                                                     </th>
+                                                                     <th>
+                                                                        <p>Maximum transportation air temperature<authorialNote placement="bottom" marker="12"/>
+                                                                        </p>
+                                                                     </th>
+                                                                     <th>
+                                                                        <p>Maximum daily mean carcase aerobic colony count<authorialNote placement="bottom" marker="13"/>
+                                                                        </p>
+                                                                     </th>
+                                                                  </tr>
+                                                                  <tr>
+                                                                     <td>
+                                                                        <p>Ovine and caprine animals</p>
+                                                                     </td>
+                                                                     <td rowspan="3">
+                                                                        <p>7 °C</p>
+                                                                     </td>
+                                                                     <td>
+                                                                        <p>8 hours</p>
+                                                                     </td>
+                                                                     <td rowspan="3">
+                                                                        <p>6 °C</p>
+                                                                     </td>
+                                                                     <td>
+                                                                        <p>log<sub>10</sub> 3,5 cfu/cm<sup>2</sup>
+                                                                        </p>
+                                                                     </td>
+                                                                  </tr>
+                                                                  <tr>
+                                                                     <td>
+                                                                        <p>Bovine animals</p>
+                                                                     </td>
+                                                                     <td>
+                                                                        <p>20 hours</p>
+                                                                     </td>
+                                                                     <td>
+                                                                        <p>log<sub>10</sub> 3,5 cfu/cm<sup>2</sup>
+                                                                        </p>
+                                                                     </td>
+                                                                  </tr>
+                                                                  <tr>
+                                                                     <td>
+                                                                        <p>Porcine animals</p>
+                                                                     </td>
+                                                                     <td>
+                                                                        <p>16 hours</p>
+                                                                     </td>
+                                                                     <td>
+                                                                        <p>log<sub>10</sub> 4 cfu/cm<sup>2</sup>
+                                                                        </p>
+                                                                     </td>
+                                                                  </tr>
+                                                               </table>
+                                                            </content>
+                                                         </alinea>
+                                                      </indent>
+                                                      <indent>
+                                                         <num>-</num>
+                                                         <alinea>
+                                                            <content>
+                                                               <p>for a maximum transport time<authorialNote placement="bottom" marker="14">
+                                                                     <p>Maximum time allowed from the start of loading of meat into the vehicle until the completion of the final delivery. Loading of the meat into the vehicle may be postponed beyond the maximum time allowed for chilling of the meat to its specified surface temperature. If this happens, then the maximum transport time allowed must be shortened by the same length of time by which the loading was postponed. The competent authority of the Member State of destination may limit the number of delivery points.</p>
+                                                                  </authorialNote> of 30 hours:</p>
+                                                            </content>
+                                                         </alinea>
+                                                         <alinea>
+                                                            <content>
+                                                               <table class="TBL">
+                                                                  <authorialNote placement="bottom" marker="15">
+                                                                     <p>The maximum core temperature of the meat allowed at the time of loading, and thereafter.&apos;;</p>
+                                                                  </authorialNote>
+                                                                  <tr>
+                                                                     <th>
+                                                                        <p>Species</p>
+                                                                     </th>
+                                                                     <th>
+                                                                        <p>Surface temperature (<sup>2</sup>)</p>
+                                                                     </th>
+                                                                     <th>
+                                                                        <p>Maximum time to chill to surface temperature (<sup>3</sup>)</p>
+                                                                     </th>
+                                                                     <th>
+                                                                        <p>Core temperature<authorialNote placement="bottom" marker="16"/>
+                                                                        </p>
+                                                                     </th>
+                                                                     <th>
+                                                                        <p>Maximum transportation air temperature (<sup>4</sup>)</p>
+                                                                     </th>
+                                                                     <th>
+                                                                        <p>Maximum daily mean carcase aerobic colony count (<sup>5</sup>)</p>
+                                                                     </th>
+                                                                  </tr>
+                                                                  <tr>
+                                                                     <td>
+                                                                        <p>Porcine animals</p>
+                                                                     </td>
+                                                                     <td>
+                                                                        <p>7 °C</p>
+                                                                     </td>
+                                                                     <td>
+                                                                        <p>16 hours</p>
+                                                                     </td>
+                                                                     <td>
+                                                                        <p>15 °C</p>
+                                                                     </td>
+                                                                     <td>
+                                                                        <p>6 °C</p>
+                                                                     </td>
+                                                                     <td>
+                                                                        <p>log<sub>10</sub> 4 cfu/cm<sup>2</sup>
+                                                                        </p>
+                                                                     </td>
+                                                                  </tr>
+                                                               </table>
+                                                            </content>
+                                                         </alinea>
+                                                      </indent>
+                                                      <indent>
+                                                         <num>-</num>
+                                                         <alinea>
+                                                            <content>
+                                                               <p>for a maximum transport time<authorialNote placement="bottom" marker="17">
+                                                                     <p>Maximum time allowed from the start of loading of meat into the vehicle until the completion of the final delivery. Loading of the meat into the vehicle may be postponed beyond the maximum time allowed for chilling of the meat to its specified surface temperature. If this happens, then the maximum transport time allowed must be shortened by the same length of time by which the loading was postponed. The competent authority of the Member State of destination may limit the number of delivery points.</p>
+                                                                  </authorialNote> of 60 hours:</p>
+                                                            </content>
+                                                         </alinea>
+                                                         <alinea>
+                                                            <content>
+                                                               <table class="TBL">
+                                                                  <tr>
+                                                                     <th>
+                                                                        <p>Species</p>
+                                                                     </th>
+                                                                     <th>
+                                                                        <p>Surface temperature (<sup>2</sup>)</p>
+                                                                     </th>
+                                                                     <th>
+                                                                        <p>Maximum time to chill to surface temperature (<sup>3</sup>)</p>
+                                                                     </th>
+                                                                     <th>
+                                                                        <p>Core temperature (<sup>6</sup>)</p>
+                                                                     </th>
+                                                                     <th>
+                                                                        <p>Maximum transportation air temperature (<sup>4</sup>)</p>
+                                                                     </th>
+                                                                     <th>
+                                                                        <p>Maximum daily mean carcase aerobic colony count (<sup>5</sup>)</p>
+                                                                     </th>
+                                                                  </tr>
+                                                                  <tr>
+                                                                     <td>
+                                                                        <p>Ovine and caprine animals</p>
+                                                                     </td>
+                                                                     <td rowspan="2">
+                                                                        <p>4 °C</p>
+                                                                     </td>
+                                                                     <td>
+                                                                        <p>12 hours</p>
+                                                                     </td>
+                                                                     <td rowspan="2">
+                                                                        <p>15 °C</p>
+                                                                     </td>
+                                                                     <td rowspan="2">
+                                                                        <p>3 °C</p>
+                                                                     </td>
+                                                                     <td rowspan="2">
+                                                                        <p>log<sub>10</sub> 3 cfu/cm<sup>2</sup>
+                                                                        </p>
+                                                                     </td>
+                                                                  </tr>
+                                                                  <tr>
+                                                                     <td>
+                                                                        <p>Bovine animals</p>
+                                                                     </td>
+                                                                     <td>
+                                                                        <p>24 hours</p>
+                                                                     </td>
+                                                                  </tr>
+                                                               </table>
+                                                            </content>
+                                                         </alinea>
+                                                      </indent>
+                                                   </list>
+                                                </point>
+                                             </list>
+                                          </point>
+                                       </list>
+                                    </point>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(2)</num>
+                     <alinea>
+                        <content>
+                           <p>in Section I, Chapter V, the following point 5 is added:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <point>
+                                       <num>&apos;5.</num>
+                                       <content>
+                                          <p>Carcases, half carcases, quarters, or half carcases cut into no more than three wholesale cuts may be boned and cut prior to reaching the temperature referred to in point 2(b) when they have been transported under the derogation set out in point 3(b) of Chapter VII of Section I. In this case, throughout cutting or boning, the meat must be subjected to air temperatures that ensure a continuous decrease of the temperature of the meat. As soon as it is cut and, where appropriate, packaged, the meat must be chilled to the temperature referred to in point 2(b) if it is not already below this temperature.&apos;</p>
+                                       </content>
+                                    </point>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+               </list>
+            </paragraph>
+         </article>
+         <article xml:id="art_d551e503">
+            <num>Article 2</num>
+            <heading/>
+            <paragraph>
+               <content>
+                  <p>This Regulation shall enter into force on the twentieth day following that of its publication in the <i>Official Journal of the European Union</i>.</p>
+               </content>
+            </paragraph>
+         </article>
+         <clause>
+            <content>
+               <p>This Regulation shall be binding in its entirety and directly applicable in all Member States.</p>
+            </content>
+         </clause>
+      </body>
+      <conclusions>
+         <p>Done at Brussels, 31 October 2017.</p>
+         <block name="signatory">
+            <signature>
+               <organization refersTo="">For the Commission</organization>
+               <role refersTo="">The President</role>
+               <person refersTo="">Jean-Claude JUNCKER</person>
+            </signature>
+         </block>
+      </conclusions>
+   </bill>
+</akomaNtoso>

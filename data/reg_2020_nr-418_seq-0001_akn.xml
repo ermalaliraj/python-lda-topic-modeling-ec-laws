@@ -1,0 +1,550 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"
+            xmlns:fmx="http://formex.publications.europa.eu/schema/formex-05.21-20110601.xd"
+            xmlns:leos="urn:eu:europa:ec:leos"
+            xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <bill name="">
+      <meta xmlns:fn="http://www.w3.org/2005/xpath-functions">
+         <identification source="~COM">
+            <FRBRWork>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRcountry value=""/>
+            </FRBRWork>
+            <FRBRExpression>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+            </FRBRManifestation>
+         </identification>
+      </meta>
+      <preface>
+         <longTitle>
+            <p>
+               <docStage/>
+               <docType>REGULATION (EU) 2020/2011 OF THE EUROPEAN CENTRAL BANK</docType>of 1 December 2020<docPurpose>amending Regulation (EU) No 1409/2013 on payments statistics (ECB/2013/43) (ECB/2020/59)</docPurpose>
+            </p>
+         </longTitle>
+      </preface>
+      <preamble>
+         <formula name="actingEntity">
+            <p>The GOVERNING COUNCIL OF THE EUROPEAN CENTRAL BANK,</p>
+         </formula>
+         <citations>
+            <citation>
+               <p>Having regard to the Treaty on the Functioning of the European Union, and in particular Article 127(2) thereof,</p>
+            </citation>
+            <citation>
+               <p>Having regard to the Statute of the European System of Central Banks and of the European Central Bank, and in particular Article 5 thereof,</p>
+            </citation>
+            <citation>
+               <p>Having regard to Council Regulation (EC) No 2533/98 of 23 November 1998 concerning the collection of statistical information by the European Central Bank<authorialNote placement="bottom" marker="1">
+                     <p>OJ L 318, 27.11.1998, p. 8.</p>
+                  </authorialNote>, and in particular Articles 5(1) and 6(4) thereof,</p>
+            </citation>
+         </citations>
+         <recitals xml:id="recs_d243e74">
+            <intro>
+               <p>Whereas:</p>
+            </intro>
+            <recital xml:id="rec_d243e77">
+               <num>(1)</num>
+               <p>Information relating to payments and payment systems statistics collected pursuant to Article 2(1) of Regulation (EC) No 2533/98 is essential for identifying and monitoring developments in the payments markets within the Member States. The European Central Bank (ECB) collects country-specific and comparative payments statistics so that it is able to fulfil its task of promoting the smooth operation of payment systems in the Union and thus helps contribute to the smooth conduct of policies relating to the prudential supervision of credit institutions and the stability of the financial system.</p>
+            </recital>
+            <recital xml:id="rec_d243e83">
+               <num>(2)</num>
+               <p>Given that payments are effected by means of payment instruments and processed by payment systems, collecting statistical information on payment instruments is necessary to ensure the smooth operation of the systems through which they pass. In addition, as standards in respect of payment instruments are determined by payment schemes, the collection of statistical information concerning the operation of payment schemes is necessary to contribute to the smooth functioning of those payment systems. For these purposes, the ECB requires statistical information on an annual and on an semi-annual basis. Therefore, the reporting frequency should be increased.</p>
+            </recital>
+            <recital xml:id="rec_d243e89">
+               <num>(3)</num>
+               <p>In light of the interconnection between payment instruments and payment systems, the smooth operation of payment systems is dependent on public confidence in payment instruments. Financial loss due to fraud undermines public confidence in payment instruments and it is therefore important to adopt measures that ensure that payment instruments are secure and that their users and the payment systems through which such payments pass are also secure. It is therefore duly justified to monitor the levels of fraud, and the means by which such fraud is carried out, to ensure the safety, security and efficiency of those instruments, thereby ensuring their smooth operation.</p>
+            </recital>
+            <recital xml:id="rec_d243e96">
+               <num>(4)</num>
+               <p>Directive (EU) 2015/2366 of the European Parliament and of the Council<authorialNote placement="bottom" marker="2">
+                     <p>Directive (EU) 2015/2366 of the European Parliament and of the Council of 25 November 2015 on payment services in the internal market, amending Directives 2002/65/EC, 2009/110/EC and 2013/36/EU and Regulation (EU) No 1093/2010, and repealing Directive 2007/64/EC (OJ L 337, 23.12.2015, p. 35).</p>
+                  </authorialNote> requires Member States to ensure that payment service providers (PSPs) provide their competent authorities, at least on an annual basis, statistical information on fraud relating to different means of payment. Detail on this statistical information, as well as the aggregated data that the competent authorities have to share with the EBA and the ECB is provided in the EBA Guidelines on reporting requirements for fraud data<authorialNote placement="bottom" marker="3">
+                     <p>European Banking Authority Guidelines on reporting requirements for fraud data under Article 96(6) PSD2, EBA/GL/2018/05.</p>
+                  </authorialNote>. As the EBA Guidelines focus on the reporting of data that are relevant mostly for supervisory purposes, it is necessary to ensure that the statistical information available to the ECB will allow it to effectively perform its oversight tasks, for example, by accurately monitoring trends in new payment services, formulating policies in rapidly-evolving retail payment markets and assessing the degree of safety and efficiency of the payment instruments to mitigate the specific risks (e.g. financial and operational risks) relating to the individual payment schemes. As a consequence, more detailed reporting of information on fraud should be required. Reporting agents should therefore report not only statistical information on fraud per payment instrument (e.g. card-based payment instruments, credit transfers, direct debits) as foreseen by the EBA Guidelines, but should also report more detailed data on payment channels, payment schemes, cross border card-based payment transactions and country breakdowns. In order to simplify the reporting requirements for reporting agents, the frequency of reporting should correspond with the frequency of reporting under the EBA Guidelines.</p>
+            </recital>
+            <recital xml:id="rec_d243e116">
+               <num>(5)</num>
+               <p>For the same reasons and to ensure consistent reporting, the definitions and the methodology laid down in Regulation (EU) No 1409/2013 of the European Central Bank (ECB/2013/43)<authorialNote placement="bottom" marker="4">
+                     <p>Regulation (EU) No 1409/2013 of the European Central Bank of 28 November 2013 on payments statistics (ECB/2013/43) (OJ L 352, 24.12.2013, p. 18).</p>
+                  </authorialNote> should be aligned with the definitions and the methodology laid down in Directive (EU) 2015/2366, as far as applicable for the purposes of ESCB tasks.</p>
+            </recital>
+            <recital xml:id="rec_d243e132">
+               <num>(6)</num>
+               <p>More generally the methodology according to which statistical information on payments and payment systems is collected should take account of developments in the legal framework for the regulation of payments within the Union. Any reform of the regulation of payments in the Union should therefore be taken into consideration when determining the methodology for the collection of statistical information concerning such payments. Accordingly, provisions in Directive (EU) 2015/2366 relating to additional payment services, payment initiation services, account information services and the licensing and supervision of new types of PSPs, payment initiation service providers and account information service providers should be taken into account to ensure that information in the area of payments and payment system statistics is complete. It is therefore necessary to collect information on the activities of these new PSPs and, in particular, on the services they provide, to understand the roles they perform in the economy. Existing reporting requirements should therefore be extended to include information relating to the activities of these new types of PSPs, as well as information relating to strong customer authentication and any exemptions to its application, so that the European System of Central Banks is able to fulfil its independent oversight tasks.</p>
+            </recital>
+            <recital xml:id="rec_d243e138">
+               <num>(7)</num>
+               <p>In order to monitor cross-border trade and improve the overall quality of the information required to compile balance of payments statistics, in particular on the item on travel, transport and the item on online trade in goods and services (e-commerce), further detail on card-based payment transactions is required. The collection of statistical information on the merchant&apos;s sector of activity, by means of the merchant category code (MCC), and the collection of card-based payment transactions on a worldwide basis allows for an in-depth analysis of international payment transactions and an accurate allocation of payments across the various categories of goods and services. For the same reason, reporting agents should be required to report these statistics quarterly, and within shorter deadlines in order to enhance their relevance and utility and contribute to the compilation of quarterly balance of payments.</p>
+            </recital>
+            <recital xml:id="rec_d243e144">
+               <num>(8)</num>
+               <p>Ensuring the collection of the most relevant information within effective methodologies allows for the compilation of accurate statistics. A greater reporting frequency and a more detailed geographical breakdown of payments statistics is therefore necessary to improve the assessment of the short term developments in economic activity, including quarterly private consumption, which comprises a central component of GDP forecasting.</p>
+            </recital>
+            <recital xml:id="rec_d243e152">
+               <num>(9)</num>
+               <p>In light of the principle of proportionality, national central banks (NCBs) should be able to grant derogations to reporting agents in respect of the statistical reporting requirements set out in this Regulation under specific conditions, where the granting of such derogations does not impede the ESCB from effectively fulfilling its tasks. In addition, NCBs should have the power to collect the necessary statistical information on payments via the relevant national competent authority (NCA) that already collects data from reporting agents, in accordance with local cooperation arrangements. Equally, it should be possible for the confidential statistical information on fraud collected under this Regulation to be transmitted to an NCA to facilitate the data collection under Directive (EU) 2015/2366, provided that the rules for the protection and use of confidential statistical information in Regulation (EC) No 2533/98 are met.</p>
+            </recital>
+            <recital xml:id="rec_d243e158">
+               <num>(10)</num>
+               <p>The European Commission was consulted on the amendments to the statistical requirements set out in Regulation (EU) No 1409/2013 (ECB/2013/43) in accordance with Article 5(2) of Regulation (EC) No 2533/98.</p>
+            </recital>
+            <recital xml:id="rec_d243e164">
+               <num>(11)</num>
+               <p>In order to allow reporting agents sufficient time to prepare, first reporting should not apply for a period of at least 12 months from the date of adoption of this Regulation.</p>
+            </recital>
+            <recital xml:id="rec_d243e170">
+               <num>(12)</num>
+               <p>Regulation (EU) No 1409/2013 of the European Central Bank (ECB/2013/43) should therefore be amended accordingly,</p>
+            </recital>
+         </recitals>
+         <formula name="enactingFormula">
+            <p>HAS ADOPTED THIS REGULATION:</p>
+         </formula>
+      </preamble>
+      <body>
+         <article xml:id="art_d243e179" leos:compliant="false">
+            <num>Article 1</num>
+            <heading>Amendments to Regulation (EU) No 1409/2013 (ECB/2013/43)</heading>
+            <paragraph>
+               <subparagraph>
+                  <content>
+                     <p>Regulation (EU) No 1409/2013 (ECB/2013/43) is amended as follows:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(1)</num>
+                     <alinea>
+                        <content>
+                           <p>Article 1 is amended as follows:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <alinea>
+                              <content>
+                                 <p>point (b) is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <list>
+                                             <point>
+                                                <num>&apos;(b)</num>
+                                                <content>
+                                                   <p>&quot;payment service provider&quot;, &quot;payment institution&quot;, &quot;payment system&quot; and &quot;payment transaction&quot; have the same meaning as defined in Article 4 of Directive (EU) 2015/2366 of the European Parliament and of the Council<authorialNote placement="bottom" marker="5">
+                                                         <p>Directive (EU) 2015/2366 of the European Parliament and of the Council of 25 November 2015 on payment services in the internal market, amending Directives 2002/65/EC, 2009/110/EC and 2013/36/EU and Regulation (EU) No 1093/2010, and repealing Directive 2007/64/EC (OJ L 337, 23.12.2015, p. 35).&apos;;</p>
+                                                      </authorialNote>;</p>
+                                                </content>
+                                             </point>
+                                          </list>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <alinea>
+                              <content>
+                                 <p>the following point (e) is added:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <list>
+                                             <point>
+                                                <num>&apos;(e)</num>
+                                                <content>
+                                                   <p>&quot;payment service&quot; means any of the business activities listed in Annex I to Directive (EU) 2015/2366 or any of the services listed in Article 4(3)(a) of this Regulation.&apos;;</p>
+                                                </content>
+                                             </point>
+                                          </list>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                     </list>
+                  </point>
+                  <point>
+                     <num>(2)</num>
+                     <alinea>
+                        <content>
+                           <p>Article 2 is replaced by the following:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <article xml:id="art_d243e269">
+                                       <num>&apos;Article 2</num>
+                                       <heading>Actual reporting population</heading>
+                                       <paragraph>
+                                          <content>
+                                             <p>The actual reporting population shall consist of payment service providers (including electronic money issuers) and payment system operators.&apos;;</p>
+                                          </content>
+                                       </paragraph>
+                                    </article>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(3)</num>
+                     <alinea>
+                        <content>
+                           <p>in Article 3, paragraph 1 is replaced by the following:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <paragraph>
+                                       <num>&apos;1.</num>
+                                       <content>
+                                          <p>The actual reporting population referred to in Article 2 shall report the statistical information to the NCB of the Member State in which the relevant reporting agent is resident, either directly or via the relevant national competent authority pursuant to local cooperation arrangements, as specified in Annex III and taking into consideration the clarifications and definitions provided in Annexes I and II. Those reporting agents shall report the required statistical information in accordance with the minimum standards set out in Annex IV&apos;;</p>
+                                       </content>
+                                    </paragraph>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(4)</num>
+                     <alinea>
+                        <content>
+                           <p>Article 4 is replaced by the following:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <article xml:id="art_d243e304">
+                                       <num>&apos;Article 4</num>
+                                       <heading>Derogations</heading>
+                                       <paragraph>
+                                          <num>1.</num>
+                                          <content>
+                                             <p>For the purposes of granting derogations to reporting agents NCBs shall be guided by the principle of proportionality.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>2.</num>
+                                          <subparagraph>
+                                             <content>
+                                                <p>NCBs may grant derogations to the following reporting agents in respect of the reporting requirements referred to in Article 3(1) and in accordance with paragraphs 3 and 4:</p>
+                                             </content>
+                                          </subparagraph>
+                                          <list>
+                                             <point>
+                                                <num>(a)</num>
+                                                <content>
+                                                   <p>payment institutions, where they fulfil the conditions laid down in paragraphs 1 and 2 of Article 32 of Directive (EU) 2015/2366;</p>
+                                                </content>
+                                             </point>
+                                             <point>
+                                                <num>(b)</num>
+                                                <content>
+                                                   <p>electronic money institutions, where they fulfil the conditions laid down in paragraphs 1 and 2 of Article 9 of Directive 2009/110/EC;</p>
+                                                </content>
+                                             </point>
+                                             <point>
+                                                <num>(c)</num>
+                                                <content>
+                                                   <p>payment service providers other than those referred to in points (a) and (b), where they fulfil both the conditions laid down in Article 32(1) and (2) of Directive (EU) 2015/2366 and the conditions laid down in Article 9(1) and (2) of Directive 2009/110/EC.</p>
+                                                </content>
+                                             </point>
+                                          </list>
+                                          <subparagraph>
+                                             <content>
+                                                <p>For the purposes of the first subparagraph, NCBs may grant derogations regardless of whether reporting agents have been waived or exempted from prudential requirements pursuant to the relevant national law transposing Directive (EU) 2015/2366 and Directive 2009/110/EC.</p>
+                                             </content>
+                                          </subparagraph>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>3.</num>
+                                          <subparagraph>
+                                             <content>
+                                                <p>NCBs may grant derogations in accordance with paragraph 4 to the reporting agents referred to in paragraph 2 where either of the following apply:</p>
+                                             </content>
+                                          </subparagraph>
+                                          <list>
+                                             <point>
+                                                <num>(a)</num>
+                                                <alinea>
+                                                   <content>
+                                                      <p>the total value, as contributed by all payment service providers that could benefit from such derogation, of each of the following payment services does not exceed 5 % at national level:</p>
+                                                   </content>
+                                                </alinea>
+                                                <list>
+                                                   <point>
+                                                      <num>(i)</num>
+                                                      <content>
+                                                         <p>credit transfers (sent),</p>
+                                                      </content>
+                                                   </point>
+                                                   <point>
+                                                      <num>(ii)</num>
+                                                      <content>
+                                                         <p>direct debits (sent),</p>
+                                                      </content>
+                                                   </point>
+                                                   <point>
+                                                      <num>(iii)</num>
+                                                      <content>
+                                                         <p>card-based payment transactions (sent and received),</p>
+                                                      </content>
+                                                   </point>
+                                                   <point>
+                                                      <num>(iv)</num>
+                                                      <content>
+                                                         <p>cash withdrawals using card-based payment instruments,</p>
+                                                      </content>
+                                                   </point>
+                                                   <point>
+                                                      <num>(v)</num>
+                                                      <content>
+                                                         <p>e-money payment transactions (sent),</p>
+                                                      </content>
+                                                   </point>
+                                                   <point>
+                                                      <num>(vi)</num>
+                                                      <content>
+                                                         <p>cheques (sent),</p>
+                                                      </content>
+                                                   </point>
+                                                   <point>
+                                                      <num>(vii)</num>
+                                                      <content>
+                                                         <p>money remittances (sent),</p>
+                                                      </content>
+                                                   </point>
+                                                   <point>
+                                                      <num>(viii)</num>
+                                                      <content>
+                                                         <p>other payment services (sent),</p>
+                                                      </content>
+                                                   </point>
+                                                   <point>
+                                                      <num>(ix)</num>
+                                                      <content>
+                                                         <p>payment initiation services,</p>
+                                                      </content>
+                                                   </point>
+                                                   <point>
+                                                      <num>(x)</num>
+                                                      <content>
+                                                         <p>other services not included in Directive (EU) 2015/2366 (sent);</p>
+                                                      </content>
+                                                   </point>
+                                                </list>
+                                             </point>
+                                             <point>
+                                                <num>(b)</num>
+                                                <content>
+                                                   <p>the total number of clients, as contributed by all payment service providers that could benefit from such derogation, of account information services does not exceed 5 % at national level.</p>
+                                                </content>
+                                             </point>
+                                          </list>
+                                          <subparagraph>
+                                             <content>
+                                                <p>For the purposes of point (a) the cumulative total value, as contributed by all payment service providers that could benefit from such derogation, of the payment services listed therein shall not exceed 5 % at national level.</p>
+                                             </content>
+                                          </subparagraph>
+                                          <subparagraph>
+                                             <content>
+                                                <p>For the purposes of this paragraph, NCBs may only grant derogations where the reporting burden would be disproportionate in view of the size of such reporting agents.</p>
+                                             </content>
+                                          </subparagraph>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>4.</num>
+                                          <content>
+                                             <p>Reporting agents that have been granted derogations pursuant to paragraphs 2 and 3 shall report statistical information in accordance with Tables 4b and 5b of Annex III.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>5.</num>
+                                          <content>
+                                             <p>NCBs shall verify compliance with the conditions set out in paragraphs 2 and 3 on an annual basis and in good time in order to grant or withdraw any derogation with effect from the start of the second successive calendar year where necessary. That verification shall be based on the relevant reporting periods for the 12 months immediately preceding the reference period in which the assessment is conducted.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>6.</num>
+                                          <content>
+                                             <p>Where an NCB grants a derogation pursuant to this Article, it shall notify the ECB thereof at the same time as it reports information pursuant to Article 6.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>7.</num>
+                                          <content>
+                                             <p>The ECB shall publish a list of entities granted derogations by the NCBs pursuant to this Article.&apos;;</p>
+                                          </content>
+                                       </paragraph>
+                                    </article>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(5)</num>
+                     <alinea>
+                        <content>
+                           <p>Article 6 is replaced by the following:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <article xml:id="art_d243e458">
+                                       <num>&apos;Article 6</num>
+                                       <heading>Timeliness</heading>
+                                       <paragraph>
+                                          <num>1.</num>
+                                          <subparagraph>
+                                             <content>
+                                                <p>Statistical information reported in accordance with Annex III shall be transmitted by the NCBs to the ECB on a quarterly, semi-annual or annual basis and as follows:</p>
+                                             </content>
+                                          </subparagraph>
+                                          <list>
+                                             <point>
+                                                <num>(a)</num>
+                                                <content>
+                                                   <p>for reporting on a quarterly basis, statistical information set out in Table 9 of Annex III shall be transmitted by close of business on the last working day of the second month following the end of the relevant quarter;</p>
+                                                </content>
+                                             </point>
+                                             <point>
+                                                <num>(b)</num>
+                                                <content>
+                                                   <p>for reporting on a semi-annual basis, statistical information set out in Tables 1, 2, 3, 4a, 5a, 6, 7 and 8 of Annex III for the period January to June shall be transmitted by close of business on the last working day of November following the end of the first half of the year to which it relates. Statistical information for the period July to December shall be transmitted by close of business on the last working day of May following the end of the second half of the year to which it relates;</p>
+                                                </content>
+                                             </point>
+                                             <point>
+                                                <num>(c)</num>
+                                                <content>
+                                                   <p>for reporting on an annual basis, statistical information set out in Tables 4b and 5b of Annex III shall be transmitted with a half-yearly breakdown by close of business on the last working day of May following the year to which it relates;</p>
+                                                </content>
+                                             </point>
+                                          </list>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>2.</num>
+                                          <content>
+                                             <p>NCBs shall establish clear reporting deadlines for reporting agents. Those reporting deadlines shall clearly determine the frequency with which reporting agents are to report to NCBs and shall ensure that NCBs are able to meet their reporting deadlines with the ECB set out in paragraph 1.&apos;;</p>
+                                          </content>
+                                       </paragraph>
+                                    </article>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(6)</num>
+                     <alinea>
+                        <content>
+                           <p>the following Article 8a is inserted:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <article xml:id="art_d243e504">
+                                       <num>&apos;Article 8a</num>
+                                       <heading>First reporting of quarterly, semi-annual and annual statistical information</heading>
+                                       <paragraph>
+                                          <num>1.</num>
+                                          <content>
+                                             <p>Reporting to the ECB by the NCBs of quarterly and semi-annual statistical information shall begin with quarterly data for Q1 of 2022 by end-May 2022 and semi-annual data for H1 of 2022 by end-November 2022.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>2.</num>
+                                          <content>
+                                             <p>Reporting to the ECB by the NCBs for aggregated annual statistical information with a half-yearly breakdown in relation to reporting agents granted derogation pursuant to paragraphs (2) and (3) of Article 4 shall begin with the reference periods [H1 and H2 of 2022 by end-May 2023].&apos;;</p>
+                                          </content>
+                                       </paragraph>
+                                    </article>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(7)</num>
+                     <content>
+                        <p>Annexes I, II and III to Regulation (EU) No 1409/2013 are replaced by Annexes I, II and III to this Regulation.</p>
+                     </content>
+                  </point>
+               </list>
+            </paragraph>
+         </article>
+         <article xml:id="art_d243e528">
+            <num>Article 2</num>
+            <heading>Final provisions</heading>
+            <paragraph>
+               <content>
+                  <p>This Regulation shall enter into force on the twentieth day following its publication in the <i>Official Journal of the European Union</i>. It shall apply from 1 January 2022.</p>
+               </content>
+            </paragraph>
+         </article>
+         <clause>
+            <content>
+               <p>This Regulation shall be binding in its entirety and directly applicable in the Member States in accordance with the Treaties.</p>
+            </content>
+         </clause>
+      </body>
+      <conclusions>
+         <p>Done at Frankfurt am Main, 1 December 2020.</p>
+         <block name="signatory">
+            <signature>
+               <organization refersTo="">For the Governing Council of the ECB</organization>
+               <role refersTo="">The President of the ECB</role>
+               <person refersTo="">Christine LAGARDE</person>
+            </signature>
+         </block>
+      </conclusions>
+   </bill>
+</akomaNtoso>

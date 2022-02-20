@@ -1,0 +1,2229 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"
+            xmlns:fmx="http://formex.publications.europa.eu/schema/formex-05.21-20110601.xd"
+            xmlns:leos="urn:eu:europa:ec:leos"
+            xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <bill name="">
+      <meta xmlns:fn="http://www.w3.org/2005/xpath-functions">
+         <identification source="~COM">
+            <FRBRWork>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRcountry value=""/>
+            </FRBRWork>
+            <FRBRExpression>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+            </FRBRManifestation>
+         </identification>
+      </meta>
+      <preface>
+         <longTitle>
+            <p>
+               <docStage/>
+               <docType>REGULATION (EU) 2016/1037 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL</docType>of 8 June 2016<docPurpose>on protection against subsidised imports from countries not members of the European Union</docPurpose>
+            </p>
+         </longTitle>
+         <container name="EEArelevance">
+            <p>(codification)</p>
+         </container>
+      </preface>
+      <preamble>
+         <formula name="actingEntity">
+            <p>THE EUROPEAN PARLIAMENT AND THE COUNCIL OF THE EUROPEAN UNION,</p>
+         </formula>
+         <citations>
+            <citation>
+               <p>Having regard to the Treaty on the Functioning of the European Union, and in particular Article 207(2) thereof,</p>
+            </citation>
+            <citation>
+               <p>Having regard to the proposal from the European Commission,</p>
+            </citation>
+            <citation>
+               <p>After transmission of the draft legislative act to the national parliaments,</p>
+            </citation>
+            <citation>
+               <p>Having regard to the opinion of the European Economic and Social Committee<authorialNote placement="bottom" marker="1">
+                     <p>Opinion of 10 December 2014 (OJ C 230, 14.7.2015, p. 129).</p>
+                  </authorialNote>,</p>
+            </citation>
+            <citation>
+               <p>Acting in accordance with the ordinary legislative procedure<authorialNote placement="bottom" marker="2">
+                     <p>Position of the European Parliament of 10 May 2016 (not yet published in the Official Journal) and decision of the Council of 30 May 2016.</p>
+                  </authorialNote>,</p>
+            </citation>
+         </citations>
+         <recitals xml:id="recs_d233e89">
+            <intro>
+               <p>Whereas:</p>
+            </intro>
+            <recital xml:id="rec_d233e92">
+               <num>(1)</num>
+               <p>Council Regulation (EC) No 597/2009<authorialNote placement="bottom" marker="3">
+                     <p>Council Regulation (EC) No 597/2009 of 11 June 2009 on protection against subsidised imports from countries not members of the European Community (OJ L 188, 18.7.2009, p. 93).</p>
+                  </authorialNote> has been substantially amended<authorialNote placement="bottom" marker="4">
+                     <p>See Annex V.</p>
+                  </authorialNote>. In the interests of clarity and rationality, that Regulation should be codified.</p>
+            </recital>
+            <recital xml:id="rec_d233e112">
+               <num>(2)</num>
+               <p>Annex 1A to the Agreement establishing the World Trade Organisation (&apos;the WTO Agreement&apos;) contains, inter alia, the General Agreement on Tariffs and Trade 1994 (&apos;the GATT 1994&apos;), an Agreement on Agriculture (&apos;the Agreement on Agriculture&apos;), an Agreement on Implementation of Article VI of the General Agreement on Tariffs and Trade 1994 and an Agreement on Subsidies and Countervailing Measures (&apos;the Subsidies Agreement&apos;).</p>
+            </recital>
+            <recital xml:id="rec_d233e135">
+               <num>(3)</num>
+               <p>In order to ensure a proper and transparent application of the rules provided for in the Subsidies Agreement, the language of that agreement should be reflected in Union legislation to the best extent possible.</p>
+            </recital>
+            <recital xml:id="rec_d233e141">
+               <num>(4)</num>
+               <p>Furthermore, it is appropriate to explain, in adequate detail, when a subsidy is to be deemed to exist, according to which principles it is to be countervailable (in particular whether the subsidy has been granted specifically), and according to which criteria the amount of the countervailable subsidy is to be calculated.</p>
+            </recital>
+            <recital xml:id="rec_d233e147">
+               <num>(5)</num>
+               <p>In determining the existence of a subsidy, it is necessary to demonstrate that there has been a financial contribution by a government or a public body within the territory of a country, or that there has been some form of income or price support within the meaning of Article XVI of the GATT 1994, and that a benefit has thereby been conferred on the recipient enterprise.</p>
+            </recital>
+            <recital xml:id="rec_d233e153">
+               <num>(6)</num>
+               <p>For the calculation of the benefit to the recipient in cases where a market benchmark does not exist in the country concerned, the benchmark should be determined by adjusting the terms and conditions prevailing in the country concerned on the basis of actual factors available in that country. If this is not practicable because, inter alia, such prices or costs do not exist or are unreliable, then the appropriate benchmark should be determined by resorting to terms and conditions in other markets.</p>
+            </recital>
+            <recital xml:id="rec_d233e159">
+               <num>(7)</num>
+               <p>It is desirable to set out clear and detailed guidance as to the factors which may be relevant for the determination of whether the subsidised imports have caused material injury or are threatening to cause injury. In demonstrating that the volume and price levels of the imports concerned are responsible for injury sustained by a Union industry, attention should be given to the effect of other factors and in particular prevailing market conditions in the Union.</p>
+            </recital>
+            <recital xml:id="rec_d233e166">
+               <num>(8)</num>
+               <p>It is advisable to define the term &apos;Union industry&apos; and to provide that parties related to exporters may be excluded from such an industry, and to define the term &apos;related&apos;. It is also necessary to provide for countervailing duty action to be taken on behalf of producers in a region of the Union and to set out guidelines on the definition of such a region.</p>
+            </recital>
+            <recital xml:id="rec_d233e180">
+               <num>(9)</num>
+               <p>It is necessary to specify who may lodge a countervailing duty complaint, including the extent to which it should be supported by the Union industry, and the information on countervailable subsidies, injury and causation which such a complaint should contain. It is also expedient to specify the procedures for the rejection of complaints or the initiation of proceedings.</p>
+            </recital>
+            <recital xml:id="rec_d233e187">
+               <num>(10)</num>
+               <p>It is necessary to specify the manner in which interested parties should be given notice of the information which the authorities require. Interested parties should have ample opportunity to present all relevant evidence and to defend their interests. It is also desirable to set out clearly the rules and procedures to be followed during the investigation, in particular the rules whereby interested parties are to make themselves known, present their views and submit information within specified time limits, if such views and information are to be taken into account. It is also appropriate to set out the conditions under which an interested party may have access to, and comment on, information presented by other interested parties. There should also be cooperation between the Member States and the Commission in the collection of information.</p>
+            </recital>
+            <recital xml:id="rec_d233e193">
+               <num>(11)</num>
+               <p>It is necessary to set out the conditions under which provisional duties may be imposed, including conditions whereby provisional duties may be imposed no earlier than 60 days from initiation and no later than nine months thereafter. Such duties may in all cases be imposed by the Commission only for a four-month period.</p>
+            </recital>
+            <recital xml:id="rec_d233e199">
+               <num>(12)</num>
+               <p>It is necessary to set out procedures for accepting undertakings which eliminate or offset the countervailable subsidies and injury instead of imposing provisional or definitive duties. It is also appropriate to specify the consequences of a breach or withdrawal of undertakings and that provisional duties may be imposed in cases of suspected violation or where further investigation is necessary to supplement the findings. In accepting undertakings, care should be taken that the proposed undertakings, and their enforcement, do not lead to anti-competitive behaviour.</p>
+            </recital>
+            <recital xml:id="rec_d233e205">
+               <num>(13)</num>
+               <p>It is appropriate to allow withdrawal of an undertaking and application of the duty by one single legal act. It is also necessary to ensure that the withdrawal procedure is terminated within a time limit of normally six months and in no case more than nine months in order to ensure the proper enforcement of the measure in force.</p>
+            </recital>
+            <recital xml:id="rec_d233e211">
+               <num>(14)</num>
+               <p>It is necessary to provide that the termination of cases should, irrespective of whether definitive measures are adopted or not, normally take place within 12 months, and in no case more than 13 months, of the initiation of the investigation.</p>
+            </recital>
+            <recital xml:id="rec_d233e217">
+               <num>(15)</num>
+               <p>Investigations or proceedings should be terminated where the amount of the subsidy is <i>de minimis</i> or, particularly in the case of imports originating in developing countries, the volume of subsidised imports or the injury is negligible, and it is appropriate to define those situations. Where measures are to be imposed, it is necessary to provide for the termination of investigations and to specify that measures should be less than the amount of countervailable subsidies if such lesser amount would remove the injury, and also to specify the method of calculating the level of measures in cases of sampling.</p>
+            </recital>
+            <recital xml:id="rec_d233e226">
+               <num>(16)</num>
+               <p>It is necessary to provide for retroactive collection of provisional duties if that is deemed appropriate and to define the circumstances which may trigger the retroactive application of duties to avoid the undermining of the definitive measures to be applied. It is also necessary to provide that duties may be applied retroactively in cases of breach or withdrawal of undertakings.</p>
+            </recital>
+            <recital xml:id="rec_d233e232">
+               <num>(17)</num>
+               <p>It is necessary to provide that measures are to lapse after five years unless a review indicates that they should be maintained. It is also necessary to provide, in cases where sufficient evidence is submitted of changed circumstances, for interim reviews or for investigations to determine whether refunds of countervailing duties are warranted.</p>
+            </recital>
+            <recital xml:id="rec_d233e238">
+               <num>(18)</num>
+               <p>Even though the Subsidies Agreement does not contain provisions concerning circumvention of countervailing measures, the possibility of such circumvention exists, in terms similar, albeit not identical, to the circumvention of anti-dumping measures. It is appropriate, therefore, to provide for an anti-circumvention provision in this Regulation.</p>
+            </recital>
+            <recital xml:id="rec_d233e245">
+               <num>(19)</num>
+               <p>It is desirable to clarify which parties have the right to request the initiation of anti-circumvention investigations.</p>
+            </recital>
+            <recital xml:id="rec_d233e252">
+               <num>(20)</num>
+               <p>It is also desirable to clarify which practices constitute circumvention of the measures in place. Circumvention practices may take place either inside or outside the Union. It is consequently necessary to provide that exemptions from the extended duties which may be granted to importers may also be granted to exporters when duties are being applied to address circumvention taking place outside the Union.</p>
+            </recital>
+            <recital xml:id="rec_d233e258">
+               <num>(21)</num>
+               <p>It is expedient to permit the suspension of countervailing measures where there is a temporary change in market conditions which makes the continued imposition of such measures temporarily inappropriate.</p>
+            </recital>
+            <recital xml:id="rec_d233e264">
+               <num>(22)</num>
+               <p>It is necessary to provide that imports under investigation may be made subject to registration upon importation in order to enable measures to be subsequently applied against such imports.</p>
+            </recital>
+            <recital xml:id="rec_d233e270">
+               <num>(23)</num>
+               <p>In order to ensure the proper enforcement of measures, it is necessary that Member States monitor, and report to the Commission on, the import trade of products subject to investigation or subject to measures, as well as the amount of duties collected under this Regulation. It is also necessary to provide for the possibility for the Commission to request Member States to supply, subject to confidentiality rules, information to be used for monitoring price undertakings and verifying the level of effectiveness of the measures in force.</p>
+            </recital>
+            <recital xml:id="rec_d233e276">
+               <num>(24)</num>
+               <p>It is expedient to provide for verification visits to check information submitted on countervailable subsidies and injury, such visits being, however, conditional on proper replies to questionnaires being received.</p>
+            </recital>
+            <recital xml:id="rec_d233e282">
+               <num>(25)</num>
+               <p>It is essential to provide for sampling in cases where the number of parties or transactions is large in order to permit completion of investigations within the appointed time limits.</p>
+            </recital>
+            <recital xml:id="rec_d233e288">
+               <num>(26)</num>
+               <p>It is necessary to provide that, where parties do not cooperate satisfactorily, other information may be used to establish findings and that such information may be less favourable to the parties than if they had cooperated.</p>
+            </recital>
+            <recital xml:id="rec_d233e294">
+               <num>(27)</num>
+               <p>Provision should be made for the treatment of confidential information so that business or governmental secrets are not divulged.</p>
+            </recital>
+            <recital xml:id="rec_d233e300">
+               <num>(28)</num>
+               <p>It is essential that provision be made for proper disclosure of the essential facts and considerations to parties which qualify for such treatment and that such disclosure be made, with due regard to the decision-making process in the Union, within a time &#45;limit which permits parties to defend their interests.</p>
+            </recital>
+            <recital xml:id="rec_d233e306">
+               <num>(29)</num>
+               <p>It is prudent to provide for an administrative system under which arguments can be presented as to whether measures are in the Union&apos;s interest, including consumers&apos; interests, and to specify the time &#45;limits within which such information has to be presented, together with the disclosure rights of the parties concerned.</p>
+            </recital>
+            <recital xml:id="rec_d233e312">
+               <num>(30)</num>
+               <p>In applying the rules of the Subsidies Agreement it is essential, in order to maintain the balance of rights and obligations which that agreement seeks to establish, that the Union take account of the interpretation of those rights and obligations by the Union&apos;s major trading partners, as reflected in legislation or established practice.</p>
+            </recital>
+            <recital xml:id="rec_d233e319">
+               <num>(31)</num>
+               <p>The implementation of this Regulation requires uniform conditions for adopting provisional and definitive duties, and for the termination of an investigation without measures. Those measures should be adopted by the Commission in accordance with Regulation (EU) No 182/2011 of the European Parliament and of the Council<authorialNote placement="bottom" marker="5">
+                     <p>Regulation (EU) No 182/2011 of the European Parliament and of the Council of 16 February 2011 laying down the rules and general principles concerning mechanisms for control by Member States of the Commission&apos;s exercise of implementing powers (OJ L 55, 28.2.2011, p. 13).</p>
+                  </authorialNote>.</p>
+            </recital>
+            <recital xml:id="rec_d233e336">
+               <num>(32)</num>
+               <p>The advisory procedure should be used for the adoption of provisional measures given the effects of such measures and their sequential logic in relation to the adoption of definitive measures. It should also be used for the acceptance of undertakings, initiation and non-initiation of expiry reviews, suspension of measures, extension of the suspension of measures and the reinstatement of measures given the effect of such measures as compared to definitive measures. Where a delay in the imposition of measures would cause injury which would be difficult to repair, it is necessary to allow the Commission to adopt immediately applicable provisional measures,</p>
+            </recital>
+         </recitals>
+         <formula name="enactingFormula">
+            <p>HAVE ADOPTED THIS REGULATION:</p>
+         </formula>
+      </preamble>
+      <body>
+         <article xml:id="art_d233e345">
+            <num>Article 1</num>
+            <heading>Principles</heading>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>A countervailing duty may be imposed to offset any subsidy granted, directly or indirectly, for the manufacture, production, export or transport of any product whose release for free circulation in the Union causes injury.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>Notwithstanding paragraph 1, where products are not directly imported from the country of origin but are exported to the Union from an intermediate country, the provisions of this Regulation shall be fully applicable and the transaction or transactions shall, where appropriate, be regarded as having taken place between the country of origin and the Union.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d233e360">
+            <num>Article 2</num>
+            <heading>Definitions</heading>
+            <paragraph>
+               <subparagraph>
+                  <content>
+                     <p>For the purposes of this Regulation:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <content>
+                        <p>a product is considered to be subsidised if it benefits from a countervailable subsidy as defined in Articles 3 and 4. Such subsidy may be granted by the government of the country of origin of the imported product, or by the government of an intermediate country from which the product is exported to the Union, known for the purposes of this Regulation as &apos;the country of export&apos;;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <content>
+                        <p>&apos;government&apos; means a government or any public body within the territory of the country of origin or export;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(c)</num>
+                     <content>
+                        <p>&apos;like product&apos; means a product which is identical, that is to say, alike in all respects, to the product under consideration, or, in the absence of such a product, another product which, although not alike in all respects, has characteristics closely resembling those of the product under consideration;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(d)</num>
+                     <content>
+                        <p>&apos;injury&apos;, unless otherwise specified, means material injury to the Union industry, threat of material injury to the Union industry or material retardation of the establishment of such an industry, and shall be interpreted in accordance with the provisions of Article 8.</p>
+                     </content>
+                  </point>
+               </list>
+            </paragraph>
+         </article>
+         <article xml:id="art_d233e406">
+            <num>Article 3</num>
+            <heading>Definition of a subsidy</heading>
+            <paragraph>
+               <subparagraph>
+                  <content>
+                     <p>A subsidy shall be deemed to exist if:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>1.</num>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <alinea>
+                              <content>
+                                 <p>there is a financial contribution by a government in the country of origin or export, that is to say, where:</p>
+                              </content>
+                           </alinea>
+                           <list>
+                              <point>
+                                 <num>(i)</num>
+                                 <content>
+                                    <p>a government practice involves a direct transfer of funds (for example, grants, loans, equity infusion), potential direct transfers of funds or liabilities (for example, loan guarantees);</p>
+                                 </content>
+                              </point>
+                              <point>
+                                 <num>(ii)</num>
+                                 <content>
+                                    <p>government revenue that is otherwise due is forgone or not collected (for example, fiscal incentives such as tax credits). In this regard, the exemption of an exported product from duties or taxes borne by the like product when destined for domestic consumption, or the remission of such duties or taxes in amounts not in excess of those which have been accrued, shall not be deemed to be a subsidy, provided that such an exemption is granted in accordance with the provisions of Annexes I, II and III;</p>
+                                 </content>
+                              </point>
+                              <point>
+                                 <num>(iii)</num>
+                                 <content>
+                                    <p>a government provides goods or services other than general infrastructure, or purchases goods;</p>
+                                 </content>
+                              </point>
+                              <point>
+                                 <num>(iv)</num>
+                                 <alinea>
+                                    <content>
+                                       <p>a government:</p>
+                                    </content>
+                                 </alinea>
+                                 <list>
+                                    <indent>
+                                       <num>-</num>
+                                       <content>
+                                          <p>makes payments to a funding mechanism, or</p>
+                                       </content>
+                                    </indent>
+                                    <indent>
+                                       <num>-</num>
+                                       <content>
+                                          <p>entrusts or directs a private body to carry out one or more of the type of functions illustrated in points (i), (ii) and (iii) which would normally be vested in the government, and the practice, in no real sense, differs from practices normally followed by governments;</p>
+                                       </content>
+                                    </indent>
+                                 </list>
+                              </point>
+                           </list>
+                           <alinea>
+                              <content>
+                                 <p>or</p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <content>
+                              <p>there is any form of income or price support within the meaning of Article XVI of the GATT 1994; and</p>
+                           </content>
+                        </point>
+                     </list>
+                  </point>
+                  <point>
+                     <num>2.</num>
+                     <content>
+                        <p>a benefit is thereby conferred.</p>
+                     </content>
+                  </point>
+               </list>
+            </paragraph>
+         </article>
+         <article xml:id="art_d233e476">
+            <num>Article 4</num>
+            <heading>Countervailable subsidies</heading>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>Subsidies shall be subject to countervailing measures only if they are specific, as defined in paragraphs 2, 3 and 4.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <subparagraph>
+                  <content>
+                     <p>In order to determine whether a subsidy is specific to an enterprise or industry or group of enterprises or industries (&apos;certain enterprises&apos;) within the jurisdiction of the granting authority, the following principles shall apply:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <content>
+                        <p>where the granting authority, or the legislation pursuant to which the granting authority operates, explicitly limits access to a subsidy to certain enterprises, such a subsidy shall be specific;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <content>
+                        <p>where the granting authority, or the legislation pursuant to which the granting authority operates, establishes objective criteria or conditions governing the eligibility for, and the amount of, a subsidy, specificity shall not exist, provided that the eligibility is automatic and that such criteria and conditions are strictly adhered to;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(c)</num>
+                     <content>
+                        <p>if, notwithstanding any appearance of non-specificity resulting from the application of the principles laid down in points (a) and (b), there are reasons to believe that the subsidy may in fact be specific, other factors may be considered. Such factors are: use of a subsidy programme by a limited number of certain enterprises; predominant use by certain enterprises; the granting of disproportionately large amounts of subsidy to certain enterprises; the manner in which discretion has been exercised by the granting authority in the decision to grant a subsidy. In this regard, information on the frequency with which applications for a subsidy are refused or approved and the reasons for such decisions shall, in particular, be considered.</p>
+                     </content>
+                  </point>
+               </list>
+               <subparagraph>
+                  <content>
+                     <p>For the purpose of point (b), &apos;objective criteria or conditions&apos; means criteria or conditions which are neutral, which do not favour certain enterprises over others, and which are economic in nature and horizontal in application, such as number of employees or size of enterprise.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>The criteria or conditions must be clearly set out by law, regulation, or other official document, so as to be capable of verification.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>In applying point (c) of the first subparagraph, account shall be taken of the extent of diversification of economic activities within the jurisdiction of the granting authority, as well as of the length of time during which the subsidy programme has been in operation.</p>
+                  </content>
+               </subparagraph>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <content>
+                  <p>A subsidy which is limited to certain enterprises located within a designated geographical region within the jurisdiction of the granting authority shall be specific. The setting or changing of generally applicable tax rates by all levels of government entitled to do so shall not be deemed to be a specific subsidy for the purposes of this Regulation.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>4.</num>
+               <subparagraph>
+                  <content>
+                     <p>Notwithstanding paragraphs 2 and 3, the following subsidies shall be deemed to be specific:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <content>
+                        <p>subsidies contingent, in law or in fact, whether solely or as one of several other conditions, upon export performance, including those illustrated in Annex I;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <content>
+                        <p>subsidies contingent, whether solely or as one of several other conditions, upon the use of domestic over imported goods.</p>
+                     </content>
+                  </point>
+               </list>
+               <subparagraph>
+                  <content>
+                     <p>For the purposes of point (a), subsidies shall be considered to be contingent in fact upon export performance when the facts demonstrate that the granting of a subsidy, without having been made legally contingent upon export performance, is in fact tied to actual or anticipated exportation or export earnings. The mere fact that a subsidy is accorded to enterprises which export shall not, for that reason alone, be considered to be an export subsidy within the meaning of this provision.</p>
+                  </content>
+               </subparagraph>
+            </paragraph>
+            <paragraph>
+               <num>5.</num>
+               <content>
+                  <p>Any determination of specificity under the provisions of this Article shall be clearly substantiated on the basis of positive evidence.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d233e557">
+            <num>Article 5</num>
+            <heading>Calculation of the amount of the countervailable subsidy</heading>
+            <paragraph>
+               <content>
+                  <p>The amount of countervailable subsidies shall be calculated in terms of the benefit conferred on the recipient which is found to exist during the investigation period for subsidisation. Normally this period shall be the most recent accounting year of the beneficiary, but may be any other period of at least six months prior to the initiation of the investigation for which reliable financial and other relevant data are available.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d233e564">
+            <num>Article 6</num>
+            <heading>Calculation of benefit to the recipient</heading>
+            <paragraph>
+               <subparagraph>
+                  <content>
+                     <p>As regards the calculation of benefit to the recipient, the following rules shall apply:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <content>
+                        <p>government provision of equity capital shall not be considered to confer a benefit, unless the investment can be regarded as inconsistent with the usual investment practice, including for the provision of risk capital, of private investors in the territory of the country of origin and/or export;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <content>
+                        <p>a loan by a government shall not be considered to confer a benefit, unless there is a difference between the amount that the firm receiving the loan pays on the government loan and the amount that the firm would pay for a comparable commercial loan which the firm could actually obtain on the market. In that event the benefit shall be the difference between those two amounts;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(c)</num>
+                     <content>
+                        <p>a loan guarantee by a government shall not be considered to confer a benefit, unless there is a difference between the amount that the firm receiving the guarantee pays on a loan guaranteed by the government and the amount that the firm would pay for a comparable commercial loan in the absence of the government guarantee. In that case the benefit shall be the difference between those two amounts, adjusted for any differences in fees;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(d)</num>
+                     <alinea>
+                        <content>
+                           <p>the provision of goods or services or purchase of goods by a government shall not be considered to confer a benefit, unless the provision is made for less than adequate remuneration or the purchase is made for more than adequate remuneration. The adequacy of remuneration shall be determined in relation to prevailing market conditions for the product or service in question in the country of provision or purchase, including price, quality, availability, marketability, transportation and other conditions of purchase or sale.</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>If there are no such prevailing market terms and conditions for the product or service in question in the country of provision or purchase which can be used as appropriate benchmarks, the following rules shall apply:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(i)</num>
+                           <content>
+                              <p>the terms and conditions prevailing in the country concerned shall be adjusted, on the basis of actual costs, prices and other factors available in that country, by an appropriate amount which reflects normal market terms and conditions; or</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(ii)</num>
+                           <content>
+                              <p>when appropriate, the terms and conditions prevailing in the market of another country or on the world market which are available to the recipient shall be used.</p>
+                           </content>
+                        </point>
+                     </list>
+                  </point>
+               </list>
+            </paragraph>
+         </article>
+         <article xml:id="art_d233e614">
+            <num>Article 7</num>
+            <heading>General provisions on calculation</heading>
+            <paragraph>
+               <num>1.</num>
+               <subparagraph>
+                  <content>
+                     <p>The amount of the countervailable subsidies shall be determined per unit of the subsidised product exported to the Union.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>In establishing that amount, the following elements may be deducted from the total subsidy:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <content>
+                        <p>any application fee or other costs necessarily incurred in order to qualify for, or to obtain, the subsidy;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <content>
+                        <p>export taxes, duties or other charges levied on the export of the product to the Union specifically intended to offset the subsidy.</p>
+                     </content>
+                  </point>
+               </list>
+               <subparagraph>
+                  <content>
+                     <p>Where an interested party claims a deduction, it must prove that the claim is justified.</p>
+                  </content>
+               </subparagraph>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>Where the subsidy is not granted by reference to the quantities manufactured, produced, exported or transported, the amount of countervailable subsidy shall be determined by allocating the value of the total subsidy, as appropriate, over the level of production, sales or exports of the products concerned during the investigation period for subsidisation.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <subparagraph>
+                  <content>
+                     <p>Where the subsidy can be linked to the acquisition or future acquisition of fixed assets, the amount of the countervailable subsidy shall be calculated by spreading the subsidy across a period which reflects the normal depreciation of such assets in the industry concerned.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>The amount so calculated which is attributable to the investigation period, including that which derives from fixed assets acquired before that period, shall be allocated as described in paragraph 2.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>Where the assets are non-depreciating, the subsidy shall be valued as an interest-free loan, and be treated in accordance with Article 6(b).</p>
+                  </content>
+               </subparagraph>
+            </paragraph>
+            <paragraph>
+               <num>4.</num>
+               <content>
+                  <p>Where a subsidy cannot be linked to the acquisition of fixed assets, the amount of the benefit received during the investigation period shall in principle be attributed to that period, and allocated as described in paragraph 2, unless special circumstances arise justifying attribution over a different period.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d233e661">
+            <num>Article 8</num>
+            <heading>Determination of injury</heading>
+            <paragraph>
+               <num>1.</num>
+               <subparagraph>
+                  <content>
+                     <p>A determination of injury shall be based on positive evidence and shall involve an objective examination of:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <content>
+                        <p>the volume of the subsidised imports and the effect of the subsidised imports on prices in the Union market for like products; and</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <content>
+                        <p>the consequent impact of those imports on the Union industry.</p>
+                     </content>
+                  </point>
+               </list>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>With regard to the volume of the subsidised imports, consideration shall be given to whether there has been a significant increase in subsidised imports, either in absolute terms or relative to production or consumption in the Union. With regard to the effect of the subsidised imports on prices, consideration shall be given to whether there has been significant price undercutting by the subsidised imports as compared with the price of a like product of the Union industry, or whether the effect of such imports is otherwise to depress prices to a significant degree or prevent price increases, which would otherwise have occurred, to a significant degree. No one or more of those factors can necessarily give decisive guidance.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <subparagraph>
+                  <content>
+                     <p>Where imports of a product from more than one country are simultaneously subject to countervailing duty investigations, the effects of such imports shall be cumulatively assessed only if it is determined that:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <content>
+                        <p>the amount of countervailable subsidies established in relation to the imports from each country is more than <i>de minimis</i> as defined in Article 14(5) and the volume of imports from each country is not negligible; and</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <content>
+                        <p>a cumulative assessment of the effects of the imports is appropriate in the light of the conditions of competition between imported products and the conditions of competition between the imported products and the like Union product.</p>
+                     </content>
+                  </point>
+               </list>
+            </paragraph>
+            <paragraph>
+               <num>4.</num>
+               <content>
+                  <p>The examination of the impact of the subsidised imports on the Union industry concerned shall include an evaluation of all relevant economic factors and indices having a bearing on the state of the industry, including the fact that an industry is still in the process of recovering from the effects of past subsidisation or dumping; the magnitude of the amount of countervailable subsidies; actual and potential decline in sales, profits, output, market share, productivity, return on investments and utilisation of capacity; factors affecting Union prices; actual and potential negative effects on cash flow, inventories, employment, wages, growth, ability to raise capital or investments and, in the case of agriculture, whether there has been an increased burden on government support programmes. This list is not exhaustive, nor can any one or more of these factors necessarily give decisive guidance.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>5.</num>
+               <content>
+                  <p>It must be demonstrated, from all the relevant evidence presented in relation to paragraph 1, that the subsidised imports are causing injury. Specifically, that shall entail demonstrating that the volume and/or price levels identified pursuant to paragraph 2 are responsible for an impact on the Union industry as provided for in paragraph 4, and that that impact exists to a degree which enables it to be classified as material.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>6.</num>
+               <content>
+                  <p>Known factors, other than the subsidised imports, which are injuring the Union industry at the same time shall also be examined to ensure that the injury caused by those other factors is not attributed to the subsidised imports pursuant to paragraph 5. Factors which may be considered in that respect shall include: the volume and prices of non-subsidised imports; contraction in demand or changes in the patterns of consumption; restrictive trade practices of, and competition between, third-country and Union producers; developments in technology; and the export performance and productivity of the Union industry.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>7.</num>
+               <content>
+                  <p>The effect of the subsidised imports shall be assessed in relation to the production of the Union industry of the like product when available data permit the separate identification of that production on the basis of criteria such as the production process, producers&apos; sales and profits. If such separate identification of that production is not possible, the effects of the subsidised imports shall be assessed by examination of the production of the narrowest group or range of products, including the like product, for which the necessary information can be provided.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>8.</num>
+               <subparagraph>
+                  <content>
+                     <p>A determination of a threat of material injury shall be based on facts and not merely on allegations, conjecture or remote possibility. The change in circumstances which would create a situation in which the subsidy would cause injury must have been clearly foreseen and must be imminent.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>In making a determination regarding the existence of a threat of material injury, consideration should be given to factors such as:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <content>
+                        <p>the nature of the subsidy or subsidies in question and the trade effects likely to arise therefrom;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <content>
+                        <p>a significant rate of increase of subsidised imports into the Union market indicating the likelihood of substantially increased imports;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(c)</num>
+                     <content>
+                        <p>whether there is sufficient freely disposable capacity on the part of the exporter or an imminent and substantial increase in such capacity indicating the likelihood of substantially increased subsidised exports to the Union, account being taken of the availability of other export markets to absorb any additional exports;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(d)</num>
+                     <content>
+                        <p>whether imports are entering at prices that would, to a significant degree, depress prices or prevent price increases which otherwise would have occurred, and would probably increase demand for further imports;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(e)</num>
+                     <content>
+                        <p>inventories of the product being investigated.</p>
+                     </content>
+                  </point>
+               </list>
+               <subparagraph>
+                  <content>
+                     <p>No one of the factors listed above by itself can necessarily give decisive guidance, but the totality of the factors considered shall be such as to lead to the conclusion that further subsidised exports are imminent and that, unless protective action is taken, material injury will occur.</p>
+                  </content>
+               </subparagraph>
+            </paragraph>
+         </article>
+         <article xml:id="art_d233e775">
+            <num>Article 9</num>
+            <heading>Definition of Union industry</heading>
+            <paragraph>
+               <num>1.</num>
+               <subparagraph>
+                  <content>
+                     <p>For the purposes of this Regulation, the term &apos;Union industry&apos; shall be interpreted as referring to the Union producers as a whole of the like products or to those of them whose collective output of the products constitutes a major proportion, as defined in Article 10(6), of the total Union production of those products, except that:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <content>
+                        <p>when producers are related to the exporters or importers, or are themselves importers of the allegedly subsidised product, the term &apos;Union industry&apos; may be interpreted as referring to the rest of the producers;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <alinea>
+                        <content>
+                           <p>in exceptional circumstances, the territory of the Union may, for the production in question, be divided into two or more competitive markets and the producers within each market may be regarded as a separate industry if:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(i)</num>
+                           <content>
+                              <p>the producers within such a market sell all or almost all of their production of the product in question in that market; and</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(ii)</num>
+                           <alinea>
+                              <content>
+                                 <p>the demand in that market is not to any substantial degree met by producers of the product in question located elsewhere in the Union.</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>In such circumstances, injury may be found to exist even where a major portion of the total Union industry is not injured, provided that there is a concentration of subsidised imports into such an isolated market and provided further that the subsidised imports are causing injury to the producers of all or almost all of the production within such a market.</p>
+                              </content>
+                           </alinea>
+                        </point>
+                     </list>
+                  </point>
+               </list>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <subparagraph>
+                  <content>
+                     <p>For the purpose of paragraph 1, producers shall be considered to be related to exporters or importers only if:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <content>
+                        <p>one of them directly or indirectly controls the other;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <content>
+                        <p>both of them are directly or indirectly controlled by a third person; or</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(c)</num>
+                     <content>
+                        <p>together they directly or indirectly control a third person, provided that there are grounds for believing or suspecting that the effect of the relationship is such as to cause the producer concerned to behave differently from non-related producers.</p>
+                     </content>
+                  </point>
+               </list>
+               <subparagraph>
+                  <content>
+                     <p>For the purpose of this paragraph, one shall be deemed to control another when the former is legally or operationally in a position to exercise restraint or direction over the latter.</p>
+                  </content>
+               </subparagraph>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <content>
+                  <p>Where the Union industry has been interpreted as referring to the producers in a certain region, the exporters or the government granting countervailable subsidies shall be given an opportunity to offer undertakings pursuant to Article 13 in respect of the region concerned. In such cases, when evaluating the Union interest of the measures, special account shall be taken of the interest of the region. If an adequate undertaking is not offered promptly or if the situations set out in Article 13(9) and (10) apply, a provisional or definitive countervailing duty may be imposed in respect of the Union as a whole. In such cases the duties may, if practicable, be limited to specific producers or exporters.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>4.</num>
+               <content>
+                  <p>The provisions of Article 8(7) shall be applicable to this Article.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d233e860">
+            <num>Article 10</num>
+            <heading>Initiation of proceedings</heading>
+            <paragraph>
+               <num>1.</num>
+               <subparagraph>
+                  <content>
+                     <p>Except as provided for in paragraph 8, an investigation to determine the existence, degree and effect of any alleged subsidy shall be initiated upon a written complaint by any natural or legal person, or any association not having legal personality, acting on behalf of the Union industry.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>The complaint may be submitted to the Commission or to a Member State, which shall forward it to the Commission. The Commission shall send Member States a copy of any complaint it receives. The complaint shall be deemed to have been lodged on the first working day following its delivery to the Commission by registered mail or the issuing of an acknowledgement of receipt by the Commission.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>Where, in the absence of any complaint, a Member State is in possession of sufficient evidence of subsidisation and of resultant injury to the Union industry, it shall immediately communicate such evidence to the Commission.</p>
+                  </content>
+               </subparagraph>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <subparagraph>
+                  <content>
+                     <p>A complaint under paragraph 1 shall include sufficient evidence of the existence of countervailable subsidies (including, if possible, of their amount), injury and a causal link between the allegedly subsidised imports and the alleged injury. The complaint shall contain such information as is reasonably available to the complainant on the following:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <content>
+                        <p>the identity of the complainant and a description of the volume and value of the Union production of the like product by the complainant. Where a written complaint is made on behalf of the Union industry, the complaint shall identify the industry on behalf of which the complaint is made by a list of all known Union producers of the like product (or associations of Union producers of the like product) and, to the extent possible, a description of the volume and value of Union production of the like product accounted for by such producers;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <content>
+                        <p>a complete description of the allegedly subsidised product, the names of the country or countries of origin or export in question, the identity of each known exporter or foreign producer and a list of known persons importing the product in question;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(c)</num>
+                     <content>
+                        <p>evidence with regard to the existence, amount, nature and countervailability of the subsidies in question;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(d)</num>
+                     <content>
+                        <p>the changes in the volume of the allegedly subsidised imports, the effect of those imports on prices of the like product in the Union market and the consequent impact of the imports on the Union industry, as demonstrated by relevant factors and indices having a bearing on the state of the Union industry, such as those listed in Article 8(2) and (4).</p>
+                     </content>
+                  </point>
+               </list>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <content>
+                  <p>The Commission shall, as far as possible, examine the accuracy and adequacy of the evidence provided in the complaint, to determine whether there is sufficient evidence to justify the initiation of an investigation.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>4.</num>
+               <content>
+                  <p>An investigation may be initiated in order to determine whether or not the alleged subsidies are &apos;specific&apos; within the meaning of Article 4(2) and (3).</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>5.</num>
+               <content>
+                  <p>An investigation may also be initiated in respect of measures of the type listed in Annex IV, to the extent that they contain an element of subsidy as defined by Article 3, in order to determine whether the measures in question fully conform to the provisions of that Annex.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>6.</num>
+               <content>
+                  <p>An investigation shall not be initiated pursuant to paragraph 1 unless it has been determined, on the basis of an examination as to the degree of support for, or opposition to, the complaint expressed by Union producers of the like product, that the complaint has been made by, or on behalf of, the Union industry. The complaint shall be considered to have been made by, or on behalf of, the Union industry if it is supported by those Union producers whose collective output constitutes more than 50 % of the total production of the like product produced by that portion of the Union industry expressing either support for or opposition to the complaint. However, no investigation shall be initiated where Union producers expressly supporting the complaint account for less than 25 % of total production of the like product produced by the Union industry.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>7.</num>
+               <content>
+                  <p>The authorities shall avoid, unless a decision has been taken to initiate an investigation, any publicising of the complaint seeking the initiation of an investigation. However, as soon as possible after receipt of a properly documented complaint pursuant to this Article, and in any event before the initiation of an investigation, the Commission shall notify the country of origin and/or export concerned, which shall be invited for consultations with the aim of clarifying the situation as to matters referred to in paragraph 2 and arriving at a mutually agreed solution.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>8.</num>
+               <content>
+                  <p>If, in special circumstances, the Commission decides to initiate an investigation without having received a written complaint by, or on behalf of, the Union industry for the initiation of such an investigation, this shall be done on the basis of sufficient evidence of the existence of countervailable subsidies, injury and causal link, as described in paragraph 2, to justify such initiation. The Commission shall provide information to the Member States once it has determined the need to initiate such an investigation.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>9.</num>
+               <content>
+                  <p>The evidence of both subsidies and injury shall be considered simultaneously in the decision on whether or not to initiate an investigation. A complaint shall be rejected where there is insufficient evidence of either countervailable subsidies or of injury to justify proceeding with the case. Proceedings shall not be initiated against countries whose imports represent a market share of below 1 %, unless such countries collectively account for 3 % or more of Union consumption.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>10.</num>
+               <content>
+                  <p>The complaint may be withdrawn prior to initiation, in which case it shall be considered not to have been lodged.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>11.</num>
+               <content>
+                  <p>Where it is apparent that there is sufficient evidence to justify initiating proceedings, the Commission shall do so within 45 days of the date on which the complaint was lodged and shall publish a notice in the <i>Official Journal of the European Union</i>. Where insufficient evidence has been presented, the complainant shall be so informed within 45 days of the date on which the complaint is lodged with the Commission. The Commission shall provide information to the Member States concerning its analysis of the complaint normally within 21 days of the date on which the complaint is lodged with the Commission.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>12.</num>
+               <subparagraph>
+                  <content>
+                     <p>The notice of initiation of the proceedings shall announce the initiation of an investigation, indicate the product and countries concerned, give a summary of the information received, and provide that all relevant information is to be communicated to the Commission.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>It shall state the periods within which interested parties may make themselves known, present their views in writing and submit information, if such views and information are to be taken into account during the investigation. It shall also state the period within which interested parties may apply to be heard by the Commission in accordance with Article 11(5).</p>
+                  </content>
+               </subparagraph>
+            </paragraph>
+            <paragraph>
+               <num>13.</num>
+               <content>
+                  <p>The Commission shall advise the exporters, importers and representative associations of importers or exporters known to it to be concerned, as well as the country of origin and/or export and the complainants, of the initiation of the proceedings and, with due regard to the protection of confidential information, provide the full text of the written complaint referred to in paragraph 1 to the known exporters and to the authorities of the country of origin and/or export, and make it available upon request to other interested parties involved. Where the number of exporters involved is particularly high, the full text of the written complaint may instead be provided only to the authorities of the country of origin and/or export or to the relevant trade association.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>14.</num>
+               <content>
+                  <p>A countervailing duty investigation shall not hinder the procedures of customs clearance.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d233e978">
+            <num>Article 11</num>
+            <heading>The investigation</heading>
+            <paragraph>
+               <num>1.</num>
+               <subparagraph>
+                  <content>
+                     <p>Following the initiation of proceedings, the Commission, acting in cooperation with the Member States, shall commence an investigation at Union level. Such an investigation shall cover both subsidisation and injury, and they shall be investigated simultaneously.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>For the purpose of a representative finding, an investigation period shall be selected which in the case of subsidisation shall, normally, cover the investigation period provided for in Article 5.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>Information relating to a period subsequent to the investigation period shall not, normally, be taken into account.</p>
+                  </content>
+               </subparagraph>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>Parties receiving questionnaires used in a countervailing duty investigation shall be given at least 30 days to reply. The time limit for exporters shall be counted from the date of receipt of the questionnaire, which for this purpose shall be deemed to have been received one week from the day on which it was sent to the respondent or transmitted to the appropriate diplomatic representative of the country of origin and/or export. An extension to the 30-day period may be granted, due account being taken of the time limits of the investigation, provided that the party shows due cause for such an extension in terms of its particular circumstances.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <subparagraph>
+                  <content>
+                     <p>The Commission may request Member States to supply information, and Member States shall take whatever steps are necessary in order to give effect to such requests.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>They shall send to the Commission the information requested together with the results of all inspections, checks or investigations carried out.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>Where that information is of general interest or where its transmission has been requested by a Member State, the Commission shall forward it to the Member States, provided that it is not confidential, in which case a non-confidential summary shall be forwarded.</p>
+                  </content>
+               </subparagraph>
+            </paragraph>
+            <paragraph>
+               <num>4.</num>
+               <subparagraph>
+                  <content>
+                     <p>The Commission may request Member States to carry out all necessary checks and inspections, particularly amongst importers, traders and Union producers, and to carry out investigations in third countries, provided that the firms concerned give their consent and that the government of the country in question has been officially notified and raises no objection.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>Member States shall take whatever steps are necessary in order to give effect to such requests from the Commission.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>Officials of the Commission shall be authorised, if the Commission or a Member State so requests, to assist the officials of Member States in carrying out their duties.</p>
+                  </content>
+               </subparagraph>
+            </paragraph>
+            <paragraph>
+               <num>5.</num>
+               <content>
+                  <p>The interested parties which have made themselves known in accordance with the second subparagraph of Article 10(12), shall be heard if they have, within the period prescribed in the notice published in the <i>Official Journal of the European Union</i>, made a written request for a hearing showing that they are an interested party likely to be affected by the result of the proceedings and that there are particular reasons why they should be heard.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>6.</num>
+               <subparagraph>
+                  <content>
+                     <p>Opportunities shall, on request, be provided for the importers, exporters and the complainants, which have made themselves known in accordance with the second subparagraph of Article 10(12), and the government of the country of origin and/or export, to meet those parties having adverse interests, so that opposing views may be presented and rebuttal arguments offered.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>Provision of such opportunities shall take account of the need to preserve confidentiality and of the convenience to the parties.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>There shall be no obligation on any party to attend a meeting, and failure to do so shall not be prejudicial to that party&apos;s case.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>Oral information provided under this paragraph shall be taken into account by the Commission in so far as it is subsequently confirmed in writing.</p>
+                  </content>
+               </subparagraph>
+            </paragraph>
+            <paragraph>
+               <num>7.</num>
+               <subparagraph>
+                  <content>
+                     <p>The complainants, the government of the country of origin and/or export, importers and exporters and their representative associations, users and consumer organisations, which have made themselves known in accordance with the second subparagraph of Article 10(12), may, upon written request, inspect all information made available to the Commission by any party to an investigation, as distinct from internal documents prepared by the authorities of the Union or its Member States, which is relevant to the presentation of their cases and is not confidential within the meaning of Article 29, and is used in the investigation.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>Such parties may respond to such information and their comments shall be taken into consideration wherever they are sufficiently substantiated in the response.</p>
+                  </content>
+               </subparagraph>
+            </paragraph>
+            <paragraph>
+               <num>8.</num>
+               <content>
+                  <p>Except in circumstances provided for in Article 28, the information which is supplied by interested parties and upon which findings are based shall be examined for accuracy as far as possible.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>9.</num>
+               <content>
+                  <p>For proceedings initiated pursuant to Article 10(11), an investigation shall, whenever possible, be concluded within one year. In any event, such investigations shall in all cases be concluded within 13 months of their initiation, in accordance with the findings made pursuant to Article 13 for undertakings or the findings made pursuant to Article 15 for definitive action.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>10.</num>
+               <content>
+                  <p>Throughout the investigation, the Commission shall afford the country of origin and/or export a reasonable opportunity to continue consultations with a view to clarifying the factual situation and arriving at a mutually agreed solution.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d233e1058">
+            <num>Article 12</num>
+            <heading>Provisional measures</heading>
+            <paragraph>
+               <num>1.</num>
+               <subparagraph>
+                  <content>
+                     <p>Provisional duties may be imposed if:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <content>
+                        <p>proceedings have been initiated in accordance with Article 10;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <content>
+                        <p>a notice has been given to that effect and interested parties have been given an adequate opportunity to submit information and make comments in accordance with the second subparagraph of Article 10(12);</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(c)</num>
+                     <content>
+                        <p>a provisional affirmative determination has been made that the imported product benefits from countervailable subsidies and of consequent injury to the Union industry; and</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(d)</num>
+                     <content>
+                        <p>the Union interest calls for intervention to prevent such injury.</p>
+                     </content>
+                  </point>
+               </list>
+               <subparagraph>
+                  <content>
+                     <p>The provisional duties shall be imposed no earlier than 60 days from the initiation of the proceedings but no later than nine months from the initiation of the proceedings.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>The amount of the provisional countervailing duty shall not exceed the total amount of countervailable subsidies as provisionally established, but it should be less than this amount if such lesser duty would be adequate to remove the injury to the Union industry.</p>
+                  </content>
+               </subparagraph>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>Provisional duties shall be secured by a guarantee and the release of the products concerned for free circulation in the Union shall be conditional upon the provision of such a guarantee.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <content>
+                  <p>The Commission shall adopt provisional measures in accordance with the procedure referred to in Article 25(4).</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>4.</num>
+               <content>
+                  <p>Where a Member State requests immediate intervention by the Commission and where the conditions of the first and second subparagraphs of paragraph 1 are met, the Commission shall, within a maximum of five working days from receipt of the request, decide whether a provisional countervailing duty shall be imposed.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>5.</num>
+               <content>
+                  <p>Provisional countervailing duties shall be imposed for a maximum period of four months.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d233e1119">
+            <num>Article 13</num>
+            <heading>Undertakings</heading>
+            <paragraph>
+               <num>1.</num>
+               <subparagraph>
+                  <content>
+                     <p>On the condition that a provisional affirmative determination of subsidisation and injury has been made, the Commission may in accordance with the advisory procedure referred to in Article 25(2) accept satisfactory voluntary undertakings offers under which:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <content>
+                        <p>the country of origin and/or export agrees to eliminate or limit the subsidy or take other measures concerning its effects; or</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <content>
+                        <p>any exporter undertakes to revise its prices or to cease exports to the area in question as long as such exports benefit from countervailable subsidies, so that the Commission is satisfied that the injurious effect of the subsidies is thereby eliminated.</p>
+                     </content>
+                  </point>
+               </list>
+               <subparagraph>
+                  <content>
+                     <p>In such a case and as long as such undertakings are in force, the provisional duties imposed by the Commission in accordance with Article 12(3) and the definitive duties imposed in accordance with Article 15(1) shall not apply to the relevant imports of the product concerned manufactured by the companies referred to in the Commission decision accepting undertakings, as subsequently amended.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>Price increases under such undertakings shall not be higher than necessary to offset the amount of countervailable subsidies, and should be less than the amount of countervailable subsidies if such increases would be adequate to remove the injury to the Union industry.</p>
+                  </content>
+               </subparagraph>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <subparagraph>
+                  <content>
+                     <p>Undertakings may be suggested by the Commission, but no country or exporter shall be obliged to enter into such an undertaking. The fact that countries or exporters do not offer such undertakings, or do not accept an invitation to do so, shall in no way prejudice consideration of the case.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>However, it may be determined that a threat of injury is more likely to be realised if the subsidised imports continue. Undertakings shall not be sought or accepted from countries or exporters unless a provisional affirmative determination of subsidisation and injury caused by such subsidisation has been made.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>Save in exceptional circumstances, undertakings may not be offered later than the end of the period during which representations may be made pursuant to Article 30(5).</p>
+                  </content>
+               </subparagraph>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <content>
+                  <p>Undertakings offered need not be accepted if their acceptance is considered impractical, such as where the number of actual or potential exporters is too great, or for other reasons, including reasons of general policy. The exporter and/or the country of origin and/or export concerned may be provided with the reasons for which it is proposed to reject the offer of an undertaking and may be given an opportunity to make comments thereon. The reasons for rejection shall be set out in the definitive decision.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>4.</num>
+               <content>
+                  <p>Parties which offer an undertaking shall be required to provide a non-confidential version of that undertaking, so that it may be made available to interested parties to the investigation.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>5.</num>
+               <content>
+                  <p>Where undertakings are accepted the investigation shall be terminated. The Commission shall terminate the investigation in accordance with the examination procedure referred to in Article 25(3).</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>6.</num>
+               <subparagraph>
+                  <content>
+                     <p>If the undertakings are accepted, the investigation of subsidisation and injury shall normally be completed. In such a case, if a negative determination of subsidisation or injury is made, the undertaking shall automatically lapse, except in cases where such a determination is due in large part to the existence of an undertaking. In such cases, it may be required that an undertaking be maintained for a reasonable period.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>In the event that an affirmative determination of subsidisation and injury is made, the undertaking shall continue in accordance with its terms and the provisions of this Regulation.</p>
+                  </content>
+               </subparagraph>
+            </paragraph>
+            <paragraph>
+               <num>7.</num>
+               <content>
+                  <p>The Commission shall require any country or exporter from whom undertakings have been accepted to provide, periodically, information relevant to the fulfilment of that undertaking, and to permit verification of pertinent data. Non-compliance with such requirements shall be construed as a breach of the undertaking.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>8.</num>
+               <content>
+                  <p>Where undertakings are accepted from certain exporters during the course of an investigation, they shall, for the purpose of Articles 18, 19, 20 and 22, be deemed to take effect from the date on which the investigation is concluded for the country of origin and/or export.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>9.</num>
+               <subparagraph>
+                  <content>
+                     <p>In the case of breach or withdrawal of undertakings by any party to the undertaking, or in the case of withdrawal of acceptance of the undertaking by the Commission, the acceptance of the undertaking shall be withdrawn by the Commission, as appropriate, and the provisional duty which has been imposed by the Commission in accordance with Article 12 or the definitive duty which has been imposed in accordance with Article 15(1) shall apply, provided that the exporter concerned or the country of origin and/or export has, except in the case of withdrawal of the undertaking by that exporter or country, been given an opportunity to comment. The Commission shall provide information to the Member States when it decides to withdraw an undertaking.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>Any interested party or Member State may submit information, showing prima facie evidence of a breach of an undertaking. The subsequent assessment of whether or not a breach of an undertaking has occurred shall normally be concluded within six months, but in no case later than nine months following a duly substantiated request.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>The Commission may request the assistance of the competent authorities of the Member States in the monitoring of undertakings.</p>
+                  </content>
+               </subparagraph>
+            </paragraph>
+            <paragraph>
+               <num>10.</num>
+               <content>
+                  <p>A provisional duty may be imposed in accordance with Article 12 on the basis of the best information available, where there is reason to believe that an undertaking is being breached, or in the case of breach or withdrawal of an undertaking, where the investigation which led to the undertaking has not been concluded.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d233e1204">
+            <num>Article 14</num>
+            <heading>Termination without measures</heading>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>Where the complaint is withdrawn, proceedings may be terminated unless such termination would not be in the Union interest.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>Where protective measures are unnecessary, the investigation or proceedings shall be terminated. The Commission shall terminate the investigation in accordance with the examination procedure referred to in Article 25(3).</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <content>
+                  <p>There shall be immediate termination of the proceedings where it is determined that the amount of countervailable subsidies is <i>de minimis</i>, in accordance with paragraph 5, or where the volume of subsidised imports, actual or potential, or the injury, is negligible.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>4.</num>
+               <content>
+                  <p>For proceedings initiated pursuant to Article 10(11), injury shall normally be regarded as negligible where the market share of the imports is less than the amounts set out in Article 10(9). With regard to investigations concerning imports from developing countries, the volume of subsidised imports shall also be considered negligible if it represents less than 4 % of the total imports of the like product in the Union, unless imports from developing countries whose individual shares of total imports represent less than 4 % collectively account for more than 9 % of the total imports of the like product in the Union.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>5.</num>
+               <content>
+                  <p>The amount of the countervailable subsidies shall be considered to be <i>de minimis</i> if such amount is less than 1 % ad valorem, except where, as regards investigations concerning imports from developing countries, the <i>de minimis</i> threshold shall be 2 % ad valorem, provided that it is only the investigation that shall be terminated where the amount of the countervailable subsidies is below the relevant <i>de minimis</i> level for individual exporters, which shall remain subject to the proceedings and may be reinvestigated in any subsequent review carried out for the country concerned pursuant to Articles 18 and 19.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d233e1247">
+            <num>Article 15</num>
+            <heading>Imposition of definitive duties</heading>
+            <paragraph>
+               <num>1.</num>
+               <subparagraph>
+                  <content>
+                     <p>Where the facts as finally established show the existence of countervailable subsidies and injury caused thereby, and the Union interest calls for intervention in accordance with Article 31, a definitive countervailing duty shall be imposed by the Commission acting in accordance with the examination procedure referred to in Article 25(3). Where provisional duties are in force, the Commission shall initiate that procedure no later than one month before the expiry of such duties.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>No measures shall be imposed if the subsidy or subsidies are withdrawn or it has been demonstrated that the subsidies no longer confer any benefit on the exporters involved.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>The amount of the countervailing duty shall not exceed the amount of countervailable subsidies established, but it should be less than the total amount of countervailable subsidies if such lesser duty would be adequate to remove the injury to the Union industry.</p>
+                  </content>
+               </subparagraph>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <subparagraph>
+                  <content>
+                     <p>A countervailing duty shall be imposed in the appropriate amounts in each case, on a non-discriminatory basis, on imports of a product from all sources found to benefit from countervailable subsidies and causing injury, except for imports from those sources from which undertakings under the terms of this Regulation have been accepted.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>The Regulation imposing the duty shall specify the duty for each supplier, or, if that is impracticable, the supplying country concerned.</p>
+                  </content>
+               </subparagraph>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <subparagraph>
+                  <content>
+                     <p>When the Commission has limited its investigation in accordance with Article 27, any countervailing duty applied to imports from exporters or producers which have made themselves known in accordance with Article 27 but were not included in the investigation shall not exceed the weighted average amount of countervailable subsidies established for the parties in the sample.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>For the purpose of this paragraph, the Commission shall disregard any zero and <i>de minimis</i> amounts of countervailable subsidies and amounts of countervailable subsidies established in the circumstances referred to in Article 28.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>Individual duties shall be applied to imports from any exporter or producer for which an individual amount of subsidisation has been calculated as provided for in Article 27.</p>
+                  </content>
+               </subparagraph>
+            </paragraph>
+         </article>
+         <article xml:id="art_d233e1280">
+            <num>Article 16</num>
+            <heading>Retroactivity</heading>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>Provisional measures and definitive countervailing duties shall only be applied to products which enter free circulation after the time when the measure taken pursuant to Article 12(1) or Article 15(1), as the case may be, enters into force, subject to the exceptions set out in this Regulation.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <subparagraph>
+                  <content>
+                     <p>Where a provisional duty has been applied and the facts as finally established show the existence of countervailable subsidies and injury, the Commission shall decide, irrespective of whether a definitive countervailing duty is to be imposed, what proportion of the provisional duty is to be definitively collected.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>For that purpose, &apos;injury&apos; shall not include material delay of the establishment of a Union industry, nor threat of material injury, except where it is found that this would, in the absence of provisional measures, have developed into material injury. In all other cases involving such threat or delay, any provisional amounts shall be released and definitive duties can only be imposed from the date on which a final determination of threat or material delay is made.</p>
+                  </content>
+               </subparagraph>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <content>
+                  <p>If the definitive countervailing duty is higher than the provisional duty, the difference shall not be collected. If the definitive duty is lower than the provisional duty, the duty shall be recalculated. Where a final determination is negative, the provisional duty shall not be confirmed.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>4.</num>
+               <subparagraph>
+                  <content>
+                     <p>A definitive countervailing duty may be levied on products which were entered for consumption no more than 90 days prior to the date of application of provisional measures but not prior to the initiation of the investigation, provided that:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <content>
+                        <p>the imports have been registered in accordance with Article 24(5);</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <content>
+                        <p>the importers concerned have been given an opportunity to comment by the Commission;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(c)</num>
+                     <content>
+                        <p>there are critical circumstances where for the subsidised product in question injury which is difficult to repair is caused by massive imports in a relatively short period of a product benefiting from countervailable subsidies under the terms of this Regulation; and</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(d)</num>
+                     <content>
+                        <p>it is deemed necessary, in order to preclude the recurrence of such injury, to assess countervailing duties retroactively on those imports.</p>
+                     </content>
+                  </point>
+               </list>
+            </paragraph>
+            <paragraph>
+               <num>5.</num>
+               <content>
+                  <p>In cases of breach or withdrawal of undertakings, definitive duties may be levied on goods entered for free circulation no more than 90 days before the application of provisional measures, provided that the imports have been registered in accordance with Article 24(5) and that any such retroactive assessment shall not apply to imports entered before the breach or withdrawal of the undertaking.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d233e1343">
+            <num>Article 17</num>
+            <heading>Duration</heading>
+            <paragraph>
+               <content>
+                  <p>A countervailing measure shall remain in force only as long as, and to the extent that, it is necessary to counteract the countervailable subsidies which are causing injury.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d233e1350">
+            <num>Article 18</num>
+            <heading>Expiry reviews</heading>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>A definitive countervailing measure shall expire five years from its imposition or five years from the date of the most recent review which has covered both subsidisation and injury, unless it is determined in a review that the expiry would be likely to lead to a continuation or recurrence of subsidisation and injury. Such an expiry review shall be initiated on the initiative of the Commission, or upon a request made by or on behalf of Union producers, and the measure shall remain in force pending the outcome of that review.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>An expiry review shall be initiated where the request contains sufficient evidence that the expiry of the measures would be likely to result in a continuation or recurrence of subsidisation and injury. Such a likelihood may, for example, be indicated by evidence of continued subsidisation and injury or evidence that the removal of injury is partly or solely due to the existence of measures or evidence that the circumstances of the exporters, or market conditions, are such that they would indicate the likelihood of further injurious subsidisation.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <content>
+                  <p>In carrying out investigations under this Article, the exporters, importers, the country of origin and/or export and the Union producers shall be provided with the opportunity to amplify, rebut or comment on the matters set out in the review request, and conclusions shall be reached with due account taken of all relevant and duly documented evidence presented in relation to the question as to whether the expiry of measures would be likely, or unlikely, to lead to the continuation or recurrence of subsidisation and injury.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>4.</num>
+               <content>
+                  <p>A notice of impending expiry shall be published in the <i>Official Journal of the European Union</i> at an appropriate time in the final year of the period of application of the measures as defined in this Article. Thereafter, the Union producers shall, no later than three months before the end of the five-year period, be entitled to lodge a review request in accordance with paragraph 2. A notice announcing the actual expiry of measures under this Article shall also be published.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d233e1379">
+            <num>Article 19</num>
+            <heading>Interim reviews</heading>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>The need for the continued imposition of measures may also be reviewed, where warranted, on the initiative of the Commission or at the request of a Member State or, provided that a reasonable period of time of at least one year has elapsed since the imposition of the definitive measure, upon a request by any exporter, importer or by the Union producers or the country of origin and/or export which contains sufficient evidence substantiating the need for such an interim review.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>An interim review shall be initiated where the request contains sufficient evidence that the continued imposition of the measure is no longer necessary to offset the countervailable subsidy and/or that the injury would be unlikely to continue or recur if the measure were removed or varied, or that the existing measure is not, or is no longer, sufficient to counteract the countervailable subsidy which is causing injury.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <subparagraph>
+                  <content>
+                     <p>Where the countervailing duties imposed are less than the amount of countervailable subsidies found, an interim review may be initiated if the Union producers or any other interested party submit, normally within two years from the entry into force of the measures, sufficient evidence that, after the original investigation period and prior to or following the imposition of measures, export prices have decreased or that there has been no movement, or insufficient movement of resale prices of the imported product in the Union. If the investigation proves the allegations to be correct, countervailing duties may be increased to achieve the price increase required to remove injury. However, the increased duty level shall not exceed the amount of the countervailable subsidies.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>The interim review may also be initiated, under the conditions set out above, at the initiative of the Commission or at the request of a Member State.</p>
+                  </content>
+               </subparagraph>
+            </paragraph>
+            <paragraph>
+               <num>4.</num>
+               <content>
+                  <p>In carrying out investigations pursuant to this Article, the Commission may, inter alia, consider whether the circumstances with regard to subsidisation and injury have changed significantly, or whether existing measures are achieving the intended results in removing the injury previously determined under Article 8. In those respects, account shall be taken in the final determination of all relevant and duly documented evidence.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d233e1406">
+            <num>Article 20</num>
+            <heading>Accelerated reviews</heading>
+            <paragraph>
+               <content>
+                  <p>Any exporter whose exports are subject to a definitive countervailing duty but which was not individually investigated during the original investigation for reasons other than a refusal to cooperate with the Commission, shall be entitled, upon request, to an accelerated review in order that the Commission may promptly establish an individual countervailing duty rate for that exporter.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <content>
+                  <p>Such a review shall be initiated after Union producers have been given an opportunity to comment.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d233e1417">
+            <num>Article 21</num>
+            <heading>Refunds</heading>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>Notwithstanding Article 18, an importer may request reimbursement of duties collected where it is shown that the amount of countervailable subsidies, on the basis of which duties were paid, has been either eliminated or reduced to a level which is below the level of the duty in force.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>In requesting a refund of countervailing duties, the importer shall submit an application to the Commission. The application shall be submitted via the Member State in the territory of which the products were released for free circulation, within six months of the date on which the amount of the definitive duties to be levied was duly determined by the competent authorities or of the date on which a decision was made definitively to collect the amounts secured by way of provisional duty. Member States shall forward the request to the Commission forthwith.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <content>
+                  <p>An application for refund shall be considered to be duly supported by evidence only where it contains precise information on the amount of refund of countervailing duties claimed and all customs documentation relating to the calculation and payment of such amount. It shall also include evidence, for a representative period, of the amount of countervailable subsidies for the exporter or producer to which the duty applies. In cases where the importer is not associated with the exporter or producer concerned and such information is not immediately available, or where the exporter or producer is unwilling to release it to the importer, the application shall contain a statement from the exporter or producer that the amount of countervailable subsidies has been reduced or eliminated, as specified in this Article, and that the relevant supporting evidence will be provided to the Commission. Where such evidence is not forthcoming from the exporter or producer within a reasonable period of time the application shall be rejected.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>4.</num>
+               <subparagraph>
+                  <content>
+                     <p>The Commission shall decide whether and to what extent the application should be granted, or it may decide at any time to initiate an interim review, whereupon the information and findings from such a review, carried out in accordance with the provisions applicable for such reviews, shall be used to determine whether and to what extent a refund is justified.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>Refunds of duties shall normally take place within 12 months and in no circumstances more than 18 months after the date on which a request for a refund, duly supported by evidence, has been made by an importer of the product subject to the countervailing duty.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>The payment of any refund authorised should normally be made by Member States within 90 days of the decision referred to in the first subparagraph.</p>
+                  </content>
+               </subparagraph>
+            </paragraph>
+         </article>
+         <article xml:id="art_d233e1446">
+            <num>Article 22</num>
+            <heading>General provisions on reviews and refunds</heading>
+            <paragraph>
+               <num>1.</num>
+               <subparagraph>
+                  <content>
+                     <p>The relevant provisions of this Regulation with regard to procedures and the conduct of investigations, excluding those relating to time limits, shall apply to any review carried out pursuant to Articles 18, 19 and 20.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>Reviews carried out pursuant to Articles 18 and 19 shall be carried out expeditiously and shall normally be concluded within 12 months of the date of initiation of the review. In any event, reviews pursuant to Articles 18 and 19 shall in all cases be concluded within 15 months of initiation.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>Reviews pursuant to Article 20 shall in all cases be concluded within nine months of the date of initiation.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>If a review carried out pursuant to Article 18 is initiated while a review under Article 19 is ongoing in the same proceedings, the review pursuant to Article 19 shall be concluded at the same time as provided for above for the review pursuant to Article 18.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>If the investigation is not completed within the deadlines specified in the second, third and fourth subparagraphs, the measures shall:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <content>
+                        <p>expire in investigations pursuant to Article 18;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <content>
+                        <p>expire in the case of investigations carried out pursuant to Articles 18 and 19 in parallel, where either the investigation pursuant to Article 18 was initiated while a review under Article 19 was ongoing in the same proceedings or where such reviews were initiated at the same time; or</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(c)</num>
+                     <content>
+                        <p>remain unchanged in investigations pursuant to Articles 19 and 20.</p>
+                     </content>
+                  </point>
+               </list>
+               <subparagraph>
+                  <content>
+                     <p>A notice announcing the actual expiry or maintenance of the measures pursuant to this paragraph shall be published in the <i>Official Journal of the European Union</i>.</p>
+                  </content>
+               </subparagraph>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>Reviews pursuant to Articles 18, 19 and 20 shall be initiated by the Commission. The Commission shall decide whether or not to initiate reviews pursuant to Article 18 in accordance with the advisory procedure referred to in Article 25(2). The Commission shall also provide information to the Member States once an operator or a Member State has submitted a request justifying the initiation of a review pursuant to Articles 19 and 20 and the Commission has completed its analysis thereof, or once the Commission has itself determined that the need for the continued imposition of measures should be reviewed.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <content>
+                  <p>Where warranted by reviews, measures shall, in accordance with the examination procedure referred to in Article 25(3), be repealed or maintained pursuant to Article 18, or repealed, maintained or amended pursuant to Articles 19 and 20.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>4.</num>
+               <content>
+                  <p>Where measures are repealed for individual exporters, but not for the country as a whole, such exporters shall remain subject to the proceedings and may be reinvestigated in any subsequent review carried out for that country pursuant to this Article.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>5.</num>
+               <content>
+                  <p>Where a review of measures pursuant to Article 19 is in progress at the end of the period of application of measures as defined in Article 18, the measures shall also be investigated under the provisions of Article 18.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>6.</num>
+               <content>
+                  <p>In all review or refund investigations carried out pursuant to Articles 18 to 21, the Commission shall, provided that circumstances have not changed, apply the same methodology as in the investigation which led to the duty, with due account being taken of Articles 5, 6, 7 and 27.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d233e1515">
+            <num>Article 23</num>
+            <heading>Circumvention</heading>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>Countervailing duties imposed pursuant to this Regulation may be extended to imports from third countries of the like product, whether slightly modified or not, or to imports of the slightly modified like product from the country subject to measures, or parts thereof, when circumvention of the measures in force is taking place.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>Countervailing duties not exceeding the residual countervailing duty imposed in accordance with Article 15(2) may be extended to imports from companies benefiting from individual duties in the countries subject to measures when circumvention of the measures in force is taking place.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <subparagraph>
+                  <content>
+                     <p>Circumvention shall be defined as a change in the pattern of trade between third countries and the Union or between individual companies in the country subject to measures and the Union, which stems from a practice, process or work for which there is insufficient due cause or economic justification other than the imposition of the duty, and where there is evidence of injury or that the remedial effects of the duty are being undermined in terms of the prices and/or quantities of the like product and that the imported like product and/or parts thereof still benefit from the subsidy.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>The practice, process or work referred to in the first subparagraph includes, inter alia:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <content>
+                        <p>the slight modification of the product concerned to make it fall under customs codes which are normally not subject to the measures, provided that the modification does not alter its essential characteristics;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <content>
+                        <p>the consignment of the product subject to measures via third countries;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(c)</num>
+                     <content>
+                        <p>the reorganisation by exporters or producers of their patterns and channels of sales in the country subject to measures in order to eventually have their products exported to the Union through producers benefiting from an individual duty rate lower than that applicable to the products of the manufacturers.</p>
+                     </content>
+                  </point>
+               </list>
+            </paragraph>
+            <paragraph>
+               <num>4.</num>
+               <subparagraph>
+                  <content>
+                     <p>Investigations shall be initiated pursuant to this Article on the initiative of the Commission or at the request of a Member State or of any interested party on the basis of sufficient evidence regarding the factors set out in paragraphs 1, 2 and 3. Initiations shall be made by Commission Regulation which may also instruct customs authorities to subject imports to registration in accordance with Article 24(5) or to request guarantees. The Commission shall provide information to the Member States once an interested party or a Member State has submitted a request justifying the initiation of an investigation and the Commission has completed its analysis thereof, or where the Commission has itself determined that there is a need to initiate an investigation.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>Investigations shall be carried out by the Commission. The Commission may be assisted by customs authorities and the investigations shall be concluded within nine months.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>Where the facts as finally ascertained justify the extension of measures, this shall be done by the Commission acting in accordance with the examination procedure referred to in Article 25(3).</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>The extension shall take effect from the date on which registration was imposed pursuant to Article 24(5) or on which guarantees were requested. The relevant procedural provisions of this Regulation with regard to the initiation and the conduct of investigations shall apply pursuant to this Article.</p>
+                  </content>
+               </subparagraph>
+            </paragraph>
+            <paragraph>
+               <num>5.</num>
+               <content>
+                  <p>Imports shall not be subject to registration pursuant to Article 24(5) or measures where they are traded by companies which benefit from exemptions.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>6.</num>
+               <subparagraph>
+                  <content>
+                     <p>Requests for exemptions duly supported by evidence shall be submitted within the time limits established in the Commission Regulation initiating the investigation.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>Where the circumventing practice, process or work takes place outside the Union, exemptions may be granted to producers of the product concerned that can show that they are not related to any producer subject to the measures and that are found not to be engaged in circumvention practices as defined in paragraph 3.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>Where the circumventing practice, process or work takes place inside the Union, exemptions may be granted to importers that can show that they are not related to producers subject to the measures.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>Those exemptions shall be granted by decision of the Commission and shall remain valid for the period and under the conditions set down therein. The Commission shall provide information to the Member States once it has concluded its analysis.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>Provided that the conditions set in Article 20 are met, exemptions may also be granted after the conclusion of the investigation leading to the extension of the measures.</p>
+                  </content>
+               </subparagraph>
+            </paragraph>
+            <paragraph>
+               <num>7.</num>
+               <content>
+                  <p>Provided that at least one year has lapsed from the extension of the measures, and in case the number of parties requesting or potentially requesting an exemption is significant, the Commission may decide to initiate a review of the extension of the measures. Any such review shall be conducted in accordance with the provisions of Article 22(1) as applicable to reviews under Article 19.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>8.</num>
+               <content>
+                  <p>Nothing in this Article shall preclude the normal application of the provisions in force concerning customs duties.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d233e1597">
+            <num>Article 24</num>
+            <heading>General provisions</heading>
+            <paragraph>
+               <num>1.</num>
+               <subparagraph>
+                  <content>
+                     <p>Provisional or definitive countervailing duties shall be imposed by Regulation, and collected by Member States in the form, at the rate specified and according to the other criteria laid down in the Regulation imposing such duties. Such duties shall also be collected independently of the customs duties, taxes and other charges normally imposed on imports.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>No product shall be subject to both anti-dumping and countervailing duties for the purpose of dealing with one and the same situation arising from dumping or from export subsidisation.</p>
+                  </content>
+               </subparagraph>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <subparagraph>
+                  <content>
+                     <p>Regulations imposing provisional or definitive countervailing duties, and Regulations or Decisions accepting undertakings or terminating investigations or proceedings, shall be published in the <i>Official Journal of the European Union</i>.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>Such Regulations or Decisions shall contain in particular, and with due regard to the protection of confidential information, the names of the exporters, if possible, or of the countries involved, a description of the product and a summary of the facts and considerations relevant to the subsidy and injury determinations. In each case, a copy of the Regulation or Decision shall be sent to known interested parties. The provisions of this paragraph shall apply <i>mutatis mutandis</i> to reviews.</p>
+                  </content>
+               </subparagraph>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <content>
+                  <p>Special provisions, in particular with regard to the common definition of the concept of origin, as contained in Regulation (EU) No 952/2013 of the European Parliament and of the Council<authorialNote placement="bottom" marker="6">
+                        <p>Regulation (EU) No 952/2013 of the European Parliament and of the Council of 9 October 2013 laying down the Union Customs Code (OJ L 269, 10.10.2013, p. 1).</p>
+                     </authorialNote>, may be adopted pursuant to this Regulation.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>4.</num>
+               <subparagraph>
+                  <content>
+                     <p>In the Union interest, measures imposed pursuant to this Regulation may be suspended by a decision of the Commission in accordance with the advisory procedure referred to in Article 25(2) for a period of nine months. The suspension may be extended for a further period, not exceeding one year, by the Commission acting in accordance with the advisory procedure referred to in Article 25(2).</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>Measures may only be suspended where market conditions have temporarily changed to an extent that injury would be unlikely to resume as a result of the suspension, and provided that the Union industry has been given an opportunity to comment and those comments have been taken into account. Measures may at any time be reinstated in accordance with the advisory procedure referred to in Article 25(2) if the reason for suspension is no longer applicable.</p>
+                  </content>
+               </subparagraph>
+            </paragraph>
+            <paragraph>
+               <num>5.</num>
+               <subparagraph>
+                  <content>
+                     <p>The Commission may, after having informed the Member States in due time, direct the customs authorities to take the appropriate steps to register imports, so that measures may subsequently be applied against those imports from the date of such registration.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>Imports may be made subject to registration following a request from the Union industry which contains sufficient evidence to justify such action.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>Registration shall be introduced by Regulation which shall specify the purpose of the action and, if appropriate, the estimated amount of possible future liability. Imports shall not be made subject to registration for a period longer than nine months.</p>
+                  </content>
+               </subparagraph>
+            </paragraph>
+            <paragraph>
+               <num>6.</num>
+               <content>
+                  <p>Member States shall report to the Commission every month on the import trade of products subject to investigation and to measures, and on the amount of duties collected pursuant to this Regulation.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>7.</num>
+               <content>
+                  <p>Without prejudice to paragraph 6, the Commission may request Member States, on a case-by-case basis, to supply information necessary to monitor efficiently the application of measures. In this respect, the provisions of Articles 11(3) and (4) shall apply. Any data submitted by Member States pursuant to this Article shall be covered by the provisions of Article 29(6).</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d233e1664">
+            <num>Article 25</num>
+            <heading>Committee procedure</heading>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>The Commission shall be assisted by the Committee established by Regulation (EU) 2016/1036 of the European Parliament and of the Council<authorialNote placement="bottom" marker="7">
+                        <p>Regulation (EU) 2016/1036 of the European Parliament and of the Council of 8 June 2016 on protection against dumped imports from countries not members of the European Union (see page 21 of this Official Journal).</p>
+                     </authorialNote>. That Committee shall be a committee within the meaning of Regulation (EU) No 182/2011.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>Where reference is made to this paragraph, Article 4 of Regulation (EU) No 182/2011 shall apply.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <content>
+                  <p>Where reference is made to this paragraph, Article 5 of Regulation (EU) No 182/2011 shall apply.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>4.</num>
+               <content>
+                  <p>Where reference is made to this paragraph, Article 8 of Regulation (EU) No 182/2011, in conjunction with Article 4 thereof, shall apply.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>5.</num>
+               <content>
+                  <p>Pursuant to Article 3(5) of Regulation (EU) No 182/2011, where the written procedure is used to adopt definitive measures pursuant to paragraph 3 of this Article, or to decide on the initiation or non-initiation of expiry reviews pursuant to Article 18 of this Regulation, that procedure shall be terminated without result where, within the time limit set down by the chair, the chair so decides or a majority of committee members as defined in Article 5(1) of Regulation (EU) No 182/2011 so request. Where the written procedure is used in other instances where there has been a discussion of the draft measure in the committee, that procedure shall be terminated without result where, within the time limit set down by the chair, the chair so decides or a simple majority of committee members so request. Where the written procedure is used in other instances where there has not been a discussion of the draft measure in the committee, that procedure shall be terminated without result where, within the time limit set down by the chair, the chair so decides or at least a quarter of committee members so request.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>6.</num>
+               <content>
+                  <p>The committee may consider any matter relating to the application of this Regulation, raised by the Commission or at the request of a Member State. Member States may request information and may exchange views in the committee or directly with the Commission.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d233e1707">
+            <num>Article 26</num>
+            <heading>Verification visits</heading>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>The Commission shall, where it considers it appropriate, carry out visits to examine the records of importers, exporters, traders, agents, producers, trade associations and organisations, and to verify information provided on subsidisation and injury. In the absence of a proper and timely reply the Commission may choose not to carry out a verification visit.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>The Commission may carry out investigations in third countries as required, provided that it obtains the agreement of the firms concerned, that it notifies the country in question and that the latter does not object to the investigation. As soon as the agreement of the firms concerned has been obtained, the Commission shall notify the country of origin and/or export of the names and addresses of the firms to be visited and the dates agreed.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <content>
+                  <p>The firms concerned shall be advised of the nature of the information to be verified during verification visits and of any further information which needs to be provided during such visits, though this does not preclude requests, made during the verification, for further details to be provided in the light of information obtained.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>4.</num>
+               <content>
+                  <p>In investigations carried out pursuant to paragraphs 1, 2 and 3, the Commission shall be assisted by officials of those Member States which so request.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d233e1732">
+            <num>Article 27</num>
+            <heading>Sampling</heading>
+            <paragraph>
+               <num>1.</num>
+               <subparagraph>
+                  <content>
+                     <p>In cases where the number of complainants, exporters or importers, types of product or transactions is large, the investigation may be limited to:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <content>
+                        <p>a reasonable number of parties, products or transactions by using samples which are statistically valid on the basis of information available at the time of the selection; or</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <content>
+                        <p>the largest representative volume of the production, sales or exports which can reasonably be investigated within the time available.</p>
+                     </content>
+                  </point>
+               </list>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>The final selection of parties, types of products or transactions made under this Article shall rest with the Commission, though preference shall be given to choosing a sample in consultation with, and with the consent of, the parties concerned, provided that such parties make themselves known and make sufficient information available, within three weeks of initiation of the investigation, to enable a representative sample to be chosen.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <content>
+                  <p>In cases where the investigation has been limited in accordance with this Article, an individual amount of countervailable subsidisation shall be calculated for any exporter or producer not initially selected who submits the necessary information within the time limits provided for in this Regulation, except where the number of exporters or producers is so large that individual examinations would be unduly burdensome and would prevent completion of the investigation in good time.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>4.</num>
+               <subparagraph>
+                  <content>
+                     <p>Where it is decided to sample and there is a degree of non-cooperation by some or all of the parties selected which is likely to materially affect the outcome of the investigation, a new sample may be selected.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>However, if a material degree of non-cooperation persists or there is insufficient time to select a new sample, the relevant provisions of Article 28 shall apply.</p>
+                  </content>
+               </subparagraph>
+            </paragraph>
+         </article>
+         <article xml:id="art_d233e1774">
+            <num>Article 28</num>
+            <heading>Non-cooperation</heading>
+            <paragraph>
+               <num>1.</num>
+               <subparagraph>
+                  <content>
+                     <p>In cases in which any interested party refuses access to, or otherwise does not provide necessary information within the time limits provided for in this Regulation, or significantly impedes the investigation, provisional or final findings, affirmative or negative, may be made on the basis of the facts available.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>Where it is found that any interested party has supplied false or misleading information, that information shall be disregarded and use may be made of the facts available.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>Interested parties shall be made aware of the consequences of non-cooperation.</p>
+                  </content>
+               </subparagraph>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>Failure to give a computerised response shall not be deemed to constitute non-cooperation, provided that the interested party shows that presenting the response as requested would result in an unreasonable extra burden or unreasonable additional cost.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <content>
+                  <p>Where the information submitted by an interested party is not ideal in all respects, it shall nevertheless not be disregarded, provided that any deficiencies are not such as to cause undue difficulty in arriving at a reasonably accurate finding and that the information is appropriately submitted in good time and is verifiable, and that the party has acted to the best of its ability.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>4.</num>
+               <content>
+                  <p>If evidence or information is not accepted, the supplying party shall be informed forthwith of the reasons therefor and shall be granted an opportunity to provide further explanations within the time limit specified. If the explanations are considered unsatisfactory, the reasons for rejection of such evidence or information shall be disclosed and given in published findings.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>5.</num>
+               <subparagraph>
+                  <content>
+                     <p>If determinations, including those regarding the amount of countervailable subsidies, are based on the provisions of paragraph 1, including the information supplied in the complaint, it shall, where practicable and with due regard to the time limits of the investigation, be checked by reference to information from other independent sources which may be available, such as published price lists, official import statistics and customs returns, or information obtained from other interested parties during the investigation.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>Such information may include relevant data pertaining to the world market or other representative markets, where appropriate.</p>
+                  </content>
+               </subparagraph>
+            </paragraph>
+            <paragraph>
+               <num>6.</num>
+               <content>
+                  <p>If an interested party does not cooperate, or cooperates only partially, so that relevant information is thereby withheld, the result of the investigation may be less favourable to the party than if it had cooperated.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d233e1816">
+            <num>Article 29</num>
+            <heading>Confidentiality</heading>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>Any information which is by nature confidential (for example, because its disclosure would be of significant competitive advantage to a competitor or would have a significantly adverse effect upon a person supplying the information or upon a person from whom the person supplying the information has acquired the information), or which is provided on a confidential basis by parties to an investigation shall, if good cause is shown, be treated as such by the authorities.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>Interested parties providing confidential information shall be required to provide non-confidential summaries thereof. Those summaries shall be in sufficient detail to permit a reasonable understanding of the substance of the information submitted in confidence. In exceptional circumstances, such parties may indicate that such information is not capable of being summarised. In such exceptional circumstances, a statement of the reasons why summarisation is not possible shall be provided.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <content>
+                  <p>If it is considered that a request for confidentiality is not warranted and if the supplier of the information is either unwilling to make the information available or to authorise its disclosure in generalised or summary form, such information may be disregarded unless it can be satisfactorily demonstrated from appropriate sources that the information is correct. Requests for confidentiality shall not be arbitrarily rejected.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>4.</num>
+               <content>
+                  <p>This Article shall not preclude the disclosure of general information by the Union authorities, and, in particular, of the reasons on which decisions taken pursuant to this Regulation are based, or disclosure of the evidence relied on by the Union authorities in so far as is necessary to explain those reasons in court proceedings. Such disclosure shall take into account the legitimate interests of the parties concerned that their business or governmental secrets not be divulged.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>5.</num>
+               <content>
+                  <p>The Commission and the Member States, including the officials of either, shall not reveal any information received pursuant to this Regulation for which confidential treatment has been requested by its supplier, without specific permission from that supplier. Exchanges of information between the Commission and Member States, or any internal documents prepared by the authorities of the Union or the Member States, shall not be divulged except as specifically provided for in this Regulation.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>6.</num>
+               <subparagraph>
+                  <content>
+                     <p>Information received pursuant to this Regulation shall be used only for the purpose for which it was requested.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>This provision shall not preclude the use of information received in the context of one investigation for the purpose of initiating other investigations within the same proceedings concerning the same like product.</p>
+                  </content>
+               </subparagraph>
+            </paragraph>
+         </article>
+         <article xml:id="art_d233e1853">
+            <num>Article 30</num>
+            <heading>Disclosure</heading>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>The complainants, importers and exporters and their representative associations, and the country of origin and/or export, may request disclosure of the details underlying the essential facts and considerations on the basis of which provisional measures have been imposed. Requests for such disclosure shall be made in writing immediately following the imposition of provisional measures, and the disclosure shall be made in writing as soon as possible thereafter.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>The parties mentioned in paragraph 1 may request final disclosure of the essential facts and considerations on the basis of which it is intended to recommend the imposition of definitive measures, or the termination of an investigation or proceedings without the imposition of measures, particular attention being paid to the disclosure of any facts or considerations which are different from those used for any provisional measures.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <content>
+                  <p>Requests for final disclosure shall be addressed to the Commission in writing and be received, in cases where a provisional duty has been imposed, no later than one month after publication of the imposition of that duty. Where a provisional duty has not been imposed, parties shall be provided with an opportunity to request final disclosure within time limits set by the Commission.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>4.</num>
+               <subparagraph>
+                  <content>
+                     <p>Final disclosure shall be given in writing. It shall be made, due regard being had to the protection of confidential information, as soon as possible and, normally, no later than one month prior to the initiation of the procedures set out in Article 14 or Article 15. Where the Commission is not in a position to disclose certain facts or considerations at that time, they shall be disclosed as soon as possible thereafter.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>Disclosure shall not prejudice any subsequent decision which may be taken by the Commission, but where such a decision is based on any different facts and considerations they shall be disclosed as soon as possible.</p>
+                  </content>
+               </subparagraph>
+            </paragraph>
+            <paragraph>
+               <num>5.</num>
+               <content>
+                  <p>Representations made after final disclosure is given shall be taken into consideration only if received within a period to be set by the Commission in each case, which shall be at least 10 days, due consideration being given to the urgency of the matter. A shorter period may be set whenever an additional final disclosure has to be made.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d233e1887">
+            <num>Article 31</num>
+            <heading>Union interest</heading>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>A determination as to whether the Union&apos;s interest calls for intervention shall be based on an appraisal of all the various interests taken as a whole, including the interests of the domestic industry and users and consumers. A determination pursuant to this Article shall be made only where all parties have been given the opportunity to make their views known pursuant to paragraph 2. In such an examination, the need to eliminate the trade-distorting effects of injurious subsidisation and to restore effective competition shall be given special consideration. Measures, as determined on the basis of subsidisation and injury found, may not be applied where the authorities, on the basis of all the information submitted, can clearly conclude that it is not in the Union&apos;s interest to apply such measures.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>In order to provide a sound basis on which the authorities can take account of all views and information in the decision as to whether or not the imposition of measures is in the Union&apos;s interest, the complainants, importers and their representative associations, representative users and representative consumer organisations may, within the time limits specified in the notice of initiation of the countervailing duty investigation, make themselves known and provide information to the Commission. Such information, or appropriate summaries thereof, shall be made available to the other parties specified in this paragraph, and they shall be entitled to respond to such information.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <content>
+                  <p>The parties which have acted in accordance with paragraph 2 may request a hearing. Such requests shall be granted when they are submitted within the time limits set in paragraph 2, and when they set out the reasons, in terms of the Union interest, why the parties should be heard.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>4.</num>
+               <content>
+                  <p>The parties which have acted in accordance with paragraph 2 may provide comments on the application of any provisional duties. Such comments shall be received within 25 days of the date of application of such measures if they are to be taken into account and they, or appropriate summaries thereof, shall be made available to other parties who shall be entitled to respond to such comments.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>5.</num>
+               <content>
+                  <p>The Commission shall examine the information which is properly submitted and the extent to which it is representative, and the results of such analysis, together with an opinion on its merits, shall be transmitted to the committee referred to in Article 25 as part of the draft measure submitted pursuant to Articles 14 and 15. The views expressed in the committee should be taken into account by the Commission under the conditions provided for in Regulation (EU) No 182/2011.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>6.</num>
+               <content>
+                  <p>The parties which have acted in conformity with paragraph 2 may request that the facts and considerations on which final decisions are likely to be taken be made available to them. Such information shall be made available to the extent possible and without prejudice to any subsequent decision taken by the Commission.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>7.</num>
+               <content>
+                  <p>Information shall be taken into account only where it is supported by actual evidence which substantiates its validity.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d233e1927">
+            <num>Article 32</num>
+            <heading>Relationships between countervailing duty measures and multilateral remedies</heading>
+            <paragraph>
+               <content>
+                  <p>If an imported product is made subject to any countermeasures imposed following recourse to the dispute settlement procedures of the Subsidies Agreement, and such measures are appropriate to remove the injury caused by the countervailable subsidies, any countervailing duty imposed with regard to that product shall immediately be suspended, or repealed, as appropriate.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d233e1935">
+            <num>Article 33</num>
+            <heading>Final provisions</heading>
+            <paragraph>
+               <subparagraph>
+                  <content>
+                     <p>This Regulation shall not preclude the application of:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <content>
+                        <p>any special rules laid down in agreements concluded between the Union and third countries;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <content>
+                        <p>the Union Regulations in the agricultural sector and Council Regulations (EC) No 1667/2006<authorialNote placement="bottom" marker="8">
+                              <p>Council Regulation (EC) No 1667/2006 of 7 November 2006 on glucose and lactose (OJ L 312, 11.11.2006, p. 1).</p>
+                           </authorialNote>, (EC) No 614/2009<authorialNote placement="bottom" marker="9">
+                              <p>Council Regulation (EC) No 614/2009 of 7 July 2009 on the common system of trade for ovalbumin and lactalbumin (OJ L 181, 14.7.2009, p. 8).</p>
+                           </authorialNote> and (EC) No 1216/2009<authorialNote placement="bottom" marker="10">
+                              <p>Council Regulation (EC) No 1216/2009 of 30 November 2009 laying down the trade arrangements applicable to certain goods resulting from the processing of agricultural products (OJ L 328, 15.12.2009, p. 10).</p>
+                           </authorialNote>. This Regulation shall operate by way of complement to those Regulations and in derogation from any provisions thereof which preclude the application of countervailing duties;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(c)</num>
+                     <content>
+                        <p>special measures, provided that such action does not run counter to obligations under the GATT 1994.</p>
+                     </content>
+                  </point>
+               </list>
+            </paragraph>
+         </article>
+         <article xml:id="art_d233e1992">
+            <num>Article 34</num>
+            <heading>Report</heading>
+            <paragraph>
+               <content>
+                  <p>The Commission shall include information on the implementation of this Regulation in its annual report on the application and implementation of trade defence measures presented to the European Parliament and to the Council pursuant to Article 23 of Regulation (EU) 2016/1036.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d233e1999">
+            <num>Article 35</num>
+            <heading>Repeal</heading>
+            <paragraph>
+               <content>
+                  <p>Regulation (EC) No 597/2009 is repealed.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <content>
+                  <p>References to the repealed Regulation shall be construed as references to this Regulation and shall be read in accordance with the correlation table in Annex VI.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d233e2008">
+            <num>Article 36</num>
+            <heading>Entry into force</heading>
+            <paragraph>
+               <content>
+                  <p>This Regulation shall enter into force on the twentieth day following that of its publication in the <i>Official Journal of the European Union</i>.</p>
+               </content>
+            </paragraph>
+         </article>
+         <clause>
+            <content>
+               <p>This Regulation shall be binding in its entirety and directly applicable in all Member States.</p>
+            </content>
+         </clause>
+      </body>
+      <conclusions>
+         <p>Done at Strasbourg, 8 June 2016.</p>
+         <block name="signatory">
+            <signature>
+               <organization refersTo="">For the European Parliament</organization>
+               <role refersTo="">The President</role>
+               <person refersTo="">M. SCHULZ</person>
+            </signature>
+            <signature>
+               <organization refersTo="">For the Council</organization>
+               <role refersTo="">The President</role>
+               <person refersTo="">A.G. KOENDERS</person>
+            </signature>
+         </block>
+      </conclusions>
+   </bill>
+</akomaNtoso>

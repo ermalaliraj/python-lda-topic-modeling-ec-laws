@@ -1,0 +1,418 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"
+            xmlns:fmx="http://formex.publications.europa.eu/schema/formex-05.21-20110601.xd"
+            xmlns:leos="urn:eu:europa:ec:leos"
+            xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <bill name="">
+      <meta xmlns:fn="http://www.w3.org/2005/xpath-functions">
+         <identification source="~COM">
+            <FRBRWork>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRcountry value=""/>
+            </FRBRWork>
+            <FRBRExpression>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+            </FRBRManifestation>
+         </identification>
+      </meta>
+      <preface>
+         <longTitle>
+            <p>
+               <docStage/>
+               <docType>COMMISSION REGULATION (EU) 2018/1119</docType>of 31 July 2018<docPurpose>amending Regulation (EU) No 1178/2011 as regards declared training organisations</docPurpose>
+            </p>
+         </longTitle>
+      </preface>
+      <preamble>
+         <formula name="actingEntity">
+            <p>THE EUROPEAN COMMISSION,</p>
+         </formula>
+         <citations>
+            <citation>
+               <p>Having regard to the Treaty on the Functioning of the European Union,</p>
+            </citation>
+            <citation>
+               <p>Having regard to Regulation (EC) No 216/2008 of the European Parliament and of the Council of 20 February 2008 on common rules in the field of civil aviation and establishing a European Aviation Safety Agency, and repealing Council Directive 91/670/EEC, Regulation (EC) No 1592/2002 and Directive 2004/36/EC<authorialNote placement="bottom" marker="1">
+                     <p>OJ L 79, 19.3.2008, p. 1.</p>
+                  </authorialNote>, and in particular Article 7(6) thereof,</p>
+            </citation>
+         </citations>
+         <recitals xml:id="recs_d316e68">
+            <intro>
+               <p>Whereas:</p>
+            </intro>
+            <recital xml:id="rec_d316e71">
+               <num>(1)</num>
+               <p>In accordance with the requirements laid down in Annex VII (Part-ORA) to Commission Regulation (EU) No 1178/2011<authorialNote placement="bottom" marker="2">
+                     <p>Commission Regulation (EU) No 1178/2011 of 3 November 2011 laying down technical requirements and administrative procedures related to civil aviation aircrew pursuant to Regulation (EC) No 216/2008 of the European Parliament and of the Council (OJ L 311, 25.11.2011, p. 1).</p>
+                  </authorialNote>, pilot training organisations need to set up and maintain a management system, including compliance monitoring, and a safety management system. The overall organisation, its processes, procedures and activities need to be set out in detailed documentation (manuals).</p>
+            </recital>
+            <recital xml:id="rec_d316e87">
+               <num>(2)</num>
+               <p>Annex VII (Part-ORA) constitutes an appropriate legal framework for certifying organisations providing training for the purpose of obtaining commercial pilot licences. However, the requirements laid down therein are unnecessarily burdensome and not proportionate for organisations which only provide training for the purpose of obtaining non-commercial pilot licences and specific ratings, privileges and certificates, taking account of the costs incurred, the nature and scale of their activities and the risks and benefits for aviation safety. As noted in the European Aviation Safety Agency&apos;s General Aviation Road Map<authorialNote placement="bottom" marker="3">
+                     <p>http://www.easa.europa.eu/easa-and-you/general-aviation</p>
+                  </authorialNote>, a simpler system should therefore be developed for those organisations.</p>
+            </recital>
+            <recital xml:id="rec_d316e97">
+               <num>(3)</num>
+               <p>For those reasons, those organisations should be made subject to a set of specific requirements and not be subject to a requirement of prior approval by the competent authority. Instead, they should be allowed to declare to the competent authority that they comply with those requirements applicable to them.</p>
+            </recital>
+            <recital xml:id="rec_d316e103">
+               <num>(4)</num>
+               <p>The specific requirements for such declared training organisations (DTOs) should include simplified safety procedures so as to take account of both the lower risk environment in which non-commercial pilots operate and the need for competent authorities to exercise appropriate oversight. In the interest of safety, rules on the submission of training programmes to the competent authority together with the declaration, record keeping, compliance monitoring through an annual internal review, and the appointment of DTO representatives in charge of safety policy, should also be provided for.</p>
+            </recital>
+            <recital xml:id="rec_d316e109">
+               <num>(5)</num>
+               <p>For the same reasons, the rules on the oversight and enforcement in respect of DTOs by the competent authorities, laid down in Annex VI (Part-ARA) to Regulation (EU) No 1178/2011, should be amended as well, so as to ensure that they are proportionate, sufficiently flexible, founded on a risk-based approach and consistent with the specific requirements for DTOs.</p>
+            </recital>
+            <recital xml:id="rec_d316e115">
+               <num>(6)</num>
+               <p>It is appropriate to also amend certain other provisions of Regulation (EU) No 1178/2011 on pilot training organisations, in particular to provide clarification, delete transitional provisions which are no longer relevant and amend Annex I (Part-FCL) to that Regulation so that it refers to both approved and declared training organisations.</p>
+            </recital>
+            <recital xml:id="rec_d316e121">
+               <num>(7)</num>
+               <p>Additional time should be provided for the implementation of the measures on upset prevention and recovery training.</p>
+            </recital>
+            <recital xml:id="rec_d316e127">
+               <num>(8)</num>
+               <p>In accordance with Article 19(1) of Regulation (EC) No 216/2008, the European Aviation Safety Agency submitted draft implementing rules to the Commission in Opinion No 11/2016.</p>
+            </recital>
+            <recital xml:id="rec_d316e133">
+               <num>(9)</num>
+               <p>The measures provided for in this Regulation are in accordance with the opinion of the Committee established by Article 65 of Regulation (EC) No 216/2008,</p>
+            </recital>
+         </recitals>
+         <formula name="enactingFormula">
+            <p>HAS ADOPTED THIS REGULATION:</p>
+         </formula>
+      </preamble>
+      <body>
+         <article xml:id="art_d316e143" leos:compliant="false">
+            <num>Article 1</num>
+            <heading/>
+            <paragraph>
+               <subparagraph>
+                  <content>
+                     <p>Regulation (EU) No 1178/2011 is amended as follows:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(1)</num>
+                     <alinea>
+                        <content>
+                           <p>in Article 2, the following definitions are added:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <list>
+                                       <point>
+                                          <num>&apos;(14)</num>
+                                          <content>
+                                             <p>&quot;acceptable means of compliance (AMC)&quot; means non-binding standards adopted by the Agency to illustrate means to establish compliance with Regulation (EC) No 216/2008 and its implementing rules;</p>
+                                          </content>
+                                       </point>
+                                       <point>
+                                          <num>(15)</num>
+                                          <content>
+                                             <p>&quot;alternative means of compliance (AltMoC)&quot; means those means that propose an alternative to an existing AMC or those that propose new means to establish compliance with Regulation (EC) No 216/2008 and its implementing rules for which no associated AMC have been adopted by the Agency;</p>
+                                          </content>
+                                       </point>
+                                       <point>
+                                          <num>(16)</num>
+                                          <content>
+                                             <p>&quot;approved training organisation (ATO)&quot; means an organisation which is entitled to provide training to pilots on the basis of an approval issued in accordance with the first subparagraph of Article 10a(1);</p>
+                                          </content>
+                                       </point>
+                                       <point>
+                                          <num>(17)</num>
+                                          <content>
+                                             <p>&quot;basic instrument training device (BITD)&quot; means a ground-based training device for the training of pilots representing the student pilot&apos;s station of a class of aeroplanes, which may use screen-based instrument panels and spring-loaded flight controls, and providing a training platform for at least the procedural aspects of instrument flight;</p>
+                                          </content>
+                                       </point>
+                                       <point>
+                                          <num>(18)</num>
+                                          <content>
+                                             <p>&quot;certification specifications (CS)&quot; mean technical standards adopted by the Agency indicating means to be used by an organisation for the purpose of certification;</p>
+                                          </content>
+                                       </point>
+                                       <point>
+                                          <num>(19)</num>
+                                          <content>
+                                             <p>&quot;flight instructor (FI)&quot; means an instructor with the privileges to provide training, in accordance with Subpart J of Annex I (Part-FCL), in an aircraft;</p>
+                                          </content>
+                                       </point>
+                                       <point>
+                                          <num>(20)</num>
+                                          <alinea>
+                                             <content>
+                                                <p>&quot;flight simulation training device (FSTD)&quot; means a device for the training of pilots which is:</p>
+                                             </content>
+                                          </alinea>
+                                          <list>
+                                             <point>
+                                                <num>(a)</num>
+                                                <content>
+                                                   <p>in the case of aeroplanes, a full flight simulator (FFS), a flight training device (FTD), a flight and navigation procedures trainer (FNPT) or a basic instrument training device (BITD);</p>
+                                                </content>
+                                             </point>
+                                             <point>
+                                                <num>(b)</num>
+                                                <content>
+                                                   <p>in the case of helicopters, a full flight simulator (FFS), a flight training device (FTD) or a flight and navigation procedures trainer (FNPT);</p>
+                                                </content>
+                                             </point>
+                                          </list>
+                                       </point>
+                                       <point>
+                                          <num>(21)</num>
+                                          <content>
+                                             <p>&quot;FSTD qualification&quot; means the level of technical ability of an FSTD as specified in the certification specifications relating to the FSTD in question;</p>
+                                          </content>
+                                       </point>
+                                       <point>
+                                          <num>(22)</num>
+                                          <content>
+                                             <p>&quot;principal place of business&quot; of an organisation means the head office or registered office of the organisation within which the principal financial functions and operational control of the activities referred to in this Regulation are exercised;</p>
+                                          </content>
+                                       </point>
+                                       <point>
+                                          <num>(23)</num>
+                                          <content>
+                                             <p>&quot;qualification test guide (QTG)&quot; means a document established to demonstrate that the performance and handling qualities of an FSTD represent those of the aircraft, class of aeroplane or type of helicopter, simulated within prescribed limits and that all applicable requirements have been met. The QTG includes both the data of the aircraft, class of aeroplane or type of helicopter and FSTD data used to support the validation;</p>
+                                          </content>
+                                       </point>
+                                       <point>
+                                          <num>(24)</num>
+                                          <content>
+                                             <p>&quot;declared training organisation (DTO)&quot; means an organisation which is entitled to provide training to pilots on the basis of a declaration made in accordance with the second subparagraph of Article 10a(1);</p>
+                                          </content>
+                                       </point>
+                                       <point>
+                                          <num>(25)</num>
+                                          <content>
+                                             <p>&quot;DTO training programme&quot; means a document established by a DTO, describing in detail the training course provided by that DTO.&apos;;</p>
+                                          </content>
+                                       </point>
+                                    </list>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(2)</num>
+                     <alinea>
+                        <content>
+                           <p>Article 10a is amended as follows:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <alinea>
+                              <content>
+                                 <p>paragraph 1 is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <paragraph>
+                                             <num>&apos;1.</num>
+                                             <subparagraph>
+                                                <content>
+                                                   <p>Organisations shall, in accordance with Article 7(3) of Regulation (EC) No 216/2008, be entitled to provide training to pilots involved in the operation of aircraft referred to in Article 4(1)(b) and (c) of Regulation (EC) No 216/2008 only where those organisations have been issued by the competent authority with an approval confirming that they comply with the essential requirements set out in Annex III to Regulation (EC) No 216/2008 and with the requirements of Annex VII to this Regulation.</p>
+                                                </content>
+                                             </subparagraph>
+                                             <subparagraph>
+                                                <content>
+                                                   <p>However, by derogation from Article 7(3) of Regulation (EC) No 216/2008 and the first subparagraph of this paragraph, organisations shall be entitled to provide the training referred to in point DTO.GEN.110 of Annex VIII to this Regulation without such approval where they have made a declaration to the competent authority in accordance with the requirements laid down in point DTO.GEN.115 of that Annex and, where so required pursuant to point DTO.GEN.230(c) of that Annex, the competent authority has approved the training programme.&apos;;</p>
+                                                </content>
+                                             </subparagraph>
+                                          </paragraph>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <alinea>
+                              <content>
+                                 <p>paragraph 3 is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <paragraph>
+                                             <num>&apos;3.</num>
+                                             <content>
+                                                <p>JAR-compliant training organisations shall be allowed to provide training for a Part-FCL private pilot licence (PPL), for the associated ratings included in the registration and for a light aircraft pilot licence (LAPL) until 8 April 2019 without complying with the provisions of Annex VII and Annex VIII, provided that they were registered before 8 April 2015.&apos;;</p>
+                                             </content>
+                                          </paragraph>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                     </list>
+                  </point>
+                  <point>
+                     <num>(3)</num>
+                     <alinea>
+                        <content>
+                           <p>Article 12 is amended as follows:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <alinea>
+                              <content>
+                                 <p>paragraph 2a is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <paragraph>
+                                             <num>&apos;2a.</num>
+                                             <subparagraph>
+                                                <content>
+                                                   <p>By way of derogation from paragraph 1, Member States may decide not to apply until 8 April 2020:</p>
+                                                </content>
+                                             </subparagraph>
+                                             <list>
+                                                <point>
+                                                   <num>(1)</num>
+                                                   <content>
+                                                      <p>the provisions of Annex I related to pilot licenses for sailplanes and balloons;</p>
+                                                   </content>
+                                                </point>
+                                                <point>
+                                                   <num>(2)</num>
+                                                   <content>
+                                                      <p>the provisions of Annexes VII and VIII to a training organisation providing training only for a national licence that is eligible in accordance with Article 4(3) of Regulation (EU) No 1178/2011, for conversion into a Part-FCL light aircraft pilot licence (LAPL) for sailplanes or balloons, a Part-FCL sailplane pilot licence (SPL) or a Part-FCL balloon pilot licence (BPL);</p>
+                                                   </content>
+                                                </point>
+                                                <point>
+                                                   <num>(3)</num>
+                                                   <content>
+                                                      <p>the provisions of Subpart B of Annex I.&apos;;</p>
+                                                   </content>
+                                                </point>
+                                             </list>
+                                          </paragraph>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <alinea>
+                              <content>
+                                 <p>a new paragraph 8 is added as follows:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <paragraph>
+                                             <num>&apos;8.</num>
+                                             <content>
+                                                <p>By way of derogation from paragraph 1, point FCL.315.A, the second sentence of paragraph (a) of point FCL.410.A and paragraph (c) of point FCL.725.A of Annex I (Part-FCL) shall apply from 8 April 2019.&apos;;</p>
+                                             </content>
+                                          </paragraph>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                     </list>
+                  </point>
+                  <point>
+                     <num>(4)</num>
+                     <content>
+                        <p>Annex I is amended in accordance with Annex I to this Regulation;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(5)</num>
+                     <content>
+                        <p>Annex VI is amended in accordance with Annex II to this Regulation;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(6)</num>
+                     <content>
+                        <p>Annex VII is amended in accordance with Annex III to this Regulation;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(7)</num>
+                     <content>
+                        <p>Annex VIII is added as set out in Annex IV to this Regulation.</p>
+                     </content>
+                  </point>
+               </list>
+            </paragraph>
+         </article>
+         <article xml:id="art_d316e424">
+            <num>Article 2</num>
+            <heading/>
+            <paragraph>
+               <content>
+                  <p>This Regulation shall enter into force on the twentieth day following that of its publication in the <i>Official Journal of the European Union</i>.</p>
+               </content>
+            </paragraph>
+         </article>
+         <clause>
+            <content>
+               <p>This Regulation shall be binding in its entirety and directly applicable in all Member States.</p>
+            </content>
+         </clause>
+      </body>
+      <conclusions>
+         <p>Done at Brussels, 31 July 2018.</p>
+         <block name="signatory">
+            <signature>
+               <organization refersTo="">For the Commission</organization>
+               <role refersTo="">The President</role>
+               <person refersTo="">Jean-Claude JUNCKER</person>
+            </signature>
+         </block>
+      </conclusions>
+   </bill>
+</akomaNtoso>

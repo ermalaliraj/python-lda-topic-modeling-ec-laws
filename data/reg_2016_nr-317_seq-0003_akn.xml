@@ -1,0 +1,605 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"
+            xmlns:fmx="http://formex.publications.europa.eu/schema/formex-05.21-20110601.xd"
+            xmlns:leos="urn:eu:europa:ec:leos"
+            xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <bill name="">
+      <meta xmlns:fn="http://www.w3.org/2005/xpath-functions">
+         <identification source="~COM">
+            <FRBRWork>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRcountry value=""/>
+            </FRBRWork>
+            <FRBRExpression>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+            </FRBRManifestation>
+         </identification>
+      </meta>
+      <preface>
+         <longTitle>
+            <p>
+               <docStage/>
+               <docType>REGULATION (EU) 2016/2032 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL</docType>of 26 October 2016<docPurpose>amending Regulation (EC) No 91/2003 on rail transport statistics, as regards the collection of data on goods, passengers and accidents</docPurpose>
+            </p>
+         </longTitle>
+      </preface>
+      <preamble>
+         <formula name="actingEntity">
+            <p>THE EUROPEAN PARLIAMENT AND THE COUNCIL OF THE EUROPEAN UNION,</p>
+         </formula>
+         <citations>
+            <citation>
+               <p>Having regard to the Treaty on the Functioning of the European Union, and in particular Article 338(1) thereof,</p>
+            </citation>
+            <citation>
+               <p>Having regard to the proposal from the European Commission,</p>
+            </citation>
+            <citation>
+               <p>After transmission of the draft legislative act to the national parliaments,</p>
+            </citation>
+            <citation>
+               <p>Acting in accordance with the ordinary legislative procedure<authorialNote placement="bottom" marker="1">
+                     <p>Position of the European Parliament of 11 March 2014 (not yet published in the Official Journal) and position of the Council at first reading of 18 July 2016 (not yet published in the Official Journal). Position of the European Parliament of 26 October 2016 (not yet published in the Official Journal).</p>
+                  </authorialNote>,</p>
+            </citation>
+         </citations>
+         <recitals xml:id="recs_d259e78">
+            <intro>
+               <p>Whereas:</p>
+            </intro>
+            <recital xml:id="rec_d259e81">
+               <num>(1)</num>
+               <p>Regulation (EC) No 91/2003 of the European Parliament and of the Council<authorialNote placement="bottom" marker="2">
+                     <p>Regulation (EC) No 91/2003 of the European Parliament and of the Council of 16 December 2002 on rail transport statistics (OJ L 14, 21.1.2003, p. 1).</p>
+                  </authorialNote> establishes a common framework for producing, transmitting, evaluating and disseminating comparable rail transport statistics in the Union.</p>
+            </recital>
+            <recital xml:id="rec_d259e97">
+               <num>(2)</num>
+               <p>Statistics on the transport of goods and passengers by rail are necessary to enable the Commission to monitor and develop the common transport policy, as well as the transport elements of policies relating to the regions and to trans-European networks.</p>
+            </recital>
+            <recital xml:id="rec_d259e103">
+               <num>(3)</num>
+               <p>Statistics on rail safety are also necessary to enable the Commission to prepare and monitor Union action in the field of transport safety. The European Union Agency for Railways collects data on accidents under Annex I to Directive 2004/49/EC of the European Parliament and of the Council<authorialNote placement="bottom" marker="3">
+                     <p>Directive 2004/49/EC of the European Parliament and of the Council of 29 April 2004 on safety on the Community&apos;s railways and amending Council Directive 95/18/EC on the licensing of railway undertakings and Directive 2001/14/EC on the allocation of railway infrastructure capacity and the levying of charges for the use of railway infrastructure and safety certification (Railway Safety Directive) (OJ L 164, 30.4.2004, p. 44).</p>
+                  </authorialNote> as regards common safety indicators and common methods of calculating accident costs.</p>
+            </recital>
+            <recital xml:id="rec_d259e119">
+               <num>(4)</num>
+               <p>It is important to avoid duplication of work and to optimise the use of existing information that is capable of being used for statistical purposes. To that end, and with a view to providing easily accessible and useful information to Union citizens and other stakeholders on rail transport safety and interoperability of the rail system, including the rail infrastructure, appropriate cooperation agreements on statistical activities should be established between the Commission&apos;s services and relevant entities, including at international level.</p>
+            </recital>
+            <recital xml:id="rec_d259e125">
+               <num>(5)</num>
+               <p>Most Member States transmitting passenger data to the Commission (Eurostat) under Regulation (EC) No 91/2003 have regularly provided the same data for both the provisional and final datasets.</p>
+            </recital>
+            <recital xml:id="rec_d259e131">
+               <num>(6)</num>
+               <p>A balance should be struck between the needs of the users and the burden on respondents when producing European statistics.</p>
+            </recital>
+            <recital xml:id="rec_d259e137">
+               <num>(7)</num>
+               <p>Within its Working Group and Task Force on rail transport statistics, Eurostat has conducted a technical analysis of the existing data on rail transport statistics collected pursuant to relevant binding Union legal acts and of the dissemination policy, in order to simplify as much as possible the various activities necessary for producing statistics, while ensuring that the final output remains in line with the present and future needs of users.</p>
+            </recital>
+            <recital xml:id="rec_d259e144">
+               <num>(8)</num>
+               <p>In its report to the European Parliament and to the Council on its experience acquired in applying Regulation (EC) No 91/2003, the Commission referred to the fact that long-term developments will probably result in the suppression or the simplification of the data already collected under that Regulation, and that the aim is to reduce the data transmission period for annual data on rail passengers. The Commission should continue to provide reports at regular intervals on the implementation of that Regulation.</p>
+            </recital>
+            <recital xml:id="rec_d259e150">
+               <num>(9)</num>
+               <p>Regulation (EC) No 91/2003 confers powers on the Commission to implement some of its provisions. As a consequence of the entry into force of the Treaty on the Functioning of the European Union (&apos;the Treaty&apos;), the powers conferred on the Commission under that Regulation need to be aligned with Articles 290 and 291 of the Treaty.</p>
+            </recital>
+            <recital xml:id="rec_d259e161">
+               <num>(10)</num>
+               <p>In order to reflect new developments in the Member States while, at the same time, maintaining the harmonised collection of rail transport data across the Union, and with a view to maintaining the high quality of the data transmitted by the Member States, the power to adopt acts in accordance with Article 290 of the Treaty should be delegated to the Commission in respect of amending Regulation (EC) No 91/2003 to adapt the technical definitions and to provide for additional technical definitions. It is of particular importance that the Commission carry out appropriate consultations during its preparatory work, including at expert level, and that those consultations be conducted in accordance with the principles laid down in the Interinstitutional Agreement of 13 April 2016 on Better Law-Making<authorialNote placement="bottom" marker="4">
+                     <p>OJ L 123, 12.5.2016, p. 1.</p>
+                  </authorialNote>. In particular, to ensure equal participation in the preparation of delegated acts, the European Parliament and the Council receive all documents at the same time as Member States&apos; experts, and their experts systematically have access to meetings of Commission expert groups dealing with the preparation of delegated acts.</p>
+            </recital>
+            <recital xml:id="rec_d259e176">
+               <num>(11)</num>
+               <p>The Commission should ensure that those delegated acts do not impose a significant additional burden on the Member States or on the respondents.</p>
+            </recital>
+            <recital xml:id="rec_d259e182">
+               <num>(12)</num>
+               <p>In order to ensure uniform conditions for implementation of Regulation (EC) No 91/2003, implementing powers should be conferred on the Commission as regards the specification of the information to be supplied for the reports on the quality and comparability of the results, and the arrangements for the dissemination of those results by the Commission (Eurostat). Those powers should be exercised in accordance with Regulation (EU) No 182/2011 of the European Parliament and of the Council<authorialNote placement="bottom" marker="5">
+                     <p>Regulation (EU) No 182/2011 of the European Parliament and of the Council of 16 February 2011 laying down the rules and general principles concerning mechanisms for control by Member States of the Commission&apos;s exercise of implementing powers (OJ L 55, 28.2.2011, p. 13).</p>
+                  </authorialNote>.</p>
+            </recital>
+            <recital xml:id="rec_d259e198">
+               <num>(13)</num>
+               <p>The European Statistical System Committee has been consulted.</p>
+            </recital>
+            <recital xml:id="rec_d259e204">
+               <num>(14)</num>
+               <p>Regulation (EC) No 91/2003 should therefore be amended accordingly,</p>
+            </recital>
+         </recitals>
+         <formula name="enactingFormula">
+            <p>HAVE ADOPTED THIS REGULATION:</p>
+         </formula>
+      </preamble>
+      <body>
+         <article xml:id="art_d259e213" leos:compliant="false">
+            <num>Article 1</num>
+            <heading/>
+            <paragraph>
+               <subparagraph>
+                  <content>
+                     <p>Regulation (EC) No 91/2003 is amended as follows:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(1)</num>
+                     <alinea>
+                        <content>
+                           <p>Article 3 is amended as follows:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <content>
+                              <p>in paragraph 1, points 24-30 are deleted;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <alinea>
+                              <content>
+                                 <p>paragraph 2 is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <paragraph>
+                                             <num>&apos;2.</num>
+                                             <subparagraph>
+                                                <content>
+                                                   <p>The Commission is empowered to adopt delegated acts in accordance with Article 10 concerning the amendment of the present Article to adapt the technical definitions set out in points 8 to 10 and 21 to 23 of paragraph 1 and to provide for additional technical definitions, when needed to take into account new developments which require a certain level of technical detail to be defined in order to ensure the harmonisation of statistics.</p>
+                                                </content>
+                                             </subparagraph>
+                                             <subparagraph>
+                                                <content>
+                                                   <p>When exercising that power the Commission shall ensure that the delegated acts do not impose a significant additional burden on the Member States or on the respondents. Furthermore, the Commission shall duly justify the statistical actions for which those delegated acts provide, using, where appropriate, cost-effectiveness analysis, including an assessment of the burden on respondents and of the production costs, as referred to in point (c) of Article 14(3) of Regulation (EC) No 223/2009 of the European Parliament and of the Council<authorialNote placement="bottom" marker="6">
+                                                         <p>Regulation (EC) No 223/2009 of the European Parliament and of the Council of 11 March 2009 on European statistics and repealing Regulation (EC, Euratom) No 1101/2008 of the European Parliament and of the Council on the transmission of data subject to statistical confidentiality to the Statistical Office of the European Communities, Council Regulation (EC) No 322/97 on Community Statistics, and Council Decision 89/382/EEC, Euratom establishing a Committee on the Statistical Programmes of the European Communities (OJ L 87, 31.3.2009, p. 164).&apos;;</p>
+                                                      </authorialNote>.</p>
+                                                </content>
+                                             </subparagraph>
+                                          </paragraph>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                     </list>
+                  </point>
+                  <point>
+                     <num>(2)</num>
+                     <alinea>
+                        <content>
+                           <p>Article 4 is amended as follows:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <content>
+                              <p>in paragraph 1, points (b), (d) and (h) are deleted;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <alinea>
+                              <content>
+                                 <p>paragraph 2 is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <paragraph>
+                                             <num>&apos;2.</num>
+                                             <subparagraph>
+                                                <content>
+                                                   <p>Member States shall report under Annexes A and C data for undertakings that have:</p>
+                                                </content>
+                                             </subparagraph>
+                                             <list>
+                                                <point>
+                                                   <num>(a)</num>
+                                                   <content>
+                                                      <p>a total volume of goods transport of at least 200000000 tonne-km or at least 500000 tonnes;</p>
+                                                   </content>
+                                                </point>
+                                                <point>
+                                                   <num>(b)</num>
+                                                   <content>
+                                                      <p>a total volume of passenger transport of at least 100000000 passenger-km.</p>
+                                                   </content>
+                                                </point>
+                                             </list>
+                                             <subparagraph>
+                                                <content>
+                                                   <p>Reporting under Annexes A and C shall be optional in respect of undertakings falling below the thresholds referred to in points (a) and (b).&apos;;</p>
+                                                </content>
+                                             </subparagraph>
+                                          </paragraph>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(c)</num>
+                           <alinea>
+                              <content>
+                                 <p>paragraph 3 is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <paragraph>
+                                             <num>&apos;3.</num>
+                                             <content>
+                                                <p>Member States shall report under Annex L the total data for undertakings falling below the thresholds referred to in paragraph 2 if those data are not reported under Annexes A and C, as specified in Annex L.&apos;;</p>
+                                             </content>
+                                          </paragraph>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                     </list>
+                  </point>
+                  <point>
+                     <num>(3)</num>
+                     <alinea>
+                        <content>
+                           <p>in Article 5(2), point (b) is replaced by the following:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <list>
+                                       <point>
+                                          <num>&apos;(b)</num>
+                                          <content>
+                                             <p>administrative data, including data collected by regulatory authorities, in particular the rail freight waybill if one is available;&apos;;</p>
+                                          </content>
+                                       </point>
+                                    </list>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(4)</num>
+                     <alinea>
+                        <content>
+                           <p>Article 7 is replaced by the following:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <article xml:id="art_d259e360">
+                                       <num>&apos;Article 7</num>
+                                       <heading>Dissemination</heading>
+                                       <paragraph>
+                                          <content>
+                                             <p>Statistics based on the data specified in Annexes A, C, E, F, G and L shall be disseminated by the Commission (Eurostat).</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <content>
+                                             <p>The Commission shall adopt implementing acts laying down the arrangements for the dissemination of results. Those implementing acts shall be adopted in accordance with the examination procedure referred to in Article 11(2).&apos;;</p>
+                                          </content>
+                                       </paragraph>
+                                    </article>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(5)</num>
+                     <alinea>
+                        <content>
+                           <p>Article 8 is amended as follows:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <alinea>
+                              <content>
+                                 <p>the following paragraph is inserted:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <paragraph>
+                                             <num>&apos;1a.</num>
+                                             <content>
+                                                <p>Member States shall take all measures necessary to ensure the quality of the data transmitted.&apos;;</p>
+                                             </content>
+                                          </paragraph>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <alinea>
+                              <content>
+                                 <p>the following paragraphs are added:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <paragraph>
+                                             <num>&apos;3.</num>
+                                             <content>
+                                                <p>For the purposes of this Regulation, the quality criteria to be applied to the data to be transmitted are those referred to in Article 12(1) of Regulation (EC) No 223/2009.</p>
+                                             </content>
+                                          </paragraph>
+                                          <paragraph>
+                                             <num>4.</num>
+                                             <content>
+                                                <p>The Commission shall adopt implementing acts specifying the detailed arrangements, structure, periodicity and comparability elements for the standard quality reports. Those implementing acts shall be adopted in accordance with the examination procedure referred to in Article 11(2).&apos;;</p>
+                                             </content>
+                                          </paragraph>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                     </list>
+                  </point>
+                  <point>
+                     <num>(6)</num>
+                     <alinea>
+                        <content>
+                           <p>Article 9 is replaced by the following:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <article xml:id="art_d259e426">
+                                       <num>&apos;Article 9</num>
+                                       <heading>Reports on implementation</heading>
+                                       <paragraph>
+                                          <content>
+                                             <p>By 31 December 2020 and every four years thereafter, the Commission, after consulting the European Statistical System Committee, shall submit a report to the European Parliament and to the Council on the implementation of this Regulation and on future developments.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <content>
+                                             <p>In that report, the Commission shall take account of relevant information provided by Member States relating to the quality of the data transmitted, the data collection methods used and information on potential improvements and on users&apos; needs.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <subparagraph>
+                                             <content>
+                                                <p>In particular, that report shall:</p>
+                                             </content>
+                                          </subparagraph>
+                                          <list>
+                                             <point>
+                                                <num>(a)</num>
+                                                <content>
+                                                   <p>assess the benefits, accruing to the Union, the Member States and the providers and users of statistical information, of the statistics produced, in relation to their costs;</p>
+                                                </content>
+                                             </point>
+                                             <point>
+                                                <num>(b)</num>
+                                                <content>
+                                                   <p>assess the quality of the data transmitted, the data collection methods used and the quality of the statistics produced.&apos;;</p>
+                                                </content>
+                                             </point>
+                                          </list>
+                                       </paragraph>
+                                    </article>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(7)</num>
+                     <alinea>
+                        <content>
+                           <p>Article 10 is replaced by the following:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <article xml:id="art_d259e465">
+                                       <num>&apos;Article 10</num>
+                                       <heading>Exercise of the delegation</heading>
+                                       <paragraph>
+                                          <num>1.</num>
+                                          <content>
+                                             <p>The power to adopt delegated acts is conferred on the Commission subject to the conditions laid down in this Article.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>2.</num>
+                                          <content>
+                                             <p>The power to adopt delegated acts referred to in Article 3(2) shall be conferred on the Commission for a period of five years from 13 December 2016. The Commission shall draw up a report in respect of the delegation of power not later than nine months before the end of the five year period. The delegation of power shall be tacitly extended for periods of an identical duration, unless the European Parliament or the Council opposes such extension not later than three months before the end of each period.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>3.</num>
+                                          <content>
+                                             <p>The delegation of power referred to in Article 3(2) may be revoked at any time by the European Parliament or by the Council. A decision to revoke shall put an end to the delegation of the power specified in that decision. It shall take effect the day following the publication of the decision in the <i>Official Journal of the European Union</i> or at a later date specified therein. It shall not affect the validity of any delegated acts already in force.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>4.</num>
+                                          <content>
+                                             <p>Before adopting a delegated act, the Commission shall consult experts designated by each Member State in accordance with the principles laid down in the Interinstitutional Agreement of 13 April 2016 on Better Law-Making<authorialNote placement="bottom" marker="7">
+                                                   <p>OJ L 123, 12.5.2016, p. 1.&apos;;</p>
+                                                </authorialNote>.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>5.</num>
+                                          <content>
+                                             <p>As soon as it adopts a delegated act, the Commission shall notify it simultaneously to the European Parliament and to the Council.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>6.</num>
+                                          <content>
+                                             <p>A delegated act adopted pursuant to Article 3(2) shall enter into force only if no objection has been expressed either by the European Parliament or the Council within a period of two months of notification of that act to the European Parliament and the Council or if, before the expiry of that period, the European Parliament and the Council have both informed the Commission that they will not object. That period shall be extended by two months at the initiative of the European Parliament or of the Council.</p>
+                                          </content>
+                                       </paragraph>
+                                    </article>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(8)</num>
+                     <alinea>
+                        <content>
+                           <p>Article 11 is replaced by the following:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <article xml:id="art_d259e527">
+                                       <num>&apos;Article 11</num>
+                                       <heading>Committee procedure</heading>
+                                       <paragraph>
+                                          <num>1.</num>
+                                          <content>
+                                             <p>The Commission shall be assisted by the European Statistical System Committee established by Regulation (EC) No 223/2009. That committee shall be a committee within the meaning of Regulation (EU) No 182/2011 of the European Parliament and of the Council<authorialNote placement="bottom" marker="8">
+                                                   <p>Regulation (EU) No 182/2011 of the European Parliament and of the Council of 16 February 2011 laying down the rules and general principles concerning mechanisms for control by Member States of the Commission&apos;s exercise of implementing powers (OJ L 55, 28.2.2011, p. 13).&apos;;</p>
+                                                </authorialNote>.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>2.</num>
+                                          <content>
+                                             <p>Where reference is made to this paragraph, Article 5 of Regulation (EU) No 182/2011 shall apply.</p>
+                                          </content>
+                                       </paragraph>
+                                    </article>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(9)</num>
+                     <content>
+                        <p>Article 12 is deleted;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(10)</num>
+                     <content>
+                        <p>Annexes B, D, H and I are deleted;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(11)</num>
+                     <content>
+                        <p>Annex C is replaced by the text appearing in Annex I to this Regulation;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(12)</num>
+                     <content>
+                        <p>Annex L, as set out in Annex II to this Regulation, is added.</p>
+                     </content>
+                  </point>
+               </list>
+            </paragraph>
+         </article>
+         <article xml:id="art_d259e580">
+            <num>Article 2</num>
+            <heading/>
+            <paragraph>
+               <content>
+                  <p>This Regulation shall enter into force on the twentieth day following that of its publication in the <i>Official Journal of the European Union</i>.</p>
+               </content>
+            </paragraph>
+         </article>
+         <clause>
+            <content>
+               <p>This Regulation shall be binding in its entirety and directly applicable in all Member States.</p>
+            </content>
+         </clause>
+      </body>
+      <conclusions>
+         <p>Done at Strasbourg, 26 October 2016.</p>
+         <block name="signatory">
+            <signature>
+               <organization refersTo="">For the European Parliament</organization>
+               <role refersTo="">The President</role>
+               <person refersTo="">M. SCHULZ</person>
+            </signature>
+            <signature>
+               <organization refersTo="">For the Council</organization>
+               <role refersTo="">The President</role>
+               <person refersTo="">I. LESAY</person>
+            </signature>
+         </block>
+      </conclusions>
+   </bill>
+</akomaNtoso>

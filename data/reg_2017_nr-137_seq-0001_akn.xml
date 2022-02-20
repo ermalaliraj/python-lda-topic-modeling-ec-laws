@@ -1,0 +1,1386 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"
+            xmlns:fmx="http://formex.publications.europa.eu/schema/formex-05.21-20110601.xd"
+            xmlns:leos="urn:eu:europa:ec:leos"
+            xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <bill name="">
+      <meta xmlns:fn="http://www.w3.org/2005/xpath-functions">
+         <identification source="~COM">
+            <FRBRWork>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRcountry value=""/>
+            </FRBRWork>
+            <FRBRExpression>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+            </FRBRManifestation>
+         </identification>
+      </meta>
+      <preface>
+         <longTitle>
+            <p>
+               <docStage/>
+               <docType>REGULATION (EU) 2017/852 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL</docType>of 17 May 2017<docPurpose>on mercury, and repealing Regulation (EC) No 1102/2008</docPurpose>
+            </p>
+         </longTitle>
+         <container name="EEArelevance">
+            <p>(Text with EEA relevance)</p>
+         </container>
+      </preface>
+      <preamble>
+         <formula name="actingEntity">
+            <p>THE EUROPEAN PARLIAMENT AND THE COUNCIL OF THE EUROPEAN UNION,</p>
+         </formula>
+         <citations>
+            <citation>
+               <p>Having regard to the Treaty on the Functioning of the European Union, and in particular Article 192(1) thereof,</p>
+            </citation>
+            <citation>
+               <p>Having regard to the proposal from the European Commission,</p>
+            </citation>
+            <citation>
+               <p>After transmission of the draft legislative act to the national parliaments,</p>
+            </citation>
+            <citation>
+               <p>Having regard to the opinion of the European Economic and Social Committee<authorialNote placement="bottom" marker="1">
+                     <p>OJ C 303, 19.8.2016, p. 122.</p>
+                  </authorialNote>,</p>
+            </citation>
+            <citation>
+               <p>After consulting the Committee of the Regions,</p>
+            </citation>
+            <citation>
+               <p>Acting in accordance with the ordinary legislative procedure<authorialNote placement="bottom" marker="2">
+                     <p>Position of the European Parliament of 14 March 2017 (not yet published in the Official Journal) and decision of the Council of 25 April 2017.</p>
+                  </authorialNote>,</p>
+            </citation>
+         </citations>
+         <recitals xml:id="recs_d197e88">
+            <intro>
+               <p>Whereas:</p>
+            </intro>
+            <recital xml:id="rec_d197e91">
+               <num>(1)</num>
+               <p>Mercury is a very toxic substance which represents a global and major threat to human health, including in the form of methylmercury in fish and seafood resources, ecosystems and wildlife. Due to the transboundary nature of mercury pollution, between 40 % and 80 % of total mercury deposition in the Union originates from outside the Union. Action is therefore warranted at local, regional, national and international levels.</p>
+            </recital>
+            <recital xml:id="rec_d197e97">
+               <num>(2)</num>
+               <p>Most mercury emissions and associated exposure risks result from anthropogenic activities such as primary mercury mining and processing, the use of mercury in products and industrial processes, artisanal and small-scale gold mining and processing, coal combustion and the management of mercury waste.</p>
+            </recital>
+            <recital xml:id="rec_d197e103">
+               <num>(3)</num>
+               <p>The Seventh Environment Action Programme adopted by Decision No 1386/2013/EU of the European Parliament and of the Council<authorialNote placement="bottom" marker="3">
+                     <p>Decision No 1386/2013/EU of the European Parliament and of the Council of 20 November 2013 on a General Union Environment Action Programme to 2020 &apos;Living well, within the limits of our planet&apos; (OJ L 354, 28.12.2013, p. 171).</p>
+                  </authorialNote> establishes the long-term objective of a non-toxic environment and, for that purpose, stipulates that action is needed to ensure the minimisation of significant adverse effects of chemicals on human health and the environment by 2020.</p>
+            </recital>
+            <recital xml:id="rec_d197e124">
+               <num>(4)</num>
+               <p>The Communication of 28 January 2005 from the Commission to the European Parliament and the Council entitled &apos;Community Strategy Concerning Mercury&apos;, as reviewed on 7 December 2010 (&apos;the Strategy&apos;), aims at minimising and, where feasible, ultimately eliminating global anthropogenic mercury releases to air, water and land.</p>
+            </recital>
+            <recital xml:id="rec_d197e145">
+               <num>(5)</num>
+               <p>In the past 10 years, significant progress has been achieved in the Union in the field of mercury management following the adoption of the Strategy and of a wide range of measures concerning mercury emissions, supply, demand and use, and the management of mercury surplus and stocks.</p>
+            </recital>
+            <recital xml:id="rec_d197e151">
+               <num>(6)</num>
+               <p>The Strategy recommends that the negotiation and conclusion of an international legally-binding instrument on mercury should be a priority as Union action alone cannot guarantee effective protection of the citizens of the Union against the negative health effects of mercury.</p>
+            </recital>
+            <recital xml:id="rec_d197e157">
+               <num>(7)</num>
+               <p>The Union and 26 Member States have signed the Minamata Convention on Mercury of 2013 (&apos;the Convention&apos;). The two Member States that did not sign the Convention, Estonia and Portugal, have expressed their commitment to ratify it. The Union and all its Member States are therefore committed to its conclusion, transposition and implementation.</p>
+            </recital>
+            <recital xml:id="rec_d197e167">
+               <num>(8)</num>
+               <p>Swift approval of the Convention by the Union and its ratification by Member States will encourage the major global mercury users and emitters, which are signatories of the Convention, to ratify and implement it.</p>
+            </recital>
+            <recital xml:id="rec_d197e173">
+               <num>(9)</num>
+               <p>This Regulation should complement the Union <i>acquis</i> and lay down the provisions that are needed to ensure the complete alignment of the Union <i>acquis</i> with the Convention so that the Union and its Member States are able to respectively approve or ratify and implement the Convention.</p>
+            </recital>
+            <recital xml:id="rec_d197e186">
+               <num>(10)</num>
+               <p>Further action undertaken by the Union, going beyond the Convention requirements, would lead the way, as was the case with Regulation (EC) No 1102/2008 of the European Parliament and of the Council<authorialNote placement="bottom" marker="4">
+                     <p>Regulation (EC) No 1102/2008 of the European Parliament and of the Council of 22 October 2008 on the banning of exports of metallic mercury and certain mercury compounds and mixtures and the safe storage of metallic mercury (OJ L 304, 14.11.2008, p. 75).</p>
+                  </authorialNote>, for mercury-free products and processes.</p>
+            </recital>
+            <recital xml:id="rec_d197e202">
+               <num>(11)</num>
+               <p>In accordance with Article 193 of the Treaty on the Functioning of the European Union (TFEU), this Regulation does not prevent Member States from maintaining or introducing more stringent protective measures, provided that such measures are compatible with the Treaties and the Commission has been notified thereof.</p>
+            </recital>
+            <recital xml:id="rec_d197e208">
+               <num>(12)</num>
+               <p>The mercury export ban laid down in Regulation (EC) No 1102/2008 should be complemented by restrictions on the import of mercury which vary depending on the source, the intended use and the place of origin of the mercury. Regulation (EC) No 1013/2006 of the European Parliament and of the Council<authorialNote placement="bottom" marker="5">
+                     <p>Regulation (EC) No 1013/2006 of the European Parliament and of the Council of 14 June 2006 on shipments of waste (OJ L 190, 12.7.2006, p. 1).</p>
+                  </authorialNote> should continue to apply as regards imports of mercury waste, particularly as regards the powers of the competent authorities under that Regulation.</p>
+            </recital>
+            <recital xml:id="rec_d197e224">
+               <num>(13)</num>
+               <p>The provisions of this Regulation on the import of mercury and of mixtures of mercury are aimed at ensuring the fulfilment by the Union and the Member States of the obligations of the Convention concerning trade of mercury.</p>
+            </recital>
+            <recital xml:id="rec_d197e230">
+               <num>(14)</num>
+               <p>The export, import and manufacturing of a range of mercury-added products accounting for a significant share of the use within the Union and globally of mercury and mercury compounds should be prohibited.</p>
+            </recital>
+            <recital xml:id="rec_d197e236">
+               <num>(15)</num>
+               <p>This Regulation should apply without prejudice to the provisions of the applicable Union <i>acquis</i> that set stricter requirements for mercury-added products, including as regards maximum mercury content.</p>
+            </recital>
+            <recital xml:id="rec_d197e245">
+               <num>(16)</num>
+               <p>The use of mercury and mercury compounds in manufacturing processes should be phased out and, to that end, incentives should be provided for research into alternative substances with characteristics that are innocuous, or, in any event, less dangerous for the environment and for human health.</p>
+            </recital>
+            <recital xml:id="rec_d197e252">
+               <num>(17)</num>
+               <p>Regulation (EC) No 1907/2006 of the European Parliament and of the Council<authorialNote placement="bottom" marker="6">
+                     <p>Regulation (EC) No 1907/2006 of the European Parliament and of the Council of 18 December 2006 concerning the Registration, Evaluation, Authorisation and Restriction of Chemicals (REACH), establishing a European Chemicals Agency, amending Directive 1999/45/EC and repealing Council Regulation (EEC) No 793/93 and Commission Regulation (EC) No 1488/94 as well as Council Directive 76/769/EEC and Commission Directives 91/155/EEC, 93/67/EEC, 93/105/EC and 2000/21/EC (OJ L 396, 30.12.2006, p. 1).</p>
+                  </authorialNote> prohibits, as from 10 October 2017, the manufacture, placing on the market and use of the five phenylmercury compounds known to be used, especially as catalysts, in the production of polyurethane. The use of other mercury-containing catalysts in polyurethane production should also be prohibited as from 1 January 2018.</p>
+            </recital>
+            <recital xml:id="rec_d197e274">
+               <num>(18)</num>
+               <p>The production of alcoholates involving the use of mercury as an electrode should be phased out and such manufacturing processes should be replaced by feasible mercury-free manufacturing processes as soon as possible. In the absence of relevant available mercury-free manufacturing processes, operating conditions for the production of sodium or potassium methylate or ethylate involving the use of mercury should be laid down. Measures should be taken to reduce the use of mercury so as to phase out its use in such production as soon as possible and in any event before 1 January 2028.</p>
+            </recital>
+            <recital xml:id="rec_d197e283">
+               <num>(19)</num>
+               <p>The manufacturing and placing on the market of new mercury-added products and the use of new manufacturing processes involving the use of mercury or mercury compounds would increase the use of mercury and of mercury compounds, and mercury emissions within the Union. Such new activities should therefore be prohibited unless an assessment demonstrates that the new mercury-added product or new manufacturing process would provide significant environmental or health benefits and pose no significant risks either to the environment or to human health, and that no technically practicable mercury-free alternatives providing such benefits are available.</p>
+            </recital>
+            <recital xml:id="rec_d197e290">
+               <num>(20)</num>
+               <p>The use of mercury and mercury compounds in artisanal and small-scale gold mining and processing accounts for a significant share of mercury use and emissions worldwide with negative effects both for local communities and at a global level. Such use of mercury and mercury compounds should therefore be prohibited under this Regulation and regulated at international level. Without prejudice to the prohibition of such use and in addition to the implementation of effective, proportionate and dissuasive penalties by Member States in respect of infringements of this Regulation, it is also appropriate to provide for a national plan in the event of there being more than isolated cases of non-compliance with that prohibition, in order to tackle the problem of artisanal and small-scale gold mining and processing in which mercury amalgamation is used to extract gold from ore.</p>
+            </recital>
+            <recital xml:id="rec_d197e296">
+               <num>(21)</num>
+               <p>The use of mercury in dental amalgam is the largest use of mercury in the Union and a significant source of pollution. The use of dental amalgam should therefore be phased down in accordance with the Convention and with national plans based, in particular, upon the measures listed in Part II of Annex A to the Convention. The Commission should assess and report on the feasibility of a phase out of the use of dental amalgam in the long term, and preferably by 2030, taking into account the national plans required by this Regulation and whilst fully respecting Member States&apos; competence for the organisation and delivery of health services and medical care. Furthermore, particular preventive health protection measures should be taken for vulnerable members of the population, such as children and pregnant or breastfeeding women.</p>
+            </recital>
+            <recital xml:id="rec_d197e302">
+               <num>(22)</num>
+               <p>Only pre-dosed encapsulated dental amalgam should be allowed for use, and the use of amalgam separators in dental facilities in which dental amalgam is used or dental amalgam fillings or teeth containing such fillings are removed should be made mandatory, in order to protect dental practitioners and patients from mercury exposure and to ensure that the resulting waste is collected and disposed of in accordance with sound waste management and under no circumstances released into the environment. In this respect, the use of mercury in bulk form by dental practitioners should be prohibited. Amalgam capsules such as those described in European standards EN ISO 13897:2004 and EN ISO 24234:2015 are considered to be suitable for use by dental practitioners. Furthermore, a minimum level of retention efficiency for amalgam separators should be set. Compliance of amalgam separators should be based on relevant standards, such as European standard EN ISO 11143:2008. Given the size of economic operators in the dentistry sector affected by the introduction of those requirements, it is appropriate to provide sufficient time to adapt to the new requirements.</p>
+            </recital>
+            <recital xml:id="rec_d197e309">
+               <num>(23)</num>
+               <p>The training of dentistry students and dental practitioners on the use of mercury-free alternatives, in particular for vulnerable members of the population such as children and pregnant or breastfeeding women, as well as the carrying out of oral health research and innovation in order to improve knowledge of existing materials and restoration techniques, and to develop new materials, can help in reducing the use of mercury.</p>
+            </recital>
+            <recital xml:id="rec_d197e315">
+               <num>(24)</num>
+               <p>Over 6000 metric tonnes of liquid mercury waste will have been generated in the Union by the end of 2017, mainly as a result of the mandatory decommissioning of mercury cells in the chlor-alkali industry in accordance with Commission Implementing Decision 2013/732/EU<authorialNote placement="bottom" marker="7">
+                     <p>Commission Implementing Decision 2013/732/EU of 9 December 2013 establishing the best available techniques (BAT) conclusions, under Directive 2010/75/EU of the European Parliament and of the Council on industrial emissions, for the production of chlor-alkali (OJ L 332, 11.12.2013, p. 34).</p>
+                  </authorialNote>. Given the limited available capacity for undertaking the conversion of liquid mercury waste, the temporary storage of liquid mercury waste should still be allowed under this Regulation for a period of time sufficient for ensuring the conversion and, if applicable, solidification of all such waste produced. Such storage should be carried out in accordance with the requirements set out in Council Directive 1999/31/EC<authorialNote placement="bottom" marker="8">
+                     <p>Council Directive 1999/31/EC of 26 April 1999 on the landfill of waste (OJ L 182, 16.7.1999, p. 1).</p>
+                  </authorialNote>.</p>
+            </recital>
+            <recital xml:id="rec_d197e344">
+               <num>(25)</num>
+               <p>Given that mercury is an extremely hazardous substance in its liquid form, the permanent storage without pre-treatment of mercury waste should be prohibited owing to the risks that such disposal poses. Therefore, mercury waste should undergo appropriate conversion, and if applicable, solidification operations prior to permanent storage. For that purpose and in order to reduce the associated risks, Member States should take into account the technical guidelines on mercury of the Basel Convention on the Control of Transboundary Movements of Hazardous Wastes and their Disposal.</p>
+            </recital>
+            <recital xml:id="rec_d197e350">
+               <num>(26)</num>
+               <p>In order to ensure that the provisions on waste of this Regulation are properly implemented, measures should be taken to ensure an effective traceability system throughout the whole mercury waste management chain whereby the producers of mercury waste and the operators of waste management facilities that store and treat such waste are required to establish an information register, as part of the record-keeping required under Directive 2008/98/EC of the European Parliament and of the Council<authorialNote placement="bottom" marker="9">
+                     <p>Directive 2008/98/EC of the European Parliament and of the Council of 19 November 2008 on waste and repealing certain Directives (OJ L 312, 22.11.2008, p. 3).</p>
+                  </authorialNote>.</p>
+            </recital>
+            <recital xml:id="rec_d197e366">
+               <num>(27)</num>
+               <p>The Convention requires Parties to endeavour to develop appropriate strategies for identifying and assessing sites contaminated by mercury or mercury compounds. Directive 2010/75/EU of the European Parliament and of the Council<authorialNote placement="bottom" marker="10">
+                     <p>Directive 2010/75/EU of the European Parliament and of the Council of 24 November 2010 on industrial emissions (integrated pollution prevention and control) (OJ L 334, 17.12.2010, p. 17).</p>
+                  </authorialNote> requires operators of industrial installations to address soil contamination. Furthermore, Directive 2000/60/EC of the European Parliament and of the Council<authorialNote placement="bottom" marker="11">
+                     <p>Directive 2000/60/EC of the European Parliament and of the Council of 23 October 2000 establishing a framework for Community action in the field of water policy (OJ L 327, 22.12.2000, p. 1).</p>
+                  </authorialNote> requires Member States to address soil contamination where it adversely affects the status of a water body. Therefore, an exchange of information between the Commission and the Member States should take place to share experiences on the initiatives and measures taken at national level.</p>
+            </recital>
+            <recital xml:id="rec_d197e392">
+               <num>(28)</num>
+               <p>In order to reflect the current scientific understanding of the risks posed by methylmercury, the Commission should, when undertaking the review of this Regulation, evaluate the current health-based intakes and should establish new mercury health benchmarks.</p>
+            </recital>
+            <recital xml:id="rec_d197e398">
+               <num>(29)</num>
+               <p>In order to align Union legislation with decisions of the Conference of the Parties to the Convention supported by the Union by means of a Council decision adopted in accordance with Article 218(9) TFEU, the power to adopt acts in accordance with Article 290 TFEU should be delegated to the Commission in respect of amending the annexes to this Regulation and in respect of an extension of the period allowed for the temporary storage of mercury waste. It is of particular importance that the Commission carry out appropriate consultations during its preparatory work, including at expert level, and that those consultations be conducted in accordance with the principles laid down in the Interinstitutional Agreement of 13 April 2016 on Better Law-Making<authorialNote placement="bottom" marker="12">
+                     <p>OJ L 123, 12.5.2016, p. 1.</p>
+                  </authorialNote>. In particular, to ensure equal participation in the preparation of delegated acts, the European Parliament and the Council receive all documents at the same time as Member States&apos; experts, and their experts systematically have access to meetings of Commission expert groups dealing with the preparation of delegated acts.</p>
+            </recital>
+            <recital xml:id="rec_d197e415">
+               <num>(30)</num>
+               <p>In order to ensure uniform conditions for the implementation of this Regulation with regard to specifying forms for import and export, setting out technical requirements for environmentally sound interim storage of mercury, mercury compounds and mixtures of mercury, prohibiting or authorising new mercury-added products and new manufacturing processes involving the use of mercury or mercury compounds and specifying reporting obligations, implementing powers should be conferred on the Commission. Those powers should be exercised in accordance with Regulation (EU) No 182/2011 of the European Parliament and of the Council<authorialNote placement="bottom" marker="13">
+                     <p>Regulation (EU) No 182/2011 of the European Parliament and of the Council of 16 February 2011 laying down the rules and general principles concerning mechanisms for control by Member States of the Commission&apos;s exercise of implementing powers (OJ L 55, 28.2.2011, p. 13).</p>
+                  </authorialNote>.</p>
+            </recital>
+            <recital xml:id="rec_d197e431">
+               <num>(31)</num>
+               <p>Member States should lay down rules on penalties applicable to infringements of this Regulation and should ensure that they are implemented. Those penalties should be effective, proportionate and dissuasive.</p>
+            </recital>
+            <recital xml:id="rec_d197e437">
+               <num>(32)</num>
+               <p>Given the nature and extent of the modifications which need to be made to Regulation (EC) No 1102/2008, and to enhance legal certainty, clarity, transparency and legislative simplification, that Regulation should be repealed.</p>
+            </recital>
+            <recital xml:id="rec_d197e443">
+               <num>(33)</num>
+               <p>In order to allow the competent authorities of the Member States and the economic operators affected by this Regulation sufficient time to adapt to the new regime laid down by this Regulation, it should apply from 1 January 2018.</p>
+            </recital>
+            <recital xml:id="rec_d197e452">
+               <num>(34)</num>
+               <p>Since the objective of this Regulation, namely to ensure a high level of protection of human health and the environment from anthropogenic emissions and releases of mercury and mercury compounds, by means, inter alia, of a mercury and mercury-added product export and import prohibition, of restrictions on mercury use in manufacturing processes, products, artisanal and small-scale gold mining and processing and in dental amalgam, and of obligations applicable to mercury waste, cannot be sufficiently achieved by Member States, but can rather, by reason of the transboundary nature of mercury pollution and the nature of the measures to be taken, be better achieved at Union level, the Union may adopt measures in accordance with the principle of subsidiarity as set out in Article 5 of the Treaty on European Union. In accordance with the principle of proportionality, as set out in that Article, this Regulation does not go beyond what is necessary in order to achieve that objective,</p>
+            </recital>
+         </recitals>
+         <formula name="enactingFormula">
+            <p>HAVE ADOPTED THIS REGULATION:</p>
+         </formula>
+      </preamble>
+      <body>
+         <chapter>
+            <num>CHAPTER I</num>
+            <heading>GENERAL PROVISIONS</heading>
+            <article xml:id="art_d197e470">
+               <num>Article 1</num>
+               <heading>Subject matter and objective</heading>
+               <paragraph>
+                  <content>
+                     <p>This Regulation establishes measures and conditions concerning the use and storage of and trade in mercury, mercury compounds and mixtures of mercury, and the manufacture and use of and trade in mercury-added products, and the management of mercury waste, in order to ensure a high level of protection of human health and the environment from anthropogenic emissions and releases of mercury and mercury compounds.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <content>
+                     <p>Member States may, where appropriate, apply stricter requirements than those laid down in this Regulation, in accordance with the TFEU.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d197e479">
+               <num>Article 2</num>
+               <heading>Definitions</heading>
+               <paragraph>
+                  <subparagraph>
+                     <content>
+                        <p>For the purposes of this Regulation, the following definitions apply:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(1)</num>
+                        <content>
+                           <p>&apos;mercury&apos; means metallic mercury (Hg, CAS RN 7439-97-6);</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(2)</num>
+                        <content>
+                           <p>&apos;mercury compound&apos; means any substance consisting of atoms of mercury and one or more atoms of other chemical elements that can be separated into different components only by chemical reactions;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(3)</num>
+                        <content>
+                           <p>&apos;mixture&apos; means a mixture or solution composed of two or more substances;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(4)</num>
+                        <content>
+                           <p>&apos;mercury-added product&apos; means a product or product component that contains mercury or a mercury compound that was intentionally added;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(5)</num>
+                        <content>
+                           <p>&apos;mercury waste&apos; means metallic mercury that qualifies as waste as defined in point (1) of Article 3 of Directive 2008/98/EC;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(6)</num>
+                        <alinea>
+                           <content>
+                              <p>&apos;export&apos; means any of the following:</p>
+                           </content>
+                        </alinea>
+                        <list>
+                           <point>
+                              <num>(a)</num>
+                              <content>
+                                 <p>the permanent or temporary export of mercury, mercury compounds, mixtures of mercury and mercury-added products meeting the conditions of Article 28(2) TFEU;</p>
+                              </content>
+                           </point>
+                           <point>
+                              <num>(b)</num>
+                              <content>
+                                 <p>the re-export of mercury, mercury compounds, mixtures of mercury and mercury-added products not meeting the conditions of Article 28(2) TFEU which are placed under a customs procedure other than the external Union transit procedure for movement of goods through the customs territory of the Union;</p>
+                              </content>
+                           </point>
+                        </list>
+                     </point>
+                     <point>
+                        <num>(7)</num>
+                        <content>
+                           <p>&apos;import&apos; means the physical introduction into the customs territory of the Union of mercury, mercury compounds, mixtures of mercury and mercury-added products that are placed under a customs procedure other than the external Union transit procedure for movement of goods through the customs territory of the Union;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(8)</num>
+                        <content>
+                           <p>&apos;disposal&apos; means disposal as defined in point (19) of Article 3 of Directive 2008/98/EC;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(9)</num>
+                        <content>
+                           <p>&apos;primary mercury mining&apos; means mining in which the principal material sought is mercury;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(10)</num>
+                        <content>
+                           <p>&apos;conversion&apos; means the chemical transformation of the physical state of mercury from a liquid state to mercury sulfide or a comparable chemical compound that is equally or more stable and equally or less soluble in water and that presents no greater environmental or health hazard than mercury sulfide;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(11)</num>
+                        <content>
+                           <p>&apos;placing on the market&apos; means supplying or making available, whether in return for payment or free of charge, to a third party. Import shall be deemed to be placing on the market.</p>
+                        </content>
+                     </point>
+                  </list>
+               </paragraph>
+            </article>
+         </chapter>
+         <chapter>
+            <num>CHAPTER II</num>
+            <heading>TRADE AND MANUFACTURING RESTRICTIONS CONCERNING MERCURY, MERCURY COMPOUNDS, MIXTURES OF MERCURY AND MERCURY-ADDED PRODUCTS</heading>
+            <article xml:id="art_d197e612">
+               <num>Article 3</num>
+               <heading>Export restrictions</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>The export of mercury shall be prohibited.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>The export of the mercury compounds and of the mixtures of mercury listed in Annex I shall be prohibited as from the dates set out therein.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <content>
+                     <p>By way of derogation from paragraph 2, the export of the mercury compounds listed in Annex I for the purposes of laboratory-scale research or laboratory analysis shall be allowed.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>4.</num>
+                  <content>
+                     <p>The export, for the purpose of reclaiming mercury, of mercury compounds and of mixtures of mercury that are not subject to the prohibition laid down in paragraph 2 shall be prohibited.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d197e637">
+               <num>Article 4</num>
+               <heading>Import restrictions</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <subparagraph>
+                     <content>
+                        <p>The import of mercury and the import of the mixtures of mercury listed in Annex I, including mercury waste from any of the large sources referred to in points (a) to (d) of Article 11, for purposes other than disposal as waste shall be prohibited. Such import for disposal as waste shall only be allowed where the exporting country has no access to available conversion capacity within its own territory.</p>
+                     </content>
+                  </subparagraph>
+                  <subparagraph>
+                     <content>
+                        <p>Without prejudice to Article 11 and by way of derogation from the first subparagraph of this paragraph, the import of mercury and the import of the mixtures of mercury listed in Annex I for a use allowed in a Member State shall be allowed where the importing Member State has granted written consent to such import in either of the following circumstances:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(a)</num>
+                        <content>
+                           <p>the exporting country is a Party to the Convention and the exported mercury is not from primary mercury mining that is prohibited under Article 3(3) and (4) of the Convention; or</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(b)</num>
+                        <content>
+                           <p>the exporting country not being a Party to the Convention has provided certification that the mercury is not from primary mercury mining.</p>
+                        </content>
+                     </point>
+                  </list>
+                  <subparagraph>
+                     <content>
+                        <p>Without prejudice to any national measures adopted in accordance with the TFEU, a use allowed pursuant to Union legislation shall be deemed to be a use allowed in a Member State for the purposes of this paragraph.</p>
+                     </content>
+                  </subparagraph>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>The import of mixtures of mercury that do not fall under paragraph 1 and of mercury compounds, for the purpose of reclaiming mercury, shall be prohibited.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <content>
+                     <p>The import of mercury for use in artisanal and small-scale gold mining and processing shall be prohibited.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>4.</num>
+                  <content>
+                     <p>Where the import of mercury waste is allowed in accordance with this Article, Regulation (EC) No 1013/2006 shall continue to apply in addition to the requirements of this Regulation.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d197e681">
+               <num>Article 5</num>
+               <heading>Export, import and manufacturing of mercury-added products</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>Without prejudice to stricter requirements set out in other applicable Union legislation, the export, import and manufacturing in the Union of the mercury-added products set out in Annex II shall be prohibited as from the dates set out therein.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <subparagraph>
+                     <content>
+                        <p>The prohibition laid down in paragraph 1 shall not apply to any of the following mercury-added products:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(a)</num>
+                        <content>
+                           <p>products that are essential for civil protection and military uses;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(b)</num>
+                        <content>
+                           <p>products for research, for calibration of instrumentation, or for use as a reference standard.</p>
+                        </content>
+                     </point>
+                  </list>
+               </paragraph>
+            </article>
+            <article xml:id="art_d197e710">
+               <num>Article 6</num>
+               <heading>Forms for import and export</heading>
+               <paragraph>
+                  <content>
+                     <p>The Commission shall adopt decisions, by means of implementing acts, to specify forms to be used for the purpose of implementing Articles 3 and 4. Those implementing acts shall be adopted in accordance with the examination procedure referred to in Article 22(2).</p>
+                  </content>
+               </paragraph>
+            </article>
+         </chapter>
+         <chapter>
+            <num>CHAPTER III</num>
+            <heading>RESTRICTIONS ON USE AND STORAGE OF MERCURY, MERCURY COMPOUNDS AND MIXTURES OF MERCURY</heading>
+            <article xml:id="art_d197e726">
+               <num>Article 7</num>
+               <heading>Industrial activities</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>The use of mercury and mercury compounds in the manufacturing processes listed in Part I of Annex III shall be prohibited as from the dates set out therein.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>The use of mercury and mercury compounds in the manufacturing processes listed in Part II of Annex III shall only be allowed subject to the conditions set out therein.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <subparagraph>
+                     <content>
+                        <p>Interim storage of mercury and of the mercury compounds and mixtures of mercury listed in Annex I to this Regulation shall be carried out in an environmentally sound manner, in accordance with the thresholds and requirements set out in Directive 2012/18/EU of the European Parliament and of the Council<authorialNote placement="bottom" marker="14">
+                              <p>Directive 2012/18/EU of the European Parliament and of the Council of 4 July 2012 on the control of major-accident hazards involving dangerous substances, amending and subsequently repealing Council Directive 96/82/EC (OJ L 197, 24.7.2012, p. 1).</p>
+                           </authorialNote> and in Directive 2010/75/EU.</p>
+                     </content>
+                  </subparagraph>
+                  <subparagraph>
+                     <content>
+                        <p>In order to ensure the uniform application of the obligation laid down in the first subparagraph of this paragraph, the Commission may adopt implementing acts setting out technical requirements for environmentally sound interim storage of mercury, mercury compounds and mixtures of mercury in line with decisions adopted by the Conference of the Parties to the Convention in accordance with Article 10(3) and Article 27 of the Convention, provided that the Union has supported the decision concerned by means of a Council decision adopted in accordance with Article 218(9) TFEU. Those implementing acts shall be adopted in accordance with the examination procedure referred to in Article 22(2) of this Regulation.</p>
+                     </content>
+                  </subparagraph>
+               </paragraph>
+            </article>
+            <article xml:id="art_d197e759">
+               <num>Article 8</num>
+               <heading>New mercury-added products and new manufacturing processes</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <subparagraph>
+                     <content>
+                        <p>Economic operators shall not manufacture or place on the market mercury-added products that were not being manufactured prior to 1 January 2018 (&apos;new mercury-added products&apos;) unless authorised to do so by means of a decision taken pursuant to paragraph 6 of this Article or allowed to do so under Directive 2011/65/EU of the European Parliament and of the Council<authorialNote placement="bottom" marker="15">
+                              <p>Directive 2011/65/EU of the European Parliament and of the Council of 8 June 2011 on the restriction of the use of certain hazardous substances in electrical and electronic equipment (OJ L 174, 1.7.2011, p. 88).</p>
+                           </authorialNote>.</p>
+                     </content>
+                  </subparagraph>
+                  <subparagraph>
+                     <content>
+                        <p>The first subparagraph shall not apply to any of the following:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(a)</num>
+                        <content>
+                           <p>equipment which is necessary for the protection of the essential interests of the security of Member States, including arms, munitions and war material intended for specifically military purposes;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(b)</num>
+                        <content>
+                           <p>equipment designed to be sent into space;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(c)</num>
+                        <content>
+                           <p>technical improvements made to or the redesign of mercury-added products that were being manufactured prior to 1 January 2018 provided that such improvements or redesign lead to less mercury being used in those products.</p>
+                        </content>
+                     </point>
+                  </list>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <subparagraph>
+                     <content>
+                        <p>Economic operators shall not use manufacturing processes involving the use of mercury or mercury compounds that were not processes used prior to 1 January 2018 (&apos;new manufacturing processes&apos;) unless authorised to do so by means of a decision taken pursuant to paragraph 6.</p>
+                     </content>
+                  </subparagraph>
+                  <subparagraph>
+                     <content>
+                        <p>The first subparagraph of this paragraph shall not apply to processes manufacturing or using mercury-added products other than those subject to the prohibition laid down in paragraph 1.</p>
+                     </content>
+                  </subparagraph>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <subparagraph>
+                     <content>
+                        <p>Where an economic operator intends to apply for a decision pursuant to paragraph 6 in order to manufacture or place on the market a new mercury-added product, or to use a new manufacturing process, that would provide significant environmental or health benefits and pose no significant risks either to the environment or to human health, and where no technically practicable mercury-free alternatives providing such benefits are available, that economic operator shall notify the competent authorities of the Member State concerned. That notification shall include the following information:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(a)</num>
+                        <content>
+                           <p>a technical description of the product or process concerned;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(b)</num>
+                        <content>
+                           <p>an assessment of its environmental and health benefits and risks;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(c)</num>
+                        <content>
+                           <p>evidence demonstrating the absence of technically practicable mercury-free alternatives providing significant environmental or health benefits;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(d)</num>
+                        <content>
+                           <p>a detailed explanation of the manner in which the process is to be operated or the product is to be manufactured, used and disposed of as waste after use, in order to ensure a high level of protection of the environment and of human health.</p>
+                        </content>
+                     </point>
+                  </list>
+               </paragraph>
+               <paragraph>
+                  <num>4.</num>
+                  <subparagraph>
+                     <content>
+                        <p>The Member State concerned shall forward to the Commission the notification received from the economic operator if it considers on the basis of its own assessment of the information provided therein that the criteria referred to in the first subparagraph of paragraph 6 are fulfilled.</p>
+                     </content>
+                  </subparagraph>
+                  <subparagraph>
+                     <content>
+                        <p>The Member State concerned shall inform the Commission of cases in which it considers that the criteria referred to in the first subparagraph of paragraph 6 were not fulfilled.</p>
+                     </content>
+                  </subparagraph>
+               </paragraph>
+               <paragraph>
+                  <num>5.</num>
+                  <content>
+                     <p>Where the Member State forwards a notification pursuant to the first subparagraph of paragraph 4 of this Article, the Commission shall immediately make the notification available to the committee referred to in Article 22(1).</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>6.</num>
+                  <subparagraph>
+                     <content>
+                        <p>The Commission shall examine the notification received and assess whether it has been demonstrated that the new mercury-added product or new manufacturing process would provide significant environmental or health benefits and pose no significant risks either to the environment or to human health, and that no technically practicable mercury-free alternatives providing such benefits are available.</p>
+                     </content>
+                  </subparagraph>
+                  <subparagraph>
+                     <content>
+                        <p>The Commission shall inform the Member States of the outcome of the assessment.</p>
+                     </content>
+                  </subparagraph>
+                  <subparagraph>
+                     <content>
+                        <p>The Commission shall adopt decisions, by means of implementing acts, specifying whether the relevant new mercury-added product or new manufacturing process is authorised. Those implementing acts shall be adopted in accordance with the examination procedure referred to in Article 22(2).</p>
+                     </content>
+                  </subparagraph>
+               </paragraph>
+               <paragraph>
+                  <num>7.</num>
+                  <content>
+                     <p>By 30 June 2018, the Commission shall make publicly available on the internet an inventory of manufacturing processes involving the use of mercury or mercury-compounds that were processes used prior to 1 January 2018 and of mercury-added products that were being manufactured prior to 1 January 2018 and of any applicable marketing restrictions.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d197e892">
+               <num>Article 9</num>
+               <heading>Artisanal and small-scale gold mining and processing</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>Artisanal and small-scale gold mining and processing in which mercury amalgamation is used to extract gold from ore shall be prohibited.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>Without prejudice to paragraph 1 of this Article and to Article 16, where there is evidence of there being more than isolated cases of non-compliance with the prohibition laid down in paragraph 1 of this Article, the competent authority of the Member State concerned shall develop and implement a national plan in accordance with Annex IV.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d197e907">
+               <num>Article 10</num>
+               <heading>Dental amalgam</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>From 1 January 2019, dental amalgam shall only be used in pre-dosed encapsulated form. The use of mercury in bulk form by dental practitioners shall be prohibited.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>From 1 July 2018, dental amalgam shall not be used for dental treatment of deciduous teeth, of children under 15 years and of pregnant or breastfeeding women, except when deemed strictly necessary by the dental practitioner based on the specific medical needs of the patient.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <subparagraph>
+                     <content>
+                        <p>By 1 July 2019, each Member State shall set out a national plan concerning the measures it intends to implement to phase down the use of dental amalgam.</p>
+                     </content>
+                  </subparagraph>
+                  <subparagraph>
+                     <content>
+                        <p>Member States shall make their national plans publicly available on the internet and shall transmit them to the Commission within one month of their adoption.</p>
+                     </content>
+                  </subparagraph>
+               </paragraph>
+               <paragraph>
+                  <num>4.</num>
+                  <subparagraph>
+                     <content>
+                        <p>From 1 January 2019, operators of dental facilities in which dental amalgam is used or dental amalgam fillings or teeth containing such fillings are removed, shall ensure that their facilities are equipped with amalgam separators for the retention and collection of amalgam particles, including those contained in used water.</p>
+                     </content>
+                  </subparagraph>
+                  <subparagraph>
+                     <content>
+                        <p>Such operators shall ensure that:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(a)</num>
+                        <content>
+                           <p>amalgam separators put into service from 1 January 2018 provide a retention level of at least 95 % of amalgam particles;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(b)</num>
+                        <content>
+                           <p>from 1 January 2021, all amalgam separators in use provide the retention level specified in point (a).</p>
+                        </content>
+                     </point>
+                  </list>
+                  <subparagraph>
+                     <content>
+                        <p>Amalgam separators shall be maintained in accordance with the manufacturer&apos;s instructions to ensure the highest practicable level of retention.</p>
+                     </content>
+                  </subparagraph>
+               </paragraph>
+               <paragraph>
+                  <num>5.</num>
+                  <content>
+                     <p>Capsules and amalgam separators complying with European standards, or with other national or international standards that provide an equivalent level of quality and retention, shall be presumed to satisfy the requirements set out in paragraphs 1 and 4.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>6.</num>
+                  <subparagraph>
+                     <content>
+                        <p>Dental practitioners shall ensure that their amalgam waste, including amalgam residues, particles and fillings, and teeth, or parts thereof, contaminated by dental amalgam, is handled and collected by an authorised waste management establishment or undertaking.</p>
+                     </content>
+                  </subparagraph>
+                  <subparagraph>
+                     <content>
+                        <p>Dental practitioners shall not release directly or indirectly such amalgam waste into the environment under any circumstances.</p>
+                     </content>
+                  </subparagraph>
+               </paragraph>
+            </article>
+         </chapter>
+         <chapter>
+            <num>CHAPTER IV</num>
+            <heading>DISPOSAL OF WASTE AND MERCURY WASTE</heading>
+            <article xml:id="art_d197e992">
+               <num>Article 11</num>
+               <heading>Waste</heading>
+               <paragraph>
+                  <subparagraph>
+                     <content>
+                        <p>Without prejudice to point (5) of Article 2 of this Regulation, mercury and mercury compounds, whether in pure form or in mixtures, from any of the following large sources shall be considered to be waste within the meaning of Directive 2008/98/EC and be disposed of without endangering human health or harming the environment, in accordance with that Directive:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(a)</num>
+                        <content>
+                           <p>the chlor-alkali industry;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(b)</num>
+                        <content>
+                           <p>the cleaning of natural gas;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(c)</num>
+                        <content>
+                           <p>non-ferrous mining and smelting operations;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(d)</num>
+                        <content>
+                           <p>extraction from cinnabar ore in the Union.</p>
+                        </content>
+                     </point>
+                  </list>
+               </paragraph>
+               <paragraph>
+                  <content>
+                     <p>Such disposal shall not lead to any form of reclamation of mercury.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d197e1027">
+               <num>Article 12</num>
+               <heading>Reporting on large sources</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <subparagraph>
+                     <content>
+                        <p>Economic operators within the industry sectors referred to in points (a), (b) and (c) of Article 11 shall send, each year by 31 May, the following to the competent authorities of the Member States concerned:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(a)</num>
+                        <content>
+                           <p>data on the total amount of mercury waste stored in each of their installations;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(b)</num>
+                        <content>
+                           <p>data on the total amount of mercury waste sent to individual facilities undertaking the temporary storage, the conversion and, if applicable, solidification of mercury waste, or the permanent storage of mercury waste that underwent conversion and, if applicable, solidification;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(c)</num>
+                        <content>
+                           <p>the location and contact details of each facility referred to in point (b);</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(d)</num>
+                        <content>
+                           <p>a copy of the certificate provided by the operator of the facility undertaking the temporary storage of mercury waste, in accordance with Article 14(1);</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(e)</num>
+                        <content>
+                           <p>a copy of the certificate provided by the operator of the facility undertaking the conversion and, if applicable, the solidification of mercury waste, in accordance with Article 14(2);</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(f)</num>
+                        <content>
+                           <p>a copy of the certificate provided by the operator of the facility undertaking the permanent storage of mercury waste that underwent conversion and, if applicable, solidification, in accordance with Article 14(3).</p>
+                        </content>
+                     </point>
+                  </list>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>The data referred to in points (a) and (b) of paragraph 1 shall be expressed using the codes laid down in Regulation (EC) No 2150/2002 of the European Parliament and of the Council<authorialNote placement="bottom" marker="16">
+                           <p>Regulation (EC) No 2150/2002 of the European Parliament and of the Council of 25 November 2002 on waste statistics (OJ L 332, 9.12.2002, p. 1).</p>
+                        </authorialNote>.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <content>
+                     <p>The obligations laid down in paragraphs 1 and 2 shall cease to apply to an economic operator of chlor-alkali installations from one year after the date that all mercury cells operated by the economic operator have been decommissioned in accordance with Implementing Decision 2013/732/EU and all mercury has been handed over to waste management facilities.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d197e1095">
+               <num>Article 13</num>
+               <heading>Storage of mercury waste</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <subparagraph>
+                     <content>
+                        <p>By way of derogation from point (a) of Article 5(3) of Directive 1999/31/EC, mercury waste may be temporarily stored in liquid form provided that the specific requirements for the temporary storage of mercury waste as laid down in Annexes I, II and III to that Directive are complied with and that such storage occurs in above-ground facilities dedicated to and equipped for the temporary storage of mercury waste.</p>
+                     </content>
+                  </subparagraph>
+                  <subparagraph>
+                     <content>
+                        <p>The derogation set out in the first subparagraph shall cease to apply as from 1 January 2023.</p>
+                     </content>
+                  </subparagraph>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>The Commission is empowered to adopt delegated acts in accordance with Article 21 in order to amend this Regulation by extending the period allowed for temporary storage of mercury waste referred to in paragraph 1 of this Article by up to three years.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <subparagraph>
+                     <content>
+                        <p>Prior to being permanently disposed of, mercury waste shall undergo conversion and, where intended to be disposed of in above-ground facilities, conversion and solidification.</p>
+                     </content>
+                  </subparagraph>
+                  <subparagraph>
+                     <content>
+                        <p>Mercury waste that underwent conversion and, if applicable, solidification shall only be permanently disposed of in the following permanent storage facilities licensed for disposal of hazardous waste:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(a)</num>
+                        <content>
+                           <p>salt mines that are adapted for the permanent storage of mercury waste that underwent conversion, or deep underground hard rock formations providing a level of safety and confinement equivalent to or higher than that of such salt mines; or</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(b)</num>
+                        <content>
+                           <p>above-ground facilities dedicated to and equipped for the permanent storage of mercury waste that underwent conversion and solidification and that provide a level of safety and confinement equivalent to or higher than that of the facilities referred to in point (a).</p>
+                        </content>
+                     </point>
+                  </list>
+                  <subparagraph>
+                     <content>
+                        <p>Operators of permanent storage facilities shall ensure that mercury waste that underwent conversion and, if applicable, solidification is stored separately from other waste and in disposal batches in a storage chamber that is sealed. Those operators shall further ensure that the requirements set out in Directive 1999/31/EC, including the specific requirements for the temporary storage of mercury waste established in the third and fifth indents of Section 8 of Annex I and in Annex II to that Directive, are complied with in relation to the permanent storage facilities.</p>
+                     </content>
+                  </subparagraph>
+               </paragraph>
+            </article>
+            <article xml:id="art_d197e1139">
+               <num>Article 14</num>
+               <heading>Traceability</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <subparagraph>
+                     <content>
+                        <p>Operators of facilities undertaking the temporary storage of mercury waste shall establish a register including the following:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(a)</num>
+                        <alinea>
+                           <content>
+                              <p>for each shipment of mercury waste received:</p>
+                           </content>
+                        </alinea>
+                        <list>
+                           <point>
+                              <num>(i)</num>
+                              <content>
+                                 <p>the origin and amount of that waste;</p>
+                              </content>
+                           </point>
+                           <point>
+                              <num>(ii)</num>
+                              <content>
+                                 <p>the name and contact details of the supplier and the owner of that waste;</p>
+                              </content>
+                           </point>
+                        </list>
+                     </point>
+                     <point>
+                        <num>(b)</num>
+                        <alinea>
+                           <content>
+                              <p>for each shipment of mercury waste leaving the facility:</p>
+                           </content>
+                        </alinea>
+                        <list>
+                           <point>
+                              <num>(i)</num>
+                              <content>
+                                 <p>the amount of that waste and its mercury content;</p>
+                              </content>
+                           </point>
+                           <point>
+                              <num>(ii)</num>
+                              <content>
+                                 <p>the destination and intended disposal operation of that waste;</p>
+                              </content>
+                           </point>
+                           <point>
+                              <num>(iii)</num>
+                              <content>
+                                 <p>a copy of the certificate provided by the operator of the facility undertaking the conversion and, if applicable, the solidification of that waste, as referred to in paragraph 2;</p>
+                              </content>
+                           </point>
+                           <point>
+                              <num>(iv)</num>
+                              <content>
+                                 <p>a copy of the certificate provided by the operator of the facility undertaking the permanent storage of the mercury waste that underwent conversion and, if applicable, solidification, as referred to in paragraph 3;</p>
+                              </content>
+                           </point>
+                        </list>
+                     </point>
+                     <point>
+                        <num>(c)</num>
+                        <content>
+                           <p>the amount of mercury waste stored at the facility at the end of each month.</p>
+                        </content>
+                     </point>
+                  </list>
+                  <subparagraph>
+                     <content>
+                        <p>Operators of facilities undertaking the temporary storage of mercury waste shall, as soon as the mercury waste is taken out of temporary storage, issue a certificate confirming that the mercury waste was sent to a facility undertaking disposal operations covered by this Article.</p>
+                     </content>
+                  </subparagraph>
+                  <subparagraph>
+                     <content>
+                        <p>Once a certificate as referred to in the second subparagraph of this paragraph is issued, a copy thereof shall be transmitted without delay to the economic operators concerned referred to in Article 12.</p>
+                     </content>
+                  </subparagraph>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <subparagraph>
+                     <content>
+                        <p>Operators of facilities undertaking the conversion and, if applicable, the solidification of mercury waste shall establish a register including the following:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(a)</num>
+                        <alinea>
+                           <content>
+                              <p>for each shipment of mercury waste received:</p>
+                           </content>
+                        </alinea>
+                        <list>
+                           <point>
+                              <num>(i)</num>
+                              <content>
+                                 <p>the origin and amount of that waste;</p>
+                              </content>
+                           </point>
+                           <point>
+                              <num>(ii)</num>
+                              <content>
+                                 <p>the name and contact details of the supplier and the owner of that waste;</p>
+                              </content>
+                           </point>
+                        </list>
+                     </point>
+                     <point>
+                        <num>(b)</num>
+                        <alinea>
+                           <content>
+                              <p>for each shipment of mercury waste that underwent conversion and, if applicable, solidification leaving the facility:</p>
+                           </content>
+                        </alinea>
+                        <list>
+                           <point>
+                              <num>(i)</num>
+                              <content>
+                                 <p>the amount of that waste and its mercury content;</p>
+                              </content>
+                           </point>
+                           <point>
+                              <num>(ii)</num>
+                              <content>
+                                 <p>the destination and intended disposal operation of that waste;</p>
+                              </content>
+                           </point>
+                           <point>
+                              <num>(iii)</num>
+                              <content>
+                                 <p>a copy of the certificate provided by the operator of the facility undertaking the permanent storage of that waste, as referred to in paragraph 3;</p>
+                              </content>
+                           </point>
+                        </list>
+                     </point>
+                     <point>
+                        <num>(c)</num>
+                        <content>
+                           <p>the amount of mercury waste stored at the facility at the end of each month.</p>
+                        </content>
+                     </point>
+                  </list>
+                  <subparagraph>
+                     <content>
+                        <p>Operators of facilities undertaking the conversion and, if applicable, the solidification of mercury waste shall, as soon as the conversion and, if applicable, the solidification operation of the entire shipment is completed, issue a certificate confirming that the entire shipment of mercury waste has been converted and, if applicable, solidified.</p>
+                     </content>
+                  </subparagraph>
+                  <subparagraph>
+                     <content>
+                        <p>Once a certificate as referred to in the second subparagraph of this paragraph is issued, a copy thereof shall be transmitted without delay to the operators of the facilities referred to in paragraph 1 of this Article and to the economic operators concerned referred to in Article 12.</p>
+                     </content>
+                  </subparagraph>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <subparagraph>
+                     <content>
+                        <p>Operators of facilities undertaking the permanent storage of mercury waste that underwent conversion and, if applicable, solidification shall, as soon as the disposal operation of the entire shipment is completed, issue a certificate confirming that the entire shipment of mercury waste that underwent conversion and, if applicable, solidification has been placed into permanent storage in compliance with Directive 1999/31/EC, including information on the storage location.</p>
+                     </content>
+                  </subparagraph>
+                  <subparagraph>
+                     <content>
+                        <p>Once a certificate as referred to in the first subparagraph of this paragraph is issued, a copy thereof shall be transmitted without delay to the operators of the facilities referred to in paragraphs 1 and 2 of this Article as well as to the economic operators concerned referred to in Article 12.</p>
+                     </content>
+                  </subparagraph>
+               </paragraph>
+               <paragraph>
+                  <num>4.</num>
+                  <content>
+                     <p>Each year by 31 January, the operators of the facilities referred to in paragraphs 1 and 2 shall transmit the register for the previous calendar year to the competent authorities of the Member States concerned. The competent authorities of the Member States concerned shall annually communicate each transmitted register to the Commission.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d197e1289">
+               <num>Article 15</num>
+               <heading>Contaminated sites</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>The Commission shall organise an exchange of information with the Member States regarding the measures taken at national level to identify and assess sites contaminated by mercury and mercury compounds and to address the significant risks such contamination may pose to human health and the environment.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>By 1 January 2021, the Commission shall make the information gathered pursuant to paragraph 1, including an inventory of sites contaminated by mercury and mercury compounds, publicly available on the internet.</p>
+                  </content>
+               </paragraph>
+            </article>
+         </chapter>
+         <chapter>
+            <num>CHAPTER V</num>
+            <heading>PENALTIES, COMPETENT AUTHORITIES AND REPORTING</heading>
+            <article xml:id="art_d197e1316">
+               <num>Article 16</num>
+               <heading>Penalties</heading>
+               <paragraph>
+                  <content>
+                     <p>Member States shall lay down the rules on penalties applicable to infringements of this Regulation and shall take all measures necessary to ensure that they are implemented. The penalties provided for shall be effective, proportionate and dissuasive. Member States shall, by the respective dates of application of the relevant provisions of this Regulation, notify the Commission of those rules and of those measures and shall notify it, without delay, of any subsequent amendment affecting them.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d197e1323">
+               <num>Article 17</num>
+               <heading>Competent authorities</heading>
+               <paragraph>
+                  <content>
+                     <p>Member States shall designate the competent authorities responsible for carrying out obligations arising from this Regulation.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d197e1331">
+               <num>Article 18</num>
+               <heading>Report</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <subparagraph>
+                     <content>
+                        <p>By 1 January 2020 and at appropriate intervals thereafter, Member States shall prepare, provide to the Commission and make publicly available on the internet a report with the following:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(a)</num>
+                        <content>
+                           <p>information concerning the implementation of this Regulation;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(b)</num>
+                        <content>
+                           <p>information needed for the fulfilment by the Union of its reporting obligation under Article 21 of the Convention;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(c)</num>
+                        <content>
+                           <p>a summary of the information gathered in accordance with Article 12 of this Regulation;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(d)</num>
+                        <alinea>
+                           <content>
+                              <p>information regarding mercury located in their territories:</p>
+                           </content>
+                        </alinea>
+                        <list>
+                           <point>
+                              <num>(i)</num>
+                              <content>
+                                 <p>a list of sites where stocks of more than 50 metric tonnes of mercury other than mercury waste are located as well as the amount of mercury at each site;</p>
+                              </content>
+                           </point>
+                           <point>
+                              <num>(ii)</num>
+                              <content>
+                                 <p>a list of sites where more than 50 metric tonnes of mercury waste is accumulated as well as the amount of mercury waste at each site; and</p>
+                              </content>
+                           </point>
+                        </list>
+                     </point>
+                     <point>
+                        <num>(e)</num>
+                        <content>
+                           <p>a list of sources supplying more than 10 metric tonnes of mercury per year, where Member States are made aware of such sources.</p>
+                        </content>
+                     </point>
+                  </list>
+                  <subparagraph>
+                     <content>
+                        <p>Member States may decide not to make any of the information referred to in the first subparagraph publicly available on any of the grounds mentioned in Article 4(1) and (2) of Directive 2003/4/EC of the European Parliament and of the Council<authorialNote placement="bottom" marker="17">
+                              <p>Directive 2003/4/EC of the European Parliament and of the Council of 28 January 2003 on public access to environmental information and repealing Council Directive 90/313/EEC (OJ L 41, 14.2.2003, p. 26).</p>
+                           </authorialNote>, subject to the second subparagraph of Article 4(2) of that Directive.</p>
+                     </content>
+                  </subparagraph>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <subparagraph>
+                     <content>
+                        <p>For the purposes of the report referred to in paragraph 1, the Commission shall make an electronic reporting tool available to the Member States.</p>
+                     </content>
+                  </subparagraph>
+                  <subparagraph>
+                     <content>
+                        <p>The Commission shall adopt implementing acts to establish appropriate questionnaires in order to specify the content, the information and the key performance indicators needed to meet the requirements under paragraph 1 as well as the format and the frequency of the report referred to in paragraph 1. Those questionnaires shall not duplicate reporting obligations of the Parties to the Convention. The implementing acts referred to in this paragraph shall be adopted in accordance with the examination procedure referred to in Article 22(2).</p>
+                     </content>
+                  </subparagraph>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <content>
+                     <p>The Member States shall, without delay, make available to the Commission reports they provide to the Secretariat of the Convention.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d197e1414">
+               <num>Article 19</num>
+               <heading>Review</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <subparagraph>
+                     <content>
+                        <p>By 30 June 2020, the Commission shall report to the European Parliament and to the Council on the outcome of its assessment regarding:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(a)</num>
+                        <content>
+                           <p>the need for the Union to regulate emissions of mercury and mercury compounds from crematoria;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(b)</num>
+                        <content>
+                           <p>the feasibility of a phase out of the use of dental amalgam in the long term, and preferably by 2030, taking into account the national plans referred to in Article 10(3) and whilst fully respecting Member States&apos; competence for the organisation and delivery of health services and medical care; and</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(c)</num>
+                        <content>
+                           <p>the environmental benefits and the feasibility of a further alignment of Annex II with relevant Union legislation regulating the placing on the market of mercury-added products.</p>
+                        </content>
+                     </point>
+                  </list>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>By 31 December 2024, the Commission shall report to the European Parliament and to the Council on the implementation and the review of this Regulation, inter alia, in the light of the effectiveness evaluation undertaken by the Conference of the Parties to the Convention and of the reports provided by the Member States in accordance with Article 18 of this Regulation and Article 21 of the Convention.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <content>
+                     <p>The Commission shall, if appropriate, present a legislative proposal together with its reports referred to in paragraphs 1 and 2.</p>
+                  </content>
+               </paragraph>
+            </article>
+         </chapter>
+         <chapter>
+            <num>CHAPTER VI</num>
+            <heading>DELEGATED AND IMPLEMENTING POWERS</heading>
+            <article xml:id="art_d197e1470">
+               <num>Article 20</num>
+               <heading>Amendment of Annexes</heading>
+               <paragraph>
+                  <content>
+                     <p>The Commission is empowered to adopt delegated acts in accordance with Article 21 of this Regulation in order to amend its Annexes I, II, III and IV to align them with decisions adopted by the Conference of the Parties to the Convention in accordance with Article 27 of the Convention, provided that the Union has supported the decision concerned by means of a Council decision adopted in accordance with Article 218(9) TFEU.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d197e1477">
+               <num>Article 21</num>
+               <heading>Exercise of the delegation</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>The power to adopt delegated acts is conferred on the Commission subject to the conditions laid down in this Article.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>The power to adopt delegated acts referred to in Article 13(2) and Article 20 shall be conferred on the Commission for a period of five years from 13 June 2017. The Commission shall draw up a report in respect of the delegation of power not later than nine months before the end of the five-year period. The delegation of power shall be tacitly extended for periods of an identical duration, unless the European Parliament or the Council opposes such extension not later than three months before the end of each period.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <content>
+                     <p>The delegation of power referred to in Article 13(2) and Article 20 may be revoked at any time by the European Parliament or by the Council. A decision to revoke shall put an end to the delegation of the power specified in that decision. It shall take effect the day following the publication of the decision in the <i>Official Journal of the European Union</i> or at a later date specified therein. It shall not affect the validity of any delegated acts already in force.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>4.</num>
+                  <content>
+                     <p>Before adopting a delegated act, the Commission shall consult experts designated by each Member State in accordance with the principles laid down in the Interinstitutional Agreement of 13 April 2016 on Better Law-Making.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>5.</num>
+                  <content>
+                     <p>As soon as it adopts a delegated act, the Commission shall notify it simultaneously to the European Parliament and to the Council.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>6.</num>
+                  <content>
+                     <p>A delegated act adopted pursuant to Article 13(2) and Article 20 shall enter into force only if no objection has been expressed either by the European Parliament or the Council within a period of two months of notification of that act to the European Parliament and the Council or if, before the expiry of that period, the European Parliament and the Council have both informed the Commission that they will not object. That period shall be extended by two months at the initiative of the European Parliament or of the Council.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d197e1521">
+               <num>Article 22</num>
+               <heading>Committee procedure</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>For the adoption of forms for import and export under Article 6, of technical requirements for environmentally sound interim storage of mercury, mercury compounds or mixtures of mercury under Article 7(3), of a decision under Article 8(6), and of questionnaires under Article 18(2), the Commission shall be assisted by a committee. That committee shall be a committee within the meaning of Regulation (EU) No 182/2011.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <subparagraph>
+                     <content>
+                        <p>Where reference is made to this paragraph, Article 5 of Regulation (EU) No 182/2011 shall apply.</p>
+                     </content>
+                  </subparagraph>
+                  <subparagraph>
+                     <content>
+                        <p>Where the committee delivers no opinion, the Commission shall not adopt the draft implementing act and the third subparagraph of Article 5(4) of Regulation (EU) No 182/2011 shall apply.</p>
+                     </content>
+                  </subparagraph>
+               </paragraph>
+            </article>
+         </chapter>
+         <chapter>
+            <num>CHAPTER VII</num>
+            <heading>FINAL PROVISIONS</heading>
+            <article xml:id="art_d197e1547">
+               <num>Article 23</num>
+               <heading>Repeal</heading>
+               <paragraph>
+                  <content>
+                     <p>Regulation (EC) No 1102/2008 is repealed with effect from 1 January 2018.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <content>
+                     <p>References to the repealed Regulation shall be construed as references to this Regulation and shall be read in accordance with the correlation table in Annex V.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d197e1560">
+               <num>Article 24</num>
+               <heading>Entry into force</heading>
+               <paragraph>
+                  <content>
+                     <p>This Regulation shall enter into force on the twentieth day following that of its publication in the <i>Official Journal of the European Union</i>.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <content>
+                     <p>It shall apply from 1 January 2018.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <content>
+                     <p>However, point (d) of Part I of Annex III shall apply from 11 December 2017.</p>
+                  </content>
+               </paragraph>
+            </article>
+         </chapter>
+         <clause>
+            <content>
+               <p>This Regulation shall be binding in its entirety and directly applicable in all Member States.</p>
+            </content>
+         </clause>
+      </body>
+      <conclusions>
+         <p>Done at Strasbourg, 17 May 2017.</p>
+         <block name="signatory">
+            <signature>
+               <organization refersTo="">For the European Parliament</organization>
+               <role refersTo="">The President</role>
+               <person refersTo="">A. TAJANI</person>
+            </signature>
+            <signature>
+               <organization refersTo="">For the Council</organization>
+               <role refersTo="">The President</role>
+               <person refersTo="">C. ABELA</person>
+            </signature>
+         </block>
+      </conclusions>
+   </bill>
+</akomaNtoso>

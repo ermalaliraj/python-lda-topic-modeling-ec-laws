@@ -1,0 +1,822 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"
+            xmlns:fmx="http://formex.publications.europa.eu/schema/formex-05.21-20110601.xd"
+            xmlns:leos="urn:eu:europa:ec:leos"
+            xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <bill name="">
+      <meta xmlns:fn="http://www.w3.org/2005/xpath-functions">
+         <identification source="~COM">
+            <FRBRWork>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRcountry value=""/>
+            </FRBRWork>
+            <FRBRExpression>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+            </FRBRManifestation>
+         </identification>
+      </meta>
+      <preface>
+         <longTitle>
+            <p>
+               <docStage/>
+               <docType>REGULATION (EU) 2021/1056 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL</docType>of 24 June 2021<docPurpose>establishing the Just Transition Fund</docPurpose>
+            </p>
+         </longTitle>
+      </preface>
+      <preamble>
+         <formula name="actingEntity">
+            <p>THE EUROPEAN PARLIAMENT AND THE COUNCIL OF THE EUROPEAN UNION,</p>
+         </formula>
+         <citations>
+            <citation>
+               <p>Having regard to the Treaty on the Functioning of the European Union, and in particular the third paragraph of Article 175 and point (a) of Article 322(1) thereof,</p>
+            </citation>
+            <citation>
+               <p>Having regard to the proposal from the European Commission,</p>
+            </citation>
+            <citation>
+               <p>After transmission of the draft legislative act to the national parliaments,</p>
+            </citation>
+            <citation>
+               <p>Having regard to the opinion of the Court of Auditors<authorialNote placement="bottom" marker="1">
+                     <p>OJ C 290, 1.9.2020, p. 1.</p>
+                  </authorialNote>,</p>
+            </citation>
+            <citation>
+               <p>Having regard to the opinions of the European Economic and Social Committee<authorialNote placement="bottom" marker="2">
+                     <p>OJ C 311, 18.9.2020, p. 55 and OJ C 429, 11.12.2020, p. 240.</p>
+                  </authorialNote>,</p>
+            </citation>
+            <citation>
+               <p>Having regard to the opinion of the Committee of the Regions<authorialNote placement="bottom" marker="3">
+                     <p>OJ C 324, 1.10.2020, p. 74.</p>
+                  </authorialNote>,</p>
+            </citation>
+            <citation>
+               <p>Acting in accordance with the ordinary legislative procedure<authorialNote placement="bottom" marker="4">
+                     <p>Position of the European Parliament of 18 May 2021 (not yet published in the Official Journal) and decision of the Council of 7 June 2021.</p>
+                  </authorialNote>,</p>
+            </citation>
+         </citations>
+         <recitals xml:id="recs_d214e102">
+            <intro>
+               <p>Whereas:</p>
+            </intro>
+            <recital xml:id="rec_d214e105">
+               <num>(1)</num>
+               <p>The regulatory framework governing the Union&apos;s cohesion policy for the period from 2021 to 2027, in the context of the next multiannual financial framework, contributes to the fulfilment of the Union&apos;s commitments to implement the Paris Agreement adopted under the United Nations Framework Convention on Climate Change<authorialNote placement="bottom" marker="5">
+                     <p>OJ L 282, 19.10.2016, p. 4.</p>
+                  </authorialNote> (the &apos;Paris Agreement&apos;), pursuing efforts to limit the temperature increase to 1,5 °C above pre-industrial levels, and the United Nations Sustainable Development Goals by concentrating Union funding on green objectives. This Regulation should implement one of the priorities set out in the Commission Communication of 11 December 2019 entitled &apos;The European Green Deal&apos; and is part of the Sustainable Europe Investment Plan that provides dedicated financing under the Just Transition Mechanism in the context of cohesion policy to address the social, economic and environmental costs of the transition to a climate-neutral and circular economy, where any remaining greenhouse gas emissions are compensated by equivalent absorptions.</p>
+            </recital>
+            <recital xml:id="rec_d214e129">
+               <num>(2)</num>
+               <p>The transition to a climate-neutral and circular economy constitutes one of the most important policy objectives for the Union. On 12 December 2019 the European Council endorsed the objective of achieving a climate-neutral Union by 2050, in line with the objectives of the Paris Agreement. While fighting climate change and environmental degradation will benefit all in the long term and provides opportunities and challenges for all in the medium term, not all regions and Member States start their transition from the same point or have the same capacity to respond. Some are more advanced than others, and the transition entails a wider social, economic and environmental impact for those regions that rely heavily on fossil fuels for energy use - especially coal, lignite, peat and oil shale - or greenhouse gas intensive industries. Such a situation not only creates the risk of a variable speed transition in the Union as regards climate action, but also of growing disparities between regions, detrimental to the objectives of social, economic and territorial cohesion.</p>
+            </recital>
+            <recital xml:id="rec_d214e140">
+               <num>(3)</num>
+               <p>In order to be successful and socially acceptable for all, the transition has to be fair and inclusive. Therefore, the Union, Member States and their regions must take into account its social, economic and environmental implications from the outset, and deploy all possible instruments to mitigate adverse consequences. The Union budget has an important role in that regard.</p>
+            </recital>
+            <recital xml:id="rec_d214e146">
+               <num>(4)</num>
+               <p>As set out in the European Green Deal and the Sustainable Europe Investment Plan, a Just Transition Mechanism should complement the other actions under the next multiannual financial framework for the period from 2021 to 2027. It should contribute to addressing the social, economic and environmental consequences, in particular for workers affected in the process of transitioning towards a climate-neutral Union by 2050, by bringing together the Union budget&apos;s spending on climate and social objectives at regional level and by aiming for high social and environmental standards.</p>
+            </recital>
+            <recital xml:id="rec_d214e152">
+               <num>(5)</num>
+               <p>This Regulation should establish the Just Transition Fund (JTF) which is one of the pillars of the Just Transition Mechanism implemented under cohesion policy. The aims of the JTF are to mitigate the adverse effects of the climate transition by supporting the most affected territories and workers concerned and to promote a balanced socio-economic transition. In line with the JTF&apos;s single specific objective, actions supported by the JTF should directly contribute to alleviating the impact of the transition by mitigating the negative repercussions on employment and by financing the diversification and modernisation of the local economy. The JTF&apos;s single specific objective is established at the same level and listed together with the policy objectives set out in Regulation (EU) 2021/1060 of the European Parliament and of the Council<authorialNote placement="bottom" marker="6">
+                     <p>Regulation (EU) 2021/1060 of the European Parliament and of the Council of 24 June 2021 laying down common provisions on the European Regional Development Fund, the European Social Fund Plus, the Cohesion Fund, the Just Transition Fund and the European Maritime, Fisheries and Aquaculture Fund and financial rules for those and for the Asylum, Migration and Integration Fund, the Internal Security Fund and the Instrument for Financial Support for Border Management and Visa Policy (see page 159 of this Official Journal).</p>
+                  </authorialNote>.</p>
+            </recital>
+            <recital xml:id="rec_d214e165">
+               <num>(6)</num>
+               <p>Reflecting the European Green Deal as the Union&apos;s sustainable growth strategy and the importance of tackling climate change in line with the Union&apos;s commitments to implement the Paris Agreement and the United Nations Sustainable Development Goals, the JTF is intended to contribute to the mainstreaming of climate action and environmental sustainability and to the achievement of an overall target of 30 % of Union budget expenditure supporting climate objectives and to the ambition of providing 7,5 % of annual spending under the multiannual financial framework to biodiversity objectives in 2024 and 10 % of annual spending under the multiannual financial framework to biodiversity objectives in 2026 and 2027, while taking into account the existing overlaps between climate and biodiversity goals. Resources from the JTF&apos;s own envelope are additional to the investments needed to achieve the overall target of 30 % of the Union budget expenditure contributing to climate objectives. Those resources should contribute fully to the achievement of this target along with resources transferred on a voluntary basis from the European Regional Development Fund (ERDF) established by Regulation (EU) 2021/1058 of the European Parliament and of the Council<authorialNote placement="bottom" marker="7">
+                     <p>Regulation (EU) 2021/1058 of the European Parliament and of the Council of 24 June 2021 on the European Regional Development Fund and on the Cohesion Fund (see page 60 of this Official Journal).</p>
+                  </authorialNote> and the European Social Fund Plus (ESF+) established by Regulation (EU) 2021/1057 of the European Parliament and of the Council<authorialNote placement="bottom" marker="8">
+                     <p>Regulation (EU) 2021/1057 of the European Parliament and of the Council of 24 June 2021 establishing the European Social Fund Plus (ESF+) and repealing Regulation (EU) No 1296/2013 (see page 21 of this Official Journal).</p>
+                  </authorialNote>. In this context the JTF should support activities that respect the climate and environmental standards and priorities of the Union and do no significant harm to the environmental objectives within the meaning of Article 17 of Regulation (EU) 2020/852 of the European Parliament and of the Council<authorialNote placement="bottom" marker="9">
+                     <p>Regulation (EU) 2020/852 of the European Parliament and of the Council of 18 June 2020 on the establishment of a framework to facilitate sustainable investment, and amending Regulation (EU) 2019/2088 (OJ L 198, 22.6.2020, p. 13).</p>
+                  </authorialNote>, and that ensure the transition towards a low carbon economy in the pathway to achieving a climate-neutral Union by 2050.</p>
+            </recital>
+            <recital xml:id="rec_d214e196">
+               <num>(7)</num>
+               <p>The resources from the JTF should complement the resources available under cohesion policy.</p>
+            </recital>
+            <recital xml:id="rec_d214e202">
+               <num>(8)</num>
+               <p>Transitioning to a climate-neutral economy is a challenge for all Member States. It will be particularly demanding for those Member States that rely, or which until recently have relied, heavily on fossil fuels or greenhouse gas intensive industrial activities which need to be phased out or which need to adapt due to the transition towards a climate-neutral economy and that lack the financial means to do so. The JTF should therefore cover all Member States, but the distribution of its financial means should focus on those territories that are the most affected by the climate transition process, and that distribution should reflect the capacity of Member States to finance the necessary investments to cope with the transition towards a climate-neutral economy.</p>
+            </recital>
+            <recital xml:id="rec_d214e208">
+               <num>(9)</num>
+               <p>Horizontal financial rules adopted by the European Parliament and by the Council pursuant to Article 322 of the Treaty on the Functioning of the European Union (TFEU) apply to this Regulation. Those rules are laid down in Regulation (EU, Euratom) 2018/1046 of the European Parliament and of the Council<authorialNote placement="bottom" marker="10">
+                     <p>Regulation (EU, Euratom) 2018/1046 of the European Parliament and of the Council of 18 July 2018 on the financial rules applicable to the general budget of the Union, amending Regulations (EU) No 1296/2013, (EU) No 1301/2013, (EU) No 1303/2013, (EU) No 1304/2013, (EU) No 1309/2013, (EU) No 1316/2013, (EU) No 223/2014, (EU) No 283/2014, and Decision No 541/2014/EU and repealing Regulation (EU, Euratom) No 966/2012 (OJ L 193, 30.7.2018, p. 1).</p>
+                  </authorialNote> (the &apos;Financial Regulation&apos;) and determine in particular the procedure for establishing and implementing the budget through grants, prizes, indirect management, financial instruments, budgetary guarantees, financial assistance and the reimbursement of external experts, and provide for checks on the responsibility of financial actors. Rules adopted pursuant to Article 322 TFEU also include a general regime of conditionality for the protection of the Union budget.</p>
+            </recital>
+            <recital xml:id="rec_d214e229">
+               <num>(10)</num>
+               <p>In order to ensure the effective use of the JTF resources, access to the JTF should be limited to 50 % of the national allocation for those Member States that have not yet committed to implement the objective, in line with the objectives of the Paris Agreement, of achieving a climate-neutral Union by 2050, with the other 50 % being made available for programming upon acceptance of such a commitment. In order to ensure fairness and equal treatment of Member States, where a Member State has not committed to implement the objective of achieving a climate-neutral Union by 2050, by 31 December in any year starting from 2022, the budgetary commitment for the preceding year should be decommitted in its entirety the following year.</p>
+            </recital>
+            <recital xml:id="rec_d214e235">
+               <num>(11)</num>
+               <p>In accordance with Council Regulation (EU) 2020/2094<authorialNote placement="bottom" marker="11">
+                     <p>Council Regulation (EU) 2020/2094 of 14 December 2020 establishing a European Union Recovery Instrument to support the recovery in the aftermath of the COVID-19 crisis (OJ L 433 I, 22.12.2020, p. 23).</p>
+                  </authorialNote> and within the limits of resources allocated therein, recovery and resilience measures under the JTF should be carried out to address the unprecedented impact of the COVID-19 crisis. Such additional resources should be used in such a way as to ensure compliance with the time limits provided for in that Regulation.</p>
+            </recital>
+            <recital xml:id="rec_d214e251">
+               <num>(12)</num>
+               <p>This Regulation should identify types of investments for which support of expenditure by the JTF would be permitted. All supported activities should be pursued in full respect of the climate, environmental and social commitments and priorities of the Union. The list of investments should include those that support local economies through stimulating their endogenous growth potential in accordance with the respective smart specialisation strategies, including sustainable tourism where appropriate. Investments need to be sustainable in the long-term, taking into account all the objectives of the European Green Deal. The projects financed should contribute to a transition to a sustainable, climate-neutral and circular economy, including measures that aim to increase resource efficiency. Waste incineration should not receive support given that this activity belongs to the lower part of the waste hierarchy in the circular economy. Consultancy services that contribute to the implementation of measures supported by the JTF should be eligible. Renaturation of sites, development of green infrastructure and water management should be able to be supported as part of a land restoration project. When supporting energy efficiency measures, the JTF should be able to support investments such as those which contribute to reducing energy poverty, principally through energy efficiency improvements of housing stock. The JTF should also be able to support the development of innovative storage technologies.</p>
+            </recital>
+            <recital xml:id="rec_d214e258">
+               <num>(13)</num>
+               <p>To protect citizens who are most vulnerable to the climate transition, the JTF should also cover the upskilling and reskilling, including training, of the affected workers, irrespective of whether they are still employed or have lost their job due to the transition. The JTF should aim to help them adapt to new employment opportunities. The JTF should also provide any appropriate form of support to jobseekers, including job search assistance and their active inclusion into the labour market. All jobseekers who have lost their job in sectors affected by the transition in a region covered by the territorial just transition plan should be eligible to be supported by the JTF even if the workers who were dismissed do not reside in that region. Due regard should be paid to citizens at risk of energy poverty, in particular when implementing energy efficiency measures for improved social housing conditions.</p>
+            </recital>
+            <recital xml:id="rec_d214e264">
+               <num>(14)</num>
+               <p>Support for activities in the areas of education and social inclusion should be allowed, as well as support for social infrastructure for the purposes of child- and elderly-care facilities and in training centres, provided that these activities are appropriately justified in the territorial just transition plans. For elderly care, the principle of promoting community-based care should be preserved. Social and public services in those areas could complete the investment mix. All support in those areas should require appropriate justification in the territorial just transition plans and should follow the objectives of the European Pillar of Social Rights.</p>
+            </recital>
+            <recital xml:id="rec_d214e270">
+               <num>(15)</num>
+               <p>To address the specific situation and role of women in the transition to the climate-neutral economy, gender equality should be promoted. Women&apos;s labour market participation and entrepreneurship, as well as equal pay, play an important role in ensuring equal opportunities. The JTF should also pay special attention to vulnerable groups that suffer disproportionately from the adverse effects of the transition, such as workers with disabilities. The identity of mining communities needs to be preserved and the continuity of past and future communities needs to be safeguarded. This involves paying special attention to their tangible and non-tangible mining heritage, including their culture.</p>
+            </recital>
+            <recital xml:id="rec_d214e276">
+               <num>(16)</num>
+               <p>In order to enhance the economic diversification of territories impacted by the transition, the JTF should provide support to enterprises and economic stakeholders, including through support to productive investments in micro, small and medium-sized enterprises<authorialNote placement="bottom" marker="12">
+                     <p>Commission Recommendation of 6 May 2003 concerning the definition of micro, small and medium-sized enterprises (OJ L 124, 20.5.2003, p. 36).</p>
+                  </authorialNote> (SMEs). Productive investments should be understood as investment in fixed capital or immaterial assets of enterprises with a view to producing goods and services, thereby contributing to gross-capital formation and employment. For enterprises other than SMEs, productive investments should only be supported if they are necessary for mitigating job losses resulting from the transition, by creating or protecting a significant number of jobs, and do not lead to or result from relocation. Investments in existing industrial facilities, including those covered by the Union Emissions Trading System, should be allowed if they contribute to the transition to a climate-neutral economy of the Union by 2050 and go substantially below the relevant benchmarks established for free allocation under Directive 2003/87/EC of the European Parliament and of the Council<authorialNote placement="bottom" marker="13">
+                     <p>Directive 2003/87/EC of the European Parliament and of the Council of 13 October 2003 establishing a scheme for greenhouse gas emission allowance trading within the Community and amending Council Directive 96/61/EC (OJ L 275, 25.10.2003, p. 32).</p>
+                  </authorialNote> and if they result in the protection of a significant number of jobs. Any such investment should be justified accordingly in the relevant territorial just transition plan. In order to protect the integrity of the internal market and cohesion policy, support to undertakings should comply with Union State aid rules as set out in Articles 107 and 108 TFEU and, in particular, support to productive investments in enterprises other than SMEs should be limited to enterprises located in areas designated as assisted areas for the purposes of points (a) and (c) of Article 107(3) TFEU.</p>
+            </recital>
+            <recital xml:id="rec_d214e302">
+               <num>(17)</num>
+               <p>In order to provide flexibility for the programming of the JTF resources under the Investment for jobs and growth goal, it should be possible to prepare a self-standing JTF programme or to programme JTF resources in one or more dedicated priorities within programmes supported by the ERDF, the ESF+ or the Cohesion Fund. In accordance with Regulation (EU) 2021/1060, JTF resources could be reinforced on a voluntary basis with complementary funding from the ERDF and the ESF+. In such a case, the respective amounts transferred from the ERDF and the ESF+ should be consistent with the type of operations set out in the territorial just transition plans.</p>
+            </recital>
+            <recital xml:id="rec_d214e309">
+               <num>(18)</num>
+               <p>The JTF support should be conditional on the effective implementation of a transition process in a specific territory in order to achieve a climate-neutral economy. In that regard, Member States should prepare, in social dialogue and cooperation with the relevant stakeholders, in accordance with the relevant provision of Regulation (EU) 2021/1060 on partnership, and supported by the Commission, territorial just transition plans, setting out the transition process, consistent with their integrated national energy and climate plans. To that end, the Commission should set up a Just Transition Platform, which would build on the existing platform for coal regions in transition, to enable bilateral and multilateral exchanges of experience on lessons learnt and best practices across all affected sectors. Member States should ensure that municipalities and cities are involved in the implementation of the JTF resources and that their needs in that context are taken into account.</p>
+            </recital>
+            <recital xml:id="rec_d214e316">
+               <num>(19)</num>
+               <p>The territorial just transition plans should identify the territories most negatively affected, where JTF support should be concentrated, and describe specific actions to be undertaken to reach the Union&apos;s 2030 targets for energy and climate and a climate-neutral economy of the Union by 2050, in particular as regards the conversion or closure of facilities involving fossil fuel production or other greenhouse gas intensive activities. Those territories should be precisely defined and correspond to level 3 of the common classification of territorial units for statistics (&apos;NUTS level 3 regions&apos;), as established by Regulation (EC) No 1059/2003 of the European Parliament and of the Council<authorialNote placement="bottom" marker="14">
+                     <p>Regulation (EC) No 1059/2003 of the European Parliament and of the Council of 26 May 2003 on the establishment of a common classification of territorial units for statistics (NUTS) (OJ L 154, 21.6.2003, p. 1).</p>
+                  </authorialNote>, or be parts thereof. The plans should set out the challenges and needs of those territories, taking into account depopulation risks, and identify the type of operations needed to contribute to job creation at the level of the beneficiaries of the plan and in a manner that ensures the coherent development of climate-resilient economic activities that are also consistent with the transition to a climate-neutral economy and the objectives of the European Green Deal. Where such territories are identified, additional attention should be given to the specificities of islands, insular areas as well as the outermost regions, where the geographical and socio-economic characteristics may require a different approach to support the transition process towards a climate-neutral economy. Only investments in accordance with the territorial just transition plans should receive financial support from the JTF. The territorial just transition plans should be part of the programmes, supported, as the case may be, by the ERDF, the ESF+, the Cohesion Fund or the JTF, which are approved by the Commission.</p>
+            </recital>
+            <recital xml:id="rec_d214e336">
+               <num>(20)</num>
+               <p>In order to enhance the result orientation of the use of JTF resources, the Commission, in line with the principle of proportionality, should be able to apply financial corrections in the case of serious underachievement of targets established for the specific objective of the JTF.</p>
+            </recital>
+            <recital xml:id="rec_d214e342">
+               <num>(21)</num>
+               <p>In order to set out an appropriate financial framework for the JTF, implementing powers should be conferred on the Commission to set out the annual breakdown of available resources by Member State.</p>
+            </recital>
+            <recital xml:id="rec_d214e348">
+               <num>(22)</num>
+               <p>Since the objective of this Regulation, namely to support the people, economy and environment of territories facing economic and social transformation in their transition to a climate-neutral economy, cannot be sufficiently achieved by the Member States owing to the disparities in the levels of development of the various territories and to the backwardness of the least favoured territories, as well as to the limit on the financial resources of Member States and territories, but can rather, by reason of the need for a coherent implementation framework covering several Union funds under shared management, be better achieved at Union level, the Union may adopt measures, in accordance with the principle of subsidiarity as set out in Article 5 of the Treaty on European Union. In accordance with the principle of proportionality, as set out in that Article, this Regulation does not go beyond what is necessary in order to achieve that objective.</p>
+            </recital>
+            <recital xml:id="rec_d214e354">
+               <num>(23)</num>
+               <p>In view of the adoption of this Regulation after the start of the programming period, and taking into account the need to implement the JTF in a coordinated and harmonised manner, and in order to allow for its prompt implementation, it should enter into force on the day following that of its publication in the <i>Official Journal of the European Union</i>,</p>
+            </recital>
+         </recitals>
+         <formula name="enactingFormula">
+            <p>HAVE ADOPTED THIS REGULATION:</p>
+         </formula>
+      </preamble>
+      <body>
+         <article xml:id="art_d214e367">
+            <num>Article 1</num>
+            <heading>Subject matter and scope</heading>
+            <paragraph>
+               <content>
+                  <p>This Regulation establishes the Just Transition Fund (JTF) to provide support to the people, economies and environment of territories which face serious socio-economic challenges deriving from the transition process towards the Union&apos;s 2030 targets for energy and climate as defined in point (11) of Article 2 of Regulation (EU) 2018/1999 of the European Parliament and of the Council<authorialNote placement="bottom" marker="15">
+                        <p>Regulation (EU) 2018/1999 of the European Parliament and of the Council of 11 December 2018 on the Governance of the Energy Union and Climate Action, amending Regulations (EC) No 663/2009 and (EC) No 715/2009 of the European Parliament and of the Council, Directives 94/22/EC, 98/70/EC, 2009/31/EC, 2009/73/EC, 2010/31/EU, 2012/27/EU and 2013/30/EU of the European Parliament and of the Council, Council Directives 2009/119/EC and (EU) 2015/652 and repealing Regulation (EU) No 525/2013 of the European Parliament and of the Council (OJ L 328, 21.12.2018, p. 1).</p>
+                     </authorialNote> and a climate-neutral economy of the Union by 2050.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <content>
+                  <p>It lays down the specific objective of the JTF, its geographical coverage and resources, the scope of its support with regard to the Investment for jobs and growth goal referred to in point (a) of Article 5(2) of Regulation (EU) 2021/1060, as well as specific provisions for programming and indicators necessary for monitoring.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d214e386">
+            <num>Article 2</num>
+            <heading>Specific objective</heading>
+            <paragraph>
+               <content>
+                  <p>In accordance with the second subparagraph of Article 5(1) of Regulation (EU) 2021/1060, the JTF shall contribute to the single specific objective of enabling regions and people to address the social, employment, economic and environmental impacts of the transition towards the Union&apos;s 2030 targets for energy and climate and a climate-neutral economy of the Union by 2050, based on the Paris Agreement.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d214e393">
+            <num>Article 3</num>
+            <heading>Geographical coverage and resources under the Investment for jobs and growth goal</heading>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>The JTF shall support the Investment for jobs and growth goal in all Member States.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>The resources for the JTF under the Investment for jobs and growth goal that are available for budgetary commitment for the period 2021-2027 shall be EUR 7500000000 in 2018 prices as established in point (g) of Article 110(1) of Regulation (EU) 2021/1060</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <content>
+                  <p>The resources referred to in paragraph 2 may be increased, as the case may be, by additional resources allocated in the Union budget, and by other resources in accordance with the applicable basic act.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>4.</num>
+               <content>
+                  <p>The Commission shall adopt a decision, by means of an implementing act, setting out the annual breakdown of available resources, including any additional resources referred to in paragraph 3, by Member State in accordance with the allocations set out in Annex I.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d214e421">
+            <num>Article 4</num>
+            <heading>Resources from the European Union Recovery Instrument</heading>
+            <paragraph>
+               <num>1.</num>
+               <subparagraph>
+                  <content>
+                     <p>The measures referred to in Article 1(2) of Regulation (EU) 2020/2094 shall be implemented under this Regulation with an amount of EUR 10000000000 in 2018 prices as referred to in the second subparagraph of Article 109(1) of Regulation (EU) 2021/1060 and subject to Article 3(3), (4), (7) and (9) of Regulation (EU) 2020/2094.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>This amount shall be considered other resources as referred to in Article 3(3) of this Regulation. As provided for in Article 3(1) of Regulation (EU) 2020/2094, this amount shall constitute external assigned revenue for the purpose of Article 21(5) of the Financial Regulation.</p>
+                  </content>
+               </subparagraph>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <subparagraph>
+                  <content>
+                     <p>The amount referred to in paragraph 1 of this Article shall be made available for budgetary commitment under the Investment for jobs and growth goal for the years 2021 to 2023, in addition to the resources referred to in Article 3, as follows:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <indent>
+                     <num>-</num>
+                     <content>
+                        <p>2021: EUR 2000000000,</p>
+                     </content>
+                  </indent>
+                  <indent>
+                     <num>-</num>
+                     <content>
+                        <p>2022: EUR 4000000000,</p>
+                     </content>
+                  </indent>
+                  <indent>
+                     <num>-</num>
+                     <content>
+                        <p>2023: EUR 4000000000.</p>
+                     </content>
+                  </indent>
+               </list>
+               <subparagraph>
+                  <content>
+                     <p>An amount of EUR 15600000 in 2018 prices shall be made available for administrative expenditure from the resources referred to in the first subparagraph.</p>
+                  </content>
+               </subparagraph>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <content>
+                  <p>The annual breakdown of the amount referred to in the first subparagraph of paragraph 1 of this Article by Member States shall be included in the Commission decision referred to in Article 3(4) in accordance with the allocations set out in Annex I.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>4.</num>
+               <content>
+                  <p>By way of derogation from Article 14(3) of the Financial Regulation, the decommitment rules set out in Chapter IV of Title VII of Regulation (EU) 2021/1060 shall apply to the budgetary commitments based on the resources referred to in paragraph 1 of this Article. By way of derogation from point (c) of Article 12(4) of the Financial Regulation, these resources shall not be used for a succeeding programme or action.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>5.</num>
+               <content>
+                  <p>Payments to programmes shall be posted to the earliest open commitment of the JTF, starting first with the commitments from the resources referred to in the first subparagraph of paragraph 1 until they are exhausted.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d214e482">
+            <num>Article 5</num>
+            <heading>Green Rewarding Mechanism</heading>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>Where, pursuant to Article 3(3), the resources for the JTF are increased before 31 December 2024, the additional resources shall be distributed among Member States on the basis of the national shares set out in Annex I.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <subparagraph>
+                  <content>
+                     <p>Where, pursuant to Article 3(3) of this Regulation, the resources for the JTF are increased after 31 December 2024, the additional resources shall be distributed among Member States in accordance with the methodology laid down in the second subparagraph of this paragraph, on the basis of change of greenhouse gas emissions of their industrial facilities in the period from the year 2018 to the latest year for which data is available, as reported in accordance with Article 7 of Regulation (EC) No 166/2006 of the European Parliament and of the Council<authorialNote placement="bottom" marker="16">
+                           <p>Regulation (EC) No 166/2006 of the European Parliament and of the Council of 18 January 2006 concerning the establishment of a European Pollutant Release and Transfer Register and amending Council Directives 91/689/EEC and 96/61/EC (OJ L 33, 4.2.2006, p. 1).</p>
+                        </authorialNote>. The change of greenhouse gas emissions of each Member State shall be calculated by aggregating the greenhouse gas emissions of only those NUTS level 3 regions that have been identified in the territorial just transition plans in accordance with Article 11(1) of this Regulation.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>The allocation of additional resources for each Member State shall be determined in accordance with the following:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <content>
+                        <p>for Member States that achieved a reduction in greenhouse gas emissions, the reduction in greenhouse gas emissions achieved by each Member State shall be calculated by expressing the level of greenhouse gas emissions of the latest reference year as a percentage of the greenhouse gas emissions observed in 2018; for Member States that have not achieved a reduction in greenhouse gas emissions, that percentage shall be set at 100 %;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <content>
+                        <p>the final share for each Member State shall be obtained by dividing national shares set out in Annex I by the percentages resulting from point (a); and</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(c)</num>
+                     <content>
+                        <p>the result from the calculation under point (b) shall be rescaled in order to sum up to 100 %.</p>
+                     </content>
+                  </point>
+               </list>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <content>
+                  <p>Member States shall include the additional resources in their programmes and submit a programme amendment in accordance with Article 24 of Regulation (EU) 2021/1060</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d214e541">
+            <num>Article 6</num>
+            <heading>Specific allocations for outermost regions and islands</heading>
+            <paragraph>
+               <content>
+                  <p>When preparing their territorial just transition plans in accordance with Article 11(1), Member States shall take particular account of the situation of islands and outermost regions facing serious socio-economic challenges deriving from the transition process towards the Union&apos;s 2030 targets for energy and climate and a climate-neutral economy of the Union by 2050, having regard to their specific needs as recognised in Articles 174 and 349 TFEU.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <content>
+                  <p>When including such territories in their territorial just transition plans, Member States shall set out the specific amount allocated for those territories with the corresponding justification, taking into account the specific challenges of those territories.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d214e550">
+            <num>Article 7</num>
+            <heading>Conditional access to resources</heading>
+            <paragraph>
+               <num>1.</num>
+               <subparagraph>
+                  <content>
+                     <p>Where a Member State has not made a commitment to implement the objective of achieving a climate-neutral Union by 2050, only 50 % of the annual allocations for that Member State set out in accordance with Articles 3(4) and 4(3) shall be made available for programming and included in the priorities.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>By way of derogation from Article 10(1) of this Regulation, the remaining 50 % of the annual allocations shall not be included in the priorities. In such cases, the programmes supported from the JTF and submitted in accordance with Article 21 of Regulation (EU) 2021/1060 shall include only 50 % of the annual JTF allocations in the table referred to in point (g)(ii) of Article 22(3) of that Regulation. The table referred to in point (g)(i) of Article 22(3) of that Regulation shall identify separately the allocations available for programming and those allocations that shall not be programmed.</p>
+                  </content>
+               </subparagraph>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>The Commission shall only approve programmes containing a JTF priority, or any amendment thereto, where the requirements set out in the programmed allocation part in accordance with paragraph 1 are respected.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <content>
+                  <p>As soon as a Member State has committed to implement the objective of achieving a climate-neutral Union by 2050, it may submit a request for the amendment of each programme supported from the JTF in accordance with Article 24 of Regulation (EU) 2021/1060 and include the non-programmed allocations that have not been decommitted.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>4.</num>
+               <subparagraph>
+                  <content>
+                     <p>Budgetary commitments shall be made on the basis of the table referred to in point (g)(i) of Article 22(3) of Regulation (EU) 2021/1060. The commitments related to the non-programmed allocations shall not be used for payments and shall not be included in the basis for the calculation of the pre-financing in accordance with Article 90 of that Regulation until they are made available for programming in accordance with paragraph 3 of this Article.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>By way of derogation from Article 105 of Regulation (EU) 2021/1060, in the absence of the Member State&apos;s commitment to implement the objective of achieving a climate-neutral Union by 2050 by 31 December of any given year starting from 2022, budgetary commitments for the preceding year which relate to non-programmed allocations shall be decommitted in their entirety in the following year.</p>
+                  </content>
+               </subparagraph>
+            </paragraph>
+         </article>
+         <article xml:id="art_d214e579">
+            <num>Article 8</num>
+            <heading>Scope of support</heading>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>The JTF shall only support activities that are directly linked to its specific objective as set out in Article 2 and which contribute to the implementation of the territorial just transition plans established in accordance with Article 11.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <subparagraph>
+                  <content>
+                     <p>In accordance with paragraph 1, the JTF shall exclusively support the following activities:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <content>
+                        <p>productive investments in SMEs, including microenterprises and start-ups, leading to economic diversification, modernisation and reconversion;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <content>
+                        <p>investments in the creation of new firms, including through business incubators and consulting services, leading to job creation;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(c)</num>
+                     <content>
+                        <p>investments in research and innovation activities, including by universities and public research organisations, and fostering the transfer of advanced technologies;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(d)</num>
+                     <content>
+                        <p>investments in the deployment of technology as well as in systems and infrastructures for affordable clean energy, including energy storage technologies, and in greenhouse gas emission reduction;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(e)</num>
+                     <content>
+                        <p>investments in renewable energy in accordance with Directive (EU) 2018/2001 of the European Parliament and of the Council<authorialNote placement="bottom" marker="17">
+                              <p>Directive (EU) 2018/2001 of the European Parliament and of the Council of 11 December 2018 on the promotion of the use of energy from renewable sources (OJ L 328, 21.12.2018, p. 82).</p>
+                           </authorialNote>, including the sustainability criteria set out therein, and in energy efficiency, including for the purposes of reducing energy poverty;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(f)</num>
+                     <content>
+                        <p>investments in smart and sustainable local mobility, including decarbonisation of the local transport sector and its infrastructure;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(g)</num>
+                     <content>
+                        <p>rehabilitation and upgrade of district heating networks with a view to improving energy efficiency of district heating systems and investments in heat production provided that the heat production installations are supplied exclusively by renewable energy sources;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(h)</num>
+                     <content>
+                        <p>investments in digitalisation, digital innovation and digital connectivity;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(i)</num>
+                     <content>
+                        <p>investments in regeneration and decontamination of brownfield sites, land restoration and including, where necessary, green infrastructure and repurposing projects, taking into account the &apos;polluter pays&apos; principle;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(j)</num>
+                     <content>
+                        <p>investments in enhancing the circular economy, including through waste prevention, reduction, resource efficiency, reuse, repair and recycling;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(k)</num>
+                     <content>
+                        <p>upskilling and reskilling of workers and jobseekers;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(l)</num>
+                     <content>
+                        <p>job-search assistance to jobseekers;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(m)</num>
+                     <content>
+                        <p>active inclusion of jobseekers;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(n)</num>
+                     <content>
+                        <p>technical assistance;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(o)</num>
+                     <content>
+                        <p>other activities in the areas of education and social inclusion including, where duly justified, investments in infrastructure for the purposes of training centres, child- and elderly-care facilities as indicated in territorial just transition plans in accordance with Article 11.</p>
+                     </content>
+                  </point>
+               </list>
+               <subparagraph>
+                  <content>
+                     <p>Additionally, the JTF may support, in areas designated as assisted areas for the purposes of points (a) and (c) of Article 107(3) TFEU, productive investments in enterprises other than SMEs, provided that such investments have been approved as part of the territorial just transition plan based on the information required under point (h) of Article 11(2) of this Regulation. Such investments shall only be eligible where they are necessary for the implementation of the territorial just transition plan, where they contribute to the transition to a climate-neutral economy of the Union by 2050 and to achieving related environmental targets, where their support is necessary for job creation in the identified territory, and where they do not lead to relocation as defined in point (27) of Article 2 of Regulation (EU) 2021/1060.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>The JTF may also support investments to achieve the reduction of greenhouse gas emissions from activities listed in Annex I to Directive 2003/87/EC provided that such investments have been approved as part of the territorial just transition plan based on the information required under point (i) of Article 11(2) of this Regulation. Such investments shall only be eligible where they are necessary for the implementation of the territorial just transition plan.</p>
+                  </content>
+               </subparagraph>
+            </paragraph>
+         </article>
+         <article xml:id="art_d214e706">
+            <num>Article 9</num>
+            <heading>Exclusion from the scope of support</heading>
+            <paragraph>
+               <subparagraph>
+                  <content>
+                     <p>The JTF shall not support:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <content>
+                        <p>the decommissioning or the construction of nuclear power stations;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <content>
+                        <p>the manufacturing, processing and marketing of tobacco and tobacco products;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(c)</num>
+                     <content>
+                        <p>an undertaking in difficulty, as defined in point (18) of Article 2 of Commission Regulation (EU) No 651/2014<authorialNote placement="bottom" marker="18">
+                              <p>Commission Regulation (EU) No 651/2014 of 17 June 2014 declaring certain categories of aid compatible with the internal market in application of Articles 107 and 108 of the Treaty (OJ L 187, 26.6.2014, p. 1).</p>
+                           </authorialNote>, unless authorised under temporary State aid rules established to address exceptional circumstances or under de minimis aid to support investments reducing energy costs in the context of the energy transition process;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(d)</num>
+                     <content>
+                        <p>investment related to the production, processing, transport, distribution, storage or combustion of fossil fuels.</p>
+                     </content>
+                  </point>
+               </list>
+            </paragraph>
+         </article>
+         <article xml:id="art_d214e750">
+            <num>Article 10</num>
+            <heading>Programming of the JTF resources</heading>
+            <paragraph>
+               <num>1.</num>
+               <subparagraph>
+                  <content>
+                     <p>The JTF resources shall be programmed for the categories of regions where the territories concerned are located, on the basis of territorial just transition plans established in accordance with Article 11 and approved by the Commission as part of a programme or a programme amendment. The resources programmed shall take the form of one or more specific programmes or of one or more priorities within programmes.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>The Commission shall only approve a programme, or any amendment thereto, where the identification of the territories most negatively affected by the transition process, contained within the relevant territorial just transition plan, is duly justified and the relevant territorial just transition plan is consistent with the integrated national energy and climate plan of the Member State concerned.</p>
+                  </content>
+               </subparagraph>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>A JTF priority or priorities shall comprise the JTF resources consisting of all or part of the JTF allocation for the Member States and the resources transferred in accordance with Article 27 of Regulation (EU) 2021/1060. The total of the ERDF and ESF+ resources transferred to the JTF shall not exceed three times the amount of support from the JTF to that priority excluding the resources referred to in Article 4(1) of this Regulation.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <subparagraph>
+                  <content>
+                     <p>In accordance with Article 112 of Regulation (EU) 2021/1060, the co-financing rate, applicable to the region where the territory or territories identified in the territorial just transition plans in accordance with Article 11 of this Regulation are located, for the JTF priority or priorities shall not be higher than:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <content>
+                        <p>85 % for less developed regions;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <content>
+                        <p>70 % for transition regions;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(c)</num>
+                     <content>
+                        <p>50 % for more developed regions.</p>
+                     </content>
+                  </point>
+               </list>
+            </paragraph>
+         </article>
+         <article xml:id="art_d214e792">
+            <num>Article 11</num>
+            <heading>Territorial just transition plans</heading>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>Member States shall prepare, together with the relevant local and regional authorities of the territories concerned, one or more territorial just transition plans covering one or more affected territories corresponding to NUTS level 3 regions or parts thereof, in accordance with the template set out in Annex II. Those territories shall be those most negatively affected, based on the economic and social impacts resulting from the transition, in particular with regard to the expected adaptation of workers or job losses in fossil fuel production and use and the transformation needs of the production processes of industrial facilities with the highest greenhouse gas intensity.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <subparagraph>
+                  <content>
+                     <p>A territorial just transition plan shall contain the following elements:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <content>
+                        <p>a description of the transition process at national level towards a climate-neutral economy, including a timeline of the key transition steps towards the Union&apos;s 2030 targets for energy and climate and a climate-neutral economy of the Union by 2050 which are consistent with the latest version of the integrated national energy and climate plan;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <content>
+                        <p>a justification for identifying the territories as most negatively affected by the transition process referred to in point (a) of this paragraph and to be supported by the JTF, in accordance with paragraph 1;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(c)</num>
+                     <content>
+                        <p>an assessment of the transition challenges faced by the identified most negatively affected territories, including the social, economic, and environmental impact of the transition to a climate-neutral economy of the Union by 2050, identifying the potential number of affected jobs and job losses, the depopulation risks, and the development needs and objectives, to be reached by 2030 and linked to the transformation or closure of greenhouse gas-intensive activities in those territories;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(d)</num>
+                     <content>
+                        <p>a description of the expected contribution of the JTF support to addressing the social, demographic, economic, health and environmental impacts of the transition to a climate-neutral economy of the Union by 2050, including the expected contribution in terms of job creation and preservation;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(e)</num>
+                     <content>
+                        <p>an assessment of its consistency with other relevant national, regional or territorial strategies and plans;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(f)</num>
+                     <content>
+                        <p>a description of the governance mechanisms consisting of the partnership arrangements, the monitoring and evaluation measures planned and the responsible bodies;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(g)</num>
+                     <content>
+                        <p>a description of the type of operations envisaged and their expected contribution to alleviating the impact of the transition;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(h)</num>
+                     <content>
+                        <p>where support is to be provided to productive investments in enterprises other than SMEs, an indicative list of operations and enterprises to be supported and a justification of the necessity of such support through a gap analysis demonstrating that the expected job losses would exceed the expected number of jobs created in the absence of the investment;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(i)</num>
+                     <content>
+                        <p>where support is to be provided to investments to achieve the reduction of greenhouse gas emissions from activities listed in Annex I to Directive 2003/87/EC, a list of operations to be supported and a justification that they contribute to a transition to a climate-neutral economy and lead to a substantial reduction in greenhouse gas emissions going substantially below the relevant benchmarks established for free allocation under Directive 2003/87/EC and provided that these operations are necessary for the protection of a significant number of jobs;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(j)</num>
+                     <content>
+                        <p>synergies and complementarities with other relevant Union programmes to address identified development needs; and</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(k)</num>
+                     <content>
+                        <p>synergies and complementarities with planned support from the other pillars of the Just Transition Mechanism.</p>
+                     </content>
+                  </point>
+               </list>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <content>
+                  <p>The preparation and implementation of territorial just transition plans shall involve the relevant partners in accordance with Article 8 of Regulation (EU) 2021/1060 and, where relevant, the European Investment Bank and the European Investment Fund.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>4.</num>
+               <subparagraph>
+                  <content>
+                     <p>Territorial just transition plans shall be consistent with the relevant territorial strategies referred to in Article 29 of Regulation (EU) 2021/1060 and relevant smart specialisation strategies, the integrated national energy and climate plans and the European Pillar of Social Rights.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>Where the update of an integrated national energy and climate plan pursuant to Article 14 of Regulation (EU) 2018/1999 necessitates a revision of a territorial just transition plan, that revision shall be carried out as part of the mid-term review in accordance with Article 18 of Regulation (EU) 2021/1060.</p>
+                  </content>
+               </subparagraph>
+            </paragraph>
+            <paragraph>
+               <num>5.</num>
+               <content>
+                  <p>Where Member States intend to make use of the possibility to receive support under the other pillars of the Just Transition Mechanism, their territorial just transition plans shall set out the sectors and thematic areas envisaged to be supported under those pillars.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d214e895">
+            <num>Article 12</num>
+            <heading>Indicators</heading>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>Common output and result indicators, as set out in Annex III and, where duly justified in the territorial just transition plan, programme-specific output and result indicators shall be used in accordance with point (a) of the second subparagraph of Article 16(1), point (d)(ii) of Article 22(3) and point (b) of Article 42(2) of Regulation (EU) 2021/1060.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>For output indicators, baselines shall be set at zero. The milestones set for 2024 and targets set for 2029 shall be cumulative. Targets shall not be revised after the request for programme amendment, submitted pursuant to Article 18(3) of Regulation (EU) 2021/1060, has been approved by the Commission.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <content>
+                  <p>Where a JTF priority supports the activities referred to in points (k), (l) or (m) of Article 8(2), data on the indicators for participants shall only be transmitted where all the data relating to that participant, required in accordance with Annex III, are available.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d214e915">
+            <num>Article 13</num>
+            <heading>Financial corrections</heading>
+            <paragraph>
+               <content>
+                  <p>Based on the examination of the final performance report of the programme, the Commission may make financial corrections in accordance with Article 104 of Regulation (EU) 2021/1060 where less than 65 % of the target set out for one or more output indicators is achieved.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <content>
+                  <p>Financial corrections shall be in proportion to the achievements and shall not be applied where the failure to achieve targets is due to the impact of socio-economic or environmental factors, significant changes in the economic or environmental conditions in the Member State concerned or because of reasons of force majeure seriously affecting implementation of the priorities concerned.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d214e924">
+            <num>Article 14</num>
+            <heading>Review</heading>
+            <paragraph>
+               <content>
+                  <p>By 30 June 2025, the Commission shall review the implementation of the JTF with regard to the specific objective set out in Article 2, taking into account possible changes in Regulation (EU) 2020/852 and the Union&apos;s climate objectives set out in a Regulation of the European Parliament and of the Council establishing the framework for achieving climate neutrality and amending Regulations (EC) No 401/2009 and (EU) 2018/1999 (&apos;European Climate Law&apos;), and the evolution in the implementation of the Sustainable Europe Investment Plan. On that basis, the Commission shall submit a report to the European Parliament and to the Council, which may be accompanied by legislative proposals.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d214e938">
+            <num>Article 15</num>
+            <heading>Entry into force</heading>
+            <paragraph>
+               <content>
+                  <p>This Regulation shall enter into force on the day following that of its publication in the <i>Official Journal of the European Union</i>.</p>
+               </content>
+            </paragraph>
+         </article>
+         <clause>
+            <content>
+               <p>This Regulation shall be binding in its entirety and directly applicable in all Member States.</p>
+            </content>
+         </clause>
+      </body>
+      <conclusions>
+         <p>Done at Brussels, 24 June 2021.</p>
+         <block name="signatory">
+            <signature>
+               <organization refersTo="">For the European Parliament</organization>
+               <role refersTo="">The President</role>
+               <person refersTo="">D. M. SASSOLI</person>
+            </signature>
+            <signature>
+               <organization refersTo="">For the Council</organization>
+               <role refersTo="">The President</role>
+               <person refersTo="">A. P. ZACARIAS</person>
+            </signature>
+         </block>
+      </conclusions>
+   </bill>
+</akomaNtoso>

@@ -1,0 +1,2436 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"
+            xmlns:fmx="http://formex.publications.europa.eu/schema/formex-05.21-20110601.xd"
+            xmlns:leos="urn:eu:europa:ec:leos"
+            xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <bill name="">
+      <meta xmlns:fn="http://www.w3.org/2005/xpath-functions">
+         <identification source="~COM">
+            <FRBRWork>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRcountry value=""/>
+            </FRBRWork>
+            <FRBRExpression>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+            </FRBRManifestation>
+         </identification>
+      </meta>
+      <preface>
+         <longTitle>
+            <p>
+               <docStage/>
+               <docType>REGULATION (EU) 2017/1991 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL</docType>of 25 October 2017<docPurpose>amending Regulation (EU) No 345/2013 on European venture capital funds and Regulation (EU) No 346/2013 on European social entrepreneurship funds</docPurpose>
+            </p>
+         </longTitle>
+         <container name="EEArelevance">
+            <p>(Text with EEA relevance)</p>
+         </container>
+      </preface>
+      <preamble>
+         <formula name="actingEntity">
+            <p>THE EUROPEAN PARLIAMENT AND THE COUNCIL OF THE EUROPEAN UNION,</p>
+         </formula>
+         <citations>
+            <citation>
+               <p>Having regard to the Treaty on the Functioning of the European Union, and in particular Article 114 thereof,</p>
+            </citation>
+            <citation>
+               <p>Having regard to the proposal from the European Commission,</p>
+            </citation>
+            <citation>
+               <p>After transmission of the draft legislative act to the national parliaments,</p>
+            </citation>
+            <citation>
+               <p>Having regard to the opinion of the European Central Bank<authorialNote placement="bottom" marker="1">
+                     <p>OJ C 394, 26.10.2016, p. 2.</p>
+                  </authorialNote>,</p>
+            </citation>
+            <citation>
+               <p>Having regard to the opinion of the European Economic and Social Committee<authorialNote placement="bottom" marker="2">
+                     <p>OJ C 75, 10.3.2017, p. 48.</p>
+                  </authorialNote>,</p>
+            </citation>
+            <citation>
+               <p>Acting in accordance with the ordinary legislative procedure<authorialNote placement="bottom" marker="3">
+                     <p>Position of the European Parliament of 14 September 2017 (not yet published in the Official Journal) and decision of the Council of 9 October 2017.</p>
+                  </authorialNote>,</p>
+            </citation>
+         </citations>
+         <recitals xml:id="recs_d515e94">
+            <intro>
+               <p>Whereas:</p>
+            </intro>
+            <recital xml:id="rec_d515e97">
+               <num>(1)</num>
+               <p>Regulations (EU) No 345/2013<authorialNote placement="bottom" marker="4">
+                     <p>Regulation (EU) No 345/2013 of the European Parliament and of the Council of 17 April 2013 on European venture capital funds (OJ L 115, 25.4.2013, p. 1).</p>
+                  </authorialNote> and (EU) No 346/2013<authorialNote placement="bottom" marker="5">
+                     <p>Regulation (EU) No 346/2013 of the European Parliament and of the Council of 17 April 2013 on European social entrepreneurship funds (OJ L 115, 25.4.2013, p. 18).</p>
+                  </authorialNote> of the European Parliament and of the Council lay down uniform requirements and conditions for managers of collective investment undertakings that wish to use the designations &apos;EuVECA&apos; or &apos;EuSEF&apos; in the Union for the marketing of qualifying venture capital funds and qualifying social entrepreneurship funds respectively. Regulations (EU) No 345/2013 and (EU) No 346/2013 contain rules governing, in particular, qualifying investments, qualifying portfolio undertakings and eligible investors. Under Regulations (EU) No 345/2013 and (EU) No 346/2013, only managers with assets under management that in total do not exceed the threshold referred to in point (b) of Article 3(2) of Directive 2011/61/EU of the European Parliament and of the Council<authorialNote placement="bottom" marker="6">
+                     <p>Directive 2011/61/EU of the European Parliament and of the Council of 8 June 2011 on Alternative Investment Fund Managers and amending Directives 2003/41/EC and 2009/65/EC and Regulations (EC) No 1060/2009 and (EU) No 1095/2010 (OJ L 174, 1.7.2011, p. 1).</p>
+                  </authorialNote> qualify for the use of the designations &apos;EuVECA&apos; and &apos;EuSEF&apos; respectively.</p>
+            </recital>
+            <recital xml:id="rec_d515e150">
+               <num>(2)</num>
+               <p>The communication of the Commission of 26 November 2014 on an Investment Plan for Europe provides a comprehensive strategy to tackle the lack of financing which is holding back Europe&apos;s potential to grow and to provide jobs for its citizens. It aims to unlock private investment by using public funding and by improving the legal framework for the investment environment.</p>
+            </recital>
+            <recital xml:id="rec_d515e160">
+               <num>(3)</num>
+               <p>The communication of the Commission of 30 September 2015 on an Action Plan on Building a Capital Markets Union is an important element of the Investment Plan. It aims to reduce fragmentation in the financial markets and to increase the supply of capital to businesses, from inside and outside the Union, through the establishment of a genuine single capital market. That communication specifies that Regulations (EU) No 345/2013 and (EU) No 346/2013 need to be amended to ensure that the frameworks are best able to support investment in small and medium-sized enterprises (SMEs).</p>
+            </recital>
+            <recital xml:id="rec_d515e169">
+               <num>(4)</num>
+               <p>The market for qualifying venture capital funds and qualifying social entrepreneurship funds should be opened up in order to increase scale effects, to reduce transaction and operational costs, to improve competition and to strengthen investor choice. Enlarging the base of prospective managers contributes to opening up that market, and would benefit undertakings seeking investment by giving them access to financing from a greater and more varied range of risk investment sources. The scope of Regulations (EU) No 345/2013 and (EU) No 346/2013 should therefore be extended by opening up the use of the designations &apos;EuVECA&apos; and &apos;EuSEF&apos; to managers of collective investment undertakings authorised under Article 6 of Directive 2011/61/EU.</p>
+            </recital>
+            <recital xml:id="rec_d515e183">
+               <num>(5)</num>
+               <p>In order to maintain a high level of investor protection, managers of collective investment undertakings authorised under Article 6 of Directive 2011/61/EU should continue to be subject to the requirements of that Directive and should continue to comply with certain provisions of Regulation (EU) No 345/2013 or Regulation(EU) No 346/2013, namely those concerning eligible investments, targeted investors and information requirements. The competent authorities on which Directive 2011/61/EU confers supervisory powers should also exercise those powers with respect to such managers.</p>
+            </recital>
+            <recital xml:id="rec_d515e189">
+               <num>(6)</num>
+               <p>In order to ensure that competent authorities are aware of every new use of the designations &apos;EuVECA&apos; and &apos;EuSEF&apos;, managers of collective investment undertakings authorised under Article 6 of Directive 2011/61/EU should register each qualifying venture capital fund or qualifying social entrepreneurship fund that they intend to manage and market. That should ensure that such managers may maintain their business models by being able to manage collective investment undertakings established in other Member States and further widen the range of products they offer.</p>
+            </recital>
+            <recital xml:id="rec_d515e203">
+               <num>(7)</num>
+               <p>The range of eligible undertakings in which qualifying venture capital funds can invest should be expanded, in order to further increase the supply of capital to businesses. The definition of qualifying portfolio undertakings should therefore include companies with up to 499 employees (small mid-caps) not admitted to trading on a regulated market or on a multilateral trading facility, and SMEs listed on SME growth markets. The new investment options should also allow growth stage entities that already have access to other sources of financing, such as SME growth markets, to receive capital from qualifying venture capital funds which in turn should contribute to the development of the SME growth markets. In addition, investments by qualifying venture capital funds in qualifying portfolio undertakings do not automatically disqualify those qualifying portfolio undertakings from being eligible for public programmes. In order to further enhance investment, it should remain possible to set up a fund of funds structure under Regulations (EU) No 345/2013 and (EU) No 346/2013.</p>
+            </recital>
+            <recital xml:id="rec_d515e209">
+               <num>(8)</num>
+               <p>In order to make the use of the designation &apos;EuSEF&apos; more appealing and to further increase the supply of capital to social businesses, the range of eligible undertakings in which qualifying social entrepreneurship funds can invest should be expanded by extending the definition of positive social impact. Such extension would simplify the regulatory landscape for social entrepreneurship funds, and would facilitate the participation of investors in such funds by addressing the discrepancies between different interpretations of what constitutes positive social impact in different Union contexts.</p>
+            </recital>
+            <recital xml:id="rec_d515e219">
+               <num>(9)</num>
+               <p>Qualifying venture capital funds should also be allowed to participate, in the longer term, in the funding ladder for unlisted SMEs, unlisted small mid-caps and SMEs listed on SME growth markets, to further enhance their potential for making returns from high-growth companies. Therefore, follow-on investments subsequent to the first investment should be allowed.</p>
+            </recital>
+            <recital xml:id="rec_d515e227">
+               <num>(10)</num>
+               <p>Registration procedures should be simple and cost-effective. Therefore, registration of a manager in accordance with Regulations (EU) No 345/2013 and (EU) No 346/2013 should also serve the purpose of the registration referred to in Directive 2011/61/EU in relation to the management of the qualifying venture capital funds or qualifying social entrepreneurship funds. Registration decisions and refusals to register under Regulation (EU) No 345/2013 or Regulation(EU) No 346/2013 should, where appropriate, be subject to administrative or judicial review in accordance with national law.</p>
+            </recital>
+            <recital xml:id="rec_d515e233">
+               <num>(11)</num>
+               <p>The information provided in the application for registration and made available to the European Supervisory Authority (European Securities and Markets Authority) (&apos;ESMA&apos;), established by Regulation (EU) No 1095/2010 of the European Parliament and of the Council<authorialNote placement="bottom" marker="7">
+                     <p>Regulation (EU) No 1095/2010 of the European Parliament and of the Council of 24 November 2010 establishing a European Supervisory Authority (European Securities and Markets Authority), amending Decision No 716/2009/EC and repealing Commission Decision 2009/77/EC (OJ L 331, 15.12.2010, p. 84).</p>
+                  </authorialNote> should be used when organising and conducting peer reviews in accordance with Regulation (EU) No 1095/2010, solely in the framework of Directive 2011/61/EU, and Regulations (EU) No 345/2013, (EU) No 346/2013 and (EU) No 1095/2010 including the rules on collection of information. This should not pre-empt in any way the outcome of the upcoming legislative reviews of Regulation (EU) No 1095/2010 and of Directive 2011/61/EU.</p>
+            </recital>
+            <recital xml:id="rec_d515e253">
+               <num>(12)</num>
+               <p>The fees and other charges that host Member States impose on qualifying venture capital fund managers and on qualifying social entrepreneurship fund managers contribute to regulatory divergence and may sometimes represent significant obstacles to cross-border activities. Such fees and charges impede the free flow of capital across Union borders, thereby undermining the principles of the internal market. It is therefore necessary to emphasise and clarify that the prohibition on the imposition by the host Member State of requirements or administrative procedures in relation to the marketing of qualifying venture capital funds and qualifying social entrepreneurship funds in its territory includes a prohibition on the imposition of fees and other charges on the managers for the marketing of such funds if no supervisory task has to be performed.</p>
+            </recital>
+            <recital xml:id="rec_d515e259">
+               <num>(13)</num>
+               <p>Regulations (EU) No 345/2013 and (EU) No 346/2013 require that managers of qualifying venture capital funds and qualifying social entrepreneurship funds, which are not authorised in accordance with Directive 2011/61/EU, have sufficient own funds at all times. In order to develop an appropriate and proportionate own funds requirement for qualifying venture capital fund managers and for qualifying social entrepreneurship fund managers, the level of own funds should be based on cumulative criteria and should be significantly lower and less complex than the amounts laid down in Directive 2011/61/EU to take into account the specificities, nature and small size of those funds, and to respect the principle of proportionality. To ensure a consistent understanding of those requirements for those managers across the Union, the application of minimum capital requirements and own funds should be provided for in this Regulation. Due to the particular role that qualifying venture capital funds and qualifying social entrepreneurship funds could play in the context of the Capital Markets Union, in particular fostering the financing of venture capital and social entrepreneurship, it is necessary to provide for specific and targeted own funds rules for registered managers that diverge from the own funds framework for authorised managers laid down in Directive 2011/61/EU.</p>
+            </recital>
+            <recital xml:id="rec_d515e265">
+               <num>(14)</num>
+               <p>ESMA should be able to develop draft regulatory technical standards, for submission to the Commission. Those standards should specify the information to be provided to competent authorities in applications for the registration of managers or funds under Regulations (EU) No 345/2013 and (EU) No 346/2013, and the parts of that information that should be made available to ESMA by the competent authorities for the purpose of enabling ESMA to organise and conduct peer reviews under Regulation (EU) No 1095/2010.</p>
+            </recital>
+            <recital xml:id="rec_d515e271">
+               <num>(15)</num>
+               <p>Since this Regulation opens up the use of the designations &apos;EuVECA&apos; and &apos;EuSEF&apos; to managers of collective investment undertakings authorised under Article 6 of Directive 2011/61/EU, the central database, maintained by ESMA in accordance with Regulations (EU) No 345/2013 and (EU) No 346/2013 should also include information concerning the qualifying venture capital funds and qualifying social entrepreneurship funds that are managed and marketed by those managers.</p>
+            </recital>
+            <recital xml:id="rec_d515e286">
+               <num>(16)</num>
+               <p>In order to avoid any potential market disruption it is necessary to provide existing managers of existing qualifying venture capital funds and existing qualifying social entrepreneurship funds during the terms of those funds with a derogation from rules on own funds under this Regulation. Such managers should nevertheless ensure that they are able to justify at all times the sufficiency of their own funds to maintain operational continuity.</p>
+            </recital>
+            <recital xml:id="rec_d515e292">
+               <num>(17)</num>
+               <p>In the context of the next review of Regulations (EU) No 345/2013 and (EU) No 346/2013, the Commission should investigate whether it would be beneficial to create an additional voluntary option for retail investors through the use of a feeder fund under Regulations (EU) No 345/2013 and (EU) No 346/2013 for those qualifying venture capital funds and qualifying social entrepreneurship funds that wish to enlarge their investor base. The Commission should also investigate whether lowering the relatively high minimum investment threshold might be beneficial, especially as it can be seen as a potential barrier to more investment in such funds. It should also investigate whether it might be appropriate to extend the use of the designation &apos;EuSEF&apos; to certain crowdfunding and microfinancing entities with a high social impact. Although venture capital remains a highly risky form of investment, it should be recalled that similarly risky, unregulated forms of investment are increasingly available to consumers. Such forms of investment, such as crowdfunding, are currently unregulated at the Union level, whereas the use of the designations &apos;EuVECA&apos; and &apos;EuSEF&apos; is regulated and supervised.</p>
+            </recital>
+            <recital xml:id="rec_d515e311">
+               <num>(18)</num>
+               <p>The Commission&apos;s work on a Capital Markets Union identified the definition of marketing and discrepancies in the interpretation of that definition by national competent authorities as significant barriers to cross-border investments. The Commission should review the suitability of that definition.</p>
+            </recital>
+            <recital xml:id="rec_d515e317">
+               <num>(19)</num>
+               <p>In addition, the Commission should analyse the appropriateness of introducing a management passport for managers of qualifying venture capital funds and qualifying social entrepreneurship funds and the suitability of the definition of marketing for venture capital. Following that analysis, the Commission should submit a report to the European Parliament and to the Council, accompanied, if appropriate, by a legislative proposal.</p>
+            </recital>
+            <recital xml:id="rec_d515e324">
+               <num>(20)</num>
+               <p>Since the objectives of this Regulation, namely to further strengthen an internal market for qualifying venture capital funds and qualifying social entrepreneurship funds by strengthening the use of designations &apos;EuVECA&apos; and &apos;EuSEF&apos;, cannot be sufficiently achieved by the Member States but can rather, by reason of their scale and effects, be better achieved at Union level, the Union may adopt measures in accordance with the principle of subsidiarity as set out in Article 5 of the Treaty on European Union. In accordance with the principle of proportionality as set out in that Article, this Regulation does not go beyond what is necessary in order to achieve those objectives.</p>
+            </recital>
+            <recital xml:id="rec_d515e338">
+               <num>(21)</num>
+               <p>This Regulation should be without prejudice to the application of State aid rules to qualifying venture capital funds. Such funds may serve as vehicles for State aid to promote risk capital investments in SMEs through, for example, more favourable treatment of private investors than of public investors, provided such aid is compatible with State aid rules and in particular with Commission Regulation (EU) No 651/2014<authorialNote placement="bottom" marker="8">
+                     <p>Commission Regulation (EU) No 651/2014 of 17 June 2014 declaring certain categories of aid compatible with the internal market in application of Articles 107 and 108 of the Treaty (OJ L 187, 26.6.2014, p. 1).</p>
+                  </authorialNote>.</p>
+            </recital>
+            <recital xml:id="rec_d515e354">
+               <num>(22)</num>
+               <p>Regulations (EU) No 345/2013 and (EU) No 346/2013 should be amended accordingly,</p>
+            </recital>
+         </recitals>
+         <formula name="enactingFormula">
+            <p>HAVE ADOPTED THIS REGULATION:</p>
+         </formula>
+      </preamble>
+      <body>
+         <article xml:id="art_d515e363" leos:compliant="false">
+            <num>Article 1</num>
+            <heading/>
+            <paragraph>
+               <subparagraph>
+                  <content>
+                     <p>Regulation (EU) No 345/2013 is amended as follows:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(1)</num>
+                     <alinea>
+                        <content>
+                           <p>In Article 2, paragraph 2 is replaced by the following:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <paragraph>
+                                       <num>&apos;2.</num>
+                                       <content>
+                                          <p>Articles 3 to 6, Article 12, points (c) and (i) of Article 13(1), Articles 14a to 19, the second subparagraph of Article 20(3), and Articles 21 and 21a of this Regulation shall apply to managers of collective investment undertakings authorised under Article 6 of Directive 2011/61/EU that manage portfolios of qualifying venture capital funds and intend to use the designation &quot;EuVECA&quot; in relation to the marketing of those funds in the Union.&apos;.</p>
+                                       </content>
+                                    </paragraph>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(2)</num>
+                     <alinea>
+                        <content>
+                           <p>In Article 3, the first paragraph is amended as follows:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <alinea>
+                              <content>
+                                 <p>in point (d), point (i) is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <list>
+                                             <point>
+                                                <num>&apos;(i)</num>
+                                                <alinea>
+                                                   <content>
+                                                      <p>at the time of the first investment by the qualifying venture capital fund in that undertaking complies with one of the following conditions:</p>
+                                                   </content>
+                                                </alinea>
+                                                <list>
+                                                   <indent>
+                                                      <num>-</num>
+                                                      <content>
+                                                         <p>the undertaking is not admitted to trading on a regulated market or on a multilateral trading facility, as defined in points (21) and (22) of Article 4(1) of Directive 2014/65/EU of the European Parliament and the Council<authorialNote placement="bottom" marker="9">
+                                                               <p>Directive 2014/65/EU of the European Parliament and of the Council of 15 May 2014 on markets in financial instruments and amending Directive 2002/92/EC and Directive 2011/61/EU (OJ L 173, 12.6.2014, p. 349).&apos;;</p>
+                                                            </authorialNote>, and employs up to 499 persons;</p>
+                                                      </content>
+                                                   </indent>
+                                                   <indent>
+                                                      <num>-</num>
+                                                      <content>
+                                                         <p>the undertaking is a small and medium-sized enterprise, as defined in point (13) of Article 4(1) of Directive 2014/65/EU, which is listed on an SME growth market as defined in point (12) of Article 4(1) of that Directive.</p>
+                                                      </content>
+                                                   </indent>
+                                                </list>
+                                             </point>
+                                          </list>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <alinea>
+                              <content>
+                                 <p>point (k) is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <list>
+                                             <point>
+                                                <num>&apos;(k)</num>
+                                                <content>
+                                                   <p>&quot;home Member State&quot; means the Member State in which the manager of a qualifying venture capital fund has its registered office;&apos;;</p>
+                                                </content>
+                                             </point>
+                                          </list>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(c)</num>
+                           <alinea>
+                              <content>
+                                 <p>point (m) is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <list>
+                                             <point>
+                                                <num>&apos;(m)</num>
+                                                <alinea>
+                                                   <content>
+                                                      <p>&quot;competent authority&quot; means:</p>
+                                                   </content>
+                                                </alinea>
+                                                <list>
+                                                   <point>
+                                                      <num>(i)</num>
+                                                      <content>
+                                                         <p>for managers as referred to in Article 2(1) of this Regulation, the competent authority referred to in point (a) of Article 3(3) of Directive 2011/61/EU;</p>
+                                                      </content>
+                                                   </point>
+                                                   <point>
+                                                      <num>(ii)</num>
+                                                      <content>
+                                                         <p>for managers as referred to in Article 2(2) of this Regulation, the competent authority referred to in Article 7(1) of Directive 2011/61/EU;</p>
+                                                      </content>
+                                                   </point>
+                                                   <point>
+                                                      <num>(iii)</num>
+                                                      <content>
+                                                         <p>for qualifying venture capital funds, the competent authority of the Member State in which the qualifying venture capital fund is established;&apos;;</p>
+                                                      </content>
+                                                   </point>
+                                                </list>
+                                             </point>
+                                          </list>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(d)</num>
+                           <alinea>
+                              <content>
+                                 <p>the following point is added:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <list>
+                                             <point>
+                                                <num>&apos;(n)</num>
+                                                <content>
+                                                   <p>&quot;competent authority of the host Member State&quot; means the authority of a Member State other than the home Member State in which the qualifying venture capital fund is marketed.&apos;.</p>
+                                                </content>
+                                             </point>
+                                          </list>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                     </list>
+                  </point>
+                  <point>
+                     <num>(3)</num>
+                     <alinea>
+                        <content>
+                           <p>In Article 7, point (f) is replaced by the following:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <list>
+                                       <point>
+                                          <num>&apos;(f)</num>
+                                          <content>
+                                             <p>treat their investors fairly. This shall not preclude more favourable treatment of private investors than of a public investor, provided that such treatment is compatible with State aid rules, in particular Article 21 of Commission Regulation (EU) No 651/2014<authorialNote placement="bottom" marker="10">
+                                                   <p>Commission Regulation (EU) No 651/2014 of 17 June 2014 declaring certain categories of aid compatible with the internal market in application of Articles 107 and 108 of the Treaty (OJ L 187, 26.6.2014, p. 1).&apos;.</p>
+                                                </authorialNote>, and is disclosed in the fund&apos;s rules or instruments of incorporation;</p>
+                                          </content>
+                                       </point>
+                                    </list>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(4)</num>
+                     <alinea>
+                        <content>
+                           <p>Article 10 is amended as follows:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <alinea>
+                              <content>
+                                 <p>paragraph 2 is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <paragraph>
+                                             <num>&apos;2.</num>
+                                             <content>
+                                                <p>Both internally managed qualifying venture capital funds and external managers of qualifying venture capital funds shall have an initial capital of EUR 50000.&apos;;</p>
+                                             </content>
+                                          </paragraph>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <alinea>
+                              <content>
+                                 <p>the following paragraphs are added:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <paragraph>
+                                             <num>&apos;3.</num>
+                                             <content>
+                                                <p>Own funds shall at all times amount to at least one eighth of the fixed overheads incurred by the manager in the preceding year. The competent authority of the home Member State may adjust that requirement in the event of a material change to the manager&apos;s business since the preceding year. Where the manager of a qualifying venture capital fund has not completed a year of business, the requirement shall amount to one eighth of the fixed overheads expected in its business plan, unless the competent authority of the home Member State requires an adjustment to that plan.</p>
+                                             </content>
+                                          </paragraph>
+                                          <paragraph>
+                                             <num>4.</num>
+                                             <content>
+                                                <p>Where the value of the qualifying venture capital funds managed by the manager exceeds EUR 250000000, the manager shall provide an additional amount of own funds. That additional amount shall be equal to 0,02 % of the amount by which the total value of the qualifying venture capital funds exceeds EUR 250000000.</p>
+                                             </content>
+                                          </paragraph>
+                                          <paragraph>
+                                             <num>5.</num>
+                                             <content>
+                                                <p>The competent authority of the home Member State may authorise the manager of qualifying venture capital funds not to provide up to 50 % of the additional amount of own funds referred to in paragraph 4 if that manager benefits from a guarantee for the same amount given by a credit institution or an insurance undertaking which has its registered office in a Member State, or in a third country where it is subject to prudential rules which the competent authority of the home Member State considers to be equivalent to those laid down in Union law.</p>
+                                             </content>
+                                          </paragraph>
+                                          <paragraph>
+                                             <num>6.</num>
+                                             <content>
+                                                <p>Own funds shall be invested in liquid assets or assets readily convertible to cash in the short term and shall not include speculative positions.&apos;.</p>
+                                             </content>
+                                          </paragraph>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                     </list>
+                  </point>
+                  <point>
+                     <num>(5)</num>
+                     <alinea>
+                        <content>
+                           <p>In Article 12, the following paragraph is added:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <paragraph>
+                                       <num>&apos;4.</num>
+                                       <content>
+                                          <p>The competent authority of the home Member State shall make available all information gathered under this Article to the competent authority of each qualifying venture capital fund concerned, to the competent authority of each host Member State concerned and to ESMA in a timely manner by means of the procedure referred to in Article 22.&apos;.</p>
+                                       </content>
+                                    </paragraph>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(6)</num>
+                     <alinea>
+                        <content>
+                           <p>In Article 13(1), point (b) is replaced by the following:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <list>
+                                       <point>
+                                          <num>&apos;(b)</num>
+                                          <content>
+                                             <p>the amount of own funds available to that manager for maintaining the adequate human and technical resources necessary for the proper management of its qualifying venture capital funds;&apos;.</p>
+                                          </content>
+                                       </point>
+                                    </list>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(7)</num>
+                     <alinea>
+                        <content>
+                           <p>Article 14 is amended as follows:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <content>
+                              <p>in paragraph 1, point (e) is deleted;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <content>
+                              <p>in paragraph 2, point (d) is deleted;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(c)</num>
+                           <alinea>
+                              <content>
+                                 <p>the following paragraphs are added:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <paragraph>
+                                             <num>&apos;4.</num>
+                                             <content>
+                                                <p>The competent authority of the home Member State shall inform the manager as referred to in paragraph 1 whether it has been registered as a manager of a qualifying venture capital fund no later than two months after it has provided all the information referred to in that paragraph.</p>
+                                             </content>
+                                          </paragraph>
+                                          <paragraph>
+                                             <num>5.</num>
+                                             <content>
+                                                <p>A registration in accordance with this Article shall constitute a registration for the purposes of Article 3(3) of Directive 2011/61/EU in respect of the management of qualifying venture capital funds.</p>
+                                             </content>
+                                          </paragraph>
+                                          <paragraph>
+                                             <num>6.</num>
+                                             <subparagraph>
+                                                <content>
+                                                   <p>A manager of a qualifying venture capital fund as referred to in this Article shall notify the competent authority of the home Member State of any material changes to the conditions for its initial registration in accordance with this Article before such changes are implemented.</p>
+                                                </content>
+                                             </subparagraph>
+                                             <subparagraph>
+                                                <content>
+                                                   <p>If the competent authority of the home Member State decides to impose restrictions or reject the changes referred to in the first subparagraph, it shall inform the manager of the qualifying venture capital fund, within one month of receipt of notification of those changes. The competent authority may extend that period by up to one month where it considers this to be necessary due to the specific circumstances of the case, after having notified the manager of the qualifying venture capital fund. The changes may be implemented if the relevant competent authority does not oppose the changes within the relevant assessment period.</p>
+                                                </content>
+                                             </subparagraph>
+                                          </paragraph>
+                                          <paragraph>
+                                             <num>7.</num>
+                                             <subparagraph>
+                                                <content>
+                                                   <p>In order to ensure the uniform application of this Article, ESMA may develop draft regulatory technical standards to further specify the information to be provided to the competent authorities in the application for registration as set out in paragraph 1 and to further specify the conditions as set out in paragraph 2.</p>
+                                                </content>
+                                             </subparagraph>
+                                             <subparagraph>
+                                                <content>
+                                                   <p>Power is delegated to the Commission to supplement this Regulation by adopting the regulatory technical standards referred to in the first subparagraph of this paragraph in accordance with Articles 10 to 14 of Regulation (EU) No 1095/2010.</p>
+                                                </content>
+                                             </subparagraph>
+                                          </paragraph>
+                                          <paragraph>
+                                             <num>8.</num>
+                                             <subparagraph>
+                                                <content>
+                                                   <p>In order to ensure the uniform application of this Article, ESMA may develop draft implementing technical standards on standard forms, templates and procedures for the provision of information to the competent authorities in the application for registration set out in paragraph 1 and the conditions set out in paragraph 2.</p>
+                                                </content>
+                                             </subparagraph>
+                                             <subparagraph>
+                                                <content>
+                                                   <p>Power is conferred on the Commission to adopt the implementing technical standards referred to in the first subparagraph of this paragraph in accordance with Article 15 of Regulation (EU) No 1095/2010.</p>
+                                                </content>
+                                             </subparagraph>
+                                          </paragraph>
+                                          <paragraph>
+                                             <num>9.</num>
+                                             <content>
+                                                <p>ESMA shall organise and conduct peer reviews in accordance with Article 30 of Regulation (EU) No 1095/2010 in order to strengthen the consistency of the registration processes carried out by competent authorities pursuant to this Regulation.&apos;.</p>
+                                             </content>
+                                          </paragraph>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                     </list>
+                  </point>
+                  <point>
+                     <num>(8)</num>
+                     <alinea>
+                        <content>
+                           <p>The following articles are inserted:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <article xml:id="art_d515e721">
+                                       <num>&apos;Article 14a</num>
+                                       <heading/>
+                                       <paragraph>
+                                          <num>1.</num>
+                                          <content>
+                                             <p>Managers of collective investment undertakings authorised under Article 6 of Directive 2011/61/EU shall apply for registration of the qualifying venture capital funds for which they intend to use the designation &quot;EuVECA&quot;.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>2.</num>
+                                          <subparagraph>
+                                             <content>
+                                                <p>The application for registration referred to in paragraph 1 shall be made to the competent authority of the qualifying venture capital fund and shall include the following:</p>
+                                             </content>
+                                          </subparagraph>
+                                          <list>
+                                             <point>
+                                                <num>(a)</num>
+                                                <content>
+                                                   <p>the rules or instruments of incorporation of the qualifying venture capital fund;</p>
+                                                </content>
+                                             </point>
+                                             <point>
+                                                <num>(b)</num>
+                                                <content>
+                                                   <p>information on the identity of the depositary;</p>
+                                                </content>
+                                             </point>
+                                             <point>
+                                                <num>(c)</num>
+                                                <content>
+                                                   <p>the information referred to in Article 14(1);</p>
+                                                </content>
+                                             </point>
+                                             <point>
+                                                <num>(d)</num>
+                                                <content>
+                                                   <p>a list of Member States in which the managers referred to in paragraph 1 have established, or intend to establish, qualifying venture capital funds.</p>
+                                                </content>
+                                             </point>
+                                          </list>
+                                          <subparagraph>
+                                             <content>
+                                                <p>For the purposes of point (c) of the first subparagraph, the information on the arrangements made for complying with the requirements of Chapter II shall refer to the arrangements made for complying with Articles 5 and 6 and points (c) and (i) of Article 13(1).</p>
+                                             </content>
+                                          </subparagraph>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>3.</num>
+                                          <subparagraph>
+                                             <content>
+                                                <p>Where the competent authority of a qualifying venture capital fund and the competent authority of the home Member State are different, the competent authority of the qualifying venture capital fund shall ask the competent authority of the home Member State whether the qualifying venture capital fund falls within the scope of the manager&apos;s authorisation to manage AIFs and whether the conditions laid down in point (a) of Article 14(2) are fulfilled.</p>
+                                             </content>
+                                          </subparagraph>
+                                          <subparagraph>
+                                             <content>
+                                                <p>The competent authority of the qualifying venture capital fund may also ask the competent authority of the home Member State for clarification and information as regards the documentation referred to in paragraph 2.</p>
+                                             </content>
+                                          </subparagraph>
+                                          <subparagraph>
+                                             <content>
+                                                <p>The competent authority of the home Member State shall provide an answer within one month of the date of receipt of the request submitted by the competent authority of the qualifying venture capital fund.</p>
+                                             </content>
+                                          </subparagraph>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>4.</num>
+                                          <content>
+                                             <p>Managers as referred to in paragraph 1 shall not be required to provide information or documents which they have already provided under Directive 2011/61/EU.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>5.</num>
+                                          <content>
+                                             <p>Having assessed the documentation received in accordance with paragraph 2 and having received any clarification and information referred to in paragraph 3, the competent authority of the qualifying venture capital fund shall register a fund as a qualifying venture capital fund if the manager of that fund meets the conditions laid down in Article 14(2).</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>6.</num>
+                                          <content>
+                                             <p>The competent authority of a qualifying venture capital fund shall inform the manager as referred to in paragraph 1 whether that fund has been registered as a qualifying venture capital fund no later than two months after that manager has provided all the documentation referred to in paragraph 2.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>7.</num>
+                                          <content>
+                                             <p>Registration under this Article shall be valid in the entire territory of the Union and shall allow the marketing of those funds throughout the Union under the designation &quot;EuVECA&quot;.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>8.</num>
+                                          <subparagraph>
+                                             <content>
+                                                <p>In order to ensure the uniform application of this Article, ESMA may develop draft regulatory technical standards to further specify the information to be provided to the competent authorities in accordance with paragraph 2.</p>
+                                             </content>
+                                          </subparagraph>
+                                          <subparagraph>
+                                             <content>
+                                                <p>Power is delegated to the Commission to supplement this Regulation by adopting the regulatory technical standards referred to in the first subparagraph of this paragraph in accordance with Articles 10 to 14 of Regulation (EU) No 1095/2010.</p>
+                                             </content>
+                                          </subparagraph>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>9.</num>
+                                          <subparagraph>
+                                             <content>
+                                                <p>In order to ensure the uniform application of this Article, ESMA may develop draft implementing technical standards on standard forms, templates and procedures for the provision of information to the competent authorities in accordance with paragraph 2.</p>
+                                             </content>
+                                          </subparagraph>
+                                          <subparagraph>
+                                             <content>
+                                                <p>Power is conferred on the Commission to adopt the implementing technical standards referred to in the first subparagraph of this paragraph in accordance with Article 15 of Regulation (EU) No 1095/2010.</p>
+                                             </content>
+                                          </subparagraph>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>10.</num>
+                                          <content>
+                                             <p>ESMA shall organise and conduct peer reviews in accordance with Article 30 of Regulation (EU) No 1095/2010 in order to strengthen the consistency of the registration processes carried out by competent authorities pursuant to this Regulation.</p>
+                                          </content>
+                                       </paragraph>
+                                    </article>
+                                    <article xml:id="art_d515e821">
+                                       <num>Article 14b</num>
+                                       <heading/>
+                                       <paragraph>
+                                          <content>
+                                             <p>Member States shall ensure that any refusal to register a manager as referred to in Article 14 or a fund as referred to in Article 14a shall be substantiated, shall be notified to the managers referred to in those Articles and shall be subject to a right of appeal before a national judicial, administrative or other authority. That right of appeal shall also apply in respect of registration where no decision on registration has been taken within two months of the manager having provided all of the required information. Member States may require that a manager exhaust any administrative preliminary remedy provided for under national law before exercising that right of appeal.&apos;.</p>
+                                          </content>
+                                       </paragraph>
+                                    </article>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(9)</num>
+                     <alinea>
+                        <content>
+                           <p>In Article 16, paragraphs 1 and 2 are replaced by the following:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <paragraph>
+                                       <num>&apos;1.</num>
+                                       <subparagraph>
+                                          <content>
+                                             <p>The competent authority of the home Member State shall notify the competent authorities of the host Member States and ESMA immediately of any registration or removal from the register of a manager of a qualifying venture capital fund, of any addition to or removal from the register of a qualifying venture capital fund, and of any addition to or removal from the list of Member States in which a manager of a qualifying venture capital fund intends to market those funds.</p>
+                                          </content>
+                                       </subparagraph>
+                                       <subparagraph>
+                                          <content>
+                                             <p>For the purposes of the first subparagraph, the competent authority of a qualifying venture capital fund that has been registered in accordance with Article 14a shall immediately notify the competent authority of the home Member State, the competent authorities of the host Member States, and ESMA, of any addition to or any removal from the register of a qualifying venture capital fund or of any addition to or removal from the list of Member States in which the manager of that qualifying venture capital fund intends to market that fund.</p>
+                                          </content>
+                                       </subparagraph>
+                                    </paragraph>
+                                    <paragraph>
+                                       <num>2.</num>
+                                       <content>
+                                          <p>The competent authorities of the host Member States shall not impose on the managers of qualifying venture capital funds any requirements or administrative procedures in relation to the marketing of their qualifying venture capital funds, nor shall they require any approval of that marketing prior to its commencement. Such requirements or administrative procedures include fees and other charges.&apos;.</p>
+                                       </content>
+                                    </paragraph>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(10)</num>
+                     <alinea>
+                        <content>
+                           <p>The following article is inserted:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <article xml:id="art_d515e861">
+                                       <num>&apos;Article 16a</num>
+                                       <heading/>
+                                       <paragraph>
+                                          <num>1.</num>
+                                          <content>
+                                             <p>For the purpose of organising and conducting peer reviews in accordance with Article 14(9) and Article 14a(10), the competent authority of the home Member State or, where different, the competent authority of the qualifying venture capital fund, shall ensure that the final information on the basis of which the registration was granted as set out in Article 14(1) and (2) and Article 14a(2) is made available to ESMA in a timely manner after the registration. Such information shall be made available by means of the procedure referred to in Article 22.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>2.</num>
+                                          <subparagraph>
+                                             <content>
+                                                <p>In order to ensure the uniform application of this Article, ESMA may develop draft regulatory technical standards to further specify the information to be made available to ESMA in accordance with paragraph 1.</p>
+                                             </content>
+                                          </subparagraph>
+                                          <subparagraph>
+                                             <content>
+                                                <p>Power is delegated to the Commission to supplement this Regulation by adopting the regulatory technical standards referred to in the first subparagraph of this paragraph in accordance with Articles 10 to 14 of Regulation (EU) No 1095/2010.</p>
+                                             </content>
+                                          </subparagraph>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>3.</num>
+                                          <subparagraph>
+                                             <content>
+                                                <p>In order to ensure the uniform application of this Article, ESMA shall develop draft implementing technical standards on standard forms, templates and procedures for the provision of information to be made available to ESMA in accordance with paragraph 1.</p>
+                                             </content>
+                                          </subparagraph>
+                                          <subparagraph>
+                                             <content>
+                                                <p>Power is conferred on the Commission to adopt the implementing technical standards referred to in the first subparagraph of this paragraph in accordance with Article 15 of Regulation (EU) No 1095/2010.&apos;.</p>
+                                             </content>
+                                          </subparagraph>
+                                       </paragraph>
+                                    </article>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(11)</num>
+                     <alinea>
+                        <content>
+                           <p>Article 17 is replaced by the following:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <article xml:id="art_d515e894">
+                                       <num>&apos;Article 17</num>
+                                       <heading/>
+                                       <paragraph>
+                                          <num>1.</num>
+                                          <content>
+                                             <p>ESMA shall maintain a central database that is publicly accessible on the internet and that lists all managers of qualifying venture capital funds that use the designation &quot;EuVECA&quot; and the qualifying venture capital funds for which they use that designation, as well as the countries in which those funds are marketed.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>2.</num>
+                                          <content>
+                                             <p>On its website, ESMA shall provide weblinks to the relevant information regarding third countries that fulfil the applicable requirement under point (d)(iv) of the first paragraph of Article 3.&apos;.</p>
+                                          </content>
+                                       </paragraph>
+                                    </article>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(12)</num>
+                     <alinea>
+                        <content>
+                           <p>In Article 18, the following paragraphs are inserted:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <paragraph>
+                                       <num>&apos;1a.</num>
+                                       <content>
+                                          <p>For managers as referred to in Article 2(2), the competent authority of the home Member State shall be responsible for supervising the compliance with and the adequacy of the arrangements and of the organisation of the manager, so that that manager is in a position to comply with the obligations and rules which relate to the constitution and functioning of all the qualifying venture capital funds that it manages.</p>
+                                       </content>
+                                    </paragraph>
+                                    <paragraph>
+                                       <num>1b.</num>
+                                       <content>
+                                          <p>For a qualifying venture capital fund managed by a manager as referred to in Article 2(2), the competent authority of the qualifying venture capital fund shall be responsible for supervising the qualifying venture capital fund&apos;s compliance with the rules laid down in Articles 5 and 6 and in points (c) and (i) of Article 13(1). The competent authority of the qualifying venture capital fund shall also be responsible for supervising that fund&apos;s compliance with the obligations set out in the fund&apos;s rules or instruments of incorporation.&apos;.</p>
+                                       </content>
+                                    </paragraph>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(13)</num>
+                     <alinea>
+                        <content>
+                           <p>In Article 19, the following paragraph is added:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <paragraph>
+                                       <content>
+                                          <p>&apos;ESMA shall organise and conduct peer reviews in accordance with Article 30 of Regulation (EU) No 1095/2010 in order to strengthen the consistency of the processes in relation to supervisory and investigatory powers carried out by competent authorities pursuant to this Regulation.&apos;.</p>
+                                       </content>
+                                    </paragraph>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(14)</num>
+                     <alinea>
+                        <content>
+                           <p>Article 20 is amended as follows:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <content>
+                              <p>in paragraph 2, &apos;16 May 2015&apos; is replaced by &apos;2 March 2020&apos;;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <alinea>
+                              <content>
+                                 <p>the following paragraph is added:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <paragraph>
+                                             <num>&apos;3.</num>
+                                             <subparagraph>
+                                                <content>
+                                                   <p>Managers as referred to in Article 2(1) shall comply at all times with this Regulation and shall also be liable for any infringements of this Regulation, including for any losses or damages resulting therefrom.</p>
+                                                </content>
+                                             </subparagraph>
+                                             <subparagraph>
+                                                <content>
+                                                   <p>Managers as referred to in Article 2(2) shall comply at all times with Directive 2011/61/EU. They shall be responsible for ensuring compliance with this Regulation and shall be liable in accordance with Directive 2011/61/EU. Those managers shall also be liable for any losses or damages resulting from the infringement of this Regulation.&apos;.</p>
+                                                </content>
+                                             </subparagraph>
+                                          </paragraph>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                     </list>
+                  </point>
+                  <point>
+                     <num>(15)</num>
+                     <alinea>
+                        <content>
+                           <p>Article 21 is amended as follows:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <alinea>
+                              <content>
+                                 <p>paragraph 1 is amended as follows:</p>
+                              </content>
+                           </alinea>
+                           <list>
+                              <point>
+                                 <num>(i)</num>
+                                 <alinea>
+                                    <content>
+                                       <p>the introductory part is replaced by the following:</p>
+                                    </content>
+                                 </alinea>
+                                 <alinea>
+                                    <content>
+                                       <p>
+                                          <mod>
+                                             <quotedStructure startQuote="" endQuote="">
+                                                <paragraph>
+                                                   <num>&apos;1.</num>
+                                                   <content>
+                                                      <p>While respecting the principle of proportionality, the competent authority shall take the appropriate measures referred to in paragraph 2, as applicable, where the manager of a qualifying venture capital fund:&apos;;</p>
+                                                   </content>
+                                                </paragraph>
+                                             </quotedStructure>
+                                          </mod>
+                                       </p>
+                                    </content>
+                                 </alinea>
+                              </point>
+                              <point>
+                                 <num>(ii)</num>
+                                 <alinea>
+                                    <content>
+                                       <p>point (c) is replaced by the following:</p>
+                                    </content>
+                                 </alinea>
+                                 <alinea>
+                                    <content>
+                                       <p>
+                                          <mod>
+                                             <quotedStructure startQuote="" endQuote="">
+                                                <list>
+                                                   <point>
+                                                      <num>&apos;(c)</num>
+                                                      <content>
+                                                         <p>uses the designation &quot;EuVECA&quot; but is not registered in accordance with Article 14, or the qualifying venture capital fund is not registered in accordance with Article 14a;&apos;;</p>
+                                                      </content>
+                                                   </point>
+                                                </list>
+                                             </quotedStructure>
+                                          </mod>
+                                       </p>
+                                    </content>
+                                 </alinea>
+                              </point>
+                              <point>
+                                 <num>(iii)</num>
+                                 <alinea>
+                                    <content>
+                                       <p>point (e) is replaced by the following:</p>
+                                    </content>
+                                 </alinea>
+                                 <alinea>
+                                    <content>
+                                       <p>
+                                          <mod>
+                                             <quotedStructure startQuote="" endQuote="">
+                                                <list>
+                                                   <point>
+                                                      <num>&apos;(e)</num>
+                                                      <content>
+                                                         <p>has obtained registration through false statements or any other irregular means, in breach of Article 14 or Article 14a;&apos;;</p>
+                                                      </content>
+                                                   </point>
+                                                </list>
+                                             </quotedStructure>
+                                          </mod>
+                                       </p>
+                                    </content>
+                                 </alinea>
+                              </point>
+                           </list>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <alinea>
+                              <content>
+                                 <p>paragraphs 2, 3 and 4 are replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <paragraph>
+                                             <num>&apos;2.</num>
+                                             <subparagraph>
+                                                <content>
+                                                   <p>In the cases referred to in paragraph 1, the competent authority shall, as appropriate:</p>
+                                                </content>
+                                             </subparagraph>
+                                             <list>
+                                                <point>
+                                                   <num>(a)</num>
+                                                   <content>
+                                                      <p>take measures to ensure that the manager of a qualifying venture capital fund concerned complies with Articles 5 and 6, points (a) and (b) of Article 7 and Articles 12 to 14a, as applicable;</p>
+                                                   </content>
+                                                </point>
+                                                <point>
+                                                   <num>(b)</num>
+                                                   <content>
+                                                      <p>prohibit the manager of the qualifying venture capital fund concerned from using the designation &quot;EuVECA&quot; and remove that manager, or the qualifying venture capital fund concerned, from the register.</p>
+                                                   </content>
+                                                </point>
+                                             </list>
+                                          </paragraph>
+                                          <paragraph>
+                                             <num>3.</num>
+                                             <content>
+                                                <p>The competent authority referred to in paragraph 1 shall inform any other relevant competent authority, the competent authorities of any host Member States in accordance with point (d) of Article 14(1), and ESMA, without delay of the removal of a manager of a qualifying venture capital fund or of a qualifying venture capital fund from the register.</p>
+                                             </content>
+                                          </paragraph>
+                                          <paragraph>
+                                             <num>4.</num>
+                                             <content>
+                                                <p>The right to market one or more qualifying venture capital funds under the designation &quot;EuVECA&quot; in the Union shall expire with immediate effect from the date of the decision of the competent authority referred to in point (b) of paragraph 2.&apos;;</p>
+                                             </content>
+                                          </paragraph>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(c)</num>
+                           <alinea>
+                              <content>
+                                 <p>the following paragraph is added:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <paragraph>
+                                             <num>&apos;5.</num>
+                                             <subparagraph>
+                                                <content>
+                                                   <p>The competent authority of the home Member State or of the host Member State, as applicable, shall inform ESMA without delay if it has clear and demonstrable grounds for believing that the manager of a qualifying venture capital fund has committed any of the breaches referred to in points (a) to (i) of Article 21(1).</p>
+                                                </content>
+                                             </subparagraph>
+                                             <subparagraph>
+                                                <content>
+                                                   <p>ESMA may, while respecting the principle of proportionality, issue recommendations in accordance with Article 17 of Regulation (EU) No 1095/2010 addressed to the competent authorities concerned to take any of the measures referred to in paragraph 2 of this Article, or to refrain from taking such measures.&apos;.</p>
+                                                </content>
+                                             </subparagraph>
+                                          </paragraph>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                     </list>
+                  </point>
+                  <point>
+                     <num>(16)</num>
+                     <alinea>
+                        <content>
+                           <p>The following article is inserted:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <article xml:id="art_d515e1138">
+                                       <num>&apos;Article 21a</num>
+                                       <heading/>
+                                       <paragraph>
+                                          <content>
+                                             <p>The powers conferred on competent authorities in accordance with Directive 2011/61/EU, including those related to penalties, shall also be exercised with respect to the managers referred to in Article 2(2) of this Regulation.&apos;.</p>
+                                          </content>
+                                       </paragraph>
+                                    </article>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(17)</num>
+                     <alinea>
+                        <content>
+                           <p>Article 26 is amended as follows:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <content>
+                              <p>in point (a) of paragraph 2, &apos;22 July 2017&apos; is replaced by &apos;2 March 2022&apos;;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <alinea>
+                              <content>
+                                 <p>the following paragraph is added:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <paragraph>
+                                             <num>&apos;4.</num>
+                                             <subparagraph>
+                                                <content>
+                                                   <p>In parallel with the review in accordance with Article 69 of Directive 2011/61/EU, in particular as regards managers registered under point (b) of Article 3(2) of that Directive, the Commission shall analyse:</p>
+                                                </content>
+                                             </subparagraph>
+                                             <list>
+                                                <point>
+                                                   <num>(a)</num>
+                                                   <content>
+                                                      <p>the management of qualifying venture capital funds and the appropriateness of introducing changes to the legal framework, including the option of a management passport; and</p>
+                                                   </content>
+                                                </point>
+                                                <point>
+                                                   <num>(b)</num>
+                                                   <content>
+                                                      <p>the suitability of the definition of marketing for qualifying venture capital funds and the impact that that definition and differing national interpretations thereof have on the operation and viability of qualifying venture capital funds and on the cross-border distribution of such funds.</p>
+                                                   </content>
+                                                </point>
+                                             </list>
+                                             <subparagraph>
+                                                <content>
+                                                   <p>Following that review, the Commission shall submit a report to the European Parliament and to the Council, accompanied, if appropriate, by a legislative proposal.&apos;.</p>
+                                                </content>
+                                             </subparagraph>
+                                          </paragraph>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                     </list>
+                  </point>
+               </list>
+            </paragraph>
+         </article>
+         <article xml:id="art_d515e1202" leos:compliant="false">
+            <num>Article 2</num>
+            <heading/>
+            <paragraph>
+               <subparagraph>
+                  <content>
+                     <p>Regulation (EU) No 346/2013 is amended as follows:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(1)</num>
+                     <alinea>
+                        <content>
+                           <p>In Article 2, paragraph 2 is replaced by the following:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <paragraph>
+                                       <num>&apos;2.</num>
+                                       <content>
+                                          <p>Articles 3 to 6, Articles 10 and 13, points (d), (e) and (f) of Article 14(1), Articles 15a to 20, the second subparagraph of Article 21(3) and Articles 22 and 22a of this Regulation shall apply to managers of collective investment undertakings authorised under Article 6 of Directive 2011/61/EU that manage portfolios of qualifying social entrepreneurship funds and intend to use the designation &quot;EuSEF&quot; in relation to the marketing of those funds in the Union.&apos;.</p>
+                                       </content>
+                                    </paragraph>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(2)</num>
+                     <alinea>
+                        <content>
+                           <p>In Article 3(1), the first subparagraph is amended as follows:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <alinea>
+                              <content>
+                                 <p>in point (d), point (ii) is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <list>
+                                             <point>
+                                                <num>&apos;(ii)</num>
+                                                <alinea>
+                                                   <content>
+                                                      <p>has the achievement of measurable, positive social impacts as its primary objective in accordance with its articles of association, statutes or any other rules or instruments of incorporation establishing the business, where the undertaking:</p>
+                                                   </content>
+                                                </alinea>
+                                                <list>
+                                                   <indent>
+                                                      <num>-</num>
+                                                      <content>
+                                                         <p>provides services or goods which generate a social return;</p>
+                                                      </content>
+                                                   </indent>
+                                                   <indent>
+                                                      <num>-</num>
+                                                      <content>
+                                                         <p>employs a method of production of goods or services that embodies its social objective; or</p>
+                                                      </content>
+                                                   </indent>
+                                                   <indent>
+                                                      <num>-</num>
+                                                      <content>
+                                                         <p>provides financial support exclusively to social undertakings as defined in the first two indents;&apos;;</p>
+                                                      </content>
+                                                   </indent>
+                                                </list>
+                                             </point>
+                                          </list>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <alinea>
+                              <content>
+                                 <p>point (k) is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <list>
+                                             <point>
+                                                <num>&apos;(k)</num>
+                                                <content>
+                                                   <p>&quot;home Member State&quot; means the Member State in which the manager of a qualifying social entrepreneurship fund has its registered office;&apos;;</p>
+                                                </content>
+                                             </point>
+                                          </list>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(c)</num>
+                           <alinea>
+                              <content>
+                                 <p>point (m) is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <list>
+                                             <point>
+                                                <num>&apos;(m)</num>
+                                                <alinea>
+                                                   <content>
+                                                      <p>&quot;competent authority&quot; means:</p>
+                                                   </content>
+                                                </alinea>
+                                                <list>
+                                                   <point>
+                                                      <num>(i)</num>
+                                                      <content>
+                                                         <p>for managers as referred to in Article 2(1) of this Regulation, the competent authority referred to in point (a) of Article 3(3) of Directive 2011/61/EU;</p>
+                                                      </content>
+                                                   </point>
+                                                   <point>
+                                                      <num>(ii)</num>
+                                                      <content>
+                                                         <p>for managers as referred to in Article 2(2) of this Regulation, the competent authority referred to in Article 7(1) of Directive 2011/61/EU;</p>
+                                                      </content>
+                                                   </point>
+                                                   <point>
+                                                      <num>(iii)</num>
+                                                      <content>
+                                                         <p>for qualifying social entrepreneurship funds, the competent authority of the Member State in which the qualifying social entrepreneurship fund is established;&apos;;</p>
+                                                      </content>
+                                                   </point>
+                                                </list>
+                                             </point>
+                                          </list>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(d)</num>
+                           <alinea>
+                              <content>
+                                 <p>the following point is added:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <list>
+                                             <point>
+                                                <num>&apos;(n)</num>
+                                                <content>
+                                                   <p>&quot;competent authority of the host Member State&quot; means the authority of a Member State, other than the home Member State, in which the qualifying social entrepreneurship fund is marketed.&apos;.</p>
+                                                </content>
+                                             </point>
+                                          </list>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                     </list>
+                  </point>
+                  <point>
+                     <num>(3)</num>
+                     <alinea>
+                        <content>
+                           <p>Article 11 is amended as follows:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <alinea>
+                              <content>
+                                 <p>paragraph 2 is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <paragraph>
+                                             <num>&apos;2.</num>
+                                             <content>
+                                                <p>Both internally managed qualifying social entrepreneurship funds and external managers of qualifying social entrepreneurship funds shall have an initial capital of EUR 50000.&apos;;</p>
+                                             </content>
+                                          </paragraph>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <alinea>
+                              <content>
+                                 <p>the following paragraphs are added:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <paragraph>
+                                             <num>&apos;3.</num>
+                                             <content>
+                                                <p>Own funds shall at all times amount to at least one eighth of the fixed overheads incurred by the manager in the preceding year. The competent authority of the home Member State may adjust that requirement in the event of a material change to the manager&apos;s business since the preceding year. Where the manager of a qualifying social entrepreneurship fund has not completed a year of business, the requirement shall amount to one eighth of the fixed overheads expected in its business plan, unless the competent authority of the home Member State requires an adjustment to that plan.</p>
+                                             </content>
+                                          </paragraph>
+                                          <paragraph>
+                                             <num>4.</num>
+                                             <content>
+                                                <p>Where the value of the qualifying social entrepreneurship funds managed by the manager exceeds EUR 250000000, the manager shall provide an additional amount of own funds. That additional amount shall be equal to 0,02 % of the amount by which the total value of the qualifying social entrepreneurship funds exceeds EUR 250000000.</p>
+                                             </content>
+                                          </paragraph>
+                                          <paragraph>
+                                             <num>5.</num>
+                                             <content>
+                                                <p>The competent authority of the home Member State may authorise the manager of qualifying social entrepreneurship fund not to provide up to 50 % of the additional amount of own funds referred to in paragraph 4 if that manager benefits from a guarantee for the same amount given by a credit institution or an insurance undertaking which has its registered office in a Member State, or in a third country where it is subject to prudential rules which the competent authority of the home Member State considers to be equivalent to those laid down in Union law.</p>
+                                             </content>
+                                          </paragraph>
+                                          <paragraph>
+                                             <num>6.</num>
+                                             <content>
+                                                <p>Own funds shall be invested in liquid assets or assets readily convertible to cash in the short term and shall not include speculative positions.&apos;.</p>
+                                             </content>
+                                          </paragraph>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                     </list>
+                  </point>
+                  <point>
+                     <num>(4)</num>
+                     <alinea>
+                        <content>
+                           <p>Article 13 is amended as follows:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <alinea>
+                              <content>
+                                 <p>paragraph 2 is amended as follows:</p>
+                              </content>
+                           </alinea>
+                           <list>
+                              <point>
+                                 <num>(i)</num>
+                                 <alinea>
+                                    <content>
+                                       <p>point (e) is replaced by the following:</p>
+                                    </content>
+                                 </alinea>
+                                 <alinea>
+                                    <content>
+                                       <p>
+                                          <mod>
+                                             <quotedStructure startQuote="" endQuote="">
+                                                <list>
+                                                   <point>
+                                                      <num>&apos;(e)</num>
+                                                      <content>
+                                                         <p>information on the nature, value and purpose of the investments other than qualifying investments referred to in Article 5(1);&apos;;</p>
+                                                      </content>
+                                                   </point>
+                                                </list>
+                                             </quotedStructure>
+                                          </mod>
+                                       </p>
+                                    </content>
+                                 </alinea>
+                              </point>
+                              <point>
+                                 <num>(ii)</num>
+                                 <alinea>
+                                    <content>
+                                       <p>the following point is added:</p>
+                                    </content>
+                                 </alinea>
+                                 <alinea>
+                                    <content>
+                                       <p>
+                                          <mod>
+                                             <quotedStructure startQuote="" endQuote="">
+                                                <list>
+                                                   <point>
+                                                      <num>&apos;(f)</num>
+                                                      <content>
+                                                         <p>a description of how environmental and climate-related risks are taken into account in the investment approach of the qualifying social entrepreneurship funds.&apos;;</p>
+                                                      </content>
+                                                   </point>
+                                                </list>
+                                             </quotedStructure>
+                                          </mod>
+                                       </p>
+                                    </content>
+                                 </alinea>
+                              </point>
+                           </list>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <alinea>
+                              <content>
+                                 <p>the following paragraph is added:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <paragraph>
+                                             <num>&apos;5.</num>
+                                             <content>
+                                                <p>The competent authority of the home Member State shall make available all information gathered under this Article to the competent authority of each qualifying social entrepreneurship fund concerned, to the competent authority of each host Member State concerned and to ESMA in a timely manner by means of the procedure referred to in Article 23.&apos;.</p>
+                                             </content>
+                                          </paragraph>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                     </list>
+                  </point>
+                  <point>
+                     <num>(5)</num>
+                     <alinea>
+                        <content>
+                           <p>In Article 14(1), point (b) is replaced by the following:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <list>
+                                       <point>
+                                          <num>&apos;(b)</num>
+                                          <content>
+                                             <p>the amount of own funds available to that manager for maintaining the adequate human and technical resources necessary for the proper management of its qualifying social entrepreneurship funds;&apos;.</p>
+                                          </content>
+                                       </point>
+                                    </list>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(6)</num>
+                     <alinea>
+                        <content>
+                           <p>Article 15 is amended as follows:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <content>
+                              <p>in paragraph 1, point (e) is deleted;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <content>
+                              <p>in paragraph 2, point (d) is deleted;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(c)</num>
+                           <alinea>
+                              <content>
+                                 <p>the following paragraphs are added:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <paragraph>
+                                             <num>&apos;4.</num>
+                                             <content>
+                                                <p>The competent authority of the home Member State shall inform the manager as referred to in paragraph 1 whether it has been registered as a manager of a qualifying social entrepreneurship fund no later than two months after it has provided all the information referred to in that paragraph.</p>
+                                             </content>
+                                          </paragraph>
+                                          <paragraph>
+                                             <num>5.</num>
+                                             <content>
+                                                <p>A registration in accordance with this Article shall constitute a registration for the purposes of Article 3(3) of Directive 2011/61/EU in respect of the management of qualifying social entrepreneurship funds.</p>
+                                             </content>
+                                          </paragraph>
+                                          <paragraph>
+                                             <num>6.</num>
+                                             <subparagraph>
+                                                <content>
+                                                   <p>A manager of a qualifying social entrepreneurship fund as referred to in this Article shall notify the competent authority of the home Member State of any material changes to the conditions for its initial registration in accordance with this Article before such changes are implemented.</p>
+                                                </content>
+                                             </subparagraph>
+                                             <subparagraph>
+                                                <content>
+                                                   <p>If the competent authority of the home Member State decides to impose restrictions or reject the changes referred to in the first subparagraph, it shall inform the manager of the qualifying social entrepreneurship fund within one month of receipt of notification of those changes. The competent authority may extend that period by up to one month where it considers this to be necessary due to the specific circumstances of the case, after having notified the manager of the qualifying social entrepreneurship fund. The changes may be implemented if the relevant competent authority does not oppose the changes within the relevant assessment period.</p>
+                                                </content>
+                                             </subparagraph>
+                                          </paragraph>
+                                          <paragraph>
+                                             <num>7.</num>
+                                             <subparagraph>
+                                                <content>
+                                                   <p>In order to ensure the uniform application of this Article, ESMA may develop draft regulatory technical standards to further specify the information to be provided to the competent authorities in the application for registration as set out in paragraph 1 and to further specify the conditions as set out in paragraph 2.</p>
+                                                </content>
+                                             </subparagraph>
+                                             <subparagraph>
+                                                <content>
+                                                   <p>Power is delegated to the Commission to supplement this Regulation by adopting the regulatory technical standards referred to in the first subparagraph of this paragraph in accordance with Articles 10 to 14 of Regulation (EU) No 1095/2010.</p>
+                                                </content>
+                                             </subparagraph>
+                                          </paragraph>
+                                          <paragraph>
+                                             <num>8.</num>
+                                             <subparagraph>
+                                                <content>
+                                                   <p>In order to ensure the uniform application of this Article, ESMA may develop draft implementing technical standards on standard forms, templates and procedures for the provision of information to the competent authorities in application for registration set out in paragraph 1 and the conditions set out in paragraph 2.</p>
+                                                </content>
+                                             </subparagraph>
+                                             <subparagraph>
+                                                <content>
+                                                   <p>Power is conferred on the Commission to adopt the implementing technical standards referred to in the first subparagraph of this paragraph in accordance with Article 15 of Regulation (EU) No 1095/2010.</p>
+                                                </content>
+                                             </subparagraph>
+                                          </paragraph>
+                                          <paragraph>
+                                             <num>9.</num>
+                                             <content>
+                                                <p>ESMA shall organise and conduct peer reviews in accordance with Article 30 of Regulation (EU) No 1095/2010 in order to strengthen the consistency of the registration processes carried out by competent authorities pursuant to this Regulation.&apos;.</p>
+                                             </content>
+                                          </paragraph>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                     </list>
+                  </point>
+                  <point>
+                     <num>(7)</num>
+                     <alinea>
+                        <content>
+                           <p>The following articles are inserted:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <article xml:id="art_d515e1576">
+                                       <num>&apos;Article 15a</num>
+                                       <heading/>
+                                       <paragraph>
+                                          <num>1.</num>
+                                          <content>
+                                             <p>Managers of collective investment undertakings authorised under Article 6 of Directive 2011/61/EU shall apply for registration of the qualifying social entrepreneurship funds for which they intend to use the designation &quot;EuSEF&quot;.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>2.</num>
+                                          <subparagraph>
+                                             <content>
+                                                <p>The application for registration referred to in paragraph 1 shall be made to the competent authority of the qualifying social entrepreneurship fund and shall include the following:</p>
+                                             </content>
+                                          </subparagraph>
+                                          <list>
+                                             <point>
+                                                <num>(a)</num>
+                                                <content>
+                                                   <p>the rules or instruments of incorporation of the qualifying social entrepreneurship fund;</p>
+                                                </content>
+                                             </point>
+                                             <point>
+                                                <num>(b)</num>
+                                                <content>
+                                                   <p>information on the identity of the depositary;</p>
+                                                </content>
+                                             </point>
+                                             <point>
+                                                <num>(c)</num>
+                                                <content>
+                                                   <p>the information referred to in Article 15(1);</p>
+                                                </content>
+                                             </point>
+                                             <point>
+                                                <num>(d)</num>
+                                                <content>
+                                                   <p>a list of Member States in which the managers referred to in paragraph 1 have established, or intend to establish, qualifying social entrepreneurship funds.</p>
+                                                </content>
+                                             </point>
+                                          </list>
+                                          <subparagraph>
+                                             <content>
+                                                <p>For the purposes of point (c) of the first subparagraph, the information on the arrangements made for complying with the requirements of Chapter II shall refer to the arrangements made for complying with Articles 5, 6 and 10, Article 13(2) and points (d), (e) and (f) of Article 14(1).</p>
+                                             </content>
+                                          </subparagraph>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>3.</num>
+                                          <subparagraph>
+                                             <content>
+                                                <p>Where the competent authority of a qualifying social entrepreneurship fund and the competent authority of the home Member State are different, the competent authority of the qualifying social entrepreneurship fund shall ask the competent authority of the home Member State whether the qualifying social entrepreneurship fund falls within the scope of the manager&apos;s authorisation to manage AIFs and whether the conditions laid down in point (a) of Article 15(2) are fulfilled.</p>
+                                             </content>
+                                          </subparagraph>
+                                          <subparagraph>
+                                             <content>
+                                                <p>The competent authority of the qualifying social entrepreneurship fund may also ask the competent authority of the home Member State for clarification and information as regards the documentation referred to in paragraph 2.</p>
+                                             </content>
+                                          </subparagraph>
+                                          <subparagraph>
+                                             <content>
+                                                <p>The competent authority of the home Member State shall provide an answer within one month of the date of receipt of the request by the competent authority of the qualifying social entrepreneurship fund.</p>
+                                             </content>
+                                          </subparagraph>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>4.</num>
+                                          <content>
+                                             <p>Managers as referred to in paragraph 1 shall not be required to provide information or documents which they have already provided under Directive 2011/61/EU.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>5.</num>
+                                          <content>
+                                             <p>Having assessed the documentation received in accordance with paragraph 2 and having received any clarification and information referred to in paragraph 3, the competent authority of the qualifying social entrepreneurship fund shall register a fund as a qualifying social entrepreneurship fund if the manager of that fund meets the conditions laid down in Article 15(2).</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>6.</num>
+                                          <content>
+                                             <p>The competent authority of a qualifying social entrepreneurship fund shall inform the manager as referred to in paragraph 1 whether that fund has been registered as a qualifying social entrepreneurship fund no later than two months after that manager has provided all the documentation referred to in paragraph 2.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>7.</num>
+                                          <content>
+                                             <p>Registration under this Article shall be valid in the entire territory of the Union and shall allow the marketing of those funds throughout the Union under the designation &quot;EuSEF&quot;.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>8.</num>
+                                          <subparagraph>
+                                             <content>
+                                                <p>In order to ensure the uniform application of this Article, ESMA may develop draft regulatory technical standards to further specify the information to be provided to the competent authorities in accordance with paragraph 2.</p>
+                                             </content>
+                                          </subparagraph>
+                                          <subparagraph>
+                                             <content>
+                                                <p>Power is delegated to the Commission to supplement this Regulation by adopting the regulatory technical standards referred to in the first subparagraph of this paragraph in accordance with Articles 10 to 14 of Regulation (EU) No 1095/2010.</p>
+                                             </content>
+                                          </subparagraph>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>9.</num>
+                                          <subparagraph>
+                                             <content>
+                                                <p>In order to ensure the uniform application of this Article, ESMA may develop draft implementing technical standards on standard forms, templates and procedures for the provision of information to the competent authorities in accordance with paragraph 2.</p>
+                                             </content>
+                                          </subparagraph>
+                                          <subparagraph>
+                                             <content>
+                                                <p>Power is conferred on the Commission to adopt the implementing technical standards referred to in the first subparagraph of this paragraph in accordance with Article 15 of Regulation (EU) No 1095/2010.</p>
+                                             </content>
+                                          </subparagraph>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>10.</num>
+                                          <content>
+                                             <p>ESMA shall organise and conduct peer reviews in accordance with Article 30 of Regulation (EU) No 1095/2010 in order to strengthen the consistency of the registration processes carried out by competent authorities pursuant to this Regulation.</p>
+                                          </content>
+                                       </paragraph>
+                                    </article>
+                                    <article xml:id="art_d515e1677">
+                                       <num>Article 15b</num>
+                                       <heading/>
+                                       <paragraph>
+                                          <content>
+                                             <p>Member States shall ensure that any refusal to register a manager as referred to in Article 15 or a fund as referred to in Article 15a shall be substantiated, shall be notified to the managers referred to in those Articles and shall be subject to a right of appeal before a national judicial, administrative or other authority. That right of appeal shall also apply in respect of registration where no decision on registration has been taken within two months of the manager having provided all the required information. Member States may require that a manager exhaust any administrative preliminary remedy provided for under national law before exercising that right of appeal.&apos;.</p>
+                                          </content>
+                                       </paragraph>
+                                    </article>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(8)</num>
+                     <alinea>
+                        <content>
+                           <p>In Article 17, paragraphs 1 and 2 are replaced by the following:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <paragraph>
+                                       <num>&apos;1.</num>
+                                       <subparagraph>
+                                          <content>
+                                             <p>The competent authority of the home Member State shall notify the competent authorities of the host Member States and ESMA immediately of any registration or removal from the register of a manager of a qualifying social entrepreneurship fund, of any addition to or removal from the register of a qualifying social entrepreneurship fund, and of any addition to or removal from the list of Member States in which a manager of a qualifying social entrepreneurship fund intends to market those funds.</p>
+                                          </content>
+                                       </subparagraph>
+                                       <subparagraph>
+                                          <content>
+                                             <p>For the purposes of the first subparagraph, the competent authority of a qualifying social entrepreneurship fund that has been registered in accordance with Article 15a shall immediately notify the competent authority of the home Member State, the competent authorities of the host Member States, and ESMA, of any addition to or any removal from the register of a qualifying social entrepreneurship fund or of any addition to or removal from the list of Member States in which the manager of that qualifying social entrepreneurship fund intends to market that fund.</p>
+                                          </content>
+                                       </subparagraph>
+                                    </paragraph>
+                                    <paragraph>
+                                       <num>2.</num>
+                                       <content>
+                                          <p>The competent authorities of the host Member States shall not impose on the managers of qualifying social entrepreneurship funds any requirements or administrative procedures in relation to the marketing of their qualifying social entrepreneurship funds, nor shall they require any approval of that marketing prior to its commencement. Such requirements or administrative procedures include fees and other charges.&apos;.</p>
+                                       </content>
+                                    </paragraph>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(9)</num>
+                     <alinea>
+                        <content>
+                           <p>The following article is inserted:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <article xml:id="art_d515e1715">
+                                       <num>&apos;Article 17a</num>
+                                       <heading/>
+                                       <paragraph>
+                                          <num>1.</num>
+                                          <content>
+                                             <p>For the purpose of organising and conducting peer reviews in accordance with Article 15(9) and Article 15a(10), the competent authority of the home Member State or, where different, the competent authority of the qualifying social entrepreneurship fund, shall ensure that the final information on the basis of which the registration was granted as set out in Article 15(1) and (2) and Article 15a(2) is made available to ESMA in a timely manner after the registration. Such information shall be made available by means of the procedure referred to in Article 23.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>2.</num>
+                                          <subparagraph>
+                                             <content>
+                                                <p>In order to ensure the uniform application of this Article, ESMA may develop draft regulatory technical standards to further specify the information to be made available to ESMA in accordance with paragraph 1.</p>
+                                             </content>
+                                          </subparagraph>
+                                          <subparagraph>
+                                             <content>
+                                                <p>Power is delegated to the Commission to supplement this Regulation by adopting the regulatory technical standards referred to in the first subparagraph of this paragraph in accordance with Articles 10 to 14 of Regulation (EU) No 1095/2010.</p>
+                                             </content>
+                                          </subparagraph>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>3.</num>
+                                          <subparagraph>
+                                             <content>
+                                                <p>In order to ensure the uniform application of this Article, ESMA shall develop draft implementing technical standards on standard forms, templates and procedures for the provision of information to be made available to ESMA in accordance with paragraph 1.</p>
+                                             </content>
+                                          </subparagraph>
+                                          <subparagraph>
+                                             <content>
+                                                <p>Power is conferred on the Commission to adopt the implementing technical standards referred to in the first subparagraph of this paragraph in accordance with Article 15 of Regulation (EU) No 1095/2010.&apos;.</p>
+                                             </content>
+                                          </subparagraph>
+                                       </paragraph>
+                                    </article>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(10)</num>
+                     <alinea>
+                        <content>
+                           <p>Article 18 is replaced by the following:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <article xml:id="art_d515e1750">
+                                       <num>&apos;Article 18</num>
+                                       <heading/>
+                                       <paragraph>
+                                          <num>1.</num>
+                                          <content>
+                                             <p>ESMA shall maintain a central database that is publicly accessible on the internet and that lists all managers of qualifying social entrepreneurship funds using the designation &quot;EuSEF&quot; and the qualifying social entrepreneurship funds for which they use that designation, as well as the countries in which those funds are marketed.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>2.</num>
+                                          <content>
+                                             <p>On its website, ESMA shall provide weblinks to the relevant information regarding third countries that fulfil the applicable requirement under point (d)(v) of the first subparagraph of Article 3(1).&apos;.</p>
+                                          </content>
+                                       </paragraph>
+                                    </article>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(11)</num>
+                     <alinea>
+                        <content>
+                           <p>In Article 19, the following paragraphs are inserted:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <paragraph>
+                                       <num>&apos;1a.</num>
+                                       <content>
+                                          <p>For managers as referred to in Article 2(2), the competent authority of the home Member State shall be responsible for supervising the compliance with and the adequacy of the arrangements and of the organisation of the manager, so that that manager is in a position to comply with the obligations and rules which relate to the constitution and functioning of all the qualifying social entrepreneurship funds that it manages.</p>
+                                       </content>
+                                    </paragraph>
+                                    <paragraph>
+                                       <num>1b.</num>
+                                       <content>
+                                          <p>For a qualifying social entrepreneurship fund managed by a manager as referred to in Article 2(2), the competent authority of the qualifying social entrepreneurship fund shall be responsible for supervising the qualifying social entrepreneurship fund&apos;s compliance with the rules laid down in Articles 5 and 6 and points (c) and (i) of Article 14(1). The competent authority of the qualifying social entrepreneurship fund shall also be responsible for supervising that fund&apos;s compliance with the obligations set out in the fund&apos;s rules or instruments of incorporation.&apos;.</p>
+                                       </content>
+                                    </paragraph>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(12)</num>
+                     <alinea>
+                        <content>
+                           <p>In Article 20, the following paragraph is added:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <paragraph>
+                                       <content>
+                                          <p>&apos;ESMA shall organise and conduct peer reviews in accordance with Article 30 of Regulation (EU) No 1095/2010 in order to strengthen the consistency of the processes in relation to supervisory and investigatory powers carried out by competent authorities pursuant to this Regulation.&apos;.</p>
+                                       </content>
+                                    </paragraph>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(13)</num>
+                     <alinea>
+                        <content>
+                           <p>Article 21 is amended as follows:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <content>
+                              <p>in paragraph 2, &apos;16 May 2015&apos; is replaced by &apos;2 March 2020&apos;;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <alinea>
+                              <content>
+                                 <p>the following paragraph is added:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <paragraph>
+                                             <num>&apos;3.</num>
+                                             <subparagraph>
+                                                <content>
+                                                   <p>Managers as referred to in Article 2(1) shall comply at all times with this Regulation and shall also be liable for any infringements of this Regulation, including for any losses or damages resulting therefrom.</p>
+                                                </content>
+                                             </subparagraph>
+                                             <subparagraph>
+                                                <content>
+                                                   <p>Managers as referred to in Article 2(2) shall comply at all times with Directive 2011/61/EU. They shall be responsible for ensuring compliance with this Regulation and shall be liable in accordance with Directive 2011/61/EU. Those managers shall also be liable for any losses or damages resulting from the infringement of this Regulation.&apos;.</p>
+                                                </content>
+                                             </subparagraph>
+                                          </paragraph>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                     </list>
+                  </point>
+                  <point>
+                     <num>(14)</num>
+                     <alinea>
+                        <content>
+                           <p>Article 22 is amended as follows:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <alinea>
+                              <content>
+                                 <p>paragraph 1 is amended as follows:</p>
+                              </content>
+                           </alinea>
+                           <list>
+                              <point>
+                                 <num>(i)</num>
+                                 <alinea>
+                                    <content>
+                                       <p>the introductory part is replaced by the following:</p>
+                                    </content>
+                                 </alinea>
+                                 <alinea>
+                                    <content>
+                                       <p>
+                                          <mod>
+                                             <quotedStructure startQuote="" endQuote="">
+                                                <paragraph>
+                                                   <num>&apos;1.</num>
+                                                   <content>
+                                                      <p>While respecting the principle of proportionality, the competent authority shall take the appropriate measures referred to in paragraph 2, as applicable, where the manager of the qualifying social entrepreneurship fund:&apos;;</p>
+                                                   </content>
+                                                </paragraph>
+                                             </quotedStructure>
+                                          </mod>
+                                       </p>
+                                    </content>
+                                 </alinea>
+                              </point>
+                              <point>
+                                 <num>(ii)</num>
+                                 <alinea>
+                                    <content>
+                                       <p>point (c) is replaced by the following:</p>
+                                    </content>
+                                 </alinea>
+                                 <alinea>
+                                    <content>
+                                       <p>
+                                          <mod>
+                                             <quotedStructure startQuote="" endQuote="">
+                                                <list>
+                                                   <point>
+                                                      <num>&apos;(c)</num>
+                                                      <content>
+                                                         <p>uses the designation &quot;EuSEF&quot; but is not registered in accordance with Article 15, or the qualifying social entrepreneurship fund is not registered in accordance with Article 15a;&apos;;</p>
+                                                      </content>
+                                                   </point>
+                                                </list>
+                                             </quotedStructure>
+                                          </mod>
+                                       </p>
+                                    </content>
+                                 </alinea>
+                              </point>
+                              <point>
+                                 <num>(iii)</num>
+                                 <alinea>
+                                    <content>
+                                       <p>point (e) is replaced by the following:</p>
+                                    </content>
+                                 </alinea>
+                                 <alinea>
+                                    <content>
+                                       <p>
+                                          <mod>
+                                             <quotedStructure startQuote="" endQuote="">
+                                                <list>
+                                                   <point>
+                                                      <num>&apos;(e)</num>
+                                                      <content>
+                                                         <p>has obtained registration through false statements or any other irregular means, in breach of Article 15 or Article 15a;&apos;;</p>
+                                                      </content>
+                                                   </point>
+                                                </list>
+                                             </quotedStructure>
+                                          </mod>
+                                       </p>
+                                    </content>
+                                 </alinea>
+                              </point>
+                           </list>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <alinea>
+                              <content>
+                                 <p>paragraphs 2, 3 and 4 are replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <paragraph>
+                                             <num>&apos;2.</num>
+                                             <subparagraph>
+                                                <content>
+                                                   <p>In the cases referred to in paragraph 1, the competent authority shall, as appropriate:</p>
+                                                </content>
+                                             </subparagraph>
+                                             <list>
+                                                <point>
+                                                   <num>(a)</num>
+                                                   <content>
+                                                      <p>take measures to ensure that the manager of a qualifying social entrepreneurship fund concerned complies with Articles 5 and 6, points (a) and (b) of Article 7, and Articles 13 to 15a, as applicable;</p>
+                                                   </content>
+                                                </point>
+                                                <point>
+                                                   <num>(b)</num>
+                                                   <content>
+                                                      <p>prohibit the manager of the qualifying social entrepreneurship fund concerned from using the designation &quot;EuSEF&quot; and remove that manager, or the qualifying social entrepreneurship fund concerned, from the register.</p>
+                                                   </content>
+                                                </point>
+                                             </list>
+                                          </paragraph>
+                                          <paragraph>
+                                             <num>3.</num>
+                                             <content>
+                                                <p>The competent authority referred to in paragraph 1 shall inform any other relevant competent authority, the competent authorities of any host Member States in accordance with point (d) of Article 15(1), and ESMA, without delay, of the removal of a manager of a qualifying social entrepreneurship fund or of a qualifying social entrepreneurship fund from the register.</p>
+                                             </content>
+                                          </paragraph>
+                                          <paragraph>
+                                             <num>4.</num>
+                                             <content>
+                                                <p>The right to market one or more qualifying social entrepreneurship funds under the designation &quot;EuSEF&quot; in the Union shall expire with immediate effect from the date of the decision of the competent authority referred to in point (b) of paragraph 2.&apos;;</p>
+                                             </content>
+                                          </paragraph>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(c)</num>
+                           <alinea>
+                              <content>
+                                 <p>the following paragraph is added:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <paragraph>
+                                             <num>&apos;5.</num>
+                                             <subparagraph>
+                                                <content>
+                                                   <p>The competent authority of the home Member State or of the host Member State, as applicable, shall inform ESMA without delay if it has clear and demonstrable grounds for believing that the manager of a qualifying social entrepreneurship fund has committed any of the breaches referred to in points (a) to (i) of paragraph 1.</p>
+                                                </content>
+                                             </subparagraph>
+                                             <subparagraph>
+                                                <content>
+                                                   <p>ESMA may, while respecting the principle of proportionality, issue recommendations in accordance with Article 17 of Regulation (EU) No 1095/2010 addressed to the competent authorities concerned to take any of the measures referred to in paragraph 2 of this Article, or to refrain from taking such measures.&apos;.</p>
+                                                </content>
+                                             </subparagraph>
+                                          </paragraph>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                     </list>
+                  </point>
+                  <point>
+                     <num>(15)</num>
+                     <alinea>
+                        <content>
+                           <p>The following article is inserted:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <article xml:id="art_d515e1993">
+                                       <num>&apos;Article 22a</num>
+                                       <heading/>
+                                       <paragraph>
+                                          <content>
+                                             <p>The powers conferred on competent authorities in accordance with Directive 2011/61/EU, including those related to penalties, shall also be exercised with respect to the managers referred to in Article 2(2) of this Regulation.&apos;.</p>
+                                          </content>
+                                       </paragraph>
+                                    </article>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(16)</num>
+                     <alinea>
+                        <content>
+                           <p>Article 27 is amended as follows:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <content>
+                              <p>in point (a) of paragraph 2 &apos;22 July 2017&apos; is replaced by &apos;2 March 2022&apos;;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <alinea>
+                              <content>
+                                 <p>the following paragraph is added:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <paragraph>
+                                             <num>&apos;4.</num>
+                                             <subparagraph>
+                                                <content>
+                                                   <p>In parallel with the review in accordance with Article 69 of Directive 2011/61/EU, in particular as regards managers registered under point (b) of Article 3(2) of that Directive, the Commission shall analyse:</p>
+                                                </content>
+                                             </subparagraph>
+                                             <list>
+                                                <point>
+                                                   <num>(a)</num>
+                                                   <content>
+                                                      <p>the management of qualifying social entrepreneurship funds and the appropriateness of introducing changes to the legal framework including the option of a management passport; and</p>
+                                                   </content>
+                                                </point>
+                                                <point>
+                                                   <num>(b)</num>
+                                                   <content>
+                                                      <p>the suitability of the definition of marketing for qualifying social entrepreneurship funds and the impact that that definition and differing national interpretations thereof have on the operation and viability of qualifying social entrepreneurship funds and on the cross-border distribution of such funds.</p>
+                                                   </content>
+                                                </point>
+                                             </list>
+                                             <subparagraph>
+                                                <content>
+                                                   <p>Following that review, the Commission shall submit a report to the European Parliament and to the Council, accompanied, if appropriate, by a legislative proposal.&apos;.</p>
+                                                </content>
+                                             </subparagraph>
+                                          </paragraph>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                     </list>
+                  </point>
+               </list>
+            </paragraph>
+         </article>
+         <article xml:id="art_d515e2057">
+            <num>Article 3</num>
+            <heading/>
+            <paragraph>
+               <content>
+                  <p>This Regulation shall enter into force on the twentieth day following that of its publication in the <i>Official Journal of the European Union</i>.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <content>
+                  <p>It shall apply from 1 March 2018.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <content>
+                  <p>Paragraphs 2 to 6 of Article 10 and point (b) of Article 13(1) of Regulation (EU) No 345/2013, as amended by this Regulation, and paragraphs 2 to 6 of Article 11 and point (b) of Article 14(1) of Regulation (EU) No 346/2013, as amended by this Regulation, shall not apply to existing managers in relation to existing qualifying venture capital funds and qualifying social entrepreneurship funds during the terms of those funds as at 1 March 2018. Those managers shall ensure that they are able to justify at all times the sufficiency of their own funds to maintain operational continuity.</p>
+               </content>
+            </paragraph>
+         </article>
+         <clause>
+            <content>
+               <p>This Regulation shall be binding in its entirety and directly applicable in all Member States.</p>
+            </content>
+         </clause>
+      </body>
+      <conclusions>
+         <p>Done at Strasbourg, 25 October 2017.</p>
+         <block name="signatory">
+            <signature>
+               <organization refersTo="">For the European Parliament</organization>
+               <role refersTo="">The President</role>
+               <person refersTo="">A. TAJANI</person>
+            </signature>
+            <signature>
+               <organization refersTo="">For the Council</organization>
+               <role refersTo="">The President</role>
+               <person refersTo="">M. MAASIKAS</person>
+            </signature>
+         </block>
+      </conclusions>
+   </bill>
+</akomaNtoso>

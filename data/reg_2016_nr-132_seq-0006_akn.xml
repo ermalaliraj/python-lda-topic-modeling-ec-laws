@@ -1,0 +1,984 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"
+            xmlns:fmx="http://formex.publications.europa.eu/schema/formex-05.21-20110601.xd"
+            xmlns:leos="urn:eu:europa:ec:leos"
+            xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <bill name="">
+      <meta xmlns:fn="http://www.w3.org/2005/xpath-functions">
+         <identification source="~COM">
+            <FRBRWork>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRcountry value=""/>
+            </FRBRWork>
+            <FRBRExpression>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+            </FRBRManifestation>
+         </identification>
+      </meta>
+      <preface>
+         <longTitle>
+            <p>
+               <docStage/>
+               <docType>COUNCIL REGULATION (EU, Euratom) 2016/804</docType>of 17 May 2016<docPurpose>amending Regulation (EU, Euratom) No 609/2014 on the methods and procedure for making available the traditional, VAT and GNI-based own resources and on the measures to meet cash requirements</docPurpose>
+            </p>
+         </longTitle>
+      </preface>
+      <preamble>
+         <formula name="actingEntity">
+            <p>THE COUNCIL OF THE EUROPEAN UNION,</p>
+         </formula>
+         <citations>
+            <citation>
+               <p>Having regard to the Treaty on the Functioning of the European Union, and in particular Article 322(2) thereof,</p>
+            </citation>
+            <citation>
+               <p>Having regard to the Treaty establishing the European Atomic Energy Community, and in particular Article 106a thereof,</p>
+            </citation>
+            <citation>
+               <p>Having regard to the proposal from the European Commission,</p>
+            </citation>
+            <citation>
+               <p>Having regard to the opinion of the European Parliament<authorialNote placement="bottom" marker="1">
+                     <p>Opinion of the European Parliament of 15 December 2015.</p>
+                  </authorialNote>,</p>
+            </citation>
+            <citation>
+               <p>Having regard to the opinion of the European Court of Auditors<authorialNote placement="bottom" marker="2">
+                     <p>OJ C 5, 8.1.2016, p. 1.</p>
+                  </authorialNote>,</p>
+            </citation>
+         </citations>
+         <recitals xml:id="recs_d733e78">
+            <intro>
+               <p>Whereas:</p>
+            </intro>
+            <recital xml:id="rec_d733e81">
+               <num>(1)</num>
+               <p>Council Regulation (EC, Euratom) No 1150/2000<authorialNote placement="bottom" marker="3">
+                     <p>Council Regulation (EC, Euratom) No 1150/2000 of 22 May 2000 implementing Decision 2007/436/EC, Euratom on the system of the European Communities&apos; own resources (OJ L 130, 31.5.2000, p. 1).</p>
+                  </authorialNote> was recast by Council Regulation (EU, Euratom) No 609/2014<authorialNote placement="bottom" marker="4">
+                     <p>Council Regulation (EU, Euratom) No 609/2014 of 26 May 2014 on the methods and procedure for making available the traditional, VAT and GNI-based own resources and on the measures to meet cash requirements (OJ L 168, 7.6.2014, p. 39).</p>
+                  </authorialNote>. Regulation (EU, Euratom) No 609/2014 is to enter into force on the day of entry into force of Council Decision 2014/335/EU, Euratom<authorialNote placement="bottom" marker="5">
+                     <p>Council Decision 2014/335/EU, Euratom of 26 May 2014 on the system of own resources of the European Union (OJ L 168, 7.6.2014, p. 105).</p>
+                  </authorialNote>. That Decision has not yet entered into force.</p>
+            </recital>
+            <recital xml:id="rec_d733e117">
+               <num>(2)</num>
+               <p>In order to give the Commission (Eurostat) sufficient time to assess relevant gross national income (GNI) data and to give the GNI Committee sufficient time to establish an opinion on the GNI data, any changes to the GNI of a given financial year should be possible until 30 November of the fourth year after that financial year. The period for keeping supporting documents related to the value added tax (VAT) and GNI own resources should, consequently, also be extended from 30 September to 30 November of the fourth year following the financial year to which they refer.</p>
+            </recital>
+            <recital xml:id="rec_d733e123">
+               <num>(3)</num>
+               <p>This Regulation should reflect the existing practice whereby the Commission accounts for own resources purposes referred to in Article 9 of Regulation (EU, Euratom) No 609/2014 (&apos;Commission own resources accounts&apos;) are kept with Member States&apos; treasuries or with their national central banks. The notion of treasury should cover also other public entities exercising similar functions.</p>
+            </recital>
+            <recital xml:id="rec_d733e134">
+               <num>(4)</num>
+               <p>The Commission own resources accounts should be kept free of any charge and interest. The application of charges or negative interest would reduce the Union&apos;s budget and lead to unequal treatment of Member States. Therefore, where negative interest is applicable to Commission own resources accounts, the Member States concerned should credit an amount equal to the amount of negative interest. Since some Member States do not have the possibility of avoiding the financial impact of the obligation to credit such amounts of negative interest to the Commission own resources accounts, it is appropriate that the Commission, when covering its cash resource requirements, aim to reduce that impact by drawing with priority on the sums credited to the accounts concerned.</p>
+            </recital>
+            <recital xml:id="rec_d733e140">
+               <num>(5)</num>
+               <p>The Commission own resources accounts should only be debited upon the Commission&apos;s instruction. This should be without prejudice to the application of negative interest.</p>
+            </recital>
+            <recital xml:id="rec_d733e146">
+               <num>(6)</num>
+               <p>In the interest of clarity and readability, Article 10 of Regulation (EU, Euratom) No 609/2014 should be divided into several Articles.</p>
+            </recital>
+            <recital xml:id="rec_d733e152">
+               <num>(7)</num>
+               <p>The Commission should, at any time, have sufficient cash resources available to comply with payment requirements arising from the implementation of the budget, which are particularly concentrated in the first months of the year. The Commission already has the possibility of inviting Member States to bring forward up to two additional twelfths for the specific needs of paying expenditure of the European Agricultural Guarantee Fund (EAGF) pursuant to Regulation (EU) No 1307/2013 of the European Parliament and of the Council<authorialNote placement="bottom" marker="6">
+                     <p>Regulation (EU) No 1307/2013 of the European Parliament and of the Council of 17 December 2013 establishing rules for direct payments to farmers under support schemes within the framework of the common agricultural policy and repealing Council Regulation (EC) No 637/2008 and Council Regulation (EC) No 73/2009 (OJ L 347, 20.12.2013, p. 608).</p>
+                  </authorialNote>. In order to further reduce the risk of payment delays due to temporary shortages of cash resources, it should be possible for the Commission to invite Member States to bring forward up to an additional half of one twelfth for the specific needs of paying expenditure of the European Structural and Investment Funds pursuant to Regulation (EU) No 1303/2013 of the European Parliament and of the Council<authorialNote placement="bottom" marker="7">
+                     <p>Regulation (EU) No 1303/2013 of the European Parliament and of the Council of 17 December 2013 laying down common provisions on the European Regional Development Fund, the European Social Fund, the Cohesion Fund, the European Agricultural Fund for Rural Development and the European Maritime and Fisheries Fund and laying down general provisions on the European Regional Development Fund, the European Social Fund, the Cohesion Fund and the European Maritime and Fisheries Fund and repealing Council Regulation (EC) No 1083/2006 (OJ L 347, 20.12.2013, p. 320).</p>
+                  </authorialNote>, in so far as it is justified by cash requirements. However, to avoid excessive pressure on national treasuries, the total amount that can be brought forward to the same month should not exceed two additional twelfths. Moreover, due to the specific payment requirements applicable to the EAGF, this is not to be applied to the detriment of the EAGF.</p>
+            </recital>
+            <recital xml:id="rec_d733e178">
+               <num>(8)</num>
+               <p>Pursuant to Regulation (EU, Euratom) No 1150/2000, the Commission is to calculate adjustments to the VAT and GNI-based own resources, and inform Member States thereof, in time for them to enter these adjustments in the Commission own resources account on the first working day of December. The amounts of the adjustments to be made available on the first working day of December 2014 were of an unprecedented size. In order to prevent unreasonably heavy budgetary constraints on Member States just before the year-end, Council Regulation (EU, Euratom) No 1377/2014<authorialNote placement="bottom" marker="8">
+                     <p>Council Regulation (EU, Euratom) No 1377/2014 of 18 December 2014 amending Regulation (EC, Euratom) No 1150/2000 implementing Decision 2007/436/EC, Euratom on the system of the European Communities&apos; own resources (OJ L 367, 23.12.2014, p. 14).</p>
+                  </authorialNote> amended Regulation (EC, Euratom) No 1150/2000 to allow Member States to defer, in certain exceptional circumstances, the entry of these adjustments in the Commission own resources account.</p>
+            </recital>
+            <recital xml:id="rec_d733e194">
+               <num>(9)</num>
+               <p>Regulation (EC, Euratom) No 1150/2000, as thus amended, will cease to apply once Regulation (EU, Euratom) No 609/2014 enters into force. However, this should not prejudice the validity of those deferments to the entry of adjustments already formally requested under Regulation (EU, Euratom) No 1377/2014 while this latter Regulation was still in force.</p>
+            </recital>
+            <recital xml:id="rec_d733e201">
+               <num>(10)</num>
+               <p>In the interest of simplification, and in order to limit the fiscal strain on Member States and the Commission in particular towards the end of the year, the procedure for adjusting the VAT and GNI own resources should be streamlined. There should be more time between the formal notification to Member States of the required adjustments and their entry in the Commission own resources account. Such notification and entry should occur in the same year, that year being also relevant for recording the impact on the government accounts and for the purposes of the Stability and Growth Pact. There should be an immediate redistribution of the overall amount of adjustments among Member States according to their respective shares in the GNI-based own resource. This would eliminate the need for the derogation introduced by Regulation (EU, Euratom) No 1377/2014.</p>
+            </recital>
+            <recital xml:id="rec_d733e208">
+               <num>(11)</num>
+               <p>In order to achieve the Union&apos;s objectives, the procedure for calculating interest should ensure in particular that own resources are made available in a timely manner and in full.</p>
+            </recital>
+            <recital xml:id="rec_d733e214">
+               <num>(12)</num>
+               <p>In order to improve legal certainty and clarity, cases where interest for late payment is due should be defined for the VAT and GNI-based own resources. In view of the specificities of those own resources, which have a verification cycle allowing for corrections and adjustments respectively within a period of four years, any changes to VAT and GNI-based own resources following from such corrections or adjustments should not give rise to the retroactive calculation of interest. Interest in respect of those resources should therefore be payable only for delays in entering amounts of monthly twelfths and amounts resulting from the annual calculation of adjustments for previous financial years. Moreover, to maintain a proper incentive for taking corrective action, interest should also be payable in case of delays in entering amounts resulting from particular corrections to VAT statements on the date specified pursuant to measures taken by the Commission under the second subparagraph of Article 9(1) of Council Regulation (EEC, Euratom) No 1553/89<authorialNote placement="bottom" marker="9">
+                     <p>Council Regulation (EEC, Euratom) No 1553/89 of 29 May 1989 on the definitive uniform arrangements for the collection of own resources accruing from value added tax (OJ L 155, 7.6.1989, p. 9).</p>
+                  </authorialNote>. Furthermore, when a Member State fails to provide, within the explicit time limit set by the Commission, corrections to GNI data necessary for addressing points notified by the Commission or by a Member State, interest should also be applied to any increase of own resources resulting from an adjustment carried out as a consequence of addressing the notified point. This interest should be applied as from the moment where the amount of the adjustment should have been entered, that is, the first working day of June of the year following that in which the explicit time limit expired, until the moment where that adjusted amount is entered in the account. In line with existing rules and practice, any delay in making an entry in respect of traditional own resources should give rise to the calculation of interest.</p>
+            </recital>
+            <recital xml:id="rec_d733e230">
+               <num>(13)</num>
+               <p>The interest rate system set out in Article 12 of Regulation (EU, Euratom) No 609/2014 contains a fixed increase of 2 percentage points to the basic rate and a progressive increase of 0,25 of a percentage point for each month of delay, the increased rate being applicable to the entire period of delay. That interest rate system has been instrumental in ensuring that own resources are made available in a timely manner and in full, and its main elements should therefore be maintained.</p>
+            </recital>
+            <recital xml:id="rec_d733e236">
+               <num>(14)</num>
+               <p>Nevertheless, the existing rules providing for an ever increasing rate have led to the payment of very high interest rates in exceptional cases involving delays of many years. In order to ensure the proportionality of the system while maintaining the deterrent effect, the accumulated increase to that basic rate should be limited to an annual maximum of 16 percentage points.</p>
+            </recital>
+            <recital xml:id="rec_d733e242">
+               <num>(15)</num>
+               <p>On the other hand, the existing fixed increase of 2 percentage points to the basic rate for short periods of delay in particular may lead to a disincentive to make own resources available in a timely manner in circumstances where refinancing costs on the money market are higher than the interest payable. In order to further reinforce the smooth functioning of the system, the fixed increase to the basic rate should therefore be raised to 2,5 percentage points and the resulting interest rate applied should not be lower than that percentage, even where the applicable basic rate is negative. This should, in particular, prevent delays in making available the monthly twelfths of the own resources based on VAT and on GNI, which currently constitute more than 80 % of the Union&apos;s budget revenue.</p>
+            </recital>
+            <recital xml:id="rec_d733e248">
+               <num>(16)</num>
+               <p>In order to promote effective protection of the financial interests of the Union and to take into account the newly introduced provisions of Regulation (EU) No 952/2013 of the European Parliament and of the Council<authorialNote placement="bottom" marker="10">
+                     <p>Regulation (EU) No 952/2013 of the European Parliament and of the Council of 9 October 2013 laying down the Union Customs Code (OJ L 269, 10.10.2013, p. 1).</p>
+                  </authorialNote>, it should be possible for Member States to be released from the obligation to make available to the Union&apos;s budget those amounts of traditional own resources that prove irrecoverable due to deferred entry in the accounts or deferred notification of customs debts in order not to prejudice criminal investigations affecting the financial interests of the Union. The Commission should communicate with the least possible delay to Member States, and update, where necessary, the criteria that will guide the assessment of cases involving this possibility.</p>
+            </recital>
+            <recital xml:id="rec_d733e264">
+               <num>(17)</num>
+               <p>The reporting threshold for cases of traditional own resources declared or deemed irrecoverable should be raised in order to reduce the administrative burden for the Member States and for the Commission.</p>
+            </recital>
+            <recital xml:id="rec_d733e270">
+               <num>(18)</num>
+               <p>It should be clarified that the possibility for the Commission pursuant to Article 14(3) of Regulation (EU, Euratom) No 609/2014 to draw in excess of its assets to ensure compliance with the Union&apos;s obligations in the sole case of default under a loan contracted or guaranteed pursuant to Council regulations and decisions also covers regulations and decisions which, following the Treaty of Lisbon, are to be adopted not just by the Council, but by the European Parliament and the Council pursuant to the Treaty on the Functioning of the European Union.</p>
+            </recital>
+            <recital xml:id="rec_d733e278">
+               <num>(19)</num>
+               <p>Save in exceptional cases, the Commission should notify to Member States, or to their national central banks, its orders of cash movement transactions affecting the accounts opened for own resources purposes at least one day before those orders are to be executed.</p>
+            </recital>
+            <recital xml:id="rec_d733e285">
+               <num>(20)</num>
+               <p>Regulation (EU, Euratom) No 609/2014 should therefore be amended accordingly.</p>
+            </recital>
+            <recital xml:id="rec_d733e291">
+               <num>(21)</num>
+               <p>For reasons of consistency, this Regulation should enter into force on the same day as Regulation (EU, Euratom) No 609/2014. The amendment set out in this Regulation to Article 18 of Regulation (EU, Euratom) No 609/2014 should apply from 1 January 2014 so as to safeguard the continued application of the derogation introduced by Regulation (EU, Euratom) No 1377/2014 until the date of entry into force of this Regulation. The amendment set out in this Regulation to Article 12 of Regulation (EU, Euratom) No 609/2014 should apply where the due date of the own resource occurs after the entry into force of this Regulation. However, for reasons of proportionality, Member States should also benefit from the limitation on the total increase of the interest rate, as well as from the limitation on the payment of interest for the VAT-based own resources only in relation to delays specified in Article 12 of Regulation (EU, Euratom) No 609/2014, as amended by this Regulation, for own resources that were due prior to the date of entry into force of this Regulation, where those own resources became known after that date,</p>
+            </recital>
+         </recitals>
+         <formula name="enactingFormula">
+            <p>HAS ADOPTED THIS REGULATION:</p>
+         </formula>
+      </preamble>
+      <body>
+         <article xml:id="art_d733e303" leos:compliant="false">
+            <num>Article 1</num>
+            <heading/>
+            <paragraph>
+               <subparagraph>
+                  <content>
+                     <p>Regulation (EU, Euratom) No 609/2014 is amended as follows:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(1)</num>
+                     <alinea>
+                        <content>
+                           <p>In Article 3, the second paragraph is replaced by the following:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <paragraph>
+                                       <content>
+                                          <p>&apos;The supporting documents relating to the statistical procedures and bases referred to in Article 3 of Regulation (EC, Euratom) No 1287/2003 shall be kept by the Member States until 30 November of the fourth year following the financial year in question. The supporting documents relating to the VAT-based own resource base shall be kept for the same period.&apos;.</p>
+                                       </content>
+                                    </paragraph>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(2)</num>
+                     <alinea>
+                        <content>
+                           <p>Article 6 is amended as follows:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <alinea>
+                              <content>
+                                 <p>paragraph 1 is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <paragraph>
+                                             <num>&apos;1.</num>
+                                             <content>
+                                                <p>Accounts for own resources shall be kept by the treasury of each Member State or a public entity exercising similar functions (&apos;treasury&apos;), or by the national central bank of each Member State. Those accounts shall be broken down by type of resources.&apos;;</p>
+                                             </content>
+                                          </paragraph>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <alinea>
+                              <content>
+                                 <p>in paragraph 3, the third subparagraph is amended as follows:</p>
+                              </content>
+                           </alinea>
+                           <list>
+                              <point>
+                                 <num>(i)</num>
+                                 <content>
+                                    <p>in the first indent the reference to &apos;Article 10(3)&apos; is replaced by a reference to &apos;Article 10a(1)&apos;;</p>
+                                 </content>
+                              </point>
+                              <point>
+                                 <num>(ii)</num>
+                                 <alinea>
+                                    <content>
+                                       <p>the second indent is replaced by the following:</p>
+                                    </content>
+                                 </alinea>
+                                 <alinea>
+                                    <content>
+                                       <p>
+                                          <mod>
+                                             <quotedStructure startQuote="" endQuote="">
+                                                <list>
+                                                   <indent>
+                                                      <num>-</num>
+                                                      <num>&apos;&#45;</num>
+                                                      <content>
+                                                         <p>the result of the calculation referred to in the first subparagraph of Article 10b(5) shall be recorded annually, except for the particular adjustments referred to in Article 10b(2)(b), which shall be recorded in the accounts on the first working day of the month following agreement between the Member State concerned and the Commission.&apos;.</p>
+                                                      </content>
+                                                   </indent>
+                                                </list>
+                                             </quotedStructure>
+                                          </mod>
+                                       </p>
+                                    </content>
+                                 </alinea>
+                              </point>
+                           </list>
+                        </point>
+                     </list>
+                  </point>
+                  <point>
+                     <num>(3)</num>
+                     <alinea>
+                        <content>
+                           <p>Article 9 is amended as follows:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <alinea>
+                              <content>
+                                 <p>paragraph 1 is amended as follows:</p>
+                              </content>
+                           </alinea>
+                           <list>
+                              <point>
+                                 <num>(i)</num>
+                                 <alinea>
+                                    <content>
+                                       <p>the first and the second subparagraphs are replaced by the following:</p>
+                                    </content>
+                                 </alinea>
+                                 <alinea>
+                                    <content>
+                                       <p>
+                                          <mod>
+                                             <quotedStructure startQuote="" endQuote="">
+                                                <paragraph>
+                                                   <num>&apos;1.</num>
+                                                   <subparagraph>
+                                                      <content>
+                                                         <p>In accordance with the procedure laid down in Articles 10, 10a and 10b, each Member State shall credit own resources to the account opened in the name of the Commission with its treasury or national central bank. Subject to the application of negative interest as referred to in the third subparagraph, that account may only be debited upon instruction by the Commission.</p>
+                                                      </content>
+                                                   </subparagraph>
+                                                   <subparagraph>
+                                                      <content>
+                                                         <p>That account shall be kept in national currency and free of any charge and interest.&apos;;</p>
+                                                      </content>
+                                                   </subparagraph>
+                                                </paragraph>
+                                             </quotedStructure>
+                                          </mod>
+                                       </p>
+                                    </content>
+                                 </alinea>
+                              </point>
+                              <point>
+                                 <num>(ii)</num>
+                                 <alinea>
+                                    <content>
+                                       <p>the following subparagraph is added:</p>
+                                    </content>
+                                 </alinea>
+                                 <alinea>
+                                    <content>
+                                       <p>
+                                          <mod>
+                                             <quotedStructure startQuote="" endQuote="">
+                                                <paragraph>
+                                                   <content>
+                                                      <p>&apos;Where negative interest is applied to that account, the Member State concerned shall credit the account with an amount corresponding to the amount of such negative interest applied, at the latest on the first working day of the second month following the application of such negative interest.&apos;;</p>
+                                                   </content>
+                                                </paragraph>
+                                             </quotedStructure>
+                                          </mod>
+                                       </p>
+                                    </content>
+                                 </alinea>
+                              </point>
+                           </list>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <alinea>
+                              <content>
+                                 <p>paragraph 2 is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <paragraph>
+                                             <num>&apos;2.</num>
+                                             <subparagraph>
+                                                <content>
+                                                   <p>Member States or their national central banks shall transmit the following to the Commission by electronic means:</p>
+                                                </content>
+                                             </subparagraph>
+                                             <list>
+                                                <point>
+                                                   <num>(a)</num>
+                                                   <content>
+                                                      <p>on the working day on which the own resources are credited to the account of the Commission, a statement of account or a credit advice showing the entry of the own resources;</p>
+                                                   </content>
+                                                </point>
+                                                <point>
+                                                   <num>(b)</num>
+                                                   <content>
+                                                      <p>without prejudice to point (a), at the latest on the second working day following the crediting of the account, a statement of account showing the entry of the own resources.&apos;.</p>
+                                                   </content>
+                                                </point>
+                                             </list>
+                                          </paragraph>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                     </list>
+                  </point>
+                  <point>
+                     <num>(4)</num>
+                     <alinea>
+                        <content>
+                           <p>Article 10 is replaced by the following:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <article xml:id="art_d733e477">
+                                       <num>&apos;Article 10</num>
+                                       <heading>Making available the traditional own resources</heading>
+                                       <paragraph>
+                                          <num>1.</num>
+                                          <subparagraph>
+                                             <content>
+                                                <p>After deduction of collection costs in accordance with Articles 2(3) and 10(3) of Decision 2014/335/EU, Euratom, entry of the traditional own resources referred to in Article 2(1)(a) of that Decision shall be made at the latest on the first working day following the 19th day of the second month following the month during which the entitlement was established in accordance with Article 2 of this Regulation.</p>
+                                             </content>
+                                          </subparagraph>
+                                          <subparagraph>
+                                             <content>
+                                                <p>However, for entitlements shown in separate accounts under the second subparagraph of Article 6(3), the entry must be made at the latest on the first working day following the 19th day of the second month following the month in which the entitlements were recovered.</p>
+                                             </content>
+                                          </subparagraph>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>2.</num>
+                                          <subparagraph>
+                                             <content>
+                                                <p>If necessary, Member States may be invited by the Commission to bring forward by one month the entry of resources, other than the VAT-based own resource and the GNI-based own resource, on the basis of the information available to them on the 15th of the same month.</p>
+                                             </content>
+                                          </subparagraph>
+                                          <subparagraph>
+                                             <content>
+                                                <p>Each entry brought forward shall be adjusted the following month when the entry mentioned in paragraph 1 is made. This adjustment shall entail the negative entry of an amount equal to that given in the entry brought forward.</p>
+                                             </content>
+                                          </subparagraph>
+                                       </paragraph>
+                                    </article>
+                                    <article xml:id="art_d733e497">
+                                       <num>Article 10a</num>
+                                       <heading>Making available the VAT and GNI-based own resources</heading>
+                                       <paragraph>
+                                          <num>1.</num>
+                                          <content>
+                                             <p>The VAT-based own resource and the GNI-based own resource, taking into account the effect on these resources of the correction granted to the United Kingdom for budgetary imbalances and of the gross reduction granted to Denmark, the Netherlands, Austria and Sweden, shall be credited on the first working day of each month, the amounts being one-twelfth of the relevant totals in the budget, converted into national currencies at the rates of exchange of the last day of quotation of the calendar year preceding the budget year, as published in the <i>Official Journal of the European Union</i>, C series.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>2.</num>
+                                          <subparagraph>
+                                             <content>
+                                                <p>For the specific needs of paying expenditure of the EAGF pursuant to Regulation (EU) No 1307/2013 of the European Parliament and of the Council<authorialNote placement="bottom" marker="11">
+                                                      <p>Regulation (EU) No 1307/2013 of the European Parliament and of the Council of 17 December 2013 establishing rules for direct payments to farmers under support schemes within the framework of the common agricultural policy and repealing Council Regulation (EC) No 637/2008 and Council Regulation (EC) No 73/2009 (OJ L 347, 20.12.2013, p. 608).</p>
+                                                   </authorialNote>, and depending on the Union&apos;s cash position, Member States may be invited by the Commission to bring forward, by up to two months in the first quarter of the financial year, the entry of one-twelfth, or a fraction thereof, of the amounts in the budget for the VAT-based own resource and the GNI-based own resource, taking into account the effect on these resources of the correction granted to the United Kingdom for budgetary imbalances and of the gross reduction granted to Denmark, the Netherlands, Austria and Sweden.</p>
+                                             </content>
+                                          </subparagraph>
+                                          <subparagraph>
+                                             <content>
+                                                <p>Subject to the third subparagraph, for the specific needs of paying expenditure of the European Structural and Investment Funds pursuant to Regulation (EU) No 1303/2013 of the European Parliament and of the Council<authorialNote placement="bottom" marker="12">
+                                                      <p>Regulation (EU) No 1303/2013 of the European Parliament and of the Council of 17 December 2013 laying down common provisions on the European Regional Development Fund, the European Social Fund, the Cohesion Fund, the European Agricultural Fund for Rural Development and the European Maritime and Fisheries Fund and laying down general provisions on the European Regional Development Fund, the European Social Fund, the Cohesion Fund and the European Maritime and Fisheries Fund and repealing Council Regulation (EC) No 1083/2006 (OJ L 347, 20.12.2013, p. 320).&apos;.</p>
+                                                   </authorialNote>, and depending on the Union&apos;s cash position, Member States may be invited by the Commission to bring forward, in the first six months of the financial year, the entry of up to an additional half of one-twelfth of the amounts in the budget for the VAT-based own resource and the GNI-based own resource, taking into account the effect on these resources of the correction granted to the United Kingdom for budgetary imbalances and of the gross reduction granted to Denmark, the Netherlands, Austria and Sweden.</p>
+                                             </content>
+                                          </subparagraph>
+                                          <subparagraph>
+                                             <content>
+                                                <p>The total amount that Member States may be invited by the Commission to bring forward in the same month under the first and second subparagraphs shall, in any event, not exceed an amount corresponding to two additional twelfths.</p>
+                                             </content>
+                                          </subparagraph>
+                                          <subparagraph>
+                                             <content>
+                                                <p>After the first six months, the monthly entry requested may not exceed one-twelfth of the VAT and GNI-based own resources, while remaining within the limit of the amounts entered in the budget for that purpose.</p>
+                                             </content>
+                                          </subparagraph>
+                                          <subparagraph>
+                                             <content>
+                                                <p>The Commission shall notify the Member States thereof in advance, no later than two weeks before an entry requested pursuant to the first and second subparagraphs.</p>
+                                             </content>
+                                          </subparagraph>
+                                          <subparagraph>
+                                             <content>
+                                                <p>The Commission shall inform the Member States well in advance, and no later than six weeks before an entry requested pursuant to the second subparagraph, of its intention to request such an entry.</p>
+                                             </content>
+                                          </subparagraph>
+                                          <subparagraph>
+                                             <content>
+                                                <p>Paragraph 4, concerning the amount to be entered in January each year, and paragraph 5, applicable if the budget has not been finally adopted before the beginning of the financial year, shall apply to these advance entries.</p>
+                                             </content>
+                                          </subparagraph>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>3.</num>
+                                          <subparagraph>
+                                             <content>
+                                                <p>Any change in the uniform rate of the VAT-based own resource, in the rate of the GNI-based own resource, in the correction granted to the United Kingdom for budgetary imbalances and in its financing referred to in Articles 4 and 5 of Decision 2014/335/EU, Euratom, and in the financing of the gross reduction granted to Denmark, the Netherlands, Austria and Sweden shall require the final adoption of an amending budget and shall give rise to readjustments of the twelfths that have been entered since the beginning of the financial year.</p>
+                                             </content>
+                                          </subparagraph>
+                                          <subparagraph>
+                                             <content>
+                                                <p>These readjustments shall be carried out when the first entry is made following the final adoption of the amending budget if it is adopted before the 16th of the month. Otherwise they shall be carried out when the second entry following final adoption is made. By way of derogation from Article 11 of the Financial Regulation, these readjustments shall be entered in the accounts in respect of the financial year of the amending budget in question.</p>
+                                             </content>
+                                          </subparagraph>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>4.</num>
+                                          <content>
+                                             <p>Calculation of the twelfths for January of each financial year shall be based on the amounts provided for in the draft budget, referred to in Article 314(2) of the Treaty on the Functioning of European Union (TFEU) and converted into national currencies at the rates of exchange of the first day of quotation following 15 December of the calendar year preceding the budget year; the adjustment shall be made with the entry for the following month.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>5.</num>
+                                          <content>
+                                             <p>If the budget has not been finally adopted at the latest two weeks before the entry for January of the following financial year, the Member States shall enter on the first working day of each month, including January, one-twelfth of the amount of the VAT-based own resource, and the GNI-based own resource, taking into account the effect on these resources of the correction granted to the United Kingdom for budgetary imbalances and of the gross reduction granted to Denmark, the Netherlands, Austria and Sweden, entered in the last budget finally adopted; the adjustment shall be made on the first due date following final adoption of the budget if it is adopted before the 16th of the month. Otherwise, the adjustment shall be made on the second due date following final adoption of the budget.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>6.</num>
+                                          <content>
+                                             <p>There shall be no subsequent revision of the financing of the gross reduction granted to Denmark, the Netherlands, Austria and Sweden in the event of modifications of the GNI data pursuant to Article 2(2) of Regulation (EC, Euratom) No 1287/2003.</p>
+                                          </content>
+                                       </paragraph>
+                                    </article>
+                                    <article xml:id="art_d733e573">
+                                       <num>Article 10b</num>
+                                       <heading>Adjustments to the VAT and GNI-based own resources of previous financial years</heading>
+                                       <paragraph>
+                                          <num>1.</num>
+                                          <content>
+                                             <p>On the basis of the annual statement on the VAT-based own resource base provided for in Article 7(1) of Regulation (EEC, Euratom) No 1553/89, each Member State shall, in the year following that in which that statement was transmitted, be debited with an amount calculated from the information contained in that statement by applying the uniform rate adopted for the financial year to which the statement relates and be credited with the 12 payments made for that financial year. However, each Member State&apos;s VAT-based own resource base to which that rate is applied may not exceed the percentage determined by Article 2(1)(b) of Decision 2014/335/EU, Euratom of its GNI, as referred to in the first subparagraph of Article 2(7) of that Decision.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>2.</num>
+                                          <subparagraph>
+                                             <content>
+                                                <p>Any corrections to the VAT-based own resource base under Article 9(1) of Regulation (EEC, Euratom) No 1553/89 shall give rise, for each Member State concerned whose base, allowing for those corrections, does not exceed the percentages determined by Articles 2(1)(b) and 10(2) of Decision 2014/335/EU, Euratom, to the following adjustments to the balance established pursuant to paragraph 1 of this Article:</p>
+                                             </content>
+                                          </subparagraph>
+                                          <list>
+                                             <point>
+                                                <num>(a)</num>
+                                                <content>
+                                                   <p>the corrections under the first subparagraph of Article 9(1) of Regulation (EEC, Euratom) No 1553/89 made by 31 July shall give rise to a general adjustment in the following year;</p>
+                                                </content>
+                                             </point>
+                                             <point>
+                                                <num>(b)</num>
+                                                <content>
+                                                   <p>a particular adjustment may be entered at any time if the Member State concerned and the Commission are in agreement in accordance with the first subparagraph of Article 9(1) of Regulation (EEC, Euratom) No 1553/89;</p>
+                                                </content>
+                                             </point>
+                                             <point>
+                                                <num>(c)</num>
+                                                <content>
+                                                   <p>where the measures that the Commission takes under the second subparagraph of Article 9(1) of Regulation (EEC, Euratom) No 1553/89 to correct the base lead to a particular adjustment of the entries in the account referred to in Article 9(1) of this Regulation, that adjustment shall be made on the date specified by the Commission pursuant to those measures.</p>
+                                                </content>
+                                             </point>
+                                          </list>
+                                          <subparagraph>
+                                             <content>
+                                                <p>The changes to GNI referred to in paragraph 4 of this Article shall also give rise to an adjustment of the balance of any Member State whose VAT-based own resource base, allowing for the corrections referred to in the first subparagraph of this paragraph, is capped at the percentages determined by Article 2(1)(b) and Article 10(2) of Decision 2014/335/EU, Euratom.</p>
+                                             </content>
+                                          </subparagraph>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>3.</num>
+                                          <content>
+                                             <p>On the basis of figures for aggregate GNI at market prices and its components from the preceding year supplied by the Member States in accordance with Article 2(2) of Regulation (EC, Euratom) No 1287/2003, each Member State shall, in the year following that in which the figures were supplied, be debited with an amount calculated by applying to its GNI the rate adopted for the year preceding the year of supply of the figures, and be credited with the payments made during that year.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>4.</num>
+                                          <content>
+                                             <p>Any changes to the GNI of previous financial years pursuant to Article 2(2) of Regulation (EC, Euratom) No 1287/2003 shall, subject to Article 5 thereof, give rise for each Member State concerned to an adjustment to the balance established pursuant to paragraph 3 of this Article. After 30 November of the fourth year following a given financial year, any changes to GNI shall no longer be taken into account, except on points notified within this time limit either by the Commission or by the Member State.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>5.</num>
+                                          <subparagraph>
+                                             <content>
+                                                <p>For each Member State, the Commission shall calculate the difference between the amounts resulting from the adjustments referred to in paragraphs 1 to 4, with the exception of particular adjustments pursuant to paragraphs 2(b) and (c), and the product of multiplying the total amounts of adjustments by the percentage that the GNI of that Member State represents of the GNI of all Member States, as applicable on 15 January to the budget in force for the year following that in which the data for the adjustments was supplied (the &apos;net amount&apos;).</p>
+                                             </content>
+                                          </subparagraph>
+                                          <subparagraph>
+                                             <content>
+                                                <p>For the purposes of this calculation, amounts shall be converted between the national currency and the euro at the rates of exchange of the last day of quotation of the calendar year preceding the year of entry in the accounts, as published in the <i>Official Journal of the European Union</i>, C series.</p>
+                                             </content>
+                                          </subparagraph>
+                                          <subparagraph>
+                                             <content>
+                                                <p>The Commission shall inform the Member States of the amounts resulting from this calculation before 1 February of the year following that in which the data for the adjustments was supplied. Each Member State shall enter the net amount in the account referred to in Article 9(1) on the first working day of June of that same year.</p>
+                                             </content>
+                                          </subparagraph>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>6.</num>
+                                          <content>
+                                             <p>The operations referred to in paragraphs 1 to 5 of this Article constitute revenue operations in respect of the financial year in which they are to be entered in the account referred to in Article 9(1).</p>
+                                          </content>
+                                       </paragraph>
+                                    </article>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(5)</num>
+                     <alinea>
+                        <content>
+                           <p>In Article 11, paragraph 2 is replaced by the following:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <paragraph>
+                                       <num>&apos;2.</num>
+                                       <subparagraph>
+                                          <content>
+                                             <p>The Commission shall calculate the adjustment during the year following the financial year concerned.</p>
+                                          </content>
+                                       </subparagraph>
+                                       <subparagraph>
+                                          <content>
+                                             <p>The calculation shall be made on the basis of the following figures relating to the relevant financial year:</p>
+                                          </content>
+                                       </subparagraph>
+                                       <list>
+                                          <point>
+                                             <num>(a)</num>
+                                             <content>
+                                                <p>aggregate GNI at market prices and its components, supplied by the Member States in accordance with Article 2(2) of Regulation (EC, Euratom) No 1287/2003;</p>
+                                             </content>
+                                          </point>
+                                          <point>
+                                             <num>(b)</num>
+                                             <content>
+                                                <p>the budgetary outturn of operational expenditure corresponding to the measure or policy in question.</p>
+                                             </content>
+                                          </point>
+                                       </list>
+                                       <subparagraph>
+                                          <content>
+                                             <p>The adjustment shall be equal to the product of multiplying the total amount of the expenditure in question, with the exception of expenditure financed by participating third countries, by the percentage that the GNI of the Member State entitled to the adjustment represents of the GNI of all Member States. The adjustment shall be financed by the participating Member States according to a scale determined by dividing their respective GNI by the GNI of all the participating Member States. For the purposes of calculating the adjustment, amounts shall be converted between the national currency and the euro at the exchange rate on the last day of quotation of the calendar year preceding the budget year concerned, as published in the <i>Official Journal of the European Union</i>, C series.</p>
+                                          </content>
+                                       </subparagraph>
+                                       <subparagraph>
+                                          <content>
+                                             <p>The adjustment for each relevant year shall be made only once and it shall be final in the event of subsequent modification of the GNI figure.&apos;.</p>
+                                          </content>
+                                       </subparagraph>
+                                    </paragraph>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(6)</num>
+                     <alinea>
+                        <content>
+                           <p>Article 12 is replaced by the following:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <article xml:id="art_d733e691">
+                                       <num>&apos;Article 12</num>
+                                       <heading>Interest on amounts made available belatedly</heading>
+                                       <paragraph>
+                                          <num>1.</num>
+                                          <content>
+                                             <p>Any delay in making the entry in the account referred to in Article 9(1) shall give rise to the payment of interest by the Member State concerned.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>2.</num>
+                                          <subparagraph>
+                                             <content>
+                                                <p>For the VAT and GNI-based own resources, interest shall be payable only in relation to delays in entering amounts:</p>
+                                             </content>
+                                          </subparagraph>
+                                          <list>
+                                             <point>
+                                                <num>(a)</num>
+                                                <content>
+                                                   <p>referred to in Article 10a;</p>
+                                                </content>
+                                             </point>
+                                             <point>
+                                                <num>(b)</num>
+                                                <content>
+                                                   <p>resulting from the calculation referred to in the first subparagraph of Article 10b(5), at the moment specified in the third subparagraph thereof;</p>
+                                                </content>
+                                             </point>
+                                             <point>
+                                                <num>(c)</num>
+                                                <content>
+                                                   <p>resulting from particular adjustments to the VAT-based own resource under Article 10b(2)(c) of this Regulation, on the date specified by the Commission pursuant to measures taken by it under the second subparagraph of Article 9(1) of Regulation (EEC, Euratom) No 1553/89;</p>
+                                                </content>
+                                             </point>
+                                             <point>
+                                                <num>(d)</num>
+                                                <content>
+                                                   <p>resulting from failure of a Member State to provide corrections to GNI data necessary for addressing points notified by the Commission or by the Member State as referred to in Article 10b(4), within the explicit time limit set by the Commission. The interest on the adjustments resulting from such corrections shall be calculated as from the first working day of June of the year following that, in which the explicit time limit set by the Commission expired.</p>
+                                                </content>
+                                             </point>
+                                          </list>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>3.</num>
+                                          <content>
+                                             <p>The recovery of amounts of interest below EUR 500 shall be waived.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>4.</num>
+                                          <subparagraph>
+                                             <content>
+                                                <p>In the case of Member States belonging to the Economic and Monetary Union, the interest rate shall be equal to the rate as published in the <i>Official Journal of the European Union</i>, C series, which the European Central Bank applied to its main refinancing operations on the first day of the month in which the due date fell, or 0 per cent, whichever is higher, increased by 2,5 percentage points.</p>
+                                             </content>
+                                          </subparagraph>
+                                          <subparagraph>
+                                             <content>
+                                                <p>This rate shall be increased by 0,25 of a percentage point for each month of delay.</p>
+                                             </content>
+                                          </subparagraph>
+                                          <subparagraph>
+                                             <content>
+                                                <p>The total increase pursuant to the first and the second subparagraphs shall not exceed 16 percentage points. The increased rate shall be applied to the entire period of delay.</p>
+                                             </content>
+                                          </subparagraph>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>5.</num>
+                                          <subparagraph>
+                                             <content>
+                                                <p>In the case of Member States not belonging to the Economic and Monetary Union, the interest rate shall be equal to the rate applied on the first day of the month in question by the central banks for their main refinancing operations, or 0 per cent, whichever is higher, increased by 2,5 percentage points. For the Member States for which the central bank rate is not available, the interest rate shall be equal to the most equivalent rate applied on the first day of the month in question on the Member State&apos;s money market, or 0 per cent, whichever is higher, increased by 2,5 percentage points.</p>
+                                             </content>
+                                          </subparagraph>
+                                          <subparagraph>
+                                             <content>
+                                                <p>This rate shall be increased by 0,25 of a percentage point for each month of delay.</p>
+                                             </content>
+                                          </subparagraph>
+                                          <subparagraph>
+                                             <content>
+                                                <p>The total increase pursuant to the first and the second subparagraphs shall not exceed 16 percentage points. The increased rate shall be applied to the entire period of delay.</p>
+                                             </content>
+                                          </subparagraph>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>6.</num>
+                                          <content>
+                                             <p>For the payment of interest referred to in paragraphs 1 and 2 of this Article, Article 9(2) and (3) shall apply <i>mutatis mutandis</i>.&apos;.</p>
+                                          </content>
+                                       </paragraph>
+                                    </article>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(7)</num>
+                     <alinea>
+                        <content>
+                           <p>Article 13 is amended as follows:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <alinea>
+                              <content>
+                                 <p>in paragraph 2, the following second subparagraph is inserted:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <paragraph>
+                                             <content>
+                                                <p>&apos;Member States may be released from the obligation to place at the disposal of the Commission the amounts corresponding to entitlements established under Article 2 where those entitlements prove irrecoverable due to the deferral of the entry in the accounts or the notification of the customs debt in order not to prejudice a criminal investigation affecting the financial interests of the Union.&apos;;</p>
+                                             </content>
+                                          </paragraph>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <alinea>
+                              <content>
+                                 <p>in paragraph 3, the first subparagraph is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <paragraph>
+                                             <num>&apos;3.</num>
+                                             <content>
+                                                <p>Within three months of the administrative decision mentioned in paragraph 2 or in accordance with the time limits referred to in that paragraph, Member States shall provide a report to the Commission with information on those cases where paragraph 2 has been applied, provided that the established entitlements involved exceed EUR 100000.&apos;;</p>
+                                             </content>
+                                          </paragraph>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                     </list>
+                  </point>
+                  <point>
+                     <num>(8)</num>
+                     <alinea>
+                        <content>
+                           <p>in Article 14, paragraphs 3 and 4 are replaced by the following:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <paragraph>
+                                       <num>&apos;3.</num>
+                                       <content>
+                                          <p>In the sole case of default under a loan contracted or guaranteed pursuant to regulations and decisions adopted by the Council, or by the European Parliament and the Council, in circumstances in which the Commission cannot activate other measures provided for by the financial arrangements applying to these loans in time to ensure compliance with the Union&apos;s legal obligations to the lenders, paragraphs 2 and 4 may provisionally be applied, irrespective of the conditions in paragraph 2, in order to service the Union&apos;s debts.</p>
+                                       </content>
+                                    </paragraph>
+                                    <paragraph>
+                                       <num>4.</num>
+                                       <subparagraph>
+                                          <content>
+                                             <p>Subject to the second subparagraph, the difference between the overall assets and the cash resource requirements shall be divided among the Member States, as far as possible, in proportion to the estimated budget revenue from each of them.</p>
+                                          </content>
+                                       </subparagraph>
+                                       <subparagraph>
+                                          <content>
+                                             <p>The Commission, when covering its cash resource requirements, shall aim to reduce the impact of the obligation on Member States to credit amounts of negative interest pursuant to the third subparagraph of Article 9(1) by drawing with priority on the sums credited to the accounts concerned.&apos;.</p>
+                                          </content>
+                                       </subparagraph>
+                                    </paragraph>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(9)</num>
+                     <alinea>
+                        <content>
+                           <p>Article 15 is replaced by the following:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <article xml:id="art_d733e841">
+                                       <num>&apos;Article 15</num>
+                                       <heading>Execution of payment orders</heading>
+                                       <paragraph>
+                                          <num>1.</num>
+                                          <content>
+                                             <p>The Member States or their national central bank shall execute the Commission&apos;s payment orders following the Commission&apos;s instructions and within not more than three working days of receipt. In the case of cash movement transactions, the Member States or their national central bank shall execute the orders within the period requested by the Commission which, save in exceptional cases, shall notify them at least one day before the order is to be executed.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>2.</num>
+                                          <content>
+                                             <p>The Member States or their national central bank shall send to the Commission, by electronic means and at the latest on the second working day following the completion of each transaction, a statement of account showing the related movements.&apos;.</p>
+                                          </content>
+                                       </paragraph>
+                                    </article>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(10)</num>
+                     <alinea>
+                        <content>
+                           <p>Article 18 is replaced by the following:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <article xml:id="art_d733e868">
+                                       <num>&apos;Article 18</num>
+                                       <heading>Repeal</heading>
+                                       <paragraph>
+                                          <num>1.</num>
+                                          <content>
+                                             <p>Subject to paragraph 2, Regulation (EC, Euratom) No 1150/2000 is repealed with effect from 1 January 2014.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>2.</num>
+                                          <content>
+                                             <p>Article 10(7a) of Regulation (EC, Euratom) No 1150/2000 is repealed with effect from the date of entry into force of this Regulation.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>3.</num>
+                                          <content>
+                                             <p>References to the repealed Regulation shall be construed as references to this Regulation and shall be read in accordance with the correlation table in Annex II.&apos;.</p>
+                                          </content>
+                                       </paragraph>
+                                    </article>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+               </list>
+            </paragraph>
+         </article>
+         <article xml:id="art_d733e894">
+            <num>Article 2</num>
+            <heading/>
+            <paragraph>
+               <content>
+                  <p>This Regulation shall enter into force on the date of entry into force of Regulation (EU, Euratom) No 609/2014.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <content>
+                  <p>Subject to the third and fourth subparagraphs, it shall apply from the same date.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <content>
+                  <p>Point (6) of Article 1 shall apply to the calculation of interest for late payment of own resources that are due after the date of entry into force of this Regulation. However, the limitation on the total increase of the interest rate to 16 percentage points, as well as the limitation on the payment of interest for the VAT-based own resources only in relation to delays in entering amounts resulting from particular adjustments thereto on the date specified pursuant to measures taken by the Commission, shall also apply to the calculation of interest for late payment of own resources that were due prior to the date of entry into force of this Regulation, where those own resources only became known to the Commission or to the Member State concerned after the date of entry into force of this Regulation.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <content>
+                  <p>Point (10) of Article 1 shall apply from 1 January 2014.</p>
+               </content>
+            </paragraph>
+         </article>
+         <clause>
+            <content>
+               <p>This Regulation shall be binding in its entirety and directly applicable in all Member States.</p>
+            </content>
+         </clause>
+      </body>
+      <conclusions>
+         <p>Done at Brussels, 17 May 2016.</p>
+         <block name="signatory">
+            <signature>
+               <organization refersTo="">For the Council</organization>
+               <role refersTo="">The President</role>
+               <person refersTo="">M.H.P. VAN DAM</person>
+            </signature>
+         </block>
+      </conclusions>
+   </bill>
+</akomaNtoso>

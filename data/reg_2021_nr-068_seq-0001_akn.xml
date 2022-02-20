@@ -1,0 +1,776 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"
+            xmlns:fmx="http://formex.publications.europa.eu/schema/formex-05.21-20110601.xd"
+            xmlns:leos="urn:eu:europa:ec:leos"
+            xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <bill name="">
+      <meta xmlns:fn="http://www.w3.org/2005/xpath-functions">
+         <identification source="~COM">
+            <FRBRWork>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRcountry value=""/>
+            </FRBRWork>
+            <FRBRExpression>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+            </FRBRManifestation>
+         </identification>
+      </meta>
+      <preface>
+         <longTitle>
+            <p>
+               <docStage/>
+               <docType>REGULATION (EU) 2021/337 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL</docType>of 16 February 2021<docPurpose>amending Regulation (EU) 2017/1129 as regards the EU Recovery prospectus and targeted adjustments for financial intermediaries and Directive 2004/109/EC as regards the use of the single electronic reporting format for annual financial reports, to support the recovery from the COVID-19 crisis</docPurpose>
+            </p>
+         </longTitle>
+         <container name="EEArelevance">
+            <p>(Text with EEA relevance)</p>
+         </container>
+      </preface>
+      <preamble>
+         <formula name="actingEntity">
+            <p>THE EUROPEAN PARLIAMENT AND THE COUNCIL OF THE EUROPEAN UNION,</p>
+         </formula>
+         <citations>
+            <citation>
+               <p>Having regard to the Treaty on the Functioning of the European Union, and in particular Article 114 thereof,</p>
+            </citation>
+            <citation>
+               <p>Having regard to the proposal from the European Commission,</p>
+            </citation>
+            <citation>
+               <p>After transmission of the draft legislative act to the national parliaments,</p>
+            </citation>
+            <citation>
+               <p>Having regard to the opinion of the European Economic and Social Committee<authorialNote placement="bottom" marker="1">
+                     <p>OJ C 10, 11.1.2021, p. 30.</p>
+                  </authorialNote>,</p>
+            </citation>
+            <citation>
+               <p>Acting in accordance with the ordinary legislative procedure<authorialNote placement="bottom" marker="2">
+                     <p>Position of the European Parliament of 11 February 2021 (not yet published in the Official Journal) and decision of the Council of 15 February 2021.</p>
+                  </authorialNote>,</p>
+            </citation>
+         </citations>
+         <recitals xml:id="recs_d120e86">
+            <intro>
+               <p>Whereas:</p>
+            </intro>
+            <recital xml:id="rec_d120e89">
+               <num>(1)</num>
+               <p>The COVID-19 pandemic is severely affecting people, companies, healthcare systems and the economies of Member States. In its Communication of 27 May 2020 entitled &apos;Europe&apos;s moment: Repair and Prepare for the Next Generation&apos;, the Commission stressed that liquidity and access to finance will be a continued challenge. It is therefore crucial to support the recovery from the severe economic shock caused by the COVID-19 pandemic by introducing targeted amendments to existing Union financial services law. Those amendments form a package of measures and are adopted under the label &apos;Capital Markets Recovery Package&apos;.</p>
+            </recital>
+            <recital xml:id="rec_d120e106">
+               <num>(2)</num>
+               <p>Regulation (EU) 2017/1129 of the European Parliament and of the Council<authorialNote placement="bottom" marker="3">
+                     <p>Regulation (EU) 2017/1129 of the European Parliament and of the Council of 14 June 2017 on the prospectus to be published when securities are offered to the public or admitted to trading on a regulated market, and repealing Directive 2003/71/EC (OJ L 168, 30.6.2017, p. 12).</p>
+                  </authorialNote> lays down requirements for the drawing up, approval and distribution of the prospectus to be published when securities are offered to the public or admitted to trading on a regulated market situated or operating within a Member State. As part of the package of measures to help issuers to recover from the economic shock resulting from the COVID-19 pandemic, targeted amendments to the prospectus regime are necessary. Those amendments should enable issuers and financial intermediaries to reduce costs and free up resources for the recovery phase in the immediate aftermath of the COVID-19 pandemic. Those amendments should remain in line with the overarching objectives of Regulation (EU) 2017/1129 to foster fundraising through capital markets, ensure a high level of consumer and investor protection, drive supervisory convergence throughout the Member States, and ensure the proper functioning of the internal market. Those amendments should also specifically take full account of the extent to which the COVID-19 pandemic has affected issuers&apos; present situation and their future prospects.</p>
+            </recital>
+            <recital xml:id="rec_d120e124">
+               <num>(3)</num>
+               <p>The COVID-19 crisis makes Union companies, in particular small and medium-sized enterprises (SMEs) and start-ups, more fragile and vulnerable. Where appropriate in order to facilitate and diversify funding sources for Union companies, with a particular focus on SMEs, including start-ups and middle-capitalisation companies, the removal of unjustified barriers and excessive administrative burden can help to promote the ability of Union companies to access equity markets, in addition to promoting more diverse, longer-term and more competitive investment opportunities for retail and large investors. In that regard, this Regulation should also aim to make it easier for potential investors to learn about investment opportunities in companies, since potential investors often have difficulty evaluating start-up companies and small firms with a short business record, a situation which leads to fewer innovative openings, especially for persons starting a business.</p>
+            </recital>
+            <recital xml:id="rec_d120e130">
+               <num>(4)</num>
+               <p>Credit institutions have been active in the effort to support companies that needed financing and are expected to be a fundamental pillar of the recovery. Regulation (EU) 2017/1129 entitles credit institutions to an exemption from the obligation to publish a prospectus in the case of an offer or admission to trading on a regulated market of certain non-equity securities issued in a continuous or repeated manner up to an aggregated amount of EUR 75 million over a period of 12 months. That exemption threshold should be increased for a limited period of time in order to foster fundraising for credit institutions and give them breathing space to support their clients in the real economy. As the application of that exemption threshold is limited to the recovery phase, it should only be available for a limited period of time, ending on 31 December 2022.</p>
+            </recital>
+            <recital xml:id="rec_d120e139">
+               <num>(5)</num>
+               <p>In order to swiftly address the severe economic impact of the COVID-19 pandemic, it is important to introduce measures to facilitate investments in the real economy, allow for a rapid recapitalisation of companies in the Union and enable issuers to tap into public markets at an early stage in the recovery process. In order to achieve those objectives, it is appropriate to create a new short-form prospectus to be known as the EU Recovery prospectus that, while also addressing the economic and financial issues specifically raised by the COVID-19 pandemic, is easy to produce for issuers, easy to understand for investors, particularly retail investors, who want to finance issuers, and easy to scrutinise and approve for competent authorities. The EU Recovery prospectus should be seen primarily as a facilitator of re-capitalisation, with careful monitoring by competent authorities to ensure that investor information requirements are met. Importantly, the amendments to Regulation (EU) 2017/1129 contained in this Regulation should not be used to replace the scheduled review of, and possible amendment to, Regulation (EU) 2017/1129, which would need to be accompanied by a full impact assessment. In that regard, it would not be appropriate to add additional elements to the disclosure regimes that are not already required under that Regulation or under Commission Delegated Regulation (EU) 2019/980<authorialNote placement="bottom" marker="4">
+                     <p>Commission Delegated Regulation (EU) 2019/980 of 14 March 2019 supplementing Regulation (EU) 2017/1129 of the European Parliament and of the Council as regards the format, content, scrutiny and approval of the prospectus to be published when securities are offered to the public or admitted to trading on a regulated market, and repealing Commission Regulation (EC) No 809/2004 (OJ L 166, 21.6.2019, p. 26).</p>
+                  </authorialNote>, with the exception of specific information relating to the impact of the COVID-19 pandemic. Such elements should only be introduced in the case of a legislative proposal from the Commission on the basis of its review of Regulation (EU) 2017/1129, as provided for in Article 48 of that Regulation.</p>
+            </recital>
+            <recital xml:id="rec_d120e155">
+               <num>(6)</num>
+               <p>It is important to align retail investor information and key information documents across different financial products and laws, and to ensure full investment choice and comparability in the Union. In addition, consumer and retail investor protection should be considered in the foreseen review of Regulation (EU) 2017/1129 to ensure harmonised, simple and easy-to-understand information documents for all retail investors.</p>
+            </recital>
+            <recital xml:id="rec_d120e162">
+               <num>(7)</num>
+               <p>Information on environmental, social and governance (ESG) matters by companies has become increasingly relevant for investors in order to measure the sustainability impact of their investments and to integrate sustainability considerations in their investment decision-making processes and risk management. Companies, as a result, face increasing pressure to respond to demands from both investors and credit institutions on ESG matters and are required to comply with multiple standards for ESG disclosures, which are often fragmented and inconsistent. Therefore, for the purpose of improving companies&apos; disclosure of sustainability-related information and harmonising the requirements for such disclosure provided for in Regulation (EU) 2017/1129, while also taking into account other Union financial services law, the Commission should, in the context of the review of Regulation (EU) 2017/1129, assess whether it is appropriate to integrate sustainability-related information in Regulation (EU) 2017/1129 and assess whether it is appropriate to make a legislative proposal in order to ensure coherence with sustainability objectives and the comparability of sustainability-related information across Union financial services law.</p>
+            </recital>
+            <recital xml:id="rec_d120e168">
+               <num>(8)</num>
+               <p>Companies that have had shares admitted to trading on a regulated market or traded on an SME growth market continuously for at least the last 18 months before the offer of shares or admission to trading should have complied with periodic and ongoing disclosure requirements under Regulation (EU) No 596/2014 of the European Parliament and of the Council<authorialNote placement="bottom" marker="5">
+                     <p>Regulation (EU) No 596/2014 of the European Parliament and of the Council of 16 April 2014 on market abuse (market abuse regulation) and repealing Directive 2003/6/EC of the European Parliament and of the Council and Commission Directives 2003/124/EC, 2003/125/EC and 2004/72/EC (OJ L 173, 12.6.2014, p. 1).</p>
+                  </authorialNote>, Directive 2004/109/EC of the European Parliament and of the Council<authorialNote placement="bottom" marker="6">
+                     <p>Directive 2004/109/EC of the European Parliament and of the Council of 15 December 2004 on the harmonisation of transparency requirements in relation to information about issuers whose securities are admitted to trading on a regulated market and amending Directive 2001/34/EC (OJ L 390, 31.12.2004, p. 38).</p>
+                  </authorialNote> or, for issuers on SME growth markets, under Commission Delegated Regulation (EU) 2017/565<authorialNote placement="bottom" marker="7">
+                     <p>Commission Delegated Regulation (EU) 2017/565 of 25 April 2016 supplementing Directive 2014/65/EU of the European Parliament and of the Council as regards organisational requirements and operating conditions for investment firms and defined terms for the purposes of that Directive (OJ L 87, 31.3.2017, p. 1).</p>
+                  </authorialNote>. Hence, much of the required content of a prospectus will already be publicly available and investors will be trading on the basis of that information. Therefore, the EU Recovery prospectus should only be used for secondary issuances of shares. The EU Recovery prospectus should facilitate equity funding and thereby allow companies to rapidly recapitalise. The EU Recovery prospectus should not enable issuers to move from an SME growth market to a regulated market. Furthermore, the EU Recovery prospectus should only focus on essential information enabling investors to make informed investment decisions. Nevertheless, if applicable, issuers or offerors should address how the COVID-19 pandemic has affected the issuers&apos; business activities as well as the pandemic&apos;s future anticipated impact on the issuers&apos; business activities, if any.</p>
+            </recital>
+            <recital xml:id="rec_d120e204">
+               <num>(9)</num>
+               <p>In order to be an efficient tool for issuers, the EU Recovery prospectus should be a single document of a limited size, allow for incorporation by reference, and benefit from the passport for pan-European offers of shares to the public or admissions to trading on a regulated market.</p>
+            </recital>
+            <recital xml:id="rec_d120e211">
+               <num>(10)</num>
+               <p>The EU Recovery prospectus should include a short-form summary as a useful source of information for investors, in particular retail investors. That summary should be set out at the beginning of the EU Recovery prospectus and should focus on key information that would enable investors to decide which offers to the public and admissions to trading of shares to study further and thereafter to review the EU Recovery prospectus as a whole in order to take their decision. The key information should include information covering specifically the business and financial impact, if any, of the COVID-19 pandemic, as well as its anticipated future impact, if any. The EU Recovery prospectus should ensure retail investor protection by adhering to the relevant provisions of Regulation (EU) 2017/1129, while avoiding excessive administrative burden. In that regard, it is essential that the summary does not diminish investor protection nor give a misleading impression to investors. Issuers or offerors should therefore ensure a high level of diligence in the drafting of that summary.</p>
+            </recital>
+            <recital xml:id="rec_d120e218">
+               <num>(11)</num>
+               <p>Since the EU Recovery prospectus would provide significantly less information than a simplified prospectus under the simplified disclosure regime for secondary issuances, it should not be possible for issuers to use it for highly dilutive issuances of shares with a significant impact on the issuer&apos;s capital structure, prospects and financial situation. The use of the EU Recovery prospectus should therefore be limited to offers comprising no more than 150 % of outstanding capital. Precise criteria for the calculation of such a threshold should be laid down in this Regulation.</p>
+            </recital>
+            <recital xml:id="rec_d120e224">
+               <num>(12)</num>
+               <p>In order to collect data that supports the assessment of the EU Recovery prospectus regime, the EU Recovery prospectus should be included in the storage mechanism referred to in Article 21(6) of Regulation (EU) 2017/1129. To limit the administrative burden for changing that storage mechanism, the EU Recovery prospectus should be able to use the same data as that defined for the secondary issuance prospectus set out in Article 14 of Regulation (EU) 2017/1129, provided that the two types of prospectuses remain clearly differentiated.</p>
+            </recital>
+            <recital xml:id="rec_d120e230">
+               <num>(13)</num>
+               <p>The EU Recovery prospectus should complement the other forms of prospectuses laid down in Regulation (EU) 2017/1129 in view of the specificities of different types of securities, issuers, offers and admissions. Therefore, unless explicitly stated otherwise, all references to the term &apos;prospectus&apos; under Regulation (EU) 2017/1129 are to be understood as referring to all different forms of prospectuses, including the EU Recovery prospectus laid down in this Regulation.</p>
+            </recital>
+            <recital xml:id="rec_d120e240">
+               <num>(14)</num>
+               <p>Regulation (EU) 2017/1129 requires financial intermediaries to inform investors of the possibility of a supplement being published and, under certain circumstances, to contact investors on the same day that a supplement is published. The deadline by which investors must be contacted, as well as the scope of investors to be contacted, can create difficulties for financial intermediaries. In order to provide relief and free-up resources for financial intermediaries while maintaining a high level of investor protection, a more proportionate regime should be laid down. In particular, it should be clarified that financial intermediaries should contact investors who purchase or subscribe securities at the latest at the closing of the initial offer period. The initial offer period should be understood as referring to the time period during which securities are offered to the public by the issuer or the offeror as prescribed in the prospectus and exclude subsequent periods during which securities are resold on the market. The initial offer period should encompass both primary and secondary issuances of securities. Such a regime should specify which investors should be contacted by financial intermediaries when a supplement is published and should extend the deadline by which those investors are to be contacted. Irrespective of the new regime provided for in this Regulation, the existing provisions of Regulation (EU) 2017/1129, which ensure that the supplement is accessible for all investors by requiring the publication of the supplement on a publicly available website, should continue to apply.</p>
+            </recital>
+            <recital xml:id="rec_d120e246">
+               <num>(15)</num>
+               <p>As the EU Recovery prospectus regime is limited to the recovery phase, that regime should expire by 31 December 2022. In order to ensure the continuity of EU Recovery prospectuses, those EU Recovery prospectuses that have been approved before the expiration of the EU Recovery prospectus regime should benefit from a grandfathering provision.</p>
+            </recital>
+            <recital xml:id="rec_d120e255">
+               <num>(16)</num>
+               <p>By 21 July 2022, the Commission is to present a report to the European Parliament and the Council on the application of Regulation (EU) 2017/1129, accompanied where appropriate by a legislative proposal. That report should assess, inter alia, whether the disclosure regime for EU Recovery prospectuses is appropriate to meet the objectives pursued by this Regulation. That assessment should address the question whether the EU Recovery prospectus strikes a proper balance between investor protection and the reduction of administrative burden.</p>
+            </recital>
+            <recital xml:id="rec_d120e264">
+               <num>(17)</num>
+               <p>Directive 2004/109/EC requires issuers whose securities are admitted to trading on a regulated market situated or operating within a Member State to prepare and disclose their annual financial reports in a single electronic reporting format, starting from financial years beginning on or after 1 January 2020. That single electronic reporting format is specified in Commission Delegated Regulation (EU) 2019/815<authorialNote placement="bottom" marker="8">
+                     <p>Commission Delegated Regulation (EU) 2019/815 of 17 December 2018 supplementing Directive 2004/109/EC of the European Parliament and of the Council with regard to regulatory technical standards on the specification of a single electronic reporting format (OJ L 143, 29.5.2019, p. 1).</p>
+                  </authorialNote>. Considering that the preparation of annual financial reports using the single electronic reporting format requires the allocation of additional human and financial resources, in particular during the first year of preparation, and considering the constraints on issuers&apos; resources due to the COVID-19 pandemic, a Member State should be able to postpone the application of the requirement to prepare and disclose annual financial reports using the single electronic reporting format by one year. To exercise that option, a Member State should notify the Commission of its intention to allow for such postponement and its intention should be duly justified.</p>
+            </recital>
+            <recital xml:id="rec_d120e285">
+               <num>(18)</num>
+               <p>Since the objectives of this Regulation, namely to introduce measures to facilitate investments in the real economy, allow for a rapid recapitalisation of companies in the Union and enable issuers to tap into public markets at an early stage in the recovery process, cannot be sufficiently achieved by the Member States but can rather, by reason of their scale and effects be better achieved at Union level, the Union may adopt measures, in accordance with the principle of subsidiarity as set out in Article 5 of the Treaty on European Union. In accordance with the principle of proportionality as set out in that Article, this Regulation does not go beyond what is necessary in order to achieve those objectives.</p>
+            </recital>
+            <recital xml:id="rec_d120e291">
+               <num>(19)</num>
+               <p>Regulation (EU) 2017/1129 and Directive 2004/109/EC should therefore be amended accordingly,</p>
+            </recital>
+         </recitals>
+         <formula name="enactingFormula">
+            <p>HAVE ADOPTED THIS REGULATION:</p>
+         </formula>
+      </preamble>
+      <body>
+         <article xml:id="art_d120e300" leos:compliant="false">
+            <num>Article 1</num>
+            <heading>Amendments to Regulation (EU) 2017/1129</heading>
+            <paragraph>
+               <subparagraph>
+                  <content>
+                     <p>Regulation (EU) 2017/1129 is amended as follows:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(1)</num>
+                     <alinea>
+                        <content>
+                           <p>in Article 1(4), the following point is added:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <list>
+                                       <point>
+                                          <num>&apos;(l)</num>
+                                          <alinea>
+                                             <content>
+                                                <p>from 18 March 2021 to 31 December 2022, non-equity securities issued in a continuous or repeated manner by a credit institution, where the total aggregated consideration in the Union for the securities offered is less than EUR 150000000 per credit institution calculated over a period of 12 months, provided that those securities:</p>
+                                             </content>
+                                          </alinea>
+                                          <list>
+                                             <point>
+                                                <num>(i)</num>
+                                                <content>
+                                                   <p>are not subordinated, convertible or exchangeable; and</p>
+                                                </content>
+                                             </point>
+                                             <point>
+                                                <num>(ii)</num>
+                                                <content>
+                                                   <p>do not give a right to subscribe for or acquire other types of securities and are not linked to a derivative instrument.&apos;;</p>
+                                                </content>
+                                             </point>
+                                          </list>
+                                       </point>
+                                    </list>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(2)</num>
+                     <alinea>
+                        <content>
+                           <p>in Article 1(5), first subparagraph, the following point is added:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <list>
+                                       <point>
+                                          <num>&apos;(k)</num>
+                                          <alinea>
+                                             <content>
+                                                <p>from 18 March 2021 to 31 December 2022, non-equity securities issued in a continuous or repeated manner by a credit institution, where the total aggregated consideration in the Union for the securities offered is less than EUR 150000000 per credit institution calculated over a period of 12 months, provided that those securities:</p>
+                                             </content>
+                                          </alinea>
+                                          <list>
+                                             <point>
+                                                <num>(i)</num>
+                                                <content>
+                                                   <p>are not subordinated, convertible or exchangeable; and</p>
+                                                </content>
+                                             </point>
+                                             <point>
+                                                <num>(ii)</num>
+                                                <content>
+                                                   <p>do not give a right to subscribe for or acquire other types of securities and are not linked to a derivative instrument.&apos;;</p>
+                                                </content>
+                                             </point>
+                                          </list>
+                                       </point>
+                                    </list>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(3)</num>
+                     <alinea>
+                        <content>
+                           <p>in Article 6(1), the introductory part of the first subparagraph is replaced by the following:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <paragraph>
+                                       <num>&apos;1.</num>
+                                       <content>
+                                          <p>Without prejudice to Articles 14(2), 14a(2) and 18(1), a prospectus shall contain the necessary information which is material to an investor for making an informed assessment of:&apos;;</p>
+                                       </content>
+                                    </paragraph>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(4)</num>
+                     <alinea>
+                        <content>
+                           <p>in Article 7, the following paragraph is inserted:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <paragraph>
+                                       <num>&apos;12a.</num>
+                                       <subparagraph>
+                                          <content>
+                                             <p>By way of derogation from paragraphs 3 to 12 of this Article, an EU Recovery prospectus drawn up in accordance with Article 14a shall include a summary drawn up in accordance with this paragraph.</p>
+                                          </content>
+                                       </subparagraph>
+                                       <subparagraph>
+                                          <content>
+                                             <p>The summary of an EU Recovery prospectus shall be drawn up as a short document written in a concise manner and of a maximum length of two sides of A4-sized paper when printed.</p>
+                                          </content>
+                                       </subparagraph>
+                                       <subparagraph>
+                                          <content>
+                                             <p>The summary of an EU Recovery prospectus shall not contain cross-references to other parts of the prospectus or incorporate information by reference and shall:</p>
+                                          </content>
+                                       </subparagraph>
+                                       <list>
+                                          <point>
+                                             <num>(a)</num>
+                                             <content>
+                                                <p>be presented and laid out in a way that is easy to read, using characters of readable size;</p>
+                                             </content>
+                                          </point>
+                                          <point>
+                                             <num>(b)</num>
+                                             <content>
+                                                <p>be written in a language and a style that facilitate the understanding of the information, in particular, in language that is clear, non-technical, concise and comprehensible for investors;</p>
+                                             </content>
+                                          </point>
+                                          <point>
+                                             <num>(c)</num>
+                                             <alinea>
+                                                <content>
+                                                   <p>be made up of the following four sections:</p>
+                                                </content>
+                                             </alinea>
+                                             <list>
+                                                <point>
+                                                   <num>(i)</num>
+                                                   <content>
+                                                      <p>an introduction, containing all of the information referred to in paragraph 5 of this Article, including warnings and the date of approval of the EU Recovery prospectus;</p>
+                                                   </content>
+                                                </point>
+                                                <point>
+                                                   <num>(ii)</num>
+                                                   <content>
+                                                      <p>key information on the issuer, including, if applicable, a specific reference of not less than 200 words to the business and financial impact on the issuer of the COVID-19 pandemic;</p>
+                                                   </content>
+                                                </point>
+                                                <point>
+                                                   <num>(iii)</num>
+                                                   <content>
+                                                      <p>key information on the shares, including the rights attached to those shares and any limitations on those rights;</p>
+                                                   </content>
+                                                </point>
+                                                <point>
+                                                   <num>(iv)</num>
+                                                   <content>
+                                                      <p>key information on the offer of shares to the public and/or the admission to trading on a regulated market.&apos;;</p>
+                                                   </content>
+                                                </point>
+                                             </list>
+                                          </point>
+                                       </list>
+                                    </paragraph>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(5)</num>
+                     <alinea>
+                        <content>
+                           <p>the following Article is inserted:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <article xml:id="art_d120e482">
+                                       <num>&apos;Article 14a</num>
+                                       <heading>EU Recovery prospectus</heading>
+                                       <paragraph>
+                                          <num>1.</num>
+                                          <subparagraph>
+                                             <content>
+                                                <p>The following persons may choose to draw up an EU Recovery prospectus under the simplified disclosure regime set out in this Article in the case of an offer of shares to the public or of an admission to trading of shares on a regulated market:</p>
+                                             </content>
+                                          </subparagraph>
+                                          <list>
+                                             <point>
+                                                <num>(a)</num>
+                                                <content>
+                                                   <p>issuers whose shares have been admitted to trading on a regulated market continuously for at least the last 18 months and who issue shares fungible with existing shares which have been previously issued;</p>
+                                                </content>
+                                             </point>
+                                             <point>
+                                                <num>(b)</num>
+                                                <content>
+                                                   <p>issuers whose shares have already been traded on an SME growth market continuously for at least the last 18 months, provided that a prospectus has been published for the offer of those shares, and who issue shares fungible with existing shares which have been previously issued;</p>
+                                                </content>
+                                             </point>
+                                             <point>
+                                                <num>(c)</num>
+                                                <content>
+                                                   <p>offerors of shares admitted to trading on a regulated market or an SME growth market continuously for at least the last 18 months.</p>
+                                                </content>
+                                             </point>
+                                          </list>
+                                          <subparagraph>
+                                             <content>
+                                                <p>Issuers may only draw up an EU Recovery prospectus provided that the number of shares intended to be offered represents, together with the number of shares already offered via an EU Recovery prospectus over a period of 12 months, if any, no more than 150 % of the number of shares already admitted to trading on a regulated market or an SME growth market, as the case may be, on the date of approval of the EU Recovery prospectus.</p>
+                                             </content>
+                                          </subparagraph>
+                                          <subparagraph>
+                                             <content>
+                                                <p>The period of 12 months referred to in the second subparagraph shall begin on the date of approval of the EU Recovery prospectus.</p>
+                                             </content>
+                                          </subparagraph>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>2.</num>
+                                          <subparagraph>
+                                             <content>
+                                                <p>By way of derogation from Article 6(1), and without prejudice to Article 18(1), the EU Recovery prospectus shall contain the relevant reduced information which is necessary to enable investors to understand:</p>
+                                             </content>
+                                          </subparagraph>
+                                          <list>
+                                             <point>
+                                                <num>(a)</num>
+                                                <content>
+                                                   <p>the prospects and financial performance of the issuer and the significant changes in the financial and business position of the issuer that have occurred since the end of the last financial year, if any, as well as its financial and non-financial long-term business strategy and objectives, including, if applicable, a specific reference of not less than 400 words to the business and financial impact of the COVID-19 pandemic on the issuer and the anticipated future impact of the same;</p>
+                                                </content>
+                                             </point>
+                                             <point>
+                                                <num>(b)</num>
+                                                <content>
+                                                   <p>the essential information on the shares, including the rights attached to those shares and any limitations on those rights, the reasons for the issuance and its impact on the issuer, including on the overall capital structure of the issuer, as well as a disclosure of capitalisation and indebtedness, a working capital statement, and the use of proceeds.</p>
+                                                </content>
+                                             </point>
+                                          </list>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>3.</num>
+                                          <content>
+                                             <p>The information contained in the EU Recovery prospectus shall be written and presented in an easily analysable, concise and comprehensible form and shall enable investors, especially retail investors, to make an informed investment decision, taking into account the regulated information that has already been disclosed to the public pursuant to Directive 2004/109/EC, where applicable, Regulation (EU) No 596/2014 and, where applicable, information referred to in Commission Delegated Regulation (EU) 2017/565<authorialNote placement="bottom" marker="9">
+                                                   <p>Commission Delegated Regulation (EU) 2017/565 of 25 April 2016 supplementing Directive 2014/65/EU of the European Parliament and of the Council as regards organisational requirements and operating conditions for investment firms and defined terms for the purposes of that Directive (OJ L 87, 31.3.2017, p. 1).&apos;;</p>
+                                                </authorialNote>.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>4.</num>
+                                          <content>
+                                             <p>The EU Recovery prospectus shall be drawn up as a single document containing the minimum information set out in Annex Va. It shall be of a maximum length of 30 sides of A4-sized paper when printed and shall be presented and laid out in a way that is easy to read, using characters of readable size.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>5.</num>
+                                          <content>
+                                             <p>Neither the summary nor the information incorporated by reference in accordance with Article 19 shall be taken into account as regards the maximum length referred to in paragraph 4 of this Article.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>6.</num>
+                                          <content>
+                                             <p>Issuers may decide the order in which the information set out in Annex Va is set out in the EU Recovery prospectus.</p>
+                                          </content>
+                                       </paragraph>
+                                    </article>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(6)</num>
+                     <alinea>
+                        <content>
+                           <p>in Article 20, the following paragraph is inserted:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <paragraph>
+                                       <num>&apos;6a.</num>
+                                       <content>
+                                          <p>By way of derogation from paragraphs 2 and 4, the time limits set out in the first subparagraph of paragraph 2 and paragraph 4 shall be reduced to seven working days for an EU Recovery prospectus. The issuer shall inform the competent authority at least five working days before the date envisaged for the submission of an application for approval.&apos;;</p>
+                                       </content>
+                                    </paragraph>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(7)</num>
+                     <alinea>
+                        <content>
+                           <p>in Article 21, the following paragraph is inserted:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <paragraph>
+                                       <num>&apos;5a.</num>
+                                       <content>
+                                          <p>An EU Recovery prospectus shall be classified in the storage mechanism referred to in paragraph 6 of this Article. The data used for the classification of prospectuses drawn up in accordance with Article 14 may be used for the classification of EU Recovery prospectuses drawn up in accordance with Article 14a, provided that the two types of prospectuses are differentiated in that storage mechanism.&apos;;</p>
+                                       </content>
+                                    </paragraph>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(8)</num>
+                     <alinea>
+                        <content>
+                           <p>Article 23 is amended as follows:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <alinea>
+                              <content>
+                                 <p>the following paragraph is inserted:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <paragraph>
+                                             <num>&apos;2a.</num>
+                                             <subparagraph>
+                                                <content>
+                                                   <p>By way of derogation from paragraph 2, from 18 March 2021 to 31 December 2022, where the prospectus relates to an offer of securities to the public, investors who have already agreed to purchase or subscribe for the securities before the supplement is published shall have the right, exercisable within three working days after the publication of the supplement, to withdraw their acceptances, provided that the significant new factor, material mistake or material inaccuracy referred to in paragraph 1 arose or was noted before the closing of the offer period or the delivery of the securities, whichever occurs first. That period may be extended by the issuer or the offeror. The final date of the right of withdrawal shall be stated in the supplement.</p>
+                                                </content>
+                                             </subparagraph>
+                                             <subparagraph>
+                                                <content>
+                                                   <p>The supplement shall contain a prominent statement concerning the right of withdrawal, which clearly states:</p>
+                                                </content>
+                                             </subparagraph>
+                                             <list>
+                                                <point>
+                                                   <num>(a)</num>
+                                                   <content>
+                                                      <p>that a right of withdrawal is only granted to those investors who had already agreed to purchase or subscribe for the securities before the supplement was published and where the securities had not yet been delivered to the investors at the time when the significant new factor, material mistake or material inaccuracy arose or was noted;</p>
+                                                   </content>
+                                                </point>
+                                                <point>
+                                                   <num>(b)</num>
+                                                   <content>
+                                                      <p>the period in which investors can exercise their right of withdrawal; and</p>
+                                                   </content>
+                                                </point>
+                                                <point>
+                                                   <num>(c)</num>
+                                                   <content>
+                                                      <p>whom investors may contact should they wish to exercise the right of withdrawal.&apos;;</p>
+                                                   </content>
+                                                </point>
+                                                <point>
+                                                   <num>(b)</num>
+                                                   <content>
+                                                      <p>the following paragraph is inserted:</p>
+                                                   </content>
+                                                </point>
+                                             </list>
+                                          </paragraph>
+                                          <paragraph>
+                                             <num>&apos;3a.</num>
+                                             <subparagraph>
+                                                <content>
+                                                   <p>By way of derogation from paragraph 3, from 18 March 2021 to 31 December 2022, where investors purchase or subscribe securities through a financial intermediary between the time when the prospectus for those securities is approved and the closing of the initial offer period, that financial intermediary shall inform those investors of the possibility of a supplement being published, where and when it would be published and that the financial intermediary would assist them in exercising their right to withdraw acceptances in such a case.</p>
+                                                </content>
+                                             </subparagraph>
+                                             <subparagraph>
+                                                <content>
+                                                   <p>Where the investors referred to in the first subparagraph of this paragraph have the right of withdrawal referred to in paragraph 2a, the financial intermediary shall contact those investors by the end of the first working day following that on which the supplement is published.</p>
+                                                </content>
+                                             </subparagraph>
+                                             <subparagraph>
+                                                <content>
+                                                   <p>Where the securities are purchased or subscribed directly from the issuer, that issuer shall inform investors of the possibility of a supplement being published and where it would be published and that, in such a case, they could have a right to withdraw the acceptance.&apos;;</p>
+                                                </content>
+                                             </subparagraph>
+                                          </paragraph>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                     </list>
+                  </point>
+                  <point>
+                     <num>(9)</num>
+                     <alinea>
+                        <content>
+                           <p>the following Article is inserted:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <article xml:id="art_d120e686">
+                                       <num>&apos;Article 47a</num>
+                                       <heading>Time limitation of the EU Recovery prospectus regime</heading>
+                                       <paragraph>
+                                          <content>
+                                             <p>The EU Recovery prospectus regime set out in Article 7(12a), Article 14a, Article 20(6a) and Article 21(5a) expires on 31 December 2022.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <content>
+                                             <p>EU Recovery prospectuses approved between 18 March 2021 and 31 December 2022 shall continue to be governed in accordance with Article 14a until the end of their validity or until 12 months have elapsed after 31 December 2022, whichever occurs first.&apos;;</p>
+                                          </content>
+                                       </paragraph>
+                                    </article>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(10)</num>
+                     <alinea>
+                        <content>
+                           <p>in Article 48, paragraph 2 is replaced by the following:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <paragraph>
+                                       <num>&apos;2.</num>
+                                       <subparagraph>
+                                          <content>
+                                             <p>The report shall assess, inter alia, whether the prospectus summary, the disclosure regimes set out in Articles 14, 14a and 15 and the universal registration document referred to in Article 9 remain appropriate in light of their pursued objectives. In particular, the report shall include the following:</p>
+                                          </content>
+                                       </subparagraph>
+                                       <list>
+                                          <point>
+                                             <num>(a)</num>
+                                             <content>
+                                                <p>the number of EU Growth prospectuses of persons in each of the categories referred to in points (a) to (d) of Article 15(1) and an analysis of the evolution of each such number and of the trends in the choice of trading venues by the persons entitled to use the EU Growth prospectus;</p>
+                                             </content>
+                                          </point>
+                                          <point>
+                                             <num>(b)</num>
+                                             <content>
+                                                <p>an analysis of whether the EU Growth prospectus strikes a proper balance between investor protection and the reduction of administrative burdens for the persons entitled to use it;</p>
+                                             </content>
+                                          </point>
+                                          <point>
+                                             <num>(c)</num>
+                                             <content>
+                                                <p>the number of EU Recovery prospectuses approved and an analysis of the evolution of such number, as well as an estimate of the actual additional market capitalisation mobilised by EU Recovery prospectuses at the date of issue in order to gather experience about the EU Recovery prospectus for post-evaluation;</p>
+                                             </content>
+                                          </point>
+                                          <point>
+                                             <num>(d)</num>
+                                             <content>
+                                                <p>the cost of preparing and having an EU Recovery prospectus approved compared to the current costs for the preparation and approval of a standard prospectus, a secondary issuance prospectus and an EU Growth prospectus, together with an indication of the overall financial savings achieved and of which costs could be further reduced, and the total costs of complying with this Regulation for issuers, offerors and financial intermediaries together with a calculation of those costs as a percentage of operational costs;</p>
+                                             </content>
+                                          </point>
+                                          <point>
+                                             <num>(e)</num>
+                                             <content>
+                                                <p>an analysis of whether the EU Recovery prospectus strikes the proper balance between investor protection and the reduction of administrative burden for the persons entitled to use it, and of the accessibility of essential information for investments;</p>
+                                             </content>
+                                          </point>
+                                          <point>
+                                             <num>(f)</num>
+                                             <content>
+                                                <p>an analysis of whether it would be appropriate to extend the duration of the EU Recovery prospectus regime, including whether the threshold referred to in the second subparagraph of Article 14a(1), beyond which an EU Recovery prospectus may not be used, is appropriate;</p>
+                                             </content>
+                                          </point>
+                                          <point>
+                                             <num>(g)</num>
+                                             <content>
+                                                <p>an analysis of whether the measures laid down in Articles 23(2a) and 23(3a) achieved the objective of providing additional clarity and flexibility to both financial intermediaries and investors and whether it would be appropriate to make those measures permanent.&apos;;</p>
+                                             </content>
+                                          </point>
+                                       </list>
+                                    </paragraph>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(11)</num>
+                     <content>
+                        <p>the text set out in the Annex to this Regulation is inserted as Annex Va.</p>
+                     </content>
+                  </point>
+               </list>
+            </paragraph>
+         </article>
+         <article xml:id="art_d120e777" leos:compliant="false">
+            <num>Article 2</num>
+            <heading>Amendment to Directive 2004/109/EC</heading>
+            <paragraph>
+               <content>
+                  <p>In Article 4(7), the first subparagraph is replaced by the following:</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <content>
+                  <p>
+                     <mod>
+                        <quotedStructure startQuote="" endQuote="">
+                           <paragraph>
+                              <num>&apos;7.</num>
+                              <content>
+                                 <p>For financial years beginning on or after 1 January 2020, all annual financial reports shall be prepared in a single electronic reporting format provided that a cost-benefit analysis has been undertaken by the European Supervisory Authority (European Securities and Markets Authority) (ESMA) established by Regulation (EU) No 1095/2010 of the European Parliament and of the Council<authorialNote placement="bottom" marker="10">
+                                       <p>Regulation (EU) No 1095/2010 of the European Parliament and of the Council of 24 November 2010 establishing a European Supervisory Authority (European Securities and Markets Authority), amending Decision No 716/2009/EC and repealing Commission Decision 2009/77/EC (OJ L 331, 15.12.2010, p. 84).&apos;.</p>
+                                    </authorialNote>. However, a Member State may allow issuers to apply that reporting requirement for financial years beginning on or after 1 January 2021, provided that that Member State notifies the Commission of its intention to allow such a delay by 19 March 2021, and that its intention is duly justified.</p>
+                              </content>
+                           </paragraph>
+                        </quotedStructure>
+                     </mod>
+                  </p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d120e813">
+            <num>Article 3</num>
+            <heading>Entry into force and application</heading>
+            <paragraph>
+               <content>
+                  <p>This Regulation shall enter into force on the twentieth day following that of its publication in the <i>Official Journal of the European Union</i>.</p>
+               </content>
+            </paragraph>
+         </article>
+         <clause>
+            <content>
+               <p>This Regulation shall be binding in its entirety and directly applicable in all Member States.</p>
+            </content>
+         </clause>
+      </body>
+      <conclusions>
+         <p>Done at Brussels, 16 February 2021.</p>
+         <block name="signatory">
+            <signature>
+               <organization refersTo="">For the European Parliament</organization>
+               <role refersTo="">The President</role>
+               <person refersTo="">D. M. SASSOLI</person>
+            </signature>
+            <signature>
+               <organization refersTo="">For the Council</organization>
+               <role refersTo="">The President</role>
+               <person refersTo="">A. P. ZACARIAS</person>
+            </signature>
+         </block>
+      </conclusions>
+   </bill>
+</akomaNtoso>

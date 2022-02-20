@@ -1,0 +1,1224 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"
+            xmlns:fmx="http://formex.publications.europa.eu/schema/formex-05.21-20110601.xd"
+            xmlns:leos="urn:eu:europa:ec:leos"
+            xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <bill name="">
+      <meta xmlns:fn="http://www.w3.org/2005/xpath-functions">
+         <identification source="~COM">
+            <FRBRWork>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRcountry value=""/>
+            </FRBRWork>
+            <FRBRExpression>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+            </FRBRManifestation>
+         </identification>
+      </meta>
+      <preface>
+         <longTitle>
+            <p>
+               <docStage/>
+               <docType>REGULATION (EU) 2019/1239 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL</docType>of 20 June 2019<docPurpose>establishing a European Maritime Single Window environment and repealing Directive 2010/65/EU</docPurpose>
+            </p>
+         </longTitle>
+      </preface>
+      <preamble>
+         <formula name="actingEntity">
+            <p>THE EUROPEAN PARLIAMENT AND THE COUNCIL OF THE EUROPEAN UNION,</p>
+         </formula>
+         <citations>
+            <citation>
+               <p>Having regard to the Treaty on the Functioning of the European Union, and in particular Article 100(2) thereof,</p>
+            </citation>
+            <citation>
+               <p>Having regard to the proposal from the European Commission,</p>
+            </citation>
+            <citation>
+               <p>After transmission of the draft legislative act to the national parliaments,</p>
+            </citation>
+            <citation>
+               <p>Having regard to the opinion of the European Economic and Social Committee<authorialNote placement="bottom" marker="1">
+                     <p>OJ C 62, 15.2.2019, p. 265.</p>
+                  </authorialNote>,</p>
+            </citation>
+            <citation>
+               <p>After consulting the Committee of the Regions,</p>
+            </citation>
+            <citation>
+               <p>Acting in accordance with the ordinary legislative procedure<authorialNote placement="bottom" marker="2">
+                     <p>Position of the European Parliament of 18 April 2019 (not yet published in the Official Journal) and decision of the Council of 13 June 2019.</p>
+                  </authorialNote>,</p>
+            </citation>
+         </citations>
+         <recitals xml:id="recs_d377e85">
+            <intro>
+               <p>Whereas:</p>
+            </intro>
+            <recital xml:id="rec_d377e88">
+               <num>(1)</num>
+               <p>Directive 2010/65/EU of the European Parliament and of the Council<authorialNote placement="bottom" marker="3">
+                     <p>Directive 2010/65/EU of the European Parliament and of the Council of 20 October 2010 on reporting formalities for ships arriving in and/or departing from ports of the Member States and repealing Directive 2002/6/EC (OJ L 283, 29.10.2010, p. 1).</p>
+                  </authorialNote> requires Member States to accept the fulfilment of the reporting obligations of ships arriving in and departing from Union ports in electronic format and to ensure their transmission via a single window in order to facilitate and expedite maritime transport.</p>
+            </recital>
+            <recital xml:id="rec_d377e104">
+               <num>(2)</num>
+               <p>Maritime transport is the backbone of trade and communications within and beyond the single market. For the facilitation of maritime transport, and in order to further reduce the administrative burden for shipping companies, the information procedures for fulfilment of reporting obligations imposed on shipping companies by Union legal acts, by international legal acts and by national law of Member States should be further simplified and harmonised and should be technology-neutral, promoting future-proof reporting solutions.</p>
+            </recital>
+            <recital xml:id="rec_d377e110">
+               <num>(3)</num>
+               <p>Both the European Parliament and the Council have frequently called for more interoperability and for more comprehensive, user-friendly communication and information flows, in order to improve the functioning of the internal market and to meet the needs of citizens and businesses.</p>
+            </recital>
+            <recital xml:id="rec_d377e117">
+               <num>(4)</num>
+               <p>The main aim of this Regulation is to lay down harmonised rules for the provision of the information that is required for port calls, in particular by ensuring that the same data sets can be reported to each maritime National Single Window in the same way. This Regulation also aims to facilitate the transmission of information between declarants, relevant authorities and the providers of port services in the port of call, and other Member States. The application of this Regulation should not alter the time frames for, or the substance of, reporting obligations, and should not affect the subsequent storage and processing of information at Union level or at national level.</p>
+            </recital>
+            <recital xml:id="rec_d377e123">
+               <num>(5)</num>
+               <p>The existing maritime National Single Window in each Member State should be maintained as the basis for a technologically neutral and interoperable European Maritime Single Window environment (&apos;EMSWe&apos;). The maritime National Single Window should constitute a comprehensive reporting entry point for maritime transport operators, performing the functionalities of data collection from the declarants and data distribution to all relevant competent authorities and providers of port services.</p>
+            </recital>
+            <recital xml:id="rec_d377e133">
+               <num>(6)</num>
+               <p>In order to enhance the efficiency of the maritime National Single Windows and to prepare for future developments, it should be possible to maintain present or establish new arrangements in Member States to use the maritime National Single Window for the reporting of similar information for other transport modes.</p>
+            </recital>
+            <recital xml:id="rec_d377e139">
+               <num>(7)</num>
+               <p>The front-end interfaces of those maritime National Single Windows on the side of the declarants should be harmonised at Union level, in order to facilitate reporting and further reduce administrative burden. This harmonisation should be achieved by the use in every maritime National Single Window of common interface software for system-to-system exchanges of information, developed at Union level. The Member States should bear the responsibility for integrating and managing the interface module and for updating the software regularly and in a timely manner when new versions are provided by the Commission. The Commission should develop this module and provide updates when needed, since the development of digital technologies is moving fast and any technological solution could rapidly become outdated in the light of new developments.</p>
+            </recital>
+            <recital xml:id="rec_d377e145">
+               <num>(8)</num>
+               <p>Other reporting channels provided by Member States and service providers, such as Port Community Systems, could be maintained as optional entry points for reporting and should be able to act as data service providers.</p>
+            </recital>
+            <recital xml:id="rec_d377e151">
+               <num>(9)</num>
+               <p>In order not to impose a disproportionate administrative burden on landlocked Member States which do not have maritime ports, such Member States should be exempted from the obligation to develop, establish, operate and make available a maritime National Single Window. This means that, for as long as they make use of this exemption, such Member States should not be required to fulfil obligations that are linked to the development, establishment, operation and making available of a maritime National Single Window.</p>
+            </recital>
+            <recital xml:id="rec_d377e158">
+               <num>(10)</num>
+               <p>An easy-to-use graphical user interface with common functionalities should be part of the maritime National Single Windows for manual reporting by declarants. Member States should offer the graphical user interface for manual entry of data by declarants also by way of uploading harmonised digital spreadsheets. In addition to ensuring common functionalities, the Commission and Member States should coordinate efforts with the aim of ensuring that the user experience of those graphical user interfaces is as similar as possible.</p>
+            </recital>
+            <recital xml:id="rec_d377e164">
+               <num>(11)</num>
+               <p>Emerging new digital technologies present ever-growing opportunities to increase the efficiency of the maritime transport sector and to reduce administrative burdens. In order for the benefits of such new technologies to accrue as early as possible, the Commission should be empowered to amend the technical specifications, standards and procedures of the harmonised reporting environment by means of implementing acts. This should leave flexibility for market players to develop new digital technologies and new technologies should also be taken into account when this Regulation is reviewed.</p>
+            </recital>
+            <recital xml:id="rec_d377e171">
+               <num>(12)</num>
+               <p>Adequate support and information on the processes and technical requirements related to the use of maritime National Single Window should be provided to declarants via easily accessible and user-friendly national websites with common &apos;look and feel&apos; standards.</p>
+            </recital>
+            <recital xml:id="rec_d377e181">
+               <num>(13)</num>
+               <p>The Convention on Facilitation of International Maritime Traffic (&apos;the FAL Convention&apos;)<authorialNote placement="bottom" marker="4">
+                     <p>International Maritime Organization (IMO) Convention on Facilitation of International Maritime Traffic (the &apos;FAL Convention&apos;), adopted on 9 April 1965 and amended on 8 April 2016, Standard 1.1.</p>
+                  </authorialNote> provides that public authorities must in all cases require only essential reporting information and keep the number of items to a minimum. However, local conditions may require specific information to ensure safety of navigation.</p>
+            </recital>
+            <recital xml:id="rec_d377e205">
+               <num>(14)</num>
+               <p>In order to enable the functioning of the EMSWe, it is necessary to establish a comprehensive EMSWe data set which should cover all information elements that might be requested by national authorities or port operators for administrative or operational purposes when a ship makes a port call. When establishing the EMSWe data set, the Commission should take into account relevant work carried out at international level. Since the scope of reporting obligations varies from one Member State to another, a maritime National Single Window in a given Member State should be designed to accept the EMSWe data set without any modification, and disregard any information not relevant for that Member State.</p>
+            </recital>
+            <recital xml:id="rec_d377e211">
+               <num>(15)</num>
+               <p>In exceptional circumstances, a Member State should be able to request additional data elements from declarants. Such exceptional circumstances may arise, for example, when there is an urgent need to protect internal order and security or to address a serious threat against human or animal health or against the environment. The notion of exceptional circumstances should be interpreted strictly.</p>
+            </recital>
+            <recital xml:id="rec_d377e217">
+               <num>(16)</num>
+               <p>The relevant reporting obligations contained in the Union and international legal acts should be listed in the Annex to this Regulation. Those reporting obligations should provide the basis for the establishment of the comprehensive EMSWe data set. The Annex should also refer to the relevant categories of reporting obligations at national level, and the Member States should be able to request the Commission to amend the EMSWe data set on the basis of reporting obligations contained in their national legislation and requirements. Union legal acts which amend the EMSWe data set on the basis of a reporting obligation contained in the national legislation and requirements should include explicit reference to that national legislation and requirements.</p>
+            </recital>
+            <recital xml:id="rec_d377e223">
+               <num>(17)</num>
+               <p>Whenever the information from the maritime National Single Window is distributed to the competent authorities, the transmission should comply with the common data requirements, formats and codes for the reporting obligations and formalities provided for in the Union legal acts listed in the Annex and should be made through the IT systems established therein, such as the electronic data-processing techniques referred to in Article 6(1) of Regulation (EU) No 952/2013 of the European Parliament and of the Council<authorialNote placement="bottom" marker="5">
+                     <p>Regulation (EU) No 952/2013 of the European Parliament and of the Council of 9 October 2013 laying down the Union Customs Code (OJ L 269, 10.10.2013, p. 1).</p>
+                  </authorialNote>.</p>
+            </recital>
+            <recital xml:id="rec_d377e239">
+               <num>(18)</num>
+               <p>The implementation of this Regulation should take into account the SafeSeaNet systems established at national and Union level, which should continue to facilitate the exchange and distribution of information received through the maritime National Single Window between the Member States in accordance with Directive 2002/59/EC of the European Parliament and of the Council<authorialNote placement="bottom" marker="6">
+                     <p>Directive 2002/59/EC of the European Parliament and of the Council of 27 June 2002 establishing a Community vessel traffic monitoring and information system and repealing Council Directive 93/75/EEC (OJ L 208, 5.8.2002, p. 10).</p>
+                  </authorialNote>.</p>
+            </recital>
+            <recital xml:id="rec_d377e255">
+               <num>(19)</num>
+               <p>Ports are not the final destination of goods. The efficiency of the ship port calls have an impact on the entire logistics chain related to the transport of goods and passengers to and from the ports. In order to ensure the interoperability, multimodality, and smooth integration of maritime transport with the overall logistics chain, and in order to facilitate other transport modes, the maritime National Single Windows should allow for the possibility of exchanging relevant information, such as arrival and departure times, with similar frameworks developed for other transport modes.</p>
+            </recital>
+            <recital xml:id="rec_d377e263">
+               <num>(20)</num>
+               <p>In order to improve the efficiency of maritime transport and to limit the duplication of the information which must be provided for operational purposes when a ship makes a port call, the information provided by declarants to a maritime National Single Window should be also shared with certain other entities, such as port or terminal operators, when authorised by the declarant, and taking into account the need to respect confidentiality, commercial sensitivities and legal constraints. This Regulation aims to improve the handling of data following the once-only principle when fulfilling the reporting obligations.</p>
+            </recital>
+            <recital xml:id="rec_d377e269">
+               <num>(21)</num>
+               <p>Regulation (EU) No 952/2013 provides that goods which are brought into the customs territory of the Union must be covered by an entry summary declaration that must be submitted to the customs authorities electronically. Given the importance of the entry summary declaration information for the management of security and financial risks, a specific electronic system is currently being developed for the submission and management of entry summary declarations in the Union customs territory. It will not, therefore, be possible to submit entry summary declarations through the harmonised reporting interface module. However, considering that some of the data elements submitted in the entry summary declaration are also required for the fulfilment of other customs and maritime reporting obligations when a ship calls in a port of the Union, the EMSWe should be able to process the data elements of the entry summary declaration. The possibility that the maritime National Single Window could retrieve relevant information that has already been submitted through the entry summary declaration should also be envisaged.</p>
+            </recital>
+            <recital xml:id="rec_d377e275">
+               <num>(22)</num>
+               <p>In order to fully harmonise reporting requirements, customs, maritime and other relevant authorities should cooperate at both national and Union level. National coordinators with specific responsibilities should enhance the effectiveness of this cooperation and the smooth functioning of the maritime National Single Windows.</p>
+            </recital>
+            <recital xml:id="rec_d377e281">
+               <num>(23)</num>
+               <p>In order to enable the reuse of the information provided through the maritime National Single Windows and facilitate the submission of information by declarants, it is necessary to provide for common databases. An EMSWe ship database should be established which includes a reference list of ship particulars and their reporting exemptions, as reported to the respective maritime National Single Window. To facilitate the submission of information by declarants, a Common Location Database should be established which holds a reference list of location codes, including the United Nations Code for Trade and Transport Locations (UN/LOCODE), the SafeSeaNet-specific codes, and the port facility codes as registered in the Global Integrated Shipping Information System (GISIS) of the International Maritime Organization (IMO). Furthermore, a Common Hazmat Database should be established which incorporates a list of dangerous and polluting goods that are to be notified to the maritime National Single Window in accordance with Directive 2002/59/EC and IMO FAL 7, taking into consideration the relevant data elements from the IMO Conventions and Codes.</p>
+            </recital>
+            <recital xml:id="rec_d377e287">
+               <num>(24)</num>
+               <p>The processing of personal data within the framework of this Regulation by competent authorities should comply with Regulation (EU) 2016/679 of the European Parliament and of the Council<authorialNote placement="bottom" marker="7">
+                     <p>Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (General Data Protection Regulation) (OJ L 119, 4.5.2016, p. 1).</p>
+                  </authorialNote>. The processing of personal data by the Commission within the framework of this Regulation should comply with Regulation (EU) 2018/1725 of the European Parliament and of the Council<authorialNote placement="bottom" marker="8">
+                     <p>Regulation (EU) 2018/1725 of the European Parliament and of the Council of 23 October 2018 on the protection of natural persons with regard to the processing of personal data by the Union institutions, bodies, offices and agencies and on the free movement of such data, and repealing Regulation (EC) No 45/2001 and Decision No 1247/2002/EC (OJ L 295, 21.11.2018, p. 39).</p>
+                  </authorialNote>.</p>
+            </recital>
+            <recital xml:id="rec_d377e313">
+               <num>(25)</num>
+               <p>The EMSWe and the maritime National Single Windows should not provide any other grounds for any processing of personal data than what is required for their functioning and should not be used to grant any new access rights to personal data.</p>
+            </recital>
+            <recital xml:id="rec_d377e320">
+               <num>(26)</num>
+               <p>The power to adopt acts in accordance with Article 290 of the Treaty on the Functioning of the European Union should be delegated to the Commission in respect of supplementing this Regulation by establishing and amending the EMSWe data set and by determining definitions, categories and data specifications for the data elements, and in respect of amending the Annex to incorporate reporting obligations existing at national level as well as to take into account any new reporting obligations adopted by the Union legal acts. The Commission should ensure that the common data requirements, formats and codes established in the Union and international legal acts listed in the Annex are respected. It is of particular importance that the Commission carry out appropriate consultations during its preparatory work, including at expert level, and that those consultations be conducted in accordance with the principles laid down in the Interinstitutional Agreement of 13 April 2016 on Better Law-Making<authorialNote placement="bottom" marker="9">
+                     <p>OJ L 123, 12.5.2016, p. 1.</p>
+                  </authorialNote>. In particular, to ensure equal participation in the preparation of delegated acts, the European Parliament and the Council receive all documents at the same time as Member States&apos; experts, and their experts systematically have access to meetings of Commission expert groups dealing with the preparation of delegated acts.</p>
+            </recital>
+            <recital xml:id="rec_d377e335">
+               <num>(27)</num>
+               <p>When preparing delegated acts, the Commission should ensure that Member States&apos; experts and the business community are consulted in a transparent manner, and well in advance.</p>
+            </recital>
+            <recital xml:id="rec_d377e341">
+               <num>(28)</num>
+               <p>In order to ensure uniform conditions for the implementation of this Regulation, implementing powers should be conferred on the Commission. Those powers should be exercised in accordance with Regulation (EU) No 182/2011 of the European Parliament and of the Council<authorialNote placement="bottom" marker="10">
+                     <p>Regulation (EU) No 182/2011 of the European Parliament and of the Council of 16 February 2011 laying down the rules and general principles concerning mechanisms for control by the Member States of the Commission&apos;s exercise of implementing powers (OJ L 55, 28.2.2011, p. 13).</p>
+                  </authorialNote>.</p>
+            </recital>
+            <recital xml:id="rec_d377e357">
+               <num>(29)</num>
+               <p>In particular, implementing powers should be conferred on the Commission to lay down the functional and technical specifications, quality control mechanisms and procedures for deploying, maintaining and employing the harmonised interface module and the related harmonised elements of the maritime National Single Windows. Implementing powers should also be conferred on the Commission to lay down the technical specifications, standards and procedures for common services of the EMSWe.</p>
+            </recital>
+            <recital xml:id="rec_d377e364">
+               <num>(30)</num>
+               <p>This Regulation should build on Regulation (EU) No 910/2014 of the European Parliament and of the Council<authorialNote placement="bottom" marker="11">
+                     <p>Regulation (EU) No 910/2014 of the European Parliament and of the Council of 23 July 2014 on electronic identification and trust services for electronic transactions in the internal market and repealing Directive 1999/93/EC (OJ L 257, 28.8.2014, p. 73).</p>
+                  </authorialNote> which lays down conditions under which Member States recognise certain means of electronic identification for natural and legal persons falling under a notified electronic identification scheme of another Member State. Regulation (EU) No 910/2014 establishes the conditions for users to be able to use their electronic identification and authentication means in order to access online public services in cross-border situations.</p>
+            </recital>
+            <recital xml:id="rec_d377e380">
+               <num>(31)</num>
+               <p>The Commission should carry out an evaluation of this Regulation. Information should be collected in order to inform that evaluation and allow the assessment of the performance of this Regulation against the objectives it pursues. The Commission should also evaluate, among other options, the added value of establishing a centralised and harmonised European reporting system, such as a central reporting interface.</p>
+            </recital>
+            <recital xml:id="rec_d377e387">
+               <num>(32)</num>
+               <p>Directive 2010/65/EU should therefore be repealed, with effect from the date of the application of this Regulation.</p>
+            </recital>
+            <recital xml:id="rec_d377e393">
+               <num>(33)</num>
+               <p>The European Data Protection Supervisor was consulted in accordance with Article 28(2) of Regulation (EC) No 45/2001 of the European Parliament and of the Council<authorialNote placement="bottom" marker="12">
+                     <p>Regulation (EC) No 45/2001 of the European Parliament and of the Council of 18 December 2000 on the protection of individuals with regard to the processing of personal data by the Community institutions and bodies and on the free movement of such data (OJ L 8, 12.1.2001, p. 1).</p>
+                  </authorialNote>,</p>
+            </recital>
+         </recitals>
+         <formula name="enactingFormula">
+            <p>HAVE ADOPTED THIS REGULATION:</p>
+         </formula>
+      </preamble>
+      <body>
+         <chapter>
+            <num>CHAPTER I</num>
+            <heading>GENERAL PROVISIONS</heading>
+            <article xml:id="art_d377e421">
+               <num>Article 1</num>
+               <heading>Subject matter and scope</heading>
+               <paragraph>
+                  <content>
+                     <p>This Regulation establishes a framework for a technologically neutral and interoperable European Maritime Single Window environment (&apos;EMSWe&apos;) with harmonised interfaces, in order to facilitate the electronic transmission of information in relation to reporting obligations for ships arriving at, staying in and departing from a Union port.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d377e432">
+               <num>Article 2</num>
+               <heading>Definitions</heading>
+               <paragraph>
+                  <subparagraph>
+                     <content>
+                        <p>For the purposes of this Regulation, the following definitions apply:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(1)</num>
+                        <content>
+                           <p>&apos;European Maritime Single Window environment&apos; (&apos;EMSWe&apos;) means the legal and technical framework for the electronic transmission of information in relation to reporting obligations for port calls in the Union, which consists of a network of maritime National Single Windows with harmonised reporting interfaces and includes data exchanges via SafeSeaNet and other relevant systems as well as common services for user registry and access management, addressing, ship identification, location codes and information on dangerous and polluting goods and on health;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(2)</num>
+                        <content>
+                           <p>&apos;ship&apos; means any seagoing vessel or craft operating in the marine environment that is subject to a particular reporting obligation listed in the Annex;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(3)</num>
+                        <content>
+                           <p>&apos;maritime National Single Window&apos; means a nationally established and operated technical platform for receiving, exchanging and forwarding electronically information to fulfil reporting obligations, which includes commonly defined management of access rights, a harmonised reporting interface module and a graphical user interface for communication with declarants, as well as links with the relevant authorities&apos; systems and databases at national and at Union level, which enables messages or acknowledgements covering the widest range of decisions taken by all of the participating relevant authorities to be communicated to declarants, and which could also allow, where applicable, for the connection with other reporting means;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(4)</num>
+                        <content>
+                           <p>&apos;harmonised reporting interface module&apos; means a middleware component of the maritime National Single Window through which information can be exchanged between the information system used by the declarant and the relevant maritime National Single Window;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(5)</num>
+                        <content>
+                           <p>&apos;reporting obligation&apos; means the information required by the Union and international legal acts listed in the Annex, as well as by the national legislation and requirements referred to in the Annex which has to be provided in connection with a port call;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(6)</num>
+                        <content>
+                           <p>&apos;port call&apos; means the arrival of a ship at, the stay of a ship in, and the departure of a ship from a maritime port in a Member State;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(7)</num>
+                        <content>
+                           <p>&apos;data element&apos; means the smallest unit of information which has a unique definition and precise technical characteristics such as format, length and character type;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(8)</num>
+                        <content>
+                           <p>&apos;EMSWe data set&apos; means the complete list of data elements stemming from reporting obligations;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(9)</num>
+                        <content>
+                           <p>&apos;graphical user interface&apos; means a web interface for two-way web-based user-to-system data submission to a maritime National Single Window, allowing declarants to enter data manually, inter alia, by means of harmonised digital spreadsheets and functions that enable reporting data elements to be extracted from those spreadsheets, as well as including common functionalities and features that ensure a common navigation flow and data upload experience for the declarants;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(10)</num>
+                        <content>
+                           <p>&apos;common addressing service&apos; means an additional voluntary service for declarants for initiating direct system-to-system data connections between the system of a declarant and the harmonised reporting interface module of the respective maritime National Single Window;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(11)</num>
+                        <content>
+                           <p>&apos;declarant&apos; means any natural or legal person who is subject to reporting obligations or any duly authorised natural or legal person acting on that person&apos;s behalf within the limits of the relevant reporting obligation;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(12)</num>
+                        <content>
+                           <p>&apos;customs authorities&apos; means the authorities defined in point (1) of Article 5 of Regulation (EU) No 952/2013;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(13)</num>
+                        <content>
+                           <p>&apos;data service provider&apos; means a natural or legal person who provides information and communication technology services to a declarant in relation to reporting obligations;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(14)</num>
+                        <content>
+                           <p>&apos;electronic transmission of information&apos; means the process of transmitting information that has been encoded digitally, using a revisable structured format which can be used directly for data storage and processing by computers;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(15)</num>
+                        <content>
+                           <p>&apos;provider of port services&apos; means any natural or legal person who provides one or more categories of the port services listed in Article 1(2) of Regulation (EU) 2017/352 of the European Parliament and of the Council<authorialNote placement="bottom" marker="13">
+                                 <p>Regulation (EU) 2017/352 of the European Parliament and of the Council of 15 February 2017 establishing a framework for the provision of port services and common rules on the financial transparency of ports (OJ L 57, 3.3.2017, p. 1).</p>
+                              </authorialNote>.</p>
+                        </content>
+                     </point>
+                  </list>
+               </paragraph>
+            </article>
+         </chapter>
+         <chapter>
+            <num>CHAPTER II</num>
+            <heading>EMSWe DATA SET</heading>
+            <article xml:id="art_d377e602">
+               <num>Article 3</num>
+               <heading>Establishment of the EMSWe data set</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>The Commission shall establish and amend the EMSWe data set pursuant to paragraph 3 of this Article.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>By 15 February 2020, the Member States shall notify the Commission of any reporting obligations stemming from national legislation and requirements, as well as of the data elements to be included in the EMSWe data set. They shall precisely identify those data elements.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <subparagraph>
+                     <content>
+                        <p>The Commission is empowered to adopt delegated acts in accordance with Article 23 in order to amend the Annex to this Regulation for the purpose of introducing, deleting or adapting references to national legislation or requirements, Union or international legal acts, and in order to establish and amend the EMSWe data set.</p>
+                     </content>
+                  </subparagraph>
+                  <subparagraph>
+                     <content>
+                        <p>The first such delegated act shall be adopted by 15 August 2021.</p>
+                     </content>
+                  </subparagraph>
+                  <subparagraph>
+                     <content>
+                        <p>As set out in Article 4, a Member State may request the Commission to introduce or amend data elements in the EMSWe data set, in accordance with the reporting obligations contained in the national legislation and requirements. When assessing whether data elements are to be included in the EMSWe data set, the Commission shall take into account safety concerns, as well as the principles of the FAL Convention, namely the principle of only requiring the reporting of essential information and keeping the number of items to a minimum.</p>
+                     </content>
+                  </subparagraph>
+                  <subparagraph>
+                     <content>
+                        <p>The Commission shall decide, within three months after the request, whether to introduce the data elements in the EMSWe data set. The Commission shall justify its decision.</p>
+                     </content>
+                  </subparagraph>
+                  <subparagraph>
+                     <content>
+                        <p>A delegated act which introduces or amends a data element in the EMSWe data set shall include an explicit reference to the national legislation and requirements referred to in the third subparagraph.</p>
+                     </content>
+                  </subparagraph>
+                  <subparagraph>
+                     <content>
+                        <p>In the event that the Commission decides not to introduce the requested data element, the Commission shall give substantiated grounds for its refusal, with reference to the safety of navigation and the principles of the FAL Convention.</p>
+                     </content>
+                  </subparagraph>
+               </paragraph>
+            </article>
+            <article xml:id="art_d377e638">
+               <num>Article 4</num>
+               <heading>Amendments to the EMSWe data set</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>Where a Member State intends to amend a reporting obligation under in its national legislation and requirements which would involve the provision of information other than the information that is included in the EMSWe data set, that Member State shall immediately notify the Commission. In that notification, the Member State shall precisely identify the information that is not covered by the EMSWe data set and shall indicate the intended period during which the reporting obligation in question is to apply.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>A Member State shall not introduce new reporting obligations unless such introduction has been approved by the Commission through the procedure set out in Article 3 and the corresponding information has been incorporated in the EMSWe data set and applied in the harmonised reporting interfaces.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <content>
+                     <p>The Commission shall assess the necessity of amending the EMSWe data set in accordance with Article 3(3). Amendments to the EMSWe data set shall only be introduced once a year, except in duly justified cases.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>4.</num>
+                  <subparagraph>
+                     <content>
+                        <p>In exceptional circumstances, a Member State may ask declarants to provide additional data elements without the approval of the Commission during a period of less than three months. The Member State shall notify those data elements to the Commission without delay. The Commission may allow the Member State to continue to request the additional data elements for two further periods of three months if the exceptional circumstances persist.</p>
+                     </content>
+                  </subparagraph>
+                  <subparagraph>
+                     <content>
+                        <p>No later than one month before the end of the last three-month period referred to in the first subparagraph, the Member State may request the Commission that the additional data elements become part of the EMSWe data set, in accordance with Article 3(3). The Member State may continue to ask declarants to provide the additional data elements until a decision by the Commission has been taken, and in the event of a positive decision, until the amended EMSWe data set has been implemented.</p>
+                     </content>
+                  </subparagraph>
+               </paragraph>
+            </article>
+         </chapter>
+         <chapter>
+            <num>CHAPTER III</num>
+            <heading>PROVISION OF INFORMATION</heading>
+            <article xml:id="art_d377e675">
+               <num>Article 5</num>
+               <heading>Maritime National Single Window</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <subparagraph>
+                     <content>
+                        <p>Each Member State shall establish a maritime National Single Window through which, in accordance with this Regulation and without prejudice to Articles 7 and 11, all information necessary for the fulfilment of reporting obligations shall be provided once, by means of and in compliance with the EMSWe data set, using the harmonised reporting interface module and the graphical user interface as set out in Article 6 and, where applicable, other reporting means as set out in Article 7, for the purpose of making this information available to the relevant authorities of the Member States to the extent necessary to allow those authorities to perform their respective functions.</p>
+                     </content>
+                  </subparagraph>
+                  <subparagraph>
+                     <content>
+                        <p>Member States shall be responsible for the operation of their maritime National Single Window.</p>
+                     </content>
+                  </subparagraph>
+                  <subparagraph>
+                     <content>
+                        <p>Member States may jointly establish a maritime single window with one or more other Member States. Those Member States shall designate that maritime single window as their maritime National Single Window, and shall remain responsible for its operation in accordance with this Regulation.</p>
+                     </content>
+                  </subparagraph>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>Member States which do not have maritime ports shall be exempted from the obligation to develop, establish, operate and make available a maritime National Single Window which is set out in paragraph 1.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <subparagraph>
+                     <content>
+                        <p>The Member States shall ensure:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(a)</num>
+                        <content>
+                           <p>the compatibility of the maritime National Single Window with the harmonised reporting interface module and adherence of the graphical user interface of their maritime National Single Window to the common functionalities in accordance with Article 6(2);</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(b)</num>
+                        <content>
+                           <p>the timely integration of the harmonised reporting interfaces in accordance with the implementation dates set in the implementing act referred to in Article 6 and any subsequent updates in accordance with the dates agreed in the Multi-annual Implementation Plan (MIP);</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(c)</num>
+                        <content>
+                           <p>a connection with the relevant systems of competent authorities, to enable the transfer of data to be reported to those authorities, through the maritime National Single Window, and to those systems, in accordance with Union legal acts and national legislation and requirements, and in compliance with the technical specifications of those systems;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(d)</num>
+                        <content>
+                           <p>the provision of a helpdesk during the first 12 months from 15 August 2025 and an online support website for their maritime National Single Window with clear instructions in the official language(s) of that Member State and, where relevant, in a language that is internationally used;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(e)</num>
+                        <content>
+                           <p>the provision of adequate and necessary training for staff who are directly involved in the operation of the maritime National Single Window.</p>
+                        </content>
+                     </point>
+                  </list>
+               </paragraph>
+               <paragraph>
+                  <num>4.</num>
+                  <content>
+                     <p>Member States shall ensure that the required information reaches the authorities in charge of the application of the legislation in question, and is limited to the needs of each of those authorities. In doing so, Member States shall ensure compliance with the legal requirements related to the transmission of information, provided for in the Union legal acts listed in the Annex and, where applicable, use the electronic data-processing techniques referred to in Article 6(1) of Regulation (EU) No 952/2013. Member States shall also ensure interoperability with the information systems used by those authorities.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>5.</num>
+                  <content>
+                     <p>The maritime National Single Window shall provide the technical possibility for declarants to make available, separately, to providers of port services at the port of destination a subset of data elements pre-defined at national level.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>6.</num>
+                  <content>
+                     <p>Where a Member State does not require all of the elements of the EMSWe data set for the fulfilment of reporting obligations, the maritime National Single Window shall accept submissions that are limited to the data elements that are required by that Member State. The maritime National Single Window shall also accept submissions by declarants that include additional elements of the EMSWe data set; however, it does not need to process and store those additional elements.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>7.</num>
+                  <content>
+                     <p>Member States shall store the information submitted to their respective maritime National Single Windows only for the period of time necessary to ensure the fulfilment of the requirements set out in this Regulation and to ensure compliance with the Union, international and national legal acts listed in the Annex. Member States shall immediately delete such information thereafter.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>8.</num>
+                  <content>
+                     <p>Member States shall make publicly available estimated and actual arrival and departure times of ships in an electronic format harmonised at Union level, on the basis of the data submitted by declarants to the maritime National Single Window. This obligation shall not apply to ships carrying sensitive cargo, where the publication of such information by the maritime National Single Window could pose a threat to security.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>9.</num>
+                  <content>
+                     <p>The maritime National Single Windows shall have a uniform internet address.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>10.</num>
+                  <subparagraph>
+                     <content>
+                        <p>The Commission shall adopt implementing acts laying down a harmonised structure for the support website referred to in point (d) of paragraph 3, technical specifications for making available arrival and departure times referred to in paragraph 8, and a uniform format for internet addresses referred to in paragraph 9. Those implementing acts shall be adopted in accordance with the advisory procedure referred to in Article 24(2).</p>
+                     </content>
+                  </subparagraph>
+                  <subparagraph>
+                     <content>
+                        <p>The first such implementing act shall be adopted by 15 August 2021.</p>
+                     </content>
+                  </subparagraph>
+               </paragraph>
+            </article>
+            <article xml:id="art_d377e776">
+               <num>Article 6</num>
+               <heading>Harmonised Reporting Interfaces</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <subparagraph>
+                     <content>
+                        <p>The Commission shall, in close cooperation with the Member States, adopt implementing acts laying down the functional and technical specifications for the harmonised reporting interface module for the maritime National Single Windows. The functional and technical specifications shall aim to facilitate the interoperability with different technologies and reporting systems of the users.</p>
+                     </content>
+                  </subparagraph>
+                  <subparagraph>
+                     <content>
+                        <p>The first such implementing act shall be adopted by 15 August 2021.</p>
+                     </content>
+                  </subparagraph>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>The Commission shall, in close cooperation with the Member States, develop by 15 August 2022 and thereafter update the harmonised reporting interface module for the maritime National Single Windows in conformity with the specifications referred to in paragraphs 1 and 5 of this Article.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <content>
+                     <p>The Commission shall provide the Member States with the harmonised reporting interface module and all relevant information for the integration into their maritime National Single Window.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>4.</num>
+                  <subparagraph>
+                     <content>
+                        <p>The Commission shall adopt implementing acts laying down the common functionalities of the graphical user interface and the templates of the harmonised digital spreadsheets referred to in Article 2(9).</p>
+                     </content>
+                  </subparagraph>
+                  <subparagraph>
+                     <content>
+                        <p>The first such implementing act shall be adopted by 15 August 2021.</p>
+                     </content>
+                  </subparagraph>
+               </paragraph>
+               <paragraph>
+                  <num>5.</num>
+                  <content>
+                     <p>The Commission shall adopt implementing acts amending the technical specifications, standards and procedures, in order to ensure that the harmonised reporting interfaces are open to future technologies.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>6.</num>
+                  <content>
+                     <p>The implementing acts referred to in this Article shall be adopted in accordance with the advisory procedure referred to in Article 24(2).</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d377e825">
+               <num>Article 7</num>
+               <heading>Other means of reporting</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>Member States shall allow declarants to provide, on a voluntary basis, information to the maritime National Single Window through data service providers that comply with the requirements of the harmonised reporting interface module.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>Member States may allow declarants to provide the information through other reporting channels provided that those channels are voluntary for the declarants. In such cases, Member States shall ensure that those other channels make the relevant information available to the maritime National Single Window.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <content>
+                     <p>Member States may use alternative means for the provision of information in the event of a temporary failure of any of the electronic systems referred to in Articles 5 and 6 and Articles 12 to 17.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d377e845">
+               <num>Article 8</num>
+               <heading>Once-only principle</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>Without prejudice to Article 11(1), unless otherwise required by Union law, Member States shall ensure that the declarant is requested to provide the information pursuant to this Regulation only once per port call, and that the relevant data elements of the EMSWe data set are made available and reused in accordance with paragraph 3 of this Article.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>The Commission shall ensure that the ship identification information, particulars and exemptions that are provided through the maritime National Single Window are recorded in the EMSWe ship database referred to in Article 14 and are made available for any subsequent port calls within the Union.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <content>
+                     <p>Member States shall ensure that the data elements of the EMSWe data set provided at departure from a port in the Union are made available to the declarant for the purpose of fulfilling the reporting obligations at arrival to the next port in the Union, provided that the ship has not called at a port outside of the Union during that voyage. This paragraph shall not apply to information received pursuant to Regulation (EU) No 952/2013, unless the possibility of making such information available for such purpose is provided for in that Regulation.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>4.</num>
+                  <content>
+                     <p>Any relevant data elements of the EMSWe data set received in accordance with this Regulation shall be made available to other maritime National Single Windows via the SafeSeaNet.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>5.</num>
+                  <content>
+                     <p>The Commission shall adopt implementing acts laying down the list of relevant data elements referred to in paragraphs 3 and 4 of this Article. Those implementing acts shall be adopted in accordance with the advisory procedure referred to in Article 24(2).</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d377e876">
+               <num>Article 9</num>
+               <heading>Responsibility for the information communicated</heading>
+               <paragraph>
+                  <content>
+                     <p>The declarant shall be responsible for ensuring the submission of data elements in compliance with the applicable legal and technical requirements. The declarant shall remain responsible for the data and for updating any information that has changed after the submission to the maritime National Single Window.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d377e883">
+               <num>Article 10</num>
+               <heading>Data protection and confidentiality</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>The processing of personal data by competent authorities within the framework of this Regulation shall comply with Regulation (EU) 2016/679.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>The processing of personal data by the Commission within the framework of this Regulation shall comply with Regulation (EU) 2018/1725.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <content>
+                     <p>Member States and the Commission shall take the necessary measures in accordance with the applicable Union or national law to ensure the confidentiality of commercial and other sensitive information exchanged pursuant to this Regulation.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d377e903">
+               <num>Article 11</num>
+               <heading>Additional provisions for customs</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>This Regulation shall not prevent the exchange of information between customs authorities of the Member States, or between customs authorities and economic operators, using the electronic data-processing techniques referred to in Article 6(1) of Regulation (EU) No 952/2013.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>The relevant information in the Entry Summary Declaration referred to in Article 127 of Regulation (EU) No 952/2013, where compatible with Union customs law, shall be made available to the maritime National Single Window for reference and, where appropriate, reused for other reporting obligations listed in the Annex.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <subparagraph>
+                     <content>
+                        <p>The Commission shall adopt implementing acts laying down the list of relevant information referred to in paragraph 2 of this Article. Those implementing acts shall be adopted in accordance with the advisory procedure referred to in Article 24(2).</p>
+                     </content>
+                  </subparagraph>
+                  <subparagraph>
+                     <content>
+                        <p>The first such implementing act shall be adopted by 15 August 2021.</p>
+                     </content>
+                  </subparagraph>
+               </paragraph>
+            </article>
+         </chapter>
+         <chapter>
+            <num>CHAPTER IV</num>
+            <heading>COMMON SERVICES</heading>
+            <article xml:id="art_d377e938">
+               <num>Article 12</num>
+               <heading>EMSWe user registry and access management system</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>The Commission shall establish and ensure the availability of a common user registry and access management system for declarants and data service providers that use the maritime National Single Window, as well as for national authorities that access the maritime National Single Window in cases where authentication is required. That common user registry and access management system shall provide for a single user registration by means of an existing Union registry with Union level recognition, federated user management and Union level user monitoring.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>Each Member State shall designate a national authority to be responsible for the identification and registration of new users and the modification and termination of existing accounts through the system referred to in paragraph 1.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <content>
+                     <p>For the purpose of access to the maritime National Single Window in different Member States, a declarant or data service provider that is registered in the EMSWe user registry and access management system shall be considered to be registered with the maritime National Single Window in all Member States, and shall operate within the limits of the access rights granted by each Member State in accordance with its national rules.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>4.</num>
+                  <subparagraph>
+                     <content>
+                        <p>The Commission shall adopt implementing acts laying down the technical specifications, standards and procedures for setting up the common user registry and access management system referred to in paragraph 1, including the functionalities referred to in paragraph 2. Those implementing acts shall be adopted in accordance with the advisory procedure referred to in Article 24(2).</p>
+                     </content>
+                  </subparagraph>
+                  <subparagraph>
+                     <content>
+                        <p>The first such implementing act shall be adopted by 15 August 2021.</p>
+                     </content>
+                  </subparagraph>
+               </paragraph>
+            </article>
+            <article xml:id="art_d377e968">
+               <num>Article 13</num>
+               <heading>Common addressing service</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>The Commission shall develop, in close cooperation with the Member States, an additional voluntary common addressing service, provided that the harmonised reporting interface module has been implemented fully in accordance with Article 6.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <subparagraph>
+                     <content>
+                        <p>The Commission, in close cooperation with the Member States, shall adopt implementing acts laying down the functional and technical specifications, quality control mechanisms and procedures for deploying, maintaining and employing the common addressing service. Those implementing acts shall be adopted in accordance with the advisory procedure referred to in Article 24(2).</p>
+                     </content>
+                  </subparagraph>
+                  <subparagraph>
+                     <content>
+                        <p>The first such implementing act shall be adopted by 15 August 2024.</p>
+                     </content>
+                  </subparagraph>
+               </paragraph>
+            </article>
+            <article xml:id="art_d377e988">
+               <num>Article 14</num>
+               <heading>EMSWe Ship Database</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>In accordance with Article 8(2), the Commission shall establish a EMSWe ship database containing a list of ship identification information and particulars, as well as records on ship reporting exemptions.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>Member States shall ensure the provision of the data referred to in paragraph 1 to the EMSWe ship database on the basis of the data submitted by declarants to the maritime National Single Window.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <content>
+                     <p>The Commission shall ensure the availability of the ship database data to the maritime National Single Windows for facilitation of ship reporting.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>4.</num>
+                  <subparagraph>
+                     <content>
+                        <p>The Commission shall adopt implementing acts laying down the technical specifications, standards and procedures for the setting up of the database referred to in paragraph 1 with respect to the collecting, storing, updating and provision of the ship identification information and particulars, as well as records on ship reporting exemptions. Those implementing acts shall be adopted in accordance with the advisory procedure referred to in Article 24(2).</p>
+                     </content>
+                  </subparagraph>
+                  <subparagraph>
+                     <content>
+                        <p>The first such implementing act shall be adopted by 15 August 2021.</p>
+                     </content>
+                  </subparagraph>
+               </paragraph>
+            </article>
+            <article xml:id="art_d377e1019">
+               <num>Article 15</num>
+               <heading>Common Location Database</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>The Commission shall establish a common location database that contains a reference list of location codes<authorialNote placement="bottom" marker="14">
+                           <p>&apos;United Nations Code for Trade and Transport Locations&apos;.</p>
+                        </authorialNote> and port facility codes, as registered in the IMO database GISIS.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>The Commission shall ensure the availability of the location database to the maritime National Single Windows in order to facilitate ship reporting.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <content>
+                     <p>Member States shall make information from the location database available at national level through the maritime National Single Window.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>4.</num>
+                  <subparagraph>
+                     <content>
+                        <p>The Commission shall adopt implementing acts laying down the technical specifications, standards and procedures for the setting up of the common location database referred to in paragraph 1 with respect to collecting, storing, updating and provision of the location and port facility codes. Those implementing acts shall be adopted in accordance with the advisory procedure referred to in Article 24(2).</p>
+                     </content>
+                  </subparagraph>
+                  <subparagraph>
+                     <content>
+                        <p>The first such implementing act shall be adopted by 15 August 2021.</p>
+                     </content>
+                  </subparagraph>
+               </paragraph>
+            </article>
+            <article xml:id="art_d377e1056">
+               <num>Article 16</num>
+               <heading>Common Hazmat Database</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>The Commission shall establish a common hazmat database containing a list of dangerous and polluting goods which are to be notified in accordance with Directive 2002/59/EC and IMO FAL 7, taking into consideration the relevant data elements from the IMO Conventions and Codes.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>The Commission shall ensure the availability of the common hazmat database to the maritime National Single Windows to facilitate ship reporting.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <content>
+                     <p>The database shall be linked to the relevant entries in the MAR-CIS database developed by European Maritime Safety Agency (EMSA) regarding information on associated hazards and risks of dangerous and polluting goods.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>4.</num>
+                  <content>
+                     <p>The database shall be used both as a reference and a verification tool, at national and Union level, during the reporting process through the maritime National Single Window.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>5.</num>
+                  <content>
+                     <p>Member States shall make information from the common hazmat database available at national level through the maritime National Single Window.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>6.</num>
+                  <subparagraph>
+                     <content>
+                        <p>The Commission shall adopt implementing acts laying down the technical specifications, standards and procedures for the setting up of the common hazmat database referred to in paragraph 1 with respect to the collecting, storing and provision of the hazmat reference information. Those implementing acts shall be adopted in accordance with the advisory procedure referred to in Article 24(2).</p>
+                     </content>
+                  </subparagraph>
+                  <subparagraph>
+                     <content>
+                        <p>The first such implementing act shall be adopted by 15 August 2021.</p>
+                     </content>
+                  </subparagraph>
+               </paragraph>
+            </article>
+            <article xml:id="art_d377e1097">
+               <num>Article 17</num>
+               <heading>Common Ship Sanitation Database</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <subparagraph>
+                     <content>
+                        <p>The Commission shall make available a common ship sanitation database that is able to receive and store data related to the Maritime Declarations of Health under Article 37 of the International Health Regulations 2005 (IHR). Personal data relating to ill persons on board ships shall not be stored on that database.</p>
+                     </content>
+                  </subparagraph>
+                  <subparagraph>
+                     <content>
+                        <p>The competent health authorities of the Member States shall have access to the database for the purpose of receiving and exchanging data.</p>
+                     </content>
+                  </subparagraph>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>Member States that use the ship sanitation database shall make known to the Commission their national authority responsible for user management in relation to that database, including the registration of new users as well as the modification and closure of accounts.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <content>
+                     <p>The Commission shall adopt implementing acts laying down the technical specifications, standards and procedures for the setting up of the database referred to in paragraph 1. Those implementing acts shall be adopted in accordance with the advisory procedure referred to in Article 24(2).</p>
+                  </content>
+               </paragraph>
+            </article>
+         </chapter>
+         <chapter>
+            <num>CHAPTER V</num>
+            <heading>COORDINATION OF THE EMSWe ACTIVITIES</heading>
+            <article xml:id="art_d377e1128">
+               <num>Article 18</num>
+               <heading>National coordinators</heading>
+               <paragraph>
+                  <subparagraph>
+                     <content>
+                        <p>Each Member State shall designate a competent national authority with a clear legal mandate to act as a national coordinator for the EMSWe. The national coordinator shall:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(a)</num>
+                        <content>
+                           <p>act as the national contact point for users and the Commission for all matters relating to the implementation of this Regulation;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(b)</num>
+                        <content>
+                           <p>coordinate the application of this Regulation by the competent national authorities within a Member State and their cooperation;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(c)</num>
+                        <content>
+                           <p>coordinate the activities aiming at ensuring the distribution of data and the connection with the relevant systems of competent authorities as referred in point (c) of Article 5(3).</p>
+                        </content>
+                     </point>
+                  </list>
+               </paragraph>
+            </article>
+            <article xml:id="art_d377e1156">
+               <num>Article 19</num>
+               <heading>Multi-annual Implementation Plan</heading>
+               <paragraph>
+                  <subparagraph>
+                     <content>
+                        <p>In order to facilitate the timely implementation of this Regulation and to provide quality control mechanisms and procedures for deploying, maintaining and updating the harmonised interface module and the related harmonised elements of the EMSWe, the Commission shall adopt, and revise on a yearly basis, following appropriate consultations of Member States&apos; experts, a Multi-annual Implementation Plan which shall provide:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(a)</num>
+                        <content>
+                           <p>a plan for the development and updating of the harmonised reporting interfaces and the related harmonised elements of the EMSWe over the following 18 months;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(b)</num>
+                        <content>
+                           <p>a plan for the development of the common addressing service by 15 August 2024;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(c)</num>
+                        <content>
+                           <p>indicative dates for consultation with relevant stakeholders;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(d)</num>
+                        <content>
+                           <p>indicative deadlines for the Member States for the subsequent integration of the harmonised reporting interfaces with the maritime National Single Windows;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(e)</num>
+                        <content>
+                           <p>indicative deadlines for the Commission&apos;s development of a common addressing service following the implementation of the harmonised reporting interface module;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(f)</num>
+                        <content>
+                           <p>testing periods for Member States and declarants to test their connections with any new versions of the harmonised reporting interfaces;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(g)</num>
+                        <content>
+                           <p>testing periods for the common addressing service;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(h)</num>
+                        <content>
+                           <p>indicative phasing-out deadlines for the older versions of the harmonised reporting interfaces for the Member States and declarants.</p>
+                        </content>
+                     </point>
+                  </list>
+               </paragraph>
+            </article>
+         </chapter>
+         <chapter>
+            <num>CHAPTER VI</num>
+            <heading>FINAL PROVISIONS</heading>
+            <article xml:id="art_d377e1225">
+               <num>Article 20</num>
+               <heading>Costs</heading>
+               <paragraph>
+                  <subparagraph>
+                     <content>
+                        <p>The general budget of the European Union shall cover the costs for:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(a)</num>
+                        <content>
+                           <p>the development and maintenance of the ICT tools by the Commission and EMSA supporting the implementation of this Regulation at Union level;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(b)</num>
+                        <content>
+                           <p>the promotion of the EMSWe at Union level, including among relevant stakeholders, and at the level of relevant international organisations.</p>
+                        </content>
+                     </point>
+                  </list>
+               </paragraph>
+            </article>
+            <article xml:id="art_d377e1247">
+               <num>Article 21</num>
+               <heading>Cooperation with other trade and transport facilitation systems or services</heading>
+               <paragraph>
+                  <content>
+                     <p>Where trade and transport facilitation systems or services have been created by other Union legal acts, the Commission shall coordinate the activities related to those systems or services with a view to achieving synergies and avoiding duplication.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d377e1254">
+               <num>Article 22</num>
+               <heading>Review and report</heading>
+               <paragraph>
+                  <subparagraph>
+                     <content>
+                        <p>Member States shall monitor the application of the EMSWe, and report their findings to the Commission. The report shall include the following indicators:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(a)</num>
+                        <content>
+                           <p>use of the harmonised reporting interface module;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(b)</num>
+                        <content>
+                           <p>use of the graphical user interface;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(c)</num>
+                        <content>
+                           <p>use of other means of reporting as referred to in Article 7.</p>
+                        </content>
+                     </point>
+                  </list>
+               </paragraph>
+               <paragraph>
+                  <content>
+                     <p>Member States shall submit that report to the Commission on an annual basis, using a template to be provided by the Commission.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <content>
+                     <p>By 15 August 2027, the Commission shall review the application of this Regulation and shall submit to the European Parliament and the Council an assessment report on the functioning of the EMSWe on the basis of the data and statistics collected. The assessment report shall include, where necessary, an evaluation of emerging technologies which could lead to changes to or the replacement of the harmonised reporting interface module.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d377e1288">
+               <num>Article 23</num>
+               <heading>Exercise of the delegation</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>The power to adopt delegated acts is conferred on the Commission subject to the conditions laid down in this Article.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>The power to adopt delegated acts referred to in Article 3 shall be conferred on the Commission for a period of four years from 14 August 2019. The Commission shall draw up a report in respect of the delegation of power no later than nine months before the end of the four-year period. The delegation of power shall be tacitly extended for periods of an identical duration, unless the European Parliament or the Council opposes such extension no later than three months before the end of each period.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <content>
+                     <p>The delegation of power referred to in Article 3 may be revoked at any time by the European Parliament or the Council. A decision to revoke shall put an end to the delegation of the power specified in that decision. It shall take effect the day following the publication of the decision in the <i>Official Journal of the European Union</i> or at a later date specified therein. It shall not affect the validity of any delegated acts already in force.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>4.</num>
+                  <content>
+                     <p>Before adopting a delegated act, the Commission shall consult experts designated by each Member State in accordance with the principles laid down in the Interinstitutional Agreement of 13 April 2016 on Better Law-Making.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>5.</num>
+                  <content>
+                     <p>When adopting a delegated act, the Commission shall notify it simultaneously to the European Parliament and to the Council.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>6.</num>
+                  <content>
+                     <p>A delegated act adopted pursuant to Article 3 shall enter into force only if no objection has been expressed either by the European Parliament or the Council within two months of notification of that act to the European Parliament and the Council or if, before the expiry of that period, the European Parliament and the Council have both informed the Commission that they will not object. That period shall be extended by two months at the initiative of the European Parliament or of the Council.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d377e1333">
+               <num>Article 24</num>
+               <heading>Committee procedure</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>The Commission shall be assisted by a Digital Transport and Trade Facilitation Committee. That Committee shall be a committee within the meaning of Regulation (EU) No 182/2011.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>Where reference is made to this paragraph, Article 4 of Regulation (EU) No 182/2011 shall apply.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d377e1348">
+               <num>Article 25</num>
+               <heading>Repeal of Directive 2010/65/EU</heading>
+               <paragraph>
+                  <content>
+                     <p>Directive 2010/65/EU is repealed from 15 August 2025.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <content>
+                     <p>References to Directive 2010/65/EU shall be construed as references to this Regulation.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d377e1360">
+               <num>Article 26</num>
+               <heading>Entry into force</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>This Regulation shall enter into force on the twentieth day following that of its publication in the <i>Official Journal of the European Union</i>.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>It shall apply from 15 August 2025.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <content>
+                     <p>The functionalities referred to in Article 11(2) and those related to the customs reporting obligations specified in point 7 of Part A of the Annex shall become effective when the electronic systems referred to in Article 6(1) of Regulation (EU) No 952/2013 which are necessary for the application of those reporting obligations are operational, in accordance with the work programme established by the Commission pursuant to Articles 280 and 281 of Regulation (EU) No 952/2013. The Commission shall publish the date on which the conditions of this paragraph have been fulfilled in the &apos;C&apos; series of the <i>Official Journal of the European Union</i>.</p>
+                  </content>
+               </paragraph>
+            </article>
+         </chapter>
+         <clause>
+            <content>
+               <p>This Regulation shall be binding in its entirety and directly applicable in all Member States.</p>
+            </content>
+         </clause>
+      </body>
+      <conclusions>
+         <p>Done at Brussels, 20 June 2019.</p>
+         <block name="signatory">
+            <signature>
+               <organization refersTo="">For the European Parliament</organization>
+               <role refersTo="">The President</role>
+               <person refersTo="">A. TAJANI</person>
+            </signature>
+            <signature>
+               <organization refersTo="">For the Council</organization>
+               <role refersTo="">The President</role>
+               <person refersTo="">G. CIAMBA</person>
+            </signature>
+         </block>
+      </conclusions>
+   </bill>
+</akomaNtoso>

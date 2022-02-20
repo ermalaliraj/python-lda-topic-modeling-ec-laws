@@ -1,0 +1,672 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"
+            xmlns:fmx="http://formex.publications.europa.eu/schema/formex-05.21-20110601.xd"
+            xmlns:leos="urn:eu:europa:ec:leos"
+            xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <bill name="">
+      <meta xmlns:fn="http://www.w3.org/2005/xpath-functions">
+         <identification source="~COM">
+            <FRBRWork>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRcountry value=""/>
+            </FRBRWork>
+            <FRBRExpression>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+            </FRBRManifestation>
+         </identification>
+      </meta>
+      <preface>
+         <longTitle>
+            <p>
+               <docStage/>
+               <docType>COUNCIL REGULATION (EU, Euratom) 2021/770</docType>of 30 April 2021<docPurpose>on the calculation of the own resource based on plastic packaging waste that is not recycled, on the methods and procedure for making available that own resource, on the measures to meet cash requirements, and on certain aspects of the own resource based on gross national income</docPurpose>
+            </p>
+         </longTitle>
+      </preface>
+      <preamble>
+         <formula name="actingEntity">
+            <p>THE COUNCIL OF THE EUROPEAN UNION,</p>
+         </formula>
+         <citations>
+            <citation>
+               <p>Having regard to the Treaty on the Functioning of the European Union, and in particular Article 322(2) thereof,</p>
+            </citation>
+            <citation>
+               <p>Having regard to the Treaty establishing the European Atomic Energy Community, and in particular Article 106a thereof,</p>
+            </citation>
+            <citation>
+               <p>Having regard to the proposal from the European Commission,</p>
+            </citation>
+            <citation>
+               <p>Having regard to the opinion of the European Parliament<authorialNote placement="bottom" marker="1">
+                     <p>Opinion of 25 March 2021 (not yet published in the Official Journal).</p>
+                  </authorialNote>,</p>
+            </citation>
+            <citation>
+               <p>Having regard to the opinion of the European Court of Auditors<authorialNote placement="bottom" marker="2">
+                     <p>Opinion of 9 October 2018 (OJ C 431, 29.11.2018, p. 1).</p>
+                  </authorialNote>,</p>
+            </citation>
+         </citations>
+         <recitals xml:id="recs_d159e82">
+            <intro>
+               <p>Whereas:</p>
+            </intro>
+            <recital xml:id="rec_d159e85">
+               <num>(1)</num>
+               <p>The Union must have the own resource based on plastic packaging waste that is not recycled referred to in point (c) of Article 2(1) of Council Decision (EU, Euratom) 2020/2053<authorialNote placement="bottom" marker="3">
+                     <p>Council Decision (EU, Euratom) 2020/2053 of 14 December 2020 on the system of own resources of the European Union and repealing Decision 2014/335/EU, Euratom (OJ L 424, 15.12.2020, p. 1).</p>
+                  </authorialNote> (the &apos;own resource based on non-recycled plastic packaging waste&apos;) available on the best possible conditions and, accordingly, rules should be laid down for the Member States to provide the Commission with that own resource.</p>
+            </recital>
+            <recital xml:id="rec_d159e105">
+               <num>(2)</num>
+               <p>Council Regulation (EU, Euratom) No 609/2014<authorialNote placement="bottom" marker="4">
+                     <p>Council Regulation (EU, Euratom) No 609/2014 of 26 May 2014 on the methods and procedure for making available the traditional, VAT and GNI-based own resources and on the measures to meet cash requirements (OJ L 168, 7.6.2014, p. 39).</p>
+                  </authorialNote> lays down rules on making available to the Commission the own resources of the Union referred to in points (a), (b) and (d) of Article 2(1) of Decision (EU, Euratom) 2020/2053, and on administrative arrangements that are common to other own resources and that can be applied, where appropriate, <i>mutatis mutandis</i> in the absence of one single regulation governing the making available of all the own resources of the Union.</p>
+            </recital>
+            <recital xml:id="rec_d159e124">
+               <num>(3)</num>
+               <p>Member States should put at the disposal of the Commission the documents and information necessary for the Commission to exercise the power conferred upon it as regards the own resources of the Union. In particular, Member States should send periodic statements relating to the own resource based on non-recycled plastic packaging waste to the Commission.</p>
+            </recital>
+            <recital xml:id="rec_d159e130">
+               <num>(4)</num>
+               <p>Member States should be able at all times to provide the Commission with the documents substantiating the amount of the own resource based on non-recycled plastic packaging waste that was calculated.</p>
+            </recital>
+            <recital xml:id="rec_d159e136">
+               <num>(5)</num>
+               <p>The determination of the applicable uniform call rate of the own resource based on gross national income (GNI) referred to in point (d) of Article 2(1) of Decision (EU, Euratom) 2020/2053 (the &apos;GNI-based own resource&apos;) should be done after revenue from all the other own resources referred to in points (a), (b) and (c) of Article 2(1) of that Decision, and revenue from financial contributions to supplementary research and technological development programmes and other revenue have been added.</p>
+            </recital>
+            <recital xml:id="rec_d159e147">
+               <num>(6)</num>
+               <p>The gross reductions in annual GNI-based contributions granted to Denmark, Germany, Austria, the Netherlands and Sweden under Article 2(4) of Decision (EU, Euratom) 2020/2053 should be taken into account for the entry of the GNI-based own resource in the accounts pursuant to the third subparagraph of Article 6(3) of Regulation (EU, Euratom) No 609/2014 and for the making available of that own resource pursuant to Article 10a of that Regulation.</p>
+            </recital>
+            <recital xml:id="rec_d159e153">
+               <num>(7)</num>
+               <p>In order to ensure that the budget of the Union is financed in all circumstances, a procedure should be laid down for Member States to make available to the Union, in the form of monthly twelfths, the own resource based on non-recycled plastic packaging waste entered in the budget and subsequently to adjust the amounts made available.</p>
+            </recital>
+            <recital xml:id="rec_d159e159">
+               <num>(8)</num>
+               <p>The methodology for calculating the own resource based on non-recycled plastic packaging waste should be clearly set out, taking into account the applicable uniform call rate under point (c) of Article 2(1) of Decision (EU, Euratom) 2020/2053.</p>
+            </recital>
+            <recital xml:id="rec_d159e165">
+               <num>(9)</num>
+               <p>The own resource based on non-recycled plastic packaging waste should be made available in the form of an entry of the amounts due in the account opened under Regulation (EU, Euratom) No 609/2014 for that purpose in the name of the Commission with the treasury or with the body appointed by each Member State.</p>
+            </recital>
+            <recital xml:id="rec_d159e172">
+               <num>(10)</num>
+               <p>In the interest of simplification, the procedure for adjusting the own resource based on non-recycled plastic packaging waste should be aligned with the adjustment provisions for existing own resources. The overall amount of any adjustments should be immediately redistributed among the Member States.</p>
+            </recital>
+            <recital xml:id="rec_d159e178">
+               <num>(11)</num>
+               <p>The Commission should have sufficient cash resources to comply with the regulatory requirements for payments concentrated in the opening months of the year, in so far as it is justified by cash requirements.</p>
+            </recital>
+            <recital xml:id="rec_d159e184">
+               <num>(12)</num>
+               <p>In order to achieve the Union&apos;s objectives, the procedure for calculating interest should ensure in particular that the own resource based on non-recycled plastic packaging waste is made available in a timely manner and in full. Member States should pay interest in the event of delays in entering that own resource into the accounts. In accordance with the principle of sound financial management, care should be taken to ensure that the cost of recovering the interest due on the own resource based on non-recycled plastic packaging waste that was belatedly made available should not exceed the amount of the interest payable.</p>
+            </recital>
+            <recital xml:id="rec_d159e190">
+               <num>(13)</num>
+               <p>A reliable and rapid review procedure should be established in order to resolve possible disputes that may arise between a Member State and the Commission concerning the amount of any adjustments to the statements relating to the own resource based on non-recycled plastic packaging waste or concerning whether an alleged failure to provide data can be attributed to a Member State, thereby avoiding time-consuming and costly infringement proceedings before the Court of Justice of the European Union.</p>
+            </recital>
+            <recital xml:id="rec_d159e196">
+               <num>(14)</num>
+               <p>In order to facilitate the proper application of the financial rules relating to the own resource based on non-recycled plastic packaging waste, it is necessary to include provisions ensuring close cooperation between Member States and the Commission.</p>
+            </recital>
+            <recital xml:id="rec_d159e202">
+               <num>(15)</num>
+               <p>In order to ensure uniform conditions for the implementation of this Regulation, implementing powers should be conferred on the Commission as regards establishing forms for the statements relating to the own resource based on non-recycled plastic packaging waste and as regards further specifying the procedure for the review to resolve possible disputes between a Member State and the Commission. Those powers should be exercised in accordance with Regulation (EU) No 182/2011 of the European Parliament and of the Council<authorialNote placement="bottom" marker="5">
+                     <p>Regulation (EU) No 182/2011 of the European Parliament and of the Council of 16 February 2011 laying down the rules and general principles concerning mechanisms for control by Member States of the Commission&apos;s exercise of implementing powers (OJ L 55, 28.2.2011, p. 13).</p>
+                  </authorialNote>.</p>
+            </recital>
+            <recital xml:id="rec_d159e219">
+               <num>(16)</num>
+               <p>The advisory procedure should be used for the adoption of implementing acts in order to establish forms for the statements relating to the own resource based on non-recycled plastic packaging waste given the technical nature of those acts.</p>
+            </recital>
+            <recital xml:id="rec_d159e225">
+               <num>(17)</num>
+               <p>To facilitate the introduction of the own resource based on non-recycled plastic packaging waste, Member States should provide forecasts by the last day of the second month following the entry into force of this Regulation. Those forecasts should be based on the best estimate of the weight of plastic packaging waste that is not recycled, calculated in accordance with the revised methodology set out in European Parliament and Council Directive 94/62/EC<authorialNote placement="bottom" marker="6">
+                     <p>European Parliament and Council Directive 94/62/EC of 20 December 1994 on packaging and packaging waste (OJ L 365, 31.12.1994, p. 10).</p>
+                  </authorialNote> as amended by Directive (EU) 2018/852 of the European Parliament and of the Council<authorialNote placement="bottom" marker="7">
+                     <p>Directive (EU) 2018/852 of the European Parliament and of the Council of 30 May 2018 amending Directive 94/62/EC on packaging and packaging waste (OJ L 150, 14.6.2018, p. 141).</p>
+                  </authorialNote> and Commission Decision 2005/270/EC<authorialNote placement="bottom" marker="8">
+                     <p>Commission Decision 2005/270/EC of 22 March 2005 establishing the formats relating to the database system pursuant to Directive 94/62/EC of the European Parliament and of the Council on packaging and packaging waste (OJ L 86, 5.4.2005, p. 6).</p>
+                  </authorialNote> as amended by Commission Implementing Decision (EU) 2019/665<authorialNote placement="bottom" marker="9">
+                     <p>Commission Implementing Decision (EU) 2019/665 of 17 April 2019 amending Decision 2005/270/EC establishing the formats relating to the database system pursuant to European Parliament and Council Directive 94/62/EC on packaging and packaging waste (OJ L 112, 26.4.2019, p. 26).</p>
+                  </authorialNote> (the &apos;revised methodology&apos;). To facilitate the transition to the revised methodology, it should be possible for Member States to provide their forecasts in the years 2021 and 2022 on the basis of the previous methodology.</p>
+            </recital>
+            <recital xml:id="rec_d159e276">
+               <num>(18)</num>
+               <p>For reasons of consistency, this Regulation should enter into force on the same day as Decision (EU, Euratom) 2020/2053 and should apply from the same date of application as that Decision, that is, from 1 January 2021,</p>
+            </recital>
+         </recitals>
+         <formula name="enactingFormula">
+            <p>HAS ADOPTED THIS REGULATION:</p>
+         </formula>
+      </preamble>
+      <body>
+         <chapter>
+            <num>CHAPTER I</num>
+            <heading>GENERAL PROVISIONS</heading>
+            <article xml:id="art_d159e297">
+               <num>Article 1</num>
+               <heading>Subject matter</heading>
+               <paragraph>
+                  <content>
+                     <p>This Regulation lays down rules on calculating the own resource based on plastic packaging waste that is not recycled referred to in point (c) of Article 2(1) of Decision (EU, Euratom) 2020/2053 (the &apos;own resource based on non-recycled plastic packaging waste&apos;), on making that own resource available to the Commission, on the measures to meet cash requirements, and on specific effects on the calculation of the applicable uniform call rate of the own resource based on gross national income (GNI) referred to in point (d) of Article 2(1) of that Decision (the &apos;GNI-based own resource&apos;).</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d159e313">
+               <num>Article 2</num>
+               <heading>Conservation of supporting documents</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>The supporting documents relating to the own resource based on non-recycled plastic packaging waste shall be kept by the Member States until 31 July of the fifth year following the financial year in question.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>If verification pursuant to Article 2(5) of Council Regulation (EU, Euratom) 2021/768<authorialNote placement="bottom" marker="10">
+                           <p>Council Regulation (EU, Euratom) 2021/768 of 30 April 2021 laying down implementing measures for the system of own resources of the European Union and repealing Regulation (EU, Euratom) No 608/2014 (see page 1 of this Official Journal).</p>
+                        </authorialNote> concerning the supporting documents referred to in paragraph 1 of this Article shows that a correction or adjustment is required, those documents shall be kept beyond the time limit provided for in paragraph 1 of this Article for a sufficient period to permit the correction or adjustment to be made and monitored.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <content>
+                     <p>Where a dispute between a Member State and the Commission concerning the obligation to make available a certain amount of the own resource based on non-recycled plastic packaging waste or concerning allegations involving inspections or failures to provide data is settled by mutual agreement, by a decision of the Commission or by a decision of the Court of Justice of the European Union, Member State shall transmit the supporting documents necessary for the financial follow-up to the Commission within two months after that settlement.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d159e340">
+               <num>Article 3</num>
+               <heading>Administrative cooperation</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <subparagraph>
+                     <content>
+                        <p>Each Member State shall inform the Commission of the following:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(a)</num>
+                        <content>
+                           <p>the names of the departments or agencies responsible for calculating, establishing, making available and controlling the own resource based on non-recycled plastic packaging waste, and the basic provisions relating to the role and operation of those departments and agencies;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(b)</num>
+                        <content>
+                           <p>the general provisions laid down by law, regulation or administrative action and those relating to the accounting procedure concerning the calculation, establishment, making available and control by the Commission of the own resource based on non-recycled plastic packaging waste;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(c)</num>
+                        <content>
+                           <p>the precise title of all administrative and accounting records in which the own resource based on non-recycled plastic packaging waste is entered, in particular those used for drawing up the accounts provided for in Article 5.</p>
+                        </content>
+                     </point>
+                  </list>
+                  <subparagraph>
+                     <content>
+                        <p>The Commission shall be informed immediately of any change in the names referred to in point (a) of the first subparagraph or provisions referred to in point (b) of the first subparagraph.</p>
+                     </content>
+                  </subparagraph>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>The Commission shall, at the request of a Member State, transmit to all Member States the information referred to in paragraph 1.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d159e377">
+               <num>Article 4</num>
+               <heading>Specific effects on the GNI-based own resource</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>For the purposes of setting the uniform rate as referred to in Article 5 of Regulation (EU, Euratom) No 609/2014, the revenue referred to in point (c) of Article 2(1) of Decision (EU, Euratom) 2020/2053 shall be added to the revenues referred to in points (a) and (b) of Article 2(1) of that Decision in order to calculate the part of the budget to be covered by the GNI-based own resource.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>The third subparagraph of Article 6(3) and Article 10a of Regulation (EU, Euratom) No 609/2014 shall apply to the gross reductions in annual GNI-based contributions granted to Denmark, Germany, Austria, the Netherlands and Sweden under Article 2(4) of Decision (EU, Euratom) 2020/2053.</p>
+                  </content>
+               </paragraph>
+            </article>
+         </chapter>
+         <chapter>
+            <num>CHAPTER II</num>
+            <heading>ACCOUNTS FOR THE OWN RESOURCE BASED ON NON-RECYCLED PLASTIC PACKAGING WASTE</heading>
+            <article xml:id="art_d159e402">
+               <num>Article 5</num>
+               <heading>Entry in the accounts and reporting</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>Accounts for the own resource based on non-recycled plastic packaging waste shall be kept by the treasury of each Member State or by a public entity exercising similar functions (&apos;treasury&apos;), or by the national central bank of each Member State.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>For own-resources accounting purposes, the month shall end no earlier than 1 p.m. on the last working day of the month during which the calculation or the establishment took place.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <subparagraph>
+                     <content>
+                        <p>The twelfths of the own resource based on non-recycled plastic packaging waste shall be entered in the accounts on the first working day of each month.</p>
+                     </content>
+                  </subparagraph>
+                  <subparagraph>
+                     <content>
+                        <p>The result of the calculation referred to in Article 9 shall be recorded annually.</p>
+                     </content>
+                  </subparagraph>
+               </paragraph>
+               <paragraph>
+                  <num>4.</num>
+                  <content>
+                     <p>By 15 April of each year, each Member State shall send to the Commission forecasts of the weight of plastic packaging waste that is not recycled for the current and the following year.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>5.</num>
+                  <content>
+                     <p>By 31 July of each year, each Member State shall send to the Commission an annual statement for the year two years before the current year (&apos;n-2&apos;) providing statistical data on the weight of plastic packaging waste generated in the Member State and on the weight of that plastic packaging waste that was recycled, the weights being provided in kilograms, and an annual statement for the year n-2 providing the calculation of the amount of the own resource based on non-recycled plastic packaging waste in accordance with Article 6.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>6.</num>
+                  <content>
+                     <p>The Commission shall adopt implementing acts establishing forms for the statements relating to the own resource based on non-recycled plastic packaging waste, referred to in paragraph 5 of this Article. Those implementing acts shall be adopted in accordance with the advisory procedure referred to in Article 14(2).</p>
+                  </content>
+               </paragraph>
+            </article>
+         </chapter>
+         <chapter>
+            <num>CHAPTER III</num>
+            <heading>CALCULATION OF THE OWN RESOURCE BASED ON NON-RECYCLED PLASTIC PACKAGING WASTE</heading>
+            <article xml:id="art_d159e456">
+               <num>Article 6</num>
+               <heading>Calculation of the own resource based on non-recycled plastic packaging waste</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>The own resource based on non-recycled plastic packaging waste shall be calculated as set out in point (c) of Article 2(1) of Decision (EU, Euratom) 2020/2053. The weight of plastic packaging waste that is not recycled shall be calculated in accordance with Article 6a of Directive 94/62/EC and the methodology set out in Decision 2005/270/EC, and in particular in Article 6c thereof.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>For each Member State, the amount of the own resource based on non-recycled plastic packaging waste shall be calculated in euro.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <content>
+                     <p>The amount of the own resource based on non-recycled plastic packaging waste in a given year shall be determined based on the forecast referred to in Article 5(4).</p>
+                  </content>
+               </paragraph>
+            </article>
+         </chapter>
+         <chapter>
+            <num>CHAPTER IV</num>
+            <heading>MAKING AVAILABLE THE OWN RESOURCE BASED ON NON-RECYCLED PLASTIC PACKAGING WASTE</heading>
+            <article xml:id="art_d159e486">
+               <num>Article 7</num>
+               <heading>Treasury and accounting arrangements</heading>
+               <paragraph>
+                  <content>
+                     <p>Article 9 of Regulation (EU, Euratom) No 609/2014 shall apply <i>mutatis mutandis</i> to the own resource based on non-recycled plastic packaging waste.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d159e496">
+               <num>Article 8</num>
+               <heading>Making available the own resource based on non-recycled plastic packaging waste</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>The amounts calculated in accordance with Article 6 for each calendar year shall be credited on the first working day of each month. Those amounts shall be one-twelfth of the relevant totals in the budget, converted into national currencies at the rate of exchange on the last day of quotation of the calendar year preceding the budget year, as published in the <i>Official Journal of the European Union</i>, C series.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>The amounts referred to in paragraph 1 of this Article shall be entered in the account referred to in Article 9(1) of Regulation (EU, Euratom) No 609/2014 on the first working day of the month.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <subparagraph>
+                     <content>
+                        <p>Any change in the uniform call rate of the own resource based on non-recycled plastic packaging waste shall require the final adoption of an amending budget and shall give rise to readjustments of the twelfths that have been entered in the account referred to in Article 9(1) of Regulation (EU, Euratom) No 609/2014 since the beginning of the financial year.</p>
+                     </content>
+                  </subparagraph>
+                  <subparagraph>
+                     <content>
+                        <p>Those readjustments shall be carried out when the first entry is made following the final adoption of the amending budget if it is adopted before the 16th of the month. Otherwise they shall be carried out when the second entry following the final adoption is made. By way of derogation from Article 10 of Regulation (EU, Euratom) 2018/1046 of the European Parliament and of the Council<authorialNote placement="bottom" marker="11">
+                              <p>Regulation (EU, Euratom) 2018/1046 of the European Parliament and of the Council of 18 July 2018 on the financial rules applicable to the general budget of the Union, amending Regulations (EU) No 1296/2013, (EU) No 1301/2013, (EU) No 1303/2013, (EU) No 1304/2013, (EU) No 1309/2013, (EU) No 1316/2013, (EU) No 223/2014, (EU) No 283/2014, and Decision No 541/2014/EU and repealing Regulation (EU, Euratom) No 966/2012 (OJ L 193, 30.7.2018, p. 1).</p>
+                           </authorialNote>, those readjustments shall be entered in the accounts in respect of the financial year of the amending budget in question.</p>
+                     </content>
+                  </subparagraph>
+               </paragraph>
+               <paragraph>
+                  <num>4.</num>
+                  <content>
+                     <p>Calculation of the twelfths for January of each financial year shall be based on the amounts provided for in the draft budget, referred to in Article 314(2) of the Treaty on the Functioning of European Union and converted into national currencies at the rate of exchange on the first day of quotation following 15 December of the calendar year preceding the budget year; the adjustment shall be made with the entry for the following month.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>5.</num>
+                  <content>
+                     <p>If the budget has not been finally adopted at the latest two weeks before the entry for January of the following financial year, the Member States shall enter on the first working day of each month, including January, one-twelfth of the amounts of the own resource based on non-recycled plastic packaging waste entered in the last budget finally adopted; the adjustment shall be made on the first due date following the final adoption of the budget if it is adopted before the 16th of the month. Otherwise, the adjustment shall be made on the second due date following the final adoption of the budget.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d159e542">
+               <num>Article 9</num>
+               <heading>Adjustments to the own resource based on non-recycled plastic packaging waste of previous financial years</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>On the basis of the annual statement providing the calculation of the amount of the own resource based on non-recycled plastic packaging waste, referred to in Article 5(5), each Member State shall, in the year following that in which that statement was sent, be debited or credited with an amount calculated as the difference between the amounts in the forecast for a given year and the real amounts in the statement for that same year.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <subparagraph>
+                     <content>
+                        <p>For each Member State, the Commission shall calculate the difference between the amounts resulting from the adjustments referred to in paragraph 1 and the product of multiplying the total amounts of adjustments by the percentage that the GNI of that Member State represents of the GNI of all Member States, as applicable on 15 January to the budget in force for the year following that in which the data for the adjustments was supplied (the &apos;net amount&apos;).</p>
+                     </content>
+                  </subparagraph>
+                  <subparagraph>
+                     <content>
+                        <p>For the purposes of the calculation referred to in the first subparagraph, amounts shall be converted between the national currency and the euro at the rate of exchange on the last day of quotation of the calendar year preceding the year of entry in the accounts, as published in the <i>Official Journal of the European Union</i>, C series.</p>
+                     </content>
+                  </subparagraph>
+                  <subparagraph>
+                     <content>
+                        <p>The Commission shall inform the Member States of the amounts resulting from the calculation referred to in the first subparagraph of this paragraph before 1 February of the year following that in which the data for the adjustments was supplied. Each Member State shall enter the net amount in the account referred to in Article 9(1) of Regulation (EU, Euratom) No 609/2014 on the first working day of June of that same year.</p>
+                     </content>
+                  </subparagraph>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <content>
+                     <p>Any adjustments to the statements referred to in Article 5(5) of this Regulation for previous financial years that result from inspections shall give rise to a particular adjustment of the entries in the account referred to in Article 9(1) of Regulation (EU, Euratom) No 609/2014. The Commission shall inform the Member State concerned in a letter about the necessary adjustment. The amount corresponding to that adjustment shall be made available on the date specified by the Commission in that letter.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>4.</num>
+                  <subparagraph>
+                     <content>
+                        <p>The Member State concerned may request the Commission to review the adjustment communicated in the letter referred to in paragraph 3 within two months from the day of the receipt of that letter. The review shall be concluded with a decision to be adopted by the Commission at the latest three months from the day of receipt of the Member State&apos;s request.</p>
+                     </content>
+                  </subparagraph>
+                  <subparagraph>
+                     <content>
+                        <p>Where the Commission&apos;s decision reviews the amounts in full or partially corresponding to the adjustment communicated in the letter referred to in paragraph 3, the Member State shall make available the corresponding amount. Neither the Member State&apos;s request to review the adjustment nor an action for annulment against the Commission&apos;s decision shall affect the Member State&apos;s obligation to make available the amount corresponding to the adjustment.</p>
+                     </content>
+                  </subparagraph>
+               </paragraph>
+               <paragraph>
+                  <num>5.</num>
+                  <content>
+                     <p>The Commission may adopt implementing acts further specifying the procedure for the review referred to in paragraph 4 of this Article. Those implementing acts shall be adopted in accordance with the examination procedure referred to in Article 14(3).</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>6.</num>
+                  <content>
+                     <p>After 31 July of the fifth year following a given financial year, changes shall no longer be taken into account, except on points notified within that time limit either by the Commission or by the Member State.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>7.</num>
+                  <content>
+                     <p>The operations referred to in this Article constitute revenue operations in respect of the financial year in which they are to be entered in the account referred to in Article 9(1) of Regulation (EU, Euratom) No 609/2014.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d159e596">
+               <num>Article 10</num>
+               <heading>Bringing twelfths forward</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>For the specific needs of paying expenditure of the European Agricultural Guarantee Fund pursuant to Regulation (EU) No 1307/2013 of the European Parliament and of the Council<authorialNote placement="bottom" marker="12">
+                           <p>Regulation (EU) No 1307/2013 of the European Parliament and of the Council of 17 December 2013 establishing rules for direct payments to farmers under support schemes within the framework of the common agricultural policy and repealing Council Regulation (EC) No 637/2008 and Council Regulation (EC) No 73/2009 (OJ L 347, 20.12.2013, p. 608).</p>
+                        </authorialNote>, and depending on the Union&apos;s cash position, Member States may be invited by the Commission to bring forward, by up to two months in the first quarter of the financial year, the entry of one-twelfth, or a fraction thereof, of the amounts in the budget for the own resource based on non-recycled plastic packaging waste.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>Subject to paragraph 3, for the specific needs of paying expenditure of the European Structural and Investment Funds pursuant to Regulation (EU) No 1303/2013 of the European Parliament and of the Council<authorialNote placement="bottom" marker="13">
+                           <p>Regulation (EU) No 1303/2013 of the European Parliament and of the Council of 17 December 2013 laying down common provisions on the European Regional Development Fund, the European Social Fund, the Cohesion Fund, the European Agricultural Fund for Rural Development and the European Maritime and Fisheries Fund and laying down general provisions on the European Regional Development Fund, the European Social Fund, the Cohesion Fund and the European Maritime and Fisheries Fund and repealing Council Regulation (EC) No 1083/2006 (OJ L 347, 20.12.2013, p. 320).</p>
+                        </authorialNote>, and depending on the Union&apos;s cash position, Member States may be invited by the Commission to bring forward, in the first six months of the financial year, the entry of up to an additional half of one-twelfth of the amounts in the budget for the own resource based on non-recycled plastic packaging waste.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <content>
+                     <p>The total amount that Member States may be invited by the Commission to bring forward in the same month under paragraphs 1 and 2 shall, in any event, not exceed an amount corresponding to two additional twelfths.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>4.</num>
+                  <content>
+                     <p>After the first six months, the monthly entry requested shall not exceed one-twelfth of the own resource based on non-recycled plastic packaging waste, while remaining within the limit of the amounts entered in the budget for that purpose.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>5.</num>
+                  <content>
+                     <p>The Commission shall notify the Member States thereof in advance, no later than two weeks before an entry requested pursuant to paragraphs 1 and 2.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>6.</num>
+                  <content>
+                     <p>The Commission shall inform the Member States well in advance, and no later than six weeks before an entry requested pursuant to paragraph 2, of its intention to request such an entry.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>7.</num>
+                  <content>
+                     <p>Article 8(4), concerning the amount to be entered in January each year, and Article 8(5), applicable if the budget has not been finally adopted before the beginning of the financial year, shall apply to the advance entries referred to in paragraphs 1 and 2.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d159e656">
+               <num>Article 11</num>
+               <heading>Interest on amounts made available belatedly</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <subparagraph>
+                     <content>
+                        <p>For the own resource based on non-recycled plastic packaging waste, interest shall be payable only in relation to delays in entering the following amounts:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(a)</num>
+                        <content>
+                           <p>the amounts referred to in Article 8;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(b)</num>
+                        <content>
+                           <p>the amounts resulting from the calculation referred to in Article 9(1), at the moment specified in the third subparagraph of Article 9(2);</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(c)</num>
+                        <content>
+                           <p>the amounts resulting from particular adjustments referred to in Article 9(3);</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(d)</num>
+                        <content>
+                           <p>amounts resulting from attributable failure of a Member State to provide data as requested in this Regulation.</p>
+                        </content>
+                     </point>
+                  </list>
+                  <subparagraph>
+                     <content>
+                        <p>For the purposes of point (d) of the first subparagraph, the interest on the adjustments resulting from the corrections made due to failure of a Member State to provide data shall be calculated as from the first working day of June of the year following that, in which the time limit set by the Commission expired.</p>
+                     </content>
+                  </subparagraph>
+                  <subparagraph>
+                     <content>
+                        <p>A Member State shall be released from the obligation to pay interest for the failure referred to in point (d) of the first subparagraph if that failure is based either on reasons of force majeure or on other reasons which cannot be attributed to the Member State concerned.</p>
+                     </content>
+                  </subparagraph>
+                  <subparagraph>
+                     <content>
+                        <p>Disputes between a Member State and the Commission as to whether the alleged failure referred to in point (d) of the first subparagraph of this paragraph can be attributed to the Member State shall be resolved by the review referred to in Article 9(4).</p>
+                     </content>
+                  </subparagraph>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>Where a Member State initiates the review referred to in Article 9(4), interest shall be calculated as from the date specified by the Commission in accordance with Article 9(3).</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <content>
+                     <p>The recovery of amounts of interest below EUR 500 shall be waived.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>4.</num>
+                  <content>
+                     <p>Interest shall be levied at the rates and conditions provided for in Article 12(4) and (5) of Regulation (EU, Euratom) No 609/2014.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>5.</num>
+                  <content>
+                     <p>For the payment of interest referred to in paragraph 1 of this Article, Article 9(2) and (3) of Regulation (EU, Euratom) No 609/2014 shall apply <i>mutatis mutandis</i>.</p>
+                  </content>
+               </paragraph>
+            </article>
+         </chapter>
+         <chapter>
+            <num>CHAPTER V</num>
+            <heading>MANAGEMENT OF CASH RESOURCES</heading>
+            <article xml:id="art_d159e731">
+               <num>Article 12</num>
+               <heading>Requirements on management of cash resources and execution of payment orders</heading>
+               <paragraph>
+                  <content>
+                     <p>Articles 14 and 15 of Regulation (EU, Euratom) No 609/2014 shall apply <i>mutatis mutandis</i> to the own resource based on non-recycled plastic packaging waste.</p>
+                  </content>
+               </paragraph>
+            </article>
+         </chapter>
+         <chapter>
+            <num>CHAPTER VI</num>
+            <heading>FINAL PROVISIONS</heading>
+            <article xml:id="art_d159e750">
+               <num>Article 13</num>
+               <heading>Expert group</heading>
+               <paragraph>
+                  <content>
+                     <p>The Commission shall establish a formal expert group composed of representatives of all Member States and chaired by a representative of the Commission. The tasks of the formal expert group shall be to advise the Commission and to express its views with regard to the comparability, reliability and exhaustiveness of the statistics on plastic packaging waste generated and recycled, to advise the Commission on preparing measures to make the data more comparable and more reliable and to issue annual opinions on the appropriateness of the plastic packaging waste data submitted by the Member States for the purposes of the own resource based on non-recycled plastic packaging waste. The formal expert group shall be registered in the Commission&apos;s register of expert groups, and the transparency of its composition and work shall be ensured.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d159e758">
+               <num>Article 14</num>
+               <heading>Committee procedure</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>The Commission shall be assisted by the committee established in accordance with Article 21(1) of Directive 94/62/EC. That committee shall be a committee within the meaning of Regulation (EU) No 182/2011.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>Where reference is made to this paragraph, Article 4 of Regulation (EU) No 182/2011 shall apply.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <content>
+                     <p>Where reference is made to this paragraph, Article 5 of Regulation (EU) No 182/2011 shall apply.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d159e778">
+               <num>Article 15</num>
+               <heading>Transitional provisions</heading>
+               <paragraph>
+                  <content>
+                     <p>In order to perform the calculation referred to in Article 6, each Member State shall, by the last day of the second month following the entry into force of this Regulation, provide the Commission with forecasts of the weight of plastic packaging waste that is not recycled from 2021 onwards and until the year following the entry into force of this Regulation. In the years 2021 and 2022, Member States may provide their forecasts of the weight of plastic packaging waste that is not recycled, calculated in accordance with Directive 94/62/EC as amended by Directive (EU) 2015/720 of the European Parliament and of the Council<authorialNote placement="bottom" marker="14">
+                           <p>Directive (EU) 2015/720 of the European Parliament and of the Council of 29 April 2015 amending Directive 94/62/EC as regards reducing the consumption of lightweight plastic carrier bags (OJ L 115, 6.5.2015, p. 11).</p>
+                        </authorialNote> and the methodology set out in Decision 2005/270/EC as amended by Commission Implementing Decision (EU) 2018/896<authorialNote placement="bottom" marker="15">
+                           <p>Commission Implementing Decision (EU) 2018/896 of 19 June 2018 laying down the methodology for the calculation of the annual consumption of lightweight plastic carrier bags and amending Decision 2005/270/EC (OJ L 160, 25.6.2018, p. 6).</p>
+                        </authorialNote>, and in particular Article 5 thereof.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d159e805">
+               <num>Article 16</num>
+               <heading>Entry into force</heading>
+               <paragraph>
+                  <content>
+                     <p>This Regulation shall enter into force on the date of entry into force of Decision (EU, Euratom) 2020/2053.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <content>
+                     <p>It shall apply from 1 January 2021.</p>
+                  </content>
+               </paragraph>
+            </article>
+         </chapter>
+         <clause>
+            <content>
+               <p>This Regulation shall be binding in its entirety and directly applicable in all Member States.</p>
+            </content>
+         </clause>
+      </body>
+      <conclusions>
+         <p>Done at Brussels, 30 April 2021.</p>
+         <block name="signatory">
+            <signature>
+               <organization refersTo="">For the Council</organization>
+               <role refersTo="">The President</role>
+               <person refersTo="">A. P. ZACARIAS</person>
+            </signature>
+         </block>
+      </conclusions>
+   </bill>
+</akomaNtoso>

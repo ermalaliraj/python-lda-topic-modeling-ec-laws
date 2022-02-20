@@ -1,0 +1,625 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"
+            xmlns:fmx="http://formex.publications.europa.eu/schema/formex-05.21-20110601.xd"
+            xmlns:leos="urn:eu:europa:ec:leos"
+            xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <bill name="">
+      <meta xmlns:fn="http://www.w3.org/2005/xpath-functions">
+         <identification source="~COM">
+            <FRBRWork>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRcountry value=""/>
+            </FRBRWork>
+            <FRBRExpression>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+            </FRBRManifestation>
+         </identification>
+      </meta>
+      <preface>
+         <longTitle>
+            <p>
+               <docStage/>
+               <docType>REGULATION (EU) 2020/561 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL</docType>of 23 April 2020<docPurpose>amending Regulation (EU) 2017/745 on medical devices, as regards the dates of application of certain of its provisions</docPurpose>
+            </p>
+         </longTitle>
+         <container name="EEArelevance">
+            <p>(Text with EEA relevance)</p>
+         </container>
+      </preface>
+      <preamble>
+         <formula name="actingEntity">
+            <p>THE EUROPEAN PARLIAMENT AND THE COUNCIL OF THE EUROPEAN UNION,</p>
+         </formula>
+         <citations>
+            <citation>
+               <p>Having regard to the Treaty on the Functioning of the European Union, and in particular Article 114 and point (c) of Article 168(4) thereof,</p>
+            </citation>
+            <citation>
+               <p>Having regard to the proposal from the European Commission,</p>
+            </citation>
+            <citation>
+               <p>After transmission of the draft legislative act to the national parliaments,</p>
+            </citation>
+            <citation>
+               <p>After consulting the European Economic and Social Committee,</p>
+            </citation>
+            <citation>
+               <p>After consulting the Committee of the Regions,</p>
+            </citation>
+            <citation>
+               <p>Acting in accordance with the ordinary legislative procedure<authorialNote placement="bottom" marker="1">
+                     <p>Position of the European Parliament of 17 April 2020 (not yet published in the Official Journal) and decision of the Council of 22 April 2020.</p>
+                  </authorialNote>,</p>
+            </citation>
+         </citations>
+         <recitals xml:id="recs_d77e82">
+            <intro>
+               <p>Whereas:</p>
+            </intro>
+            <recital xml:id="rec_d77e85">
+               <num>(1)</num>
+               <p>Regulation (EU) 2017/745 of the European Parliament and of the Council<authorialNote placement="bottom" marker="2">
+                     <p>Regulation (EU) 2017/745 of the European Parliament and of the Council of 5 April 2017 on medical devices, amending Directive 2001/83/EC, Regulation (EC) No 178/2002 and Regulation (EC) No 1223/2009 and repealing Council Directives 90/385/EEC and 93/42/EEC (OJ L 117, 5.5.2017, p. 1).</p>
+                  </authorialNote> establishes a new regulatory framework to ensure the smooth functioning of the internal market as regards medical devices covered by that Regulation, taking as a base a high level of protection of health for patients and users, and taking into account the small- and medium-sized enterprises that are active in this sector. At the same time, Regulation (EU) 2017/745 sets high standards of quality and safety for medical devices in order to meet common safety concerns as regards such devices. Furthermore, Regulation (EU) 2017/745 significantly reinforces key elements of the existing regulatory approach in Council Directives 90/385/EEC<authorialNote placement="bottom" marker="3">
+                     <p>Council Directive 90/385/EEC of 20 June 1990 on the approximation of the laws of the Member States relating to active implantable medical devices (OJ L 189, 20.7.1990, p. 17).</p>
+                  </authorialNote> and 93/42/EEC<authorialNote placement="bottom" marker="4">
+                     <p>Council Directive 93/42/EEC of 14 June 1993 concerning medical devices (OJ L 169, 12.7.1993, p. 1).</p>
+                  </authorialNote>, such as the supervision of notified bodies, conformity assessment procedures, clinical investigations and clinical evaluation, vigilance and market surveillance, whilst introducing provisions ensuring transparency and traceability regarding medical devices, to improve health and safety.</p>
+            </recital>
+            <recital xml:id="rec_d77e121">
+               <num>(2)</num>
+               <p>The COVID-19 outbreak and the associated public health crisis presents an unprecedented challenge to Member States and constitutes an immense burden for national authorities, health institutions, Union citizens, and economic operators. The public health crisis has created extraordinary circumstances that demand substantial additional resources, as well as an increased availability of vitally important medical devices, that could not reasonably have been anticipated at the time of adoption of Regulation (EU) 2017/745. Those extraordinary circumstances have a significant impact on various areas covered by Regulation (EU) 2017/745, such as the designation and work of notified bodies and the placing on the market and making available on the market of medical devices in the Union.</p>
+            </recital>
+            <recital xml:id="rec_d77e127">
+               <num>(3)</num>
+               <p>Medical devices, such as medical gloves, surgical masks, equipment for intensive care and other medical equipment, play a crucial role in the context of the COVID-19 outbreak and the associated public health crisis to ensure the health and safety of Union citizens and to enable Member States to give necessary medical treatment to patients who are urgently in need of such treatment.</p>
+            </recital>
+            <recital xml:id="rec_d77e133">
+               <num>(4)</num>
+               <p>Given the unprecedented magnitude of the current challenges, and taking into account the complexity of Regulation (EU) 2017/745, it is very likely that Member States, health institutions, economic operators and other relevant parties will not be in a position to ensure the proper implementation and application of that Regulation from 26 May 2020 as laid down therein.</p>
+            </recital>
+            <recital xml:id="rec_d77e143">
+               <num>(5)</num>
+               <p>In order to ensure the smooth functioning of the internal market, a high level of protection of public health and patient safety, to provide legal certainty and to avoid potential market disruption, it is necessary to defer the application of certain provisions of Regulation (EU) 2017/745. Taking into account the COVID-19 outbreak and the associated public health crisis, its epidemiological development, as well as the additional resources required by Member States, health institutions, economic operators and other relevant parties, it is appropriate to defer the application of those provisions of Regulation (EU) 2017/745 by one year.</p>
+            </recital>
+            <recital xml:id="rec_d77e149">
+               <num>(6)</num>
+               <p>The application should be deferred for provisions of Regulation (EU) 2017/745 that would otherwise start to apply from 26 May 2020. To ensure the continuous availability of medical devices on the Union market, including medical devices that are vitally important in the context of the COVID-19 outbreak and the associated public health crisis, it is also necessary to adapt certain transitional provisions of Regulation (EU) 2017/745 that would otherwise no longer apply.</p>
+            </recital>
+            <recital xml:id="rec_d77e158">
+               <num>(7)</num>
+               <p>Both Directives 90/385/EEC and 93/42/EEC, as well as Regulation (EU) 2017/745, empower national competent authorities, on a duly justified request, to authorise the placing on the market of medical devices for which the relevant conformity assessment procedures have not been carried out, but the use of which is in the interest of protection of health, or in the interest of public health or patient safety or health respectively (&apos;national derogation&apos;). Regulation (EU) 2017/745 also allows the Commission to extend, in exceptional cases, the validity of a national derogation for a limited period of time to the territory of the Union (&apos;Union-wide derogation&apos;). Taking into account the COVID-19 outbreak and the associated public health crisis, the Commission should be able to adopt Union-wide derogations in response to national derogations in order to address potential Union-wide shortages of vitally important medical devices in an effective manner. It is for that reason appropriate that the relevant provision of Regulation (EU) 2017/745 applies at the earliest date possible and that the corresponding provisions of Directives 90/385/EEC and 93/42/EEC are repealed from that date. Taking into account that the possibility to adopt Union-wide derogations, for a transitional period, is to be given to the Commission in relation to national derogations from Directives 90/385/EEC and 93/42/EEC, certain amendments to the relevant provisions of Regulation (EU) 2017/745 are necessary.</p>
+            </recital>
+            <recital xml:id="rec_d77e172">
+               <num>(8)</num>
+               <p>In order to cover any national derogations granted by Member States in accordance with Directive 90/385/EEC or 93/42/EEC in the context of the COVID-19 outbreak before the entry into force of this Regulation, it is necessary to provide for the possibility for Member States to notify those national derogations and for the Commission to extend their validity to the territory of the Union.</p>
+            </recital>
+            <recital xml:id="rec_d77e178">
+               <num>(9)</num>
+               <p>To ensure the continuous presence of a functioning and effective regulatory framework for medical devices, it is necessary to defer the application of the provision repealing Directives 90/385/EEC and 93/42/EEC.</p>
+            </recital>
+            <recital xml:id="rec_d77e185">
+               <num>(10)</num>
+               <p>Since the objectives of this Regulation, namely to defer the application of certain provisions of Regulation (EU) 2017/745 and to allow for the extension of the validity of national derogations, authorised under Directive 90/385/EEC or 93/42/EEC, to the territory of the Union, cannot be sufficiently achieved by the Member States but can rather, by reason of their scale and effects, be better achieved at Union level, the Union may adopt measures, in accordance with the principle of subsidiarity as set out in Article 5 of the Treaty on European Union (&apos;TEU&apos;). In accordance with the principle of proportionality as set out in that Article, this Regulation does not go beyond what is necessary in order to achieve those objectives.</p>
+            </recital>
+            <recital xml:id="rec_d77e195">
+               <num>(11)</num>
+               <p>The adoption of this Regulation takes place under exceptional circumstances arising from the COVID-19 outbreak and the associated public health crisis. To attain the intended effect of amending Regulation (EU) 2017/745 as regards the dates of application of certain provisions, it is necessary for this Regulation to enter into force before 26 May 2020. It was therefore considered to be appropriate to provide for an exception to the eight-week period referred to in Article 4 of Protocol No 1 on the role of national Parliaments in the European Union, annexed to the TEU, to the Treaty on the Functioning of the European Union and to the Treaty establishing the European Atomic Energy Community.</p>
+            </recital>
+            <recital xml:id="rec_d77e204">
+               <num>(12)</num>
+               <p>In light of the overriding need to immediately address the public health crisis associated with the COVID-19 outbreak, this Regulation should enter into force as a matter of urgency on the day of its publication in the <i>Official Journal of the European Union</i>.</p>
+            </recital>
+            <recital xml:id="rec_d77e214">
+               <num>(13)</num>
+               <p>Regulation (EU) 2017/745 should therefore be amended accordingly,</p>
+            </recital>
+         </recitals>
+         <formula name="enactingFormula">
+            <p>HAVE ADOPTED THIS REGULATION:</p>
+         </formula>
+      </preamble>
+      <body>
+         <article xml:id="art_d77e223" leos:compliant="false">
+            <num>Article 1</num>
+            <heading/>
+            <paragraph>
+               <subparagraph>
+                  <content>
+                     <p>Regulation (EU) 2017/745 is amended as follows:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(1)</num>
+                     <alinea>
+                        <content>
+                           <p>in Article 1(2), the second subparagraph is amended as follows:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <content>
+                              <p>in the first sentence, the date &apos;26 May 2020&apos; is replaced by &apos;26 May 2021&apos;;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <content>
+                              <p>in the second sentence, the date &apos;26 May 2020&apos; is replaced by &apos;26 May 2021&apos;;</p>
+                           </content>
+                        </point>
+                     </list>
+                  </point>
+                  <point>
+                     <num>(2)</num>
+                     <alinea>
+                        <content>
+                           <p>Article 17 is amended as follows:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <alinea>
+                              <content>
+                                 <p>paragraph 5 is amended as follows:</p>
+                              </content>
+                           </alinea>
+                           <list>
+                              <point>
+                                 <num>(i)</num>
+                                 <content>
+                                    <p>in the first sentence, the date &apos;26 May 2020&apos; is replaced by &apos;26 May 2021&apos;;</p>
+                                 </content>
+                              </point>
+                              <point>
+                                 <num>(ii)</num>
+                                 <content>
+                                    <p>in the third sentence, the date &apos;26 May 2020&apos; is replaced by &apos;26 May 2021&apos;;</p>
+                                 </content>
+                              </point>
+                           </list>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <content>
+                              <p>in paragraph 6, the date &apos;26 May 2020&apos; is replaced by &apos;26 May 2021&apos;;</p>
+                           </content>
+                        </point>
+                     </list>
+                  </point>
+                  <point>
+                     <num>(3)</num>
+                     <content>
+                        <p>in Article 34(1), the date &apos;25 March 2020&apos; is replaced by &apos;25 March 2021&apos;;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(4)</num>
+                     <alinea>
+                        <content>
+                           <p>Article 59 is amended as follows:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <alinea>
+                              <content>
+                                 <p>paragraph 1 is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <list>
+                                             <num>&apos;1.</num>
+                                             <content>
+                                                <p>By way of derogation from Article 52 of this Regulation or, for the period from 24 April 2020 to 25 May 2021, by way of derogation from Article 9(1) and (2) of Directive 90/385/EEC or from Article 11(1) to (6) of Directive 93/42/EEC, any competent authority may authorise, on a duly justified request, the placing on the market or putting into service within the territory of the Member State concerned, of a specific device for which the applicable procedures referred to in those Articles have not been carried out but use of which is in the interest of public health or patient safety or health.&apos;;</p>
+                                             </content>
+                                          </list>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <alinea>
+                              <content>
+                                 <p>in paragraph 2, the following subparagraph is added:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <alinea>
+                                             <content>
+                                                <p>&apos;The Member State may inform the Commission and the other Member States of any authorisation granted in accordance with Article 9(9) of Directive 90/385/EEC or Article 11(13) of Directive 93/42/EEC before 24 April 2020.&apos;;</p>
+                                             </content>
+                                          </alinea>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(c)</num>
+                           <alinea>
+                              <content>
+                                 <p>in paragraph 3, the first subparagraph is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <alinea>
+                                             <content>
+                                                <p>&apos;Following a notification pursuant to paragraph 2 of this Article, the Commission, in exceptional cases relating to public health or patient safety or health, may, by means of implementing acts, extend for a limited period of time the validity of an authorisation granted by a Member State in accordance with paragraph 1 of this Article or, when granted before 24 April 2020, in accordance with Article 9(9) of Directive 90/385/EEC or Article 11(13) of Directive 93/42/EEC to the territory of the Union and set the conditions under which the device may be placed on the market or put into service. Those implementing acts shall be adopted in accordance with the examination procedure referred to in Article 114(3).&apos;;</p>
+                                             </content>
+                                          </alinea>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                     </list>
+                  </point>
+                  <point>
+                     <num>(5)</num>
+                     <content>
+                        <p>in Article 113, the date &apos;25 February 2020&apos; is replaced by &apos;25 February 2021&apos;;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(6)</num>
+                     <alinea>
+                        <content>
+                           <p>Article 120 is amended as follows:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <content>
+                              <p>in paragraph 1, the date &apos;26 May 2020&apos; is replaced by &apos;26 May 2021&apos;;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <alinea>
+                              <content>
+                                 <p>in paragraph 3, the first subparagraph is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <list>
+                                             <num>&apos;3.</num>
+                                             <content>
+                                                <p>By way of derogation from Article 5 of this Regulation, a device which is a class I device pursuant to Directive 93/42/EEC, for which the declaration of conformity was drawn up prior to 26 May 2021 and for which the conformity assessment procedure pursuant to this Regulation requires the involvement of a notified body, or which has a certificate that was issued in accordance with Directive 90/385/EEC or Directive 93/42/EEC and that is valid by virtue of paragraph 2 of this Article, may be placed on the market or put into service until 26 May 2024, provided that from 26 May 2021 it continues to comply with either of those Directives, and provided there are no significant changes in the design and intended purpose. However, the requirements of this Regulation relating to post-market surveillance, market surveillance, vigilance, registration of economic operators and of devices shall apply in place of the corresponding requirements in those Directives.&apos;;</p>
+                                             </content>
+                                          </list>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(c)</num>
+                           <alinea>
+                              <content>
+                                 <p>paragraph 4 is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <list>
+                                             <num>&apos;4.</num>
+                                             <content>
+                                                <p>Devices lawfully placed on the market pursuant to Directives 90/385/EEC and 93/42/EEC prior to 26 May 2021, and devices placed on the market from 26 May 2021 pursuant to paragraph 3 of this Article, may continue to be made available on the market or put into service until 26 May 2025.&apos;;</p>
+                                             </content>
+                                          </list>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(d)</num>
+                           <content>
+                              <p>in paragraph 5, the date &apos;26 May 2020&apos; is replaced by &apos;26 May 2021&apos;;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(e)</num>
+                           <alinea>
+                              <content>
+                                 <p>paragraph 6 is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <list>
+                                             <num>&apos;6.</num>
+                                             <content>
+                                                <p>By way of derogation from Directives 90/385/EEC and 93/42/EEC, conformity assessment bodies which comply with this Regulation may be designated and notified prior to 26 May 2021. Notified bodies which are designated and notified in accordance with this Regulation may carry out the conformity assessment procedures laid down in this Regulation and issue certificates in accordance with this Regulation prior to 26 May 2021.&apos;;</p>
+                                             </content>
+                                          </list>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(f)</num>
+                           <alinea>
+                              <content>
+                                 <p>paragraph 10 is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <list>
+                                             <num>&apos;10.</num>
+                                             <content>
+                                                <p>Devices falling within the scope of this Regulation in accordance with point (g) of Article 1(6) which have been legally placed on the market or put into service in accordance with the rules in force in the Member States prior to 26 May 2021 may continue to be placed on the market and put into service in the Member States concerned.&apos;;</p>
+                                             </content>
+                                          </list>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(g)</num>
+                           <alinea>
+                              <content>
+                                 <p>paragraph 11 is amended as follows:</p>
+                              </content>
+                           </alinea>
+                           <list>
+                              <point>
+                                 <num>(i)</num>
+                                 <content>
+                                    <p>in the first sentence, the date &apos;26 May 2020&apos; is replaced by &apos;26 May 2021&apos;;</p>
+                                 </content>
+                              </point>
+                              <point>
+                                 <num>(ii)</num>
+                                 <content>
+                                    <p>in the second sentence, the date &apos;26 May 2020&apos; is replaced by &apos;26 May 2021&apos;;</p>
+                                 </content>
+                              </point>
+                           </list>
+                        </point>
+                     </list>
+                  </point>
+                  <point>
+                     <num>(7)</num>
+                     <alinea>
+                        <content>
+                           <p>in Article 122, the first paragraph is amended as follows:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <content>
+                              <p>in the introductory part, the date &apos;26 May 2020&apos; is replaced by &apos;26 May 2021&apos;;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <alinea>
+                              <content>
+                                 <p>the following indent is added:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <list>
+                                             <num>&apos;&#45;</num>
+                                             <content>
+                                                <p>Article 9(9) of Directive 90/385/EEC and Article 11(13) of Directive 93/42/EEC, which are repealed with effect from 24 April 2020.&apos;;</p>
+                                             </content>
+                                          </list>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                     </list>
+                  </point>
+                  <point>
+                     <num>(8)</num>
+                     <alinea>
+                        <content>
+                           <p>Article 123 is amended as follows:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <content>
+                              <p>in paragraph 2, the date &apos;26 May 2020&apos; is replaced by &apos;26 May 2021&apos;;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <alinea>
+                              <content>
+                                 <p>paragraph 3 is amended as follows:</p>
+                              </content>
+                           </alinea>
+                           <list>
+                              <point>
+                                 <num>(i)</num>
+                                 <content>
+                                    <p>in point (a), the date &apos;26 May 2020&apos; is replaced by &apos;26 May 2021&apos;;</p>
+                                 </content>
+                              </point>
+                              <point>
+                                 <num>(ii)</num>
+                                 <content>
+                                    <p>in the first sentence of point (d), the date &apos;26 May 2020&apos; is replaced by &apos;26 May 2021&apos;;</p>
+                                 </content>
+                              </point>
+                              <point>
+                                 <num>(iii)</num>
+                                 <alinea>
+                                    <content>
+                                       <p>point (g) is replaced by the following:</p>
+                                    </content>
+                                 </alinea>
+                                 <alinea>
+                                    <content>
+                                       <p>
+                                          <mod>
+                                             <quotedStructure startQuote="" endQuote="">
+                                                <list>
+                                                   <num>&apos;(g)</num>
+                                                   <alinea>
+                                                      <content>
+                                                         <p>with regard to reusable devices that are required to bear the UDI carrier on the device itself, Article 27(4) shall apply to:</p>
+                                                      </content>
+                                                   </alinea>
+                                                   <list>
+                                                      <point>
+                                                         <num>(i)</num>
+                                                         <content>
+                                                            <p>implantable devices and class III devices from 26 May 2023;</p>
+                                                         </content>
+                                                      </point>
+                                                      <point>
+                                                         <num>(ii)</num>
+                                                         <content>
+                                                            <p>class IIa and class IIb devices from 26 May 2025;</p>
+                                                         </content>
+                                                      </point>
+                                                      <point>
+                                                         <num>(iii)</num>
+                                                         <content>
+                                                            <p>class I devices from 26 May 2027;&apos;;</p>
+                                                         </content>
+                                                      </point>
+                                                   </list>
+                                                </list>
+                                             </quotedStructure>
+                                          </mod>
+                                       </p>
+                                    </content>
+                                 </alinea>
+                              </point>
+                              <point>
+                                 <num>(iv)</num>
+                                 <alinea>
+                                    <content>
+                                       <p>the following point is added:</p>
+                                    </content>
+                                 </alinea>
+                                 <alinea>
+                                    <content>
+                                       <p>
+                                          <mod>
+                                             <quotedStructure startQuote="" endQuote="">
+                                                <list>
+                                                   <num>&apos;(j)</num>
+                                                   <content>
+                                                      <p>Article 59 shall apply from 24 April 2020.&apos;;</p>
+                                                   </content>
+                                                </list>
+                                             </quotedStructure>
+                                          </mod>
+                                       </p>
+                                    </content>
+                                 </alinea>
+                              </point>
+                           </list>
+                        </point>
+                     </list>
+                  </point>
+                  <point>
+                     <num>(9)</num>
+                     <content>
+                        <p>in point (h) of Section 5.1 of Annex IX, the date &apos;26 May 2020&apos; is replaced by &apos;26 May 2021&apos;.</p>
+                     </content>
+                  </point>
+               </list>
+            </paragraph>
+         </article>
+         <article xml:id="art_d77e804">
+            <num>Article 2</num>
+            <heading/>
+            <paragraph>
+               <content>
+                  <p>This Regulation shall enter into force on the day of its publication in the <i>Official Journal of the European Union</i>.</p>
+               </content>
+            </paragraph>
+         </article>
+         <clause>
+            <content>
+               <p>This Regulation shall be binding in its entirety and directly applicable in all Member States.</p>
+            </content>
+         </clause>
+      </body>
+      <conclusions>
+         <p>Done at Brussels, 23 April 2020.</p>
+         <block name="signatory">
+            <signature>
+               <organization refersTo="">For the European Parliament</organization>
+               <role refersTo="">The President</role>
+               <person refersTo="">D.M. SASSOLI</person>
+            </signature>
+            <signature>
+               <organization refersTo="">For the Council</organization>
+               <role refersTo="">The President</role>
+               <person refersTo="">G. GRLIĆ RADMAN</person>
+            </signature>
+         </block>
+      </conclusions>
+   </bill>
+</akomaNtoso>

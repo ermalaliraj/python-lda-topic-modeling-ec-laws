@@ -1,0 +1,460 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"
+            xmlns:fmx="http://formex.publications.europa.eu/schema/formex-05.21-20110601.xd"
+            xmlns:leos="urn:eu:europa:ec:leos"
+            xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <bill name="">
+      <meta xmlns:fn="http://www.w3.org/2005/xpath-functions">
+         <identification source="~COM">
+            <FRBRWork>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRcountry value=""/>
+            </FRBRWork>
+            <FRBRExpression>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+            </FRBRManifestation>
+         </identification>
+      </meta>
+      <preface>
+         <longTitle>
+            <p>
+               <docStage/>
+               <docType>COMMISSION REGULATION (EU) 2016/919</docType>of 27 May 2016<docPurpose>on the technical specification for interoperability relating to the &apos;control-command and signalling&apos; subsystems of the rail system in the European Union</docPurpose>
+            </p>
+         </longTitle>
+         <container name="EEArelevance">
+            <p>(Text with EEA relevance)</p>
+         </container>
+      </preface>
+      <preamble>
+         <formula name="actingEntity">
+            <p>THE EUROPEAN COMMISSION,</p>
+         </formula>
+         <citations>
+            <citation>
+               <p>Having regard to the Treaty on the Functioning of the European Union,</p>
+            </citation>
+            <citation>
+               <p>Having regard to Directive 2008/57/EC of the European Parliament and of the Council of 17 June 2008 on the interoperability of the rail system within the Community<authorialNote placement="bottom" marker="1">
+                     <p>OJ L 191, 18.7.2008, p. 1.</p>
+                  </authorialNote>, and in particular the second subparagraph of Article 6(1) thereof,</p>
+            </citation>
+         </citations>
+         <recitals xml:id="recs_d361e75">
+            <intro>
+               <p>Whereas:</p>
+            </intro>
+            <recital xml:id="rec_d361e78">
+               <num>(1)</num>
+               <p>Commission Decision 2012/88/EU<authorialNote placement="bottom" marker="2">
+                     <p>Commission Decision 2012/88/EU of 25 January 2012 on the technical specification for interoperability relating to the control-command and signalling subsystems of the trans-European rail system (OJ L 51, 23.2.2012, p. 1)</p>
+                  </authorialNote> as amended by Commission Decisions 2012/696/EU<authorialNote placement="bottom" marker="3">
+                     <p>Commission Decision 2012/696/EU of 6 November 2012 amending Decision 2012/88/EU on the technical specifications for interoperability relating to the control-command and signalling subsystems of the trans-European rail system (OJ L 311, 10.11.2012, p. 3).</p>
+                  </authorialNote> and (EU) 2015/14<authorialNote placement="bottom" marker="4">
+                     <p>Commission Decision (EU) 2015/14 of 5 January 2015 amending Decision 2012/88/EU on the technical specification for interoperability relating to the control-command and signalling subsystems of the trans-European rail system (OJ L 3, 7.1.2015, p. 44).</p>
+                  </authorialNote> laid down the technical specification for interoperability (TSI) relating to the &apos;control-command and signalling&apos; (CCS) subsystems.</p>
+            </recital>
+            <recital xml:id="rec_d361e118">
+               <num>(2)</num>
+               <p>Article 12 of Regulation (EC) No 881/2004 of the European Parliament and of the Council<authorialNote placement="bottom" marker="5">
+                     <p>Regulation (EC) No 881/2004 of the European Parliament and of the Council of 29 April 2004 establishing a European Railway Agency (Agency Regulation) (OJ L 164, 30.4.2004, p. 1).</p>
+                  </authorialNote> requires the European Railway Agency (the Agency) to ensure that TSIs are adapted to technical progress, market trends and social requirements and to propose to the Commission the amendments to the TSIs which it considers necessary.</p>
+            </recital>
+            <recital xml:id="rec_d361e134">
+               <num>(3)</num>
+               <p>On 10 December 2015, the Agency issued a recommendation relating to the CCS subsystems (ERA-REC-123-2015/REC). This Regulation is based on that recommendation.</p>
+            </recital>
+            <recital xml:id="rec_d361e143">
+               <num>(4)</num>
+               <p>In accordance with Article 5(6) of Directive 2008/57/EC, technical aspects which are not covered by a TSI should be identified as &apos;open points&apos; governed by national rules applicable in each Member State. Since there are no new open points in this Regulation, the national rules containing the conditions to be complied with for verifying interoperability pursuant to Article 17(2) of Directive 2008/57/EC, and the conformity assessment and verification procedures needed to apply those national rules, should already have been sent to the other Member States and the Commission.</p>
+            </recital>
+            <recital xml:id="rec_d361e154">
+               <num>(5)</num>
+               <p>Class B systems significantly hamper the interoperability of locomotives and traction units but are necessary to ensure safe operations where Class A systems are not implemented. It is therefore important to avoid creating additional obstacles to interoperability by, for example, altering these Class B systems or by introducing new systems.</p>
+            </recital>
+            <recital xml:id="rec_d361e160">
+               <num>(6)</num>
+               <p>A transparent plan for European Train Control System (ETCS) implementation and decommissioning of Class B systems should be required as it is an essential element to achieve the objectives of the Single European Railway Area. This is of particular importance when the relevant specific transmission module (STM) is not available on the market.</p>
+            </recital>
+            <recital xml:id="rec_d361e166">
+               <num>(7)</num>
+               <p>In order to make testing principles more transparent and prepare the grounds for further harmonisation, it is necessary to lay down a requirement to publish engineering rules and the operational test scenarios.</p>
+            </recital>
+            <recital xml:id="rec_d361e172">
+               <num>(8)</num>
+               <p>Since the implementation of provisions in point 6.1.2.3 of the Annex related to the transparent management of information on verification of trackside ETCS and GSM-R requires effective cooperation of Infrastructure Managers, the Agency should establish suitable collaboration measures to collect information and define common templates to facilitate information-sharing, addressing issues of confidentiality and intellectual property rights.</p>
+            </recital>
+            <recital xml:id="rec_d361e178">
+               <num>(9)</num>
+               <p>Even a successful certification process cannot always exclude that, when an on-board CCS subsystem interacts with a trackside CCS subsystem, one of the subsystems repeatedly fails to function or perform as intended under certain conditions. This may be due to deficiencies in the specifications, different interpretations, design errors or equipment being installed incorrectly. A more coordinated way to perform compatibility tests should be introduced in order to help operators to take appropriate decisions.</p>
+            </recital>
+            <recital xml:id="rec_d361e185">
+               <num>(10)</num>
+               <p>In order to adapt to the needs of the rail sector, a new version of the ETCS (Release 2 of Baseline 3) should be introduced. This version is fully backwards-compatible as demonstrated in the report &apos;baseline compatibility assessment&apos;, published by the Agency, showing the compatibility checks carried out by the Agency and the sector for the ETCS Baseline 3 (Release 2 and Maintenance Release 1) and the ETCS Baseline 2 set out in the Annex of this Regulation.</p>
+            </recital>
+            <recital xml:id="rec_d361e195">
+               <num>(11)</num>
+               <p>The Commission should make eligible in the next CEF work programme with an ERTMS priority, actions aiming at mitigating possible incompatibilities or shortcomings of existing Baseline-2-compliant trackside implementations with on-board equipment compliant with Baseline 3.</p>
+            </recital>
+            <recital xml:id="rec_d361e201">
+               <num>(12)</num>
+               <p>Considering the fact that European Rail Traffic Management System (ERTMS) is a complex software-based system and taking into account the change control management system, set up and managed by the Agency, collecting the feedback from the implementations of products and systems and logging the findings in the database of change requests, the Commission should request periodically to the Agency to report an assessment of the criticality of findings in the change requests database, to register critical errors in the list of TSI deficiencies according to Article 7 of Directive 2008/57/EC and to provide technical opinions to correct these errors.</p>
+            </recital>
+            <recital xml:id="rec_d361e207">
+               <num>(13)</num>
+               <p>Trackside and on-board investments should be protected by guaranteeing backward compatibility and stability of the ERTMS specifications as indicated in the Agency report on &apos;ERTMS Longer Term Perspective&apos; (ERA-REP-150).</p>
+            </recital>
+            <recital xml:id="rec_d361e217">
+               <num>(14)</num>
+               <p>The Agency should publish as early as possible a technical document specifying additional information to be displayed in the driver-machine interface in order to improve the drivers&apos; ergonomics.</p>
+            </recital>
+            <recital xml:id="rec_d361e223">
+               <num>(15)</num>
+               <p>Article 47 of Regulation (EU) No 1315/2013<authorialNote placement="bottom" marker="6">
+                     <p>Regulation (EU) No 1315/2013 of the European Parliament and of the Council of 11 December 2013 on Union guidelines for the development of the trans-European transport network and repealing Decision No 661/2010/EU (OJ L 348, 20.12.2013, p. 1).</p>
+                  </authorialNote> provides for the adoption of the work plan of the ERTMS European Coordinator. The work plan will set out the implementation rules for ETCS trackside installations. Until that work plan is applicable, the ERTMS European Deployment Plan set out in Decision 2012/88/EU should continue to be applied.</p>
+            </recital>
+            <recital xml:id="rec_d361e240">
+               <num>(16)</num>
+               <p>Commission Decision 2012/88/EU should therefore be repealed.</p>
+            </recital>
+            <recital xml:id="rec_d361e246">
+               <num>(17)</num>
+               <p>The &apos;rolling stock &#45; locomotives and passenger rolling stock&apos; subsystem and the &apos;trackside control-command and signalling&apos; and &apos;on-board control-command and signalling&apos; subsystems share common interfaces. Therefore, Commission Regulation (EU) No 1302/2014<authorialNote placement="bottom" marker="7">
+                     <p>Commission Regulation (EU) No 1302/2014 of 18 November 2014 concerning a technical specification for interoperability relating to the &apos;rolling stock &#45; locomotives and passenger rolling stock&apos; subsystem of the rail system in the European Union (OJ L 356, 12.12.2014, p. 228).</p>
+                  </authorialNote> should be amended to take into account the modifications introduced by this Regulation.</p>
+            </recital>
+            <recital xml:id="rec_d361e279">
+               <num>(18)</num>
+               <p>The measures provided for in this Regulation are in accordance with the opinion of the Committee referred to in Article 29(1) of Directive 2008/57/EC,</p>
+            </recital>
+         </recitals>
+         <formula name="enactingFormula">
+            <p>HAS ADOPTED THIS REGULATION:</p>
+         </formula>
+      </preamble>
+      <body>
+         <article xml:id="art_d361e288">
+            <num>Article 1</num>
+            <heading>Subject matter</heading>
+            <paragraph>
+               <content>
+                  <p>The technical specification for interoperability (TSI) relating to the control-command and signalling (CCS) subsystems of the rail system in the European Union, as set out in the Annex, is hereby adopted.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d361e295">
+            <num>Article 2</num>
+            <heading>Scope</heading>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>The TSI shall apply to all new, upgraded or renewed &apos;trackside control-command and signalling&apos; and &apos;on-board control-command and signalling&apos; subsystems of the rail system as defined in points 2.3 and 2.4 of Annex II to Directive 2008/57/EC.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>The TSI shall not apply to existing &apos;trackside control-command and signalling&apos; and &apos;on-board control-command and signalling&apos; subsystems of the rail system already placed in service on all or part of any Member State&apos;s railway network on the day this Regulation enters into force, except when the subsystem is subject to renewal or upgrading in accordance with Article 20 of Directive 2008/57/EC and Section 7 of the Annex.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <subparagraph>
+                  <content>
+                     <p>The TSI shall apply to the following networks</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <content>
+                        <p>the trans-European conventional rail system network as defined in Annex I, point 1.1 to Directive 2008/57/EC;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <content>
+                        <p>the trans-European high-speed rail system network as defined in Annex I, point 2.1 to Directive 2008/57/EC;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(c)</num>
+                     <content>
+                        <p>other parts of the network of the rail system in the Union, following the extension of scope as described in Annex I point 4 of Directive 2008/57/EC;</p>
+                     </content>
+                  </point>
+               </list>
+               <subparagraph>
+                  <content>
+                     <p>and excludes the cases referred to in Article 1(3) of Directive 2008/57/EC.</p>
+                  </content>
+               </subparagraph>
+            </paragraph>
+            <paragraph>
+               <num>4.</num>
+               <content>
+                  <p>The technical and geographical scope of the TSI is set out in points 1.1 and 1.2 of the Annex.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d361e358">
+            <num>Article 3</num>
+            <heading>Open points and specific cases</heading>
+            <paragraph>
+               <num>1.</num>
+               <subparagraph>
+                  <content>
+                     <p>Within six months of the entry into force of this Regulation, each Member State shall send to the other Member States and the Commission a list of bodies designated in accordance with Article 17(3) of Directive 2008/57/EC to carry out the conformity assessment and verification procedures in respect of:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <content>
+                        <p>the open points specified in Annex G;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <content>
+                        <p>the specific cases set out in point 7.6.2 of the Annex;</p>
+                     </content>
+                  </point>
+               </list>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>If a Member State has already sent this information pursuant to previous Commission Decisions, it shall be considered to have met this obligation.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d361e388">
+            <num>Article 4</num>
+            <heading>Projects at an advanced stage of development</heading>
+            <paragraph>
+               <content>
+                  <p>In accordance with Article 9(3) of Directive 2008/57/EC, each Member State shall communicate to the Commission a list of projects being implemented within its territory and are at an advanced stage of development. This list shall be sent within one year of the entry into force of this Regulation.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d361e395">
+            <num>Article 5</num>
+            <heading>Notification of information on verification of trackside ETCS and GSM-R</heading>
+            <paragraph>
+               <content>
+                  <p>In accordance with point 6.1.2.3 of the Annex, Member States shall ensure that, when the process of EC verification of a trackside control-command and signalling subsystem is initiated, the engineering rules and the preliminary operational test scenarios related to the interactions of its ETCS and GSM-R parts with the corresponding parts of an on-board control-command and signalling subsystem are made available to the European Railway Agency as soon as possible. The European Railway Agency shall be informed of any changes to operational tests scenarios used during the EC verification.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d361e402">
+            <num>Article 6</num>
+            <heading>Implementation</heading>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>Suppliers and applicants for authorisation for placing in service shall ensure that all equipment referred to in Article 2.1 and intended to be used on the networks referred to in Article 2(3) complies with the TSI set out in the Annex of this Regulation.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>Notified bodies shall ensure that certificates based on the TSI set out in the Annex of this Regulation, specifically on the provisions set out in point 6, are issued within their responsibilities in accordance with Articles 13 and 18 of Directive 2008/57/EC.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <content>
+                  <p>National safety authorities shall, within their responsibilities according to Article 16 of the Directive 2004/49/EC of the European Parliament and of the Council<authorialNote placement="bottom" marker="8">
+                        <p>Directive 2004/49/EC of the European Parliament and of the Council of 29 April 2004 on safety on the Community&apos;s railways and amending Council Directive 95/18/EC on the licensing of railway undertakings and Directive 2001/14/EC on the allocation of railway infrastructure capacity and the levying of charges for the use of railway infrastructure and safety certification (Railway Safety Directive) (OJ L 164, 30.4.2004, p. 44).</p>
+                     </authorialNote>, ensure that all equipment referred to in Article 2 and placed in service in their territory complies with the TSI set out in the Annex of this Regulation.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>4.</num>
+               <content>
+                  <p>Member States shall draw up a national implementation plan, describing their actions to comply with this TSI, in accordance with Section 7 of the Annex, setting out the steps to be followed for the implementation of fully interoperable &apos;control-command and signalling&apos; subsystems.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>5.</num>
+               <content>
+                  <p>Member States shall send their national implementation plan to the other Member States and the Commission within one year of entry into force of this Regulation.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d361e446">
+            <num>Article 7</num>
+            <heading>Availability of ETCS on-board products compliant with Baseline 3 specifications</heading>
+            <paragraph>
+               <content>
+                  <p>The Agency will prepare by 1 January 2018 a report to the Commission on the availability of ETCS on-board products compliant with Baseline 3 specifications. The Commission will present it to the Committee referred to in Article 29(1) of Directive 2008/57/EC and take appropriate measures.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d361e457">
+            <num>Article 8</num>
+            <heading>Class B systems</heading>
+            <paragraph>
+               <content>
+                  <p>Member States shall ensure that the functionality, performance and interfaces of the Class B systems remain as currently specified, except where modifications are needed to mitigate safety-related flaws in those systems.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d361e464">
+            <num>Article 9</num>
+            <heading>EU-funded projects</heading>
+            <paragraph>
+               <num>1.</num>
+               <subparagraph>
+                  <content>
+                     <p>ETCS shall be installed in railway infrastructure projects receiving financial support from European funds when:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(1)</num>
+                     <content>
+                        <p>installing the train protection part of a CCS subsystem for the first time; or</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(2)</num>
+                     <content>
+                        <p>upgrading the train protection part of a CCS subsystem already in service, where upgrading changes the functions or the performance of the subsystem.</p>
+                     </content>
+                  </point>
+               </list>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <subparagraph>
+                  <content>
+                     <p>The Commission may grant a derogation from the obligation laid down in the paragraphs above when signalling is renewed on short (less than 150 km) and discontinuous sections of a line and provided that ETCS is installed before the earlier of these two dates:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <indent>
+                     <num>-</num>
+                     <content>
+                        <p>5 years after the end of the project,</p>
+                     </content>
+                  </indent>
+                  <indent>
+                     <num>-</num>
+                     <content>
+                        <p>the date on which the section of the line is connected to another ETCS equipped line.</p>
+                     </content>
+                  </indent>
+               </list>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <content>
+                  <p>The Member State concerned shall send the Commission a file with an economic analysis of the project showing that there is a substantial economic and/or technical advantage in putting ERTMS into service at the earlier of the two dates mentioned in the previous paragraph rather than during the course of the EU-funded project.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>4.</num>
+               <content>
+                  <p>The Commission shall examine the file and the measures proposed by the Member State and shall inform the committee referred to in Article 29(1) of Directive 2008/57/EC of its findings. If the Commission grants a derogation, the Member State shall ensure that ERTMS is installed before the earlier of the two dates mentioned in paragraph 2.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>5.</num>
+               <content>
+                  <p>This derogation shall not prevent application of points 7.3.2.1, 7.3.2.2 and 7.3.2.3 of Decision 2012/88/EU,</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d361e516">
+            <num>Article 10</num>
+            <heading>Error corrections</heading>
+            <paragraph>
+               <content>
+                  <p>If errors that do not allow the system to provide a normal service are detected the Agency shall publish as early as possible the respective solutions to correct them as well as the evaluation of their impact in the compatibility and stability of the existing ERTMS deployment. Within one year of the date of application of this Regulation, the Agency shall send to the Commission a technical opinion on the state of the findings logged in the ERTMS change request database. The Commission shall analyse the technical opinion, assisted by the committee referred to in Article 29(1) of Directive 2008/57/EC. As set out in the second paragraph of Article 7 of Directive 2008/57/EC, if these errors do not justify immediate revision, the Commission may recommend that the technical opinion be used pending the review of the TSI.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d361e524" leos:compliant="false">
+            <num>Article 11</num>
+            <heading>Amendment to TSI &apos;rolling stock &#45; locomotives and passenger rolling stock&apos;</heading>
+            <paragraph>
+               <content>
+                  <p>Index No 1 in Table J.2 of Appendix J to Commission Regulation (EU) No 1302/2014 is replaced by the following:</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <content>
+                  <p>
+                     <mod>
+                        <quotedStructure startQuote="" endQuote="">
+                           <alinea>
+                              <content>
+                                 <p>&apos;ERA/ERTMS/033281 rev 3.0&apos;.</p>
+                              </content>
+                           </alinea>
+                        </quotedStructure>
+                     </mod>
+                  </p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d361e542">
+            <num>Article 12</num>
+            <heading>Repeal</heading>
+            <paragraph>
+               <content>
+                  <p>Decision 2012/88/EU is repealed.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d361e549">
+            <num>Article 13</num>
+            <heading>Transitional provisions</heading>
+            <paragraph>
+               <content>
+                  <p>Points 7.3.1, 7.3.2, 7.3.4 and 7.3.5 of the Annex III to Decision 2012/88/EU shall apply until the date of application of the implementing acts referred to in Article 47(2) of Regulation (EU) No 1315/2013.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d361e556">
+            <num>Article 14</num>
+            <heading>Entry into force</heading>
+            <paragraph>
+               <content>
+                  <p>This Regulation shall enter into force on the twentieth day following that of its publication in the <i>Official Journal of the European Union</i>.</p>
+               </content>
+            </paragraph>
+         </article>
+         <clause>
+            <content>
+               <p>This Regulation shall be binding in its entirety and directly applicable in all Member States.</p>
+            </content>
+         </clause>
+      </body>
+      <conclusions>
+         <p>Done at Brussels, 27 May 2016.</p>
+         <block name="signatory">
+            <signature>
+               <organization refersTo="">For the Commission</organization>
+               <role refersTo="">The President</role>
+               <person refersTo="">Jean-Claude JUNCKER</person>
+            </signature>
+         </block>
+      </conclusions>
+   </bill>
+</akomaNtoso>

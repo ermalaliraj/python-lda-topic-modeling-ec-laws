@@ -1,0 +1,598 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"
+            xmlns:fmx="http://formex.publications.europa.eu/schema/formex-05.21-20110601.xd"
+            xmlns:leos="urn:eu:europa:ec:leos"
+            xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <bill name="">
+      <meta xmlns:fn="http://www.w3.org/2005/xpath-functions">
+         <identification source="~COM">
+            <FRBRWork>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRcountry value=""/>
+            </FRBRWork>
+            <FRBRExpression>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+            </FRBRManifestation>
+         </identification>
+      </meta>
+      <preface>
+         <longTitle>
+            <p>
+               <docStage/>
+               <docType>REGULATION (EU) 2018/956 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL</docType>of 28 June 2018<docPurpose>on the monitoring and reporting of CO<sub>2</sub> emissions from and fuel consumption of new heavy-duty vehicles</docPurpose>
+            </p>
+         </longTitle>
+         <container name="EEArelevance">
+            <p>(Text with EEA relevance)</p>
+         </container>
+      </preface>
+      <preamble>
+         <formula name="actingEntity">
+            <p>THE EUROPEAN PARLIAMENT AND THE COUNCIL OF THE EUROPEAN UNION,</p>
+         </formula>
+         <citations>
+            <citation>
+               <p>Having regard to the Treaty on the Functioning of the European Union, and in particular Article 192(1) thereof,</p>
+            </citation>
+            <citation>
+               <p>Having regard to the proposal from the European Commission,</p>
+            </citation>
+            <citation>
+               <p>After transmission of the draft legislative act to the national parliaments,</p>
+            </citation>
+            <citation>
+               <p>Having regard to the opinion of the European Economic and Social Committee<authorialNote placement="bottom" marker="1">
+                     <p>OJ C 81, 2.3.2018, p. 95.</p>
+                  </authorialNote>,</p>
+            </citation>
+            <citation>
+               <p>After consulting the Committee of the Regions,</p>
+            </citation>
+            <citation>
+               <p>Acting in accordance with the ordinary legislative procedure<authorialNote placement="bottom" marker="2">
+                     <p>Position of the European Parliament of 12 June 2018 (not yet published in the Official Journal) and decision of the Council of 21 June 2018.</p>
+                  </authorialNote>,</p>
+            </citation>
+         </citations>
+         <recitals xml:id="recs_d321e91">
+            <intro>
+               <p>Whereas:</p>
+            </intro>
+            <recital xml:id="rec_d321e94">
+               <num>(1)</num>
+               <p>A binding target of at least a 40 % domestic reduction in economy-wide greenhouse gas emissions by 2030 compared to 1990 was endorsed in the conclusions of the European Council of 23-24 October 2014 on the 2030 climate and energy policy framework, and this target was reconfirmed at the European Council meeting of 17-18 March 2016.</p>
+            </recital>
+            <recital xml:id="rec_d321e112">
+               <num>(2)</num>
+               <p>The European Council conclusions of 23-24 October 2014 provided that the target has to be delivered collectively by the Union in the most cost-effective manner possible, with the reductions in the system for greenhouse gas emission allowance trading within the Union (&apos;EU ETS&apos;) and non-ETS sectors amounting to 43 % and 30 % respectively by 2030 compared to 2005. The Paris Agreement<authorialNote placement="bottom" marker="3">
+                     <p>Paris Agreement (OJ L 282, 19.10.2016, p. 4).</p>
+                  </authorialNote>, <i>inter alia</i>, sets out a long-term goal in line with the objective to keep the global average temperature increase well below 2 °C above pre-industrial levels and to pursue efforts to keep it to 1,5 °C above pre-industrial levels. It is necessary that all Member States participate in these efforts and that all sectors of the economy, including transport, contribute to achieving the emission reductions agreed by the European Council and to fulfilling the long-term objectives of the Paris Agreement.</p>
+            </recital>
+            <recital xml:id="rec_d321e139">
+               <num>(3)</num>
+               <p>The Commission&apos;s 2016 European Strategy for low-emission mobility sets the ambition that, by mid-century, greenhouse gas emissions from transport will need to be at least 60 % lower than in 1990, and be firmly on the path towards zero.</p>
+            </recital>
+            <recital xml:id="rec_d321e145">
+               <num>(4)</num>
+               <p>In order to meet that objective, it is appropriate to consider a range of different measures. In addition to setting CO<sub>2</sub> emission standards for heavy-duty vehicles, namely lorries, buses and coaches, those measures could include other actions that contribute to improving the efficiency and lower the CO<sub>2</sub> emissions of heavy-duty vehicles, such as load optimisation, platooning, training of drivers, the use of alternative fuels, fleet renewal schemes, low-rolling resistance tyres, congestion reduction and investments in infrastructure maintenance.</p>
+            </recital>
+            <recital xml:id="rec_d321e158">
+               <num>(5)</num>
+               <p>Greenhouse gas emissions from heavy-duty vehicles currently represent around a quarter of road transport emissions in the Union and, if no additional measures are taken, are expected to increase by 10 % between 2010 and 2030 and by 17 % between 2010 and 2050. Effective measures to curb emissions from heavy-duty vehicles need to be introduced in order to contribute to the necessary emission reductions in the transport sector.</p>
+            </recital>
+            <recital xml:id="rec_d321e164">
+               <num>(6)</num>
+               <p>In its 2014 Communication on a Strategy for reducing Heavy-Duty Vehicles&apos; fuel consumption and CO<sub>2</sub> emissions, the Commission recognised that a prerequisite to introducing such measures is a regulated procedure for the determination of CO<sub>2</sub> emissions and fuel consumption.</p>
+            </recital>
+            <recital xml:id="rec_d321e176">
+               <num>(7)</num>
+               <p>Regulation (EC) No 595/2009 of the European Parliament and the Council<authorialNote placement="bottom" marker="4">
+                     <p>Regulation (EC) No 595/2009 of the European Parliament and of the Council of 18 June 2009 on type-approval of motor vehicles and engines with respect to emissions from heavy duty vehicles (Euro VI) and on access to vehicle repair and maintenance information and amending Regulation (EC) No 715/2007 and Directive 2007/46/EC and repealing Directives 80/1269/EEC, 2005/55/EC and 2005/78/EC (OJ L 188, 18.7.2009, p. 1).</p>
+                  </authorialNote> provides the framework for the setting up of such a regulated procedure. The measurements carried out in accordance with that procedure will provide robust and comparable CO<sub>2</sub> emissions and fuel consumption data for each heavy-duty vehicle in respect of a significant part of the heavy-duty vehicle fleet in the Union. The purchaser of a specific heavy-duty vehicle and the respective Member State of registration will have access to that information, partially closing the knowledge gap.</p>
+            </recital>
+            <recital xml:id="rec_d321e195">
+               <num>(8)</num>
+               <p>Transport companies are, to a large extent, small and medium-sized enterprises. Moreover, they do not yet have access to standardised information to evaluate fuel efficiency technologies or to compare heavy-duty vehicles in order to make the best-informed purchasing decisions, thereby reducing their fuel bills, which account for more than a quarter of their operating costs.</p>
+            </recital>
+            <recital xml:id="rec_d321e201">
+               <num>(9)</num>
+               <p>Information on a heavy-duty vehicle&apos;s performance in terms of CO<sub>2</sub> emissions and fuel consumption should be made publicly available to enable all vehicle operators to take well-informed purchasing decisions and to ensure a high level of transparency. All heavy-duty vehicle manufacturers will be able to compare their vehicles&apos; performance with those of other makes. That will increase the incentives for innovation and encourage the development of more energy efficient heavy-duty vehicles, thereby increasing competitiveness. That information will also provide policy makers at Union and Member State level with a sound basis for developing policies to promote the uptake of more energy-efficient heavy-duty vehicles.</p>
+            </recital>
+            <recital xml:id="rec_d321e211">
+               <num>(10)</num>
+               <p>In order to acquire complete knowledge on the configuration of the heavy-duty vehicle fleet in the Union, its development over time and potential impact on CO<sub>2</sub> emissions, it is appropriate that the competent authorities of the Member States monitor and report to the Commission data on the registration of all new heavy-duty vehicles and all new trailers, including data on powertrains as well as the relevant bodywork.</p>
+            </recital>
+            <recital xml:id="rec_d321e220">
+               <num>(11)</num>
+               <p>It is therefore appropriate that heavy-duty vehicle manufacturers monitor and report to the Commission the CO<sub>2</sub> emissions and fuel consumption values determined for each new heavy-duty vehicle pursuant to Commission Regulation (EU) 2017/2400<authorialNote placement="bottom" marker="5">
+                     <p>Commission Regulation (EU) 2017/2400 of 12 December 2017 implementing Regulation (EC) No 595/2009 of the European Parliament and of the Council as regards the determination of the CO<sub>2</sub> emissions and fuel consumption of heavy-duty vehicles and amending Directive 2007/46/EC of the European Parliament and of the Council and Commission Regulation (EU) No 582/2011 (OJ L 349, 29.12.2017, p. 1).</p>
+                  </authorialNote>.</p>
+            </recital>
+            <recital xml:id="rec_d321e242">
+               <num>(12)</num>
+               <p>The availability of data on CO<sub>2</sub> emissions and fuel consumption for the different heavy-duty vehicle categories depends on when the categories will be covered by Regulation (EU) 2017/2400. In order to provide clarity and legal certainty concerning monitoring and reporting obligations for manufacturers, this Regulation should set out the starting years for monitoring and reporting for each heavy-duty vehicle category falling within its scope. Pursuant to Regulation (EU) 2017/2400, data will be available for certain new heavy-duty vehicles that are registered in 2019. Starting from that year, manufacturers should be required to monitor and report the technical data relating to those vehicles. For other heavy-duty vehicle categories and heavy-duty vehicle groups the data will only become available from a later date. A reasonable timeframe should be set for determining the starting years for the monitoring and reporting of data for those vehicle categories and vehicle groups. Given the technical complexity of developing the procedures for determining the CO<sub>2</sub> emissions and fuel consumption of the remaining heavy-duty vehicle categories and heavy-duty vehicle groups, the timeframe should be set at seven years from the date of entry into force of this Regulation.</p>
+            </recital>
+            <recital xml:id="rec_d321e255">
+               <num>(13)</num>
+               <p>It is in the public interest that technical data essential for determining the CO<sub>2</sub> emissions and fuel consumption performance of a heavy-duty vehicle be actively disseminated to the public to increase the transparency of the heavy-duty vehicle specifications and the related performance, and to foster competition among manufacturers. Data that are sensitive on the grounds of personal data protection and fair competition should not be published. Certain data related to the aerodynamic performance of heavy-duty vehicles should be made available to the public in a range format in order to take account of considerations of fair competition. The data reported should be made available to the public in an easily accessible manner and free of charge. This Regulation is without prejudice to the further rights of public access to environmental information, <i>inter alia</i>, in accordance with Regulation (EC) No 1367/2006 of the European Parliament and of the Council<authorialNote placement="bottom" marker="6">
+                     <p>Regulation (EC) No 1367/2006 of the European Parliament and of the Council of 6 September 2006 on the application of the provisions of the Aarhus Convention on Access to Information, Public Participation in Decision-making and Access to Justice in Environmental Matters to Community institutions and bodies (OJ L 264, 25.9.2006, p. 13).</p>
+                  </authorialNote>.</p>
+            </recital>
+            <recital xml:id="rec_d321e277">
+               <num>(14)</num>
+               <p>It is important that the monitoring and reporting system be user friendly for all transport operators regardless of their size and resources. Likewise, it is important that the Commission actively promote such a system in order to ensure that it has a meaningful impact on the sector and to raise awareness on the availability of the reported data.</p>
+            </recital>
+            <recital xml:id="rec_d321e283">
+               <num>(15)</num>
+               <p>The Commission&apos;s analysis of the data transmitted by Member States and manufacturers for the preceding calendar year should be presented to the public in a way to show clearly the performance of the heavy-duty vehicle fleet of the Union and of each Member State as well as that of each manufacturer. It should allow comparability within and between fleets in terms of the average fuel consumption and CO<sub>2</sub> emissions for each heavy-duty vehicle group by mission profile.</p>
+            </recital>
+            <recital xml:id="rec_d321e292">
+               <num>(16)</num>
+               <p>It is essential that the CO<sub>2</sub> emission and fuel consumption values determined pursuant to Regulation (EU) 2017/2400 correctly reflect the performance of heavy-duty vehicles. That Regulation therefore sets out provisions for verifying and ensuring the conformity of the simulation tool operation as well as of the CO<sub>2</sub> emissions and fuel consumption related properties of the relevant components, separate technical units and systems. That verification procedure should include on-road testing. The new type approval framework as set out in Regulation (EU) 2018/858 of the European Parliament and of the Council<authorialNote placement="bottom" marker="7">
+                     <p>Regulation (EU) 2018/858 of the European Parliament and of the Council of 30 May 2018 on the approval and market surveillance of motor vehicles and their trailers, and of systems, components and separate technical units intended for such vehicles, amending Regulations (EC) No 715/2007 and (EC) No 595/2009 and repealing Directive 2007/46/EC (OJ L 151, 14.6.2018, p. 1).</p>
+                  </authorialNote> provides the means for ensuring that, in the case of deviations, remedial measures are taken by the manufacturer, and that in the case of non-compliance, the Commission is able to impose administrative fines. That new framework also acknowledges the importance of third parties being allowed to perform independent testing of vehicles and having access to necessary data. The Commission should monitor the results of such verification tests and should include an analysis of those results in its annual report.</p>
+            </recital>
+            <recital xml:id="rec_d321e314">
+               <num>(17)</num>
+               <p>It is important to ensure that the data monitored and reported be robust and reliable. The Commission should therefore have the means to verify and, where necessary, correct the final data. The monitoring requirements should therefore also provide for parameters that allow the data to be adequately traced and verified.</p>
+            </recital>
+            <recital xml:id="rec_d321e320">
+               <num>(18)</num>
+               <p>The Commission should have the possibility to impose an administrative fine where it finds that the data reported by the manufacturer deviates from the data recorded in the framework of Regulation (EC) No 595/2009 and, in particular, in accordance with Commission Regulation (EU) No 582/2011<authorialNote placement="bottom" marker="8">
+                     <p>Commission Regulation (EU) No 582/2011 of 25 May 2011 implementing and amending Regulation (EC) No 595/2009 of the European Parliament and of the Council with respect to emissions from heavy duty vehicles (Euro VI) and amending Annexes I and III to Directive 2007/46/EC of the European Parliament and of the Council (OJ L 167, 25.6.2011, p. 1).</p>
+                  </authorialNote> and Regulation (EU) 2017/2400 or where the manufacturer fails to deliver the required data within the applicable deadline. Those fines should be effective, proportionate and dissuasive.</p>
+            </recital>
+            <recital xml:id="rec_d321e336">
+               <num>(19)</num>
+               <p>Based on the experience gained from the monitoring and reporting of data on CO<sub>2</sub> emissions pursuant to Regulation (EC) No 443/2009 of the European Parliament and of the Council<authorialNote placement="bottom" marker="9">
+                     <p>Regulation (EC) No 443/2009 of the European Parliament and of the Council of 23 April 2009 setting emission performance standards for new passenger cars as part of the Community&apos;s integrated approach to reduce CO<sub>2</sub> emissions from light-duty vehicles (OJ L 140, 5.6.2009, p. 1).</p>
+                  </authorialNote> for new passenger cars and to Regulation (EU) No 510/2011 of the European Parliament and of the Council<authorialNote placement="bottom" marker="10">
+                     <p>Regulation (EU) No 510/2011 of the European Parliament and of the Council of 11 May 2011 setting emission performance standards for new light commercial vehicles as part of the Union&apos;s integrated approach to reduce CO<sub>2</sub> emissions from light-duty vehicles (OJ L 145, 31.5.2011, p. 1).</p>
+                  </authorialNote> for new light commercial vehicles, it is appropriate to confer on the European Environment Agency the responsibility for the exchange of such data with the competent authorities of the Member States and manufacturers, as well as for the management of the final database on behalf of the Commission. It is also appropriate to align as far as possible the monitoring and reporting procedures for heavy-duty vehicles with those already existing for light-duty vehicles.</p>
+            </recital>
+            <recital xml:id="rec_d321e374">
+               <num>(20)</num>
+               <p>In order to ensure uniform conditions for the implementation of the provisions of this Regulation on the verification and correction of the monitored data, implementing powers should be conferred on the Commission. Those powers should be exercised in accordance with Regulation (EU) No 182/2011 of the European Parliament and of the Council<authorialNote placement="bottom" marker="11">
+                     <p>Regulation (EU) No 182/2011 of the European Parliament and of the Council of 16 February 2011 laying down the rules and general principles concerning mechanisms for control by Member States of the Commission&apos;s exercise of implementing powers (OJ L 55, 28.2.2011, p. 13).</p>
+                  </authorialNote>.</p>
+            </recital>
+            <recital xml:id="rec_d321e390">
+               <num>(21)</num>
+               <p>In order to ensure that the data requirements and the monitoring and reporting procedure remain relevant over time for assessing the heavy-duty vehicle fleet&apos;s contribution to CO<sub>2</sub> emissions, to ensure the availability of data on new and advanced CO<sub>2</sub> reducing technologies and on the results of on-road verification tests and to ensure that the air drag value ranges remain relevant for information and comparability purposes, as well as to supplement the provisions on administrative fines, the power to adopt acts in accordance with Article 290 of the Treaty on the Functioning of the European Union should be delegated to the Commission in respect of completing the starting years for the monitoring and reporting of the heavy-duty vehicle categories covered, of amending the data requirements and the monitoring and reporting procedure laid down in the Annexes to this Regulation, of specifying the data to be reported by the Member States for the monitoring of the results of on-road verification tests, of amending the air drag value ranges, and of defining the criteria, the calculation and the method of collection of administrative fines imposed on manufacturers. It is of particular importance that the Commission carry out appropriate consultations during its preparatory work, including at expert level, and that those consultations be conducted in accordance with the principles laid down in the Interinstitutional Agreement of 13 April 2016 on Better Law-Making<authorialNote placement="bottom" marker="12">
+                     <p>OJ L 123, 12.5.2016, p. 1.</p>
+                  </authorialNote>. In particular, to ensure equal participation in the preparation of delegated acts, the European Parliament and the Council receive all documents at the same time as Member States&apos; experts, and their experts systematically have access to meetings of Commission expert groups dealing with the preparation of delegated acts.</p>
+            </recital>
+            <recital xml:id="rec_d321e411">
+               <num>(22)</num>
+               <p>Since the objective of this Regulation, namely the monitoring and reporting of CO<sub>2</sub> emissions and fuel consumption from new heavy-duty vehicles in the Union, cannot be sufficiently achieved by the Member States but can rather, by reason of its scale and effects, be better achieved at Union level, the Union may adopt measures, in accordance with the principle of subsidiarity as set out in Article 5 of the Treaty on European Union. In accordance with the principle of proportionality, as set out in that Article, this Regulation does not go beyond what is necessary in order to achieve that objective,</p>
+            </recital>
+         </recitals>
+         <formula name="enactingFormula">
+            <p>HAVE ADOPTED THIS REGULATION:</p>
+         </formula>
+      </preamble>
+      <body>
+         <article xml:id="art_d321e423">
+            <num>Article 1</num>
+            <heading>Subject matter</heading>
+            <paragraph>
+               <content>
+                  <p>This Regulation lays down the requirements for the monitoring and reporting of CO<sub>2</sub> emissions from and fuel consumption of new heavy-duty vehicles registered in the Union.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d321e433">
+            <num>Article 2</num>
+            <heading>Scope</heading>
+            <paragraph>
+               <content>
+                  <p>This Regulation applies to the monitoring and reporting by Member States and manufacturers of heavy-duty vehicles of data on new heavy-duty vehicles.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <subparagraph>
+                  <content>
+                     <p>It applies with regard to the following vehicle categories:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <content>
+                        <p>vehicles of categories M<sub>1</sub>, M<sub>2</sub>, N<sub>1</sub> and N<sub>2</sub> with a reference mass that exceeds 2610 kg and which do not fall within the scope of Regulation (EC) No 715/2007 of the European Parliament and of the Council<authorialNote placement="bottom" marker="13">
+                              <p>Regulation (EC) No 715/2007 of the European Parliament and of the Council of 20 June 2007 on type approval of motor vehicles with respect to emissions from light passenger and commercial vehicles (Euro 5 and Euro 6) and on access to vehicle repair and maintenance information (OJ L 171, 29.6.2007, p. 1).</p>
+                           </authorialNote>, and all vehicles of categories M<sub>3</sub> and N<sub>3</sub>;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <content>
+                        <p>vehicles of categories O<sub>3</sub> and O<sub>4</sub>.</p>
+                     </content>
+                  </point>
+               </list>
+            </paragraph>
+            <paragraph>
+               <content>
+                  <p>For the purposes of this Regulation, those vehicles are referred to as heavy-duty vehicles.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d321e497">
+            <num>Article 3</num>
+            <heading>Definitions</heading>
+            <paragraph>
+               <content>
+                  <p>For the purposes of this Regulation, the definitions set out in Directive 2007/46/EC of the European Parliament and of the Council<authorialNote placement="bottom" marker="14">
+                        <p>Directive 2007/46/EC of the European Parliament and of the Council of 5 September 2007 establishing a framework for the approval of motor vehicles and their trailers, and of systems, components and separate technical units intended for such vehicles (Framework Directive) (OJ L 263, 9.10.2007, p. 1).</p>
+                     </authorialNote> and Regulation (EC) No 595/2009 apply.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d321e514">
+            <num>Article 4</num>
+            <heading>Monitoring and reporting by Member States</heading>
+            <paragraph>
+               <num>1.</num>
+               <subparagraph>
+                  <content>
+                     <p>Starting from 1 January 2019, and for each subsequent calendar year, Member States shall monitor the data specified in Part A of Annex I relating to new heavy-duty vehicles registered for the first time in the Union.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>By 28 February each year, starting in 2020, the competent authorities of the Member States shall report those data to the Commission in accordance with the reporting procedure set out in Annex II.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>Data relating to new heavy-duty vehicles that were registered previously outside the Union shall not be monitored and reported, unless that registration was made less than three months before registration in the Union.</p>
+                  </content>
+               </subparagraph>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>The competent authorities responsible for the monitoring and reporting of data in accordance with this Regulation shall be those designated by the Member States in accordance with Article 8(7) of Regulation (EC) No 443/2009.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d321e536">
+            <num>Article 5</num>
+            <heading>Monitoring and reporting by manufacturers</heading>
+            <paragraph>
+               <num>1.</num>
+               <subparagraph>
+                  <content>
+                     <p>From the starting years set out in point 1 of Part B of Annex I, manufacturers of heavy-duty vehicles shall monitor, on a calendar year basis, the data specified in point 2 of Part B of Annex I, for each new heavy-duty vehicle.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>By 28 February each year, from the starting years set out in point 1 of Part B of Annex I, manufacturers of heavy-duty vehicles shall report those data for each new heavy-duty vehicle with a date of simulation falling within the preceding calendar year to the Commission in accordance with the reporting procedure set out in Annex II.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>The date of simulation shall be the date reported in accordance with data entry 71 in point 2 of Part B of Annex I.</p>
+                  </content>
+               </subparagraph>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>Each manufacturer shall appoint a contact point for the purpose of reporting data in accordance with this Regulation.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d321e555">
+            <num>Article 6</num>
+            <heading>Central Register for data on heavy-duty vehicles</heading>
+            <paragraph>
+               <num>1.</num>
+               <subparagraph>
+                  <content>
+                     <p>The Commission shall keep a Central Register for the data on heavy-duty vehicles (&apos;the Register&apos;) reported in accordance with Articles 4 and 5.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>The Register shall be publicly available with the exception of data entry (a) specified in Part A of Annex I and data entries 1, 24, 25, 32, 33, 39 and 40 specified in point 2 of Part B of Annex I. With regard to data entry 23 specified in point 2 of Part B of Annex I, the value shall be made publicly available in a range format as set out in Part C of Annex I.</p>
+                  </content>
+               </subparagraph>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>The Register shall be managed by the European Environment Agency on behalf of the Commission.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d321e576">
+            <num>Article 7</num>
+            <heading>Monitoring of the results of on-road verification tests</heading>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>The Commission shall monitor, where available, the results of on-road tests performed within the framework of Regulation (EC) No 595/2009 to verify the CO<sub>2</sub> emissions and fuel consumption of new heavy-duty vehicles.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>The Commission is empowered to adopt delegated acts in accordance with Article 13 in order to supplement this Regulation by specifying the data to be reported by the competent authorities of the Member States for the purposes of paragraph 1 of this Article.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d321e595">
+            <num>Article 8</num>
+            <heading>Data quality</heading>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>The competent authorities and manufacturers shall be responsible for the correctness and quality of the data they report pursuant to Articles 4 and 5. They shall inform the Commission without delay of any errors detected in the data reported.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>The Commission shall carry out its own verification of the quality of the data reported pursuant to Articles 4 and 5.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <content>
+                  <p>Where the Commission is informed of errors in the data or finds, pursuant to its own verification, discrepancies in the dataset, it shall, where appropriate, take the necessary measures to correct the data published in the Register referred to in Article 6.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>4.</num>
+               <content>
+                  <p>The Commission may, by means of implementing acts, determine the verification and correction measures referred to in paragraphs 2 and 3 of this Article. Those implementing acts shall be adopted in accordance with the examination procedure referred to in Article 12.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d321e620">
+            <num>Article 9</num>
+            <heading>Administrative fines</heading>
+            <paragraph>
+               <num>1.</num>
+               <subparagraph>
+                  <content>
+                     <p>The Commission may impose an administrative fine in each of the following cases:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <content>
+                        <p>where it finds that the data reported by the manufacturer pursuant to Article 5 of this Regulation deviate from the data resulting from the manufacturer&apos;s records file or the engine type-approval certificate issued within the framework of Regulation (EC) No 595/2009, and the deviation is intentional or due to serious negligence;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <content>
+                        <p>where the data are not submitted within the deadline applicable pursuant to Article 5(1) and the delay cannot be duly justified.</p>
+                     </content>
+                  </point>
+               </list>
+               <subparagraph>
+                  <content>
+                     <p>The Commission shall, for the purposes of verifying the data referred to in point (a), consult with the relevant approval authorities.</p>
+                  </content>
+               </subparagraph>
+               <subparagraph>
+                  <content>
+                     <p>The administrative fines shall be effective, proportional and dissuasive and shall not exceed EUR 30000 per heavy-duty vehicle concerned by deviating or delayed data as referred to in points (a) and (b).</p>
+                  </content>
+               </subparagraph>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>The Commission shall, on the basis of the principles set out in paragraph 3 of this Article, adopt delegated acts in accordance with Article 13 to supplement this Regulation by laying down the procedure, methods for the calculation and collection of the administrative fines referred to in paragraph 1 of this Article.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <subparagraph>
+                  <content>
+                     <p>The delegated acts referred to in paragraph 2 shall respect the following principles:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <content>
+                        <p>the procedure established by the Commission shall respect the right to good administration, and in particular the right to be heard and the right to have access to the file, while respecting the legitimate interests of confidentiality and of commercial secrets;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <content>
+                        <p>in calculating the appropriate administrative fine, the Commission shall be guided by the principles of effectiveness, proportionality and dissuasiveness, taking into consideration, where relevant, the seriousness and effects of the deviation or delay, the number of heavy-duty vehicles concerned by the deviating or delayed data, the good faith of the manufacturer, the degree of diligence and cooperation of the manufacturer, the repetition, frequency or duration of the deviation or the delay as well as prior sanctions imposed on the same manufacturer;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(c)</num>
+                     <content>
+                        <p>administrative fines shall be collected without undue delay by fixing deadlines for the payment and, as appropriate, including the possibility of splitting payments into several instalments and phases.</p>
+                     </content>
+                  </point>
+               </list>
+            </paragraph>
+            <paragraph>
+               <num>4.</num>
+               <content>
+                  <p>The amounts of the administrative fines shall be considered as revenue for the general budget of the Union.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d321e687">
+            <num>Article 10</num>
+            <heading>Report</heading>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>By 31 October every year, the Commission shall publish an annual report with its analysis of the data transmitted by Member States and manufacturers for the preceding calendar year.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>The analysis shall indicate, as a minimum, the performance of the heavy-duty vehicle fleet of the Union as well as that of each Member State and each manufacturer in terms of the average fuel consumption and CO<sub>2</sub> emissions for each heavy-duty vehicle group by mission profile, load and fuel combination. It shall also, where available, take into account data on the uptake of new and advanced CO<sub>2</sub> reducing technologies, as well as of alternative powertrains. Moreover, it shall include an analysis of, where available, the results of on-road verification tests as monitored in accordance with Article 7.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <content>
+                  <p>The Commission shall prepare the analysis with the support of the European Environment Agency.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d321e714">
+            <num>Article 11</num>
+            <heading>Amendment of the Annexes</heading>
+            <paragraph>
+               <num>1.</num>
+               <subparagraph>
+                  <content>
+                     <p>The Commission is empowered to adopt delegated acts in accordance with Article 13 with a view to amending the Annexes for the purpose of:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <content>
+                        <p>updating or adjusting the data requirements specified in Part A and Part B of Annex I, where this is deemed necessary in order to provide for a thorough analysis in accordance with Article 10;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <content>
+                        <p>completing the starting years in point 1 of Part B of Annex I;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(c)</num>
+                     <content>
+                        <p>updating or adjusting the ranges set out in Part C of Annex I to take into account changes in heavy-duty vehicle design and ensure that the ranges remain relevant for information and comparability purposes;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(d)</num>
+                     <content>
+                        <p>adjusting the monitoring and reporting procedure set out in Annex II in order to take into account the experience gained from the application of this Regulation.</p>
+                     </content>
+                  </point>
+               </list>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>The delegated acts referred to in point (b) of paragraph 1 shall be adopted by 30 July 2025.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d321e758">
+            <num>Article 12</num>
+            <heading>Committee procedure</heading>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>The Commission shall be assisted by the Climate Change Committee established by Regulation (EU) No 525/2013 of the European Parliament and of the Council<authorialNote placement="bottom" marker="15">
+                        <p>Regulation (EU) No 525/2013 of the European Parliament and of the Council of 21 May 2013 on a mechanism for monitoring and reporting greenhouse gas emissions and for reporting other information at national and Union level relevant to climate change and repealing Decision No 280/2004/EC (OJ L 165, 18.6.2013, p. 13).</p>
+                     </authorialNote>. That committee shall be a committee within the meaning of Regulation (EU) No 182/2011.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>Where reference is made to this paragraph, Article 5 of Regulation (EU) No 182/2011 shall apply.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d321e783">
+            <num>Article 13</num>
+            <heading>Exercise of the delegation</heading>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>The power to adopt delegated acts is conferred on the Commission subject to the conditions laid down in this Article.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>The power to adopt delegated acts referred to in Articles 7(2), 9(2) and 11(1) shall be conferred on the Commission for a period of seven years from 29 July 2018. The Commission shall draw up a report in respect of the delegation of power not later than nine months before the end of the seven-year period. The delegation of power shall be tacitly extended for periods of an identical duration, unless the European Parliament or the Council opposes such extension not later than three months before the end of each period.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <content>
+                  <p>The delegation of power referred to in Articles 7(2), 9(2) and 11(1) may be revoked at any time by the European Parliament or by the Council. A decision to revoke shall put an end to the delegation of the power specified in that decision. It shall take effect the day following the publication of the decision in the <i>Official Journal of the European Union</i> or at a later date specified therein. It shall not affect the validity of any delegated acts already in force.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>4.</num>
+               <content>
+                  <p>Before adopting a delegated act, the Commission shall consult experts designated by each Member State in accordance with the principles laid down in the Interinstitutional Agreement of 13 April 2016 on Better Law-Making.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>5.</num>
+               <content>
+                  <p>As soon as it adopts a delegated act the Commission shall notify it simultaneously to the European Parliament and to the Council.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>6.</num>
+               <content>
+                  <p>A delegated act adopted pursuant to Articles 7(2), 9(2) and 11(1) shall enter into force only if no objection has been expressed either by the European Parliament or by the Council within a period of two months of notification of that act to the European Parliament and to the Council or if, before the expiry of that period, the European Parliament and the Council have both informed the Commission that they will not object. That period shall be extended by two months at the initiative of the European Parliament or of the Council.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d321e828">
+            <num>Article 14</num>
+            <heading>Entry into force</heading>
+            <paragraph>
+               <content>
+                  <p>This Regulation shall enter into force on the twentieth day following that of its publication in the <i>Official Journal of the European Union</i>.</p>
+               </content>
+            </paragraph>
+         </article>
+         <clause>
+            <content>
+               <p>This Regulation shall be binding in its entirety and directly applicable in all Member States.</p>
+            </content>
+         </clause>
+      </body>
+      <conclusions>
+         <p>Done at Brussels, 28 June 2018.</p>
+         <block name="signatory">
+            <signature>
+               <organization refersTo="">For the European Parliament</organization>
+               <role refersTo="">The President</role>
+               <person refersTo="">A. TAJANI</person>
+            </signature>
+            <signature>
+               <organization refersTo="">For the Council</organization>
+               <role refersTo="">The President</role>
+               <person refersTo="">L. PAVLOVA</person>
+            </signature>
+         </block>
+      </conclusions>
+   </bill>
+</akomaNtoso>

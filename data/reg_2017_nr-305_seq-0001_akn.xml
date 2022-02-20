@@ -1,0 +1,632 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"
+            xmlns:fmx="http://formex.publications.europa.eu/schema/formex-05.21-20110601.xd"
+            xmlns:leos="urn:eu:europa:ec:leos"
+            xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <bill name="">
+      <meta xmlns:fn="http://www.w3.org/2005/xpath-functions">
+         <identification source="~COM">
+            <FRBRWork>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRcountry value=""/>
+            </FRBRWork>
+            <FRBRExpression>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+            </FRBRManifestation>
+         </identification>
+      </meta>
+      <preface>
+         <longTitle>
+            <p>
+               <docStage/>
+               <docType>REGULATION (EU) 2017/2101 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL</docType>of 15 November 2017<docPurpose>amending Regulation (EC) No 1920/2006 as regards information exchange on, and an early warning system and risk assessment procedure for, new psychoactive substances</docPurpose>
+            </p>
+         </longTitle>
+      </preface>
+      <preamble>
+         <formula name="actingEntity">
+            <p>THE EUROPEAN PARLIAMENT AND THE COUNCIL OF THE EUROPEAN UNION,</p>
+         </formula>
+         <citations>
+            <citation>
+               <p>Having regard to the Treaty on the Functioning of the European Union, and in particular Article 168(5) thereof,</p>
+            </citation>
+            <citation>
+               <p>Having regard to the proposal from the European Commission,</p>
+            </citation>
+            <citation>
+               <p>After transmission of the draft legislative act to the national parliaments,</p>
+            </citation>
+            <citation>
+               <p>Having regard to the opinion of the European Economic and Social Committee<authorialNote placement="bottom" marker="1">
+                     <p>OJ C 34, 2.2.2017, p. 182.</p>
+                  </authorialNote>,</p>
+            </citation>
+            <citation>
+               <p>After consulting the Committee of the Regions,</p>
+            </citation>
+            <citation>
+               <p>Acting in accordance with the ordinary legislative procedure<authorialNote placement="bottom" marker="2">
+                     <p>Position of the European Parliament of 24 October 2017 (not yet published in the Official Journal) and decision of the Council of 10 November 2017.</p>
+                  </authorialNote>,</p>
+            </citation>
+         </citations>
+         <recitals xml:id="recs_d556e85">
+            <intro>
+               <p>Whereas:</p>
+            </intro>
+            <recital xml:id="rec_d556e88">
+               <num>(1)</num>
+               <p>New psychoactive substances can pose serious cross-border threats to health, in particular due to the large number and diversity of those substances and the speed with which they appear. In order to develop responses for addressing those threats, it is necessary to enhance monitoring and the early warning system and to assess the health and social risks associated with new psychoactive substances.</p>
+            </recital>
+            <recital xml:id="rec_d556e94">
+               <num>(2)</num>
+               <p>Vulnerable groups, especially young people, are particularly exposed to the health and social risks associated with new psychoactive substances.</p>
+            </recital>
+            <recital xml:id="rec_d556e100">
+               <num>(3)</num>
+               <p>In recent years, Member States have notified an increasing number of new psychoactive substances via the mechanism for rapid exchange of information on such substances, which was established by Council Joint Action 97/396/JHA<authorialNote placement="bottom" marker="3">
+                     <p>Joint Action 97/396/JHA of 16 June 1997 adopted by the Council on the basis of Article K.3 of the Treaty on European Union, concerning the information exchange, risk assessment and the control of new synthetic drugs (OJ L 167, 25.6.1997, p. 1).</p>
+                  </authorialNote> and further strengthened by Council Decision 2005/387/JHA<authorialNote placement="bottom" marker="4">
+                     <p>Council Decision 2005/387/JHA of 10 May 2005 on the information exchange, risk assessment and control of new psychoactive substances (OJ L 127, 20.5.2005, p. 32).</p>
+                  </authorialNote>.</p>
+            </recital>
+            <recital xml:id="rec_d556e126">
+               <num>(4)</num>
+               <p>New psychoactive substances that pose public health and, where applicable, social risks across the Union should be addressed at Union level. This Regulation should therefore be read in conjunction with Directive (EU) 2017/2103 of the European Parliament and of the Council<authorialNote placement="bottom" marker="5">
+                     <p>Directive (EU) 2017/2103 of the European Parliament and of the Council of 15 November 2017 amending Council Framework Decision 2004/757/JHA in order to include new psychoactive substances in the definition of &apos;drug&apos; and repealing Council Decision 2005/387/JHA (see page 12 of this Official Journal).</p>
+                  </authorialNote> because both acts are designed to replace the mechanism established by Decision 2005/387/JHA.</p>
+            </recital>
+            <recital xml:id="rec_d556e144">
+               <num>(5)</num>
+               <p>A small number of new psychoactive substances can have commercial and industrial uses and can be used for scientific research and development.</p>
+            </recital>
+            <recital xml:id="rec_d556e150">
+               <num>(6)</num>
+               <p>Provisions concerning information exchange on, and the early warning system and risk assessment procedure for, new psychoactive substances should be included in Regulation (EC) No 1920/2006 of the European Parliament and of the Council<authorialNote placement="bottom" marker="6">
+                     <p>Regulation (EC) No 1920/2006 of the European Parliament and of the Council of 12 December 2006 on the European Monitoring Centre for Drugs and Drug Addiction (OJ L 376, 27.12.2006, p. 1).</p>
+                  </authorialNote>. Provisions concerning the early warning of new psychoactive substances should, in particular, be strengthened and the procedures for drawing up an initial report and organising the risk assessment should be made more efficient. Substantially shortened deadlines for all stages of those procedures should be set.</p>
+            </recital>
+            <recital xml:id="rec_d556e166">
+               <num>(7)</num>
+               <p>Any Union action on new psychoactive substances should be based on scientific evidence and be subject to a specific procedure.</p>
+            </recital>
+            <recital xml:id="rec_d556e172">
+               <num>(8)</num>
+               <p>An initial report should be drawn up on a new psychoactive substance where information provided by the Member States on that new psychoactive substance gives rise to concerns that it might pose health or social risks at Union level. The initial report should allow the Commission to make an informed decision regarding the launch of the risk assessment procedure. The risk assessment procedure at Union level should be undertaken rapidly.</p>
+            </recital>
+            <recital xml:id="rec_d556e178">
+               <num>(9)</num>
+               <p>Following the risk assessment procedure, the Commission should determine whether the new psychoactive substance in question should be included in the definition of &apos;drug&apos; in accordance with the procedure provided for in Council Framework Decision 2004/757/JHA<authorialNote placement="bottom" marker="7">
+                     <p>Council Framework Decision 2004/757/JHA of 25 October 2004 laying down minimum provisions on the constituent elements of criminal acts and penalties in the field of illicit drug trafficking (OJ L 335, 11.11.2004, p. 8).</p>
+                  </authorialNote>. With a view to ensuring the continuous functioning of the mechanism for information exchange and of the reporting and risk assessment procedures set out in Decision 2005/387/JHA and in this Regulation, this Regulation should apply from the same date as the deadline for transposition of Directive (EU) 2017/2103, which is also the date on which Decision 2005/387/JHA is to be repealed.</p>
+            </recital>
+            <recital xml:id="rec_d556e199">
+               <num>(10)</num>
+               <p>In principle, no risk assessment should be carried out on a new psychoactive substance if it is subject to an assessment under international law. No risk assessment should be carried out on a new psychoactive substance if it is an active substance in a medicinal product for human use or in a veterinary medicinal product.</p>
+            </recital>
+            <recital xml:id="rec_d556e205">
+               <num>(11)</num>
+               <p>Regulation (EC) No 1920/2006 should therefore be amended accordingly,</p>
+            </recital>
+         </recitals>
+         <formula name="enactingFormula">
+            <p>HAVE ADOPTED THIS REGULATION:</p>
+         </formula>
+      </preamble>
+      <body>
+         <article xml:id="art_d556e214" leos:compliant="false">
+            <num>Article 1</num>
+            <heading>Amendments to Regulation (EC) No 1920/2006</heading>
+            <paragraph>
+               <subparagraph>
+                  <content>
+                     <p>Regulation (EC) No 1920/2006 is amended as follows:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(1)</num>
+                     <alinea>
+                        <content>
+                           <p>in Article 2, the following point is added:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <point>
+                                       <num>&apos;(f)</num>
+                                       <alinea>
+                                          <content>
+                                             <p>Exchange of information on, early warning system for, and risk assessment of, new psychoactive substances</p>
+                                          </content>
+                                       </alinea>
+                                       <list>
+                                          <point>
+                                             <num>(i)</num>
+                                             <content>
+                                                <p>collecting, collating, analysing and assessing the available information from the national focal points referred to in Article 5 and the Europol national units on new psychoactive substances as defined in point 4 of Article 1 of Council Framework Decision 2004/757/JHA<authorialNote placement="bottom" marker="8">
+                                                      <p>Council Framework Decision 2004/757/JHA of 25 October 2004 laying down minimum provisions on the constituent elements of criminal acts and penalties in the field of illicit drug trafficking (OJ L 335, 11.11.2004, p. 8).&apos;;</p>
+                                                   </authorialNote> and communicating that information to the national focal points and the Europol national units as well as to the Commission without undue delay;</p>
+                                             </content>
+                                          </point>
+                                          <point>
+                                             <num>(ii)</num>
+                                             <content>
+                                                <p>drawing up the initial report or combined initial report in accordance with Article 5b;</p>
+                                             </content>
+                                          </point>
+                                          <point>
+                                             <num>(iii)</num>
+                                             <content>
+                                                <p>organising the risk assessment procedure in accordance with Articles 5c and 5d;</p>
+                                             </content>
+                                          </point>
+                                          <point>
+                                             <num>(iv)</num>
+                                             <content>
+                                                <p>monitoring, in cooperation with Europol and with the support of the national focal points referred to in Article 5 and the Europol national units, all new psychoactive substances that have been reported by Member States.</p>
+                                             </content>
+                                          </point>
+                                       </list>
+                                    </point>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(2)</num>
+                     <content>
+                        <p>in Article 5(2), the second subparagraph is deleted;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(3)</num>
+                     <alinea>
+                        <content>
+                           <p>the following Articles are inserted:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <article xml:id="art_d556e290">
+                                       <num>&apos;Article 5a</num>
+                                       <heading>Information exchange on, and early warning system for, new psychoactive substances</heading>
+                                       <paragraph>
+                                          <content>
+                                             <p>Each Member State shall ensure that its national focal point, as referred to in Article 5, and its Europol national unit provide the Centre and Europol, taking into account their respective mandates, with the available information on new psychoactive substances in a timely manner and without undue delay. The information shall be related to the detection and identification, use and patterns of use, manufacture, extraction, distribution and distribution methods, trafficking, and commercial, medical and scientific use of, and potential and identified risks posed by, those substances.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <content>
+                                             <p>The Centre, in cooperation with Europol, shall collect, collate, analyse and assess the information and communicate it in a timely manner to the national focal points and the Europol national units as well as to the Commission with a view to providing them with any information required for the purposes of early warning and for the purposes of allowing the Centre to draw up the initial report or the combined initial report pursuant to Article 5b.</p>
+                                          </content>
+                                       </paragraph>
+                                    </article>
+                                    <article xml:id="art_d556e300">
+                                       <num>Article 5b</num>
+                                       <heading>Initial report</heading>
+                                       <paragraph>
+                                          <num>1.</num>
+                                          <subparagraph>
+                                             <content>
+                                                <p>Where the Centre, the Commission or a majority of the Member States considers that information shared on a new psychoactive substance collected pursuant to Article 5a in one or more Member States gives rise to concerns that the new psychoactive substance may pose health or social risks at Union level, the Centre shall draw up an initial report on the new psychoactive substance.</p>
+                                             </content>
+                                          </subparagraph>
+                                          <subparagraph>
+                                             <content>
+                                                <p>For the purpose of this paragraph, Member States shall inform the Commission and other Member States of their wish that an initial report be drawn up. Where the majority of Member States is reached, the Commission shall instruct the Centre accordingly and shall inform the Member States thereof.</p>
+                                             </content>
+                                          </subparagraph>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>2.</num>
+                                          <subparagraph>
+                                             <content>
+                                                <p>The initial report shall contain a first indication of:</p>
+                                             </content>
+                                          </subparagraph>
+                                          <list>
+                                             <point>
+                                                <num>(a)</num>
+                                                <content>
+                                                   <p>the nature, number and scale of incidents showing health and social problems in which the new psychoactive substance may potentially be involved, and the patterns of use of the new psychoactive substance;</p>
+                                                </content>
+                                             </point>
+                                             <point>
+                                                <num>(b)</num>
+                                                <content>
+                                                   <p>the chemical and physical description of the new psychoactive substance and the methods and precursors used for its manufacture or extraction;</p>
+                                                </content>
+                                             </point>
+                                             <point>
+                                                <num>(c)</num>
+                                                <content>
+                                                   <p>the pharmacological and toxicological description of the new psychoactive substance;</p>
+                                                </content>
+                                             </point>
+                                             <point>
+                                                <num>(d)</num>
+                                                <content>
+                                                   <p>the involvement of criminal groups in the manufacture or distribution of the new psychoactive substance.</p>
+                                                </content>
+                                             </point>
+                                          </list>
+                                          <subparagraph>
+                                             <content>
+                                                <p>The initial report shall also contain:</p>
+                                             </content>
+                                          </subparagraph>
+                                          <list>
+                                             <point>
+                                                <num>(a)</num>
+                                                <content>
+                                                   <p>information on the human and veterinary medical use of the new psychoactive substance, including as an active substance in a medicinal product for human use or in a veterinary medicinal product;</p>
+                                                </content>
+                                             </point>
+                                             <point>
+                                                <num>(b)</num>
+                                                <content>
+                                                   <p>information on the commercial and industrial use of the new psychoactive substance, the extent of such use, as well as its use for scientific research and development purposes;</p>
+                                                </content>
+                                             </point>
+                                             <point>
+                                                <num>(c)</num>
+                                                <content>
+                                                   <p>information on whether the new psychoactive substance is subject to any restrictive measures in the Member States;</p>
+                                                </content>
+                                             </point>
+                                             <point>
+                                                <num>(d)</num>
+                                                <content>
+                                                   <p>information on whether the new psychoactive substance is currently or has been under assessment within the system established by the 1961 Single Convention on Narcotic Drugs, as amended by the 1972 Protocol, and the 1971 Convention on Psychotropic Substances (&apos;United Nations system&apos;);</p>
+                                                </content>
+                                             </point>
+                                             <point>
+                                                <num>(e)</num>
+                                                <content>
+                                                   <p>other relevant information, where available.</p>
+                                                </content>
+                                             </point>
+                                          </list>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>3.</num>
+                                          <content>
+                                             <p>For the purpose of the initial report, the Centre shall use information which is at its disposal.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>4.</num>
+                                          <content>
+                                             <p>Where the Centre considers it necessary, it shall request the national focal points referred to in Article 5 to provide additional information on the new psychoactive substance. The national focal points shall provide that information within two weeks of receipt of the request.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>5.</num>
+                                          <subparagraph>
+                                             <content>
+                                                <p>The Centre shall, without undue delay, request the European Medicines Agency to provide information on whether, at Union or national level, the new psychoactive substance is an active substance in:</p>
+                                             </content>
+                                          </subparagraph>
+                                          <list>
+                                             <point>
+                                                <num>(a)</num>
+                                                <content>
+                                                   <p>a medicinal product for human use or in a veterinary medicinal product that has obtained a marketing authorisation in accordance with Directive 2001/83/EC of the European Parliament and of the Council<authorialNote placement="bottom" marker="9">
+                                                         <p>Directive 2001/83/EC of the European Parliament and of the Council of 6 November 2001 on the Community code relating to medicinal products for human use (OJ L 311, 28.11.2001, p. 67).</p>
+                                                      </authorialNote>, Directive 2001/82/EC of the European Parliament and of the Council<authorialNote placement="bottom" marker="10">
+                                                         <p>Directive 2001/82/EC of the European Parliament and of the Council of 6 November 2001 on the Community code relating to veterinary medicinal products (OJ L 311, 28.11.2001, p. 1).</p>
+                                                      </authorialNote> or Regulation (EC) No 726/2004 of the European Parliament and of the Council<authorialNote placement="bottom" marker="11">
+                                                         <p>Regulation (EC) No 726/2004 of the European Parliament and of the Council of 31 March 2004 laying down Community procedures for the authorisation and supervision of medicinal products for human and veterinary use and establishing a European Medicines Agency (OJ L 136, 30.4.2004, p. 1).</p>
+                                                      </authorialNote>;</p>
+                                                </content>
+                                             </point>
+                                             <point>
+                                                <num>(b)</num>
+                                                <content>
+                                                   <p>a medicinal product for human use or in a veterinary medicinal product that is the subject of an application for a marketing authorisation;</p>
+                                                </content>
+                                             </point>
+                                             <point>
+                                                <num>(c)</num>
+                                                <content>
+                                                   <p>a medicinal product for human use or in a veterinary medicinal product whose marketing authorisation has been suspended by the competent authority;</p>
+                                                </content>
+                                             </point>
+                                             <point>
+                                                <num>(d)</num>
+                                                <content>
+                                                   <p>an unauthorised medicinal product for human use in accordance with Article 5 of Directive 2001/83/EC or in a veterinary medicinal product prepared extemporaneously by a person authorised to do so under national law in accordance with point (c) of Article 10(1) of Directive 2001/82/EC;</p>
+                                                </content>
+                                             </point>
+                                             <point>
+                                                <num>(e)</num>
+                                                <content>
+                                                   <p>an investigational medicinal product as defined in point (d) of Article 2 of Directive 2001/20/EC of the European Parliament and of the Council<authorialNote placement="bottom" marker="12">
+                                                         <p>Directive 2001/20/EC of the European Parliament and of the Council of 4 April 2001 on the approximation of the laws, regulations and administrative provisions of the Member States relating to the implementation of good clinical practice in the conduct of clinical trials on medicinal products for human use (OJ L 121, 1.5.2001, p. 34).&apos;;</p>
+                                                      </authorialNote>.</p>
+                                                </content>
+                                             </point>
+                                          </list>
+                                          <subparagraph>
+                                             <content>
+                                                <p>Where the information relates to marketing authorisations granted by Member States, the Member States concerned shall provide the European Medicines Agency with such information upon its request.</p>
+                                             </content>
+                                          </subparagraph>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>6.</num>
+                                          <content>
+                                             <p>The Centre shall, without undue delay, request Europol to provide information on the involvement of criminal groups in the manufacture, distribution and distribution methods, and trafficking of the new psychoactive substance, and in any use of the new psychoactive substance.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>7.</num>
+                                          <content>
+                                             <p>The Centre shall, without undue delay, request the European Chemicals Agency, the European Centre for Disease Prevention and Control and the European Food Safety Authority to provide the information and data at their disposal on the new psychoactive substance.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>8.</num>
+                                          <content>
+                                             <p>The details of the cooperation between the Centre and the bodies and agencies referred to in paragraphs 5, 6 and 7 of this Article shall be governed by working arrangements. Such working arrangements shall be concluded in accordance with the second paragraph of Article 20.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>9.</num>
+                                          <content>
+                                             <p>The Centre shall respect the conditions on use of the information, which are communicated to the Centre, including conditions on access to documents, information and data security and protection of confidential data, including sensitive data and confidential business information.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>10.</num>
+                                          <content>
+                                             <p>The Centre shall submit the initial report to the Commission and the Member States within five weeks of making the requests for information referred to in paragraphs 5, 6 and 7.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>11.</num>
+                                          <content>
+                                             <p>Where the Centre collects information on several new psychoactive substances that it considers to be of similar chemical structure, it shall submit to the Commission and to the Member States individual initial reports, or combined initial reports dealing with several new psychoactive substances, provided that the characteristics of each new psychoactive substance are clearly identified, within six weeks of making the requests for information referred to in paragraphs 5, 6 and 7.</p>
+                                          </content>
+                                       </paragraph>
+                                    </article>
+                                    <article xml:id="art_d556e504">
+                                       <num>Article 5c</num>
+                                       <heading>Risk assessment procedure and report</heading>
+                                       <paragraph>
+                                          <num>1.</num>
+                                          <content>
+                                             <p>Within two weeks of receipt of an initial report as referred to in Article 5b(10), the Commission may request the Centre to assess the potential risks posed by the new psychoactive substance and to draw up a risk assessment report, where there are indications in the initial report to believe that the substance may pose severe public health risks and, where applicable, severe social risks. The risk assessment shall be carried out by the Scientific Committee.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>2.</num>
+                                          <content>
+                                             <p>Within two weeks of receipt of a combined initial report as referred to in Article 5b(11), the Commission may request the Centre to assess the potential risks posed by several new psychoactive substances with a similar chemical structure and to draw up a combined risk assessment report, where there are indications in the combined initial report to believe that the substances may pose severe public health risks and, where applicable, severe social risks. The combined risk assessment shall be carried out by the Scientific Committee.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>3.</num>
+                                          <subparagraph>
+                                             <content>
+                                                <p>The risk assessment report or combined risk assessment report shall contain:</p>
+                                             </content>
+                                          </subparagraph>
+                                          <list>
+                                             <point>
+                                                <num>(a)</num>
+                                                <content>
+                                                   <p>available information on the chemical and physical properties of the new psychoactive substance and the methods and the precursors used for its manufacture or extraction;</p>
+                                                </content>
+                                             </point>
+                                             <point>
+                                                <num>(b)</num>
+                                                <content>
+                                                   <p>available information on the pharmacological and toxicological properties of the new psychoactive substance;</p>
+                                                </content>
+                                             </point>
+                                             <point>
+                                                <num>(c)</num>
+                                                <content>
+                                                   <p>an analysis of the health risks associated with the new psychoactive substance, in particular with respect to its acute and chronic toxicity, abuse liability, dependence-producing potential, and physical, mental and behavioural effects;</p>
+                                                </content>
+                                             </point>
+                                             <point>
+                                                <num>(d)</num>
+                                                <content>
+                                                   <p>an analysis of the social risks associated with the new psychoactive substance &#45; in particular its impact on social functioning, public order and criminal activities, and the involvement of criminal groups in the manufacture, distribution and distribution methods, and trafficking of the new psychoactive substance;</p>
+                                                </content>
+                                             </point>
+                                             <point>
+                                                <num>(e)</num>
+                                                <content>
+                                                   <p>available information on the extent and patterns of use of the new psychoactive substance, its availability and potential for diffusion within the Union;</p>
+                                                </content>
+                                             </point>
+                                             <point>
+                                                <num>(f)</num>
+                                                <content>
+                                                   <p>available information on the commercial and industrial use of the new psychoactive substance, the extent of such use, as well as its use for scientific research and development purposes;</p>
+                                                </content>
+                                             </point>
+                                             <point>
+                                                <num>(g)</num>
+                                                <content>
+                                                   <p>other relevant information, where available.</p>
+                                                </content>
+                                             </point>
+                                          </list>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>4.</num>
+                                          <subparagraph>
+                                             <content>
+                                                <p>The Scientific Committee shall assess the risks posed by the new psychoactive substance or group of new psychoactive substances. The Scientific Committee may be extended as deemed necessary by the Director, acting on the advice of the chairperson of the Scientific Committee, by including experts representing the scientific fields relevant for ensuring a balanced assessment of the risks posed by the new psychoactive substance. The Director shall designate those experts from a list of experts. The Management Board shall approve the list of experts every three years.</p>
+                                             </content>
+                                          </subparagraph>
+                                          <subparagraph>
+                                             <content>
+                                                <p>The Commission, the Centre, Europol and the European Medicines Agency shall each have the right to nominate two observers.</p>
+                                             </content>
+                                          </subparagraph>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>5.</num>
+                                          <content>
+                                             <p>The Scientific Committee shall carry out the risk assessment on the basis of the available information and of any other relevant scientific evidence. It shall take into account all opinions held by its members. The Centre shall organise the risk assessment procedure, including identifying future information needs and relevant studies.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>6.</num>
+                                          <content>
+                                             <p>The Centre shall submit the risk assessment report or the combined risk assessment report to the Commission and the Member States within six weeks of receipt of the request from the Commission to draw up a risk assessment report.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>7.</num>
+                                          <content>
+                                             <p>Upon receipt of a duly reasoned request of the Centre, the Commission may extend the period for completion of the risk assessment or combined risk assessment to allow for additional research and data collection to take place. That request shall contain information on the period of time needed to complete the risk assessment or combined risk assessment.</p>
+                                          </content>
+                                       </paragraph>
+                                    </article>
+                                    <article xml:id="art_d556e591">
+                                       <num>Article 5d</num>
+                                       <heading>Exclusion from risk assessment</heading>
+                                       <paragraph>
+                                          <num>1.</num>
+                                          <content>
+                                             <p>No risk assessment shall be carried out where the new psychoactive substance is at an advanced stage of assessment within the United Nations system, namely once the World Health Organisation Expert Committee on Drug Dependence has published its critical review together with a written recommendation, except where there are sufficient data and information available to suggest the need for a risk assessment report at Union level, the reasons for which shall be indicated in the initial report.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>2.</num>
+                                          <content>
+                                             <p>No risk assessment shall be carried out where, following an assessment within the United Nations system, it has been decided not to schedule the new psychoactive substance under the 1961 Single Convention on Narcotic Drugs, as amended by the 1972 Protocol, or the 1971 Convention on Psychotropic Substances, except where there are sufficient data and information available to suggest the need for a risk assessment report at Union level, the reasons for which shall be indicated in the initial report.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>3.</num>
+                                          <subparagraph>
+                                             <content>
+                                                <p>No risk assessment shall be carried out where the new psychoactive substance is an active substance in:</p>
+                                             </content>
+                                          </subparagraph>
+                                          <list>
+                                             <point>
+                                                <num>(a)</num>
+                                                <content>
+                                                   <p>a medicinal product for human use or in a veterinary medicinal product that has obtained a marketing authorisation;</p>
+                                                </content>
+                                             </point>
+                                             <point>
+                                                <num>(b)</num>
+                                                <content>
+                                                   <p>a medicinal product for human use or in a veterinary medicinal product that is the subject of an application for a marketing authorisation;</p>
+                                                </content>
+                                             </point>
+                                             <point>
+                                                <num>(c)</num>
+                                                <content>
+                                                   <p>a medicinal product for human use or in a veterinary medicinal product whose marketing authorisation has been suspended by the competent authority;</p>
+                                                </content>
+                                             </point>
+                                             <point>
+                                                <num>(d)</num>
+                                                <content>
+                                                   <p>an investigational medicinal product as defined in point (d) of Article 2 of Directive 2001/20/EC.</p>
+                                                </content>
+                                             </point>
+                                          </list>
+                                       </paragraph>
+                                    </article>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(4)</num>
+                     <alinea>
+                        <content>
+                           <p>in Article 13(2), the fourth subparagraph is replaced by the following:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <paragraph>
+                                       <content>
+                                          <p>&apos;For the purpose of assessing the risks posed by the new psychoactive substance or group of new psychoactive substances, the Scientific Committee may be extended following the procedure laid down in Article 5c(4).&apos;.</p>
+                                       </content>
+                                    </paragraph>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+               </list>
+            </paragraph>
+         </article>
+         <article xml:id="art_d556e650">
+            <num>Article 2</num>
+            <heading>Entry into force</heading>
+            <paragraph>
+               <content>
+                  <p>This Regulation shall enter into force on the day following that of its publication in the <i>Official Journal of the European Union</i>.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <content>
+                  <p>It shall apply from 23 November 2018.</p>
+               </content>
+            </paragraph>
+         </article>
+         <clause>
+            <content>
+               <p>This Regulation shall be binding in its entirety and directly applicable in all Member States.</p>
+            </content>
+         </clause>
+      </body>
+      <conclusions>
+         <p>Done at Strasbourg, 15 November 2017.</p>
+         <block name="signatory">
+            <signature>
+               <organization refersTo="">For the European Parliament</organization>
+               <role refersTo="">The President</role>
+               <person refersTo="">A. TAJANI</person>
+            </signature>
+            <signature>
+               <organization refersTo="">For the Council</organization>
+               <role refersTo="">The President</role>
+               <person refersTo="">M. MAASIKAS</person>
+            </signature>
+         </block>
+      </conclusions>
+   </bill>
+</akomaNtoso>

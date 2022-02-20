@@ -1,0 +1,354 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"
+            xmlns:fmx="http://formex.publications.europa.eu/schema/formex-05.21-20110601.xd"
+            xmlns:leos="urn:eu:europa:ec:leos"
+            xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <bill name="">
+      <meta xmlns:fn="http://www.w3.org/2005/xpath-functions">
+         <identification source="~COM">
+            <FRBRWork>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRcountry value=""/>
+            </FRBRWork>
+            <FRBRExpression>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+            </FRBRManifestation>
+         </identification>
+      </meta>
+      <preface>
+         <longTitle>
+            <p>
+               <docStage/>
+               <docType>REGULATION (EU) 2019/129 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL</docType>of 16 January 2019<docPurpose>amending Regulation (EU) No 168/2013 as regards the application of the Euro 5 step to the type-approval of two- or three-wheel vehicles and quadricycles</docPurpose>
+            </p>
+         </longTitle>
+      </preface>
+      <preamble>
+         <formula name="actingEntity">
+            <p>THE EUROPEAN PARLIAMENT AND THE COUNCIL OF THE EUROPEAN UNION,</p>
+         </formula>
+         <citations>
+            <citation>
+               <p>Having regard to the Treaty on the Functioning of the European Union, and in particular Article 114 thereof,</p>
+            </citation>
+            <citation>
+               <p>Having regard to the proposal from the European Commission,</p>
+            </citation>
+            <citation>
+               <p>After transmission of the draft legislative act to the national parliaments,</p>
+            </citation>
+            <citation>
+               <p>Having regard to the opinion of the European Economic and Social Committee<authorialNote placement="bottom" marker="1">
+                     <p>OJ C 367, 10.10.2018, p. 32.</p>
+                  </authorialNote>,</p>
+            </citation>
+            <citation>
+               <p>Acting in accordance with the ordinary legislative procedure<authorialNote placement="bottom" marker="2">
+                     <p>Position of the European Parliament of 29 November 2018 (not yet published in the Official Journal) and Decision of the Council of 17 December 2018.</p>
+                  </authorialNote>,</p>
+            </citation>
+         </citations>
+         <recitals xml:id="recs_d82e83">
+            <intro>
+               <p>Whereas:</p>
+            </intro>
+            <recital xml:id="rec_d82e86">
+               <num>(1)</num>
+               <p>On the basis of the Commission report to the European Parliament and the Council on the comprehensive effect study of the environmental step Euro 5 for L-category vehicles (&apos;the effect study&apos;) carried out under Article 23(4) of Regulation (EU) No 168/2013 of the European Parliament and of the Council<authorialNote placement="bottom" marker="3">
+                     <p>Regulation (EU) No 168/2013 of the European Parliament and of the Council of 15 January 2013 on the approval and market surveillance of two- or three-wheel vehicles and quadricycles (OJ L 60, 2.3.2013, p. 52).</p>
+                  </authorialNote> and taking into account issues encountered by approval authorities and stakeholders in applying that Regulation, certain changes and clarifications should be made in Regulation (EU) No 168/2013 in order to ensure its smooth application.</p>
+            </recital>
+            <recital xml:id="rec_d82e106">
+               <num>(2)</num>
+               <p>Regarding the requirement to install an on-board diagnostic (OBD) stage II system, which ensures the monitoring and reporting on the emission control system failures and degradation, the Commission concluded on the basis of the effect study that there are technical limitations with respect to catalyst monitoring for certain vehicles and that further development is required to ensure its correct implementation. Catalyst monitoring is not expected to be ready for the first round of the Euro 5 emission step, but is envisaged for 2025. Article 21 of Regulation (EU) No 168/2013 should therefore provide for the lead time needed to ensure the correct implementation of the OBD stage II system requirement.</p>
+            </recital>
+            <recital xml:id="rec_d82e112">
+               <num>(3)</num>
+               <p>Given that vehicles of categories L1e and L2e are already excluded from the requirement to be equipped with an OBD stage I system, the vehicles of category L6e, which are designed and built around moped specifications and produced in rather small volumes, should also be exempted from that requirement.</p>
+            </recital>
+            <recital xml:id="rec_d82e118">
+               <num>(4)</num>
+               <p>It is necessary to clarify the exemption for vehicles of categories L1e and L2e from the requirement to be equipped with an OBD stage II system and to extend that exemption to light quadricycles (L6e category) and to the enduro (L3e-AxE) and trial (L3e-AxT) motorcycle subcategories.</p>
+            </recital>
+            <recital xml:id="rec_d82e124">
+               <num>(5)</num>
+               <p>Enduro and trial motorcycles have a short lifespan and are very similar in nature and use to heavy all-terrain quad (L7e-B) which are exempted from the requirement to be equipped with an OBD stage II system. That exemption should therefore be extended to enduro and trial motorcycles.</p>
+            </recital>
+            <recital xml:id="rec_d82e130">
+               <num>(6)</num>
+               <p>The Commission concluded in the effect study that the mathematical durability procedure set out in point (c) of Article 23(3) of Regulation (EU) No 168/2013, whereby vehicles are tested after 100 km of use, does not reflect the real degradation of the emission control system of a vehicle during its lifetime. That method should no longer be used and should be phased out by 2025 to provide sufficient lead time to stakeholders to adapt. For the period until 2025, the required accumulated distance travelled by the vehicle before it is tested should be raised to ensure that the test results are reliable.</p>
+            </recital>
+            <recital xml:id="rec_d82e137">
+               <num>(7)</num>
+               <p>The technology that is necessary to meet the Euro 5 limits is already available. However the Commission concluded in the effect study, that the date of application of the Euro 5 emission limits for certain L-category vehicles (L6e-B, L2e-U, L3e-AxT and L3e-AxE) will need to be postponed from 2020 to 2024 to increase the cost-benefit ratio compared to the base line. In addition, manufacturers of those vehicles, which are mainly SMEs, require more lead time to ensure that the transition towards zero emission powertrains, such as electrification, can be achieved in a cost effective way.</p>
+            </recital>
+            <recital xml:id="rec_d82e143">
+               <num>(8)</num>
+               <p>Article 30 of Regulation (EU) No 168/2013 requires that an EU type-approval certificate contains, as an attachment, the test results. In the interests of clarity, that provision should be amended in order to make clear that what is being referred to is the test results sheet.</p>
+            </recital>
+            <recital xml:id="rec_d82e149">
+               <num>(9)</num>
+               <p>Certain inconsistencies in the date of application of the sound level limits for Euro 5 in Annex IV to Regulation (EU) No 168/2013 should be clarified to ensure that the existing limits (Euro 4) remain applicable until the new limits for Euro 5 can be established.</p>
+            </recital>
+            <recital xml:id="rec_d82e156">
+               <num>(10)</num>
+               <p>Regulation (EU) No 168/2013 empowered the Commission to adopt delegated acts for a period of five years, which expired on 21 March 2018. As there is a continuous need to update elements of the type-approval legislation to technical progress or to introduce other amendments in line with the empowerments, that Regulation should be amended to provide for the extension of the delegation for another five years with the possibility of tacit extension.</p>
+            </recital>
+            <recital xml:id="rec_d82e165">
+               <num>(11)</num>
+               <p>In the interest of legal certainty, the empowerment in Regulation (EU) No 168/2013 for the Commission to adopt delegated acts concerning the technical requirements related to on-board diagnostics should be made clearer and more precise.</p>
+            </recital>
+            <recital xml:id="rec_d82e171">
+               <num>(12)</num>
+               <p>Since this Regulation amends Regulation (EU) No 168/2013 without expanding its regulatory content and since the objectives of this Regulation cannot be sufficiently achieved by the Member States but can rather, by reason of its scale and effects, be better achieved at Union level, the Union may adopt measures, in accordance with the principle of subsidiarity as set out in Article 5 of the Treaty on European Union. In accordance with the principle of proportionality as set out in that Article, this Regulation does not go beyond what is necessary in order to achieve those objectives.</p>
+            </recital>
+            <recital xml:id="rec_d82e177">
+               <num>(13)</num>
+               <p>Regulation (EU) No 168/2013 should therefore be amended accordingly,</p>
+            </recital>
+         </recitals>
+         <formula name="enactingFormula">
+            <p>HAVE ADOPTED THIS REGULATION:</p>
+         </formula>
+      </preamble>
+      <body>
+         <article xml:id="art_d82e186" leos:compliant="false">
+            <num>Article 1</num>
+            <heading/>
+            <paragraph>
+               <subparagraph>
+                  <content>
+                     <p>Regulation (EU) No 168/2013 is amended as follows:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(1)</num>
+                     <alinea>
+                        <content>
+                           <p>Article 21 is replaced by the following:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <article xml:id="art_d82e201">
+                                       <num>&apos;Article 21</num>
+                                       <heading>General requirements of on-board diagnostic systems</heading>
+                                       <paragraph>
+                                          <num>1.</num>
+                                          <content>
+                                             <p>L-category vehicles, with the exception of L1e, L2e and L6e vehicles, shall be equipped with an OBD system which complies with the functional requirements and test procedures laid down in the delegated acts referred to in paragraph 8 and as from the application dates set out in Annex IV.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>2.</num>
+                                          <content>
+                                             <p>From the dates set out in point 1.8.1 of Annex IV, vehicle categories and subcategories L3e, L4e, L5e-A and L7e-A shall be equipped with an OBD stage I system which monitors any electric circuit and electronics failure of the emission control system and reports those failures which result in the emission thresholds laid down in Annex VI (B1) being exceeded.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>3.</num>
+                                          <content>
+                                             <p>From the dates set out in point 1.8.2 of Annex IV, vehicle categories and subcategories L3e, L4e, L5e and L7e shall be equipped with an OBD stage I system which monitors any electric circuit and electronics failure of the emission control system and which triggers a report when the emission thresholds laid down in Annex VI (B1) are exceeded. OBD stage I systems for those vehicle categories and subcategories shall also report the triggering of any operating mode which significantly reduces engine torque.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>4.</num>
+                                          <content>
+                                             <p>From the dates set out in point 1.8.3 of Annex IV, vehicle categories L3e, L4e, L5e and L7e shall be equipped with an OBD stage I system which monitors any electric circuit and electronics failure of the emission control system and which triggers a report when the emission thresholds laid down in Annex VI (B2) are exceeded. OBD stage I systems for those vehicle categories shall also report the triggering of any operating mode which significantly reduces engine torque.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>5.</num>
+                                          <content>
+                                             <p>From the dates set out in point 1.8.4 of Annex IV, vehicle categories and subcategories L3e, L4e, L5e-A and L7e-A shall in addition be equipped with an OBD stage II system which monitors and reports emission control system failures and degradation, with the exception of catalyst monitoring, which result in the OBD emission thresholds laid down in Annex VI (B1) being exceeded.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>6.</num>
+                                          <content>
+                                             <p>From the dates set out in point 1.8.5 of Annex IV, vehicle categories and subcategories L3e, L4e, L5e-A and L7e-A shall in addition be equipped with an OBD stage II system which monitors and reports emission control system failures and degradation which result in the OBD emission thresholds laid down in Annex VI (B2) being exceeded.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>7.</num>
+                                          <content>
+                                             <p>Paragraphs 5 and 6 shall not apply to enduro motorcycles in subcategory L3e-AxE and trial motorcycles in subcategory L3e-AxT.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>8.</num>
+                                          <content>
+                                             <p>In order to harmonise the OBD system reporting of functional safety or emission control system faults and facilitate effective and efficient repair of a vehicle, the Commission is empowered to adopt delegated acts in accordance with Article 75 supplementing this Regulation by laying down the detailed technical requirements related to on-board diagnostics with respect to vehicle categories and subcategories as set out in Annex II, C1 &#45; Vehicle construction and general type-approval requirements, the row relating to No 11, including functional OBD requirements and test procedures for the subjects listed in paragraphs 1 to 7 of this Article, and the detailed technical requirements related to test type VIII referred to in Annex V.&apos;;</p>
+                                          </content>
+                                       </paragraph>
+                                    </article>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(2)</num>
+                     <alinea>
+                        <content>
+                           <p>in Article 23(3), point (c) is replaced by the following:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <point>
+                                       <num>&apos;(c)</num>
+                                       <alinea>
+                                          <content>
+                                             <p>mathematical durability procedure:</p>
+                                          </content>
+                                       </alinea>
+                                       <alinea>
+                                          <content>
+                                             <p>Until 31 December 2024, for each emission constituent, the product of the multiplication of the deterioration factor set out in Annex VII (B) and the environmental performance test result of a vehicle which has accumulated more than 100 km after it was first started at the end of the production line shall be lower than the environmental performance test limit set out in Annex VI (A).</p>
+                                          </content>
+                                       </alinea>
+                                       <alinea>
+                                          <content>
+                                             <p>Notwithstanding the first subparagraph, for new types of vehicles from 1 January 2020 and for existing types of vehicles from 1 January 2021 until 31 December 2024, for each emission constituent the product of the multiplication of the deterioration factor set out in Annex VII (B) and the environmental performance test result of a vehicle which has accumulated more than 2500 km for a vehicle with a maximum design vehicle speed of &lt; 130 km/h and 3500 km for a vehicle with a maximum design vehicle speed of ≥ 130 km/h after it was first started at the end of the production line shall be lower than the tailpipe emission limit set out in Annex VI (A).&apos;;</p>
+                                          </content>
+                                       </alinea>
+                                    </point>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(3)</num>
+                     <alinea>
+                        <content>
+                           <p>in Article 30(1), point (b) is replaced by the following:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <point>
+                                       <num>&apos;(b)</num>
+                                       <content>
+                                          <p>the test results sheet;&apos;;</p>
+                                       </content>
+                                    </point>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(4)</num>
+                     <alinea>
+                        <content>
+                           <p>in Article 44(1), the second subparagraph is replaced by the following:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <paragraph>
+                                       <content>
+                                          <p>&apos;The first subparagraph shall apply only to vehicles within the territory of the Union which were covered by a valid EU type-approval at the time of their production, but which neither were registered nor entered into service before that EU type-approval lost its validity.&apos;;</p>
+                                       </content>
+                                    </paragraph>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(5)</num>
+                     <alinea>
+                        <content>
+                           <p>Article 75(2) is replaced by the following:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <paragraph>
+                                       <num>&apos;2.</num>
+                                       <content>
+                                          <p>The power to adopt delegated acts referred to in Article 18(3), Article 20(2), Article 21(8), Article 22(5) and (6), Article 23(6) and (12), Article 24(3), Article 25(8), Article 32(6), Article 33(6), Article 50(4), Article 54(3), Article 57(12), Article 65 and Article 74 shall be conferred on the Commission for a period of five years from 22 March 2013. The delegation of power shall be tacitly extended for periods of five years, unless the European Parliament or the Council opposes such extension not later than three months before the end of each period. The Commission shall draw up a report in respect of the delegation of power not later than 22 June 2022 and nine months before the end of each following five-year period.&apos;;</p>
+                                       </content>
+                                    </paragraph>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(6)</num>
+                     <content>
+                        <p>Annexes II, IV, V and VI are amended in accordance with the Annex to this Regulation.</p>
+                     </content>
+                  </point>
+               </list>
+            </paragraph>
+         </article>
+         <article xml:id="art_d82e347">
+            <num>Article 2</num>
+            <heading/>
+            <paragraph>
+               <content>
+                  <p>This Regulation shall enter into force on the twentieth day following that of its publication in the <i>Official Journal of the European Union</i>.</p>
+               </content>
+            </paragraph>
+         </article>
+         <clause>
+            <content>
+               <p>This Regulation shall be binding in its entirety and directly applicable in all Member States.</p>
+            </content>
+         </clause>
+      </body>
+      <conclusions>
+         <p>Done at Strasbourg, 16 January 2019.</p>
+         <block name="signatory">
+            <signature>
+               <organization refersTo="">For the European Parliament</organization>
+               <role refersTo="">The President</role>
+               <person refersTo="">A. TAJANI</person>
+            </signature>
+            <signature>
+               <organization refersTo="">For the Council</organization>
+               <role refersTo="">The President</role>
+               <person refersTo="">G. CIAMBA</person>
+            </signature>
+         </block>
+      </conclusions>
+   </bill>
+</akomaNtoso>

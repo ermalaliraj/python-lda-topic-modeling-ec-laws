@@ -1,0 +1,592 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"
+            xmlns:fmx="http://formex.publications.europa.eu/schema/formex-05.21-20110601.xd"
+            xmlns:leos="urn:eu:europa:ec:leos"
+            xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <bill name="">
+      <meta xmlns:fn="http://www.w3.org/2005/xpath-functions">
+         <identification source="~COM">
+            <FRBRWork>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRcountry value=""/>
+            </FRBRWork>
+            <FRBRExpression>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+            </FRBRManifestation>
+         </identification>
+      </meta>
+      <preface>
+         <longTitle>
+            <p>
+               <docStage/>
+               <docType>COMMISSION REGULATION (EU) 2018/394</docType>of 13 March 2018<docPurpose>amending Regulation (EU) No 965/2012 as regards the deletion of air operations requirements for balloons</docPurpose>
+            </p>
+         </longTitle>
+      </preface>
+      <preamble>
+         <formula name="actingEntity">
+            <p>THE EUROPEAN COMMISSION,</p>
+         </formula>
+         <citations>
+            <citation>
+               <p>Having regard to the Treaty on the Functioning of the European Union,</p>
+            </citation>
+            <citation>
+               <p>Having regard to Regulation (EC) No 216/2008 of the European Parliament and of the Council of 20 February 2008 on common rules in the field of civil aviation and establishing a European Aviation Safety Agency, and repealing Council Directive 91/670/EEC, Regulation (EC) No 1592/2002 and Directive 2004/36/EC<authorialNote placement="bottom" marker="1">
+                     <p>OJ L 79, 19.3.2008, p. 1.</p>
+                  </authorialNote>, and in particular Article 8(5) thereof,</p>
+            </citation>
+         </citations>
+         <recitals xml:id="recs_d61e68">
+            <intro>
+               <p>Whereas:</p>
+            </intro>
+            <recital xml:id="rec_d61e71">
+               <num>(1)</num>
+               <p>Commission Regulation (EU) No 965/2012<authorialNote placement="bottom" marker="2">
+                     <p>Commission Regulation (EU) No 965/2012 of 5 October 2012 laying down technical requirements and administrative procedures related to air operations pursuant to Regulation (EC) No 216/2008 of the European Parliament and of the Council (OJ L 296, 25.10.2012, p. 1).</p>
+                  </authorialNote> establishes the conditions for the safety of several types of air operations with different categories of aircraft, including balloon operations.</p>
+            </recital>
+            <recital xml:id="rec_d61e87">
+               <num>(2)</num>
+               <p>Commission Regulation (EU) 2018/395<authorialNote placement="bottom" marker="3">
+                     <p>Commission Regulation (EU) 2018/395 of 13 March 2018 laying down detailed rules for the operation of balloons pursuant to Regulation (EC) No 216/2008 of the European Parliament and of the Council (see page 10 of this Official Journal).</p>
+                  </authorialNote> establishes specific rules for the operation of balloons. From the date of application of that Regulation, such operations should no longer be subject to the general rules for air operations laid down in Regulation (EU) No 965/2012. However, the rules in respect of oversight of air operations by the competent authorities of the Member States, set out in Article 3 of Regulation (EU) No 965/2012 and Annex II thereof, should continue to apply with respect to air operations with balloons, as those requirements are not specific to any particular air operation activity but apply horizontally in respect of all such activities.</p>
+            </recital>
+            <recital xml:id="rec_d61e100">
+               <num>(3)</num>
+               <p>Regulation (EU) No 965/2012 should therefore be amended accordingly, so as to take account of the new rules applicable to balloon operations and to clarify the affected provisions of that Regulation where appropriate.</p>
+            </recital>
+            <recital xml:id="rec_d61e106">
+               <num>(4)</num>
+               <p>Considering the close link between them, the date of application of the amendments to Regulation (EU) No 965/2012 set out in this Regulation should be aligned with the date of application of Regulation (EU) 2018/395.</p>
+            </recital>
+            <recital xml:id="rec_d61e112">
+               <num>(5)</num>
+               <p>The Agency prepared draft implementing rules and submitted them as an opinion<authorialNote placement="bottom" marker="4">
+                     <p>Opinion No 01/2016 of the European Aviation Safety Agency of 6 January 2016 for a Commission Regulation on the revision of the European operational rules for balloons.</p>
+                  </authorialNote> to the Commission in accordance with point (b) of Article 17(2) and Article 19(1) of Regulation (EC) No 216/2008.</p>
+            </recital>
+            <recital xml:id="rec_d61e125">
+               <num>(6)</num>
+               <p>The measures provided for in this Regulation are in accordance with the opinion of the Committee established by Article 65 of Regulation (EC) No 216/2008,</p>
+            </recital>
+         </recitals>
+         <formula name="enactingFormula">
+            <p>HAS ADOPTED THIS REGULATION:</p>
+         </formula>
+      </preamble>
+      <body>
+         <article xml:id="art_d61e135" leos:compliant="false">
+            <num>Article 1</num>
+            <heading/>
+            <paragraph>
+               <subparagraph>
+                  <content>
+                     <p>Regulation (EU) No 965/2012 is amended as follows:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(1)</num>
+                     <alinea>
+                        <content>
+                           <p>Article 1 is amended as follows:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <alinea>
+                              <content>
+                                 <p>paragraphs 1, 2 and 3 are replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <paragraph>
+                                             <num>&apos;1.</num>
+                                             <content>
+                                                <p>This Regulation lays down detailed rules for air operations with aeroplanes, helicopters and sailplanes, including ramp inspections of aircraft of operators under the safety oversight of another State when landed at aerodromes located in the territory subject to the provisions of the Treaties.</p>
+                                             </content>
+                                          </paragraph>
+                                          <paragraph>
+                                             <num>2.</num>
+                                             <content>
+                                                <p>This Regulation also lays down detailed rules on the conditions for issuing, maintaining, amending, limiting, suspending or revoking the certificates of operators of aircraft referred to in points (b) and (c) of Article 4(1) of Regulation (EC) No 216/2008, except for balloons, engaged in commercial air transport operation, the privileges and responsibilities of the holders of certificates as well as conditions under which operations shall be prohibited, limited or subject to certain conditions in the interest of safety.</p>
+                                             </content>
+                                          </paragraph>
+                                          <paragraph>
+                                             <num>3.</num>
+                                             <content>
+                                                <p>This Regulation also lays down detailed rules on the conditions and procedures for the declaration by operators engaged in commercial specialised operations of aeroplanes, helicopters and sailplanes or in non-commercial operation of complex motor-powered aircraft, including non-commercial specialised operations of complex motor-powered aircraft, of their capability and the availability of the means to discharge the responsibilities associated with the operation of aircraft, and for the oversight of such operators.&apos;;</p>
+                                             </content>
+                                          </paragraph>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <alinea>
+                              <content>
+                                 <p>paragraph 6 is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <paragraph>
+                                             <num>&apos;6.</num>
+                                             <content>
+                                                <p>This Regulation shall not apply to air operations with airships.&apos;;</p>
+                                             </content>
+                                          </paragraph>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(c)</num>
+                           <alinea>
+                              <content>
+                                 <p>the following paragraph 7 is added:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <paragraph>
+                                             <num>&apos;7.</num>
+                                             <content>
+                                                <p>This Regulation shall not apply to air operations with balloons. However, in respect of such air operations with balloons, other than tethered gas balloons, the requirements in respect of oversight of Article 3 shall apply.&apos;</p>
+                                             </content>
+                                          </paragraph>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                     </list>
+                  </point>
+                  <point>
+                     <num>(2)</num>
+                     <alinea>
+                        <content>
+                           <p>In Article 2 the following points (1a) and (1b) are inserted:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <num>&apos;(1a)</num>
+                        <content>
+                           <p>&quot;balloon&quot; means a manned lighter-than-air aircraft which is not power driven and sustains flight through the use of either a lighter-than-air gas or an airborne heater, including gas balloons, hot-air balloons, mixed balloons and, although power driven, hot-air airships;</p>
+                        </content>
+                        <num>(1b)</num>
+                        <content>
+                           <p>&quot;tethered gas balloon&quot; means a gas balloon with a tether system that continuously anchors the balloon to a fixed point during operation;&apos;.</p>
+                        </content>
+                     </list>
+                  </point>
+                  <point>
+                     <num>(3)</num>
+                     <alinea>
+                        <content>
+                           <p>In Article 3(1), the following second subparagraph is inserted:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <paragraph>
+                                       <content>
+                                          <p>&apos;The administration and management systems of the competent authorities of the Member States and of the Agency shall comply with the requirements specified in Annex II.&apos;</p>
+                                       </content>
+                                    </paragraph>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(4)</num>
+                     <alinea>
+                        <content>
+                           <p>Article 5 is amended as follows:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <alinea>
+                              <content>
+                                 <p>paragraph 1 is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <paragraph>
+                                             <num>&apos;1.</num>
+                                             <content>
+                                                <p>Operators shall only operate an aeroplane, a helicopter or a sailplane for the purpose of commercial air transport (hereinafter &quot;CAT&quot;) operations in accordance with the requirements specified in Annexes III and IV.&apos;;</p>
+                                             </content>
+                                          </paragraph>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <alinea>
+                              <content>
+                                 <p>in paragraph 2, point (b) is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <point>
+                                             <num>&apos;(b)</num>
+                                             <content>
+                                                <p>aeroplanes, helicopters and sailplanes used for the transport of dangerous goods (DG);&apos;;</p>
+                                             </content>
+                                          </point>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(c)</num>
+                           <alinea>
+                              <content>
+                                 <p>paragraph 4 is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <paragraph>
+                                             <num>&apos;4.</num>
+                                             <content>
+                                                <p>Operators of other-than complex motor-powered aeroplanes and helicopters, and of sailplanes, involved in non-commercial operations, including non-commercial specialised operations, shall only operate the aircraft in accordance with the requirements specified in Annex VII.&apos;;</p>
+                                             </content>
+                                          </paragraph>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(d)</num>
+                           <alinea>
+                              <content>
+                                 <p>in paragraph 5, point (b) is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <point>
+                                             <num>&apos;(b)</num>
+                                             <content>
+                                                <p>other aeroplanes and helicopters, as well as sailplanes, in accordance with the provisions specified in Annex VII.&apos;;</p>
+                                             </content>
+                                          </point>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(e)</num>
+                           <alinea>
+                              <content>
+                                 <p>paragraph 6 is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <paragraph>
+                                             <num>&apos;6.</num>
+                                             <content>
+                                                <p>Operators shall only operate an aeroplane, a helicopter or a sailplane for the purpose of commercial specialised operations in accordance with the requirements specified in Annexes III and VIII.&apos;.</p>
+                                             </content>
+                                          </paragraph>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                     </list>
+                  </point>
+                  <point>
+                     <num>(5)</num>
+                     <alinea>
+                        <content>
+                           <p>Article 6 is amended as follows:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <alinea>
+                              <content>
+                                 <p>paragraph 3 is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <paragraph>
+                                             <num>&apos;3.</num>
+                                             <subparagraph>
+                                                <content>
+                                                   <p>By way of derogation from Article 5 of this Regulation, and without prejudice to point (a) of Article 5(4) of Regulation (EC) No 216/2008 and to Subpart P of Annex I to Commission Regulation (EU) No 748/2012<authorialNote placement="bottom" marker="5">
+                                                         <p>Commission Regulation (EU) No 748/2012 of 3 August 2012 laying down implementing rules for the airworthiness and environmental certification of aircraft and related products, parts and appliances, as well as for the certification of design and production organisations (OJ L 224, 21.8.2012, p. 1).&apos;;</p>
+                                                      </authorialNote> concerning the permit to fly, the following flights shall continue to be operated under the requirements specified in the national law of the Member State in which the operator has its principal place of business, or, where the operator has no principal place of business, the place where the operator is established or resides.</p>
+                                                </content>
+                                             </subparagraph>
+                                             <list>
+                                                <point>
+                                                   <num>(a)</num>
+                                                   <content>
+                                                      <p>flights related to the introduction or modification of aeroplane, helicopter or sailplane types conducted by design or production organisations within the scope of their privileges;</p>
+                                                   </content>
+                                                </point>
+                                                <point>
+                                                   <num>(b)</num>
+                                                   <content>
+                                                      <p>flights carrying no passengers or cargo where the aeroplane, helicopter or sailplane is ferried for refurbishment, repair, maintenance checks, inspections, delivery, export or similar purposes.</p>
+                                                   </content>
+                                                </point>
+                                             </list>
+                                          </paragraph>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <alinea>
+                              <content>
+                                 <p>in paragraph 4a, the introductory wording is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <paragraph>
+                                             <content>
+                                                <p>&apos;By way of derogation from Article 5(1) and (6), the following operations with other-than complex motor-powered aeroplanes and helicopters, and with sailplanes may be conducted in accordance with Annex VII:&apos;.</p>
+                                             </content>
+                                          </paragraph>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                     </list>
+                  </point>
+                  <point>
+                     <num>(6)</num>
+                     <alinea>
+                        <content>
+                           <p>Article 8 is replaced by the following:</p>
+                        </content>
+                     </alinea>
+                     <alinea>
+                        <content>
+                           <p>
+                              <mod>
+                                 <quotedStructure startQuote="" endQuote="">
+                                    <article xml:id="art_d61e410">
+                                       <num>&apos;Article 8</num>
+                                       <heading>Flight time limitations</heading>
+                                       <paragraph>
+                                          <num>1.</num>
+                                          <content>
+                                             <p>CAT operations shall be subject to the requirements of Subpart FTL of Annex III.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>2.</num>
+                                          <content>
+                                             <p>By way of derogation from paragraph 1, air taxi, emergency medical service and single pilot CAT operations by aeroplanes shall be subject to the requirements specified in the national law referred to in Article 8(4) of Regulation (EEC) No 3922/91 and in Subpart Q of Annex III to that Regulation.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>3.</num>
+                                          <content>
+                                             <p>By way of derogation from paragraph 1, CAT operations with helicopters and CAT operations with sailplanes shall comply with the requirements specified in the national law of the Member State in which the operator has its principal place of business.</p>
+                                          </content>
+                                       </paragraph>
+                                       <paragraph>
+                                          <num>4.</num>
+                                          <content>
+                                             <p>Non-commercial operations, including non-commercial specialised operations, with complex motor-powered aeroplanes and helicopters, as well as commercial specialised operations with aeroplanes, helicopters and sailplanes shall comply as regards flight time limitations, with the requirements specified in the national law of the Member State in which the operator has its principal place of business, or, where the operator has no principal place of business, the place where the operator is established or resides.&apos;</p>
+                                          </content>
+                                       </paragraph>
+                                    </article>
+                                 </quotedStructure>
+                              </mod>
+                           </p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(7)</num>
+                     <alinea>
+                        <content>
+                           <p>Article 10 is amended as follows:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <alinea>
+                              <content>
+                                 <p>paragraphs 2 and 3 are replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <paragraph>
+                                             <num>&apos;2.</num>
+                                             <content>
+                                                <p>The requirements of Annexes II and VII shall apply to non-commercial operations with sailplanes from 25 August 2013. However, Member States that have decided in accordance with Union law before 8 April 2019 that some or all of those requirements do not apply to such operations in their territory, shall make those decisions publicly available. If any such decision is still in force by 8 April 2020, it shall cease to apply from that date.</p>
+                                             </content>
+                                          </paragraph>
+                                          <paragraph>
+                                             <num>3.</num>
+                                             <content>
+                                                <p>The requirements of Annexes II, III, VII and VIII shall apply to specialised operations with sailplanes from 1 July 2014. However, Member States that have decided in accordance with Union law before 8 April 2019 that some or all of those requirements do not apply to such operations in their territory, shall make those decisions publicly available. If any such decision is still in force by 8 April 2020, it shall cease to apply from that date.&apos;;</p>
+                                             </content>
+                                          </paragraph>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <alinea>
+                              <content>
+                                 <p>in paragraph 5, point (b) is replaced by the following:</p>
+                              </content>
+                           </alinea>
+                           <alinea>
+                              <content>
+                                 <p>
+                                    <mod>
+                                       <quotedStructure startQuote="" endQuote="">
+                                          <point>
+                                             <num>&apos;(b)</num>
+                                             <content>
+                                                <p>CAT operations with sailplanes from 1 July 2014. However, Member States that have decided in accordance with Union law before 8 April 2019 that some or all of those requirements do not apply to such operations in their territory, shall make those decisions publicly available. If any such decision is still in force by 8 April 2020, it shall cease to apply from that date.&apos;</p>
+                                             </content>
+                                          </point>
+                                       </quotedStructure>
+                                    </mod>
+                                 </p>
+                              </content>
+                           </alinea>
+                        </point>
+                     </list>
+                  </point>
+                  <point>
+                     <num>(8)</num>
+                     <content>
+                        <p>Annexes I, II, III, IV, VII and VIII are amended in accordance with the Annex to this Regulation.</p>
+                     </content>
+                  </point>
+               </list>
+            </paragraph>
+         </article>
+         <article xml:id="art_d61e515">
+            <num>Article 2</num>
+            <heading>Entry into force and application</heading>
+            <paragraph>
+               <content>
+                  <p>This Regulation shall enter into force on the twentieth day following that of its publication in the <i>Official Journal of the European Union</i>.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <content>
+                  <p>It shall apply from 8 April 2019.</p>
+               </content>
+            </paragraph>
+         </article>
+         <clause>
+            <content>
+               <p>This Regulation shall be binding in its entirety and directly applicable in all Member States.</p>
+            </content>
+         </clause>
+      </body>
+      <conclusions>
+         <p>Done at Brussels, 13 March 2018.</p>
+         <block name="signatory">
+            <signature>
+               <organization refersTo="">For the Commission</organization>
+               <role refersTo="">The President</role>
+               <person refersTo="">Jean-Claude JUNCKER</person>
+            </signature>
+         </block>
+      </conclusions>
+   </bill>
+</akomaNtoso>

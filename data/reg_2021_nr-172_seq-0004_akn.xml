@@ -1,0 +1,852 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"
+            xmlns:fmx="http://formex.publications.europa.eu/schema/formex-05.21-20110601.xd"
+            xmlns:leos="urn:eu:europa:ec:leos"
+            xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <bill name="">
+      <meta xmlns:fn="http://www.w3.org/2005/xpath-functions">
+         <identification source="~COM">
+            <FRBRWork>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRcountry value=""/>
+            </FRBRWork>
+            <FRBRExpression>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+            </FRBRManifestation>
+         </identification>
+      </meta>
+      <preface>
+         <longTitle>
+            <p>
+               <docStage/>
+               <docType>REGULATION (EU) 2021/785 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL</docType>of 29 April 2021<docPurpose>establishing the Union Anti-Fraud Programme and repealing Regulation (EU) No 250/2014</docPurpose>
+            </p>
+         </longTitle>
+      </preface>
+      <preamble>
+         <formula name="actingEntity">
+            <p>THE EUROPEAN PARLIAMENT AND THE COUNCIL OF THE EUROPEAN UNION,</p>
+         </formula>
+         <citations>
+            <citation>
+               <p>Having regard to the Treaty on the Functioning of the European Union, and in particular Articles 33 and 325 thereof,</p>
+            </citation>
+            <citation>
+               <p>Having regard to the proposal from the European Commission,</p>
+            </citation>
+            <citation>
+               <p>After transmission of the draft legislative act to the national parliaments,</p>
+            </citation>
+            <citation>
+               <p>Having regard to the opinion of the Court of Auditors<authorialNote placement="bottom" marker="1">
+                     <p>OJ C 10, 10.1.2019, p. 1.</p>
+                  </authorialNote>,</p>
+            </citation>
+            <citation>
+               <p>Acting in accordance with the ordinary legislative procedure<authorialNote placement="bottom" marker="2">
+                     <p>Position of the European Parliament of 12 February 2019 (not yet published in the Official Journal) and position of the Council at first reading of 16 March 2021 (not yet published in the Official Journal). Position of the European Parliament of 29 April 2021 (not yet published in the Official Journal).</p>
+                  </authorialNote>,</p>
+            </citation>
+         </citations>
+         <recitals xml:id="recs_d357e86">
+            <intro>
+               <p>Whereas:</p>
+            </intro>
+            <recital xml:id="rec_d357e89">
+               <num>(1)</num>
+               <p>Article 325 of the Treaty on the Functioning of the European Union (TFEU) requires the Union and the Member States to counter fraud and any other illegal activities affecting the financial interests of the Union. The Union should support activities in those fields.</p>
+            </recital>
+            <recital xml:id="rec_d357e95">
+               <num>(2)</num>
+               <p>Support previously given for such activities through Decision No 804/2004/EC of the European Parliament and of the Council<authorialNote placement="bottom" marker="3">
+                     <p>Decision No 804/2004/EC of the European Parliament and of the Council of 21 April 2004 establishing a Community action programme to promote activities in the field of the protection of the Community&apos;s financial interests (Hercule programme) (OJ L 143, 30.4.2004, p. 9).</p>
+                  </authorialNote> (Hercule programme), amended and extended by Decision No 878/2007/EC of the European Parliament and of the Council<authorialNote placement="bottom" marker="4">
+                     <p>Decision No 878/2007/EC of the European Parliament and of the Council of 23 July 2007 amending and extending Decision No 804/2004/EC establishing a Community action programme to promote activities in the field of the protection of the Community&apos;s financial interests (Hercule II programme) (OJ L 193, 25.7.2007, p. 18).</p>
+                  </authorialNote> (Hercule II programme), repealed and replaced by Regulation (EU) No 250/2014 of the European Parliament and of the Council<authorialNote placement="bottom" marker="5">
+                     <p>Regulation (EU) No 250/2014 of the European Parliament and of the Council of 26 February 2014 establishing a programme to promote activities in the field of the protection of the financial interests of the European Union (Hercule III programme) and repealing Decision No 804/2004/EC (OJ L 84, 20.3.2014, p. 6).</p>
+                  </authorialNote> (Hercule III programme), has made it possible to enhance the activities undertaken by the Union and the Member States in countering fraud, corruption and any other illegal activities affecting the financial interests of the Union.</p>
+            </recital>
+            <recital xml:id="rec_d357e131">
+               <num>(3)</num>
+               <p>Union legislation which sets out rules for the European Agricultural Guarantee Fund, the European Agricultural Fund for Rural Development, the European Regional Development Fund, the European Social Fund, the Cohesion Fund, the European Maritime and Fisheries Fund, the Asylum, Migration and Integration Fund and the instrument for financial support for police cooperation, preventing and combating crime and crisis management, the Fund for European Aid to the Most Deprived, as well as for the pre-accession assistance regarding the programming period 2014-2020 and onwards, provides for an obligation on Member States, candidate countries and potential candidates to report irregularities and fraud affecting the financial interests of the Union. Irregularity Management System (IMS) is a secure electronic communications tool which facilitates the fulfilment of the obligation by Member States, as well as by candidate countries and potential candidates to report detected irregularities, and which also supports the management and analysis of irregularities.</p>
+            </recital>
+            <recital xml:id="rec_d357e137">
+               <num>(4)</num>
+               <p>While the importance of the work carried out by the Commission in the context of fraud prevention is indisputable, the importance, inter alia, of the implementation of the Anti-Fraud Information System (AFIS), as well as of anti-fraud strategies at the national level should also be fully recognised.</p>
+            </recital>
+            <recital xml:id="rec_d357e144">
+               <num>(5)</num>
+               <p>Council Regulation (EC) No 515/97<authorialNote placement="bottom" marker="6">
+                     <p>Council Regulation (EC) No 515/97 of 13 March 1997 on mutual assistance between the administrative authorities of the Member States and cooperation between the latter and the Commission to ensure the correct application of the law on customs and agricultural matters (OJ L 82, 22.3.1997, p. 1).</p>
+                  </authorialNote> and Council Decision 2009/917/JHA<authorialNote placement="bottom" marker="7">
+                     <p>Council Decision 2009/917/JHA of 30 November 2009 on the use of information technology for customs purposes (OJ L 323, 10.12.2009, p. 20).</p>
+                  </authorialNote> provide that the Union is to support mutual assistance between the administrative authorities of the Member States and cooperation between the latter and the Commission, to ensure the correct application of the law on customs and agricultural matters.</p>
+            </recital>
+            <recital xml:id="rec_d357e170">
+               <num>(6)</num>
+               <p>That support is provided to a number of operational activities. These include the AFIS, an information technology platform which consists of a set of applications operated under a common information system managed by the Commission. IMS is also operated under the AFIS platform. The common information system requires stable and predictable financing over the years in order to ensure its sustainability.</p>
+            </recital>
+            <recital xml:id="rec_d357e176">
+               <num>(7)</num>
+               <p>The AFIS platform comprises several information systems, including the Customs Information System. The Customs Information System is an automated information system which aims to assist Member States in preventing, investigating and prosecuting operations which are in breach of customs or agricultural legislation, by increasing, through more rapid dissemination of information, the effectiveness of the cooperation and control procedures of the customs administrations whose remit covers such operations. The single infrastructure of the Customs Information System covers both administrative cooperation and police cooperation based on the former Justice and Home Affairs Pillar of the Union. The police cooperation dimension of the Customs Information System cannot technically be dissociated from its administrative dimension as both are operated under a common information technology system. Considering that the Customs Information System itself is only one of several information systems run under AFIS platform and that the number of police cooperation cases is lower than the number of administrative cooperation cases in the Customs Information System, the police cooperation dimension of AFIS platform is regarded as ancillary to its administrative dimension.</p>
+            </recital>
+            <recital xml:id="rec_d357e182">
+               <num>(8)</num>
+               <p>With a view to increasing synergies and budgetary flexibility, and to simplifying management, Union support in the fields of the protection of the financial interests of the Union, of irregularity reporting and of mutual administrative assistance and cooperation in customs and agricultural matters should be brought together and streamlined under a single programme, the Union Anti-Fraud Programme (the &apos;Programme&apos;). The Programme should be established for a period of seven years to align its duration with that of the multiannual financial framework laid down in Council Regulation (EU, Euratom) 2020/2093<authorialNote placement="bottom" marker="8">
+                     <p>Council Regulation (EU, Euratom) 2020/2093 of 17 December 2020 laying down the multiannual financial framework for the years 2021 to 2027 (OJ L 433I, 22.12.2020, p. 11).</p>
+                  </authorialNote>.</p>
+            </recital>
+            <recital xml:id="rec_d357e202">
+               <num>(9)</num>
+               <p>The Programme should therefore comprise a component similar to the Hercule III programme, a second component ensuring the financing of IMS and a third component that finances the activities tasked to the Commission under Regulation (EC) No 515/97, including the AFIS platform.</p>
+            </recital>
+            <recital xml:id="rec_d357e209">
+               <num>(10)</num>
+               <p>The Programme should facilitate cooperation among relevant authorities of the Member States and between the Member States, the Commission and other relevant Union bodies, including the European Public Prosecutor&apos;s Office (EPPO), where appropriate, in respect of those Member States participating in enhanced cooperation pursuant to Council Regulation (EU) 2017/1939<authorialNote placement="bottom" marker="9">
+                     <p>Council Regulation (EU) 2017/1939 of 12 October 2017 implementing enhanced cooperation on the establishment of the European Public Prosecutor&apos;s Office (&apos;the EPPO&apos;) (OJ L 283, 31.10.2017, p. 1).</p>
+                  </authorialNote>, in order to ensure effective protection of the financial interests of the Union, as well as the correct application of the law on customs and agricultural matters, without impinging on Member States&apos; responsibilities, and in order to ensure a more effective use of resources than could be national level. Action at Union level is necessary and justified as it assists Member States in collectively protecting the financial interests of the Union and encourages the use of common Union structures in order to increase cooperation and information exchange between competent authorities, while supporting the reporting of data on irregularities and cases of fraud.</p>
+            </recital>
+            <recital xml:id="rec_d357e229">
+               <num>(11)</num>
+               <p>In addition, supporting the protection of the financial interests of the Union should address all aspects of the Union budget, on both the revenue and expenditure sides. In this framework, due consideration should be given to the fact that the Programme is the only Union programme to protect the expenditure side of the Union budget.</p>
+            </recital>
+            <recital xml:id="rec_d357e236">
+               <num>(12)</num>
+               <p>This Regulation lays down a financial envelope for the Programme, which is to constitute the prime reference amount, within the meaning of point 18 of the Interinstitutional Agreement of 16 December 2020 between the European Parliament, the Council of the European Union and the European Commission on budgetary discipline, on cooperation in budgetary matters and on sound financial management, as well as on new own resources, including a roadmap towards the introduction of new own resources<authorialNote placement="bottom" marker="10">
+                     <p>OJ L 433I, 22.12.2020, p. 28.</p>
+                  </authorialNote>, for the European Parliament and the Council during the annual budgetary procedure.</p>
+            </recital>
+            <recital xml:id="rec_d357e251">
+               <num>(13)</num>
+               <p>Regulation (EU, Euratom) 2018/1046 of the European Parliament and of the Council<authorialNote placement="bottom" marker="11">
+                     <p>Regulation (EU, Euratom) 2018/1046 of the European Parliament and of the Council of 18 July 2018 on the financial rules applicable to the general budget of the Union, amending Regulations (EU) No 1296/2013, (EU) No 1301/2013, (EU) No 1303/2013, (EU) No 1304/2013, (EU) No 1309/2013, (EU) No 1316/2013, (EU) No 223/2014, (EU) No 283/2014, and Decision No 541/2014/EU and repealing Regulation (EU, Euratom) No 966/2012 (OJ L 193, 30.7.2018, p. 1).</p>
+                  </authorialNote> (the &apos;Financial Regulation&apos;) applies to this Programme. The Financial Regulation lays down rules on the implementation of the Union budget, including the rules on grants, prizes, procurement, indirect management, financial instruments, budgetary guarantees, financial assistance and the reimbursement of external experts. Rules adopted on the basis of Article 322 TFEU also include a general regime of conditionality for the protection of the Union budget.</p>
+            </recital>
+            <recital xml:id="rec_d357e271">
+               <num>(14)</num>
+               <p>The types of financing and the methods of implementation under this Regulation should be chosen on the basis of their ability to achieve the specific objectives of the actions and to deliver results, taking into account, in particular, the costs of controls, the administrative burden and the expected risk of non-compliance. In this regard, consideration should be given to the use of lump sums, flat rates and unit costs, as well as financing not linked to costs as referred to in Article 125(1) of the Financial Regulation.</p>
+            </recital>
+            <recital xml:id="rec_d357e277">
+               <num>(15)</num>
+               <p>This Regulation should provide an indicative list of the actions to be financed in order to ensure continuity in the financing of all the actions tasked to the Commission under Regulation (EC) No 515/97, including the AFIS platform.</p>
+            </recital>
+            <recital xml:id="rec_d357e283">
+               <num>(16)</num>
+               <p>Actions should be eligible on the basis of their ability to achieve the specific objectives of the Programme. The specific objectives of the Programme should include the provision of special technical assistance to the competent authorities of Member States, such as through providing specific knowledge, specialised and technically advanced equipment and effective IT tools; through ensuring the necessary support for, and the facilitating of, investigations, in particular by setting up joint investigation teams and cross-border operations; or through enhancing staff exchanges for specific projects. Moreover, eligible actions should also include the organisation of targeted specialised training and risk analysis workshops as well as, where appropriate, conferences and studies.</p>
+            </recital>
+            <recital xml:id="rec_d357e289">
+               <num>(17)</num>
+               <p>The purchase of equipment through the Union instrument for financial support for customs control equipment established by a Regulation of the European Parliament and of the Council establishing, as part of the Integrated Border Management Fund, the instrument for financial support for customs control equipment would have a positive impact on the fight against fraud affecting the financial interests of the Union. Under that instrument there would be an obligation to avoid any duplication in Union support. The Programme should likewise ensure that any duplication in Union support is avoided and should, in principle, target its support towards the acquisition of types of equipment which do not fall under the scope of the Union instrument for financial support for customs control equipment or for equipment for which the beneficiaries are authorities other than the authorities targeted by the Union instrument for financial support for customs control equipment. Moreover, it should be ensured that the funded equipment is appropriate for the purposes of contributing to the protection of the financial interest of the Union.</p>
+            </recital>
+            <recital xml:id="rec_d357e295">
+               <num>(18)</num>
+               <p>The Programme should be open to participation by members of the European Free Trade Association which are members of the European Economic Area (EEA). It should also be open to participation by acceding countries, candidate countries and potential candidates, as well as European Neighbourhood Policy countries, in accordance with the general principles and general terms and conditions for the participation of those countries in Union programmes established in the respective framework agreements and Association Council decisions, or in similar agreements. The Programme should also be open to other third countries provided that they enter into a specific agreement covering the specific conditions of their participation in Union programmes.</p>
+            </recital>
+            <recital xml:id="rec_d357e301">
+               <num>(19)</num>
+               <p>Taking into account past evaluations of the Hercule programmes and in order to strengthen the Programme, the participation of entities established in a third country which is not associated to the Programme should be possible on an exceptional basis.</p>
+            </recital>
+            <recital xml:id="rec_d357e309">
+               <num>(20)</num>
+               <p>In particular, the participation of entities established in third countries which have an association agreement in force with the Union should be encouraged, with a view to strengthening the protection of the financial interests of the Union through cooperation relating to customs and through the exchange of best practices, particularly as regards ways of combating fraud, corruption and other illegal activities affecting the financial interests of the Union and as regards facing challenges relating to new technological developments.</p>
+            </recital>
+            <recital xml:id="rec_d357e315">
+               <num>(21)</num>
+               <p>The Programme should be implemented taking into account the recommendations and measures listed in the Commission communication of 6 June 2013 entitled &quot;Stepping up the fight against cigarette smuggling and other forms of illicit trade in tobacco products - A comprehensive EU Strategy&quot;, as well as the progress report of 12 May 2017 on the implementation of that communication.</p>
+            </recital>
+            <recital xml:id="rec_d357e331">
+               <num>(22)</num>
+               <p>The Union ratified the Protocol to Eliminate Illicit Trade in Tobacco Products to the World Health Organisation Framework Convention on Tobacco Control (the &apos;Protocol&apos;) in 2016. The Protocol serves to protect the Union&apos;s financial interests insofar as it concerns the fight against cross-border illicit trade in tobacco products, which causes revenue losses. The Programme should support the Secretariat of the World Health Organisation Framework Convention on Tobacco Control in its functions related to the Protocol. It should also support other activities organised by the Secretariat in connection with the fight against illicit trade in tobacco products.</p>
+            </recital>
+            <recital xml:id="rec_d357e341">
+               <num>(23)</num>
+               <p>In accordance with the Financial Regulation, Regulation (EU, Euratom) No 883/2013 of the European Parliament and of the Council<authorialNote placement="bottom" marker="12">
+                     <p>Regulation (EU, Euratom) No 883/2013 of the European Parliament and of the Council of 11 September 2013 concerning investigations conducted by the European Anti-Fraud Office (OLAF) and repealing Regulation (EC) No 1073/1999 of the European Parliament and of the Council and Council Regulation (Euratom) No 1074/1999 (OJ L 248, 18.9.2013, p. 1).</p>
+                  </authorialNote> and Council Regulations (Euratom, EC) No 2988/95<authorialNote placement="bottom" marker="13">
+                     <p>Council Regulation (Euratom, EC) No 2988/95 of 18 December 1995 on the protection of the European Communities financial interests (OJ L 312, 23.12.1995, p. 1).</p>
+                  </authorialNote>, (Euratom, EC) No 2185/96<authorialNote placement="bottom" marker="14">
+                     <p>Council Regulation (Euratom, EC) No 2185/96 of 11 November 1996 concerning on-the-spot checks and inspections carried out by the Commission in order to protect the European Communities&apos; financial interests against fraud and other irregularities (OJ L 292, 15.11.1996, p. 2).</p>
+                  </authorialNote> and (EU) 2017/1939, the financial interests of the Union are to be protected through proportionate measures, including measures relating to the prevention, detection, correction and investigation of irregularities, including fraud, to the recovery of funds lost, wrongly paid or incorrectly used, and, where appropriate, to the imposition of administrative penalties. In particular, in accordance with Regulations (Euratom, EC) No 2185/96 and (EU, Euratom) No 883/2013, the European Anti-Fraud Office (OLAF) has the power to carry out administrative investigations, including on-the-spot checks and inspections, with a view to establishing whether there has been fraud, corruption or any other illegal activity affecting the financial interests of the Union. The EPPO is empowered, in accordance with Regulation (EU) 2017/1939, to investigate and prosecute criminal offences affecting the financial interests of the Union as provided for in Directive (EU) 2017/1371 of the European Parliament and of the Council<authorialNote placement="bottom" marker="15">
+                     <p>Directive (EU) 2017/1371 of the European Parliament and of the Council of 5 July 2017 on the fight against fraud to the Union&apos;s financial interests by means of criminal law (OJ L 198, 28.7.2017, p. 29).</p>
+                  </authorialNote>. In accordance with the Financial Regulation, any person or entity receiving Union funds is to fully cooperate in the protection of the financial interests of the Union, grant the necessary rights and access to the Commission, OLAF, the Court of Auditors and, in respect of those Member States participating in enhanced cooperation pursuant to Regulation (EU) 2017/1939, the EPPO, and ensure that any third parties involved in the implementation of Union funds grant equivalent rights.</p>
+            </recital>
+            <recital xml:id="rec_d357e387">
+               <num>(24)</num>
+               <p>Third countries which are members of the EEA may participate in Union programmes in the framework of the cooperation established under the Agreement on the European Economic Area<authorialNote placement="bottom" marker="16">
+                     <p>OJ L 1, 3.1.1994, p. 3.</p>
+                  </authorialNote>, which provides for the implementation of the programmes on the basis of a decision adopted under that Agreement. Third countries may also participate on the basis of other legal instruments. A specific provision should be introduced in this Regulation requiring third countries to grant the necessary rights and access required for the authorising officer responsible, OLAF and the Court of Auditors to comprehensively exercise their respective competences.</p>
+            </recital>
+            <recital xml:id="rec_d357e399">
+               <num>(25)</num>
+               <p>Pursuant to Council Decision 2013/755/EU<authorialNote placement="bottom" marker="17">
+                     <p>Council Decision 2013/755/EU of 25 November 2013 on the association of the overseas countries and territories with the European Union (Overseas Association Decision) (OJ L 344, 19.12.2013, p. 1).</p>
+                  </authorialNote>, persons and entities established in overseas countries and territories are eligible for funding subject to the rules and objectives of the Programme and possible arrangements applicable to the Member State to which the relevant overseas country or territory is linked.</p>
+            </recital>
+            <recital xml:id="rec_d357e416">
+               <num>(26)</num>
+               <p>In order to ensure uniform conditions for the implementation of the Programme, implementing powers should be conferred on the Commission. The Commission should adopt work programmes setting out, inter alia, the priorities and the evaluation criteria for the grants for actions.</p>
+            </recital>
+            <recital xml:id="rec_d357e422">
+               <num>(27)</num>
+               <p>This Regulation should determine the maximum possible rate of co-financing for grants.</p>
+            </recital>
+            <recital xml:id="rec_d357e428">
+               <num>(28)</num>
+               <p>Pursuant to paragraphs 22 and 23 of the Interinstitutional Agreement of 13 April 2016 on Better Law-Making<authorialNote placement="bottom" marker="18">
+                     <p>OJ L 123, 12.5.2016, p. 1.</p>
+                  </authorialNote>, this Programme should be evaluated on the basis of information collected in accordance with specific monitoring requirements, while avoiding an administrative burden, in particular on Member States, and overregulation. Those requirements, where appropriate, should include measurable indicators as a basis for evaluating the effects of the Programme on the ground. Evaluation should be carried out in a timely, independent and objective manner.</p>
+            </recital>
+            <recital xml:id="rec_d357e443">
+               <num>(29)</num>
+               <p>The power to adopt acts in accordance with Article 290 TFEU should be delegated to the Commission in respect of amending the list of indicators to measure the achievement of the general and specific objectives where considered necessary, as well as supplementing this Regulation with provisions on the establishment of a monitoring and evaluation framework. It is of particular importance that the Commission carry out appropriate consultations during its preparatory work, including at expert level, and that those consultations be conducted in accordance with the principles laid down in the Interinstitutional Agreement of 13 April 2016 on Better Law-Making. In particular, to ensure equal participation in the preparation of delegated acts, the European Parliament and the Council receive all documents at the same time as Member States&apos; experts and their experts systematically have access to meetings of Commission expert groups dealing with the preparation of delegated acts.</p>
+            </recital>
+            <recital xml:id="rec_d357e453">
+               <num>(30)</num>
+               <p>Since the objectives of this Regulation cannot be sufficiently achieved by the Member States due to the cross-border nature of the issues involved, but can rather, by reason of the Union added value, be better achieved at Union level, the Union may adopt measures in accordance with the principle of subsidiarity as set out in Article 5 of the Treaty on European Union. In accordance with the principle of proportionality as set out in that Article, this Regulation does not go beyond what is necessary in order to achieve those objectives.</p>
+            </recital>
+            <recital xml:id="rec_d357e459">
+               <num>(31)</num>
+               <p>Article 42a(1) and (2) of Regulation (EC) No 515/97 is the legal basis for financing AFIS. This Regulation should replace that legal basis with a new one. Article 42a(1) and (2) of Regulation (EC) No 515/97 should therefore be deleted.</p>
+            </recital>
+            <recital xml:id="rec_d357e465">
+               <num>(32)</num>
+               <p>Regulation (EU) No 250/2014 establishing the Hercule III programme covered the period from 1 January 2014 to 31 December 2020. This Regulation should provide for a follow-up to the Hercule III programme, starting from 1 January 2021. Regulation (EU) No 250/2014 should therefore be repealed.</p>
+            </recital>
+            <recital xml:id="rec_d357e480">
+               <num>(33)</num>
+               <p>Reflecting the importance of tackling climate change in accordance with the Union&apos;s commitments to implement the Paris Agreement adopted under the United Nations Framework Convention on Climate Change, and to the United Nations Sustainable Development Goals, the Programme is intended to contribute to mainstreaming climate actions and the achievement of an overall target of 30 % of the Union budget supporting climate objectives.</p>
+            </recital>
+            <recital xml:id="rec_d357e486">
+               <num>(34)</num>
+               <p>In accordance with Article 193(2) of the Financial Regulation, a grant may be awarded for an action which has already begun, provided that the applicant can demonstrate the need for starting the action prior to signature of the grant agreement. However, the costs incurred prior to the date of submission of the grant application are not eligible, except in duly justified exceptional cases. In order to avoid any disruption in Union support which could be prejudicial to Union&apos;s interests, it should be possible to provide in the financing decision, during a limited period of time at the beginning of the multiannual financial framework 2021-2027, and only in duly justified cases, for eligibility of activities and costs from the beginning of the 2021 financial year, even if they were implemented and incurred before the grant application was submitted.</p>
+            </recital>
+            <recital xml:id="rec_d357e493">
+               <num>(35)</num>
+               <p>In order to ensure continuity in providing support in the relevant policy area and to allow implementation of the Programme from the beginning of the multiannual financial framework 2021-2027, this Regulation should enter into force as a matter of urgency and should apply, with retroactive effect, from 1 January 2021,</p>
+            </recital>
+         </recitals>
+         <formula name="enactingFormula">
+            <p>HAVE ADOPTED THIS REGULATION:</p>
+         </formula>
+      </preamble>
+      <body>
+         <chapter>
+            <num>CHAPTER I</num>
+            <heading>General Provisions</heading>
+            <article xml:id="art_d357e516">
+               <num>Article 1</num>
+               <heading>Subject matter</heading>
+               <paragraph>
+                  <content>
+                     <p>This Regulation establishes the Union Anti-Fraud Programme (the &apos;Programme&apos;) for the duration of the multiannual financial framework 2021-2027.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <content>
+                     <p>It lays down the objectives of the Programme, the budget for the period 2021-2027, the forms of Union funding and the rules for providing such funding.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d357e529">
+               <num>Article 2</num>
+               <heading>Programme objectives</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <subparagraph>
+                     <content>
+                        <p>The general objectives of the Programme are to:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(a)</num>
+                        <content>
+                           <p>protect the financial interests of the Union;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(b)</num>
+                        <content>
+                           <p>support mutual assistance between the administrative authorities of the Member States and cooperation between the latter and the Commission to ensure the correct application of the law on customs and agricultural matters.</p>
+                        </content>
+                     </point>
+                  </list>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <subparagraph>
+                     <content>
+                        <p>The specific objectives of the Programme are to:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(a)</num>
+                        <content>
+                           <p>prevent and combat fraud, corruption and any other illegal activities affecting the financial interests of the Union;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(b)</num>
+                        <content>
+                           <p>support the reporting of irregularities, including fraud, with regard to the shared management funds and pre-accession assistance funds of the Union budget;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(c)</num>
+                        <content>
+                           <p>provide tools for information exchange and support for operational activities in the field of mutual administrative assistance in customs and agricultural matters.</p>
+                        </content>
+                     </point>
+                  </list>
+               </paragraph>
+            </article>
+            <article xml:id="art_d357e578">
+               <num>Article 3</num>
+               <heading>Budget</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>The financial envelope for the implementation of the Programme for the period 2021-2027 shall be EUR 181,207 million in current prices.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <subparagraph>
+                     <content>
+                        <p>The indicative allocation of the amount referred to in paragraph 1 shall be as follows:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(a)</num>
+                        <content>
+                           <p>EUR 114,207 million for the objective referred to in Article 2(2), point (a);</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(b)</num>
+                        <content>
+                           <p>EUR 7 million for the objective referred to in Article 2(2), point (b);</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(c)</num>
+                        <content>
+                           <p>EUR 60 million for the objective referred to in Article 2(2), point (c).</p>
+                        </content>
+                     </point>
+                  </list>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <content>
+                     <p>Up to 2 % of the amount referred to in paragraph 1 may be used for technical and administrative assistance in connection with the implementation of the Programme, such as preparatory, monitoring, control, audit and evaluation activities, including corporate information technology systems. Moreover, the indicative allocation in point (a) of paragraph 2 takes due account of the fact that the Programme is the only Union programme addressing the expenditure side of the protection of the financial interests of the Union.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d357e618">
+               <num>Article 4</num>
+               <heading>Third countries associated to the Programme</heading>
+               <paragraph>
+                  <subparagraph>
+                     <content>
+                        <p>The Programme shall be open to the participation of the following third countries:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(a)</num>
+                        <content>
+                           <p>members of the European Free Trade Association which are members of the European Economic Area, in accordance with the conditions laid down in the Agreement on the European Economic Area;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(b)</num>
+                        <content>
+                           <p>acceding countries, candidate countries and potential candidates, in accordance with the general principles and general terms and conditions for the participation of those countries in Union programmes established in the respective framework agreements and Association Council decisions or similar agreements and in accordance with the specific conditions laid down in agreements between the Union and those countries;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(c)</num>
+                        <content>
+                           <p>European Neighbourhood Policy countries, in accordance with the general principles and general terms and conditions for the participation of those countries in Union programmes established in the respective framework agreements and Association Council decisions or in similar agreements and in accordance with the specific conditions laid down in agreements between the Union and those countries;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(d)</num>
+                        <alinea>
+                           <content>
+                              <p>other third countries, in accordance with the conditions laid down in a specific agreement covering the participation of the third country to any Union programme, provided that the agreement:</p>
+                           </content>
+                        </alinea>
+                        <list>
+                           <point>
+                              <num>(i)</num>
+                              <content>
+                                 <p>ensures a fair balance as regards the contributions and benefits of the third country participating in the Union programmes;</p>
+                              </content>
+                           </point>
+                           <point>
+                              <num>(ii)</num>
+                              <content>
+                                 <p>lays down the conditions of participation in the programmes, including the calculation of financial contributions to individual programmes, and their administrative costs;</p>
+                              </content>
+                           </point>
+                           <point>
+                              <num>(iii)</num>
+                              <content>
+                                 <p>does not confer to the third country any decision-making power in respect of the Union programme;</p>
+                              </content>
+                           </point>
+                           <point>
+                              <num>(iv)</num>
+                              <content>
+                                 <p>guarantees the rights of the Union to ensure sound financial management and to protect its financial interests.</p>
+                              </content>
+                           </point>
+                        </list>
+                     </point>
+                  </list>
+               </paragraph>
+               <paragraph>
+                  <content>
+                     <p>The contributions referred to in the first paragraph, point (d), (ii) shall constitute assigned revenues in accordance with Article 21(5) of the Financial Regulation.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d357e680">
+               <num>Article 5</num>
+               <heading>Implementation and forms of Union funding</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>The Programme shall be implemented in direct management in accordance with the Financial Regulation or in indirect management with a body referred to in Article 62(1), first subparagraph, point (c) of the Financial Regulation.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>The Programme may provide funding in any of the forms laid down in the Financial Regulation, in particular grants and procurement, as well as the reimbursement of travel and subsistence expenses as provided for in Article 238 of the Financial Regulation.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <content>
+                     <p>The Programme may provide funding for actions carried out in accordance with Regulation (EC) No 515/97, in particular to cover the types of costs referred to in the indicative list in Annex I to this Regulation.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>4.</num>
+                  <content>
+                     <p>Where the action supported involves the acquisition of equipment, the Commission shall, if appropriate, set up a coordination mechanism to ensure efficiency and interoperability between all the equipment purchased with the support of Union programmes.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d357e705">
+               <num>Article 6</num>
+               <heading>Protection of the financial interests of the Union</heading>
+               <paragraph>
+                  <content>
+                     <p>Where a third country participates in the Programme by means of a decision adopted pursuant to an international agreement or on the basis of any other legal instrument, the third country shall grant the necessary rights and access required for the authorising officer responsible, OLAF and the Court of Auditors to comprehensively exercise their respective competences. In the case of OLAF, such rights shall include the right to carry out investigations, including on-the-spot checks and inspections, as provided for in Regulation (EU, Euratom) No 883/2013.</p>
+                  </content>
+               </paragraph>
+            </article>
+         </chapter>
+         <chapter>
+            <num>CHAPTER II</num>
+            <heading>Grants</heading>
+            <article xml:id="art_d357e723">
+               <num>Article 7</num>
+               <heading>Grants</heading>
+               <paragraph>
+                  <content>
+                     <p>Grants under the Programme shall be awarded and managed in accordance with Title VIII of the Financial Regulation.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d357e731">
+               <num>Article 8</num>
+               <heading>Co-financing</heading>
+               <paragraph>
+                  <content>
+                     <p>The co-financing rate for grants awarded under the Programme shall not exceed 80 % of the eligible costs. Any funding in excess of that ceiling shall only be granted in exceptional and duly justified cases, which shall be defined in the work programmes referred to in Article 11, and such funding shall not exceed 90 % of the eligible costs.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d357e738">
+               <num>Article 9</num>
+               <heading>Eligible actions</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>Only actions implementing the objectives referred to in Article 2 shall be eligible for funding.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <subparagraph>
+                     <content>
+                        <p>Without prejudice to any other action provided by the work programmes under Article 11, the following actions may be considered eligible for funding:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(a)</num>
+                        <content>
+                           <p>providing technical knowledge, specialised and technically advanced equipment and effective IT tools enhancing transnational and multidisciplinary cooperation and cooperation with the Commission;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(b)</num>
+                        <content>
+                           <p>enhancing staff exchanges for specific projects, ensuring the necessary support and facilitating investigations, in particular the setting up of joint investigation teams and cross-border operations;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(c)</num>
+                        <content>
+                           <p>providing technical and operational support to national investigations, in particular to customs and law enforcement authorities to strengthen the fight against fraud and other illegal activities;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(d)</num>
+                        <content>
+                           <p>building IT capacity in the Member States and third countries, increasing data exchange and developing and providing IT tools for the investigation and monitoring of intelligence work;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(e)</num>
+                        <content>
+                           <p>organising specialised training, risk analysis workshops, conferences and studies aimed towards improving cooperation and coordination among services concerned with the protection of the financial interests of the Union;</p>
+                        </content>
+                     </point>
+                     <point>
+                        <num>(f)</num>
+                        <content>
+                           <p>any other action, provided by the work programmes under Article 11, which is necessary for achieving the general and specific objectives provided for in Article 2.</p>
+                        </content>
+                     </point>
+                  </list>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <content>
+                     <p>Where the action to be supported involves the acquisition of equipment, the Commission shall ensure that the funded equipment is appropriate for the purpose of contributing to the protection of the financial interest of the Union.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d357e796">
+               <num>Article 10</num>
+               <heading>Eligible entities</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>The eligibility criteria set out in paragraph 2 of this Article shall apply in addition to the criteria set out in Article 197 of the Financial Regulation.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <subparagraph>
+                     <content>
+                        <p>The following entities shall be eligible under the Programme:</p>
+                     </content>
+                  </subparagraph>
+                  <list>
+                     <point>
+                        <num>(a)</num>
+                        <alinea>
+                           <content>
+                              <p>public authorities which can contribute to achieving one of the objectives referred to in Article 2 and are established in:</p>
+                           </content>
+                        </alinea>
+                        <list>
+                           <point>
+                              <num>(i)</num>
+                              <content>
+                                 <p>a Member State or an overseas country or territory linked to it;</p>
+                              </content>
+                           </point>
+                           <point>
+                              <num>(ii)</num>
+                              <content>
+                                 <p>a third country associated to the Programme; or</p>
+                              </content>
+                           </point>
+                           <point>
+                              <num>(iii)</num>
+                              <content>
+                                 <p>a third country listed in the work programme under the conditions specified in paragraph 3;</p>
+                              </content>
+                           </point>
+                        </list>
+                     </point>
+                     <point>
+                        <num>(b)</num>
+                        <alinea>
+                           <content>
+                              <p>research and educational institutes and non-profit-making entities which can contribute to the achievement of the objectives referred to in Article 2, provided that they have been established and have been operating for at least one year in:</p>
+                           </content>
+                        </alinea>
+                        <list>
+                           <point>
+                              <num>(i)</num>
+                              <content>
+                                 <p>a Member State;</p>
+                              </content>
+                           </point>
+                           <point>
+                              <num>(ii)</num>
+                              <content>
+                                 <p>a third country associated to the Programme; or</p>
+                              </content>
+                           </point>
+                           <point>
+                              <num>(iii)</num>
+                              <content>
+                                 <p>a third country listed in a work programme under the conditions specified in paragraph 3;</p>
+                              </content>
+                           </point>
+                        </list>
+                     </point>
+                     <point>
+                        <num>(c)</num>
+                        <content>
+                           <p>any legal entity created under Union law or any international organisation.</p>
+                        </content>
+                     </point>
+                  </list>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <content>
+                     <p>Entities referred to in paragraph 2 established in a third country which is not associated to the Programme shall be exceptionally eligible under the Programme where this is necessary for the achievement of the objectives of a given action. Such entities shall in principle bear the cost of their participation, except in cases which shall be duly justified in the work programme.</p>
+                  </content>
+               </paragraph>
+            </article>
+         </chapter>
+         <chapter>
+            <num>CHAPTER III</num>
+            <heading>Programming, Monitoring, and Evaluation</heading>
+            <article xml:id="art_d357e888">
+               <num>Article 11</num>
+               <heading>Work programme</heading>
+               <paragraph>
+                  <content>
+                     <p>In order to implement the Programme, the Commission shall adopt work programmes referred to in Article 110 of the Financial Regulation.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d357e895">
+               <num>Article 12</num>
+               <heading>Monitoring and reporting</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>Indicators to report on the progress of the Programme towards the achievement of the general and specific objectives laid down in Article 2 are set out in Annex II.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>To ensure effective assessment of the Programme&apos;s progress towards the achievement of its objectives, the Commission is empowered to adopt delegated acts, in accordance with Article 14, to amend Annex II with regard to the indicators where considered necessary, as well as to supplement this Regulation with provisions on the establishment of a monitoring and evaluation framework.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <subparagraph>
+                     <content>
+                        <p>The Commission shall report annually on the performance of the Programme to the European Parliament and to the Council in the framework of its Annual Report on the protection of the Union&apos;s financial interests &#45; Fight against fraud.</p>
+                     </content>
+                  </subparagraph>
+                  <subparagraph>
+                     <content>
+                        <p>In the framework of discussions thereon, the European Parliament may make recommendations for the annual work programme. The Commission shall duly take those recommendations into account.</p>
+                     </content>
+                  </subparagraph>
+               </paragraph>
+               <paragraph>
+                  <num>4.</num>
+                  <content>
+                     <p>The performance reporting system shall ensure that data for monitoring the implementation and the results of the Programme are collected efficiently, effectively and in a timely manner. To that end, proportionate reporting requirements shall be imposed on recipients of Union funds and, where relevant, on the Member States.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d357e922">
+               <num>Article 13</num>
+               <heading>Evaluation</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>When conducting evaluations, the Commission shall ensure that they are conducted in an independent, objective and timely manner and that the evaluators are able to carry out their work free from any attempt to influence them.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>The interim evaluation of the Programme shall be performed once there is sufficient information available about the implementation of the Programme, but no later than four years after the start of the implementation of the Programme.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <content>
+                     <p>At the end of the implementation of the Programme, but no later than four years after the end of the period specified in Article 1, the Commission shall carry out a final evaluation of the Programme.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>4.</num>
+                  <content>
+                     <p>The Commission shall communicate the conclusions of the evaluations, accompanied by its observations, to the European Parliament, the Council, the European Economic and Social Committee, the Committee of the Regions and the Court of Auditors, and shall publish them on the Commission&apos;s website.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d357e947">
+               <num>Article 14</num>
+               <heading>Exercise of the delegation</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>The power to adopt delegated acts is conferred on the Commission subject to the conditions laid down in this Article.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>The power to adopt delegated acts referred to in Article 12(2) shall be conferred on the Commission until 31 December 2028.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <content>
+                     <p>The delegation of power referred to in Article 12(2) may be revoked at any time by the European Parliament or by the Council. A decision to revoke shall put an end to the delegation of power specified in that decision. It shall take effect the day following the publication of the decision in the <i>Official Journal of the European Union</i> or at a later date specified therein. It shall not affect the validity of any delegated acts already in force.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>4.</num>
+                  <content>
+                     <p>Before adopting a delegated act, the Commission shall consult experts designated by each Member State in accordance with the principles laid down in the Interinstitutional Agreement of 13 April 2016 on Better Law-Making.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>5.</num>
+                  <content>
+                     <p>As soon as it adopts a delegated act, the Commission shall notify it simultaneously to the European Parliament and to the Council.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>6.</num>
+                  <content>
+                     <p>A delegated act adopted pursuant to Article 12(2) shall enter into force only if no objection has been expressed either by the European Parliament or by the Council within a period of two months of notification of that act to the European Parliament and the Council or if, before the expiry of that period, the European Parliament and the Council have both informed the Commission that they will not object. That period shall be extended by two months at the initiative of the European Parliament or of the Council.</p>
+                  </content>
+               </paragraph>
+            </article>
+         </chapter>
+         <chapter>
+            <num>CHAPTER IV</num>
+            <heading>Transitional and Final Provisions</heading>
+            <article xml:id="art_d357e1003">
+               <num>Article 15</num>
+               <heading>Information, communication and visibility</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>Except where there is a risk of compromising the effective performance of anti-fraud and customs operational activities, the recipients of Union funding shall acknowledge the origin of those funds and ensure the visibility of the Union funding, in particular when promoting the actions and their results, by providing coherent, effective and proportionate targeted information to multiple audiences, including the media and the public.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>The Commission shall on a regular basis implement information and communication actions relating to the Programme, to actions taken pursuant to the Programme and to the results obtained. Financial resources allocated to the Programme shall also contribute to the corporate communication of the political priorities of the Union, insofar as those priorities are related to the objectives referred to in Article 2.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d357e1018">
+               <num>Article 16</num>
+               <heading>Amendment of Regulation (EC) No 515/97</heading>
+               <paragraph>
+                  <content>
+                     <p>In Article 42a of Regulation (EC) No 515/97, paragraphs 1 and 2 are deleted.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d357e1025">
+               <num>Article 17</num>
+               <heading>Repeal</heading>
+               <paragraph>
+                  <content>
+                     <p>Regulation (EU) No 250/2014 is repealed with effect from 1 January 2021.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d357e1035">
+               <num>Article 18</num>
+               <heading>Transitional provisions</heading>
+               <paragraph>
+                  <num>1.</num>
+                  <content>
+                     <p>This Regulation shall not affect the continuation or modification of the actions initiated pursuant to Regulation (EU) No 250/2014 and Article 42a of Regulation (EC) No 515/97, which shall continue to apply to those actions until their closure.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>2.</num>
+                  <content>
+                     <p>The financial envelope for the Programme may also cover technical and administrative assistance expenses necessary to ensure the transition between the Programme and the measures adopted pursuant to Regulation (EU) No 250/2014 and Article 42a of Regulation (EC) No 515/97.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <num>3.</num>
+                  <content>
+                     <p>In accordance with Article 193(2), second subparagraph, point (a) of the Financial Regulation, in duly justified cases specified in the financing decision and for a limited period, actions supported under this Regulation and the underlying costs may be considered eligible as of 1 January 2021, even if those actions were implemented and those costs incurred before the grant application was submitted.</p>
+                  </content>
+               </paragraph>
+            </article>
+            <article xml:id="art_d357e1059">
+               <num>Article 19</num>
+               <heading>Entry into force and application</heading>
+               <paragraph>
+                  <content>
+                     <p>This Regulation shall enter into force on the day of its publication in the <i>Official Journal of the European Union</i>.</p>
+                  </content>
+               </paragraph>
+               <paragraph>
+                  <content>
+                     <p>It shall apply from 1 January 2021.</p>
+                  </content>
+               </paragraph>
+            </article>
+         </chapter>
+         <clause>
+            <content>
+               <p>This Regulation shall be binding in its entirety and directly applicable in all Member States.</p>
+            </content>
+         </clause>
+      </body>
+      <conclusions>
+         <p>Done at Brussels, 29 April 2021.</p>
+         <block name="signatory">
+            <signature>
+               <organization refersTo="">For the European Parliament</organization>
+               <role refersTo="">The President</role>
+               <person refersTo="">D.M. SASSOLI</person>
+            </signature>
+            <signature>
+               <organization refersTo="">For the Council</organization>
+               <role refersTo="">The President</role>
+               <person refersTo="">A.P. ZACARIAS</person>
+            </signature>
+         </block>
+      </conclusions>
+   </bill>
+</akomaNtoso>

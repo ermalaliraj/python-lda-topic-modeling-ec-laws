@@ -1,0 +1,818 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"
+            xmlns:fmx="http://formex.publications.europa.eu/schema/formex-05.21-20110601.xd"
+            xmlns:leos="urn:eu:europa:ec:leos"
+            xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <bill name="">
+      <meta xmlns:fn="http://www.w3.org/2005/xpath-functions">
+         <identification source="~COM">
+            <FRBRWork>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRcountry value=""/>
+            </FRBRWork>
+            <FRBRExpression>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+               <FRBRlanguage language="eng"/>
+            </FRBRExpression>
+            <FRBRManifestation>
+               <FRBRthis value=""/>
+               <FRBRuri value=""/>
+               <FRBRdate date="2999-01-01" name=""/>
+               <FRBRauthor href=""/>
+            </FRBRManifestation>
+         </identification>
+      </meta>
+      <preface>
+         <longTitle>
+            <p>
+               <docStage/>
+               <docType>COMMISSION REGULATION (EU) 2016/2281</docType>of 30 November 2016<docPurpose>implementing Directive 2009/125/EC of the European Parliament and of the Council establishing a framework for the setting of ecodesign requirements for energy-related products, with regard to ecodesign requirements for air heating products, cooling products, high temperature process chillers and fan coil units</docPurpose>
+            </p>
+         </longTitle>
+         <container name="EEArelevance">
+            <p>(Text with EEA relevance)</p>
+         </container>
+      </preface>
+      <preamble>
+         <formula name="actingEntity">
+            <p>THE EUROPEAN COMMISSION,</p>
+         </formula>
+         <citations>
+            <citation>
+               <p>Having regard to the Treaty on the Functioning of the European Union,</p>
+            </citation>
+            <citation>
+               <p>Having regard to Directive 2009/125/EC of the European Parliament and of the Council of 21 October 2009 establishing a framework for the setting of ecodesign requirements for energy-related products<authorialNote placement="bottom" marker="1">
+                     <p>OJ L 285, 31.10.2009, p. 10.</p>
+                  </authorialNote> and in particular Article 15(1) thereof,</p>
+            </citation>
+            <citation>
+               <p>After consulting the Ecodesign Consultation Forum,</p>
+            </citation>
+         </citations>
+         <recitals xml:id="recs_d346e73">
+            <intro>
+               <p>Whereas:</p>
+            </intro>
+            <recital xml:id="rec_d346e76">
+               <num>(1)</num>
+               <p>Pursuant to Directive 2009/125/EC, the Commission should set ecodesign requirements for energy-related products for which there are significant volumes of sales and trade, which have a significant effect on the environment and which offer significant potential for reducing this effect by improving their design, without creating excessive costs.</p>
+            </recital>
+            <recital xml:id="rec_d346e82">
+               <num>(2)</num>
+               <p>Pursuant to Article 16(2)(a) of Directive 2009/125/EC, the Commission should, where appropriate, introduce implementing measures for products which offer significant potential for reducing greenhouse gas emissions in a cost-effective way, such as air heating products and cooling products. These implementing measures should be introduced in accordance with the procedure referred to in Article 19(3) of Directive 2009/125/EC and the criteria set out in Article 15(2) of the same Directive. The Commission should consult the Ecodesign Consultation Forum on the measures to be introduced.</p>
+            </recital>
+            <recital xml:id="rec_d346e88">
+               <num>(3)</num>
+               <p>The Commission has carried out different preparatory studies covering the technical, environmental and economic characteristics of air heating products, cooling products and high temperature process chillers typically used in the EU. The studies were designed in conjunction with interested parties from EU and non-EU countries, and the results have been made publicly available.</p>
+            </recital>
+            <recital xml:id="rec_d346e94">
+               <num>(4)</num>
+               <p>The characteristics of air heating products, cooling products and high temperature process chillers that have been identified as significant for the purposes of this Regulation are energy consumption and emissions of nitrogen oxides during use. Direct emissions from refrigerants and noise emissions were also identified as relevant.</p>
+            </recital>
+            <recital xml:id="rec_d346e100">
+               <num>(5)</num>
+               <p>The preparatory studies show that it is not necessary to introduce requirements relating to the other ecodesign parameters referred to in Part 1 of Annex I to Directive 2009/125/EC in the case of air heating products, cooling products and high temperature process chillers.</p>
+            </recital>
+            <recital xml:id="rec_d346e107">
+               <num>(6)</num>
+               <p>This Regulation should cover air heating products, cooling products and high temperature process chillers designed to use gaseous fuels, liquid fuels or electricity and fan coil units.</p>
+            </recital>
+            <recital xml:id="rec_d346e113">
+               <num>(7)</num>
+               <p>As refrigerants are addressed under Regulation (EU) No 517/2014 of the European Parliament and of the Council<authorialNote placement="bottom" marker="2">
+                     <p>Regulation (EU) No 517/2014 of the European Parliament and of the Council of 16 April 2014 on fluorinated greenhouse gases and repealing Regulation (EC) No 842/2006 (OJ L 150, 20.5.2014, p. 195).</p>
+                  </authorialNote> no specific requirements on refrigerants are therefore set in this Regulation.</p>
+            </recital>
+            <recital xml:id="rec_d346e129">
+               <num>(8)</num>
+               <p>Noise emissions for air heating products, cooling products, high temperature process chillers and fan coil units are also relevant. Nevertheless the environment where air heating products, cooling products and high temperature process chillers are installed has an impact on the maximum noise emissions that can be accepted. In addition, secondary measures can be taken in order to attenuate the impact of noise emissions. In consequence no minimum requirements are set regarding maximum noise emissions. Information requirements regarding sound power level are established</p>
+            </recital>
+            <recital xml:id="rec_d346e135">
+               <num>(9)</num>
+               <p>The combined annual energy consumption of air heating products, cooling products and high temperature process chillers in the EU was estimated at 2477 PJ (59 Mtoe) per year for 2010, corresponding to 107 Mt of carbon dioxide emissions. Unless specific measures are taken, the annual energy consumption of air heating products, cooling products and high temperature process chillers is expected to reach 2534 PJ (60 Mtoe) per year by 2030.</p>
+            </recital>
+            <recital xml:id="rec_d346e148">
+               <num>(10)</num>
+               <p>The energy consumption of air heating products, cooling products and high temperature process chillers could be reduced, without increasing the combined cost of purchasing and operating these products, using existing, non-proprietary technologies.</p>
+            </recital>
+            <recital xml:id="rec_d346e154">
+               <num>(11)</num>
+               <p>Total annual emissions of nitrogen oxides in the EU, primarily emitted by gas-fired warm air heaters, were estimated at 36 Mt SO<sub>x</sub> equivalent per year for 2010 (expressed in terms of their contribution to acidification). These emissions are expected to fall to 22 Mt SO<sub>x</sub> equivalent per year by 2030.</p>
+            </recital>
+            <recital xml:id="rec_d346e166">
+               <num>(12)</num>
+               <p>Emissions from air heating products, cooling products and high temperature process chillers could be further reduced, without increasing the combined cost of purchasing and operating these products, using existing, non-proprietary technologies.</p>
+            </recital>
+            <recital xml:id="rec_d346e172">
+               <num>(13)</num>
+               <p>The ecodesign requirements set out in this Regulation are expected to deliver annual energy savings of approximately 203 PJ (5 Mtoe), corresponding to 9 Mt of carbon dioxide emissions, by 2030.</p>
+            </recital>
+            <recital xml:id="rec_d346e178">
+               <num>(14)</num>
+               <p>The ecodesign requirements set out in this Regulation are expected to reduce annual nitrogen oxides emissions by 2,6 Mt SO<sub>x</sub> equivalent by 2030.</p>
+            </recital>
+            <recital xml:id="rec_d346e187">
+               <num>(15)</num>
+               <p>Ecodesign requirements should harmonise the requirements relating to energy efficiency and nitrogen oxides emissions that apply to air heating products and cooling products throughout the EU. This will help to improve both the functioning of the single market and the environmental performance of the products concerned.</p>
+            </recital>
+            <recital xml:id="rec_d346e193">
+               <num>(16)</num>
+               <p>The ecodesign requirements set out in this Regulation should not affect the functionality or affordability of air heating products, cooling products and high temperature process chillers for the end-user and should not have a detrimental effect on health, safety or the environment.</p>
+            </recital>
+            <recital xml:id="rec_d346e199">
+               <num>(17)</num>
+               <p>Manufacturers should be given sufficient time to redesign their products so that they comply with this Regulation. This should be considered when setting the date from which the requirements are to apply. The timing should take account of the cost implications for manufacturers, in particular for small and medium-sized enterprises, while also ensuring that the objectives of this Regulation can be met by the target dates.</p>
+            </recital>
+            <recital xml:id="rec_d346e205">
+               <num>(18)</num>
+               <p>Measurements of the relevant product parameters should be performed through reliable, accurate and reproducible measurement methods, which take into account the recognised state-of-the-art measurement methods including, where available, harmonised standards adopted by the European standardisation organisations, as listed in Annex I to Regulation (EU) No 1025/2012 of the European Parliament and of the Council<authorialNote placement="bottom" marker="3">
+                     <p>Regulation (EU) No 1025/2012 of the European Parliament and of the Council of 25 October 2012 on European standardisation, amending Council Directives 89/686/EEC and 93/15/EEC and Directives 94/9/EC, 94/25/EC, 95/16/EC, 97/23/EC, 98/34/EC, 2004/22/EC, 2007/23/EC, 2009/23/EC and 2009/105/EC of the European Parliament and of the Council and repealing Council Decision 87/95/EEC and Decision No 1673/2006/EC of the European Parliament and of the Council (OJ L 316, 14.11.2012, p. 12).</p>
+                  </authorialNote>.</p>
+            </recital>
+            <recital xml:id="rec_d346e222">
+               <num>(19)</num>
+               <p>In accordance with Article 8(2) of Directive 2009/125/EC, this Regulation specifies which conformity assessment procedures apply.</p>
+            </recital>
+            <recital xml:id="rec_d346e229">
+               <num>(20)</num>
+               <p>To facilitate compliance checks, manufacturers should provide information in the technical documentation referred to in Annexes IV and V to Directive 2009/125/EC insofar as that information relates to the requirements laid down in this Regulation.</p>
+            </recital>
+            <recital xml:id="rec_d346e235">
+               <num>(21)</num>
+               <p>To further limit the environmental effects of air heating products, cooling products, high temperature process chillers and fan coil units, manufacturers should provide information on disassembly, recycling and/or disposal.</p>
+            </recital>
+            <recital xml:id="rec_d346e241">
+               <num>(22)</num>
+               <p>In addition to the legally binding requirements laid down in this Regulation, indicative benchmarks for best available technologies should be identified to ensure that information on the environmental performance of air heating products, cooling products and high temperature process chillers is widely available and easily accessible.</p>
+            </recital>
+            <recital xml:id="rec_d346e247">
+               <num>(23)</num>
+               <p>The measures provided for in this Regulation are in accordance with the opinion of the Committee established by Article 19(1) of Directive 2009/125/EC,</p>
+            </recital>
+         </recitals>
+         <formula name="enactingFormula">
+            <p>HAS ADOPTED THIS REGULATION:</p>
+         </formula>
+      </preamble>
+      <body>
+         <article xml:id="art_d346e256">
+            <num>Article 1</num>
+            <heading>Subject matter and scope</heading>
+            <paragraph>
+               <num>1.</num>
+               <subparagraph>
+                  <content>
+                     <p>This Regulation establishes ecodesign requirements for the placing on the market and/or putting into service of:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <content>
+                        <p>air heating products with a rated heating capacity not exceeding 1 MW;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <content>
+                        <p>cooling products and high temperature process chillers with a rated cooling capacity not exceeding 2 MW;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(c)</num>
+                     <content>
+                        <p>fan coil units.</p>
+                     </content>
+                  </point>
+               </list>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <subparagraph>
+                  <content>
+                     <p>This Regulation shall not apply to products meeting at least one of the following criteria:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <content>
+                        <p>products covered by Commission Regulation (EU) 2015/1188 with regard to ecodesign requirements for local space heaters<authorialNote placement="bottom" marker="4">
+                              <p>Commission Regulation (EU) 2015/1188 of 28 April 2015 implementing Directive 2009/125/EC of the European Parliament and of the Council with regard to ecodesign requirements for local space heaters (OJ L 193, 21.7.2015, p. 76).</p>
+                           </authorialNote>;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <content>
+                        <p>products covered by Commission Regulation (EU) No 206/2012 with regard to ecodesign requirements for air conditioners and comfort fans<authorialNote placement="bottom" marker="5">
+                              <p>Commission Regulation (EU) No 206/2012 of 6 March 2012 implementing Directive 2009/125/EC of the European Parliament and of the Council with regard to ecodesign requirements for air conditioners and comfort fans (OJ L 72, 10.3.2012, p. 7).</p>
+                           </authorialNote>;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(c)</num>
+                     <content>
+                        <p>products covered by Commission Regulation (EU) No 813/2013 with regard to ecodesign requirements for space heaters and combination heaters<authorialNote placement="bottom" marker="6">
+                              <p>Commission Regulation (EU) No 813/2013 of 2 August 2013 implementing Directive 2009/125/EC of the European Parliament and of the Council with regard to ecodesign requirements for space heaters and combination heaters (OJ L 239, 6.9.2013, p. 136).</p>
+                           </authorialNote>;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(d)</num>
+                     <content>
+                        <p>products covered by Commission Regulation (EU) 2015/1095 with regard to ecodesign requirements for professional refrigerated storage cabinets, blast cabinets, condensing units and process chillers<authorialNote placement="bottom" marker="7">
+                              <p>Commission Regulation (EU) 2015/1095 of 5 May 2015 implementing Directive 2009/125/EC of the European Parliament and of the Council with regard to ecodesign requirements for professional refrigerated storage cabinets, blast cabinets, condensing units and process chillers (OJ L 177, 8.7.2015, p. 19).</p>
+                           </authorialNote>;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(e)</num>
+                     <content>
+                        <p>comfort chillers with leaving chilled water temperatures of less than + 2 °C and high temperature process chillers with leaving chilled water temperatures of less than + 2 °C or more than + 12 °C;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(f)</num>
+                     <content>
+                        <p>products designed for using predominantly biomass fuels;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(g)</num>
+                     <content>
+                        <p>products using solid fuels;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(h)</num>
+                     <content>
+                        <p>products that supply heat or cold in combination with electric power (&apos;cogeneration&apos;) by means of a fuel combustion or conversion process;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(i)</num>
+                     <content>
+                        <p>products included in installations covered by Directive 2010/75/EU of the European Parliament and of the Council<authorialNote placement="bottom" marker="8">
+                              <p>Directive 2010/75/EU of the European Parliament and of the Council of 24 November 2010 on industrial emissions (integrated pollution prevention and control) (OJ L 334, 17.12.2010, p. 17).</p>
+                           </authorialNote> on industrial emissions;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(j)</num>
+                     <content>
+                        <p>high temperature process chillers exclusively using evaporative condensing;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(k)</num>
+                     <content>
+                        <p>custom-made products assembled on site, made on a one-off basis;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(l)</num>
+                     <content>
+                        <p>high temperature process chillers in which refrigeration is effected by an absorption process that uses heat as the energy source; and</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(m)</num>
+                     <content>
+                        <p>air heating and/or cooling products of which the primary function is the purpose of producing or storing perishable materials at specified temperatures by commercial, institutional or industrial facilities and of which space heating and/or space cooling is a secondary function and for which the energy efficiency of the space heating and/or space cooling function is dependent on that of the primary function.</p>
+                     </content>
+                  </point>
+               </list>
+            </paragraph>
+         </article>
+         <article xml:id="art_d346e427">
+            <num>Article 2</num>
+            <heading>Definitions</heading>
+            <paragraph>
+               <subparagraph>
+                  <content>
+                     <p>For the purposes of this Regulation the following definitions shall apply in addition to the definitions set out in Directive 2009/125/EC:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(1)</num>
+                     <alinea>
+                        <content>
+                           <p>&apos;air heating product&apos; means a device that:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <content>
+                              <p>incorporates or provides heat to an air-based heating system;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <content>
+                              <p>is equipped with one or more heat generators; and</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(c)</num>
+                           <content>
+                              <p>may include an air-based heating system for supplying heated air directly into the heated space by means of an air-moving device.</p>
+                           </content>
+                        </point>
+                     </list>
+                     <alinea>
+                        <content>
+                           <p>A heat generator designed for an air heating product and an air heating product housing designed to be equipped with such a heat generator shall, together, be considered as an air heating product;</p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(2)</num>
+                     <content>
+                        <p>&apos;air-based heating system&apos; means the components and/or equipment necessary for the supply of heated air, by means of an air-moving device, either through ducting or directly into the heated space, where the purpose of the system is to attain and maintain the desired indoor temperature of an enclosed space, such as a building or parts thereof, for the thermal comfort of human beings;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(3)</num>
+                     <alinea>
+                        <content>
+                           <p>&apos;heat generator&apos; means the part of an air heating product that generates useful heat using one or more of the following processes:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <content>
+                              <p>the combustion of liquid or gaseous fuels;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <content>
+                              <p>the Joule effect, taking place in the heating elements of an electric resistance heating system;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(c)</num>
+                           <content>
+                              <p>by capturing heat from ambient air, ventilation exhaust air, water or ground heat source(s) and transferring this heat to the air-based heating system using a vapour compression cycle or a sorption cycle;</p>
+                           </content>
+                        </point>
+                     </list>
+                  </point>
+                  <point>
+                     <num>(4)</num>
+                     <alinea>
+                        <content>
+                           <p>&apos;cooling product&apos; means a device that:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <content>
+                              <p>incorporates, or provides chilled air or water to, an air-based cooling system or water-based cooling system; and</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <content>
+                              <p>is equipped with one or more cold generator(s).</p>
+                           </content>
+                        </point>
+                     </list>
+                     <alinea>
+                        <content>
+                           <p>A cold generator designed for use in a cooling product and a cooling product housing designed to be equipped with such a cold generator shall, together, be considered as a cooling product;</p>
+                        </content>
+                     </alinea>
+                  </point>
+                  <point>
+                     <num>(5)</num>
+                     <content>
+                        <p>&apos;air-based cooling system&apos; means the components or equipment necessary for the supply of cooled air, by means of an air-moving device, either through ducting or directly into the cooled space, in order to attain and maintain the desired indoor temperature of an enclosed space, such as a building or parts thereof, for the thermal comfort of human beings;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(6)</num>
+                     <content>
+                        <p>&apos;water-based cooling system&apos; means the components or equipment necessary for the distribution of chilled water and the transfer of heat from indoor spaces to chilled water, where the purpose of the system is to attain and maintain the desired indoor temperature of an enclosed space, such as a building or parts thereof, for the thermal comfort of human beings;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(7)</num>
+                     <content>
+                        <p>&apos;cold generator&apos; means the part of a cooling product that generates a temperature difference allowing heat to be extracted from the heat source, the indoor space to be cooled, and transferred to a heat sink, such as ambient air, water or ground, using a vapour compression cycle or a sorption cycle;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(8)</num>
+                     <alinea>
+                        <content>
+                           <p>&apos;comfort chiller&apos; means a cooling product:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <content>
+                              <p>whose indoor side heat exchanger (evaporator) extracts heat from a water-based cooling system (heat source), designed to operate at leaving chilled water temperatures greater than or equal to + 2 °C;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <content>
+                              <p>that is equipped with a cold generator; and</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(c)</num>
+                           <content>
+                              <p>whose outdoor side heat exchanger (condenser) releases this heat to ambient air, water or ground heat sink(s);</p>
+                           </content>
+                        </point>
+                     </list>
+                  </point>
+                  <point>
+                     <num>(9)</num>
+                     <content>
+                        <p>&apos;fan coil unit&apos; means a device that provides forced circulation of indoor air, for the purpose of one or more of heating, cooling, dehumidification and filtering of indoor air, for the thermal comfort of human beings, but which does not include the source of heating or cooling nor an outdoor side heat exchanger. The device may be equipped with minimal ductwork to guide the intake and exit of air, including conditioned air. The product may be designed to be built in or may have an enclosure allowing it be placed in the space to be conditioned. It may include a Joule effect heat generator designed to be used as back-up heater only;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(10)</num>
+                     <alinea>
+                        <content>
+                           <p>&apos;high temperature process chiller&apos; means a product:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(a)</num>
+                           <content>
+                              <p>integrating at least one compressor, driven or intended to be driven by an electric motor, and at least one evaporator;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(b)</num>
+                           <content>
+                              <p>capable of cooling down and continuously maintaining the temperature of a liquid, in order to provide cooling to a refrigerated appliance or system, the purpose of which is not to provide cooling of a space for the thermal comfort of human beings;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(c)</num>
+                           <content>
+                              <p>that is capable of delivering its rated refrigeration capacity, at an indoor side heat exchanger outlet temperature of 7 °C, at standard rating conditions;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(d)</num>
+                           <content>
+                              <p>that may or may not integrate the condenser, the coolant circuit hardware or other ancillary equipment;</p>
+                           </content>
+                        </point>
+                     </list>
+                  </point>
+                  <point>
+                     <num>(11)</num>
+                     <content>
+                        <p>&apos;rated refrigeration capacity&apos; (<i>P</i>) means the refrigeration capacity that the high temperature process chiller is able to reach, when operating at full load and measured at an inlet air temperature of 35 °C for air-cooled high temperature process chillers and at an inlet water temperature of 30 °C for water-cooled high temperature process chillers, expressed in kW;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(12)</num>
+                     <content>
+                        <p>&apos;air-cooled high temperature process chiller&apos; means a high temperature process chiller, of which the heat transfer medium at the condensing side is air;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(13)</num>
+                     <content>
+                        <p>&apos;water-cooled high temperature process chiller&apos; means a high temperature process chiller, of which the heat transfer medium at the condensing side is water or brine;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(14)</num>
+                     <content>
+                        <p>&apos;biomass fuel&apos; means a fuel produced from biomass;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(15)</num>
+                     <content>
+                        <p>&apos;biomass&apos; means the biodegradable part of products, waste and residues of biological origin from agriculture (including vegetal and animal substances), forestry and related industries including fisheries and aquaculture, and the biodegradable fraction of industrial and municipal waste;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(16)</num>
+                     <content>
+                        <p>&apos;solid fuel&apos; means a fuel which is solid at normal indoor room temperatures;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(17)</num>
+                     <content>
+                        <p>&apos;rated heating capacity&apos; (<i>P<sub>rated,h</sub>
+                           </i>) means the heating capacity of a heat pump, warm air heater or fan coil units when providing space heating at &apos;standard rating conditions&apos;, expressed in kW;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(18)</num>
+                     <content>
+                        <p>&apos;rated cooling capacity&apos; (<i>P<sub>rated,c</sub>
+                           </i>) means the cooling capacity of a comfort chiller and/or air conditioner or fan coil units when providing space cooling at &apos;standard rating conditions&apos;, expressed in kW;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(19)</num>
+                     <content>
+                        <p>&apos;standard rating conditions&apos; means the operating conditions of comfort chillers, air conditioners and heat pumps under which they are tested to determine their rated heating capacity, rated cooling capacity, sound power level and/or emissions of nitrogen oxides. For products using internal combustion engines, this is the engine rpm equivalent (<i>Erpm<sub>equivalent</sub>
+                           </i>);</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(20)</num>
+                     <content>
+                        <p>&apos;leaving chilled water temperature&apos; means the temperature of the water leaving the comfort chiller, expressed in degree Celsius.</p>
+                     </content>
+                  </point>
+               </list>
+            </paragraph>
+            <paragraph>
+               <content>
+                  <p>For the purposes of the Annexes II to V, additional definitions are set out in Annex I.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d346e751">
+            <num>Article 3</num>
+            <heading>Ecodesign requirements and timetable</heading>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>The ecodesign requirements for air heating products, cooling products, fan coil units and high temperature chillers are set out in Annex II.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <subparagraph>
+                  <content>
+                     <p>Each ecodesign requirement shall apply in accordance with the following timetable:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <alinea>
+                        <content>
+                           <p>From 1 January 2018:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(i)</num>
+                           <content>
+                              <p>air heating products shall comply with the requirements set out in point (1)(a) and point (5) of Annex II;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(ii)</num>
+                           <content>
+                              <p>cooling products shall comply with the requirements set out in point (2)(a) and point (5) of Annex II;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(iii)</num>
+                           <content>
+                              <p>high temperature process chillers shall comply with the requirements set out in point (3)(a) and point (5) of Annex II;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(iv)</num>
+                           <content>
+                              <p>fan coil units shall comply with the requirements set out in point (5) of Annex II.</p>
+                           </content>
+                        </point>
+                     </list>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <alinea>
+                        <content>
+                           <p>From 26 September 2018:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(i)</num>
+                           <content>
+                              <p>air heating products and cooling products shall comply with the requirements set out in point (4)(a) of Annex II.</p>
+                           </content>
+                        </point>
+                     </list>
+                  </point>
+                  <point>
+                     <num>(c)</num>
+                     <alinea>
+                        <content>
+                           <p>From 1 January 2021:</p>
+                        </content>
+                     </alinea>
+                     <list>
+                        <point>
+                           <num>(i)</num>
+                           <content>
+                              <p>air heating products shall comply with the requirements set out in point (1)(b) of Annex II;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(ii)</num>
+                           <content>
+                              <p>cooling products shall comply with the requirements set out in point (2)(b) of Annex II;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(iii)</num>
+                           <content>
+                              <p>high temperature process chillers shall comply with the requirements set out in point (3)(b) of Annex II;</p>
+                           </content>
+                        </point>
+                        <point>
+                           <num>(iv)</num>
+                           <content>
+                              <p>air heating products shall comply with the requirements set out in point (4)(b) of Annex II.</p>
+                           </content>
+                        </point>
+                     </list>
+                  </point>
+               </list>
+            </paragraph>
+            <paragraph>
+               <num>3.</num>
+               <content>
+                  <p>Compliance with ecodesign requirements shall be measured and calculated in accordance with the requirements set out in Annex III.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d346e860">
+            <num>Article 4</num>
+            <heading>Conformity assessment</heading>
+            <paragraph>
+               <content>
+                  <p>Manufacturers shall be able to choose whether to use, for the conformity assessment procedure referred to in Article 8(2) of Directive 2009/125/EC, either the internal design control set out in Annex IV to that Directive or the management system set out in Annex V to that Directive.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <content>
+                  <p>Manufacturers shall provide the technical documentation containing the information set out in point 5(c) of Annex II to this Regulation.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d346e870">
+            <num>Article 5</num>
+            <heading>Verification procedure for market surveillance purposes</heading>
+            <paragraph>
+               <content>
+                  <p>Member States&apos; competent authorities shall apply the verification procedure set out in Annex IV to this Regulation when performing the market surveillance checks referred to in Article 3(2) of Directive 2009/125/EC, to ensure compliance with the requirements set out in Annex II to this Regulation.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d346e877">
+            <num>Article 6</num>
+            <heading>Benchmarks</heading>
+            <paragraph>
+               <content>
+                  <p>The indicative benchmarks for classifying air heating products, cooling products and high temperature process chillers available on the market at the time of entry into force of this Regulation as &apos;best-performing&apos; are set out in Annex V to this Regulation.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d346e888">
+            <num>Article 7</num>
+            <heading>Review</heading>
+            <paragraph>
+               <subparagraph>
+                  <content>
+                     <p>The Commission shall review this Regulation in the light of technological progress made in connection to air heating products, cooling products and high temperature process chillers. It shall present the results of this review to the Ecodesign Consultation Forum no later than 1 January 2022. The review shall include an assessment of the following aspects:</p>
+                  </content>
+               </subparagraph>
+               <list>
+                  <point>
+                     <num>(a)</num>
+                     <content>
+                        <p>the appropriateness of setting ecodesign requirements covering direct greenhouse gas emissions caused by refrigerants;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(b)</num>
+                     <content>
+                        <p>the appropriateness of setting ecodesign requirements for high temperature process chillers using evaporative condensing and high temperature process chillers using absorption technology;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(c)</num>
+                     <content>
+                        <p>the appropriateness of setting stricter ecodesign requirements for the energy efficiency and emissions of nitrogen oxides of air heating products, cooling products and high temperature process chillers;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(d)</num>
+                     <content>
+                        <p>the appropriateness of setting ecodesign requirements for the noise emissions of air heating products, cooling products, high temperature process chillers and fan coil units;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(e)</num>
+                     <content>
+                        <p>the appropriateness of setting emission requirements on the basis of useful heating or cooling capacity, instead of energy input;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(f)</num>
+                     <content>
+                        <p>the appropriateness of setting ecodesign requirements for combination warm air heaters;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(g)</num>
+                     <content>
+                        <p>the appropriateness of setting energy labelling requirements for domestic air heating products;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(h)</num>
+                     <content>
+                        <p>the appropriateness of setting stricter ecodesign requirements for C<sub>2</sub> and C<sub>4</sub> warm air heaters;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(i)</num>
+                     <content>
+                        <p>the appropriateness of setting stricter ecodesign requirements for rooftop and ductable air conditioners and heat pumps;</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(j)</num>
+                     <content>
+                        <p>the appropriateness of third party certification; and</p>
+                     </content>
+                  </point>
+                  <point>
+                     <num>(k)</num>
+                     <content>
+                        <p>for all products, the value of the tolerances for verification, as mentioned in the verification procedures set out in Annex IV.</p>
+                     </content>
+                  </point>
+               </list>
+            </paragraph>
+         </article>
+         <article xml:id="art_d346e973">
+            <num>Article 8</num>
+            <heading>Derogation</heading>
+            <paragraph>
+               <num>1.</num>
+               <content>
+                  <p>Until 1 January 2018, Member States may allow the placing on the market and/or putting into service of air heating products, cooling products and high temperature process chillers that comply with their national provisions on seasonal energy efficiency or seasonal energy performance ratio in force at the time of the adoption of this Regulation.</p>
+               </content>
+            </paragraph>
+            <paragraph>
+               <num>2.</num>
+               <content>
+                  <p>Until 26 September 2018, Member States may allow the placing on the market and/or putting into service of air heating products and cooling products that comply with their national provisions on emissions of nitrogen oxides in force at the time of the adoption of this Regulation.</p>
+               </content>
+            </paragraph>
+         </article>
+         <article xml:id="art_d346e994">
+            <num>Article 9</num>
+            <heading>Entry into force</heading>
+            <paragraph>
+               <content>
+                  <p>This Regulation shall enter into force on the twentieth day following that of its publication in the <i>Official Journal of the European Union</i>.</p>
+               </content>
+            </paragraph>
+         </article>
+         <clause>
+            <content>
+               <p>This Regulation shall be binding in its entirety and directly applicable in all Member States.</p>
+            </content>
+         </clause>
+      </body>
+      <conclusions>
+         <p>Done at Brussels, 30 November 2016.</p>
+         <block name="signatory">
+            <signature>
+               <organization refersTo="">For the Commission</organization>
+               <role refersTo="">The President</role>
+               <person refersTo="">Jean-Claude JUNCKER</person>
+            </signature>
+         </block>
+      </conclusions>
+   </bill>
+</akomaNtoso>
