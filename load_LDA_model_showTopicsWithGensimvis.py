@@ -3,7 +3,7 @@ import pickle
 import pyLDAvis
 import pyLDAvis.gensim_models as gensimvis
 
-num_topics = 10
+num_topics = 20
 data_dir = "./data"
 year = "2016"
 fileModelName = './model/lda_model_EU_REG_year-' + year + '_nrtopics' + str(num_topics) + '.pkl'
