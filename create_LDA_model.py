@@ -9,9 +9,9 @@ import gensim
 import gensim.corpora as corpora
 import spacy
 
-num_topics = 50
+num_topics = 20
 data_dir = "./data"
-year = "2016-2021"
+year = "2016"
 fileModelName = './model/lda_model_EU_REG_year-' + year + '_nrtopics' + str(num_topics) + '.pkl'
 fileCampusName = './model/lda_model_EU_REG_year-' + year + '_nrtopics' + str(num_topics) + '_campus.pkl'
 
