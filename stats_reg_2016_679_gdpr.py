@@ -11,8 +11,8 @@ nlp = spacy.load("en_core_web_sm", disable=["parser", "ner"])
 
 pd.set_option('max_colwidth', 150)
 
-data_dir = "../output/oj/"
-file_name = "reg_2016_679_akn.xml"
+data_dir = "./data/"
+file_name = "reg_2016_679_akn_nr119seq0001.xml"
 
 
 def to_string_utf8(document):
