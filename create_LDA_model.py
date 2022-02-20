@@ -9,10 +9,11 @@ import gensim
 import gensim.corpora as corpora
 import spacy
 
+num_topics = 50
 data_dir = "./data"
 year = "2016-2021"
-fileModelName = './model/lda_model_EU_REG_year-' + year + '.pkl'
-fileCampusName = './model/lda_model_EU_REG_year-' + year + '_campus.pkl'
+fileModelName = './model/lda_model_EU_REG_year-' + year + '_nrtopics' + str(num_topics) + '.pkl'
+fileCampusName = './model/lda_model_EU_REG_year-' + year + '_nrtopics' + str(num_topics) + '_campus.pkl'
 
 
 def to_string_utf8(document):
@@ -46,7 +47,7 @@ docs = []
 for filename in os.listdir(data_dir):
     # if filename.startswith("reg_" + year) and filename.endswith(".xml"):
     if filename.endswith(".xml"):
-    # if filename.startswith("reg_" + year) and filename.endswith(".xml"):
+        # if filename.startswith("reg_" + year) and filename.endswith(".xml"):
         try:
             docs.append(get_doc_data(os.path.join(data_dir, filename)))
         except:
@@ -87,7 +88,7 @@ print("Corpus data saved in: ", outputFile.name)
 
 lda_model = gensim.models.ldamodel.LdaModel(corpus=corpus,
                                             id2word=id2word,
-                                            num_topics=100,  #
+                                            num_topics=num_topics,  #
                                             random_state=100,
                                             update_every=1,
                                             chunksize=100,
