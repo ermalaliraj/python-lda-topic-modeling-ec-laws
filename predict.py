@@ -14,14 +14,23 @@ def deserializeFile(file_name):
     return corpus
 
 
+def predict(lda_model, unseen_document):
+    id2word = lda_model.id2word
+    unseen_document = unseen_document.split()
+    unseen_bow = id2word.doc2bow(unseen_document)
+    predicted_top_topics = sorted(lda_model[unseen_bow], key=lambda tup: -1 * tup[1])
+    for index, score in predicted_top_topics:
+        print("Score: {}\t Topic:{} - {}".format(score, index, lda_model.print_topic(index, 20)))
+    print("\nPredicted topic (most probable): \n\tScore: {}\t Topic:{} - {}".format(predicted_top_topics[0][1],
+                                                                                    predicted_top_topics[0][0],
+                                                                                    lda_model.print_topic(predicted_top_topics[0][0], 20)))
+
+
 lda_model = deserializeFile(fileModelName)
-bow_corpus = deserializeFile(fileCampusName)
-print("Loaded Regulations model and corpus data.\n")
+print("Loaded Regulations model.\n")
 topics = lda_model.show_topics(num_topics=-1)
 print("All topics in the model", *topics, sep="\n")
 print("\n")
-
-id2word = lda_model.id2word
 
 unseen_document = 'In order to ensure a consistent level of protection for natural persons throughout the Union and to prevent divergences hampering ' \
                   'the free movement of personal data within the internal market, a Regulation is necessary to provide legal certainty and transparency for economic operators, ' \
@@ -31,13 +40,13 @@ unseen_document = 'In order to ensure a consistent level of protection for natur
                   'The proper functioning of the internal market requires that the free movement of personal data within the Union is not restricted or prohibited for reasons' \
                   ' connected with the protection of natural persons with regard to the processing of personal data. To take account of the specific situation of micro, ' \
                   'small and medium-sized enterprises, this Regulation includes a derogation for organisations with fewer than 250 employees with regard to record-keeping. '
-unseen_document = unseen_document.split()
-unseen_bow = id2word.doc2bow(unseen_document)
 
-predicted_top_topics = sorted(lda_model[unseen_bow], key=lambda tup: -1 * tup[1])
-for index, score in predicted_top_topics:
-    print("Score: {}\t Topic:{} - {}".format(score, index, lda_model.print_topic(index, 20)))
+predict(lda_model, unseen_document)
 
-print("\nPredicted topic (most probable): \n\tScore: {}\t Topic:{} - {}".format(predicted_top_topics[0][1],
-                                                                            predicted_top_topics[0][0],
-                                                                            lda_model.print_topic(predicted_top_topics[0][0], 20)))
+print("\n\n")
+unseen_document = 'clinical research health'
+predict(lda_model, unseen_document)
+
+print("\n\n")
+unseen_document = 'emission atmosphere'
+predict(lda_model, unseen_document)
