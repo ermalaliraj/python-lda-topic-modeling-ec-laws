@@ -1,10 +1,10 @@
 import pickle
 
+num_topics = 20
 data_dir = "./data"
-year = "2019"
-fileModelName = './model/lda_model_EU_REG_year-' + year + '.pkl'
-fileCampusName = './model/lda_model_EU_REG_year-' + year + '_campus.pkl'
-
+year = "2016"
+fileModelName = './model/lda_model_EU_REG_year-' + year + '_nrtopics' + str(num_topics) + '.pkl'
+fileCampusName = './model/lda_model_EU_REG_year-' + year + '_nrtopics' + str(num_topics) + '_campus.pkl'
 
 def deserializeFile(file_name):
     print("Loading ", file_name)
@@ -20,11 +20,11 @@ topics = lda_model.show_topics(num_topics=-1)
 print("All topics in the model", *topics, sep="\n")
 print("\n")
 
-for i, doc in enumerate(campus[:4]):
+for i, doc in enumerate(campus[:20]):
     doc_topics = lda_model[doc]
-    # print("topics", topics)
+    print("doc_topics", doc_topics)
     estimate = max(doc_topics, key=lambda x: x[1])
     # print("document: ", doc)
-    print("real topic: ", topics[i])
+    # print("real topic: ", topics[i])
     # print("document: ", doc)
-    print("estimate topic: ", estimate)
+    print("estimate topic: ", lda_model.get)

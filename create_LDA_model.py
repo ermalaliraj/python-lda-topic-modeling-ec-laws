@@ -9,7 +9,7 @@ import gensim
 import gensim.corpora as corpora
 import spacy
 
-num_topics = 20
+num_topics = 50
 data_dir = "./data"
 year = "2016"
 fileModelName = './model/lda_model_EU_REG_year-' + year + '_nrtopics' + str(num_topics) + '.pkl'
@@ -74,19 +74,20 @@ print("doc[4] cleaned - ", corpus_words[4][0: 150], "...")
 id2word = corpora.Dictionary(corpus_words)
 print("\nid2word size for full corpus: ", len(id2word))
 
-corpus = []
+bow_corpus = []
 for document in corpus_words:
-    doc_bow = id2word.doc2bow(document)
-    corpus.append(doc_bow)
-print("\ncorpus size: ", len(corpus))
-print("corpus[0][0:20]: ", corpus[0][0:20])
+    bow_doc = id2word.doc2bow(document)
+    bow_corpus.append(bow_doc)
+# bow_corpus = [id2word.doc2bow(doc) for doc in corpus_words]
+print("\ncorpus size: ", len(bow_corpus))
+print("corpus[0][0:20]: ", bow_corpus[0][0:20])
 
 outputFile = open(fileCampusName, 'wb')
-pickle.dump(corpus, outputFile)
+pickle.dump(bow_corpus, outputFile)
 outputFile.close()
 print("Corpus data saved in: ", outputFile.name)
 
-lda_model = gensim.models.ldamodel.LdaModel(corpus=corpus,
+lda_model = gensim.models.ldamodel.LdaModel(corpus=bow_corpus,
                                             id2word=id2word,
                                             num_topics=num_topics,  #
                                             random_state=100,
