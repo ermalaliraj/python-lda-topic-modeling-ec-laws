@@ -39,8 +39,8 @@ python visualize.py
     - PROS:
         - Easy to implement
     - CONS:
-        - A document is not expressed as a distributions of Topics, instead as a single Topic.
+        - A document is not expressed as a distribution of Topics, instead as a single Topic.
     
  
 ### Links 
-- [ktrain](https://pythonrepo.com/repo/amaiya-ktrain-python-deep-learning)
+- [ktrain - python library](https://pythonrepo.com/repo/amaiya-ktrain-python-deep-learning)
