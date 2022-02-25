@@ -14,7 +14,6 @@ cd python-lda-topic-modeling-ec-laws/ktrain
 ```
 pip install -r requirements.txt
 ```
-
 3. Train The Model:
 ```
 python train_model.py
@@ -27,8 +26,10 @@ python predict.py
 
 
 # Visualizations
-
-Running the app `visualize.py` a document distributions will be shown as  follow.
+Generate visualization file with document distributions.
+```
+python visualize.py
+``` 
 
 <img src="./img/ktrain_docs_distributions.png" width="80%" height="auto">
  

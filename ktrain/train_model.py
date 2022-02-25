@@ -18,9 +18,9 @@ nltk.download('wordnet')
 
 data_dir = "../data"
 year = "2016"
-fileModelName = './model/ktrain_model_EU_REG_year-' + year + '.pkl'
-fileTopicsName = './model/ktrain_model_EU_REG_year-' + year + '_topics.pkl'
-fileTopicsToDocsName = './model/ktrain_model_EU_REG_year-' + year + '_topics_to_docs.pkl'
+fileModel = './model/ktrain_model_EU_REG_year-' + year + '.pkl'
+fileTopics = './model/ktrain_model_EU_REG_year-' + year + '_topics.pkl'
+fileTopicsToDocs = './model/ktrain_model_EU_REG_year-' + year + '_topics_to_docs.pkl'
 
 
 def to_string_utf8(document):
@@ -70,9 +70,9 @@ print("\nKtrain Model built in ", timedelta(seconds=endBuildModel - endLoad), "s
 model.print_topics(show_counts=True)
 
 # Saving Model
-file = open(fileModelName, "wb")
+file = open(fileModel, "wb")
 pickle.dump(model, file)
-print("Model saved in: ", fileModelName)
+print("Model saved in: ", fileModel)
 
 print("Saving Metadata...(would be required for prediction)")
 topic_to_document = defaultdict(list)
@@ -80,7 +80,7 @@ for doc in documents:
     pred = model.predict([doc[1]])[0]
     found = False
     for i in range(len(pred)):
-        # if pred[i] >= 0.25:  # 0.25 is threshold value of similarity. Less than this is talking for different topic
+        if pred[i] >= 0.25:  # 0.25 is threshold value of similarity. Less than this is talking for different topic
             topic_to_document[i].append(doc[0])
             found = True
 
@@ -92,10 +92,10 @@ for topic_doc in range(len(topic_to_document)):
     print("Topic", topic_doc, "is found in", len(topic_to_document[topic_doc]), "documents")
 
 topics = model.get_topics()
-file = open(fileTopicsName, "wb")
+file = open(fileTopics, "wb")
 pickle.dump(topics, file)
-print("TOPICS saved in: ", fileTopicsName)
+print("TOPICS saved in: ", fileTopics)
 
-file = open(fileTopicsToDocsName, "wb")
+file = open(fileTopicsToDocs, "wb")
 pickle.dump(topic_to_document, file)
-print("MAPPER Topics-Documents saved in: ", fileTopicsToDocsName)
+print("MAPPER Topics-Documents saved in: ", fileTopicsToDocs)

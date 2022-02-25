@@ -4,7 +4,11 @@ import numpy as np
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 
-
+data_dir = "../data"
+year = "2016"
+fileModel = './model/ktrain_model_EU_REG_year-' + year + '.pkl'
+fileTopics = './model/ktrain_model_EU_REG_year-' + year + '_topics.pkl'
+fileTopicsToDocs = './model/ktrain_model_EU_REG_year-' + year + '_topics_to_docs.pkl'
 
 
 # Cleaning Text
@@ -16,19 +20,23 @@ def clean(text):
     for word in words:
         if word in stopwordList: continue
         cleaned_text += lemmatizer.lemmatize(word) + " "
-
     return cleaned_text
 
-text = input("Enter text: ")
-print("Loading Model and Metadata...")
-# Loading files required for prediction
-model = pickle.load(open("Topic_Recognizer.pkl", "rb"))
-topic_to_document = pickle.load(open("topic_to_document.pkl", "rb"))
-topics = pickle.load(open("Topics.pkl", "rb"))
+
+print("Loading Model and Topics...")
+model = pickle.load(open(fileModel, "rb"))
+topic_to_document = pickle.load(open(fileTopicsToDocs, "rb"))
+topics = pickle.load(open(fileTopics, "rb"))
+
+model.print_topics(show_counts=True)
+
+print("documents are spread as follow:")
+for topic_doc in range(len(topic_to_document)):
+    print("Topic", topic_doc, "is found in", len(topic_to_document[topic_doc]), "documents")
 
 # Generating Predictions
-pred = np.array(model.predict([clean(text)])[0])
-for ind in range(len(pred)):
-    if pred[ind] >= 0.25:  # 0.25 is threshold value for similarity.
-        print("Topic ->", topics[ind])
-        print("Similar Documents ->", topic_to_document[ind])
+text = input("\nEnter text: ")
+
+pred = np.argmax(model.predict([clean(text)]))
+print("Inserted text is similar to Topic", pred, " - \"", topics[pred], "\"")
+print(len(topic_to_document[pred]), "documents containing Topic", pred, ": ", topic_to_document[pred])
