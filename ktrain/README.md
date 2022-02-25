@@ -26,7 +26,7 @@ python predict.py
 
 
 # Visualizations
-Generate visualization file with document distributions.
+Generate visualization file with documents distributions.
 ```
 python visualize.py
 ``` 
