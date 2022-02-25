@@ -5,7 +5,7 @@ year = "2016"
 fileModel = './model/ktrain_model_EU_REG_year-' + year + '.pkl'
 fileTopics = './model/ktrain_model_EU_REG_year-' + year + '_topics.pkl'
 fileTopicsToDocs = './model/ktrain_model_EU_REG_year-' + year + '_topics_to_docs.pkl'
-fileTopicsVisualization = './out/ktrain_model_EU_REG_year-' + year + '_visualization.html'
+fileTopicsVisualization = './model/ktrain_model_EU_REG_year-' + year + '_visualization.html'
 
 
 def deserializeFile(file_name):
