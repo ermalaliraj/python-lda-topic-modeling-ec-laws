@@ -35,7 +35,7 @@ for topic_doc in range(len(topic_to_document)):
     print("Topic", topic_doc, "is found in", len(topic_to_document[topic_doc]), "documents")
 
 # Generating Predictions
-text = input("\nEnter text: ")
+text = input("\nEnter text: \n")
 
 pred = np.argmax(model.predict([clean(text)]))
 print("Inserted text is similar to Topic", pred, " - \"", topics[pred], "\"")
