@@ -12,7 +12,7 @@ fileTopicsToDocs = './model/ktrain_model_EU_REG_year-' + year + '_topics_to_docs
 
 
 # Cleaning Text
-def clean(text):
+def lemmatization(text):
     lemmatizer = WordNetLemmatizer()
     stopwordList = set(stopwords.words("english"))
     words = text.lower().split(" ")
@@ -37,6 +37,6 @@ for topic_doc in range(len(topic_to_document)):
 # Generating Predictions
 text = input("\nEnter text: \n")
 
-pred = np.argmax(model.predict([clean(text)]))
+pred = np.argmax(model.predict([lemmatization(text)]))
 print("Inserted text is similar to Topic", pred, " - \"", topics[pred], "\"")
 print(len(topic_to_document[pred]), "documents containing Topic", pred, ": ", topic_to_document[pred])
