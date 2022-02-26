@@ -48,5 +48,5 @@ The project is split in 3 files.
 
 
 ### Links
-- [Topic model using ktrain library](./ktrain)
+- [Topic model using ktrain library](./ktrain_model)
  
