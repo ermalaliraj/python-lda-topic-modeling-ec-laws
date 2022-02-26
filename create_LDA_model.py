@@ -62,23 +62,23 @@ print("doc[2] - ", docs[2][0: 150], "...")
 print("doc[3] - ", docs[3][0: 150], "...")
 print("doc[4] - ", docs[4][0: 150], "...")
 
-corpus_words = lemmatization(docs)
+documents_words = lemmatization(docs)
 endClean = timer()
 print("\nCleaned in", timedelta(seconds=endClean - endLoad), "seconds")
-print("doc[0] cleaned - ", corpus_words[0][0: 150], "...")
-print("doc[1] cleaned - ", corpus_words[1][0: 150], "...")
-print("doc[2] cleaned - ", corpus_words[2][0: 150], "...")
-print("doc[3] cleaned - ", corpus_words[3][0: 150], "...")
-print("doc[4] cleaned - ", corpus_words[4][0: 150], "...")
+print("documents_words[0] cleaned - ", documents_words[0][0: 150], "...")
+print("documents_words[1] cleaned - ", documents_words[1][0: 150], "...")
+print("documents_words[2] cleaned - ", documents_words[2][0: 150], "...")
+print("documents_words[3] cleaned - ", documents_words[3][0: 150], "...")
+print("documents_words[4] cleaned - ", documents_words[4][0: 150], "...")
 
-id2word = corpora.Dictionary(corpus_words)
+id2word = corpora.Dictionary(documents_words)
 print("\nid2word size for full corpus: ", len(id2word))
 
 bow_corpus = []
-for document in corpus_words:
+for document in documents_words:
     bow_doc = id2word.doc2bow(document)
     bow_corpus.append(bow_doc)
-# bow_corpus = [id2word.doc2bow(doc) for doc in corpus_words]
+# bow_corpus = [id2word.doc2bow(doc) for doc in documents_words]
 print("\ncorpus size: ", len(bow_corpus))
 print("corpus[0][0:20]: ", bow_corpus[0][0:20])
 

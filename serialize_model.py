@@ -30,18 +30,18 @@ def deserializeFile(file_name):
 
 start = timer()
 documents = deserializeFile(fileDocumentsArr)
-corpus_words = documents[:, 1]
-id2word = corpora.Dictionary(corpus_words)
+documents_words = documents[:, 1]
+id2word = corpora.Dictionary(documents_words)
 endLoad = timer()
-print(len(documents), "documents loaded in", timedelta(seconds=endLoad - start), "seconds. Each document is a list of words inside the list 'corpus_words'")
-print("Dictionary 'id2word' built with 'corpus_words'.  Size ", len(id2word))
-print("\ncorpus_words[0][:20]:", corpus_words[0][:20])
-print("corpus_words[1][:20]:", corpus_words[1][:20])
-print("corpus_words[2][:20]:", corpus_words[2][:20])
-print("corpus_words[3][:20]:", corpus_words[3][:20])
-print("corpus_words[4][:20]:", corpus_words[4][:20])
+print(len(documents), "documents loaded in", timedelta(seconds=endLoad - start), "seconds. Each document is a list of words inside the list 'documents_words'")
+print("Dictionary 'id2word' built with 'documents_words'.  Size ", len(id2word))
+print("\ndocuments_words[0][:20]:", documents_words[0][:20])
+print("documents_words[1][:20]:", documents_words[1][:20])
+print("documents_words[2][:20]:", documents_words[2][:20])
+print("documents_words[3][:20]:", documents_words[3][:20])
+print("documents_words[4][:20]:", documents_words[4][:20])
 
-bow_corpus = [id2word.doc2bow(document) for document in corpus_words]
+bow_corpus = [id2word.doc2bow(document) for document in documents_words]
 print("\n'doc2bow' using 'id2word' built for each document and saved in the list 'bow_corpus'. Length ", len(bow_corpus))
 print("bow_corpus[0][0:20]: ", bow_corpus[0][0:20])
 
