@@ -25,6 +25,8 @@ The project is split in 3 files.
     - WHAT: Visualise topics distribution of the model. 
     - OUTPUT: Html file Ex `./model/EU_REG_year-2016_nrtopics20_visualize.html`
 4. `predict.py`
+    - WHAT: Call the model using 4 unseen phrases. The phrase of prediction 1 is taken from the GDPR regulation. See `predict.out`
+    - OUTPUT: Print in the console the result of 4 predictions.
 
 
 ### Topics distribution using gensimvis
