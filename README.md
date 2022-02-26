@@ -26,7 +26,7 @@ The project is split in the following files:
     - OUTPUT: Html file with interactive visualisation. Ex `./model/EU_REG_year-2016_nrtopics20_visualize.html`
 4. `predict.py`
     - Tests the model using an unseen phrase and print the predicted Topic closer to the phrase. <br/>
-    See [`predict.out`](./out/predict.out) with all predictions.
+    See [`predict.out`](./out/predict.out) with all predictions. Or full [`logs`](./out/console.out)
     - OUTPUT: Print in the console the result of 4 predictions.
 5. `serialize_mapper_topic_to_docs.py`
     - Builds a mapper Topic-Documents expressed through a list as follows. 
