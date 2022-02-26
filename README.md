@@ -30,16 +30,20 @@ The project is split in 3 files.
     - OUTPUT: Print in the console the result of 4 predictions.
 5. `serialize_mapper_topic_to_docs.py`
     - WHAT: Build a map Topic-Documents. 
-    1) For each document, use the content to call the model and predict the related Topic.
-    2) Append the document filename to the predicted topic element in the list.
-    [   
-        [topic0, [doc1, doc2, doc3]]
-        [topic1, [doc1]]
-        ...
-    ] 
+        1) For each document, use the content to call the model and predict the related Topic.
+        2) Append the document filename to the predicted topic element in the list.
+           ``` 
+            [   
+                [topic0, [docName1, docName2, docName3]]
+                [topic1, [docName1]]
+                ...
+            ] 
+            ```
+    - OUTPUT: Mapper `EU_REG_year-2016_nrtopics20_topic_to_docs.pkl`
 6. `predict_documents.py`
     - WHAT: Test the model. Call the model using an unseen phrase, predict the closest topic to the phrase, and print the list of documents containing that topic. 
-
+    - OUTPUT: Print in the console the predicted Topic for an unseeen phrase and the related documents.
+    
 ### Topics distribution using gensimvis
 <img src="./img/laws_2016_20topics.png" width="100%" height="auto">
 
