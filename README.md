@@ -28,7 +28,7 @@ The project is split in 3 files.
 
 
 ### Topics distribution using gensimvis
-<img src="./img/laws_2016_20topics.png" width="80%" height="auto">
+<img src="./img/laws_2016_20topics.png" width="100%" height="auto">
 
 ### Part-of-speech (POS) tagging ofr GDPR regulation 
 <img src="./img/gdpr_pos.png" width="80%" height="auto">
