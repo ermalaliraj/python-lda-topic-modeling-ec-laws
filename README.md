@@ -48,6 +48,8 @@ The project is split in 3 files.
 ### Visualisation - Topics distribution using gensimvis
 <img src="./img/laws_2016_20topics.png" width="100%" height="auto">
 
+Download in local and consult the interactive [visualisation file](./model/EU_REG_year-2016_nrtopics20_visualize.html)
+
 
 ### Part-of-speech (POS) tagging for GDPR regulation 
 <img src="./img/gdpr_pos.png" width="80%" height="auto">
