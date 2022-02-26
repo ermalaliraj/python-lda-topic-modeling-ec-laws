@@ -17,7 +17,7 @@ data_dir = "./data"
 year = "2016"
 # year = "ALL"
 fileModel = './model/EU_REG_year-' + year + '_nrtopics' + str(num_topics) + '_model.pkl'
-fileCampus = './model/EU_REG_year-' + year + '_nrtopics' + str(num_topics) + '_bowcampus.pkl'
+fileBowCampus = './model/EU_REG_year-' + year + '_nrtopics' + str(num_topics) + '_bowcampus.pkl'
 fileDocumentsArr = './model/EU_REG_year-' + year + '_documentsArr.pkl'
 
 
@@ -45,7 +45,7 @@ bow_corpus = [id2word.doc2bow(document) for document in documents_words]
 print("\n'doc2bow' using 'id2word' built for each document and saved in the list 'bow_corpus'. Length ", len(bow_corpus))
 print("bow_corpus[0][0:20]: ", bow_corpus[0][0:20])
 
-outputFile = open(fileCampus, 'wb')
+outputFile = open(fileBowCampus, 'wb')
 pickle.dump(bow_corpus, outputFile)
 outputFile.close()
 print("\n'bow_corpus' saved in: ", outputFile.name)
@@ -65,3 +65,4 @@ print("\nModel built in ", timedelta(seconds=endBuildModel - startBuildModel), "
 outputFile = open(fileModel, 'wb')
 pickle.dump(lda_model, outputFile)
 print("Model saved in: ", outputFile.name)
+

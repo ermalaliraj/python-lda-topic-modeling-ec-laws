@@ -57,4 +57,5 @@ Download in your local and consult the interactive [visualisation file](./model/
 
 ### Links
 - [Topic model using ktrain library](./ktrain_model)
+- [ldamodel](https://radimrehurek.com/gensim/models/ldamodel.html)
  
