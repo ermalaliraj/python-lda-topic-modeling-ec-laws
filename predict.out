@@ -1,25 +1,59 @@
-Loading  ./model/lda_model_EU_REG_year-2019.pkl
-Loading  ./model/lda_model_EU_REG_year-2019_campus.pkl
-Loaded Regulations model and corpus data.
+C:\Users\admin\Documents\Projects\accademic\python\bigdata_and_ai\venv\Scripts\python.exe C:/Users/admin/Documents/Projects/accademic/python-lda-topic-modeling-ec-laws/predict.py
+Loading  ./model/EU_REG_year-2016_nrtopics20_model.pkl
+Loaded Regulations model.
 
 All topics in the model
-(0, '0.056*"fishing" + 0.036*"stock" + 0.019*"article" + 0.018*"water" + 0.017*"opportunity" + 0.016*"year" + 0.016*"regulation" + 0.015*"effort" + 0.014*"measure" + 0.012*"apply"')
-(1, '0.046*"datum" + 0.019*"information" + 0.014*"refer" + 0.013*"authority" + 0.012*"system" + 0.012*"accordance" + 0.011*"person" + 0.011*"national" + 0.010*"identity" + 0.009*"paragraph"')
-(2, '0.017*"product" + 0.017*"regulation" + 0.016*"substance" + 0.012*"accordance" + 0.012*"regard" + 0.010*"amend" + 0.010*"article" + 0.009*"opinion" + 0.009*"level" + 0.009*"use"')
-(3, '0.028*"institution" + 0.023*"risk" + 0.014*"exposure" + 0.013*"paragraph" + 0.013*"refer" + 0.012*"set" + 0.012*"point" + 0.012*"accordance" + 0.012*"requirement" + 0.010*"article"')
-(4, '0.016*"product" + 0.012*"regulation" + 0.010*"good" + 0.010*"authority" + 0.010*"service" + 0.009*"article" + 0.009*"provide" + 0.008*"market" + 0.008*"refer" + 0.008*"decision"')
-(5, '0.021*"establish" + 0.020*"budget" + 0.020*"refer" + 0.018*"withdrawal" + 0.018*"adopt" + 0.017*"decision" + 0.017*"person" + 0.016*"article" + 0.016*"date" + 0.015*"entity"')
-(6, '0.013*"authority" + 0.011*"information" + 0.009*"accordance" + 0.009*"provide" + 0.008*"include" + 0.008*"paragraph" + 0.008*"refer" + 0.008*"decision" + 0.007*"article" + 0.007*"member"')
-(7, '0.050*"vehicle" + 0.038*"emission" + 0.019*"manufacturer" + 0.018*"type" + 0.018*"approval" + 0.011*"requirement" + 0.011*"motor" + 0.010*"accordance" + 0.009*"duty" + 0.009*"system"')
-(8, '0.026*"vessel" + 0.015*"fishing" + 0.012*"catch" + 0.011*"specie" + 0.010*"refer" + 0.008*"paragraph" + 0.008*"point" + 0.008*"area" + 0.007*"article" + 0.007*"technical"')
-(9, '0.030*"provider" + 0.022*"paragraph" + 0.020*"refer" + 0.015*"entity" + 0.014*"replace" + 0.014*"resolution" + 0.013*"saver" + 0.012*"investment" + 0.012*"requirement" + 0.012*"payment"')
+(0, '0.039*"conformity" + 0.038*"safety" + 0.030*"body" + 0.026*"assessment" + 0.025*"market" + 0.023*"notify" + 0.019*"appliance" + 0.018*"subsystem" + 0.015*"requirement" + 0.015*"component"')
+(1, '0.045*"system" + 0.040*"power" + 0.037*"relevant" + 0.022*"connect" + 0.021*"operator" + 0.019*"module" + 0.017*"demand" + 0.017*"facility" + 0.016*"owner" + 0.015*"requirement"')
+(2, '0.005*"visceral" + 0.005*"alanine" + 0.000*"yogurt" + 0.000*"fermented" + 0.000*"animal" + 0.000*"datum" + 0.000*"disease" + 0.000*"concern" + 0.000*"provide" + 0.000*"article"')
+(3, '0.020*"datum" + 0.015*"act" + 0.014*"accordance" + 0.012*"report" + 0.011*"article" + 0.011*"term" + 0.010*"paragraph" + 0.010*"adopt" + 0.010*"transmission" + 0.010*"capacity"')
+(4, '0.072*"datum" + 0.034*"personal" + 0.028*"processing" + 0.026*"subject" + 0.024*"authority" + 0.021*"supervisory" + 0.020*"controller" + 0.014*"protection" + 0.013*"right" + 0.013*"purpose"')
+(5, '0.080*"animal" + 0.039*"disease" + 0.024*"provide" + 0.019*"establishment" + 0.019*"point" + 0.019*"rule" + 0.018*"health" + 0.016*"movement" + 0.016*"list" + 0.015*"product"')
+(6, '0.026*"public" + 0.021*"milk" + 0.020*"product" + 0.016*"school" + 0.015*"aid" + 0.015*"tendering" + 0.014*"scheme" + 0.014*"measure" + 0.014*"article" + 0.014*"office"')
+(7, '0.173*"generate" + 0.017*"emerge" + 0.008*"trec1" + 0.008*"pu-1,05" + 0.007*"offshore" + 0.007*"primary" + 0.006*"pgmd" + 0.006*"stably" + 0.005*"type" + 0.005*"excitation"')
+(8, '0.044*"plant" + 0.025*"product" + 0.021*"refer" + 0.018*"concern" + 0.017*"object" + 0.016*"act" + 0.015*"paragraph" + 0.015*"measure" + 0.014*"article" + 0.014*"breeding"')
+(9, '0.051*"engine" + 0.036*"approval" + 0.030*"type" + 0.023*"emission" + 0.017*"manufacturer" + 0.015*"technical" + 0.014*"requirement" + 0.013*"authority" + 0.012*"market" + 0.012*"mean"')
+(10, '0.039*"mrl" + 0.024*"level" + 0.022*"product" + 0.021*"exist" + 0.020*"residue" + 0.016*"regard" + 0.016*"maximum" + 0.016*"opinion" + 0.015*"regulation" + 0.014*"set"')
+(11, '0.019*"product" + 0.019*"risk" + 0.017*"skin" + 0.017*"cosmetic" + 0.015*"emergency" + 0.014*"opinion" + 0.014*"consider" + 0.013*"maximum" + 0.012*"concentration" + 0.012*"feed"')
+(12, '0.068*"claim" + 0.048*"health" + 0.027*"opinion" + 0.018*"follow" + 0.014*"application" + 0.014*"authorise" + 0.013*"regulation" + 0.013*"deliver" + 0.013*"provide" + 0.013*"pursuant"')
+(13, '0.048*"fishing" + 0.037*"vessel" + 0.032*"stock" + 0.026*"catch" + 0.021*"regulation" + 0.019*"fish" + 0.018*"refer" + 0.015*"fishery" + 0.014*"sea" + 0.014*"article"')
+(14, '0.024*"regulation" + 0.022*"amend" + 0.022*"regard" + 0.019*"food" + 0.017*"article" + 0.016*"accordance" + 0.015*"use" + 0.011*"adopt" + 0.011*"follow" + 0.011*"substance"')
+(15, '0.024*"good" + 0.021*"person" + 0.021*"entity" + 0.018*"list" + 0.016*"authorisation" + 0.014*"body" + 0.014*"article" + 0.013*"assistance" + 0.011*"legal" + 0.011*"include"')
+(16, '0.018*"import" + 0.018*"product" + 0.016*"price" + 0.015*"export" + 0.015*"producer" + 0.015*"sale" + 0.015*"industry" + 0.014*"country" + 0.014*"investigation" + 0.012*"market"')
+(17, '0.022*"border" + 0.017*"national" + 0.015*"accordance" + 0.014*"return" + 0.010*"country" + 0.009*"management" + 0.009*"include" + 0.009*"information" + 0.008*"operation" + 0.008*"refer"')
+(18, '0.029*"regulation" + 0.027*"good" + 0.027*"custom" + 0.020*"have" + 0.019*"regard" + 0.016*"amend" + 0.015*"product" + 0.014*"apply" + 0.014*"replace" + 0.013*"article"')
+(19, '0.021*"authority" + 0.012*"competent" + 0.012*"law" + 0.012*"public" + 0.011*"service" + 0.011*"regulation" + 0.011*"benchmark" + 0.010*"article" + 0.010*"provide" + 0.010*"paragraph"')
 
 
-real topic:  (0, '0.056*"fishing" + 0.036*"stock" + 0.019*"article" + 0.018*"water" + 0.017*"opportunity" + 0.016*"year" + 0.016*"regulation" + 0.015*"effort" + 0.014*"measure" + 0.012*"apply"')
-estimate topic:  (7, 0.61936146)
-real topic:  (1, '0.046*"datum" + 0.019*"information" + 0.014*"refer" + 0.013*"authority" + 0.012*"system" + 0.012*"accordance" + 0.011*"person" + 0.011*"national" + 0.010*"identity" + 0.009*"paragraph"')
-estimate topic:  (2, 0.8289099)
-real topic:  (2, '0.017*"product" + 0.017*"regulation" + 0.016*"substance" + 0.012*"accordance" + 0.012*"regard" + 0.010*"amend" + 0.010*"article" + 0.009*"opinion" + 0.009*"level" + 0.009*"use"')
-estimate topic:  (2, 0.7527909)
-real topic:  (3, '0.028*"institution" + 0.023*"risk" + 0.014*"exposure" + 0.013*"paragraph" + 0.013*"refer" + 0.012*"set" + 0.012*"point" + 0.012*"accordance" + 0.012*"requirement" + 0.010*"article"')
-estimate topic:  (2, 0.9978295)
+
+***** Prediction 1 *****
+Score: 0.6483144760131836	 Topic:4 - 0.072*"datum" + 0.034*"personal" + 0.028*"processing" + 0.026*"subject" + 0.024*"authority" + 0.021*"supervisory" + 0.020*"controller" + 0.014*"protection" + 0.013*"right" + 0.013*"purpose" + 0.010*"processor" + 0.010*"process" + 0.009*"refer" + 0.009*"information" + 0.009*"provide" + 0.008*"person" + 0.008*"regulation" + 0.008*"particular" + 0.008*"data" + 0.007*"include"
+Score: 0.12448104470968246	 Topic:19 - 0.021*"authority" + 0.012*"competent" + 0.012*"law" + 0.012*"public" + 0.011*"service" + 0.011*"regulation" + 0.011*"benchmark" + 0.010*"article" + 0.010*"provide" + 0.010*"paragraph" + 0.009*"accordance" + 0.008*"decision" + 0.008*"document" + 0.008*"information" + 0.008*"apply" + 0.007*"rule" + 0.007*"refer" + 0.007*"procedure" + 0.007*"provision" + 0.006*"application"
+Score: 0.07525645196437836	 Topic:5 - 0.080*"animal" + 0.039*"disease" + 0.024*"provide" + 0.019*"establishment" + 0.019*"point" + 0.019*"rule" + 0.018*"health" + 0.016*"movement" + 0.016*"list" + 0.015*"product" + 0.014*"accordance" + 0.014*"measure" + 0.014*"specie" + 0.014*"article" + 0.013*"adopt" + 0.012*"keep" + 0.012*"control" + 0.012*"refer" + 0.012*"concern" + 0.012*"act"
+Score: 0.062406424432992935	 Topic:17 - 0.022*"border" + 0.017*"national" + 0.015*"accordance" + 0.014*"return" + 0.010*"country" + 0.009*"management" + 0.009*"include" + 0.009*"information" + 0.008*"operation" + 0.008*"refer" + 0.007*"article" + 0.007*"decision" + 0.007*"cooperation" + 0.007*"provide" + 0.007*"staff" + 0.007*"relevant" + 0.007*"member" + 0.006*"european" + 0.006*"activity" + 0.006*"task"
+Score: 0.05618354305624962	 Topic:3 - 0.020*"datum" + 0.015*"act" + 0.014*"accordance" + 0.012*"report" + 0.011*"article" + 0.011*"term" + 0.010*"paragraph" + 0.010*"adopt" + 0.010*"transmission" + 0.010*"capacity" + 0.009*"delegate" + 0.009*"provide" + 0.009*"long" + 0.009*"statistic" + 0.009*"period" + 0.008*"power" + 0.008*"allocation" + 0.008*"refer" + 0.008*"regulation" + 0.008*"implement"
+Score: 0.024000462144613266	 Topic:1 - 0.045*"system" + 0.040*"power" + 0.037*"relevant" + 0.022*"connect" + 0.021*"operator" + 0.019*"module" + 0.017*"demand" + 0.017*"facility" + 0.016*"owner" + 0.015*"requirement" + 0.013*"transmission" + 0.011*"distribution" + 0.011*"park" + 0.011*"specify" + 0.010*"provide" + 0.009*"point" + 0.009*"generate" + 0.009*"voltage" + 0.008*"frequency" + 0.008*"connection"
+
+unseen phrase:  In order to ensure a consistent level of protection for natural persons throughout the Union and to prevent divergences hampering the free movement of personal data within the internal market, a Regulation is necessary to provide legal certainty and transparency for economic operators, including micro, small and medium-sized enterprises, and to provide natural persons in all Member States with the same level of legally enforceable rights and obligations and responsibilities for controllers and processors, to ensure consistent monitoring of the processing of personal data, and equivalent sanctions in all Member States as well as effective cooperation between the supervisory authorities of different Member States. The proper functioning of the internal market requires that the free movement of personal data within the Union is not restricted or prohibited for reasons connected with the protection of natural persons with regard to the processing of personal data. To take account of the specific situation of micro, small and medium-sized enterprises, this Regulation includes a derogation for organisations with fewer than 250 employees with regard to record-keeping. In addition, the Union institutions and bodies, and Member States and their supervisory authorities, are encouraged to take account of the specific needs of micro, small and medium-sized enterprises in the application of this Regulation. The notion of micro, small and medium-sized enterprises should draw from Article 2 of the Annex to Commission Recommendation 2003/361/EC
+Predicted as most probable with Score: 0.6485139727592468
+	 Topic:4 - 0.072*"datum" + 0.034*"personal" + 0.028*"processing" + 0.026*"subject" + 0.024*"authority" + 0.021*"supervisory" + 0.020*"controller" + 0.014*"protection" + 0.013*"right" + 0.013*"purpose" + 0.010*"processor" + 0.010*"process" + 0.009*"refer" + 0.009*"information" + 0.009*"provide" + 0.008*"person" + 0.008*"regulation" + 0.008*"particular" + 0.008*"data" + 0.007*"include"
+
+
+***** Prediction 2 *****
+unseen phrase:  clinical research health
+Predicted as most probable with Score: 0.49813541769981384
+	 Topic:5 - 0.080*"animal" + 0.039*"disease" + 0.024*"provide" + 0.019*"establishment" + 0.019*"point" + 0.019*"rule" + 0.018*"health" + 0.016*"movement" + 0.016*"list" + 0.015*"product" + 0.014*"accordance" + 0.014*"measure" + 0.014*"specie" + 0.014*"article" + 0.013*"adopt" + 0.012*"keep" + 0.012*"control" + 0.012*"refer" + 0.012*"concern" + 0.012*"act"
+
+
+***** Prediction 3 *****
+unseen phrase:  Hybrid electric vehicles (HEVs), plug-in hybrid electric vehicles (PHEVs), and all-electric vehicles (EVs) typically produce lower tailpipe emissions than conventional vehicles do. When measuring well-to-wheel emissions, the electricity source is important: for PHEVs and EVs, part or all of the power provided by the battery comes from off-board sources of electricity. There are emissions associated with the majority of electricity production
+Predicted as most probable with Score: 0.271775484085083
+	 Topic:3 - 0.020*"datum" + 0.015*"act" + 0.014*"accordance" + 0.012*"report" + 0.011*"article" + 0.011*"term" + 0.010*"paragraph" + 0.010*"adopt" + 0.010*"transmission" + 0.010*"capacity" + 0.009*"delegate" + 0.009*"provide" + 0.009*"long" + 0.009*"statistic" + 0.009*"period" + 0.008*"power" + 0.008*"allocation" + 0.008*"refer" + 0.008*"regulation" + 0.008*"implement"
+
+
+***** Prediction 4 *****
+unseen phrase:  new startup entrepreneur industry loan funds
+Predicted as most probable with Score: 0.7818029522895813
+	 Topic:16 - 0.018*"import" + 0.018*"product" + 0.016*"price" + 0.015*"export" + 0.015*"producer" + 0.015*"sale" + 0.015*"industry" + 0.014*"country" + 0.014*"investigation" + 0.012*"market" + 0.011*"measure" + 0.011*"duty" + 0.011*"injury" + 0.010*"information" + 0.009*"period" + 0.009*"concern" + 0.008*"party" + 0.008*"provide" + 0.007*"production" + 0.007*"dumping"
+
+Process finished with exit code 0
