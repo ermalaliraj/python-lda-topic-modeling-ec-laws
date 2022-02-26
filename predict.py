@@ -35,7 +35,7 @@ print("All topics in the model", *topics, sep="\n")
 print("\n")
 
 
-lda_model.get_document_topics(bow_corpus)
+# lda_model.get_document_topics(bow_corpus)
 
 
 #

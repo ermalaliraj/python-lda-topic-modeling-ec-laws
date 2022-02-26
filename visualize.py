@@ -6,9 +6,11 @@ import pyLDAvis.gensim_models as gensimvis
 num_topics = 20
 data_dir = "./data"
 year = "2016"
-fileModelName = './model/lda_model_EU_REG_year-' + year + '_nrtopics' + str(num_topics) + '.pkl'
-fileCampusName = './model/lda_model_EU_REG_year-' + year + '_nrtopics' + str(num_topics) + '_campus.pkl'
-outputFile = './model/lda_model_EU_REG_year-' + year + '_nrtopics' + str(num_topics) + '_topics.html'
+# year = "ALL"
+fileModel = './model/EU_REG_year-' + year + '_nrtopics' + str(num_topics) + '_model.pkl'
+fileCampus = './model/EU_REG_year-' + year + '_nrtopics' + str(num_topics) + '_bowcampus.pkl'
+fileVisualize = './model/EU_REG_year-' + year + '_nrtopics' + str(num_topics) + '_visualize.html'
+
 
 def deserializeFile(file_name):
     print("\nLoading ", file_name)
@@ -17,11 +19,11 @@ def deserializeFile(file_name):
     return corpus
 
 
-lda_model = deserializeFile(fileModelName)
-corpus = deserializeFile(fileCampusName)
+lda_model = deserializeFile(fileModel)
+corpus = deserializeFile(fileCampus)
 print("Loaded Regulations model and corpus data.")
 
 print("Preparing visualisation... ")
 visualisation = gensimvis.prepare(lda_model, corpus, lda_model.id2word, mds="mmds", R=30)
-pyLDAvis.save_html(visualisation, outputFile)
-print("Created Visualization file: ", outputFile)
+pyLDAvis.save_html(visualisation, fileVisualize)
+print("Created Visualization file: ", fileVisualize)

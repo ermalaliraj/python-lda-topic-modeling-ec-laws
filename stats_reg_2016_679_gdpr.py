@@ -19,7 +19,7 @@ def to_string_utf8(document):
     return document.decode('utf-8')
 
 
-def get_doc_data(filepath):
+def get_file_content(filepath):
     tree = ET.parse(filepath)
     document = ET.tostring(tree.getroot(), encoding='utf-8', method='text')
     document = to_string_utf8(document)
@@ -37,7 +37,7 @@ def count_pos(text):
     return words_as_pos
 
 
-docContent = get_doc_data(data_dir + file_name)
+docContent = get_file_content(data_dir + file_name)
 print("docContent: ", docContent[0: 250], "...")
 doc = nlp(docContent)
 
@@ -81,7 +81,7 @@ df_tmp = pd.DataFrame({'Most freq words': list(s_tmp.index[:20]),
 
 print("df_tmp: \n", df_tmp)
 
-# To reduce dimentionality of dictionary for topic modeling lemmas that have frequency count lower than 50th percentile and higher 99.9
+# To reduce dimensionality of dictionary for topic modeling lemmas that have frequency count lower than 50th percentile and higher 99.9
 #  percentile were deleted
 up_pct = s_lemma_freq.quantile(0.99)
 low_pct = s_lemma_freq.quantile(0.50)

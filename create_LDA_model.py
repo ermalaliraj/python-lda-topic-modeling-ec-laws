@@ -20,7 +20,7 @@ def to_string_utf8(document):
     return document.decode('utf-8')
 
 
-def get_doc_data(filepath):
+def get_file_content(filepath):
     tree = ET.parse(filepath)
     document = ET.tostring(tree.getroot(), encoding='utf-8', method='text')
     document = to_string_utf8(document)
@@ -49,7 +49,7 @@ for filename in os.listdir(data_dir):
     if filename.endswith(".xml"):
         # if filename.startswith("reg_" + year) and filename.endswith(".xml"):
         try:
-            docs.append(get_doc_data(os.path.join(data_dir, filename)))
+            docs.append(get_file_content(os.path.join(data_dir, filename)))
         except:
             pass
             # print(os.path.join(data_dir, x))
