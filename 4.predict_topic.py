@@ -77,11 +77,3 @@ predict(lda_model, unseen_document)
 print("\n***** Prediction 4 *****")
 unseen_document = 'new startup entrepreneur industry loan funds'
 predict(lda_model, unseen_document)
-
-
-bow_corpus = deserializeFile(fileBowCampus)
-topics = lda_model.get_document_topics(bow_corpus)
-print("bow_corpus: ", topics)
-for bow_doc in bow_corpus:
-    topics = lda_model.get_document_topics(bow_doc)
-    print("bow_doc: ", bow_doc)
