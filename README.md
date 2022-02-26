@@ -25,9 +25,11 @@ The project is split in 3 files.
     - WHAT: Visualise topics distribution of the model. 
     - OUTPUT: Html file Ex `./model/EU_REG_year-2016_nrtopics20_visualize.html`
 4. `predict.py`
-    - WHAT: Call the model using 4 unseen phrases. The phrase of prediction 1 is taken from the GDPR regulation. See `predict.out`
+    - WHAT: Test the model. Call the model using an unseen phrases and print the prediction made by it about which topic the phrase is closer too. 
+    In prediction 1 the phrase is taken from GDPR regulation. See [`predict.out`](predict.out).
     - OUTPUT: Print in the console the result of 4 predictions.
-
+5. `predict_documents.py`
+    - WHAT: Test the model. Call the model using an unseen phrase, predict the closest topic to the phrase, and print the list of documents containing that topic. 
 
 ### Topics distribution using gensimvis
 <img src="./img/laws_2016_20topics.png" width="100%" height="auto">
