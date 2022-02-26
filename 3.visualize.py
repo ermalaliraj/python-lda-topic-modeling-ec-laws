@@ -13,7 +13,7 @@ fileVisualize = './model/EU_REG_year-' + year + '_nrtopics' + str(num_topics) + 
 
 
 def deserializeFile(file_name):
-    print("\nLoading ", file_name)
+    print("Loading ", file_name)
     with open(file_name, 'rb') as f:
         corpus = pickle.load(f)
     return corpus

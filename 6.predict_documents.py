@@ -1,8 +1,7 @@
 """
 Test the model.
 1) Use LDA model to predict the closest topic to the unseen phrase.
-
-See 'serialize_mapper_topic_to_docs.py' to list the documents containing the predicted topic.
+2) Fetch from 'topic_to_documents' (built in 'serialize_mapper_topic_to_docs.py') the related documents to predicted topic.
 """
 
 import pickle
@@ -12,7 +11,7 @@ data_dir = "./data"
 year = "2016"
 # year = "ALL"
 fileModel = './model/EU_REG_year-' + year + '_nrtopics' + str(num_topics) + '_model.pkl'
-fileCampus = './model/EU_REG_year-' + year + '_nrtopics' + str(num_topics) + '_bowcampus.pkl'
+fileTopicToDocuments = './model/EU_REG_year-' + year + '_nrtopics' + str(num_topics) + '_topic_to_docs.pkl'
 
 
 def deserializeFile(file_name):
@@ -22,31 +21,27 @@ def deserializeFile(file_name):
     return file_content
 
 
-def listClosestTopics(lda_model, unseen_document):
-    id2word = lda_model.id2word
+def predictTopic(lda_model, unseen_document):
     unseen_document = unseen_document.split()
+    id2word = lda_model.id2word
     unseen_bow = id2word.doc2bow(unseen_document)
     predicted_top_topics = sorted(lda_model[unseen_bow], key=lambda tup: -1 * tup[1])
-    for index, score in predicted_top_topics:
-        print("Score: {}\t Topic:{} - {}".format(score, index, lda_model.print_topic(index, 20)))
-
-
-def predict(lda_model, unseen_document):
-    print("unseen phrase: ", unseen_document)
-    id2word = lda_model.id2word
-    unseen_document = unseen_document.split()
-    unseen_bow = id2word.doc2bow(unseen_document)
-    predicted_top_topics = sorted(lda_model[unseen_bow], key=lambda tup: -1 * tup[1])
-    print("Predicted as most probable with Score: {}\n\t Topic:{} - {}".format(predicted_top_topics[0][1],
-                                                                               predicted_top_topics[0][0],
-                                                                               lda_model.print_topic(predicted_top_topics[0][0], 20)))
+    return predicted_top_topics[0][0]
 
 
 lda_model = deserializeFile(fileModel)
-print("Loaded Regulations model.\n")
+topic_to_documents = deserializeFile(fileTopicToDocuments)
+print("Loaded Regulations model and mapper topic_to_documents.\n")
+
 topics = lda_model.show_topics(num_topics=-1)
 print("All topics in the model", *topics, sep="\n")
-print("\n")
+
+totDocsDistributed = 0
+for topic_doc in range(len(topic_to_documents)):
+    nrDocsForTopic = len(topic_to_documents[topic_doc])
+    print("Topic", topic_doc, "is found in", nrDocsForTopic, "documents")
+    totDocsDistributed += nrDocsForTopic
+print("Total nr of documents distributed in", len(topic_to_documents), "topics is", totDocsDistributed)
 
 print("\n***** Prediction 1 *****")
 # GDPR phrase
@@ -61,20 +56,31 @@ unseen_document = 'In order to ensure a consistent level of protection for natur
                   'authorities, are encouraged to take account of the specific needs of micro, small and medium-sized enterprises in the application of this Regulation. ' \
                   'The notion of micro, small and medium-sized enterprises should draw from Article 2 of the Annex to Commission Recommendation 2003/361/EC '
 
-listClosestTopics(lda_model, unseen_document)
-print()
-predict(lda_model, unseen_document)
+predictedTopic = predictTopic(lda_model, unseen_document)
+print("unseen phrase: ", unseen_document)
+print("Predicted Topic", predictedTopic, "-", lda_model.print_topic(predictedTopic))
+print("List of documents containing Topic", predictedTopic, "-", topic_to_documents[predictedTopic])
 
-print("\n\n***** Prediction 2 *****")
+print("\n***** Prediction 2 *****")
 unseen_document = 'clinical research health'
-predict(lda_model, unseen_document)
+predictedTopic = predictTopic(lda_model, unseen_document)
+print("unseen phrase: ", unseen_document)
+print("Predicted Topic", predictedTopic, "-", lda_model.print_topic(predictedTopic))
+print("List of documents containing Topic", predictedTopic, "-", topic_to_documents[predictedTopic])
 
-print("\n\n***** Prediction 3 *****")
+print("\n***** Prediction 3 *****")
 unseen_document = 'Hybrid electric vehicles (HEVs), plug-in hybrid electric vehicles (PHEVs), and all-electric vehicles (EVs) typically produce lower tailpipe emissions than ' \
                   'conventional vehicles do. When measuring well-to-wheel emissions, the electricity source is important: for PHEVs and EVs, part or all of the power provided by ' \
                   'the battery comes from off-board sources of electricity. There are emissions associated with the majority of electricity production'
-predict(lda_model, unseen_document)
+predictedTopic = predictTopic(lda_model, unseen_document)
+print("unseen phrase: ", unseen_document)
+print("Predicted Topic", predictedTopic, "-", lda_model.print_topic(predictedTopic))
+print("List of documents containing Topic", predictedTopic, "-", topic_to_documents[predictedTopic])
 
-print("\n\n***** Prediction 4 *****")
+print("\n***** Prediction 4 *****")
 unseen_document = 'new startup entrepreneur industry loan funds'
-predict(lda_model, unseen_document)
+predictedTopic = predictTopic(lda_model, unseen_document)
+print("unseen phrase: ", unseen_document)
+print("Predicted Topic", predictedTopic, "-", lda_model.print_topic(predictedTopic))
+print("List of documents containing Topic", predictedTopic, "-", topic_to_documents[predictedTopic])
+

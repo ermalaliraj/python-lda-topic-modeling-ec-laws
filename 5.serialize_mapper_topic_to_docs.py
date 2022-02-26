@@ -24,7 +24,6 @@ fileDocumentsArr = './model/EU_REG_year-' + year + '_documentsArr.pkl'
 
 
 def deserializeFile(file_name):
-    print("\nLoading ", file_name)
     with open(file_name, 'rb') as f:
         file_content = pickle.load(f)
     return file_content
