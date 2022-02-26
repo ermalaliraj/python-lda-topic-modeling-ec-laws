@@ -44,10 +44,12 @@ The project is split in 3 files.
     - WHAT: Test the model. Call the model using an unseen phrase, predict the closest topic to the phrase, and print the list of documents containing that topic. 
     - OUTPUT: Print in the console the predicted Topic for an unseeen phrase and the related documents.
     
-### Topics distribution using gensimvis
+    
+### Visualisation - Topics distribution using gensimvis
 <img src="./img/laws_2016_20topics.png" width="100%" height="auto">
 
-### Part-of-speech (POS) tagging ofr GDPR regulation 
+
+### Part-of-speech (POS) tagging for GDPR regulation 
 <img src="./img/gdpr_pos.png" width="80%" height="auto">
 
 
