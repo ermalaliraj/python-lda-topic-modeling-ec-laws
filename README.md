@@ -28,7 +28,16 @@ The project is split in 3 files.
     - WHAT: Test the model. Call the model using an unseen phrases and print the prediction made by it about which topic the phrase is closer too. 
     In prediction 1 the phrase is taken from GDPR regulation. See [`predict.out`](predict.out).
     - OUTPUT: Print in the console the result of 4 predictions.
-5. `predict_documents.py`
+5. `serialize_mapper_topic_to_docs.py`
+    - WHAT: Build a map Topic-Documents. 
+    1) For each document, use the content to call the model and predict the related Topic.
+    2) Append the document filename to the predicted topic element in the list.
+    [   
+        [topic0, [doc1, doc2, doc3]]
+        [topic1, [doc1]]
+        ...
+    ] 
+6. `predict_documents.py`
     - WHAT: Test the model. Call the model using an unseen phrase, predict the closest topic to the phrase, and print the list of documents containing that topic. 
 
 ### Topics distribution using gensimvis

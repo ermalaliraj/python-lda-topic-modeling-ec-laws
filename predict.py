@@ -1,3 +1,10 @@
+"""
+Test the model.
+1) Use LDA model to predict the closest topic to the unseen phrase.
+
+See 'serialize_mapper_topic_to_docs.py' to list the documents containing the predicted topic.
+"""
+
 import pickle
 
 num_topics = 20

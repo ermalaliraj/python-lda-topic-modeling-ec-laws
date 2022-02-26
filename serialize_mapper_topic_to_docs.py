@@ -1,3 +1,16 @@
+"""
+Build a map Topic-Documents and serialize it as a list:
+    [
+        [topic0, [doc1, doc2, doc3]]
+        [topic1, [doc1]]
+        ...
+    ]
+
+1) For each document, use the content to call the LDA model and predict the related Topic.
+2) Append the document filename to the predicted topic element in the list.
+"""
+
+
 import pickle
 from collections import defaultdict
 
@@ -19,7 +32,7 @@ def deserializeFile(file_name):
 
 lda_model = deserializeFile(fileModel)
 documents = deserializeFile(fileDocumentsArr)
-print("Loaded Regulations model and documents.\n")
+print("Loaded Regulations model and", len(documents), "documents.\n")
 
 topic_to_documents = defaultdict(list)
 for doc in documents:
@@ -28,15 +41,6 @@ for doc in documents:
     predicted_top_topics = sorted(lda_model[unseen_bow], key=lambda tup: -1 * tup[1])
     predictedTopic = predicted_top_topics[0][0]
     topic_to_documents[predictedTopic].append(doc[0])
-
-totDocsDistributed = 0
-print(len(documents), "documents are spread as follow:")
-for topic_doc in range(len(topic_to_documents)):
-    nrDocsForTopic = len(topic_to_documents[topic_doc])
-    print("Topic", topic_doc, "is found in", nrDocsForTopic, "documents")
-    totDocsDistributed += nrDocsForTopic
-print("Total nr of documents distributed in", len(topic_to_documents), "topics is", totDocsDistributed)
-print(len(documents) - totDocsDistributed, "documents do not belong to any topic! Strange!")
 
 outputFile = open(fileTopicToDocuments, 'wb')
 pickle.dump(topic_to_documents, outputFile)

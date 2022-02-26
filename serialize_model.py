@@ -1,3 +1,10 @@
+"""
+Build LDA model with the array build in 'serialize_documents_array.py'
+
+Serialize:
+- LDA Model
+- bow_corpus
+"""
 import pickle
 from datetime import timedelta
 from timeit import default_timer as timer

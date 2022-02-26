@@ -1,3 +1,10 @@
+"""
+Stat Utility file.
+
+Builds the Part of Speech (POS) tagging for the GDPR Regulation (reg/2016/679).
+The plot shows the most POS used are: "NOUN", "ADJ", "VERB", "ADV".
+This info can be used during the Lemmatization of the document content.
+"""
 import collections
 import re
 import xml.etree.ElementTree as ET
