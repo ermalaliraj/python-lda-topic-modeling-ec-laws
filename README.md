@@ -24,7 +24,7 @@ The project is split in the following files:
 3. `visualize.py`
     - Visualises topics distribution of the model. 
     - OUTPUT: Html file with interactive visualisation. Ex `./model/EU_REG_year-2016_nrtopics20_visualize.html`
-4. `predict.py`
+4. `4.predict_topic.py`
     - Tests the model using an unseen phrase and print the predicted Topic closer to the phrase. <br/>
     See [`predict.out`](./out/predict.out) with all predictions. Or full [`logs`](./out/console.out)
     - OUTPUT: Print in the console the result of 4 predictions.
