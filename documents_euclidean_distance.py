@@ -29,11 +29,13 @@ for bow_doc in bow_corpus:
 # euclidian distance of these vectors, and give that as a feedback
 # document to document
 
+
+# Jochen Steps
 # 1) train LDA model over my 100 regulations
-#  doc to topic metrixs (vectors) out of my lda
-#     for every single document, form 100 regulations i get my topic probability (using get_document:topics)
+#  doc to topic metrix (vectors) out of my lda
+#     for every single document, form 100 regulations i get my topic probability (using get_document_topics)
 #       we have a matrix with 100 vectors of probabilities##
-# go to my uiinseen document
+# go to my unseen document
 # and let LDA predict the topic probability
 # iterate all over 100 regulations and compute euclidian dinstance with my vector
 
