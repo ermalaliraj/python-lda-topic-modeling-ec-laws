@@ -4,9 +4,9 @@ Building a `machine learning` algorithm for predicting to which Topic a Document
 `LDA (Linear Discriminant Analysis)` technique will be used for classifying documents into topics and prediction. <br/>
 Documents are downloaded from the Official Journal of the European Commission using this [project](https://github.com/ermalaliraj/eur-lex-official-journal-sparql).
 
-###
+### Algorithm
 
-1. Load all documents from filesystem, cleans the xml tags, lemmatize the content, and create the array 'documents' as follows:
+1. Load all documents from filesystem, cleans the xml tags, lemmatize the content, and create the array `documents` as follows:
     ```
         [
             [fileName1, fileContent1],
@@ -22,7 +22,7 @@ Documents are downloaded from the Official Journal of the European Commission us
     lda_model = LdaModel(corpus=bow_corpus, id2word=id2word)
     ```
 3. Calculate the topic probabilities for each document in the training data. The heights probability, is treated as the predicted Topic for the specific document.
-After iterating all the documents we build the mapper 'topic_to_documents' as follow:
+After iterating all the documents we build the mapper `topic_to_documents` as follow:
     ```
     [
         [topic0, [docName1, docName2, docName3]]
@@ -34,8 +34,14 @@ After iterating all the documents we build the mapper 'topic_to_documents' as fo
 4. Make a prediction with an unseen phrase.
 The phrase is taken from GDPR regulation and the `Topic 4` is correctly found together with the filename `reg_2016_679_akn_nr119seq0001.xml`
 
+The file containing all the steps in sequence is `ALL.lda-topic-modeling-ec-laws.py`
 
 ### Project Structure
+
+For optimising the time we split the computation in 5 different files. 
+Ex, we don't need to wait 3 minutes each time we rebuild the model for loading all xml files in a `np array`. 
+Instead we can reuse the np array already saved in the filesystem using `spacy` library.
+
 The project is split in the following files: 
 1. `serialize_documents_array.py`
     - Loads all documents, reads fileContent, cleans xml, lemmatize, and creates the array `documents` with rows [fileName, fileContent] for each document.
