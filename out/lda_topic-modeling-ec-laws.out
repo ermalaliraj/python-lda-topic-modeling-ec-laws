@@ -1,0 +1,64 @@
+Total number of documents: 250 loaded in 0:03:10.656530 seconds. (lemmatized)
+
+Dictionary 'id2word' built with 'documents_words'.  Size  7446
+
+documents_words[0][:20]: ['european', 'parliament', '2016on', 'protection', 'natural', 'person', 'regard', 'processing', 'personal', 'datum', 'free', 'movement', 'datum', 'repeal', 'text', 'relevance', 'european', 'parliament', 'european', 'have']
+documents_words[1][:20]: ['2016amende', '216/2008', 'regard', 'essential', 'requirement', 'environmental', 'protection', 'relevance', 'european', 'have', 'regard', 'have', 'regard', '216/2008', 'common', 'rule', 'field', 'civil', 'aviation', 'establish']
+documents_words[2][:20]: ['2016amende', '748/2012', 'regard', 'implementation', 'essential', 'requirement', 'environmental', 'protection', 'relevance', 'european', 'have', 'regard', 'have', 'regard', '216/2008', 'common', 'rule', 'field', 'civil', 'aviation']
+documents_words[3][:20]: ['2016amende', 'concern', 'regard', 'nonylphenol', 'ethoxylate', 'relevance', 'european', 'have', 'regard', 'have', 'regard', 'concern', 'establish', 'amend', 'directive', 'repeal', 'particular', 'article', 'thereof', 'submit']
+documents_words[4][:20]: ['2016/27of', '2016amende', '999/2001', 'lay', 'rule', 'prevention', 'control', 'eradication', 'certain', 'transmissible', 'spongiform', 'encephalopathie', 'european', 'have', 'regard', 'have', 'regard', '999/2001', 'lay', 'rule']
+
+'doc2bow' using 'id2word' built for each document and saved in the list 'bow_corpus'. Length  250
+bow_corpus[0][0:20]:  [(0, 1), (1, 1), (2, 1), (3, 1), (4, 1), (5, 1), (6, 1), (7, 3), (8, 7), (9, 2), (10, 3), (11, 2), (12, 1), (13, 5), (14, 22), (15, 1), (16, 11), (17, 1), (18, 1), (19, 4)]
+
+Model built in  0:00:11.142959 seconds
+
+All topics in the model
+(0, '0.039*"conformity" + 0.038*"safety" + 0.030*"body" + 0.026*"assessment" + 0.025*"market" + 0.023*"notify" + 0.019*"appliance" + 0.018*"subsystem" + 0.015*"requirement" + 0.015*"component"')
+(1, '0.045*"system" + 0.040*"power" + 0.037*"relevant" + 0.022*"connect" + 0.021*"operator" + 0.019*"module" + 0.017*"demand" + 0.017*"facility" + 0.016*"owner" + 0.015*"requirement"')
+(2, '0.005*"visceral" + 0.005*"alanine" + 0.000*"yogurt" + 0.000*"fermented" + 0.000*"animal" + 0.000*"datum" + 0.000*"disease" + 0.000*"concern" + 0.000*"provide" + 0.000*"article"')
+(3, '0.020*"datum" + 0.015*"act" + 0.014*"accordance" + 0.012*"report" + 0.011*"article" + 0.011*"term" + 0.010*"paragraph" + 0.010*"adopt" + 0.010*"transmission" + 0.010*"capacity"')
+(4, '0.072*"datum" + 0.034*"personal" + 0.028*"processing" + 0.026*"subject" + 0.024*"authority" + 0.021*"supervisory" + 0.020*"controller" + 0.014*"protection" + 0.013*"right" + 0.013*"purpose"')
+(5, '0.080*"animal" + 0.039*"disease" + 0.024*"provide" + 0.019*"establishment" + 0.019*"point" + 0.019*"rule" + 0.018*"health" + 0.016*"movement" + 0.016*"list" + 0.015*"product"')
+(6, '0.026*"public" + 0.021*"milk" + 0.020*"product" + 0.016*"school" + 0.015*"aid" + 0.015*"tendering" + 0.014*"scheme" + 0.014*"measure" + 0.014*"article" + 0.014*"office"')
+(7, '0.173*"generate" + 0.017*"emerge" + 0.008*"trec1" + 0.008*"pu-1,05" + 0.007*"offshore" + 0.007*"primary" + 0.006*"pgmd" + 0.006*"stably" + 0.005*"type" + 0.005*"excitation"')
+(8, '0.044*"plant" + 0.025*"product" + 0.021*"refer" + 0.018*"concern" + 0.017*"object" + 0.016*"act" + 0.015*"paragraph" + 0.015*"measure" + 0.014*"article" + 0.014*"breeding"')
+(9, '0.051*"engine" + 0.036*"approval" + 0.030*"type" + 0.023*"emission" + 0.017*"manufacturer" + 0.015*"technical" + 0.014*"requirement" + 0.013*"authority" + 0.012*"market" + 0.012*"mean"')
+(10, '0.039*"mrl" + 0.024*"level" + 0.022*"product" + 0.021*"exist" + 0.020*"residue" + 0.016*"regard" + 0.016*"maximum" + 0.016*"opinion" + 0.015*"regulation" + 0.014*"set"')
+(11, '0.019*"product" + 0.019*"risk" + 0.017*"skin" + 0.017*"cosmetic" + 0.015*"emergency" + 0.014*"opinion" + 0.014*"consider" + 0.013*"maximum" + 0.012*"concentration" + 0.012*"feed"')
+(12, '0.068*"claim" + 0.048*"health" + 0.027*"opinion" + 0.018*"follow" + 0.014*"application" + 0.014*"authorise" + 0.013*"regulation" + 0.013*"deliver" + 0.013*"provide" + 0.013*"pursuant"')
+(13, '0.048*"fishing" + 0.037*"vessel" + 0.032*"stock" + 0.026*"catch" + 0.021*"regulation" + 0.019*"fish" + 0.018*"refer" + 0.015*"fishery" + 0.014*"sea" + 0.014*"article"')
+(14, '0.024*"regulation" + 0.022*"amend" + 0.022*"regard" + 0.019*"food" + 0.017*"article" + 0.016*"accordance" + 0.015*"use" + 0.011*"adopt" + 0.011*"follow" + 0.011*"substance"')
+(15, '0.024*"good" + 0.021*"person" + 0.021*"entity" + 0.018*"list" + 0.016*"authorisation" + 0.014*"body" + 0.014*"article" + 0.013*"assistance" + 0.011*"legal" + 0.011*"include"')
+(16, '0.018*"import" + 0.018*"product" + 0.016*"price" + 0.015*"export" + 0.015*"producer" + 0.015*"sale" + 0.015*"industry" + 0.014*"country" + 0.014*"investigation" + 0.012*"market"')
+(17, '0.022*"border" + 0.017*"national" + 0.015*"accordance" + 0.014*"return" + 0.010*"country" + 0.009*"management" + 0.009*"include" + 0.009*"information" + 0.008*"operation" + 0.008*"refer"')
+(18, '0.029*"regulation" + 0.027*"good" + 0.027*"custom" + 0.020*"have" + 0.019*"regard" + 0.016*"amend" + 0.015*"product" + 0.014*"apply" + 0.014*"replace" + 0.013*"article"')
+(19, '0.021*"authority" + 0.012*"competent" + 0.012*"law" + 0.012*"public" + 0.011*"service" + 0.011*"regulation" + 0.011*"benchmark" + 0.010*"article" + 0.010*"provide" + 0.010*"paragraph"')
+
+Topic distribution over the documents
+Topic 0 is found in 3 documents
+Topic 1 is found in 3 documents
+Topic 2 is found in 0 documents
+Topic 3 is found in 16 documents
+Topic 4 is found in 1 documents
+Topic 5 is found in 2 documents
+Topic 6 is found in 6 documents
+Topic 7 is found in 0 documents
+Topic 8 is found in 4 documents
+Topic 9 is found in 4 documents
+Topic 10 is found in 25 documents
+Topic 11 is found in 4 documents
+Topic 12 is found in 9 documents
+Topic 13 is found in 53 documents
+Topic 14 is found in 51 documents
+Topic 15 is found in 20 documents
+Topic 16 is found in 8 documents
+Topic 17 is found in 12 documents
+Total nr of documents distributed in 20 topics is 221
+
+***** Prediction 1 *****
+unseen phrase:  In order to ensure a consistent level of protection for natural persons throughout the Union and to prevent divergences hampering the free movement of personal data within the internal market, a Regulation is necessary to provide legal certainty and transparency for economic operators, including micro, small and medium-sized enterprises, and to provide natural persons in all Member States with the same level of legally enforceable rights and obligations and responsibilities for controllers and processors, to ensure consistent monitoring of the processing of personal data, and equivalent sanctions in all Member States as well as effective cooperation between the supervisory authorities of different Member States. The proper functioning of the internal market requires that the free movement of personal data within the Union is not restricted or prohibited for reasons connected with the protection of natural persons with regard to the processing of personal data. To take account of the specific situation of micro, small and medium-sized enterprises, this Regulation includes a derogation for organisations with fewer than 250 employees with regard to record-keeping. In addition, the Union institutions and bodies, and Member States and their supervisory authorities, are encouraged to take account of the specific needs of micro, small and medium-sized enterprises in the application of this Regulation. The notion of micro, small and medium-sized enterprises should draw from Article 2 of the Annex to Commission Recommendation 2003/361/EC
+Predicted Topic 4 - 0.072*"datum" + 0.034*"personal" + 0.028*"processing" + 0.026*"subject" + 0.024*"authority" + 0.021*"supervisory" + 0.020*"controller" + 0.014*"protection" + 0.013*"right" + 0.013*"purpose"
+List of documents containing Topic 4 - ['reg_2016_679_akn_nr119seq0001.xml']
+
+Process finished with exit code 0

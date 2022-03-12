@@ -43,4 +43,5 @@ python visualize.py
     
  
 ### Links 
+- [ktrain - doc](https://amaiya.github.io/ktrain/text/eda.html)
 - [ktrain - python library](https://pythonrepo.com/repo/amaiya-ktrain-python-deep-learning)

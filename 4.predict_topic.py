@@ -31,7 +31,7 @@ def listClosestTopics(lda_model, unseen_document):
         print("Score: {}\t Topic:{} - {}".format(score, index, lda_model.print_topic(index, 20)))
 
 
-def predict(lda_model, unseen_document):
+def predictTopic(lda_model, unseen_document):
     print("unseen phrase: ", unseen_document)
     id2word = lda_model.id2word
     unseen_document = unseen_document.split()
@@ -62,18 +62,18 @@ unseen_document = 'In order to ensure a consistent level of protection for natur
 
 listClosestTopics(lda_model, unseen_document)
 print()
-predict(lda_model, unseen_document)
+predictTopic(lda_model, unseen_document)
 
 print("\n***** Prediction 2 *****")
 unseen_document = 'clinical research health'
-predict(lda_model, unseen_document)
+predictTopic(lda_model, unseen_document)
 
 print("\n***** Prediction 3 *****")
 unseen_document = 'Hybrid electric vehicles (HEVs), plug-in hybrid electric vehicles (PHEVs), and all-electric vehicles (EVs) typically produce lower tailpipe emissions than ' \
                   'conventional vehicles do. When measuring well-to-wheel emissions, the electricity source is important: for PHEVs and EVs, part or all of the power provided by ' \
                   'the battery comes from off-board sources of electricity. There are emissions associated with the majority of electricity production'
-predict(lda_model, unseen_document)
+predictTopic(lda_model, unseen_document)
 
 print("\n***** Prediction 4 *****")
 unseen_document = 'new startup entrepreneur industry loan funds'
-predict(lda_model, unseen_document)
+predictTopic(lda_model, unseen_document)

@@ -4,6 +4,37 @@ Building a `machine learning` algorithm for predicting to which Topic a Document
 `LDA (Linear Discriminant Analysis)` technique will be used for classifying documents into topics and prediction. <br/>
 Documents are downloaded from the Official Journal of the European Commission using this [project](https://github.com/ermalaliraj/eur-lex-official-journal-sparql).
 
+###
+
+1. Load all documents from filesystem, cleans the xml tags, lemmatize the content, and create the array 'documents' as follows:
+    ```
+        [
+            [fileName1, fileContent1],
+            [fileName1, fileContent2],
+            ...
+        ]
+    ```
+2. Build the LDA model:
+    ```
+    documents_words = documents[:, 1]
+    id2word = corpora.Dictionary(documents_words)
+    bow_corpus = [id2word.doc2bow(document) for document in documents_words]
+    lda_model = LdaModel(corpus=bow_corpus, id2word=id2word)
+    ```
+3. Calculate the topic probabilities for each document in the training data. The heights probability, is treated as the predicted Topic for the specific document.
+After iterating all the documents we build the mapper 'topic_to_documents' as follow:
+    ```
+    [
+        [topic0, [docName1, docName2, docName3]]
+        [topic1, [docName4]]
+        ...
+    ]
+    ```
+
+4. Make a prediction with an unseen phrase.
+The phrase is taken from GDPR regulation and the `Topic 4` is correctly found together with the filename `reg_2016_679_akn_nr119seq0001.xml`
+
+
 ### Project Structure
 The project is split in the following files: 
 1. `serialize_documents_array.py`
@@ -58,4 +89,5 @@ Download in your local and consult the interactive [visualisation file](./model/
 ### Links
 - [Topic model using ktrain library](./ktrain_model)
 - [ldamodel](https://radimrehurek.com/gensim/models/ldamodel.html)
+- [Get regulations from EUR-lex](https://github.com/ermalaliraj/eur-lex-official-journal-sparql)
  

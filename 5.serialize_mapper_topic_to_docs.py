@@ -33,12 +33,14 @@ lda_model = deserializeFile(fileModel)
 documents = deserializeFile(fileDocumentsArr)
 print("Loaded Regulations model and", len(documents), "documents.\n")
 
+# Calculate the topic probabilities for each document in the training data.
+# The heights probability, is treated as the predicted Topic for the specific document.
+id2word = lda_model.id2word
 topic_to_documents = defaultdict(list)
 for doc in documents:
-    id2word = lda_model.id2word
-    unseen_bow = id2word.doc2bow(doc[1])
-    predicted_top_topics = sorted(lda_model[unseen_bow], key=lambda tup: -1 * tup[1])
-    predictedTopic = predicted_top_topics[0][0]
+    doc_bow = id2word.doc2bow(doc[1])
+    document_topics = sorted(lda_model.get_document_topics(doc_bow), key=lambda tup: -1 * tup[1])   #almost same accuracy as lda_model[doc_bow]
+    predictedTopic = document_topics[0][0]
     topic_to_documents[predictedTopic].append(doc[0])
 
 outputFile = open(fileTopicToDocuments, 'wb')

@@ -60,7 +60,7 @@ s_POS_freq = s_POS_freq.sort_values(ascending=False)
 df_tmp = pd.DataFrame(s_POS_freq, columns=['Frequency'], dtype=float)
 print("frequencies:  \n", df_tmp)
 
-df_tmp.plot.bar(alpha=0.5, color='c', legend=False, title='POS frequency in all texts combined')
+df_tmp.plot.bar(alpha=0.5, color='c', legend=False, title='POS frequency')
 plt.show()
 
 selected_POSs = ['NOUN', 'VERB', 'ADJ', 'ADV']
@@ -88,7 +88,7 @@ df_tmp = pd.DataFrame({'Most freq words': list(s_tmp.index[:20]),
 
 print("df_tmp: \n", df_tmp)
 
-# To reduce dimensionality of dictionary for topic modeling lemmas that have frequency count lower than 50th percentile and higher 99.9
+# To reduce dimensionality of dictionary for topic modelling lemmas that have frequency count lower than 50th percentile and higher 99.9
 #  percentile were deleted
 up_pct = s_lemma_freq.quantile(0.99)
 low_pct = s_lemma_freq.quantile(0.50)
