@@ -105,7 +105,11 @@ Download in your local and consult the interactive [visualisation file](./model/
 
 
 ### Links
-- [Topic model using ktrain library](./ktrain_model)
-- [ldamodel](https://radimrehurek.com/gensim/models/ldamodel.html)
-- [Get regulations from EUR-lex](https://github.com/ermalaliraj/eur-lex-official-journal-sparql)
- 
+- [Get regulations from EUR-lex - Dataset](https://github.com/ermalaliraj/eur-lex-official-journal-sparql)
+- [Topic Modelling by Félix Revert](https://towardsdatascience.com/the-complete-guide-for-topics-extraction-in-python-a6aaa6cedbbc)
+- [Topic Modelling by Susan Li](https://towardsdatascience.com/topic-modeling-and-latent-dirichlet-allocation-in-python-9bf156893c24)
+- [LDAModel](https://radimrehurek.com/gensim/models/ldamodel.html)
+- [Dictionary and BoW](https://radimrehurek.com/gensim/corpora/dictionary.html)
+- [Topic model using ktrain library](https://towardsdatascience.com/topic-modeling-and-latent-dirichlet-allocation-in-python-9bf156893c24)
+- [My Topic modelling using ktrain](./ktrain_model)
+- [My BigData And AI Portfolio](https://github.com/ermalaliraj/bigdata_and_ai)
