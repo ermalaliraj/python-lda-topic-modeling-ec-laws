@@ -21,12 +21,12 @@ def deserializeFile(file_name):
     return file_content
 
 
-def predictTopic(lda_model, unseen_document):
-    unseen_document = unseen_document.split()
+def predictTopic(lda_model, unseen_phrase):
+    unseen_phrase = unseen_phrase.split()
     id2word = lda_model.id2word
-    unseen_bow = id2word.doc2bow(unseen_document)
-    predicted_top_topics = sorted(lda_model[unseen_bow], key=lambda tup: -1 * tup[1])
-    return predicted_top_topics[0][0]
+    unseen_bow = id2word.doc2bow(unseen_phrase)
+    predicted_topics = sorted(lda_model[unseen_bow], key=lambda tup: -1 * tup[1])
+    return predicted_topics[0][0]
 
 
 lda_model = deserializeFile(fileModel)
@@ -45,7 +45,7 @@ print("Total nr of documents distributed in", len(topic_to_documents), "topics i
 
 print("\n***** Prediction 1 *****")
 # GDPR phrase
-unseen_document = 'In order to ensure a consistent level of protection for natural persons throughout the Union and to prevent divergences hampering the free movement ' \
+unseen_phrase = 'In order to ensure a consistent level of protection for natural persons throughout the Union and to prevent divergences hampering the free movement ' \
                   'of personal data within the internal market, a Regulation is necessary to provide legal certainty and transparency for economic operators, including micro, ' \
                   'small and medium-sized enterprises, and to provide natural persons in all Member States with the same level of legally enforceable rights and obligations and ' \
                   'responsibilities for controllers and processors, to ensure consistent monitoring of the processing of personal data, and equivalent sanctions in all Member States ' \
@@ -56,31 +56,31 @@ unseen_document = 'In order to ensure a consistent level of protection for natur
                   'authorities, are encouraged to take account of the specific needs of micro, small and medium-sized enterprises in the application of this Regulation. ' \
                   'The notion of micro, small and medium-sized enterprises should draw from Article 2 of the Annex to Commission Recommendation 2003/361/EC '
 
-predictedTopic = predictTopic(lda_model, unseen_document)
-print("unseen phrase: ", unseen_document)
+predictedTopic = predictTopic(lda_model, unseen_phrase)
+print("unseen phrase: ", unseen_phrase)
 print("Predicted Topic", predictedTopic, "-", lda_model.print_topic(predictedTopic))
 print("List of documents containing Topic", predictedTopic, "-", topic_to_documents[predictedTopic])
 
 print("\n***** Prediction 2 *****")
-unseen_document = 'clinical research health'
-predictedTopic = predictTopic(lda_model, unseen_document)
-print("unseen phrase: ", unseen_document)
+unseen_phrase = 'clinical research health'
+predictedTopic = predictTopic(lda_model, unseen_phrase)
+print("unseen phrase: ", unseen_phrase)
 print("Predicted Topic", predictedTopic, "-", lda_model.print_topic(predictedTopic))
 print("List of documents containing Topic", predictedTopic, "-", topic_to_documents[predictedTopic])
 
 print("\n***** Prediction 3 *****")
-unseen_document = 'Hybrid electric vehicles (HEVs), plug-in hybrid electric vehicles (PHEVs), and all-electric vehicles (EVs) typically produce lower tailpipe emissions than ' \
+unseen_phrase = 'Hybrid electric vehicles (HEVs), plug-in hybrid electric vehicles (PHEVs), and all-electric vehicles (EVs) typically produce lower tailpipe emissions than ' \
                   'conventional vehicles do. When measuring well-to-wheel emissions, the electricity source is important: for PHEVs and EVs, part or all of the power provided by ' \
                   'the battery comes from off-board sources of electricity. There are emissions associated with the majority of electricity production'
-predictedTopic = predictTopic(lda_model, unseen_document)
-print("unseen phrase: ", unseen_document)
+predictedTopic = predictTopic(lda_model, unseen_phrase)
+print("unseen phrase: ", unseen_phrase)
 print("Predicted Topic", predictedTopic, "-", lda_model.print_topic(predictedTopic))
 print("List of documents containing Topic", predictedTopic, "-", topic_to_documents[predictedTopic])
 
 print("\n***** Prediction 4 *****")
-unseen_document = 'new startup entrepreneur industry loan funds'
-predictedTopic = predictTopic(lda_model, unseen_document)
-print("unseen phrase: ", unseen_document)
+unseen_phrase = 'new startup entrepreneur industry loan funds'
+predictedTopic = predictTopic(lda_model, unseen_phrase)
+print("unseen phrase: ", unseen_phrase)
 print("Predicted Topic", predictedTopic, "-", lda_model.print_topic(predictedTopic))
 print("List of documents containing Topic", predictedTopic, "-", topic_to_documents[predictedTopic])
 

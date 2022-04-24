@@ -1,6 +1,4 @@
-Total number of documents: 250 loaded in 0:03:10.656530 seconds. (lemmatized)
-
-Dictionary 'id2word' built with 'documents_words'.  Size  7446
+Total number of documents: 250 loaded in 0:03:06.114914 seconds. (lemmatized)
 
 documents_words[0][:20]: ['european', 'parliament', '2016on', 'protection', 'natural', 'person', 'regard', 'processing', 'personal', 'datum', 'free', 'movement', 'datum', 'repeal', 'text', 'relevance', 'european', 'parliament', 'european', 'have']
 documents_words[1][:20]: ['2016amende', '216/2008', 'regard', 'essential', 'requirement', 'environmental', 'protection', 'relevance', 'european', 'have', 'regard', 'have', 'regard', '216/2008', 'common', 'rule', 'field', 'civil', 'aviation', 'establish']
@@ -8,11 +6,12 @@ documents_words[2][:20]: ['2016amende', '748/2012', 'regard', 'implementation', 
 documents_words[3][:20]: ['2016amende', 'concern', 'regard', 'nonylphenol', 'ethoxylate', 'relevance', 'european', 'have', 'regard', 'have', 'regard', 'concern', 'establish', 'amend', 'directive', 'repeal', 'particular', 'article', 'thereof', 'submit']
 documents_words[4][:20]: ['2016/27of', '2016amende', '999/2001', 'lay', 'rule', 'prevention', 'control', 'eradication', 'certain', 'transmissible', 'spongiform', 'encephalopathie', 'european', 'have', 'regard', 'have', 'regard', '999/2001', 'lay', 'rule']
 
+Dictionary 'id2word' built with 'documents_words'.  Size  7446
+
 'doc2bow' using 'id2word' built for each document and saved in the list 'bow_corpus'. Length  250
 bow_corpus[0][0:20]:  [(0, 1), (1, 1), (2, 1), (3, 1), (4, 1), (5, 1), (6, 1), (7, 3), (8, 7), (9, 2), (10, 3), (11, 2), (12, 1), (13, 5), (14, 22), (15, 1), (16, 11), (17, 1), (18, 1), (19, 4)]
 
-Model built in  0:00:11.142959 seconds
-
+Model built in  0:00:11.418899 seconds
 All topics in the model
 (0, '0.039*"conformity" + 0.038*"safety" + 0.030*"body" + 0.026*"assessment" + 0.025*"market" + 0.023*"notify" + 0.019*"appliance" + 0.018*"subsystem" + 0.015*"requirement" + 0.015*"component"')
 (1, '0.045*"system" + 0.040*"power" + 0.037*"relevant" + 0.022*"connect" + 0.021*"operator" + 0.019*"module" + 0.017*"demand" + 0.017*"facility" + 0.016*"owner" + 0.015*"requirement"')
@@ -34,6 +33,258 @@ All topics in the model
 (17, '0.022*"border" + 0.017*"national" + 0.015*"accordance" + 0.014*"return" + 0.010*"country" + 0.009*"management" + 0.009*"include" + 0.009*"information" + 0.008*"operation" + 0.008*"refer"')
 (18, '0.029*"regulation" + 0.027*"good" + 0.027*"custom" + 0.020*"have" + 0.019*"regard" + 0.016*"amend" + 0.015*"product" + 0.014*"apply" + 0.014*"replace" + 0.013*"article"')
 (19, '0.021*"authority" + 0.012*"competent" + 0.012*"law" + 0.012*"public" + 0.011*"service" + 0.011*"regulation" + 0.011*"benchmark" + 0.010*"article" + 0.010*"provide" + 0.010*"paragraph"')
+
+Predicting ALL files:
+File reg_2016_679_akn_nr119seq0001.xml predicted with highest score 0.7613126635551453 - Topic 4
+File reg_2016_nr-003_seq-0001_akn.xml predicted with highest score 0.44851458072662354 - Topic 18
+File reg_2016_nr-003_seq-0002_akn.xml predicted with highest score 0.4795997440814972 - Topic 18
+File reg_2016_nr-009_seq-0001_akn.xml predicted with highest score 0.8015834093093872 - Topic 14
+File reg_2016_nr-009_seq-0002_akn.xml predicted with highest score 0.26136669516563416 - Topic 5
+File reg_2016_nr-010_seq-0001_akn.xml predicted with highest score 0.6768631935119629 - Topic 15
+File reg_2016_nr-012_seq-0001_akn.xml predicted with highest score 0.9265695810317993 - Topic 15
+File reg_2016_nr-012_seq-0003_akn.xml predicted with highest score 0.8493351340293884 - Topic 10
+File reg_2016_nr-013_seq-0002_akn.xml predicted with highest score 0.3879529535770416 - Topic 11
+File reg_2016_nr-013_seq-0003_akn.xml predicted with highest score 0.9986034631729126 - Topic 10
+File reg_2016_nr-013_seq-0004_akn.xml predicted with highest score 0.987619936466217 - Topic 14
+File reg_2016_nr-013_seq-0005_akn.xml predicted with highest score 0.9962432384490967 - Topic 14
+File reg_2016_nr-013_seq-0006_akn.xml predicted with highest score 0.8886024951934814 - Topic 14
+File reg_2016_nr-014_seq-0001_akn.xml predicted with highest score 0.9560600519180298 - Topic 10
+File reg_2016_nr-015_seq-0002_akn.xml predicted with highest score 0.9984484910964966 - Topic 10
+File reg_2016_nr-016_seq-0001_akn.xml predicted with highest score 0.9205637574195862 - Topic 13
+File reg_2016_nr-016_seq-0003_akn.xml predicted with highest score 0.7751157283782959 - Topic 10
+File reg_2016_nr-020_seq-0001_akn.xml predicted with highest score 0.999276876449585 - Topic 10
+File reg_2016_nr-021_seq-0007_akn.xml predicted with highest score 0.17851793766021729 - Topic 19
+File reg_2016_nr-022_seq-0001_akn.xml predicted with highest score 0.7882859706878662 - Topic 13
+File reg_2016_nr-023_seq-0003_akn.xml predicted with highest score 0.9910391569137573 - Topic 16
+File reg_2016_nr-023_seq-0004_akn.xml predicted with highest score 0.297056645154953 - Topic 3
+File reg_2016_nr-025_seq-0004_akn.xml predicted with highest score 0.3313658535480499 - Topic 3
+File reg_2016_nr-026_seq-0001_akn.xml predicted with highest score 0.7191139459609985 - Topic 17
+File reg_2016_nr-026_seq-0002_akn.xml predicted with highest score 0.6546334028244019 - Topic 17
+File reg_2016_nr-026_seq-0003_akn.xml predicted with highest score 0.3985026478767395 - Topic 17
+File reg_2016_nr-026_seq-0004_akn.xml predicted with highest score 0.41332560777664185 - Topic 13
+File reg_2016_nr-028_seq-0004_akn.xml predicted with highest score 0.8089065551757812 - Topic 10
+File reg_2016_nr-031_seq-0001_akn.xml predicted with highest score 0.9988957047462463 - Topic 10
+File reg_2016_nr-035_seq-0002_akn.xml predicted with highest score 0.9468298554420471 - Topic 14
+File reg_2016_nr-040_seq-0001_akn.xml predicted with highest score 0.582064688205719 - Topic 15
+File reg_2016_nr-040_seq-0004_akn.xml predicted with highest score 0.5006492733955383 - Topic 14
+File reg_2016_nr-044_seq-0004_akn.xml predicted with highest score 0.46931055188179016 - Topic 14
+File reg_2016_nr-045_seq-0001_akn.xml predicted with highest score 0.496547132730484 - Topic 14
+File reg_2016_nr-045_seq-0002_akn.xml predicted with highest score 0.5278307795524597 - Topic 10
+File reg_2016_nr-050_seq-0003_akn.xml predicted with highest score 0.8234509229660034 - Topic 14
+File reg_2016_nr-051_seq-0001_akn.xml predicted with highest score 0.9930303692817688 - Topic 18
+File reg_2016_nr-052_seq-0011_akn.xml predicted with highest score 0.6244844794273376 - Topic 15
+File reg_2016_nr-055_seq-0003_akn.xml predicted with highest score 0.5557544231414795 - Topic 14
+File reg_2016_nr-056_seq-0001_akn.xml predicted with highest score 0.37490519881248474 - Topic 18
+File reg_2016_nr-058_seq-0001_akn.xml predicted with highest score 0.6866452693939209 - Topic 6
+File reg_2016_nr-060_seq-0004_akn.xml predicted with highest score 0.3972318470478058 - Topic 14
+File reg_2016_nr-061_seq-0001_akn.xml predicted with highest score 0.98239666223526 - Topic 14
+File reg_2016_nr-067_seq-0003_akn.xml predicted with highest score 0.38490724563598633 - Topic 14
+File reg_2016_nr-068_seq-0001_akn.xml predicted with highest score 0.7475520372390747 - Topic 15
+File reg_2016_nr-070_seq-0001_akn.xml predicted with highest score 0.3219243884086609 - Topic 17
+File reg_2016_nr-070_seq-0003_akn.xml predicted with highest score 0.7153339982032776 - Topic 12
+File reg_2016_nr-070_seq-0004_akn.xml predicted with highest score 0.99467933177948 - Topic 12
+File reg_2016_nr-074_seq-0003_akn.xml predicted with highest score 0.6482352614402771 - Topic 19
+File reg_2016_nr-077_seq-0001_akn.xml predicted with highest score 0.7166444659233093 - Topic 17
+File reg_2016_nr-077_seq-0002_akn.xml predicted with highest score 0.5132225155830383 - Topic 16
+File reg_2016_nr-077_seq-0003_akn.xml predicted with highest score 0.2373918741941452 - Topic 18
+File reg_2016_nr-078_seq-0005_akn.xml predicted with highest score 0.7924579977989197 - Topic 10
+File reg_2016_nr-078_seq-0006_akn.xml predicted with highest score 0.9958432912826538 - Topic 10
+File reg_2016_nr-078_seq-0007_akn.xml predicted with highest score 0.8930100202560425 - Topic 14
+File reg_2016_nr-078_seq-0011_akn.xml predicted with highest score 0.29313644766807556 - Topic 14
+File reg_2016_nr-079_seq-0003_akn.xml predicted with highest score 0.9985315203666687 - Topic 10
+File reg_2016_nr-080_seq-0001_akn.xml predicted with highest score 0.7345137000083923 - Topic 13
+File reg_2016_nr-080_seq-0003_akn.xml predicted with highest score 0.6419769525527954 - Topic 14
+File reg_2016_nr-080_seq-0004_akn.xml predicted with highest score 0.7464814186096191 - Topic 14
+File reg_2016_nr-081_seq-0001_akn.xml predicted with highest score 0.7334656715393066 - Topic 0
+File reg_2016_nr-081_seq-0002_akn.xml predicted with highest score 0.6279606223106384 - Topic 0
+File reg_2016_nr-081_seq-0003_akn.xml predicted with highest score 0.665172278881073 - Topic 0
+File reg_2016_nr-082_seq-0001_akn.xml predicted with highest score 0.6785928010940552 - Topic 9
+File reg_2016_nr-084_seq-0001_akn.xml predicted with highest score 0.7315279245376587 - Topic 5
+File reg_2016_nr-085_seq-0001_akn.xml predicted with highest score 0.996940016746521 - Topic 15
+File reg_2016_nr-085_seq-0004_akn.xml predicted with highest score 0.9589232802391052 - Topic 13
+File reg_2016_nr-085_seq-0005_akn.xml predicted with highest score 0.9727805256843567 - Topic 13
+File reg_2016_nr-085_seq-0006_akn.xml predicted with highest score 0.9825209975242615 - Topic 13
+File reg_2016_nr-085_seq-0007_akn.xml predicted with highest score 0.9733855128288269 - Topic 13
+File reg_2016_nr-087_seq-0001_akn.xml predicted with highest score 0.920480489730835 - Topic 14
+File reg_2016_nr-088_seq-0006_akn.xml predicted with highest score 0.7079411149024963 - Topic 14
+File reg_2016_nr-090_seq-0001_akn.xml predicted with highest score 0.9985706210136414 - Topic 10
+File reg_2016_nr-091_seq-0001_akn.xml predicted with highest score 0.25275135040283203 - Topic 14
+File reg_2016_nr-096_seq-0001_akn.xml predicted with highest score 0.7968471050262451 - Topic 15
+File reg_2016_nr-100_seq-0001_akn.xml predicted with highest score 0.8184131979942322 - Topic 10
+File reg_2016_nr-101_seq-0002_akn.xml predicted with highest score 0.4561787247657776 - Topic 14
+File reg_2016_nr-101_seq-0003_akn.xml predicted with highest score 0.7136239409446716 - Topic 18
+File reg_2016_nr-102_seq-0001_akn.xml predicted with highest score 0.3834957182407379 - Topic 18
+File reg_2016_nr-103_seq-0002_akn.xml predicted with highest score 0.997347354888916 - Topic 6
+File reg_2016_nr-106_seq-0002_akn.xml predicted with highest score 0.799514889717102 - Topic 11
+File reg_2016_nr-106_seq-0003_akn.xml predicted with highest score 0.3893755078315735 - Topic 12
+File reg_2016_nr-107_seq-0001_akn.xml predicted with highest score 0.7318825721740723 - Topic 17
+File reg_2016_nr-108_seq-0003_akn.xml predicted with highest score 0.9564267992973328 - Topic 14
+File reg_2016_nr-109_seq-0001_akn.xml predicted with highest score 0.5986819863319397 - Topic 9
+File reg_2016_nr-112_seq-0001_akn.xml predicted with highest score 0.9470981359481812 - Topic 1
+File reg_2016_nr-117_seq-0001_akn.xml predicted with highest score 0.9554800987243652 - Topic 15
+File reg_2016_nr-117_seq-0002_akn.xml predicted with highest score 0.9958105683326721 - Topic 14
+File reg_2016_nr-120_seq-0002_akn.xml predicted with highest score 0.9953261613845825 - Topic 14
+File reg_2016_nr-120_seq-0003_akn.xml predicted with highest score 0.9949904084205627 - Topic 14
+File reg_2016_nr-127_seq-0002_akn.xml predicted with highest score 0.9155537486076355 - Topic 13
+File reg_2016_nr-131_seq-0004_akn.xml predicted with highest score 0.6203579306602478 - Topic 13
+File reg_2016_nr-132_seq-0006_akn.xml predicted with highest score 0.8825505971908569 - Topic 3
+File reg_2016_nr-132_seq-0007_akn.xml predicted with highest score 0.9021422863006592 - Topic 10
+File reg_2016_nr-135_seq-0001_akn.xml predicted with highest score 0.39691030979156494 - Topic 6
+File reg_2016_nr-135_seq-0002_akn.xml predicted with highest score 0.8119279742240906 - Topic 3
+File reg_2016_nr-135_seq-0003_akn.xml predicted with highest score 0.2256653606891632 - Topic 16
+File reg_2016_nr-135_seq-0004_akn.xml predicted with highest score 0.4227105379104614 - Topic 17
+File reg_2016_nr-135_seq-0005_akn.xml predicted with highest score 0.637812077999115 - Topic 6
+File reg_2016_nr-138_seq-0001_akn.xml predicted with highest score 0.41905081272125244 - Topic 19
+File reg_2016_nr-141_seq-0009_akn.xml predicted with highest score 0.9217982292175293 - Topic 15
+File reg_2016_nr-144_seq-0006_akn.xml predicted with highest score 0.48386242985725403 - Topic 14
+File reg_2016_nr-144_seq-0010_akn.xml predicted with highest score 0.39405161142349243 - Topic 3
+File reg_2016_nr-149_seq-0001_akn.xml predicted with highest score 0.737701952457428 - Topic 3
+File reg_2016_nr-151_seq-0001_akn.xml predicted with highest score 0.801047146320343 - Topic 13
+File reg_2016_nr-153_seq-0001_akn.xml predicted with highest score 0.7105433940887451 - Topic 15
+File reg_2016_nr-153_seq-0006_akn.xml predicted with highest score 0.7007154822349548 - Topic 14
+File reg_2016_nr-156_seq-0001_akn.xml predicted with highest score 0.913395881652832 - Topic 14
+File reg_2016_nr-158_seq-0001_akn.xml predicted with highest score 0.3894863426685333 - Topic 19
+File reg_2016_nr-162_seq-0001_akn.xml predicted with highest score 0.5278953313827515 - Topic 15
+File reg_2016_nr-165_seq-0001_akn.xml predicted with highest score 0.4692746102809906 - Topic 9
+File reg_2016_nr-165_seq-0002_akn.xml predicted with highest score 0.5590401887893677 - Topic 14
+File reg_2016_nr-166_seq-0001_akn.xml predicted with highest score 0.6547693610191345 - Topic 14
+File reg_2016_nr-167_seq-0001_akn.xml predicted with highest score 0.9983083009719849 - Topic 10
+File reg_2016_nr-167_seq-0002_akn.xml predicted with highest score 0.9984121918678284 - Topic 10
+File reg_2016_nr-170_seq-0001_akn.xml predicted with highest score 0.9972389936447144 - Topic 6
+File reg_2016_nr-171_seq-0001_akn.xml predicted with highest score 0.7983047366142273 - Topic 19
+File reg_2016_nr-171_seq-0002_akn.xml predicted with highest score 0.7055528163909912 - Topic 8
+File reg_2016_nr-171_seq-0003_akn.xml predicted with highest score 0.8122394680976868 - Topic 3
+File reg_2016_nr-171_seq-0004_akn.xml predicted with highest score 0.4854844808578491 - Topic 14
+File reg_2016_nr-172_seq-0001_akn.xml predicted with highest score 0.9990043044090271 - Topic 10
+File reg_2016_nr-172_seq-0002_akn.xml predicted with highest score 0.9984430074691772 - Topic 10
+File reg_2016_nr-173_seq-0001_akn.xml predicted with highest score 0.9124489426612854 - Topic 18
+File reg_2016_nr-173_seq-0002_akn.xml predicted with highest score 0.8094121813774109 - Topic 18
+File reg_2016_nr-175_seq-0001_akn.xml predicted with highest score 0.43199029564857483 - Topic 3
+File reg_2016_nr-176_seq-0001_akn.xml predicted with highest score 0.7567253708839417 - Topic 16
+File reg_2016_nr-176_seq-0002_akn.xml predicted with highest score 0.8476884961128235 - Topic 16
+File reg_2016_nr-176_seq-0003_akn.xml predicted with highest score 0.792145848274231 - Topic 16
+File reg_2016_nr-178_seq-0001_akn.xml predicted with highest score 0.4968601167201996 - Topic 14
+File reg_2016_nr-183_seq-0001_akn.xml predicted with highest score 0.9996067881584167 - Topic 19
+File reg_2016_nr-183_seq-0002_akn.xml predicted with highest score 0.9996445775032043 - Topic 19
+File reg_2016_nr-185_seq-0001_akn.xml predicted with highest score 0.274006724357605 - Topic 16
+File reg_2016_nr-187_seq-0001_akn.xml predicted with highest score 0.49919232726097107 - Topic 11
+File reg_2016_nr-187_seq-0002_akn.xml predicted with highest score 0.682819128036499 - Topic 14
+File reg_2016_nr-188_seq-0002_akn.xml predicted with highest score 0.9729217290878296 - Topic 13
+File reg_2016_nr-188_seq-0003_akn.xml predicted with highest score 0.983091413974762 - Topic 13
+File reg_2016_nr-188_seq-0004_akn.xml predicted with highest score 0.9830914735794067 - Topic 13
+File reg_2016_nr-188_seq-0005_akn.xml predicted with highest score 0.9827651381492615 - Topic 13
+File reg_2016_nr-188_seq-0006_akn.xml predicted with highest score 0.9827660322189331 - Topic 13
+File reg_2016_nr-188_seq-0007_akn.xml predicted with highest score 0.9829291105270386 - Topic 13
+File reg_2016_nr-188_seq-0008_akn.xml predicted with highest score 0.9829290509223938 - Topic 13
+File reg_2016_nr-189_seq-0004_akn.xml predicted with highest score 0.6864656805992126 - Topic 11
+File reg_2016_nr-190_seq-0003_akn.xml predicted with highest score 0.9726473093032837 - Topic 13
+File reg_2016_nr-190_seq-0004_akn.xml predicted with highest score 0.9726470112800598 - Topic 13
+File reg_2016_nr-191_seq-0001_akn.xml predicted with highest score 0.5879178047180176 - Topic 13
+File reg_2016_nr-192_seq-0002_akn.xml predicted with highest score 0.5236610174179077 - Topic 14
+File reg_2016_nr-193_seq-0002_akn.xml predicted with highest score 0.8373064994812012 - Topic 15
+File reg_2016_nr-195_seq-0003_akn.xml predicted with highest score 0.7214012145996094 - Topic 14
+File reg_2016_nr-196_seq-0001_akn.xml predicted with highest score 0.6782788038253784 - Topic 18
+File reg_2016_nr-198_seq-0003_akn.xml predicted with highest score 0.679486870765686 - Topic 14
+File reg_2016_nr-198_seq-0004_akn.xml predicted with highest score 0.4615024924278259 - Topic 18
+File reg_2016_nr-200_seq-0001_akn.xml predicted with highest score 0.983925461769104 - Topic 19
+File reg_2016_nr-200_seq-0002_akn.xml predicted with highest score 0.691129744052887 - Topic 19
+File reg_2016_nr-204_seq-0004_akn.xml predicted with highest score 0.9209449291229248 - Topic 14
+File reg_2016_nr-205_seq-0002_akn.xml predicted with highest score 0.7472324967384338 - Topic 13
+File reg_2016_nr-212_seq-0001_akn.xml predicted with highest score 0.6120083928108215 - Topic 15
+File reg_2016_nr-215_seq-0002_akn.xml predicted with highest score 0.891801118850708 - Topic 10
+File reg_2016_nr-222_seq-0001_akn.xml predicted with highest score 0.8619109988212585 - Topic 12
+File reg_2016_nr-222_seq-0003_akn.xml predicted with highest score 0.7809014916419983 - Topic 12
+File reg_2016_nr-222_seq-0006_akn.xml predicted with highest score 0.47452589869499207 - Topic 15
+File reg_2016_nr-223_seq-0002_akn.xml predicted with highest score 0.968928337097168 - Topic 1
+File reg_2016_nr-223_seq-0003_akn.xml predicted with highest score 0.6012789011001587 - Topic 12
+File reg_2016_nr-223_seq-0004_akn.xml predicted with highest score 0.7840335965156555 - Topic 12
+File reg_2016_nr-225_seq-0006_akn.xml predicted with highest score 0.4419908821582794 - Topic 8
+File reg_2016_nr-230_seq-0001_akn.xml predicted with highest score 0.7740964889526367 - Topic 12
+File reg_2016_nr-230_seq-0002_akn.xml predicted with highest score 0.885478675365448 - Topic 12
+File reg_2016_nr-230_seq-0003_akn.xml predicted with highest score 0.6783434152603149 - Topic 14
+File reg_2016_nr-230_seq-0006_akn.xml predicted with highest score 0.8316012024879456 - Topic 14
+File reg_2016_nr-241_seq-0001_akn.xml predicted with highest score 0.9934401512145996 - Topic 1
+File reg_2016_nr-242_seq-0008_akn.xml predicted with highest score 0.6382241249084473 - Topic 14
+File reg_2016_nr-244_seq-0002_akn.xml predicted with highest score 0.9829292297363281 - Topic 13
+File reg_2016_nr-244_seq-0003_akn.xml predicted with highest score 0.9827653765678406 - Topic 13
+File reg_2016_nr-247_seq-0002_akn.xml predicted with highest score 0.971808910369873 - Topic 13
+File reg_2016_nr-247_seq-0003_akn.xml predicted with highest score 0.9830899834632874 - Topic 13
+File reg_2016_nr-247_seq-0004_akn.xml predicted with highest score 0.9826911687850952 - Topic 13
+File reg_2016_nr-249_seq-0003_akn.xml predicted with highest score 0.9695830345153809 - Topic 13
+File reg_2016_nr-249_seq-0004_akn.xml predicted with highest score 0.9829279184341431 - Topic 13
+File reg_2016_nr-249_seq-0005_akn.xml predicted with highest score 0.9830898642539978 - Topic 13
+File reg_2016_nr-249_seq-0006_akn.xml predicted with highest score 0.9829295873641968 - Topic 13
+File reg_2016_nr-251_seq-0001_akn.xml predicted with highest score 0.9067594408988953 - Topic 17
+File reg_2016_nr-251_seq-0002_akn.xml predicted with highest score 0.6485451459884644 - Topic 17
+File reg_2016_nr-251_seq-0003_akn.xml predicted with highest score 0.6814408302307129 - Topic 17
+File reg_2016_nr-252_seq-0001_akn.xml predicted with highest score 0.7152268886566162 - Topic 13
+File reg_2016_nr-252_seq-0002_akn.xml predicted with highest score 0.7159508466720581 - Topic 9
+File reg_2016_nr-254_seq-0003_akn.xml predicted with highest score 0.9510855078697205 - Topic 13
+File reg_2016_nr-254_seq-0004_akn.xml predicted with highest score 0.951084554195404 - Topic 13
+File reg_2016_nr-254_seq-0005_akn.xml predicted with highest score 0.9829295873641968 - Topic 13
+File reg_2016_nr-254_seq-0006_akn.xml predicted with highest score 0.972079873085022 - Topic 13
+File reg_2016_nr-254_seq-0007_akn.xml predicted with highest score 0.9510848522186279 - Topic 13
+File reg_2016_nr-254_seq-0008_akn.xml predicted with highest score 0.9404091238975525 - Topic 13
+File reg_2016_nr-255_seq-0001_akn.xml predicted with highest score 0.8405299186706543 - Topic 15
+File reg_2016_nr-255_seq-0003_akn.xml predicted with highest score 0.5186777114868164 - Topic 14
+File reg_2016_nr-257_seq-0001_akn.xml predicted with highest score 0.963350236415863 - Topic 14
+File reg_2016_nr-257_seq-0003_akn.xml predicted with highest score 0.40213170647621155 - Topic 15
+File reg_2016_nr-259_seq-0001_akn.xml predicted with highest score 0.6423810720443726 - Topic 15
+File reg_2016_nr-259_seq-0002_akn.xml predicted with highest score 0.7669563293457031 - Topic 3
+File reg_2016_nr-261_seq-0001_akn.xml predicted with highest score 0.9830900430679321 - Topic 13
+File reg_2016_nr-261_seq-0002_akn.xml predicted with highest score 0.7017905116081238 - Topic 10
+File reg_2016_nr-266_seq-0001_akn.xml predicted with highest score 0.7994919419288635 - Topic 3
+File reg_2016_nr-268_seq-0006_akn.xml predicted with highest score 0.6591312289237976 - Topic 18
+File reg_2016_nr-272_seq-0002_akn.xml predicted with highest score 0.8321585655212402 - Topic 14
+File reg_2016_nr-273_seq-0004_akn.xml predicted with highest score 0.9983901381492615 - Topic 10
+File reg_2016_nr-278_seq-0002_akn.xml predicted with highest score 0.953420102596283 - Topic 14
+File reg_2016_nr-281_seq-0001_akn.xml predicted with highest score 0.9990766048431396 - Topic 10
+File reg_2016_nr-286_seq-0003_akn.xml predicted with highest score 0.9401928186416626 - Topic 10
+File reg_2016_nr-290_seq-0001_akn.xml predicted with highest score 0.32845935225486755 - Topic 14
+File reg_2016_nr-295_seq-0001_akn.xml predicted with highest score 0.7970110177993774 - Topic 13
+File reg_2016_nr-295_seq-0003_akn.xml predicted with highest score 0.8627419471740723 - Topic 14
+File reg_2016_nr-296_seq-0001_akn.xml predicted with highest score 0.9817511439323425 - Topic 13
+File reg_2016_nr-296_seq-0002_akn.xml predicted with highest score 0.9816099405288696 - Topic 13
+File reg_2016_nr-298_seq-0001_akn.xml predicted with highest score 0.9922934770584106 - Topic 10
+File reg_2016_nr-305_seq-0001_akn.xml predicted with highest score 0.9961316585540771 - Topic 16
+File reg_2016_nr-311_seq-0001_akn.xml predicted with highest score 0.993110716342926 - Topic 3
+File reg_2016_nr-311_seq-0002_akn.xml predicted with highest score 0.7650580406188965 - Topic 17
+File reg_2016_nr-311_seq-0003_akn.xml predicted with highest score 0.8940829634666443 - Topic 3
+File reg_2016_nr-312_seq-0001_akn.xml predicted with highest score 0.46209996938705444 - Topic 3
+File reg_2016_nr-316_seq-0001_akn.xml predicted with highest score 0.42651891708374023 - Topic 8
+File reg_2016_nr-317_seq-0001_akn.xml predicted with highest score 0.637995719909668 - Topic 17
+File reg_2016_nr-317_seq-0002_akn.xml predicted with highest score 0.978326678276062 - Topic 8
+File reg_2016_nr-317_seq-0003_akn.xml predicted with highest score 0.834434449672699 - Topic 3
+File reg_2016_nr-322_seq-0001_akn.xml predicted with highest score 0.5203266739845276 - Topic 3
+File reg_2016_nr-323_seq-0001_akn.xml predicted with highest score 0.8008275628089905 - Topic 14
+File reg_2016_nr-326_seq-0002_akn.xml predicted with highest score 0.42871978878974915 - Topic 18
+File reg_2016_nr-327_seq-0004_akn.xml predicted with highest score 0.99314284324646 - Topic 18
+File reg_2016_nr-329_seq-0007_akn.xml predicted with highest score 0.3043409287929535 - Topic 18
+File reg_2016_nr-330_seq-0001_akn.xml predicted with highest score 0.562554121017456 - Topic 13
+File reg_2016_nr-332_seq-0002_akn.xml predicted with highest score 0.9684760570526123 - Topic 15
+File reg_2016_nr-332_seq-0003_akn.xml predicted with highest score 0.9829286932945251 - Topic 13
+File reg_2016_nr-332_seq-0004_akn.xml predicted with highest score 0.9851090312004089 - Topic 13
+File reg_2016_nr-332_seq-0005_akn.xml predicted with highest score 0.992939829826355 - Topic 13
+File reg_2016_nr-333_seq-0001_akn.xml predicted with highest score 0.7474820613861084 - Topic 6
+File reg_2016_nr-334_seq-0001_akn.xml predicted with highest score 0.9589223265647888 - Topic 13
+File reg_2016_nr-336_seq-0001_akn.xml predicted with highest score 0.99117511510849 - Topic 15
+File reg_2016_nr-337_seq-0002_akn.xml predicted with highest score 0.5051380395889282 - Topic 14
+File reg_2016_nr-338_seq-0001_akn.xml predicted with highest score 0.6855982542037964 - Topic 15
+File reg_2016_nr-338_seq-0002_akn.xml predicted with highest score 0.5892872214317322 - Topic 3
+File reg_2016_nr-344_seq-0002_akn.xml predicted with highest score 0.8225200176239014 - Topic 13
+File reg_2016_nr-346_seq-0001_akn.xml predicted with highest score 0.4148416817188263 - Topic 14
+File reg_2016_nr-346_seq-0002_akn.xml predicted with highest score 0.4767554998397827 - Topic 14
+File reg_2016_nr-348_seq-0003_akn.xml predicted with highest score 0.982928991317749 - Topic 13
+File reg_2016_nr-348_seq-0004_akn.xml predicted with highest score 0.9830906987190247 - Topic 13
+File reg_2016_nr-350_seq-0003_akn.xml predicted with highest score 0.981978178024292 - Topic 13
+File reg_2016_nr-352_seq-0003_akn.xml predicted with highest score 0.862539529800415 - Topic 13
+File reg_2016_nr-354_seq-0001_akn.xml predicted with highest score 0.6108013987541199 - Topic 13
+File reg_2016_nr-354_seq-0002_akn.xml predicted with highest score 0.5226063132286072 - Topic 19
+File reg_2016_nr-354_seq-0003_akn.xml predicted with highest score 0.919577956199646 - Topic 19
+File reg_2016_nr-354_seq-0004_akn.xml predicted with highest score 0.9183304309844971 - Topic 18
+File reg_2016_nr-354_seq-0005_akn.xml predicted with highest score 0.4636496603488922 - Topic 14
+File reg_2016_nr-360_seq-0001_akn.xml predicted with highest score 0.9447616338729858 - Topic 18
+File reg_2016_nr-360_seq-0002_akn.xml predicted with highest score 0.8334662318229675 - Topic 18
 
 Topic distribution over the documents
 Topic 0 is found in 3 documents
@@ -61,4 +312,5 @@ unseen phrase:  In order to ensure a consistent level of protection for natural 
 Predicted Topic 4 - 0.072*"datum" + 0.034*"personal" + 0.028*"processing" + 0.026*"subject" + 0.024*"authority" + 0.021*"supervisory" + 0.020*"controller" + 0.014*"protection" + 0.013*"right" + 0.013*"purpose"
 List of documents containing Topic 4 - ['reg_2016_679_akn_nr119seq0001.xml']
 
-Process finished with exit code 0
+
+Application executed in : 0:03:18.929688 seconds

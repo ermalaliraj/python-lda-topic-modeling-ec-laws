@@ -61,7 +61,7 @@ The project is split in the following files:
     - OUTPUT: serializes in filesystem:
         - `bow_corpus`, Bag of Words for all documents.
         - `lda_model`, the model.
-    - EXAMPLES: different models and the related bow_corpus for regulations of 2016, 2017, 2018, 2019 2020 and ALL are created in the folder `./model`. 
+    - EXAMPLES: different models and the  related bow_corpus for regulations of 2016, 2017, 2018, 2019 2020 and ALL are created in the folder `./model`. 
 
 ##### Topics distribution visualisation
 `3.visualize.py`

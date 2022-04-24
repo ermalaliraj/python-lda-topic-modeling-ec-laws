@@ -31,10 +31,10 @@ def deserializeFile(file_name):
     return file_content
 
 
-def getBowForPhrase(lda_model, unseen_document):
-    unseen_document = unseen_document.split()
+def getBowForPhrase(lda_model, unseen_phrase):
+    unseen_phrase = unseen_phrase.split()
     id2word = lda_model.id2word
-    unseen_bow = id2word.doc2bow(unseen_document)
+    unseen_bow = id2word.doc2bow(unseen_phrase)
     return unseen_bow
 
 
@@ -57,7 +57,7 @@ for bow_doc in bow_corpus:
 print("documents_topics: \n", documents_topics)
 
 
-unseen_document = 'In order to ensure a consistent level of protection for natural persons throughout the Union and to prevent divergences hampering the free movement ' \
+unseen_phrase = 'In order to ensure a consistent level of protection for natural persons throughout the Union and to prevent divergences hampering the free movement ' \
                   'of personal data within the internal market, a Regulation is necessary to provide legal certainty and transparency for economic operators, including micro, ' \
                   'small and medium-sized enterprises, and to provide natural persons in all Member States with the same level of legally enforceable rights and obligations and ' \
                   'responsibilities for controllers and processors, to ensure consistent monitoring of the processing of personal data, and equivalent sanctions in all Member States ' \
@@ -68,16 +68,16 @@ unseen_document = 'In order to ensure a consistent level of protection for natur
                   'authorities, are encouraged to take account of the specific needs of micro, small and medium-sized enterprises in the application of this Regulation. ' \
                   'The notion of micro, small and medium-sized enterprises should draw from Article 2 of the Annex to Commission Recommendation 2003/361/EC '
 
-unseen_bow = getBowForPhrase(lda_model, unseen_document)
-unseen_document_topics = lda_model.get_document_topics(unseen_bow)
-print("unseen_document_topics:", unseen_document_topics)
+unseen_bow = getBowForPhrase(lda_model, unseen_phrase)
+unseen_phrase_topics = lda_model.get_document_topics(unseen_bow)
+print("unseen_phrase_topics:", unseen_phrase_topics)
 
-unseen_documents_topics = np.zeros((1, 20))
-for doc_topics in unseen_document_topics:
-    unseen_documents_topics[0][doc_topics[0]] = doc_topics[1]
-print("unseen_documents_topics:", unseen_documents_topics)
+unseen_phrases_topics = np.zeros((1, 20))
+for doc_topics in unseen_phrase_topics:
+    unseen_phrases_topics[0][doc_topics[0]] = doc_topics[1]
+print("unseen_phrases_topics:", unseen_phrases_topics)
 
-a = np.linalg.norm(unseen_documents_topics)
+a = np.linalg.norm(unseen_phrases_topics)
 print("\na:", a)
 
 
@@ -85,10 +85,10 @@ res = []
 countDoc = 0;
 for doc_topics in documents_topics:
     # print("document:", count, "-", document_topics)
-    euclidean_distance = np.linalg.norm(doc_topics - unseen_documents_topics)
+    euclidean_distance = np.linalg.norm(doc_topics - unseen_phrases_topics)
     print("\nDocument", countDoc, ", doc_topics:", doc_topics)
     print("euclidean_distance:", euclidean_distance)
-    # a = np.linalg.norm(unseen_documents_topics)
+    # a = np.linalg.norm(unseen_phrases_topics)
     res.append(["doc" + str(countDoc), a])
     countDoc = countDoc +1
 
