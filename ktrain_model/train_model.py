@@ -47,6 +47,12 @@ def lemmatization(text):
     return cleaned_text
 
 
+def save_content_to_file(content, filePath, name=""):
+    file = open(filePath, "wb")
+    pickle.dump(content, file)
+    print(name, "SAVED in ", filePath)
+
+
 # load all documents in the np array as a couple [fileName, content]
 start = timer()
 documents = []
@@ -68,13 +74,7 @@ endBuildModel = timer()
 print("\nKtrain Model built in ", timedelta(seconds=endBuildModel - endLoad), "seconds")
 
 model.print_topics(show_counts=True)
-
-# Saving Model
-file = open(fileModel, "wb")
-pickle.dump(model, file)
-print("Model saved in: ", fileModel)
-
-print("Saving Metadata...(would be required for prediction)")
+topics = model.get_topics()
 topic_to_document = defaultdict(list)
 for doc in documents:
     pred = model.predict([doc[1]])[0]
@@ -84,18 +84,14 @@ for doc in documents:
             topic_to_document[i].append(doc[0])
             found = True
 
-    if not found:
-        print("No Topic found for document ", doc[0], "(similarity threshold 0.25)")
+    # if not found:
+    #     print("No Topic found for document ", doc[0], "(similarity threshold 0.25)")
 
-print(len(documents), "documents are spread as follow:")
+print(len(documents), "\ndocuments are spread as follow:")
 for topic_doc in range(len(topic_to_document)):
     print("Topic", topic_doc, "is found in", len(topic_to_document[topic_doc]), "documents")
 
-topics = model.get_topics()
-file = open(fileTopics, "wb")
-pickle.dump(topics, file)
-print("TOPICS saved in: ", fileTopics)
-
-file = open(fileTopicsToDocs, "wb")
-pickle.dump(topic_to_document, file)
-print("MAPPER Topics-Documents saved in: ", fileTopicsToDocs)
+# Saving Model
+save_content_to_file(model, fileModel, "MODEL")
+save_content_to_file(topics, fileTopics, "TOPICS")
+save_content_to_file(topic_to_document, fileTopicsToDocs, "MAPPER TOPIC-DOCUMENTS")
