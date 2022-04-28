@@ -1,5 +1,5 @@
 """
-Build LDA model with the array build in 'serialize_documents_array.py'
+Build LDA model with the array build in 'create_documents_array.py'
 
 Serialize:
 - LDA Model

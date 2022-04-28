@@ -1,9 +1,9 @@
->>> 1. serialize_documents_array.py
+>>> 1. create_documents_array.py
 Total number of documents: 229 loaded in 0:02:58.176477 seconds. (lemmatized)
 fileDocumentsArr saved in:  ./model/EU_REG_year-2016_documentsArr.pkl
 
 
->>>> 2. serialize_model.py
+>>>> 2. create_lda_model.py
 Loading  ./model/EU_REG_year-2016_documentsArr.pkl
 250 documents loaded in 0:00:00.201925 seconds. Each document is a list of words inside the list 'documents_words'
 Dictionary 'id2word' built with 'documents_words'.  Size  7446
@@ -23,7 +23,7 @@ Model built in  0:00:19.779419 seconds
 Model saved in:  ./model/EU_REG_year-2016_model.pkl
 
 
->>>>3. serialize_model.py
+>>>>3. create_lda_model.py
 Loading  ./model/EU_REG_year-2016_nrtopics20_model.pkl
 Loading  ./model/EU_REG_year-2016_nrtopics20_bowcampus.pkl
 Loaded Regulations model and corpus data.
